@@ -1,14 +1,16 @@
-Rim World Türkçe Çevirisi
+# Rim World Türkçe Çevirisi
 A Turkish language translation for RimWorld.
 
-**Important**
-* Guys dont make without uppercase translates (Ex: **gun fire** instead do this: **Gun Fire**) 
+
+
 
 # Translators - Çevirmenler
 @sinanisler
-@Ferhatyesil
+@gokimaxTR
 @berkaybaltaci
+@Ferhatyesil
 @Nespraved
+
 
 
 # Translation Progress - Çeviri Durum
@@ -25,8 +27,23 @@ Update here when you make translation.
  * DialogTrees.xml **%50**
  * DialogsVarious.xml **%50**
  * Enums.xml **DONE**
-
-
+ * FloatMenu.xml **%50**
+ * Gameplay.xml **DONE**
+ * GameplayCommands.xml **%50**
+ * Incidents.xml **%1**
+ * Letters.xml **DONE**
+ * Menu_Options.xml **DONE**
+ * Menus_Main.xml  **DONE**
+ * Menus_Overview.xml **DONE**
+ * Messages.xml **%1**
+ * Misc.xml **DONE**
+ * PlayInterface.xml **DONE**
+ * Pronouns.xml **DONE**
+ * Skills.xml **DONE**
+ * WorkTags.xml **DONE**
+* About.txt **%1**
+* FriendlyName.txt **DONE**
+* LanguageInfo.xml **DONE**
 
 
 
