@@ -12,16 +12,16 @@
   <CommandTryReconnectDesc>Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby.</CommandTryReconnectDesc>
 
 
-  <CommandGatherSpotToggleLabel>Gather spot</CommandGatherSpotToggleLabel>
-  <CommandGatherSpotToggleDescActive>Active - colonists will gather around this object.</CommandGatherSpotToggleDescActive>
-  <CommandGatherSpotToggleDescInactive>Inactive - colonists will not gather around this object.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleLabel>Toplama alanı</CommandGatherSpotToggleLabel>
+  <CommandGatherSpotToggleDescActive>Aktif - koloniciler bu alanda toplama yapacak.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescInactive>Pasif - koloniciler bu alanda toplama yapmayacak.</CommandGatherSpotToggleDescInactive>
   
   
   <!-- Drafting -->
-  <CommandDraftLabel>Draft</CommandDraftLabel>
-  <CommandUndraftLabel>Undraft</CommandUndraftLabel>
-  <CommandToggleDraftDesc>Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest.</CommandToggleDraftDesc>
-  <IsIncapped>{0} is incapacitated.</IsIncapped>
+  <CommandDraftLabel>Taslak</CommandDraftLabel>
+  <CommandUndraftLabel>Taslak İptal</CommandUndraftLabel>
+  <CommandToggleDraftDesc>Askeri taslak işaretle.\n\nİşaretkli kişiler emir alır ve savaşır. Çalışmazlar, yemezler ve dinlenmezler.</CommandToggleDraftDesc>
+  <IsIncapped>{0} aciz durumda.</IsIncapped>
 
   
   <CommandCancelConstructionLabel>İptal et</CommandCancelConstructionLabel>
@@ -33,18 +33,18 @@
   <CommandBedSetOwnerLabel>Sahip belirle.</CommandBedSetOwnerLabel>
   <CommandBedSetOwnerDesc>Assign this bed to be owned by a specific colonist.</CommandBedSetOwnerDesc>
   <BedAssign>Atamak</BedAssign>
-  <CommandBedSetForPrisonersLabel>Mahkumlar için ata.</CommandBedSetForPrisonersLabel>
-  <CommandBedSetForPrisonersDesc>Bu odadaki yatakların kullanımını mahkumlara ata.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersLabel>Mahkumlar için belirle.</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersDesc>Bu odadaki yatakların kullanımını mahkumlara belirle.</CommandBedSetForPrisonersDesc>
   <CommandBedSetForPrisonersFailOutdoors>Açıkhavadaki yataklar mahkumlara verilemez.</CommandBedSetForPrisonersFailOutdoors>
-  <CommandBedSetForColonistsLabel>Set for colonists</CommandBedSetForColonistsLabel>
-  <CommandBedSetForColonistsDesc>Assign beds in this room for use by colonists.</CommandBedSetForColonistsDesc>
-  <CommandBedSetAsMedicalLabel>Set as medical</CommandBedSetAsMedicalLabel>
-  <CommandBedSetAsMedicalDesc> Assign this bed for medical use.</CommandBedSetAsMedicalDesc>
-  <CommandBedSetAsNonMedicalLabel>Set as non medical</CommandBedSetAsNonMedicalLabel>
-  <CommandBedSetAsNonMedicalDesc> Assign this bed for non medical use.</CommandBedSetAsNonMedicalDesc>
-  <TurningOnPrisonerBedWarning>Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOnPrisonerBedWarning>
-  <TurningOffPrisonerBedWarning>Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds:</TurningOffPrisonerBedWarning>
-  <AreYouSure>Are you sure you want to do this?</AreYouSure>
+  <CommandBedSetForColonistsLabel>Kolonicilar için işaretle</CommandBedSetForColonistsLabel>
+  <CommandBedSetForColonistsDesc>Bu odadaki yatakları koloniciler için belirle.</CommandBedSetForColonistsDesc>
+  <CommandBedSetAsMedicalLabel>medikal yatak olarak belirle</CommandBedSetAsMedicalLabel>
+  <CommandBedSetAsMedicalDesc> Bu yatağı medikal kullanım için belirle.</CommandBedSetAsMedicalDesc>
+  <CommandBedSetAsNonMedicalLabel>Medikal olmamasını belirle</CommandBedSetAsNonMedicalLabel>
+  <CommandBedSetAsNonMedicalDesc>Bu yatağı medikal olmamasını belirle.</CommandBedSetAsNonMedicalDesc>
+  <TurningOnPrisonerBedWarning>Mahkum moduna çevirmek bütün odayı etkileyecek (mahkumlar ve koloniciler aynı odada uyuyamayacağından).\n\nŞu kişiler yataklarının sahipliğini kaybedecek:</TurningOnPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>Mahkum modunu iptal etmek tüm odayı etkileyecek (mahkumlar ve koloniciler aynı odada uyuyamayacağından).\n\nŞu kişiler yataklarının sahipliğini kaybedecek:</TurningOffPrisonerBedWarning>
+  <AreYouSure>Bunu yapmak istediğinden emin misin?</AreYouSure>
 
   
   
@@ -54,9 +54,9 @@
   <CommandRenameZoneDesc>Bölgeyi yeniden adlandır.</CommandRenameZoneDesc>
   <CommandRenameZoneLabel>Yeniden adlandır</CommandRenameZoneLabel>
 
-  <CommandHideZoneDesc>Hide/unhide this zone.</CommandHideZoneDesc>
-  <CommandHideZoneLabel>Hide</CommandHideZoneLabel>
-  <CommandUnhideZoneLabel>Unhide</CommandUnhideZoneLabel>
+  <CommandHideZoneDesc>Bu alanı Gizle/Gizleme </CommandHideZoneDesc>
+  <CommandHideZoneLabel>Gizle</CommandHideZoneLabel>
+  <CommandUnhideZoneLabel>Gizleme</CommandUnhideZoneLabel>
 
   <CommandDeleteZoneDesc>Bölgeyi sil.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Sil</CommandDeleteZoneLabel>
@@ -80,12 +80,12 @@
 
 
   <!-- Pod -->
-  <CommandPodEject>Eject sleeper</CommandPodEject>
-  <CommandPodEjectDesc>Wake up the cryptosleeper and eject them.</CommandPodEjectDesc>
-  <CommandPodEjectFailEmpty>Contains nobody.</CommandPodEjectFailEmpty>
+  <CommandPodEject>Uyuyanı Çıkar</CommandPodEject>
+  <CommandPodEjectDesc>CryptoUykucuyu uyandır ve çıkar.</CommandPodEjectDesc>
+  <CommandPodEjectFailEmpty>Kimseyi barındırmıyor.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
-  <CommandToggleDoorLock>Toggle locked</CommandToggleDoorLock>
+  <CommandToggleDoorLock>Kilit</CommandToggleDoorLock>
   <CommandToggleDoorLockDesc>Kapıyı kitle ya da aç.Kapalı kapılar bir daha açılmayacak.</CommandToggleDoorLockDesc>
 
 
