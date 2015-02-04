@@ -6,10 +6,10 @@ A Turkish language translation for RimWorld.
 
 ## Translators
 * [@sinanisler](https://github.com/sinanisler)
-* [@gokimaxTR](https://github.com/sinanisler)
-* [@berkaybaltaci](https://github.com/sinanisler)
-* [@Ferhatyesil](https://github.com/sinanisler)
-* [@Nespraved](https://github.com/sinanisler)
+* [@gokimaxTR](https://github.com/gokimaxTR)
+* [@berkaybaltaci](https://github.com/berkaybaltaci)
+* [@Ferhatyesil](https://github.com/Ferhatyesil)
+* [@Nespraved](https://github.com/Nespraved)
 
 
 
