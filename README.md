@@ -5,11 +5,15 @@ A Turkish language translation for RimWorld.
 
 
 ## Translators
-@sinanisler
-@gokimaxTR
-@berkaybaltaci
-@Ferhatyesil
-@Nespraved
+[@sinanisler](https://github.com/sinanisler)
+
+[@gokimaxTR](https://github.com/sinanisler)
+
+[@berkaybaltaci](https://github.com/sinanisler)
+
+[@Ferhatyesil](https://github.com/sinanisler)
+
+[@Nespraved](https://github.com/sinanisler)
 
 
 
