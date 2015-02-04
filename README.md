@@ -18,7 +18,7 @@ A Turkish language translation for RimWorld.
  * Example_Traits.xml **DONE**
 * Keyed
  * Alerts.xml **DONE**
- * ConceptDefs.xml **%10**
+ * ConceptDefs.xml **DONE**
  * Credits.xml  **DONE**
  * Dates.xml **DONE**
  * Designators.xml **DONE**
