@@ -1,4 +1,4 @@
-# Rim World Türkçe Çevirisi
+# RimWorld Türkçe Çevirisi
 A Turkish language translation for RimWorld.
 
 
