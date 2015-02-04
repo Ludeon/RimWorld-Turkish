@@ -4,7 +4,7 @@ A Turkish language translation for RimWorld.
 
 
 
-# Translators - Çevirmenler
+# Translators
 @sinanisler
 @gokimaxTR
 @berkaybaltaci
@@ -13,7 +13,7 @@ A Turkish language translation for RimWorld.
 
 
 
-# Translation Progress - Çeviri Durum
+# Translation Progress
 Update here when you make translation.
 
 * DefInjected/TraitDef
