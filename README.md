@@ -14,8 +14,6 @@ A Turkish language translation for RimWorld.
 
 
 ## Translation Progress
-Update here when you make translation.
-
 * DefInjected/TraitDef
  * Example_Traits.xml **DONE**
 * Keyed
