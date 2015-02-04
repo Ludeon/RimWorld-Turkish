@@ -1,8 +1,6 @@
 # RimWorld Türkçe Çevirisi
 A Turkish language translation for RimWorld.
 
-**Note: Arkadaşlar sadece 2-3 dosya bir şey kaldı Hepimizin Eline Sağlık. Hadi son bir gayretle resmen bitirelim ve sorunlu çevirileri düzeltmek için üstünden bir geçip okuyalım. @sinanisler**
-
 
 
 
