@@ -1,19 +1,17 @@
--RimWorld-Turkish
---A Turkish language translation for RimWorld.
+#RimWorld-Turkish
+A Turkish language translation for RimWorld.
 
 
-- Translators
+# Translators
 @sinanisler
 @Ferhatyesil
 @berkaybaltaci
 @Nespraved
 
 
--Translation Progress
-...
-..
-.
+# Translation Progress
+* DefInjected/TraitDef
+ * Example_Traits.xml **DONE**
 
-
--See this page for license info:
+# See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
