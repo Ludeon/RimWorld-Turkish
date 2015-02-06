@@ -10,7 +10,7 @@ A Turkish language translation for RimWorld.
 * [@berkaybaltaci](https://github.com/berkaybaltaci)
 * [@Ferhatyesil](https://github.com/Ferhatyesil)
 * [@Nespraved](https://github.com/Nespraved)
-
+* [@sonobacari](https://github.com/sonobacari)
 
 
 ## Translation Progress
@@ -28,7 +28,7 @@ A Turkish language translation for RimWorld.
  * FloatMenu.xml **DONE**
  * Gameplay.xml **DONE**
  * GameplayCommands.xml **DONE**
- * Incidents.xml **%1**
+ * Incidents.xml **DONE**
  * Letters.xml **DONE**
  * Menu_Options.xml **DONE**
  * Menus_Main.xml  **DONE**
