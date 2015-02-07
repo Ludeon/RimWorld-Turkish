@@ -11,7 +11,7 @@ A Turkish language translation for RimWorld.
 * [@Ferhatyesil](https://github.com/Ferhatyesil)
 * [@Nespraved](https://github.com/Nespraved)
 * [@sonobacari](https://github.com/sonobacari)
-
+* [@sonobacari](https://github.com/mahsun4303)
 
 ## Translation Progress
 * DefInjected/TraitDef
