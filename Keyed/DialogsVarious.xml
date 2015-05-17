@@ -40,7 +40,7 @@
   <ResolutionRevert>Geri al</ResolutionRevert>
 
   <!-- Overview -->
-  <OverviewOf>Overview of {0}</OverviewOf>
+  <OverviewOf>{0}in önizlemesi</OverviewOf>
 
   <!-- Research -->
   <Research>Araştırma</Research>
@@ -52,7 +52,7 @@
   
   
   <!-- Advanced game start options -->
-  <MapSizePerformanceWarning>UYARI: Bilgisayarınız oldukça güçlü olmadığı sürece büyük harita boyutlarında performansınız düşebilir.\n\nEğer güçsüz bir makineye sahipsen Küçük seç.\n\nLudeonicrous size is untested and will almost certainly not play well.</MapSizePerformanceWarning>
+  <MapSizePerformanceWarning>UYARI: Bilgisayarınız oldukça güçlü olmadığı sürece büyük harita boyutlarında performansınız düşebilir.\n\nEğer güçsüz bir makineye sahipsen Küçük seçmelisin.\n\nLudeonicrous boyutu testedilmedi ve beklenmeyen sonuçlar verebilir.</MapSizePerformanceWarning>
   <MapSize>Harita Boyutu</MapSize>
   <MapSizeDesc>{0}x{0} ({1} kareler)</MapSizeDesc>
   <MapSizeSmall>Küçük</MapSizeSmall>
@@ -69,17 +69,17 @@
   <RepeatCount>{0} defa tekrar et.</RepeatCount>
   <Forever>Sonsuz</Forever>
   <IngredientSearchRadius>Malzeme arama yarıçağı</IngredientSearchRadius>
-  <TargetCount>{0} tane sahip olana kadar yap.</TargetCount>
+  <TargetCount>{0} tane olana kadar yap.</TargetCount>
   <Infinite>Sonsuz</Infinite>
-  <RecipeCannotHaveTargetCount>(This recipe cannot have a target count because it has multiple or unpredictable products.)</RecipeCannotHaveTargetCount>
+  <RecipeCannotHaveTargetCount>(Bu tarifin limiti belirlenemiyor çünkü birden fazla veya öngörülemeyen sayıda ürün veriyor.)</RecipeCannotHaveTargetCount>
   <PermittedIngredients>İzin verilmiş malzemeler</PermittedIngredients>
   <MinimumSkills>En az beceri:</MinimumSkills>
   <BillRequires>Requires {0} {1}</BillRequires>
   <UsableIngredients>Kullanılabilir malzemeler</UsableIngredients>
-  <DoXTimes>Do X times</DoXTimes>
+  <DoXTimes>X defa yap</DoXTimes>
   <DoUntilYouHaveX>X tane olana kadar yap</DoUntilYouHaveX>
   <DoForever>Sonsuza kadar yap.</DoForever>
-  <BillRepeatTargetCountShort>To {0}</BillRepeatTargetCountShort>
+  <BillRepeatTargetCountShort>{0}e kadar yap</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Yere bırak</BillStoreMode_DropOnFloor>
   <BillStoreMode_BestStockpile>En iyi stokalanına koy</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>En yakın stokalanına koy.</BillStoreMode_NearestStockpileAnyPriority>
@@ -94,7 +94,7 @@
   <MechanoidType>Mechanoid</MechanoidType>
   <Damage>Hasar</Damage>
   <Accuracy>İsabet</Accuracy>
-  <BurstShotCount>Burst shot count</BurstShotCount>
+  <BurstShotCount>Çoklu atış sayısı</BurstShotCount>
   <WarmupTime>Isınma</WarmupTime>
   <CooldownTime>Yeniden dolma</CooldownTime>
   <BurstShotFireRate>Azami atış hızı</BurstShotFireRate>
@@ -104,14 +104,14 @@
   <LimitedLifespan>Sınırlı yaşam süresi</LimitedLifespan>
   <GrowingTime>Büyüme zamanı</GrowingTime>
   <Days>Günler</Days>
-  <FertilityRequirement>Fertility requirement</FertilityRequirement>
-  <LightRequirement>Light requirement</LightRequirement>
+  <FertilityRequirement>Gübre ihtiyacı</FertilityRequirement>
+  <LightRequirement>Işık ihtiyacı</LightRequirement>
   <Attributes>Nitelikler</Attributes>
   <LifeSpan>Yaşam süresi</LifeSpan>
   <Nutrition>Beslenme</Nutrition>
   <FoodQuality>Yemek kalitesi</FoodQuality>
   <WalkSpeedProperty>Yürüme hızı</WalkSpeedProperty>
-  <MeleeDamage>Melee damage</MeleeDamage>
+  <MeleeDamage>Yakın dövüş hasarı</MeleeDamage>
   <MeatAmount>Et miktarı</MeatAmount>
   <MinFoodQuality>En az yemek kalitesi</MinFoodQuality>
   <Diet>Diyet</Diet>
@@ -125,14 +125,14 @@
   <DragToTrade>Ticaret yapmak için sürükle</DragToTrade>
   <BuyPriceDesc>Bunu almak için ödenecek fiyat.</BuyPriceDesc>
   <SellPriceDesc>Bunu sattığın zaman alacağın ücret.</SellPriceDesc>
-  <PriceTypeDesc>For this item, this price is {0}.</PriceTypeDesc>
-  <ColonyCount>How many of this item the colony has ready to trade.\n\nYou can only sell items to orbital traders if they are outdoors and near an orbital trade beacon.</ColonyCount>
+  <PriceTypeDesc>Bu ürün için, fiyat {0} dır.</PriceTypeDesc>
+  <ColonyCount> Koloninin kaç tane ticarete hazır eşyası olduğu.\n\nSadece açık havada ve Ticaret Anteninin yakınında ise kullanıbilirdir.</ColonyCount>
   <TraderCount>Tüccarın elinde bu eşyadan ticaret için ne kadar var?</TraderCount>
   <AcceptButton>Onayla</AcceptButton>
   <ResetButton>Sıfırla</ResetButton>
   <CancelButton>İptal et</CancelButton>
   <YourTradeableSilver>Takas edilebilir gümüş: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>You can only trade with silver that is near an orbital trade beacon and not under a roof.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Gümüş Ticaret Anteninin menzilinde ve açık havada ise ticaret yapabilirsiniz.</YourTradeableSilverTip>
   <TraderHasNoMore>Tüccarın elinde daha fazla yok.</TraderHasNoMore>
   <ColonyHasNoMore>Daha satacak şey yok.</ColonyHasNoMore>
   <TraderWillNotTrade>Tüccar bu eşyayı takas etmek istemiyor.</TraderWillNotTrade>
