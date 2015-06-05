@@ -24,12 +24,13 @@ A Turkish language translation for RimWorld.
  * Dates.xml **DONE**
  * Designators.xml **DONE**
  * DialogTrees.xml **DONE**
- * Dialog_StatsReports **%0**
+ * Dialog_StatsReports.xml **%0**
  * DialogsVarious.xml **DONE**
  * Enums.xml **DONE**
  * FloatMenu.xml **DONE**
  * Gameplay.xml **DONE**
  * GameplayCommands.xml **%90**
+ * Grammar.xml **%0**
  * Incidents.xml **DONE**
  * Letters.xml **DONE**
  * Menu_Options.xml **%95**
@@ -41,9 +42,9 @@ A Turkish language translation for RimWorld.
  * Pronouns.xml **DONE**
  * Skills.xml **DONE**
  * WorkTags.xml **DONE**
-* About.txt **%1**
-* FriendlyName.txt **DONE**
-* LanguageInfo.xml **DONE**
+ * About.txt **%1**
+ * FriendlyName.txt **DONE**
+ * LanguageInfo.xml **DONE**
 
 
 
