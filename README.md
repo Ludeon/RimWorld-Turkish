@@ -18,7 +18,7 @@ A Turkish language translation for RimWorld.
 * DefInjected/TraitDef
  * Example_Traits.xml **DONE**
 * Keyed
- * Alerts.xml **DONE**
+ * Alerts.xml **%90**
  * ConceptDefs.xml **DONE**
  * Credits.xml  **DONE**
  * Dates.xml **DONE**
@@ -31,7 +31,7 @@ A Turkish language translation for RimWorld.
  * GameplayCommands.xml **DONE**
  * Incidents.xml **DONE**
  * Letters.xml **DONE**
- * Menu_Options.xml **%90**
+ * Menu_Options.xml **%95**
  * Menus_Main.xml  **DONE**
  * Menus_Overview.xml **DONE**
  * Messages.xml **DONE**
