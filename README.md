@@ -31,13 +31,17 @@ A Turkish language translation for RimWorld.
  * Gameplay.xml **DONE**
  * GameplayCommands.xml **%90**
  * Grammar.xml **%0**
- * Incidents.xml **DONE**
- * Letters.xml **DONE**
+ * ITabs.xml **%0**
+ * Incidents.xml **%95**
+ * Letters.xml **%90**
+ * Menu_KeyBindings.xml**%95**
  * Menu_Options.xml **%95**
- * Menus_Main.xml  **DONE**
+ * Menus_Main.xml **%90**
+ * Menus_OTabs.xml **%0**
  * Menus_Overview.xml **DONE**
- * Messages.xml **DONE**
- * Misc.xml **DONE**
+ * Messages.xml **%95**
+ * Misc.xml **%95**
+ * Misc_Gameplay.xml **%0**
  * PlayInterface.xml **DONE**
  * Pronouns.xml **DONE**
  * Skills.xml **DONE**
