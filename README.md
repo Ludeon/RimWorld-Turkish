@@ -34,7 +34,7 @@ A Turkish language translation for RimWorld.
  * Menu_Options.xml **DONE**
  * Menus_Main.xml  **DONE**
  * Menus_Overview.xml **DONE**
- * Messages.xml **%95**
+ * Messages.xml **DONE**
  * Misc.xml **DONE**
  * PlayInterface.xml **DONE**
  * Pronouns.xml **DONE**
