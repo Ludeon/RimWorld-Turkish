@@ -29,7 +29,7 @@ A Turkish language translation for RimWorld.
  * Enums.xml **DONE**
  * FloatMenu.xml **DONE**
  * Gameplay.xml **DONE**
- * GameplayCommands.xml **DONE**
+ * GameplayCommands.xml **%90**
  * Incidents.xml **DONE**
  * Letters.xml **DONE**
  * Menu_Options.xml **%95**
