@@ -45,7 +45,7 @@ A Turkish language translation for RimWorld.
  * PlayInterface.xml **DONE**
  * Pronouns.xml **DONE**
  * Skills.xml **DONE**
- * Time.xml **%0**
+ * Time.xml **DONE**
  * WorkTags.xml **DONE**
  * About.txt **%1**
  * FriendlyName.txt **DONE**
