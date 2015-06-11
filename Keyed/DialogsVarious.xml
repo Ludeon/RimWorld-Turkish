@@ -31,8 +31,9 @@
   <PawnGainsName>Kolonicinin lakabı artık {0}.</PawnGainsName>
 
   <!-- Save game incompatible warning -->
+  <VersionMismatch>Version mismatch</VersionMismatch>
   <SaveGameIncompatibleWarningText>Versiyon uyuşmazlığı: Harita {0} versiyonunda kaydedilmiş ama biz {1} versiyonunu kullanıyoruz.\n\n Bu kaydı yüklemek muhtemelen hatalara ve kapanmalara neden olacaktır.</SaveGameIncompatibleWarningText>
-  <SaveGameIncompatibleWarningTitle>Kayıt dosyası uyumsuzluğu</SaveGameIncompatibleWarningTitle>
+  <WorldFileVersionMismatch>Uyarı: This world was generated with game version {0}, but we are running version {1}.\n\nLoading this world will probably cause bugs and crashes. We recommend you generate a new world from scratch.</WorldFileVersionMismatch>
   
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Ekran ayarlarını değiştirdin.Yeni ayarlar iyi çalışıyor mu?\n\n{0} içinde ayarlarınız geri alınacak.</ConfirmResolutionChange>
@@ -52,6 +53,7 @@
   
   
   <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or month.</MapTemperatureDangerWarning>
   <MapSizePerformanceWarning>UYARI: Bilgisayarınız oldukça güçlü olmadığı sürece büyük harita boyutlarında performansınız düşebilir.\n\nEğer güçsüz bir makineye sahipsen Küçük seçmelisin.\n\nLudeonicrous boyutu testedilmedi ve beklenmeyen sonuçlar verebilir.</MapSizePerformanceWarning>
   <MapSize>Harita Boyutu</MapSize>
   <MapSizeDesc>{0}x{0} ({1} kareler)</MapSizeDesc>
@@ -59,8 +61,8 @@
   <MapSizeMedium>Orta</MapSizeMedium>
   <MapSizeLarge>Büyük</MapSizeLarge>
   <MapSizeExtreme>Aşırı Büyük</MapSizeExtreme>
-
-
+  <MapStartMonth>Starting month:</MapStartMonth>
+  <MapStartMonthDefault>Auto</MapStartMonthDefault>
 
   <!-- Bill config -->
   <Suspended>Askıya alınmış</Suspended>
@@ -84,14 +86,7 @@
   <BillStoreMode_BestStockpile>En iyi stokalanına koy</BillStoreMode_BestStockpile>
   <BillStoreMode_NearestStockpileAnyPriority>En yakın stokalanına koy.</BillStoreMode_NearestStockpileAnyPriority>
   
-  <!-- Def Card -->
-  <Type>Tür</Type>
-  <GunType>Silah</GunType>
-  <PlantType>Bitki</PlantType>
-  <FoodType>Yemek</FoodType>
-  <HumanType>İnsan</HumanType>
-  <AnimalType>Hayvan</AnimalType>
-  <MechanoidType>Mechanoid</MechanoidType>
+  <!-- Info card -->
   <Damage>Hasar</Damage>
   <Accuracy>İsabet</Accuracy>
   <BurstShotCount>Çoklu atış sayısı</BurstShotCount>
@@ -136,23 +131,11 @@
   <TraderHasNoMore>Tüccarın elinde daha fazla yok.</TraderHasNoMore>
   <ColonyHasNoMore>Daha satacak şey yok.</ColonyHasNoMore>
   <TraderWillNotTrade>Tüccar bu eşyayı takas etmek istemiyor.</TraderWillNotTrade>
-  
+  <NegotiatorTalkingImpaired>Your negotiator {0} cannot talk properly because of poor health.\n\nThis will affect trade prices.\n\nConsider using a healthier negotiator.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>Trader has insufficient silver to fully cover this transaction.  Proceed anyways?</ConfirmTraderShortFunds>
+
   <!-- Comms -->
   <SocialSkillIs>Sosyal beceri: {0}</SocialSkillIs>
-
-  <!-- Stats report -->
-  <StatsReport_BaseValue>Ana değer</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>Özellikler</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>Giysiler</StatsReport_RelevantGear>
-  <StatsReport_Material>Malzeme</StatsReport_Material>
-  <StatsReport_CharacterQuality>Karakter kalitesi</StatsReport_CharacterQuality>
-  <StatsReport_Skills>Beceri faktörleri</StatsReport_Skills>
-  <StatsReport_OtherStats>Diğer özellik faktörleri</StatsReport_OtherStats>
-  <StatsReport_HealthFactors>Sağlık faktörleri</StatsReport_HealthFactors>
-  <HealthFactorPercentImpact>{0} önemli</HealthFactorPercentImpact>
-  <StatsReport_PostProcessed>Önceden hesaplı veri</StatsReport_PostProcessed>
-  <StatsReport_FinalValue>Son değer</StatsReport_FinalValue>
-  
   
   <!--Research-->
   <ResearchFinished>{0} araştırması bitti.</ResearchFinished>
@@ -165,5 +148,13 @@
   <HistoryUploadNo>Oyun bilgilerimi göndermeye izin ver. </HistoryUploadNo>
   <HistoryUploadYesOnce>Sadece bu sefer gönder.</HistoryUploadYesOnce>
   <HistoryUploadNoOnce>Bu sefer göndermeyin, daha sonra sor.</HistoryUploadNoOnce>
+  
+  <!-- Outfit management -->
+  <Outfit>Outfit</Outfit>
+  <SelectOutfit>Select outfit...</SelectOutfit>
+  <NewOutfit>New outfit</NewOutfit>
+  <DeleteOutfit>Delete outfit...</DeleteOutfit>
+  <OutfitInUse>Outfit is in use by {0}.</OutfitInUse>
+  <NoOutfitSelected>No outfit selected</NoOutfitSelected>
 	
 </LanguageData>
