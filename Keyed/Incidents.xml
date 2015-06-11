@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
+  
+  <LetterLabelAnimalInsanitySingle>Mad animal</LetterLabelAnimalInsanitySingle>
   <AnimalInsanitySingle>Yerel bir {0} çılgına döndü. Gördüğü herkese saldıracak.</AnimalInsanitySingle>
   <AnimalInsanityMultiple>Bir çeşit psişik dalga bölgenin üzerinden geçti. Kolonicilerin durumu iyi, ama..\n\nbölgedeki bir çok {0} çıldırmış gibi gözüküyor.</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0}s in the area have been driven insane.</AnimalInsanityMultiple>
 
+  <LetterLabelCropBlight>Blight</LetterLabelCropBlight>
   <CropBlight>Esrarengiz bir mantar ekinlerini mahvetti. </CropBlight>
-
-  <EclipseIncident>Bu gezegenin Aylarından biri Güneşin önüne geçti. Bir Güneş tutulması başladı.</EclipseIncident>
-
+  
+  <LetterLabelEclipseIncident>Eclipse</LetterLabelEclipseIncident>
+  <EclipseIncident>Bu gezegenin Aylarından biri Güneşin önüne geçti. Bir Güneş tutulması başladı.
+  
+  </EclipseIncident>LetterLabelMiracleHeal>Miracle</LetterLabelMiracleHeal>
   <MiracleHeal>{0}, mucizevi bir şekilde iyileşti!</MiracleHeal>
-
   
   <!-- Enemy raids -->
+  <LetterLabelEnemyRaid>Raid</LetterLabelEnemyRaid>
+  <LetterLabelSiege>Siege</LetterLabelSiege>
   <EnemyRaidWalkIn>{1}'den gelen bir grup {0}, gezegene ulaştı.</EnemyRaidWalkIn>
   <EnemyRaidEdgeDrop>{1}'den gelen bir grup {0}, fırlatma kapsülleri içinde gezegene indi.</EnemyRaidEdgeDrop>
   <EnemyRaidCenterDrop>{1}'den gelen bir grup {0}, koloninin tam üstüne indi!</EnemyRaidCenterDrop>
@@ -21,6 +27,7 @@
 
 
   <!-- Friendly raids -->
+  <LetterLabelFriendlyRaid>Friendlies</LetterLabelFriendlyRaid>
   <FriendlyRaidWalkIn>{1}'den gelen bir grup dost {0}, gezegene ulaştı.</FriendlyRaidWalkIn>
   <FriendlyRaidEdgeDrop>{1}'den gelen bir grup dost {0}, yörüngeden gezegene iniş yaptı.</FriendlyRaidEdgeDrop>
   <FriendlyRaidCenterDrop>{1}'den gelen bir grup dost {0}, koloninin tam üstüne indi!</FriendlyRaidCenterDrop>
@@ -28,47 +35,64 @@
   <FriendlyRaidImmediateAttack>Yardım etmek için aceleyle geliyorlar.</FriendlyRaidImmediateAttack>
   <FriendlyRaidBesiege>Görünüşe göre sana yardım etmek için kuşatma taktiklerini kullanacaklar.</FriendlyRaidBesiege>
 
+  <LetterLabelRefugeePodCrash>Escape pod</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Yakınlarda parçalanmış bir kaçış kapsülü tespit ettin. \n\nÇarpışmadan kurtulan olduysa, ağır yaralı olacak.</RefugeePodCrash>
 
+  <LetterLabelCargoPodCrash>Cargo pods</LetterLabelCargoPodCrash>
   <CargoPodCrash>Yakınlarda bir grup parçalanmış kargo kapsülü tespit ettin. \n\nEnkazda işine yarayacak bir şeyler bulabilirsin.</CargoPodCrash>
 
   <AnElectricalConduit>bir elektrik borusu</AnElectricalConduit>
-  <AWallsPowerConduit>bir duvarın güç borusu</AWallsPowerConduit>
   <ShortCircuit>{0}.\n\nBağlı akülerdeki bütün {1} Watt-gün enerji elektriksel bir patlamada deşarj oldu.</ShortCircuit>
   <ShortCircuitWasLarge>Bu büyüklükte bir güç hayli fazla büyüklükte bir patlamaya yol açtı.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Bu gerçekten büyük bir patlama. Wow.</ShortCircuitWasHuge>
 
+  <LetterLabelSolarFlare>Solar flare</LetterLabelSolarFlare>
   <LetterSolarFlare>Bir güneş patlaması başladı. \n\nYoğun radyasyon bütün elektrikli aletleri devre dışı bırakacak. \n\nGüneş patlaması bir gün sürecek.</LetterSolarFlare>
 
+  <LetterHeatWave>An unusual heat wave has begun. Watch out for heat stroke.</LetterHeatWave>
+  <LetterLabelHeatWave>Heat wave</LetterLabelHeatWave>
+  <HeatWaveOver>The heat wave is over.</HeatWaveOver>
+
+  <LetterColdSnap>An unusual cold snap has set in. Watch out for hypothermia and dying crops.</LetterColdSnap>
+  <LetterLabelColdSnap>Cold snap</LetterLabelColdSnap>
+  <ColdSnapOver>The cold snap is over.</ColdSnapOver>
+  
   <TraderArrival>Yakınlardan bir takas gemisi geçiyor. \n\n{0} olarak biliniyorlar. Onlar bir {1}.</TraderArrival>
 
   <SingleTravelerPassing>{1}'den gelen bir {0} yakınlardan geçiyor. HECAP {2} olarak adlandırıldı.</SingleTravelerPassing>
   <GroupTravelersPassing>{0}'dan gelen bir grup yakınlardan geçiyor.</GroupTravelersPassing>
 
+  <LetterLabelSingleVisitorArrives>Visitor</LetterLabelSingleVisitorArrives>
   <SingleVisitorArrives>{1}'den gelen bir {0} kolonini ziyaret ediyor. \n\nHECAP {2} olarak adlandırıldı.</SingleVisitorArrives>
+  <LetterLabelGroupVisitorsArrive>Visitors</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>{0}'dan gelen bir grup kolonini ziyaret ediyor.</GroupVisitorsArrive>
   <VisitorsLeaving>{0}'dan gelen ziyaretçiler kolonini terk ediyor.</VisitorsLeaving>
 
+  <LetterLabelWandererJoin>Wanderer joins</LetterLabelWandererJoin>
   <WandererJoin>NAME isimli bir {0} geldi ve kolonine katılıyor. HECAP bir {1}.</WandererJoin>
   
-  
   <!-- Crashed ship part-->
-  <SpaceshipPartCrash>Kadim bir geminin büyük bir parçası yakınlarına düştü. \n\nKolonicilerin bunu hissedebiliyor. Bu kadim gemide psişik yansıtma yeteneği olan bir yapay zeka maskesi olmalı.Ve bu yapay zeka maskesi düşmanca davranıyor.\n\nMümkün olan en kısa zamanda yok et.</SpaceshipPartCrash>
-  <MessageAnimalInsanityPulse>Kadim yapı yakınındaki hayvanları çıldırtan bir psişik dalga yaydı.</MessageAnimalInsanityPulse>
-  <LetterShipPartDroveColonistInsane>Parçalanmış gemi parçası kolonicin {0}'ı çıldırtan yoğun bir psişik dalga yaydı.</LetterShipPartDroveColonistInsane>
-  <AwokeDaysAgo>{0} gün önce uyandı.</AwokeDaysAgo>
-  <PsychicDroneLevel>Psişik drone seviyesi: {0}</PsychicDroneLevel>
-  <PsychicDroneLevelLow>Düşük</PsychicDroneLevelLow>
-  <PsychicDroneLevelMedium>Orta</PsychicDroneLevelMedium>
-  <PsychicDroneLevelHigh>Yüksek</PsychicDroneLevelHigh>
-  <PsychicDroneLevelExtreme>Çok yüksek</PsychicDroneLevelExtreme>
-  <LetterPsychicDroneLevelIncreased>Parçalanmış gemi parçası şimdi daha güçlü bir psişik drone ortaya çıkardı. Bölgedeki bütün insancıl varlıklar artık daha huzursuz,paranoyaklar ve korkuyorlar.</LetterPsychicDroneLevelIncreased>
+  <LetterLabelSpaceshipPartCrash>Evil ship</LetterLabelSpaceshipPartCrash>
+  <SpaceshipPartCrash>A large piece of an ancient ship has crashed nearby.\n\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard AI persona with psychic projection ability. And this AI is not friendly.\n\nDestroy it as soon as possible.</SpaceshipPartCrash>
+  <MessageAnimalInsanityPulse>The ancient structure has emitted a psychic pulse that has driven nearby animals mad.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>Awoke {0} days ago</AwokeDaysAgo>
+  <PsychicDroneLevel>Psychic drone level: {0}</PsychicDroneLevel>
+  <PsychicDroneLevelLow>Low</PsychicDroneLevelLow>
+  <PsychicDroneLevelMedium>Medium</PsychicDroneLevelMedium>
+  <PsychicDroneLevelHigh>High</PsychicDroneLevelHigh>
+  <PsychicDroneLevelExtreme>Extreme</PsychicDroneLevelExtreme>
+  <LetterLabelPsychicDroneLevelIncreased>Drone intensifies</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>The crashed ship part is now emanating a more powerful kind of psychic drone. Every humanlike in the area now feels more disturbed, terrified, and paranoid.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
-  <LetterAgentRevealed>{0}'ın düşmanın {1}'in bir casusu olduğu ortaya çıktı. \n\nKaçmaya çalışıyorlar.</LetterAgentRevealed>
+  <LetterLabelAgentRevealed>Agent</LetterLabelAgentRevealed>
+  <LetterAgentRevealed>{0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now.</LetterAgentRevealed>
   
   <!-- Distant psychic drone -->
-  <LetterIncidentPsychicDrone>{0} cinsiyetli bütün koloniciler acı içinde geri çekiliyor. \n\nKötücül bir motor harekete geçiyor. Bütün bölgenin üzerinde, sadece {0} cinsiyetinin etkilendiği frekansta çalışan güçlü bir psişik drone fırlatıyor. Bazı insanların ruh sağlığı bir kaç gün boyunca daha kötü olacak.</LetterIncidentPsychicDrone>
+  <LetterLabelPsychicDrone>Psychic drone</LetterLabelPsychicDrone>
+  <LetterIncidentPsychicDrone>Every colonist of the {0} gender winces in pain!\n\nSome distant engine of hatred is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit worse.</LetterIncidentPsychicDrone>
+
  
   <!-- Beavers -->
   <LetterLabelBeaversArrived>Beavers!</LetterLabelBeaversArrived>
