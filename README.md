@@ -23,7 +23,7 @@ A Turkish language translation for RimWorld.
  * Credits.xml  **DONE**
  * Dates.xml **DONE**
  * Designators.xml **DONE**
- * DialogTrees.xml **DONE**
+ * DialogTrees.xml **%90**
  * Dialog_StatsReports.xml **%0**
  * DialogsVarious.xml **DONE**
  * Enums.xml **DONE**
