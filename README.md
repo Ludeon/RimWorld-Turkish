@@ -26,7 +26,7 @@ A Turkish language translation for RimWorld.
  * DialogTrees.xml **%90**
  * Dialog_StatsReports.xml **%0**
  * DialogsVarious.xml **%80**
- * Enums.xml **DONE**
+ * Enums.xml **%80**
  * FloatMenu.xml **DONE**
  * Gameplay.xml **DONE**
  * GameplayCommands.xml **%90**
