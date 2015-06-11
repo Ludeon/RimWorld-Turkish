@@ -32,7 +32,7 @@ A Turkish language translation for RimWorld.
  * GameplayCommands.xml **%90**
  * Grammar.xml **%0**
  * ITabs.xml **%0**
- * Incidents.xml **%95**
+ * Incidents.xml **%70**
  * Letters.xml **%90**
  * Menu_KeyBindings.xml**%95**
  * Menu_Options.xml **%95**
