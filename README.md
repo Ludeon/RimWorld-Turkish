@@ -18,30 +18,30 @@ A Turkish language translation for RimWorld.
 * DefInjected/TraitDef
  * Example_Traits.xml **DONE**
 * Keyed
- * Alerts.xml **%90**
+ * Alerts.xml **DONE**
  * ConceptDefs.xml **DONE**
  * Credits.xml  **DONE**
  * Dates.xml **DONE**
  * Designators.xml **DONE**
- * DialogTrees.xml **%90**
+ * DialogTrees.xml **%DONE**
  * Dialog_StatsReports.xml **%0**
- * DialogsVarious.xml **%80**
- * Enums.xml **%80**
- * FloatMenu.xml **%95**
- * Gameplay.xml **DONE**
- * GameplayCommands.xml **%90**
- * Grammar.xml **%0**
- * ITabs.xml **%0**
- * Incidents.xml **%70**
- * Letters.xml **%90**
- * Menu_KeyBindings.xml**%95**
- * Menu_Options.xml **%95**
- * Menus_Main.xml **%90**
- * Menus_OTabs.xml **%0**
+ * DialogsVarious.xml **DONE**
+ * Enums.xml **%20**
+ * FloatMenu.xml **%99**
+ * Gameplay.xml **%99**
+ * GameplayCommands.xml **%99**
+ * Grammar.xml **DONE**
+ * ITabs.xml **DONE**
+ * Incidents.xml **DONE**
+ * Letters.xml **%98**
+ * Menu_KeyBindings.xml**DONE**
+ * Menu_Options.xml **%99**
+ * Menus_Main.xml **%99**
+ * Menus_OTabs.xml **DONE**
  * Menus_Overview.xml **DONE**
- * Messages.xml **%95**
- * Misc.xml **%95**
- * Misc_Gameplay.xml **%0**
+ * Messages.xml **%99**
+ * Misc.xml **%99**
+ * Misc_Gameplay.xml **%99**
  * PlayInterface.xml **DONE**
  * Pronouns.xml **DONE**
  * Skills.xml **DONE**
