@@ -13,6 +13,7 @@ A Turkish language translation for RimWorld.
 * [@sonobacari](https://github.com/sonobacari)
 * [@mahsun4303](https://github.com/mahsun4303)
 * [@XPhyro](https://github.com/XPhyro)
+* [@AlperD](https://github.com/AlperD)
 
 ## Translation Progress
 * DefInjected/TraitDef
