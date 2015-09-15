@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
   <DesignatorCancel>İptal et</DesignatorCancel>
@@ -7,6 +7,11 @@
   <DesignatorCutPlants>Bitkileri kes.</DesignatorCutPlants>
   <DesignatorCutPlantsDesc>Bitkileri kesmek ve yoketmek için işaretle.Bitki tamamen yokedilecek ve hasat edilecektir.</DesignatorCutPlantsDesc>
 
+  <DesignatorUninstall>Kaldır</DesignatorUninstall>
+  <DesignatorUninstallDesc>Satılmak veya başka biryere kurmak üzere kaldır.</DesignatorUninstallDesc>
+
+  
+  
   <DesignatorDeconstruct>Yık</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Binaları yık ve kaynaklarının bir kısmını geri al.</DesignatorDeconstructDesc>
 
@@ -21,29 +26,30 @@
   <NothingToHaulHere>Burada taşınak birşey yok.</NothingToHaulHere>
   <MustHaulHaulables>Sadece otomatik olmayan şeyleri taşıyabilirsiniz (kaya parçaları gibi).</MustHaulHaulables>
 
-  <DesignatorHunt>Avlan</DesignatorHunt>
+  <DesignatorHunt>Avla</DesignatorHunt>
   <DesignatorHuntDesc>İşaretlenen hayvanlar avcılarınız tarafından avlanacak.</DesignatorHuntDesc>
 
-  <DesignatorMine>Maden kazmak</DesignatorMine>
+  <DesignatorMine>Maden kaz</DesignatorMine>
   <DesignatorMineDesc>Maden çıkarmak için kaya alanları belirle.</DesignatorMineDesc>
 
-  <DesignatorPlan>Plan</DesignatorPlan>
+  <DesignatorSmoothFloor>Zemini düzelt</DesignatorSmoothFloor>
+  <DesignatorSmoothFloorDesc>Sert taşlı arazileri düzelt.</DesignatorSmoothFloorDesc>
+
+  <DesignatorPlan>Planla</DesignatorPlan>
   <DesignatorPlanDesc>Yer planlamasını belirleyin.Bu gelecekteki gelişmenizi planlamanıza yardım etmek dışında birşey yapmaz.</DesignatorPlanDesc>
 
   <DesignatorPlanRemove>Planları sil</DesignatorPlanRemove>
   <DesignatorPlanRemoveDesc>Belirlenen planlamayı sil.</DesignatorPlanRemoveDesc>
 
-  <DesignatorHomeRegionAdd>Ev bölgesi ekle.</DesignatorHomeRegionAdd>
-  <DesignatorHomeRegionAddDesc>Kolonicilerin sadece ev bölgesinde binaları onarır, yerleri siler ve yangınları söndürür.</DesignatorHomeRegionAddDesc>
+  <DesignatorAreaHomeExpand>Ev bölgesi ekle</DesignatorAreaHomeExpand>
+  <DesignatorAreaHomeExpandDesc>Kolonicilerin sadece ev bölgesinde binaları onarır, yerleri siler ve yangınları söndürür.</DesignatorAreaHomeExpandDesc>
+  <DesignatorAreaHomeClear>Ev bölgesini kaldır</DesignatorAreaHomeClear>
+  <DesignatorAreaHomeClearDesc>Bir ev bölgesini sil. Kolonicilerin artık buradaki yangınları söndürmeyecek, yerleri temizlemeyecek ve binaları tamir etmeyecek.</DesignatorAreaHomeClearDesc>
 
-  <DesignatorHomeRegionRemove>Ev bölgesini kaldır</DesignatorHomeRegionRemove>
-  <DesignatorHomeRegionRemoveDesc>Bir ev bölgesini sil. Kolonicilerin artık buradaki yangınları söndürmeyecek, yerleri temizlemeyecek ve binaları tamir etmeyecek.</DesignatorHomeRegionRemoveDesc>
-
-  <DesignatorRegionNoRoofAdd>Çatısız bölge oluştur</DesignatorRegionNoRoofAdd>
-  <DesignatorRegionNoRoofAddDesc>Çatının olmayacağı bir bölge oluştur.Koloniciler ayrıca burada olan çatıları da yıkacak.</DesignatorRegionNoRoofAddDesc>
-
-  <DesignatorRegionNoRoofRemove>Çatısız bölgeyi kaldır</DesignatorRegionNoRoofRemove>
-  <DesignatorRegionNoRoofRemoveDesc>Çatısız bölgeyi kaldırır. Çatılar burada oluşacak ve mevcut olan çatılar yıkılmayacak.</DesignatorRegionNoRoofRemoveDesc>
+  <DesignatorAreaSnowClearExpand>Karları temizleme bölgesi ekle</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpandDesc>Kolonistlerin kardan korumaları için bir alan yarat.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearClear>Karları temizleme bölgesini kaldır</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClearDesc>Bir kar temizleme bölgesini kaldırır. Kolonistler artık bu bölgeyi kardan korumaya çalışmayacak.</DesignatorAreaSnowClearClearDesc>
 
   <DesignatorGrowingZoneDesc>Kolonicilerinin belirli bir tür bitki yetiştirmeye çalışacağı bir bölge oluştur</DesignatorGrowingZoneDesc>
 
@@ -52,9 +58,44 @@
   <DesignatorZoneCreateStorageDumpingDesc>Kolonicilerinin değersiz şeyleri depolayacağı bir stokalanı oluştur.\nAyrıca bu araç mevcut olan stokalanını da genişletebilir.</DesignatorZoneCreateStorageDumpingDesc>
 
 
+
   <DesignatorZoneDelete>Bölgeleri silin</DesignatorZoneDelete>
   <DesignatorZoneDeleteDesc>Stokalanı ve yetiştirme alanı gibi bölgeleri silin.</DesignatorZoneDeleteDesc>
   
+  <DesignatorAreaNoRoofExpand>Çatısız bölge ekle</DesignatorAreaNoRoofExpand>
+  <DesignatorAreaNoRoofExpandDesc>Çatıların oluşmayacağı bir bölge yarat. Bu ayrıca var olan çatıları da yıkacaktır.</DesignatorAreaNoRoofExpandDesc>
+  <DesignatorAreaNoRoofClear>Çatısız bölgeyi sil</DesignatorAreaNoRoofClear>
+  <DesignatorAreaNoRoofClearDesc>Çatısız bir bölgeyi siler.Çatılar burada oluşur, ve var olan çatılar yıkılmaz.</DesignatorAreaNoRoofClearDesc>
+ 
+
+
+
+ <DesignatorExpandAreaAllowed>Erişime izin verilen bölge ekle</DesignatorExpandAreaAllowed>
+  <DesignatorExpandAreaAllowedDesc>Erişime izin verilen bölge ekle.\n\nErişime izin verilen bölgeler kolonistlere belirleyebildiğiniz tanımlı bölgelerdir. Kolonistler izinli bölgelerinin dışında iş yapmayacak ve ihtiyaçlarını yerine getirmeyeceklerdir.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorClearAreaAllowed>Erişime izin verilen bölgeyi kaldır</DesignatorClearAreaAllowed>
+  <DesignatorClearAreaAllowedDesc>Erişime izin verilen bölgeyi kaldır.\n\nErişime izin verilen bölgeler kolonistlere belirleyebildiğiniz tanımlı bölgelerdir. Kolonistler izinli bölgelerinin dışında iş yapmayacak ve ihtiyaçlarını yerine getirmeyeceklerdir.</DesignatorClearAreaAllowedDesc>
+  <ManageAreas>Bölgeleri Yönet...</ManageAreas>
+  <DesignatorRemoveFloor>Zemini kaldır</DesignatorRemoveFloor>
+  <DesignatorRemoveFloorDesc>Arazinin alt kısmını açığa çıkar.</DesignatorRemoveFloorDesc>
+
+
+  <DesignatorStrip>Soy</DesignatorStrip>
+  <DesignatorStripDesc>Cesetleri ve yaralıları soy.</DesignatorStripDesc>
+
+
+  <DesignatorRearmTrap>Tuzağı yeniden kur</DesignatorRearmTrap>
+  <DesignatorRearmTrapDesc>Eğrilmiş Tuzağı yediden kullanmak üzere kur.</DesignatorRearmTrapDesc>
+
+  <DesignatorOpen>Aç</DesignatorOpen>
+  <DesignatorOpenDesc>Dolu mezarları ve konteynerları aç.</DesignatorOpenDesc>
+
+
+  
+  <DesignatorSlaughter>Kes</DesignatorSlaughter>
+  <DesignatorSlaughterDesc>Evcil bir hayvanı kes.</DesignatorSlaughterDesc>
+
+  <DesignatorTame>Evcilleştir</DesignatorTame>
+  <DesignatorTameDesc>Yabani bir hayvanı evcilleştir.</DesignatorTameDesc>
   <DesignatorClaim>Ele geçir</DesignatorClaim>
   <DesignatorClaimDesc>Antik kalıntılar ve terkedilmiş kuşatma merkezleri de dahil olmak üzere tarafsız yapıları kolonin için ele geçir.Ele geçirilmiş yapılar kolonicilerin tarafından tamir edilebilir ve korunabilir.</DesignatorClaimDesc>
   
@@ -69,10 +110,12 @@
   <InteractionSpotWillBeBlocked>Etkileşm noktası {0} tarafından bloke edilecek.</InteractionSpotWillBeBlocked>
   <WouldBlockInteractionSpot>{0} {1}'in etkileşim alanını bloke edecek.</WouldBlockInteractionSpot>
   <TerrainIsAlready>Buradaki arazi zaten {0}.</TerrainIsAlready>
+  <TerrainBeingSmoothed>Bu arazi zaten düzeltilmek üzere seçildi.</TerrainBeingSmoothed>
   <IdenticalThingExists>Aynı şey zaten burada var.</IdenticalThingExists>
   <IdenticalBlueprintExists>Aynı plan zaten burada var.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Buradaki arazi bunu destekleyemez.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Alan zaten kullanılıyor.</SpaceAlreadyOccupied>
+<TerrainMustBeRemovable>Zemin kaldırılabilinir olmalı.</TerrainMustBeRemovable>
 
   
   
