@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
 
@@ -6,16 +6,29 @@
   <Confirm>Onayla</Confirm>
   <GoBack>Geri Dön</GoBack>
   <OK>Tamam</OK>
+ 
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Recovered from incompatible or corrupted mods errors</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog.</RecoveredFromErrorsText>
   
   <!-- Save/load -->
   <SaveGameButton>Kaydet</SaveGameButton>
   <OverwriteButton>Üstüne Kaydet</OverwriteButton>
   <LoadGameButton>Oyunu Yükle</LoadGameButton>
+ <!-- Renaming -->
+  <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
+  <NameIsInUse>Bu isim daha önce kullanılmış.</NameIsInUse>
+  <ZoneGainsName>Bu alan {0}.</ZoneGainsName>
   <ConfirmDelete> {0} dosyayı gerçekten silmek istiyor musun?</ConfirmDelete>
   <DeleteThisSavegame>Bu kayıt dosyasını sil.</DeleteThisSavegame>
   <SavedAs>{0} olarak kaydedildi .</SavedAs>
   <NeedAName>Lütfen isim girin.</NeedAName>
   <LoadingLongEvent>Yükleniyor...</LoadingLongEvent>
+  <SaveIsFromDifferentGameVersion>{0} versiyonunu kullanıyorsunuz ama kayıt dosyası tamamen değişik bir versiyon olan {1} versiyonundan.\n\nBu veriyi açmaya çalışmak işe yaramayacaktır.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild> {0} versiyonunu kullanıyorsunuz ama kayıt dosyası değişik bir yapı olan {1} versiyonundan.\n\nYine de bu dosyayı açmaya çalışmak işe yarayacaktır.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Kayıt dosyası oyuna kaydedildi ve sorunsuz çalışacak..</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Kayıt dosyası bilinmeyen bir formatta olduğu için düzgün bir şekilde açılamıyor.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Dosya kaydedilirken bir sorun yaşandı {0}:\n\n{1}</ProblemSavingFile>
   
   
   <!-- Colony naming-->
@@ -33,6 +46,10 @@
   <!-- Save game incompatible warning -->
   <VersionMismatch>Versiyon Uyuşmazlığı</VersionMismatch>
   <SaveGameIncompatibleWarningText>Versiyon uyuşmazlığı: Harita {0} versiyonunda kaydedilmiş ama biz {1} versiyonunu kullanıyoruz.\n\n Bu kaydı yüklemek muhtemelen hatalara ve kapanmalara neden olacaktır.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch.</WorldFileVersionMismatch>
+  <ModsMismatchWarningTitle>Mods mismatch</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Map was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nMap was saved with (in this order):\n\n{0}\n\nWe are running with:\n\n{1}</ModsMismatchWarningText>
+
   <WorldFileVersionMismatch>Uyarı: Bu dünya versiyon {0} ile oluşturulmuş ama biz {1} versiyonunu kullanıyoruz.\n\nBu dünyayı yüklemek hatalara ve kapanmalara neden olacaktır. Yeni bir dünya oluşturmanızı tavsiye ediyoruz.</WorldFileVersionMismatch>
   
   <!-- Resolution change dialog -->
