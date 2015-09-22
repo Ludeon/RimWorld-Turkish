@@ -14,6 +14,7 @@ A Turkish language translation for RimWorld.
 * [@mahsun4303](https://github.com/mahsun4303)
 * [@XPhyro](https://github.com/XPhyro)
 * [@AlperD](https://github.com/AlperD)
+* [@PMasta](https://github.com/PMasta)
 
 ## Translation Progress
 * DefInjected/TraitDef
