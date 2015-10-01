@@ -4,35 +4,35 @@
   <!-- Start-active concepts -->
 
   <ConceptDef>
-    <defName>Forbidding</defName>
+    <defName>yasaklamak</defName>
     <label>Unforbid resources</label>
     <priority>40</priority>
-    <alertDisplay>true</alertDisplay>
-    <alertStartActive>true</alertStartActive>
-    <highlightTag>ToggleForbidden</highlightTag>
+    <alertDisplay>Doğru</alertDisplay>
+    <alertStartActive>Doğru</alertStartActive>
+    <highlightTag>Geçiş Yasak</highlightTag>
     <helpTexts>
-      <li>Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to UNFORBID it.</li>
+      <li>Öğeleri ile etkileşim olmaz koloniciye YASAKLANMIŞ. \n \n Yasak öğeler bağlı küçük kırmızı bir X var . Bir yasak öğeyi seçin ve Yasaklanmamış alt denetimlerini kullanın.</li>
     </helpTexts>
   </ConceptDef>
 
   <ConceptDef>
-    <defName>Stockpiles</defName>
-    <label>Place stockpile</label>
+    <defName>Depo</defName>
+    <label>Depoyu yerleştir</label>
     <priority>40</priority>
-    <alertDisplay>true</alertDisplay>
-    <alertStartActive>true</alertStartActive>
-    <highlightTag>Stockpile</highlightTag>
+    <alertDisplay>Doğru</alertDisplay>
+    <alertStartActive>Doğru</alertStartActive>
+    <highlightTag>Depo</highlightTag>
     <helpTexts>
       <li>Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left.</li>
     </helpTexts>
   </ConceptDef>
   
   <ConceptDef>
-    <defName>GrowingFood</defName>
-    <label>Place growing zone</label>
+    <defName>Yiyecek yetiştir</defName>
+    <label>Tarım alanı yerleştir</label>
     <priority>37</priority>
-    <alertDisplay>true</alertDisplay>
-    <alertStartActive>true</alertStartActive>
+    <alertDisplay>Doğru</alertDisplay>
+    <alertStartActive>Doğru</alertStartActive>
     <highlightTag>DesignatorZoneCreateGrowing</highlightTag>
     <helpTexts>
       <li>To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground.</li>
