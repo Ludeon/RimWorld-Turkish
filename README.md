@@ -22,8 +22,8 @@ A Turkish language translation for RimWorld.
  * BodyDef **DONE**
  * BodyPartDef **DONE**
  * BodyPartGroupDef **DONE**
- * BrokenStateDef **%0**
- * ConceptDef **%0**
+ * BrokenStateDef **%85**
+ * ConceptDef **%15**
  * DamageDef **%0**
  * DesignationCategoryDef **%0**
  * DifficultyDef **%0**
