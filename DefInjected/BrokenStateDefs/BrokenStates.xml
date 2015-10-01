@@ -22,9 +22,9 @@
     <isAggro>true</isAggro>
     <nameColor>(0.9,0.2,0.5)</nameColor>
     <beginLetterLabel>berserk</beginLetterLabel>
-    <beginLetter>{0} has gone berserk!</beginLetter>
-    <recoveryMessage>{0}'s berserk rage has come to an end.</recoveryMessage>
-    <inspectLine>Broken: Berserk</inspectLine>
+    <beginLetter>{0} cıldırdı!</beginLetter>
+    <recoveryMessage>{0}'in cılgınlıgı sona erdi.</recoveryMessage>
+    <inspectLine>Broken: Cılgın</inspectLine>
     <stateEffecter>Berserk</stateEffecter>
   </BrokenStateDef>
 
@@ -42,10 +42,10 @@
     <blockNormalThoughts>true</blockNormalThoughts>
     <nameColor>(0.65, 0.9, 0.93)</nameColor>
     <beginLetterLabel>daze</beginLetterLabel>
-    <beginLetter>{0} has broken down and is wandering around in a daze.</beginLetter>
+    <beginLetter>{0} cıldırdı ve sersemlemis halde etrafta geziniyor.</beginLetter>
     <beginLetterType>BadNonUrgent</beginLetterType>
-    <recoveryMessage>{0} is no longer dazed.</recoveryMessage>
-    <inspectLine>Broken: Dazed and wandering</inspectLine>
+    <recoveryMessage>{0} artık sersem degil.</recoveryMessage>
+    <inspectLine>Broken: Sersemledi ve geziniyor</inspectLine>
     <prisonersCanDo>false</prisonersCanDo>
   </BrokenStateDef>
 
@@ -62,9 +62,9 @@
     <recoveryThought>Catharsis</recoveryThought>
     <breakType>Soft</breakType>
     <beginLetterLabel>binge</beginLetterLabel>
-    <beginLetter>{0} is binging on alcohol.</beginLetter>
+    <beginLetter>{0} cok fazla alkol alıyor.</beginLetter>
     <beginLetterType>BadNonUrgent</beginLetterType>
-    <recoveryMessage>{0} is no longer binging on alcohol.</recoveryMessage>
+    <recoveryMessage>{0} artık alkol almıyor.</recoveryMessage>
     <inspectLine>Broken: Binging on alcohol</inspectLine>
     <prisonersCanDo>false</prisonersCanDo>
   </BrokenStateDef>
@@ -81,10 +81,10 @@
     <blockNormalThoughts>true</blockNormalThoughts>
     <nameColor>(0.65, 0.9, 0.93)</nameColor>
     <beginLetterLabel>confusion</beginLetterLabel>
-    <beginLetter>{0} has broken down and is wandering around confused.</beginLetter>
+    <beginLetter>{0} cıldırdı ve kafası karısık halde etrafta geziniyor.</beginLetter>
     <beginLetterType>BadNonUrgent</beginLetterType>
-    <recoveryMessage>{0} is no longer confused.</recoveryMessage>
-    <inspectLine>Broken: Confused and wandering</inspectLine>
+    <recoveryMessage>{0} artık kafası karısmıs degil.</recoveryMessage>
+    <inspectLine>Broken: Kafası karıstı ve geziniyor</inspectLine>
   </BrokenStateDef>
   
   <BrokenStateDef ParentName="BaseBrokenState">
@@ -93,9 +93,9 @@
     <breakType>Special</breakType>
     <nameColor>(0.65, 0.9, 0.93)</nameColor>
     <beginLetterLabel>flee</beginLetterLabel>
-    <beginLetter>{0} is fleeing in panic.</beginLetter>
-    <recoveryMessage>{0} is no longer fleeing in panic.</recoveryMessage>
-    <inspectLine>Broken: Fleeing in panic</inspectLine>
+    <beginLetter>{0} panik icinde kacıyor.</beginLetter>
+    <recoveryMessage>{0} artık panik icinde kacmıyor.</recoveryMessage>
+    <inspectLine>Broken: Panik icinde kacıyor</inspectLine>
     <prisonersCanDo>false</prisonersCanDo>
     <blockNormalThoughts>true</blockNormalThoughts>
   </BrokenStateDef>
@@ -108,8 +108,8 @@
     <isAggro>true</isAggro>
     <nameColor>(0.9,0.2,0.5)</nameColor>
     <beginLetterLabel>manhunter</beginLetterLabel>
-    <beginLetter>{0} has become a manhunter!</beginLetter>
-    <recoveryMessage>{0}'s manhunting bloodlust has come to an end.</recoveryMessage>
+    <beginLetter>{0} insan avcısı oldu!</beginLetter>
+    <recoveryMessage>{0}'in kanasusamıs insan avciligi sona erdi.</recoveryMessage>
     <inspectLine>Maddened: Manhunter</inspectLine>
     <stateEffecter>Manhunter</stateEffecter>
   </BrokenStateDef>
@@ -132,10 +132,10 @@
     <blockNormalThoughts>true</blockNormalThoughts>
     <nameColor>(0.65, 0.9, 0.93)</nameColor>
     <beginLetterLabel>gave up</beginLetterLabel>
-    <beginLetter>{0} has given up and is leaving the colony.</beginLetter>
+    <beginLetter>{0} pes etti ve koloniden ayrılıyor.</beginLetter>
     <beginLetterType>BadNonUrgent</beginLetterType>
-    <recoveryMessage>{0} has had a change of heart and is coming back to the colony.</recoveryMessage>
-    <inspectLine>Broken: Given up and leaving</inspectLine>
+    <recoveryMessage>{0} fikrini degistirdi ve koloniye geri donuyor.</recoveryMessage>
+    <inspectLine>Broken: Pes etti ve ayrılıyor</inspectLine>
     <prisonersCanDo>false</prisonersCanDo>
   </BrokenStateDef>
 
