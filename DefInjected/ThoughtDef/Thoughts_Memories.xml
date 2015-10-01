@@ -1,138 +1,330 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<AteRawFood.label>Heeft rauw voedsel gegeten</AteRawFood.label>
-	<AteRawFood.description>Ik heb rauw voedsel gegeten. Kunnen we het niet koken, of op z'n minst tot voedingspasta verwerken?</AteRawFood.description>
-	
-	<AteNutrientPasteMeal.label>Heeft voeidingspasta gegeten</AteNutrientPasteMeal.label>
-	<AteNutrientPasteMeal.description>Ik heb voedingspasta gegeten. Ik weet dat het me in leven houdt, maar niemand wil die rotzooi eten.</AteNutrientPasteMeal.description>
-	
-	<AteFineMeal.label>Heeft een lekkere maaltijd gegeten</AteFineMeal.label>
-	<AteFineMeal.description>Ik heb een lekkere maaltijd gegeten. Heerlijk!</AteFineMeal.description>
-	
-	<AteLavishMeal.label>Heeft een luxe maatlijd gegeten</AteLavishMeal.label>
-	<AteLavishMeal.description>Deze royale maaltijd was zó lekker. Het voedt mijn lichaam en mijn ziel.</AteLavishMeal.description>
+  <rep>
+    <path>SleepDisturbed.stages[0].label</path>
+    <trans>Gestörter Schlaf</trans>
+  </rep>
+  <rep>
+    <path>SleepDisturbed.stages[0].description</path>
+    <trans>Ich konnte nicht in Ruhe schlafen, da ständig Leute durch mein Zimmer gelaufen sind.</trans>
+  </rep>
+
+  <rep>
+    <path>AteRawFood.stages[0].label</path>
+    <trans>Hat rohe Nahrung gegessen</trans>
+  </rep>
+  <rep>
+    <path>AteRawFood.stages[0].description</path>
+    <trans>Ich musste rohe Nahrung essen. Können wir sie nicht kochen oder zumindest zu Nährstoffpaste verarbeiten?</trans>
+  </rep>
+  
+  <rep>
+    <path>AteNutrientPasteMeal.stages[0].label</path>
+    <trans>Hat Nährstoffpaste gegessen</trans>
+  </rep>
+  <rep>
+    <path>AteNutrientPasteMeal.stages[0].description</path>
+    <trans>Ich musste Nährstoffpaste essen. Ich weiß es hält mich am Leben, aber niemand will diese Pampe wirklich essen.</trans>
+  </rep>
+  
+  <rep>
+    <path>AteFineMeal.stages[0].label</path>
+    <trans>Hat eine leckere Mahlzeit gegessen</trans>
+  </rep>
+  <rep>
+    <path>AteFineMeal.stages[0].description</path>
+    <trans>Ich habe ein leckere Mahlzeit gegessen. Mmm, Yummy!</trans>
+  </rep>
+  
+  <rep>
+    <path>AteLavishMeal.stages[0].label</path>
+    <trans>Hat eine üppige Mahlzeit gegessen</trans>
+  </rep>
+  <rep>
+    <path>AteLavishMeal.stages[0].description</path>
+    <trans>Diese Mahlzeit war sehr üppig und so lecker. Sie nährt meinen Körper und meine Seele.</trans>
+  </rep>
+  
 	
   <!-- =========== Cannibalism ===============-->
-	<AteHumanoidMeatDirect.label>Kannibalisme (rauw)</AteHumanoidMeatDirect.label>
-	<AteHumanoidMeatDirect.description>Ik heb het rauwe vlees van een ander mens gegeten, als een dier. Dat is een nachtmerrie.</AteHumanoidMeatDirect.description>
+  
+  <rep>
+    <path>AteHumanlikeMeatDirect.stages[0].label</path>
+    <trans>Kannibalismus (roh)</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatDirect.stages[0].description</path>
+    <trans>Ich habe das Fleisch eines anderen Menschen gegessen, roh, wie ein Tier. Das ist ein Alptraum.</trans>
+  </rep>
 	
-	<AteHumanoidMeatAsIngredient.label>Kannibalisme (gekookt)</AteHumanoidMeatAsIngredient.label>
-	<AteHumanoidMeatAsIngredient.description>Ik heb een maatlijd gegeten met menselijke ingredienten. Dat is vreselijk.</AteHumanoidMeatAsIngredient.description>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].label</path>
+    <trans>Kannibalismus (gekocht)</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredient.stages[0].description</path>
+    <trans>Ich habe eine Mahlzeit mit Menschenfleisch als Zutat gegessen. Das ist so furchtbar.</trans>
+  </rep>
 	
+  <rep>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].label</path>
+    <trans>Kannibalismus (roh)</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatDirectCannibal.stages[0].description</path>
+    <trans>Ich habe das Fleisch eines anderen Menschen gegessen, roh, wie ein Tier. Es war so... saftig.</trans>
+  </rep>
 	
-	<AteHumanoidMeatDirectCannibal.label>Kannibalisme (rauw)</AteHumanoidMeatDirectCannibal.label>
-	<AteHumanoidMeatDirectCannibal.description>Ik heb het rauwe vlees van een ander mens gegeten, als een dier. Het was zo... sappig.</AteHumanoidMeatDirectCannibal.description>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].label</path>
+    <trans>Kannibalismus (gekocht)</trans>
+  </rep>
+  <rep>
+    <path>AteHumanlikeMeatAsIngredientCannibal.stages[0].description</path>
+    <trans>Ich habe eine ein Essen aus Menschenfleisch gegessen. Soo lecker. Wenn ich doch nur ein paar dicke Bohnen und einen leckeren Chianti dazu hätte.</trans>
+  </rep>
 	
-	<AteHumanoidMeatAsIngredientCannibal.label>Kannibalisme (gekookt)</AteHumanoidMeatAsIngredientCannibal.label>
-	<AteHumanoidMeatAsIngredientCannibal.description>Ik heb een maatlijd gegeten met menselijke ingredienten. Zó lekker. Als ik er nou nog maar een paar dikke bonen bij zou hebben.</AteHumanoidMeatAsIngredientCannibal.description>
+  <rep>
+    <path>ButcheredHumanlikeCorpse.stages[0].label</path>
+    <trans>Menschen geschlachtet</trans>
+  </rep>
+  <rep>
+    <path>ButcheredHumanlikeCorpse.stages[0].description</path>
+    <trans>Ich habe gerade jemanden geschlachtet. Als wär's ein Tier.</trans>
+  </rep>
 	
+  <rep>
+    <path>AteWithoutTable.stages[0].label</path>
+    <trans>Vom Boden gegessen</trans>
+  </rep>
+  <rep>
+    <path>AteWithoutTable.stages[0].description</path>
+    <trans>Ich musste vom Boden essen. Können wir keine Tische aufstellen?</trans>
+  </rep>
 	
-	<ButcheredHumanoidCorpse.label>Mens geslacht</ButcheredHumanoidCorpse.label>
-	<ButcheredHumanoidCorpse.description>Ik heb een mens geslacht alsof het een dier was.</ButcheredHumanoidCorpse.description>
-	
-	
-	<AteWithoutTable.label>Van de grond gegeten</AteWithoutTable.label>
-    <AteWithoutTable.description>Ik heb van de grond moeten eten. Kunnen we geen tafel pakken?</AteWithoutTable.description>
 
   <!-- Combat -->
 	
-	<ObservedLayingCorpse.label>Lichaam gezien</ObservedLayingCorpse.label>
-	<ObservedLayingCorpse.description>Ik heb een dood lichaam op de grond zien liggen.</ObservedLayingCorpse.description>
+  <rep>
+    <path>ObservedLayingCorpse.stages[0].label</path>
+    <trans>Leiche gesehen</trans>
+  </rep>
+  <rep>
+    <path>ObservedLayingCorpse.stages[0].description</path>
+    <trans>Ich habe eine Leiche auf dem Boden herum liegen sehen.</trans>
+  </rep>
 	
-	<ObservedLayingRottingCorpse.label>Rottend lichaam gezien</ObservedLayingRottingCorpse.label>
-	<ObservedLayingRottingCorpse.description>Ik heb een verrot lichaam op de grond zien liggen. Het was akelig.</ObservedLayingRottingCorpse.description>
-
-	<WitnessedDeathAlly.label>Zag bondgenoot sterven</WitnessedDeathAlly.label>
-	<WitnessedDeathAlly.description>Ik heb een bondgenoot zien sterven. Het ene moment leefde hij nog, het andere was hij dood.</WitnessedDeathAlly.description>
+  <rep>
+    <path>ObservedLayingRottingCorpse.stages[0].label</path>
+    <trans>Verrottende Leiche gesehen</trans>
+  </rep>
+  <rep>
+    <path>ObservedLayingRottingCorpse.stages[0].description</path>
+    <trans>Ich habe eine verrottende Leiche auf dem Boden liegen sehen. Es war so eklig. Das aufgeblähte Fleisch und all die Maden..</trans>
+  </rep>
 	
-	<WitnessedDeathStranger.label>Zag iemand sterven</WitnessedDeathStranger.label>
-	<WitnessedDeathStranger.description>Ik heb een iemand zien sterven. Het ene moment leefde hij nog, het andere was hij dood.</WitnessedDeathStranger.description>
+  <rep>
+    <path>WitnessedDeathAlly.stages[0].label</path>
+    <trans>Sah Verbündeten sterben</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathAlly.stages[0].description</path>
+    <trans>Ich habe einen Verbündeten sterben sehen. Im einen Moment war er noch am Leben und im nächsten tot.</trans>
+  </rep>
 	
-	<WitnessedDeathStrangerBloodlust.label>Zag iemand sterven</WitnessedDeathStrangerBloodlust.label>
-	<WitnessedDeathStrangerBloodlust.description>Ik heb iemand zien sterven. Wow, dat was heftig!</WitnessedDeathStrangerBloodlust.description>
+  <rep>
+    <path>WitnessedDeathStranger.stages[0].label</path>
+    <trans>Sah jemanden sterben</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathStranger.stages[0].description</path>
+    <trans>Ich habe jemanden sterben sehen. Im einen Moment war er noch am Leben und im nächsten tot.</trans>
+  </rep>
 	
-	<KilledHumanoidBloodlust.label>Heeft iemand omgebracht</KilledHumanoidBloodlust.label>
-	<KilledHumanoidBloodlust.description>Ik heb iemand gedood! Wat een gevoel!</KilledHumanoidBloodlust.description>
+  <rep>
+    <path>WitnessedDeathStrangerBloodlust.stages[0].label</path>
+    <trans>Sah jemanden sterben</trans>
+  </rep>
+  <rep>
+    <path>WitnessedDeathStrangerBloodlust.stages[0].description</path>
+    <trans>Ich habe jemanden sterben sehen. Wow, das war intensiv!</trans>
+  </rep>
 	
-	<BattleWounded.label>Is verwond</BattleWounded.label>
-	<BattleWounded.description>Dat is mijn bloed! Ik ben in de strijd gewond geraakt!</BattleWounded.description>
+  <rep>
+    <path>KilledHumanlikeBloodlust.stages[0].label</path>
+    <trans>Hat jemanden getötet</trans>
+  </rep>
+  <rep>
+    <path>KilledHumanlikeBloodlust.stages[0].description</path>
+    <trans>Ich habe jemanden umgebracht. Was für ein Gefühl!</trans>
+  </rep>
+	
+  <rep>
+    <path>BattleWounded.stages[0].label</path>
+    <trans>Verwundet</trans>
+  </rep>
+  <rep>
+    <path>BattleWounded.stages[0].description</path>
+    <trans>Das ist mein Blut! Ich wurde im Kampf verletzt!</trans>
+  </rep>
+	
 	
 	<!--
-	<ObservedGibbetCageEmpty.label>Zag martelkamer</ObservedGibbetCageEmpty.label>
-	<ObservedGibbetCageEmpty.description>Deze martelkamer ziet er eng uit.</ObservedGibbetCageEmpty.description>
+	<ObservedGibbetCageEmpty.label>Galgenkäfig gesehen</ObservedGibbetCageEmpty.label>
+	<ObservedGibbetCageEmpty.description>Diese Galgenkäfige sehen furchtbar aus.</ObservedGibbetCageEmpty.description>
 
-	<ObservedGibbetCageFullStranger.label>Vreemde in martelkamer gezien</ObservedGibbetCageFullStranger.label>
-	<ObservedGibbetCageFullStranger.description>Ik heb het lichaam van een vreemde in een martelkamer gezien. Wat een vreselijke plaats.</ObservedGibbetCageFullStranger.description>
+	<ObservedGibbetCageFullStranger.label>Fremden in Galgenkäfig gesehen</ObservedGibbetCageFullStranger.label>
+	<ObservedGibbetCageFullStranger.description>Ich habe einen Leiche von einem Fremden im Galgenkäfig gesehen. Was für ein grausamer Ort.</ObservedGibbetCageFullStranger.description>
 
-	<ObservedGibbetCageFullColonist.label>Kolonist in martelkamer </ObservedGibbetCageFullColonist.label>
-	<ObservedGibbetCageFullColonist.description>Ik heb het lichaam van een kolonist in een martelkamer gezien. Niet zo lang geleden praatte ik nog met hem. Wat een verschrikkelijke plaats</ObservedGibbetCageFullColonist.description>
+	<ObservedGibbetCageFullColonist.label>Kolonist in Galgenkäfig gesehen</ObservedGibbetCageFullColonist.label>
+	<ObservedGibbetCageFullColonist.description>Ich habe einen von uns in einem Galgenkäfig gesehen. Vor kurzem habe ich mit dieser Person noch gesprochen. Dieser Ort ist so schrecklich.</ObservedGibbetCageFullColonist.description>
 	-->
-
-	<NewColonyOptimism.label>Niuewe-kolonie-optimisme</NewColonyOptimism.label>
-	<NewColonyOptimism.description>We zijn hier nu geland. Het is een lastige situatie, maar ik ben blij dat we een nieuwe kolonie hebben kunnen stichten.</NewColonyOptimism.description>
 	
-	<NewColonyHope.label>Nieuwe-kolonie-hoop</NewColonyHope.label>
-	<NewColonyHope.description>Ik wen langzaam aan onze situatie, maar het is nog steeds vreemd. Ik hoop dat het zal werken...</NewColonyHope.description>
+  <rep>
+    <path>NewColonyOptimism.stages[0].label</path>
+    <trans>Neue-Kolonie-Optimismus</trans>
+  </rep>
+  <rep>
+    <path>NewColonyOptimism.stages[0].description</path>
+    <trans>Wir sind gerade erst hier gelandet. Es ist eine schwierige Situation, aber ich bin auch aufgeregt, dass wir eine neue Kolonie gründen.</trans>
+  </rep>
+  
+  <rep>
+    <path>NewColonyHope.stages[0].label</path>
+    <trans>Neue-Kolonie-Hoffnung</trans>
+  </rep>
+  <rep>
+    <path>NewColonyHope.stages[0].description</path>
+    <trans>Ich gewöhne mich langsam an unsere Situation, aber es ist noch immer aufregend. Ich hoffe es funktioniert...</trans>
+  </rep>
+  
+  <rep>
+    <path>SleptOutside.stages[0].label</path>
+    <trans>Draußen geschlafen</trans>
+  </rep>
+  <rep>
+    <path>SleptOutside.stages[0].description</path>
+    <trans>Ich musste draußen schlafen, ohne jeglichen Schutz vor den Elementen.</trans>
+  </rep>
+  
+  <rep>
+    <path>SleptOnGround.stages[0].label</path>
+    <trans>Auf dem Boden geschlafen</trans>
+  </rep>
+  <rep>
+    <path>SleptOnGround.stages[0].description</path>
+    <trans>Ich musste, wie ein Tier, auf dem Boden schlafen.</trans>
+  </rep>
+  
+  <rep>
+    <path>SleptInCold.stages[0].label</path>
+    <trans>In der Kälte geschlafen</trans>
+  </rep>
+  <rep>
+    <path>SleptInCold.stages[0].description</path>
+    <trans>Ich musste in der Kälte schlafen. Wir brauchen unbedingt ein paar Heizgeräte.</trans>
+  </rep>
+  
+  <rep>
+    <path>SleptInHeat.stages[0].label</path>
+    <trans>In der Hitze geschlafen</trans>
+  </rep>
+  <rep>
+    <path>SleptInHeat.stages[0].description</path>
+    <trans>Ich musste in unerträglicher Hitze schlafen. Können wir nicht eine Klimaanlage bekommen?</trans>
+  </rep>
+  
+  <rep>
+    <path>KnowPrisonerSold.stages[0].label</path>
+    <trans>Gefangener wurde verkauft</trans>
+  </rep>
+  <rep>
+    <path>KnowPrisonerSold.stages[0].description</path>
+    <trans>Unsere Kolonie hat einen Gefangenen verkauft. Der Gedanke daran ist besorgniserregend.</trans>
+  </rep>
+  
+  <KnowGuestExecuted.stages.0.label>Jemand wurde eingeschläfert</KnowGuestExecuted.stages.0.label>
+  <KnowGuestExecuted.stages.0.description>Ein Gefangener oder ein Gast wurde eingeschläfert.</KnowGuestExecuted.stages.0.description>
+  <KnowGuestExecuted.stages.1.label>Jemand wurde exekutiert</KnowGuestExecuted.stages.1.label>
+  <KnowGuestExecuted.stages.1.description>Ein Gefangener oder ein Gast wurde kaltblütig umgebracht. Diese Kolonie scheint jeden Tag schlimmer zu werden.</KnowGuestExecuted.stages.1.description>
+  <KnowGuestExecuted.stages.2.label>Jemand starb bei Organentnahme</KnowGuestExecuted.stages.2.label>
+  <KnowGuestExecuted.stages.2.description>Ein Gefangener oder ein Gast ist gestorben, nachdem ihm Organe entnommen wurden. Das ist grausam.</KnowGuestExecuted.stages.2.description>
+  
+  <KnowColonistExecuted.stages.0.label>Kolonist wurde eingeschläfert</KnowColonistExecuted.stages.0.label>
+  <KnowColonistExecuted.stages.0.description>Ein Kolonist wurde eingeschläfert.</KnowColonistExecuted.stages.0.description>
+  <KnowColonistExecuted.stages.1.label>Kolonist wurde exekutiert</KnowColonistExecuted.stages.1.label>
+  <KnowColonistExecuted.stages.1.description>Ein Kolonist wurde kaltblütig umgebracht. Diese Kolonie scheint jeden Tag schlimmer zu werden.</KnowColonistExecuted.stages.1.description>
+  <KnowColonistExecuted.stages.2.label>Kolonist starb bei Organentnahme</KnowColonistExecuted.stages.2.label>
+  <KnowColonistExecuted.stages.2.description>Ein Kolonist ist gestorben, nachdem ihm Organe entnommen wurden. Das ist grausam.</KnowColonistExecuted.stages.2.description>
+  
+  <KnowGuestOrganHarvested.stages.0.label>Jemandem Organe entnommen</KnowGuestOrganHarvested.stages.0.label>
+  <KnowGuestOrganHarvested.stages.0.description>Sie haben einem Gast oder einem Gefangenen einfach Organe entnommen. Es ist fürchterlich. Sie zerlegen einen in Einzelteile und derjenige hat gar keine Wahl.</KnowGuestOrganHarvested.stages.0.description>
 
-	<SleptOutside.label>Buiten geslapen</SleptOutside.label>
-	<SleptOutside.description>Ik heb buiten geslapen zonder bescherming van de omgeving.</SleptOutside.description>
-	
-	<SleptOnGround.label>Op de grond geslapen</SleptOnGround.label>
-    <SleptOnGround.description>Ik heb als een dier op de grond geslapen.</SleptOnGround.description>
-
-	<SleptInCold.label>In de kou geslapen</SleptInCold.label>
-	<SleptInCold.description>Ik heb in de kou geslapen. We hebben echt een verwarming nodig</SleptInCold.description>
-
-	<SleptInCold.label>In de hitte geslapen</SleptInCold.label>
-	<SleptInCold.description>Ik heb in de hitte geslapen. We hebben echt airco nodig</SleptInCold.description>
-
-
-	<KnowPrisonerSold.label>Een gevangene is verkocht</KnowPrisonerSold.label>
-	<KnowPrisonerSold.description>Onze kolonie heeft een gevangene verkocht. Die gedachte is zorgwekkend.</KnowPrisonerSold.description>
-
-	<KnowPrisonerExecuted.label>Een gevangene is gedood</KnowPrisonerExecuted.label>
-	<KnowPrisonerExecuted.description>Een gevangene is vermoord. Deze kolonie lijkt iedere dag slechter te worden.</KnowPrisonerExecuted.description>
-
-	<KnowPrisonerBeaten.label>Een gevangene is geslagen</KnowPrisonerBeaten.label>
-	<KnowPrisonerBeaten.description>Ze sloegen een gevangene.</KnowPrisonerBeaten.description>
-
-	<KnowPrisonerOrganHarvested.label>Organen uit gevangene gehaald</KnowPrisonerOrganHarvested.label>
-	<KnowPrisonerOrganHarvested.description>Onze kolonie heeft organen uit een gevangene gehaald. Het is afschuwelijk. Iemand uit elkaar halen terwijl ze geen keus hebben.</KnowPrisonerOrganHarvested.description>
-
-	<KnowPrisonerOrganHarvested.label>Organen uit mij gehaald</KnowPrisonerOrganHarvested.label>
-	<KnowPrisonerOrganHarvested.description>De kolonie heeft organen uit me gehaald! Ze halen me uit elkaar alsof ik schroot ben!</KnowPrisonerOrganHarvested.description>
-
-	<WasImprisoned.label>Was gevangengenomen</WasImprisoned.label>
-	<WasImprisoned.description>Ik ben een tijdje gevangengenomen als een opgesloten dier.</WasImprisoned.description>
-
-
-	<PrisonerFriendlyChat.label>Overtuigd door de bewaker</PrisonerFriendlyChat.label>
-	<PrisonerFriendlyChat.description>Ik heb met de bewaker over de kolonie gepraat. Het klinkt goed...</PrisonerFriendlyChat.description>
-
-
-	<!-- BEGIN: Not in use anymore? -->
-	<JustImprisoned.label>Zojuist gevangengenomen</JustImprisoned.label>
-	<JustImprisoned.description>Ik ben zojuist gevangengenomen. Ik moet beter samenwerken en er voor zorgen dat ik hier uitkom.</JustImprisoned.description>
-
-	<PrisonerBeatenMild.label>Door bewaker geslagen</PrisonerBeatenMild.label>
-	<PrisonerBeatenMild.description>De bewaker heeft me geslagen. Hij heeft me niets laten breken, maar man, dat doet pijn.</PrisonerBeatenMild.description>
-	
-	<PrisonerBeatenVicious.label>Hard geslagen door bewaker</PrisonerBeatenVicious.label>
-	<PrisonerBeatenVicious.description>De bewaker heeft me in elkaar geramd. Het maakt niemand wat uit, of ik daardoor omkom...</PrisonerBeatenVicious.description>
-	<!-- END: Not in use anymore? -->
-
-
-	<SocialTalk.label>Sociaal gesprek gehad</SocialTalk.label>
-	<SocialTalk.description>Ik heb een leuk gesprek gehad.</SocialTalk.description>
-	
-	<AbrasiveTalk.label>Vervelend gesprek gehad</AbrasiveTalk.label>
-	<AbrasiveTalk.description>Iemand was onaardig tegen me. Het ergste is nog, dat hij het waarschijnlijk niet door had..</AbrasiveTalk.description>
-	
-	<GreenThumbHappy.label>Plant geplant</GreenThumbHappy.label>
-	<GreenThumbHappy.description>Wat de wereld nodig heeft: meer planten!</GreenThumbHappy.description>
-
-	<Catharsis.label>catharsis</Catharsis.label>
-	<Catharsis.description>Wat gebeurde er zojuist... Zo ben ik normaal gesproken niet. Ik weet dat ik beter ben dat dit.</Catharsis.description>
+  <KnowColonistOrganHarvested.stages.0.label>Kolonist Organe entnommen</KnowColonistOrganHarvested.stages.0.label>
+  <KnowColonistOrganHarvested.stages.0.description>Sie haben einem Kolonisten einfach Organe entnommen. Es ist fürchterlich. Sie zerlegen einen in Einzelteile und derjenige hat gar keine Wahl.</KnowColonistOrganHarvested.stages.0.description>
+  
+  <MyOrganHarvested.stages.0.label>Meine Organe entnommen</MyOrganHarvested.stages.0.label>
+  <MyOrganHarvested.stages.0.description>Sie haben mir einfach Organe entnommen. Sie zerlegen mich in meine Einzelteile, als wäre ich eine alte Dampfmaschine!</MyOrganHarvested.stages.0.description>
+  
+  <rep>
+    <path>WasImprisoned.stages[0].label</path>
+    <trans>Wurde eingesperrt</trans>
+  </rep>
+  <rep>
+    <path>WasImprisoned.stages[0].description</path>
+    <trans>Die Kolonie hat mich eine Weile eingesperrt, als wär' ich ein wildes Tier.</trans>
+  </rep>
+  
+  <rep>
+    <path>PrisonerFriendlyChat.stages[0].label</path>
+    <trans>Vom Aufseher überzeugt</trans>
+  </rep>
+  <rep>
+    <path>PrisonerFriendlyChat.stages[0].description</path>
+    <trans>Ich habe mit dem Aufseher über die Kolonie gesprochen. Es hört sich nach einem guten Ort an...</trans>
+  </rep>
+  
+  <rep>
+    <path>SocialTalk.stages[0].label</path>
+    <trans>Hatte sozialen Kontakt</trans>
+  </rep>
+  <rep>
+    <path>SocialTalk.stages[0].description</path>
+    <trans>Hatte ein gutes Gespräch.</trans>
+  </rep>
+  
+  <rep>
+    <path>AbrasiveTalk.stages[0].label</path>
+    <trans>Hatte unangenehmes Gespräch</trans>
+  </rep>
+  <rep>
+    <path>AbrasiveTalk.stages[0].description</path>
+    <trans>Jemand sprach mich ziemlich unhöflich und aggressiv an.</trans>
+  </rep>
+  
+  <rep>
+    <path>GreenThumbHappy.stages[0].label</path>
+    <trans>Pflanze angepflanzt</trans>
+  </rep>
+  <rep>
+    <path>GreenThumbHappy.stages[0].description</path>
+    <trans>Was die Welt braucht, sind mehr Pflanzen!</trans>
+  </rep>
+  
+  <rep>
+    <path>Catharsis.stages[0].label</path>
+    <trans>Katharsis</trans>
+  </rep>
+  <rep>
+    <path>Catharsis.stages[0].description</path>
+    <trans>Was gerade passiert ist... Das war ich nicht. Ich weiß, dass ich das besser kann.</trans>
+  </rep>
+  
+  <Nuzzled.stages.0.label>Gehätschelt</Nuzzled.stages.0.label>
+  <Nuzzled.stages.0.description>Ein süßes Tier ließ sich von mir hätscheln.</Nuzzled.stages.0.description>
+  
+  <SomeoneBuriedInSarcophagus.stages.0.label>In Sarkophag begraben</SomeoneBuriedInSarcophagus.stages.0.label>
+  <SomeoneBuriedInSarcophagus.stages.0.description>Diese Kolonie hat jemanden in einem reich verzierten Sarkophag begraben. Möge seine Seele in Frieden ruhen.</SomeoneBuriedInSarcophagus.stages.0.description>
 
 </LanguageData>
