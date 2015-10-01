@@ -77,7 +77,7 @@ A Turkish language translation for RimWorld.
  * Dates.xml **DONE**
  * Designators.xml **DONE**
  * DialogTrees.xml **%DONE**
- * Dialog_StatsReports.xml **%0**
+ * Dialog_StatsReports.xml **%72**
  * DialogsVarious.xml **DONE**
  * Enums.xml **DONE**
  * FloatMenu.xml **%99**
