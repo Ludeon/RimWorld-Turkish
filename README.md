@@ -18,12 +18,12 @@ A Turkish language translation for RimWorld.
 
 ## Translation Progress
 * DefInjected
- * BiomeDef **DONE**
- * BodyDef **DONE**
- * BodyPartDef **DONE**
- * BodyPartGroupDef **DONE**
+ * BiomeDef **%0**
+ * BodyDef **%0**
+ * BodyPartDef **%0**
+ * BodyPartGroupDef **%0**
  * BrokenStateDef **%0*
- * ConceptDef **%15**
+ * ConceptDef **%0**
  * DamageDef **%0**
  * DesignationCategoryDef **%0**
  * DifficultyDef **%0**
@@ -102,7 +102,7 @@ A Turkish language translation for RimWorld.
  * WorkTags.xml **DONE**
  * About.txt **%1**
  * FriendlyName.txt **DONE**
- * LanguageInfo.xml **DONE**
+ * LanguageInfo.xml **DONE** 
 
 
 
