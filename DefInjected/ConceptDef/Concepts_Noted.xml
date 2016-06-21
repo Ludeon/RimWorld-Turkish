@@ -1,66 +1,154 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-ConceptDef>
 
-  <rep>
-    <path>CameraDolly.helpTexts[0]</path>
-    <trans>Bewege die Kamera durch Ziehen mit gedrückter MITTLERER MAUSTASTE oder mit den WASD-Tasten.</trans>
-  </rep>
+	<ConceptDef>
+		<defName>CameraDolly</defName>
+		<priority>95</priority>
+		<helpTexts>
+			<li>Move the camera by clicking and dragging the MIDDLE MOUSE BUTTON or with the WASD keys.</li>
+		</helpTexts>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>Rescuing</defName>
+		<priority>55</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTexts>
+			<li>To rescue a wounded colonist, select a healthy colonist and the right-click on the wounded one.</li>
+		</helpTexts>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>Capturing</defName>
+		<priority>55</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTexts>
+			<li>An enemy has been incapacitated. You can capture them!</li>
+			<li>To capture, select a colonist, right-click on the incapacitated enemy, and select Capture.\n\nYou'll need an extra bed marked for prisoner use.</li>
+		</helpTexts>
+	</ConceptDef>
   
-  <rep>
-    <path>Rescuing.helpTexts[0]</path>
-    <trans>Um einen bewusstlosen Kolonisten zu retten, wähle zunächst einen gesunden Kolonisten aus. Selektiere dann den Bewusstlosen mit einem Rechtsklick und wähle ´Retten´ im Kontextmenü.\n\nDafür benötigst du ein Bett im Krankenbettmodus.</trans>
-  </rep>
+	<ConceptDef>
+		<defName>InteractingWithTraders</defName>
+		<priority>50</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpTexts>
+			<li>You can talk to people with ? over their heads.\n\nSelect a colonist and right-click on the character with ? attached to his head.</li>
+		</helpTexts>
+	</ConceptDef>
+
+	<ConceptDef>
+		<defName>Drafting</defName>
+		<priority>45</priority>
+		<needsOpportunity>True</needsOpportunity>
+    <highlightTag>ToggleDrafted</highlightTag>
+    <helpTexts>
+			<li>To control colonists directly for combat, Draft them by selecting them and hitting the DRAFT button.</li>
+			<li>A drafted colonist will do only what you tell them, and can only take combat actions. Those with weapons will use them when possible.\n\nDon't leave colonists Drafted forever - they'll starve and become unhappy.</li>
+		</helpTexts>
+	</ConceptDef>
+
+  <ConceptDef>
+    <defName>AnimalsDontAttackDoors</defName>
+    <priority>40</priority>
+    <needsOpportunity>True</needsOpportunity>
+    <noteTeaches>true</noteTeaches>
+    <helpTexts>
+      <li>Manhunting animals generally won't attack doors or inactive turrets.\n\nYou can escape them by getting inside or behind a wall. But they'll wait for you.</li>
+    </helpTexts>
+  </ConceptDef>
   
-  <rep>
-    <path>Capturing.helpTexts[0]</path>
-    <trans>Ein Gegner ist bewusstlos. Du kannst ihn fangen!</trans>
-  </rep>
-  <rep>
-    <path>Capturing.helpTexts[1]</path>
-    <trans>Um jemanden gefangen zu nehmen, wähle zunächst einen Kolonisten aus. Selektiere dann den bewusstlosen Gegner mit einem Rechtsklick und wähle 'Fangen' im Kontextmenü.\n\nDafür benötigst du ein Bett im Gefangenenmodus.</trans>
-  </rep>
+  <ConceptDef>
+    <defName>BillsTab</defName>
+    <needsOpportunity>true</needsOpportunity>
+    <opportunityDecays>false</opportunityDecays>
+    <priority>40</priority>
+    <highlightTag>TabBills</highlightTag>
+    <helpTexts>
+      <li>To make colonists work at a table, select the table and open the Bills tab. Here, you can say what meals to cook, what things to craft, what creatures to butcher.</li>
+    </helpTexts>
+  </ConceptDef>
 
-  <rep>
-    <path>Drafting.helpTexts[0]</path>
-    <trans>Um einen Kolonisten für einen Kampf direkt zu steuern, lass ihn die Waffe ziehen, indem du ihn anklickst und dann die 'Waffe ziehen'-Schaltfläche betätigst. Nun kannst du ihm durch Rechtsklicken direkte Bewegungsbefehle erteilen.</trans>
-  </rep>
-  <rep>
-    <path>Drafting.helpTexts[1]</path>
-    <trans>Kolonisten mit gezogener Waffe machen nur das, was du ihnen sagst und können nur kämpfen. Kolonisten mit Waffen benutzen diese auch.\n\nLasse Kolonisten nicht für immer mit gezogener Waffe herumlaufen - sie werden unglücklich und verhungern.</trans>
-  </rep>
-
-  <rep>
-    <path>AnimalsDontAttackDoors.helpTexts[0]</path>
-    <trans>Menschenjagende Tiere werden keine Türen und keine deaktivierten Geschütztürme angreifen.\n\nDu kannst ihnen entkommen, indem du hinter eine Wand flüchtest. Aber sie werden auf dich warten.</trans>
-  </rep>
+	<ConceptDef>
+		<defName>TVForSickPeople</defName>
+		<priority>35</priority>
+		<needsOpportunity>true</needsOpportunity>
+    <noteTeaches>true</noteTeaches>
+    <helpTexts>
+			<li>To entertain sick people in bed, set up a TV they can watch.</li>
+		</helpTexts>
+	</ConceptDef>
   
-  <rep>
-    <path>BillsTab.helpTexts[0]</path>
-    <trans>Damit Kolonisten am Arbeitstisch arbeiten, wähle den Tisch aus und öffne den Aufgabenreiter. Hier kannst du auswählen, welche Mahlzeiten gekocht, welche Produkte erstellt oder welche Kreaturen geschlachtet werden sollen.</trans>
-  </rep>
-
-  <AnimalTraining.helpTexts.0>Du kannst einem zahmen Tier spezielle Fähigkeiten im Reiter TRAINING antrainieren lassen.\n\nTiere können nicht kontinuierlich trainiert werden. Sie brauchen Pausen zwischen Trainingsstunden.</AnimalTraining.helpTexts.0>
+  <ConceptDef>
+    <defName>AnimalTraining</defName>
+    <priority>30</priority>
+    <highlightTag>TabTraining</highlightTag>
+    <helpTexts>
+      <li>You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions.</li>
+    </helpTexts>
+  </ConceptDef>
   
-  <rep>
-    <path>StorageTabCategories.helpTexts[0]</path>
-    <trans>Im Reiter 'Lager' kannst du die Kategorien erweitern und bestimmte Gegenstände erlauben oder verbieten. Klicke auf die Dreiecke links neben den Kategorienamen.</trans>
-  </rep>
+  <ConceptDef>
+    <defName>StorageTabCategories</defName>
+    <priority>20</priority>
+    <needsOpportunity>True</needsOpportunity>
+    <helpTexts>
+      <li>In the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.</li>
+    </helpTexts>
+  </ConceptDef>
 
-  <rep>
-    <path>Mining.helpTexts[0]</path>
-    <trans>Du kannst befehlen, wo etwas abgebaut werden soll, indem du das ARCHITEKT Menü öffnest und das BEFEHLE Menü auswählst.\n\nAus einigen abbaubaren Blöcken bekommt man STAHL, GOLD, PLASTAHL und andere nützliche Materialien.</trans>
-  </rep>
+  <ConceptDef>
+    <defName>Mining</defName>
+    <priority>12</priority>
+    <highlightTag>DesignatorMine</highlightTag>
+    <helpTexts>
+      <li>You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials.</li>
+    </helpTexts>
+  </ConceptDef>
 
-  <rep>
-    <path>OpeningComms.helpTexts[0]</path>
-    <trans>Um mit anderen Kolonien zu kommunizieren, wähle einen Kolonisten aus, selektiere die Kommunikationskonsole mit einem Rechtsklick und wähle im Kontextmenü die zu kontaktierende Fraktion aus.</trans>
-  </rep>
-
-  <rep>
-    <path>Deterioration.helpTexts[0]</path>
-    <trans>Gegenstände, die unter freiem Himmel liegen, varfallen langsam.\n\nWenn du das verhindern möchtest, lagere sie stets unter einem Dach.</trans>
-  </rep>
+  <ConceptDef>
+    <defName>HostilityResponse</defName>
+    <priority>8</priority>
+    <highlightTag>HostilityResponse</highlightTag>
+    <helpTexts>
+      <li>You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu.</li>
+    </helpTexts>
+  </ConceptDef>
   
-  <InspectRoomStats.helpTexts.0>Du kannst den Eindruck, Reichtum und das Aussehen eines individuellen Raumes ansehen, indem du die RAUM-STATISTIK unten rechts ein-/ausschaltest.</InspectRoomStats.helpTexts.0>
+  <ConceptDef>
+    <defName>OpeningComms</defName>
+    <priority>5</priority>
+    <needsOpportunity>True</needsOpportunity>
+    <helpTexts>
+      <li>To communicate, select a colonist and right-click on the comms console.</li>
+    </helpTexts>
+  </ConceptDef>
+
+  <ConceptDef>
+    <defName>Deterioration</defName>
+    <priority>4</priority>
+    <noteTeaches>true</noteTeaches>
+    <helpTexts>
+      <li>Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them under a roof.</li>
+    </helpTexts>
+  </ConceptDef>
+
+  <ConceptDef>
+    <defName>InspectRoomStats</defName>
+    <priority>3</priority>
+    <highlightTag>InspectRoomStats</highlightTag>
+    <helpTexts>
+      <li>You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right.</li>
+    </helpTexts>
+  </ConceptDef>
   
-</LanguageData>
+  <ConceptDef>
+    <defName>ClickingMessages</defName>
+    <priority>3</priority>
+    <highlightTag>Messages</highlightTag>
+    <helpTexts>
+      <li>You can click on the notifications in the top-left of the screen to instantly center the camera on their subject.</li>
+    </helpTexts>
+  </ConceptDef>
+  
+</DefPackage-ConceptDef>

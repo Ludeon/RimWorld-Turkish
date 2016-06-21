@@ -1,19 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<Defs>
 
-  <rep>
-    <path>TradeGoodsMustBeNearBeacon.helpTexts[0]</path>
-    <trans>Damit du Gegenstände oder Silber zu einem Händler schicken kannst, musst du ein ORBITALES FUNKFEUER platzieren und ein Lager mit Gegenständen zum Handeln in Reichweite des Funkfeuers erstellen.</trans>
-  </rep>
-  
-  <rep>
-    <path>ArrestingCreatesEnemies.helpTexts[0]</path>
-    <trans>Warnung: Die Person, die du gefangen nehmen willst, kommt evtl. nicht freiwillig mit. Wenn du jemanden gefangen nimmst, wird dieser feindseelige Akt die zugehörige Fraktion zu deinem Gegner machen.</trans>
-  </rep>
-  
-  <rep>
-    <path>SwitchFlickingDesignation.helpTexts[0]</path>
-    <trans>Hinweis: Dies legt nur fest, dass ein Kolonist Schalter betätigen soll.\n\nEs wird so lange nichts passieren, bis ein Kolonist (mit dem Schalter Arbeitstyp) vorbei kommt und den Schalter von Hand betätigt.</trans>
-  </rep>
-  
-</LanguageData>
+
+  <!-- Special concepts with modal dialogs -->
+
+  <ConceptDef>
+    <defName>TradeGoodsMustBeNearBeacon</defName>
+    <noteTeaches>True</noteTeaches>
+    <priority>-1000</priority>
+    <helpTexts>
+      <li>To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it.</li>
+    </helpTexts>
+  </ConceptDef>
+
+  <ConceptDef>
+    <defName>ArrestingCreatesEnemies</defName>
+    <noteTeaches>True</noteTeaches>
+    <priority>-1000</priority>
+    <helpTexts>
+      <li>Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist, their entire faction will become your enemy.</li>
+    </helpTexts>
+  </ConceptDef>
+
+  <ConceptDef>
+    <defName>SwitchFlickingDesignation</defName>
+    <noteTeaches>True</noteTeaches>
+    <priority>-1000</priority>
+    <helpTexts>
+      <li>Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist (with the Flicker work type) comes and flicks the switch by hand.</li>
+    </helpTexts>
+  </ConceptDef>
+
+
+</Defs>
