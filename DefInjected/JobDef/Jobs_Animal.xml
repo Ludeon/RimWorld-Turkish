@@ -1,8 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<Nuzzle.reportString>Hätschelt TargetA.</Nuzzle.reportString>
-	<Mate.reportString>Paart sich mit TargetA.</Mate.reportString>
-	<LayEgg.reportString>Legt ein Ei.</LayEgg.reportString>
+<Defs>
 
-</LanguageData>
+  <JobDef>
+    <defName>Nuzzle</defName>
+    <driverClass>JobDriver_Nuzzle</driverClass>
+    <reportString>Nuzzling TargetA.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>Mate</defName>
+    <driverClass>JobDriver_Mate</driverClass>
+    <reportString>Mating with TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>LayEgg</defName>
+    <driverClass>JobDriver_LayEgg</driverClass>
+    <reportString>Laying egg.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+  
+  <JobDef>
+		<defName>PredatorHunt</defName>
+		<driverClass>JobDriver_PredatorHunt</driverClass>
+		<reportString>Hunting TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+    <canCheckOverrideOnDamage>false</canCheckOverrideOnDamage>
+  </JobDef>
+  
+</Defs>
