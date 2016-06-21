@@ -1,423 +1,443 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<HediffDefs>
 
-	<Misc.label>Versch.</Misc.label>
-	<rep>
-		<path>Misc.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<Misc.injuryProps.destroyedLabel>verloren</Misc.injuryProps.destroyedLabel>
+  <HediffDef Name="InjuryBase" Abstract="True">
+    <hediffClass>Hediff_Injury</hediffClass>
+    <displayWound>true</displayWound>
+  </HediffDef>
+
+
+  <!-- Injuries -->
+  
+	<HediffDef ParentName="InjuryBase">
+		<defName>Misc</defName>
+		<label>misc</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <bleeding>2</bleeding>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Destroyed</destroyedLabel>
+    </injuryProps>
+	</HediffDef>
 	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Burn</defName>
+		<label>burn</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.20</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>burn scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>0</bleeding>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>Burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	
-	<Burn.label>Verbrennung</Burn.label>
-	<rep>
-		<path>Burn.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[2].oldLabel</path>
-		<trans>Brandnarbe</trans>
-	</rep>
-	<Burn.injuryProps.destroyedLabel>verbrannt</Burn.injuryProps.destroyedLabel>
-	<Burn.injuryProps.destroyedOutLabel>ausgebrannt</Burn.injuryProps.destroyedOutLabel>
+	<HediffDef ParentName="InjuryBase">
+		<defName>Crush</defName>
+		<label>crush</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.10</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>0.8</bleeding>
+      <canMerge>true</canMerge>
+			<destroyedLabel>Crushed</destroyedLabel>
+		</injuryProps>
+	</HediffDef>
 	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Crack</defName>
+		<label>crack</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>healed</labelTendedWell>
+        <labelTended>poorly healed</labelTended>
+        <labelTendedWellInner>healed</labelTendedWellInner>
+        <labelTendedInner>poorly healed</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.01</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <bleeding>0</bleeding>
+      <destroyedLabel>Shattered</destroyedLabel>
+    </injuryProps>
+	</HediffDef>
 	
-	<Crush.label>Quetschung</Crush.label>
-	<rep>
-		<path>Crush.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[2].oldLabel</path>
-		<trans>Alte Quetschungswunde</trans>
-	</rep>
-	<Crush.injuryProps.destroyedLabel>zerquetscht</Crush.injuryProps.destroyedLabel>
+	<HediffDef ParentName="InjuryBase">
+		<defName>Cut</defName>
+		<label>cut</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.20</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>cut scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>2</bleeding>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	
+	<HediffDef ParentName="InjuryBase">
+		<defName>SurgicalCut</defName>
+		<label>surgical cut</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+			  <oldLabel>cut scar</oldLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>2</bleeding>
+			<canMerge>false</canMerge>
+			<useRemovedLabel>true</useRemovedLabel>
+		</injuryProps>
+	</HediffDef>
 	
-	<Crack.label>Quetschung</Crack.label>
-	<rep>
-		<path>Crack.comps[0].labelTreatedWell</path>
-		<trans>gerichtet</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelTreated</path>
-		<trans>schlecht gerichtet</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelTreatedWellInner</path>
-		<trans>gerichtet</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelTreatedInner</path>
-		<trans>schlecht gerichtet</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelSolidTreatedWell</path>
-		<trans>gerichtet</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelSolidTreated</path>
-		<trans>schlecht gerichtet</trans>
-	</rep>
-	<Crack.injuryProps.destroyedLabel>zerschmettert</Crack.injuryProps.destroyedLabel>
+	<HediffDef ParentName="InjuryBase">
+		<defName>Scratch</defName>
+		<label>scratch</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.20</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>scratch scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>0.8</bleeding>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Bite</defName>
+		<label>bite</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.35</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>bite scar</oldLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <bleeding>0.8</bleeding>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Bitten off</destroyedLabel>
+			<destroyedOutLabel>Bitten out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	
-	<Cut.label>Schnitt</Cut.label>
-	<rep>
-		<path>Cut.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[2].oldLabel</path>
-		<trans>Alte Schnittwunde</trans>
-	</rep>
-	<Cut.injuryProps.destroyedLabel>abgeschnitten</Cut.injuryProps.destroyedLabel>
-	<Cut.injuryProps.destroyedOutLabel>rausgeschnitten</Cut.injuryProps.destroyedOutLabel>
+	<HediffDef ParentName="InjuryBase">
+		<defName>Stab</defName>
+		<label>stab</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.30</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>stab scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>1.6</bleeding>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Cut off</destroyedLabel>
+			<destroyedOutLabel>Cut out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	
+	<HediffDef ParentName="InjuryBase">
+		<defName>Gunshot</defName>
+		<label>gunshot</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.30</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>old gunshot</oldLabel>
+        <instantlyOldLabel>permanent gunshot injury</instantlyOldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+			<painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>1.84</bleeding>
+			<canMerge>false</canMerge>
+      <fullyHealableOnlyByTend>true</fullyHealableOnlyByTend>
+			<destroyedLabel>Shot off</destroyedLabel>
+			<destroyedOutLabel>Shot out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<HediffDef ParentName="InjuryBase">
+		<defName>Shredded</defName>
+		<label>shredded</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.30</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+			  <oldLabel>scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>2</bleeding>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	
-	<SurgicalCut.label>Chirurgischer Schnitt</SurgicalCut.label>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[1].oldLabel</path>
-		<trans>Operationsnarbe</trans>
-	</rep>
-	<SurgicalCut.injuryProps.destroyedLabel>abgeschnitten</SurgicalCut.injuryProps.destroyedLabel>
-	<SurgicalCut.injuryProps.destroyedOutLabel>rausgeschnitten</SurgicalCut.injuryProps.destroyedOutLabel>
+	<HediffDef ParentName="InjuryBase">
+		<defName>Bruise</defName>
+		<label>bruise</label>
+		<naturallyHealed>true</naturallyHealed>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleeding>0</bleeding>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Destroyed</destroyedLabel>
+		</injuryProps>
+	</HediffDef>
+
+  <HediffDef ParentName="InjuryBase">
+    <defName>Frostbite</defName>
+    <label>frostbite</label>
+    <displayWound>false</displayWound>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTended>poorly bandaged</labelTended>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelTendedInner>poorly sutured</labelTendedInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+        <labelSolidTended>poorly set</labelSolidTended>
+      </li>
+      <li>
+        <compClass>HediffComp_Infecter</compClass>
+        <infectionChance>0.50</infectionChance>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>frostbite scar</oldLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <bleeding>0</bleeding>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Lost to frostbite</destroyedLabel>
+    </injuryProps>
+  </HediffDef>
+  
+  <HediffDef ParentName="InjuryBase">
+    <defName>BrainDamage</defName>
+    <label>brain damage</label>
+    <comps>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+        <oldLabel>brain damage</oldLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <bleeding>0</bleeding>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Damaged</destroyedLabel>
+    </injuryProps>
+  </HediffDef>
+  
+  <!-- Missing body part -->
 	
+	<HediffDef>
+    <hediffClass>Hediff_MissingPart</hediffClass>
+		<defName>MissingBodyPart</defName>
+		<label>missing body part</label>
+    <defaultLabelColor>(0.5, 0.5, 0.5, 1)</defaultLabelColor>
+    <comps>
+      <li>
+        <compClass>HediffComp_Tendable</compClass>
+      </li>
+      <li>
+        <compClass>HediffComp_GetsOld</compClass>
+      </li>
+    </comps>
+	</HediffDef>
 	
-	<Scratch.label>Kratzer</Scratch.label>
-	<rep>
-		<path>Scratch.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[2].oldLabel</path>
-		<trans>Alte Kratzwunde</trans>
-	</rep>
-	<Scratch.injuryProps.destroyedLabel>abgerissen</Scratch.injuryProps.destroyedLabel>
-	<Scratch.injuryProps.destroyedOutLabel>ausgerissen</Scratch.injuryProps.destroyedOutLabel>
-	
-	
-	<Bite.label>Biss</Bite.label>
-	<rep>
-		<path>Bite.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[2].oldLabel</path>
-		<trans>Alte Bisswunde</trans>
-	</rep>
-	<Bite.injuryProps.destroyedLabel>abgebissen</Bite.injuryProps.destroyedLabel>
-	<Bite.injuryProps.destroyedOutLabel>ausgebissen</Bite.injuryProps.destroyedOutLabel>
-	
-	
-	<Stab.label>Stich</Stab.label>
-	<rep>
-		<path>Stab.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[2].oldLabel</path>
-		<trans>Alte Stichwunde</trans>
-	</rep>
-	<Stab.injuryProps.destroyedLabel>abgeschnitten</Stab.injuryProps.destroyedLabel>
-	<Stab.injuryProps.destroyedOutLabel>ausgestochen</Stab.injuryProps.destroyedOutLabel>
-	
-	
-	<Gunshot.label>Schuss</Gunshot.label>
-	<rep>
-		<path>Gunshot.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[2].oldLabel</path>
-		<trans>Alte Schusswunde</trans>
-	</rep>
-	<Gunshot.injuryProps.destroyedLabel>abgeschossen</Gunshot.injuryProps.destroyedLabel>
-	<Gunshot.injuryProps.destroyedOutLabel>ausgeschossen</Gunshot.injuryProps.destroyedOutLabel>
-	
-	
-	<Shredded.label>Explosion</Shredded.label>
-	<rep>
-		<path>Shredded.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[2].oldLabel</path>
-		<trans>Splitter</trans>
-	</rep>
-	<Shredded.injuryProps.destroyedLabel>zerrissen</Shredded.injuryProps.destroyedLabel>
-	<Shredded.injuryProps.destroyedOutLabel>ausgerissen</Shredded.injuryProps.destroyedOutLabel>
-	
-	
-	<Bruise.label>Stoß</Bruise.label>
-	<rep>
-		<path>Bruise.comps[0].labelTreatedWell</path>
-		<trans>verbunden</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelTreated</path>
-		<trans>schlecht verbunden</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelTreatedWellInner</path>
-		<trans>genäht</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelTreatedInner</path>
-		<trans>schlecht genäht</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelSolidTreatedWell</path>
-		<trans>geschient</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelSolidTreated</path>
-		<trans>schlecht geschient</trans>
-	</rep>
-	<Bruise.injuryProps.destroyedLabel>abgeschlagen</Bruise.injuryProps.destroyedLabel>
-	<Bruise.injuryProps.destroyedOutLabel>ausgeschlagen</Bruise.injuryProps.destroyedOutLabel>
-	
-	
-	<Frostbite.label>Erfrierung</Frostbite.label>
-	<rep>
-		<path>Frostbite.comps[0].labelTreatedWell</path>
-		<trans>behandelt</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelTreated</path>
-		<trans>schlecht behandelt</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelTreatedWellInner</path>
-		<trans>behandelt</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelTreatedInner</path>
-		<trans>schlecht behandelt</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelSolidTreatedWell</path>
-		<trans>behandelt</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelSolidTreated</path>
-		<trans>schlecht behandelt</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[2].oldLabel</path>
-		<trans>Alte Erfrierung</trans>
-	</rep>
-	<Frostbite.injuryProps.destroyedLabel>durch Erfrierung verloren</Frostbite.injuryProps.destroyedLabel>
-	
-	<BrainDamage.label>Gehirnverletzung</BrainDamage.label>
-	<BrainDamage.comps.0.oldLabel>Gehirnverletzung</BrainDamage.comps.0.oldLabel>
-	<BrainDamage.injuryProps.destroyedLabel>Geschädigt</BrainDamage.injuryProps.destroyedLabel>
-	
-	<!-- Missing body part -->
-	<MissingBodyPart.label>fehlendes Körperteil</MissingBodyPart.label>
-	
-</LanguageData>
+
+</HediffDefs>
