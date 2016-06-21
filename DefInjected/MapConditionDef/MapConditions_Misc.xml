@@ -1,40 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<SolarFlare.label>Sonnensturm</SolarFlare.label>
-	<SolarFlare.description>Die Strahlung einer Sonnenerruption trifft auf den Planeten. Sie verursacht extreme elektrische Störungen. Um größere Schäden zu vermeiden, sollten alle elektrischen Geräte deaktiviert werden.</SolarFlare.description>
-	<SolarFlare.endMessage>Der Sonnensturm ist vorbei.</SolarFlare.endMessage>
-	
-	<Eclipse.label>Sonnenfinsternis</Eclipse.label>
-	<Eclipse.description>Eine Sonnenfinsternis verdunkelt die Oberfläche. Es wird selbst am Tag dunkel bleiben.</Eclipse.description>
-	<Eclipse.endMessage>Die Sonnenfinsternis ist vorbei.</Eclipse.endMessage>
-	
-	<PsychicDrone.label>Psychisches Brummen</PsychicDrone.label>
-	<PsychicDrone.description>Eine weit entfernte künstliche Intelligenz sendet psychische Wellen aus. Dieses Brummen beeinflusst auf Dauer den psychischen Zustand der Kolonisten und kann zu Nervenzusammenbrüchen führen.</PsychicDrone.description>
-	<PsychicDrone.endMessage>Das psychische Brummen hat aufgehört.</PsychicDrone.endMessage>
-	
-	<PsychicSoothe.label>Psychische Beruhigung</PsychicSoothe.label>
-	<PsychicSoothe.description>Eine weit entfernte künstliche Intelligenz sendet psychische Beruhigungswellen aus. Diese entspannenden Wellen beruhigen Kolonisten und stabilieisert ihr Bewusstsein.</PsychicSoothe.description>
-	<PsychicSoothe.endMessage>Die psychische Beruhigung hat aufgehört.</PsychicSoothe.endMessage>
-	
-	<ToxicFallout.label>Giftiger Niederschlag</ToxicFallout.label>
-	<ToxicFallout.description>Eine giftige Wolke legt sich langsam über die ganze Region des Planeten. Jeder, der nicht unter einem Dach ist, muss mit einer langsamen Vergiftung rechnen.</ToxicFallout.description>
-	<ToxicFallout.endMessage>Das Gröbste des giftigen Niederschlages hat sich gelegt.</ToxicFallout.endMessage>
-	
-	<VolcanicWinter.label>Vulkanischer Winter</VolcanicWinter.label>
-	<VolcanicWinter.description>Die Atmosphäre ist gesättigt mit vulkanischen Staubpartikeln, die den Großteil der Sonneneinstrahlung abfangen. Es wird kälter und Pflanzen werden langsamer wachsen.</VolcanicWinter.description>
-	<VolcanicWinter.endMessage>Das Gröbste der Asche hat sich gelegt.</VolcanicWinter.endMessage>
-	
-	<HeatWave.label>Hitzewelle</HeatWave.label>
-	<HeatWave.description>Eine extreme Hitzewelle kocht die Region. Die Kolonisten sollten sich an kühleren Orten aufhalten.</HeatWave.description>
-	<HeatWave.endMessage>Die Hitzewelle ist vorbei.</HeatWave.endMessage>
-	
-	<ColdSnap.label>Kälteeinbruch</ColdSnap.label>
-	<ColdSnap.description>Ein ungewöhnlicher Kälteeinbruch gefriert die Region. Die Kolonisten sollten sich nicht zu lange ungeschützt in der Kälte aufhalten.</ColdSnap.description>
-	<ColdSnap.endMessage>Der Kälteeinbruch ist vorbei.</ColdSnap.endMessage>
-	
-	<Flashstorm.label>Blitzstrum</Flashstorm.label>
-	<Flashstorm.description>Eine extreme Anzahl von Blitzen trift ein kleines Gebiet.</Flashstorm.description>
-	<Flashstorm.endMessage>Der Blitzsturm ist vorbei.</Flashstorm.endMessage>
-	
-</LanguageData>
+<MapConditionDefs>
+
+  <MapConditionDef>
+    <defName>SolarFlare</defName>
+    <label>solar flare</label>
+    <description>A solar flare is hitting the planet. This creates extreme electrical interference and prevents most electrical devices from working.</description>
+    <endMessage>The solar flare is ending.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>Eclipse</defName>
+    <conditionClass>MapCondition_Eclipse</conditionClass>
+    <label>eclipse</label>
+    <description>An eclipse is shadowing the surface. It will be dark, even during the daytime.</description>
+    <endMessage>The eclipse is ending.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>PsychicDrone</defName>
+    <conditionClass>MapCondition_PsychicEmanation</conditionClass>
+    <label>psychic drone</label>
+    <description>A distant, powerful AI is emitting waves of psychic force that are driving people towards insanity.</description>
+    <droneLevel>BadMedium</droneLevel>
+    <endMessage>The psychic drone is ending.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>PsychicSoothe</defName>
+    <conditionClass>MapCondition_PsychicEmanation</conditionClass>
+    <label>psychic soothe</label>
+    <description>A distant, powerful AI is emitting waves of psychic force that are calming people and stabilizing their minds.</description>
+    <droneLevel>GoodMedium</droneLevel>
+    <endMessage>The psychic soothe is ending.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>ToxicFallout</defName>
+    <conditionClass>MapCondition_ToxicFallout</conditionClass>
+    <label>toxic fallout</label>
+    <description>A plume of toxic dust from some distant source is slowly settling over this entire region of the planet. Anyone not under a roof will be slowly poisoned.</description>
+    <endMessage>The worst of the toxic fallout has settled.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>VolcanicWinter</defName>
+    <conditionClass>MapCondition_VolcanicWinter</conditionClass>
+    <label>volcanic winter</label>
+    <description>The atmosphere is choked with volcanic particles, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower.</description>
+    <endMessage>Most of the volcanic ash has settled.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>HeatWave</defName>
+    <conditionClass>MapCondition_HeatWave</conditionClass>
+    <label>heat wave</label>
+    <description>An extreme wave of heat is baking the area.</description>
+    <endMessage>The heat wave is over.</endMessage>
+  </MapConditionDef>
+
+  <MapConditionDef>
+    <defName>ColdSnap</defName>
+    <conditionClass>MapCondition_ColdSnap</conditionClass>
+    <label>cold snap</label>
+    <description>An unusual cold snap is freezing the region.</description>
+    <endMessage>The cold snap is over.</endMessage>
+  </MapConditionDef>
+  
+  <MapConditionDef>
+    <defName>Flashstorm</defName>
+    <conditionClass>MapCondition_Flashstorm</conditionClass>
+    <label>flashstorm</label>
+    <description>Extreme amounts of lightning are hitting a small region.</description>
+    <endMessage>The flashstorm is over.</endMessage>
+  </MapConditionDef>
+  
+</MapConditionDefs>
