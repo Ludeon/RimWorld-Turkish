@@ -1,12 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<Repair.label>Reparieren</Repair.label>
+<Defs>
 
-	<HealInjury.label>Heilen einzelner Verletzungen</HealInjury.label>
+  <DamageDef>
+    <defName>Repair</defName>
+    <label>repairing</label>
+    <workerClass>DamageWorker_Repair</workerClass>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <harmsHealth>false</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+  </DamageDef>
 
-	<HealGlobal.label>Heilen aller Verletzungen</HealGlobal.label>
+  <DamageDef>
+    <defName>HealInjury</defName>
+    <label>heal injury</label>
+    <workerClass>DamageWorker_HealInjury</workerClass>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <harmsHealth>false</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+  </DamageDef>
 
-	<RestoreBodyPart.label>Körperteil wiederherstellen</RestoreBodyPart.label>
-	
-</LanguageData>
+  <DamageDef>
+    <defName>HealGlobal</defName>
+    <label>heal global</label>
+    <workerClass>DamageWorker_HealGlobal</workerClass>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <harmsHealth>false</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+  </DamageDef>
+
+  <DamageDef>
+    <defName>RestoreBodyPart</defName>
+    <label>restore body part</label>
+    <workerClass>DamageWorker_RestoreBodyPart</workerClass>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <harmsHealth>false</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <canInterruptJobs>false</canInterruptJobs>
+  </DamageDef>
+
+
+</Defs>
