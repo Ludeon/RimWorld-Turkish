@@ -1,23 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<AllowCorpsesColonist.label>Erlaube Leichen von Kolonisten</AllowCorpsesColonist.label>
-	<AllowCorpsesColonist.description>Erlaubt tote, ehemalige Kolonisten.</AllowCorpsesColonist.description>
-	
-	<AllowCorpsesStranger.label>Erlaube Leichen von Fremden</AllowCorpsesStranger.label>
-	<AllowCorpsesStranger.description>Erlaubt tote Fremde und Gegner.</AllowCorpsesStranger.description>
-	
-	<AllowRotten.label>Erlaube Verrottendes</AllowRotten.label>
-	<AllowRotten.description>Erlaubt organische Materialien, die angefangen haben, zu verrotten.</AllowRotten.description>
-	
-	<AllowNonSmeltableWeapons.label>Erlaube nicht-schmelzbares</AllowNonSmeltableWeapons.label>
-	<AllowNonSmeltableWeapons.description>Erlaubt Waffen, die nicht eingeschmolzen werden können.</AllowNonSmeltableWeapons.description>
-	
-	<AllowPlantFood.label>Erlaube Futterpflanzen</AllowPlantFood.label>
-	<AllowPlantFood.description>Erlaubt Nahrung die von der Qualität eher ungeernteten Pflanzen entspricht. Z.B. Heu.</AllowPlantFood.description>
-	
-	
-	
-	
+<SpecialThingFilters>
 
-</LanguageData>
+  <SpecialThingFilterDef>
+    <defName>AllowCorpsesColonist</defName>
+    <label>allow colonist corpses</label>
+    <description>Allow dead former colonists.</description>
+    <parentCategory>CorpsesHumanlike</parentCategory>
+    <allowedByDefault>false</allowedByDefault>
+    <saveKey>allowCorpsesColonist</saveKey>
+    <workerClass>SpecialThingFilterWorker_CorpsesColonist</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowCorpsesStranger</defName>
+    <label>allow stranger corpses</label>
+    <description>Allow dead former strangers and enemies.</description>
+    <parentCategory>CorpsesHumanlike</parentCategory>
+    <allowedByDefault>false</allowedByDefault>
+    <saveKey>allowCorpsesStranger</saveKey>
+    <workerClass>SpecialThingFilterWorker_CorpsesStranger</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowRotten</defName>
+    <label>allow rotten</label>
+    <description>Allow organic things which have started to rot.</description>
+    <parentCategory>Root</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowRotten</saveKey>
+    <workerClass>SpecialThingFilterWorker_Rotten</workerClass>
+  </SpecialThingFilterDef>
+  
+  <SpecialThingFilterDef>
+    <defName>AllowNonSmeltableWeapons</defName>
+    <label>allow non-smeltable</label>
+    <description>Allow weapons which can't be smelted.</description>
+    <parentCategory>Weapons</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowNonSmeltableWeapons</saveKey>
+    <workerClass>SpecialThingFilterWorker_NonSmeltableWeapon</workerClass>
+  </SpecialThingFilterDef>
+
+  <SpecialThingFilterDef>
+    <defName>AllowPlantFood</defName>
+    <label>allow plant food</label>
+    <description>Allow foods that are of quality equivalent to unharvested plants, like hay.</description>
+    <parentCategory>Root</parentCategory>
+    <allowedByDefault>true</allowedByDefault>
+    <saveKey>allowPlantFood</saveKey>
+    <configurable>false</configurable>
+    <workerClass>SpecialThingFilterWorker_PlantFood</workerClass>
+  </SpecialThingFilterDef>
+  
+</SpecialThingFilters>
+
+

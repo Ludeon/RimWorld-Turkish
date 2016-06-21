@@ -1,9 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<Defs>
 
-	<Anything.label>Alles</Anything.label>
-	<Work.label>Arbeiten</Work.label>
-	<Joy.label>Freizeit</Joy.label>
-	<Sleep.label>Schlafen</Sleep.label>
+  <TimeAssignmentDef>
+    <defName>Anything</defName>
+    <label>anything</label>
+    <color>(114,114,114)</color>
+  </TimeAssignmentDef>
 
-</LanguageData>
+  <TimeAssignmentDef>
+    <defName>Work</defName>
+    <label>work</label>
+    <color>(107, 107, 52)</color>
+    <allowRest>false</allowRest>
+    <allowJoy>false</allowJoy>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Joy</defName>
+    <label>joy</label>
+    <color>(115, 90, 130)</color>
+  </TimeAssignmentDef>
+
+  <TimeAssignmentDef>
+    <defName>Sleep</defName>
+    <label>sleep</label>
+    <color>(51,51,127)</color>
+  </TimeAssignmentDef>
+  
+</Defs>

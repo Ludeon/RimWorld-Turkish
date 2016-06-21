@@ -1,74 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-  <rep>
-    <path>Imprisoned.stages[0].label</path>
-    <trans>In Gefangenschaft</trans>
-  </rep>
-  <rep>
-    <path>Imprisoned.stages[0].description</path>
-    <trans>Ich hasse es, eingesperrt zu sein.</trans>
-  </rep>
+<ThoughtDefs>
+
+
+  <ThoughtDef>
+    <defName>Imprisoned</defName>
+    <workerClass>ThoughtWorker_Imprisoned</workerClass>
+    <stages>
+      <li>
+        <label>imprisoned</label>
+        <description>I hate being locked up.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SharedBedroom</defName>
+    <workerClass>ThoughtWorker_SharedBedroom</workerClass>
+    <stages>
+      <li>
+        <label>shared bedroom</label>
+        <description>Sharing a room with others is annoying. I want some privacy.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SharedBed</defName>
+    <workerClass>ThoughtWorker_SharedBed</workerClass>
+    <stages>
+      <li>
+        <label>sharing bed</label>
+        <description>I have to share a bed with someone who I don't particularly want to.</description>
+      </li>
+    </stages>
+  </ThoughtDef>
   
-  <rep>
-    <path>SharedBedroom.stages[0].label</path>
-    <trans>Geteiltes Schlafzimmer</trans>
-  </rep>
-  <rep>
-    <path>SharedBedroom.stages[0].description</path>
-    <trans>Mit anderen ein Schlafzimmer zu teilen ist nervend. Ich brauche etwas Privatsphäre.</trans>
-  </rep>
+  <ThoughtDef>
+    <defName>ColonistLeftUnburied</defName>
+    <workerClass>ThoughtWorker_ColonistLeftUnburied</workerClass>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>colonist left unburied</label>
+        <description>One of us died and we're just leaving them lying in the open. Nobody should be left like that. People deserve a decent burial.</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
   
-  <rep>
-    <path>ColonistLeftUnburied.stages[0].label</path>
-    <trans>Kolonist nicht begraben</trans>
-  </rep>
-  <rep>
-    <path>ColonistLeftUnburied.stages[0].description</path>
-    <trans>Einer von uns ist gestorben und wir lassen ihn einfach liegen. Niemand sollte einfach so in der Gegend liegen gelassen werden. Menschen verdienen eine anständige Beerdigung.</trans>
-  </rep>
-  
-  <rep>
-    <path>Naked.stages[0].label</path>
-    <trans>Nackt</trans>
-  </rep>
-  <rep>
-    <path>Naked.stages[0].description</path>
-    <trans>Ich bin Nackt. Das ist so demütigend.</trans>
-  </rep>
-  
-  <rep>
-    <path>Pain.stages[0].label</path>
-    <trans>Leichte Schmerzen</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[0].description</path>
-    <trans>Aua... Das tut weh.</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[1].label</path>
-    <trans>Stärkere Schmerzen</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[1].description</path>
-    <trans>Ughhh... Diese Schmerzen. Wann wird es aufhören?</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[2].label</path>
-    <trans>Starke Schmerzen</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[2].description</path>
-    <trans>Lass es aufhören... Lass es aufhören... Lass es aufhören!</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[3].label</path>
-    <trans>Ohnmächtig vor Schmerz</trans>
-  </rep>
-  <rep>
-    <path>Pain.stages[3].description</path>
-    <trans>AAAAAHHH! Diese Schmerzen! Bitte, erschießt mich!</trans>
-  </rep>
-	
-	
-</LanguageData>
+  <ThoughtDef>
+    <defName>Naked</defName>
+    <workerClass>ThoughtWorker_PsychologicallyNude</workerClass>
+    <nullifyingTraits>
+      <li>Nudist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>naked</label>
+        <description>I'm naked. This is humiliating.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Pain</defName>
+    <workerClass>ThoughtWorker_Pain</workerClass>
+    <nullifyingTraits>
+      <li>Masochist</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>in a little pain</label>
+        <description>Ow... That hurts.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>in a moderate amount of pain</label>
+        <description>Ughhh... When will it end?</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>experiencing acute pain</label>
+        <description>Make it stop... make it stop... make it stop...</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>in shock from exceptional pain</label>
+        <description>AAAAAHHH! Kill me now!</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</ThoughtDefs>

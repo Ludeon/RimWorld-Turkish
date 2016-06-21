@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<Defs>
 
-  <Joywire.stages.0.label>Better-Than-Life</Joywire.stages.0.label>
-  <Joywire.stages.0.description>Das fühlt sich unglaublich an.</Joywire.stages.0.description>
-  
 
-</LanguageData>
+  <ThoughtDef>
+    <defName>Joywire</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Joywire</hediff>
+    <stages>
+      <li>
+        <label>Joywire</label>
+        <description>It feels amazing.</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+
+</Defs>
