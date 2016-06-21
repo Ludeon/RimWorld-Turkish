@@ -1,20 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<FreePlay.label>Freies Spiel</FreePlay.label>
-    <FreePlay.description>Eine Spielweise mit dem Fokus auf einer sandkastenähnlichen Umgebung. Bedrohungen können auftauchen, aber sie sind sehr schwach.</FreePlay.description>
-	
-	<Basebuilder.label>Basisbau</Basebuilder.label>
-    <Basebuilder.description>Eine Spielweise mit dem Fokus auf einer sandkastenähnlichen Umgebung. Bedrohungen können auftauchen, aber sie sind um einiges abgeschwächt.</Basebuilder.description>
-	
-	<Rough.label>Rau</Rough.label>
-    <Rough.description>Es ist ein rauer Planet. Bedrohungen können gefährlich sein und es gibt keinen Bonus auf die Stimmung bzw. die Ernte.</Rough.description>
-	
-	<Challenge.label>Herausfordernd</Challenge.label>
-    <Challenge.description>Ein herausforderndes Spiel. Strategie, Taktik und Glück werden zum Überleben benötigt. Dies ist der empfohlene Schwierigkeitsgrad.</Challenge.description>
-	
-	<Extreme.label>Extrem</Extreme.label>
-    <Extreme.description>So hart wie ein diamantüberzogener Dolch. Gegner sind stark, Preise sind niedrig, Nahrung ist schwer zu beschaffen. Zu allem Überfluss sind auch die Kolonisten schwer zufrieden zu stellen. Dieser Modus ist für alle Freunde des digitalen Leidens.</Extreme.description>
-	
+<Defs>
 
-</LanguageData>
+	<DifficultyDef>
+		<defName>FreePlay</defName>
+		<label>Free play</label>
+		<description>A style of game focused on building a colony in a sandbox-like environment. Threats appear, but they're extremely weak.</description>
+		<threatScale>0.05</threatScale>
+		<colonistMoodOffset>15</colonistMoodOffset>
+		<baseSellPriceFactor>0.70</baseSellPriceFactor>
+		<cropYieldFactor>1.30</cropYieldFactor>
+		<diseaseIntervalFactor>3</diseaseIntervalFactor>
+	</DifficultyDef>
+
+	<DifficultyDef>
+		<defName>Basebuilder</defName>
+		<label>Basebuilder</label>
+		<description>A style of game focused on base building. Threats are scaled back quite a bit.</description>
+		<threatScale>0.35</threatScale>
+		<colonistMoodOffset>10</colonistMoodOffset>
+		<baseSellPriceFactor>0.60</baseSellPriceFactor>
+		<cropYieldFactor>1.20</cropYieldFactor>
+		<diseaseIntervalFactor>1.5</diseaseIntervalFactor>
+	</DifficultyDef>
+
+	<DifficultyDef>
+		<defName>Rough</defName>
+		<label>Rough</label>
+		<description>It's a rough planet. Threats can be quite dangerous, and there are no bonuses to colonist mood or crop yields.</description>
+		<threatScale>0.65</threatScale>
+		<colonistMoodOffset>0</colonistMoodOffset>
+		<baseSellPriceFactor>0.55</baseSellPriceFactor>
+		<cropYieldFactor>1</cropYieldFactor>
+		<diseaseIntervalFactor>1</diseaseIntervalFactor>
+	</DifficultyDef>
+
+	<DifficultyDef>
+		<defName>Challenge</defName>
+		<label>Challenge</label>
+		<description>A challenging game. This level requires strategy, tactics, and luck to survive. The way RimWorld was meant to be played.</description>
+		<threatScale>1.0</threatScale>
+		<colonistMoodOffset>0</colonistMoodOffset>
+		<baseSellPriceFactor>0.55</baseSellPriceFactor>
+		<cropYieldFactor>1</cropYieldFactor>
+		<diseaseIntervalFactor>1</diseaseIntervalFactor>
+	</DifficultyDef>
+
+	<DifficultyDef>
+		<defName>Extreme</defName>
+		<label>Extreme</label>
+		<description>As hard as a diamond-bladed dagger. Enemies are strong, prices are poor, food is scarce, and colonists are grumpy. For those who enjoy digital suffering.</description>
+		<threatScale>1.3</threatScale>
+		<colonistMoodOffset>-10</colonistMoodOffset>
+		<baseSellPriceFactor>0.40</baseSellPriceFactor>
+		<cropYieldFactor>0.9</cropYieldFactor>
+		<diseaseIntervalFactor>0.9</diseaseIntervalFactor>
+	</DifficultyDef>
+	
+	
+</Defs>
