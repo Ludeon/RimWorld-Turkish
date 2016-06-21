@@ -1,30 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<Defs>
 
   <!--================ General ================-->
-  
-	<Basics.label>Basis</Basics.label>
-	<BasicsPawn.label>Basis</BasicsPawn.label>
-	<BasicsNonPawn.label>Basis</BasicsNonPawn.label>
-	
-  <!--================ Non-pawn ================-->
-  
-	<Apparel.label>Kleidung</Apparel.label>
-	<Weapon.label>Waffe</Weapon.label>
-	<Building.label>Gebäude</Building.label>
 
+  <StatCategoryDef>
+    <defName>Basics</defName>
+    <label>Basics</label>
+    <displayOrder>10</displayOrder>
+    <displayAllByDefault>true</displayAllByDefault>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>BasicsPawn</defName>
+    <label>Basics</label>
+    <displayOrder>10</displayOrder>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>BasicsNonPawn</defName>
+    <label>Basics</label>
+    <displayOrder>10</displayOrder>
+  </StatCategoryDef>
+  
+  
+  <!--================ Non-pawn ================-->
+
+  <StatCategoryDef>
+    <defName>Apparel</defName>
+    <label>Apparel</label>
+    <displayOrder>30</displayOrder>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>Weapon</defName>
+    <label>Weapon</label>
+    <displayOrder>40</displayOrder>
+  </StatCategoryDef>
+  
+  <StatCategoryDef>
+    <defName>Building</defName>
+    <label>Building</label>
+    <displayOrder>50</displayOrder>
+  </StatCategoryDef>
+
+  
   <!--=============== Virtual categories ==============-->
+  <StatCategoryDef>
+    <defName>EquippedStatOffsets</defName>
+    <label>Offsets when equipped</label>
+    <displayOrder>70</displayOrder>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>StuffStatFactors</defName>
+    <label>Multipliers when made of this</label>
+    <displayOrder>74</displayOrder>
+    <displayAllByDefault>true</displayAllByDefault>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>StuffStatOffsets</defName>
+    <label>Offsets when made of this</label>
+    <displayOrder>77</displayOrder>
+    <displayAllByDefault>true</displayAllByDefault>
+  </StatCategoryDef>
   
-	<EquippedStatOffsets.label>Anpassung, wenn ausgerüstet</EquippedStatOffsets.label>
-	<StuffStatFactors.label>Multiplikator, wenn etwas hieraus hergestellt ist</StuffStatFactors.label>
-	<StuffStatOffsets.label>Offset, wenn etwas hieraus hergestellt ist</StuffStatOffsets.label>
-	<StuffOfEquipmentStatFactors.label>Multiplikator, wenn Ausrüstung hieraus hergestellt ist</StuffOfEquipmentStatFactors.label>
-	
+  <StatCategoryDef>
+    <defName>StuffOfEquipmentStatFactors</defName>
+    <label>Multipliers when equipment made of this</label>
+    <displayOrder>80</displayOrder>
+    <displayAllByDefault>true</displayAllByDefault>
+  </StatCategoryDef>
+  
+  
+  
+  
   <!--================ Pawn ================-->
-	
-	<PawnCombat.label>Kampf</PawnCombat.label>
-	<PawnSocial.label>Sozial</PawnSocial.label>
-	<PawnMisc.label>Verschiedenes</PawnMisc.label>
-	<PawnWork.label>Arbeit</PawnWork.label>
+
+
+
+  <StatCategoryDef>
+    <defName>PawnCombat</defName>
+    <label>Combat</label>
+    <displayOrder>110</displayOrder>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>PawnSocial</defName>
+    <label>Social</label>
+    <displayOrder>120</displayOrder>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>PawnMisc</defName>
+    <label>Misc</label>
+    <displayOrder>130</displayOrder>
+  </StatCategoryDef>
+
+  <StatCategoryDef>
+    <defName>PawnWork</defName>
+    <label>Work</label>
+    <displayOrder>140</displayOrder>
+  </StatCategoryDef>
   
-</LanguageData>
+
+
+</Defs>
