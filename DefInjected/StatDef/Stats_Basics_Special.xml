@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<MedicalPotency.label>Heilpotential</MedicalPotency.label>
-	<MedicalPotency.description>Wie effektiv dieser Gegenstand beim Heilen von Wunden und Krankheiten sowie bei Operationen ist. Ein höheres Heilpotential verbessert die Wahrscheinlichkeit, dass ein Arzt Wunden erfolgreich behandelt und reduziert gleichzeitig die Misserfolgswahrscheinlichkeit bei Operationen.</MedicalPotency.description>
-	
+<Defs>
 
-</LanguageData>
+  <StatDef>
+    <defName>MedicalPotency</defName>
+    <label>medical potency</label>
+    <description>How effective this is when used to heal wounds and diseases, or do surgery. Higher medical potency improves the chances of a doctor treating wounds properly, and reduces the chances of failure during surgery.</description>
+    <category>BasicsNonPawn</category>
+    <defaultBaseValue>1.0</defaultBaseValue>
+    <maxValue>2.0</maxValue>
+    <minValue>0.0</minValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+  </StatDef>
+
+</Defs>

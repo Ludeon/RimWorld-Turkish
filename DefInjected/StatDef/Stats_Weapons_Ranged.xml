@@ -1,19 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-	
-	<AccuracyTouch.label>Genauigkeit (Berührung)</AccuracyTouch.label>
-	<AccuracyTouch.description>Genauigkeitsmultiplikator, wenn das Ziel berührt wird.</AccuracyTouch.description>
-	
-	<AccuracyShort.label>Genauigkeit (nah)</AccuracyShort.label>
-	<AccuracyShort.description>Genauigkeitsmultiplikator, wenn das Ziel in niedriger Entfernung ist.</AccuracyShort.description>
-	
-	<AccuracyMedium.label>Genauigkeit (mittel)</AccuracyMedium.label>
-	<AccuracyMedium.description>Genauigkeitsmultiplikator, wenn das Ziel in mittlerer Entfernung ist.</AccuracyMedium.description>
-	
-	<AccuracyLong.label>Genauigkeit (weit)</AccuracyLong.label>
-	<AccuracyLong.description>Genauigkeitsmultiplikator, wenn das Ziel in großer Entfernung ist.</AccuracyLong.description>
-	
-	<RangedWeapon_Cooldown.label>Nachladezeit</RangedWeapon_Cooldown.label>
-	<RangedWeapon_Cooldown.description>Wie lange es dauert, bis diese Waffe für den nächsten Schuss bereit ist.</RangedWeapon_Cooldown.description>
-	
-</LanguageData>
+<Defs>
+
+  <StatDef Abstract="True" Name="AccuracyBase">
+    <category>Weapon</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.1</minValue>
+    <maxValue>1</maxValue>
+    <toStringStyle>PercentZero</toStringStyle>
+    <showIfUndefined>false</showIfUndefined>
+    <parts>
+      <li Class="StatPart_Quality">
+        <factorAwful>0.7</factorAwful>
+        <factorShoddy>0.8</factorShoddy>
+        <factorPoor>0.93</factorPoor>
+        <factorNormal>1</factorNormal>
+        <factorGood>1.05</factorGood>
+        <factorSuperior>1.1</factorSuperior>
+        <factorExcellent>1.2</factorExcellent>
+        <factorMasterwork>1.35</factorMasterwork>
+        <factorLegendary>1.5</factorLegendary>
+      </li>
+      <li Class="StatPart_Health">
+        <curve>
+          <points>
+            <li>(0,0.6)</li>
+            <li>(1,1)</li>
+          </points>
+        </curve>
+      </li>
+    </parts>
+  </StatDef>
+
+
+  <StatDef ParentName="AccuracyBase">
+    <defName>AccuracyTouch</defName>
+    <label>Accuracy (touch)</label>
+    <description>Accuracy multiplier at touch range.</description>
+    <displayPriorityInCategory>900</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef ParentName="AccuracyBase">
+    <defName>AccuracyShort</defName>
+    <label>Accuracy (short)</label>
+    <description>Accuracy multiplier at short range.</description>
+    <displayPriorityInCategory>899</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef ParentName="AccuracyBase">
+    <defName>AccuracyMedium</defName>
+    <label>Accuracy (medium)</label>
+    <description>Accuracy multiplier at medium range.</description>
+    <displayPriorityInCategory>898</displayPriorityInCategory>
+  </StatDef>
+
+  <StatDef ParentName="AccuracyBase">
+    <defName>AccuracyLong</defName>
+    <label>Accuracy (long)</label>
+    <description>Accuracy multiplier at long range.</description>
+    <displayPriorityInCategory>897</displayPriorityInCategory>
+  </StatDef>
+
+
+
+  <StatDef>
+    <defName>RangedWeapon_Cooldown</defName>
+    <label>ranged cooldown</label>
+    <description>How long it takes to recover after firing this weapon.</description>
+    <category>Weapon</category>
+    <defaultBaseValue>1</defaultBaseValue>
+    <minValue>0.01</minValue>
+    <toStringStyle>FloatTwo</toStringStyle>
+    <formatString>{0} s</formatString>
+    <showIfUndefined>false</showIfUndefined>
+    <displayPriorityInCategory>500</displayPriorityInCategory>
+  </StatDef>
+
+
+
+
+
+</Defs>
