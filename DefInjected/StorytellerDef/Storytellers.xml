@@ -1,16 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<StorytellerDefs>
 
-	<Cassandra.label>Cassandra Klassik</Cassandra.label>
-    <Cassandra.description>Cassandra erzählt die Geschichte so, dass die Spannungs- und Schwierigkeitskurve stetig ansteigt.</Cassandra.description>
-    <Cassandra.quotation>Die Essenz guter Erzählkunst ist der perfekte Fortschritt eines ständig härter werdenden Kampfes.</Cassandra.quotation>
-	
-	<Phoebe.label>Phoebe Chillout</Phoebe.label>
-	<Phoebe.description>Phoebe gibt dir sehr viel Zeit zwischen Katastrophen, so dass du entspannen und deine Kolonie in Ruhe aufbauen kannst.</Phoebe.description>
-	<Phoebe.quotation>Lass uns entspannen und eine Basis bauen.</Phoebe.quotation>
-	
-	<Randy.label>Reiner Zufall</Randy.label>
-	<Randy.description>Reiner folgt keinen Regeln. Er generiert zufällige Ereignisse und es ist ihm egal, ob die Geschichte ein Triumph oder eine hoffnungslose Niederlage wird. \nFür ihn ist alles Drama.</Randy.description>
-	<Randy.quotation>Die Welt besteht aus Zufällen, Mann! Also sollten Geschichten es auch sein! Hey, hast du Feuer?</Randy.quotation>
 
-</LanguageData>
+	<StorytellerDef>
+		<defName>Cassandra</defName>
+    <label>Cassandra Classic</label>
+    <description>Cassandra creates story events on a steadily-increasing curve of challenge and tension.</description>
+    <quotation>The essence of good storytelling is the perfect progression of intensifying struggle.</quotation>
+    <incidentMakers>
+      <li>IncidentMaker_MainClassic</li>
+      <li>IncidentMaker_Disease</li>
+      <li>IncidentMaker_ShipChunkDrop</li>
+    </incidentMakers>
+    <listOrder>20</listOrder>
+    <portraitLarge>UI/HeroArt/Storytellers/CassandraClassic</portraitLarge>
+    <portraitTiny>UI/HeroArt/Storytellers/CassandraClassicTiny</portraitTiny>
+    <desiredPopulationMin>4</desiredPopulationMin>
+    <desiredPopulationMax>13</desiredPopulationMax>
+    <desiredPopulationCritical>18</desiredPopulationCritical>
+    <threatCycleLength>9.2</threatCycleLength>
+    <minDaysBetweenThreatBigs>1.9</minDaysBetweenThreatBigs>
+    <classic_RandomEventMTBDays>1.00</classic_RandomEventMTBDays>
+    <classic_ThreatSmallMTBDays>3.75</classic_ThreatSmallMTBDays>
+    <classic_ThreatBigMTBDays>1.25</classic_ThreatBigMTBDays>
+  </StorytellerDef>
+
+  
+	<StorytellerDef>
+		<defName>Phoebe</defName>
+    <label>Phoebe Chillax</label>
+		<description>Phoebe gives lots of time between disasters to relax and build your colony. But beware - if she's set at a high challenge scale, she'll hit as hard as anyone.</description>
+		<quotation>Let's chill and build.</quotation>
+		<incidentMakers>
+      <li>IncidentMaker_MainClassic</li>
+      <li>IncidentMaker_Disease</li>
+      <li>IncidentMaker_ShipChunkDrop</li>
+    </incidentMakers>
+		<listOrder>30</listOrder>
+		<portraitLarge>UI/HeroArt/Storytellers/PhoebeFriendly</portraitLarge>
+		<portraitTiny>UI/HeroArt/Storytellers/PhoebeFriendlyTiny</portraitTiny>
+		<desiredPopulationMin>4</desiredPopulationMin>
+		<desiredPopulationMax>13</desiredPopulationMax>
+		<desiredPopulationCritical>18</desiredPopulationCritical>
+    <threatCycleLength>17</threatCycleLength>
+    <minDaysBetweenThreatBigs>12.5</minDaysBetweenThreatBigs>
+    <classic_RandomEventMTBDays>1.00</classic_RandomEventMTBDays>
+    <classic_ThreatSmallMTBDays>8</classic_ThreatSmallMTBDays>
+    <classic_ThreatBigMTBDays>1.25</classic_ThreatBigMTBDays>
+  </StorytellerDef>
+
+
+	<StorytellerDef>
+		<defName>Randy</defName>
+    <label>Randy Random</label>
+		<description>Randy doesn't follow rules. He'll generate random events, and he doesn't care if they make a story of triumph or utter hopelessness. It's all drama to him.</description>
+		<quotation>The world is random, dude. Stories should be too! Hey, you got a light?</quotation>
+		<incidentMakers>
+      <li>IncidentMaker_MainRandom</li>
+      <li>IncidentMaker_Disease</li>
+      <li>IncidentMaker_ShipChunkDrop</li>
+    </incidentMakers>
+    <listOrder>40</listOrder>
+		<portraitLarge>UI/HeroArt/Storytellers/RandyRandom</portraitLarge>
+		<portraitTiny>UI/HeroArt/Storytellers/RandyRandomTiny</portraitTiny>
+		<desiredPopulationMin>4</desiredPopulationMin>
+		<desiredPopulationMax>13</desiredPopulationMax>
+		<desiredPopulationCritical>50</desiredPopulationCritical>
+    <random_AverageIncidentsPerDay>1.45</random_AverageIncidentsPerDay>
+    <random_GeneralWeight>0.79</random_GeneralWeight>
+    <random_ThreatSmallWeight>0.095</random_ThreatSmallWeight>
+    <random_LargeThreatWeight>0.095</random_LargeThreatWeight>
+    <random_MaxThreatBigIntervalDays>13</random_MaxThreatBigIntervalDays>
+  </StorytellerDef>
+
+
+</StorytellerDefs>
