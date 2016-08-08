@@ -110,7 +110,7 @@ A Turkish language translation for RimWorld.
  * NeedDef
     - Needs.xml **DONE**
  * PawnCapacityDef
-    - PawnCapacity.xml **%0**
+    - PawnCapacity.xml **DONE**
  * PawnKindDef 
  * PawnRelationDef
     - PawnRelations_FamilyByBlood.xml **%0**
