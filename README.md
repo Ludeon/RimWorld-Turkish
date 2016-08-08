@@ -112,6 +112,10 @@ A Turkish language translation for RimWorld.
  * PawnCapacityDef
     - PawnCapacity.xml **%0**
  * PawnKindDef 
+ * PawnRelationDef
+    - PawnRelations_FamilyByBlood.xml **%0**
+    - PawnRelations_FamilyByChoice **%0**
+    - PawnRelations_Misc **%0**
  * RaidStrategyDef 
  * RecipeDef 
  * ResearchProjectDef 
