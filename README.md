@@ -117,6 +117,7 @@ A Turkish language translation for RimWorld.
     - PawnRelations_FamilyByChoice **%0**
     - PawnRelations_Misc **%0**
  * RaidStrategyDef 
+    - RaidStrategies.xml **%0**
  * RecipeDef 
  * ResearchProjectDef 
  * RoofDef 
