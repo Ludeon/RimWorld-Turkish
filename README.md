@@ -110,7 +110,11 @@ A Turkish language translation for RimWorld.
  * RoofDef 
  * RoomRoleDef 
  * RoomStatDef 
- * RulePackDef 
+ * RulePackDef
+ * ScenPartDef
+ * ScenarioDef
+     - Scenarios_Classic.xml **%0**
+     - Scenarios_Special.xml **%0**
  * SkillDef 
  * SpecialThingFilterDef 
  * StatCategoryDef 
