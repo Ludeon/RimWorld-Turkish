@@ -94,6 +94,7 @@ A Turkish language translation for RimWorld.
  * JoyKindDef
     - JoyKinds.xml **%0**
  * KeyBindingCategoryDef
+    - KeyBindingCategories.xml **%0**
  * KeyBindingDef 
  * LifeStageDef 
  * MainTabDef
