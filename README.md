@@ -19,9 +19,9 @@ A Turkish language translation for RimWorld.
 ## Translation Progress
 * DefInjected
  * BiomeDef 
-   - Biomes_Arid.xml **DONE**
-   - Biomes_Cold.xml **DONE**
-   - Biomes_Moderate.xml **%2**
+   -Biomes_Arid.xml **DONE**
+   -Biomes_Cold.xml **DONE**
+   -Biomes_Moderate.xml **%2**
  * BodyDef 
    - Bodies_Animal_Bird.xml **%0**
    - Bodies_Animal_Insect.xml **%0**
