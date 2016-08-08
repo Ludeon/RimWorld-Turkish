@@ -66,7 +66,7 @@ A Turkish language translation for RimWorld.
     - Hediffs_Local_Chronic.xml **%0**
     - Hediffs_Local_Implants.xml **%0**
     - Hediffs_Local_Infections.xml **%0**
-    - Hediffs_Local_Misc.xml **%0
+    - Hediffs_Local_Misc.xml **%0**
  * HediffGiverSetDef
     - HediffGiverSets.xml **%0**
  * HistoryAutoRecorderDef
