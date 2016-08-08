@@ -1,69 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-	<DifficultyDef>
-		<defName>axaxaxaxBedava Oyunaxaxaxax</defName>
-		<label>axaxaxaxBedava oyunaxaxaxax</label>
-		<description>Sandbox benzeri bir ortamda koloni kurmaya odaklı oyun tarzı. Tehditler ortaya çıkar, ancak son derece zayıftırlar.</description>
-    <difficulty>1</difficulty>
-    <threatScale>0.05</threatScale>
-		<colonistMoodOffset>5</colonistMoodOffset>
-		<baseSellPriceFactor>0.70</baseSellPriceFactor>
-		<cropYieldFactor>1.30</cropYieldFactor>
-		<diseaseIntervalFactor>3</diseaseIntervalFactor>
-    <enemyReproductionRateFactor>0.1</enemyReproductionRateFactor>
-	</DifficultyDef>
-
-	<DifficultyDef>
-		<defName>Üs Kurucu</defName>
-		<label>Üs Kurucu</label>
-		<description>Üs kurmaya odaklı oyun tarzı. Tehditler oldukça zayıflatılmıştır.</description>
-    <difficulty>2</difficulty>
-    <threatScale>0.35</threatScale>
-		<colonistMoodOffset>-5</colonistMoodOffset>
-		<baseSellPriceFactor>0.60</baseSellPriceFactor>
-		<cropYieldFactor>1.20</cropYieldFactor>
-		<diseaseIntervalFactor>1.5</diseaseIntervalFactor>
-    <enemyReproductionRateFactor>0.4</enemyReproductionRateFactor>
-	</DifficultyDef>
-
-	<DifficultyDef>
-		<defName>Sert</defName>
-		<label>Sert</label>
-		<description>Haşin bir gezegen. Tehditler oldukça tehlikeli olabilir, ayrıca kolonist morallerini ve mahsulleri artırıcı efektler kaldırılır.</description>
-    <difficulty>3</difficulty>
-    <threatScale>0.65</threatScale>
-		<colonistMoodOffset>-10</colonistMoodOffset>
-		<baseSellPriceFactor>0.55</baseSellPriceFactor>
-		<cropYieldFactor>1</cropYieldFactor>
-		<diseaseIntervalFactor>1</diseaseIntervalFactor>
-    <enemyReproductionRateFactor>1</enemyReproductionRateFactor>
-	</DifficultyDef>
-
-	<DifficultyDef>
-		<defName>Zorlayıcı</defName>
-		<label>Zorlayıcı</label>
-		<description>Zorlayıcı bir oyun. Bu seviye hayatta kalmak için strateji, taktik ve şans gerektirir. Rimworld'ün tavsiye edilen zorluk tecrübesi.</description>
-    <difficulty>4</difficulty>
-    <threatScale>1.0</threatScale>
-		<colonistMoodOffset>-13</colonistMoodOffset>
-		<baseSellPriceFactor>0.55</baseSellPriceFactor>
-		<cropYieldFactor>1</cropYieldFactor>
-		<diseaseIntervalFactor>1</diseaseIntervalFactor>
-    <enemyReproductionRateFactor>1</enemyReproductionRateFactor>
-  </DifficultyDef>
-
-	<DifficultyDef>
-		<defName>Aşırı Zor</defName>
-		<label>Aşırı Zor</label>
-		<description>Elmas bir hançer kadar sert. Düşmanlar güçlü, fiyatlar kötü, yiyecekler kıt ve kolonistler huysuz. Dijital ızdırabı sevenler için.</description>
-    <difficulty>5</difficulty>
-    <threatScale>1.3</threatScale>
-		<colonistMoodOffset>-18</colonistMoodOffset>
-		<baseSellPriceFactor>0.40</baseSellPriceFactor>
-		<cropYieldFactor>0.9</cropYieldFactor>
-		<diseaseIntervalFactor>0.9</diseaseIntervalFactor>
-    <enemyReproductionRateFactor>1</enemyReproductionRateFactor>
-  </DifficultyDef>
+	
+	<FreePlay.label>Bedava oyun</FreePlay.label>
+    <FreePlay.description>Sandbox benzeri bir ortamda koloni kurmaya odaklı oyun tarzı. Tehditler ortaya çıkar, ancak son derece zayıftırlar.</FreePlay.description>
+	
+	<Basebuilder.label>Üs Kurucu</Basebuilder.label>
+    <Basebuilder.description>Üs kurmaya odaklı oyun tarzı. Tehditler oldukça zayıflatılmıştır.</Basebuilder.description>
+	
+	<Rough.label>Sert</Rough.label>
+    <Rough.description>Haşin bir gezegen. Tehditler oldukça tehlikeli olabilir, ayrıca kolonist morallerini ve mahsulleri artırıcı efektler kaldırılır.</Rough.description>
+	
+	<Challenge.label>Zorlayıcı</Challenge.label>
+    <Challenge.description>Zorlayıcı bir oyun. Bu seviye hayatta kalmak için strateji, taktik ve şans gerektirir. Rimworld'ün tavsiye edilen zorluk tecrübesi.</Challenge.description>
+	
+	<Extreme.label>Aşırı Zor</Extreme.label>
+    <Extreme.description> Elmas bir hançer kadar sert. Düşmanlar güçlü, fiyatlar kötü, yiyecekler kıt ve kolonistler huysuz. Dijital ızdırabı sevenler için.</Extreme.description>
 	
 </LanguageData>
