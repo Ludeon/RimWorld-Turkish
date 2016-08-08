@@ -22,7 +22,7 @@ A Turkish language translation for RimWorld.
  * BiomeDef 
     - Biomes_Arid.xml **DONE**
     - Biomes_Cold.xml **DONE**
-    - Biomes_Moderate.xml **%2**
+    - Biomes_Moderate.xml **DONE**
  * BodyDef 
     - Bodies_Animal_Bird.xml **%0**
     - Bodies_Animal_Insect.xml **%0**
@@ -103,6 +103,7 @@ A Turkish language translation for RimWorld.
  * MainTabDef
     - MainTabs.xml **%0**
  * MapConditionDef 
+    - MapConditions_Misc.xml **%0**
  * NeedDef
     - Needs.xml **%0**
  * PawnCapacityDef
