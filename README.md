@@ -104,6 +104,9 @@ A Turkish language translation for RimWorld.
     - MainTabs.xml **%0**
  * MapConditionDef 
     - MapConditions_Misc.xml **%0**
+ *MentalStateDef
+    - MentalStates_Mood.xml **%0**
+    - MentalStates_Special.xml **%0**
  * NeedDef
     - Needs.xml **%0**
  * PawnCapacityDef
