@@ -100,7 +100,7 @@ A Turkish language translation for RimWorld.
  * LifeStageDef 
     - LifeStages **%0**
  * MainTabDef
- * MainTabDef
+    - MainTabs.xml **%0**
  * MapConditionDef 
  * NeedDef
     - Needs.xml **%0**
