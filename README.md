@@ -119,6 +119,14 @@ A Turkish language translation for RimWorld.
  * RaidStrategyDef 
     - RaidStrategies.xml **%0**
  * RecipeDef 
+    - Recipes_Butchery.xml **%0**
+    - Recipes_Cremation.xml **%0**
+    - Recipes_Drugs.xml **%0**
+    - Recipes_Meals.xml **%0**
+    - Recipes_Production.xml **%0**
+    - Recipes_Surgery.xml **%0**
+    - Recipes_Surgery_Implants.xml **%0**
+    - Recipes_Surgery_NewParts.xml **%0**
  * ResearchProjectDef 
  * RoofDef 
  * RoomRoleDef 
