@@ -96,6 +96,7 @@ A Turkish language translation for RimWorld.
  * KeyBindingCategoryDef
     - KeyBindingCategories.xml **%0**
  * KeyBindingDef 
+    - KeyBindings **%0**
  * LifeStageDef 
  * MainTabDef
  * MainTabDef
