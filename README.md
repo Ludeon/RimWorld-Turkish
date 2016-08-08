@@ -43,7 +43,7 @@ A Turkish language translation for RimWorld.
     - Concepts_Noted.xml **%0**
     - concepts_TriggeredModal.xml **%0**
  * DamageDef **%0**
-    - Damages_Healing.xml **%00
+    - Damages_Healing.xml **%0**
     - Damages_LocalInjury.xml **%0**
     - Damage_Misc.xml **%0**
  * DesignationCategoryDef
