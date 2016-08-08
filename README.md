@@ -98,6 +98,7 @@ A Turkish language translation for RimWorld.
  * KeyBindingDef 
     - KeyBindings **%0**
  * LifeStageDef 
+    - LifeStages **%0**
  * MainTabDef
  * MainTabDef
  * MapConditionDef 
