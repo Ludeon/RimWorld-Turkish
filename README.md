@@ -92,6 +92,7 @@ A Turkish language translation for RimWorld.
     - Jobs_Misc.xml **%0**
     - Jobs_Work.xml **%0**
  * JoyKindDef
+    - JoyKinds.xml **%0**
  * KeyBindingCategoryDef
  * KeyBindingDef 
  * LifeStageDef 
@@ -113,7 +114,8 @@ A Turkish language translation for RimWorld.
  * SpecialThingFilterDef 
  * StatCategoryDef 
  * StatDef 
- * StorytellerDef 
+ * StorytellerDef
+    - Storytellers.xml **%0**
  * StuffCategoryDef 
  * TaleDef 
  * TerrainDef 
