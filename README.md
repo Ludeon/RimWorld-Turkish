@@ -167,6 +167,7 @@ A Turkish language translation for RimWorld.
  * SpecialThingFilterDef
     - SpecialThingFilters.xml **%0**
  * StatCategoryDef 
+    - StatCategories.xml **%0**
  * StatDef 
  * StorytellerDef
     - Storytellers.xml **%0**
