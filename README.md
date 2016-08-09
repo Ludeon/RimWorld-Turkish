@@ -164,7 +164,8 @@ A Turkish language translation for RimWorld.
     - ScenParts_Various.xml **%0**
  * SkillDef
     - Skills.xml **%0**
- * SpecialThingFilterDef 
+ * SpecialThingFilterDef
+    - SpecialThingFilters.xml **%0**
  * StatCategoryDef 
  * StatDef 
  * StorytellerDef
