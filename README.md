@@ -169,6 +169,18 @@ A Turkish language translation for RimWorld.
  * StatCategoryDef 
     - StatCategories.xml **%0**
  * StatDef 
+    - Stats_Apparel.xml
+    - Stats_Basics_General.xml **%0**
+    - Stats_Basics_Special.xml **%0**
+    - Stats_Building_Special.xml **%0**
+    - Stats_Pawns_Combat.xmş **%0**
+    - Stats_Pawns_General.xml **%0**
+    - Stats_Pawns_Social.xml **%0**
+    - Stats_Pawns_WorkGeneral.xml **%0**
+    - Stats_Pawns_WorkMedical.xml **%0**
+    - Stats_Pawns_WorkRecipes.xml **%0**
+    - Stats_Weapons_Melee.xml **%0**
+    - Stats_Weapons_Ranged.xml **%0**
  * StorytellerDef
     - Storytellers.xml **%0**
  * StuffCategoryDef 
