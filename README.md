@@ -24,12 +24,12 @@ A Turkish language translation for RimWorld.
     - Biomes_Cold.xml **DONE**
     - Biomes_Moderate.xml **DONE**
  * BodyDef 
-    - Bodies_Animal_Bird.xml **%0**
+    - Bodies_Animal_Bird.xml **DONE**
     - Bodies_Animal_Insect.xml **%0**
     - Bodies_Animal_Quadruoed.xml **%0**
-    - Bodies_Animal_Snake.xml **%0**
-    - Bodies_Humanlike.xml **%0**
-    - Bodies_Mechanoid.xml **%0**
+    - Bodies_Animal_Snake.xml **DONE**
+    - Bodies_Humanlike.xml **DONE**
+    - Bodies_Mechanoid.xml **%50**
  * BodyPartDef 
     - BodyParts_Animal.xml **%0**
     - BodyParts_General.xml **%0**
