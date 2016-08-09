@@ -14,7 +14,7 @@ A Turkish language translation for RimWorld.
 * [@Nespraved](https://github.com/Nespraved)
 * [@sonobacari](https://github.com/sonobacari)
 * [@XPhyro](https://github.com/XPhyro)
-* [@AlperD](https://github.com/AlperD)
+* [@AlperD](https://github.com/AlperD) 
 * [@PMasta](https://github.com/PMasta)
 
 ## Translation Progress
@@ -127,7 +127,15 @@ A Turkish language translation for RimWorld.
     - Recipes_Surgery.xml **%0**
     - Recipes_Surgery_Implants.xml **%0**
     - Recipes_Surgery_NewParts.xml **%0**
+ * RecordDef
+    - Records_Misc.xml **%0**
+    - Records_Time.xml **%0**
  * ResearchProjectDef 
+    - ResearchProjects_Tier1_Misc.xml **%0**
+    - ResearchProjects_Tier2_Misc.xml **%0**
+    - ResearchProjects_Tier3_Misc.xml **%0**
+    - ResearchProjects_Tier4_Misc.xml **%0**
+    - ResearchProjects_Tier4_Ship.xml **%0**
  * RoofDef 
  * RoomRoleDef 
  * RoomStatDef 
