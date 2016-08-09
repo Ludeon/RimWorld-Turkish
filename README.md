@@ -143,6 +143,19 @@ A Turkish language translation for RimWorld.
  * RoomStatDef
     - RoomStats.xml **%0**
  * RulePackDef
+    - RulePacks_Art_DescriptionRoot.xml **%0**
+    - RulePacks_Art_ImagesTaleless.xml **%0**
+    - RulePacks_Art_NameRoots.xml **%0**
+    - RulePacks_Art_PhysicalDescriptionRoots.xml **%0**
+    - RulePacks_Global.xml **%0**
+    - RulePacks_InteractionsExtra.xml **%0**
+    - RulePacks_NameMaker_World.xml **%0**
+    - RulePacks_NameMakers_Animals.xml **%0**
+    - RulePacks_NameMakers_Factions.xml **%0**
+    - RulePacks_NameMakers_People.xml **%0**
+    - RulePacks_NameMakers_Scenarios.xml **%0**
+    - RulePacks_NameMakers_Traders.xml **%0**
+    - RulePacks_Seeds.xml **%0**
  * ScenPartDef
  * ScenarioDef
      - Scenarios_Classic.xml **%0**
