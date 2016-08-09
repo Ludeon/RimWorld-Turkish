@@ -156,10 +156,12 @@ A Turkish language translation for RimWorld.
     - RulePacks_NameMakers_Scenarios.xml **%0**
     - RulePacks_NameMakers_Traders.xml **%0**
     - RulePacks_Seeds.xml **%0**
- * ScenPartDef
  * ScenarioDef
      - Scenarios_Classic.xml **%0**
      - Scenarios_Special.xml **%0**
+ * ScenPartDef
+    - ScenParts_Fixed **%0**
+    - ScenParts_Various.xml **%0**
  * SkillDef 
  * SpecialThingFilterDef 
  * StatCategoryDef 
