@@ -194,9 +194,11 @@ A Turkish language translation for RimWorld.
  * TradeDialogSorterDef 
  * TraderKindDef 
  * TrainableDef 
- * TraitDef  
- * WeatherDef  
+ * TraitDef
+ * WeatherDef
+    - Weathers **%70**
  * WorkGiverDef 
+    - WorkGivers.xml**%0**
  * WorkTypeDef 
     - WorkTypes.xml **%0**
  
