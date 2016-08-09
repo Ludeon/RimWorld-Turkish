@@ -184,6 +184,7 @@ A Turkish language translation for RimWorld.
  * StorytellerDef
     - Storytellers.xml **%0**
  * StuffCategoryDef 
+    - StuffCategories.xml **%0**
  * TaleDef 
  * TerrainDef 
  * ThingCategoryDef 
