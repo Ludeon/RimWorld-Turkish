@@ -140,7 +140,8 @@ A Turkish language translation for RimWorld.
     - Roofs.xml **%0**
  * RoomRoleDef 
     - RoomRoles.xml **%0**
- * RoomStatDef 
+ * RoomStatDef
+    - RoomStats.xml **%0**
  * RulePackDef
  * ScenPartDef
  * ScenarioDef
