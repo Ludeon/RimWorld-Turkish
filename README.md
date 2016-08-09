@@ -198,6 +198,7 @@ A Turkish language translation for RimWorld.
  * WeatherDef  
  * WorkGiverDef 
  * WorkTypeDef 
+    - WorkTypes
  
 * Keyed
  * Alerts.xml **%90**
