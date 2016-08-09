@@ -156,8 +156,9 @@ A Turkish language translation for RimWorld.
  * WeatherDef  
  * WorkGiverDef 
  * WorkTypeDef 
+ 
 * Keyed
- * Alerts.xml **DONE**
+ * Alerts.xml **%90**
  * ConceptDefs.xml **DONE**
  * Credits.xml  **DONE**
  * Dates.xml **DONE**
