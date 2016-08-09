@@ -31,11 +31,11 @@ A Turkish language translation for RimWorld.
     - Bodies_Humanlike.xml **DONE**
     - Bodies_Mechanoid.xml **%50**
  * BodyPartDef 
-    - BodyParts_Animal.xml **%0**
-    - BodyParts_General.xml **%0**
-    - BodyParts_Humanoid.xml **%0**
-    - BodyParts_Mechanoid.xml **%0**
-    - BodyParts_Organs.xml **%0**
+    - BodyParts_Animal.xml **DONE**
+    - BodyParts_General.xml **DONE**
+    - BodyParts_Humanoid.xml **DONE**
+    - BodyParts_Mechanoid.xml **DONE**
+    - BodyParts_Organs.xml **DONE**
  * BodyPartGroupDef **%0**
     - BodyPartGroups.xml **%0**
  * ConceptDef 
