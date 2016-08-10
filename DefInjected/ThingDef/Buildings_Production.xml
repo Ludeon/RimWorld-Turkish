@@ -1,53 +1,64 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   
+	<CraftingSpot.label>crafting spot</CraftingSpot.label>
+	<CraftingSpot.description>A place for crafting simple things like shivs or bows.</CraftingSpot.description>
 
-	<NutrientPasteDispenser.label>Yemek Sıkıştırıcısı</NutrientPasteDispenser.label>
-	<NutrientPasteDispenser.description>Organik besinleri sentezleyerek sıkıştırılmış yemek üretir.</NutrientPasteDispenser.description>
+	<TableSculpting.label>sculptor's table</TableSculpting.label>
+	<TableSculpting.description>A workbench equipped for artistic sculpting.</TableSculpting.description>
 	
-	<Hopper.label>Kap</Hopper.label>
-	<Hopper.description>Yemek dispanserinin yemek kaynağını tutar. Dispanserin yanına konulmalıdır.</Hopper.description>
-	
-	<!-- ========================= Work tables ==========================-->
-	
-	<TableButcher.label>Kesim Masası</TableButcher.label>
-	<TableButcher.description>Organik besinleri sentezleyerek sıkıştırılmış yemek üretir.</TableButcher.description>
-	
-	<TableTailor.label>Terzi'nin Çalışma Masası</TableTailor.label>
-	<TableTailor.description>Kumaş ve giysi üretmek için kullanılan çalışma masası.</TableTailor.description>
-	
-	<TableSmithing.label>Demirci Tezgâhı</TableSmithing.label>
-	<TableSmithing.description>Silah ve araç-gereç yapmaya yarayan masa.</TableSmithing.description>
-	
-	<TableSculpting.label>Sanatkâr'ın Masası</TableSculpting.label>
-	<TableSculpting.description>Eser yapmak için kullanılan masa.</TableSculpting.description>
-	
-	<TableMachining.label>Makine Tezgâhı</TableMachining.label>
-	<TableMachining.description>Makine bileşenlerini birleştirmek ve sökmek için kullanılan tezgâh.</TableMachining.description>
-	
-	<CookStove.label>Ocak</CookStove.label>
-	<CookStove.description>Yemekleri pişirmek için kullanılan ocak.</CookStove.description>
-	
-	<TableStonecutter.label>Taş Yontma Tezgâhı</TableStonecutter.label>
-	<TableStonecutter.description>Taş yığınlarından, taş bloklar yapmak için kullanılan tezgâh.</TableStonecutter.description>
-	
-	<Brewery.label>Bira Fabrikası</Brewery.label>
-	<Brewery.description>Bira demlemek için gerekli.</Brewery.description>
-	
-	<ElectricSmelter.label>Elektrikli Eritme Tezgâhı</ElectricSmelter.label>
-	<ElectricSmelter.description>Cüruf yığınlarını ve diğer metal karışımlardan kullanılabilir metal çıkarmaya yarayan tezgâh. Büyük miktarda elektrik tüketir.</ElectricSmelter.description>
-	
-	<Crematorium.label>Ölü Yakma Yeri</Crematorium.label>
-	<Crematorium.description>Ölüleri yakmaya yarar.</Crematorium.description>
-	
-	<ResearchBench.label>Araştırma Masası</ResearchBench.label>
-	<ResearchBench.description>Araştırmacıların yeni şeyler keşfetmesini sağlayan masa.</ResearchBench.description>
-	
-	<!-- ========== Hydroponics ==============-->
-	
-	<HydroponicsBasin.label>Hidroponik Havza</HydroponicsBasin.label>
-	<HydroponicsBasin.description>Kapalı bitki yetiştirmek içindir. Ekinleri çok hızlı büyütürler. Çalışması için elektrik gerekir, eğer elektrik kesilirse bitkiler ölür.</HydroponicsBasin.description>
-	
+	<TableButcher.label>butcher table</TableButcher.label>
+	<TableButcher.description>A heavy table for butchering dead creatures into pieces of raw meat.</TableButcher.description>
 
-		
+  	<HandTailoringBench.label>hand-tailoring bench.</HandTailoringBench.label>
+  	<HandTailoringBench.description>A workbench for tailoring clothes by hand. Works at 40% of the speed of an electric tailoring bench.</HandTailoringBench.description>
+
+	<ElectricTailoringBench.label>electric tailoring bench</ElectricTailoringBench.label>
+  	<ElectricTailoringBench.description>A workbench with a sewing machine for rapid tailoring of clothes. Can work without electricity at 40% of normal speed.</ElectricTailoringBench.description>
+
+  	<FueledSmithy.label>fueled smithy.</FueledSmithy.label>
+  	<FueledSmithy.description>A wood-fueled station equipped for smithing non-mechanical weapons and tools.</FueledSmithy.description>
+
+ 	<ElectricSmithy.label>electric smithy.</ElectricSmithy.label>
+  	<ElectricSmithy.description>An electric-powered station equipped for smithing non-mechanical weapons and tools.</ElectricSmithy.description>
+
+	<TableMachining.label>machining table</TableMachining.label>
+	<TableMachining.description>A work station for assembling and disassembling machinery such as guns or mechanoid corpses.</TableMachining.description>
+
+	<ElectricStove.label>electric stove</ElectricStove.label>
+  	<ElectricStove.description>An electrically-powered stove with an attached countertop for preparing meals.</ElectricStove.description>
+
+  	<FueledStove.label>fueled stove</FueledStove.label>
+  	<FueledStove.description>A simple wood-fueled stove with an attached countertop for preparing meals.</FueledStove.description>
+
+	<TableStonecutter.label>stonecutter's table</TableStonecutter.label>
+	<TableStonecutter.description>A work table equipped to cut rough stone into usable blocks.</TableStonecutter.description>
+	
+	<Brewery.label>brewery</Brewery.label>
+	<Brewery.description>A work station with all the equipment needed to brew beer.</Brewery.description>
+
+	<ElectricSmelter.label>electric smelter</ElectricSmelter.label>
+	<ElectricSmelter.description>Extracts usable metal from slag chunks and other mixed metal items. Consumes a lot of power.</ElectricSmelter.description>
+	
+	<ComponentAssemblyBench.label>component assembly bench</ComponentAssemblyBench.label>
+  	<ComponentAssemblyBench.description>A workbench equipped with advanced tools for producing components from simpler materials.</ComponentAssemblyBench.description>
+
+ 	<SimpleResearchBench.label>simple research bench</SimpleResearchBench.label>
+  	<SimpleResearchBench.description>A simple bench with writing implements and low-tech scientific tools. Researchers work here to discover new things.</SimpleResearchBench.description>
+
+  	<HiTechResearchBench.label>hi-tech research bench</HiTechResearchBench.label>
+  	<HiTechResearchBench.description>A high-tech bench with computers and electronic measurement equipment. Research is sped up by the high-tech tools. Requires power.</HiTechResearchBench.description>
+
+	<ElectricCrematorium.label>electric crematorium</ElectricCrematorium.label>
+	<ElectricCrematorium.description>Cremates corpses. Electrically-powered.</ElectricCrematorium.description>
+	
+	<HydroponicsBasin.label>hydroponics basin</HydroponicsBasin.label>
+	<HydroponicsBasin.description>Grows plants quickly in an artificial nutrient bath. Requires power to work; plants will die if power is cut.</HydroponicsBasin.description>
+	
+  	<NutrientPasteDispenser.label>nutrient paste dispenser</NutrientPasteDispenser.label>
+	<NutrientPasteDispenser.description>Synthesizes nutrient paste from organic feedstocks. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay.</NutrientPasteDispenser.description>
+	
+	<Hopper.label>hopper</Hopper.label>
+	<Hopper.description>Holds resources for use by machines like nutrient paste dispensers.</Hopper.description>
+  
 </LanguageData>
