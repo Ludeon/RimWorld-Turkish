@@ -40,7 +40,7 @@ A Turkish language translation for RimWorld.
     - BodyPartGroups.xml **DONE**
  * ConceptDef 
     - Concepts_Alets.xml **DONE**
-    - Concepts_Entry.xml **%0**
+    - Concepts_Entry.xml **DONE**
     - Concepts_Noted.xml **%0**
     - concepts_TriggeredModal.xml **%0**
  * DamageDef **%0**
