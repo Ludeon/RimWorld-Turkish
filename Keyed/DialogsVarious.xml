@@ -11,11 +11,41 @@
   <RecoveredFromErrorsDialogTitle>Uyumsuz ya da bozulmuş modlardan kurtarıldı.</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Görünüşe göre aktif modlardan bazıları hataya sebep oluyor.\n\nModlar birbirleriyle uyuşmuyor, RimWorld'ün başka bir sürümü için yapılmış ya da bozulmuş olabilir.\n\nBütün modlar devre dışı bırakıldı, modlar kısmından tekrar aktif edilebilir.</RecoveredFromErrorsText>
   
+    <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Error while loading assets</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>An error occurred while loading game assets. See error log for more information.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>The game is currently running with custom mods - they may or may not cause these problems.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Error while generating a map</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>An error occurred while generating a new map. See error log for more information.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Error while loading a map</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>An error occurred while loading a map. See error log for more information.</ErrorWhileLoadingMap>
+  
+  <!-- Missing Steam -->
+  <SteamClientMissing>Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nThis Steam version of the game requires Steam and will now quit.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <InitializingInterface>Initializing interface</InitializingInterface>
+  <UnloadingUnusedAssets>Unloading unused assets</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Loading all active mods</LoadingAllActiveMods>
+  <LoadingDefs>Loading defs</LoadingDefs>
+  <LoadingAssets>Loading assets</LoadingAssets>
+  <Initializing>Initializing</Initializing>
+  <LoadingWorld>Loading world</LoadingWorld>
+  <LoadingMap>Loading map</LoadingMap>
+  <InitializingMap>Initializing map</InitializingMap>
+  <SpawningAllThings>Spawning all things</SpawningAllThings>
+
   <!-- Save/load -->
   <SaveGameButton>Kaydet</SaveGameButton>
   <OverwriteButton>Üstüne Kaydet</OverwriteButton>
   <LoadGameButton>Oyunu Yükle</LoadGameButton>
- <!-- Renaming -->
+  
+  <!-- Colony naming-->
+  <NameColonyMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name.\n\nWhat should it be called?</NameColonyMessage>
+  <ColonyGainsName>The community is now known as {0}.</ColonyGainsName>
+  <ColonyNameIsInvalid>That name isn't valid.</ColonyNameIsInvalid>
+
+  <!-- Renaming -->
   <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
   <NameIsInUse>Bu isim daha önce kullanılmış.</NameIsInUse>
   <ZoneGainsName>Bu alan {0}.</ZoneGainsName>
@@ -174,4 +204,7 @@
   <OutfitInUse>{0} tarafında kullanılıyor.</OutfitInUse>
   <NoOutfitSelected>Giyim seçili değil</NoOutfitSelected>
 	
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>
+
 </LanguageData>
