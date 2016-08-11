@@ -136,7 +136,7 @@ A Turkish language translation for RimWorld.
     - ResearchProjects_Tier2_Misc.xml **%0**
     - ResearchProjects_Tier3_Misc.xml **%0**
     - ResearchProjects_Tier4_Misc.xml **%0**
-    - ResearchProjects_Tier4_Ship.xml **%0** EKLENECEK
+    - ResearchProjects_Tier4_Ship.xml **%0**
  * RoofDef 
     - Roofs.xml **%0**
  * RoomRoleDef 
