@@ -193,11 +193,11 @@ A Turkish language translation for RimWorld.
     - Tales_DoublePawn_Relationships.xml **%0**
     - Tales_NoPawn.xml **%0**
  * TerrainDef 
-    - Terrain_Floors.xml **UPDATE GEREKLİ**
-    - Terrain_FloorsStoneTile.xml **UPDATE GEREKLİ**
-    - Terrain_Natural.xml **UPDATE GEREKLİ**
-    - Terrain_Special.xml **UPDATE GEREKLİ**
-    - Terrain_Water.xml **UPDATE GEREKLİ**
+    - Terrain_Floors.xml **%0**
+    - Terrain_FloorsStoneTile.xml **%0**
+    - Terrain_Natural.xml **%0**
+    - Terrain_Special.xml **%0**
+    - Terrain_Water.xml **%0**
  * ThingCategoryDef  
     - ThingCategories.xml **%DONE**
  * ThingDef **%0**
