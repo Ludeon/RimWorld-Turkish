@@ -42,9 +42,57 @@
   <JoyTolerances>mutluluk toleransı</JoyTolerances>
   <BrokenLetterLabel>Kırık</BrokenLetterLabel>
   
+  <JoyTolerances>Joy tolerances</JoyTolerances>
+  <MilkFullness>Milk fullness</MilkFullness>
+  <WoolGrowth>Wool growth</WoolGrowth>
+  <EggProgress>Egg progress</EggProgress>
+  <Fertilized>Fertilized</Fertilized>
+  <ProgressStoppedUntilFertilized>Progress stopped until fertilized</ProgressStoppedUntilFertilized>
+  <SkillTooLow>need {0} level {2}, have {1}</SkillTooLow>
+  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
+  <CorpsePercentMissing>Missing body parts</CorpsePercentMissing>
+  <HiveReproducesIn>Reproduces in</HiveReproducesIn>
+  <BrokenDown>Broken down</BrokenDown>
+  <BondBrackets>(bond)</BondBrackets>
+  <Fuel>Fuel</Fuel>
+  <Enemies>enemies</Enemies>
+  <TimePassed>time passed</TimePassed>
+  <CurrentRadius>current radius</CurrentRadius>
+  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
+  <Permanent>permanent</Permanent>
+  
+  <!--TextMotes-->
+  <Headshot>Headshot</Headshot>
+  <TreatQuality>treat quality {0}</TreatQuality>
+  <PoorResult>poor result</PoorResult>
+  <GoodResult>good result</GoodResult>
+  <TextMote_TreatSuccess>Treatment success!\n{0} chance</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>Treatment failed\n{0} chance</TextMote_TreatFailed>
+  <HarvestFailed>Harvest\nfailed</HarvestFailed>
+  <TextMote_RecruitFail>Recruit failed!\n{0} chance</TextMote_RecruitFail>
+  <TextMote_TameFail>Tame failed\n{0} chance</TextMote_TameFail>
+  <TextMote_TameSuccess>Tamed!\n{0} chance</TextMote_TameSuccess>
+  <TextMote_TrainFail>Failed training: {0}\n{1} chance</TextMote_TrainFail>
+  <TextMote_TrainSuccess>Trained: {0}\n{1} chance</TextMote_TrainSuccess>
+  <TextMote_FixBrokenDownBuildingFail>Repair\nfailed</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>Construction\nfailed</TextMote_ConstructionFail>
+
+  <!-- Areas -->
+  <Home>Home</Home>
+  <BuildRoof>Build roof</BuildRoof>
+  <NoRoof>No roof</NoRoof>
+  <SnowClear>Snow clear</SnowClear>
+  <AreaDefaultLabel>Area {0}</AreaDefaultLabel>
+  <AreaAnimalDefaultLabel>Animal area {0}</AreaAnimalDefaultLabel>
+  <NoAreaAllowed>Unrestricted</NoAreaAllowed>
+  <NewArea>New area</NewArea>
+  <NewAreaAnimal>New animal area</NewAreaAnimal>
+  <InvertArea>Invert</InvertArea>
+
   <!-- Control -->
   <CannotOrderNonControlled>kontrol edilmeyen birimlere emir veremezsin.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} şiddet uygulayamaz.</IsIncapableOfViolence>
+  <IsIncapableOfViolenceShort>incapable of violence</IsIncapableOfViolenceShort>
   <IsNotDrafted>{0} Hazir Değil.</IsNotDrafted>
   
   <!-- Snow -->
@@ -66,7 +114,22 @@
 	<ReportHauling>{0} taşıyor.</ReportHauling>
   <ReportSleeping>Uyuyor.</ReportSleeping>
   <ReportResting>Dinleniyor.</ReportResting>
-  
+  <WatchingSunrise>watching the sunrise</WatchingSunrise>
+  <CloudWatching>cloudwatching</CloudWatching>
+  <WatchingSunset>watching the sunset</WatchingSunset>
+  <Stargazing>stargazing</Stargazing>
+  <WatchingEclipse>watching the eclipse</WatchingEclipse>
+  <UsingVerb>using {0} on {1}.</UsingVerb>
+  <AreaLower>area</AreaLower>
+  <ReportCowering>cowering.</ReportCowering>
+  <ReportStanding>standing.</ReportStanding>
+  <ReportExtinguishingFire>extinguishing fire.</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>extinguishing fire on {0}.</ReportExtinguishingFireOn>
+
+    <!-- Lord job reports -->
+  <LordReportAttendingMarriageCeremony>Attending marriage ceremony</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>Attending party</LordReportAttendingParty>
+
 	<!-- Shooting report -->
   <WeaponMissRadius>Silahın ıskalama yarıçapı</WeaponMissRadius>
 	<ShootReportShooterAbility>Nişancı</ShootReportShooterAbility>
@@ -78,6 +141,7 @@
 	<ShootingCover>Korunma</ShootingCover>
 	<CoverThingBlocksPercentOfShots>{0} Dur {1}</CoverThingBlocksPercentOfShots>
 	<NoCoverLower>koruma yok</NoCoverLower>
+	<Execution>Execution</Execution>
 	
   <!-- Generated recipes -->
   <RecipeMake>{0} tane yap</RecipeMake>
@@ -87,8 +151,9 @@
   <ThoughtExpiresIn>Sona eriyor: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>{0} gün sonra bitmeye başlıyor.</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>{0} gün sonra bitecek.</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdHard>Sert cinnet eşiği</MentalBreakThresholdHard>
-  <MentalBreakThresholdSoft>Yumuşak cinnet eşiği</MentalBreakThresholdSoft>
+  <MentalBreakThresholdExtreme>Extreme break threshold</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdMajor>Major break threshold</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMinor>Minor break threshold</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <hitPoints>Sağlık</hitPoints>
@@ -151,7 +216,8 @@
   <CurrentlyRefrigerated>Soğutulmuş (Bozulmasına {0})</CurrentlyRefrigerated>
   <NotRefrigerated>Soğutulmamış (Bozulmasına {0})</NotRefrigerated>
   <OverADecade>10 yıldan fazla</OverADecade>
-  
+  <LessThanADay>less than a day</LessThanADay>
+ 
   <!-- Meal -->
   <Ingredients>Malzemeler</Ingredients>
 
@@ -179,6 +245,7 @@
   <DumpingStockpile>Çöp Alanı</DumpingStockpile>
   <Priority>Öncelik</Priority>
   <ClearAll>Hepsini temizle</ClearAll>
+  <AllowAll>Allow all</AllowAll>
 
   <!-- ThingFilter -->
 	<HitPoints>{0} hit points</HitPoints>
@@ -191,8 +258,12 @@
   <!-- Buttons -->
   <ZoneVisibilityToggleButton>Bölgelerin görünebilmesini aç/kapa.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
-  <AutoHomeRegionToggleButton>Yeni yapıların etrafını otomatik olarak ev bölgesine eklenmesini aç/kapa.</AutoHomeRegionToggleButton>
-  <CategorizedResourceReadoutToggleButton>Kaynakları kategori yap.</CategorizedResourceReadoutToggleButton>
+  <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
+  <ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.</ShowColonistBarToggleButton>
+  <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
+  <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
+  <ShowAnimalNamesToggleButton>Toggle displaying animal names for tame named animals.</ShowAnimalNamesToggleButton>
+
 
   <!-- Fire -->
   <Fire>Ateş</Fire>
@@ -202,6 +273,8 @@
  
   <!-- Map conditions (eclipse, solar flare, etc )-->
   <MapConditionsTip>Şuanda bölgeyi etkileyen özel şartlar.</MapConditionsTip>
+  <TimeLeft>time left</TimeLeft>
+  <ImpactDate>impact date</ImpactDate>
 
   <!-- Building placement -->
   <NoStuffsToBuildWith>Bunu inşa etmek için kullanılabilir malzemeye sahip değilsin.</NoStuffsToBuildWith>
@@ -263,17 +336,47 @@
   <!-- Game over -->
   <GameOverEveryoneDead>Herkes öldü veya terketti. Hikaye bitti.\n\nBelkide başkaları bu harabe için bir kullanış bulabilir.</GameOverEveryoneDead>
   <GameOverShipLaunched>Gemi kalkış yaptı! Şu kolonistler kaçtı:\n\n{0}\nŞu kolonistler geride bırakıldı:\n\n{1}\nŞimdi YZ seni ve gemini güvenli bir yere teslim edecek. Seni bu sistemdeki daha iyi bir gezegene götürebilir. Yada başka bir yıldıza gidecek yüzyıllar süren bir yolculuğa çıkartabilir. Hatta belki de küçük bir asteroidin üzerindeki buzda, tarihin daha iyi bir kısmını, bekleyebilir.\n\nSadece uyandığın zaman hangisi olduğunu bileceksin.</GameOverShipLaunched>
+  <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive.</GameOverPlanetkillerImpact>
   <GameOverKeepPlaying>Oynamaya devam et.</GameOverKeepPlaying>
   <GameOverMainMenu>Ana Menü</GameOverMainMenu>
   
   <!-- Generic lifespan -->
   <LifespanExpiry>Expires in:</LifespanExpiry>
+  
+  <!-- Traps -->
+  <TrapArmed>Armed</TrapArmed>
+  <TrapNotArmed>Not armed</TrapNotArmed>
+  <TrapRearmingCost>Rearming cost: {0}</TrapRearmingCost>
+  
+  <!-- Facilities -->
+  <InactiveFacility>inactive</InactiveFacility>
+  
+  <!-- Hediffs growth modes -->
+  <DiseaseGrowthModeChanged_Growing>{0}'s {1} is now growing.</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Stable>{0}'s {1} is now stable.</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Remission>{0}'s {1} is now in remission.</DiseaseGrowthModeChanged_Remission>
+  
+  <!-- Marriage spot -->
+  <MarriageSpotUsable>Usable now.</MarriageSpotUsable>
+  <MarriageSpotNotUsable>Not usable: {0}.</MarriageSpotNotUsable>
+  <MarriageSpotNotStandable>blocked</MarriageSpotNotStandable>
+  <MarriageSpotDangerous>too dangerous for {0}</MarriageSpotDangerous>
+  <MarriageSpotForbidden>forbidden for {0}</MarriageSpotForbidden>
+  <MarriageSpotReserved>reserved</MarriageSpotReserved>
+  <MarriageSpotUnreachable>unreachable for {0}</MarriageSpotUnreachable>
+  <MarriageSpotInPrisonCell>in prison cell</MarriageSpotInPrisonCell>
+  <NotEnjoyableOutsideTemperature>uncomfortable temperature</NotEnjoyableOutsideTemperature>
+  
+  <!-- Colonist bar -->
+  <ActivityIconMedicalRest>Medical rest</ActivityIconMedicalRest>
+  <ActivityIconSleeping>Sleeping</ActivityIconSleeping>
+  <ActivityIconFleeing>Fleeing</ActivityIconFleeing>
+  <ActivityIconAttacking>Fighting</ActivityIconAttacking>
+  <ActivityIconIdle>Idle</ActivityIconIdle>
+  <ActivityIconBurning>Burning</ActivityIconBurning>
 
-  <!-- JobDriver reports -->
-  <WatchingSunrise>Güneşin doğuşunu izliyor</WatchingSunrise>
-  <CloudWatching>Bulutları izliyor</CloudWatching>
-  <WatchingSunset>Güneşin batışını izliyor</WatchingSunset>
-  <Stargazing>Yıldızları gözlemliyor</Stargazing>
-  <WatchingEclipse>Tutulmayı izliyor</WatchingEclipse>
+  <!-- Maintainable -->
+  <DueForMaintenance>Due for maintenance.</DueForMaintenance>
+  <DeterioratingDueToLackOfMaintenance>Deteriorating due to lack of maintenance.</DeterioratingDueToLackOfMaintenance>
 
 </LanguageData>
