@@ -14,19 +14,33 @@
 
   <CloseButton>Kapat</CloseButton>
 
-
   <VersionIndicator>{0} Versiyon</VersionIndicator>
   <DevelopmentBuildLower>Gelişmiş bina</DevelopmentBuildLower>
   <CompiledOn>{0} Derli </CompiledOn>
+  <LoggedIntoSteamAs>Logged into Steam as {0}</LoggedIntoSteamAs>
 
-	<MeatLabel>{0}'nin Eti</MeatLabel>
+  <!-- General-use words -->
+  <Yes>Yes</Yes>
+  <No>No</No>
+  <min>min</min>
+  <max>max</max>
+  <chance>chance</chance>
+  <context>context</context>
+  <multiplier>multiplier</multiplier>
+  <damage>damage</damage>
+  <radius>radius</radius>
+  <durationDays>duration (days)</durationDays>
+
+  <!-- Content generation-->
+  
+  <MeatLabel>{0}'nin Eti</MeatLabel>
   <MeatDesc>{0} 'nin çiğ eti</MeatDesc>
 
   <LeatherLabel>{0} 'nin derisi </LeatherLabel>
   <LeatherDesc>{0} ' nin cildinden yapılmış deri .</LeatherDesc>
 
   <CorpseLabel>{0} 'nin cesedi </CorpseLabel>
-	<CorpseDesc>{0} 'nin Ölü bedeni.</CorpseDesc>
+  <CorpseDesc>{0} 'nin Ölü bedeni.</CorpseDesc>
   <DeadLabel>{0} (ölü) </DeadLabel>
   
   <RoughStoneTerrainLabel>pürüzlü {0}</RoughStoneTerrainLabel>
@@ -40,14 +54,16 @@
   <FrameLabelExtra> (bina)</FrameLabelExtra>
   
   <!-- For things made of stuff, e.g. "Stone bed" -->
-  <!-- 0 is the nameAsStuff property under stuffProps and 1 is the label -->
+  <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
   <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
-  <VariousLabel>(Çeşit)</VariousLabel>
+  <SomeonesRoom>{0}'s {1}</SomeonesRoom>
+  <CouplesRoom>{0} and {1}'s {2}</CouplesRoom>
+  
+  <VariousLabel>(various)</VariousLabel>
 
   <!-- History events -->
-  <ColonistDied>Kolonici öldü</ColonistDied>
-  
+  <ColonistDied>Colonist died</ColonistDied>
   
   
 </LanguageData>
