@@ -29,7 +29,7 @@ A Turkish language translation for RimWorld.
     - Bodies_Animal_Quadruoed.xml **%0**
     - Bodies_Animal_Snake.xml **DONE**
     - Bodies_Humanlike.xml **DONE**
-    - Bodies_Mechanoid.xml **%50**
+    - Bodies_Mechanoid.xml **DONE**
  * BodyPartDef 
     - BodyParts_Animal.xml **DONE**
     - BodyParts_General.xml **DONE**
