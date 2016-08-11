@@ -7,11 +7,12 @@
   <DesignatorCutPlants>Bitkileri kes.</DesignatorCutPlants>
   <DesignatorCutPlantsDesc>Bitkileri kesmek ve yoketmek için işaretle.Bitki tamamen yokedilecek ve hasat edilecektir.</DesignatorCutPlantsDesc>
 
+  <DesignatorDeconstruct>Deconstruct</DesignatorDeconstruct>
+  <DesignatorDeconstructDesc>Deconstruct this and reclaim part of its resources.</DesignatorDeconstructDesc>
+
   <DesignatorUninstall>Kaldır</DesignatorUninstall>
   <DesignatorUninstallDesc>Satılmak veya başka biryere kurmak üzere kaldır.</DesignatorUninstallDesc>
 
-  
-  
   <DesignatorDeconstruct>Yık</DesignatorDeconstruct>
   <DesignatorDeconstructDesc>Binaları yık ve kaynaklarının bir kısmını geri al.</DesignatorDeconstructDesc>
 
@@ -115,7 +116,7 @@
   <IdenticalBlueprintExists>Aynı plan zaten burada var.</IdenticalBlueprintExists>
   <TerrainCannotSupport>Buradaki arazi bunu destekleyemez.</TerrainCannotSupport>
   <SpaceAlreadyOccupied>Alan zaten kullanılıyor.</SpaceAlreadyOccupied>
-<TerrainMustBeRemovable>Zemin kaldırılabilinir olmalı.</TerrainMustBeRemovable>
+  <TerrainMustBeRemovable>Zemin kaldırılabilinir olmalı.</TerrainMustBeRemovable>
 
   
   
@@ -123,7 +124,28 @@
   <ExpandOrCreateZone>{0}'nı genişlet veya\n{1}'nın yenisini oluştur.</ExpandOrCreateZone>
   <CreateNewZone>Yeni bir{0} oluştur.</CreateNewZone>
   
+   <!-- Failure messages -->
+  <UnchosenStuff>Unchosen material</UnchosenStuff>
+  <TooCloseToMapEdge>Too close to map edge.</TooCloseToMapEdge>
+  <OutOfBounds>Out of bounds.</OutOfBounds>
+  <CannotPlaceInUndiscovered>Cannot place in undiscovered areas.</CannotPlaceInUndiscovered>
+  <InteractionSpotBlocked>Interaction spot is blocked by {0}.</InteractionSpotBlocked>
+  <InteractionSpotOutOfBounds>Interaction spot is out of bounds.</InteractionSpotOutOfBounds>
+  <InteractionSpotWillBeBlocked>Interaction spot will be blocked by {0}.</InteractionSpotWillBeBlocked>
+  <WouldBlockInteractionSpot>{0} would block {1}'s interaction spot.</WouldBlockInteractionSpot>
+  <TerrainIsAlready>The terrain here is already {0}.</TerrainIsAlready>
+  <TerrainBeingSmoothed>The terrain is already marked for smoothing.</TerrainBeingSmoothed>
+  <IdenticalThingExists>Identical thing already exists here.</IdenticalThingExists>
+  <IdenticalBlueprintExists>Identical blueprint already exists here.</IdenticalBlueprintExists>
+  <TerrainCannotSupport>The terrain here cannot support this.</TerrainCannotSupport>
+  <SpaceAlreadyOccupied>Space already occupied.</SpaceAlreadyOccupied>
+  <TerrainMustBeRemovable>Must target a removable floor.</TerrainMustBeRemovable>
   
+  
+  <!-- Mouse attachments -->
+  <ExpandOrCreateZone>Expand {0} or\nCreate new {1}</ExpandOrCreateZone>
+  <CreateNewZone>Create new {0}</CreateNewZone>
+
   <!-- desc helpers -->
   <TransmitsPower>Gücü iletiyor</TransmitsPower>
 
