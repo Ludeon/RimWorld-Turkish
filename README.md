@@ -36,10 +36,10 @@ A Turkish language translation for RimWorld.
     - BodyParts_Humanoid.xml **DONE**
     - BodyParts_Mechanoid.xml **DONE**
     - BodyParts_Organs.xml **DONE**
- * BodyPartGroupDef **%0**
-    - BodyPartGroups.xml **%0**
+ * BodyPartGroupDef
+    - BodyPartGroups.xml **DONE**
  * ConceptDef 
-    - Concepts_Alets.xml **%0**
+    - Concepts_Alets.xml **DONE**
     - Concepts_Entry.xml **%0**
     - Concepts_Noted.xml **%0**
     - concepts_TriggeredModal.xml **%0**
@@ -54,7 +54,7 @@ A Turkish language translation for RimWorld.
  * FactionDef
     - Factions_Hidden.xml **%0**
     - Factions_Misc.xml **%0**
-    - Factions_Player.xml **%0**
+    - Factions_Player.xml **DONE**
  * HairDef 
     - HarisGeneral.xml **%0**
  * HediffDef
@@ -67,11 +67,12 @@ A Turkish language translation for RimWorld.
     - Hediffs_Local_Chronic.xml **%0**
     - Hediffs_Local_Implants.xml **%0**
     - Hediffs_Local_Infections.xml **%0**
+    - Hediffs_Local_Injuries.xml **%60**
     - Hediffs_Local_Misc.xml **%0**
  * HediffGiverSetDef
     - HediffGiverSets.xml **%0**
  * HistoryAutoRecorderDef
-    - HistoryAutoRecorders.xml **%0**
+    - HistoryAutoRecorders.xml **DONE**
  * HistoryAutoRecorderGroupDef
     - HistoryAutoRecorderGroups.xml **%0**
  * IncidentDef
@@ -119,23 +120,23 @@ A Turkish language translation for RimWorld.
  * RaidStrategyDef 
     - RaidStrategies.xml **%0**
  * RecipeDef 
-    - Recipes_Butchery.xml **%0**
-    - Recipes_Cremation.xml **%0**
+    - Recipes_Butchery.xml **DONE**
+    - Recipes_Cremation.xml **DONE**
     - Recipes_Drugs.xml **%0**
     - Recipes_Meals.xml **%0**
-    - Recipes_Production.xml **%0**
-    - Recipes_Surgery.xml **%0**
-    - Recipes_Surgery_Implants.xml **%0**
+    - Recipes_Production.xml **DONE**
+    - Recipes_Surgery.xml **DONE**
+    - Recipes_Surgery_Implants.xml **DONE**
     - Recipes_Surgery_NewParts.xml **%0**
  * RecordDef
-    - Records_Misc.xml **%0**
+    - Records_Misc.xml **%95**
     - Records_Time.xml **%0**
  * ResearchProjectDef 
     - ResearchProjects_Tier1_Misc.xml **%0**
     - ResearchProjects_Tier2_Misc.xml **%0**
     - ResearchProjects_Tier3_Misc.xml **%0**
     - ResearchProjects_Tier4_Misc.xml **%0**
-    - ResearchProjects_Tier4_Ship.xml **%0**
+    - ResearchProjects_Tier4_Ship.xml **%0** EKLENECEK
  * RoofDef 
     - Roofs.xml **%0**
  * RoomRoleDef 
@@ -162,6 +163,9 @@ A Turkish language translation for RimWorld.
  * ScenPartDef
     - ScenParts_Fixed **%0**
     - ScenParts_Various.xml **%0**
+ * ScenarioDef
+    - Scenarios_Classic.xml **DONE**
+    - Scenarios_Special.xml **%0**
  * SkillDef
     - Skills.xml **%0**
  * SpecialThingFilterDef
@@ -182,19 +186,37 @@ A Turkish language translation for RimWorld.
     - Stats_Weapons_Melee.xml **%0**
     - Stats_Weapons_Ranged.xml **%0**
  * StorytellerDef
-    - Storytellers.xml **%0**
+    - Storytellers.xml **DONE**
  * StuffCategoryDef 
-    - StuffCategories.xml **%0**
+    - StuffCategories.xml **DONE**
  * TaleDef 
+    - Tales_DoublePawn_Relationships.xml **%0**
+    - Tales_NoPawn.xml **%0**
  * TerrainDef 
- * ThingCategoryDef 
- * ThingDef 
- * ThoughtDef 
+    - Terrain_Floors.xml **UPDATE GEREKLİ**
+    - Terrain_FloorsStoneTile.xml **UPDATE GEREKLİ**
+    - Terrain_Natural.xml **UPDATE GEREKLİ**
+    - Terrain_Special.xml **UPDATE GEREKLİ**
+    - Terrain_Water.xml **UPDATE GEREKLİ**
+ * ThingCategoryDef  
+    - ThingCategories.xml **%DONE**
+ * ThingDef **%0**
+ * ThoughtDef **%0**
  * TimeAssignmentDef 
+    - TimeAssignments.xml **DONE**
  * TradeDialogSorterDef 
- * TraderKindDef 
+    - TradeDialogSorters.xml **%0**
+ * TraderKindDef
+    - TraderKinds_Caravan_Neolithic.xml **%0**
+    - TraderKinds_Caravan_Outlander.xml **%0**
+    - TraderKinds_Orbital_Misc.xml **%0**
+    - TraderKinds_Visitor_Neolithic.xml **%0**
+    - TraderKinds_Visitor_Outlander.xml **%0**
  * TrainableDef 
+    - Trainables.xml **%0**
  * TraitDef
+    - Traits_Singular.xml **%0**
+    - Traits_Spectrum.xml **%0**
  * WeatherDef
     - Weathers **%70**
  * WorkGiverDef 
@@ -203,39 +225,76 @@ A Turkish language translation for RimWorld.
     - WorkTypes.xml **%0**
  
 * Keyed
- * Alerts.xml **%90**
- * ConceptDefs.xml **DONE**
- * Credits.xml  **DONE**
- * Dates.xml **DONE**
- * Designators.xml **DONE**
- * DialogTrees.xml **%DONE**
- * Dialog_StatsReports.xml **%72**
- * DialogsVarious.xml **DONE**
- * Enums.xml **DONE**
- * FloatMenu.xml **%99**
- * Gameplay.xml **%99**
- * GameplayCommands.xml **%99**
- * Grammar.xml **DONE**
- * ITabs.xml **DONE**
- * Incidents.xml **DONE**
- * Letters.xml **%98**
- * Menu_KeyBindings.xml**DONE**
- * Menu_Options.xml **%99**
- * Menus_Main.xml **%99**
- * Menus_OTabs.xml **DONE**
- * Menus_Overview.xml **DONE**
- * Messages.xml **%99**
- * Misc.xml **%99**
- * Misc_Gameplay.xml **%99**
- * PlayInterface.xml **DONE**
- * Pronouns.xml **DONE**
- * Skills.xml **DONE**
- * Time.xml **DONE**
- * WorkTags.xml **DONE**
- * About.txt **%1**
- * FriendlyName.txt **DONE**
- * LanguageInfo.xml **DONE** 
-
+ * Alerts.xml **%0**
+ * ConceptDefs.xml **%0**
+ * Credits.xml  **%0**
+ * Dates.xml **%0**
+ * Designators.xml **%0**
+ * DialogTrees.xml **%%0**
+ * Dialog_StatsReports.xml **%0**
+ * DialogsVarious.xml **%0**
+ * Enums.xml **%0**
+ * FloatMenu.xml **%0**
+ * Gameplay.xml **%0%0**
+ * GameplayCommands.xml **%0%0**
+ * Grammar.xml **%0**
+ * ITabs.xml **%0**
+ * Incidents.xml **%0**
+ * Letters.xml **%0**
+ * Menu_KeyBindings.xml**%0**
+ * Menu_Options.xml **%0**
+ * Menus_Main.xml **%0**
+ * Menus_OTabs.xml **%0**
+ * Menus_Overview.xml **%0**
+ * Messages.xml **%0**
+ * Misc.xml **%0**
+ * Misc_Gameplay.xml **%0**
+ * PlayInterface.xml **%0**
+ * Pronouns.xml **%0**
+ * Skills.xml **%0**
+ * Time.xml **%0**
+ * WorkTags.xml **%0**
+ * About.txt **%0**
+ * FriendlyName.txt **%0**
+ * LanguageInfo.xml **%0** 
+ 
+*Strings
+ *NameBank
+    - Adjectives_Angsty.txt
+    - Adjectives_Badass.txt
+    - CapitalLetters.txt
+    - ColonyNames.txt
+    - Colors.txt
+    - ColorsBadass.txt
+    - Names_Animal_Female.txt
+    - Names_Animal_Male.txt
+    - Names_Animal_Unisex.txt
+    - Names_Business.txt
+    - Names_Celestial.txt
+    - Names_CelestialPrefix.txt
+    - Names_CelestialSuffix.txt
+    - Nouns_Animals.txt
+    - Nouns_Apparel.txt
+    - Nouns_Artworks.txt
+    - Nouns_BadassAnimals.txt
+    - Nouns_BadassPersons.txt
+    - Nouns_BusinessTypes.txt
+    - Nouns_Communities.txt
+    - Nouns_Concepts_Angsty.txt
+    - Nouns_Concepts_Badass.txt
+    - Nouns_Concepts_Positive.txt
+    - Nouns_GroupNames.txt
+    - Nouns_People_Family.txt
+    - Nouns_People_Outlanders.txt
+    - Nouns_TerrainFeatures.txt
+    - Nouns_Weapons.txt
+    - Numbers_SmallRoman.txt
+    - TribalWords.txt
+ 
+ *Words/Nouns
+    - Games.txt
+    - Stories.txt
+    - Vegetables.txt
 
 
 
