@@ -88,14 +88,23 @@
   <CommandPodEjectFailEmpty>Kimseyi barındırmıyor.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
-  <CommandToggleDoorLock>Kilit</CommandToggleDoorLock>
-  <CommandToggleDoorLockDesc>Kapıyı kitle ya da aç.Kapalı kapılar bir daha açılmayacak.</CommandToggleDoorLockDesc>
+  <CommandToggleDoorForbid>Passage forbidden</CommandToggleDoorForbid>
+  <CommandToggleDoorForbidDesc>When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorHoldOpen>Hold open</CommandToggleDoorHoldOpen>
+  <CommandToggleDoorHoldOpenDesc>When active, your colonists will not close the door after passing through.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <CommandResetTemp>Reset</CommandResetTemp>
   <CommandResetTempDesc>İstenilen sıcaklığı oda ısısına ayarla.</CommandResetTempDesc>
   <CommandRaiseTempDesc>İstenilen sıcaklığı çoğalt. </CommandRaiseTempDesc>
   <CommandLowerTempDesc>İstenilen sıcaklığı azalt.</CommandLowerTempDesc>
+  
+    <!-- Install/reinstall -->
+  <CommandInstall>Install</CommandInstall>
+  <CommandInstallDesc>This item is currently packaged up for storage and transport. Use this command to install this item in a final location.</CommandInstallDesc>
+  <CommandReinstall>Reinstall at...</CommandReinstall>
+  <CommandReinstallDesc>Designate this item to be uninstalled and reinstalled somewhere else.</CommandReinstallDesc>
+
 
   <!-- Art -->
   <CommandInstall>Montajla</CommandInstall>
@@ -108,5 +117,26 @@
   <!-- Sun lamp -->
   <CommandSunLampMakeGrowingZoneDesc>Lamba ışığının kapladığı etkin alan boyutunda Yetiştirme bölgesi oluştur.</CommandSunLampMakeGrowingZoneDesc>
   <CommandSunLampMakeGrowingZoneLabel>Yetiştirme bölgesi oluştur</CommandSunLampMakeGrowingZoneLabel>
+
+  <!-- Trap -->
+  <CommandAutoRearm>Auto Rearm</CommandAutoRearm>
+  <CommandAutoRearmDesc>If this is on, this trap will automatically be designated for rearming when it springs.</CommandAutoRearmDesc>
+  
+  <!-- Animal control -->
+  <CommandReleaseAnimalsLabel>Release animals</CommandReleaseAnimalsLabel>
+  <CommandReleaseAnimalsDesc>While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master.</CommandReleaseAnimalsDesc>
+  
+  <!-- Squad attack -->
+  <CommandSquadAttack>Attack</CommandSquadAttack>
+  <CommandSquadAttackDesc>Order selected colonists to attack designated target.</CommandSquadAttackDesc>
+  
+  <!-- Hold fire -->
+  <CommandHoldFire>Hold fire</CommandHoldFire>
+  <CommandHoldFireDesc>End any ongoing attacks.</CommandHoldFireDesc>
+  
+  <!-- Select plant to grow -->
+  <CommandSelectPlantToGrowMulti>Select plant to grow</CommandSelectPlantToGrowMulti>
+  <CommandSelectPlantToGrow>Plant: {0}</CommandSelectPlantToGrow>
+  <CommandSelectPlantToGrowDesc>Determine which plant should be sown here.</CommandSelectPlantToGrowDesc>
 
 </LanguageData>
