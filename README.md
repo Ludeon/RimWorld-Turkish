@@ -258,8 +258,8 @@ A Turkish language translation for RimWorld.
  * FriendlyName.txt **%0**
  * LanguageInfo.xml **%0** 
  
-*Strings
- *NameBank
+* Strings
+ * NameBank
     - Adjectives_Angsty.txt
     - Adjectives_Badass.txt
     - CapitalLetters.txt
@@ -291,7 +291,7 @@ A Turkish language translation for RimWorld.
     - Numbers_SmallRoman.txt
     - TribalWords.txt
  
- *Words/Nouns
+ * Words/Nouns
     - Games.txt
     - Stories.txt
     - Vegetables.txt
