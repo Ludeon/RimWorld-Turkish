@@ -1,419 +1,139 @@
-<?xml version="1.0" encoding="utf-8" ?>
+ï»¿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<Misc.label>Hareket.</Misc.label>
-	<rep>
-		<path>Misc.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Misc.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<Misc.injuryProps.destroyedLabel>kayýp</Misc.injuryProps.destroyedLabel>
+	<Misc.label>misc</Misc.label>
+	<Misc.comps.0.labelTreatedWell>bandaged</Misc.comps.0.labelTreatedWell>
+	<Misc.comps.0.labelTreated>poorly bandaged</Misc.comps.0.labelTreated>
+	<Misc.comps.0.labelTreatedWellInner>sutured</Misc.comps.0.labelTreatedWellInner>
+	<Misc.comps.0.labelTreatedInner>poorly sutured</Misc.comps.0.labelTreatedInner>
+	<Misc.comps.0.labelSolidTreatedWell>set</Misc.comps.0.labelSolidTreatedWell>
+	<Misc.comps.0.labelSolidTreated>poorly set</Misc.comps.0.labelSolidTreated>
+	<Misc.injuryProps.destroyedLabel>Destroyed</Misc.injuryProps.destroyedLabel>
+		
+	<Burn.label>burn</Burn.label>
+	<Burn.comps.0.labelTreatedWell>bandaged</Burn.comps.0.labelTreatedWell>
+	<Burn.comps.0.labelTreated>poorly bandaged</Burn.comps.0.labelTreated>
+	<Burn.comps.0.labelTreatedWellInner>sutured</Burn.comps.0.labelTreatedWellInner>
+	<Burn.comps.0.labelTreatedInner>poorly sutured</Burn.comps.0.labelTreatedInner>
+	<Burn.comps.0.labelSolidTreatedWell>set</Burn.comps.0.labelSolidTreatedWell>
+	<Burn.comps.0.labelSolidTreated>poorly set</Burn.comps.0.labelSolidTreated>
+	<Burn.comps.2.oldLabel>burn scar</Burn.comps.2.oldLabel>
+	<Burn.injuryProps.destroyedLabel>Burned off</Burn.injuryProps.destroyedLabel>
+	<Burn.injuryProps.destroyedOutLabel>Burned out</Burn.injuryProps.destroyedOutLabel>
+		
+	<Crush.label>crush</Crush.label>
+	<Crush.comps.0.labelTreatedWell>bandaged</Crush.comps.0.labelTreatedWell>
+	<Crush.comps.0.labelTreated>poorly bandaged</Crush.comps.0.labelTreated>
+	<Crush.comps.0.labelTreatedWellInner>sutured</Crush.comps.0.labelTreatedWellInner>
+	<Crush.comps.0.labelTreatedInner>poorly sutured</Crush.comps.0.labelTreatedInner>
+	<Crush.comps.0.labelSolidTreatedWell>set</Crush.comps.0.labelSolidTreatedWell>
+	<Crush.comps.0.labelSolidTreated>poorly set</Crush.comps.0.labelSolidTreated>
+	<Crush.comps.2.oldLabel>scar</Crush.comps.2.oldLabel>
+	<Crush.injuryProps.destroyedLabel>Crushed</Crush.injuryProps.destroyedLabel>
 	
+	<Crack.label>crack</Crack.label>
+	<Crack.comps.0.labelTreatedWell>healed</Crack.comps.0.labelTreatedWell>
+	<Crack.comps.0.labelTreated>poorly healed</Crack.comps.0.labelTreated>
+	<Crack.comps.0.labelTreatedWellInner>healed</Crack.comps.0.labelTreatedWellInner>
+	<Crack.comps.0.labelTreatedInner>poorly healed</Crack.comps.0.labelTreatedInner>
+	<Crack.comps.0.labelSolidTreatedWell>set</Crack.comps.0.labelSolidTreatedWell>
+	<Crack.comps.0.labelSolidTreated>poorly set</Crack.comps.0.labelSolidTreated>
+	<Crack.injuryProps.destroyedLabel>Shattered</Crack.injuryProps.destroyedLabel>
+		
+	<Cut.label>cut</Cut.label>
+	<Cut.comps.0.labelTreatedWell>bandaged</Cut.comps.0.labelTreatedWell>
+	<Cut.comps.0.labelTreated>poorly bandaged</Cut.comps.0.labelTreated>
+	<Cut.comps.0.labelTreatedWellInner>sutured</Cut.comps.0.labelTreatedWellInner>
+	<Cut.comps.0.labelTreatedInner>poorly sutured</Cut.comps.0.labelTreatedInner>
+	<Cut.comps.0.labelSolidTreatedWell>set</Cut.comps.0.labelSolidTreatedWell>
+	<Cut.comps.0.labelSolidTreated>poorly set</Cut.comps.0.labelSolidTreated>
+	<Cut.comps.2.oldLabel>cut scar</Cut.comps.2.oldLabel>
+	<Cut.injuryProps.destroyedLabel>Cut off</Cut.injuryProps.destroyedLabel>
+	<Cut.injuryProps.destroyedOutLabel>Cut out</Cut.injuryProps.destroyedOutLabel>
+		
+	<SurgicalCut.label>surgical cut</SurgicalCut.label>
+	<SurgicalCut.comps.0.labelTreatedWell>bandaged</SurgicalCut.comps.0.labelTreatedWell>
+	<SurgicalCut.comps.0.labelTreated>poorly bandaged</SurgicalCut.comps.0.labelTreated>
+	<SurgicalCut.comps.0.labelTreatedWellInner>sutured</SurgicalCut.comps.0.labelTreatedWellInner>
+	<SurgicalCut.comps.0.labelTreatedInner>poorly sutured</SurgicalCut.comps.0.labelTreatedInner>
+	<SurgicalCut.comps.0.labelSolidTreatedWell>set</SurgicalCut.comps.0.labelSolidTreatedWell>
+	<SurgicalCut.comps.0.labelSolidTreated>poorly set</SurgicalCut.comps.0.labelSolidTreated>
+	<SurgicalCut.comps.1.oldLabel>cut scar</SurgicalCut.comps.1.oldLabel>
 	
-	<Burn.label>Yanýk</Burn.label>
-	<rep>
-		<path>Burn.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Burn.comps[2].oldLabel</path>
-		<trans>Yanýk izi</trans>
-	</rep>
-	<Burn.injuryProps.destroyedLabel>yanmýþ</Burn.injuryProps.destroyedLabel>
-	<Burn.injuryProps.destroyedOutLabel>yanmýþ</Burn.injuryProps.destroyedOutLabel>
+	<Scratch.label>scratch</Scratch.label>
+	<Scratch.comps.0.labelTreatedWell>bandaged</Scratch.comps.0.labelTreatedWell>
+	<Scratch.comps.0.labelTreated>poorly bandaged</Scratch.comps.0.labelTreated>>
+	<Scratch.comps.0.labelTreatedWellInner>sutured</Scratch.comps.0.labelTreatedWellInner>
+	<Scratch.comps.0.labelTreatedInner>poorly sutured</Scratch.comps.0.labelTreatedInner>
+	<Scratch.comps.0.labelSolidTreatedWell>set</Scratch.comps.0.labelSolidTreatedWell>
+	<Scratch.comps.0.labelSolidTreated>poorly set</Scratch.comps.0.labelSolidTreated>
+	<Scratch.comps.2.oldLabel>scratch scar</Scratch.comps.2.oldLabel>
+	<Scratch.injuryProps.destroyedLabel>Torn off</Scratch.injuryProps.destroyedLabel>
+	<Scratch.injuryProps.destroyedOutLabel>Torn out</Scratch.injuryProps.destroyedOutLabel>
+		
+	<Bite.label>bite</Bite.label>
+	<Bite.comps.0.labelTreatedWell>bandaged</Bite.comps.0.labelTreatedWell>
+	<Bite.comps.0.labelTreated>poorly bandaged</Bite.comps.0.labelTreated>
+	<Bite.comps.0.labelTreatedWellInner>sutured</Bite.comps.0.labelTreatedWellInner>
+	<Bite.comps.0.labelTreatedInner>poorly sutured</Bite.comps.0.labelTreatedInner>
+	<Bite.comps.0.labelSolidTreatedWell>set</Bite.comps.0.labelSolidTreatedWell>
+	<Bite.comps.0.labelSolidTreated>poorly set</Bite.comps.0.labelSolidTreated>
+	<Bite.comps.2.oldLabel>bite scar</Bite.comps.2.oldLabel>
+	<Bite.injuryProps.destroyedLabel>Bitten off</Bite.injuryProps.destroyedLabel>
+	<Bite.injuryProps.destroyedOutLabel>Bitten out</Bite.injuryProps.destroyedOutLabel>
+		
+	<Stab.label>stab</Stab.label>
+	<Stab.comps.0.labelTreatedWell>bandaged</Stab.comps.0.labelTreatedWell>
+	<Stab.comps.0.labelTreated>poorly bandaged</Stab.comps.0.labelTreated>
+	<Stab.comps.0.labelTreatedWellInner>sutured</Stab.comps.0.labelTreatedWellInner>
+	<Stab.comps.0.labelTreatedInner>poorly sutured</Stab.comps.0.labelTreatedInner>
+	<Stab.comps.0.labelSolidTreatedWell>set</Stab.comps.0.labelSolidTreatedWell>
+	<Stab.comps.0.labelSolidTreated>poorly set</Stab.comps.0.labelSolidTreated>
+	<Stab.comps.2.oldLabel>stab scar</Stab.comps.2.oldLabel>
+	<Stab.injuryProps.destroyedLabel>Cut off</Stab.injuryProps.destroyedLabel>
+	<Stab.injuryProps.destroyedOutLabel>Cut out</Stab.injuryProps.destroyedOutLabel>
+		
+	<Gunshot.label>gunshot</Gunshot.label>
+	<Gunshot.comps.0.labelTreatedWell>bandaged</Gunshot.comps.0.labelTreatedWell>
+	<Gunshot.comps.0.labelTreated>poorly bandaged</Gunshot.comps.0.labelTreated>
+	<Gunshot.comps.0.labelTreatedWellInner>sutured</Gunshot.comps.0.labelTreatedWellInner>
+	<Gunshot.comps.0.labelTreatedInner>poorly sutured</Gunshot.comps.0.labelTreatedInner>
+	<Gunshot.comps.0.labelSolidTreatedWell>set</Gunshot.comps.0.labelSolidTreatedWell>
+	<Gunshot.comps.0.labelSolidTreated>poorly set</Gunshot.comps.0.labelSolidTreated>
+	<Gunshot.comps.2.oldLabel>permanent gunshot injury</Gunshot.comps.2.oldLabel>
+	<Gunshot.injuryProps.destroyedLabel>Shot off</Gunshot.injuryProps.destroyedLabel>
+	<Gunshot.injuryProps.destroyedOutLabel>Shot out</Gunshot.injuryProps.destroyedOutLabel>
+		
+	<Shredded.label>shredded</Shredded.label>
+	<Shredded.comps.0.labelTreatedWell>bandaged</Shredded.comps.0.labelTreatedWell>
+	<Shredded.comps.0.labelTreated>poorly bandaged</Shredded.comps.0.labelTreated>>
+	<Shredded.comps.0.labelTreatedWellInner>sutured</Shredded.comps.0.labelTreatedWellInner>
+	<Shredded.comps.0.labelTreatedInner>poorly sutured</Shredded.comps.0.labelTreatedInner>
+	<Shredded.comps.0.labelSolidTreatedWell>set</Shredded.comps.0.labelSolidTreatedWell>
+	<Shredded.comps.0.labelSolidTreated>poorly set</Shredded.comps.0.labelSolidTreated>
+	<Shredded.comps.2.oldLabel>scar</Shredded.comps.2.oldLabel>
+	<Shredded.injuryProps.destroyedLabel>Torn off</Shredded.injuryProps.destroyedLabel>
+	<Shredded.injuryProps.destroyedOutLabel>Torn out</Shredded.injuryProps.destroyedOutLabel>
+		
+	<Bruise.label>bruise</Bruise.label>
+	<Bruise.comps.0.labelTreatedWell>bandaged</Bruise.comps.0.labelTreatedWell>
+	<Bruise.comps.0.labelTreated>poorly bandaged</Bruise.comps.0.labelTreated>
+	<Bruise.comps.0.labelTreatedWellInner>sutured</Bruise.comps.0.labelTreatedWellInner>
+	<Bruise.comps.0.labelTreatedInner>poorly sutured</Bruise.comps.0.labelTreatedInner>
+	<Bruise.comps.0.labelSolidTreatedWell>set</Bruise.comps.0.labelSolidTreatedWell>
+	<Bruise.comps.0.labelSolidTreated>poorly set</Bruise.comps.0.labelSolidTreated>
+	<Bruise.injuryProps.destroyedLabel>Destroyed</Bruise.injuryProps.destroyedLabel>
+
+	<Frostbite.label>frostbite</Frostbite.label>
+	<Frostbite.comps.0.labelTreatedWell>bandaged</Frostbite.comps.0.labelTreatedWell>
+	<Frostbite.comps.0.labelTreated>poorly bandaged</Frostbite.comps.0.labelTreated>
+	<Frostbite.comps.0.labelTreatedWellInner>sutured</Frostbite.comps.0.labelTreatedWellInner>
+	<Frostbite.comps.0.labelTreatedInner>poorly sutured</Frostbite.comps.0.labelTreatedInner>
+	<Frostbite.comps.0.labelSolidTreatedWell>set</Frostbite.comps.0.labelSolidTreatedWell>
+	<Frostbite.comps.0.labelSolidTreated>poorly set</Frostbite.comps.0.labelSolidTreated>
+	<Frostbite.comps.2.oldLabel>frostbite scar</Frostbite.comps.2.oldLabel>
+	<Frostbite.injuryProps.destroyedLabel>Lost to frostbite</Frostbite.injuryProps.destroyedLabel>
 	
-	
-	<Crush.label>Ezik</Crush.label>
-	<rep>
-		<path>Crush.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Crush.comps[2].oldLabel</path>
-		<trans>Yara Ýzi</trans>
-	</rep>
-	<Crush.injuryProps.destroyedLabel>ezilmiþ</Crush.injuryProps.destroyedLabel>
-	
-	
-	<Crack.label>Kýrýk</Crack.label>
-	<rep>
-		<path>Crack.comps[0].labelTreatedWell</path>
-		<trans>iyileþmiþ</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelTreated</path>
-		<trans>kötü iyileþmiþ</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelTreatedWellInner</path>
-		<trans>iyileþmiþ</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelTreatedInner</path>
-		<trans>kötü iyileþmiþ</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Crack.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<Crack.injuryProps.destroyedLabel>kýrýlmýþ</Crack.injuryProps.destroyedLabel>
-	
-	
-	<Cut.label>Kesik</Cut.label>
-	<rep>
-		<path>Cut.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Cut.comps[2].oldLabel</path>
-		<trans>Kesilmiþ</trans>
-	</rep>
-	<Cut.injuryProps.destroyedLabel>kesilmiþ</Cut.injuryProps.destroyedLabel>
-	<Cut.injuryProps.destroyedOutLabel>kesilmiþ</Cut.injuryProps.destroyedOutLabel>
-	
-	
-	<SurgicalCut.label>Cerrahi kesik</SurgicalCut.label>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>SurgicalCut.comps[1].oldLabel</path>
-		<trans>Eski kesik</trans>
-	</rep>
-	<SurgicalCut.injuryProps.destroyedLabel>kesilmiþ</SurgicalCut.injuryProps.destroyedLabel>
-	<SurgicalCut.injuryProps.destroyedOutLabel>kesilmiþ</SurgicalCut.injuryProps.destroyedOutLabel>
-	
-	
-	<Scratch.label>Çizik</Scratch.label>
-	<rep>
-		<path>Scratch.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Scratch.comps[2].oldLabel</path>
-		<trans>Yýrtýlmýþ</trans>
-	</rep>
-	<Scratch.injuryProps.destroyedLabel>yýrtýk</Scratch.injuryProps.destroyedLabel>
-	<Scratch.injuryProps.destroyedOutLabel>yýrtýk</Scratch.injuryProps.destroyedOutLabel>
-	
-	
-	<Bite.label>Isýrýk</Bite.label>
-	<rep>
-		<path>Bite.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Bite.comps[2].oldLabel</path>
-		<trans>Eski ýsýrýk yarasý</trans>
-	</rep>
-	<Bite.injuryProps.destroyedLabel>ýsýrýlmýþ</Bite.injuryProps.destroyedLabel>
-	<Bite.injuryProps.destroyedOutLabel>ýsýrýlmýþ</Bite.injuryProps.destroyedOutLabel>
-	
-	
-	<Stab.label>Býçaklanma</Stab.label>
-	<rep>
-		<path>Stab.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Stab.comps[2].oldLabel</path>
-		<trans>Eski býçak yarasý</trans>
-	</rep>
-	<Stab.injuryProps.destroyedLabel>kopmuþ</Stab.injuryProps.destroyedLabel>
-	<Stab.injuryProps.destroyedOutLabel>kesilmiþ</Stab.injuryProps.destroyedOutLabel>
-	
-	
-	<Gunshot.label>Vurulma</Gunshot.label>
-	<rep>
-		<path>Gunshot.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Gunshot.comps[2].oldLabel</path>
-		<trans>Eski kurþun yarasý</trans>
-	</rep>
-	<Gunshot.injuryProps.destroyedLabel>vurulmuþ</Gunshot.injuryProps.destroyedLabel>
-	<Gunshot.injuryProps.destroyedOutLabel>vurulmuþ</Gunshot.injuryProps.destroyedOutLabel>
-	
-	
-	<Shredded.label>Patlama</Shredded.label>
-	<rep>
-		<path>Shredded.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Shredded.comps[2].oldLabel</path>
-		<trans>Splitter</trans>
-	</rep>
-	<Shredded.injuryProps.destroyedLabel>yýrtýk</Shredded.injuryProps.destroyedLabel>
-	<Shredded.injuryProps.destroyedOutLabel>kopmuþ</Shredded.injuryProps.destroyedOutLabel>
-	
-	
-	<Bruise.label>Zedelenme</Bruise.label>
-	<rep>
-		<path>Bruise.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelTreatedWellInner</path>
-		<trans>dikili</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelTreatedInner</path>
-		<trans>kötü dikilmiþ</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Bruise.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<Bruise.injuryProps.destroyedLabel>Zedelenmiþ</Bruise.injuryProps.destroyedLabel>
-	<Bruise.injuryProps.destroyedOutLabel>Zedelenmiþ</Bruise.injuryProps.destroyedOutLabel>
-	
-	
-	<Frostbite.label>Donma</Frostbite.label>
-	<rep>
-		<path>Frostbite.comps[0].labelTreatedWell</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelTreated</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelTreatedWellInner</path>
-		<trans>sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelTreatedInner</path>
-		<trans>kötü sargýlý</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelSolidTreatedWell</path>
-		<trans>set</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[0].labelSolidTreated</path>
-		<trans>poorly set</trans>
-	</rep>
-	<rep>
-		<path>Frostbite.comps[2].oldLabel</path>
-		<trans>Donmuþ</trans>
-	</rep>
-	<Frostbite.injuryProps.destroyedLabel>Donma nedeniyle kayýp</Frostbite.injuryProps.destroyedLabel>
-	
-	<!-- Missing body part -->
-	<MissingBodyPart.label>Eksik Vücut Parçasý</MissingBodyPart.label>
+	<MissingBodyPart.label>missing body part</MissingBodyPart.label>
 	
 </LanguageData>
