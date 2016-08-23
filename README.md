@@ -16,6 +16,7 @@ A Turkish language translation for RimWorld.
 * [@XPhyro](https://github.com/XPhyro)
 * [@AlperD](https://github.com/AlperD) 
 * [@PMasta](https://github.com/PMasta)
+* [@hcemaras](https://github.com/hcemaras)
 
 ## Translation Progress
 * DefInjected
@@ -287,7 +288,7 @@ A Turkish language translation for RimWorld.
     - Nouns_People_Family.txt
     - Nouns_People_Outlanders.txt
     - Nouns_TerrainFeatures.txt
-    - Nouns_Weapons.txt
+    - Nouns_Weapons.txt **%100**
     - Numbers_SmallRoman.txt
     - TribalWords.txt
  
