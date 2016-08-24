@@ -12,28 +12,28 @@
   <RecoveredFromErrorsText>Görünüşe göre aktif modlardan bazıları hataya sebep oluyor.\n\nModlar birbirleriyle uyuşmuyor, RimWorld'ün başka bir sürümü için yapılmış ya da bozulmuş olabilir.\n\nBütün modlar devre dışı bırakıldı, modlar kısmından tekrar aktif edilebilir.</RecoveredFromErrorsText>
   
     <!-- Errors during loading -->
-  <ErrorWhileLoadingAssetsTitle>Error while loading assets</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>An error occurred while loading game assets. See error log for more information.</ErrorWhileLoadingAssets>
-  <ErrorWhileLoadingAssets_ModsInfo>The game is currently running with custom mods - they may or may not cause these problems.</ErrorWhileLoadingAssets_ModsInfo>
-  <ErrorWhileGeneratingMapTitle>Error while generating a map</ErrorWhileGeneratingMapTitle>
-  <ErrorWhileGeneratingMap>An error occurred while generating a new map. See error log for more information.</ErrorWhileGeneratingMap>
-  <ErrorWhileLoadingMapTitle>Error while loading a map</ErrorWhileLoadingMapTitle>
-  <ErrorWhileLoadingMap>An error occurred while loading a map. See error log for more information.</ErrorWhileLoadingMap>
+  <ErrorWhileLoadingAssetsTitle>Varlıkları yükleme hatası</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Oyun varlıkları yüklenirken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Oyun şu anda özel bir kip ile çalışıyor - bu durum bu problemlere neden olabilir.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Bir harita oluşturma hatası</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Yeni bir harita oluştururken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Harita yüklenme hatası</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Harita yüklenirken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileLoadingMap>
   
   <!-- Missing Steam -->
-  <SteamClientMissing>Could not initialize Steam API. Possible causes:\n\n-Steam is not running.\n-Launched from outside Steam without steam_appid.txt in place.\n-Running with different privileges than Steam client (e.g. "as administrator").\n\nIn most cases, rebooting your computer will fix this problem.\n\nThis Steam version of the game requires Steam and will now quit.</SteamClientMissing>
+  <SteamClientMissing>Steam API'yi başlatamamak. Olası Nedenler:\n\n-Steam çalışmıyor.\n-steam_appid.txt olmadan Steam dışından başlatıldı.\n-Farklı ayrıcalıklar ile Steam istemcisinden çalıştırmak (örneğin "yönetici olarak").\n\nBir çok durumda, bilgisayarı yeniden başlatmak bu sorunu çözecektir.\n\nOyunun bu versiyonu Steam gerektirir ve kapanacaktır.</SteamClientMissing>
   
   <!-- Long events -->
-  <InitializingInterface>Initializing interface</InitializingInterface>
-  <UnloadingUnusedAssets>Unloading unused assets</UnloadingUnusedAssets>
-  <LoadingAllActiveMods>Loading all active mods</LoadingAllActiveMods>
-  <LoadingDefs>Loading defs</LoadingDefs>
-  <LoadingAssets>Loading assets</LoadingAssets>
-  <Initializing>Initializing</Initializing>
-  <LoadingWorld>Loading world</LoadingWorld>
-  <LoadingMap>Loading map</LoadingMap>
-  <InitializingMap>Initializing map</InitializingMap>
-  <SpawningAllThings>Spawning all things</SpawningAllThings>
+  <InitializingInterface>Arayüz başlatılıyor</InitializingInterface>
+  <UnloadingUnusedAssets>Kullanılmayan varlıklar kaldırılıyor</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Bütün aktif kipler yükleniyor</LoadingAllActiveMods>
+  <LoadingDefs>Savunmalar yükleniyor</LoadingDefs>
+  <LoadingAssets>Varlıklar yükleniyor</LoadingAssets>
+  <Initializing>Başlatılıyor</Initializing>
+  <LoadingWorld>Dünya yükleniyor</LoadingWorld>
+  <LoadingMap>Harita yükleniyor</LoadingMap>
+  <InitializingMap>Harita başlatılıyor</InitializingMap>
+  <SpawningAllThings>Her şey oluşturuluyor</SpawningAllThings>
 
   <!-- Save/load -->
   <SaveGameButton>Kaydet</SaveGameButton>
@@ -41,9 +41,9 @@
   <LoadGameButton>Oyunu Yükle</LoadGameButton>
   
   <!-- Colony naming-->
-  <NameColonyMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name.\n\nWhat should it be called?</NameColonyMessage>
-  <ColonyGainsName>The community is now known as {0}.</ColonyGainsName>
-  <ColonyNameIsInvalid>That name isn't valid.</ColonyNameIsInvalid>
+  <NameColonyMessage>Bir süre burada olacaksın gibi göründüğünden beri, {0} senin bu topluluğa bir isim vermen gerektiğini düşünüyor.\n\nBu isim ne olmalı?</NameColonyMessage>
+  <ColonyGainsName>Topluluk artık {0} olarak biliniyor.</ColonyGainsName>
+  <ColonyNameIsInvalid>Bu isim geçerli değil.</ColonyNameIsInvalid>
 
   <!-- Renaming -->
   <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
