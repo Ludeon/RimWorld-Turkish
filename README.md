@@ -233,7 +233,7 @@ A Turkish language translation for RimWorld.
  * Designators.xml **%0**
  * DialogTrees.xml **%%0**
  * Dialog_StatsReports.xml **%0**
- * DialogsVarious.xml **%0**
+ * DialogsVarious.xml **>%50**
  * Enums.xml **%0**
  * FloatMenu.xml **%0**
  * Gameplay.xml **%0%0**
