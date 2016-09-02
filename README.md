@@ -17,6 +17,7 @@ A Turkish language translation for RimWorld.
 * [@AlperD](https://github.com/AlperD) 
 * [@PMasta](https://github.com/PMasta)
 * [@hcemaras](https://github.com/hcemaras)
+* [@mmustafasanli](https://github.com/mmustafasanli)
 
 ## Translation Progress
 * DefInjected
