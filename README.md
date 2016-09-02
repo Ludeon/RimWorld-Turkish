@@ -1,23 +1,23 @@
-# RimWorld Türkçe Çevirisi
-A Turkish language translation for RimWorld.
+![Image of Rimworld](http://rimworldwiki.com/images/thumb/8/8c/Rimworldlogo.png/600px-Rimworldlogo.png)
 
+* RimWorld için Türk Dili çevirisi.
+* A Turkish language translation for RimWorld.
 
-
-
-## Translators
-* [@sinanisler](https://github.com/sinanisler)
-* [@gokimaxTR](https://github.com/gokimaxTR)
-* [@berkaybaltaci](https://github.com/berkaybaltaci)
+## Translators (for the last few months)
 * [@Ferhatyesil](https://github.com/Ferhatyesil)
+* [@sinanisler](https://github.com/sinanisler)
+* [@XxXKroseXxX](https://github.com/XxXKroseXxX)
+* [@FearMaster](https://github.com/FearMaster)
+* [@mmustafasanli](https://github.com/mmustafasanli)
+* [@sonobacari](https://github.com/sonobacari)
+* [@hcemaras](https://github.com/hcemaras)
 * [@mahsun4303](https://github.com/mahsun4303)
 * [@alimormeci](https://github.com/alimormeci)
-* [@Nespraved](https://github.com/Nespraved)
-* [@sonobacari](https://github.com/sonobacari)
-* [@XPhyro](https://github.com/XPhyro)
-* [@AlperD](https://github.com/AlperD) 
-* [@PMasta](https://github.com/PMasta)
-* [@hcemaras](https://github.com/hcemaras)
-* [@mmustafasanli](https://github.com/mmustafasanli)
+* [@IsilwenA](https://github.com/IsilwenA)
+
+*We can use 
+- [x] This is a complete item
+- [ ] This is an incomplete item
 
 ## Translation Progress
 * DefInjected
