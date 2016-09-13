@@ -15,24 +15,16 @@
   <MiracleHeal>{0}, mucizevi bir şekilde iyileşti!</MiracleHeal>
   
   <!-- Enemy raids -->
-  <LetterLabelEnemyRaid>Baskın</LetterLabelEnemyRaid>
-  <LetterLabelSiege>Kuşatma</LetterLabelSiege>
-  <EnemyRaidWalkIn>{1}'den gelen bir grup {0}, gezegene ulaştı.</EnemyRaidWalkIn>
-  <EnemyRaidEdgeDrop>{1}'den gelen bir grup {0}, fırlatma kapsülleri içinde gezegene indi.</EnemyRaidEdgeDrop>
-  <EnemyRaidCenterDrop>{1}'den gelen bir grup {0}, koloninin tam üstüne indi!</EnemyRaidCenterDrop>
-  <EnemyRaidStageThenAttack>Bir süre hazırlanıp, sonra saldıracaklar.\n\nSavunmanı hazırla ya da hemen saldır.</EnemyRaidStageThenAttack>
-  <EnemyRaidImmediateAttack>Hemen saldırıyorlar.</EnemyRaidImmediateAttack>
-  <EnemyRaidBesiege>Görünüşe göre koloniyi kuşatmak istiyorlar.</EnemyRaidBesiege>
-
+  <EnemyRaidWalkIn>A group of {0} from {1} have arrived nearby.</EnemyRaidWalkIn>
+  <EnemyRaidEdgeDrop>A group of {0} from {1} have arrived in drop pods nearby.</EnemyRaidEdgeDrop>
+  <EnemyRaidCenterDrop>A group of {0} from {1} have dropped in right on top of you!</EnemyRaidCenterDrop>
+  <EnemyRaidLeaderPresent>One of the {0} - {1}, is the leader of the faction.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
-  <LetterLabelFriendlyRaid>Dostlar</LetterLabelFriendlyRaid>
-  <FriendlyRaidWalkIn>{1}'den gelen bir grup dost {0}, gezegene ulaştı.</FriendlyRaidWalkIn>
-  <FriendlyRaidEdgeDrop>{1}'den gelen bir grup dost {0}, yörüngeden gezegene iniş yaptı.</FriendlyRaidEdgeDrop>
-  <FriendlyRaidCenterDrop>{1}'den gelen bir grup dost {0}, koloninin tam üstüne indi!</FriendlyRaidCenterDrop>
-  <FriendlyRaidStageThenAttack>Yardım etmeden önce bir süre hazırlanacaklar.</FriendlyRaidStageThenAttack>
-  <FriendlyRaidImmediateAttack>Yardım etmek için aceleyle geliyorlar.</FriendlyRaidImmediateAttack>
-  <FriendlyRaidBesiege>Görünüşe göre sana yardım etmek için kuşatma taktiklerini kullanacaklar.</FriendlyRaidBesiege>
+  <FriendlyRaidWalkIn>A group of friendly {0} from {1} have arrived nearby.</FriendlyRaidWalkIn>
+  <FriendlyRaidEdgeDrop>A group of friendly {0} from {1} have dropped in from orbit nearby.</FriendlyRaidEdgeDrop>
+  <FriendlyRaidCenterDrop>A group of friendly {0} from {1} have dropped from orbit right on top of you!</FriendlyRaidCenterDrop>
+  <FriendlyRaidLeaderPresent>One of the {0} - {1}, is the leader of the faction.</FriendlyRaidLeaderPresent>
 
   <LetterLabelRefugeePodCrash>Kaçış kapsülü</LetterLabelRefugeePodCrash>
   <RefugeePodCrash>Yakınlarda parçalanmış bir kaçış kapsülü tespit ettin. \n\nÇarpışmadan kurtulan olduysa, ağır yaralı olacak.</RefugeePodCrash>
@@ -45,9 +37,33 @@
   <ShortCircuitWasLarge>Bu büyüklükte bir güç hayli fazla büyüklükte bir patlamaya yol açtı.</ShortCircuitWasLarge>
   <ShortCircuitWasHuge>Bu gerçekten büyük bir patlama. Wow.</ShortCircuitWasHuge>
 
+  <TraderArrival>A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.</TraderArrival>
+
+  <SingleTravelerPassing>A {0} from {1} is passing by. HECAP is named {2}.</SingleTravelerPassing>
+  <GroupTravelersPassing>A group of travelers from {0} are passing by.</GroupTravelersPassing>
+  
   <LetterLabelSolarFlare>Güneş Patlaması</LetterLabelSolarFlare>
   <LetterSolarFlare>Bir güneş patlaması başladı. \n\nYoğun radyasyon bütün elektrikli aletleri devre dışı bırakacak. \n\nGüneş patlaması bir gün sürecek.</LetterSolarFlare>
 
+  <LetterLabelSingleVisitorArrives>Visitor</LetterLabelSingleVisitorArrives>
+  
+  <SingleVisitorArrives>A {0} from {1} is visiting the colony.\n\nHECAP is named {2}.{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\nHECAP seems to have a few items to trade.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\nHECAP is the leader of the faction.</SingleVisitorArrivesLeaderInfo>
+  
+  <LetterLabelGroupVisitorsArrive>Visitors</LetterLabelGroupVisitorsArrive>
+  
+  <GroupVisitorsArrive>A group from {0} are visiting the colony.{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>\n\nThey seem to have a few items to trade.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>\n\nOne of the visitors - {0}, is the leader of the faction.</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>Visitors from {0} are leaving.</VisitorsLeaving>
+
+  <LetterLabelWandererJoin>Wanderer joins</LetterLabelWandererJoin>
+  <WandererJoin>A {0} named NAME has arrived and is joining the colony. HECAP is a {1}.</WandererJoin>
+
+  <LetterLabelManhunterPackArrived>Manhunter pack</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>A pack of man-hunting {0}s have entered the area. They will roam the region, hunting for humanoid flesh.\n\nThey can't pass doors, so if you stay behind walls you should be safe. They won't attack inactive turrets, so turn your turrets off if you want to save them.\n\nThey'll leave the area in a few days.</ManhunterPackArrived>
+  
   <LetterHeatWave>Olağan dışı bir sıcak hava dalgası başladı. Sıcak çarpmasına karşı dikkatli ol.</LetterHeatWave>
   <LetterLabelHeatWave>Sıcak hava dalgası</LetterLabelHeatWave>
   <HeatWaveOver>Sıcak hava dalgası sona erdi.</HeatWaveOver>
@@ -92,7 +108,9 @@
   <LetterLabelPsychicDrone>Psişik uğultu</LetterLabelPsychicDrone>
   <LetterIncidentPsychicDrone>{0} cinsiyetli her kolonici acıyla irkildi!\n\nBir çeşit nefret kaynağı uzaklarda kaynıyor. Bu kaynak bölge üstüne bir çeşit güçlü psişik uğultu yansıtıyor ve görünüşe göre sadece {0} olanları etkileyen bir frekansta uğulduyor. Bir kaç günlüğüne bazı insanların ruh hali biraz daha kötü olacak. </LetterIncidentPsychicDrone>
 
- 
+  <LetterLabelPsychicSoothe>Psychic soothe</LetterLabelPsychicSoothe>
+  <LetterIncidentPsychicSoothe>Every colonist of the {0} gender smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a powerful psychic drone over this entire region, on a frequency that only seems to affect the {0} gender. For a few days, some people's mood will be quite a bit better.</LetterIncidentPsychicSoothe>
+
   <!-- Beavers -->
   <LetterLabelBeaversArrived>Hay Bin Kunduz!</LetterLabelBeaversArrived>
   <BeaversArrived>Az önce bir grup AlfaKunduz geldi.\n\nBölgedeki son ağacı yiyene kadar durmayacaklar, hepsini ortadan kaldırmaya çalış.</BeaversArrived>
