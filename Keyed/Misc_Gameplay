@@ -6,7 +6,7 @@
   <Contents>İçindekiler</Contents>
   <ContainedResources>İçerilen kaynaklar</ContainedResources>
   <ForPrisonerUse>Mahkum kullanımı için</ForPrisonerUse>
-  <ForColonistUse>Kolonici kullanımı için</ForColonistUse>
+  <ForColonistUse>Kolonist kullanımı için</ForColonistUse>
   <MedicalBed>Tıbbi yatak</MedicalBed>
   <Owner>Sahip</Owner>
   <Owners>Sahipler</Owners>
@@ -18,13 +18,13 @@
   <FertShort>Fert.</FertShort>
   <DyingLower>Ölüyor</DyingLower>
   <FilthOnFeet>Ayaklardaki pislik:</FilthOnFeet>
-  <NotEnoughStoredLower>depolanan yeterli değil</NotEnoughStoredLower>
-  <NothingLower>hiçbir şey</NothingLower>
+  <NotEnoughStoredLower>Yeteri kadar depolanmamış</NotEnoughStoredLower>
+  <NothingLower>Hiçbir şey</NothingLower>
   <Adapted>Uyarlandı</Adapted>
   <Headshot>Kafadan vuruş</Headshot>
-  <FreshMissingBodyPart>taze</FreshMissingBodyPart>
-  <UntreatedLower>tedavi edilmemiş</UntreatedLower>
-  <DevelopedImmunityLower>gelişmiş bağışıklık</DevelopedImmunityLower>
+  <FreshMissingBodyPart>Yeni kaybolmuş vücut parçaları</FreshMissingBodyPart>
+  <UntreatedLower>Tedavi edilmemiş</UntreatedLower>
+  <DevelopedImmunityLower>Bağışıklık kazanmış</DevelopedImmunityLower>
   <InjuryRequiresTreatment>İyileşmesi için tedavi gerek</InjuryRequiresTreatment>
   <NextTreatmentAfter>Bir sonraki tedaviye {0} gün</NextTreatmentAfter>
   <MissingMedicalBillIngredient>{0} yok</MissingMedicalBillIngredient>
@@ -36,95 +36,76 @@
   <Inventory>Envanter</Inventory>
   <ThingInfo>Bilgi</ThingInfo>
   <DropThing>Bırak</DropThing>
-  <RenameColonist>Yeni isim ver</RenameColonist>
-  <UnknownLower>bilinmeyen</UnknownLower>
-  <On>açık</On>
-  <Off>kapalı</Off>
-  <PowerSwitch_Power>Güç</PowerSwitch_Power>
-  <JoyTolerances>Joy tolerances</JoyTolerances>
-  <MilkFullness>Milk fullness</MilkFullness>
-  <WoolGrowth>Wool growth</WoolGrowth>
-  <EggProgress>Egg progress</EggProgress>
-  <Fertilized>Fertilized</Fertilized>
-  <ProgressStoppedUntilFertilized>Progress stopped until fertilized</ProgressStoppedUntilFertilized>
-  <SkillTooLow>need {0} level {2}, have {1}</SkillTooLow>
-  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
-  <CorpsePercentMissing>Missing body parts</CorpsePercentMissing>
-  <HiveReproducesIn>Reproduces in</HiveReproducesIn>
-  <BrokenDown>Broken down</BrokenDown>
-  <BondBrackets>(bond)</BondBrackets>
-  <Fuel>Fuel</Fuel>
-  <Enemies>enemies</Enemies>
-  <TimePassed>time passed</TimePassed>
-  <CurrentRadius>current radius</CurrentRadius>
-  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
-  <Permanent>permanent</Permanent>
-  <Temperature>Temperature</Temperature>
-  <BadTemperature>bad temperature</BadTemperature>
-  <IdealFermentingTemperature>Ideal fermenting temperature</IdealFermentingTemperature>
-  <DrugEffectMultiplier>{0} effect multiplier</DrugEffectMultiplier>
+  <RenameColonist>Yeniden isimlendir</RenameColonist>
+  <UnknownLower>Bilinmeyen</UnknownLower>
+  <On>Açık</On>
+  <Off>Kapalı</Off>
+  <PowerSwitch_Power>Güç anahtarı</PowerSwitch_Power>
+  <JoyTolerances>Eğlence tahammülü</JoyTolerances>
+  <MilkFullness>Süt bolluğu</MilkFullness>
+  <WoolGrowth>Yün yetiştirme</WoolGrowth>
+  <EggProgress>Yumurta gelişimi</EggProgress>
+  <Fertilized>Gübrelenmiş</Fertilized>
+  <ProgressStoppedUntilFertilized>Gelişme gübreleninceye kadar durdu.</ProgressStoppedUntilFertilized>
+  <SkillTooLow>Gereken {0} seviye {2}, sahip olunan {1}</SkillTooLow>
+  <EggDamagedEmbryo>Embriyo zarar görmüş</EggDamagedEmbryo>
+  <CorpsePercentMissing>Kayıp vücut parçaları</CorpsePercentMissing>
+  <HiveReproducesIn>Yeniden üretme</HiveReproducesIn>
+  <BrokenDown>Bozulmuş</BrokenDown>
+  <BondBrackets>(bağlı)</BondBrackets>
+  <Fuel>Yakıt</Fuel>
+  <Enemies>Düşmanlar</Enemies>
+  <TimePassed>Zaman geçti</TimePassed>
+  <CurrentRadius>Şuanki çevre</CurrentRadius>
+  <RadiusExpandsIn>Çevre genişler</RadiusExpandsIn>
+  <Permanent>Kalıcı</Permanent>
+  <Temperature>Sıcaklık</Temperature>
+  <BadTemperature>Kötü sıcaklık</BadTemperature>
+  <IdealFermentingTemperature>Mayalamak için uygun sıcaklık/IdealFermentingTemperature>
+  <DrugEffectMultiplier>{0} iki kat fazla etkiler</DrugEffectMultiplier>
   
-  <JoyTolerances>Joy tolerances</JoyTolerances>
-  <MilkFullness>Milk fullness</MilkFullness>
-  <WoolGrowth>Wool growth</WoolGrowth>
-  <EggProgress>Egg progress</EggProgress>
-  <Fertilized>Fertilized</Fertilized>
-  <ProgressStoppedUntilFertilized>Progress stopped until fertilized</ProgressStoppedUntilFertilized>
-  <SkillTooLow>need {0} level {2}, have {1}</SkillTooLow>
-  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
-  <CorpsePercentMissing>Missing body parts</CorpsePercentMissing>
-  <HiveReproducesIn>Reproduces in</HiveReproducesIn>
-  <BrokenDown>Broken down</BrokenDown>
-  <BondBrackets>(bond)</BondBrackets>
-  <Fuel>Fuel</Fuel>
-  <Enemies>enemies</Enemies>
-  <TimePassed>time passed</TimePassed>
-  <CurrentRadius>current radius</CurrentRadius>
-  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
-  <Permanent>permanent</Permanent>
-  
-  <!-- Fermentation barrel -->
-  <ContainsWort>Contains {0} / {1} wort.</ContainsWort>
-  <ContainsBeer>Contains {0} / {1} beer.</ContainsBeer>
-  <Fermented>Fermented</Fermented>
-  <FermentationProgress>Progress: {0} (finished in about {1}).</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>Non-ideal temperature. Fermentation speed multiplier: {0}</FermentationBarrelOutOfIdealTemperature>
+  <!-- Maya Fıçısı -->
+  <ContainsWort>İçerir {0} / {1} arpa mayası.</ContainsWort>
+  <ContainsBeer>İçeri {0} / {1} bira.</ContainsBeer>
+  <Fermented>Mayalanmış</Fermented>
+  <FermentationProgress>Gelişme: {0} ({1} içinde bitecek).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Uygun olmayan sıcaklık. Mayalaşma hızı: {0}</FermentationBarrelOutOfIdealTemperature>
 
   <!--TextMotes-->
-  <Headshot>Headshot</Headshot>
-  <TreatQuality>treat quality {0}</TreatQuality>
-  <PoorResult>poor result</PoorResult>
-  <GoodResult>good result</GoodResult>
-  <TextMote_TreatSuccess>Treatment success!\n{0} chance</TextMote_TreatSuccess>
-  <TextMote_TreatFailed>Treatment failed\n{0} chance</TextMote_TreatFailed>
-  <HarvestFailed>Harvest\nfailed</HarvestFailed>
-  <TextMote_RecruitFail>Recruit failed!\n{0} chance</TextMote_RecruitFail>
-  <TextMote_TameFail>Tame failed\n{0} chance</TextMote_TameFail>
-  <TextMote_TameSuccess>Tamed!\n{0} chance</TextMote_TameSuccess>
-  <TextMote_TrainFail>Failed training: {0}\n{1} chance</TextMote_TrainFail>
-  <TextMote_TrainSuccess>Trained: {0}\n{1} chance</TextMote_TrainSuccess>
-  <TextMote_FixBrokenDownBuildingFail>Repair\nfailed</TextMote_FixBrokenDownBuildingFail>
-  <TextMote_ConstructionFail>Construction\nfailed</TextMote_ConstructionFail>
+  <Headshot>Kafadan vuruş</Headshot>
+  <TreatQuality>Tedavi kalitesi {0}</TreatQuality>
+  <PoorResult>Kötü sonuç</PoorResult>
+  <GoodResult>İyi sonuç</GoodResult>
+  <TextMote_TreatSuccess>Tedavi başarılı!\n{0} şans ile</TextMote_TreatSuccess>
+  <TextMote_TreatFailed>Tedavi başarısız\n{0} şans ile</TextMote_TreatFailed>
+  <HarvestFailed>Hasat\nfailed</HarvestFailed>
+  <TextMote_RecruitFail>İkna başarısız oldu!\n{0} şans ile</TextMote_RecruitFail>
+  <TextMote_TameFail>Evcilleştirme başarısız oldu\n{0} şans ile</TextMote_TameFail>
+  <TextMote_TameSuccess>Evcilleştirildi!\n{0} şans ile</TextMote_TameSuccess>
+  <TextMote_TrainFail>Eğitim başarısız oldu: {0}\n{1} şans ile</TextMote_TrainFail>
+  <TextMote_TrainSuccess>Eğitildi: {0}\n{1} şans ile</TextMote_TrainSuccess>
+  <TextMote_FixBrokenDownBuildingFail>Tamir\nbaşarısız oldu</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_ConstructionFail>İnşaat\nbaşarısız oldu</TextMote_ConstructionFail>
 
   <!-- Areas -->
-  <Home>Home</Home>
-  <BuildRoof>Build roof</BuildRoof>
-  <NoRoof>No roof</NoRoof>
-  <SnowClear>Snow clear</SnowClear>
-  <AreaDefaultLabel>Area {0}</AreaDefaultLabel>
-  <AreaAnimalDefaultLabel>Animal area {0}</AreaAnimalDefaultLabel>
-  <NoAreaAllowed>Unrestricted</NoAreaAllowed>
-  <NewArea>New area</NewArea>
-  <NewAreaAnimal>New animal area</NewAreaAnimal>
-  <InvertArea>Invert</InvertArea>
+  <Home>Ev</Home>
+  <BuildRoof>Çatı yap</BuildRoof>
+  <NoRoof>Çatısız</NoRoof>
+  <SnowClear>Kar temizle</SnowClear>
+  <AreaDefaultLabel>Alan {0}</AreaDefaultLabel>
+  <AreaAnimalDefaultLabel>Hayvan alanı {0}</AreaAnimalDefaultLabel>
+  <NoAreaAllowed>Yasaklanmamış</NoAreaAllowed>
+  <NewArea>Yeni alan</NewArea>
+  <NewAreaAnimal>Yeni hayvan alanı</NewAreaAnimal>
+  <InvertArea>Tersini çevirmek</InvertArea>
 
-  <!-- Control -->
+  <!-- Kontrol -->
   <CannotOrderNonControlled>kontrol edilmeyen birimlere emir veremezsin.</CannotOrderNonControlled>
   <IsIncapableOfViolence>{0} şiddet uygulayamaz.</IsIncapableOfViolence>
-  <IsIncapableOfViolenceShort>incapable of violence</IsIncapableOfViolenceShort>
-  <IsNotDrafted>{0} Hazir Değil.</IsNotDrafted>
+  <IsIncapableOfViolenceShort>Şiddetten yoksun</IsIncapableOfViolenceShort>
+  <IsNotDrafted>{0} Hazır Değil.</IsNotDrafted>
   
-  <!-- Snow -->
+  <!-- Kar -->
   <SnowNone>Kar yok</SnowNone>
   <SnowDusting>Kar (toz gibi)</SnowDusting>
   <SnowThin>Kar (ince)</SnowThin>
@@ -134,32 +115,32 @@
   <!-- Turrets -->
   <GunInstalled>Kuruldu</GunInstalled>
   <MinimumRange>En az menzil</MinimumRange>
-  <CanFireIn>saniye sonra ateş edebilir</CanFireIn>
-  <ShellLoaded>top mermisi dolduruldu</ShellLoaded>
-  <ShellNotLoaded>doldurulmamış</ShellNotLoaded>
+  <CanFireIn>Saniye sonra ateş edebilir</CanFireIn>
+  <ShellLoaded>Top mermisi dolduruldu</ShellLoaded>
+  <ShellNotLoaded>Doldurulmamış</ShellNotLoaded>
   
   <!-- Job reports -->
 	<ReportHaulingTo>{0}'ı {1}'e taşıyor.</ReportHaulingTo>
-	<ReportHauling>{0} taşıyor.</ReportHauling>
+	<ReportHauling>{0}'a taşıyor.</ReportHauling>
   <ReportSleeping>Uyuyor.</ReportSleeping>
   <ReportResting>Dinleniyor.</ReportResting>
-  <WatchingSunrise>watching the sunrise</WatchingSunrise>
-  <CloudWatching>cloudwatching</CloudWatching>
-  <WatchingSunset>watching the sunset</WatchingSunset>
-  <Stargazing>stargazing</Stargazing>
-  <WatchingEclipse>watching the eclipse</WatchingEclipse>
-  <UsingVerb>using {0} on {1}.</UsingVerb>
-  <AreaLower>area</AreaLower>
-  <ReportCowering>cowering.</ReportCowering>
-  <ReportStanding>standing.</ReportStanding>
-  <ReportExtinguishingFire>extinguishing fire.</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>extinguishing fire on {0}.</ReportExtinguishingFireOn>
+  <WatchingSunrise>Güneş doğumunu izliyor</WatchingSunrise>
+  <CloudWatching>Bulutları izliyor</CloudWatching>
+  <WatchingSunset>Gün batımını izliyor</WatchingSunset>
+  <Stargazing>Yıldızları izliyor</Stargazing>
+  <WatchingEclipse>Güneş tutulmasını izliyor</WatchingEclipse>
+  <UsingVerb>kullanıyor {0}'ı {1}'in üstünde.</UsingVerb>
+  <AreaLower>Alan</AreaLower>
+  <ReportCowering>Siper alıyor.</ReportCowering>
+  <ReportStanding>Duruyor.</ReportStanding>
+  <ReportExtinguishingFire>Ateşi söndürüyor.</ReportExtinguishingFire>
+  <ReportExtinguishingFireOn>Ateşi söndürüyor on {0}.</ReportExtinguishingFireOn>
 
     <!-- Lord job reports -->
-  <LordReportAttendingMarriageCeremony>Attending marriage ceremony</LordReportAttendingMarriageCeremony>
-  <LordReportAttendingParty>Attending party</LordReportAttendingParty>
+  <LordReportAttendingMarriageCeremony>Düğün törenine katılıyor</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingParty>Partiye katılıyor</LordReportAttendingParty>
 
-	<!-- Shooting report -->
+	<!-- Atış raporu -->
   <WeaponMissRadius>Silahın ıskalama yarıçapı</WeaponMissRadius>
 	<ShootReportShooterAbility>Nişancı</ShootReportShooterAbility>
 	<ShootReportWeapon>Silah</ShootReportWeapon>
@@ -180,9 +161,9 @@
   <ThoughtExpiresIn>Sona eriyor: {0}</ThoughtExpiresIn>
   <ThoughtStartsExpiringIn>{0} gün sonra bitmeye başlıyor.</ThoughtStartsExpiringIn>
   <ThoughtFinishesExpiringIn>{0} gün sonra bitecek.</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdExtreme>Extreme break threshold</MentalBreakThresholdExtreme>
-  <MentalBreakThresholdMajor>Major break threshold</MentalBreakThresholdMajor>
-  <MentalBreakThresholdMinor>Minor break threshold</MentalBreakThresholdMinor>
+  <MentalBreakThresholdExtreme>Psikolojisi kırılma eşiğine çok yakın</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdMajor>Psikolojisi kırılma eşiğinde</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMinor>Psikolojisinin kırılma eşiğinin riski düşük</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <hitPoints>Sağlık</hitPoints>
@@ -269,27 +250,27 @@
   <GrowSeasonHereNow>Şu an büyüme mevsimi.</GrowSeasonHereNow>
   <CannotGrowTooCold>Büyüyemez - soğuk mevsim.</CannotGrowTooCold>
 
-  <!-- Zones -->
+  <!-- Bölgeler -->
   <Zone>Bölge</Zone>
   <GrowingZone>Yetiştirme Bölgesi</GrowingZone>
   <Stockpile>Stok Alanı</Stockpile>
   <DumpingStockpile>Çöp Alanı</DumpingStockpile>
   <Priority>Öncelik</Priority>
   <ClearAll>Hepsini temizle</ClearAll>
-  <AllowAll>Allow all</AllowAll>
+  <AllowAll>Hepsine izin ver</AllowAll>
 
   <!-- ThingFilter -->
-	<HitPoints>{0} hit points</HitPoints>
-	<AnyQuality>any quality</AnyQuality>
-	<OnlyQuality>{0} only</OnlyQuality>
+	<HitPoints>{0} vuruş puanı</HitPoints>
+	<AnyQuality>her kalite</AnyQuality>
+	<OnlyQuality>{0} sadece</OnlyQuality>
 
 	<!-- Mouseover indicator -->
   <Undiscovered>Keşfedilmemiş</Undiscovered>
   
   <!-- Buttons -->
-  <ShowLearningHelperWhenEmptyToggleButton>Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active.</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>Öğretici yardımı boş olduğunda görünürlüğünü aç-kapa.\n\nEğer öğrenebilmek için bir konsept aktif edildise,öğretici yardım herzaman görünür olacaktır.Bu aç-kapa butonu onu konsept aktif olmadığında görünmez kılar.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Bölgelerin görünebilmesini aç/kapa.</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Güzellik görüntülemesini aç-kapa.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
   <ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
