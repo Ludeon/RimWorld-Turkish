@@ -27,8 +27,8 @@
     - Biomes_Moderate.xml **DONE**
  * BodyDef 
     - Bodies_Animal_Bird.xml **DONE**
-    - Bodies_Animal_Insect.xml **%0**
-    - Bodies_Animal_Quadruoed.xml **%0**
+    - Bodies_Animal_Insect.xml **DONE**
+    - Bodies_Animal_Quadruoed.xml **DONE**
     - Bodies_Animal_Snake.xml **DONE**
     - Bodies_Humanlike.xml **DONE**
     - Bodies_Mechanoid.xml **DONE**
