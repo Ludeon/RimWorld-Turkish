@@ -14,7 +14,7 @@
 * [@mahsun4303](https://github.com/mahsun4303)
 * [@alimormeci](https://github.com/alimormeci)
 * [@IsilwenA](https://github.com/IsilwenA)
-
+* [@Zamahoya](https://github.com/Zamahoya)
 *We can use 
 - [x] This is a complete item
 - [ ] This is an incomplete item
@@ -90,15 +90,15 @@
     - Interactions_Romance.xml **%0**
     - Interactions_Social.xml **%0**
  * JobDef
-    - jobs_Animal.xml **%0**
-    - Jobs_Gatherings.xml **%0**
-    - Jobs_Joy.xml **%0**
+    - jobs_Animal.xml **DONE**
+    - Jobs_Gatherings.xml **DONE**
+    - Jobs_Joy.xml **DONE**
     - Jobs_Misc.xml **%0**
     - Jobs_Work.xml **%0**
  * JoyKindDef
     - JoyKinds.xml **%0**
  * KeyBindingCategoryDef
-    - KeyBindingCategories.xml **%0**
+    - KeyBindingCategories.xml **DONE**
  * KeyBindingDef 
     - KeyBindings **%0**
  * LifeStageDef 
@@ -106,7 +106,7 @@
  * MainTabDef
     - MainTabs.xml **%0**
  * MapConditionDef 
-    - MapConditions_Misc.xml **%0**
+    - MapConditions_Misc.xml **DONE**
  * MentalStateDef
     - MentalStates_Mood.xml **%0**
     - MentalStates_Special.xml **%0**
