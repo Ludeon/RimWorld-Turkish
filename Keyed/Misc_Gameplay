@@ -9,10 +9,13 @@
   <ForColonistUse>Kolonici kullanımı için</ForColonistUse>
   <MedicalBed>Tıbbi yatak</MedicalBed>
   <Owner>Sahip</Owner>
+  <Owners>Sahipler</Owners>
+  <AssignedColonist>Kayıtlı Kolonist</AssignedColonist>
   <Nobody>Hiç kimse</Nobody>
   <Unowned>Sahibi yok</Unowned>
   <DeadTime>{0} gündür ölü</DeadTime>
   <WalkSpeed>Yürüme hızı {0}</WalkSpeed>
+  <FertShort>Fert.</FertShort>
   <DyingLower>Ölüyor</DyingLower>
   <FilthOnFeet>Ayaklardaki pislik:</FilthOnFeet>
   <NotEnoughStoredLower>depolanan yeterli değil</NotEnoughStoredLower>
@@ -38,9 +41,28 @@
   <On>açık</On>
   <Off>kapalı</Off>
   <PowerSwitch_Power>Güç</PowerSwitch_Power>
-  <AreaLower>alan</AreaLower>
-  <JoyTolerances>mutluluk toleransı</JoyTolerances>
-  <BrokenLetterLabel>Kırık</BrokenLetterLabel>
+  <JoyTolerances>Joy tolerances</JoyTolerances>
+  <MilkFullness>Milk fullness</MilkFullness>
+  <WoolGrowth>Wool growth</WoolGrowth>
+  <EggProgress>Egg progress</EggProgress>
+  <Fertilized>Fertilized</Fertilized>
+  <ProgressStoppedUntilFertilized>Progress stopped until fertilized</ProgressStoppedUntilFertilized>
+  <SkillTooLow>need {0} level {2}, have {1}</SkillTooLow>
+  <EggDamagedEmbryo>damaged embryo</EggDamagedEmbryo>
+  <CorpsePercentMissing>Missing body parts</CorpsePercentMissing>
+  <HiveReproducesIn>Reproduces in</HiveReproducesIn>
+  <BrokenDown>Broken down</BrokenDown>
+  <BondBrackets>(bond)</BondBrackets>
+  <Fuel>Fuel</Fuel>
+  <Enemies>enemies</Enemies>
+  <TimePassed>time passed</TimePassed>
+  <CurrentRadius>current radius</CurrentRadius>
+  <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
+  <Permanent>permanent</Permanent>
+  <Temperature>Temperature</Temperature>
+  <BadTemperature>bad temperature</BadTemperature>
+  <IdealFermentingTemperature>Ideal fermenting temperature</IdealFermentingTemperature>
+  <DrugEffectMultiplier>{0} effect multiplier</DrugEffectMultiplier>
   
   <JoyTolerances>Joy tolerances</JoyTolerances>
   <MilkFullness>Milk fullness</MilkFullness>
@@ -61,6 +83,13 @@
   <RadiusExpandsIn>radius expands in</RadiusExpandsIn>
   <Permanent>permanent</Permanent>
   
+  <!-- Fermentation barrel -->
+  <ContainsWort>Contains {0} / {1} wort.</ContainsWort>
+  <ContainsBeer>Contains {0} / {1} beer.</ContainsBeer>
+  <Fermented>Fermented</Fermented>
+  <FermentationProgress>Progress: {0} (finished in about {1}).</FermentationProgress>
+  <FermentationBarrelOutOfIdealTemperature>Non-ideal temperature. Fermentation speed multiplier: {0}</FermentationBarrelOutOfIdealTemperature>
+
   <!--TextMotes-->
   <Headshot>Headshot</Headshot>
   <TreatQuality>treat quality {0}</TreatQuality>
@@ -159,6 +188,8 @@
   <hitPoints>Sağlık</hitPoints>
   <PawnMainDescWithFactionGendered>{0} {1} of {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
+  <PawnMainDescFactionedWrap>{0} of {1}</PawnMainDescFactionedWrap>
+  <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
   <PawnMainDescWithFactionGenderless>{0} of {1}</PawnMainDescWithFactionGenderless>
   <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Grup</Faction>
@@ -256,6 +287,7 @@
   <Undiscovered>Keşfedilmemiş</Undiscovered>
   
   <!-- Buttons -->
+  <ShowLearningHelperWhenEmptyToggleButton>Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Bölgelerin görünebilmesini aç/kapa.</ZoneVisibilityToggleButton>
   <ShowBeautyToggleButton>Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
   <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
@@ -263,6 +295,7 @@
   <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Toggle displaying animal names for tame named animals.</ShowAnimalNamesToggleButton>
+  <ShowRoofOverlayToggleButton>Toggle visiblity of roofs.</ShowRoofOverlayToggleButton>
 
 
   <!-- Fire -->
@@ -325,13 +358,13 @@
   <QualityIs>Kalite: {0}</QualityIs>
     
   <!-- Mood descriptions -->
-  <Mood_Broken>çökmüş</Mood_Broken>
-  <Mood_AboutToBreak>çökmek üzere</Mood_AboutToBreak>
-  <Mood_OnEdge>sınırda</Mood_OnEdge>
-  <Mood_Stressed>stresli</Mood_Stressed>
-  <Mood_Neutral>nötr</Mood_Neutral>
-	<Mood_Content>olumlu</Mood_Content>
-  <Mood_Happy>mutlu</Mood_Happy>
+  <Mood_Broken>Çökmüş</Mood_Broken>
+  <Mood_AboutToBreak>Çökmek üzere</Mood_AboutToBreak>
+  <Mood_OnEdge>Sınırda</Mood_OnEdge>
+  <Mood_Stressed>Stresli</Mood_Stressed>
+  <Mood_Neutral>Nötr</Mood_Neutral>
+	<Mood_Content>Olumlu</Mood_Content>
+  <Mood_Happy>Mutlu</Mood_Happy>
   
   <!-- Game over -->
   <GameOverEveryoneDead>Herkes öldü veya terketti. Hikaye bitti.\n\nBelkide başkaları bu harabe için bir kullanış bulabilir.</GameOverEveryoneDead>
@@ -378,5 +411,15 @@
   <!-- Maintainable -->
   <DueForMaintenance>Due for maintenance.</DueForMaintenance>
   <DeterioratingDueToLackOfMaintenance>Deteriorating due to lack of maintenance.</DeterioratingDueToLackOfMaintenance>
+  
+  <!-- Deep drill -->
+  <ProgressToNextLump>Progress to next lump</ProgressToNextLump>
+  <ResourceBelow>Resource below</ResourceBelow>
+  
+  <!-- Learning helper -->
+  <LearningHelper>Learning helper</LearningHelper>
+  <MarkLearned>Mark as learned</MarkLearned>
+  <AlreadyLearned>Already learned</AlreadyLearned>
+  <Filter>Filter</Filter>
 
 </LanguageData>
