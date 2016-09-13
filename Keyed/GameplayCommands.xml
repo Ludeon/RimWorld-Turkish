@@ -26,7 +26,9 @@
   <CommandToggleDraftDesc>Askeri taslak işaretle.\n\nİşaretkli kişiler emir alır ve savaşır. Çalışmazlar, yemezler ve dinlenmezler.</CommandToggleDraftDesc>
   <IsIncapped>{0} aciz durumda.</IsIncapped>
 
-  
+  <CommandClearPrioritizedWork>Clear prioritized work</CommandClearPrioritizedWork>
+  <CommandClearPrioritizedWorkDesc>Clear any prioritized work you assigned. The character will go back to their usual self-directed activities.</CommandClearPrioritizedWorkDesc>
+
   <CommandCancelConstructionLabel>İptal et</CommandCancelConstructionLabel>
   <CommandCancelConstructionDesc>Bu inşayı iptal et.</CommandCancelConstructionDesc>
 
@@ -64,6 +66,14 @@
   <CommandDeleteZoneDesc>Bölgeyi sil.</CommandDeleteZoneDesc>
   <CommandDeleteZoneLabel>Sil</CommandDeleteZoneLabel>
   
+  <CommandCopyZoneSettingsLabel>Copy settings</CommandCopyZoneSettingsLabel>
+  <CommandCopyZoneSettingsDesc>Copy this zone's settings to the clipboard so you can paste them onto another zone.</CommandCopyZoneSettingsDesc>
+
+  <CommandPasteZoneSettingsLabel>Paste settings</CommandPasteZoneSettingsLabel>
+  <CommandPasteZoneSettingsDesc>Overwrite this zone's settings with those previously copied to the clipboard.</CommandPasteZoneSettingsDesc>
+
+  <CommandAllowSow>Allow sowing</CommandAllowSow>
+  <CommandAllowSowDesc>When disabled, colonists will never sow plants in this zone. They will still harvest.</CommandAllowSowDesc>
   
   <!-- Artillery -->
   <CommandSetForceAttackTarget>Zorunlu hedef belirle</CommandSetForceAttackTarget>
@@ -138,5 +148,9 @@
   <CommandSelectPlantToGrowMulti>Select plant to grow</CommandSelectPlantToGrowMulti>
   <CommandSelectPlantToGrow>Plant: {0}</CommandSelectPlantToGrow>
   <CommandSelectPlantToGrowDesc>Determine which plant should be sown here.</CommandSelectPlantToGrowDesc>
+
+  <!-- Build copy -->
+  <CommandBuildCopy>Build copy</CommandBuildCopy>
+  <CommandBuildCopyDesc>Build a copy of this building.</CommandBuildCopyDesc>
 
 </LanguageData>
