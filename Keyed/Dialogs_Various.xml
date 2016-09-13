@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+  <Confirm>Onayla</Confirm>
+  <GoBack>Geri Dön</GoBack>
+  <OK>Tamam</OK>
+ 
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld has been updated from version {0} to version {1}.\n\nThis may cause saved games and mods from the old version to stop working.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this.</GameUpdatedToNewVersionSteam>
+
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Uyumsuz ya da bozulmuþ modlardan kurtarýldý.</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Görünüþe göre aktif modlardan bazýlarý hataya sebep oluyor.\n\nModlar birbirleriyle uyuþmuyor, RimWorld'ün baþka bir sürümü için yapýlmýþ ya da bozulmuþ olabilir.\n\nBütün modlar devre dýþý býrakýldý, modlar kýsmýndan tekrar aktif edilebilir.</RecoveredFromErrorsText>
+  
+    <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Varlýklarý yükleme hatasý</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Oyun varlýklarý yüklenirken bir hata meydana geldi. Fazla bilgi için hata kaydýna bak.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Oyun þu anda özel bir kip ile çalýþýyor - bu durum bu problemlere neden olabilir.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Bir harita oluþturma hatasý</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Yeni bir harita oluþtururken bir hata meydana geldi. Fazla bilgi için hata kaydýna bak.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Harita yüklenme hatasý</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Harita yüklenirken bir hata meydana geldi. Fazla bilgi için hata kaydýna bak.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModWithAssemblyWasUnloaded>The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</ModWithAssemblyWasUnloaded>
+
+  <!-- Missing Steam -->
+  <SteamClientMissing>Steam API'yi baþlatamamak. Olasý Nedenler:\n\n-Steam çalýþmýyor.\n-steam_appid.txt olmadan Steam dýþýndan baþlatýldý.\n-Farklý ayrýcalýklar ile Steam istemcisinden çalýþtýrmak (örneðin "yönetici olarak").\n\nBir çok durumda, bilgisayarý yeniden baþlatmak bu sorunu çözecektir.\n\nOyunun bu versiyonu Steam gerektirir ve kapanacaktýr.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <InitializingInterface>Arayüz baþlatýlýyor</InitializingInterface>
+  <UnloadingUnusedAssets>Kullanýlmayan varlýklar kaldýrýlýyor</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Bütün aktif kipler yükleniyor</LoadingAllActiveMods>
+  <LoadingDefs>Savunmalar yükleniyor</LoadingDefs>
+  <LoadingAssets>Varlýklar yükleniyor</LoadingAssets>
+  <Initializing>Baþlatýlýyor</Initializing>
+  <LoadingWorld>Dünya yükleniyor</LoadingWorld>
+  <LoadingMap>Harita yükleniyor</LoadingMap>
+  <InitializingMap>Harita baþlatýlýyor</InitializingMap>
+  <SpawningAllThings>Her þey oluþturuluyor</SpawningAllThings>
+
+  <!-- Save/load -->
+  <SaveGameButton>Kaydet</SaveGameButton>
+  <OverwriteButton>Üstüne Kaydet</OverwriteButton>
+  <LoadGameButton>Oyunu Yükle</LoadGameButton>
+  
+  <!-- Colony naming-->
+  <SaveGameButton>Kaydet</SaveGameButton>
+  <LoadGameButton>Yükle</LoadGameButton>
+  <OverwriteButton>Üstüne Kaydet</OverwriteButton>
+  <ConfirmDelete>Really delete {0}?</ConfirmDelete>
+  <DeleteThisSavegame>Delete this savegame.</DeleteThisSavegame>
+  <SavedAs>Saved as {0}.</SavedAs>
+  <NeedAName>Please enter a name.</NeedAName>
+  <LoadingLongEvent>Loading</LoadingLongEvent>
+  <SavingLongEvent>Saving</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Permadeath)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Save data was saved with our game version and should work without issue.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
+  <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information.</ProblemSavingFile>
+  <LoadAnyway>Load anyway</LoadAnyway>
+
+
+  <!-- Renaming -->
+  <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
+  <NameIsInUse>Bu isim daha önce kullanýlmýþ.</NameIsInUse>
+  <ZoneGainsName>Bu alan {0}.</ZoneGainsName>
+  <ConfirmDelete> {0} dosyayý gerçekten silmek istiyor musun?</ConfirmDelete>
+  <DeleteThisSavegame>Bu kayýt dosyasýný sil.</DeleteThisSavegame>
+  <SavedAs>{0} olarak kaydedildi .</SavedAs>
+  <NeedAName>Lütfen isim girin.</NeedAName>
+  <LoadingLongEvent>Yükleniyor...</LoadingLongEvent>
+  <SaveIsFromDifferentGameVersion>{0} versiyonunu kullanýyorsunuz ama kayýt dosyasý tamamen deðiþik bir versiyon olan {1} versiyonundan.\n\nBu veriyi açmaya çalýþmak iþe yaramayacaktýr.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild> {0} versiyonunu kullanýyorsunuz ama kayýt dosyasý deðiþik bir yapý olan {1} versiyonundan.\n\nYine de bu dosyayý açmaya çalýþmak iþe yarayacaktýr.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Kayýt dosyasý oyuna kaydedildi ve sorunsuz çalýþacak..</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Kayýt dosyasý bilinmeyen bir formatta olduðu için düzgün bir þekilde açýlamýyor.</SaveIsUnknownFormat>
+  <ProblemSavingFile>Dosya kaydedilirken bir sorun yaþandý {0}:\n\n{1}</ProblemSavingFile>
+  
+  <!-- Colony naming-->
+  <NameColonyMessage>Herkes uzun süre bu kayanýn üstünde kalmak istemediðinizi biliyor. Ama {0} koloninize isim vermenizi öneriyor.\n\nSizce nasýl adlandýrýlmalýdýr?</NameColonyMessage>
+  <ColonyGainsName>Koloniniz {0} olarak biliniyor.</ColonyGainsName>
+  <ColonyNameIsInvalid>Koloni ismi geçerli deðil.</ColonyNameIsInvalid>
+
+  <!-- Zone naming -->
+  <ZoneGainsName>Bu bölge artýk {0} olarak adlandýrýlýyor.</ZoneGainsName>
+  <ZoneNameIsInvalid>Lütfen geçerli bir bölge ismi girin.</ZoneNameIsInvalid>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>Kolonicinin lakabý artýk {0}.</PawnGainsName>
+
+  <!-- Save game incompatible warning -->
+  <VersionMismatch>Versiyon Uyuþmazlýðý</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Versiyon uyuþmazlýðý: Harita {0} versiyonunda kaydedilmiþ ama biz {1} versiyonunu kullanýyoruz.\n\n Bu kaydý yüklemek muhtemelen hatalara ve kapanmalara neden olacaktýr.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch.</WorldFileVersionMismatch>
+  <ModsMismatchWarningTitle>Mods mismatch</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Map was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nMap was saved with (in this order):\n\n{0}\n\nWe are running with:\n\n{1}</ModsMismatchWarningText>
+
+  <WorldFileVersionMismatch>Uyarý: Bu dünya versiyon {0} ile oluþturulmuþ ama biz {1} versiyonunu kullanýyoruz.\n\nBu dünyayý yüklemek hatalara ve kapanmalara neden olacaktýr. Yeni bir dünya oluþturmanýzý tavsiye ediyoruz.</WorldFileVersionMismatch>
+  
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>Ekran ayarlarýný deðiþtirdin.Yeni ayarlar iyi çalýþýyor mu?\n\n{0} içinde ayarlarýnýz geri alýnacak.</ConfirmResolutionChange>
+  <ResolutionKeep>Uygula</ResolutionKeep>
+  <ResolutionRevert>Geri al</ResolutionRevert>
+
+  <!-- Overview -->
+  <OverviewOf>{0}in önizlemesi</OverviewOf>
+
+  <!-- Research -->
+  <Research>Araþtýrma</Research>
+  <Researched>Araþtýrýlmýþ</Researched>
+  <Unresearched>Araþtýrýlmamýþ</Unresearched>
+  <Finished>Tamamlanmýþ</Finished>
+  <InProgress>Devam ediyor</InProgress>
+  <Locked>Locked</Locked>
+  <ResearchMenuWithoutBench>ARAÞTIRMA MASASI yapana kadar kolonicilerin araþtýrma yapamaz.\n\nYine de araþtýrma projelerine bakabilir ve seçebilirsin.</ResearchMenuWithoutBench>
+  
+  
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>UYARI: Donmuþ bir bölgeye iniþ yapacaksýnýz. Hayatta kalmak zor, hatta imkansýz olabilir. Eðer aþýrý zorluklarla mücadele etme niyetiniz yoksa baþka bir bölge veya ay seçiniz.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>UYARI: Bilgisayarýnýz oldukça güçlü olmadýðý sürece büyük harita boyutlarýnda performansýnýz düþebilir.\n\nEðer güçsüz bir makineye sahipsen Küçük seçmelisin.\n\nLudeonicrous boyutu testedilmedi ve beklenmeyen sonuçlar verebilir.</MapSizePerformanceWarning>
+  <MapSize>Harita Boyutu</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} kareler)</MapSizeDesc>
+  <MapSizeSmall>Küçük</MapSizeSmall>
+  <MapSizeMedium>Orta</MapSizeMedium>
+  <MapSizeLarge>Büyük</MapSizeLarge>
+  <MapSizeExtreme>Aþýrý Büyük</MapSizeExtreme>
+  <MapStartMonth>Baþlangýç Ayý:</MapStartMonth>
+  <MapStartMonthDefault>Otomatik</MapStartMonthDefault>
+  <MapStartSeason>Starting season:</MapStartSeason>
+  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
+  <PermadeathMode>Permadeath mode</PermadeathMode>
+  <PermadeathModeInfo>In permadeath mode, you get one save file and can only save when quitting the game. You cannot reload the game to fix mistakes, and when the colony dies, that's it.\n\nThis is the way RimWorld was meant to be played, with every dramatic turn - whether tragic or hopeful - played out to full impact.</PermadeathModeInfo>
+
+
+  <!-- Bill config -->
+  <Suspended>Askýya alýnmýþ</Suspended>
+  <NotSuspended>Askýya alýnmamýþ</NotSuspended>
+  <SuspendedAllCaps>ASKIYA ALINMIÞ</SuspendedAllCaps>
+  <RepeatCount>{0} defa tekrar et.</RepeatCount>
+  <Forever>Sonsuz</Forever>
+  <IngredientSearchRadius>Malzeme arama yarýçaðý</IngredientSearchRadius>
+  <TargetCount>{0} tane olana kadar yap.</TargetCount>
+  <Infinite>Sonsuz</Infinite>
+  <RecipeCannotHaveTargetCount>(Bu tarifin limiti belirlenemiyor çünkü birden fazla veya öngörülemeyen sayýda ürün veriyor.)</RecipeCannotHaveTargetCount>
+  <PermittedIngredients>Ýzin verilmiþ malzemeler</PermittedIngredients>
+  <MinimumSkills>En az beceri:</MinimumSkills>
+  <BillRequires>Requires {0} {1}</BillRequires>
+  <UsableIngredients>Kullanýlabilir malzemeler</UsableIngredients>
+  <DoXTimes>X defa yap</DoXTimes>
+  <DoUntilYouHaveX>X tane olana kadar yap</DoUntilYouHaveX>
+  <DoForever>Sonsuza kadar yap.</DoForever>
+  <BillRepeatTargetCountShort>{0}e kadar yap</BillRepeatTargetCountShort>
+  <BillStoreMode_DropOnFloor>Yere býrak</BillStoreMode_DropOnFloor>
+  <BillStoreMode_BestStockpile>En iyi stokalanýna koy</BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>En yakýn stokalanýna koy.</BillStoreMode_NearestStockpileAnyPriority>
+  
+  <!-- Info card -->
+  <Damage>Hasar</Damage>
+  <Accuracy>Ýsabet</Accuracy>
+  <BurstShotCount>Çoklu atýþ sayýsý</BurstShotCount>
+  <WarmupTime>Isýnma</WarmupTime>
+  <CooldownTime>Yeniden dolma</CooldownTime>
+  <BurstShotFireRate>Azami atýþ hýzý</BurstShotFireRate>
+  <Range>Uzaklýk</Range>
+  <GrowsWild>Grows wild</GrowsWild>
+  <Harvestable>Hasat edilebilir.</Harvestable>
+  <LimitedLifespan>Sýnýrlý yaþam süresi</LimitedLifespan>
+  <GrowingTime>Büyüme zamaný</GrowingTime>
+
+  <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
+  <Days>days</Days>
+  <MinGrowingSkillToSow>Minimum growing skill to sow</MinGrowingSkillToSow>
+  <FertilityRequirement>Fertility requirement</FertilityRequirement>
+  <SoilFertilitySensitivityGrowthRate>Soil fertility sensitivity (growth rate)</SoilFertilitySensitivityGrowthRate>
+  <SoilFertilitySensitivityPlantChance>Soil fertility sensitivity (plant chance)</SoilFertilitySensitivityPlantChance>
+  <LightRequirement>Light requirement</LightRequirement>
+  <Attributes>Attributes</Attributes>
+  <LifeSpan>Lifespan</LifeSpan>
+  <Nutrition>Nutrition</Nutrition>
+  <Joy>Joy</Joy>
+  <FoodQuality>Food quality</FoodQuality>
+  <WalkSpeedProperty>Walk speed</WalkSpeedProperty>
+  <MinFoodQuality>Min. food quality</MinFoodQuality>
+  <Diet>Diet</Diet>
+  <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
+  <MarketValue>Base price</MarketValue>
+  <Covers>Covers</Covers>
+  <CoverEffectiveness>Cover effectiveness</CoverEffectiveness>
+  <CoverEffectivenessExplanation>How effective this is when used as cover in a gunfight. Higher percentages will block more shots.</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>Experience gain factor</MedicineXpGainFactor>
+  <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
+  <MoodChange>Mood change</MoodChange>
+  <Wildness>Wildness</Wildness>
+  <WildnessExplanation>Wilder creatures are naturally more difficult to tame, train, and handle.</WildnessExplanation>
+  <AnimalFilthRate>Animal filth rate</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Time</TimeRecordsCategory>
+  <MiscRecordsCategory>Misc</MiscRecordsCategory>
+  <Addictiveness>Addictiveness</Addictiveness>            
+  
+  <!-- Trade -->
+  <PositiveBuysNegativeSells>Positive numbers buy.\nNegative numbers sell.</PositiveBuysNegativeSells>
+  <DragToTrade>Ticaret yapmak için sürükle</DragToTrade>
+  <BuyPriceDesc>Bunu almak için ödenecek fiyat.</BuyPriceDesc>
+  <SellPriceDesc>Bunu sattýðýn zaman alacaðýn ücret.</SellPriceDesc>
+  <PriceTypeDesc>Bu ürün için, fiyat {0} dýr.</PriceTypeDesc>
+  <ColonyCount> Koloninin kaç tane ticarete hazýr eþyasý olduðu.\n\nSadece açýk havada ve Ticaret Anteninin yakýnýnda ise kullanýbilirdir.</ColonyCount>
+  <TraderCount>Tüccarýn elinde bu eþyadan ticaret için ne kadar var?</TraderCount>
+  <AcceptButton>Onayla</AcceptButton>
+  <ResetButton>Sýfýrla</ResetButton>
+  <CancelButton>Ýptal et</CancelButton>
+  <YourTradeableSilver>Takas edilebilir gümüþ: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>Gümüþ Ticaret Anteninin menzilinde ve açýk havada ise ticaret yapabilirsiniz.</YourTradeableSilverTip>
+  <TraderHasNoMore>Tüccarýn elinde daha fazla yok.</TraderHasNoMore>
+  <ColonyHasNoMore>Daha satacak þey yok.</ColonyHasNoMore>
+  <TraderWillNotTrade>Tüccar bu eþyayý takas etmek istemiyor.</TraderWillNotTrade>
+  <NegotiatorTalkingImpaired>Görüþmeciniz {0} düþük saðlýk nedeniyle düzgün konuþamýyor.\n\nBu mallarýn fiyatlarýna etki edecektir.\n\nDaha saðlýklý baþka bir görüþmeci kullanmayý dikkate alýn.</NegotiatorTalkingImpaired>
+  <ConfirmTraderShortFunds>Tüccarýn size bu ödemeyi yapmak için yeterli gümüþü yok. Yine de devam etmek ister misiniz?</ConfirmTraderShortFunds>
+  <SortBy>Sort by</SortBy>
+
+  <!-- Comms -->
+  <SocialSkillIs>Sosyal beceri: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <ResearchFinished>{0} araþtýrmasý bitti.</ResearchFinished>
+  <ResearchScreen>Araþtýrma ekraný.</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Geliþtiricilere yardýmcý olmak için oyun verilerini RimWorld sunucularýna göndermek istiyor musun? Eðer onaylarsan verilerin her {0} günde bir gönderilecek.(ve oyunun sonu gibi bazý nadir olaylarda). Gizlilik tercihleri daha sonradan ayarlar menüsünden deðiþtirilebilir.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>Geçmiþ anonim olarak gönderilse de adýnýzý ekleyebilirsiniz.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Oyun bilgilerimi göndermeye izin ver.</HistoryUploadYes>
+  <HistoryUploadNo>Oyun bilgilerimi göndermeye izin ver. </HistoryUploadNo>
+  <HistoryUploadYesOnce>Sadece bu sefer gönder.</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Bu sefer göndermeyin, daha sonra sor.</HistoryUploadNoOnce>
+  
+  <!-- Outfit management -->
+  <Outfit>Giyim</Outfit>
+  <SelectOutfit>Giyim seç...</SelectOutfit>
+  <NewOutfit>Yeni giyim</NewOutfit>
+  <DeleteOutfit>Giyimi sil...</DeleteOutfit>
+  <OutfitInUse>{0} tarafýnda kullanýlýyor.</OutfitInUse>
+  <NoOutfitSelected>Giyim seçili deðil</NoOutfitSelected>
+<!-- Drug policy management -->
+  <DrugPolicy>Drug policy</DrugPolicy>
+  <SelectDrugPolicy>Select policy...</SelectDrugPolicy>
+  <NewDrugPolicy>New policy</NewDrugPolicy>
+  <DeleteDrugPolicy>Delete policy...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Drugs policy is in use by {0}.</DrugPolicyInUse>
+  <SocialDrugs>Social drugs</SocialDrugs>
+  <NoDrugs>No drugs</NoDrugs>
+  <OneDrinkPerDay>One drink per day</OneDrinkPerDay>
+  <Unrestricted>Unrestricted</Unrestricted>
+  <NoDrugPolicySelected>No drug policy selected</NoDrugPolicySelected>
+  <AddDrug>Add drug...</AddDrug>
+  <DrugColumnLabel>Drug</DrugColumnLabel>
+  <DrugUsageColumnLabel>Usage</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Frequency</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Only if mood below</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Only if joy below</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Take to inventory</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(no drugs)</NoDrugsBrackets>
+  <EveryDay>Every day</EveryDay>
+  <TimesPerDay>{0} times per day</TimesPerDay>
+  <EveryDays>Every {0} days</EveryDays>
+  <NoDrugUseRequirement>Any</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Delete this drug.</DeleteDrugTooltip>
+  <DrugNameColumnDesc>The name of a drug.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>How the drug is allowed to be used.</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>How often the colonists should try to take this drug.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes, and to satisfy addiction needs, as desired.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met
+	
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>
+
+</LanguageData>
