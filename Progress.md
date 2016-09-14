@@ -1,8 +1,4 @@
-Use these;
-- [x] This is a complete item
-- [ ] This is an incomplete item
-
-## Translation Progress
+## Turkish Language Translation Progress
 * [ ] DefInjected
  * [ ] BiomeDef 
     - [x] Biomes_Arid.xml
