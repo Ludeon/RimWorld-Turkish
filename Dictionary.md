@@ -1,4 +1,4 @@
-##Bu bölüm ingilizce kelimelerin türkçe karşılıklarının bulunduğu kısımdır. Bu kısım yardımı ile bul-değiştir komutu kullanılıp kelimelerin bulunduğu içerikler otomatik değiştirilebilir.
+##Bu bÃ¶lÃ¼m Ä°ngilizce kelimelerin TÃ¼rkÃ§e karÅŸÄ±lÄ±klarÄ±nÄ±n bulunduÄŸu kÄ±sÄ±mdÄ±r. Bu kÄ±sÄ±m yardÄ±mÄ± ile bul-deÄŸiÅŸtir komutu kullanÄ±lÄ±p kelimelerin bulunduÄŸu iÃ§erikler otomatik deÄŸiÅŸtirilebilir.
 
 Muffalo - Beyaz Bizon
-Dromedary - Tek hörgüçlü deve
+Dromedary - Tek hÃ¶rgÃ¼Ã§lÃ¼ deve
