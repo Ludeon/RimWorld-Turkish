@@ -2,8 +2,8 @@
 * [ ] DefInjected
  * [ ] BiomeDef 
     - [x] Biomes_Arid.xml
-    - [x] Biomes_Cold.xml
-    - [x] Biomes_Moderate.xml
+    - [ ] Biomes_Cold.xml
+    - [ ] Biomes_Moderate.xml
  * [ ] BodyDef 
     - [ ] Bodies_Animal_Bird.xml
     - [ ] Bodies_Animal_Insect.xml
