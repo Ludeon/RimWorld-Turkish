@@ -20,42 +20,42 @@ If you want to see our progression of Turkish Language Translation, you can look
 
 ## Turkish Language Translation Progress
 * [ ] DefInjected
- * [ ] BiomeDef 
-    - [x] Biomes_Arid.xml
-    - [ ] Biomes_Cold.xml
-    - [ ] Biomes_Moderate.xml
- * [ ] BodyDef 
-    - [ ] Bodies_Animal_Bird.xml
-    - [ ] Bodies_Animal_Insect.xml
-    - [ ] Bodies_Animal_Quadruoed.xml
-    - [ ] Bodies_Animal_Snake.xml
-    - [ ] Bodies_Humanlike.xml
-    - [ ] Bodies_Mechanoid.xml
- * [ ] BodyPartDef 
-    - [ ] BodyParts_Animal.xml
-    - [ ] BodyParts_General.xml
-    - [ ] BodyParts_Humanoid.xml
-    - [ ] BodyParts_Mechanoid.xml
-    - [ ] BodyParts_Organs.xml
- * [ ] BodyPartGroupDef
-    - [ ] BodyPartGroups.xml
- * [ ] ConceptDef 
-    - [ ] Concepts_Alets.xml
-    - [ ] Concepts_Entry.xml
-    - [ ] Concepts_Noted.xml
-    - [ ] concepts_TriggeredModal.xml
- * [ ] DamageDef
-    - [ ] Damages_Healing.xml
-    - [ ] Damages_LocalInjury.xml
-    - [ ] Damage_Misc.xml
- * [ ] DesignationCategoryDef
-    - [ ] DesignationCategories.xml
- * [ ] DifficultyDef
-    - [ ] Difficulties.xml
- * [ ] FactionDef
-    - [ ] Factions_Hidden.xml
-    - [ ] Factions_Misc.xml
-    - [ ] Factions_Player.xml
+ * [x] BiomeDef 
+    - Biomes_Arid.xml
+    - Biomes_Cold.xml
+    - Biomes_Moderate.xml
+ * [x] BodyDef 
+    - Bodies_Animal_Bird.xml
+    - Bodies_Animal_Insect.xml
+    - Bodies_Animal_Quadruoed.xml
+    - Bodies_Animal_Snake.xml
+    - Bodies_Humanlike.xml
+    - Bodies_Mechanoid.xml
+ * [x] BodyPartDef 
+    - BodyParts_Animal.xml
+    - BodyParts_General.xml
+    - BodyParts_Humanoid.xml
+    - BodyParts_Mechanoid.xml
+    - BodyParts_Organs.xml
+ * [x] BodyPartGroupDef
+    - BodyPartGroups.xml
+ * [x] ConceptDef 
+    - Concepts_Alets.xml
+    - Concepts_Entry.xml
+    - Concepts_Noted.xml
+    - Concepts_TriggeredModal.xml
+ * [x] DamageDef
+    - Damages_Healing.xml
+    - Damages_LocalInjury.xml
+    - Damage_Misc.xml
+ * [x] DesignationCategoryDef
+    - DesignationCategories.xml
+ * [x] DifficultyDef
+    - Difficulties.xml
+ * [x] FactionDef
+    - Factions_Hidden.xml
+    - Factions_Misc.xml
+    - Factions_Player.xml
  * [ ] HairDef 
     - HarisGeneral.xml
  * [ ] HediffDef
