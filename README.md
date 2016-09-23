@@ -232,21 +232,21 @@
  
 * [ ] Keyed
  * [ ] Alerts.xml
- * [ ] ConceptDefs.xml
- * [ ] Credits.xml 
- * [ ] Dates.xml
- * [ ] Designators.xml
- * [ ] DialogTrees.xml
+ * [x] ConceptDefs.xml
+ * [x] Credits.xml 
+ * [x] Dates.xml
+ * [ ]Designators.xml
+ * [x] DialogTrees.xml
  * [ ] Dialog_StatsReports.xml
  * [ ] DialogsVarious.xml
  * [ ] Enums.xml
- * [ ] FloatMenu.xml
- * [ ] Gameplay.xml
+ * [x] FloatMenu.xml
+ * [x] Gameplay.xml
  * [ ] GameplayCommands.xml
  * [ ] Grammar.xml
  * [ ] ITabs.xml
  * [ ] Incidents.xml
- * [ ] Letters.xml
+ * [x] Letters.xml
  * [ ] Menu_KeyBindings.xml
  * [ ] Menu_Options.xml
  * [ ] Menus_Main.xml
@@ -257,12 +257,9 @@
  * [ ] Misc_Gameplay.xml
  * [ ] PlayInterface.xml
  * [ ] Pronouns.xml
- * [ ] Skills.xml
- * [ ] Time.xml
- * [ ] WorkTags.xml
- * [ ] About.txt
- * [ ] FriendlyName.txt
- * [ ] LanguageInfo.xml 
+ * [x] Skills.xml
+ * [x] Time.xml
+ * [x] WorkTags.xml
  
 * [ ] Strings
  * [ ] NameBank
