@@ -49,54 +49,54 @@
     - Damage_Misc.xml
  * [x] DesignationCategoryDef
     - DesignationCategories.xml
- * [ ] DifficultyDef
-    - [ ] Difficulties.xml
+ * [x] DifficultyDef
+    - Difficulties.xml
  * [x] FactionDef
     - Factions_Hidden.xml
     - Factions_Misc.xml
     - Factions_Player.xml
- * [ ] HairDef 
-    - [ ] HairsGeneral.xml
- * [ ] HediffDef
-    - [x] Hediffs_Global_Drugs.xml
-    - [x] Hediffs_Global_Execution.xml
-    - [ ] Hediffs_Global_Misc.xml
-    - [x] Hediffs_Global_Needs.xml
-    - [x] Hediffs_Global_Temperature.xml
-    - [x] Hediffs_Local_AddedParts.xml
-    - [x] Hediffs_Local_Chronic.xml
-    - [x] Hediffs_Local_Implants.xml
-    - [x] Hediffs_Local_Infections.xml
-    - [x] Hediffs_Local_Injuries.xml
-    - [x] Hediffs_Local_Misc.xml
+ * [x] HairDef 
+    - HairsGeneral.xml
+ * [x] HediffDef
+    - Hediffs_Global_Drugs.xml
+    - Hediffs_Global_Execution.xml
+    - Hediffs_Global_Misc.xml
+    - Hediffs_Global_Needs.xml
+    - Hediffs_Global_Temperature.xml
+    - Hediffs_Local_AddedParts.xml
+    - Hediffs_Local_Chronic.xml
+    - Hediffs_Local_Implants.xml
+    - Hediffs_Local_Infections.xml
+    - Hediffs_Local_Injuries.xml
+    - Hediffs_Local_Misc.xml
  * [x] HediffGiverSetDef
     - HediffGiverSets.xml
  * [x] HistoryAutoRecorderDef
     - HistoryAutoRecorders.xml
  * [x] HistoryAutoRecorderGroupDef
     - HistoryAutoRecorderGroups.xml
- * [ ] IncidentDef
-    - [x] Incidents_Disease.xml
-    - [x] Incidents_ThreatsBig.xml
-    - [x] Incidents_ThreatsSmall.xml
-    - [ ] Incidents_Various_Bad.xml
-    - [x] Incidents_Various_Good.xml
-    - [x] Incidents_Various_Netural.xml
- * [ ] InteractionDef
-    - [ ] Interactions_Animals.xml
-    - [ ] Interactions_Directed.xml
-    - [x] Interactions_Romance.xml
-    - [x] Interactions_Social.xml
- * [ ] JobDef
-    - [x] jobs_Animal.xml
-    - [x] Jobs_Gatherings.xml
-    - [x] Jobs_Joy.xml
-    - [ ] Jobs_Misc.xml
-    - [ ] Jobs_Work.xml
+ * [x] IncidentDef
+    - Incidents_Disease.xml
+    - Incidents_ThreatsBig.xml
+    - Incidents_ThreatsSmall.xml
+    - Incidents_Various_Bad.xml
+    - Incidents_Various_Good.xml
+    - Incidents_Various_Netural.xml
+ * [x] InteractionDef
+    - Interactions_Animals.xml
+    - Interactions_Directed.xml
+    - Interactions_Romance.xml
+    - Interactions_Social.xml
+ * [x] JobDef
+    - jobs_Animal.xml
+    - Jobs_Gatherings.xml
+    - Jobs_Joy.xml
+    - Jobs_Misc.xml
+    - Jobs_Work.xml
  * [x] JoyKindDef
     - JoyKinds.xml
- * [ ] KeyBindingCategoryDef
-    - [ ] KeyBindingCategories.xml
+ * [x] KeyBindingCategoryDef
+    - KeyBindingCategories.xml
  * [ ] KeyBindingDef 
     - [ ] KeyBindings
  * [x] LifeStageDef 
@@ -105,56 +105,56 @@
     - MainTabs.xml
  * [x] MapConditionDef 
     - MapConditions_Misc.xml
- * [ ] MentalStateDef
-    - [x] MentalStates_Mood.xml
-    - [ ] MentalStates_Special.xml
- * [ ] NeedDef
-    - [ ] Alcohol_Beer.xml
-    - [ ] GoJuice.xml
-    - [ ] Luciferium.xml
-    - [ ] Needs.xml
-    - [ ] Needs_Misc.xml
-    - [ ] Psychite_Yayo.xml
-    - [ ] Smokeleaf.xml
-    - [ ] WakeUp.xml
+ * [x] MentalStateDef
+    - MentalStates_Mood.xml
+    - MentalStates_Special.xml
+ * [x] NeedDef
+    - Alcohol_Beer.xml
+    - GoJuice.xml
+    - Luciferium.xml
+    - Needs.xml
+    - Needs_Misc.xml
+    - Psychite_Yayo.xml
+    - Smokeleaf.xml
+    - WakeUp.xml
  * [x] PawnCapacityDef
     - PawnCapacity.xml
  * [x] PawnRelationDef
     - PawnRelations_FamilyByBlood.xml
     - PawnRelations_FamilyByChoice
     - PawnRelations_Misc
- * [ ] RaidStrategyDef 
-    - [ ] RaidStrategies.xml
- * [ ] RecipeDef 
-    - [ ] Recipes_Butchery.xml
-    - [ ] Recipes_Cremation.xml
-    - [ ] Recipes_Drugs.xml
-    - [ ] Recipes_Meals.xml
-    - [ ] Recipes_Production.xml
-    - [ ] Recipes_Surgery.xml
-    - [ ] Recipes_Surgery_Implants.xml
-    - [ ] Recipes_Surgery_NewParts.xml
- * [ ] RecordDef
-    - [ ] Records_Misc.xml
-    - [ ] Records_Time.xml
- * [ ] ResearchProjectDef 
-    - [ ] ResearchProjects_Tier1_Misc.xml
-    - [ ] ResearchProjects_Tier2_Misc.xml
-    - [ ] ResearchProjects_Tier3_Misc.xml
-    - [ ] ResearchProjects_Tier4_Misc.xml
-    - [ ] ResearchProjects_Tier4_Ship.xml
- * [ ] RoofDef 
-    - [ ] Roofs.xml
- * [ ] RoomRoleDef 
-    - [ ] RoomRoles.xml
- * [ ] RoomStatDef
-    - [ ] RoomStats.xml
+ * [x] RaidStrategyDef 
+    - RaidStrategies.xml
+ * [x] RecipeDef 
+    - Recipes_Butchery.xml
+    - Recipes_Cremation.xml
+    - Recipes_Drugs.xml
+    - Recipes_Meals.xml
+    - Recipes_Production.xml
+    - Recipes_Surgery.xml
+    - Recipes_Surgery_Implants.xml
+    - Recipes_Surgery_NewParts.xml
+ * [x] RecordDef
+    - Records_Misc.xml
+    - Records_Time.xml
+ * [x] ResearchProjectDef 
+    - ResearchProjects_Tier1_Misc.xml
+    - ResearchProjects_Tier2_Misc.xml
+    - ResearchProjects_Tier3_Misc.xml
+    - ResearchProjects_Tier4_Misc.xml
+    - ResearchProjects_Tier4_Ship.xml
+ * [x] RoofDef 
+    - Roofs.xml
+ * [x] RoomRoleDef 
+    - RoomRoles.xml
+ * [x] RoomStatDef
+    - RoomStats.xml
  * [ ] RulePackDef
     - [ ] RulePacks_Art_DescriptionRoot.xml
     - [ ] RulePacks_Art_ImagesTaleless.xml
     - [ ] RulePacks_Art_NameRoots.xml
     - [ ] RulePacks_Art_PhysicalDescriptionRoots.xml
-    - [ ] RulePacks_Global.xml
+    - [x] RulePacks_Global.xml
     - [ ] RulePacks_InteractionsExtra.xml
     - [ ] RulePacks_NameMaker_World.xml
     - [ ] RulePacks_NameMakers_Animals.xml
@@ -163,72 +163,71 @@
     - [ ] RulePacks_NameMakers_Scenarios.xml
     - [ ] RulePacks_NameMakers_Traders.xml
     - [ ] RulePacks_Seeds.xml
- * [ ] ScenarioDef
-     - [ ] Scenarios_Classic.xml
-     - [ ] Scenarios_Special.xml
- * [ ] ScenPartDef
-    - [ ] ScenParts_Fixed
-    - [ ] ScenParts_Various.xml
- * [ ] ScenarioDef
-    - [ ] Scenarios_Classic.xml
-    - [ ] Scenarios_Special.xml
- * [ ] SkillDef
-    - [ ] Skills.xml
- * [ ] SpecialThingFilterDef
-    - [ ] SpecialThingFilters.xml
- * [ ] StatCategoryDef 
-    - [ ] StatCategories.xml
+ * [x] ScenarioDef
+     - Scenarios_Classic.xml
+     - Scenarios_Special.xml
+ * [x] ScenPartDef
+    - ScenParts_Fixed
+    - ScenParts_Various.xml
+ * [x] SkillDef
+    - Skills.xml
+ * [x] SpecialThingFilterDef
+    - SpecialThingFilters.xml
+ * [x] StatCategoryDef 
+    - StatCategories.xml
  * [ ] StatDef 
-    - [ ] Stats_Apparel.xml
-    - [ ] Stats_Basics_General.xml
-    - [ ] Stats_Basics_Special.xml
-    - [ ] Stats_Building_Special.xml
-    - [ ] Stats_Pawns_Combat.xmş
-    - [ ] Stats_Pawns_General.xml
-    - [ ] Stats_Pawns_Social.xml
+    - [x] Stats_Apparel.xml
+    - [x] Stats_Basics_General.xml
+    - [x] Stats_Basics_Special.xml
+    - [x] Stats_Building_Special.xml
+    - [x] Stats_Pawns_Combat.xmş
+    - [x] Stats_Pawns_General.xml
+    - [x] Stats_Pawns_Social.xml
     - [ ] Stats_Pawns_WorkGeneral.xml
     - [ ] Stats_Pawns_WorkMedical.xml
     - [ ] Stats_Pawns_WorkRecipes.xml
-    - [ ] Stats_Weapons_Melee.xml
-    - [ ] Stats_Weapons_Ranged.xml
- * [ ] StorytellerDef
-    - [ ] Storytellers.xml
- * [ ] StuffCategoryDef 
-    - [ ] StuffCategories.xml
+    - [x] Stats_Weapons_Melee.xml
+    - [x] Stats_Weapons_Ranged.xml
+ * [x] StorytellerDef
+    - Storytellers.xml
+ * [x] StuffCategoryDef 
+    - StuffCategories.xml
  * [ ] TaleDef 
+    - [ ] Tales_DoublePawn.xml
     - [ ] Tales_DoublePawn_Relationships.xml
-    - [ ] Tales_NoPawn.xml
- * [ ] TerrainDef 
-    - [ ] Terrain_Floors.xml
-    - [ ] Terrain_FloorsStoneTile.xml
-    - [ ] Terrain_Natural.xml
-    - [ ] Terrain_Special.xml
-    - [ ] Terrain_Water.xml
- * [ ] ThingCategoryDef  
-    - [ ] ThingCategories.xml
+    - [x] Tales_NoPawn.xml
+    - [ ] Tales_SinglePawn.xml
+ * [x] TerrainDef 
+    - Terrain_Floors.xml
+    - Terrain_FloorsStoneTile.xml
+    - Terrain_Natural.xml
+    - Terrain_Special.xml
+    - Terrain_Water.xml
+ * [x] ThingCategoryDef  
+    - ThingCategories.xml
  * [ ] ThingDef
  * [ ] ThoughtDef
- * [ ] TimeAssignmentDef 
-    - [ ] TimeAssignments.xml
- * [ ] TradeDialogSorterDef 
-    - [ ] TradeDialogSorters.xml
- * [ ] TraderKindDef
-    - [ ] TraderKinds_Caravan_Neolithic.xml
-    - [ ] TraderKinds_Caravan_Outlander.xml
-    - [ ] TraderKinds_Orbital_Misc.xml
-    - [ ] TraderKinds_Visitor_Neolithic.xml
-    - [ ] TraderKinds_Visitor_Outlander.xml
- * [ ] TrainableDef 
-    - [ ] Trainables.xml
+ * [x] TimeAssignmentDef 
+    - TimeAssignments.xml
+ * [x] TradeDialogSorterDef 
+    - TradeDialogSorters.xml
+ * [x] TraderKindDef
+    - TraderKinds_Caravan_Neolithic.xml
+    - TraderKinds_Caravan_Outlander.xml
+    - TraderKinds_Orbital_Misc.xml
+    - TraderKinds_Visitor_Neolithic.xml
+    - TraderKinds_Visitor_Outlander.xml
+ * [x] TrainableDef 
+    - Trainables.xml
  * [ ] TraitDef
-    - [ ] Traits_Singular.xml
+    - [x] Traits_Singular.xml
     - [ ] Traits_Spectrum.xml
- * [ ] WeatherDef
-    - [ ] Weathers
+ * [x] WeatherDef
+    - Weathers
  * [ ] WorkGiverDef 
     - [ ] WorkGivers.xml
- * [ ] WorkTypeDef 
-    - [ ] WorkTypes.xml
+ * [x] WorkTypeDef 
+    - WorkTypes.xml
  
 * [ ] Keyed
  * [ ] Alerts.xml
