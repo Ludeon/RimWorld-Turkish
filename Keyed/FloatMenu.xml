@@ -1,20 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-
-
-  
-	<CallOnRadio>Ara {0}</CallOnRadio>
-	<CannotUseSolarFlare>Kullanılamaz(güneş fırtınası)</CannotUseSolarFlare>
-	<CannotUseNoPower>Kullanılamaz (güç yok)</CannotUseNoPower>
-	<CannotUseNoPath>Kullanılamaz (yol yok)</CannotUseNoPath>
+ 
+  <CallOnRadio>Ara {0}</CallOnRadio>
+  <CannotUseReason>Cannot use ({0})</CannotUseReason>
+  <CannotUseSolarFlare>Kullanılamaz(güneş fırtınası)</CannotUseSolarFlare>
+  <CannotUseNoPower>Kullanılamaz (güç yok)</CannotUseNoPower>
+  <CannotUseNoPath>Kullanılamaz (yol yok)</CannotUseNoPath>
   <CannotUseReserved>Kullanılamaz (rezerve edilmiş)</CannotUseReserved>
   <CannotUseFull>Kullanılamaz (dolu)</CannotUseFull>
-  
+  <LeaderUnavailable>leader {0} is unavailable</LeaderUnavailable>
+
   <FireAt>Ateş et {0}</FireAt>
 
   <OutOfRange>menzil dışında</OutOfRange>
   <CannotHitTarget>hedefe vuramaz</CannotHitTarget>
-  <CannotFight>{0} savaşamaz</CannotFight>
+  <IsIncapableOfViolenceLower>{0} is incapable of violence</IsIncapableOfViolenceLower>
+  <IsNotDraftedLower>{0} is not drafted</IsNotDraftedLower>
+  <CannotOrderNonControlledLower>cannot order non-controlled units</CannotOrderNonControlledLower>
 
   <OrderManThing>Erkek {0}</OrderManThing>
   
@@ -22,19 +24,32 @@
   <MeleeAttackToDeath>{0} Yakın saldırı ile öldürüldü</MeleeAttackToDeath>
   <NoPath>Yol yok</NoPath>
 
-	<ForbiddenLower>Yasak</ForbiddenLower>
-	<SociallyImproperLower>sosyal uygunsuz</SociallyImproperLower>
+  <ForbiddenLower>Yasak</ForbiddenLower>
+  <ForbiddenOutsideAllowedAreaLower>outside allowed area</ForbiddenOutsideAllowedAreaLower>
+  <NotInHomeArea>not in home area</NotInHomeArea>
+  <SociallyImproperLower>sosyal uygunsuz</SociallyImproperLower>
   <PrisonerRoomLower>mahkum odası</PrisonerRoomLower>
-	<BurningLower>yanıyor</BurningLower>
-	<NoEmptyPlaceLower>bunu depolamak için boş alan yok</NoEmptyPlaceLower>
-	<AlreadyFilledLower>yeterince dolu</AlreadyFilledLower>
-	<MissingMaterials>malzeme eksik</MissingMaterials>
-	
+  <BurningLower>yanıyor</BurningLower>
+  <NoEmptyPlaceLower>bunu depolamak için boş alan yok</NoEmptyPlaceLower>
+  <AlreadyFilledLower>yeterince dolu</AlreadyFilledLower>
+  <MissingMaterials>malzeme eksik</MissingMaterials>
+  <MissingSkill>skill too low</MissingSkill>
+  <NoEmptyGraveLower>no empty grave configured to store it</NoEmptyGraveLower>
+  <AnimalInteractedTooRecently>animal interacted too recently</AnimalInteractedTooRecently>
+  <NoUsableFood>no usable food</NoUsableFood>
+  <NoFood>no food</NoFood>
+  <AnimalsSkillTooLow>Animals skill too low</AnimalsSkillTooLow>
+  <NoComponentsToRepair>need components</NoComponentsToRepair>
+  <NoFuelToRefuel>need {0}</NoFuelToRefuel>
+  <NoWort>need wort</NoWort>
+
+  <ConsumeThing>Consume {0}</ConsumeThing>
 	
   <CannotGoNoPath>Buraya gidilemez(yol yok)</CannotGoNoPath>
   <GoHere>Buraya git</GoHere>
   
   <Arrest>{0}'ı tutukla</Arrest>
+  <TryToArrest>Try to arrest {0}</TryToArrest>
   <CannotArrest>Tutuklanamaz</CannotArrest>
 
   <Capture>{0}'ı ele geçir</Capture>
@@ -43,32 +58,65 @@
   <Rescue>{0}'ı kurtar</Rescue>
   <CannotRescue>Kurtarılamaz</CannotRescue>
 
-  <NoPrisonerBed>Mahkum için uygun yatak yok.</NoPrisonerBed>
-  <NoNonPrisonerBed>Mahkum için uygun yatak yok.</NoNonPrisonerBed>
-  <Reserved>Başkası tarafından rezerve edilmiş.</Reserved>
-  <ReservedBy>{0} tarafından rezerve edilmiş..</ReservedBy>
-  <IsReservedBy>{0} için {1} ayrılmış.</IsReservedBy>
+  <CarryToCryptosleepCasket>Carry {0} to cryptosleep casket</CarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Cannot carry to cryptosleep casket</CannotCarryToCryptosleepCasket>
 
-  <NoManipulationSkill>yetersiz</NoManipulationSkill>
+  <NoCryptosleepCasket>No available cryptosleep casket.</NoCryptosleepCasket>
+  <NoPrisonerBed>No reachable, un-reserved, enclosed prisoner-marked bed.</NoPrisonerBed>
+  <NoNonPrisonerBed>No reachable, un-reserved non-prisoner bed.</NoNonPrisonerBed>
+  <NoAnimalBed>No reachable, un-reserved animal bed.</NoAnimalBed>
+  <Reserved>Reserved by someone else.</Reserved>
+  <ReservedBy>Reserved by {0}</ReservedBy>
+  <IsReservedBy>{0} is reserved by {1}.</IsReservedBy>
+  <TooHeavy>Too heavy</TooHeavy>
+
+  <Incapable>incapable</Incapable>
+  <IncapableOfCapacity>incapable of {0}</IncapableOfCapacity>
+
+  <MinSkill>min skill</MinSkill>
 
   <Equip>Donan {0}</Equip>
   <EquipWarningBrawler>(kavgacı mutsuz olacak)</EquipWarningBrawler>
   <CannotEquip>Taşıyamaz {0}</CannotEquip>
   
-  <Wear>Giy {0}</Wear>
-  <CannotWear>Giyemez {0}</CannotWear>
+  <ForceWear>Force wear {0}</ForceWear>
+  <CannotWear>Cannot wear {0}</CannotWear>
+  <CannotWearBecauseOfMissingBodyParts>missing body parts</CannotWearBecauseOfMissingBodyParts>
+  
+  <CannotPickUp>Cannot pick up {0}</CannotPickUp>
+  <CannotPickUpAll>Cannot pick up {0} (all)</CannotPickUpAll>
+  <PickUp>Pick up {0}</PickUp>
+  <PickUpAll>Pick up {0} (all)</PickUpAll>
+  <PickUpSome>Pick up {0}...</PickUpSome>
+  <PickUpCount>Pick up {0} x{{0}}</PickUpCount>
+  
+  <CannotGiveToPackAnimal>Cannot give {0} to pack animal</CannotGiveToPackAnimal>
+  <CannotGiveToPackAnimalAll>Cannot give {0} (all) to pack animal</CannotGiveToPackAnimalAll>
+  <GiveToPackAnimal>Give {0} to pack animal</GiveToPackAnimal>
+  <GiveToPackAnimalAll>Give {0} (all) to pack animal</GiveToPackAnimalAll>
+  <GiveToPackAnimalSome>Give {0} to pack animal...</GiveToPackAnimalSome>
+  <GiveToPackAnimalCount>Take {0} x{{0}}</GiveToPackAnimalCount>
+  
+  <CannotCarryToExit>Cannot carry {0} and leave the area</CannotCarryToExit>
+  <CarryToExit>Carry {0} and leave the area</CarryToExit>
   
   <Strip>{0}'ı Soy</Strip>
   <CannotStrip>{0}'ı Soyamam</CannotStrip>
-
-  <Deposit>Boşalt {0} için {1}</Deposit>
-  <CannotDeposit>Boşaltılamaz {0} için {1}</CannotDeposit>
+	
+  <SelfDestructHere>Self-destruct here</SelfDestructHere>
 
   <Drop>Bırak {0}</Drop>
   
   <UseMedicalBed>Tamamen iyileşene kadar dinlen.</UseMedicalBed>
   <NotInjured>Yaralı değil</NotInjured>
   <SomeoneElseSleeping>Müsait değil</SomeoneElseSleeping>
+
+  <TradeWith>Trade with {0}</TradeWith>
+  <CannotTrade>Cannot trade</CannotTrade>
+  
+  <EnterMap>Enter {0}</EnterMap>
+  <VisitFactionBase>Visit {0}</VisitFactionBase>
+  <AttackFactionBase>Attack {0}</AttackFactionBase>
 
   <!-- Specific thing interactions -->
   <EnterCryptosleepCasket>KriptoUyku kapsülüne gir</EnterCryptosleepCasket>
@@ -82,13 +130,19 @@
     
   <CannotGenericAlreadyAm>Zaten {0} {1}</CannotGenericAlreadyAm>
 
-  <CannotPrioritizeIsNotA>Önceliklendiremez ({0} için {1})</CannotPrioritizeIsNotA>
+  <CannotPrioritizeWorkTypeDisabled>Cannot prioritize (will never do {0})</CannotPrioritizeWorkTypeDisabled>
+  
+  <CannotPrioritizeNotAssignedToWorkType>Cannot prioritize (not assigned to {0})</CannotPrioritizeNotAssignedToWorkType>
 
   <CannotPrioritizeResearch>Önceliklendirilemez (araştırma uzun vadeli bir görev)</CannotPrioritizeResearch>
 
   <CannotPrioritizeForbidden>Önceliklendirilemez ({0} yasaklı)</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbiddenOutsideAllowedArea>Cannot prioritize ({0} is outside allowed area)</CannotPrioritizeForbiddenOutsideAllowedArea>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc-->
   <PrioritizeGeneric>Önceliklendir {0} {1}</PrioritizeGeneric>
-  
+
+  <DropAtEdge>Drop at edge</DropAtEdge>
+  <DropInCenter>Drop in center</DropInCenter>
+
 </LanguageData>
