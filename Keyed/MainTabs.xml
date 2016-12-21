@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Work tab -->
@@ -12,13 +12,15 @@
   <IncapableOfWorkTypeBecauseOfCapacities>Bu kolonici sağlık durumundan ötürü bir iş yapamaz.</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   
-  <!-- Outfits tab -->
+  <!-- Assign tab -->
   <CurrentOutfit>Şu anki kıyafet</CurrentOutfit>
   <ManageOutfits>Kıyafetleri yönet</ManageOutfits>
   <ClearForcedApparel>Clear forced</ClearForcedApparel>
   <ApparelForcedLower>forced</ApparelForcedLower>
   <ForcedApparel>Forced apparel</ForcedApparel>
-  <OutfitEdit>Edit...</OutfitEdit>
+  <AssignTabEdit>Edit...</AssignTabEdit>
+  <CurrentDrugPolicies>Current drug policy</CurrentDrugPolicies>
+  <ManageDrugPolicies>Manage drug policies</ManageDrugPolicies>
   
   <!-- Restrictions tab -->
   <Copy>Kopyala</Copy>
@@ -28,25 +30,25 @@
   <!-- Animals tab -->
   <Master>Master</Master>
   <PregnantIconDesc>Pregnant ({0} / {1})</PregnantIconDesc>
-  
+  <FollowDraftedTip>Follow master while the master is drafted.</FollowDraftedTip>
+	<FollowFieldworkTip>Follow master while the master is doing field work (hunting or taming animals).</FollowFieldworkTip>
+
   <!-- Factions tab -->
   <Hostile>Düşman</Hostile>
+  <DefeatedLower>defeated</DefeatedLower>
   <HostileTo>Enemy of {0}</HostileTo>
   <CurrentGoodwill>Current goodwill with this faction.</CurrentGoodwill>
   
-  <!-- Statistics tab -->
-  <Playtime>Play time</Playtime>
-  <Storyteller>Storyteller</Storyteller>
-  <ColonyWealthTotal>Colony wealth</ColonyWealthTotal>
-  <ColonyWealthItems>Colony wealth (items)</ColonyWealthItems>
-  <ColonyWealthBuildings>Colony wealth (buildings)</ColonyWealthBuildings>
-  <NumThreatBigs>Major threats</NumThreatBigs>
-  <NumEnemyRaids>Enemy raids</NumEnemyRaids>
-  <DamageTaken>Damage taken</DamageTaken>
-  <ColonistsKilled>Colonists killed</ColonistsKilled>
-  <ColonistsLaunched>Colonists launched into space</ColonistsLaunched>
-
-  <!-- History tab -->
+  <!-- Social tab -->
+	<Friend>Friend</Friend>
+	<Rival>Rival</Rival>
+	<Acquaintance>Acquaintance</Acquaintance>
+	
+  <!-- History tab - subtabs -->
+  <Graph>Graph</Graph>
+  <Statistics>Statistics</Statistics>
+  
+  <!-- History tab - Graphs -->
   <SelectGraph>Select graph</SelectGraph>
   <Last30Days>Son 30 gün</Last30Days>
   <Last100Days>Son 100 gün</Last100Days>
@@ -55,6 +57,18 @@
   <Day>Gün</Day>
   <Value>Değer</Value>
   <External>Harici</External>
+
+  <!-- History tab - Statistics -->
+  <Playtime>Play time</Playtime>
+  <Storyteller>Storyteller</Storyteller>
+  <ThisMapColonyWealthTotal>Colony wealth (this map)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>Colony wealth (items) (this map)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>Colony wealth (buildings) (this map)</ThisMapColonyWealthBuildings>
+  <NumThreatBigs>Major threats</NumThreatBigs>
+  <NumEnemyRaids>Enemy raids</NumEnemyRaids>
+  <ThisMapDamageTaken>Damage taken (this map)</ThisMapDamageTaken>
+  <ColonistsKilled>Colonists killed</ColonistsKilled>
+  <ColonistsLaunched>Colonists launched into space</ColonistsLaunched>
   
   <!-- Research tab -->
   <ProjectTechLevel>Proje teknoloji seviyesi</ProjectTechLevel>
