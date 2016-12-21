@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-
-
   <Confirm>Onayla</Confirm>
   <GoBack>Geri Dön</GoBack>
   <OK>Tamam</OK>
@@ -40,24 +38,20 @@
   <Initializing>Başlatılıyor</Initializing>
   <LoadingWorld>Dünya yükleniyor</LoadingWorld>
   <LoadingMap>Harita yükleniyor</LoadingMap>
-  <InitializingMap>Harita başlatılıyor</InitializingMap>
   <SpawningAllThings>Her şey oluşturuluyor</SpawningAllThings>
-
+  <SpawningColonists>Spawning colonists</SpawningColonists>
+  <InitializingGame>Initializing game</InitializingGame>
+	
   <!-- Save/load -->
   <SaveGameButton>Kaydet</SaveGameButton>
-  <OverwriteButton>Üstüne Kaydet</OverwriteButton>
   <LoadGameButton>Oyunu Yükle</LoadGameButton>
-  
-  <!-- Colony naming-->
-  <SaveGameButton>Kaydet</SaveGameButton>
-  <LoadGameButton>Yükle</LoadGameButton>
   <OverwriteButton>Üstüne Kaydet</OverwriteButton>
   <ConfirmDelete>Really delete {0}?</ConfirmDelete>
   <DeleteThisSavegame>Delete this savegame.</DeleteThisSavegame>
   <SavedAs>Saved as {0}.</SavedAs>
   <NeedAName>Please enter a name.</NeedAName>
-  <LoadingLongEvent>Yükleniyor</LoadingLongEvent>
-  <SavingLongEvent>Kaydediliyor</SavingLongEvent>
+  <LoadingLongEvent>Loading</LoadingLongEvent>
+  <SavingLongEvent>Saving</SavingLongEvent>
   <PermadeathModeSaveSuffix>(Permadeath)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work.</SaveIsFromDifferentGameBuild>
@@ -65,31 +59,25 @@
   <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
   <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information.</ProblemSavingFile>
   <LoadAnyway>Load anyway</LoadAnyway>
+	
+    <!-- Player faction naming -->
+  <NamePlayerFactionMessage>{0} thinks that you should give your faction a name. What should your faction be called?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Your faction is now known as {0}.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>That name isn't valid.</PlayerFactionNameIsInvalid>
 
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>This community is now known as {0}.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>That name isn't valid.</PlayerFactionBaseNameIsInvalid>
+
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Since it looks like you'll be here for a while, {0} also thinks that you should give community a name. What should this local community be called?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Your faction is now known as {0}, and this community is now known as {1}.</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
   <NameIsInUse>Bu isim daha önce kullanılmış.</NameIsInUse>
   <ZoneGainsName>Bu alan {0}.</ZoneGainsName>
-  <ConfirmDelete> {0} dosyayı gerçekten silmek istiyor musun?</ConfirmDelete>
-  <DeleteThisSavegame>Bu kayıt dosyasını sil.</DeleteThisSavegame>
-  <SavedAs>{0} olarak kaydedildi .</SavedAs>
-  <NeedAName>Lütfen isim girin.</NeedAName>
-  <LoadingLongEvent>Yükleniyor...</LoadingLongEvent>
-  <SaveIsFromDifferentGameVersion>{0} versiyonunu kullanýyorsunuz ama kayıt dosyası tamamen değişik bir versiyon olan {1} versiyonundan.\n\nBu veriyi açmaya çalışmak işe yaramayacaktýr.</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild> {0} versiyonunu kullanýyorsunuz ama kayıt dosyası değiþik bir yapı olan {1} versiyonundan.\n\nYine de bu dosyayı açmaya çalışmak işe yarayacaktır.</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>Kayıt dosyası oyuna kaydedildi ve sorunsuz çalışacak..</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Kayıt dosyası bilinmeyen bir formatta olduğu için düzgün bir şekilde açılamıyor.</SaveIsUnknownFormat>
-  <ProblemSavingFile>Dosya kaydedilirken bir sorun yaşandı {0}:\n\n{1}</ProblemSavingFile>
-  
-  <!-- Colony naming-->
-  <NameColonyMessage>Herkes uzun süre bu kayanın üstünde kalmak istemediğinizi biliyor. Ama {0} koloninize isim vermenizi öneriyor.\n\nSizce nasıl adlandırılmalıdır?</NameColonyMessage>
-  <ColonyGainsName>Koloniniz {0} olarak biliniyor.</ColonyGainsName>
-  <ColonyNameIsInvalid>Koloni ismi geçerli değil.</ColonyNameIsInvalid>
-
-  <!-- Zone naming -->
-  <ZoneGainsName>Bu bölge artık {0} olarak adlandırılıyor.</ZoneGainsName>
-  <ZoneNameIsInvalid>Lütfen geçerli bir bölge ismi girin.</ZoneNameIsInvalid>
   
   <!-- Pawn naming -->
   <PawnGainsName>Kolonicinin lakabı artık {0}.</PawnGainsName>
@@ -97,19 +85,15 @@
   <!-- Save game incompatible warning -->
   <VersionMismatch>Versiyon Uyuşmazlığı</VersionMismatch>
   <SaveGameIncompatibleWarningText>Versiyon uyuşmazlığı: Harita {0} versiyonunda kaydedilmiş ama biz {1} versiyonunu kullanıyoruz.\n\n Bu kaydı yüklemek muhtemelen hatalara ve kapanmalara neden olacaktır.</SaveGameIncompatibleWarningText>
-  <WorldFileVersionMismatch>World file was generated with game version {0}\nWe are running game version {1}\n\nLoading this world may cause bugs and crashes. You should probably generate a new world from scratch.</WorldFileVersionMismatch>
+  <WorldFileVersionMismatch>Uyarı: Bu dünya versiyon {0} ile oluşturulmuş ama biz {1} versiyonunu kullanıyoruz.\n\nBu dünyayı yüklemek hatalara ve kapanmalara neden olacaktır. Yeni bir dünya oluşturmanızı tavsiye ediyoruz.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes.</FileIncompatibleWarning>
   <ModsMismatchWarningTitle>Mods mismatch</ModsMismatchWarningTitle>
   <ModsMismatchWarningText>Map was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nMap was saved with (in this order):\n\n{0}\n\nWe are running with:\n\n{1}</ModsMismatchWarningText>
-
-  <WorldFileVersionMismatch>Uyarı: Bu dünya versiyon {0} ile oluşturulmuş ama biz {1} versiyonunu kullanıyoruz.\n\nBu dünyayı yüklemek hatalara ve kapanmalara neden olacaktır. Yeni bir dünya oluşturmanızı tavsiye ediyoruz.</WorldFileVersionMismatch>
   
   <!-- Resolution change dialog -->
   <ConfirmResolutionChange>Ekran ayarlarını değiştirdin.Yeni ayarlar iyi çalışıyor mu?\n\n{0} içinde ayarlarınız geri alınacak.</ConfirmResolutionChange>
   <ResolutionKeep>Uygula</ResolutionKeep>
   <ResolutionRevert>Geri al</ResolutionRevert>
-
-  <!-- Overview -->
-  <OverviewOf>{0}in önizlemesi</OverviewOf>
 
   <!-- Research -->
   <Research>Araştırma</Research>
@@ -119,7 +103,9 @@
   <InProgress>Devam ediyor</InProgress>
   <Locked>Locked</Locked>
   <ResearchMenuWithoutBench>ARAŞTIRMA MASASI yapana kadar kolonicilerin araştırma yapamaz.\n\nYine de araştırma projelerine bakabilir ve seçebilirsin.</ResearchMenuWithoutBench>
-  
+  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
+  <RequiredResearchBench>Required research bench</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Required research bench facilities</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
   <MapTemperatureDangerWarning>UYARI: Donmuş bir bölgeye iniş yapacaksınız. Hayatta kalmak zor, hatta imkansız olabilir. Eğer aşırr zorluklarla mücadele etme niyetiniz yoksa başka bir bölge veya ay seçiniz.</MapTemperatureDangerWarning>
@@ -130,13 +116,10 @@
   <MapSizeMedium>Orta</MapSizeMedium>
   <MapSizeLarge>Büyük</MapSizeLarge>
   <MapSizeExtreme>Aşırı Büyük</MapSizeExtreme>
-  <MapStartMonth>Başlangıç Ayı:</MapStartMonth>
-  <MapStartMonthDefault>Otomatik</MapStartMonthDefault>
   <MapStartSeason>Starting season:</MapStartSeason>
   <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
   <PermadeathMode>Permadeath mode</PermadeathMode>
   <PermadeathModeInfo>In permadeath mode, you get one save file and can only save when quitting the game. You cannot reload the game to fix mistakes, and when the colony dies, that's it.\n\nThis is the way RimWorld was meant to be played, with every dramatic turn - whether tragic or hopeful - played out to full impact.</PermadeathModeInfo>
-
 
   <!-- Bill config -->
   <Suspended>Askıya alınmış</Suspended>
@@ -144,13 +127,20 @@
   <SuspendedAllCaps>ASKIYA ALINMIŞ</SuspendedAllCaps>
   <RepeatCount>{0} defa tekrar et.</RepeatCount>
   <Forever>Sonsuz</Forever>
+  <Details>Details</Details>
   <IngredientSearchRadius>Malzeme arama yarıçağı</IngredientSearchRadius>
-  <TargetCount>{0} tane olana kadar yap.</TargetCount>
+  <CurrentlyHave>Currently have</CurrentlyHave>
+  <CountingProducts>Counting</CountingProducts>
   <Infinite>Sonsuz</Infinite>
+  <AllowedSkillRange>Allowed {0} skill:</AllowedSkillRange>
+	
   <RecipeCannotHaveTargetCount>(Bu tarifin limiti belirlenemiyor çünkü birden fazla veya öngörülemeyen sayýda ürün veriyor.)</RecipeCannotHaveTargetCount>
-  <PermittedIngredients>İzin verilmiş malzemeler</PermittedIngredients>
+  <WorkAmount>Work amount</WorkAmount>
   <MinimumSkills>En az beceri:</MinimumSkills>
   <BillRequires>Requires {0} {1}</BillRequires>
+  <BillRequiresNutrition>Requires {0} nutrition</BillRequiresNutrition>
+  <BillRequiresMayVary>Note: small-volume ingredients like gold require 20x as much.</BillRequiresMayVary>
+  <ThisIsSmallVolume>This is a small-volume ingredient. This means that each 'unit' is only 1/20 as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need 20x as much as usual.</ThisIsSmallVolume>
   <UsableIngredients>Kullanılabilir malzemeler</UsableIngredients>
   <DoXTimes>X defa yap</DoXTimes>
   <DoUntilYouHaveX>X tane olana kadar yap</DoUntilYouHaveX>
@@ -165,6 +155,7 @@
   <Accuracy>İsabet</Accuracy>
   <BurstShotCount>Çoklu atış sayısı</BurstShotCount>
   <WarmupTime>Isınma</WarmupTime>
+  <MeleeWarmupTime>Melee warmup</MeleeWarmupTime>
   <CooldownTime>Yeniden dolma</CooldownTime>
   <BurstShotFireRate>Azami atış hızı</BurstShotFireRate>
   <Range>Uzaklık</Range>
@@ -172,13 +163,11 @@
   <Harvestable>Hasat edilebilir.</Harvestable>
   <LimitedLifespan>Sınırlı yaşam süresi</LimitedLifespan>
   <GrowingTime>Büyüme zamanı</GrowingTime>
-
   <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
   <Days>days</Days>
   <MinGrowingSkillToSow>Minimum growing skill to sow</MinGrowingSkillToSow>
   <FertilityRequirement>Fertility requirement</FertilityRequirement>
-  <SoilFertilitySensitivityGrowthRate>Soil fertility sensitivity (growth rate)</SoilFertilitySensitivityGrowthRate>
-  <SoilFertilitySensitivityPlantChance>Soil fertility sensitivity (plant chance)</SoilFertilitySensitivityPlantChance>
+  <FertilitySensitivity>Fertility sensitivity</FertilitySensitivity>
   <LightRequirement>Light requirement</LightRequirement>
   <Attributes>Attributes</Attributes>
   <LifeSpan>Lifespan</LifeSpan>
@@ -188,6 +177,7 @@
   <WalkSpeedProperty>Walk speed</WalkSpeedProperty>
   <MinFoodQuality>Min. food quality</MinFoodQuality>
   <Diet>Diet</Diet>
+  <BodySize>Body size</BodySize>
   <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
   <MarketValue>Base price</MarketValue>
   <Covers>Covers</Covers>
@@ -203,10 +193,11 @@
   <TimeRecordsCategory>Time</TimeRecordsCategory>
   <MiscRecordsCategory>Misc</MiscRecordsCategory>
   <Addictiveness>Addictiveness</Addictiveness>            
-  
+  <PackAnimal>Pack animal</PackAnimal>
+  <PackAnimalExplanation>Whether this animal is appropriate to use to carry items in a caravan over long distances.</PackAnimalExplanation>
+	
   <!-- Trade -->
   <PositiveBuysNegativeSells>Positive numbers buy.\nNegative numbers sell.</PositiveBuysNegativeSells>
-  <DragToTrade>Ticaret yapmak için sürükle</DragToTrade>
   <BuyPriceDesc>Bunu almak için ödenecek fiyat.</BuyPriceDesc>
   <SellPriceDesc>Bunu sattığın zaman alacağın ücret.</SellPriceDesc>
   <PriceTypeDesc>Bu ürün için, fiyat {0} dýr.</PriceTypeDesc>
@@ -215,15 +206,80 @@
   <AcceptButton>Onayla</AcceptButton>
   <ResetButton>Sıfırla</ResetButton>
   <CancelButton>İptal et</CancelButton>
+  <CloseButton>Kapat</CloseButton>
   <YourTradeableSilver>Takas edilebilir gümüş: {0}</YourTradeableSilver>
-  <YourTradeableSilverTip>Gümüþ Ticaret Anteninin menzilinde ve açık havada ise ticaret yapabilirsiniz.</YourTradeableSilverTip>
+  <YourTradeableSilverTip>Gümüş Ticaret Anteninin menzilinde ve açık havada ise ticaret yapabilirsiniz.</YourTradeableSilverTip>
   <TraderHasNoMore>Tüccarýn elinde daha fazla yok.</TraderHasNoMore>
   <ColonyHasNoMore>Daha satacak şey yok.</ColonyHasNoMore>
   <TraderWillNotTrade>Tüccar bu eşyayı takas etmek istemiyor.</TraderWillNotTrade>
   <NegotiatorTalkingImpaired>Görüşmeciniz {0} düşük sağlık nedeniyle düzgün konuşamıyor.\n\nBu malların fiyatlarýna etki edecektir.\n\nDaha sağlıklı başka bir görüşmeci kullanmayı dikkate alın.</NegotiatorTalkingImpaired>
   <ConfirmTraderShortFunds>Tüccarýn size bu ödemeyi yapmak için yeterli gümüþü yok. Yine de devam etmek ister misiniz?</ConfirmTraderShortFunds>
   <SortBy>Sort by</SortBy>
+  <TraderTypePrice>trader type</TraderTypePrice>
+  <Selling>selling</Selling>
+  <Buying>Buying</Buying>
+  <ItemSellPriceFactor>item sell price multiplier</ItemSellPriceFactor>
+  <DifficultyLevel>difficulty level</DifficultyLevel>
+  <PostCurve>global post-process curve</PostCurve>
+  <YourNegotiatorBonus>Your negotiator bonus</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Trading with faction base bonus</TradeWithFactionBaseBonus>
+  <minimum>minimum</minimum>
+  <FinalPrice>Final Price</FinalPrice>
+  <TradeMassUsageTooltip>The resulting mass usage and mass capacity.</TradeMassUsageTooltip>
 
+  <!-- Form caravan -->
+  <FormCaravan>Form caravan</FormCaravan>
+  <FormCaravanColonyThingCountTip>How many of this item the colony has ready to give to the caravan.</FormCaravanColonyThingCountTip>
+  <PawnsTab>People and animals</PawnsTab>
+  <ItemsTab>Items</ItemsTab>
+  <CaravanConfigTab>Config</CaravanConfigTab>
+  <CaravanMustHaveAtLeastOneColonist>You must assign at least one non-downed colonist.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>Could not find any valid exit location.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindReachableExitSpot>Warning: some of the assigned colonists are unable to reach the exit location.</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{0} is unreachable by any of the assigned colonists.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>None of the assigned colonists are able to reach the {0}.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>None of the assigned colonists are able to reach {0}x {1}.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>The caravan is not able to carry that much.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Current mass usage and mass capacity.\n\nMass usage includes the assigned caravan supplies as well as the colonists' current equipment.\n\nYou will not be able to send the caravan if the mass usage exceedes capacity.</CaravanMassUsageTooltip>
+  <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
+  <DaysWorthOfFoodInfo>{0} days worth of food</DaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Will never run out of food</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>An approximate number of days before the caravan runs out of food.\n\nThis takes into account both human and animal food, and shows the worst case scenario. This means that after this many days, at least one person or animal will be out of food.</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.\n\nAre you sure you want to form this caravan?</DaysWorthOfFoodWarningDialog_NoFood>
+  <NoExitDirectionForCaravanChosen>You must choose an exit direction for the caravan.</NoExitDirectionForCaravanChosen>
+  <NoCaravanExitDirectionAvailable>(no exit direction available)</NoCaravanExitDirectionAvailable>
+  <ExitDirection>Exit direction</ExitDirection>
+  <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
+  <ItemWeightTip>Weight of this item.</ItemWeightTip>
+  <MarketValueTip>Market value</MarketValueTip>
+  <MassCapacity>Mass capacity</MassCapacity>
+  <Mass>Mass</Mass>
+  <EquipmentAndApparelMass>Equipment and apparel mass</EquipmentAndApparelMass>
+  <InventoryMass>Inventory mass</InventoryMass>
+  <CaravanFormationProcessStarted>Your colonists will now take the assigned items and leave the area as soon as possible.</CaravanFormationProcessStarted>
+  <ReformCaravan>Reform caravan</ReformCaravan>
+  <ColonistsSection>Colonists</ColonistsSection>
+  <PrisonersSection>Prisoners</PrisonersSection>
+  <AnimalsSection>Animals</AnimalsSection>
+
+  <!-- Split caravan -->
+  <SplitCaravan>Split caravan</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>You must leave at least one non-downed colonist.</SourceCaravanMustHaveAtLeastOneColonist>
+  <CaravanSplitSourceLabel>Current</CaravanSplitSourceLabel>
+  <CaravanSplitDestLabel>New</CaravanSplitDestLabel>
+  <SplitCaravanThingCountTip>How many of this item the caravan has ready to give to the new caravan.</SplitCaravanThingCountTip>
+  <SplitCaravanMassUsageTooltip>Current mass usage and mass capacity.</SplitCaravanMassUsageTooltip>
+
+  <!-- Load transporters -->
+  <LoadTransporters>Load {0}</LoadTransporters>
+  <TooBigTransportersMassUsage>The assigned people and items are too heavy for the transport pods.</TooBigTransportersMassUsage>
+  <CantSendEmptyTransportPods>You can't send empty transport pods.</CantSendEmptyTransportPods>
+  <PawnCantReachTransporters>{0} can't reach the transport pods.</PawnCantReachTransporters>
+  <TransporterItemIsUnreachableSingle>There is no path between the transport pods and the {0}.</TransporterItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>There is no path between the transport pods and {0}x {1}.</TransporterItemIsUnreachableMulti>
+  <TransportersMassUsageTooltip>Current mass usage and mass capacity.\n\nYou will not be able to send the transport pods if the mass usage exceedes capacity.</TransportersMassUsageTooltip>
+	
   <!-- Comms -->
   <SocialSkillIs>Sosyal beceri: {0}</SocialSkillIs>
   
@@ -246,6 +302,7 @@
   <DeleteOutfit>Giyimi sil...</DeleteOutfit>
   <OutfitInUse>{0} tarafında kullanılıyor.</OutfitInUse>
   <NoOutfitSelected>Giyim seçili deðil</NoOutfitSelected>
+	
 <!-- Drug policy management -->
   <DrugPolicy>Drug policy</DrugPolicy>
   <SelectDrugPolicy>Select policy...</SelectDrugPolicy>
@@ -276,10 +333,27 @@
   <MoodThresholdColumnDesc>The colonists will take this drug only if their mood level is below this threshold.</MoodThresholdColumnDesc>
   <JoyThresholdColumnDesc>The colonists will take this drug only if their joy level is below this threshold.</JoyThresholdColumnDesc>
   <TakeToInventoryColumnDesc>An amount of the drug to pick up extra when gathering it for consumption, in order to avoid having to visit the drug stockpile every time.</TakeToInventoryColumnDesc>
-  <DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes, and to satisfy addiction needs, as desired.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
-  <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met</DrugUsageTipScheduled>
-	
+  <DrugUsageTipForAddiction>For addictions\n\nUse this drug to feed already-established addiction needs.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForAddiction>
+  <DrugUsageTipForJoy>For joy\n\nUse this drug for joy and social purposes.\n\nEven if disabled, some characters with specific traits, or on mental breaks, may use the drug anyway.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Scheduled\n\nUse this drug on a defined schedule, when specific conditions are met.</DrugUsageTipScheduled>
+
   <!-- Growing -->
   <NoGrowerCanPlant>{0} requires {1} skill in Growing to sow.\n\nNone of your non-downed growers have this skill, so this plant will not be sown.</NoGrowerCanPlant>
 
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Some of your colonists or animals are in this area. Are you sure you want to abandon it?\n\nThe following people and animals will be left behind:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmLeavePrisonersOrAnimalsBehind>There are still some prisoners or animals left in this area and this is the only caravan they can join at the moment.\n\nIf you move your caravan, they won't be able to leave the area until you are back. The prisoners will start escaping, while the animals will keep waiting for you.\n\nIf you decide to wait, they will try to join your caravan as soon as possible.\n\nAre you sure you want to move your caravan?</ConfirmLeavePrisonersOrAnimalsBehind>
+  
+  <!-- Abandon pawn -->
+  <ConfirmAbandonPawnDialog>Do you really want to abandon {0}?</ConfirmAbandonPawnDialog>
+  <ConfirmAbandonPawnDialog_LeftToDie>{0} will most likely die.</ConfirmAbandonPawnDialog_LeftToDie>
+  <ConfirmAbandonPawnDialog_EquipmentAndApparel>{0} will take the following items with HIM:</ConfirmAbandonPawnDialog_EquipmentAndApparel>
+  <ConfirmAbandonPawnDialog_AllColonistsThoughts>All colonists will get the following thoughts:</ConfirmAbandonPawnDialog_AllColonistsThoughts>
+  <ConfirmAbandonPawnDialog_IndividualThoughts>Abandoning {0} will cause the following people to get the following thoughts:</ConfirmAbandonPawnDialog_IndividualThoughts>
+  
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Pod group isn’t completely loaded. {0} is missing. Launch anyway?</ConfirmSendNotCompletelyLoadedPods>
+  
 </LanguageData>
