@@ -5,6 +5,7 @@
   <TabBills>Senetler</TabBills>
   <TabGrowing>Yetiştirme</TabGrowing>
   <TabCharacter>Karakter</TabCharacter>
+  <TabTraining>Training</TabTraining>
   <TabPrisoner>Mahkum</TabPrisoner>
   <TabGuest>Misafir</TabGuest>
   <TabGear>Ekipman</TabGear>
@@ -39,8 +40,9 @@
   <PrisonerAttemptRecruit>Koloniye katmaya çalışıyor</PrisonerAttemptRecruit>
   <PrisonerRelease>Serbest bırak</PrisonerRelease>
   <PrisonerExecution>İdam et</PrisonerExecution>
+  <ConsideredGuilty>Considered guilty (expires in {0})</ConsideredGuilty>
 
-
+  
   <!-- Medical - general -->
   <MoveSpeed>Hareket hızı</MoveSpeed>
   <Efficiency>Verimlilik</Efficiency>
@@ -51,16 +53,15 @@
   <Healthy>Sağlıklı</Healthy>
   <InPain>Acı içinde</InPain>
   <PainLevel>Acı</PainLevel>
-  <Dead>Ölü</Dead>
-  <Unconscious>Bilinçsiz</Unconscious>
-  <PainShock>Şokta</PainShock>
   <Injured>Yaralı</Injured>
   <NoInjuries>(yara yok)</NoInjuries>
   <WholeBody>Tüm vücudu</WholeBody>
   <DataProcessing>Veri işleme</DataProcessing>
   <Communication>İletişim</Communication>
-  <AffectsLower>etkiler</AffectsLower>
+  <Affects>Affects</Affects>
   <BleedingRate>Kanama oranı</BleedingRate>
+  <TimeToDeath>death in {0}</TimeToDeath>
+  <WontBleedOutSoon>no immediate danger</WontBleedOutSoon>
   <HealthOverview>Genel</HealthOverview>
   <MedicalOperationsShort>Operasyonlar ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Değişiklikler ({0})</MedicalOperationsMechanoidsShort>
@@ -72,6 +73,9 @@
   <SocialInteractionsLower>social interactions</SocialInteractionsLower>
   <HungerRate>Hunger rate</HungerRate>
   <Tiredness>Tiredness</Tiredness>
+  <PainFactor>Pain</PainFactor>
+  <PreventsInfection>Prevents infection</PreventsInfection>
+
   
   <!-- Medical - Body and activities condition -->
   <None>Yok</None>
@@ -89,6 +93,7 @@
   <SeverePain>Şiddetli</SeverePain>
   <ExtremePain>Aşırı</ExtremePain>
   
+  
   <!-- Training tab-->
   <TrainableIntelligence>Trainable intelligence</TrainableIntelligence>
   <CannotTrainNotSmartEnough>Requires trainable intelligence {0}.</CannotTrainNotSmartEnough>
@@ -105,8 +110,10 @@
   <SomeonesOpinionOfMe>{0}'s opinion of me</SomeonesOpinionOfMe>
   <IAmDead>I'm dead</IAmDead>
   <IAmPsychopath>I'm a psychopath</IAmPsychopath>
-
+  
+  <!-- Gear tab -->
   <AverageArmor>Average armor</AverageArmor>
+  <MassCarried>Mass carried: {0} / {1} kg</MassCarried>
   <ComfyTemperatureRange>Comfortable temperature range</ComfyTemperatureRange>
   <ArmorBlunt>Blunt</ArmorBlunt>
   <ArmorSharp>Sharp</ArmorSharp>
