@@ -58,6 +58,9 @@
   <LetterLeadersDeathLabel>Lider'in Ölümü</LetterLeadersDeathLabel>
   <LetterLeadersDeath>{1} kolonisinin lideri {0} öldü ve yerine {2} geçti.</LetterLeadersDeath>
   
+  <LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
+	<LetterLeaderChanged>{0} is no longer {3} of {1}.\n\nThe new {3} is {2}.</LetterLeaderChanged>
+	
   <MentalBreakLetterLabel>Zihinsel Kırılma</MentalBreakLetterLabel>
   <MentalBreakReason>Reason: {0}.</MentalBreakReason>
   
@@ -67,7 +70,9 @@
   <LetterRelatedPawnsRaidFriendly>{0} dost grubunda kolonist veya mahkumlarınız ile ilişkisi bulunan kişiler var:</LetterRelatedPawnsRaidFriendly>
   <LetterRelatedPawnsNeutralGroup>Gelen grupta kolonist veya mahkumlarınızla ilişkisi bulunan kişiler var:</LetterRelatedPawnsNeutralGroup>
   <LetterRelatedPawnsTradeShip>Atmosferik tüccar kolonist veya mahkumlarınızla ilişkisi bulunan kişiler satıyor:</LetterRelatedPawnsTradeShip>
-  
+  <LetterRelatedPawnsTradingWithFactionBase>The faction base is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithFactionBase>
+  <LetterRelatedPawnsTradingWithOtherCaravan>The caravan is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithOtherCaravan>
+
   <RelationshipAppendedLetterSuffix>(relationship)</RelationshipAppendedLetterSuffix>
   <RelationshipAppendedLetterTextColonist>NAME kolonistlerinden biriyle ilişkiye sahip. HECAP is {0}'s {1}.</RelationshipAppendedLetterTextColonist>
   <RelationshipAppendedLetterTextPrisoner>NAME mahkumlarından biriyle ilişkiye sahip. HECAP is {0}'s {1}.</RelationshipAppendedLetterTextPrisoner>
@@ -112,5 +117,31 @@
   <!-- Drug binge -->
   <LetterLabelDrugBinge>{0} Cümbüşü</LetterLabelDrugBinge>
   <LetterDrugBinge>{0}, {1} ile alem yapıyor.</LetterDrugBinge>
+
+  <!-- Formed caravan -->
+  <LetterLabelFormedCaravan>Caravan ready</LetterLabelFormedCaravan>
+  <LetterFormedCaravan>Your caravan has formed and awaits orders on the world map.</LetterFormedCaravan>
+  
+  <!-- Caravan destroyed -->
+  <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>All members of your caravan have died.</LetterAllCaravanColonistsDied>
+  
+  <!-- Caravan entered ambush map -->
+  <LetterLabelCaravanEnteredAmbushMap>Caravan arrived at ambush</LetterLabelCaravanEnteredAmbushMap>
+  <LetterCaravanEnteredAmbushMap>{0} has arrived at the ambush site.</LetterCaravanEnteredAmbushMap>
+  
+  <!-- Caravan entered enemy base -->
+  <LetterLabelCaravanEnteredEnemyBase>Attack begun</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0} has arrived at {1} and is ready to begin the attack.</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} has arrived at {1} and is ready to begin the attack.\n\nBecause of your hostile approach, {2} is now hostile to you.</LetterCaravanEnteredEnemyBaseBecameHostile>
+  
+  <!-- Faction base defeated -->
+  <LetterLabelFactionBaseDefeated>Outpost destroyed</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>The enemy outpost {0} has been destroyed.\n\nYou have {1} hours to collect items before your colonists reform the caravan.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
+  
+  <!-- Pawns lost due to map countdown -->
+  <LetterLabelPawnsLostDueToMapCountdown>Left behind</LetterLabelPawnsLostDueToMapCountdown>
+  <LetterPawnsLostDueToMapCountdown>Some of your animals or prisoners were left behind in the wilderness:\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
 </LanguageData>
