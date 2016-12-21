@@ -30,9 +30,18 @@
   <WorldGenerate>Oluştur</WorldGenerate>
   <WorldSaveAndFinish>Bitir</WorldSaveAndFinish>
   <Reset>Sıfırla</Reset>
-  <WorldSize>Boyut</WorldSize>
+  <PlanetCoverage>Globe coverage</PlanetCoverage>
+  <PlanetRainfall>Overall rainfall</PlanetRainfall>
+  <PlanetTemperature>Overall temperature</PlanetTemperature>
+  <PlanetRainfall_Low>Low</PlanetRainfall_Low>
+  <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <PlanetRainfall_High>High</PlanetRainfall_High>
+  <PlanetTemperature_Low>Low</PlanetTemperature_Low>
+  <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <PlanetTemperature_High>High</PlanetTemperature_High>
   <WorldSeed>Seed</WorldSeed>
   <RandomizeSeed>Rastgele Seed</RandomizeSeed>
+  <PlanetCoverageTip>The planet is always the same diameter, but since it’s far larger than needed for play, we don’t generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated.</PlanetCoverageTip>
 
   <!--=========== Select world ===================-->
   <SelectWorld>Dünya Seç</SelectWorld>
@@ -41,9 +50,9 @@
   
   <!--=========== Version info ==========-->
   <BuildNowAvailable>Yapı {0} artık kullanılabilir. Daha fazla bilgi için: ludeon.com</BuildNowAvailable>
-	<BuildUpToDate>Yapı güncel.</BuildUpToDate>
-	<ErrorGettingVersionInfo>Versiyon bilgisi alırken hata: {0}</ErrorGettingVersionInfo>
-	<LoadingVersionInfo>Versiyon bilgisi yükleniyor...</LoadingVersionInfo>
+  <BuildUpToDate>Yapı güncel.</BuildUpToDate>
+  <ErrorGettingVersionInfo>Versiyon bilgisi alırken hata: {0}</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Versiyon bilgisi yükleniyor...</LoadingVersionInfo>
 
   <!--=========== World generator =========-->
   <GenerateWorld>Dünya Oluştur</GenerateWorld>
@@ -95,34 +104,23 @@
   <HowStorytellersWork>yapay zeka hikayecisi korsan saldırıları , kaynak düşmesi veya hayvan saldırıları gibi olaylar oluşturur.Onların seçimleri koloninin hikayesini etkiler.</HowStorytellersWork>
   <MustChooseDifficulty>Lütfen bir zorluk seç.</MustChooseDifficulty>
   <Difficulty>Zorluk</Difficulty>
-  <MustChooseChallengeScale>Lütfen bir zorluk seç.</MustChooseChallengeScale>
-  <ChallengeScale>Zorluk seviyesi</ChallengeScale>
-  <ChallengeScaleTip>Hikayeyi anlatan AI sana tehditler yolladığında, {0} kadar daha büyük olucaklar.</ChallengeScaleTip>
-  <ChallengeScale_BuilderMode>İnşaat modu</ChallengeScale_BuilderMode>
-  <ChallengeScale_Casual>Orta</ChallengeScale_Casual>
-  <ChallengeScale_Rough>Sert</ChallengeScale_Rough>
-  <ChallengeScale_Challenge>Zorlu</ChallengeScale_Challenge>
-  <ChallengeScale_SeriousChallegne>Çok zorlu</ChallengeScale_SeriousChallegne>
-  <ChallengeScale_ExtremeChallenge>Aşırı zorlu</ChallengeScale_ExtremeChallenge>
 
   <!--=========== Landing site select =========-->
   <SelectLandingSite>Bir iniş alanı seç</SelectLandingSite>
+  <SelectRandomSite>Select random site</SelectRandomSite>
   <SelectSite>Alan seç</SelectSite>
   <MustSelectLandingSite>Lütfen bir iniş alanı şeç</MustSelectLandingSite>
   <CannotLandBiome>Bu iklime iniş yapamazsın: {0}</CannotLandBiome>
-  <WorldRenderMode>Modu</WorldRenderMode>
-  <WorldRenderModeFull>Tam</WorldRenderModeFull>
-  <WorldRenderModeTemperature>Isı</WorldRenderModeTemperature>
-  <WorldRenderModeElevation>Yükseklik</WorldRenderModeElevation>
-  <WorldRenderModeFertility>Bereket</WorldRenderModeFertility>
-  <WorldRenderModeRainfall>Yağış miktarı</WorldRenderModeRainfall>
-  <WorldRenderModeBiomes>İklim</WorldRenderModeBiomes>
   <BiomeNotImplemented>İklim henüz eklenmedi</BiomeNotImplemented>
+  <CannotLandImpassableMountains>You cannot land on impassable mountains.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>{0} already have a base there.</BaseAlreadyThere>
   <Biome>İklim</Biome>
   <Terrain>Arazi</Terrain>
   <Elevation>Yükseklik</Elevation>
   <Fertility>Bereket</Fertility>
   <AvgTemp>Ortalama Sıcaklık</AvgTemp>
+  <AvgSummerTemp>Summer temperature</AvgSummerTemp>
+  <AvgWinterTemp>Winter temperature</AvgWinterTemp>
   <Rainfall>Yağış miktarı</Rainfall>
   <HasCoast0>Kuzey kıyısı</HasCoast0>
   <HasCoast1>Doğu kıyısı</HasCoast1>
@@ -130,6 +128,10 @@
   <HasCoast3>Batı kıyısı</HasCoast3>
   <FactionBase>Birlik merkzi</FactionBase>
   <StoneTypesHere>Kaya tipleri</StoneTypesHere>
+  <TimeZone>Time zone</TimeZone>
+  <MovementTimeNow>Current movement time</MovementTimeNow>
+  <MovementTimeSummer>Summer movement time</MovementTimeSummer>
+  <MovementTimeWinter>Winter movement time</MovementTimeWinter>
 
   <!--=========== Character chooser ==========-->
   <CreateCharacters>Karakterler yarat</CreateCharacters>
@@ -163,8 +165,12 @@
   <ConfirmQuit>Çıkmak istediğine eminmisin? Kaydedilmemiş herşeyi kaybediceksin.</ConfirmQuit>
   
   <EveryoneNeedsValidName>Herkezin geçerli bir isime ihtiyacı var.</EveryoneNeedsValidName>
-
-  <GeneratingWorld>Dünya yaratılıyor...</GeneratingWorld>
-  <GeneratingMap>Harita yaratılıyor...</GeneratingMap>
+  <Quit>Çık</Quit>
+  <Ignore>Ignore</Ignore>
+	
+  <!--============ Progress bar==============-->
+  <GeneratingWorld>Dünya yaratılıyor</GeneratingWorld>
+  <GeneratingMap>Harita yaratılıyor</GeneratingMap>
+  <GeneratingMapForNewEncounter>Generating map for new encounter</GeneratingMapForNewEncounter>
 
 </LanguageData>
