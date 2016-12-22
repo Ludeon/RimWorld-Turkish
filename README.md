@@ -80,35 +80,6 @@
  * [ ] WorldObjectDef
  
 * [ ] Keyed
- * [ ] Alerts.xml
- * [x] ConceptDefs.xml
- * [x] Credits.xml 
- * [x] Dates.xml
- * [ ]Designators.xml
- * [x] DialogTrees.xml
- * [ ] Dialog_StatsReports.xml
- * [ ] DialogsVarious.xml
- * [ ] Enums.xml
- * [x] FloatMenu.xml
- * [x] Gameplay.xml
- * [ ] GameplayCommands.xml
- * [ ] Grammar.xml
- * [ ] ITabs.xml
- * [ ] Incidents.xml
- * [x] Letters.xml
- * [ ] Menu_KeyBindings.xml
- * [ ] Menu_Options.xml
- * [ ] Menus_Main.xml
- * [ ] Menus_OTabs.xml
- * [ ] Menus_Overview.xml
- * [ ] Messages.xml
- * [ ] Misc.xml
- * [ ] Misc_Gameplay.xml
- * [ ] PlayInterface.xml
- * [ ] Pronouns.xml
- * [x] Skills.xml
- * [x] Time.xml
- * [x] WorkTags.xml
  
 * [ ] Strings
 
