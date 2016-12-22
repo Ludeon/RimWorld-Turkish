@@ -204,16 +204,15 @@
   <MentalBreakThresholdMinor>Psikolojisinin kırılma eşiğinin riski düşük</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
-  <hitPoints>Sağlık</hitPoints>
-  <PawnMainDescWithFactionGendered>{0} {1} of {2}</PawnMainDescWithFactionGendered>
   <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
   <PawnMainDescFactionedWrap>{0} of {1}</PawnMainDescFactionedWrap>
   <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
-  <PawnMainDescWithFactionGenderless>{0} of {1}</PawnMainDescWithFactionGenderless>
-  <PawnMainDescGenderless>{0}</PawnMainDescGenderless>
   <Faction>Grup</Faction>
   <Equipped>Donatılmış</Equipped>
   <EquippedNothing>Hiç</EquippedNothing>
+  <Dead>Dead</Dead>
+  <Unconscious>Unconscious</Unconscious>
+  <PainShock>In shock due to pain</PainShock>
   <Incapacitated>Alıkoyulmuş</Incapacitated>
   <InRestraints>Kısıtlanmış (yavaşladı)</InRestraints>
   <Carrying>Taşıyor</Carrying>
@@ -222,11 +221,15 @@
   <SelectNextInSquareTip>Aynı karede bir sonraki şeyi seç.\n\nKısayol tuşu: {0}\n\nAynı zamanda bunu aynı kareye tıklayarak da yapabilirsin.</SelectNextInSquareTip>
   <DefInfoTip>Bu nesneyle ilgili bilgileri gör.</DefInfoTip>
   
-	<!-- like 'Blood of John' -->
-	<OfLower>of</OfLower>
+  <!-- Inspector general stuff -->
+  <SelectNextInSquareTip>Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTip>
+  <DefInfoTip>View information about this object.</DefInfoTip>
 
-	<!-- Power readout -->
-	<PowerNotConnected>Güç bağlı değil.</PowerNotConnected>
+  <!-- like 'Blood of John' -->
+  <OfLower>of</OfLower>
+
+  <!-- Power readout -->
+  <PowerNotConnected>Güç bağlı değil.</PowerNotConnected>
   <PowerConnectedRateStored>Bağlı oran/saklanan: {0} W / {1} Wd</PowerConnectedRateStored>
   <PowerNeeded>Güç gerekli</PowerNeeded>
   <PowerOutput>Güç çıkışı</PowerOutput>
@@ -245,21 +248,13 @@
   <Outdoors>Dış Mekan</Outdoors>
   
   <!--Rotting-->
-	<RotStateFresh>Taze</RotStateFresh>
-	<RotStateRotting>Çürüyor</RotStateRotting>
-	<RotStateDessicated>Kurumuş</RotStateDessicated>
+  <RotStateFresh>Taze</RotStateFresh>
+  <RotStateRotting>Çürüyor</RotStateRotting>
+  <RotStateDessicated>Kurumuş</RotStateDessicated>
 	
   <!-- Shooting tooltip -->
   <ShotBy>{0} tarafından vuruldu.</ShotBy>
   <CannotHit>Hedefi vuramaz.</CannotHit>
-
-  <!-- Storage priority labels -->
-  <StoragePriorityUnstored>Depolanmamış</StoragePriorityUnstored>
-  <StoragePriorityLow>Düşük</StoragePriorityLow>
-  <StoragePriorityNormal>Normal</StoragePriorityNormal>
-  <StoragePriorityPreferred>Tercih edilen</StoragePriorityPreferred>
-  <StoragePriorityImportant>Önemli</StoragePriorityImportant>
-  <StoragePriorityCritical>Kritik</StoragePriorityCritical>
 
   <!-- Rotting -->
   <CurrentlyFrozen>Donmuş (Bozulmaz)</CurrentlyFrozen>
@@ -275,18 +270,17 @@
   <PercentGrowth>{0} büyümüþ</PercentGrowth>
   <GrowthRate>Büyüme oranı</GrowthRate>
   <FullyGrownIn>{0} günde tamamen büyüyecek.</FullyGrownIn>
-  <PlantNeedsLightLevel>Iþşık seviyesine ihtiyacı var</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>Işık seviyesine ihtiyacı var</PlantNeedsLightLevel>
   <PlantResting>Dinleniyor</PlantResting>
   <OutOfIdealTemperatureRange>İdeal büyüme sıcaklığı dışında (normal hızının {0}% hızýıla büyüyor)</OutOfIdealTemperatureRange>
   <OutOfIdealTemperatureRangeNotGrowing>İdeal büyüme sıcaklığı dışında (büyümüyor)</OutOfIdealTemperatureRangeNotGrowing>
   <ReadyToHarvest>Hasat edilmeye hazır.</ReadyToHarvest>
   <Mature>Olgun.</Mature>
-  <SeedLabel>{0} tohum</SeedLabel>
   <OutdoorGrowingPeriod>Büyüme dönemi: {0}</OutdoorGrowingPeriod>
   <NoGrowingPeriod>Asla</NoGrowingPeriod>
   <GrowYearRound>Yıl boyunca</GrowYearRound>
   <GrowSeasonHereNow>şu an büyüme mevsimi.</GrowSeasonHereNow>
-  <CannotGrowTooCold>Büyüyemez - soğuk mevsim.</CannotGrowTooCold>
+  <CannotGrowBadSeasonTemperature>Cannot grow (bad seasonal temperature).</CannotGrowBadSeasonTemperature>
 
   <!-- Bölgeler -->
   <Zone>Bölge</Zone>
@@ -298,24 +292,25 @@
   <AllowAll>Hepsine izin ver</AllowAll>
 
   <!-- ThingFilter -->
-	<HitPoints>{0} vuruş puanı</HitPoints>
-	<AnyQuality>her kalite</AnyQuality>
-	<OnlyQuality>{0} sadece</OnlyQuality>
+  <HitPoints>{0} vuruş puanı</HitPoints>
+  <AnyQuality>her kalite</AnyQuality>
+  <OnlyQuality>{0} sadece</OnlyQuality>
 
-	<!-- Mouseover indicator -->
+  <!-- Mouseover indicator -->
   <Undiscovered>Keşfedilmemiş</Undiscovered>
   
   <!-- Buttons -->
   <ShowLearningHelperWhenEmptyToggleButton>Öðretici yardımı boş olduğunda görünürlüğünü aç-kapa.\n\nEğer öğrenebilmek için bir konsept aktif edildise,öğretici yardım herzaman görünür olacaktır.Bu aç-kapa butonu onu konsept aktif olmadığında görünmez kılar.</ShowLearningHelperWhenEmptyToggleButton>
   <ZoneVisibilityToggleButton>Bölgelerin görünebilmesini aç/kapa.</ZoneVisibilityToggleButton>
-  <ShowBeautyToggleButton>Güzellik görüntülemesini aç-kapa.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing.</ShowBeautyToggleButton>
-  <ShowRoomStatsToggleButton>Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing.</ShowRoomStatsToggleButton>
+  <ShowEnvironmentToggleButton>Toggle the environment display.\n\nDisplays the beauty and room stats of the environment as would be perceived by a character standing where the mouse is pointing.</ShowEnvironmentToggleButton>
   <ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.</ShowColonistBarToggleButton>
   <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
   <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
   <ShowAnimalNamesToggleButton>Toggle displaying animal names for tame named animals.</ShowAnimalNamesToggleButton>
   <ShowRoofOverlayToggleButton>Toggle visiblity of roofs.</ShowRoofOverlayToggleButton>
-
+  <LockNorthUpToggleButton>Lock the rotation of the camera so the north pole is always up.</LockNorthUpToggleButton>
+  <UsePlanetDayNightSystemToggleButton>Toggle day/night lighting system.</UsePlanetDayNightSystemToggleButton>
+  <ExpandingIconsToggleButton>Toggle displaying expanding icons instead of the regular icons for distant objects.</ExpandingIconsToggleButton>
 
   <!-- Fire -->
   <Fire>Ateş</Fire>
@@ -332,21 +327,22 @@
   <NoStuffsToBuildWith>Bunu inşa etmek için kullanılabilir malzemeye sahip değilsin.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
+  <WillGetWorkSpeedPenalty>{0} will have work speed penalty</WillGetWorkSpeedPenalty>
   <MustPlaceUnroofed>Çatının altına yerleştirilemez.</MustPlaceUnroofed>
   <MustPlaceHeadOnShipBeam>Baş kısmı Gemi Yapım Işığı temas etmeli.</MustPlaceHeadOnShipBeam>
   <MustPlaceNextToHopperAccepter>Huni gerektiren birşeyin yakınına kurulmalı.</MustPlaceNextToHopperAccepter>
   <MustPlaceOnSteamGeyser>Direkt olarak buhar gayzerinin üstüne yerleştirilmesi gerek.</MustPlaceOnSteamGeyser>
   <MustPlaceCoolerWithFreeSpaces>Soğutucunun sıcak ve soğuk tarafı da açık olmalı.</MustPlaceCoolerWithFreeSpaces>
-	<MustPlaceVentWithFreeSpaces>Hava geçiği için iki tarafı da açık olmalı.</MustPlaceVentWithFreeSpaces>
-	<MustPlaceAdjacentStandable>Tüm kenarlarında ayakta durulabilecek şekilde yerleştirilmeli.</MustPlaceAdjacentStandable>
+  <MustPlaceVentWithFreeSpaces>Hava geçiği için iki tarafı da açık olmalı.</MustPlaceVentWithFreeSpaces>
+  <MustPlaceAdjacentStandable>Tüm kenarlarında ayakta durulabilecek şekilde yerleştirilmeli.</MustPlaceAdjacentStandable>
+  <MustPlaceNearFuelingPort>Must be placed next to a pod launcher's fueling port.</MustPlaceNearFuelingPort>
 	
-	<!-- Wind Turbine -->
+  <!-- Wind Turbine -->
   <WindTurbine_WindPathIsBlockedBy>tarafından engelleniyor.</WindTurbine_WindPathIsBlockedBy>
   <WindTurbine_WindPathIsBlockedByRoof>Çatı tarafından engelleniyor.</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Cryptosleep casket -->
   <CasketContains>İçerik</CasketContains>
-  <CasketUnknownContents>Bilinmiyor</CasketUnknownContents>
   <CasketWarning>Dikkat!\n\nNAME senin kalan son kolonistin! Eðer onu da uykuya gönderirsen oynamaya devam edemeyebilirsin. Devam etmek istiyormusun? </CasketWarning>
 
   <!-- Ship launch report -->
@@ -356,7 +352,6 @@
   <ShipReportNoFullPods>KriptoPodlar boþ</ShipReportNoFullPods>
 
   <!-- Neurotrainer -->
-  <UseNeurotrainer>{0} öğrenmek için neurotrainer'i kullan</UseNeurotrainer>
   <NeurotrainerUsed>{0} {1} neurotrainer'ını {2} seviyesinden {3} seviyesine atlamak için kullandı.</NeurotrainerUsed>
   
   <!-- Minification -->
@@ -377,18 +372,19 @@
   <QualityIs>Kalite: {0}</QualityIs>
     
   <!-- Mood descriptions -->
-  <Mood_Broken>Çökmüþ</Mood_Broken>
+  <Mood_Broken>Çökmüş</Mood_Broken>
   <Mood_AboutToBreak>Çökmek üzere</Mood_AboutToBreak>
   <Mood_OnEdge>Sınırda</Mood_OnEdge>
   <Mood_Stressed>Stresli</Mood_Stressed>
   <Mood_Neutral>Nötr</Mood_Neutral>
-	<Mood_Content>Olumlu</Mood_Content>
+  <Mood_Content>Olumlu</Mood_Content>
   <Mood_Happy>Mutlu</Mood_Happy>
   
   <!-- Game over -->
   <GameOverEveryoneDead>Herkes öldü veya terketti. Hikaye bitti.\n\nBelkide başkaları bu harabe için bir kullanış bulabilir.</GameOverEveryoneDead>
   <GameOverShipLaunched>Gemi kalkış yaptı! şu kolonistler kaçtı:\n\n{0}\şu kolonistler geride bırakıldı:\n\n{1}\nşimdi YZ seni ve gemini güvenli bir yere teslim edecek. Seni bu sistemdeki daha iyi bir gezegene götürebilir. Yada başka bir yıldıza gidecek yüzyıllar süren bir yolculuğa çıkartabilir. Hatta belki de küçük bir asteroidin üzerindeki buzda, tarihin daha iyi bir kısmını, bekleyebilir.\n\nSadece uyandığın zaman hangisi olduðunu bileceksin.</GameOverShipLaunched>
   <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive.</GameOverPlanetkillerImpact>
+  <GameOverArrivedAtJourneyDestination>As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up.</GameOverArrivedAtJourneyDestination>
   <GameOverKeepPlaying>Oynamaya devam et.</GameOverKeepPlaying>
   <GameOverMainMenu>Ana Menü</GameOverMainMenu>
   
@@ -440,5 +436,9 @@
   <MarkLearned>Öğrenildi olarak işaretle</MarkLearned>
   <AlreadyLearned>Çoktan öğrenildi</AlreadyLearned>
   <Filter>Filter</Filter>
+	
+  <!-- Compass -->
+  <CompassTip>Shows the north direction. Click to rotate the camera so the north pole is up.</CompassTip>
+
 
 </LanguageData>
