@@ -19,64 +19,64 @@
 
 ## Turkish Language Translation Progress
 * [ ] DefInjected
- * [x] BiomeDef 
- * [x] BodyDef 
- * [x] BodyPartDef 
- * [x] BodyPartGroupDef
+ * [ ] BiomeDef 
+ * [ ] BodyDef 
+ * [ ] BodyPartDef 
+ * [ ] BodyPartGroupDef
  * [ ] ChemicalDef
  * [ ] ConceptDef 
- * [x] DamageDef
- * [x] DesignationCategoryDef
- * [x] DifficultyDef
- * [x] FactionDef
- * [x] HairDef 
- * [x] HediffDef
- * [x] HediffGiverSetDef
- * [x] HistoryAutoRecorderDef
- * [x] HistoryAutoRecorderGroupDef
- * [x] IncidentDef
- * [x] InteractionDef
- * [x] JobDef
- * [x] JoyKindDef
- * [x] KeyBindingCategoryDef
+ * [ ] DamageDef
+ * [ ] DesignationCategoryDef
+ * [ ] DifficultyDef
+ * [ ] FactionDef
+ * [ ] HairDef 
+ * [ ] HediffDef
+ * [ ] HediffGiverSetDef
+ * [ ] HistoryAutoRecorderDef
+ * [ ] HistoryAutoRecorderGroupDef
+ * [ ] IncidentDef
+ * [ ] InteractionDef
+ * [ ] JobDef
+ * [ ] JoyKindDef
+ * [ ] KeyBindingCategoryDef
  * [ ] KeyBindingDef 
- * [x] LifeStageDef 
- * [x] MainTabDef
- * [x] MapConditionDef
+ * [ ] LifeStageDef 
+ * [ ] MainTabDef
+ * [ ] MapConditionDef
  * [ ] MentalStateDef
- * [x] NeedDef
- * [x] PawnCapacityDef
+ * [ ] NeedDef
+ * [ ] PawnCapacityDef
  * [ ] PawnKindDef
- * [x] PawnRelationDef
- * [x] RaidStrategyDef 
- * [x] RecipeDef 
- * [x] RecordDef
- * [x] ResearchProjectDef 
- * [x] RoofDef 
- * [x] RoomRoleDef 
- * [x] RoomStatDef
+ * [ ] PawnRelationDef
+ * [ ] RaidStrategyDef 
+ * [ ] RecipeDef 
+ * [ ] RecordDef
+ * [ ] ResearchProjectDef 
+ * [ ] RoofDef 
+ * [ ] RoomRoleDef 
+ * [ ] RoomStatDef
  * [ ] RulePackDef
- * [x] ScenPartDef
- * [x] ScenarioDef
- * [x] SkillDef
- * [x] SpecialThingFilterDef
- * [x] StatCategoryDef 
+ * [ ] ScenPartDef
+ * [ ] ScenarioDef
+ * [ ] SkillDef
+ * [ ] SpecialThingFilterDef
+ * [ ] StatCategoryDef 
  * [ ] StatDef 
- * [x] StorytellerDef
- * [x] StuffCategoryDef 
+ * [ ] StorytellerDef
+ * [ ] StuffCategoryDef 
  * [ ] TaleDef 
- * [x] TerrainDef 
- * [x] ThingCategoryDef  
+ * [ ] TerrainDef 
+ * [ ] ThingCategoryDef  
  * [ ] ThingDef
  * [ ] ThoughtDef
- * [x] TimeAssignmentDef 
- * [x] TraderKindDef
- * [x] TrainableDef 
+ * [ ] TimeAssignmentDef 
+ * [ ] TraderKindDef
+ * [ ] TrainableDef 
  * [ ] TraitDef
  * [ ] TransferableSorterDef
- * [x] WeatherDef
+ * [ ] WeatherDef
  * [ ] WorkGiverDef 
- * [x] WorkTypeDef 
+ * [ ] WorkTypeDef 
  * [ ] WorldObjectDef
  
 * [ ] Keyed
