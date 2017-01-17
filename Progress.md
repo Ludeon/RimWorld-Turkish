@@ -1,6 +1,6 @@
 ## Turkish Language Translation Progress
 * [ ] DefInjected
- * [ ] BiomeDef 
+ * [x] BiomeDef 
     - [x] Biomes_Arid.xml
     - [x] Biomes_Cold.xml
     - [x] Biomes_Moderate.xml
