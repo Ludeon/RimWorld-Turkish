@@ -16,7 +16,7 @@
 * [@alimormeci](https://github.com/alimormeci)
 * [@IsilwenA](https://github.com/IsilwenA)
 * [@Zamahoya](https://github.com/Zamahoya)
-
+* [@Hakkiro](https://github.com/Hakkiro)
 ## Turkish Language Translation Progress
 * [ ] DefInjected
  * [ ] BiomeDef 
