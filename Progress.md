@@ -11,14 +11,21 @@
     - [x] Bodies_Animal_Snake.xml
     - [x] Bodies_Humanlike.xml
     - [x] Bodies_Mechanoid.xml
- * [ ] BodyPartDef 
-    - [ ] BodyParts_Animal.xml
-    - [ ] BodyParts_General.xml
-    - [ ] BodyParts_Humanoid.xml
-    - [ ] BodyParts_Mechanoid.xml
-    - [ ] BodyParts_Organs.xml
- * [ ] BodyPartGroupDef
-    - [ ] BodyPartGroups.xml
+ * [x] BodyPartDef 
+    - [x] BodyParts_Animal.xml
+    - [x] BodyParts_General.xml
+    - [x] BodyParts_Humanoid.xml
+    - [x] BodyParts_Mechanoid.xml
+    - [x] BodyParts_Organs.xml
+ * [x] BodyPartGroupDef
+    - [x] BodyPartGroups.xml
+ * [x] ChemicalDef
+    - [x] Alcohol_Beer.xml
+    - [x] GoJuice.xml
+    - [x] Luciferium.xml
+    - [x] Psychite_Yayo.xml
+    - [x] Smokeleaf.xml
+    - [x] WakeUp.xml
  * [ ] ConceptDef 
     - [ ] Concepts_Alets.xml
     - [ ] Concepts_Entry.xml
