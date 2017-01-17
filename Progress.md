@@ -4,13 +4,13 @@
     - [x] Biomes_Arid.xml
     - [x] Biomes_Cold.xml
     - [x] Biomes_Moderate.xml
- * [ ] BodyDef 
-    - [ ] Bodies_Animal_Bird.xml
-    - [ ] Bodies_Animal_Insect.xml
-    - [ ] Bodies_Animal_Quadruoed.xml
-    - [ ] Bodies_Animal_Snake.xml
-    - [ ] Bodies_Humanlike.xml
-    - [ ] Bodies_Mechanoid.xml
+ * [x] BodyDef 
+    - [x] Bodies_Animal_Bird.xml
+    - [x] Bodies_Animal_Insect.xml
+    - [x] Bodies_Animal_Quadruoed.xml
+    - [x] Bodies_Animal_Snake.xml
+    - [x] Bodies_Humanlike.xml
+    - [x] Bodies_Mechanoid.xml
  * [ ] BodyPartDef 
     - [ ] BodyParts_Animal.xml
     - [ ] BodyParts_General.xml
