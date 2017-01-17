@@ -26,20 +26,18 @@
     - [x] Psychite_Yayo.xml
     - [x] Smokeleaf.xml
     - [x] WakeUp.xml
- * [ ] ConceptDef 
-    - [ ] Concepts_Alets.xml
-    - [ ] Concepts_Entry.xml
+ * [x] ConceptDef 
+    - [x] Concepts_Entry.xml
     - [x] Concepts_NotedOpportunistic.xml
-    - [ ] Concepts_NotedSelfshow.xml
-    - [ ] concepts_TriggeredModal.xml
- * [ ] DamageDef
-    - [ ] Damages_Healing.xml
-    - [ ] Damages_LocalInjury.xml
-    - [ ] Damage_Misc.xml
- * [ ] DesignationCategoryDef
-    - [ ] DesignationCategories.xml
- * [ ] DifficultyDef
-    - [ ] Difficulties.xml
+    - [x] Concepts_NotedSelfshow.xml
+    - [x] concepts_TriggeredModal.xml
+ * [x] DamageDef
+    - [x] Damages_LocalInjury.xml
+    - [x] Damage_Misc.xml
+ * [x] DesignationCategoryDef
+    - [x] DesignationCategories.xml
+ * [x] DifficultyDef
+    - [x] Difficulties.xml
  * [ ] FactionDef
     - [ ] Factions_Hidden.xml
     - [ ] Factions_Misc.xml
