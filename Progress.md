@@ -29,7 +29,8 @@
  * [ ] ConceptDef 
     - [ ] Concepts_Alets.xml
     - [ ] Concepts_Entry.xml
-    - [ ] Concepts_Noted.xml
+    - [x] Concepts_NotedOpportunistic.xml
+    - [ ] Concepts_NotedSelfshow.xml
     - [ ] concepts_TriggeredModal.xml
  * [ ] DamageDef
     - [ ] Damages_Healing.xml
