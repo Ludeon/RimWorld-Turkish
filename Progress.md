@@ -212,13 +212,12 @@
     - [ ] WorkTypes.xml
  
 * [ ] Keyed
- * [ ] Alerts.xml
- * [ ] ConceptDefs.xml
- * [ ] Credits.xml 
- * [ ] Dates.xml
- * [ ] Designators.xml
+ * [x] Alerts.xml
+ * [x] Credits.xml 
+ * [x] Dates.xml
+ * [x] Designators.xml
  * [ ] DialogTrees.xml
- * [ ] Dialog_StatsReports.xml
+ * [x] Dialog_StatsReports.xml
  * [ ] DialogsVarious.xml
  * [ ] Enums.xml
  * [ ] FloatMenu.xml
