@@ -6,55 +6,55 @@
   <OK>Tamam</OK>
  
   <!-- Game updated to new version -->
-  <GameUpdatedToNewVersionInitial>RimWorld has been updated from version {0} to version {1}.\n\nThis may cause saved games and mods from the old version to stop working.</GameUpdatedToNewVersionInitial>
-  <GameUpdatedToNewVersionNonSteam>Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions.</GameUpdatedToNewVersionNonSteam>
-  <GameUpdatedToNewVersionSteam>If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu.\n\nOld versions will be likely removed from this list eventually - we just didn't want to cut off games in progress.\n\nNote that if mod authors update their mods for a new game version, they'll probably stop working on an old version. You may want to turn off automatic updates to prevent this.</GameUpdatedToNewVersionSteam>
+  <GameUpdatedToNewVersionInitial>RimWorld, {0} sürümünden {1} sürümüne güncellendi.\n\nBu, kayıtlı oyunların ve modların eski sürüm oldugundan çalışmamasına neden olabilir.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionNonSteam>Bu DRM içermeyen bir kopyası olduğu için oyunu iki farklı klasöre yükleyebilir, hem eski hem de yeni sürümleri oynayabilirsiniz.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Eski sürümü kullanmaya devam etmek isterseniz, Steam'in "Betalar" özelliğini kullanmayı seçebilirsiniz.\n\n  1.Steam Kütüphanesi, Sağ Tık RimWorld.\n  2. Özellikleri Seç.\n  3. Betalar Sekmesine Seç.\n  4. Gitmek istediğin Betayı seçebilirsin.\n\nEski versiyonlar eninde sonunda bu listeden silinecektir - Biz oyunun gelişimini kesmek istemiyoruz.\n\nNote olarak eğer mod yazılımcıları oyunun yeni versiyonuna güncelleme yapılmış ise, büyük ihtimal ile eski versiyon ile çalışmayı bırakmıştırlar.</GameUpdatedToNewVersionSteam>
 
   <!-- Recovered from errors caused by mods -->
-  <RecoveredFromErrorsDialogTitle>Uyumsuz ya da bozulmuş modlardan kurtarıldı.</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>Uyumsuz veya bozuk mod hatalarından kurtarıldı.</RecoveredFromErrorsDialogTitle>
   <RecoveredFromErrorsText>Görünüşe göre aktif modlardan bazıları hataya sebep oluyor.\n\nModlar birbirleriyle uyuşmuyor, RimWorld'ün başka bir sürümü için yapılmış ya da bozulmuş olabilir.\n\nBütün modlar devre dışı bırakıldı, modlar kısmından tekrar aktif edilebilir.</RecoveredFromErrorsText>
   
     <!-- Errors during loading -->
-  <ErrorWhileLoadingAssetsTitle>Varlıkları yükleme hatası</ErrorWhileLoadingAssetsTitle>
-  <ErrorWhileLoadingAssets>Oyun varlıkları yüklenirken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssetsTitle>Oyun ögeleri yükleme sırasında hata oluştu</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Oyun öğeleri yüklenirken bir hata oluştu. Daha fazla bilgi için hata günlüğüne bakın.</ErrorWhileLoadingAssets>
   <ErrorWhileLoadingAssets_ModsInfo>Oyun şu anda özel bir kip ile çalışıyor - bu durum bu problemlere neden olabilir.</ErrorWhileLoadingAssets_ModsInfo>
-  <ErrorWhileGeneratingMapTitle>Bir harita oluşturma hatası</ErrorWhileGeneratingMapTitle>
-  <ErrorWhileGeneratingMap>Yeni bir harita oluştururken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileGeneratingMap>
-  <ErrorWhileLoadingMapTitle>Harita yüklenme hatası</ErrorWhileLoadingMapTitle>
+  <ErrorWhileGeneratingMapTitle>Dünya yaratılırken hata oluştu</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Yeni bir dünya oluştururken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Harita yüklenirken hata oluştu</ErrorWhileLoadingMapTitle>
   <ErrorWhileLoadingMap>Harita yüklenirken bir hata meydana geldi. Fazla bilgi için hata kaydına bak.</ErrorWhileLoadingMap>
   
   <!-- Unloaded mod with an assembly -->
-  <ModWithAssemblyWasUnloaded>The game can't fully unload modified code from deactivated mods, so code from deactivated mods may still be active.\n\nIt's recommended that you quit and restart the game now to load all mods cleanly.</ModWithAssemblyWasUnloaded>
+  <ModWithAssemblyWasUnloaded>Tüm modları temiz bir şekilde kullanmak için oyundan çıkmanız ve yeniden başlatmanız önerilir</ModWithAssemblyWasUnloaded>
 
   <!-- Missing Steam -->
-  <SteamClientMissing>Steam API'yi başlatamamak. Olası Nedenler:\n\n-Steam çalşmıyor.\n-steam_appid.txt olmadan Steam dışından başlatıldı.\n-Farklı ayrıcalıklar ile Steam istemcisinden çalıştırmak (örneğin "yönetici olarak").\n\nBir çok durumda, bilgisayarı yeniden baþlatmak bu sorunu çözecektir.\n\nOyunun bu versiyonu Steam gerektirir ve kapanacaktýr.</SteamClientMissing>
+  <SteamClientMissing>Steam API başlatılamadı. Olası nedenler:\n\n-Steam çalışmıyor\n-Steam'in dışından steam_appid.txt kullanılmadan başlatıldı.\n-Çoğu durumda, bilgisayarınızı yeniden başlatmanız bu sorunu çözecektir.</SteamClientMissing>
   
   <!-- Long events -->
   <InitializingInterface>Arayüz başlatılıyor</InitializingInterface>
-  <UnloadingUnusedAssets>Kullanılmayan varlıklar kaldırılıyor</UnloadingUnusedAssets>
-  <LoadingAllActiveMods>Bütün aktif kipler yükleniyor</LoadingAllActiveMods>
-  <LoadingDefs>Def'ler yükleniyor</LoadingDefs>
-  <LoadingAssets>Varlıklar yükleniyor</LoadingAssets>
+  <UnloadingUnusedAssets>Kullanılamayan Oyun ögeleri kaldırılıyor</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Tüm aktif modları yükleniyor</LoadingAllActiveMods>
+  <LoadingDefs>Komutlar yükleniyor</LoadingDefs>
+  <LoadingAssets>Oyun ögeleri yükleniyor</LoadingAssets>
   <Initializing>Başlatılıyor</Initializing>
   <LoadingWorld>Dünya yükleniyor</LoadingWorld>
   <LoadingMap>Harita yükleniyor</LoadingMap>
-  <SpawningAllThings>Her şey oluşturuluyor</SpawningAllThings>
-  <SpawningColonists>Spawning colonists</SpawningColonists>
-  <InitializingGame>Initializing game</InitializingGame>
+  <SpawningAllThings>Her şey yaratılıyor</SpawningAllThings>
+  <SpawningColonists>Kolonistler yaratılıyor</SpawningColonists>
+  <InitializingGame>Oyun başlatılıyor</InitializingGame>
 	
   <!-- Save/load -->
   <SaveGameButton>Kaydet</SaveGameButton>
   <LoadGameButton>Oyunu Yükle</LoadGameButton>
-  <OverwriteButton>Üstüne Kaydet</OverwriteButton>
-  <ConfirmDelete>Really delete {0}?</ConfirmDelete>
-  <DeleteThisSavegame>Delete this savegame.</DeleteThisSavegame>
-  <SavedAs>Saved as {0}.</SavedAs>
-  <NeedAName>Please enter a name.</NeedAName>
-  <LoadingLongEvent>Loading</LoadingLongEvent>
-  <SavingLongEvent>Saving</SavingLongEvent>
-  <PermadeathModeSaveSuffix>(Permadeath)</PermadeathModeSaveSuffix>
-  <SaveIsFromDifferentGameVersion>We are running version {0} but the save data is from {1}, which is a different version entirely.\n\nTrying to load this data will probably not work.</SaveIsFromDifferentGameVersion>
-  <SaveIsFromDifferentGameBuild>We are running version {0} but the save data is from {1}, which is a different build.\n\nTrying to load this data should still work.</SaveIsFromDifferentGameBuild>
+  <OverwriteButton>Üzerine Kaydet</OverwriteButton>
+  <ConfirmDelete>{0}'u gerçekten silmek istiyor musun?</ConfirmDelete>
+  <DeleteThisSavegame>Kayıtlı oyun silindi.</DeleteThisSavegame>
+  <SavedAs>{0} kaydedildi.</SavedAs>
+  <NeedAName>Lütfen isim girin.</NeedAName>
+  <LoadingLongEvent>Yükleniyor...</LoadingLongEvent>
+  <SavingLongEvent>Kayıtediliyor...</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Kalıcı ölüm)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>Şu anki versiyon {0} fakat haritanınki {1} (farklı versiyon).\n\nDosya bilgisi düzgün bir şekilde yüklenmeyebilir.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>Şu anki versiyon {0} fakat Kayıt dosyasının {1},(farklı sürüm).\n\nDosya bilgisi düzgün bir şekilde yüklenmeyebilir.</SaveIsFromDifferentGameBuild>
   <SaveIsFromThisGameBuild>Save data was saved with our game version and should work without issue.</SaveIsFromThisGameBuild>
   <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
   <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information.</ProblemSavingFile>
