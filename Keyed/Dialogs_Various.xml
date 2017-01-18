@@ -55,29 +55,29 @@
   <PermadeathModeSaveSuffix>(Kalıcı ölüm)</PermadeathModeSaveSuffix>
   <SaveIsFromDifferentGameVersion>Şu anki versiyon {0} fakat haritanınki {1} (farklı versiyon).\n\nDosya bilgisi düzgün bir şekilde yüklenmeyebilir.</SaveIsFromDifferentGameVersion>
   <SaveIsFromDifferentGameBuild>Şu anki versiyon {0} fakat Kayıt dosyasının {1},(farklı sürüm).\n\nDosya bilgisi düzgün bir şekilde yüklenmeyebilir.</SaveIsFromDifferentGameBuild>
-  <SaveIsFromThisGameBuild>Save data was saved with our game version and should work without issue.</SaveIsFromThisGameBuild>
-  <SaveIsUnknownFormat>Save data is in an unknown format and almost certainly will not load properly.</SaveIsUnknownFormat>
-  <ProblemSavingFile>There was a problem saving the file {0}:\n\n{1}\n\nSee error log for more information.</ProblemSavingFile>
-  <LoadAnyway>Load anyway</LoadAnyway>
+  <SaveIsFromThisGameBuild>Düzgün sorunsuz bir oyun oynayabilmek kayıtlı oyunun şu anki sürümle aynı olması gerekir.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Kayıt dosyası bilinmeyen bir formatta ve düzgün veri alınamıyor.</SaveIsUnknownFormat>
+  <ProblemSavingFile>{0} dosyanın kaydedilmesi sırasında bir sorun oluştu:\n\n{1}\n\nDaha fazla bilgi için hata günlüğüne bakın.</ProblemSavingFile>
+  <LoadAnyway>Yine de yükle</LoadAnyway>
 	
     <!-- Player faction naming -->
-  <NamePlayerFactionMessage>{0} thinks that you should give your faction a name. What should your faction be called?</NamePlayerFactionMessage>
-  <PlayerFactionGainsName>Your faction is now known as {0}.</PlayerFactionGainsName>
-  <PlayerFactionNameIsInvalid>That name isn't valid.</PlayerFactionNameIsInvalid>
+  <NamePlayerFactionMessage>{0} kolonine bir isim vermen gerektiğini düşünüyor.Koloninin ismi ne olsun istersin</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Koloni artık {0} olarak biliniyor.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>Bu isim geçerli değil.</PlayerFactionNameIsInvalid>
 
   <!-- Player faction base naming -->
-  <NamePlayerFactionBaseMessage>Since it looks like you'll be here for a while, {0} thinks that you should give this community a name. What should the local community be called?</NamePlayerFactionBaseMessage>
-  <PlayerFactionBaseGainsName>This community is now known as {0}.</PlayerFactionBaseGainsName>
-  <PlayerFactionBaseNameIsInvalid>That name isn't valid.</PlayerFactionBaseNameIsInvalid>
+  <NamePlayerFactionBaseMessage>Herkes uzun süre burada kalmayacığını biliyor ama {0} bu toplulağa bir isim vermeyi öneriyor.Topluluğun adı ne olmalı?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>Bu topuluk şimdi {0} adıyla biliniyor.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>Bu isim geçerli değil.</PlayerFactionBaseNameIsInvalid>
 
   <!-- Player faction and faction base naming -->
-  <NamePlayerFactionBaseMessage_NameFactionContinuation>Since it looks like you'll be here for a while, {0} also thinks that you should give community a name. What should this local community be called?</NamePlayerFactionBaseMessage_NameFactionContinuation>
-  <PlayerFactionAndBaseGainsName>Your faction is now known as {0}, and this community is now known as {1}.</PlayerFactionAndBaseGainsName>
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>Herkes uzun süre burada kalmayacığını biliyor. Ama {0} toplulağa bir isim vermeyi öneriyor.Topluluğun adı ne olmalı?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Kolonin {0} olarak ve topluluğun ise {1} olarak biliniyor.</PlayerFactionAndBaseGainsName>
 
   <!-- Renaming -->
   <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
   <NameIsInUse>Bu isim daha önce kullanılmış.</NameIsInUse>
-  <ZoneGainsName>Bu alan {0}.</ZoneGainsName>
+  <ZoneGainsName>Bu bölgenin ismi artık {0}.</ZoneGainsName>
   
   <!-- Pawn naming -->
   <PawnGainsName>Kolonicinin lakabı artık {0}.</PawnGainsName>
@@ -86,115 +86,115 @@
   <VersionMismatch>Versiyon Uyuşmazlığı</VersionMismatch>
   <SaveGameIncompatibleWarningText>Versiyon uyuşmazlığı: Harita {0} versiyonunda kaydedilmiş ama biz {1} versiyonunu kullanıyoruz.\n\n Bu kaydı yüklemek muhtemelen hatalara ve kapanmalara neden olacaktır.</SaveGameIncompatibleWarningText>
   <WorldFileVersionMismatch>Uyarı: Bu dünya versiyon {0} ile oluşturulmuş ama biz {1} versiyonunu kullanıyoruz.\n\nBu dünyayı yüklemek hatalara ve kapanmalara neden olacaktır. Yeni bir dünya oluşturmanızı tavsiye ediyoruz.</WorldFileVersionMismatch>
-  <FileIncompatibleWarning>This file was saved with game version {0}\nWe are running game version {1}\n\nLoading this file may cause bugs and crashes.</FileIncompatibleWarning>
-  <ModsMismatchWarningTitle>Mods mismatch</ModsMismatchWarningTitle>
-  <ModsMismatchWarningText>Map was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nMap was saved with (in this order):\n\n{0}\n\nWe are running with:\n\n{1}</ModsMismatchWarningText>
-  
+  <FileIncompatibleWarning>Bu dosya {0} oyun sürümüyle kaydedildi\nŞu anki oyun sürümü {1} \n\nBu dosyanın yüklenmesi hatalara ve çökmelere neden olabilir.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Mod uyuşmazlığı</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Harita farklı aktif modlar var iken kuruldu. Bu sorunlara neden olabilir.\n\nHarita bu sıra ile kaydedilmiş:\n\n{0}\n\nŞu anki:\n\n{1}</ModsMismatchWarningText>
+
   <!-- Resolution change dialog -->
-  <ConfirmResolutionChange>Ekran ayarlarını değiştirdin.Yeni ayarlar iyi çalışıyor mu?\n\n{0} içinde ayarlarınız geri alınacak.</ConfirmResolutionChange>
-  <ResolutionKeep>Uygula</ResolutionKeep>
-  <ResolutionRevert>Geri al</ResolutionRevert>
+  <ConfirmResolutionChange>Ekran ayarları değiştirildi. Yeni değişiklikler kalsın mı?\n\nOtomatik geri dönmeye {0}...</ConfirmResolutionChange>
+  <ResolutionKeep>Bu Kalsın</ResolutionKeep>
+  <ResolutionRevert>Geri Al</ResolutionRevert>
 
   <!-- Research -->
   <Research>Araştırma</Research>
-  <Researched>Araştırılmış</Researched>
-  <Unresearched>Araştırılmamış</Unresearched>
-  <Finished>Tamamlanmış</Finished>
+  <Researched>Araştırıldı</Researched>
+  <Unresearched>Araştırılmadı</Unresearched>
+  <Finished>Tamamlandı</Finished>
   <InProgress>Devam ediyor</InProgress>
-  <Locked>Locked</Locked>
-  <ResearchMenuWithoutBench>ARAŞTIRMA MASASI yapana kadar kolonicilerin araştırma yapamaz.\n\nYine de araştırma projelerine bakabilir ve seçebilirsin.</ResearchMenuWithoutBench>
-  <ResearchPrerequisites>Research prerequisites</ResearchPrerequisites>
-  <RequiredResearchBench>Required research bench</RequiredResearchBench>
-  <RequiredResearchBenchFacilities>Required research bench facilities</RequiredResearchBenchFacilities>
+  <Locked>Kilitli (Erişilemez)</Locked>
+  <ResearchMenuWithoutBench>ARAŞTIRMA MASASI inşa etmen gerekli, aksi halde kolonistlerin araştırmayı yapamaz.\n\nAncak yine de araştırmalara bakabilir ve proje seçebilirsin.</ResearchMenuWithoutBench>
+  <ResearchPrerequisites>Araştırma koşulları</ResearchPrerequisites>
+  <RequiredResearchBench>Araştırma masası gerekli</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Araştırma masası imkanları</RequiredResearchBenchFacilities>
   
   <!-- Advanced game start options -->
-  <MapTemperatureDangerWarning>UYARI: Donmuş bir bölgeye iniş yapacaksınız. Hayatta kalmak zor, hatta imkansız olabilir. Eğer aşırr zorluklarla mücadele etme niyetiniz yoksa başka bir bölge veya ay seçiniz.</MapTemperatureDangerWarning>
-  <MapSizePerformanceWarning>UYARI: Bilgisayarınız oldukça güçlü olmadığı sürece büyük harita boyutlarında performansınız düşebilir.\n\nEğer güçsüz bir bilgisayara sahipsen Küçük seçmelisin.\n\nLudeonicrous boyutu testedilmedi ve beklenmeyen sonuçlar verebilir.</MapSizePerformanceWarning>
+  <MapTemperatureDangerWarning>UYARI: Donmuş bir bölgeye iniş yapacaksınız. Hayatta kalmak zor, hatta imkansız olabilir. Eğer aşırı zorluklarla mücadele etme niyetiniz yoksa başka bir bölge seçiniz.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>UYARI: Bilgisayarınız oldukça güçlü olmadığı sürece büyük harita boyutlarında performansınız düşebilir.\n\nEğer performansız bir bilgisayara sahipsen küçük seçmelisin.\n\nLudeonicrous boyutu testedilmedi ve beklenmeyen hatalar verebilir.</MapSizePerformanceWarning>
   <MapSize>Harita Boyutu</MapSize>
   <MapSizeDesc>{0}x{0} ({1} kareler)</MapSizeDesc>
   <MapSizeSmall>Küçük</MapSizeSmall>
   <MapSizeMedium>Orta</MapSizeMedium>
   <MapSizeLarge>Büyük</MapSizeLarge>
-  <MapSizeExtreme>Aşırı Büyük</MapSizeExtreme>
-  <MapStartSeason>Starting season:</MapStartSeason>
-  <MapStartSeasonDefault>Auto</MapStartSeasonDefault>
-  <PermadeathMode>Permadeath mode</PermadeathMode>
-  <PermadeathModeInfo>In permadeath mode, you get one save file and can only save when quitting the game. You cannot reload the game to fix mistakes, and when the colony dies, that's it.\n\nThis is the way RimWorld was meant to be played, with every dramatic turn - whether tragic or hopeful - played out to full impact.</PermadeathModeInfo>
+  <MapSizeExtreme>Çok Büyük</MapSizeExtreme>
+  <MapStartSeason>Başlangıç mevsimi:</MapStartSeason>
+  <MapStartSeasonDefault>Otomatik</MapStartSeasonDefault>
+  <PermadeathMode>Kalıcı ölüm modu</PermadeathMode>
+  <PermadeathModeInfo>Kalıcı ölüm modunda, sadece bir kayıt dosyası bulunur ve buda oyundan çıkarken sadece kaydedilebilir. Bu da demek oluyor ki yapıcağın her hangi bir işlemden önce oyunu kaydedip sonraki hatanda geri alamazsın.</PermadeathModeInfo>
 
   <!-- Bill config -->
-  <Suspended>Askıya alınmış</Suspended>
-  <NotSuspended>Askıya alınmamıþ</NotSuspended>
-  <SuspendedAllCaps>ASKIYA ALINMIŞ</SuspendedAllCaps>
-  <RepeatCount>{0} defa tekrar et.</RepeatCount>
-  <Forever>Sonsuz</Forever>
-  <Details>Details</Details>
-  <IngredientSearchRadius>Malzeme arama yarıçağı</IngredientSearchRadius>
-  <CurrentlyHave>Currently have</CurrentlyHave>
-  <CountingProducts>Counting</CountingProducts>
-  <Infinite>Sonsuz</Infinite>
-  <AllowedSkillRange>Allowed {0} skill:</AllowedSkillRange>
+  <Suspended>Beklemeye Alınmış</Suspended>
+  <NotSuspended>Beklemeye Alınmamış</NotSuspended>
+  <SuspendedAllCaps>BEKLEMEYE ALINMIŞ</SuspendedAllCaps>
+  <RepeatCount>Tekrar: {0}.</RepeatCount>
+  <Forever>Sınırsız</Forever>
+  <Details>Detaylar</Details>
+  <IngredientSearchRadius>Gerekli hammadde uzaklığı</IngredientSearchRadius>
+  <CurrentlyHave>Sahip olduğun adet: {0}</CurrentlyHave>
+  <CountingProducts>Miktarı</CountingProducts>
+  <Infinite>Sınırsız</Infinite>
+  <AllowedSkillRange>İzin verilen minimum {0} yetenek:</AllowedSkillRange>
 	
-  <RecipeCannotHaveTargetCount>(Bu tarifin limiti belirlenemiyor çünkü birden fazla veya öngörülemeyen sayýda ürün veriyor.)</RecipeCannotHaveTargetCount>
-  <WorkAmount>Work amount</WorkAmount>
-  <MinimumSkills>En az beceri:</MinimumSkills>
-  <BillRequires>Requires {0} {1}</BillRequires>
-  <BillRequiresNutrition>Requires {0} nutrition</BillRequiresNutrition>
-  <BillRequiresMayVary>Note: small-volume ingredients like gold require 20x as much.</BillRequiresMayVary>
-  <ThisIsSmallVolume>This is a small-volume ingredient. This means that each 'unit' is only 1/20 as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need 20x as much as usual.</ThisIsSmallVolume>
+  <RecipeCannotHaveTargetCount>(Bu tarifin limiti belirlenemiyor, Çünkü birden fazla veya öngörülemeyen sayıda ürün veriyor.)</RecipeCannotHaveTargetCount>
+  <WorkAmount>Çalışma miktarı</WorkAmount>
+  <MinimumSkills>En az yetenek:</MinimumSkills>
+  <BillRequires>{0} adet {1} gerekli</BillRequires>
+  <BillRequiresNutrition>{0} besin gerekli</BillRequiresNutrition>
+  <BillRequiresMayVary>(Not: Altın gibi küçük hacimli malzemeler x20 daha fazlasını gerektirir.)</BillRequiresMayVary>
+  <ThisIsSmallVolume>Bu küçük hacimli bir malzemedir.Bu demektir ki her 'birim' normal hacimli malzemenin 1/20 kadarıdır. Yani aynı malzeme ihtiyacını karşılamak için herzamanki miktardan x20 kat fazlasına ihtiyacınız olacak.</ThisIsSmallVolume>
   <UsableIngredients>Kullanılabilir malzemeler</UsableIngredients>
   <DoXTimes>X defa yap</DoXTimes>
   <DoUntilYouHaveX>X tane olana kadar yap</DoUntilYouHaveX>
   <DoForever>Sonsuza kadar yap.</DoForever>
-  <BillRepeatTargetCountShort>{0}e kadar yap</BillRepeatTargetCountShort>
+  <BillRepeatTargetCountShort>{0} kadar yap</BillRepeatTargetCountShort>
   <BillStoreMode_DropOnFloor>Yere bırak</BillStoreMode_DropOnFloor>
-  <BillStoreMode_BestStockpile>En iyi stokalanına koy</BillStoreMode_BestStockpile>
-  <BillStoreMode_NearestStockpileAnyPriority>En yakın stokalanıma koy.</BillStoreMode_NearestStockpileAnyPriority>
+  <BillStoreMode_BestStockpile>En iyi stoğa bırak </BillStoreMode_BestStockpile>
+  <BillStoreMode_NearestStockpileAnyPriority>En yakın stoğa bırak.</BillStoreMode_NearestStockpileAnyPriority>
   
   <!-- Info card -->
   <Damage>Hasar</Damage>
   <Accuracy>İsabet</Accuracy>
-  <BurstShotCount>Çoklu atış sayısı</BurstShotCount>
-  <WarmupTime>Isınma</WarmupTime>
-  <MeleeWarmupTime>Melee warmup</MeleeWarmupTime>
-  <CooldownTime>Yeniden dolma</CooldownTime>
-  <BurstShotFireRate>Azami atış hızı</BurstShotFireRate>
-  <Range>Uzaklık</Range>
-  <GrowsWild>Grows wild</GrowsWild>
+  <BurstShotCount>Seri ateş sayısı</BurstShotCount>
+  <WarmupTime>Son hazırlık</WarmupTime>
+  <MeleeWarmupTime>Yakın dövüş hazırlığı</MeleeWarmupTime>
+  <CooldownTime>Bekleme süresi</CooldownTime>
+  <BurstShotFireRate>Seri Ateş Oranı</BurstShotFireRate>
+  <Range>Menzil</Range>
+  <GrowsWild>Yabani Yetişme</GrowsWild>
   <Harvestable>Hasat edilebilir.</Harvestable>
-  <LimitedLifespan>Sınırlı yaşam süresi</LimitedLifespan>
+  <LimitedLifespan>Bozulma(Çürüme) süresi</LimitedLifespan>
   <GrowingTime>Büyüme zamanı</GrowingTime>
-  <GrowingTimeDesc>Plants only grow for part of the day, and only when lit. This statistic measures the time the plant needs to spend actually growing to reach full size. The actual real growing time will generally be about twice as long. Low temperatures also slow plant growth.</GrowingTimeDesc>
-  <Days>days</Days>
-  <MinGrowingSkillToSow>Minimum growing skill to sow</MinGrowingSkillToSow>
-  <FertilityRequirement>Fertility requirement</FertilityRequirement>
-  <FertilitySensitivity>Fertility sensitivity</FertilitySensitivity>
-  <LightRequirement>Light requirement</LightRequirement>
-  <Attributes>Attributes</Attributes>
-  <LifeSpan>Lifespan</LifeSpan>
-  <Nutrition>Nutrition</Nutrition>
-  <Joy>Joy</Joy>
-  <FoodQuality>Food quality</FoodQuality>
-  <WalkSpeedProperty>Walk speed</WalkSpeedProperty>
-  <MinFoodQuality>Min. food quality</MinFoodQuality>
-  <Diet>Diet</Diet>
-  <BodySize>Body size</BodySize>
-  <RecruitDifficulty>Recruit difficulty</RecruitDifficulty>
-  <MarketValue>Base price</MarketValue>
-  <Covers>Covers</Covers>
-  <CoverEffectiveness>Cover effectiveness</CoverEffectiveness>
-  <CoverEffectivenessExplanation>How effective this is when used as cover in a gunfight. Higher percentages will block more shots.</CoverEffectivenessExplanation>
-  <MedicineXpGainFactor>Experience gain factor</MedicineXpGainFactor>
-  <BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
-  <MoodChange>Mood change</MoodChange>
-  <Wildness>Wildness</Wildness>
-  <WildnessExplanation>Wilder creatures are naturally more difficult to tame, train, and handle.</WildnessExplanation>
-  <AnimalFilthRate>Animal filth rate</AnimalFilthRate>
-  <AnimalFilthRateExplanation>Animals produce filth when moving around on constructed floors. This is the average amount of such filth produced per {0} cells walked by this creature.\n\nLarger or less pet-like animals produce more filth.</AnimalFilthRateExplanation>
-  <TimeRecordsCategory>Time</TimeRecordsCategory>
-  <MiscRecordsCategory>Misc</MiscRecordsCategory>
-  <Addictiveness>Addictiveness</Addictiveness>            
-  <PackAnimal>Pack animal</PackAnimal>
-  <PackAnimalExplanation>Whether this animal is appropriate to use to carry items in a caravan over long distances.</PackAnimalExplanation>
+  <GrowingTimeDesc>Bitkiler sadece günün bir bölümünde ve ışıkta yetişir. Düşük sıcaklıkta daha yavaş büyürler.</GrowingTimeDesc>
+  <Days>Günler</Days>
+  <MinGrowingSkillToSow>Ekilebilmesi için gereken minimum yetenek seviyesi</MinGrowingSkillToSow>
+  <FertilityRequirement>Gerekli toprak verimliliği</FertilityRequirement>
+  <FertilitySensitivity>Toprak verimlilik hassasiyeti</FertilitySensitivity>
+  <LightRequirement>Aydınlatma Gerekli</LightRequirement>
+  <Attributes>Nitelikler</Attributes>
+  <LifeSpan>Yaşam Süresi</LifeSpan>
+  <Nutrition>Beslenme</Nutrition>
+  <Joy>Eğlence</Joy>
+  <FoodQuality>Yemek kalitesi</FoodQuality>
+  <WalkSpeedProperty>Yürüme hızı</WalkSpeedProperty>
+  <MinFoodQuality>Min. yemek kalitesi</MinFoodQuality>
+  <Diet>Diyet</Diet>
+  <BodySize>Vücut ölçüsü</BodySize>
+  <RecruitDifficulty>Üye yapma Zorluğu</RecruitDifficulty>
+  <MarketValue>Taban fiyat</MarketValue>
+  <Covers>Koruma</Covers>
+  <CoverEffectiveness>Koruma Etkisi</CoverEffectiveness>
+  <CoverEffectivenessExplanation>Silahlı çatışmada korunmak için ertafında kullandığın eşyalar ne kadar etkili? Yüksek oran mermilerden daha fazla korunmak demek.</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>Deneyim kazanma faktörü</MedicineXpGainFactor>
+  <BodyPartEfficiency>Vücut parçası etkisi</BodyPartEfficiency>
+  <MoodChange>Duygu değişikliği</MoodChange>
+  <Wildness>Vahşilik</Wildness>
+  <WildnessExplanation>Vahşi yaratıkları evcilleştirmek, eğitmek ve idare etmek zordur.</WildnessExplanation>
+  <AnimalFilthRate>Hayvan pisliği oranı</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Hayvanlar gezinirken zemine pisleyebilir. Odalarda gezinen her bir hayvan için ortalama miktarı {0} .\n\nDaha büyük veya evcil olmayan hayvanlar daha fazla pislik üretir.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Zaman</TimeRecordsCategory>
+  <MiscRecordsCategory>Çeşitli</MiscRecordsCategory>
+  <Addictiveness>Bağımlılık</Addictiveness>            
+  <PackAnimal>Hayvan Sürüsü</PackAnimal>
+  <PackAnimalExplanation>Bu hayvanın bir karavanda uzun mesafede eşya taşımak için uygun olup olmadığı.</PackAnimalExplanation>
 	
   <!-- Trade -->
   <PositiveBuysNegativeSells>Positive numbers buy.\nNegative numbers sell.</PositiveBuysNegativeSells>
