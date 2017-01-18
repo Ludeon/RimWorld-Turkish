@@ -20,15 +20,15 @@
 
 ## Turkish Language Translation Progress
 * [ ] DefInjected
- * [ ] BiomeDef 
- * [ ] BodyDef 
- * [ ] BodyPartDef 
- * [ ] BodyPartGroupDef
- * [ ] ChemicalDef
- * [ ] ConceptDef 
- * [ ] DamageDef
- * [ ] DesignationCategoryDef
- * [ ] DifficultyDef
+ * [x] BiomeDef 
+ * [x] BodyDef 
+ * [x] BodyPartDef 
+ * [x] BodyPartGroupDef
+ * [x] ChemicalDef
+ * [x] ConceptDef 
+ * [x] DamageDef
+ * [x] DesignationCategoryDef
+ * [x] DifficultyDef
  * [ ] FactionDef
  * [ ] HairDef 
  * [ ] HediffDef
