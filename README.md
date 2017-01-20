@@ -19,70 +19,8 @@
 * [@Hakkiro](https://github.com/Hakkiro)
 
 ## Turkish Language Translation Progress
-* [ ] DefInjected
- * [x] BiomeDef 
- * [x] BodyDef 
- * [x] BodyPartDef 
- * [x] BodyPartGroupDef
- * [x] ChemicalDef
- * [x] ConceptDef 
- * [x] DamageDef
- * [x] DesignationCategoryDef
- * [x] DifficultyDef
- * [ ] FactionDef
- * [ ] HairDef 
- * [ ] HediffDef
- * [ ] HediffGiverSetDef
- * [ ] HistoryAutoRecorderDef
- * [ ] HistoryAutoRecorderGroupDef
- * [ ] IncidentDef
- * [ ] InteractionDef
- * [ ] JobDef
- * [ ] JoyKindDef
- * [ ] KeyBindingCategoryDef
- * [ ] KeyBindingDef 
- * [ ] LifeStageDef 
- * [ ] MainTabDef
- * [ ] MapConditionDef
- * [ ] MentalStateDef
- * [ ] NeedDef
- * [ ] PawnCapacityDef
- * [ ] PawnKindDef
- * [ ] PawnRelationDef
- * [ ] RaidStrategyDef 
- * [ ] RecipeDef 
- * [ ] RecordDef
- * [ ] ResearchProjectDef 
- * [ ] RoofDef 
- * [ ] RoomRoleDef 
- * [ ] RoomStatDef
- * [ ] RulePackDef
- * [ ] ScenPartDef
- * [ ] ScenarioDef
- * [ ] SkillDef
- * [ ] SpecialThingFilterDef
- * [ ] StatCategoryDef 
- * [ ] StatDef 
- * [ ] StorytellerDef
- * [ ] StuffCategoryDef 
- * [ ] TaleDef 
- * [ ] TerrainDef 
- * [ ] ThingCategoryDef  
- * [ ] ThingDef
- * [ ] ThoughtDef
- * [ ] TimeAssignmentDef 
- * [ ] TraderKindDef
- * [ ] TrainableDef 
- * [ ] TraitDef
- * [ ] TransferableSorterDef
- * [ ] WeatherDef
- * [ ] WorkGiverDef 
- * [ ] WorkTypeDef 
- * [ ] WorldObjectDef
- 
-* [ ] Keyed
- 
-* [ ] Strings
+* Eğer ilerlemeyi görmek istersen, [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Progress.md)'e bakabilirsin.
+* If you want to see our progression of Turkish Language Translation, you can look [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Progress.md).
 
 ## See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0

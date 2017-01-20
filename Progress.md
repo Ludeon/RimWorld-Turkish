@@ -1,17 +1,19 @@
 ## Turkish Language Translation Progress
-* [ ] DefInjected
- * [x] BiomeDef 
+ * Backstories
+    - [ ] Backstories
+ * [ ] DefInjected
+ * [x] BiomeDef
     - [x] Biomes_Arid.xml
     - [x] Biomes_Cold.xml
     - [x] Biomes_Moderate.xml
- * [x] BodyDef 
+ * [x] BodyDef
     - [x] Bodies_Animal_Bird.xml
     - [x] Bodies_Animal_Insect.xml
     - [x] Bodies_Animal_Quadruoed.xml
     - [x] Bodies_Animal_Snake.xml
     - [x] Bodies_Humanlike.xml
     - [x] Bodies_Mechanoid.xml
- * [x] BodyPartDef 
+ * [x] BodyPartDef
     - [x] BodyParts_Animal.xml
     - [x] BodyParts_General.xml
     - [x] BodyParts_Humanoid.xml
@@ -26,7 +28,7 @@
     - [x] Psychite_Yayo.xml
     - [x] Smokeleaf.xml
     - [x] WakeUp.xml
- * [x] ConceptDef 
+ * [x] ConceptDef
     - [x] Concepts_Entry.xml
     - [x] Concepts_NotedOpportunistic.xml
     - [x] Concepts_NotedSelfshow.xml
@@ -42,7 +44,7 @@
     - [ ] Factions_Hidden.xml
     - [ ] Factions_Misc.xml
     - [ ] Factions_Player.xml
- * [ ] HairDef 
+ * [ ] HairDef
     - HarisGeneral.xml
  * [ ] HediffDef
     - [ ] Hediffs_Global_Drugs.xml
@@ -84,13 +86,13 @@
     - [ ] JoyKinds.xml
  * [ ] KeyBindingCategoryDef
     - [ ] KeyBindingCategories.xml
- * [ ] KeyBindingDef 
+ * [ ] KeyBindingDef
     - [ ] KeyBindings
- * [ ] LifeStageDef 
+ * [ ] LifeStageDef
     - [ ] LifeStages
  * [ ] MainTabDef
     - [ ] MainTabs.xml
- * [ ] MapConditionDef 
+ * [ ] MapConditionDef
     - [ ] MapConditions_Misc.xml
  * [ ] MentalStateDef
     - [ ] MentalStates_Mood.xml
@@ -99,14 +101,14 @@
     - [ ] Needs.xml
  * [ ] PawnCapacityDef
     - [ ] PawnCapacity.xml
- * [ ] PawnKindDef 
+ * [ ] PawnKindDef
  * [ ] PawnRelationDef
     - [ ] PawnRelations_FamilyByBlood.xml
     - [ ] PawnRelations_FamilyByChoice
     - [ ] PawnRelations_Misc
- * [ ] RaidStrategyDef 
+ * [ ] RaidStrategyDef
     - [ ] RaidStrategies.xml
- * [ ] RecipeDef 
+ * [ ] RecipeDef
     - [ ] Recipes_Butchery.xml
     - [ ] Recipes_Cremation.xml
     - [ ] Recipes_Drugs.xml
@@ -118,15 +120,15 @@
  * [ ] RecordDef
     - [ ] Records_Misc.xml
     - [ ] Records_Time.xml
- * [ ] ResearchProjectDef 
+ * [ ] ResearchProjectDef
     - [ ] ResearchProjects_Tier1_Misc.xml
     - [ ] ResearchProjects_Tier2_Misc.xml
     - [ ] ResearchProjects_Tier3_Misc.xml
     - [ ] ResearchProjects_Tier4_Misc.xml
     - [ ] ResearchProjects_Tier4_Ship.xml
- * [ ] RoofDef 
+ * [ ] RoofDef
     - [ ] Roofs.xml
- * [ ] RoomRoleDef 
+ * [ ] RoomRoleDef
     - [ ] RoomRoles.xml
  * [ ] RoomStatDef
     - [ ] RoomStats.xml
@@ -157,9 +159,9 @@
     - [ ] Skills.xml
  * [ ] SpecialThingFilterDef
     - [ ] SpecialThingFilters.xml
- * [ ] StatCategoryDef 
+ * [ ] StatCategoryDef
     - [ ] StatCategories.xml
- * [ ] StatDef 
+ * [ ] StatDef
     - [ ] Stats_Apparel.xml
     - [ ] Stats_Basics_General.xml
     - [ ] Stats_Basics_Special.xml
@@ -174,12 +176,12 @@
     - [ ] Stats_Weapons_Ranged.xml
  * [ ] StorytellerDef
     - [ ] Storytellers.xml
- * [ ] StuffCategoryDef 
+ * [ ] StuffCategoryDef
     - [ ] StuffCategories.xml
- * [ ] TaleDef 
+ * [ ] TaleDef
     - [ ] Tales_DoublePawn_Relationships.xml
     - [ ] Tales_NoPawn.xml
- * [ ] TerrainDef 
+ * [ ] TerrainDef
     - [ ] Terrain_Floors.xml
     - [ ] Terrain_FloorsStoneTile.xml
     - [ ] Terrain_Natural.xml
@@ -189,9 +191,9 @@
     - [ ] ThingCategories.xml
  * [ ] ThingDef
  * [ ] ThoughtDef
- * [ ] TimeAssignmentDef 
+ * [ ] TimeAssignmentDef
     - [ ] TimeAssignments.xml
- * [ ] TradeDialogSorterDef 
+ * [ ] TradeDialogSorterDef
     - [ ] TradeDialogSorters.xml
  * [ ] TraderKindDef
     - [ ] TraderKinds_Caravan_Neolithic.xml
@@ -199,21 +201,21 @@
     - [ ] TraderKinds_Orbital_Misc.xml
     - [ ] TraderKinds_Visitor_Neolithic.xml
     - [ ] TraderKinds_Visitor_Outlander.xml
- * [ ] TrainableDef 
+ * [ ] TrainableDef
     - [ ] Trainables.xml
  * [ ] TraitDef
     - [ ] Traits_Singular.xml
     - [ ] Traits_Spectrum.xml
  * [ ] WeatherDef
     - [ ] Weathers
- * [ ] WorkGiverDef 
+ * [ ] WorkGiverDef
     - [ ] WorkGivers.xml
- * [ ] WorkTypeDef 
+ * [ ] WorkTypeDef
     - [ ] WorkTypes.xml
- 
+
 * [ ] Keyed
  * [x] Alerts.xml
- * [x] Credits.xml 
+ * [x] Credits.xml
  * [x] Dates.xml
  * [x] Designators.xml
  * [ ] DialogTrees.xml
@@ -229,7 +231,7 @@
  * [ ] Letters.xml
  * [ ] Menu_KeyBindings.xml
  * [ ] Menu_Options.xml
- * [ ] Menus_Main.xml
+ * [x] Menus_Main.xml
  * [ ] Menus_OTabs.xml
  * [ ] Menus_Overview.xml
  * [ ] Messages.xml
@@ -242,8 +244,8 @@
  * [ ] WorkTags.xml
  * [ ] About.txt
  * [ ] FriendlyName.txt
- * [ ] LanguageInfo.xml 
- 
+ * [ ] LanguageInfo.xml
+
 * [ ] Strings
  * [ ] NameBank
     - [ ] Adjectives_Angsty.txt
@@ -251,7 +253,7 @@
     - [ ] CapitalLetters.txt
     - [ ] ColonyNames.txt
     - [ ] Colors.txt
-    - [ ] ColorsBadass.txt 
+    - [ ] ColorsBadass.txt
     - [ ] Names_Animal_Female.txt
     - [ ] Names_Animal_Male.txt
     - [ ] Names_Animal_Unisex.txt
@@ -276,7 +278,7 @@
     - [ ] Nouns_Weapons.txt
     - [ ] Numbers_SmallRoman.txt
     - [ ] TribalWords.txt
- 
+
  * [ ] Words/Nouns
     - [ ] Games.txt
     - [ ] Stories.txt
