@@ -1,7 +1,9 @@
 ## Turkish Language Translation Progress
- * Backstories
+
+* [ ] Backstories
     - [ ] Backstories
- * [ ] DefInjected
+    
+* [ ] DefInjected
  * [x] BiomeDef
     - [x] Biomes_Arid.xml
     - [x] Biomes_Cold.xml
