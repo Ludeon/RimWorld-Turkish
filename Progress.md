@@ -2,7 +2,7 @@
 
 * [ ] Backstories
     - [ ] Backstories
-    
+
 * [ ] DefInjected
  * [x] BiomeDef
     - [x] Biomes_Arid.xml
@@ -220,7 +220,7 @@
  * [x] Credits.xml
  * [x] Dates.xml
  * [x] Designators.xml
- * [ ] DialogTrees.xml
+ * [x] DialogTrees.xml
  * [x] Dialog_StatsReports.xml
  * [ ] DialogsVarious.xml
  * [ ] Enums.xml
