@@ -222,7 +222,7 @@
  * [x] Designators.xml
  * [x] DialogTrees.xml
  * [x] Dialog_StatsReports.xml
- * [ ] DialogsVarious.xml
+ * [x] DialogsVarious.xml
  * [ ] Enums.xml
  * [ ] FloatMenu.xml
  * [ ] Gameplay.xml
