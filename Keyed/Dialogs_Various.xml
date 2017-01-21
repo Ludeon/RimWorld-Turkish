@@ -243,7 +243,7 @@
   <CaravanMassUsageTooltip>Mevcut kütle kullanımı ve kütle kapasitesi.\n\nKütle kullanımı, kolonistlerin mevcut ekipmanlarının yanı sıra, atanan karavan kaynakları da içerir.\n\nKütle kullanım kapasitesini aşarsa, karavanı gönderemezsiniz.</CaravanMassUsageTooltip>
   <MassUsageInfo>{0} / {1} kg</MassUsageInfo>
   <DaysWorthOfFoodInfo>{0} günlük gıda</DaysWorthOfFoodInfo>
-  <InfiniteDaysWorthOfFoodInfo>Asla yiyecek bitmeyecek</InfiniteDaysWorthOfFoodInfo>
+  <InfiniteDaysWorthOfFoodInfo>Yiyecekler bitmeyecek durumda</InfiniteDaysWorthOfFoodInfo>
   <DaysWorthOfFoodTooltip>Karavan gıdası tükenmeden önce yaklaşık gün sayısı.\n\nBu hem insan hem de hayvan gıdalarını dikkate alır ve en kötü senaryoyu gösterir. Bu, bu kadar çok günün ardından, en az bir kişi ya da hayvan gıda dışı kalacağı anlamına gelir.</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodWarningDialog>Karavanın sadece {0} günlük gıdaya sahip ve çok hızlıca açlık başlayacak.\n\nBu karavanı oluşturmak istediğine emin misin?</DaysWorthOfFoodWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Karavanın hiç gıdaya sahip değil ve çok hızlıca açlık başlayacak.\n\nBu karavanı oluşturmak istediğine emin misin?</DaysWorthOfFoodWarningDialog_NoFood>
@@ -253,10 +253,10 @@
   <ExitDirectionRadioButtonLabel>{0} ({1} {2})</ExitDirectionRadioButtonLabel>
   <ItemWeightTip>Bu maddenin ağırlığı.</ItemWeightTip>
   <MarketValueTip>Market değeri</MarketValueTip>
-  <MassCapacity>Kütle kapasitesi</MassCapacity>
-  <Mass>Kütle</Mass>
-  <EquipmentAndApparelMass>Ekipman ve giysi kütlesi</EquipmentAndApparelMass>
-  <InventoryMass>Envanter kütlesi</InventoryMass>
+  <MassCapacity>Ağırlık kapasitesi</MassCapacity>
+  <Mass>Ağırlık</Mass>
+  <EquipmentAndApparelMass>Ekipman ve giysi Ağırlığı</EquipmentAndApparelMass>
+  <InventoryMass>Envanter kapasitesi</InventoryMass>
   <CaravanFormationProcessStarted>Kolonistlerin şimdi atanmış eşyaları alıp bölgeyi mümkün olan en kısa sürede terk edecektir.</CaravanFormationProcessStarted>
   <ReformCaravan>Reform karavan</ReformCaravan>
   <ColonistsSection>Kolonistler</ColonistsSection>
@@ -264,7 +264,7 @@
   <AnimalsSection>Hayvanlar</AnimalsSection>
 
   <!-- Split caravan -->
-  <SplitCaravan>Ayrık karavan</SplitCaravan>
+  <SplitCaravan>Bölünmüş kervan</SplitCaravan>
   <SourceCaravanMustHaveAtLeastOneColonist>En az bir sağlıklı kolonist bırakmalısınız.</SourceCaravanMustHaveAtLeastOneColonist>
   <CaravanSplitSourceLabel>Şu anki</CaravanSplitSourceLabel>
   <CaravanSplitDestLabel>Yeni</CaravanSplitDestLabel>
@@ -289,19 +289,19 @@
 
   <!--HistoryUpload-->
   <HistoryUploadMessage>Geliştiricilere yardımcı olmak için oyun verilerini RimWorld sunucularýna göndermek istiyor musun? Eðer onaylarsan verilerin her {0} günde bir gönderilecek.(ve oyunun sonu gibi bazı nadir olaylarda). Gizlilik tercihleri daha sonradan ayarlar menüsünden değiştirilebilir.</HistoryUploadMessage>
-  <HistoryUploadMessagePlayerName>Geçmiþ anonim olarak gönderilse de adýnýzý ekleyebilirsiniz.</HistoryUploadMessagePlayerName>
-  <HistoryUploadYes>Oyun bilgilerimi göndermeye izin ver.</HistoryUploadYes>
-  <HistoryUploadNo>Oyun bilgilerimi göndermeye izin ver. </HistoryUploadNo>
-  <HistoryUploadYesOnce>Sadece bu sefer gönder.</HistoryUploadYesOnce>
-  <HistoryUploadNoOnce>Bu sefer göndermeyin, daha sonra sor.</HistoryUploadNoOnce>
+  <HistoryUploadMessagePlayerName>Geçmiş anonim olarak gönderilse de adınızı ekleyebilirsiniz.</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Oyun bilgilerimi gönder.</HistoryUploadYes>
+  <HistoryUploadNo>Oyun bilgilerimi gönderme. </HistoryUploadNo>
+  <HistoryUploadYesOnce>şimdilik gönder.</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Şimdi gönderme, daha sonra tekrar sor.</HistoryUploadNoOnce>
 
   <!-- Outfit management -->
-  <Outfit>Giyim</Outfit>
-  <SelectOutfit>Giyim seç...</SelectOutfit>
-  <NewOutfit>Yeni giyim</NewOutfit>
-  <DeleteOutfit>Giyimi sil...</DeleteOutfit>
-  <OutfitInUse>{0} tarafında kullanılıyor.</OutfitInUse>
-  <NoOutfitSelected>Giyim seçili deðil</NoOutfitSelected>
+  <Outfit>Kıyafet</Outfit>
+  <SelectOutfit>Kıyafet seç...</SelectOutfit>
+  <NewOutfit>Yeni kıyafet</NewOutfit>
+  <DeleteOutfit>Kıyafeti sil...</DeleteOutfit>
+  <OutfitInUse>Kıyafet {0} tarafında kullanılıyor.</OutfitInUse>
+  <NoOutfitSelected>Kıyafet seçili değil</NoOutfitSelected>
 
 <!-- Drug policy management -->
   <DrugPolicy>Drug policy</DrugPolicy>
