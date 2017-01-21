@@ -42,10 +42,10 @@
     - [x] DesignationCategories.xml
  * [x] DifficultyDef
     - [x] Difficulties.xml
- * [ ] FactionDef
-    - [ ] Factions_Hidden.xml
-    - [ ] Factions_Misc.xml
-    - [ ] Factions_Player.xml
+ * [x] FactionDef
+    - [x] Factions_Hidden.xml
+    - [x] Factions_Misc.xml
+    - [x] Factions_Player.xml
  * [ ] HairDef
     - HarisGeneral.xml
  * [ ] HediffDef
