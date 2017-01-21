@@ -48,18 +48,18 @@
     - [x] Factions_Player.xml
  * [x] HairDef
     - [x] HarisGeneral.xml
- * [ ] HediffDef
-    - [ ] Hediffs_Global_Drugs.xml
-    - [ ] Hediffs_Global_Execution.xml
-    - [ ] Hediffs_Global_Misc.xml
-    - [ ] Hediffs_Global_Needs.xml
-    - [ ] Hediffs_Global_Temperature.xml
-    - [ ] Hediffs_Local_AddedParts.xml
-    - [ ] Hediffs_Local_Chronic.xml
-    - [ ] Hediffs_Local_Implants.xml
-    - [ ] Hediffs_Local_Infections.xml
-    - [ ] Hediffs_Local_Injuries.xml
-    - [ ] Hediffs_Local_Misc.xml
+ * [x] HediffDef
+    - [x] Hediffs_Global_Drugs.xml
+    - [x] Hediffs_Global_Execution.xml
+    - [x] Hediffs_Global_Misc.xml
+    - [x] Hediffs_Global_Needs.xml
+    - [x] Hediffs_Global_Temperature.xml
+    - [x] Hediffs_Local_AddedParts.xml
+    - [x] Hediffs_Local_Chronic.xml
+    - [x] Hediffs_Local_Implants.xml
+    - [x] Hediffs_Local_Infections.xml
+    - [x] Hediffs_Local_Injuries.xml
+    - [x] Hediffs_Local_Misc.xml
  * [ ] HediffGiverSetDef
     - [ ] HediffGiverSets.xml
  * [ ] HistoryAutoRecorderDef
