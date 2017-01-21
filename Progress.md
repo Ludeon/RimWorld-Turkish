@@ -46,8 +46,8 @@
     - [x] Factions_Hidden.xml
     - [x] Factions_Misc.xml
     - [x] Factions_Player.xml
- * [ ] HairDef
-    - HarisGeneral.xml
+ * [x] HairDef
+    - [x] HarisGeneral.xml
  * [ ] HediffDef
     - [ ] Hediffs_Global_Drugs.xml
     - [ ] Hediffs_Global_Execution.xml
