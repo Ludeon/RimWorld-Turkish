@@ -60,14 +60,14 @@
     - [x] Hediffs_Local_Infections.xml
     - [x] Hediffs_Local_Injuries.xml
     - [x] Hediffs_Local_Misc.xml
- * [ ] HediffGiverSetDef
-    - [ ] HediffGiverSets.xml
- * [ ] HistoryAutoRecorderDef
-    - [ ] HistoryAutoRecorders.xml
- * [ ] HistoryAutoRecorderGroupDef
-    - [ ] HistoryAutoRecorderGroups.xml
+ * [x] HediffGiverSetDef
+    - [x] HediffGiverSets.xml
+ * [x] HistoryAutoRecorderDef
+    - [x] HistoryAutoRecorders.xml
+ * [x] HistoryAutoRecorderGroupDef
+    - [x] HistoryAutoRecorderGroups.xml
  * [ ] IncidentDef
-    - [ ] Incidents_Disease.xml
+    - [x] Incidents_Disease.xml
     - [ ] Incidents_ThreatsBig.xml
     - [ ] Incidents_ThreatsSmall.xml
     - [ ] Incidents_Various_Bad.xml
