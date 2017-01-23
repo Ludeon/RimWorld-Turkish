@@ -216,40 +216,40 @@
     - [ ] WorkTypes.xml
 
 * [ ] Keyed
- * [x] Alerts.xml
- * [x] Credits.xml
- * [x] Dates.xml
- * [x] Designators.xml
- * [x] DialogTrees.xml
- * [x] Dialog_StatsReports.xml
- * [x] DialogsVarious.xml
- * [ ] Enums.xml
- * [ ] FloatMenu.xml
- * [ ] Gameplay.xml
- * [ ] GameplayCommands.xml
- * [ ] Grammar.xml
- * [ ] ITabs.xml
- * [ ] Incidents.xml
- * [ ] Letters.xml
- * [ ] Menu_KeyBindings.xml
- * [ ] Menu_Options.xml
- * [x] Menus_Main.xml
- * [ ] Menus_OTabs.xml
- * [ ] Menus_Overview.xml
- * [ ] Messages.xml
- * [ ] Misc.xml
- * [ ] Misc_Gameplay.xml
- * [ ] PlayInterface.xml
- * [ ] Pronouns.xml
- * [ ] Skills.xml
- * [ ] Time.xml
- * [ ] WorkTags.xml
- * [ ] About.txt
- * [ ] FriendlyName.txt
- * [ ] LanguageInfo.xml
+  * [x] Alerts.xml
+  * [x] Credits.xml
+  * [x] Dates.xml
+  * [x] Designators.xml
+  * [x] DialogTrees.xml
+  * [x] Dialog_StatsReports.xml
+  * [x] DialogsVarious.xml
+  * [ ] Enums.xml
+  * [ ] FloatMenu.xml
+  * [ ] Gameplay.xml
+  * [ ] GameplayCommands.xml
+  * [ ] Grammar.xml
+  * [ ] ITabs.xml
+  * [ ] Incidents.xml
+  * [ ] Letters.xml
+  * [ ] Menu_KeyBindings.xml
+  * [ ] Menu_Options.xml
+  * [x] Menus_Main.xml
+  * [ ] Menus_OTabs.xml
+  * [ ] Menus_Overview.xml
+  * [ ] Messages.xml
+  * [ ] Misc.xml
+  * [ ] Misc_Gameplay.xml
+  * [ ] PlayInterface.xml
+  * [ ] Pronouns.xml
+  * [ ] Skills.xml
+  * [ ] Time.xml
+  * [ ] WorkTags.xml
+  * [ ] About.txt
+  * [ ] FriendlyName.txt
+  * [ ] LanguageInfo.xml
 
 * [ ] Strings
- * [ ] Names
+ - [ ] Names
     - [ ] Animal_Female.txt
     - [ ] Animal_Male.txt
     - [ ] Animal_Unisex.txt
@@ -258,41 +258,41 @@
     - [x] CelestialPrefix.txt
     - [ ] CelestialSuffix.txt
     - [x] ColonyNames.txt
- * [ ] WordParts
+ - [ ] WordParts
     - [ ] CapitalLetters.txt
     - [ ] PlaceEndings.txt
     - [ ] Syllables_English.txt
     - [ ] Syllables_Tribal.txt
- * [ ] Words
-  * [x] Adjectives
+ - [ ] Words
+   - [x] Adjectives
    - [x] Angsty.txt
    - [x] Badass.txt
    - [x] CompassDirections
    - [x] PoliticalUnions.txt
-  * [ ] Foreign
-   - [ ] Tribal.txt
-  * [x] Misc
-   - [x] Numbers_SmallRoman
-  * [ ] Nouns
-   - [ ] Animals_Badass.txt
-   - [ ] Animals.txt
-   - [ ] Apparel.txt
-   - [x] Artworks.txt
-   - [ ] BusinessTypes.txt
-   - [ ] Colors.txt
-   - [ ] ColorsBadass.txt
-   - [ ] Communities.txt
-   - [ ] Concepts_Angsty.txt
-   - [ ] Concepts_Badass.txt
-   - [ ] Concepts_Positive.txt
-   - [ ] Games.txt
-   - [ ] GroupNames.txt
-   - [ ] People_Badass.txt
-   - [ ] People_Family.txt
-   - [ ] People_Outlanders.txt
-   - [ ] PoliticalUnions_Outlander.txt
-   - [ ] PoliticalUnions_Tribal
-   - [ ] Stories
-   - [ ] TerrainFeatures.txt
-   - [ ] Vegetables
-   - [ ] Weapons.txt
+  - [ ] Foreign
+    - [ ] Tribal.txt
+  - [x] Misc
+    - [x] Numbers_SmallRoman
+  - [ ] Nouns
+    - [ ] Animals_Badass.txt
+    - [ ] Animals.txt
+    - [ ] Apparel.txt
+    - [x] Artworks.txt
+    - [ ] BusinessTypes.txt
+    - [ ] Colors.txt
+    - [ ] ColorsBadass.txt
+    - [ ] Communities.txt
+    - [ ] Concepts_Angsty.txt
+    - [ ] Concepts_Badass.txt
+    - [ ] Concepts_Positive.txt
+    - [ ] Games.txt
+    - [ ] GroupNames.txt
+    - [ ] People_Badass.txt
+    - [ ] People_Family.txt
+    - [ ] People_Outlanders.txt
+    - [ ] PoliticalUnions_Outlander.txt
+    - [ ] PoliticalUnions_Tribal
+    - [ ] Stories
+    - [ ] TerrainFeatures.txt
+    - [ ] Vegetables
+    - [ ] Weapons.txt
