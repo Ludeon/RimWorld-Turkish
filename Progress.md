@@ -249,39 +249,50 @@
  * [ ] LanguageInfo.xml
 
 * [ ] Strings
- * [ ] NameBank
-    - [ ] Adjectives_Angsty.txt
-    - [ ] Adjectives_Badass.txt
+ * [ ] Names
+    - [ ] Animal_Female.txt
+    - [ ] Animal_Male.txt
+    - [ ] Animal_Unisex.txt
+    - [ ] Business.txt
+    - [ ] Celestial.txt
+    - [x] CelestialPrefix.txt
+    - [ ] CelestialSuffix.txt
+    - [x] ColonyNames.txt
+ * [ ] WordParts
     - [ ] CapitalLetters.txt
-    - [ ] ColonyNames.txt
-    - [ ] Colors.txt
-    - [ ] ColorsBadass.txt
-    - [ ] Names_Animal_Female.txt
-    - [ ] Names_Animal_Male.txt
-    - [ ] Names_Animal_Unisex.txt
-    - [ ] Names_Business.txt
-    - [ ] Names_Celestial.txt
-    - [ ] Names_CelestialPrefix.txt
-    - [ ] Names_CelestialSuffix.txt
-    - [ ] Nouns_Animals.txt
-    - [ ] Nouns_Apparel.txt
-    - [ ] Nouns_Artworks.txt
-    - [ ] Nouns_BadassAnimals.txt
-    - [ ] Nouns_BadassPersons.txt
-    - [ ] Nouns_BusinessTypes.txt
-    - [ ] Nouns_Communities.txt
-    - [ ] Nouns_Concepts_Angsty.txt
-    - [ ] Nouns_Concepts_Badass.txt
-    - [ ] Nouns_Concepts_Positive.txt
-    - [ ] Nouns_GroupNames.txt
-    - [ ] Nouns_People_Family.txt
-    - [ ] Nouns_People_Outlanders.txt
-    - [ ] Nouns_TerrainFeatures.txt
-    - [ ] Nouns_Weapons.txt
-    - [ ] Numbers_SmallRoman.txt
-    - [ ] TribalWords.txt
-
- * [ ] Words/Nouns
-    - [ ] Games.txt
-    - [ ] Stories.txt
-    - [ ] Vegetables.txt
+    - [ ] PlaceEndings.txt
+    - [ ] Syllables_English.txt
+    - [ ] Syllables_Tribal.txt
+ * [ ] Words
+  * [x] Adjectives
+   - [x] Angsty.txt
+   - [x] Badass.txt
+   - [x] CompassDirections
+   - [x] PoliticalUnions.txt
+  * [ ] Foreign
+   - [ ] Tribal.txt
+  * [x] Misc
+   - [x] Numbers_SmallRoman
+  * [ ] Nouns
+   - [ ] Animals_Badass.txt
+   - [ ] Animals.txt
+   - [ ] Apparel.txt
+   - [x] Artworks.txt
+   - [ ] BusinessTypes.txt
+   - [ ] Colors.txt
+   - [ ] ColorsBadass.txt
+   - [ ] Communities.txt
+   - [ ] Concepts_Angsty.txt
+   - [ ] Concepts_Badass.txt
+   - [ ] Concepts_Positive.txt
+   - [ ] Games.txt
+   - [ ] GroupNames.txt
+   - [ ] People_Badass.txt
+   - [ ] People_Family.txt
+   - [ ] People_Outlanders.txt
+   - [ ] PoliticalUnions_Outlander.txt
+   - [ ] PoliticalUnions_Tribal
+   - [ ] Stories
+   - [ ] TerrainFeatures.txt
+   - [ ] Vegetables
+   - [ ] Weapons.txt
