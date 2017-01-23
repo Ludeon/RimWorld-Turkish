@@ -295,4 +295,4 @@
     - [ ] Stories
     - [ ] TerrainFeatures.txt
     - [ ] Vegetables
-    - [ ] Weapons.txt
+    - [x] Weapons.txt
