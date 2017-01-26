@@ -223,10 +223,10 @@
   * [x] DialogTrees.xml
   * [x] Dialog_StatsReports.xml
   * [x] DialogsVarious.xml
-  * [ ] Enums.xml
-  * [ ] FloatMenu.xml
+  * [x] Enums.xml
+  * [x] FloatMenu.xml
   * [ ] Gameplay.xml
-  * [ ] GameplayCommands.xml
+  * [x] GameplayCommands.xml
   * [ ] Grammar.xml
   * [ ] ITabs.xml
   * [ ] Incidents.xml
