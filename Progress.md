@@ -227,9 +227,9 @@
   * [x] FloatMenu.xml
   * [ ] Gameplay.xml
   * [x] GameplayCommands.xml
-  * [ ] Grammar.xml
+  * [x] Grammar.xml
   * [ ] ITabs.xml
-  * [ ] Incidents.xml
+  * [x] Incidents.xml
   * [ ] Letters.xml
   * [ ] Menu_KeyBindings.xml
   * [ ] Menu_Options.xml
