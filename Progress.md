@@ -251,7 +251,7 @@
 
 * [ ] Strings
  - [ ] Names
-    - [ ] Animal_Female.txt
+    - [x] Animal_Female.txt
     - [x] Animal_Male.txt
     - [ ] Animal_Unisex.txt
     - [ ] Business.txt
