@@ -192,6 +192,7 @@
  * [ ] ThingCategoryDef  
     - [ ] ThingCategories.xml
  * [ ] ThingDef
+    - [x] Items_Resource_Stuff.xml
  * [ ] ThoughtDef
  * [ ] TimeAssignmentDef
     - [ ] TimeAssignments.xml
