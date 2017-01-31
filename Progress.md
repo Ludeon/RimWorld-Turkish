@@ -66,24 +66,24 @@
     - [x] HistoryAutoRecorders.xml
  * [x] HistoryAutoRecorderGroupDef
     - [x] HistoryAutoRecorderGroups.xml
- * [ ] IncidentDef
+ * [x] IncidentDef
     - [x] Incidents_Disease.xml
-    - [ ] Incidents_ThreatsBig.xml
-    - [ ] Incidents_ThreatsSmall.xml
-    - [ ] Incidents_Various_Bad.xml
-    - [ ] Incidents_Various_Good.xml
-    - [ ] Incidents_Various_Netural.xml
- * [ ] InteractionDef
-    - [ ] Interactions_Animals.xml
-    - [ ] Interactions_Directed.xml
-    - [ ] Interactions_Romance.xml
-    - [ ] Interactions_Social.xml
- * [ ] JobDef
-    - [ ] jobs_Animal.xml
-    - [ ] Jobs_Gatherings.xml
-    - [ ] Jobs_Joy.xml
-    - [ ] Jobs_Misc.xml
-    - [ ] Jobs_Work.xml
+    - [x] Incidents_ThreatsBig.xml
+    - [x] Incidents_ThreatsSmall.xml
+    - [x] Incidents_Various_Bad.xml
+    - [x] Incidents_Various_Good.xml
+    - [x] Incidents_Various_Netural.xml
+ * [x] InteractionDef
+    - [x] Interactions_Animals.xml
+    - [x] Interactions_Directed.xml
+    - [x] Interactions_Romance.xml
+    - [x] Interactions_Social.xml
+ * [x] JobDef
+    - [x] jobs_Animal.xml
+    - [x] Jobs_Gatherings.xml
+    - [x] Jobs_Joy.xml
+    - [x] Jobs_Misc.xml
+    - [x] Jobs_Work.xml
  * [ ] JoyKindDef
     - [ ] JoyKinds.xml
  * [ ] KeyBindingCategoryDef
