@@ -276,7 +276,7 @@
     - [x] Numbers_SmallRoman
   - [ ] Nouns
     - [x] Animals_Badass.txt
-    - [ ] Animals.txt
+    - [x] Animals.txt
     - [ ] Apparel.txt
     - [x] Artworks.txt
     - [ ] BusinessTypes.txt
