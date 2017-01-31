@@ -86,8 +86,8 @@
     - [x] Jobs_Work.xml
  * [x] JoyKindDef
     - [ x JoyKinds.xml
- * [ ] KeyBindingCategoryDef
-    - [ ] KeyBindingCategories.xml
+ * [x] KeyBindingCategoryDef
+    - [x] KeyBindingCategories.xml
  * [ ] KeyBindingDef
     - [ ] KeyBindings
  * [ ] LifeStageDef
