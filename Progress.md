@@ -275,7 +275,7 @@
   - [x] Misc
     - [x] Numbers_SmallRoman
   - [ ] Nouns
-    - [ ] Animals_Badass.txt
+    - [x] Animals_Badass.txt
     - [ ] Animals.txt
     - [ ] Apparel.txt
     - [x] Artworks.txt
