@@ -252,7 +252,7 @@
 * [ ] Strings
  - [ ] Names
     - [ ] Animal_Female.txt
-    - [ ] Animal_Male.txt
+    - [x] Animal_Male.txt
     - [ ] Animal_Unisex.txt
     - [ ] Business.txt
     - [ ] Celestial.txt
