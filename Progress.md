@@ -90,15 +90,15 @@
     - [x] KeyBindingCategories.xml
  * [ ] KeyBindingDef
     - [ ] KeyBindings
- * [ ] LifeStageDef
-    - [ ] LifeStages
- * [ ] MainTabDef
-    - [ ] MainTabs.xml
- * [ ] MapConditionDef
-    - [ ] MapConditions_Misc.xml
- * [ ] MentalStateDef
-    - [ ] MentalStates_Mood.xml
-    - [ ] MentalStates_Special.xml
+ * [x] LifeStageDef
+    - [x] LifeStages
+ * [x] MainTabDef
+    - [x] MainTabs.xml
+ * [x] MapConditionDef
+    - [x] MapConditions_Misc.xml
+ * [x] MentalStateDef
+    - [x] MentalStates_Mood.xml
+    - [x] MentalStates_Special.xml
  * [ ] NeedDef
     - [ ] Needs.xml
  * [ ] PawnCapacityDef
