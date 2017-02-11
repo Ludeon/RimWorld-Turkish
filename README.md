@@ -3,22 +3,22 @@
 * RimWorld için Türkçe Dil çevirisi.
 * A Turkish language translation for RimWorld.
 
-## Translators
+## Translators - Çevirmenler
 * [@Ferhatyesil](https://github.com/Ferhatyesil)
-* [@sinanisler](https://github.com/sinanisler)
 * [@XxXKroseXxX](https://github.com/XxXKroseXxX)
+* [@Hüseyin Cem ARAS](https://github.com/hcemaras)
+* [@Hakkiro](https://github.com/Hakkiro)
+* [@sinanisler](https://github.com/sinanisler)
+* [@Zamahoya](https://github.com/Zamahoya)
 * [@FearMaster](https://github.com/FearMaster)
 * [@mmustafasanli](https://github.com/mmustafasanli)
-* [@sonobacari](https://github.com/sonobacari)
-* [@Hüseyin Cem ARAS](https://github.com/hcemaras)
-* [@Ahmet Can AYDEMİR](https://github.com/ahmetcanaydemir)
 * [@mahsun4303](https://github.com/mahsun4303)
+* [@Ahmet Can AYDEMİR](https://github.com/ahmetcanaydemir)
+* [@sonobacari](https://github.com/sonobacari)
 * [@alimormeci](https://github.com/alimormeci)
 * [@IsilwenA](https://github.com/IsilwenA)
-* [@Zamahoya](https://github.com/Zamahoya)
-* [@Hakkiro](https://github.com/Hakkiro)
 
-## Turkish Language Translation Progress
+## Translation Progress - Çeviri İlerlemesi
 * Eğer ilerlemeyi görmek istersen, [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Progress.md)'e bakabilirsin.
 * If you want to see our progression of Turkish Language Translation, you can look [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Progress.md).
 
