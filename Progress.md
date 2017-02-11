@@ -221,33 +221,29 @@
   * [x] Credits.xml
   * [x] Dates.xml
   * [x] Designators.xml
-  * [x] DialogTrees.xml
   * [x] Dialog_StatsReports.xml
+  * [x] DialogTrees.xml
   * [x] DialogsVarious.xml
   * [x] Enums.xml
   * [x] FloatMenu.xml
-  * [ ] Gameplay.xml
   * [x] GameplayCommands.xml
   * [x] Grammar.xml
-  * [ ] ITabs.xml
   * [x] Incidents.xml
+  * [ ] ITabs.xml
   * [ ] Letters.xml
+  * [ ] MainTabs.xml
   * [ ] Menu_KeyBindings.xml
   * [ ] Menu_Options.xml
   * [x] Menus_Main.xml
-  * [ ] Menus_OTabs.xml
-  * [ ] Menus_Overview.xml
   * [ ] Messages.xml
-  * [ ] Misc.xml
   * [ ] Misc_Gameplay.xml
+  * [ ] Misc.xml
   * [ ] PlayInterface.xml
-  * [ ] Pronouns.xml
+  * [ ] ScenParts.xml
   * [ ] Skills.xml
   * [ ] Time.xml
-  * [ ] WorkTags.xml
-  * [ ] About.txt
-  * [ ] FriendlyName.txt
-  * [ ] LanguageInfo.xml
+  * [x] WITabs.xml
+  * [x] WorkTags.xml
 
 * [ ] Strings
  - [ ] Names
@@ -274,26 +270,26 @@
     - [ ] Tribal.txt
   - [x] Misc
     - [x] Numbers_SmallRoman
-  - [ ] Nouns
+  - [x] Nouns
     - [x] Animals_Badass.txt
     - [x] Animals.txt
-    - [ ] Apparel.txt
+    - [x] Apparel.txt
     - [x] Artworks.txt
-    - [ ] BusinessTypes.txt
-    - [ ] Colors.txt
-    - [ ] ColorsBadass.txt
-    - [ ] Communities.txt
-    - [ ] Concepts_Angsty.txt
-    - [ ] Concepts_Badass.txt
-    - [ ] Concepts_Positive.txt
-    - [ ] Games.txt
-    - [ ] GroupNames.txt
-    - [ ] People_Badass.txt
-    - [ ] People_Family.txt
-    - [ ] People_Outlanders.txt
-    - [ ] PoliticalUnions_Outlander.txt
-    - [ ] PoliticalUnions_Tribal
-    - [ ] Stories
-    - [ ] TerrainFeatures.txt
-    - [ ] Vegetables
+    - [x] BusinessTypes.txt
+    - [x] Colors.txt
+    - [x] ColorsBadass.txt
+    - [x] Communities.txt
+    - [x] Concepts_Angsty.txt
+    - [x] Concepts_Badass.txt
+    - [x] Concepts_Positive.txt
+    - [x] Games.txt
+    - [x] GroupNames.txt
+    - [x] People_Badass.txt
+    - [x] People_Family.txt
+    - [x] People_Outlanders.txt
+    - [x] PoliticalUnions_Outlander.txt
+    - [x] PoliticalUnions_Tribal
+    - [x] Stories
+    - [x] TerrainFeatures.txt
+    - [x] Vegetables
     - [x] Weapons.txt
