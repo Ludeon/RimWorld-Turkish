@@ -107,10 +107,19 @@
     - [x] Psychite_Yayo.xml
     - [x] Smokeleaf.xml
     - [ ] WakeUp.xml
- * [ ] PawnCapacityDef
-    - [ ] PawnCapacity.xml
+ * [x] PawnCapacityDef
+    - [x] PawnCapacity.xml
  * [ ] PawnKindDef
- * [ ] PawnRelationDef
+    - [ ] PawnKinds_Mechanoid.txt
+    - [ ] PawnKinds_Mercenary.txt
+    - [ ] PawnKinds_Outlander.txt
+    - [ ] PawnKinds_Pirate.txt
+    - [ ] PawnKinds_Player.txt
+    - [ ] PawnKinds_Slave.txt
+    - [ ] PawnKinds_Slave.txt
+    - [ ] PawnKinds_Tribal.txt
+    - [ ] Races_Animal_WildCanines.txt
+  * [ ] PawnRelationDef
     - [ ] PawnRelations_FamilyByBlood.xml
     - [ ] PawnRelations_FamilyByChoice
     - [ ] PawnRelations_Misc
