@@ -109,16 +109,16 @@
     - [ ] WakeUp.xml
  * [x] PawnCapacityDef
     - [x] PawnCapacity.xml
- * [ ] PawnKindDef
-    - [ ] PawnKinds_Mechanoid.txt
-    - [ ] PawnKinds_Mercenary.txt
-    - [ ] PawnKinds_Outlander.txt
-    - [ ] PawnKinds_Pirate.txt
-    - [ ] PawnKinds_Player.txt
-    - [ ] PawnKinds_Slave.txt
-    - [ ] PawnKinds_Slave.txt
-    - [ ] PawnKinds_Tribal.txt
-    - [ ] Races_Animal_WildCanines.txt
+ * [x] PawnKindDef
+    - [x] PawnKinds_Mechanoid.txt
+    - [x] PawnKinds_Mercenary.txt
+    - [x] PawnKinds_Outlander.txt
+    - [x] PawnKinds_Pirate.txt
+    - [x] PawnKinds_Player.txt
+    - [x] PawnKinds_Slave.txt
+    - [x] PawnKinds_Spacer.txt
+    - [x] PawnKinds_Tribal.txt
+    - [x] Races_Animal_WildCanines.txt
   * [ ] PawnRelationDef
     - [ ] PawnRelations_FamilyByBlood.xml
     - [ ] PawnRelations_FamilyByChoice
