@@ -119,12 +119,12 @@
     - [x] PawnKinds_Spacer.txt
     - [x] PawnKinds_Tribal.txt
     - [x] Races_Animal_WildCanines.txt
-  * [ ] PawnRelationDef
-    - [ ] PawnRelations_FamilyByBlood.xml
-    - [ ] PawnRelations_FamilyByChoice
-    - [ ] PawnRelations_Misc
- * [ ] RaidStrategyDef
-    - [ ] RaidStrategies.xml
+  * [x] PawnRelationDef
+    - [x] PawnRelations_FamilyByBlood.xml
+    - [x] PawnRelations_FamilyByChoice
+    - [x] PawnRelations_Misc
+ * [x] RaidStrategyDef
+    - [x] RaidStrategies.xml
  * [ ] RecipeDef
     - [ ] Recipes_Butchery.xml
     - [ ] Recipes_Cremation.xml
