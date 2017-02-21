@@ -125,16 +125,16 @@
     - [x] PawnRelations_Misc
  * [x] RaidStrategyDef
     - [x] RaidStrategies.xml
- * [ ] RecipeDef
+ * [x] RecipeDef
     - [x] Recipes_Add.xml
-    - [ ] Recipes_Butchery.xml
-    - [ ] Recipes_Cremation.xml
-    - [ ] Recipes_Drugs.xml
-    - [ ] Recipes_Meals.xml
-    - [ ] Recipes_Production.xml
-    - [ ] Recipes_Surgery.xml
-    - [ ] Recipes_Surgery_Implants.xml
-    - [ ] Recipes_Surgery_NewParts.xml
+    - [x] Recipes_Butchery.xml
+    - [x] Recipes_Cremation.xml
+    - [x] Recipes_Drugs.xml
+    - [x] Recipes_Meals.xml
+    - [x] Recipes_Production.xml
+    - [x] Recipes_Surgery.xml
+    - [x] Recipes_Surgery_Implants.xml
+    - [x] Recipes_Surgery_NewParts.xml
  * [ ] RecordDef
     - [ ] Records_Misc.xml
     - [ ] Records_Time.xml
