@@ -126,7 +126,7 @@
  * [x] RaidStrategyDef
     - [x] RaidStrategies.xml
  * [ ] RecipeDef
-    - [x]Recipes_Add.xml
+    - [x] Recipes_Add.xml
     - [ ] Recipes_Butchery.xml
     - [ ] Recipes_Cremation.xml
     - [ ] Recipes_Drugs.xml
