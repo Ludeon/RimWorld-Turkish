@@ -135,15 +135,15 @@
     - [x] Recipes_Surgery.xml
     - [x] Recipes_Surgery_Implants.xml
     - [x] Recipes_Surgery_NewParts.xml
- * [ ] RecordDef
-    - [ ] Records_Misc.xml
-    - [ ] Records_Time.xml
- * [ ] ResearchProjectDef
-    - [ ] ResearchProjects_Tier1_Misc.xml
-    - [ ] ResearchProjects_Tier2_Misc.xml
-    - [ ] ResearchProjects_Tier3_Misc.xml
-    - [ ] ResearchProjects_Tier4_Misc.xml
-    - [ ] ResearchProjects_Tier4_Ship.xml
+ * [x] RecordDef
+    - [x] Records_Misc.xml
+    - [x] Records_Time.xml
+ * [x] ResearchProjectDef
+    - [x] ResearchProjects_Tier1_Misc.xml
+    - [x] ResearchProjects_Tier2_Misc.xml
+    - [x] ResearchProjects_Tier3_Misc.xml
+    - [x] ResearchProjects_Tier4_Misc.xml
+    - [x] ResearchProjects_Tier4_Ship.xml
  * [ ] RoofDef
     - [ ] Roofs.xml
  * [ ] RoomRoleDef
