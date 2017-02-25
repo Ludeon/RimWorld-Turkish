@@ -144,12 +144,12 @@
     - [x] ResearchProjects_Tier3_Misc.xml
     - [x] ResearchProjects_Tier4_Misc.xml
     - [x] ResearchProjects_Tier4_Ship.xml
- * [ ] RoofDef
-    - [ ] Roofs.xml
- * [ ] RoomRoleDef
-    - [ ] RoomRoles.xml
- * [ ] RoomStatDef
-    - [ ] RoomStats.xml
+ * [x] RoofDef
+    - [x] Roofs.xml
+ * [x] RoomRoleDef
+    - [x] RoomRoles.xml
+ * [x] RoomStatDef
+    - [x] RoomStats.xml
  * [ ] RulePackDef
     - [ ] RulePacks_Art_DescriptionRoot.xml
     - [ ] RulePacks_Art_ImagesTaleless.xml
