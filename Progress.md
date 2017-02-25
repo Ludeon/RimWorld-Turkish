@@ -168,17 +168,17 @@
      - [ ] Scenarios_Classic.xml
      - [ ] Scenarios_Special.xml
  * [ ] ScenPartDef
-    - [ ] ScenParts_Fixed
+    - [x] ScenParts_Fixed
     - [ ] ScenParts_Various.xml
- * [ ] ScenarioDef
-    - [ ] Scenarios_Classic.xml
-    - [ ] Scenarios_Special.xml
- * [ ] SkillDef
-    - [ ] Skills.xml
- * [ ] SpecialThingFilterDef
-    - [ ] SpecialThingFilters.xml
- * [ ] StatCategoryDef
-    - [ ] StatCategories.xml
+ * [x] ScenarioDef
+    - [x] Scenarios_Classic.xml
+    - [x] Scenarios_Special.xml
+ * [x] SkillDef
+    - [x] Skills.xml
+ * [x] SpecialThingFilterDef
+    - [x] SpecialThingFilters.xml
+ * [x] StatCategoryDef
+    - [x] StatCategories.xml
  * [ ] StatDef
     - [ ] Stats_Apparel.xml
     - [ ] Stats_Basics_General.xml
@@ -192,24 +192,100 @@
     - [ ] Stats_Pawns_WorkRecipes.xml
     - [ ] Stats_Weapons_Melee.xml
     - [ ] Stats_Weapons_Ranged.xml
- * [ ] StorytellerDef
-    - [ ] Storytellers.xml
- * [ ] StuffCategoryDef
-    - [ ] StuffCategories.xml
+ * [x] StorytellerDef
+    - [x] Storytellers.xml
+ * [x] StuffCategoryDef
+    - [x] StuffCategories.xml
  * [ ] TaleDef
     - [ ] Tales_DoublePawn_Relationships.xml
     - [ ] Tales_NoPawn.xml
- * [ ] TerrainDef
-    - [ ] Terrain_Floors.xml
-    - [ ] Terrain_FloorsStoneTile.xml
-    - [ ] Terrain_Natural.xml
-    - [ ] Terrain_Special.xml
-    - [ ] Terrain_Water.xml
+ * [x] TerrainDef
+    - [x] Terrain_Floors.xml
+    - [x] Terrain_FloorsStoneTile.xml
+    - [x] Terrain_Natural.xml
+    - [x] Terrain_Special.xml
+    - [x] Terrain_Water.xml
  * [ ] ThingCategoryDef  
     - [ ] ThingCategories.xml
  * [ ] ThingDef
-    - [x] Items_Resource_Stuff.xml
+    - [ ] Alcohol_Beer.xml
+    - [ ] Apparel_Hats.xml
+    - [ ] Apparel_Shield.xml
+    - [ ] Apparel_Various.xml
+    - [ ] Buildings_Art.xml
+    - [ ] Buildings_Exotic.xml
+    - [ ] Buildings_Furniture.xml
+    - [ ] Buildings_Joy.xml
+    - [ ] Buildings_Misc.xml
+    - [ ] Buildings_Natural.xml
+    - [ ] Buildings_Power.xml
+    - [ ] Buildings_Power_WindTurbine.xml
+    - [ ] Buildings_Production.xml
+    - [ ] Buildings_Security.xml
+    - [ ] Buildings_Ship.xml
+    - [ ] Buildings_Structure.xml
+    - [ ] Buildings_Temperature.xml
+    - [ ] Filth_Various.xml
+    - [ ] GoJuice.xml
+    - [ ] Items_Artifacts.xml
+    - [ ] Items_BodyParts.xml
+    - [ ] Items_Exotic.xml
+    - [ ] Items_Food.xml
+    - [ ] Items_Implants.xml
+    - [ ] Items_Luxury.xml
+    - [ ] Items_Resource_AnimalProduct.xml
+    - [ ] Items_Resource_Manufactured.xml
+    - [ ] Items_Resource_RawPlant.xml
+    - [ ] Items_Resource_Stuff.xml
+    - [ ] Items_Unfinished.xml
+    - [ ] Luciferium.xml
+    - [ ] Plants_Cultivated_Decorative.xml
+    - [ ] Plants_Cultivated_Farm.xml
+    - [ ] Plants_Wild_Arid.xml
+    - [ ] Plants_Wild_Temperate.xml
+    - [ ] Plants_Wild_Tropical.xml
+    - [ ] Psychite_Flake.xml
+    - [ ] Psychite_Yayo.xml
+    - [ ] Races_Animal_Arid.xml
+    - [ ] Races_Animal_Bears.xml
+    - [ ] Races_Animal_BigCats.xml
+    - [ ] Races_Animal_Birds.xml
+    - [ ] Races_Animal_Farm.xml
+    - [ ] Races_Animal_Giant.xml
+    - [ ] Races_Animal_Hares.xml
+    - [ ] Races_Animal_Insect.xml
+    - [ ] Races_Animal_Pet.xml
+    - [ ] Races_Animal_Rodentlike.xml
+    - [ ] Races_Animal_Temperate.xml
+    - [ ] Races_Animal_Tropical.xml
+    - [ ] Races_Animal_WildCanines.xml
+    - [ ] Races_Humanlike.xml
+    - [ ] Races_Mechanoid.xml
+    - [ ] Smokeleaf.xml
+    - [ ] Things_Special.xml
+    - [ ] Various_Stone.xml
+    - [ ] WakeUp.xml
+    - [ ] Weapons_Grenades.xml
+    - [ ] Weapons_Guns.xml
+    - [ ] Weapons_Melee.xml
+    - [ ] Weapons_RangedNeolithic.xml
  * [ ] ThoughtDef
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
+    - [ ] 
  * [ ] TimeAssignmentDef
     - [ ] TimeAssignments.xml
  * [ ] TradeDialogSorterDef
