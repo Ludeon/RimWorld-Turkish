@@ -112,15 +112,28 @@
  * [x] PawnCapacityDef
     - [x] PawnCapacity.xml
  * [x] PawnKindDef
-    - [x] PawnKinds_Mechanoid.txt
-    - [x] PawnKinds_Mercenary.txt
-    - [x] PawnKinds_Outlander.txt
-    - [x] PawnKinds_Pirate.txt
-    - [x] PawnKinds_Player.txt
-    - [x] PawnKinds_Slave.txt
-    - [x] PawnKinds_Spacer.txt
-    - [x] PawnKinds_Tribal.txt
-    - [x] Races_Animal_WildCanines.txt
+    - [x] PawnKinds_Animal_Arid.xml
+    - [x] PawnKinds_Animal_Bears.xml
+    - [x] PawnKinds_Animal_BigCats.xml
+    - [x] PawnKinds_Animal_Birds.xml
+    - [x] PawnKinds_Animal_Farm.xml
+    - [x] PawnKinds_Animal_Giant.xml
+    - [x] PawnKinds_Animal_Hares.xml
+    - [x] PawnKinds_Animal_Insect.xml
+    - [x] PawnKinds_Animal_Pet.xml
+    - [x] PawnKinds_Animal_Rodentlike.xml
+    - [x] PawnKinds_Animal_Temperate.xml
+    - [x] PawnKinds_Animal_Tropical.xml
+    - [x] PawnKinds_Animal_WildCanines.xml
+    - [x] PawnKinds_Mechanoid.xml
+    - [x] PawnKinds_Mercenary.xml
+    - [x] PawnKinds_Outlander.xml
+    - [x] PawnKinds_Pirate.xml
+    - [x] PawnKinds_Player.xml
+    - [x] PawnKinds_Slave.xml
+    - [x] PawnKinds_Spacer.xml
+    - [x] PawnKinds_Tribal.xml
+    - [x] Races_Animal_WildCanines.xml
   * [x] PawnRelationDef
     - [x] PawnRelations_FamilyByBlood.xml
     - [x] PawnRelations_FamilyByChoice
