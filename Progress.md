@@ -88,8 +88,8 @@
     - [x] JoyKinds.xml
  * [x] KeyBindingCategoryDef
     - [x] KeyBindingCategories.xml
- * [ ] KeyBindingDef
-    - [ ] KeyBindings
+ * [x] KeyBindingDef
+    - [x] KeyBindings
  * [x] LifeStageDef
     - [x] LifeStages
  * [x] MainTabDef
