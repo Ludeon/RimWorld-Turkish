@@ -99,14 +99,16 @@
  * [x] MentalStateDef
     - [x] MentalStates_Mood.xml
     - [x] MentalStates_Special.xml
- * [ ] NeedDef
+ * [x] NeedDef
     - [x] Alcohol_Beer.xml
     - [x] GoJuice.xml
-    - [ ] Luciferium.xml
+    - [x] Luciferium.xml
     - [x] Needs.xml
     - [x] Psychite_Yayo.xml
     - [x] Smokeleaf.xml
-    - [ ] WakeUp.xml
+    - [x] WakeUp.xml
+    - [x] Needs_Drugs.xml
+    - [x] Needs_Misc.xml
  * [x] PawnCapacityDef
     - [x] PawnCapacity.xml
  * [x] PawnKindDef
