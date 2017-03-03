@@ -179,12 +179,12 @@
     - [ ] RulePacks_NameMakers_Scenarios.xml
     - [ ] RulePacks_NameMakers_Traders.xml
     - [ ] RulePacks_Seeds.xml
- * [ ] ScenarioDef
-     - [ ] Scenarios_Classic.xml
-     - [ ] Scenarios_Special.xml
- * [ ] ScenPartDef
+ * [x] ScenarioDef
+     - [x] Scenarios_Classic.xml
+     - [x] Scenarios_Special.xml
+ * [x] ScenPartDef
     - [x] ScenParts_Fixed
-    - [ ] ScenParts_Various.xml
+    - [x] ScenParts_Various.xml
  * [x] ScenarioDef
     - [x] Scenarios_Classic.xml
     - [x] Scenarios_Special.xml
