@@ -322,7 +322,9 @@
     - [ ] WorkGivers.xml
  * [ ] WorkTypeDef
     - [ ] WorkTypes.xml
-
+ * [x] WorkTypeDef
+    - [x] Incidents_Caravan.xml
+    - [x] WorldObjects.xml
 * [ ] Keyed
   * [x] Alerts.xml
   * [x] Credits.xml
