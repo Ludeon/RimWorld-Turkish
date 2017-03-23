@@ -220,8 +220,8 @@
     - [x] Terrain_Natural.xml
     - [x] Terrain_Special.xml
     - [x] Terrain_Water.xml
- * [ ] ThingCategoryDef  
-    - [ ] ThingCategories.xml
+ * [X] ThingCategoryDef  
+    - [X] ThingCategories.xml
  * [ ] ThingDef
     - [ ] Alcohol_Beer.xml
     - [ ] Apparel_Hats.xml
