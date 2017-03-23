@@ -207,13 +207,17 @@
     - [ ] Stats_Pawns_WorkRecipes.xml
     - [ ] Stats_Weapons_Melee.xml
     - [ ] Stats_Weapons_Ranged.xml
+    
  * [x] StorytellerDef
     - [x] Storytellers.xml
  * [x] StuffCategoryDef
     - [x] StuffCategories.xml
  * [ ] TaleDef
     - [ ] Tales_DoublePawn_Relationships.xml
-    - [ ] Tales_NoPawn.xml
+    - [X] Tales_NoPawn.xml
+    - [ ] Tales_DoublePawn.xml
+    - [ ] Tales_SinglePawn.xml
+
  * [x] TerrainDef
     - [x] Terrain_Floors.xml
     - [x] Terrain_FloorsStoneTile.xml
