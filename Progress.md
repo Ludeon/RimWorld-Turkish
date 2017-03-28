@@ -1,9 +1,9 @@
 ## Turkish Language Translation Progress
 
-* [ ] [[Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/)
-    - [ ] [[Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/Backstories.txt)
+* [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/)
+    - [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/Backstories.txt)
 
-* [ ] [[DefInjected](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected)
+* [ ] [DefInjected](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected)
  * [x] [BiomeDef](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/)
     - [x] [Biomes_Arid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Arid.xml)
     - [x] [Biomes_Cold.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Cold.xml)
@@ -15,15 +15,15 @@
     - [x] [Bodies_Animal_Snake.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Animal_Snake.xml)
     - [x] [Bodies_Humanlike.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Humanlike.xml)
     - [x] [Bodies_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Mechanoid.xml)
- * [x] [BodyPartDef
+ * [x] [BodyPartDef](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/)
     - [x] [BodyParts_Animal.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Animal.xml)
     - [x] [BodyParts_General.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_General.xml)
     - [x] [BodyParts_Humanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Humanoid.xml)
     - [x] [BodyParts_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Mechanoid.xml)
     - [x] [BodyParts_Organs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Organs.xml)
- * [x] [BodyPartGroupDef
+ * [x] [BodyPartGroupDef](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartGroupDef/)
     - [x] [BodyPartGroups.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartGroupDef/BodyPartGroups.xml)
- * [x] [ChemicalDef
+ * [x] [ChemicalDef](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/)
     - [x] [Alcohol_Beer.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/Alcohol_Beer.xml)
     - [x] [GoJuice.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/GoJuice.xml)
     - [x] [Luciferium.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/Luciferium.xml)
