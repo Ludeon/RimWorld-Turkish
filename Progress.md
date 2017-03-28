@@ -1,5 +1,5 @@
 ## Turkish Language Translation Progress
-[ Backstories](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+[ ](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
 * [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/)
     - [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/Backstories.txt)
 
@@ -8,13 +8,13 @@
     - [x] [Biomes_Arid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Arid.xml)
     - [x] [Biomes_Cold.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Cold.xml)
     - [x] [Biomes_Moderate.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Moderate.xml)
- * [x] BodyDef
-    - [x] Bodies_Animal_Bird.xml
-    - [x] Bodies_Animal_Insect.xml
-    - [x] Bodies_Animal_Quadruoed.xml
-    - [x] Bodies_Animal_Snake.xml
-    - [x] Bodies_Humanlike.xml
-    - [x] Bodies_Mechanoid.xml
+ * [x] [BodyDef](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/)
+    - [x] [Bodies_Animal_Bird.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Animal_Bird.xml)
+    - [x] [Bodies_Animal_Insect.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Animal_Insect.xml)
+    - [x] [Bodies_Animal_Quadruoed.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Animal_Quadruoed.xml)
+    - [x] [Bodies_Animal_Snake.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Animal_Snake.xml)
+    - [x] [Bodies_Humanlike.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Humanlike.xml)
+    - [x] [Bodies_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Mechanoid.xml)
  * [x] BodyPartDef
     - [x] BodyParts_Animal.xml
     - [x] BodyParts_General.xml
