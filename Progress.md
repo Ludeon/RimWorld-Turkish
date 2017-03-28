@@ -1,13 +1,13 @@
 ## Turkish Language Translation Progress
-[ Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/Backstories.txt)
+[ Backstories](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
 * [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/)
     - [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/Backstories.txt)
 
-* [ ] DefInjected
- * [x] BiomeDef
-    - [x] Biomes_Arid.xml
-    - [x] Biomes_Cold.xml
-    - [x] Biomes_Moderate.xml
+* [ ] [DefInjected](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected)
+ * [x] [BiomeDef](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/)
+    - [x] [Biomes_Arid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Arid.xml)
+    - [x] [Biomes_Cold.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Cold.xml)
+    - [x] [Biomes_Moderate.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/BiomeDef/Biomes_Moderate.xml)
  * [x] BodyDef
     - [x] Bodies_Animal_Bird.xml
     - [x] Bodies_Animal_Insect.xml
