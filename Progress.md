@@ -1,5 +1,5 @@
 ## Turkish Language Translation Progress
-[ ](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+
 * [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/)
     - [ ] [Backstories](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Backstories/Backstories.txt)
 
@@ -16,278 +16,278 @@
     - [x] [Bodies_Humanlike.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Humanlike.xml)
     - [x] [Bodies_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyDef/Bodies_Mechanoid.xml)
  * [x] BodyPartDef
-    - [x] BodyParts_Animal.xml
-    - [x] BodyParts_General.xml
-    - [x] BodyParts_Humanoid.xml
-    - [x] BodyParts_Mechanoid.xml
-    - [x] BodyParts_Organs.xml
+    - [x] BodyParts_Animal.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Animal.xml)
+    - [x] BodyParts_General.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_General.xml)
+    - [x] BodyParts_Humanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Humanoid.xml)
+    - [x] BodyParts_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Mechanoid.xml)
+    - [x] BodyParts_Organs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartDef/BodyParts_Organs.xml)
  * [x] BodyPartGroupDef
-    - [x] BodyPartGroups.xml
+    - [x] BodyPartGroups.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/BodyPartGroupDef/BodyPartGroups.xml)
  * [x] ChemicalDef
-    - [x] Alcohol_Beer.xml
-    - [x] GoJuice.xml
-    - [x] Luciferium.xml
-    - [x] Psychite_Yayo.xml
-    - [x] Smokeleaf.xml
-    - [x] WakeUp.xml
+    - [x] Alcohol_Beer.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/Alcohol_Beer.xml)
+    - [x] GoJuice.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/GoJuice.xml)
+    - [x] Luciferium.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/Luciferium.xml)
+    - [x] Psychite_Yayo.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/Psychite_Yayo.xml)
+    - [x] Smokeleaf.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/Smokeleaf.xml)
+    - [x] WakeUp.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ChemicalDef/WakeUp.xml)
  * [x] ConceptDef
-    - [x] Concepts_Entry.xml
-    - [x] Concepts_NotedOpportunistic.xml
-    - [x] Concepts_NotedSelfshow.xml
-    - [x] concepts_TriggeredModal.xml
+    - [x] Concepts_Entry.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ConceptDef/Concepts_Entry.xml)
+    - [x] Concepts_NotedOpportunistic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ConceptDef/Concepts_NotedOpportunistic.xml)
+    - [x] Concepts_NotedSelfshow.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ConceptDef/Concepts_NotedSelfshow.xml)
+    - [x] concepts_TriggeredModal.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/ConceptDef/concepts_TriggeredModal.xml)
  * [x] DamageDef
-    - [x] Damages_LocalInjury.xml
-    - [x] Damage_Misc.xml
+    - [x] Damages_LocalInjury.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DamageDef/Damages_LocalInjury.xml)
+    - [x] Damage_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DamageDef/Damage_Misc.xml)
  * [x] DesignationCategoryDef
-    - [x] DesignationCategories.xml
+    - [x] DesignationCategories.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DesignationCategoryDef/DesignationCategories.xml)
  * [x] DifficultyDef
-    - [x] Difficulties.xml
+    - [x] Difficulties.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/DifficultyDef/Difficulties.xml)
  * [x] FactionDef
-    - [x] Factions_Hidden.xml
-    - [x] Factions_Misc.xml
-    - [x] Factions_Player.xml
+    - [x] Factions_Hidden.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/FactionDef/Factions_Hidden.xml)
+    - [x] Factions_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/FactionDef/Factions_Misc.xml)
+    - [x] Factions_Player.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/FactionDef/Factions_Player.xml)
  * [x] HairDef
-    - [x] HarisGeneral.xml
+    - [x] HarisGeneral.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] HediffDef
-    - [x] Hediffs_Global_Drugs.xml
-    - [x] Hediffs_Global_Execution.xml
-    - [x] Hediffs_Global_Misc.xml
-    - [x] Hediffs_Global_Needs.xml
-    - [x] Hediffs_Global_Temperature.xml
-    - [x] Hediffs_Local_AddedParts.xml
-    - [x] Hediffs_Local_Chronic.xml
-    - [x] Hediffs_Local_Implants.xml
-    - [x] Hediffs_Local_Infections.xml
-    - [x] Hediffs_Local_Injuries.xml
-    - [x] Hediffs_Local_Misc.xml
+    - [x] Hediffs_Global_Drugs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Global_Execution.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Global_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Global_Needs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Global_Temperature.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Local_AddedParts.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Local_Chronic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Local_Implants.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Local_Infections.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Local_Injuries.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Hediffs_Local_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] HediffGiverSetDef
-    - [x] HediffGiverSets.xml
+    - [x] HediffGiverSets.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] HistoryAutoRecorderDef
-    - [x] HistoryAutoRecorders.xml
+    - [x] HistoryAutoRecorders.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] HistoryAutoRecorderGroupDef
-    - [x] HistoryAutoRecorderGroups.xml
+    - [x] HistoryAutoRecorderGroups.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] IncidentDef
-    - [x] Incidents_Disease.xml
-    - [x] Incidents_ThreatsBig.xml
-    - [x] Incidents_ThreatsSmall.xml
-    - [x] Incidents_Various_Bad.xml
-    - [x] Incidents_Various_Good.xml
-    - [x] Incidents_Various_Netural.xml
+    - [x] Incidents_Disease.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Incidents_ThreatsBig.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Incidents_ThreatsSmall.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Incidents_Various_Bad.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Incidents_Various_Good.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Incidents_Various_Netural.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] InteractionDef
-    - [x] Interactions_Animals.xml
-    - [x] Interactions_Directed.xml
-    - [x] Interactions_Romance.xml
-    - [x] Interactions_Social.xml
+    - [x] Interactions_Animals.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Interactions_Directed.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Interactions_Romance.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Interactions_Social.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] JobDef
-    - [x] jobs_Animal.xml
-    - [x] Jobs_Gatherings.xml
-    - [x] Jobs_Joy.xml
-    - [x] Jobs_Misc.xml
-    - [x] Jobs_Work.xml
+    - [x] jobs_Animal.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Jobs_Gatherings.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Jobs_Joy.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Jobs_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Jobs_Work.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] JoyKindDef
-    - [x] JoyKinds.xml
+    - [x] JoyKinds.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] KeyBindingCategoryDef
-    - [x] KeyBindingCategories.xml
+    - [x] KeyBindingCategories.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] KeyBindingDef
     - [x] KeyBindings
  * [x] LifeStageDef
     - [x] LifeStages
  * [x] MainTabDef
-    - [x] MainTabs.xml
+    - [x] MainTabs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] MapConditionDef
-    - [x] MapConditions_Misc.xml
+    - [x] MapConditions_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] MentalStateDef
-    - [x] MentalStates_Mood.xml
-    - [x] MentalStates_Special.xml
+    - [x] MentalStates_Mood.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] MentalStates_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] NeedDef
-    - [x] Alcohol_Beer.xml
-    - [x] GoJuice.xml
-    - [x] Luciferium.xml
-    - [x] Needs.xml
-    - [x] Psychite_Yayo.xml
-    - [x] Smokeleaf.xml
-    - [x] WakeUp.xml
-    - [x] Needs_Drugs.xml
-    - [x] Needs_Misc.xml
+    - [x] Alcohol_Beer.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] GoJuice.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Luciferium.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Needs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Psychite_Yayo.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Smokeleaf.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] WakeUp.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Needs_Drugs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Needs_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] PawnCapacityDef
-    - [x] PawnCapacity.xml
+    - [x] PawnCapacity.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] PawnKindDef
-    - [x] PawnKinds_Animal_Arid.xml
-    - [x] PawnKinds_Animal_Bears.xml
-    - [x] PawnKinds_Animal_BigCats.xml
-    - [x] PawnKinds_Animal_Birds.xml
-    - [x] PawnKinds_Animal_Farm.xml
-    - [x] PawnKinds_Animal_Giant.xml
-    - [x] PawnKinds_Animal_Hares.xml
-    - [x] PawnKinds_Animal_Insect.xml
-    - [x] PawnKinds_Animal_Pet.xml
-    - [x] PawnKinds_Animal_Rodentlike.xml
-    - [x] PawnKinds_Animal_Temperate.xml
-    - [x] PawnKinds_Animal_Tropical.xml
-    - [x] PawnKinds_Animal_WildCanines.xml
-    - [x] PawnKinds_Mechanoid.xml
-    - [x] PawnKinds_Mercenary.xml
-    - [x] PawnKinds_Outlander.xml
-    - [x] PawnKinds_Pirate.xml
-    - [x] PawnKinds_Player.xml
-    - [x] PawnKinds_Slave.xml
-    - [x] PawnKinds_Spacer.xml
-    - [x] PawnKinds_Tribal.xml
-    - [x] Races_Animal_WildCanines.xml
+    - [x] PawnKinds_Animal_Arid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Bears.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_BigCats.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Birds.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Farm.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Giant.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Hares.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Insect.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Pet.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Rodentlike.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Temperate.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_Tropical.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Animal_WildCanines.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Mercenary.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Outlander.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Pirate.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Player.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Slave.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Spacer.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PawnKinds_Tribal.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Races_Animal_WildCanines.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
   * [x] PawnRelationDef
-    - [x] PawnRelations_FamilyByBlood.xml
+    - [x] PawnRelations_FamilyByBlood.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
     - [x] PawnRelations_FamilyByChoice
     - [x] PawnRelations_Misc
  * [x] RaidStrategyDef
-    - [x] RaidStrategies.xml
+    - [x] RaidStrategies.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] RecipeDef
-    - [x] Recipes_Add.xml
-    - [x] Recipes_Butchery.xml
-    - [x] Recipes_Cremation.xml
-    - [x] Recipes_Drugs.xml
-    - [x] Recipes_Meals.xml
-    - [x] Recipes_Production.xml
-    - [x] Recipes_Surgery.xml
-    - [x] Recipes_Surgery_Implants.xml
-    - [x] Recipes_Surgery_NewParts.xml
+    - [x] Recipes_Add.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Butchery.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Cremation.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Drugs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Meals.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Production.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Surgery.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Surgery_Implants.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Recipes_Surgery_NewParts.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] RecordDef
-    - [x] Records_Misc.xml
-    - [x] Records_Time.xml
+    - [x] Records_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Records_Time.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] ResearchProjectDef
-    - [x] ResearchProjects_Tier1_Misc.xml
-    - [x] ResearchProjects_Tier2_Misc.xml
-    - [x] ResearchProjects_Tier3_Misc.xml
-    - [x] ResearchProjects_Tier4_Misc.xml
-    - [x] ResearchProjects_Tier4_Ship.xml
+    - [x] ResearchProjects_Tier1_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] ResearchProjects_Tier2_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] ResearchProjects_Tier3_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] ResearchProjects_Tier4_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] ResearchProjects_Tier4_Ship.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] RoofDef
-    - [x] Roofs.xml
+    - [x] Roofs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] RoomRoleDef
-    - [x] RoomRoles.xml
+    - [x] RoomRoles.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] RoomStatDef
-    - [x] RoomStats.xml
+    - [x] RoomStats.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] RulePackDef
-    - [ ] RulePacks_Art_DescriptionRoot.xml
-    - [ ] RulePacks_Art_ImagesTaleless.xml
-    - [ ] RulePacks_Art_NameRoots.xml
-    - [ ] RulePacks_Art_PhysicalDescriptionRoots.xml
-    - [ ] RulePacks_Global.xml
-    - [ ] RulePacks_InteractionsExtra.xml
-    - [ ] RulePacks_NameMaker_World.xml
-    - [ ] RulePacks_NameMakers_Animals.xml
-    - [ ] RulePacks_NameMakers_Factions.xml
-    - [ ] RulePacks_NameMakers_People.xml
-    - [ ] RulePacks_NameMakers_Scenarios.xml
-    - [ ] RulePacks_NameMakers_Traders.xml
-    - [ ] RulePacks_Seeds.xml
+    - [ ] RulePacks_Art_DescriptionRoot.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_Art_ImagesTaleless.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_Art_NameRoots.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_Art_PhysicalDescriptionRoots.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_Global.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_InteractionsExtra.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_NameMaker_World.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_NameMakers_Animals.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_NameMakers_Factions.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_NameMakers_People.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_NameMakers_Scenarios.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_NameMakers_Traders.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] RulePacks_Seeds.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] ScenarioDef
-     - [x] Scenarios_Classic.xml
-     - [x] Scenarios_Special.xml
+     - [x] Scenarios_Classic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+     - [x] Scenarios_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] ScenPartDef
     - [x] ScenParts_Fixed
-    - [x] ScenParts_Various.xml
+    - [x] ScenParts_Various.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] ScenarioDef
-    - [x] Scenarios_Classic.xml
-    - [x] Scenarios_Special.xml
+    - [x] Scenarios_Classic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Scenarios_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] SkillDef
-    - [x] Skills.xml
+    - [x] Skills.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] SpecialThingFilterDef
-    - [x] SpecialThingFilters.xml
+    - [x] SpecialThingFilters.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] StatCategoryDef
-    - [x] StatCategories.xml
+    - [x] StatCategories.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] StatDef
-    - [ ] Stats_Apparel.xml
-    - [ ] Stats_Basics_General.xml
-    - [ ] Stats_Basics_Special.xml
-    - [ ] Stats_Building_Special.xml
+    - [ ] Stats_Apparel.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Basics_General.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Basics_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Building_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
     - [ ] Stats_Pawns_Combat.xmş
-    - [ ] Stats_Pawns_General.xml
-    - [ ] Stats_Pawns_Social.xml
-    - [ ] Stats_Pawns_WorkGeneral.xml
-    - [ ] Stats_Pawns_WorkMedical.xml
-    - [ ] Stats_Pawns_WorkRecipes.xml
-    - [ ] Stats_Weapons_Melee.xml
-    - [ ] Stats_Weapons_Ranged.xml
+    - [ ] Stats_Pawns_General.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Pawns_Social.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Pawns_WorkGeneral.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Pawns_WorkMedical.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Pawns_WorkRecipes.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Weapons_Melee.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Stats_Weapons_Ranged.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
     
  * [x] StorytellerDef
-    - [x] Storytellers.xml
+    - [x] Storytellers.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] StuffCategoryDef
-    - [x] StuffCategories.xml
+    - [x] StuffCategories.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] TaleDef
-    - [ ] Tales_DoublePawn_Relationships.xml
-    - [X] Tales_NoPawn.xml
-    - [ ] Tales_DoublePawn.xml
-    - [ ] Tales_SinglePawn.xml
+    - [ ] Tales_DoublePawn_Relationships.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [X] Tales_NoPawn.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Tales_DoublePawn.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Tales_SinglePawn.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
 
  * [x] TerrainDef
-    - [x] Terrain_Floors.xml
-    - [x] Terrain_FloorsStoneTile.xml
-    - [x] Terrain_Natural.xml
-    - [x] Terrain_Special.xml
-    - [x] Terrain_Water.xml
+    - [x] Terrain_Floors.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Terrain_FloorsStoneTile.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Terrain_Natural.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Terrain_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Terrain_Water.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [X] ThingCategoryDef  
-    - [X] ThingCategories.xml
+    - [X] ThingCategories.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] ThingDef
-    - [ ] Alcohol_Beer.xml
-    - [ ] Apparel_Hats.xml
-    - [ ] Apparel_Shield.xml
-    - [ ] Apparel_Various.xml
-    - [ ] Buildings_Art.xml
-    - [ ] Buildings_Exotic.xml
-    - [ ] Buildings_Furniture.xml
-    - [ ] Buildings_Joy.xml
-    - [ ] Buildings_Misc.xml
-    - [ ] Buildings_Natural.xml
-    - [ ] Buildings_Power.xml
-    - [ ] Buildings_Power_WindTurbine.xml
-    - [ ] Buildings_Production.xml
-    - [ ] Buildings_Security.xml
-    - [ ] Buildings_Ship.xml
-    - [ ] Buildings_Structure.xml
-    - [ ] Buildings_Temperature.xml
-    - [ ] Filth_Various.xml
-    - [ ] GoJuice.xml
-    - [ ] Items_Artifacts.xml
-    - [ ] Items_BodyParts.xml
-    - [ ] Items_Exotic.xml
-    - [ ] Items_Food.xml
-    - [ ] Items_Implants.xml
-    - [ ] Items_Luxury.xml
-    - [ ] Items_Resource_AnimalProduct.xml
-    - [ ] Items_Resource_Manufactured.xml
-    - [ ] Items_Resource_RawPlant.xml
-    - [ ] Items_Resource_Stuff.xml
-    - [ ] Items_Unfinished.xml
-    - [ ] Luciferium.xml
-    - [ ] Plants_Cultivated_Decorative.xml
-    - [ ] Plants_Cultivated_Farm.xml
-    - [ ] Plants_Wild_Arid.xml
-    - [ ] Plants_Wild_Temperate.xml
-    - [ ] Plants_Wild_Tropical.xml
-    - [ ] Psychite_Flake.xml
-    - [ ] Psychite_Yayo.xml
-    - [ ] Races_Animal_Arid.xml
-    - [ ] Races_Animal_Bears.xml
-    - [ ] Races_Animal_BigCats.xml
-    - [ ] Races_Animal_Birds.xml
-    - [ ] Races_Animal_Farm.xml
-    - [ ] Races_Animal_Giant.xml
-    - [ ] Races_Animal_Hares.xml
-    - [ ] Races_Animal_Insect.xml
-    - [ ] Races_Animal_Pet.xml
-    - [ ] Races_Animal_Rodentlike.xml
-    - [ ] Races_Animal_Temperate.xml
-    - [ ] Races_Animal_Tropical.xml
-    - [ ] Races_Animal_WildCanines.xml
-    - [ ] Races_Humanlike.xml
-    - [ ] Races_Mechanoid.xml
-    - [ ] Smokeleaf.xml
-    - [ ] Things_Special.xml
-    - [ ] Various_Stone.xml
-    - [ ] WakeUp.xml
-    - [ ] Weapons_Grenades.xml
-    - [ ] Weapons_Guns.xml
-    - [ ] Weapons_Melee.xml
-    - [ ] Weapons_RangedNeolithic.xml
+    - [ ] Alcohol_Beer.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Apparel_Hats.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Apparel_Shield.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Apparel_Various.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Art.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Exotic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Furniture.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Joy.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Natural.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Power.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Power_WindTurbine.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Production.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Security.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Ship.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Structure.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Buildings_Temperature.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Filth_Various.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] GoJuice.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Artifacts.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_BodyParts.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Exotic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Food.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Implants.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Luxury.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Resource_AnimalProduct.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Resource_Manufactured.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Resource_RawPlant.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Resource_Stuff.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Items_Unfinished.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Luciferium.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Plants_Cultivated_Decorative.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Plants_Cultivated_Farm.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Plants_Wild_Arid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Plants_Wild_Temperate.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Plants_Wild_Tropical.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Psychite_Flake.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Psychite_Yayo.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Arid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Bears.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_BigCats.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Birds.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Farm.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Giant.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Hares.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Insect.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Pet.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Rodentlike.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Temperate.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_Tropical.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Animal_WildCanines.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Humanlike.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Races_Mechanoid.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Smokeleaf.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Things_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Various_Stone.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] WakeUp.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Weapons_Grenades.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Weapons_Guns.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Weapons_Melee.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Weapons_RangedNeolithic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] ThoughtDef
     - [ ] 
     - [ ] 
@@ -306,103 +306,103 @@
     - [ ] 
     - [ ] 
  * [ ] TimeAssignmentDef
-    - [ ] TimeAssignments.xml
+    - [ ] TimeAssignments.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] TradeDialogSorterDef
-    - [ ] TradeDialogSorters.xml
+    - [ ] TradeDialogSorters.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] TraderKindDef
-    - [ ] TraderKinds_Caravan_Neolithic.xml
-    - [ ] TraderKinds_Caravan_Outlander.xml
-    - [ ] TraderKinds_Orbital_Misc.xml
-    - [ ] TraderKinds_Visitor_Neolithic.xml
-    - [ ] TraderKinds_Visitor_Outlander.xml
+    - [ ] TraderKinds_Caravan_Neolithic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] TraderKinds_Caravan_Outlander.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] TraderKinds_Orbital_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] TraderKinds_Visitor_Neolithic.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] TraderKinds_Visitor_Outlander.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] TrainableDef
-    - [ ] Trainables.xml
+    - [ ] Trainables.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] TraitDef
-    - [ ] Traits_Singular.xml
-    - [ ] Traits_Spectrum.xml
+    - [ ] Traits_Singular.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Traits_Spectrum.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] WeatherDef
     - [ ] Weathers
  * [ ] WorkGiverDef
-    - [ ] WorkGivers.xml
+    - [ ] WorkGivers.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [ ] WorkTypeDef
-    - [ ] WorkTypes.xml
+    - [ ] WorkTypes.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  * [x] WorkTypeDef
-    - [x] Incidents_Caravan.xml
-    - [x] WorldObjects.xml
+    - [x] Incidents_Caravan.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] WorldObjects.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
 * [ ] Keyed
-  * [x] Alerts.xml
-  * [x] Credits.xml
-  * [x] Dates.xml
-  * [x] Designators.xml
-  * [x] Dialog_StatsReports.xml
-  * [x] DialogTrees.xml
-  * [x] DialogsVarious.xml
-  * [x] Enums.xml
-  * [x] FloatMenu.xml
-  * [x] GameplayCommands.xml
-  * [x] Grammar.xml
-  * [x] Incidents.xml
-  * [ ] ITabs.xml
-  * [ ] Letters.xml
-  * [ ] MainTabs.xml
-  * [ ] Menu_KeyBindings.xml
-  * [ ] Menu_Options.xml
-  * [x] Menus_Main.xml
-  * [ ] Messages.xml
-  * [ ] Misc_Gameplay.xml
-  * [ ] Misc.xml
-  * [ ] PlayInterface.xml
-  * [ ] ScenParts.xml
-  * [ ] Skills.xml
-  * [ ] Time.xml
-  * [x] WITabs.xml
-  * [x] WorkTags.xml
+  * [x] Alerts.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Credits.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Dates.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Designators.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Dialog_StatsReports.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] DialogTrees.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] DialogsVarious.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Enums.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] FloatMenu.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] GameplayCommands.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Grammar.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Incidents.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] ITabs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Letters.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] MainTabs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Menu_KeyBindings.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Menu_Options.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] Menus_Main.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Messages.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Misc_Gameplay.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] PlayInterface.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] ScenParts.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Skills.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [ ] Time.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] WITabs.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+  * [x] WorkTags.xml](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
 
 * [ ] Strings
  - [ ] Names
-    - [x] Animal_Female.txt
-    - [x] Animal_Male.txt
-    - [ ] Animal_Unisex.txt
-    - [ ] Business.txt
-    - [ ] Celestial.txt
-    - [x] CelestialPrefix.txt
-    - [ ] CelestialSuffix.txt
-    - [x] ColonyNames.txt
+    - [x] Animal_Female.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Animal_Male.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Animal_Unisex.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Business.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Celestial.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] CelestialPrefix.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] CelestialSuffix.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] ColonyNames.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  - [ ] WordParts
-    - [ ] CapitalLetters.txt
-    - [ ] PlaceEndings.txt
-    - [ ] Syllables_English.txt
-    - [ ] Syllables_Tribal.txt
+    - [ ] CapitalLetters.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] PlaceEndings.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Syllables_English.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [ ] Syllables_Tribal.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
  - [ ] Words
    - [x] Adjectives
-   - [x] Angsty.txt
-   - [x] Badass.txt
+   - [x] Angsty.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+   - [x] Badass.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
    - [x] CompassDirections
-   - [x] PoliticalUnions.txt
+   - [x] PoliticalUnions.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
   - [ ] Foreign
-    - [ ] Tribal.txt
+    - [ ] Tribal.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
   - [x] Misc
     - [x] Numbers_SmallRoman
   - [x] Nouns
-    - [x] Animals_Badass.txt
-    - [x] Animals.txt
-    - [x] Apparel.txt
-    - [x] Artworks.txt
-    - [x] BusinessTypes.txt
-    - [x] Colors.txt
-    - [x] ColorsBadass.txt
-    - [x] Communities.txt
-    - [x] Concepts_Angsty.txt
-    - [x] Concepts_Badass.txt
-    - [x] Concepts_Positive.txt
-    - [x] Games.txt
-    - [x] GroupNames.txt
-    - [x] People_Badass.txt
-    - [x] People_Family.txt
-    - [x] People_Outlanders.txt
-    - [x] PoliticalUnions_Outlander.txt
+    - [x] Animals_Badass.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Animals.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Apparel.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Artworks.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] BusinessTypes.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Colors.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] ColorsBadass.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Communities.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Concepts_Angsty.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Concepts_Badass.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Concepts_Positive.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] Games.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] GroupNames.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] People_Badass.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] People_Family.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] People_Outlanders.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
+    - [x] PoliticalUnions_Outlander.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
     - [x] PoliticalUnions_Tribal
     - [x] Stories
-    - [x] TerrainFeatures.txt
+    - [x] TerrainFeatures.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/)
     - [x] Vegetables
-    - [x] Weapons.txt
+    - [x] Weapons.txt](https://github.com/Ludeon/RimWorld-Turkish/tree/master/Vegetables/Weapons.txt)
