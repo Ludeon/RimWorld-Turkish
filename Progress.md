@@ -166,7 +166,7 @@
  * [x] [RoomStatDef
     - [x] [RoomStats.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/)
  * [ ] [RulePackDef](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/RulePackDef/)
-    - [ ] [RulePacks_Art_DescriptionRoot.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/)
+    - [ ] [RulePacks_Art_DescriptionRoot.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/RulePacks_Art_DescriptionRoot.xml)
     - [ ] [RulePacks_Art_ImagesTaleless.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/)
     - [ ] [RulePacks_Art_NameRoots.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/)
     - [ ] [RulePacks_Art_PhysicalDescriptionRoots.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/)
