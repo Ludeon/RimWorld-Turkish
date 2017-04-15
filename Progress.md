@@ -55,11 +55,11 @@
     - [x] [Hediffs_Global_Needs.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Global_Needs.xml)
     - [x] [Hediffs_Global_Temperature.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Global_Temperature.xml)
     - [x] [Hediffs_Local_AddedParts.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Local_AddedParts.xml)
-    - [x] [Hediffs_Local_Chronic.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/ HediffDef/Hediffs_Local_Chronic.xml)
-    - [x] [Hediffs_Local_Implants.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/ HediffDef/Hediffs_Local_Implants.xml)
-    - [x] [Hediffs_Local_Infections.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/ HediffDef/Hediffs_Local_Infections.xml)
-    - [x] [Hediffs_Local_Injuries.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/ HediffDef/Hediffs_Local_Injuries.xml)
-    - [x] [Hediffs_Local_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/ HediffDef/Hediffs_Local_Misc.xml)
+    - [x] [Hediffs_Local_Chronic.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Local_Chronic.xml)
+    - [x] [Hediffs_Local_Implants.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Local_Implants.xml)
+    - [x] [Hediffs_Local_Infections.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Local_Infections.xml)
+    - [x] [Hediffs_Local_Injuries.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Local_Injuries.xml)
+    - [x] [Hediffs_Local_Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/HediffDef/Hediffs_Local_Misc.xml)
  * [x] [HediffGiverSetDef
     - [x] [HediffGiverSets.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/)
  * [x] [HistoryAutoRecorderDef
