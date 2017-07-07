@@ -207,7 +207,7 @@
     - [ ] [Stats_Pawns_WorkRecipes.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
     - [ ] [Stats_Weapons_Melee.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
     - [ ] [Stats_Weapons_Ranged.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
-    
+
  * [x] [StorytellerDef
     - [x] [Storytellers.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
  * [x] [StuffCategoryDef
@@ -352,7 +352,7 @@
   * [ ] [Misc_Gameplay.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
   * [ ] [Misc.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
   * [ ] [PlayInterface.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
-  * [ ] [ScenParts.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
+  * [x] [ScenParts.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
   * [ ] [Skills.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
   * [ ] [Time.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
   * [x] [WITabs.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Keyed/)
@@ -362,17 +362,17 @@
  - [ ] [Names
     - [x] [Animal_Female.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
     - [x] [Animal_Male.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
-    - [ ] [Animal_Unisex.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
+    - [x] [Animal_Unisex.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
     - [ ] [Business.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
     - [ ] [Celestial.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
     - [x] [CelestialPrefix.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
-    - [ ] [CelestialSuffix.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
+    - [x] [CelestialSuffix.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
     - [x] [ColonyNames.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Names/)
 - [ ] [WordParts
-    - [ ] [CapitalLetters.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
-    - [ ] [PlaceEndings.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
-    - [ ] [Syllables_English.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
-    - [ ] [Syllables_Tribal.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
+    - [x] [CapitalLetters.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
+    - [x] [PlaceEndings.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
+    - [x] [Syllables_English.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
+    - [x] [Syllables_Tribal.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/WordParts/)
 - [ ] [Words
    - [x] [Adjectives
    - [x] [Angsty.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Words/)
