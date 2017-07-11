@@ -194,7 +194,7 @@
     - [x] [SpecialThingFilters.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
  * [x] [StatCategoryDef
     - [x] [StatCategories.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
- * [ ] [StatDef] (https://github.com/Ludeon/RimWorld-Turkish/tree/master/DefInjected/StatDef/blob/master/DefInjected/)
+ * [ ] [StatDef]
     - [ ] [Stats_Apparel.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
     - [ ] [Stats_Basics_General.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
     - [ ] [Stats_Basics_Special.xml](https://github.com/Ludeon/RimWorld-Turkish/blob/master/DefInjected/)
