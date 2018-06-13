@@ -37,13 +37,13 @@
 
   <TraderArrival>Yakınlardan bir takas gemisi geçiyor. \n\n{0} olarak biliniyorlar. Onlar bir {1}.</TraderArrival>
 
-  <SingleTravelerPassing>{1} konumundan gelen bir {0} yakınlardan geçiyor. HECAP {2} olarak adlandırıldı.</SingleTravelerPassing>
+  <SingleTravelerPassing>{1} konumundan gelen bir {0} yakınlardan geçiyor. [PAWN_pronoun] {2} olarak adlandırıldı.</SingleTravelerPassing>
   <GroupTravelersPassing>{0} konumundan gelen bir grup gezgin yakınlardan geçiyor.</GroupTravelersPassing>
 
   <LetterLabelSingleVisitorArrives>Ziyaretçi</LetterLabelSingleVisitorArrives>
-  <SingleVisitorArrives>{1} konumundan gelen bir {0} kolonini ziyaret ediyor. \n\nHECAP {2}.{3}{4} olarak adlandırıldı.</SingleVisitorArrives>
-  <SingleVisitorArrivesTraderInfo>\n\nHECAP takaslık bir kaç eşyası var gibi görünüyor.</SingleVisitorArrivesTraderInfo>
-  <SingleVisitorArrivesLeaderInfo>\n\nHECAP grup lideri.</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrives>{1} konumundan gelen bir {0} kolonini ziyaret ediyor. \n\n[PAWN_pronoun] {2}.{3}{4} olarak adlandırıldı.</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>\n\n[PAWN_pronoun] takaslık bir kaç eşyası var gibi görünüyor.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>\n\n[PAWN_pronoun] grup lideri.</SingleVisitorArrivesLeaderInfo>
   <LetterLabelGroupVisitorsArrive>Ziyaretçiler</LetterLabelGroupVisitorsArrive>
   <GroupVisitorsArrive>{0} konumundan gelen bir grup kolonini ziyaret ediyor.{1}{2}</GroupVisitorsArrive>
   <GroupVisitorsArriveTraderInfo>\n\nTakaslık bir kaç eşyası var gibi görünüyorlar.</GroupVisitorsArriveTraderInfo>
@@ -51,7 +51,7 @@
   <VisitorsLeaving>{0} konumundan gelen ziyaretçiler kolonini terk ediyor.</VisitorsLeaving>
 
   <LetterLabelWandererJoin>Gezgin katılıyor</LetterLabelWandererJoin>
-  <WandererJoin>NAME isimli bir {0} geldi ve kolonine katılıyor. HECAP bir {1}.</WandererJoin>
+  <WandererJoin>[PAWN_nameDef] isimli bir {0} geldi ve kolonine katılıyor. [PAWN_pronoun] bir {1}.</WandererJoin>
 
   <LetterLabelManhunterPackArrived>İnsan avcısı paketi</LetterLabelManhunterPackArrived>
   <ManhunterPackArrived>bir insan avcılığı paketi, {0}lar alana girdi. İnsan eti avcılığı yaparak bölgeyi dolaşacaklar.\n\nKapılardan geçemezler, bu yüzden duvarların arkasında kalırsan, güvende olursun. İnaktif taretlere saldırmazlar, bu yüzden onları kurtarmak isterseniz taretlerini kapatın.\n\nAlanı birkaç gün içinde terk edecekler.</ManhunterPackArrived>
@@ -84,7 +84,7 @@
   <BeaversArrived>Az önce bir grup alfa kunduz vardı.\n\nBölgedeki her son ağacı yok etmeden önce onları yok etmeye çalış.</BeaversArrived>
 
   <!-- Refugee chased -->
-  <RefugeeChasedInitial>Bir {1} ismi {0} olan seni yakından arıyor. HECAP {2} tarafından {3} konumunda kovuldu!\n\nHECAP, güvenlik için yalvarıyor ve kolonisine katılmayı teklif ediyor. Biyolojik olarak, HE {4} yaşında.\n\nUyarı - kabul ederseniz, HIS peşindeki {2} ile savaşmanız gerekecek.</RefugeeChasedInitial>
+  <RefugeeChasedInitial>Bir {1} ismi {0} olan seni yakından arıyor. [PAWN_pronoun] {2} tarafından {3} konumunda kovuldu!\n\n[PAWN_pronoun], güvenlik için yalvarıyor ve kolonisine katılmayı teklif ediyor. Biyolojik olarak, [PAWN_pronoun] {4} yaşında.\n\nUyarı - kabul ederseniz, [PAWN_possessive] peşindeki {2} ile savaşmanız gerekecek.</RefugeeChasedInitial>
   <RefugeeChasedInitial_Accept>Güvenlik öner</RefugeeChasedInitial_Accept>
   <RefugeeChasedInitial_Reject>Mesajı yoksay</RefugeeChasedInitial_Reject>
   <RefugeeChasedRejected>Sen iletişimi kesmeden önce {0} hoparlörden panik içinde bağırıyordu.</RefugeeChasedRejected>
@@ -112,7 +112,7 @@
   <LetterBuildingBrokenDown>Makinelerinizden biri ({0}) çöktü. Tamir işi türüne sahip bir kolonist gidip düzeltinceye kadar işe yaramaz.</LetterBuildingBrokenDown>
 
   <!-- Ransom demand -->
-  <RansomDemand>{1} sizi radyoda arar. Kolonist {0}, fidye için tutuyorlar.\n\n{2} gümüş karşılığında size HIM geri iade edilmek isteniyor.</RansomDemand>
+  <RansomDemand>{1} sizi radyoda arar. Kolonist {0}, fidye için tutuyorlar.\n\n{2} gümüş karşılığında size [PAWN_objective] geri iade edilmek isteniyor.</RansomDemand>
   <RansomDemand_Accept>Kabul et</RansomDemand_Accept>
   <RansomDemand_Reject>Reddet</RansomDemand_Reject>
 
