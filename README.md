@@ -18,10 +18,11 @@
 * [@alimormeci](https://github.com/alimormeci)
 * [@IsilwenA](https://github.com/IsilwenA)
 * [@deathclean](https://github.com/deathclean)
+* [@hamitozdemir](https://github.com/hamitozdemir)
 
 ## Translation Progress - Çeviri İlerlemesi
-* Eğer ilerlemeyi görmek istersen, [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Progress.md)'e bakabilirsin.
-* If you want to see our progression of Turkish Language Translation, you can look at [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Progress.md).
+* Eğer ilerlemeyi görmek istersen, [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Notes/Progress.md)'ye bakabilirsin.
+* If you want to see our progression of Turkish Language Translation, you can look at [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Notes/Progress.md).
 
 ## See this page for license info:
 http://ludeon.com/forums/index.php?topic=2933.0
