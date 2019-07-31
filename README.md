@@ -11,7 +11,7 @@
 * [@Hakkiro](https://github.com/Hakkiro)
 * [@sinanisler](https://github.com/sinanisler)
 * [@Zamahoya](https://github.com/Zamahoya)
-* [@FearMaster](https://github.com/FearMaster)
+* [@fyagiz](https://github.com/fyagiz)
 * [@mmustafasanli](https://github.com/mmustafasanli)
 * [@mahsun4303](https://github.com/mahsun4303)
 * [@Ahmet Can AYDEMİR](https://github.com/ahmetcanaydemir)
