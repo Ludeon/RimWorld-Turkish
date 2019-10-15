@@ -121,7 +121,11 @@
   <!-- Formed caravan -->
   <LetterLabelFormedCaravan>Caravan ready</LetterLabelFormedCaravan>
   <LetterFormedCaravan>Your caravan has formed and awaits orders on the world map.</LetterFormedCaravan>
-  
+	
+  <!-- Caravan entered map -->
+<LetterLabelCaravanEnteredMap>Kervan Hedefe Ulaştı</LetterLabelCaravanEnteredMap>
+<LetterCaravanEnteredMap>Kervanın hedef konuma ulaştı.</LetterCaravanEnteredMap>
+	
   <!-- Caravan destroyed -->
   <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
   <LetterAllCaravanColonistsDied>All members of your caravan have died.</LetterAllCaravanColonistsDied>
@@ -140,10 +144,65 @@
   <LetterFactionBaseDefeated>The enemy outpost {0} has been destroyed.\n\nYou have {1} hours to collect items before your colonists reform the caravan.</LetterFactionBaseDefeated>
   <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
   
+<!-- Transport pods landed in enemy base -->
+<LetterLabelTransportPodsLandedInEnemyBase>Saldırı başladı</LetterLabelTransportPodsLandedInEnemyBase>
+<LetterTransportPodsLandedInEnemyBase>Taşıma kapsüllerin düşman bölgesine ulaştı.</LetterTransportPodsLandedInEnemyBase>	
+
   <!-- Pawns lost due to map countdown -->
   <LetterLabelPawnsLostDueToMapCountdown>Left behind</LetterLabelPawnsLostDueToMapCountdown>
   <LetterPawnsLostDueToMapCountdown>Some of your animals or prisoners were left behind in the wilderness:\n\n{0}</LetterPawnsLostDueToMapCountdown>
 
+<!-- Faction base defeated -->
+<LetterLabelFactionBaseDefeated>Kaloni Yok Edildi</LetterLabelFactionBaseDefeated>
+<LetterFactionBaseDefeated>Düşman kalonisi yok edildi.\n\nKolonistleriniz kervanı düzeltmeden önce öğeler toplamak için {1} saat var.</LetterFactionBaseDefeated>
+<LetterFactionBaseDefeated_FactionDestroyed>Koloninin başka yerde yerleşimi olmadığı için tamamiyle yıkıldı.</LetterFactionBaseDefeated_FactionDestroyed>
+	
+<!-- Run wild mental break -->
+<LetterRunWildMentalBreak>{0} uygarlıktan bıktı.\n\nvahşi yaratıkların her zaman özgür olduğunu fark etti. Yani, koloniyi terketmeye ve vahşi yaşamla birlikte yaşamaya karar verdi.\n\nTutuklayıp geri koloniye almaya çalışabilirsiniz.</LetterRunWildMentalBreak>
+
+<!-- Catatonic mental break -->
+<LetterCatatonicMentalBreak>{0} zihinsel kırılma yaşıyor ve katolik duruma girdi. Bir kaç gün içinde kendisine gelir.</LetterCatatonicMentalBreak>
+<LetterLabelAICoreOffer>YZ Çekirdeği Teklifi</LetterLabelAICoreOffer>
+<LetterAICoreOffer>{PAWN_definite} of {1} size bir bilgi teklif etti: Uzay gemisi inşasında kullanılan ve oldukça nadir bulunan YZ çekirdeğinin yerini bildirdi fakat sıkı korunduğunuda belirtti.</LetterAICoreOffer>
+<LetterCraftedLegendaryLabel>Efsane Çalışma</LetterCraftedLegendaryLabel>
+<LetterCraftedLegendaryMessage>{WORKER_labelShort}, {CRAFTED_labelShort} ögesini yaptı.\n\nBu değerli eserin haberi tüm dünyaya yayılacak.</LetterCraftedLegendaryMessage>
+
+<!-- Pawns lost because map closed -->
+<LetterLabelPawnsLostBecauseMapClosed_Caravan>Kervan Kayboldu</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+<LetterPawnsLostBecauseMapClosed_Caravan>Karavan kayboldu. Aşağıdaki insanlar ve hayvanlar onunla kayboldu</LetterPawnsLostBecauseMapClosed_Caravan>
+<LetterLabelPawnsLostBecauseMapClosed_Home>Terk Edilen Koloni</LetterLabelPawnsLostBecauseMapClosed_Home>
+<LetterPawnsLostBecauseMapClosed_Home>Aşağıdaki insanlar ve hayvanlar terk edilmiş</LetterPawnsLostBecauseMapClosed_Home>
+
+<!-- Hibernate complete -->
+<LetterLabelHibernateComplete>Reaktör hazır</LetterLabelHibernateComplete>
+<LetterHibernateComplete>Charlon Whitestone, reaktörün hazırda bekletme durumunu tamamladı. Reaktör şimdi güç vermeye hazır.</LetterHibernateComplete>
+<LetterHibernateCompleteStandalone>Reaktörün güç dizisi tamamlandı. Artık güc vermeye hazır.</LetterHibernateCompleteStandalone>
+
+<!-- Visitors gave gift -->
+<LetterLabelVisitorsGaveGift>{0} tarafından hediye</LetterLabelVisitorsGaveGift>
+<LetterVisitorsGaveGift>{0}, {PAWN_factionName} kolonisinden aşağıdakilere hediye bıraktı:\n\n{1}</LetterVisitorsGaveGift>
+
+<!-- Faction base proximity -->
+<LetterLabelFactionBaseProximity>Bölge Yakınlığı</LetterLabelFactionBaseProximity>
+<LetterFactionBaseProximity>Diğer koloniye çok yakın olduğunuz için, kendi topraklarına tecavüz ettiğinizi düşünüyorlar.\n\nSon çeyrek için koloniyle olan ilişkilerin azaldı:</LetterFactionBaseProximity>
+
+<!-- Caravans battlefield victory -->
+<LetterLabelCaravansBattlefieldVictory>Kervan savaşı kazandı</LetterLabelCaravansBattlefieldVictory>
+<LetterCaravansBattlefieldVictory>Kervanın savaşı kazandı.\n\nDünya haritasından kervanını tekrar düzenleyebilirsin.\n\nÖğeleri manuel olarak toplamaya gerek yok, kervanı yeniden oluşturma aracı bunu anında yapabilir.</LetterCaravansBattlefieldVictory>
+
+<!-- Rescue quest -->
+<LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>
+<LetterRescueQuestFinished>Kurdartığınız {PAWN_nameDef}, koloninize katıldı.\n\nKervanı dünya haritasından yeniden başlatarak kolonisti grubunuza alabilirsiniz.</LetterRescueQuestFinished>
+
+<!-- Predator hunting colonist -->
+<LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}, {PREY_definite}'i avlıyor</LetterLabelPredatorHuntingColonist>
+<LetterPredatorHuntingColonist>{PREDATOR}, yiyecek için {PREY_definite}'i avlıyor!</LetterPredatorHuntingColonist>
+
+<!-- Disease -->
+<LetterDisease_Blocked>{0} blocked {1} on: {2}.</LetterDisease_Blocked>
+<LetterLabelTraitDisease>Hastalık ({0})</LetterLabelTraitDisease>
+<LetterTraitDisease>{PAWN_label} hasta oldu. ({1}).\n\nTıbbi yatak ve doktorunuz olduğundan emin olun. Uygun tedavi aldığından ve yeterince yatakta zaman geçirdiğinden emin olun.</LetterTraitDisease>
+	
 </LanguageData>
 
 <LetterDefeatAllEnemiesQuestCompleted>You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}.</LetterDefeatAllEnemiesQuestCompleted>
