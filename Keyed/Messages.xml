@@ -1,225 +1,417 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <MessageSiegersAssaulting>{1} den gelen {0} kuşatmacıları kolonine saldırıyor.</MessageSiegersAssaulting>
+-<LanguageData>
 
-  <MessageRaidersBeginningAssault>{1} den gelen {0}, taarruza başlıyor.</MessageRaidersBeginningAssault>
-  <MessageRaidersDetectedEarlyAssault>{1} den gelen {0} seni fark etti ve saldırısına erken başladı.</MessageRaidersDetectedEarlyAssault>
-  <MessageRaidersKidnapping>{1} den gelen {0} kaçırabileceklerini kaçırmaya karar verdi ve ayrıldı.</MessageRaidersKidnapping>
-  <MessageRaidersStealing>{0} from {1} have decided to steal what they can and leave.</MessageRaidersStealing>
+<MessageSiegersAssaulting>{1}'den gelen ve kuşatan {0} kolonine saldırmaya başladı.</MessageSiegersAssaulting>
 
-  <MessageRaidersLeaving>{1} den gelen {0} ayrılıyor.</MessageRaidersLeaving>
-  <MessageRaidersGivenUpLeaving>{1} den gelen {0} pes ettiler ve ayrılıyorlar.</MessageRaidersGivenUpLeaving>
-  <MessageRaidersSatisfiedLeaving>{1} den gelen {0} verdikleri hasarla tatmin oldular ve ayrılıyorlar.</MessageRaidersSatisfiedLeaving>
+<MessageRaidersBeginningAssault>{1}'den {0} saldırıya başlıyor.</MessageRaidersBeginningAssault>
 
-  <MessageFightersFleeing>{1} den gelen {0} kaçıyorlar.</MessageFightersFleeing>
-  <MessageFriendlyFightersLeaving>Arkadaş canlısı {1} den gelen {0} ayrılıyorlar.</MessageFriendlyFightersLeaving>
-  
-  <MessageVisitorsTakingWounded>{1} den gelen {0} yaralı bir ziyaretçi alıyor.</MessageVisitorsTakingWounded>
-  <MessageVisitorsTrappedLeaving>{1} den gelen {0} tuzağa düştü ve kaçmak için yeri kazıyor.</MessageVisitorsTrappedLeaving>
-  
-  <MessageWornApparelDeterioratedAway>{1} tarafından giyilen {0} bir sebep yokken bozuldu.</MessageWornApparelDeterioratedAway>
-  
-  <MessageSeasonBegun>{0} başladı.</MessageSeasonBegun>
+<MessageRaidersDetectedEarlyAssault>{1}'den {0} sizi tespit etti ve saldırıya erken başladı.</MessageRaidersDetectedEarlyAssault>
 
-  <MessageShipHasLeftCommsRange>{0} iletişim menzilinden çıktı.</MessageShipHasLeftCommsRange>
-	
-  <MessageNeedBeaconToTradeWithShip>Bir gemiyle ticaret yapabilmek için yörüngesel ticaret antenine ihtiyacın var.</MessageNeedBeaconToTradeWithShip>
-	
-  <MessageBillComplete>Senet Tamamlandı: {0}.</MessageBillComplete>
-  
-  <MessageFullyHealed>{0} tamamen iyileşti.</MessageFullyHealed>
+<MessageRaidersKidnapping>{1}'den {0} kaçırabilecekleri birini alıp kaçtılar.</MessageRaidersKidnapping>
 
-  <MessagePrisonerIsEscaping>Mahkum {0} kaçıyor.</MessagePrisonerIsEscaping>
+<MessageRaidersStealing>{1}'den {0} ellerinden geleni çalmaya ve ayrılmaya karar verdiler.</MessageRaidersStealing>
 
-  <MessageOutOfNearbyShellsFor>{0} found no nearby unreserved shells for {1}.</MessageOutOfNearbyShellsFor>
+<MessageRaidersLeaving>{1}'den {0} ayrılıyorlar.</MessageRaidersLeaving>
 
-  <MessageAnimalsGoPsychoHunted>Uyarı: {0}lar zarar görürse saldıracaktır.</MessageAnimalsGoPsychoHunted>
-  <MessageAnimalManhuntsOnTameFailed>Uyarı: {0}lar ehlileştirme denemesine karşı saldırgan olabilir ({1} şans).</MessageAnimalManhuntsOnTameFailed>
-  
-  <LetterLabelMessageRecruitSuccess>Yeni üye</LetterLabelMessageRecruitSuccess>
-  <MessageRecruitSuccess>{0}, {1}'i başarıyla işe aldı ({2} şans).</MessageRecruitSuccess>
-  <MessageTameSuccess>{0}, {1}'i başarıyla ehlileştirildi ({2} şans).</MessageTameSuccess>
-  <MessageTameAndNameSuccess>{0}, {1}'i başarıyla ehlileştirildi ({2} şans) ve ona  {3} ismini verdi.</MessageTameAndNameSuccess>
+<MessageRaidersGivenUpLeaving>{1}'den {0} vazgeçtiler ve terk ediyorlar.</MessageRaidersGivenUpLeaving>
 
-  <MessageColonyCannotAfford>Koloni bu anlaşmayı göze alamaz.</MessageColonyCannotAfford>
-  <MessageColonyNotEnoughSilver>Takas için yeterli gümüşün yok.</MessageColonyNotEnoughSilver>
+<MessageRaidersSatisfiedLeaving>{1}'den {0} verebildikleri hasardan memnun olmadılar ve terk ediyorlar.</MessageRaidersSatisfiedLeaving>
 
-  <MessageCriticalAlert>kritik alarm: {0}</MessageCriticalAlert>
-  
-  <MessageMustDesignateHarvestable>Hasat edilebilir, yeterince büyümüş bitkiler belirlenmelidir.</MessageMustDesignateHarvestable>
-  <MessageMustDesignateHarvestableWood>Kereste verebilen, yeterince büyümüş ağaçlar belirlenmelidir.</MessageMustDesignateHarvestableWood>
-  <MessageMustDesignatePlants>Bitkiler belirlenmelidir.</MessageMustDesignatePlants>
-  <MessageMustDesignateHaulable>Taşınabilir eşyalar belirlenmelidir.</MessageMustDesignateHaulable>
-  <MessageMustDesignateMineable>Geçilmez oyulabilir kayalar belirlenmelidir.</MessageMustDesignateMineable>
-  <MessageMustDesignateHuntable>Avlanabilir hayvanlar belirlenmelidir.</MessageMustDesignateHuntable>
-  <MessageMustDesignateTameable>Ehlileştirilebilir hayvanlar belirlenmelidir.</MessageMustDesignateTameable>
-  <MessageMustDesignateClaimable>Terk edilmiş yapay yapılar belirlenmelidir.</MessageMustDesignateClaimable>
-  <MessageMustDesignateSmoothableFloor>Moloz taş arazı belirlenmelidir.</MessageMustDesignateSmoothableFloor>
-  <MessageNothingCanRemoveThickRoofs>Kalın çatıları hiçbir şey kaldıramaz.</MessageNothingCanRemoveThickRoofs>
-  <MessageAlreadyInStorage>Bu zaten depoda var eğer gerekirse yüksek öncelikli depoya taşınacak.</MessageAlreadyInStorage>
-  <MessageMustDesignateStrippable>Ölü veya baygın karakter'in soyulabilir kıyafetleri belirlenmelidir.</MessageMustDesignateStrippable>
-  <MessageMustDesignateSlaughterable>Koloniye ait evcil hayvan belirlenmelidir.</MessageMustDesignateSlaughterable>
-  <MessageMustDesignateOpenable>Tam mezar veya konteynerler belirlenmelidir.</MessageMustDesignateOpenable>
-  
-  <MessageRefusedArrest>{0} tutuklanmayı reddetti!</MessageRefusedArrest>
-  
-  <MessageNoMedicalBeds>Mevcut hasta yatağı yok.</MessageNoMedicalBeds>
-  <MessageNoAnimalBeds>Mevcut hayvan yatağı yok.</MessageNoAnimalBeds>
-  <MessageTooLowMedCare>İşlem {0} veya daha iyisini gerektiriyor, ama {1}'in şuanki tıbbi bakım modu "{2}".</MessageTooLowMedCare>
-  
-  <PawnDiedBecauseOf>{0} {1} yüzünden hayatını kaybetti.</PawnDiedBecauseOf>
+<MessageFightersFleeing>{1}'den {0} kaçıyorlar.</MessageFightersFleeing>
 
-  <MessageNoLongerDowned>{0} artık yürüme zorluğu çekmiyor.</MessageNoLongerDowned>
-  
-  <MessageInvoluntarySleep>{0} aşırı yorgunluktan dolayı bayıldı.</MessageInvoluntarySleep>
+<MessageFriendlyFightersLeaving>{1}'den {0} ayrılıyorlar.</MessageFriendlyFightersLeaving>
 
-  <MessageMedicalOperationFailureCatastrophic>{0}, {1} üzerinde operasyon yaparken felaket şekilde başarısız oldu.</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureMinor>{0}, {1} üzerinde operasyon yaparken biraz başarısız oldu.</MessageMedicalOperationFailureMinor>
-  <MessageMedicalOperationFailureRidiculous>{0} has failed in a ridiculous way while operating on {1}.</MessageMedicalOperationFailureRidiculous>
+<MessageVisitorsTakingWounded>{1}'den {0} yaralılarını alıyor ve gidiyorlar.</MessageVisitorsTakingWounded>
 
-  <MessageMedicalOperationWillAngerFaction>Bu işlem {0}'ı kızdıracak.</MessageMedicalOperationWillAngerFaction>
+<MessageVisitorsTrappedLeaving>{1}'den {0} tuzağa düştüler ve kaçmaya çalışıyorlar.</MessageVisitorsTrappedLeaving>
 
-  <MessagePawnExitMapRelationsGain>Çünkü {0} haritadan sağlıklı olarak çıktı, {1} ile ilişkiler {2} oldu.</MessagePawnExitMapRelationsGain>
+<MessageVisitorsDangerousTemperature>{1}'den {0} tehlikeli sıcaklık nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousTemperature>
 
-  <MessageMiscarriedStarvation>{0} açlık nedeniyle çocuğunu düşürdü.</MessageMiscarriedStarvation>
-  <MessageMiscarriedPoorHealth>{0} kötü sağlık sebebiyle çocuğunu düşürdü.</MessageMiscarriedPoorHealth>
-  <MessageGaveBirth>{0} doğurdu.</MessageGaveBirth>
+<MessageWornApparelDeterioratedAway>{1_nameFull} tarafından giyilen {0} bozuldu.</MessageWornApparelDeterioratedAway>
 
-  <MessageNuzzledPawnGaveNameTo>{0} sokulduktan sonra {1} {2} olarak isimlendirildi.</MessageNuzzledPawnGaveNameTo>
+<MessageSeasonBegun>{0} başladı.</MessageSeasonBegun>
 
-  <MessageNoHandlerSkilledEnough>{0}'ı ehlileştirecek eğitmen yok (gereken seviye {2}'de {1}, en iyi eğitmen {3} seviye {4}).</MessageNoHandlerSkilledEnough>
-  
-  <MessageEatenByPredator>{0}, {1}'yi yedi.</MessageEatenByPredator>
-  <MessageAttackedByPredator>{0}, {1} tarafından saldırıya uğradı!</MessageAttackedByPredator>
-  
-  <MessageHiveReproduced>Bir böcek kovanı kendini yeniden kurdu.</MessageHiveReproduced>
-  
-  <MessageTraderCaravanLeaving>{0}'dan gelen ticaret karavanı ayrılıyor.</MessageTraderCaravanLeaving>
-  
-  <MessageCantSelectDeadPawn>{0} öldü.</MessageCantSelectDeadPawn>
-  <MessageCantSelectOffMapPawn>{0} haritanın dışında.</MessageCantSelectOffMapPawn>
-  
-  <MessageSocialFight>{0}, {1} ile kavga etmeye başladı. Sebep: {2}.</MessageSocialFight>
-  
-  <MessageNewMarriageCeremony>Koloniciler {0} ve {1}’in evliliği için toplanıyor.</MessageNewMarriageCeremony>
-  <MessageMarriageCeremonyStarts>{0} ve {1}'in evlilik seramonisi başlıyor!</MessageMarriageCeremonyStarts>
-  <MessageMarriageCeremonyCalledOff>{0} ve {1}'in evlilik seramonisi iptal edildi.</MessageMarriageCeremonyCalledOff>
-  <MessageNewlyMarried>{0} ve {1} evlendiler. Kolonidekiler şimdi bu olayı kutluyor.</MessageNewlyMarried>
-  <MessageMarriageCeremonyAfterPartyFinished>{0} ve {1}'in evlilik seramonisi sona erdi.</MessageMarriageCeremonyAfterPartyFinished>
-  
-  <MessageNewBondRelation>{0} and {1} have formed a bond.</MessageNewBondRelation>
-  <MessageNewBondRelationNewName>{0} ve {1} birbirlerinden elektrik aldı. {0} onu {2} olarak isimlendirdi.</MessageNewBondRelationNewName>
-  
-  <MessageBondedAnimalMentalBreak>{1} öldüğü için {0} depresyona girdi.</MessageBondedAnimalMentalBreak>
-  <MessageNamedBondedAnimalMentalBreak>{2} öldüğü için {0} isimli {1} depresyona girdi.</MessageNamedBondedAnimalMentalBreak>
-  <MessageBondedAnimalsMentalBreak>{1} öldüğü için {0} hayvan depresyona girdi.</MessageBondedAnimalsMentalBreak>
-  
-  <MessageSuccessfullyRemovedHediff>{0}, {1}'in {2}'ini başarı ile kaldırdı.</MessageSuccessfullyRemovedHediff>
-  
-  <MessageShipChunkDrop>Bir uzay aracı yığını uzaydan yakında bir yerlere düştü.</MessageShipChunkDrop>
-  
-  <MessagePartyCalledOff>Parti iptal edildi.</MessagePartyCalledOff>
-  <MessagePartyFinished>Parti sona erdi.</MessagePartyFinished>
+<MessageShipHasLeftCommsRange>{0} haberleşme menzilinden ayrıldı.</MessageShipHasLeftCommsRange>
 
-  <MessageCannotSellItemsReason>Bazı öğeler şu nedenle takas edilemez: </MessageCannotSellItemsReason>
+<MessageNeedBeaconToTradeWithShip>Ticaret yapabilmen için ticaret feneri gerekli.</MessageNeedBeaconToTradeWithShip>
 
-  <MessageConstructionFailed>{1}, {0}'yi inşa ederken başarısız oldu. Bazı kaynaklar israf edildi.</MessageConstructionFailed>
+<MessageBillComplete>Tasarı bitti: {0}.</MessageBillComplete>
 
-  <MessageScreenshotSavedAs>Ekran görüntüsü şuraya kayıt edildi: {0}</MessageScreenshotSavedAs>
-  
-  <MessageNoLongerSocialFighting>{0} ve {1} artık kavga etmiyorlar.</MessageNoLongerSocialFighting>
-  
-  <MessageNoLongerBingingOnDrug>{0} is no longer binging on {1}.</MessageNoLongerBingingOnDrug>
+<MessageFullyHealed>{1_label} iyileşti.</MessageFullyHealed>
 
-  <MessageRottedAwayInStorage>{0} depolama alanında çürüdü.</MessageRottedAwayInStorage>
-  
-  <MessageFoodPoisoning>{0}, {1} yüzünden gıda zehirlenmesine uğradı.</MessageFoodPoisoning>
+<MessagePrisonerIsEscaping>Mahkum {1_labelShort} kaçtı.</MessagePrisonerIsEscaping>
 
-  <MessageFailedToSendCaravanBecausePawnLost>Failed to send the caravan because one of the colonists, prisoners or animals has been lost.</MessageFailedToSendCaravanBecausePawnLost>
-  <MessageCaravanFormationPaused>The caravan formation process will continue when everyone recovers from a mental break.</MessageCaravanFormationPaused>
-  <MessageCaravanFormationUnpaused>Your colonists will now continue forming a caravan.</MessageCaravanFormationUnpaused>
-  
-  <MessageCaravanMemberHasExtremeMentalBreak>One of the caravan members has a mental break.</MessageCaravanMemberHasExtremeMentalBreak>
-  
-  <MessageMaxPlanetCoveragePerformanceWarning>Warning: It can take a very long time to generate an entire planet.</MessageMaxPlanetCoveragePerformanceWarning>
+<MessageOutOfNearbyShellsFor>{PAWN_labelShort} {GUN_label} için yakında herhangi bir mermi bulunamadı.</MessageOutOfNearbyShellsFor>
 
-  <MessagePlantDiedOfCold>{0} has died because of cold.</MessagePlantDiedOfCold>
-  <MessagePlantDiedOfRot>{0} has died from rotting due to being left unharvested.</MessagePlantDiedOfRot>
+<MessageAnimalsGoPsychoHunted>Dikkat: {ANIMAL_kindBasePlural}ler zarar gördüğünde genellikle saldırırlar.</MessageAnimalsGoPsychoHunted>
 
-  <MessagePawnBeingBurned>{0} is being burned by superheated air!</MessagePawnBeingBurned>
+<MessageAnimalManhuntsOnTameFailed>Dikkat: {ANIMAL_kindBasePlural} ler, başarısız bir evcilleştirme girişiminde saldırabilir ({1} şans).</MessageAnimalManhuntsOnTameFailed>
 
-  <MessageAccidentalOverdose>{0} has accidentally overdosed while consuming {1}!</MessageAccidentalOverdose>
-  
-  <MessageCaravanArrivedAtDestination>{0} has arrived at its destination.</MessageCaravanArrivedAtDestination>
-  
-  <MessageCaravanIsVisitingFaction>{0} has arrived in {1}.</MessageCaravanIsVisitingFaction>
-  
-  <MessageCaravanEnteredWorldObject>{0} has arrived in {1}.</MessageCaravanEnteredWorldObject>
-  
-  <MessagePawnLeftMapAndCreatedCaravan>{0} has left the area and formed a caravan.</MessagePawnLeftMapAndCreatedCaravan>
-  
-  <MessageSettledInExistingMap>You have successfully settled in a new area.</MessageSettledInExistingMap>
-	
-  <MessageAmbushVictory>Victory! In {0} hours, the caravan will automatically be reformed. You can reform the caravan now in the World screen.</MessageAmbushVictory>
-  
-  <MessageAutomaticallyReformedCaravan>Your colonists have reformed the caravan.</MessageAutomaticallyReformedCaravan>
+<LetterLabelMessageRecruitSuccess>Yeni alım</LetterLabelMessageRecruitSuccess>
 
-  <MessageOldWoundHealed>Because of {0}, {1}'s {2} has healed.</MessageOldWoundHealed>
+<MessageRecruitSuccess>{RECRUITER_nameFull} {RECRUITEE_nameFull}'i başarıyla koloniye aldı. ({2} şansla).</MessageRecruitSuccess>
 
-  <MessageRescueeJoined>Since you rescued [PAWN_objective], {0} has joined your group!</MessageRescueeJoined>
-  
-  <MessageAttackedCaravanIsNowHostile>Because you attacked a caravan of {0}, this faction is now hostile to you.</MessageAttackedCaravanIsNowHostile>
-  
-  <MessageTransporterUnreachable>Some transport pods are unreachable.</MessageTransporterUnreachable>
-  <MessageTransportersNotAdjacent>All pod launchers connected to the selected transport pods must be adjacent.</MessageTransportersNotAdjacent>
-  
-  <MessageTransportersLoadCanceled_TransporterDestroyed>The loading process has been canceled because one of the transport pods has been destroyed.</MessageTransportersLoadCanceled_TransporterDestroyed>
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>The loading process has been canceled because one of the pod launchers has been destroyed.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
-  
-  <MessageTransportersLoadingProcessStarted>Your colonists will now load the assigned items into the transport pods.</MessageTransportersLoadingProcessStarted>
-  
-  <MessageTransportPodsArrived>Your transport pods have arrived.</MessageTransportPodsArrived>
-  <MessageTransportPodsArrivedAndLost>Your transport pods have arrived, but since there were no colonists inside, the contents are lost.</MessageTransportPodsArrivedAndLost>
-  <MessageTransportPodsArrived_BecameHostile>{0} is now hostile to you.</MessageTransportPodsArrived_BecameHostile>
-  
-  <MessageFailedToLoadTransportersBecauseColonistLost>The loading process has been canceled because one of the colonists has been lost.</MessageFailedToLoadTransportersBecauseColonistLost>
-  
-  <MessageFinishedLoadingTransporters>Your colonists have finished loading the transport pods.</MessageFinishedLoadingTransporters>
-  
-  <MessageTransportPodsDestinationIsInvalid>Selected destination is invalid.</MessageTransportPodsDestinationIsInvalid>
-  <MessageTransportPodsDestinationIsTooFar>Each pod launcher would need at least {0}x chemfuel to send transport pods that far.</MessageTransportPodsDestinationIsTooFar>
-  
-  <MessageReformedCaravan>The caravan has been reformed.</MessageReformedCaravan>
-  
-  <MessageCantAbandonLastColonist>You can't abandon the last colonist.</MessageCantAbandonLastColonist>
-  
-  <MessageCantEquipIncapableOfViolence>Cannot equip: {0} is incapable of violence.</MessageCantEquipIncapableOfViolence>
-  <MessageCantEquipIncapableOfManipulation>Cannot equip: incapable.</MessageCantEquipIncapableOfManipulation>
-  
-  <MessageSlaughteringBondedAnimal>Because they are bonded, slaughtering {0} will make {1} unhappy.</MessageSlaughteringBondedAnimal>
-  
-  <MessageCaravanRunOutOfFood>{0} has run out of food ({1}).</MessageCaravanRunOutOfFood>
+<MessageTameSuccess>{1} {RECRUITER_labelShort} tarafından evcilleştirildi. ({2} şansla).</MessageTameSuccess>
 
-  <MessageSelectOwnBaseToFormCaravan>To form a caravan, select your own colony or a site where you have people.</MessageSelectOwnBaseToFormCaravan>
+<MessageTameAndNameSuccess>{1} {RECRUITER_labelShort} tarafından evcilleştirildi. ({2} şansla) ve {RECRUITEE_objective} {RECRUITEE_nameFull} adını verdi.</MessageTameAndNameSuccess>
 
-  <MessageScreenResTooSmallForUIScale>At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution.</MessageScreenResTooSmallForUIScale>
+<MessageColonyCannotAfford>Koloni bu anlaşmayı göze alamaz.</MessageColonyCannotAfford>
+
+<MessageColonyNotEnoughSilver>Takas için yeterli gümüşün yok.</MessageColonyNotEnoughSilver>
+
+<MessageCriticalAlert>Kritik uyarı: {0}</MessageCriticalAlert>
+
+<MessageMustDesignateHarvestable>Hasat için yeterince büyümüş bitkileri belirtmelisin.</MessageMustDesignateHarvestable>
+
+<MessageMustDesignateHarvestableWood>Odun için yeterince büyümüş ağaçları belirtmelisin.</MessageMustDesignateHarvestableWood>
+
+<MessageMustDesignatePlants>Bitkileri belirtmelisin.</MessageMustDesignatePlants>
+
+<MessageMustDesignateHaulable>Taşınabilir yıkıntıları belirtmelisin.</MessageMustDesignateHaulable>
+
+<MessageMustDesignateMineable>İşletilebilir kaynakları belirtmelisin.</MessageMustDesignateMineable>
+
+<MessageMustDesignateHuntable>Avlanılabilir hayvanları belirtmelisin.</MessageMustDesignateHuntable>
+
+<MessageMustDesignateTameable>Evcilleştirilebilir hayvanları belirtmelisin.</MessageMustDesignateTameable>
+
+<MessageMustDesignateClaimable>Terk edilmiş yapılarları belirtmelisin.</MessageMustDesignateClaimable>
+
+<MessageMustDesignateSmoothableSurface>Pürüzlü taş zeminleri belirtmelisin.</MessageMustDesignateSmoothableSurface>
+
+<MessageNothingCanRemoveThickRoofs>Kalın çatıları kaldıramazsın.</MessageNothingCanRemoveThickRoofs>
+
+<MessageAlreadyInStorage>Bu zaten depolama alanında, gerektiğinde yüksek öncelikli depolama alanına taşınacaktır.</MessageAlreadyInStorage>
+
+<MessageMustDesignateStrippable>Soyabilmek için insan ceseti veya baygın olan insanı belirtmen gerekiyor.</MessageMustDesignateStrippable>
+
+<MessageMustDesignateSlaughterable>Kolonine ait bir evcil hayvanı belirtmelisin.</MessageMustDesignateSlaughterable>
+
+<MessageMustDesignateOpenable>Dolu mezarları veya dolu konteynırları belirtmelisin.</MessageMustDesignateOpenable>
+
+<MessageMustDesignateForbiddable>Yasak olan eşyalar belirtilmelidir.</MessageMustDesignateForbiddable>
+
+<MessageMustDesignateUnforbiddable>Yasak olmayan eşyalar belirtilmelidir.</MessageMustDesignateUnforbiddable>
+
+<MessageRefusedArrest>{1_labelShort} tutuklanmayı reddetti!</MessageRefusedArrest>
+
+<MessageNoMedicalBeds>Kullanılabilir tıbbi yatak yok.</MessageNoMedicalBeds>
+
+<MessageNoAnimalBeds>Hayvan için kulalnılabilir yatak yok.</MessageNoAnimalBeds>
+
+<MessageTooLowMedCare>Operasyon için {0} veya daha iyisi gerekiyor, fakat {PAWN_labelShort}'in geçerli tıbbi bakımi "{2}".</MessageTooLowMedCare>
+
+<PawnDiedBecauseOf>{PAWN_labelShort} {1} sebebiyle öldü.</PawnDiedBecauseOf>
+
+<PawnDied>{1_labelShort} öldü.</PawnDied>
+
+<MessageNoLongerDowned>{1_label} artık yürüyebilecek durumda.</MessageNoLongerDowned>
+
+<MessageInvoluntarySleep>{1_labelShort} aşırı yorgun olduğundan uyuyakaldı.</MessageInvoluntarySleep>
+
+<MessageMedicalOperationFailureMinor>{SURGEON_labelShort}, {PATIENT_labelShort}'ın operasyonu sırasında küçük bir hata yaptı.</MessageMedicalOperationFailureMinor>
+
+<MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {patient.LabelShort}'in operasyonu sırasında olan felaketlere yol açacak şekilde başarısız oldu.</MessageMedicalOperationFailureCatastrophic>
+
+<MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonu sırasında saçma bir şekilde başarısız oldu.</MessageMedicalOperationFailureRidiculous>
+
+<MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonunda kritik bir hata yaptı.</MessageMedicalOperationFailureFatal>
+
+<MessageMedicalOperationWillAngerFaction>Bu operasyon {0}'u kızdıracak.</MessageMedicalOperationWillAngerFaction>
+
+<MessageMiscarriedStarvation>Açlık yüzünden {0} düşük yaptı.</MessageMiscarriedStarvation>
+
+<MessageMiscarriedPoorHealth>Düşük sağlık koşulu yüzünden {0} düşük yaptı.</MessageMiscarriedPoorHealth>
+
+<MessageGaveBirth>{0} doğum yaptı.</MessageGaveBirth>
+
+<MessageNuzzledPawnGaveNameTo>{NAMER_nameFull}, {1} {NAMEE_nameFull} ismini verdi.</MessageNuzzledPawnGaveNameTo>
+
+<MessageNoHandlerSkilledEnough>Hiç bir bakıcın {ANIMAL_kindBase}'ı evcilleştiremiyor .(gerekli seviye {2} {1}, senin en iyi bakıcın{HANDLER_labelShort} has {4}).</MessageNoHandlerSkilledEnough>
+
+<MessageEatenByPredator>{EATEN_labelShort}, {PREDATOR} tarafından yenildi.</MessageEatenByPredator>
+
+<MessageAttackedByPredator>{PREY_labelShort}, {PREDATOR} tarafından saldırıya uğradı!</MessageAttackedByPredator>
+
+<MessageHiveReproduced>Bir böcek kovanı kendini yeniden üretti.</MessageHiveReproduced>
+
+<MessageTraderCaravanLeaving>{0}'dan gelen ticari kervan gidiyor.</MessageTraderCaravanLeaving>
+
+<MessageCantSelectDeadPawn>{1_labelShort} öldü.</MessageCantSelectDeadPawn>
+
+<MessageCantSelectOffMapPawn>{1_labelShort} haritadan çıktı.</MessageCantSelectOffMapPawn>
+
+<MessageSocialFight>{PAWN1_labelShort}, {PAWN2_labelShort} ile tartışma yarattı.</MessageSocialFight>
+
+<MessageNewMarriageCeremony>Kolonistler {PAWN1_labelShort} ve {PAWN2_labelShort}'in evliliğini kutlamak için toplanıyorlar.</MessageNewMarriageCeremony>
+
+<MessageMarriageCeremonyStarts>{PAWN1_labelShort} ve {PAWN2_labelShort} evlilik törenleri başlıyor!</MessageMarriageCeremonyStarts>
+
+<MessageMarriageCeremonyCalledOff>{PAWN1_labelShort} ve {PAWN2_labelShort} için yapılan evlilik töreni durduruldu.</MessageMarriageCeremonyCalledOff>
+
+<MessageNewlyMarried>{PAWN1_labelShort} ve {PAWN2_labelShort} evlendi. Kolonistler bunu kutluyorlar.</MessageNewlyMarried>
+
+<MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort} ve {PAWN2_labelShort} için yapılan evlilik töreni sona erdi.</MessageMarriageCeremonyAfterPartyFinished>
+
+<MessageNewBondRelation>{HUMAN_labelShort} ile {ANIMAL_labelShort} aralarında bir bağ oluştu.</MessageNewBondRelation>
+
+<MessageNewBondRelationNewName>{HUMAN_labelShort} ile {1} aralarında bir bağ oluştu. {HUMAN_labelShort} ona {ANIMAL_nameFull} adını verdi.</MessageNewBondRelationNewName>
+
+<MessageBondedAnimalMentalBreak>{HUMAN_labelShort}'in ölümünden dolayı {ANIMAL} zihinsel olarak çökmüş durumda.</MessageBondedAnimalMentalBreak>
+
+<MessageNamedBondedAnimalMentalBreak>{ANIMAL_kindIndef} adlı {ANIMAL_label}, {HUMAN_labelShort}'in ölümünden dolayı 'in ölümü yüzünden zihinsel olarak çökmüş durumda.</MessageNamedBondedAnimalMentalBreak>
+
+<MessageBondedAnimalsMentalBreak>{0}, {HUMAN_labelShort}'in ölümünden dolayı zihinsel olarak çökmüş durumda.</MessageBondedAnimalsMentalBreak>
+
+<MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}, {PATIENT_labelShort}'in {HEDIFF}'ini başarı ile kaldırdı.</MessageSuccessfullyRemovedHediff>
+
+<MessageShipChunkDrop>Bir uzay aracının parçaları uzaydan yakınlarına düştü.</MessageShipChunkDrop>
+
+<MessagePartyCalledOff>Parti iptal oldu.</MessagePartyCalledOff>
+
+<MessagePartyFinished>Parti bitti.</MessagePartyFinished>
+
+<MessageCannotSellItemsReason>Bazı öğeler bazı nedenlerden dolayı ticaret edilemez: </MessageCannotSellItemsReason>
+
+<MessageConstructionFailed>{WORKER_labelShort} {0} oluşturulurken başarısız oldu. Bu nedenle bazı kaynaklar israf oldu.</MessageConstructionFailed>
+
+<MessageScreenshotSavedAs>Ekran görüntüsü kaydedildi: {0}</MessageScreenshotSavedAs>
+
+<MessageNoLongerSocialFighting>{PAWN1_labelShort} ve {PAWN2_labelShort} artık tartışmıyorlar.</MessageNoLongerSocialFighting>
+
+<MessageNoLongerBingingOnDrug>{2_labelShort} is no longer binging on {1}.</MessageNoLongerBingingOnDrug>
+
+<MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} artık {TARGET_label}'e saydırmayı bıraktı.</MessageNoLongerOnTargetedInsultingSpree>
+
+<MessageRottedAwayInStorage>{1_label} depolama alanında çürüdü.</MessageRottedAwayInStorage>
+
+<MessageFoodPoisoning>{PAWN_labelShort}, {FOOD_labelShort}ten dolayı gıda zehirlenmesine maruz kaldı.</MessageFoodPoisoning>
+
+<MessagePawnLostWhileFormingCaravan>{0} kervandan çıkarıldı.</MessagePawnLostWhileFormingCaravan>
+
+<MessagePawnLostWhileFormingCaravan_AllLost>Kervan formasyon süreci sona erdi.</MessagePawnLostWhileFormingCaravan_AllLost>
+
+<MessageCaravanFormationPaused>Kervan oluşum süreci, herkes zihinsel çöküntüden kurtulursa devam edecek.</MessageCaravanFormationPaused>
+
+<MessageCaravanFormationUnpaused>Kolonistlerin bir Kervan oluşturmaya devam edecek.</MessageCaravanFormationUnpaused>
+
+<MessageCaravanMemberHasExtremeMentalBreak>Kervan üyelerinden biri zihinsel çöküntü eşiğinde.</MessageCaravanMemberHasExtremeMentalBreak>
+
+<MessageMaxPlanetCoveragePerformanceWarning>Uyarı: Tüm bir gezegeni oluşturmak çok uzun zaman alabilir.</MessageMaxPlanetCoveragePerformanceWarning>
+
+<MessagePlantDiedOfCold>{0} soğuktan dolayı mahvoldu.</MessagePlantDiedOfCold>
+
+<MessagePlantDiedOfRot_LeftUnharvested>{0}, hasat edilmeden bırakıldığından dolayı çürümeden öldü.</MessagePlantDiedOfRot_LeftUnharvested>
+
+<MessagePlantDiedOfRot_ExposedToLight>{0}, ışığa maruz kalmaktan dolayı yok oldu.</MessagePlantDiedOfRot_ExposedToLight>
+
+<MessagePlantDiedOfRot>{0} çürümüş bir parçası ayıklanmadığından dolayı mahvoldu.</MessagePlantDiedOfRot>
+
+<MessagePlantDiedOfPoison>{0} zehirden dolayı yok oldu.</MessagePlantDiedOfPoison>
+
+<MessagePlantDiedOfBlight>{1_label} fazla ışıktan dolayı öldü.</MessagePlantDiedOfBlight>
+
+<MessagePawnBeingBurned>{1_labelShort} aşırı sıcak havadan dolayı yanıyor!</MessagePawnBeingBurned>
+
+<MessageAccidentalOverdose>{INGESTER}, {DRUG_labelShort} tüketirken yanlışlıkla aşırı doz aldı.!</MessageAccidentalOverdose>
+
+<MessageCaravanArrivedAtDestination>{0} varış yerine geldi.</MessageCaravanArrivedAtDestination>
+
+<MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} alanı terk etti ve bir kervan kurdu.</MessagePawnLeftMapAndCreatedCaravan>
+
+<MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Hayvanlarında katılmak için harekete geçti.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+
+<MessageSettledInExistingMap>Başarıyla yeni bir alana yerleştin.</MessageSettledInExistingMap>
+
+<MessagePermanentWoundHealed>{0} nedeniyle {PAWN_labelShort}'nin {2} iyileşti. </MessagePermanentWoundHealed>
+
+<MessageRescueeJoined>Onu kurtardığınızdan beri {!_objective}, {1_labelShort} grubunuza katıldı.!</MessageRescueeJoined>
+
+<MessageTransporterUnreachable>Bazı taşıma kapsülleriniz ulaşılamaz durumda.</MessageTransporterUnreachable>
+
+<MessageTransportersNotAdjacent>Seçilen taşıma kapsülleri, kapsül fırlatıcıları ile bitişik olmalıdır.</MessageTransportersNotAdjacent>
+
+<MessageTransportersLoadCanceled_TransporterDestroyed>Taşıma kapsüllerinden biri çöktüğünden dolayı yükleme işlemi iptal edildi.</MessageTransportersLoadCanceled_TransporterDestroyed>
+
+<MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Kapsül fırlatıcılarından biri yok edildiğinden dolayı yükleme işlemi iptal edildi.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
+
+<MessageTransportersLoadingProcessStarted>Kolonistleriniz şimdi atanmış maddeleri taşıma kapsüllerine yükleyecektir.</MessageTransportersLoadingProcessStarted>
+
+<MessageTransportPodsArrived>Taşıma kapsülleriniz sağ sağlim ulaştı.</MessageTransportPodsArrived>
+
+<MessageTransportPodsArrivedAndLost>Taşıma kapsülleriniz sağ sağlim ulaştı ancak içinde kolonist yok, içerdekiler kayboldu.</MessageTransportPodsArrivedAndLost>
+
+<MessageTransportPodsArrivedAndAddedToCaravan>Ulaştırma kapsülleriniz ulaştı. İçerikler {0}'a eklendi.</MessageTransportPodsArrivedAndAddedToCaravan>
+
+<MessageFinishedLoadingTransporters>Kolonistleriniz taşıma kapsüllerini yüklemeyi bitirdi.</MessageFinishedLoadingTransporters>
+
+<MessageCantLoadMoreIntoTransporters>Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+
+<MessageTransportPodsDestinationIsInvalid>Seçilen hedef geçersiz.</MessageTransportPodsDestinationIsInvalid>
+
+<MessageTransportPodsDestinationIsTooFar>Her kapsül fırlatıcısı, o kadar uzağa taşıma kapsülünü fırlatabilmek için en az {0}x kimyasal yakıta ihtiyaç duyuyor.</MessageTransportPodsDestinationIsTooFar>
+
+<MessageReformedCaravan>Kervan yeniden düzenlendi.</MessageReformedCaravan>
+
+<MessageCantBanishLastColonist>Son kolonisti kovamazsın.</MessageCantBanishLastColonist>
+
+<MessageCantEquipIncapableOfViolence>Donatılamaz: {1_labelShort} şiddetten yoksun biri.</MessageCantEquipIncapableOfViolence>
+
+<MessageCantEquipIncapableOfManipulation>Donatılamaz: kabiliyetsiz.</MessageCantEquipIncapableOfManipulation>
+
+<MessageSlaughteringBondedAnimal>Birbirlerine olan bağlarından dolayı {DESIGNATED_labelShort}'i katletmek {BONDED_labelShort}'i mutsuz edecektir.</MessageSlaughteringBondedAnimal>
+
+<MessageCaravanRanOutOfFood>{0}, yemeği tükendi ({PAWN_label}).</MessageCaravanRanOutOfFood>
+
+<MessageSelectOwnBaseToFormCaravan>Bir karavan oluşturmak için, kendi kolonini veya kolonistlerinin bulunduğu bir bölgeyi seçin.</MessageSelectOwnBaseToFormCaravan>
+
+<MessageScreenResTooSmallForUIScale>Çözünürlük ve arayüz oyunun arabirim ekranına sığlamayacak durumda. Lütfen arayüz ve çözünürlüğü küçült.</MessageScreenResTooSmallForUIScale>
+
+<MessageYouHaveToReformCaravanNow>Şimdi kervanını oluşturmalısın. Geride kalan herkes terkedilecek.</MessageYouHaveToReformCaravanNow>
+
+<MessageDefendersAttacking>{0} from {1} are attacking your {2}.</MessageDefendersAttacking>
+
+<MessageSelfTendUnsatisfied>Kendisini tedavi edenilmesi için, {1_labelShort} doktorluk işine atanması gerekiyor.</MessageSelfTendUnsatisfied>
+
+<MessageCannotSelfTendEver>{1_labelShort} doktorluk işini yapamamaktadır. Bu yüzden kendisini tedavi edemez.</MessageCannotSelfTendEver>
+
+<MessageCantAddWaypointBecauseImpassable>Bu zemin geçilemez.</MessageCantAddWaypointBecauseImpassable>
+
+<MessageCantAddWaypointBecauseUnreachable>Buraya, son yol noktasından ulaşmak mümkün değil.</MessageCantAddWaypointBecauseUnreachable>
+
+<MessageCantAddWaypointBecauseLimit>{0} yol noktasından daha fazlasını ekleyemezsiniz.</MessageCantAddWaypointBecauseLimit>
+
+<MessageCantRemoveWaypointBecauseFirst>Bu yol noktasını kaldıramazsın.</MessageCantRemoveWaypointBecauseFirst>
+
+<MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Warders hiçbiri şiddet uygulayamaz. İnfaz yapılmayacak.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+
+<MessageSiteCountdownBecauseNoMoreEnemies>Tüm düşmanları yendin. Kervan otomatik olarak yeniden oluşturulacak.</MessageSiteCountdownBecauseNoMoreEnemies>
+
+<MessageSiteCountdownBecauseNoEnemiesInitially>Kervan otomatik olarak yeniden oluşturuldu. Kervanı şimdi Dünya ekranında yeniden düzenleyebilirsiniz.</MessageSiteCountdownBecauseNoEnemiesInitially>
+
+<MessageCantBanishDownedPawn>Cannot banish {1_labelShort} since {1_pronoun} cannot walk.</MessageCantBanishDownedPawn>
+
+<MessageSleepingPawnsWokenUp>{0} uyandı.</MessageSleepingPawnsWokenUp>
+
+<MessageCompSpawnerSpawnedItem>Üretilen ürün: {0}.</MessageCompSpawnerSpawnedItem>
+
+<MessageHediffCuredByItem>Sağlık durumu iyileşti: {0}.</MessageHediffCuredByItem>
+
+<MessageBodyPartCuredByItem>Vücut bölgesi iyileştirilde: {0}.</MessageBodyPartCuredByItem>
+
+<MessageResearchProjectFinishedByItem>Technology given: {0}.</MessageResearchProjectFinishedByItem>
+
+<MessagePawnResurrected>{0} hayata geri getirildi!</MessagePawnResurrected>
+
+<MessageFailedToRescueRelative>{PAWN_labelShort}'i kurtaramadınız. Bu durum {RELATIVE_labelShort}'i üzecek.</MessageFailedToRescueRelative>
+
+<MessageRescuedRelative>{PAWN_labelShort} kurtardın. Bu durum {RELATIVE_labelShort}'i mutlu edecek.</MessageRescuedRelative>
+
+<MessageTornadoLeftMap>Kasırga bölgenizden ayrıldı.</MessageTornadoLeftMap>
+
+<MessageTornadoDissipated>Kasırga bitti.</MessageTornadoDissipated>
+
+<MessagePeaceTalksNoDiplomat>Bilinçli, yetenekli diplomat yok.</MessagePeaceTalksNoDiplomat>
+
+<MessageWarningCavePlantsExposedToLight>Uyarı: {0} ışığa maruz kaldığında yaşayamaz.</MessageWarningCavePlantsExposedToLight>
+
+<MessageTargetedTantrumChangedTarget>{PAWN_labelShort}, {OLDTARGET_label} hedefine ulaşamadı. Bu nedenle {PAWN_pronoun} yeni hedefini {TARGET_label} olarak değiştirdi.</MessageTargetedTantrumChangedTarget>
+
+<MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}, {OLDTARGET_label} hedefine ulaşamadı. Bu nedenle {PAWN_pronoun} yeni hedefini {TARGET_label} olarak değiştirdi.</MessageTargetedInsultingSpreeChangedTarget>
+
+<MessageMurderousRageChangedTarget>{PAWN_labelShort} öfkesini yeniden {TARGET_label}'e yönlendirmeye karar verdi.</MessageMurderousRageChangedTarget>
+
+<MessagePlantIncompatibleWithRoof>{0} bir çatının altında büyüyemez.</MessagePlantIncompatibleWithRoof>
+
+<MessageRoofIncompatibleWithPlant>{0}'in üzerine çatı oluşturulamıyor.</MessageRoofIncompatibleWithPlant>
+
+<MessageChoseRoute>Kervan otomatik olarak ilk yol noktasına gidecek.</MessageChoseRoute>
+
+<MessageCraftedMasterwork>{WORKER_labelShort}, bir tane {CRAFTED_labelShort} yaptı.</MessageCraftedMasterwork>
+
+<MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Bölgeden ayrılmak için dünya haritasında 'Kervan oluştur' düğmesini kullanın.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+
+<MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Haritayı şimdi terk edemezsin.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
+
+<MessageGoodwillChanged>{0} ile ilişkilerin {1} den {2} oldu.</MessageGoodwillChanged>
+
+<MessageGoodwillChangedWithReason>{0} ile ilişkilerin {1} den {2} oldu ({3}).</MessageGoodwillChangedWithReason>
+
+<GoodwillChangedReason_AttackedPawn>attacked {1_labelShort}</GoodwillChangedReason_AttackedPawn>
+
+<GoodwillChangedReason_UsedItem>used {ITEM_labelShort} on {TARGET_labelShort}</GoodwillChangedReason_UsedItem>
+
+<GoodwillChangedReason_RemovedBodyPart>harvested {0}</GoodwillChangedReason_RemovedBodyPart>
+
+<GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>needlessly installed {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+
+<GoodwillChangedReason_CapturedPawn>{1_labelShort} ele geçirildi</GoodwillChangedReason_CapturedPawn>
+
+<GoodwillChangedReason_PawnCrushed>{1_labelShort} ezildi</GoodwillChangedReason_PawnCrushed>
+
+<GoodwillChangedReason_PawnDied>{1_labelShort} öldü</GoodwillChangedReason_PawnDied>
+
+<GoodwillChangedReason_Traded>ticaret yapıldı</GoodwillChangedReason_Traded>
+
+<GoodwillChangedReason_AttackedCaravan>bir karavana saldırdı</GoodwillChangedReason_AttackedCaravan>
+
+<GoodwillChangedReason_NaturallyOverTime>doğal olarak zamanla {0} değerine ulaşma eğilimli</GoodwillChangedReason_NaturallyOverTime>
+
+<GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} haritadan sağlıklı ayrıldı</GoodwillChangedReason_ExitedMapHealthy>
+
+<GoodwillChangedReason_Tended>tedavi edildi {1_labelShort}</GoodwillChangedReason_Tended>
+
+<GoodwillChangedReason_ReceivedGift>hediye ulaştı</GoodwillChangedReason_ReceivedGift>
+
+<GoodwillChangedReason_FulfilledTradeRequest>ticaret teklifi kabul edildi</GoodwillChangedReason_FulfilledTradeRequest>
+
+<MessageGiftGivenButNotAppreciated>{0} hediyeni kabul etti ama bunu takdir etmediler.</MessageGiftGivenButNotAppreciated>
+
+<MessageCantGiveGiftBecauseCantCarryEncumbered>Karavan zaten paramparça oldu ve başka bir şey taşıyamadı.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+
+<MessageCantGiveGiftBecauseCantCarry>Kervanın bu kadar ağırlık taşıyamaz. Hediyelerin ağırlığı {0} ancak kervan yalnızca {1} tane daha taşıyabilir.</MessageCantGiveGiftBecauseCantCarry>
+
+<MessageFormedCaravan>{0} oluşturuldu ve şimdi dünya haritası üzerinde seyahat ediyor.</MessageFormedCaravan>
+
+<MessageFormedCaravan_Orders>Emirler</MessageFormedCaravan_Orders>
+
+<MessageBillValidationStoreZoneDeleted>{1} stok alanı silindiğinden dolayı eşyayı oraya bırakamıyor ({2}).</MessageBillValidationStoreZoneDeleted>
+
+<MessageBillValidationStoreZoneUnavailable>{1} stok alanına ulaşılamadığından dolayı eşyayı oraya bırakamıyor ({2}).</MessageBillValidationStoreZoneUnavailable>
+
+<MessageBillValidationPawnUnavailable>{0} can no longer work on "{1}" at {2}. The restriction has been removed.</MessageBillValidationPawnUnavailable>
+
+<MessageBillValidationIncludeZoneDeleted>{1} stok alanı silindiğinden dolayı stoktaki öğeleri dahil edemiyor ({2}).</MessageBillValidationIncludeZoneDeleted>
+
+<MessageBillValidationIncludeZoneUnavailable>{1} stok alanına ulaşılamadığından dolayı stoktaki öğeleri dahil edemiyor ({2}).</MessageBillValidationIncludeZoneUnavailable>
+
+<MessageBillValidationStoreZoneInsufficient>{1}'s "{0}" can no longer deliver all products to stockpile {2}.</MessageBillValidationStoreZoneInsufficient>
+
+<MessageAnimalReturnedWild>Yeterli bakılmadığı için, {1_labelShort} vahşi hayatına geri döndü.</MessageAnimalReturnedWild>
+
+<MessageAnimalLostSkill>Eğitim eksikliğinden dolayı, {ANIMAL_labelShort} şu yeteneğini kaybetti: {1}</MessageAnimalLostSkill>
+
+<MessageTranslationReportSaved>Çeviri raporu {0}'a yazıldı</MessageTranslationReportSaved>
+
+<MessageCaravanArrivalActionNoLongerValid>{0} varış noktasına ulaşamadı.</MessageCaravanArrivalActionNoLongerValid>
+
+<MessageEnterCooldownBlocksEntering>{0} gün boyunca tekrar giremezsiniz.</MessageEnterCooldownBlocksEntering>
+
+<MessagePredatorHuntingPlayerAnimal>{PREDATOR}, yiyecek için {PREY_definite} avlıyor!</MessagePredatorHuntingPlayerAnimal>
+
+<MessagePrisonerResistanceBroken>Mahkum {PRISONER_labelShort}'in direnci {WARDEN_labelShort} tarafından kaldırıldı.</MessagePrisonerResistanceBroken>
+
+<MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Koloniye alım denemeleri başlayacak.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+
+<MessageDisableModsBeforeCleaningTranslationFiles>Bu aracı kullanmadan önce tüm modları devre dışı bırak.</MessageDisableModsBeforeCleaningTranslationFiles>
+
+<MessageTranslationFilesCleanupDone>Bitti. Etkilenen klasör: {0}</MessageTranslationFilesCleanupDone>
+
+<MessageCantCleanupTranslationFilesBeucaseOfXmlError>Çeviri dosyalarından biri ({0}) yüklenemedi.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+
+<MessageCapturingWillAngerFaction>Dikkat: {PAWN_nameDef}'u yakalamak {PAWN_factionName} hizibini kızdıracak.</MessageCapturingWillAngerFaction>
+
+<MessageCantShootInMelee>Yakın dövüşteyken ateş edemez.</MessageCantShootInMelee>
 
 </LanguageData>
-
-<MessageTransportPodsArrivedAndAddedToCaravan>Your transport pods have arrived. The contents have been added to your caravan.</MessageTransportPodsArrivedAndAddedToCaravan>
-<MessageCantAddWaypointBecauseLimit>You can't add more than {0} waypoints.</MessageCantAddWaypointBecauseLimit>
-<MessageCantRemoveWaypointBecauseFirst>You can't remove this waypoint.</MessageCantRemoveWaypointBecauseFirst>
-<MessageFactionPawnLost>{0} has lost {1}. Faction relation: {2}</MessageFactionPawnLost>
-<MessageCantDoExecutionBecauseNoWardenCapableOfViolence>None of your wardens is capable of violence. The execution won't be performed.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
-<MessageFactionPawnCrushed>{0} lost people to a roof collapse. Faction relation: {1}</MessageFactionPawnCrushed>
-<MessageCaravanIsVisitingSettlement>{0} has arrived in {1}.</MessageCaravanIsVisitingSettlement>
-<MessageSiteCountdownBecauseNoEnemiesInitially>In {0}, the caravan will automatically be reformed. You can reform the caravan now in the World screen.</MessageSiteCountdownBecauseNoEnemiesInitially>
-<MessageCannotSelfTendEver>{0} is incapable of doing Doctor work, and so cannot ever self-tend.</MessageCannotSelfTendEver>
-<MessageYouHaveToReformCaravanNow>You have to reform the caravan now. Everyone left behind will be abandoned.</MessageYouHaveToReformCaravanNow>
-<MessageVisitorsDangerousTemperature>{0} from {1} are leaving the map because of dangerous temperature.</MessageVisitorsDangerousTemperature>
-<MessageSelfTendUnsatisfied>To self-tend, {0} must also be assigned to Doctor work.</MessageSelfTendUnsatisfied>
-<MessageCantAddWaypointBecauseImpassable>This tile is impassable.</MessageCantAddWaypointBecauseImpassable>
-<MessageSiteCountdownBecauseNoMoreEnemies>You have defeated all enemies. In {0}, the caravan will automatically be reformed.</MessageSiteCountdownBecauseNoMoreEnemies>
-<MessageDefendersAttacking>{0} from {1} are attacking your {2}.</MessageDefendersAttacking>
-<MessageCantAddWaypointBecauseUnreachable>It's not possible to reach this tile from the last waypoint.</MessageCantAddWaypointBecauseUnreachable>
