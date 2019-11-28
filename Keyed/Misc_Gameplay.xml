@@ -1,445 +1,1109 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
+<?xml version="1.0" encoding="UTF-8"?>
 
-  <!-- Various -->
-  <WorkLeft>Kalan iş</WorkLeft>
-  <Contents>İçindekiler</Contents>
-  <ContainedResources>İçerilen kaynaklar</ContainedResources>
-  <ForPrisonerUse>Mahkum kullanımı için</ForPrisonerUse>
-  <ForColonistUse>Kolonist kullanımı için</ForColonistUse>
-  <MedicalBed>Tıbbi yatak</MedicalBed>
-  <Owner>Sahip</Owner>
-  <Owners>Sahipler</Owners>
-  <AssignedColonist>Kayıtlı Kolonist</AssignedColonist>
-  <Nobody>Hiç kimse</Nobody>
-  <Unowned>Sahibi yok</Unowned>
-  <DeadTime>{0} gündür ölü</DeadTime>
-  <WalkSpeed>Yürüme hızı {0}</WalkSpeed>
-  <FertShort>Fert.</FertShort>
-  <DyingLower>Ölüyor</DyingLower>
-  <FilthOnFeet>Ayaklardaki pislik:</FilthOnFeet>
-  <NotEnoughStoredLower>Yeteri kadar depolanmamış</NotEnoughStoredLower>
-  <NothingLower>Hiçbir şey</NothingLower>
-  <Adapted>Uyarlandı</Adapted>
-  <FreshMissingBodyPart>Yeni kaybolmuş vücut parçaları</FreshMissingBodyPart>
-  <DevelopedImmunityLower>developed immunity</DevelopedImmunityLower>
-  <NeedsTendingNow>Needs tending now</NeedsTendingNow>
-  <NextTreatmentIn>Will need tending in {0}</NextTreatmentIn>
-  <MissingMedicalBillIngredient>{0} yok</MissingMedicalBillIngredient>
-  <Immunity>Bağışıklık</Immunity>
-  <Race>Irk</Race>
-  <Description>Açıklama</Description>
-  <Equipment>Ekipman</Equipment>
-  <Apparel>Kıyafet</Apparel>
-  <Inventory>Envanter</Inventory>
-  <ThingInfo>Bilgi</ThingInfo>
-  <DropThing>Bırak</DropThing>
-  <Rename>Rename</Rename>
-  <RenameColonist>Yeniden isimlendir</RenameColonist>
-  <UnknownLower>Bilinmeyen</UnknownLower>
-  <On>Açık</On>
-  <Off>Kapalı</Off>
-  <PowerSwitch_Power>Güç anahtarı</PowerSwitch_Power>
-  <JoyTolerances>Eğlence tahammülü</JoyTolerances>
-  <MilkFullness>Süt bolluðu</MilkFullness>
-  <WoolGrowth>Yün yetiştirme</WoolGrowth>
-  <EggProgress>Yumurta gelişimi</EggProgress>
-  <Fertilized>Gübrelenmiş</Fertilized>
-  <ProgressStoppedUntilFertilized>Gelişme gübreleninceye kadar durdu.</ProgressStoppedUntilFertilized>
-  <SkillTooLow>Gereken {0} seviye {2}, sahip olunan {1}</SkillTooLow>
-  <Freezing>Freezing</Freezing>
-  <Overheating>Overheating</Overheating>
-  <RuinedByTemperature>Ruined by temperature.</RuinedByTemperature>
-  <CorpsePercentMissing>Kayıp vücut parçaları</CorpsePercentMissing>
-  <HiveReproducesIn>Yeniden üretme</HiveReproducesIn>
-  <BrokenDown>Bozulmuş</BrokenDown>
-  <BondBrackets>(bağlı)</BondBrackets>
-  <Fuel>Yakıt</Fuel>
-  <FuelLevelGizmoLabel>Fuel</FuelLevelGizmoLabel>
-  <SetTargetFuelLevel>Set target fuel level to {0}</SetTargetFuelLevel>
-  <SetPodLauncherTargetFuelLevel>Set target fuel level to {0}\nMax distance: {1} tiles</SetPodLauncherTargetFuelLevel>
-  <ConfiguredTargetFuelLevel>Target fuel level: {0}</ConfiguredTargetFuelLevel>
-  <Enemies>Düşmanlar</Enemies>
-  <TimePassed>Zaman geçti</TimePassed>
-  <CurrentRadius>şuanki çevre</CurrentRadius>
-  <RadiusExpandsIn>Çevre genişler</RadiusExpandsIn>
-  <Permanent>Kalıcı</Permanent>
-  <CaravanResting>Resting.</CaravanResting>
-  <CaravanEstimatedTimeToDestination>Est. time to destination: {0}</CaravanEstimatedTimeToDestination>
-  <CaravanImmobilizedByMass>Immobilized: too much weight.</CaravanImmobilizedByMass>
-  <CaravanOutOfFood>Out of food.</CaravanOutOfFood>
-  <CaravanDaysOfFood>Days of food: {0}</CaravanDaysOfFood>
-  <CaravanMemberMentalBreak>Stopped because: {0} has a mental break.</CaravanMemberMentalBreak>
-  <AllCaravanMembersDowned>Stopped because: everyone is downed.</AllCaravanMembersDowned>
-  <CaravanTraveling>Traveling.</CaravanTraveling>
-  <CaravanWaiting>Waiting.</CaravanWaiting>
-  <CaravanHoursPerTile>h/tile</CaravanHoursPerTile>
-  <CaravanBaseMovementTime>Base movement time</CaravanBaseMovementTime>
-  <CurrentTileMovementTime>Current tile movement time</CurrentTileMovementTime>
-  <Temperature>Sıcaklık</Temperature>
-  <BadTemperature>Kötü sıcaklık</BadTemperature>
-  <IdealFermentingTemperature>Mayalamak için uygun sıcaklık</IdealFermentingTemperature>
-  <DrugEffectMultiplier>{0} iki kat fazla etkiler</DrugEffectMultiplier>
-  <CaravanVisiting>Visiting {0}.</CaravanVisiting>
-  <CaravanEntering>Entering {0}.</CaravanEntering>
-  <CaravanAttacking>Attacking {0}.</CaravanAttacking>
-  <WasWornByCorpse>Was worn by a corpse.</WasWornByCorpse>
-  <WornByCorpseChar>D</WornByCorpseChar>
-  <DeterioratingDueToBeingUnroofed>Deteriorating due to being unroofed.</DeterioratingDueToBeingUnroofed>
-  <Map>Map</Map>
-  <ForceExitAndRemoveMapCountdown>{0} hours until leaving</ForceExitAndRemoveMapCountdown>
-  <ForceExitAndRemoveMapCountdownTip>Your colonists will automatically reform a caravan and leave this area after {0} hours.</ForceExitAndRemoveMapCountdownTip>
-  <Room>Room</Room>
-  <BeautyHere>Beauty here</BeautyHere>
-  <NoPower>No power</NoPower>
-  <WorkSpeedPenalty>Work speed penalty</WorkSpeedPenalty>
-  <DisabledCommand>DISABLED</DisabledCommand>
-  <ReadyForLaunch>Ready for launch.</ReadyForLaunch>
-  <NotReadyForLaunch>Not ready for launch</NotReadyForLaunch>
-  <NotAllInGroupConnectedToFuelingPort>no fueling port</NotAllInGroupConnectedToFuelingPort>
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>no fuel</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
-  <TransportPodInGroupHasSomethingLeftToLoad>loading in progress</TransportPodInGroupHasSomethingLeftToLoad>
-  <TransportPodDestinationBeyondMaximumRange>Beyond maximum range</TransportPodDestinationBeyondMaximumRange>
-  <TransportPodNotEnoughFuel>Not enough fuel</TransportPodNotEnoughFuel>
-  <FactionBaseTrader>{0} of {1}</FactionBaseTrader>
+-<LanguageData>
 
-  <!-- Fermentation barrel -->
-  <ContainsWort>İçerir {0} / {1} arpa mayası.</ContainsWort>
-  <ContainsBeer>İçeri {0} / {1} bira.</ContainsBeer>
-  <Fermented>Mayalanmış</Fermented>
-  <FermentationProgress>Gelişme: {0} ({1} içinde bitecek).</FermentationProgress>
-  <FermentationBarrelOutOfIdealTemperature>Uygun olmayan sıcaklık. Mayalaşma hızı: {0}</FermentationBarrelOutOfIdealTemperature>
+<!-- Various -->
 
-  <!--TextMotes-->
-  <Headshot>Kafadan vuruþ</Headshot>
-  <TextMote_TreatSuccess>Tedavi başarılı!\n{0} şans ile</TextMote_TreatSuccess>
-  <TextMote_TreatFailed>Tedavi başarısız\n{0} şans ile</TextMote_TreatFailed>
-  <HarvestFailed>Hasat\nfailed</HarvestFailed>
-  <TextMote_RecruitFail>İkna başarısız oldu!\n{0} şans ile</TextMote_RecruitFail>
-  <TextMote_TameFail>Evcilleştirme başarısız oldu\n{0} şans ile</TextMote_TameFail>
-  <TextMote_TameSuccess>Evcilleştirildi!\n{0} şans ile</TextMote_TameSuccess>
-  <TextMote_TrainFail>Eğitim başarısız oldu: {0}\n{1} şans ile</TextMote_TrainFail>
-  <TextMote_TrainSuccess>Eğitildi: {0}\n{1} şans ile</TextMote_TrainSuccess>
-  <TextMote_FixBrokenDownBuildingFail>Tamir\nbaşarısız oldu</TextMote_FixBrokenDownBuildingFail>
-  <TextMote_ConstructionFail>İnşaat\nbaşarısız oldu</TextMote_ConstructionFail>
 
-  <!-- Areas -->
-  <Home>Ev</Home>
-  <BuildRoof>Çatı yap</BuildRoof>
-  <NoRoof>Çatısız</NoRoof>
-  <SnowClear>Kar temizle</SnowClear>
-  <AreaDefaultLabel>Alan {0}</AreaDefaultLabel>
-  <AreaAnimalDefaultLabel>Hayvan alanı {0}</AreaAnimalDefaultLabel>
-  <NoAreaAllowed>Yasaklanmamış</NoAreaAllowed>
-  <NewArea>Yeni alan</NewArea>
-  <NewAreaAnimal>Yeni hayvan alanı</NewAreaAnimal>
-  <InvertArea>Tersini çevirmek</InvertArea>
+<HitPointsBasic>Sağlık</HitPointsBasic>
 
-  <!-- Kontrol -->
-  <CannotOrderNonControlled>kontrol edilmeyen birimlere emir veremezsin.</CannotOrderNonControlled>
-  <IsIncapableOfViolence>{0} şiddet uygulayamaz.</IsIncapableOfViolence>
-  <IsIncapableOfViolenceShort>şiddetten yoksun</IsIncapableOfViolenceShort>
-  <IsNotDrafted>{0} Hazır Değil.</IsNotDrafted>
-  
-  <!-- Kar -->
-  <SnowNone>Kar yok</SnowNone>
-  <SnowDusting>Kar (toz gibi)</SnowDusting>
-  <SnowThin>Kar (ince)</SnowThin>
-  <SnowMedium>Kar (orta)</SnowMedium>
-  <SnowThick>Kar (kalın)</SnowThick>
-  
-  <!-- Turrets -->
-  <GunInstalled>Kuruldu</GunInstalled>
-  <MinimumRange>En az menzil</MinimumRange>
-  <CanFireIn>Saniye sonra ateş edebilir</CanFireIn>
-  <ShellLoaded>Top mermisi dolduruldu</ShellLoaded>
-  <ShellNotLoaded>Doldurulmamış</ShellNotLoaded>
-  
-  <!-- Job reports -->
-  <ReportHaulingTo>{0}'ý {1}'e taşıyor.</ReportHaulingTo>
-  <ReportHauling>{0}'a taşıyor.</ReportHauling>
-  <ReportSleeping>Uyuyor.</ReportSleeping>
-  <ReportResting>Dinleniyor.</ReportResting>
-  <WatchingSunrise>Güneş doğumunu izliyor</WatchingSunrise>
-  <CloudWatching>Bulutları izliyor</CloudWatching>
-  <WatchingSunset>Gün batımını izliyor</WatchingSunset>
-  <Stargazing>Yıldızları izliyor</Stargazing>
-  <WatchingEclipse>Güneş tutulmasını izliyor</WatchingEclipse>
-  <UsingVerb>kullanıyor {0}'ı {1}'in üstünde.</UsingVerb>
-  <AreaLower>Alan</AreaLower>
-  <ReportCowering>Siper alıyor.</ReportCowering>
-  <ReportStanding>Duruyor.</ReportStanding>
-  <ReportExtinguishingFire>Ateşi söndürüyor.</ReportExtinguishingFire>
-  <ReportExtinguishingFireOn>Ateşi söndürüyor on {0}.</ReportExtinguishingFireOn>
+<WorkLeft>Kalan İş</WorkLeft>
 
-    <!-- Lord job reports -->
-  <LordReportAttendingMarriageCeremony>Düğün törenine katılıyor</LordReportAttendingMarriageCeremony>
-  <LordReportAttendingParty>Partiye katılıyor</LordReportAttendingParty>
+<Contents>İçindekiler</Contents>
 
-  <!-- Shooting report -->
-  <WeaponMissRadius>Silahın ıskalama yarıçapı</WeaponMissRadius>
-  <ShootReportShooterAbility>Nişancı</ShootReportShooterAbility>
-  <ShootReportWeapon>Silah</ShootReportWeapon>
-  <Darkness>Karanlık</Darkness>
-  <TargetProne>Hedef yüzükoyun yatmış</TargetProne>
-  <TargetSize>Hedef boyutu</TargetSize>
-  <Weather>Hava</Weather>
-  <ShootingCover>Korunma</ShootingCover>
-  <CoverThingBlocksPercentOfShots>{0} Dur {1}</CoverThingBlocksPercentOfShots>
-  <NoCoverLower>koruma yok</NoCoverLower>
-  <Execution>Execution</Execution>
-	
-  <!-- Generated recipes -->
-  <RecipeMake>{0} tane yap</RecipeMake>
-  <RecipeMakeJobString>{0} tane yapıyor.</RecipeMakeJobString>
-  <RecipeAdminister>administer {0}</RecipeAdminister>
-  <RecipeAdministerJobString>Administering {0}.</RecipeAdministerJobString>
+<ContainedResources>İçerdiği Kaynaklar</ContainedResources>
 
-  <!-- Thoughts -->
-  <ThoughtExpiresIn>Sona eriyor: {0}</ThoughtExpiresIn>
-  <ThoughtStartsExpiringIn>{0} gün sonra bitmeye baþlýyor.</ThoughtStartsExpiringIn>
-  <ThoughtFinishesExpiringIn>{0} gün sonra bitecek.</ThoughtFinishesExpiringIn>
-  <MentalBreakThresholdExtreme>Psikolojisi kırılma eşiğine çok yakın</MentalBreakThresholdExtreme>
-  <MentalBreakThresholdMajor>Psikolojisi kırılma eşiğinde</MentalBreakThresholdMajor>
-  <MentalBreakThresholdMinor>Psikolojisinin kırılma eşiğinin riski düşük</MentalBreakThresholdMinor>
+<ForPrisonerUse>Mahkumlar İçin</ForPrisonerUse>
 
-  <!-- Pawn info readout -->
-  <PawnMainDescGendered>{0} {1}</PawnMainDescGendered>
-  <PawnMainDescFactionedWrap>{0} of {1}</PawnMainDescFactionedWrap>
-  <PawnMainDescLifestageWrap>{1} {0}</PawnMainDescLifestageWrap>
-  <Faction>Grup</Faction>
-  <Equipped>Donatılmış</Equipped>
-  <EquippedNothing>Hiç</EquippedNothing>
-  <Dead>Dead</Dead>
-  <Unconscious>Unconscious</Unconscious>
-  <PainShock>In shock due to pain</PainShock>
-  <Incapacitated>Alıkoyulmuş</Incapacitated>
-  <InRestraints>Kısıtlanmış (yavaşladı)</InRestraints>
-  <Carrying>Taşıyor</Carrying>
+<InPrisonCell>In prison cell: For prisoner use</InPrisonCell>
 
-  <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Aynı karede bir sonraki şeyi seç.\n\nKısayol tuşu: {0}\n\nAynı zamanda bunu aynı kareye tıklayarak da yapabilirsin.</SelectNextInSquareTip>
-  <DefInfoTip>Bu nesneyle ilgili bilgileri gör.</DefInfoTip>
-  
-  <!-- Inspector general stuff -->
-  <SelectNextInSquareTip>Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again.</SelectNextInSquareTip>
-  <DefInfoTip>View information about this object.</DefInfoTip>
+<ForColonistUse>Kolonist İçin</ForColonistUse>
 
-  <!-- like 'Blood of John' -->
-  <OfLower>of</OfLower>
+<MedicalBed>Tıbbi Yatak</MedicalBed>
 
-  <!-- Power readout -->
-  <PowerNotConnected>Güç bağlı değil.</PowerNotConnected>
-  <PowerConnectedRateStored>Bağlı oran/saklanan: {0} W / {1} Wd</PowerConnectedRateStored>
-  <PowerNeeded>Güç gerekli</PowerNeeded>
-  <PowerOutput>Güç çıkışı</PowerOutput>
-  <PowerBatteryStored>Saklanan</PowerBatteryStored>
-  <PowerBatteryEfficiency>Verimlilik</PowerBatteryEfficiency>
+<Owner>Sahip</Owner>
 
-  <!-- Temperature control -->
-  <TargetTemperature>Hedef sıcaklık</TargetTemperature>
-  <PowerConsumptionMode>Mevcut güç kullanımı</PowerConsumptionMode>
-  <PowerConsumptionHigh>Yüksek</PowerConsumptionHigh>
-  <PowerConsumptionLow>Düşük</PowerConsumptionLow>
-  
-  <!-- Temperature readout -->
-  <Indoors>iç Mekan</Indoors>
-  <IndoorsUnroofed>Çatısız</IndoorsUnroofed>
-  <Outdoors>Dış Mekan</Outdoors>
-  
-  <!--Rotting-->
-  <RotStateFresh>Taze</RotStateFresh>
-  <RotStateRotting>Çürüyor</RotStateRotting>
-  <RotStateDessicated>Kurumuş</RotStateDessicated>
-	
-  <!-- Shooting tooltip -->
-  <ShotBy>{0} tarafından vuruldu.</ShotBy>
-  <CannotHit>Hedefi vuramaz.</CannotHit>
+<Owners>Sahipler</Owners>
 
-  <!-- Rotting -->
-  <CurrentlyFrozen>Donmuş (Bozulmaz)</CurrentlyFrozen>
-  <CurrentlyRefrigerated>Soğutulmuş (Bozulmasına {0})</CurrentlyRefrigerated>
-  <NotRefrigerated>Soðutulmamýþ (Bozulmasýna {0})</NotRefrigerated>
-  <OverADecade>10 yıldan fazla</OverADecade>
-  <LessThanADay>less than a day</LessThanADay>
- 
-  <!-- Meal -->
-  <Ingredients>Malzemeler</Ingredients>
+<AssignedColonist>Atanan kolonist</AssignedColonist>
 
-  <!-- Plants -->
-  <PercentGrowth>{0} büyümüþ</PercentGrowth>
-  <GrowthRate>Büyüme oranı</GrowthRate>
-  <FullyGrownIn>{0} günde tamamen büyüyecek.</FullyGrownIn>
-  <PlantNeedsLightLevel>Işık seviyesine ihtiyacı var</PlantNeedsLightLevel>
-  <PlantResting>Dinleniyor</PlantResting>
-  <OutOfIdealTemperatureRange>İdeal büyüme sıcaklığı dışında (normal hızının {0}% hızýıla büyüyor)</OutOfIdealTemperatureRange>
-  <OutOfIdealTemperatureRangeNotGrowing>İdeal büyüme sıcaklığı dışında (büyümüyor)</OutOfIdealTemperatureRangeNotGrowing>
-  <ReadyToHarvest>Hasat edilmeye hazır.</ReadyToHarvest>
-  <Mature>Olgun.</Mature>
-  <OutdoorGrowingPeriod>Büyüme dönemi: {0}</OutdoorGrowingPeriod>
-  <NoGrowingPeriod>Asla</NoGrowingPeriod>
-  <GrowYearRound>Yıl boyunca</GrowYearRound>
-  <GrowSeasonHereNow>şu an büyüme mevsimi.</GrowSeasonHereNow>
-  <CannotGrowBadSeasonTemperature>Cannot grow (bad seasonal temperature).</CannotGrowBadSeasonTemperature>
+<DiedOn>Died on the {0}</DiedOn>
 
-  <!-- Bölgeler -->
-  <Zone>Bölge</Zone>
-  <GrowingZone>Yetiştirme Bölgesi</GrowingZone>
-  <Stockpile>Stok Alanı</Stockpile>
-  <DumpingStockpile>Çöp Alanı</DumpingStockpile>
-  <Priority>Öncelik</Priority>
-  <ClearAll>Hepsini temizle</ClearAll>
-  <AllowAll>Hepsine izin ver</AllowAll>
+<Nobody>Kimse</Nobody>
 
-  <!-- ThingFilter -->
-  <HitPoints>{0} vuruş puanı</HitPoints>
-  <AnyQuality>her kalite</AnyQuality>
-  <OnlyQuality>{0} sadece</OnlyQuality>
+<Unowned>Sahipsiz</Unowned>
 
-  <!-- Mouseover indicator -->
-  <Undiscovered>Keşfedilmemiş</Undiscovered>
-  
-  <!-- Buttons -->
-  <ShowLearningHelperWhenEmptyToggleButton>Öðretici yardımı boş olduğunda görünürlüğünü aç-kapa.\n\nEğer öğrenebilmek için bir konsept aktif edildise,öğretici yardım herzaman görünür olacaktır.Bu aç-kapa butonu onu konsept aktif olmadığında görünmez kılar.</ShowLearningHelperWhenEmptyToggleButton>
-  <ZoneVisibilityToggleButton>Bölgelerin görünebilmesini aç/kapa.</ZoneVisibilityToggleButton>
-  <ShowEnvironmentToggleButton>Toggle the environment display.\n\nDisplays the beauty and room stats of the environment as would be perceived by a character standing where the mouse is pointing.</ShowEnvironmentToggleButton>
-  <ShowColonistBarToggleButton>Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.</ShowColonistBarToggleButton>
-  <AutoHomeAreaToggleButton>Toggle automatically expanding the home area around new constructions.</AutoHomeAreaToggleButton>
-  <CategorizedResourceReadoutToggleButton>Toggle categorized mode on the resource readout.</CategorizedResourceReadoutToggleButton>
-  <ShowAnimalNamesToggleButton>Toggle displaying animal names for tame named animals.</ShowAnimalNamesToggleButton>
-  <ShowRoofOverlayToggleButton>Toggle visiblity of roofs.</ShowRoofOverlayToggleButton>
-  <LockNorthUpToggleButton>Lock the rotation of the camera so the north pole is always up.</LockNorthUpToggleButton>
-  <UsePlanetDayNightSystemToggleButton>Toggle day/night lighting system.</UsePlanetDayNightSystemToggleButton>
-  <ExpandingIconsToggleButton>Toggle displaying expanding icons instead of the regular icons for distant objects.</ExpandingIconsToggleButton>
+<DeadTime>{0} önce öldü</DeadTime>
 
-  <!-- Fire -->
-  <Fire>Ateş</Fire>
-  <FireOn>{0}'e ateş et</FireOn>
-  <Burning>Yanıyor</Burning>
-  <FireSizeLower>Ateş boyutu {0}</FireSizeLower>
- 
-  <!-- Map conditions (eclipse, solar flare, etc )-->
-  <MapConditionsTip>şuanda bölgeyi etkileyen özel þartlar.</MapConditionsTip>
-  <TimeLeft>time left</TimeLeft>
-  <ImpactDate>impact date</ImpactDate>
+<WalkSpeed>Yürüme Hızı {0}</WalkSpeed>
 
-  <!-- Building placement -->
-  <NoStuffsToBuildWith>Bunu inşa etmek için kullanılabilir malzemeye sahip değilsin.</NoStuffsToBuildWith>
+<FertShort>Verimlilik</FertShort>
 
-  <!-- Building placement restricters -->
-  <WillGetWorkSpeedPenalty>{0} will have work speed penalty</WillGetWorkSpeedPenalty>
-  <MustPlaceUnroofed>Çatının altına yerleştirilemez.</MustPlaceUnroofed>
-  <MustPlaceHeadOnShipBeam>Baş kısmı Gemi Yapım Işığı temas etmeli.</MustPlaceHeadOnShipBeam>
-  <MustPlaceNextToHopperAccepter>Huni gerektiren birşeyin yakınına kurulmalı.</MustPlaceNextToHopperAccepter>
-  <MustPlaceOnSteamGeyser>Direkt olarak buhar gayzerinin üstüne yerleştirilmesi gerek.</MustPlaceOnSteamGeyser>
-  <MustPlaceCoolerWithFreeSpaces>Soğutucunun sıcak ve soğuk tarafı da açık olmalı.</MustPlaceCoolerWithFreeSpaces>
-  <MustPlaceVentWithFreeSpaces>Hava geçiği için iki tarafı da açık olmalı.</MustPlaceVentWithFreeSpaces>
-  <MustPlaceAdjacentStandable>Tüm kenarlarında ayakta durulabilecek şekilde yerleştirilmeli.</MustPlaceAdjacentStandable>
-  <MustPlaceNearFuelingPort>Must be placed next to a pod launcher's fueling port.</MustPlaceNearFuelingPort>
-	
-  <!-- Wind Turbine -->
-  <WindTurbine_WindPathIsBlockedBy>tarafından engelleniyor.</WindTurbine_WindPathIsBlockedBy>
-  <WindTurbine_WindPathIsBlockedByRoof>Çatı tarafından engelleniyor.</WindTurbine_WindPathIsBlockedByRoof>
+<DyingLower>Ölüyor</DyingLower>
 
-  <!-- Cryptosleep casket -->
-  <CasketContains>İçerik</CasketContains>
-  <CasketWarning>Dikkat!\n\n[PAWN_nameDef] senin kalan son kolonistin! Eðer onu da uykuya gönderirsen oynamaya devam edemeyebilirsin. Devam etmek istiyormusun? </CasketWarning>
+<FilthOnFeet>Ayakları kirli:</FilthOnFeet>
 
-  <!-- Ship launch report -->
-  <ShipReportCannotLaunch>Kalkış yapamıyor.</ShipReportCannotLaunch>
-  <ShipReportCanLaunch>Kalkış için hazır.</ShipReportCanLaunch>
-  <ShipReportMissingPart>Kritik bir parça eksik.</ShipReportMissingPart>
-  <ShipReportNoFullPods>KriptoPodlar boþ</ShipReportNoFullPods>
+<NotEnoughStoredLower>Kaynak Yeterli değil</NotEnoughStoredLower>
 
-  <!-- Neurotrainer -->
-  <NeurotrainerUsed>{0} {1} neurotrainer'ını {2} seviyesinden {3} seviyesine atlamak için kullandı.</NeurotrainerUsed>
-  
-  <!-- Minification -->
-  <Installed>Kurulmuş</Installed>
-  <NotInstalled>Kurulmamış</NotInstalled>
+<NothingLower>Yok</NothingLower>
 
-  <!-- Art -->
-  <Title>Başlık</Title>
-  <Untitled>isimsiz</Untitled>
-  
-  <!-- Unfinished thing -->
-  <UnfinishedItem>Bitmemiş {0}</UnfinishedItem>
-  <UnfinishedItemWithStuff>Bitmemiş {0} {1}</UnfinishedItemWithStuff>
+<Adapted>Adapte Oldu</Adapted>
 
-  <!-- Quality -->
-  <Quality>Kalite</Quality>
-  <QualityDescription>Bir eşyanın kalitesi ne kadar iyi yapıldığını belirtir.</QualityDescription>
-  <QualityIs>Kalite: {0}</QualityIs>
-    
-  <!-- Mood descriptions -->
-  <Mood_Broken>Çökmüş</Mood_Broken>
-  <Mood_AboutToBreak>Çökmek üzere</Mood_AboutToBreak>
-  <Mood_OnEdge>Sınırda</Mood_OnEdge>
-  <Mood_Stressed>Stresli</Mood_Stressed>
-  <Mood_Neutral>Nötr</Mood_Neutral>
-  <Mood_Content>Olumlu</Mood_Content>
-  <Mood_Happy>Mutlu</Mood_Happy>
-  
-  <!-- Game over -->
-  <GameOverEveryoneDead>Herkes öldü veya terketti. Hikaye bitti.\n\nBelkide başkaları bu harabe için bir kullanış bulabilir.</GameOverEveryoneDead>
-  <GameOverShipLaunched>Gemi kalkış yaptı! şu kolonistler kaçtı:\n\n{0}\şu kolonistler geride bırakıldı:\n\n{1}\nşimdi YZ seni ve gemini güvenli bir yere teslim edecek. Seni bu sistemdeki daha iyi bir gezegene götürebilir. Yada başka bir yıldıza gidecek yüzyıllar süren bir yolculuğa çıkartabilir. Hatta belki de küçük bir asteroidin üzerindeki buzda, tarihin daha iyi bir kısmını, bekleyebilir.\n\nSadece uyandığın zaman hangisi olduðunu bileceksin.</GameOverShipLaunched>
-  <GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive.</GameOverPlanetkillerImpact>
-  <GameOverArrivedAtJourneyDestination>As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up.</GameOverArrivedAtJourneyDestination>
-  <GameOverKeepPlaying>Oynamaya devam et.</GameOverKeepPlaying>
-  <GameOverMainMenu>Ana Menü</GameOverMainMenu>
-  
-  <!-- Generic lifespan -->
-  <LifespanExpiry>: bitiyor</LifespanExpiry>
-  
-  <!-- Traps -->
-  <TrapArmed>Silahlandırılmış</TrapArmed>
-  <TrapNotArmed>Silahlandırılmamış</TrapNotArmed>
-  <TrapRearmingCost>Silahlandırma bedeli: {0}</TrapRearmingCost>
-  
-  <!-- Facilities -->
-  <InactiveFacility>Devre dışı</InactiveFacility>
- 
-  <!-- Hediffs growth modes -->
-  <DiseaseGrowthModeChanged_Growing>{0}'s {1} şimdi büyüyor</DiseaseGrowthModeChanged_Growing>
-  <DiseaseGrowthModeChanged_Stable>{0}'s {1} şimdi sabit</DiseaseGrowthModeChanged_Stable>
-  <DiseaseGrowthModeChanged_Remission>{0}'s {1} şimdi vazgeçiyor.</DiseaseGrowthModeChanged_Remission>
-  
-  <!-- Marriage spot -->
-  <MarriageSpotUsable>Kullanılabilir.</MarriageSpotUsable>
-  <MarriageSpotNotUsable>Kullanılamaz.</MarriageSpotNotUsable>
-  <MarriageSpotNotStandable>kapalı</MarriageSpotNotStandable>
-  <MarriageSpotDangerous> {0} için çok tehlikeli</MarriageSpotDangerous>
-  <MarriageSpotForbidden> {0} kadar dokunulmaz</MarriageSpotForbidden>
-  <MarriageSpotReserved>rezerve edilmiş</MarriageSpotReserved>
-  <MarriageSpotUnreachable> {0} kadar ulaşılamaz</MarriageSpotUnreachable>
-  <MarriageSpotInPrisonCell>hücrede</MarriageSpotInPrisonCell>
-  <NotEnjoyableOutsideTemperature>rahat olmayan ısı</NotEnjoyableOutsideTemperature>
-  
-  <!-- Colonist bar -->
-  <ActivityIconMedicalRest>İstirahat ediyor</ActivityIconMedicalRest>
-  <ActivityIconSleeping>Uyuyor</ActivityIconSleeping>
-  <ActivityIconFleeing>Kaçıyor</ActivityIconFleeing>
-  <ActivityIconAttacking>Dövüşüyor</ActivityIconAttacking>
-  <ActivityIconIdle>Boş</ActivityIconIdle>
-  <ActivityIconBurning>Yanıyor</ActivityIconBurning>
+<FreshMissingBodyPart>taze</FreshMissingBodyPart>
 
-  <!-- Maintainable -->
-  <DueForMaintenance>Due for maintenance.</DueForMaintenance>
-  <DeterioratingDueToLackOfMaintenance>Deteriorating due to lack of maintenance.</DeterioratingDueToLackOfMaintenance>
-  
-  <!-- Deep drill -->
-  <ProgressToNextLump>Diğer kaynağa geç</ProgressToNextLump>
-  <ResourceBelow>Aşağıdaki kaynak</ResourceBelow>
-  
-  <!-- Learning helper -->
-  <LearningHelper>Öğretici</LearningHelper>
-  <MarkLearned>Öğrenildi olarak işaretle</MarkLearned>
-  <AlreadyLearned>Çoktan öğrenildi</AlreadyLearned>
-  <Filter>Filter</Filter>
-	
-  <!-- Compass -->
-  <CompassTip>Shows the north direction. Click to rotate the camera so the north pole is up.</CompassTip>
+<DevelopedImmunityLower>gelişmiş bağışıklık</DevelopedImmunityLower>
 
+<NeedsTendingNow>Hemen tedavi gerekiyor</NeedsTendingNow>
+
+<CanTendNow>Şimdi tedavi edilebilir</CanTendNow>
+
+<TreatmentExpiresIn>Tedavi {0} sonra sona eriyor</TreatmentExpiresIn>
+
+<NextTendIn>Sonraki tedavi {0} gün sonra</NextTendIn>
+
+<TendQuality>Tedavi kalitesi</TendQuality>
+
+<MissingMedicalBillIngredient>{0} yok</MissingMedicalBillIngredient>
+
+<Immunity>Bağışıklık</Immunity>
+
+<Race>Irk</Race>
+
+<Description>Tanım</Description>
+
+<Equipment>Donanım</Equipment>
+
+<Apparel>Kıyafet</Apparel>
+
+<Inventory>Envanter</Inventory>
+
+<ThingInfo>Bilgi</ThingInfo>
+
+<DropThing>Bırak</DropThing>
+
+<Rename>Yeniden Adlandır</Rename>
+
+<RenameAnimal>Hayvanı yeniden adlandır</RenameAnimal>
+
+<RenameColonist>Kolonisti yeniden adlandır</RenameColonist>
+
+<UnknownLower>Bilinmiyor</UnknownLower>
+
+<On>Açık</On>
+
+<Off>Kapalı</Off>
+
+<PowerSwitch_Power>Akım</PowerSwitch_Power>
+
+<JoyTolerances>Eğlence Toleransı</JoyTolerances>
+
+<MilkFullness>Süt dolgunluğu</MilkFullness>
+
+<WoolGrowth>Yünlerin büyümesi</WoolGrowth>
+
+<EggProgress>Yumurtlama</EggProgress>
+
+<Fertilized>Döllenmiş</Fertilized>
+
+<ProgressStoppedUntilFertilized>İlerleme döllenene kadar durdu</ProgressStoppedUntilFertilized>
+
+<SkillTooLow>{0} seviye {2} gerekli, sahip olunan seviye {1}</SkillTooLow>
+
+<Freezing>Donma</Freezing>
+
+<Overheating>Aşırı ısınma</Overheating>
+
+<RuinedByTemperature>Sıcaklık bozuldu.</RuinedByTemperature>
+
+<CorpsePercentMissing>Eksik vücut parçaları</CorpsePercentMissing>
+
+<HiveReproducesIn>içinde yeniden çoğalacak</HiveReproducesIn>
+
+<DormantHiveNotReproducing>Uyku Halinde: Tekrar üretmiyor.</DormantHiveNotReproducing>
+
+<NextSpawnedItemIn>Next {0} in</NextSpawnedItemIn>
+
+<BrokenDown>Kırık</BrokenDown>
+
+<BondBrackets>(tahvil)</BondBrackets>
+
+<Fuel>Yakıt</Fuel>
+
+<FuelLevelGizmoLabel>Yakıt</FuelLevelGizmoLabel>
+
+<SetTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla</SetTargetFuelLevel>
+
+<SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla\nMaksimum mesafe: {1} birim</SetPodLauncherTargetFuelLevel>
+
+<ConfiguredTargetFuelLevel>Hedef yakıt seviyesi: {0}</ConfiguredTargetFuelLevel>
+
+<Enemies>düşmanlar</Enemies>
+
+<TimePassed>zaman geçti</TimePassed>
+
+<CurrentRadius>mevcut yarıçap</CurrentRadius>
+
+<RadiusExpandsIn>radius expands in</RadiusExpandsIn>
+
+<Permanent>kalıcı</Permanent>
+
+<CaravanResting>Dinleniyor.</CaravanResting>
+
+<UsingBedroll>Bir adet uyku tulumu kullanılıyor</UsingBedroll>
+
+<UsingBedrolls>{0} adet uyku tulumu kullanılıyor</UsingBedrolls>
+
+<CaravanEstimatedTimeToDestination>Hedefe tahmini süre: {0} gün</CaravanEstimatedTimeToDestination>
+
+<CaravanEstimatedDaysToDestination>Tahmini varış günü: {0}</CaravanEstimatedDaysToDestination>
+
+<CaravanImmobilizedByMass>Hareket edemiyor: ağırlık çok fazla.</CaravanImmobilizedByMass>
+
+<CaravanOutOfFood>Yiyecek kalmadı.</CaravanOutOfFood>
+
+<CaravanDaysOfFood>Yiyeceklerin yetebileceği gün sayısı: {0}</CaravanDaysOfFood>
+
+<CaravanDaysOfFoodRot>Yeterli yiyecek: {0} gün ({1} gün içinde bozulacak)</CaravanDaysOfFoodRot>
+
+<AllCaravanMembersDowned>Durdu çünkü: herkes düştü.</AllCaravanMembersDowned>
+
+<AllCaravanMembersMentalBreak>Durdu çünkü: Herkes zihinsel kırılmanın eşiğinde.</AllCaravanMembersMentalBreak>
+
+<CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
+
+<CaravanAnimal>1 hayvan</CaravanAnimal>
+
+<CaravanAnimalsCount>{0} hayvan</CaravanAnimalsCount>
+
+<CaravanPrisoner>1 mahkum</CaravanPrisoner>
+
+<CaravanPrisonersCount>{0} mahkum</CaravanPrisonersCount>
+
+<CaravanPawnsInMentalState>{0} in mental state</CaravanPawnsInMentalState>
+
+<CaravanPawnsDowned>{0} düştü</CaravanPawnsDowned>
+
+<CaravanTraveling>Seyehat ediyor.</CaravanTraveling>
+
+<CaravanWaiting>Bekliyor.</CaravanWaiting>
+
+<BeingCarriedDueToIllness>Being carried due to illness</BeingCarriedDueToIllness>
+
+<UsingBedrollsDueToIllness>Using bedrolls due to illness</UsingBedrollsDueToIllness>
+
+<CurrentTileMovementTime>Geçerli hareket süresi</CurrentTileMovementTime>
+
+<Visibility>Visibility</Visibility>
+
+<Temperature>Sıcaklık</Temperature>
+
+<BadTemperature>Kötü sıcaklık</BadTemperature>
+
+<IdealFermentingTemperature>İdeal fermentasyon sıcaklığı</IdealFermentingTemperature>
+
+<DrugEffectMultiplier>{0} effect multiplier: {1}</DrugEffectMultiplier>
+
+<CaravanVisiting>{0} ziyaret ediyor.</CaravanVisiting>
+
+<CaravanEntering>{0} giriyor.</CaravanEntering>
+
+<CaravanAttacking>{0} saldırıyor.</CaravanAttacking>
+
+<CaravanOfferingGifts>Offering gifts to {0}.</CaravanOfferingGifts>
+
+<WasWornByCorpse>Ölen kişinin üzerinden alındı.</WasWornByCorpse>
+
+<WornByCorpseChar>D</WornByCorpseChar>
+
+<DeterioratingUnroofed>açık alanda</DeterioratingUnroofed>
+
+<DeterioratingOutdoors>dışarıda</DeterioratingOutdoors>
+
+<DeterioratingBecauseOf>Kalitesi şu sebepten düşüyor</DeterioratingBecauseOf>
+
+<Map>Harita</Map>
+
+<ForceExitAndRemoveMapCountdown>Ayrılmaya {0} saat kaldı</ForceExitAndRemoveMapCountdown>
+
+<ForceExitAndRemoveMapCountdownTip>Kolonistlerin otomatik olarak bir kervanı kuracaklar ve bu alanı {0} saat sonra terk edecekler.</ForceExitAndRemoveMapCountdownTip>
+
+<Room>Oda</Room>
+
+<BeautyHere>Burası güzel</BeautyHere>
+
+<NoPower>Güç yok</NoPower>
+
+<WorkSpeedPenalty>İş hızı azalması</WorkSpeedPenalty>
+
+<DisabledCommand>ENGELLİ</DisabledCommand>
+
+<ReadyForLaunch>Fırlatılmaya hazır.</ReadyForLaunch>
+
+<NotReadyForLaunch>Fırlatılmaya hazır değil</NotReadyForLaunch>
+
+<NotAllInGroupConnectedToFuelingPort>yakıt istasyonu yok</NotAllInGroupConnectedToFuelingPort>
+
+<NotAllFuelingPortSourcesInGroupHaveAnyFuel>yakıt yok</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+
+<TransportPodInGroupHasSomethingLeftToLoad>Yükleme devam ediyor</TransportPodInGroupHasSomethingLeftToLoad>
+
+<TransportPodDestinationBeyondMaximumRange>Maksimum menzilin ötesinde</TransportPodDestinationBeyondMaximumRange>
+
+<TransportPodNotEnoughFuel>Yeterli yakıt yok</TransportPodNotEnoughFuel>
+
+<SettlementTrader>{1}'ın {0}'ı</SettlementTrader>
+
+<RoomSurgerySuccessChanceFactor>Odanın ameliyata etkisi</RoomSurgerySuccessChanceFactor>
+
+<RoomInfectionChanceFactor>Odadan enfeksiyon kapma oranı</RoomInfectionChanceFactor>
+
+<VentClosed>Kapalı</VentClosed>
+
+<WornBy>{1_labelShort} tarafından giyildi</WornBy>
+
+<EquippedBy>{1_labelShort} tarafından giyildi</EquippedBy>
+
+<QuestTargetDestroyInspectString>{0} wants this destroyed.\n Reward: {1} ({2})</QuestTargetDestroyInspectString>
+
+<WorldObjectTimeout>Kalan süre: {0}</WorldObjectTimeout>
+
+<ItemStashContents>İçindekiler: {0} ({1})</ItemStashContents>
+
+<ClickToSortByThisColumn>Sıralamak için tıkla.</ClickToSortByThisColumn>
+
+<WorkPriorityShiftClickTip>Shift + sol tık: Önceliği arttır\nShift + sağ tık: Önceliği düşür</WorkPriorityShiftClickTip>
+
+<WorkPriorityShiftClickEnableDisableTip>Shift + sol tık: Hepsini aç\nShift + sağ tık: Hepsini kapa</WorkPriorityShiftClickEnableDisableTip>
+
+<AllowedAreaShiftClickTip>Shift + sol tık: Set all to home\nShift + sağ tık: Set all to unrestricted</AllowedAreaShiftClickTip>
+
+<CheckboxShiftClickTip>Shift + click: Check all\nShift + right click: Uncheck all</CheckboxShiftClickTip>
+
+<KnownSiteThreat>Bilinin tehdit: {0}</KnownSiteThreat>
+
+<KnownSiteThreats>Bilinen tehditler: {0}</KnownSiteThreats>
+
+<KnownSiteThreatsNone>Tehditler: Bilinmiyor</KnownSiteThreatsNone>
+
+<SkillRequirements>Gerekli yetenekler</SkillRequirements>
+
+<Products>Üretimler</Products>
+
+<Relationship>{0} of {1}</Relationship>
+
+<Prisoner>Mahkum</Prisoner>
+
+<Refugee>Mülteci</Refugee>
+
+<TileMovementDifficulty>Zemin yürüme zorluğu</TileMovementDifficulty>
+
+<Impassable>Geçilemez</Impassable>
+
+<CaravanMovementSpeedFull>Kervan hareket hızı</CaravanMovementSpeedFull>
+
+<DownedLower>downed</DownedLower>
+
+<Carried>carried</Carried>
+
+<AverageCaravanMemberMoveSpeed>Ort. üyelerin hızı:</AverageCaravanMemberMoveSpeed>
+
+<MultiplierForCarriedMass>Taşınan kütle için çarpan: {0}</MultiplierForCarriedMass>
+
+<FinalCaravanPawnsMovementSpeed>Kervan üyelerinin hızı</FinalCaravanPawnsMovementSpeed>
+
+<FinalCaravanMovementSpeed>Maks. Hız</FinalCaravanMovementSpeed>
+
+<Winter>Kış</Winter>
+
+<MovementDifficultyOffsetInWinter>{0} in winter</MovementDifficultyOffsetInWinter>
+
+<RangeTo>-</RangeTo>
+
+<NoDietCategoryLetter>Mesaj yok</NoDietCategoryLetter>
+
+<ExpiresIn>Bozulmaya kalan süre</ExpiresIn>
+
+<CaravanLeaderCaravanName>{1_labelShort}'nin kervanı</CaravanLeaderCaravanName>
+
+<Reason>Sebep</Reason>
+
+<RelationsWith>{0} ile ilişkisi</RelationsWith>
+
+<capturedBy>{0} tarafından ele geçirildi</capturedBy>
+
+<yourCaravan>Senin Kervanın</yourCaravan>
+
+<CreatureWildness>{0} vahşilik oranı</CreatureWildness>
+
+<CreatureTrainability>{0} eğitilebilirliği</CreatureTrainability>
+
+<ProximitySingleGoodwillChange>{0} ile {1}</ProximitySingleGoodwillChange>
+
+<EnterCooldown>{0} gün içinde tekrar giremez.</EnterCooldown>
+
+<Caravan>Kervan</Caravan>
+
+<HiddenOrNoSitePartDescription>tehlikeli olabilir</HiddenOrNoSitePartDescription>
+
+<PreciousLumpLabel>lump of {0}</PreciousLumpLabel>
+
+<NoActiveResearchProjectToFinish>aktif araştırma yok</NoActiveResearchProjectToFinish>
+
+<Turret>taret</Turret>
+
+<Turrets>taretler</Turrets>
+
+<Mortar>havan topu</Mortar>
+
+<Mortars>havan topları</Mortars>
+
+<Enemy>düşman</Enemy>
+
+<!-- Fermentation barrel -->
+
+
+<ContainsWort>Contains {0} / {1} wort.</ContainsWort>
+
+<ContainsBeer>Contains {0} / {1} beer.</ContainsBeer>
+
+<Fermented>Fermente edilmiş</Fermented>
+
+<FermentationProgress>İlerleme: {0} ({1} kaldı)</FermentationProgress>
+
+<FermentationBarrelOutOfIdealTemperature>Uygun olmayan sıcaklık. Fermantasyon hızı: {0}</FermentationBarrelOutOfIdealTemperature>
+
+<!-- TextMotes -->
+
+
+<Headshot>Tam Kafadan</Headshot>
+
+<TextMote_TreatSuccess>{0} şans ile tedavi başarılı oldu</TextMote_TreatSuccess>
+
+<TextMote_TreatFailed>{0} şans ile tedavi başarısız oldu</TextMote_TreatFailed>
+
+<TextMote_HarvestFailed>Hasat ziyan oldu</TextMote_HarvestFailed>
+
+<TextMote_YieldWasted>Verim ziyan oldu</TextMote_YieldWasted>
+
+<TextMote_ProductWasted>Üretim başarısız oldu</TextMote_ProductWasted>
+
+<TextMote_RecruitFail>{0} şans ile koloniye alınamadı</TextMote_RecruitFail>
+
+<TextMote_ResistanceReduced>Resistance\n{0} to {1}</TextMote_ResistanceReduced>
+
+<TextMote_TameFail>{0} şans ile evcilleştirilemedi</TextMote_TameFail>
+
+<TextMote_TameSuccess>{0} şans ile evcilleştirildi</TextMote_TameSuccess>
+
+<TextMote_TrainFail>{1} şans ile {0} eğitimi başarısız oldu</TextMote_TrainFail>
+
+<TextMote_TrainSuccess>{1} şans ile {0} eğitimi başarılı oldu </TextMote_TrainSuccess>
+
+<TextMote_FixBrokenDownBuildingFail>Onarım başarısız oldu</TextMote_FixBrokenDownBuildingFail>
+
+<TextMote_ConstructionFail>Inşaat başarısız oldu</TextMote_ConstructionFail>
+
+<TextMote_Dodge>Iska</TextMote_Dodge>
+
+<TextMote_Tended>{0} tedavi edildi</TextMote_Tended>
+
+<lowMood>düşük ruh hali</lowMood>
+
+<lowOpinion>low opinion</lowOpinion>
+
+<!-- Areas -->
+
+
+<Home>Ev</Home>
+
+<BuildRoof>Çatı inşa et</BuildRoof>
+
+<NoRoof>Çatı yok</NoRoof>
+
+<SnowClear>Karı temizle</SnowClear>
+
+<AreaDefaultLabel>Varsayılan bölge:{0}</AreaDefaultLabel>
+
+<NoAreaAllowed>Serbest</NoAreaAllowed>
+
+<NewArea>Yeni bölge</NewArea>
+
+<InvertArea>Tersine Çevir</InvertArea>
+
+<!-- Control -->
+
+
+<CannotOrderNonControlled>Kontrol edilemeyen birimlere emir veremezsin.</CannotOrderNonControlled>
+
+<IsIncapableOfViolence>{1_labelShort} şiddet uygulayamaz.</IsIncapableOfViolence>
+
+<IsIncapableOfViolenceShort>şiddet uygulayamaz</IsIncapableOfViolenceShort>
+
+<IsNotDrafted>{1_labelShort} saldırı modunda değil.</IsNotDrafted>
+
+<!-- Snow -->
+
+
+<SnowNone>Kar Yok</SnowNone>
+
+<SnowDusting>Kar (toz)</SnowDusting>
+
+<SnowThin>Kar (ince)</SnowThin>
+
+<SnowMedium>Kar (normal)</SnowMedium>
+
+<SnowThick>Kar (kalın)</SnowThick>
+
+<!-- Turrets -->
+
+
+<GunInstalled>Yüklü</GunInstalled>
+
+<MinimumRange>En Düşük Menzil</MinimumRange>
+
+<CanFireIn>Ateş Edilebilir</CanFireIn>
+
+<CannotFire>Ateş Edilemez</CannotFire>
+
+<Roofed>üstü kapalı</Roofed>
+
+<ShellLoaded>Havan mermisi yüklü: {1_label}</ShellLoaded>
+
+<ShellNotLoaded>Havan mermisi yüklü değil</ShellNotLoaded>
+
+<!-- Job reports -->
+
+
+<ReportHaulingTo>{THING_label}'ı {DESTINATION}'a taşıyor.</ReportHaulingTo>
+
+<ReportHauling>{1_label}'ı taşıyor.</ReportHauling>
+
+<ReportHaulingUnknown>Taşıyor.</ReportHaulingUnknown>
+
+<ReportSleeping>Uyuyor.</ReportSleeping>
+
+<ReportResting>Dinleniyor.</ReportResting>
+
+<WatchingSunrise>Gündoğumunu izliyor.</WatchingSunrise>
+
+<CloudWatching>Bulutları izliyor.</CloudWatching>
+
+<WatchingSunset>Günbatımını izliyor.</WatchingSunset>
+
+<Stargazing>Hayal kuruyor.</Stargazing>
+
+<WatchingEclipse>Tutulmayı izliyor.</WatchingEclipse>
+
+<WatchingAurora>Şafağa bakıyor.</WatchingAurora>
+
+<UsingVerb>{1}'da {0} kullanıyor.</UsingVerb>
+
+<AreaLower>bölge</AreaLower>
+
+<ReportCowering>çömeliyor.</ReportCowering>
+
+<ReportStanding>duruyor.</ReportStanding>
+
+<ReportExtinguishingFire>yangın söndürüyor.</ReportExtinguishingFire>
+
+<ReportExtinguishingFireOn>{TARGET_label}'ın üzerindeki ateşi söndürüyor.</ReportExtinguishingFireOn>
+
+<ReportDiggingUpCorpse>Ceset kazıyor.</ReportDiggingUpCorpse>
+
+<!-- Lord job reports -->
+
+
+<LordReportAttendingMarriageCeremony>Evlilik törenine katılıyor</LordReportAttendingMarriageCeremony>
+
+<LordReportAttendingParty>Partiye katılıyor</LordReportAttendingParty>
+
+<LordReportFormingCaravan>Forming Caravan</LordReportFormingCaravan>
+
+<!-- Shooting report -->
+
+
+<WeaponMissRadius>Menzil Dışında</WeaponMissRadius>
+
+<ShootReportShooterAbility>Nişancı</ShootReportShooterAbility>
+
+<ShootReportWeapon>Silah</ShootReportWeapon>
+
+<Darkness>Karanlık</Darkness>
+
+<TargetProne>Eğilimli Hedef</TargetProne>
+
+<TargetSize>Hedef Boyutu</TargetSize>
+
+<Weather>Hava Durumu</Weather>
+
+<ShootingCover>Korumalı</ShootingCover>
+
+<CoverThingBlocksPercentOfShots>{COVER_label} durdurdu {1}</CoverThingBlocksPercentOfShots>
+
+<NoCoverLower>Korumasız</NoCoverLower>
+
+<Execution>İnfaz</Execution>
+
+<!-- Generated recipes -->
+
+
+<RecipeMake>{0} yap</RecipeMake>
+
+<RecipeMakeJobString>{0}'ı yapıyor.</RecipeMakeJobString>
+
+<RecipeAdminister>{0} yönet</RecipeAdminister>
+
+<RecipeAdministerJobString>{0}'ı yönetiyor.</RecipeAdministerJobString>
+
+<TeetotalerUnhappy>yeşilaycı mutsuz olacak</TeetotalerUnhappy>
+
+<ProsthophobeUnhappy>saf bedenci mutsuz olacak</ProsthophobeUnhappy>
+
+<!-- Thoughts -->
+
+
+<ThoughtExpiresIn>Etki süresi: {0}</ThoughtExpiresIn>
+
+<ThoughtStartsExpiringIn>Süresi dolmaya başlamasına:{0} kaldı</ThoughtStartsExpiringIn>
+
+<ThoughtFinishesExpiringIn>Sona ermesine:{0} kaldı</ThoughtFinishesExpiringIn>
+
+<MentalBreakThresholdExtreme>Son derece zihinsel çökündü eşiğinde</MentalBreakThresholdExtreme>
+
+<MentalBreakThresholdMajor>Ciddi zihinsel çökündü eşiğinde</MentalBreakThresholdMajor>
+
+<MentalBreakThresholdMinor>Hafif zihinsel çökündü eşiğinde</MentalBreakThresholdMinor>
+
+<!-- Pawn info readout -->
+
+
+<PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
+
+<PawnMainDescFactionedWrap>{1}in {0}i</PawnMainDescFactionedWrap>
+
+<PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
+
+<Faction>Koloni</Faction>
+
+<Equipped>Donanımı</Equipped>
+
+<EquippedNothing>Yok</EquippedNothing>
+
+<Dead>Ölü</Dead>
+
+<Unconscious>Bilinçsiz</Unconscious>
+
+<PainShock>Acı çektiği için şokta</PainShock>
+
+<PainShockShort>Acıdan şokta</PainShockShort>
+
+<Incapacitated>Alı Koyulmuş</Incapacitated>
+
+<InRestraints>Baskı Altında (az)</InRestraints>
+
+<Carrying>Taşıma</Carrying>
+
+<AffectedBy>Etkikendiği kişi:</AffectedBy>
+
+<Queued>Sırada</Queued>
+
+<State>Durum</State>
+
+<StunLower>sersemlemiş</StunLower>
+
+<!-- Inspector general stuff -->
+
+
+<SelectNextInSquareTip>Aynı alanda bir sonraki öğeyi seçer.\n\nKısayol tuşu: {0}\n\nTekrar tıklayarak öncekine geri dönebilirsin.</SelectNextInSquareTip>
+
+<DefInfoTip>Bu nesne hakkında bilgi görüntüler.</DefInfoTip>
+
+<!-- Hostility response -->
+
+
+<HostilityReponseTip>Kolonistler savaş moduna girmediğinde yakındaki düşmanlara nasıl tepki vereceklerini değiştirin.</HostilityReponseTip>
+
+<HostilityResponseCurrentMode>geçerli mod</HostilityResponseCurrentMode>
+
+<!-- like 'Blood of John' -->
+
+
+<OfLower>'ın</OfLower>
+
+<!-- Power readout -->
+
+
+<PowerNotConnected>Güce bağlı değil.</PowerNotConnected>
+
+<PowerConnectedRateStored>Bağlantı Değeri/Stok: {0} W / {1} Wd</PowerConnectedRateStored>
+
+<PowerNeeded>Gerekli Güç</PowerNeeded>
+
+<PowerOutput>Güç Çıkışı</PowerOutput>
+
+<PowerBatteryStored>Depolanan güç</PowerBatteryStored>
+
+<PowerBatteryEfficiency>Verimlilik</PowerBatteryEfficiency>
+
+<SelfDischarging>Kendini deşasj ediyor</SelfDischarging>
+
+<!-- Temperature control -->
+
+
+<TargetTemperature>Hedef Sıcaklık</TargetTemperature>
+
+<PowerConsumptionMode>Geçerli Güç Kullanımı</PowerConsumptionMode>
+
+<PowerConsumptionHigh>Yüksek</PowerConsumptionHigh>
+
+<PowerConsumptionLow>Düşük</PowerConsumptionLow>
+
+<!-- Temperature readout -->
+
+
+<Indoors>İçerisi</Indoors>
+
+<IndoorsUnroofed>Çatısız</IndoorsUnroofed>
+
+<Outdoors>Dışarısı</Outdoors>
+
+<!-- Rotting -->
+
+
+<RotStateFresh>Taze</RotStateFresh>
+
+<RotStateRotting>Çürümüş</RotStateRotting>
+
+<RotStateDessicated>İskeletleşmiş</RotStateDessicated>
+
+<CurrentlyFrozen>Donmuş (Bozulmaz)</CurrentlyFrozen>
+
+<CurrentlyRefrigerated>Buzdolabında ({0} içinde bozulacak)</CurrentlyRefrigerated>
+
+<NotRefrigerated>Buzdolabında Değil ({0} içinde bozulacak)</NotRefrigerated>
+
+<OverADecade>Bir on yıl daha</OverADecade>
+
+<LessThanADay>bir günden az</LessThanADay>
+
+<!-- Shooting tooltip -->
+
+
+<ShotBy>{1_labelShort} tarafından vurulma şansı</ShotBy>
+
+<CannotHit>Hedefi vurabilecek konumda değil.</CannotHit>
+
+<ManhunterPerHit>Manhunter chance per hit</ManhunterPerHit>
+
+<!-- Meal -->
+
+
+<Ingredients>Malzemeler</Ingredients>
+
+<!-- Plants -->
+
+
+<PercentGrowth>{0} büyüdü</PercentGrowth>
+
+<GrowthRate>Büyüme hızı</GrowthRate>
+
+<FullyGrownIn>{0} içinde tamamen büyüyecek.</FullyGrownIn>
+
+<PlantNeedsLightLevel>Işık gerekli</PlantNeedsLightLevel>
+
+<PlantResting>Dinleniyor</PlantResting>
+
+<OutOfIdealTemperatureRange>Gelişmesi için ideal sıcaklığın dışında</OutOfIdealTemperatureRange>
+
+<OutOfIdealTemperatureRangeNotGrowing>İdeal sıcaklığın dışında (büyümüyor)</OutOfIdealTemperatureRangeNotGrowing>
+
+<ReadyToHarvest>Hasat için hazır</ReadyToHarvest>
+
+<Mature>Olgun</Mature>
+
+<OutdoorGrowingPeriod>Ekin dönemi</OutdoorGrowingPeriod>
+
+<NoGrowingPeriod>Asla</NoGrowingPeriod>
+
+<GrowYearRound>Yıl boyunca</GrowYearRound>
+
+<GrowSeasonHereNow>Büyüme sezonu başladı.</GrowSeasonHereNow>
+
+<CannotGrowBadSeasonTemperature>Büyümüyor (uygunsuz hava sıcaklığı).</CannotGrowBadSeasonTemperature>
+
+<Blighted>Blighted</Blighted>
+
+<DyingBecauseExposedToLight>Işığa maruz kaldığı için ölüyor</DyingBecauseExposedToLight>
+
+<!-- Zones -->
+
+
+<Zone>Bölge</Zone>
+
+<GrowingZone>Ekin Alanı</GrowingZone>
+
+<Stockpile>Hammadde Stoğu</Stockpile>
+
+<DumpingStockpile>Çöplük</DumpingStockpile>
+
+<Priority>Öncelik ver</Priority>
+
+<ClearAll>Temizle</ClearAll>
+
+<AllowAll>Tümüne izin ver</AllowAll>
+
+<!-- ThingFilter -->
+
+
+<HitPoints>{0} sağlık puanı</HitPoints>
+
+<AnyQuality>her kalite</AnyQuality>
+
+<OnlyQuality>sadece {0}</OnlyQuality>
+
+<!-- Mouseover indicator -->
+
+
+<Undiscovered>Keşfedilmedi</Undiscovered>
+
+<!-- Buttons -->
+
+
+<ShowLearningHelperWhenEmptyToggleButton>Öğretici boş olduğunda görünürlüğünü açar kapar.\n\nÖğrenilecek bir kavram varsa öğretici her zaman açık kalır, ancak yoksa bu işaretli olduğu zaman kapalı olur.</ShowLearningHelperWhenEmptyToggleButton>
+
+<ZoneVisibilityToggleButton>Bölgeleri görünür yapar.</ZoneVisibilityToggleButton>
+
+<ShowBeautyToggleButton>Güzellik durumunu gösterir.\n\nOrtamın güzellik durumu farenin çevresinde gözükür.</ShowBeautyToggleButton>
+
+<ShowRoomStatsToggleButton>Odanın durumunu gösterir.\n\nFarenin işaret ettiği yere odanın istatistiklerini görüntüler.</ShowRoomStatsToggleButton>
+
+<ShowColonistBarToggleButton>Kolonist barını aç/kapa.\n\nYukardaki kolonistlerin simgelerini açar veya kapar.</ShowColonistBarToggleButton>
+
+<AutoHomeAreaToggleButton>Ev bögesi otomatik olarak ayarla. Manuel içinse bölgeler bölümünden yapabilirsin.</AutoHomeAreaToggleButton>
+
+<AutoRebuildButton>Ev alanındaki tahrip olmuş yapıların otomatik olarak yeniden oluşturulmasını sağlayın.</AutoRebuildButton>
+
+<CategorizedResourceReadoutToggleButton>Kaynak okumadaki kategarize etme bölümünü açar.</CategorizedResourceReadoutToggleButton>
+
+<ShowAnimalNamesToggleButton>Evcilleştirilmiş hayvanların isimlerini aç/kapa.</ShowAnimalNamesToggleButton>
+
+<ShowRoofOverlayToggleButton>Çatıları görünür yap.</ShowRoofOverlayToggleButton>
+
+<LockNorthUpToggleButton>Kuzey kutbu her zaman yukarı olacak şekilde kameranın dönüşünü kilitleyin.</LockNorthUpToggleButton>
+
+<UsePlanetDayNightSystemToggleButton>Gece / gündüz aydınlatma sistemini değiştir.</UsePlanetDayNightSystemToggleButton>
+
+<ShowExpandingIconsToggleButton>Uzaktaki nesneler için normal simgeler yerine genişleyen simgelere geçiş yapın.</ShowExpandingIconsToggleButton>
+
+<ShowWorldFeaturesToggleButton>Yer şekillerinin isim görünümlerini değiştir.</ShowWorldFeaturesToggleButton>
+
+<!-- Fire -->
+
+
+<FireOn>Ateş et {1_label}</FireOn>
+
+<Burning>Yanıyor</Burning>
+
+<FireSizeLower>Ateş boyutu {0}</FireSizeLower>
+
+<!-- Game conditions -->
+
+
+<GameConditionsTip>Şu anda bölgeyi etkileyen özel koşullar.</GameConditionsTip>
+
+<TimeLeft>kalan zaman</TimeLeft>
+
+<ImpactDate>impact date</ImpactDate>
+
+<!-- Building placement -->
+
+
+<NoStuffsToBuildWith>Bunu yapmak için gerekli malzeme yok.</NoStuffsToBuildWith>
+
+<!-- Building placement restricters -->
+
+
+<WillGetWorkSpeedPenalty>{0} çalışma hızı düşecek</WillGetWorkSpeedPenalty>
+
+<MustPlaceUnroofed>Çatı altına konulamaz</MustPlaceUnroofed>
+
+<MustPlaceHeadOnShipBeam>Gemi temelinin yanına konulmalı.</MustPlaceHeadOnShipBeam>
+
+<MustPlaceNextToHopperAccepter>Kaba ihtiyacı olan bir şeyin yanına konulmalı.</MustPlaceNextToHopperAccepter>
+
+<MustPlaceOnSteamGeyser>Doğrudan buhar gayzerin üstüne yerleştirmelisin.</MustPlaceOnSteamGeyser>
+
+<MustPlaceCoolerWithFreeSpaces>Soğutucunun hem sıcak hemde soğuk tarafı açık olmalı.</MustPlaceCoolerWithFreeSpaces>
+
+<MustPlaceVentWithFreeSpaces>Her iki taraftanda hava akımı gerçekleştirmek için boşluk olmalı.</MustPlaceVentWithFreeSpaces>
+
+<MustPlaceAdjacentStandable>İki tarafta engellenmiş olabilir.</MustPlaceAdjacentStandable>
+
+<MustPlaceNearFuelingPort>Taşıma kapsülleri, kapsül fırlatıcısının yanına yerleştirilmelidir.</MustPlaceNearFuelingPort>
+
+<MustPlaceOnDrillable>Kazılabilir kaynaklara yerleştirilmelidir.</MustPlaceOnDrillable>
+
+<CannotPlaceAdjacentTrap>Tuzakların yanına yerleştirilemez.</CannotPlaceAdjacentTrap>
+
+<!-- Wind Turbine -->
+
+
+<WindTurbine_WindPathIsBlockedBy>Tarafından engellendi</WindTurbine_WindPathIsBlockedBy>
+
+<WindTurbine_WindPathIsBlockedByRoof>Çatı tarafından engellendi</WindTurbine_WindPathIsBlockedByRoof>
+
+<!-- Watermill generator -->
+
+
+<Watermill_WaterUsedTwice>Akıntı azaldı: Diğer su değrmenleri türbülans yaratıyor.</Watermill_WaterUsedTwice>
+
+<!-- Cryptosleep casket -->
+
+
+<CasketContains>İçindeki</CasketContains>
+
+<CasketWarning>Dikkat!\n\n{PAWN_nameDef} senin son serbest duran kolonistin! Eğer içine girmesine izin verirsen, devamında onu kullanamazsın. Devam etmek istediğine emin misin?</CasketWarning>
+
+<!-- Ship launch report -->
+
+
+<ShipReportCannotLaunch>Başlangıç yapılamadı.</ShipReportCannotLaunch>
+
+<ShipReportCanLaunch>Başlangıç için hazır.</ShipReportCanLaunch>
+
+<ShipReportMissingPart>Kritik bileşen eksik</ShipReportMissingPart>
+
+<ShipReportMissingPartRequires>ihtiyaçlar</ShipReportMissingPartRequires>
+
+<ShipReportNoFullPods>Derin-uyku kapsülü dolu değil</ShipReportNoFullPods>
+
+<ShipReportHibernating>Hibernating component</ShipReportHibernating>
+
+<ShipReportNotReady>Bileşen henüz hazır değil</ShipReportNotReady>
+
+<HibernateWarning>Reaktör açılmaya hazır.\n\nSüreç yaklaşık 15 gün sürecek ve yaydığı enerji uzak mesafeden tespit edilebilinecek. Bu tür bir enerji, yıldızlararası uçuş yeteneğini gösterir. Çaresiz akıncıları ve ölümcül mekanoidlerin dikkatlerini üzerine çeker.\n\nHiç görmediğin bir şiddete maruz kalacaksın. Öncelikle savunmanızın hazırlandığından emin olun.</HibernateWarning>
+
+<HibernateWarningStandalone>Reaktör açılmaya hazır.\n\nSüreç yaklaşık 15 gün sürecek ve yaydığı enerji uzak mesafeden tespit edilebilinecek. Bu tür bir enerji, yıldızlararası uçuş yeteneğini gösterir. Çaresiz akıncıları ve ölümcül mekanoidlerin dikkatlerini üzerine çeker.\n\nHiç görmediğin bir şiddete maruz kalacaksın. Öncelikle savunmanızın hazırlandığından emin olun.</HibernateWarningStandalone>
+
+<HibernateWarningPacifist>Reaktör açılmaya hazır. İşlem yaklaşık 15 gün sürecek.</HibernateWarningPacifist>
+
+<HibernateWarningStandalonePacifist>Reaktör açılmaya hazır. İşlem yaklaşık 15 gün sürecek.</HibernateWarningStandalonePacifist>
+
+<!-- Neurotrainer -->
+
+
+<NeurotrainerUsed>{USER_labelShort} {2}'den {3}'e geçmek için, {1} nöro-eğitmen kullandı.</NeurotrainerUsed>
+
+<!-- Minification -->
+
+
+<Installed>Kurulu</Installed>
+
+<NotInstalled>Kurulu değil</NotInstalled>
+
+<!-- Art -->
+
+
+<Title>Başlık</Title>
+
+<Untitled>Başlıksız</Untitled>
+
+<!-- Unfinished thing -->
+
+
+<UnfinishedItem>Bitmemiş {0}</UnfinishedItem>
+
+<UnfinishedItemWithStuff>Bitmemiş {0} {1}</UnfinishedItemWithStuff>
+
+<!-- Quality -->
+
+
+<Quality>Kalite</Quality>
+
+<QualityDescription>Bir ögenin kalitesi ne kadar iyi yapıldığıdır.</QualityDescription>
+
+<QualityIs>Kalite: {0}</QualityIs>
+
+<!-- Mood descriptions -->
+
+
+<Mood_MentalState>akıl sağlığı</Mood_MentalState>
+
+<Mood_AboutToBreak>daralmış</Mood_AboutToBreak>
+
+<Mood_OnEdge>tedirgin</Mood_OnEdge>
+
+<Mood_Stressed>stresli</Mood_Stressed>
+
+<Mood_Neutral>doğal</Mood_Neutral>
+
+<Mood_Content>memnun</Mood_Content>
+
+<Mood_Happy>mutlu</Mood_Happy>
+
+<!-- Game over -->
+
+
+<GameOverEveryoneDead>Herkes öldü. Hikaye burada bitti.\n\nBelki başkası bu yerin yıkıntılarını kullanıma bulabilirsiniz</GameOverEveryoneDead>
+
+<GameOverShipLaunched>Mekik kalktı! Kaçan kolonistler:\n\n{0}\nGeriye kalan kolonistler:\n\n{1}\nGemiyi güvenli bir yere indirmeye çalışacağız. Bu sistemde sizin için ferah bir gezegen bulabilirsiniz veya başka yıldıza yüzyıllar boyunca yolculuk edebilirsiniz. Hatta bir kaç bin yıl bir asteroid üzerinde buz altında gizlenebilirsiniz, birisi buraya yeni gösterişdünyası inşa etmek için bekliyor olacak.\n\nUyandığın zaman öğrenmiş olacaksın.</GameOverShipLaunched>
+
+<GameOverPlanetkillerImpact>At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive.</GameOverPlanetkillerImpact>
+
+<GameOverArrivedAtJourneyDestination>As you get on board the ship you are greeted by the crew with open arms. They seem to be glad they could take at least one more person with them.\n\nThese colonists escaped:\n\n{0}\nThese colonists were left behind:\n\n{1}\nThe AI will now try to guide the ship to a safe place. It might find a prosperous planet for you in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nAs you enter the cryptosleep pod you hesitate for a moment and feel slightly uncertain about whether you can trust these people.\n\nYou'll find out when you wake up.</GameOverArrivedAtJourneyDestination>
+
+<GameOverKeepPlaying>Oynamaya Devam Et</GameOverKeepPlaying>
+
+<GameOverMainMenu>Ana Menü</GameOverMainMenu>
+
+<!-- Generic lifespan -->
+
+
+<LifespanExpiry>Ganimet:</LifespanExpiry>
+
+<!-- Facilities -->
+
+
+<InactiveFacility>pasif</InactiveFacility>
+
+<!-- Hediffs growth modes -->
+
+
+<DiseaseGrowthModeChanged_Growing>{PAWN_labelShort}'ın {1}'ı büyüyor..</DiseaseGrowthModeChanged_Growing>
+
+<DiseaseGrowthModeChanged_Stable>{PAWN_labelShort}'ın {1}'i istikrarlı.</DiseaseGrowthModeChanged_Stable>
+
+<DiseaseGrowthModeChanged_Remission>{PAWN_labelShort}'ın {1}'i büyümüyor.</DiseaseGrowthModeChanged_Remission>
+
+<!-- Marriage spot -->
+
+
+<MarriageSpotUsable>Şimdi kullanılabilir.</MarriageSpotUsable>
+
+<MarriageSpotNotUsable>Kullanılabilir değil: {0}.</MarriageSpotNotUsable>
+
+<MarriageSpotNotStandable>engelli</MarriageSpotNotStandable>
+
+<MarriageSpotDangerous>{1_labelShort} için çok tehlikeli</MarriageSpotDangerous>
+
+<MarriageSpotForbidden>{1_labelShort} için yasak</MarriageSpotForbidden>
+
+<MarriageSpotReserved>önceden ayrılmış</MarriageSpotReserved>
+
+<MarriageSpotUnreachable>{1_labelShort} için ulaşılamaz</MarriageSpotUnreachable>
+
+<MarriageSpotInPrisonCell>mahkum hücresinde</MarriageSpotInPrisonCell>
+
+<NotEnjoyableOutsideTemperature>hava sıcaklığı rahatsız edici</NotEnjoyableOutsideTemperature>
+
+<!-- Colonist bar -->
+
+
+<ActivityIconMedicalRest>Tıbbi dinlenme</ActivityIconMedicalRest>
+
+<ActivityIconSleeping>Uyuyor</ActivityIconSleeping>
+
+<ActivityIconFleeing>Kaçıyor</ActivityIconFleeing>
+
+<ActivityIconAttacking>Savaşıyor</ActivityIconAttacking>
+
+<ActivityIconIdle>Boş</ActivityIconIdle>
+
+<ActivityIconBurning>Yanıyor</ActivityIconBurning>
+
+<ActivityIconFormingCaravan>Forming a caravan</ActivityIconFormingCaravan>
+
+<!-- Maintainable -->
+
+
+<DueForMaintenance>Bakım için vade.</DueForMaintenance>
+
+<DeterioratingDueToLackOfMaintenance>Bakım eksikliğinden dolayı bozuluyor.</DeterioratingDueToLackOfMaintenance>
+
+<!-- Deep drill -->
+
+
+<ProgressToNextLump>Bir sonraki toprağa doğru ilerle</ProgressToNextLump>
+
+<ResourceBelow>Resource below</ResourceBelow>
+
+<ProgressToNextPortion>Bir sonraki kısma ilerleme</ProgressToNextPortion>
+
+<DeepDrillNoResources>Aşağıda kaynak yok.</DeepDrillNoResources>
+
+<DeepDrillExhausted>Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}.</DeepDrillExhausted>
+
+<DeepDrillExhaustedNoFallback>Deep drill resources exhausted.</DeepDrillExhaustedNoFallback>
+
+<!-- Learning helper -->
+
+
+<LearningHelper>Öğretici</LearningHelper>
+
+<MarkLearned>Öğrenildi olarak işaretle</MarkLearned>
+
+<AlreadyLearned>Öğrenildi</AlreadyLearned>
+
+<Filter>Filtre</Filter>
+
+<!-- Compass -->
+
+
+<CompassTip>Kuzey yönünü gösterir. Kuzey kutbu yukarı gelecek şekilde kamerayı döndürmek için tıklayın.</CompassTip>
+
+<!-- World route planner -->
+
+
+<RoutePlannerButtonTip>Yolculuğunuzu planlayabileceğiniz ve yol noktaları arasındaki mesafeyi hesaplayabileceğiniz planlama moduna girmek için tıklayın.</RoutePlannerButtonTip>
+
+<RoutePlannerAddTwoOrMoreWaypoints>İki veya daha fazla yol noktası ekleyin.</RoutePlannerAddTwoOrMoreWaypoints>
+
+<RoutePlannerAddOneOrMoreWaypoints>Bir veya daha fazla yol noktası ekleyin.</RoutePlannerAddOneOrMoreWaypoints>
+
+<RoutePlannerEstTimeToFinalDest>Toplam rota süresi: {0}</RoutePlannerEstTimeToFinalDest>
+
+<RoutePlannerUsingAverageTicksPerMoveWarning>Planlama modu varsayılan karavan hızını kullanır. Hızınız değişebilir.</RoutePlannerUsingAverageTicksPerMoveWarning>
+
+<RoutePlannerUsingTicksPerMoveOfCaravan>Hesaplanan hız: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+
+<RoutePlannerPressRMBToAddAndRemoveWaypoints>Sağ fare tuşu: Yol noktaları ekle / kaldır.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+
+<RoutePlannerPressEscapeToExit>ESC: Planlama modundan çık.</RoutePlannerPressEscapeToExit>
+
+<RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Karavan formasyonuna dön.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+
+<EstimatedTimeToWaypoint>Tahmini seyahat süresi: {0}</EstimatedTimeToWaypoint>
+
+<EstimatedTimeToWaypointFromPrevious>Tahmini seyahat süresi (önceki yol noktasından): {0}</EstimatedTimeToWaypointFromPrevious>
+
+<EstimatedTimeToTile>Tahmini seyahat süresi: {0}</EstimatedTimeToTile>
+
+<ForagedFoodAmount>Gıda miktari</ForagedFoodAmount>
+
+<!-- Outfits -->
+
+
+<OutfitAnything>Hiçbir şey</OutfitAnything>
+
+<OutfitWorker>İşçi</OutfitWorker>
+
+<OutfitSoldier>Asker</OutfitSoldier>
+
+<OutfitNudist>Nudist</OutfitNudist>
+
+<!-- Hibernatable -->
+
+
+<HibernatableHibernating>Hibernating</HibernatableHibernating>
+
+<HibernatableStartingUp>Starting up</HibernatableStartingUp>
+
+<!-- Transport pods -->
+
+
+<ClickToSeeAvailableOrders_WorldObject>{0}: Mevcut emirler...</ClickToSeeAvailableOrders_WorldObject>
+
+<ClickToSeeAvailableOrders_Empty>Mevcut emirler...</ClickToSeeAvailableOrders_Empty>
 
 </LanguageData>
 
