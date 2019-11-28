@@ -119,11 +119,55 @@
   <!-- Journey -->
   <JourneyOffer>Geçmişinizden Charton Whitestone adlı bir Yapay Zeka size bir mesaj gönderdi!\n\nO, bu gezegende gizli bir yıldız gemisi olduğunu ve size dünya koordinatlarını gönderdiğini ortaya koyuyor.\n\nGemiye giderseniz, Charlon sizi bu dünyadan yıldızlara götürecektir.</JourneyOffer>
 
-  <!-- Caravan meeting -->
-  <CaravanMeeting>Your caravan has met peacefully with a caravan from {0}. The other caravan is composed of:\n\n{1}</CaravanMeeting>
-  <CaravanMeeting_Trade>Ticaret</CaravanMeeting_Trade>
-  <CaravanMeeting_Attack>Saldır</CaravanMeeting_Attack>
-  <CaravanMeeting_MoveOn>Yola devam</CaravanMeeting_MoveOn>
+ <!-- Caravan meeting -->
+
+
+<CaravanMeetingTitle>Kervan ile selamlaşma</CaravanMeetingTitle>
+
+<CaravanMeeting>Kervanınız başka bir kervanla arkadaşça karşılaştı. Diğer Kervan:\n\n{2}</CaravanMeeting>
+
+<CaravanMeeting_Trade>Ticaret et</CaravanMeeting_Trade>
+
+<CaravanMeeting_Attack>Saldır</CaravanMeeting_Attack>
+
+<CaravanMeeting_MoveOn>Boşver İlerle</CaravanMeeting_MoveOn>
+
+<CaravanMeeting_TradeIncapable>ticaret yapabilecek kervan üyesi yok</CaravanMeeting_TradeIncapable>
+
+<!-- Caravan request -->
+
+
+<LetterLabelCaravanRequest>Kervan Talebi</LetterLabelCaravanRequest>
+
+<LetterCaravanRequest>Bir yerleşim alanı özel bir ticaret için sizinle iletişime geçti. Satın almak istedikleri:\n\n {1} ({2} değerinde)\n\nKarşılığında onların teklifi:\n\n {3} ({4} değerinde)\n\nTeklifin sona ericeği süre: {5}\n\nEğer teklifi kabul etmek istiyorsanız kervana eşyayı yükleyerek yolculuğa çıkabilirsiniz. Tahmini gidiş süresi {6}. Bu teklifi dünya haritasında inceleyebilirsiniz.</LetterCaravanRequest>
+
+<CaravanRequestInfo>Teklif: {0} ({3}), Ödül: {1} ({4}) ({2} kaldı)</CaravanRequestInfo>
+
+<NormalQualityOrBetter>normal veya daha iyi kalite</NormalQualityOrBetter>
+
+<NotTainted>kusursuz</NotTainted>
+
+<!-- Caravan demand -->
+
+
+<CaravanDemandTitle>Kervan Talebi</CaravanDemandTitle>
+
+<CaravanDemand>{0}, {1} tarafından pusuya düşürüldü. İstediklerini vermediğin sürece saldıracaklar:\n\n{3}</CaravanDemand>
+
+<CaravanDemand_Give>Ver ve Devam et</CaravanDemand_Give>
+
+<CaravanDemand_Fight>Reddet ve Savaş</CaravanDemand_Fight>
+
+<!-- Site no longer hostile -->
+
+
+<LetterLabelSiteNoLongerHostile>Görev artık mevcut değil</LetterLabelSiteNoLongerHostile>
+
+<LetterLabelSiteNoLongerHostileMulti>Görevler artık mevcut değil</LetterLabelSiteNoLongerHostileMulti>
+
+<LetterSiteNoLongerHostile>{0} ile artık düşman olmadığınız için {1} bölgesi artık mevcut değil.</LetterSiteNoLongerHostile>
+
+<LetterSiteNoLongerHostileMulti>{0} ile artık düşman olmadığınız için aşağıdaki bölgeler artık mevcut değil:</LetterSiteNoLongerHostileMulti>
 
 </LanguageData>
 
