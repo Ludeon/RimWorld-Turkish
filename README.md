@@ -4,6 +4,7 @@
 * A Turkish language translation for RimWorld.
 
 ## Translators - Çevirmenler
+* [@alemdarwilson](https://github.com/alemdarwilson)
 * [@Ferhatyesil](https://github.com/Ferhatyesil)
 * [@XxXKroseXxX](https://github.com/XxXKroseXxX)
 * [@Hüseyin Cem ARAS](https://github.com/hcemaras)
@@ -19,7 +20,6 @@
 * [@IsilwenA](https://github.com/IsilwenA)
 * [@deathclean](https://github.com/deathclean)
 * [@hamitozdemir](https://github.com/hamitozdemir)
-* [@alemdarwilson](https://github.com/alemdarwilson)
 
 ## Translation Progress - Çeviri İlerlemesi
 * Eğer ilerlemeyi görmek istersen, [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Notes/Progress.md)'ye bakabilirsin.
