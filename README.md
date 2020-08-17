@@ -4,7 +4,7 @@
 * A Turkish language translation for RimWorld.
 
 ## Translators - Çevirmenler
-* [@alemdarwilson](https://github.com/alemdarwilson)
+* [@Meriç Alemdar](https://github.com/alemdarwilson)
 * [@Ferhatyesil](https://github.com/Ferhatyesil)
 * [@XxXKroseXxX](https://github.com/XxXKroseXxX)
 * [@Hüseyin Cem ARAS](https://github.com/hcemaras)
