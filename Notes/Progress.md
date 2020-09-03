@@ -406,4 +406,6 @@
     - [x] [TerrainFeatures.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Strings/Nouns/)
     - [x] [Vegetables
     - [x] [Weapons.txt](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Vegetables/Weapons.txt)
-######################################NOT UPDATED-GRIEFED#########################################################
+    
+    
+POSSIBLY GRIEFED/NOT CHECKED
