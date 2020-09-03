@@ -2,128 +2,176 @@
 <LanguageData>
 
   <!-- ITab titles -->
-  <TabBills>Senetler</TabBills>
-  <TabGrowing>Yetiştirme</TabGrowing>
-  <TabCharacter>Karakter</TabCharacter>
+  <TabBills>Siparişler</TabBills>
+  <TabGrowing>Büyüyen</TabGrowing>
+  <TabCharacter>Biyografi</TabCharacter>
   <TabTraining>Eğitim</TabTraining>
   <TabPrisoner>Mahkum</TabPrisoner>
   <TabGuest>Misafir</TabGuest>
   <TabGear>Ekipman</TabGear>
   <TabNeeds>İhtiyaçlar</TabNeeds>
   <TabStorage>Depolama</TabStorage>
+  <TabShells>Mermi kovanları</TabShells>
   <TabHealth>Sağlık</TabHealth>
   <TabRace>Irk</TabRace>
-  <TabBasics>Temeller</TabBasics>
-  <TabStats>Nitelikler</TabStats>
-  <TabRecords>Records</TabRecords>
+  <TabBasics>Temel</TabBasics>
+  <TabStats>İstatistikler</TabStats>
+  <TabRecords>Rekorlar</TabRecords>
   <TabArt>Sanat</TabArt>
   <TabSocial>Sosyal</TabSocial>
-
+  <TabLog>Kayıtlar</TabLog>
+  <TabFormingCaravan>Kervan</TabFormingCaravan>
+  <TabTransporterContents>İçerikler</TabTransporterContents>
+  <TabCasketContents>İçerikler</TabCasketContents>
   
   <!-- Bills tab  -->
-  <AddBill>Senet ekle</AddBill>
-  <RecipeRequiresSkills>{0} tarifi aşağıdaki becerileri gerektirir. Kolonicilerinin hiçbiri bu becerilere sahip değil. Bu yüzden bu seneti kimse yapmayacak.</RecipeRequiresSkills>
-  <MinimumSkill>Min yetenek</MinimumSkill>
-  <SuspendedCaps>DURAKLATILMIÞ</SuspendedCaps>
-  <BoundWorkerIs>İşçi: {0}</BoundWorkerIs>
-  <PlantVerb>Dikmek</PlantVerb>
-
+  <AddBill>Sipariş ekle</AddBill>
+  <RecipeRequiresSkills>{0} siparişi aşağıdaki becerileri gerektirir. Kolonistlerinizin hiçbiri bu yeteneklere sahip değil, bu yüzden kimse bu siparişi tamamlayamayacak.</RecipeRequiresSkills>
+  <MinimumSkill>En az seviye</MinimumSkill>
+  <SuspendedCaps>ASKIYA ALINDI</SuspendedCaps>
+  <BoundWorkerIs>Çalışan: {1_labelShort}</BoundWorkerIs>
+  <PlantVerb>Ekim</PlantVerb>
+  <ClipboardBillNotAvailableHere>Kopyalanan sipariş buraya yapıştırılamaz.</ClipboardBillNotAvailableHere>
+  <ReorderBillUpTip>Önceliğe al</ReorderBillUpTip>
+  <ReorderBillDownTip>Arka plana at</ReorderBillDownTip>
+  <DeleteBillTip>Sil</DeleteBillTip>
+  <CopyBillTip>Panoya kopyala</CopyBillTip>
+  <SuspendBillTip>Askıda</SuspendBillTip>
+  <PasteBillTip>Yapıştır</PasteBillTip>
+  <PasteBillTip_LimitReached>Daha fazla eklenemiyor</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <RecruitmentDifficulty>Koloniye katma zorluğu</RecruitmentDifficulty>
-  <GetsFood>Yemek alır</GetsFood>
-  <DoctorsCare>Doktorlar ilgilenir</DoctorsCare>
-  <GetsMedicine>İlaç alır</GetsMedicine>
-  <ShouldTryToRecruit>Koloniye katmaya çalış</ShouldTryToRecruit>
-  <PrisonerNoInteraction>Etkileşim yok</PrisonerNoInteraction>
-  <PrisonerFriendlyChat>Arkadaşça konuşma</PrisonerFriendlyChat>
-  <PrisonerAttemptRecruit>Koloniye katmaya çalışıyor</PrisonerAttemptRecruit>
-  <PrisonerRelease>Serbest bırak</PrisonerRelease>
-  <PrisonerExecution>İdam et</PrisonerExecution>
-  <ConsideredGuilty>Suçlu ilan edilmiş ({0} sonra sona eriyor)</ConsideredGuilty>
+  <RecruitmentResistance>Kalan direnç</RecruitmentResistance>
+  <RecruitmentDifficulty>Koloniye alım zorluğu</RecruitmentDifficulty>
+  <RecruitmentChance>Koloniye alım zorluğu</RecruitmentChance>
+  <RecruitmentChanceExplanation>İşe alma zorluk faktörü: {0}\nİyi faktör: {1}\nKombine temel şans: {2}</RecruitmentChanceExplanation>
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n----------------\nSon işe alım denemesi\nAlımı sağlayan: {3} \nTavsiye yeteneği faktörü: {4} \nFikir faktörü: {5} ({6}) \n{3} için son şans: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nDirenç azaltma: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <PrisonerReleasePotentialRelationGains>Serbest bırakmada ilişki kazancı</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleaseRelationGainsDesc>Fraksiyon ilişkilerini geliştirmek için mahkumu serbest bırakabilirsiniz. Bu mahkumun bırakıldığındaki sağlığı ve zihinsel durumundan etkilenebilir.</PrisonerReleaseRelationGainsDesc>
+  <PrisonBreakMTBDays>Hapishaneden kaçış deneme süresi</PrisonBreakMTBDays>
+  <PrisonBreakMTBDaysDescription>Hapishane kaçış girişimleri arasında geçen ortalama gün sayısı. Ruh halinden, özgür hissetmeden ve son hapishaneye atılıştan bu yana geçen süreden etkilenir.\n\nBu sayı, uslu durulan göz ardı eder, bu nedenle gerçek ortalama hapishane kaçış denemesi aralığı genellikle daha uzun olur.</PrisonBreakMTBDaysDescription>
+  <SlavePrice>Köle değeri</SlavePrice>
+  <GetsFood>Yemek verme</GetsFood>
+  <DoctorsCare>Doktor ilgisi</DoctorsCare>
+  <GetsMedicine>Tedavi</GetsMedicine>
+  <ShouldTryToRecruit>Koloniye almayı dene</ShouldTryToRecruit>
+  <ConsideredGuilty>Suçlu sayılması ({0} içinde sona eriyor)</ConsideredGuilty>
 
-  
   <!-- Medical - general -->
   <MoveSpeed>Hareket hızı</MoveSpeed>
-  <Efficiency>Verimlilik</Efficiency>
-  <MissingBodyPart>Yok olmuş</MissingBodyPart>
-  <DestroyedBodyPart>Mahvolmuş</DestroyedBodyPart>
+  <Efficiency>Verim</Efficiency>
+  <PartEfficiency>Parça verimliliği</PartEfficiency>
+  <BodyPartEfficiency>Vücut parçası verimliliği</BodyPartEfficiency>
+  <MissingBodyPart>Yok</MissingBodyPart>
+  <DestroyedBodyPart>Yok edilmiş</DestroyedBodyPart>
   <ShatteredBodyPart>Parçalanmış</ShatteredBodyPart>
-  <RemovedBodyPart>Kesilmiş</RemovedBodyPart>
+  <RemovedBodyPart>Alınmış</RemovedBodyPart>
   <Healthy>Sağlıklı</Healthy>
-  <InPain>Acı içinde</InPain>
+  <InPain>Ağrı</InPain>
   <PainLevel>Acı</PainLevel>
   <Injured>Yaralı</Injured>
-  <NoInjuries>(yara yok)</NoInjuries>
-  <WholeBody>Tüm vücudu</WholeBody>
+  <NoHealthConditions>Sağlık durumu berbat</NoHealthConditions>
+  <WholeBody>Tüm vücut</WholeBody>
   <DataProcessing>Veri işleme</DataProcessing>
   <Communication>İletişim</Communication>
-  <Affects>Affects</Affects>
-  <BleedingRate>Kanama oranı</BleedingRate>
+  <Affects>Etkiler</Affects>
+  <BleedingRate>Kanama</BleedingRate>
   <TimeToDeath>{0} içinde ölecek</TimeToDeath>
-  <WontBleedOutSoon>Acil bir tehlike yok</WontBleedOutSoon>
-  <HealthOverview>Genel</HealthOverview>
+  <WontBleedOutSoon>Acil tehlikesi yok</WontBleedOutSoon>
+  <HealthOverview>Genel bakış</HealthOverview>
   <MedicalOperationsShort>Operasyonlar ({0})</MedicalOperationsShort>
   <MedicalOperationsMechanoidsShort>Değişiklikler ({0})</MedicalOperationsMechanoidsShort>
   <MedicalOperations>Tıbbi operasyonlar</MedicalOperations>
-  <Amputate>Kesmek</Amputate>
-  <Harvest>Hasat</Harvest>
-  <RemoveOrgan>Çıkar</RemoveOrgan>
-  <MemoryLower>Hafız</MemoryLower>
-  <SocialInteractionsLower>Sosyal tepkimeler</SocialInteractionsLower>
-  <HungerRate>Açlık oranı</HungerRate>
+  <Amputate>Organın kesilmesi</Amputate>
+  <HarvestOrgan>Alınması</HarvestOrgan>
+  <RemoveOrgan>Çıkarılma</RemoveOrgan>
+  <MemoryLower>Hatırlama</MemoryLower>
+  <SocialInteractionsLower>Sosyal etkileşimler</SocialInteractionsLower>
+  <HungerRate>Açlık seviyesi</HungerRate>
   <Tiredness>Yorgunluk</Tiredness>
   <PainFactor>Acı</PainFactor>
-  <PreventsInfection>Enfeksiyonu önlüyor</PreventsInfection>
-
+  <PreventsInfection>Enfeksiyonu önleme</PreventsInfection>
+  <SelfTend>Kendi kendine tedavi</SelfTend>
+  <SelfTendTip>Kendi kendine tedavi etkinken {0} otomatik olarak kendilerini normal verimlilikte {1} seviyesinde tedavi edebilirler.</SelfTendTip>
   
   <!-- Medical - Body and activities condition -->
   <None>Yok</None>
-  <VeryPoor>Çok kötü</VeryPoor>
-  <Poor>Kötü</Poor>
-  <Weakened>Zayıflamış</Weakened>
-  <GoodCondition>İyi</GoodCondition>
-  <Enhanced>Geliştirilmiş</Enhanced>
+  <VeryPoor>Çok zayıf</VeryPoor>
+  <Poor>Zayıf</Poor>
+  <Weakened>Güçsüz</Weakened>
+  <GoodCondition>Sorun yok</GoodCondition>
+  <Enhanced>Gelişmiş</Enhanced>
   <SeriouslyImpaired>Ciddi engelli</SeriouslyImpaired>
   <Impaired>Engelli</Impaired>
   <SlightlyImpaired>Biraz engelli</SlightlyImpaired>
   <NoPain>Yok</NoPain>
   <LittlePain>Az</LittlePain>
   <MediumPain>Orta</MediumPain>
-  <SeverePain>Şiddetli</SeverePain>
+  <SeverePain>Yüksek</SeverePain>
   <ExtremePain>Aşırı</ExtremePain>
-  
-  
-  <!-- Training tab-->
-  <TrainableIntelligence>Eğitilebilir zeka</TrainableIntelligence>
-  <CannotTrainNotSmartEnough>Eğitilebilmesi için {0} zeka gerekiyor .</CannotTrainNotSmartEnough>
-  <CannotTrainTooSmall>{0} bunun için eğitilmek için çok ufak.</CannotTrainTooSmall>
 
-  <TrainingNeedsPrerequisite>Gerekli önkoşul: {0}</TrainingNeedsPrerequisite>
+  <!-- Training tab -->
+  <Trainability>Eğitilebilirlik</Trainability>
+  <CannotTrainNotSmartEnough>{0} eğitilebilirlik gerektirir.</CannotTrainNotSmartEnough>
+  <CannotTrainTooSmall>{1_labelShort} bunu eğitmek için çok küçük.</CannotTrainTooSmall>
+
+  <TrainingNeedsPrerequisite>Önkoşul gerekli: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <NoRelationships>(bağ yok)</NoRelationships>
-  <Kidnapped>Kaçırılmış</Kidnapped>
-  <Slave>Köle</Slave>
-  <FactionLeader>Klan lideri</FactionLeader>
-  <OpinionOf>{0} hakkındaki düşüncesi</OpinionOf>
-  <SomeonesOpinionOfMe>{0}'nin benim hakkımda düşüncesi</SomeonesOpinionOfMe>
+  <NoRelationships>(kimseyle iletişimi yok)</NoRelationships>
+  <Kidnapped>Kaçırıldı</Kidnapped>
+  <Lent>{FACTION_name} adlı fraksiyona ödünç verildi, {1} içinde dönecek.</Lent>
+  <Missing>Kayıp</Missing>
+  <Slave>Tutsak</Slave>
+  <FactionLeader>Fraksiyon lideri</FactionLeader>
+  <OpinionOf>{1_labelShort} görüşü</OpinionOf>
+  <SomeonesOpinionOfMe>{1_labelShort} 'in benim hakkında fikri</SomeonesOpinionOfMe>
   <IAmDead>Öldüm</IAmDead>
-  <IAmPsychopath>Psikopatım</IAmPsychopath>
+  <IAmPsychopath>Ben psikopatım</IAmPsychopath>
   
   <!-- Gear tab -->
-  <AverageArmor>Ortalama Zırh</AverageArmor>
-  <MassCarried>Taşıma kapasitesi: {0} / {1} kg</MassCarried>
-  <ComfyTemperatureRange>Konforlu sıcaklık aralığı</ComfyTemperatureRange>
-  <ArmorBlunt>Ezici</ArmorBlunt>
-  <ArmorSharp>Keskin</ArmorSharp>
-  <ArmorHeat>Isı</ArmorHeat>
-  <ArmorElectric>Elektrik</ArmorElectric>
+  <OverallArmor>Genel zırh</OverallArmor>
+  <MassCarried>Taşınan ağırlık: {0}/{1} kilo</MassCarried>
+  <ComfyTemperatureRange>Rahat sıcaklık aralığı</ComfyTemperatureRange>
+  <ArmorBlunt>Darbeye karşı</ArmorBlunt>
+  <ArmorSharp>Keskinliğe karşı</ArmorSharp>
+  <ArmorHeat>Sıcağa karşı</ArmorHeat>
+  
+  <!-- Log tab -->
+  <ShowAll>Hepsini göster</ShowAll>
+  <ShowCombat>Savaşı göster</ShowCombat>
+  <ShowSocial>Sosyalliği göster</ShowSocial>
+  <NoRecentEntries>Girilen bilgi yok</NoRecentEntries>
+  <CopyLogTip>Günlüğü panoya kopyala.</CopyLogTip>
+
+  <!-- Forming caravan tab -->
+  <FormingCaravanStatus_GatheringAnimals>Hayvansal ürün toplama</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>Hayvansal ürün toplama (bekliyor)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringItems>Eşya toplama</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems_Pause>Eşya toplama (bekliyor)</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringSlaves>Köleleri toplama</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>Köleleri toplama (bekliyor)</FormingCaravanStatus_GatheringSlaves_Pause>
+  <FormingCaravanStatus_GatheringDownedPawns>Baygın insanlardan toplama</FormingCaravanStatus_GatheringDownedPawns>
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>Baygın insanlardan toplama (bekliyor)</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <FormingCaravanStatus_Leaving>Ayrılma</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving_Pause>Ayrılma (bekliyor)</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Waiting>Bekliyor</FormingCaravanStatus_Waiting>
+  <CaravanMembers>Üyeler</CaravanMembers>
+  <CaravanAnimals>Hayvanlar</CaravanAnimals>
+  <ItemsToLoad>Yüklenecek öğeler</ItemsToLoad>
+  <LoadedItems>Yüklenmiş öğeler</LoadedItems>
+  <PackAnimalsCountLower>Hayvan sürüleri</PackAnimalsCountLower>
+  <InMentalStateCountLower>Mental çöküş</InMentalStateCountLower>
+
+  <!-- Transporter contents -->
+  <RemoveSliderText>{{0}} x {0} kaldır</RemoveSliderText>
+  <ContainedItems>Yüklenen öğeler</ContainedItems>
+  <ConfirmRemoveItemDialog>Gerçekten {0} kaldırmak istiyor musunuz?</ConfirmRemoveItemDialog>
+  
+  <!-- Quests tab -->
+  <DismissQuest>Bu görevi yok sayın ve geçmiş sekmesine taşıyın.\n\nGörevler her zaman kapatılabilir. Etkileri ve son kullanma süreleri normal şekilde devam edecektir. Geçmişe taşınan görevler hakkında bildirim almayacaksınız.</DismissQuest>
+  <UnDismissQuest>Bu görevden vazgeçin.\n\n Görev kullanılabilir veya etkin sekmeye döndürülecek ve bildirimler yeniden etkinleştirilecektir.</UnDismissQuest>
+  <QuestDismissed>Bu görev burada çünkü görevden alındı.\n\nSüresi bitene kadar görevi tekrar aktif edebilirsiniz.</QuestDismissed>
 
 </LanguageData>
-
-<SelfTend>Self-tend</SelfTend>
-<SelfTendTip>{0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency.</SelfTendTip>
-<PartEfficiency>Part efficiency</PartEfficiency>
-<BodyPartEfficiency>Body part efficiency</BodyPartEfficiency>
-<Missing>Missing</Missing>

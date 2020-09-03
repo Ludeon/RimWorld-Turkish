@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- glow -->
-  <Dark>Karanlık</Dark>
-  <Lit>Aydınlık</Lit>
-  <LitBrightly>Çok Aydınlık</LitBrightly>
-
-  <!-- history upload pref -->
-  <Unspecified>Belirtilmemiş</Unspecified>
-  <Always>Her Zaman</Always>
-  <Never>Asla</Never>
+  <!-- Glow -->
+  <Dark>Işıksız</Dark>
+  <Lit>Aydınlatılmış</Lit>
+  <LitBrightly>Parlakça aydınlatılmış</LitBrightly>
 
   <!-- Price types -->
-  <PriceTypeVeryCheap>Çok Ucuz</PriceTypeVeryCheap>
+  <PriceTypeVeryCheap>Çok ucuz</PriceTypeVeryCheap>
   <PriceTypeCheap>Ucuz</PriceTypeCheap>
   <PriceTypeNormal>Normal</PriceTypeNormal>
   <PriceTypeExpensive>Pahalı</PriceTypeExpensive>
-  <PriceTypeExorbitant>Çok Pahalı</PriceTypeExorbitant>
+  <PriceTypeExorbitant>Aşırı pahalı</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
-  <StoragePriorityUnstored>Değerlendirilmemiş</StoragePriorityUnstored>
+  <StoragePriorityUnstored>Saklanmamış</StoragePriorityUnstored>
   <StoragePriorityLow>Düşük</StoragePriorityLow>
-  <StoragePriorityNormal>Orta</StoragePriorityNormal>
-  <StoragePriorityPreferred>Tercih edilen</StoragePriorityPreferred>
+  <StoragePriorityNormal>Normal</StoragePriorityNormal>
+  <StoragePriorityPreferred>Öncelikli</StoragePriorityPreferred>
   <StoragePriorityImportant>Önemli</StoragePriorityImportant>
   <StoragePriorityCritical>Kritik</StoragePriorityCritical>
 
@@ -30,119 +25,110 @@
   <FoodTypeFlags_VegetableOrFruit>Sebzeler</FoodTypeFlags_VegetableOrFruit>
   <FoodTypeFlags_Meat>Çiğ et</FoodTypeFlags_Meat>
   <FoodTypeFlags_Corpse>Cesetler</FoodTypeFlags_Corpse>
-  <FoodTypeFlags_Seeds>Tohumlar</FoodTypeFlags_Seeds>
-  <FoodTypeFlags_AnimalProduct>Hayvani ürünler</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_Seed>Ekinler</FoodTypeFlags_Seed>
+  <FoodTypeFlags_AnimalProduct>Hayvansal gıdalar</FoodTypeFlags_AnimalProduct>
   <FoodTypeFlags_Plant>Canlı bitkiler</FoodTypeFlags_Plant>
-  <FoodTypeFlags_Tree>Canlı ağaçlar</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Tree>Canlı ağaölar</FoodTypeFlags_Tree>
   <FoodTypeFlags_Meal>Yemekler</FoodTypeFlags_Meal>
-  <FoodTypeFlags_Processed>İşlenmiş yemek</FoodTypeFlags_Processed>
-  <FoodTypeFlags_Liquor>Likör</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Processed>İşlenmiş gıdalar</FoodTypeFlags_Processed>
+  <FoodTypeFlags_Liquor>İçki</FoodTypeFlags_Liquor>
   <FoodTypeFlags_Kibble>Mama</FoodTypeFlags_Kibble>
 
- <!-- Quality category -->
+  <!-- Quality category -->
   <QualityCategory_Awful>Berbat</QualityCategory_Awful>
-  <QualityCategory_Shoddy>Çaput</QualityCategory_Shoddy>
-  <QualityCategory_Poor>Kötü</QualityCategory_Poor>
+  <QualityCategory_Poor>Zayıf</QualityCategory_Poor>
   <QualityCategory_Normal>Normal</QualityCategory_Normal>
   <QualityCategory_Good>İyi</QualityCategory_Good>
-  <QualityCategory_Superior>Süper</QualityCategory_Superior>
   <QualityCategory_Excellent>Mükemmel</QualityCategory_Excellent>
-  <QualityCategory_Masterwork>Ustaişi</QualityCategory_Masterwork>
+  <QualityCategory_Masterwork>Şaheser</QualityCategory_Masterwork>
   <QualityCategory_Legendary>Efsanevi</QualityCategory_Legendary>
-  <QualityCategoryShort_Awful>berbat</QualityCategoryShort_Awful>
-  <QualityCategoryShort_Shoddy>çaput</QualityCategoryShort_Shoddy>
-  <QualityCategoryShort_Poor>kötü</QualityCategoryShort_Poor>
-  <QualityCategoryShort_Normal>normal</QualityCategoryShort_Normal>
-  <QualityCategoryShort_Good>iyi</QualityCategoryShort_Good>
-  <QualityCategoryShort_Superior>süper</QualityCategoryShort_Superior>
-  <QualityCategoryShort_Excellent>mkmml</QualityCategoryShort_Excellent>
-  <QualityCategoryShort_Masterwork>ustaişi</QualityCategoryShort_Masterwork>
-  <QualityCategoryShort_Legendary>efsane</QualityCategoryShort_Legendary>
-
+  <QualityCategoryShort_Awful>Berb.</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Poor>Zay.</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Normal>Norm</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Good>İyi</QualityCategoryShort_Good>
+  <QualityCategoryShort_Excellent>Mük.</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Masterwork>Şah.</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Legendary>Efsan.</QualityCategoryShort_Legendary>
+  
   <!-- Hunger -->
-  <HungerLevel_Starving>Açlıktan ölüyor</HungerLevel_Starving>
-  <HungerLevel_UrgentlyHungry>Çok aç</HungerLevel_UrgentlyHungry>
-  <HungerLevel_Hungry>Aç</HungerLevel_Hungry>
-  <HungerLevel_Fed>Tok</HungerLevel_Fed>
+  <HungerLevel_Starving>Çok aç</HungerLevel_Starving>
+  <HungerLevel_UrgentlyHungry>Ciddi açlık</HungerLevel_UrgentlyHungry>
+  <HungerLevel_Hungry>Açlık</HungerLevel_Hungry>
+  <HungerLevel_Fed>Beslenmiş</HungerLevel_Fed>
 
   <!-- -Fatigue -->
-  <HungerLevel_Exhausted>Bitkin</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>Tükenmiş</HungerLevel_Exhausted>
   <HungerLevel_VeryTired>Çok yorgun</HungerLevel_VeryTired>
   <HungerLevel_Tired>Yorgun</HungerLevel_Tired>
   <HungerLevel_Rested>Dinlenmiş</HungerLevel_Rested>
 
   <!-- Hilliness -->
   <Hilliness_Flat>Düz</Hilliness_Flat>
-  <Hilliness_SmallHills>Küçük Tepeler</Hilliness_SmallHills>
-  <Hilliness_LargeHills>Geniş Tepeler</Hilliness_LargeHills>
-  <Hilliness_Mountainous>Dağlık</Hilliness_Mountainous>
-  <Hilliness_Impassable>Geçilmez</Hilliness_Impassable>
-
+  <Hilliness_SmallHills>Küçük tepeler</Hilliness_SmallHills>
+  <Hilliness_LargeHills>Geniş tepeler</Hilliness_LargeHills>
+  <Hilliness_Mountainous>Dağlıklar</Hilliness_Mountainous>
+  <Hilliness_Impassable>Aşılamaz</Hilliness_Impassable>
+  
   <!-- Steam workshop interaction -->
   <WorkshopInteractStage_CreatingItem>Oluşturuluyor</WorkshopInteractStage_CreatingItem>
-  <WorkshopInteractStage_SubmittingItem>Gönderiliyor</WorkshopInteractStage_SubmittingItem>
+  <WorkshopInteractStage_SubmittingItem>Tamamlanıyor</WorkshopInteractStage_SubmittingItem>
   <EItemUpdateStatus_k_EItemUpdateStatusInvalid>Geçersiz</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Yapılandırma verisi hazırlanıyor</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>İçerik dosyaları hazırlanıyor</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>İçerik gönderiliyor</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Önizleme dosyası gönderiliyor</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
-  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Değişiklikler işleniyor</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>Yapılandırma verilerinin hazırlanması</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>İçerik dosyalarının hazırlaması</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>İçerik yükleniyor</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>Önizleme dosyası yükleniyor</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Değişiklikler yapılıyor</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
-  <ContentSource_LocalFolder>yerel klasör</ContentSource_LocalFolder>
+  <ContentSource_OfficialModsFolder>Resmi içerik</ContentSource_OfficialModsFolder>
+  <ContentSource_ModsFolder>Yerel klasör</ContentSource_ModsFolder>
   <ContentSource_SteamWorkshop>Steam Atölyesi</ContentSource_SteamWorkshop>
-
-  <!-- Trainable Intelligence -->
-  <TrainableIntelligence_None>Hiç</TrainableIntelligence_None>
-  <TrainableIntelligence_Simple>Basit</TrainableIntelligence_Simple>
-  <TrainableIntelligence_Intermediate>Orta</TrainableIntelligence_Intermediate>
-  <TrainableIntelligence_Advanced>Gelişmiş</TrainableIntelligence_Advanced>
-
+  
   <!-- Medical care category -->
   <MedicalCareCategory_NoCare>Tıbbi bakım yok</MedicalCareCategory_NoCare>
-  <MedicalCareCategory_NoMeds>Doktor bakımı, ancak ilaç yok</MedicalCareCategory_NoMeds>
-  <MedicalCareCategory_HerbalOrWorse>Bitkisel ilaçlar veya daha kötüsü</MedicalCareCategory_HerbalOrWorse>
-  <MedicalCareCategory_NormalOrWorse>Normal ilaçlar veya daha kötüsü</MedicalCareCategory_NormalOrWorse>
-  <MedicalCareCategory_Best>En iyi kalitede tıbbi bakım</MedicalCareCategory_Best>
+  <MedicalCareCategory_NoMeds>Doktor var ama ilaç yok</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_HerbalOrWorse>Bitkisel ilaç var veya daha kötüsü</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>Endüstriyel teknolojik tıbbı ilacı veya daha kötüsü</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_Best>En kaliteli ilaç</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
-  <HostilityResponseMode_Ignore>Yoksay</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Ignore>Aldırma</HostilityResponseMode_Ignore>
   <HostilityResponseMode_Attack>Saldır</HostilityResponseMode_Attack>
   <HostilityResponseMode_Flee>Kaç</HostilityResponseMode_Flee>
-
+  
   <!-- HediffGrowthMode -->
-  <HediffGrowthMode_Growing>büyüyor</HediffGrowthMode_Growing>
-  <HediffGrowthMode_Stable>istikrarlı</HediffGrowthMode_Stable>
-  <HediffGrowthMode_Remission>hafiflemiş</HediffGrowthMode_Remission>
+  <HediffGrowthMode_Growing>Gelişiyor</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Stable>Sabit</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Remission>Gelişmiyor</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
-  <TechLevel_Animal>Hayvan</TechLevel_Animal>
-  <TechLevel_Neolithic>Neolitik çağ</TechLevel_Neolithic>
-  <TechLevel_Medieval>Orta çağ</TechLevel_Medieval>
-  <TechLevel_Industrial>Endistüriel</TechLevel_Industrial>
-  <TechLevel_Spacer>Uzaylı</TechLevel_Spacer>
+  <TechLevel_Animal>Vahşi</TechLevel_Animal>
+  <TechLevel_Neolithic>Neolitik</TechLevel_Neolithic>
+  <TechLevel_Medieval>Ortaçağ</TechLevel_Medieval>
+  <TechLevel_Industrial>Endüstriyel</TechLevel_Industrial>
+  <TechLevel_Spacer>Uzay</TechLevel_Spacer>
   <TechLevel_Ultra>Ultra</TechLevel_Ultra>
-  <TechLevel_Transcendent>Üstün</TechLevel_Transcendent>
+  <TechLevel_Archotech>Archotech</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
-  <PlayerPawnsArriveMethod_Standing>Kolonistler dünyada sabit bir şekilde bekleyecekler</PlayerPawnsArriveMethod_Standing>
-  <PlayerPawnsArriveMethod_DropPods>Kapsüllerin düşmesi ile başlayacaksın</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_Standing>Ayakta</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_DropPods>Kaçış kapsülü</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
-  <PawnGenerationContext_All>Bütün karakterler</PawnGenerationContext_All>
+  <PawnGenerationContext_All>Tüm karakterler</PawnGenerationContext_All>
   <PawnGenerationContext_PlayerStarter>Oyuncu başlangıç karakterleri</PawnGenerationContext_PlayerStarter>
-  <PawnGenerationContext_NonPlayer>Oyuncunun olmayan karakterler</PawnGenerationContext_NonPlayer>
-
+  <PawnGenerationContext_NonPlayer>Diğre başlangıç karakterleri</PawnGenerationContext_NonPlayer>
+  
   <!-- Animal name display mode -->
-  <ShowAnimalNames>Hayvan adlarını göster</ShowAnimalNames>
-  <AnimalNameDisplayMode_TameNamed>Evcil (sadece isimlendirilmiş olanlar)</AnimalNameDisplayMode_TameNamed>
-  <AnimalNameDisplayMode_TameAll>Evcil (hepsi)</AnimalNameDisplayMode_TameAll>
-
+  <ShowAnimalNames>Hayvan isimlerini göster</ShowAnimalNames>
+  <AnimalNameDisplayMode_TameNamed>Evcilleştir (yalnızca adlandırılmışlar)</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameAll>Evcilleştir (tümü)</AnimalNameDisplayMode_TameAll>
+  
   <!-- Temperature -->
-  <Celsius>Santigrat</Celsius>
-  <Fahrenheit>Fahrenhayt</Fahrenheit>
+  <Celsius>Celsius</Celsius>
+  <Fahrenheit>Fahrenheit</Fahrenheit>
   <Kelvin>Kelvin</Kelvin>
-
+  
   <!-- Direction8Way -->
   <Direction8Way_North_Short>K</Direction8Way_North_Short>
   <Direction8Way_NorthEast_Short>KD</Direction8Way_NorthEast_Short>
@@ -152,8 +138,47 @@
   <Direction8Way_SouthWest_Short>GB</Direction8Way_SouthWest_Short>
   <Direction8Way_West_Short>B</Direction8Way_West_Short>
   <Direction8Way_NorthWest_Short>KB</Direction8Way_NorthWest_Short>
+  
+  <!-- Diet category -->
+  <DietCategory_NeverEats>Hiç yemez</DietCategory_NeverEats>
+  <DietCategory_Herbivorous>Otçul</DietCategory_Herbivorous>
+  <DietCategory_Dendrovorous>Oduncul</DietCategory_Dendrovorous>
+  <DietCategory_Ovivorous>Yumurtacıl</DietCategory_Ovivorous>
+  <DietCategory_Omnivorous>Herşeyi yiyen</DietCategory_Omnivorous>
+  <DietCategory_Carnivorous>Etobur</DietCategory_Carnivorous>
+  <DietCategory_NeverEats_Short>-</DietCategory_NeverEats_Short>
+  <DietCategory_Herbivorous_Short>O</DietCategory_Herbivorous_Short>
+  <DietCategory_Dendrovorous_Short>Od</DietCategory_Dendrovorous_Short>
+  <DietCategory_Ovivorous_Short>Y</DietCategory_Ovivorous_Short>
+  <DietCategory_Omnivorous_Short>Hy</DietCategory_Omnivorous_Short>
+  <DietCategory_Carnivorous_Short>E</DietCategory_Carnivorous_Short>
 
+  <!-- Food poison cause -->
+  <FoodPoisonCause_IncompetentCook>Beceriksiz aşçı</FoodPoisonCause_IncompetentCook>
+  <FoodPoisonCause_FilthyKitchen>Pis pişirme alanı</FoodPoisonCause_FilthyKitchen>
+  <FoodPoisonCause_Rotten>Çürümüş yemek</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_DangerousFoodType>Tehlikeli yemek türü</FoodPoisonCause_DangerousFoodType>
 
+  <!-- Psychic drone level -->
+  <PsychicDroneLevel_None>hiç</PsychicDroneLevel_None>
+  <PsychicDroneLevel_GoodMedium>orta</PsychicDroneLevel_GoodMedium>
+  <PsychicDroneLevel_BadLow>düşük</PsychicDroneLevel_BadLow>
+  <PsychicDroneLevel_BadMedium>orta</PsychicDroneLevel_BadMedium>
+  <PsychicDroneLevel_BadHigh>yüksek</PsychicDroneLevel_BadHigh>
+  <PsychicDroneLevel_BadExtreme>katlanılamaz</PsychicDroneLevel_BadExtreme>
+  
+  <!-- Automatic pause mode -->
+  <AutomaticPauseMode_Never>Hiç bir zaman</AutomaticPauseMode_Never>
+  <AutomaticPauseMode_MajorThreat>Büyükt tehditler</AutomaticPauseMode_MajorThreat>
+  <AutomaticPauseMode_AnyThreat>Herhangi bir tehdit</AutomaticPauseMode_AnyThreat>
+  <AutomaticPauseMode_AnyLetter>Herhangi bir bildirim</AutomaticPauseMode_AnyLetter>
+
+  <!-- Pain category -->
+  <PainCategory_LowPain>Kaşınan</PainCategory_LowPain>
+  <PainCategory_MediumPain>Ağrılı</PainCategory_MediumPain>
+  <PainCategory_HighPain>Acı verici</PainCategory_HighPain>
+  
+  <!-- ExtraFactionType -->
+  <ExtraFactionType_HomeFaction>Fraksiyon evi</ExtraFactionType_HomeFaction>
+  <ExtraFactionType_HostFaction>Ana fraksiyon evi</ExtraFactionType_HostFaction>
 </LanguageData>
-
-<FoodTypeFlags_Seed>seeds</FoodTypeFlags_Seed>

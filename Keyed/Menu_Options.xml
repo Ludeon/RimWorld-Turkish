@@ -1,52 +1,59 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Audiovisuals -->
-  <Audiovisuals>Ses</Audiovisuals>
-  <GameVolume>Oyun Sesi</GameVolume>
-  <MusicVolume>Müzik Sesi</MusicVolume>
-  <Antialiasing>Anti-aliasing</Antialiasing>
+  <Audiovisuals>Ses ayarları</Audiovisuals>
+  <GameVolume>Oyun sesi</GameVolume>
+  <MusicVolume>Müzik sesi</MusicVolume>
+  <AmbientVolume>Atmosfer sesi</AmbientVolume>
+  <Antialiasing>Kenar yumuşatma</Antialiasing>
 
   <!-- Gameplay -->
-  <EdgeScreenScroll>Ekran Kenarı Fare Hareket</EdgeScreenScroll>
-  <PauseOnLoad>Duraklatılmış olarak başlat</PauseOnLoad>
-  <PauseOnUrgentLetter>Acil mektup sırasında duraklat</PauseOnUrgentLetter>
-  <CustomCursor>Özel Mouse İkonu</CustomCursor>
-  <UIScale>UI scale</UIScale>
-  <KeyboardConfig>Klavye Ayarları</KeyboardConfig>
-  <ChooseLanguage>Dili Seç</ChooseLanguage>
-  <ResetAdaptiveTutor>Etkileşimli Eğitimi Sıfırla</ResetAdaptiveTutor>
-  <AdaptiveTutorIsReset>Etkileşimli Eğitim Sıfırlandı. Sana tekrar eğitim verilecek.</AdaptiveTutorIsReset>
-  <RunInBackground>Arka Planda Çalıştır</RunInBackground>
+  <EdgeScreenScroll>Ekran kenarında fare kaydırma</EdgeScreenScroll>
+  <PauseOnLoad>Yüklerken durdur</PauseOnLoad>
+  <PauseOnUrgentLetter>Bildirimde durdur</PauseOnUrgentLetter>
+  <AutomaticPauseModeSetting>Durdur</AutomaticPauseModeSetting>
+  <CustomCursor>Özel imleç</CustomCursor>
+  <HatsShownOnlyOnMap>Yalnızca oyun haritasında gösterilen şapkalar</HatsShownOnlyOnMap>
+  <UIScale>Kullanıcı arayüzü ölçeği</UIScale>
+  <KeyboardConfig>Klavye yapılandırması</KeyboardConfig>
+  <ChooseLanguage>Dil seç</ChooseLanguage>
+  <ResetAdaptiveTutor>Öğrenme yardımcısını sıfırla</ResetAdaptiveTutor>
+  <AdaptiveTutorIsReset>Eğitmen sıfırlandı. Artık tüm dersleri sıfırdan öğreneceksiniz.</AdaptiveTutorIsReset>
+  <RunInBackground>Arka planda çalıştır</RunInBackground>
   <DevelopmentMode>Geliştirme Modu</DevelopmentMode>
-  <ResetModsConfigOnCrash>Kaza anında mod'ların ayarlarını otomatik sıfırla</ResetModsConfigOnCrash>
-  <LogVerbose>Ayrıntı Günlüğü</LogVerbose>
-  <OpenSaveGameDataFolder>Kayıt Klasörünü Aç</OpenSaveGameDataFolder>
-  <NamesYouWantToSee>Oyun içerisindeki hikayelerde görmek istediğin isimler:</NamesYouWantToSee>
-  <AddName>İsim Ekle</AddName>
-  <TypeFirstNickOrLastName>Type the first name, nickname, or last name.</TypeFirstNickOrLastName>
-  <MessageAlreadyPreferredName>This name is already on the preferred list.</MessageAlreadyPreferredName>
-  <ChangeStoryteller>Anlatıcı seç</ChangeStoryteller>
-  <AutosaveInterval>Otomatik Kayıt aralığı</AutosaveInterval>
+  <ResetModsConfigOnCrash>Çökme durumunda otomatik sıfırlama modları yapılandırması</ResetModsConfigOnCrash>
+  <LogVerbose>Ayrıntılı günlük kaydı</LogVerbose>
+  <OpenSaveGameDataFolder>Veri kaydetme klasörünü aç</OpenSaveGameDataFolder>
+  <ShowSaveGameDataLocation>Veri kaydetme konumunu göster</ShowSaveGameDataLocation>
+  <OpenLogFileFolder>Günlük dosyası klasörünü aç</OpenLogFileFolder>
+  <ShowLogFileLocation>Günlük dosyasının konumunu göster</ShowLogFileLocation>
+  <NamesYouWantToSee>Tercih edilen oyuncu tarafından oluşturulan karakterler. Bu karakterlerin oyun sırasında rastgele görünme olasılığı daha yüksektir:</NamesYouWantToSee>
+  <AddName>İsim ver</AddName>
+  <TypeFirstNickOrLastName>Adı, takma adı veya soyadı yazın.</TypeFirstNickOrLastName>
+  <MessageAlreadyPreferredName>Bu ad zaten tercih edilenler listesinde.</MessageAlreadyPreferredName>
+  <ChangeStoryteller>Hikaye anlatıcı ayarları</ChangeStoryteller>
+  <AutosaveInterval>Otomatik kaydetme aralığı</AutosaveInterval>
   <TemperatureMode>Sıcaklık modu</TemperatureMode>
-  <ShowRealtimeClock>Gerçek Saati Göster</ShowRealtimeClock>
-  <MaxNumberOfPlayerHomes>Maksimum koloni sayısı: {0}</MaxNumberOfPlayerHomes>
-  <PlantWindSway>Plant wind sway</PlantWindSway>
-  <MaxPermadeathAutosaveIntervalInfo>Permadeath modunda otomatik kayıt aralığı {0} gündür.</MaxPermadeathAutosaveIntervalInfo>
+  <ShowRealtimeClock>Gerçek zamanlı saati göster</ShowRealtimeClock>
+  <MaxNumberOfPlayerSettlements>Maximum number of colonies: {0}</MaxNumberOfPlayerSettlements>
+  <PlantWindSway>Rüzgarda bitki sallanması</PlantWindSway>
+  <EnableTestMapSizes>Test haritası boyutlarını etkinleştir</EnableTestMapSizes>
+  <MaxPermadeathAutosaveIntervalInfo>Ölümlülük modunda maksimum otomatik kaydetme aralığı {0} gündür.</MaxPermadeathAutosaveIntervalInfo>
+  <ModSettings>Mod ayarları</ModSettings>
+  <PermanentlyDisableDevMode>Geliştirme modunu kalıcı olarak devre dışı bırak</PermanentlyDisableDevMode>
 
   <!-- Resolution -->
   <Resolution>Çözünürlük</Resolution>
-  <Fullscreen>Tam Ekran</Fullscreen>
+  <Fullscreen>Tam ekran</Fullscreen>
+
+  <!-- Mods -->
+  <SelectMod>Mod seç...</SelectMod>
+  <NoConfigurableMods>Yüklenebilir yapılandırılabilir mod yok.</NoConfigurableMods>
   
-  <!-- Privacy-->
-  <Privacy>Gizlilik</Privacy>
-  <UserName>Kullanıcı Adı</UserName>
-  <ChooseHistoryUploadPref>Oyun içi istatistikleri paylaş.</ChooseHistoryUploadPref>
-   <AboutHistoryUpload>Kullanıcı oyun istatistikleri geliştiricilerin oyunu dengeli yapması içindir. Eğer kabul ediyorsanız bilgileriniz her {0} günde bir gönderilecektir. (Bazende oyun kapatıldığı anda olabilir) RimWorld sunucularına gönderilir ve analiz edilir. Yüklnene oyun verileri istatistik ve tarihle ilgilidir. Kesinlikle kişisel bilgiler gönderilmez. Sadece kullanıcı adınız alınır. Gizliliğiniz korunur.</AboutHistoryUpload>
+  <!-- Options reset -->
+  <RestoreToDefaultSettings>Varsayılan ayarlara geri yükleme</RestoreToDefaultSettings>
+  <ResetAndRestart>Seçenekleriniz sıfırlandı. Oyun şimdi otomatik olarak yeniden başlayacak.</ResetAndRestart>
+  <ResetAndRestartConfirmationDialog>Tüm ayarlarınız varsayılana sıfırlanacak ve oyun yeniden başlatılacaktır. Kaydedilmemiş tüm ilerlemeler kaybedilecek!\n\n Devam et?</ResetAndRestartConfirmationDialog>
   
 </LanguageData>
-
-<ModSettings>Mod Ayarları</ModSettings>
-<SelectMod>Mod Seç...</SelectMod>
-<HatsShownOnlyOnMap>Şapkalar sadece haritada görünür</HatsShownOnlyOnMap>
-<NoConfigurableMods>Ayarlanabilir mod yok.</NoConfigurableMods>

@@ -1,215 +1,313 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <JumpToLocation>Konuma Git</JumpToLocation>
+  <!-- Misc -->
+  <JumpToLocation>Bölgeye git</JumpToLocation>
+  <PostponeLetter>Ertele</PostponeLetter>
+  <RejectLetter>Reddet</RejectLetter>
+  <ReadMore>Daha fazla oku</ReadMore>
+
+  <LetterLabelFirstSummerWarning>Yaz geldi!</LetterLabelFirstSummerWarning>
+  <FirstSummerWarning>Yaz başladı! Fakat kışı da unutmayın. Bitkiler soğuk havada yetiştirilemez. Kışın hayatta kalabilecek kadar gıda yetiştirmeye çalışın. Yiyeceklerin bozulmaması için derin dondurucu oluşturun.\n\nParkalar satın alın, dikin. Kısacası kışa hazırlanın.</FirstSummerWarning>
+
+  <LetterRelationsChange_Hostile>{0} ile ilişkiler tamamen koptu. Şimdi size düşmanca davranıyorlar.\n\nKoloni ve kervanlarınıza periyodik baskınlar yapacak ve sizinle ticaret yapmayı reddedecekler. İlişkileri geliştirmek istiyorsanız, onlara kervanlar veya taşıma kapsülleri kullanarak hediyeler sunabilirsiniz.\n\nBu, iyi niyet({1}) {2} altına düştüğü için oldu. Tarafsız ilişkileri yeniden kurmak için, iyiniyetin tekrar {3} 'e ulaşması gerekir.</LetterRelationsChange_Hostile>
+  <LetterRelationsChange_NeutralFromHostile>{0} ile ilişkiler ısındı. Artık nötr olduğunuzu düşünüyorlar ve artık size saldırmayacaklar.\n\nBu, iyi niyet ({1}) {2} 'yi aştığı için oldu. İyi niyet, {3} 'in altına düşerse, {0} tekrar düşman olur. İyi niyet {4} 'in üzerine çıkarsa, müttefikiniz olacak ve sizin için savaşacaklar.</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromAlly>{0} ile ilişkiler soğudu. Artık müttefiklik yerine tarafsız olduğunu düşünüyorlar.\n\nHala sizinle barış içinde etkileşime girecek olsalar da, artık tehdit altındayken sana yardım etmek için savaşçı göndermeyecekler.\n\nBu iyi niyet ({1}) düştüğü için oldu {2} altında. İyi niyet {3} 'in altına düşerse, {0} düşman olur. İyi niyet {4} 'in üzerine çıkarsa, bir kez daha müttefik olurlar.</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_Ally>{0} ile ilişkiler çok iyi gelişti. Artık sizi bir müttefik olarak görüyorlar.\n\nMüttefikler bazen saldırı altındayken düşmanlarınızla savaşmaya yardımcı olacaklar. İstediğiniz zaman, iyi niyet bedeli karşılığında yardım için de arayabilirsiniz.\n\nİyi niyetiniz ({1}) {2} geçmişte kaldığı için müttefik oldunuz. İyi niyet, {3} 'in altına düşerse, ilişkiler nötr hale gelir.</LetterRelationsChange_Ally>
+
+  <goodwill>İyi niyet</goodwill>
+  <Neutral>Tarafsız</Neutral>
+  <Death>Ölüm</Death>
+
+  <ShortCircuitRain>Bir {1_label} yağmurda kısa devre yaptı ve yangın başlattı.</ShortCircuitRain>
+
+  <LetterLabelAreaRevealed>Bölge ortaya çıktı.</LetterLabelAreaRevealed>
+  <AreaRevealed>Yeni bir alan ortaya çıktı.</AreaRevealed>
+  <AreaRevealedWithMechanoids>Yeni bir alan ortaya çıktı. Eski, düşmanca mekanoidler olabilir.</AreaRevealedWithMechanoids>
+
+  <RoofCollapsed>Bir çatı çöktü çünkü herhangi bir şekilde desteklenmiyordu.</RoofCollapsed>
+  <TheseThingsCrushed>Bunlar ezildi:</TheseThingsCrushed>
+  <NothingCrushed>Hiçbir şey ezilmedi.</NothingCrushed>
+  <LetterLabelRoofCollapsed>Çatı çöktü</LetterLabelRoofCollapsed>
+
+  <RecruitSuccess>{0} başarıyla {1} işe aldı ({2} şans).</RecruitSuccess>
+  <RecruitFail>{0}, {1} ({2} şansı) işe alamadı.</RecruitFail>
+
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef}, {RELATIVE_labelShort} adlı kullanıcının {1}. {PAWN_nameDef} ölürse, {RELATIVE_labelShort} uzun süreli kederden muzdarip olacaktır. Ancak, {PAWN_nameDef} 'i kurtarmayı başarırsanız, {RELATIVE_labelShort} uzun süre çok mutlu olacaktır.</RelatedPawnInvolvedInQuest>
+
+  <LetterLabelBirthday>Doğum günü</LetterLabelBirthday>
+  <BirthdayChronological>Bugün {0}'ın kronolojik olarak doğum günü! Biyolojik olarak, {1} {3} yaşındadır.\n\nKronolojik olarak, {1} sadece {2} 'ye döndü.\n\nKripto uykuda insanların yaşlanmadığı için kronolojik doğum gününün biyolojik doğum gününden ayrı olduğunu unutmayın.</BirthdayChronological>
+  <BirthdayBiologicalAgeInjuries>{0_nameFull}, {1} biyolojik yaşına ulaştı.\n\nNe yazık ki, {0_nameFull} yaşlanma nedeniyle aşağıdaki hastalıkları ortaya çıkmıştır:\n{2}</BirthdayBiologicalAgeInjuries>
+
+  <LetterLabelNewDisease>Hastalık</LetterLabelNewDisease>
+  <NewDisease>{PAWN}, {1} hastalığına yakalandı.\n\nTıbbi yatağınız ve doktorunuz olduğundan emin olun. {PAWN_definite} 'in uygun tedaviyi aldığından ve yatakta mümkün olduğunca fazla zaman geçirdiğinden emin olun.</NewDisease>
+  <NewPartDisease>{PAWN}, {3} hastalığına yakalandı. Enfeksiyon {PAWN_possessive} {1} 'de.\n\nTıbbi yatağınız ve doktorunuz olduğundan emin olun. {PAWN_definite} 'in uygun tedaviyi aldığından ve yatakta mümkün olduğunca fazla zaman geçirdiğinden emin olun.</NewPartDisease>
+  <NewDiseaseAnimal>{PAWN_labelShort} bir hastalık oluşturdu: {1}</NewDiseaseAnimal>
+  <NewPartDiseaseAnimal>{PAWN_labelShort} bir hastalık oluşturdu: {PAWN_possessive} {1} içinde {3}</NewPartDiseaseAnimal>
+
+  <PawnWasFormerlyColonist>{0} eskiden sizin fraksiyonunuzun bir parçasıydı.</PawnWasFormerlyColonist>
+  <PawnWasFormerlyLodger>Daha önce {0} barındırdınız.</PawnWasFormerlyLodger>
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort}, kolonistlerinizle şu ilişkilere sahiptir:</PawnHasTheseRelationshipsWithColonists>
+
+  <LetterLabelAncientShrineWarning>Antik tehlike</LetterLabelAncientShrineWarning>
+  <AncientShrineWarning>{PAWN_nameDef} antik duvarın yanından geçerken, önsezi duygusu {PAWN_objective} 'in üstesinden gelir. {PAWN_pronoun} neden olduğundan emin değil, ancak {PAWN_pronoun} bu tozlu yapının büyük tehlike içerebileceğini düşünüyor.</AncientShrineWarning>
+
+  <StruckMineable>{0} ile karşılaştık!</StruckMineable>
+
+  <LetterLabelAnimalManhunterRevenge>{0} intikam alıyor.</LetterLabelAnimalManhunterRevenge>
+  <AnimalManhunterFromDamage>{1_indefinite} zarar gördükten sonra saldırıyor!\n\nEğer erişebileceği insansı avlanacak. Uyuduğunda sakinleşir.</AnimalManhunterFromDamage>
+  <AnimalManhunterFromTaming>{1_indefinite}, aktif evcilleştirme girişimi nedeniyle saldırıyor!</AnimalManhunterFromTaming>
+  <AnimalManhunterOthers>Yakındaki diğer {1_kindBasePlural} da öfkelendi!</AnimalManhunterOthers>
+
+  <LetterFriendlyTrapSprungLabel>{1_labelShort} tuzağa yakalandı</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprung>{1_labelShort} yanlışlıkla bir tuzağa yakalandı ve ondan hasar aldı.</LetterFriendlyTrapSprung>
+
+  <LetterHealthComplications>{PAWN_labelShort} bir sağlık durumu oluştu:\n\n{1}\n\nBu nedeni:\n\n{2}</LetterHealthComplications>
+  <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
-  <LetterLabelFirstSummerWarning>Yaz</LetterLabelFirstSummerWarning>
-  <FirstSummerWarning>Yaz başladı! Ama kış yolda.\n\nBitkiler kışın soğukta büyümeyecek.  Kış için uzun süre yetecek yiyecek depoladığından emin ol.\n\nYiyeceklerin çürümesini engellemek için bir soğutma odası yapabilirsin.\n\nAyrıca çalarak, üreterek veya satın alarak parka elde etmeye çalış, yoksa dışarı çıktığında donacaksın.</FirstSummerWarning>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort} bir sağlık durumu oluştu: {1}.</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
-  <RelationsBrokenDown>{0} ile ilişkiniz bozuldu. Artık size düşmanlar.</RelationsBrokenDown>
-  <RelationsWarmed>{0} ile ilişkiniz düzeldi. Artık size düşman değiller.</RelationsWarmed>
+  <LetterLeadersDeathLabel>{1} öldü: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeath>{1} için {3} {OLDLEADER_nameFull} öldü.\n\nYeni {3} {NEWLEADER_nameFull}.</LetterLeadersDeath>
 
-  <RelationsBrokenCapture>Şunu esir aldığın için: {0}, {1} artık düşmanınız.</RelationsBrokenCapture>
+  <LetterLeaderChangedLabel>Yeni {1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} artık {1} için {3} değil.\n\nYeni {3} {NEWLEADER_nameFull}.</LetterLeaderChanged>
 
-  <ColonyGoodwill>Koloni iyi niyeti</ColonyGoodwill>
-  <Neutral>Nötr</Neutral>
+  <FinalStraw>Son kamış: {0}</FinalStraw>
+  <MentalStateReason_Mood>Bu çöküş, kötü ruh hali yüzünden oldu.</MentalStateReason_Mood>
+  <MentalStateReason_Trait>Bu, {0} özelliğinden dolayı oldu.</MentalStateReason_Trait>
+  <MentalStateReason_Hediff>Bu, {0} nedeniyle oldu.</MentalStateReason_Hediff>
+  <MentalStateReason_BondedHumanDeath>Bu, {0_definite} 'in ölümü nedeniyle oldu.</MentalStateReason_BondedHumanDeath>
+  <LastFactionRelationsEvent>Son olay</LastFactionRelationsEvent>
 
-  <ShortCircuitRain>A {0} kısa devre yaptı ve yanmaya başladı.</ShortCircuitRain>
+  <ViewRelatedQuest>İlgili görevi görüntüle</ViewRelatedQuest>
+  <ViewQuest>Görevi görüntüle</ViewQuest>
+  <LastEventsInLife>{PAWN_definite} 'in hayatındaki son olaylar</LastEventsInLife>
 
-  <LetterLabelAreaRevealed>Bölge Açığa Çıktı</LetterLabelAreaRevealed>
-  <AreaRevealed>Yeni bir bölge açığa çıktı.</AreaRevealed>
-  <AreaRevealedWithMechanoids>Yeni bir bölge açığa çıktı. İçinde antik düşman mekanikler var.</AreaRevealedWithMechanoids>
-
-  <RoofCollapsed>Bir çatı çöktü çünkü herhangi bir destekten çok uzaktı.</RoofCollapsed>
-  <TheseThingsCrushed>Bunlar yok oldu:</TheseThingsCrushed>
-  <NothingCrushed>Hiçbir şey hasar görmedi.</NothingCrushed>
-  <LetterLabelRoofCollapsed>Çatı Çökmesi</LetterLabelRoofCollapsed>
-  
-  <RecruitSuccess>{0} , {1}  kişisini başarıyla aramıza kattı({2} şansla).</RecruitSuccess>
-  <RecruitFail>{0} , {1} kişisini aramıza katamadı ({2} şansla).</RecruitFail>
-
-  <LetterLabelBirthday>Doğum Günü</LetterLabelBirthday>
-  <BirthdayChronological>Bugün {0} adlı kolonistin kronolojik doğum günü! {1} , biyolojik olarak {3} yaşında.\n\nKronolojik olarak {1} , {2} oldu.\n\nİnsanların cryptosleep içinde yaşlanmadıklarını unutmayın, kronolojik doğum günü biyolojik doğum gününden bağımsızdır.</BirthdayChronological>
-  <BirthdayBiologicalAgeInjuries>{0}  adlı kolonist biyolojik olarak {1} yaşına ulaştı.\n\nMaalesef, {0} yaşlanmadan dolayı şu rahatsızlıktan etkilenecek:\n{2}</BirthdayBiologicalAgeInjuries>
-
-  <LetterLabelNewDisease>Disease</LetterLabelNewDisease>
-  <NewDisease>{0} , {1} adlı kişiden hastalı kaptı.\n\nBir tıbbi yatağın ve doktorun olduğundan emin ol. {2} adlı kişinin gerekli tıbbi desteği aldığından ve yatakta yeterince dinlendiğinden emin ol.</NewDisease>
-  <NewPartDisease>{0} , {3} adlı kişiden hastalık kaptı. Enfeksiyon şu seviyede: {1}.\n\nBir tıbbi yatağın ve doktorun olduğundan emin ol. {2} adlı kişinin gerekli tıbbi desteği aldığından ve yatakta yeterince dinlendiğinden emin ol.</NewPartDisease>
-
-  <LetterLabelAncientShrineWarning>Antik Tehlike</LetterLabelAncientShrineWarning>
-  <AncientShrineWarning>Duvardaki {0} çizimlerine göre, bir önsezi onu güçsüz düşürüyor. O emin değil, ama bu tozlu yapının büyük bir tehlike içerebileceğini düşünüyor.</AncientShrineWarning>
-
-  <StruckMineable>Bir {0} damarına çarptık!</StruckMineable>
-
-  <LetterLabelAnimalManhunterRevenge>{0} İntikam</LetterLabelAnimalManhunterRevenge>
-  <AnimalManhunterFromDamage>Bir {0} incindikten sonra saldırıyor!</AnimalManhunterFromDamage>
-  <AnimalManhunterFromTaming>Bir {0} bir evcilleştirme denemesinden dolayı saldırıyor!</AnimalManhunterFromTaming>
-  <AnimalManhunterOthers>Çevredeki diğer {0} ler de saldırganlaştı!</AnimalManhunterOthers>
-
-  <LetterFriendlyTrapSprungLabel>{0} Tuzağa Bastı</LetterFriendlyTrapSprungLabel>
-  <LetterFriendlyTrapSprung>{0} kazara bir tuzağa bastı ve hasar aldı.</LetterFriendlyTrapSprung>
-
-  <LetterHealthComplications>{0} bir sağlık kondisyonu geliştirdi: {1}\n\nŞundan gelen bir zorluktu: {2}.</LetterHealthComplications>
-  <LetterHealthComplicationsLabel>{0} {1}</LetterHealthComplicationsLabel>
-  
-  <LetterHediffFromRandomHediffGiver>{0} bir sağlık kondisyonu geliştirdi: {1}.</LetterHediffFromRandomHediffGiver>
-  <LetterHediffFromRandomHediffGiverLabel>{0} {1}</LetterHediffFromRandomHediffGiverLabel>
-  
-  <LetterLeadersDeathLabel>Lider'in Ölümü</LetterLeadersDeathLabel>
-  <LetterLeadersDeath>{1} kolonisinin lideri {0} öldü ve yerine {2} geçti.</LetterLeadersDeath>
-  
-  <LetterLeaderChangedLabel>New {1}: {0}</LetterLeaderChangedLabel>
-	<LetterLeaderChanged>{0} is no longer {3} of {1}.\n\nThe new {3} is {2}.</LetterLeaderChanged>
-	
-  <MentalBreakLetterLabel>Zihinsel Kırılma</MentalBreakLetterLabel>
-  <MentalBreakReason>Reason: {0}.</MentalBreakReason>
-  
   <!-- Related pawns -->
-  <LetterLabelNoticedRelatedPawns>İlişkiler</LetterLabelNoticedRelatedPawns>
-  <LetterRelatedPawnsRaidEnemy>{0} grubunda kolonist veya mahkumlarınız ile ilişkisi bulunan saldırganlar var.\n\nBağları olsa da kötü ilişkileri yüzünden yine de birbirlerine saldıracaklar.\n\nBu kişiler:</LetterRelatedPawnsRaidEnemy>
-  <LetterRelatedPawnsRaidFriendly>{0} dost grubunda kolonist veya mahkumlarınız ile ilişkisi bulunan kişiler var:</LetterRelatedPawnsRaidFriendly>
-  <LetterRelatedPawnsNeutralGroup>Gelen grupta kolonist veya mahkumlarınızla ilişkisi bulunan kişiler var:</LetterRelatedPawnsNeutralGroup>
-  <LetterRelatedPawnsTradeShip>Atmosferik tüccar kolonist veya mahkumlarınızla ilişkisi bulunan kişiler satıyor:</LetterRelatedPawnsTradeShip>
-  <LetterRelatedPawnsTradingWithFactionBase>The faction base is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithFactionBase>
-  <LetterRelatedPawnsTradingWithOtherCaravan>The caravan is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterLabelNoticedRelatedPawns>Yakınlık ilişkileri</LetterLabelNoticedRelatedPawns>
+  <LetterRelatedPawnsRaidEnemy>{0} ile gelen {1} grubundaki mahkumlarınızla ilişkileri olan insanlar var.\n\nİlişkili olsalar bile, kötü grup ilişkileri nedeniyle birbirlerine saldıracaklarını unutmayın.\n\nBu insanlar:</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidFriendly>{0} arkadaşınızla veya gelen arkadaş {1} grubundaki mahkumlarla ilişkileri olan insanlar var:</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsNeutralGroup>{0} arkadaşınızla veya gelen gruptaki mahkumlarla ilişkileri olan insanlar var:</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsTradeShip>Yörünge tüccarı {0} veya mahkumlarınızla ilişkileri olan kişileri satıyor:</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradingWithSettlement>Anlaşma {0} veya mahkumlarınızla ilişkileri olan kişileri satmaktadır:</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithOtherCaravan>Kervan, {0} veya mahkumlarınızla ilişkileri olan kişileri satıyor:</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsGroupGeneric>{0} arkadaşınızla veya gruptaki mahkumlarınızla ilişkileri olan insanlar var:</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsInMapWherePlayerLanded>{0} cihazınızla ilişkileri olan kişiler veya {0} alanınızdaki mahkumlar var.</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsSettlement>Bu yerleşimde {0} hesabınızla veya mahkumlarınızla ilişkileri olan insanlar var:</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSite>Bu alanda {0} arkadaşınız veya mahkumlarınızla ilişkileri olan insanlar var:</LetterRelatedPawnsSite>
 
-  <RelationshipAppendedLetterSuffix>(relationship)</RelationshipAppendedLetterSuffix>
-  <RelationshipAppendedLetterTextColonist>[PAWN_nameDef] kolonistlerinden biriyle ilişkiye sahip. [PAWN_pronoun] is {0}'s {1}.</RelationshipAppendedLetterTextColonist>
-  <RelationshipAppendedLetterTextPrisoner>[PAWN_nameDef] mahkumlarından biriyle ilişkiye sahip. [PAWN_pronoun] is {0}'s {1}.</RelationshipAppendedLetterTextPrisoner>
-  
+  <RelationshipAppendedLetterSuffix>yakınlık</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} bir kolonistle ilişki kuruyor. {PAWN_pronoun}, {RELATIVE_labelShort} adlı kullanıcının {1}.</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} mahkumlarınızdan biriyle bir ilişkisi var. {PAWN_pronoun}, {RELATIVE_labelShort} adlı kullanıcının {1}.</RelationshipAppendedLetterTextPrisoner>
+
   <!-- Attempt romance / propose interaction -->
-  <LetterLabelAffair>Affair</LetterLabelAffair>
-  <LetterAffair>{0}, ile evlendi: {1}, ile bir ilişki başlattı: {2}.</LetterAffair>
-  <LetterLabelNewLovers>Yeni Sevgililer</LetterLabelNewLovers>
-  <LetterNewLovers>{0} ve {1} bir araya geldiler ver artık sevgililer.</LetterNewLovers>
-  <LetterNoLongerLovers>{0} ve {1} artık bir ilişki içinde değiller.</LetterNoLongerLovers>
+  <LetterLabelAffair>İlişki</LetterLabelAffair>
+  <LetterAffair>{SPOUSE_labelShort} ile evli olan {PAWN1_labelShort}, {PAWN2_labelShort} ile bir ilişki başlattı.</LetterAffair>
+  <LetterLabelNewLovers>Yeni sevgililer</LetterLabelNewLovers>
+  <LetterNewLovers>{PAWN1_labelShort} ve {PAWN2_labelShort} artık birlikte uyumak istiyor. Onlara bir çift kişilik yatak atamayı düşünün.</LetterNewLovers>
+  <LetterNoLongerLovers>{PAWN1_labelShort} ve {PAWN2_labelShort} artık sevgili değiller.</LetterNoLongerLovers>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort}, {PAWN_possessive} soyadını tekrar {PAWN_possessive} doğum adına değiştirecek.</LetterNoLongerLovers_BackToBirthName>
   <LetterLabelBreakup>Ayrılık</LetterLabelBreakup>
-  <LetterLabelAcceptedProposal>Bir evlilik var!</LetterLabelAcceptedProposal>
-  <LetterLabelRejectedProposal>Reddedilmiş Teklif</LetterLabelRejectedProposal>
-  <LetterAcceptedProposal>{1} , {0}'nin evlilik teklifini kabul etti.\n\nÖnümüzdeki günlerde bir evlilik töreni yapacak ve tüm kolonistleri davet edecekler . Törenin yapılacağı yeri belirlemek istiyorsan bir evlilik noktası oluşturabilirsin.</LetterAcceptedProposal>
-  <LetterRejectedProposal>{1} , {0}'nin evlilik teklifini reddetti. {0} bu konuda mutsuz olacak.</LetterRejectedProposal>
-  
+  <LetterLabelAcceptedProposal>Nikah kıyılıyor!</LetterLabelAcceptedProposal>
+  <LetterLabelRejectedProposal>Evlilik teklif reddedildi</LetterLabelRejectedProposal>
+  <LetterAcceptedProposal>Önümüzdeki günlerde ya da tarihlerde evlilik törenlerini yapacaklar ve tüm kolonistleri davet edecekler. Törenin nerede gerçekleştiğini kontrol etmek istiyorsanız bir evlilik noktası yerleştirmeyi düşünün.</LetterAcceptedProposal>
+  <LetterAcceptedProposal_NameChange>{PAWN_label}, {PAWN_possessive} soyadını {1} olarak değiştirecek.</LetterAcceptedProposal_NameChange>
+  <LetterRejectedProposal>{INITIATOR_nameFull} bu konuda mutsuz olacak.</LetterRejectedProposal>
+
   <!-- Generalized letter labels -->
-  <LetterLabelRelationsChangeGood>İyi Niyet</LetterLabelRelationsChangeGood>
-  <LetterLabelRelationsChangeBad>Kötü Niyet</LetterLabelRelationsChangeBad>
+  <LetterLabelRelationsChange_Hostile>Düşman: {0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Ally>Müttefik: {0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_NeutralFromHostile>Düşman şimdi nötr: {0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromAlly>Müttefik artık tarafsız: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <LetterLabelShortCircuit>Zzztt...</LetterLabelShortCircuit>
-  <LetterLabelMentalBreakdown>Psikolojik Kırılma</LetterLabelMentalBreakdown>
-  
+
   <!-- Bonded animals -->
-  <LetterLabelBondedAnimalDied>Bağlı Hayvanın Ölümü</LetterLabelBondedAnimalDied>
-  <LetterBondedAnimalDied>{1}'e bağlı olan {0} öldü.Bu durum {1}'in moralini etkileyecek.</LetterBondedAnimalDied>
-  <LetterNamedBondedAnimalDied>{2}'ye bağlı olan {0} isimli {1} öldü.Bu durum {2}'nin moralini etkileyecek.</LetterNamedBondedAnimalDied>
-  <LetterBondedAnimalDiedMulti>{0} öldü. Bu durum kişilerin moralini etkileyecek:\n\n{1}</LetterBondedAnimalDiedMulti>
-  <LetterNamedBondedAnimalDiedMulti>{0} isimli {1} öldü. Bu durum kişilerin moralini etkileyecek:\n\n{2}</LetterNamedBondedAnimalDiedMulti>
+  <LetterLabelSuffixBondedAnimalDied>bağlı</LetterLabelSuffixBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{ANIMAL_definite}, {HUMAN_labelShort} kişisine duygusal olarak bağlandı. {HUMAN_labelShort}'un ruh halini etkileyecektir.</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDiedMulti>Şu kişilerin ruh halini etkileyecek:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
-  <LetterLabelPrisonBreak>Hapishane Kaçışık</LetterLabelPrisonBreak>
-  <LetterPrisonBreak>Mahkumlar bir kaçış düzenlediler! Bir şekilde kilidi aştılar ve kaçıyorlar. Silah arayabilirler, savaşabilir ya da kaçabilirler. Şu mahkumları kapsıyor:\n\n{0}\n\nMahkumlar daha çok mutsuz , çok sayıda ve sağlıklıyken kaçmaya çalışırlar.</LetterPrisonBreak>
-  
-  <!-- Party -->
-  <LetterLabelNewParty>Parti</LetterLabelNewParty>
-  <LetterNewParty>{0} bir parti düzenliyor! Katılan herkes devamlı bir moral etkisi kazanacaklar.</LetterNewParty>
-  
-<!-- Newly addicted -->
-  <LetterLabelNewlyAddicted>{0} Bağımlılığı</LetterLabelNewlyAddicted>
-  <LetterNewlyAddicted>{0} şuna bağımlı oldu: {1}.\n\nŞimdi şuna ihtiyaç duyuyor: {1}, ihtiyaçları sekmesinde görünebilir. İhtiyaç halinde kendiliğinden uyuşturucuyu tüketecek. Eğer hiç {1} almassa krize girecek.</LetterNewlyAddicted>
-  
+  <LetterLabelPrisonBreak>Hapishaneden kaçış</LetterLabelPrisonBreak>
+  <LetterPrisonBreak>Mahkumlar kaçıyor! Bir şekilde kapı kilitlerini kırdılar ve kaçmaya başladılar! Silah arayabilir, savaşabilir veya kaçmaya çalışabilirler. Bu mahkumlar işin içinde:\n\n{0}\n\n Sağlıklı ve ruh halleri yüksek olursa, kaçmak istemeyeceklerdir.</LetterPrisonBreak>
+
+  <!-- Newly addicted -->
+  <LetterLabelNewlyAddicted>{0} bağımlılığı</LetterLabelNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort}, {1} için bir bağımlılığa girdi.\n\n{PAWN_pronoun} artık {PAWN_possessive} İhtiyaçlar sekmesinde görülebilen {1} 'e ihtiyaç duyuyor. {PAWN_pronoun}, {PAWN_possessive} ihtiyacını karşılamak için ilacı otomatik olarak tüketecektir. {PAWN_pronoun} herhangi bir {1} alamazsa, {PAWN_pronoun} geri çekilecektir.</LetterNewlyAddicted>
+
   <!-- Drug binge -->
-  <LetterLabelDrugBinge>{0} Cümbüşü</LetterLabelDrugBinge>
-  <LetterDrugBinge>{0}, {1} ile alem yapıyor.</LetterDrugBinge>
+  <LetterLabelDrugBinge>{0} tıkınıyor</LetterLabelDrugBinge>
+  <LetterDrugBinge>{2_label}, {1} tarihinde tıkınıyor.</LetterDrugBinge>
 
-  <!-- Formed caravan -->
-  <LetterLabelFormedCaravan>Caravan ready</LetterLabelFormedCaravan>
-  <LetterFormedCaravan>Your caravan has formed and awaits orders on the world map.</LetterFormedCaravan>
-	
-  <!-- Caravan entered map -->
-<LetterLabelCaravanEnteredMap>Kervan Hedefe Ulaştı</LetterLabelCaravanEnteredMap>
-<LetterCaravanEnteredMap>Kervanın hedef konuma ulaştı.</LetterCaravanEnteredMap>
-	
   <!-- Caravan destroyed -->
-  <LetterLabelAllCaravanColonistsDied>Caravan destroyed</LetterLabelAllCaravanColonistsDied>
-  <LetterAllCaravanColonistsDied>All members of your caravan have died.</LetterAllCaravanColonistsDied>
-  
-  <!-- Caravan entered ambush map -->
-  <LetterLabelCaravanEnteredAmbushMap>Caravan arrived at ambush</LetterLabelCaravanEnteredAmbushMap>
-  <LetterCaravanEnteredAmbushMap>{0} has arrived at the ambush site.</LetterCaravanEnteredAmbushMap>
-  
+  <LetterLabelAllCaravanColonistsDied>Kervan yok edildi</LetterLabelAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>Tüm {0} üyeleri öldü.</LetterAllCaravanColonistsDied>
+
+  <!-- Caravan entered map -->
+  <LetterLabelCaravanEnteredMap>Kervan {0_label} adresine vardı.</LetterLabelCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0}, {1_definite} alanına ulaştı.</LetterCaravanEnteredMap>
+
   <!-- Caravan entered enemy base -->
-  <LetterLabelCaravanEnteredEnemyBase>Attack begun</LetterLabelCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBase>{0} has arrived at {1} and is ready to begin the attack.</LetterCaravanEnteredEnemyBase>
-  <LetterCaravanEnteredEnemyBaseBecameHostile>{0} has arrived at {1} and is ready to begin the attack.\n\nBecause of your hostile approach, {2} is now hostile to you.</LetterCaravanEnteredEnemyBaseBecameHostile>
-  
+  <LetterLabelCaravanEnteredEnemyBase>Saldırı başladı</LetterLabelCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0}, {1} alanına ulaştı ve saldırıya başlamaya hazır.</LetterCaravanEnteredEnemyBase>
+
+  <!-- Transport pods landed in enemy base -->
+  <LetterLabelTransportPodsLandedInEnemyBase>Saldırı başladı</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>Taşıma kapsülleriniz {0} konumuna ulaştı.</LetterTransportPodsLandedInEnemyBase>
+
   <!-- Faction base defeated -->
-  <LetterLabelFactionBaseDefeated>Outpost destroyed</LetterLabelFactionBaseDefeated>
-  <LetterFactionBaseDefeated>The enemy outpost {0} has been destroyed.\n\nYou have {1} hours to collect items before your colonists reform the caravan.</LetterFactionBaseDefeated>
-  <LetterFactionBaseDefeated_FactionDestroyed>This was the last base of {0}, which means the faction does not exist anymore.</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterLabelFactionBaseDefeated>Yerleşim yok edildi</LetterLabelFactionBaseDefeated>
+  <LetterFactionBaseDefeated>{0} düşman üssü yok edildi.\n\n{1} 'de kervan otomatik olarak yeniden düzenlenecek. Yıkılan üssü seçip "Karavanı yeniden şekillendir" seçeneğini belirleyerek kervanı artık Dünya ekranında yeniden düzenleyebilirsiniz.</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated_FactionDestroyed>Bu {0} 'ın son üssüydü, yani bu fraksiyon artık mevcut değil.</LetterFactionBaseDefeated_FactionDestroyed>
+
+  <!-- Quest completed -->
+  <LetterLabelDefeatAllEnemiesQuestCompleted>Görev tamamlandı</LetterLabelDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>Düşman karakolunu yıktın\n\n{0} 'dan ödeme geldi ve fraksiyon ilişkileri {1} ile iyileşti.</LetterDefeatAllEnemiesQuestCompleted>
+
+  <!-- Long-range mineral scanner -->
+  <LetterLabelFoundPreciousLump>Derin kaynaklar tarandı</LetterLabelFoundPreciousLump>
+  <LetterFoundPreciousLump>Derin menzilli mineral tarayıcınızı kullanarak, {WORKER_labelShort} biraz uzakta {0} bir yumru buldu.\n\nMaalesef, uzun sürmeyecek - eğer yapmazsak, diğerleri {1} gün içinde ilk önce mayın kuracak.\n\n{2}.</LetterFoundPreciousLump>
+
+  <!-- Ground penetrating scanner -->
+  <LetterLabelDeepScannerFoundLump>Yeraltında tarandı</LetterLabelDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef} yere nüfuz eden tarayıcıyı kullanarak bir parça gömülü {0} buldu!</LetterDeepScannerFoundLump>
+
+  <!-- Ambush -->
+  <LetterLabelAmbushInExistingMap>Pusu</LetterLabelAmbushInExistingMap>
+  <LetterAmbushInExistingMap>{0} öğeniz pusuya düşürüldü!</LetterAmbushInExistingMap>
+
+  <!-- Peace talks -->
+  <LetterLabelPeaceTalks_Disaster>Barış görüşmesi felakete dönüştü</LetterLabelPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>Görüşmeler bir felaketti. Delegeler, tartışma hakaretlere ve suçlamalara girmeden önce ilk selamlamlaşmayı zar zor becerdiler..\n\nKervanınız erken ayrıldıktan sonra, {1} 'den {0} 'iyakaladı ve saldırdı!\n\n{1} ile ilişkiler: {2}.</LetterPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Backfire>Barış görüşmesi terse döndü</LetterLabelPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>Görüşmeler geri tepti. Bazı zevklerin alım satımına rağmen, delegeler önemli konularda ilerleme kaydetmediler ve birden fazla konuşma, hakaret olarak yorumlandı.\n\n{0}: {1} ile ilişkiler.</LetterPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_TalksFlounder>Etkisiz barış görüşmesi</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>Görüşmeler akıcı başladı. Delegeler net ve temel bir saygı ile iletişim kurmayı başardılar, ancak gerçek konularda ilerleme sağlayamadılar.\n\n{0} ile ilişkiler değişmedi.</LetterPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_Success>Barış görüşmesi başarılı oldu</LetterLabelPeaceTalks_Success>
+  <LetterPeaceTalks_Success>Görüşmeler başarılı oldu. Delegeler bir çok önemli konuda yeni bir anlayışa ulaştılar.\n\n{0} ile ilişkiler {1} ile gelişti.</LetterPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Triumph>Barış görüşmesi zaferle sonuçlandı</LetterLabelPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>Görüşmeler büyük bir zaferle sonuçlandı! Delegeler kişisel düzeyde hızlı bir şekilde bağlandılar ve günün en zor meseleleri konusunda birbirlerinin bakış açısını gerçekten görmeyi başardılar ve anlaştılar.\n\n {0} ile ilişkiler {1} ile iyileşti.\n\n Kervan ayrıldığı gibi, {0 } size bir hediye sundu:\n\n{2}</LetterPeaceTalks_Triumph>
+  <PeaceTalksSocialXPGain>Müzakereciniz {PAWN_labelShort}, {1} sosyal deneyim kazandı.</PeaceTalksSocialXPGain>
+
+  <!-- Run wild mental break -->
+  <LetterRunWildMentalBreak>{0} medeniyetten bıkmış vaziyette.\n\n{PAWN_pronoun} vahşi yaratıkların her zaman özgür olduğunu fark etti. Bu nedenle, {PAWN_pronoun} topluluğunuzu terk etmeye ve hayvanlarla yaşamaya karar verdi.\n\n{PAWN_objective} 'i geri almak için {PAWN_objective}' yi evcilleştirmeye veya tutuklamaya çalışabilirsiniz.</LetterRunWildMentalBreak>
+
+  <!-- Catatonic mental break -->
+  <LetterCatatonicMentalBreak>{0} tam bir zihinsel çöküntü yaşadı ve katatonik bir duruma girdi. {PAWN_pronoun} birkaç gün içinde iyileşecek.</LetterCatatonicMentalBreak>
+
+  <LetterLabelAICoreOffer>Kişisel çekirdek teklifi</LetterLabelAICoreOffer>
+  <LetterAICoreOffer>{1} için {PAWN_definite} sizinle bir bilgi teklifi sunuyor: bir uzay gemisi inşa etmek için ihtiyaç duyacağınız bir kişisel çekirdeğin konumu. Size bu öğenin oldukça nadir olduğunu ve genellikle sahiplerinin ağır koruması altında olduğunu bildiriyorlar.\n\nİlgileniyorsanız bunları iletişim konsolunuzla arayın.</LetterAICoreOffer>
+
+  <!-- Crafting letters -->
+  <LetterCraftedLegendaryLabel>Efsanevi Çalışma</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort} bir {CRAFTED_labelShort} oluşturdu.\n\nBu değerli eserin haberleri dünyaya yayılacak.</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort} bir {CRAFTED_labelShort} oluşturdu.\n\n{0}\n\nBu değerli eserin haberleri dünyaya yayılacak.</LetterCraftedLegendaryMessageArt>
+
+  <LetterCraftedMasterworkLabel>Ustaişi</LetterCraftedMasterworkLabel>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort} bir {CRAFTED_labelShort} oluşturdu.</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort} bir {CRAFTED_labelShort} oluşturdu.\n\n{0}</LetterCraftedMasterworkMessageArt>
+
+  <!-- Pawns lost because map closed -->
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>Kervan kaybolu</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>Kervan kayboldu. Kervandaki insanlar ve hayvanlar da kervanla birlikte kayboldu</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>Yerleşkedeki insanlar kayboldu</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>Yerleşkedeki insanlar ve hayvanlar terk edildi.</LetterPawnsLostBecauseMapClosed_Home>
+
+  <!-- Hibernate complete -->
+  <LetterLabelHibernateComplete>Reaktör hazır</LetterLabelHibernateComplete>
+  <LetterHibernateComplete>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; reaktörün hazırda bekletme kurtarma dizisini tamamladı. Reaktör artık bir kalkışa güç vermeye hazırdır.</LetterHibernateComplete>
+  <LetterHibernateCompleteStandalone>Reaktörün güç verme sırası tamamlandı. Artık bir kalkışa güç vermeye hazır.</LetterHibernateCompleteStandalone>
+
+  <!-- Visitors gave gift -->
+  <LetterLabelVisitorsGaveGift>{0} 'dan hediye</LetterLabelVisitorsGaveGift>
+  <LetterVisitorsGaveGift>{PAWN_factionName} fraksiyonundan {0} bir hediye bıraktı:\n\n{1}</LetterVisitorsGaveGift>
+
+  <!-- Faction base proximity -->
+  <LetterLabelFactionBaseProximity>Fraksiyon yakınlığı </LetterLabelFactionBaseProximity>
+  <LetterFactionBaseProximity>Diğer gruplara çok yakın olduğunuz için, kendi bölgelerinde tecavüze uğradığınızı hissediyorlar.\n\n Son zamanlarda, grup ilişkileri şu şekilde azaltıldı:</LetterFactionBaseProximity>
+
+  <!-- Caravans battlefield victory -->
+  <LetterLabelCaravansBattlefieldVictory>Kervan savaşı kazanıldı</LetterLabelCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>Kervanınız savaşı kazandı.\n\nKervan savaş alanını seçip "Kervanı yeniden biçimlendir" seçeneğini seçerek şimdi Dünya ekranında yeniden düzenleyebilirsiniz.\n\n Eşyaları toplamaya gerek yok, kendiliğinden toplayarak hareket ederler.\n\n{0} içinde karavan otomatik olarak yeniden biçimlendirilecek.</LetterCaravansBattlefieldVictory>
+
+  <!-- Rescue quest -->
+  <LetterLabelRescueQuestFinished>Kurtarma katılımı</LetterLabelRescueQuestFinished>
+  <LetterRescueQuestFinished>{PAWN_nameDef} 'i kurtardınız ve {PAWN_pronoun} grubunuza katıldı.\n\nBu alanı seçip "Kervanı yeniden biçimlendir" seçeneğini belirleyerek Dünya ekranındaki karavanı yeniden düzenleyerek {PAWN_objective} yanınıza alabilirsiniz.</LetterRescueQuestFinished>
+
+  <!-- Predator hunting colonist -->
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort} avcılık {PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR} yemek için {PREY_definite} avlıyor!</LetterPredatorHuntingColonist>
+
+  <!-- Disease -->
+  <LetterDisease_Blocked>{0}, {2} tarihinde {1} adlı canlıyı engelledi.</LetterDisease_Blocked>
+  <LetterLabelTraitDisease>Hastalık: {0}</LetterLabelTraitDisease>
+  <LetterTraitDisease>{PAWN_label}, {1} hastalığına yakalandı.\n\nTıbbi yatağınız ve doktorunuz olduğundan emin olun. {PAWN_pronoun} 'un uygun tedavi gördüğünden ve yatakta mümkün olduğunca fazla zaman geçirdiğinden emin olun.</LetterTraitDisease>
+
+  <!-- Quests -->
+  <LetterQuestBecameAvailable>Yeni bir görev ortaya çıktı. Buna '{0}' deniyor.</LetterQuestBecameAvailable>
+  <LetterQuestRequiresAcceptance>{0} içindeki görevi kabul etmezseniz süresi dolar.</LetterQuestRequiresAcceptance>
+  <LetterQuestBecameActive>Yeni bir görev aktif hale geldi. Buna '{0}' deniyor.</LetterQuestBecameActive>
+  <LetterQuestAutomaticallyAcceptedTitle>Görev etkin: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterQuestActiveNowTime>Süresi {0} içinde dolacak.</LetterQuestActiveNowTime>
+
+  <!-- Quest drop pods arrived -->
+  <LetterLabelQuestDropPodsArrived>Kapsül vardı</LetterLabelQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>Aşağıdaki içeriklere sahip taşıma bölmeleri geldi:\n\n{0}</LetterQuestDropPodsArrived>
+
+  <!-- Refugee joins -->
+  <LetterLabelRefugeeJoins>{PAWN_nameDef} katıldı</LetterLabelRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_nameDef} adında bir {PAWN_title} var ve koloniye katılıyor.</LetterRefugeeJoins>
   
-<!-- Transport pods landed in enemy base -->
-<LetterLabelTransportPodsLandedInEnemyBase>Saldırı başladı</LetterLabelTransportPodsLandedInEnemyBase>
-<LetterTransportPodsLandedInEnemyBase>Taşıma kapsüllerin düşman bölgesine ulaştı.</LetterTransportPodsLandedInEnemyBase>	
+  <!-- Rescuee joins -->
+  <LetterLabelRescueeJoins>{PAWN_nameDef} katıldı</LetterLabelRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef}, {PAWN_objective} 'u kurtardığınız için minnettar. {PAWN_pronoun}, {PAWN_pronoun} 'un ayrılmayı tercih edeceğine karar verdi ve koloninize katıldı.</LetterRescueeJoins>
 
-  <!-- Pawns lost due to map countdown -->
-  <LetterLabelPawnsLostDueToMapCountdown>Left behind</LetterLabelPawnsLostDueToMapCountdown>
-  <LetterPawnsLostDueToMapCountdown>Some of your animals or prisoners were left behind in the wilderness:\n\n{0}</LetterPawnsLostDueToMapCountdown>
+  <!-- Pawns arrive and join -->
+  <LetterLabelPawnsArriveAndJoin>İnsanlar size katılıyor</LetterLabelPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>Aşağıdaki insanlar geldi ve koloninize katıldı:\n\n{0}</LetterPawnsArriveAndJoin>
 
-<!-- Faction base defeated -->
-<LetterLabelFactionBaseDefeated>Kaloni Yok Edildi</LetterLabelFactionBaseDefeated>
-<LetterFactionBaseDefeated>Düşman kalonisi yok edildi.\n\nKolonistleriniz kervanı düzeltmeden önce öğeler toplamak için {1} saat var.</LetterFactionBaseDefeated>
-<LetterFactionBaseDefeated_FactionDestroyed>Koloninin başka yerde yerleşimi olmadığı için tamamiyle yıkıldı.</LetterFactionBaseDefeated_FactionDestroyed>
-	
-<!-- Run wild mental break -->
-<LetterRunWildMentalBreak>{0} uygarlıktan bıktı.\n\nvahşi yaratıkların her zaman özgür olduğunu fark etti. Yani, koloniyi terketmeye ve vahşi yaşamla birlikte yaşamaya karar verdi.\n\nTutuklayıp geri koloniye almaya çalışabilirsiniz.</LetterRunWildMentalBreak>
+  <!-- Pawns arrive -->
+  <LetterLabelPawnsArrive>İnsanlar geldi</LetterLabelPawnsArrive>
+  <LetterPawnsArrive>Aşağıdaki kişiler geldi:\n\n{0}</LetterPawnsArrive>
 
-<!-- Catatonic mental break -->
-<LetterCatatonicMentalBreak>{0} zihinsel kırılma yaşıyor ve katolik duruma girdi. Bir kaç gün içinde kendisine gelir.</LetterCatatonicMentalBreak>
-<LetterLabelAICoreOffer>YZ Çekirdeği Teklifi</LetterLabelAICoreOffer>
-<LetterAICoreOffer>{PAWN_definite} of {1} size bir bilgi teklif etti: Uzay gemisi inşasında kullanılan ve oldukça nadir bulunan YZ çekirdeğinin yerini bildirdi fakat sıkı korunduğunuda belirtti.</LetterAICoreOffer>
-<LetterCraftedLegendaryLabel>Efsane Çalışma</LetterCraftedLegendaryLabel>
-<LetterCraftedLegendaryMessage>{WORKER_labelShort}, {CRAFTED_labelShort} ögesini yaptı.\n\nBu değerli eserin haberi tüm dünyaya yayılacak.</LetterCraftedLegendaryMessage>
+  <!-- Pawn leaving -->
+  <LetterLabelPawnLeaving>{0} ayrılıyor</LetterLabelPawnLeaving>
+  <LetterPawnLeaving>{0} gidiyor.</LetterPawnLeaving>
 
-<!-- Pawns lost because map closed -->
-<LetterLabelPawnsLostBecauseMapClosed_Caravan>Kervan Kayboldu</LetterLabelPawnsLostBecauseMapClosed_Caravan>
-<LetterPawnsLostBecauseMapClosed_Caravan>Karavan kayboldu. Aşağıdaki insanlar ve hayvanlar onunla kayboldu</LetterPawnsLostBecauseMapClosed_Caravan>
-<LetterLabelPawnsLostBecauseMapClosed_Home>Terk Edilen Koloni</LetterLabelPawnsLostBecauseMapClosed_Home>
-<LetterPawnsLostBecauseMapClosed_Home>Aşağıdaki insanlar ve hayvanlar terk edilmiş</LetterPawnsLostBecauseMapClosed_Home>
+  <!-- Pawns leaving -->
+  <LetterLabelPawnsLeaving>{0} ayrılıyor</LetterLabelPawnsLeaving>
+  <LetterPawnsLeaving>{0} gidiyor.</LetterPawnsLeaving>
+  
+  <!-- Colonist kidnapped -->
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef} kaçırıldı</LetterLabelPawnsKidnapped>
+  <LetterPawnsKidnapped>{PAWN_nameDef}, {FACTION_name} tarafından kaçırıldı!
+\n Ancak, {PAWN_pronoun} sonsuza kadar kaybolmaz. {PAWN_objective} 'u kurtarma fırsatı, önümüzdeki günlerde veya yıllarda kendini gösterebilir.</LetterPawnsKidnapped>
+  
+  <!-- Techprints -->
+  <LetterTechprintAppliedLabel>Teknotasarım uygulandı: {PROJECT_label}</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedPartIntro>Araştırma projesinde bir teknotasarım uygulandı: {PROJECT_label}.</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartJustUnlocked>Projelerin teknotasarım gereksinimlerini tamamladınız! Araştırmacılarınız artık teknolojiyi araştırma tezgahlarınızda nasıl kullanacağınızı araştırmaya başlayabilirler.</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartNotUnlockedYet>Bu projenin teknotasarım gereksinimleri henüz karşılanmadı. {0} teknotasarım şu ana kadar uygulandı. Proje toplamda {1} gerektirir.</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartAlreadyUnlocked>Bu projenin teknotasarım gereksinimleri zaten karşılanmıştı. Ekstra teknotasarım {PROJECT_label} ile ilgili araştırma çalışmalarınızı geliştirdi. Kalan araştırma çalışmasının yarısı ({0} puan) tamamlandı.</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyResearched>Bu proje zaten tamamen araştırılmıştır, bu nedenle teknoloji izi bilginizi hiç ilerletmedi.</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartExpAwarded>Teknotasarım uygulayarak {PAWN_labelShort}, {1} becerisinde {0} deneyim kazandı.</LetterTechprintAppliedPartExpAwarded>
+  
+  <!-- Quest Completed -->
+  <LetterQuestCompletedLabel>Görev tamamlandı</LetterQuestCompletedLabel>
+  <LetterQuestFailedLabel>Görev başarısız oldu</LetterQuestFailedLabel>
+  <LetterQuestConcludedLabel>Görev sonuçlandırıldı</LetterQuestConcludedLabel>
+  <LetterQuestCompletedSuccess>'{0}' görevini başarıyla tamamladın!</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedFail>'{0}' görevinde başarısız oldunuz.</LetterQuestCompletedFail>
+  <LetterQuestCompletedConcluded>'{0}' görevini tamamladınız.</LetterQuestCompletedConcluded>
+  
+  <!-- Bladelink -->
+  <LetterBladelinkWeaponBondedLabel>Bladelink bağı: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort}, {WEAPON_labelShort} kişiliğiyle bir bağ kurdu.
+\n Şimdilik, {WEAPON_labelShort}, {PAWN_labelShort} dışında herhangi biri tarafından kullanılmayı reddedecek.</LetterBladelinkWeaponBonded>
+  
+  <!-- Mech cluster -->
+  <LetterLabelMechClusterArrived>Mekanoidler geldi</LetterLabelMechClusterArrived>
+  <LetterMechClusterArrived>Mekanoidler geldi</LetterMechClusterArrived>
 
-<!-- Hibernate complete -->
-<LetterLabelHibernateComplete>Reaktör hazır</LetterLabelHibernateComplete>
-<LetterHibernateComplete>Charlon Whitestone, reaktörün hazırda bekletme durumunu tamamladı. Reaktör şimdi güç vermeye hazır.</LetterHibernateComplete>
-<LetterHibernateCompleteStandalone>Reaktörün güç dizisi tamamlandı. Artık güc vermeye hazır.</LetterHibernateCompleteStandalone>
-
-<!-- Visitors gave gift -->
-<LetterLabelVisitorsGaveGift>{0} tarafından hediye</LetterLabelVisitorsGaveGift>
-<LetterVisitorsGaveGift>{0}, {PAWN_factionName} kolonisinden aşağıdakilere hediye bıraktı:\n\n{1}</LetterVisitorsGaveGift>
-
-<!-- Faction base proximity -->
-<LetterLabelFactionBaseProximity>Bölge Yakınlığı</LetterLabelFactionBaseProximity>
-<LetterFactionBaseProximity>Diğer koloniye çok yakın olduğunuz için, kendi topraklarına tecavüz ettiğinizi düşünüyorlar.\n\nSon çeyrek için koloniyle olan ilişkilerin azaldı:</LetterFactionBaseProximity>
-
-<!-- Caravans battlefield victory -->
-<LetterLabelCaravansBattlefieldVictory>Kervan savaşı kazandı</LetterLabelCaravansBattlefieldVictory>
-<LetterCaravansBattlefieldVictory>Kervanın savaşı kazandı.\n\nDünya haritasından kervanını tekrar düzenleyebilirsin.\n\nÖğeleri manuel olarak toplamaya gerek yok, kervanı yeniden oluşturma aracı bunu anında yapabilir.</LetterCaravansBattlefieldVictory>
-
-<!-- Rescue quest -->
-<LetterLabelRescueQuestFinished>Rescuee joins</LetterLabelRescueQuestFinished>
-<LetterRescueQuestFinished>Kurdartığınız {PAWN_nameDef}, koloninize katıldı.\n\nKervanı dünya haritasından yeniden başlatarak kolonisti grubunuza alabilirsiniz.</LetterRescueQuestFinished>
-
-<!-- Predator hunting colonist -->
-<LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}, {PREY_definite}'i avlıyor</LetterLabelPredatorHuntingColonist>
-<LetterPredatorHuntingColonist>{PREDATOR}, yiyecek için {PREY_definite}'i avlıyor!</LetterPredatorHuntingColonist>
-
-<!-- Disease -->
-<LetterDisease_Blocked>{0} blocked {1} on: {2}.</LetterDisease_Blocked>
-<LetterLabelTraitDisease>Hastalık ({0})</LetterLabelTraitDisease>
-<LetterTraitDisease>{PAWN_label} hasta oldu. ({1}).\n\nTıbbi yatak ve doktorunuz olduğundan emin olun. Uygun tedavi aldığından ve yeterince yatakta zaman geçirdiğinden emin olun.</LetterTraitDisease>
-	
 </LanguageData>
-
-<LetterDefeatAllEnemiesQuestCompleted>You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}.</LetterDefeatAllEnemiesQuestCompleted>
-<LetterRelatedPawnsTradingWithSettlement>The settlement is selling people who have relationships with your colonists or prisoners:</LetterRelatedPawnsTradingWithSettlement>
-<LetterLabelFoundPreciousLump>Precious minerals found</LetterLabelFoundPreciousLump>
-<RejectLetter>Reject</RejectLetter>
-<LetterFoundPreciousLump>Your long-range mineral scanner has found a lump of precious resources nearby.\n\nWe don't know who or what - if anything - might be guarding it.</LetterFoundPreciousLump>
-<FinalStraw>The final straw was: {0}.</FinalStraw>
-<LetterLabelDefeatAllEnemiesQuestCompleted>Quest completed</LetterLabelDefeatAllEnemiesQuestCompleted>
-<PostponeLetter>Postpone</PostponeLetter>

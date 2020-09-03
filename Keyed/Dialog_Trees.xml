@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <FactionGreetingHostile>{0}, bazı kötü sözler sarf etti ve bağlantıyı kesti.</FactionGreetingHostile>
-  <FactionGreetingWary>{0}, selamlıyor {1} sıcak biçimde işleri soruyor.</FactionGreetingWary>
-  <FactionGreetingWarm>{0}, selamlıyor {1} sıcak biçimde koloninin halini soruyor.</FactionGreetingWarm>
+  <FactionGreetingHostile>{0} mikrofona bazı epitetler fırlatır ve bağlantıyı keser.</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0}, {0_possessive} yerleşim yerlerinden birine hediyeler getirmek veya {0_possessive} hizip mahkumlarının zarar görmemişlerini serbest bırakmak gibi bir iyi niyet jesti yapmanızı istiyor. O zamana kadar {0_pronoun} konuşmak istemiyor.\n\nBir hakaretten sonra {0_pronoun} bağlantısı kesildi.</FactionGreetingHostileAppreciative>
+  <FactionGreetingWary>{0} {NEGOTIATOR_labelShort} 'u selamlıyor ve hangi işi yapmak istediğinizi soruyor.</FactionGreetingWary>
+  <FactionGreetingWarm>{0} {NEGOTIATOR_labelShort} 'u sıcak karşılıyor ve {LEADER_pronoun}' un size yardımcı olmak için neler yapabileceğini soruyor.</FactionGreetingWarm>
 
-  <Disconnect>Bağlantı Kesik</Disconnect>
+  <WorkTypeDisablesOption>{0} yapmayacak</WorkTypeDisablesOption>
+  <Disconnect>Kesildi</Disconnect>
 
-  <!-- gift offer -->
-  <OfferGift>Hediye Öner</OfferGift>
-  <NeedSilverLaunchable>{0} göderilebilir gümüş gerekli</NeedSilverLaunchable>
-  <NotEnoughSilver>Yeterli gümüş yok.</NotEnoughSilver>
-  <SilverForGoodwill>{1} iyi hal için {0} gümüş ver</SilverForGoodwill>
-  <SilverGiftSent>{0} temsilcisi size teşekkür ediyor.\n\n(İtibarın{1} arttı).</SilverGiftSent>
+  <!-- Gift offer -->
+  <OfferGift>Hediye teklif et</OfferGift>
+  <MustBeAlly>Müttefik olmalı</MustBeAlly>
+  <NeedGoodwill>{0} iyi niyet gerekli</NeedGoodwill>
+  <NeedSilverLaunchable>ticaret fenerleri yakınında {0} gümüş lazım</NeedSilverLaunchable>
+  <NotEnoughSilver>yeterli gümüş yok</NotEnoughSilver>
+  <SilverForGoodwill>{1} iyi niyet için {0} gümüş</SilverForGoodwill>
+  <SilverGiftSent>{0} teşekkürler.\n\n(İyi niyet {1} tarafından iyileştirildi))</SilverGiftSent>
 
-  <!-- trade caravan request -->
-  <RequestTrader>Tticari kervan iste (ücret: {0} silver)</RequestTrader>
-  <ChooseTraderKind>>{0} ne tip bir karavan istediğini soruyor.</ChooseTraderKind>
-  <TraderSent>{0} sana karavan yollamayı kabul ediyor. Birkaç gün içinde varacaktır.</TraderSent>
-  <WaitTime>Bekle {0}</WaitTime>
-
-  <!-- military aid request -->
-  <RequestMilitaryAid>Acil askeri yardım iste. ({0} itibar)</RequestMilitaryAid>
-  <MilitaryAidConfirmMutualEnemy>{0} sana yardım etmeyecek, çünkü savaştıkların onun düşmanı değil. Buna seni tehdit edenler dahil olabilir, {1}. Yinede yardım için aramak istiyor musun?</MilitaryAidConfirmMutualEnemy>
-  <CallConfirm>Evet, yine de arayın.</CallConfirm>
-  <CallCancel>Hayır, boşver gitsin.</CallCancel>
-  <MilitaryAidSent>{0} temsilcisi size yardım etmek için savaşçılar göndermeyi kabul etti.</MilitaryAidSent>
-
+  <!-- Trade caravan request -->
+  <RequestTrader>Ticari kervanı talep edin (maliyet: {0} şerefiye)</RequestTrader>
+  <ChooseTraderKind>{0} ne tür bir ticaret kervanı istediğinizi sorar.</ChooseTraderKind>
+  <TraderSent>{0} size bir ticaret kervanı göndermeyi kabul eder. Birkaç gün içinde gelecek.</TraderSent>
+  <WaitTime>{0} bekleyin</WaitTime>
+  
+  <!-- AI core request -->
+  <RequestAICoreInformation>Bir {0} yeri isteyin (maliyet: {1} gümüş)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} istenen bilgileri gönderir ve size iyi şanslar diler.</RequestAICoreInformationResult>
+  <NoKnownAICore>başka yer bilinmiyor</NoKnownAICore>  
+  
+  <!-- Military aid request -->
+  <RequestMilitaryAid>Derhal askeri yardım isteyin (maliyet: {0} iyi niyet)</RequestMilitaryAid>
+  <MilitaryAidConfirmMutualEnemy>{0} düşmanları olmayan diğer gruplarla savaşmana yardım etmeyecek. Buna şu anda sizi tehdit eden bazı kişiler de dahildir {1}. Hala yardım istemek istiyor musun?</MilitaryAidConfirmMutualEnemy>
+  <CallConfirm>Evet, onları yine de ara.</CallConfirm>
+  <CallCancel>Hayır, unut gitsin.</CallCancel>
+  <MilitaryAidSent>{0} size yardım etmek için savaşçı göndermeyi kabul eder.</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} özür diliyor ve zamanında varamayacaklarını söylüyor.\n\nBu grubun teknoloji seviyesi taşıma kapsülleri için çok düşük)</CantSendMilitaryAidInTime>
+  <HostileVisitorsPresent>düşmanca ziyaretçiler mevcut</HostileVisitorsPresent>
 
 </LanguageData>

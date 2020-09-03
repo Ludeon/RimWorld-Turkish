@@ -1,46 +1,43 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
+  
+  <ScenPart_PlayerFaction>Topluluğunuz {0} olacak.</ScenPart_PlayerFaction>
 
-  <ScenPart_PlayerFaction>Grubun {0} olucak.</ScenPart_PlayerFaction>
+  <ScenPart_StartWithPawns>Kolonist Sayısı: {1}'den {0} kişi</ScenPart_StartWithPawns>
+  <ScenPart_StartWithPawns_OutOf>-den seçildi</ScenPart_StartWithPawns_OutOf>
+  <RandomPet>rastgele evcil hayvan</RandomPet>
 
-  <ScenPart_StartWithPawns>{0} insan ile başla.</ScenPart_StartWithPawns>
-  <RandomPet>rastgele hayvan</RandomPet>
+  <ScenPart_StartingResearchFinished>Hazır olan araştırmalar: {0}</ScenPart_StartingResearchFinished>
+  
+  <ScenPart_ArriveInDropPods>Kapsüllerin araziye düşmesi ile başlayacaksın.</ScenPart_ArriveInDropPods>
 
-  <ScenPart_StartingResearchFinished>Araştırma ile başla: {0}</ScenPart_StartingResearchFinished>
-
-  <ScenPart_ArriveInDropPods>Kapsüller düştü.</ScenPart_ArriveInDropPods>
-
-  <ScenPart_StatFactor>İstatistik "{0}" genel olarak {1} oranında çoğatılacaktır.</ScenPart_StatFactor>
-
+  <ScenPart_StatFactor>"{0}" statüsü, evrensel olarak  {1} katlanacak.</ScenPart_StatFactor>
 
   <!-- Pawn modifiers -->
-  <ScenPart_PawnsHaveHediff>{0} {1} şans ile  {2} başlar.</ScenPart_PawnsHaveHediff>
-  <ConfigurableSeverity>sertlik: {0}</ConfigurableSeverity>
+  <ScenPart_PawnsHaveHediff>{0}, {1} şans ile şunla başlar: {2}.</ScenPart_PawnsHaveHediff>
+  <ConfigurableSeverity>zorluk: {0}</ConfigurableSeverity>
 
-  <ScenPart_SetNeed>{0} {3} ve {4} arasında {2} ayarlarını yapmaları için {1} bir şansınız var.</ScenPart_SetNeed>
-  <ConfigurableLevel>level: {0}</ConfigurableLevel>
+  <ScenPart_SetNeed>{0} {1} şans ile {2}leri {3} ve {4} arasında olacak.</ScenPart_SetNeed>
+  <ConfigurableLevel>Seviye: {0}</ConfigurableLevel>
 
-
-  <ScenPart_PawnsHaveTrait>{0} {1} şansı ile: {2}</ScenPart_PawnsHaveTrait>
-  <ScenPart_OnPawnDeathExplode>Karakterler ve yaratıklar öldüğünde patlayacak ({0}, etkilediği alan {1}).</ScenPart_OnPawnDeathExplode>
-
+  <ScenPart_PawnsHaveTrait>{0} {1} şansla '{2}' özelliği ile başlayacak.</ScenPart_PawnsHaveTrait>
+  <ScenPart_OnPawnDeathExplode>Karakterler ve canavarlar öldüğü vakit vericekleri etki: ({0}, yarıçap {1}).</ScenPart_OnPawnDeathExplode>
+  <ScenPart_PawnsAreNaked>{0} çıplak başlayacak.</ScenPart_PawnsAreNaked>
+  
   <!-- Pawn filters -->
-  <ScenPart_StartingPawnAgeMin>Karakterlerin en az {0} yaşında olacak.</ScenPart_StartingPawnAgeMin>
-  <ScenPart_StartingPawnAgeMax>Karakterlerin en fazla {0} yaşında olacak.</ScenPart_StartingPawnAgeMax>
-  <ScenPart_StartingPawnAgeRange>Karakterlerinin yaşı {0} ve {1} arasında olacak.</ScenPart_StartingPawnAgeRange>
-
+  <ScenPart_StartingPawnAgeMin>Kolonistlerin en az {0} yaşında olacak.</ScenPart_StartingPawnAgeMin>
+  <ScenPart_StartingPawnAgeMax>Kolonistlerin en fazla {0} yaşında olacak.</ScenPart_StartingPawnAgeMax>
+  <ScenPart_StartingPawnAgeRange>Kolonistlerin {0} ile {1} yaş arasında olacak.</ScenPart_StartingPawnAgeRange>
 
   <!-- ======================== Grouped ========================-->
 
-  <ScenPart_StartWith>ile başla</ScenPart_StartWith>
-  <ScenPart_MapScatteredWith>haritada rastgele olarak</ScenPart_MapScatteredWith>
-  <ScenPart_PermaMapCondition>devamlı harita şartları</ScenPart_PermaMapCondition>
-  <ScenPart_DisableIncident>kazalar devre dışı</ScenPart_DisableIncident>
-  <ScenPart_CreateIncident>Olay meydana geldi</ScenPart_CreateIncident>
-  <ScenPart_DisallowBuilding>asla inşaat yapamaz</ScenPart_DisallowBuilding>
+  <ScenPart_StartWith>Aşağıdaki eşyalar ile başlayacaksın</ScenPart_StartWith>
+  <ScenPart_MapScatteredWith>Aşağıdaki eşyalar haritaya dağılmış bir şekilde başlayacaksın</ScenPart_MapScatteredWith>
+  <ScenPart_PermaGameCondition>Kalıcı harita durumu</ScenPart_PermaGameCondition>
+  <ScenPart_DisableIncident>Hadise(ler) devre dışı</ScenPart_DisableIncident>
+  <ScenPart_CreateIncident>Mevcut hadiseler</ScenPart_CreateIncident>
+  <ScenPart_DisallowBuilding>Asla inşa edilemeyecek yapılar</ScenPart_DisallowBuilding>
 
 </LanguageData>
-
-<ScenPart_PermaGameCondition>Permanent game condition(s)</ScenPart_PermaGameCondition>

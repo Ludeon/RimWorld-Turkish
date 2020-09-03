@@ -5,75 +5,145 @@
   <ManualPriorities>Manuel öncelikler</ManualPriorities>
   <HigherPriority>Yüksek öncelik</HigherPriority>
   <LowerPriority>Düşük öncelik</LowerPriority>
-  <RelevantSkills>İlgili yetenekler: {0}\nAverage of relevant skills: {1} / {2}</RelevantSkills>
-  <ClickToJumpTo>Zıplamak için basınız:</ClickToJumpTo>
+  <RelevantSkills>İlgili yetenekler: {0}\nİlgili becerilerin ortalaması {1} / {2}</RelevantSkills>
+  <ClickToJumpTo>Gitmek için tıklayınız.</ClickToJumpTo>
   <CannotDoThisWork>{0} Bu tip bir işi yapamam.</CannotDoThisWork>
   <NoneBrackets>(boş)</NoneBrackets>
-  <IncapableOfWorkTypeBecauseOfCapacities>Bu kolonici sağlık durumundan ötürü bir iş yapamaz.</IncapableOfWorkTypeBecauseOfCapacities>
+  <IncapableOfWorkTypeBecauseOfCapacities>Bu kolonist, sağlık durumundan dolayı bir iş yapamaz.</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
+  <SelectedWorkTypeWithVeryBadSkill>Uyarı: İlgili becerilerin ortalaması çok düşüktür.</SelectedWorkTypeWithVeryBadSkill>
+  <PriorityOneDoneFirst>Öncelik 1 ise, en önce yapılır. Öncelik 4 ise en son yapılır.</PriorityOneDoneFirst>
+  <Priority0>Yapamayacak</Priority0>
+  <Priority1>Öncelikli</Priority1>
+  <Priority2>Yüksek öncelikli</Priority2>
+  <Priority3>Normal öncelikli</Priority3>
+  <Priority4>Düşük öncelikli</Priority4>
   
   <!-- Assign tab -->
-  <CurrentOutfit>Şu anki kıyafet</CurrentOutfit>
   <ManageOutfits>Kıyafetleri yönet</ManageOutfits>
-  <ClearForcedApparel>Clear forced</ClearForcedApparel>
-  <ApparelForcedLower>forced</ApparelForcedLower>
-  <ForcedApparel>Forced apparel</ForcedApparel>
-  <AssignTabEdit>Edit...</AssignTabEdit>
-  <CurrentDrugPolicies>Current drug policy</CurrentDrugPolicies>
-  <ManageDrugPolicies>Manage drug policies</ManageDrugPolicies>
+  <Unchangeable>Değiştirilemez</Unchangeable>
+  <ClearForcedApparel>Mecburi kıyafet</ClearForcedApparel>
+  <ApparelForcedLower>Zorunlu</ApparelForcedLower>
+  <ApparelLockedLower>Sınırlanmış</ApparelLockedLower>
+  <ForcedApparel>Zoraki kıyafet</ForcedApparel>
+  <AssignTabEdit>Düzeltme</AssignTabEdit>
+  <ManageDrugPolicies>Uyuşturucu politikalarını yönet</ManageDrugPolicies>
+  <ManageFoodRestrictions>Gıda politikalarını yönet</ManageFoodRestrictions>
   
   <!-- Restrictions tab -->
   <Copy>Kopyala</Copy>
   <Paste>Yapıştır</Paste>
-  <AllowedArea>İzin verilen bölge</AllowedArea>
+  <AllowedArea>İzin verilen alan</AllowedArea>
   
   <!-- Animals tab -->
-  <Master>Master</Master>
-  <PregnantIconDesc>Pregnant ({0} / {1})</PregnantIconDesc>
-  <FollowDraftedTip>Follow master while the master is drafted.</FollowDraftedTip>
-	<FollowFieldworkTip>Follow master while the master is doing field work (hunting or taming animals).</FollowFieldworkTip>
-
+  <Master>Usta</Master>
+  <PregnantIconDesc>Hamile ({0} / {1})</PregnantIconDesc>
+  <BondedTo>Bağlı</BondedTo>
+  
+  <!-- Wildlife tab -->
+  <IsPredator>Bu yaratık bir avcı. Acıktığında, muhtemelen insanlar da dahil olmak üzere daha küçük yaratıkları avlar.</IsPredator>
+  <IsInMentalState>Bu yaratık şu anda zihinsel kırılma durumunda: {0}</IsInMentalState>
+  
   <!-- Factions tab -->
   <Hostile>Düşman</Hostile>
-  <DefeatedLower>defeated</DefeatedLower>
-  <HostileTo>Enemy of {0}</HostileTo>
-  <CurrentGoodwill>Current goodwill with this faction.</CurrentGoodwill>
+  <Ally>Müttefik</Ally>
+  <DefeatedLower>Mağlup</DefeatedLower>
+  <HostileTo>{0}'a düşman</HostileTo>
+  <EnemyOf>Düşmanı: </EnemyOf>
+  <CurrentGoodwillTip>Bu fraksiyonla art niyetsiz şekildeki ilişki durumu.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_PermanentEnemy>Bu fraksiyon kalıcı olarak düşmanca davranıyor. Yerleşimlerinize ve kervanlarınıza baskın yapacaklar. Onlarla ilişkiler asla hiçbir nedenle gelişmeyecektir.</CurrentGoodwillTip_PermanentEnemy>
+  <CurrentGoodwillTip_Ally>Bu fraksiyon müttefiktir. Mümkün olduğunda size yardımcı olmak için savaşçılarını gönderecekler. İlişkiler {0} 'ın altına düşerse, tarafsız olurlar.</CurrentGoodwillTip_Ally>
+  <CurrentGoodwillTip_Neutral>Bu fraksiyon tarafsız. Sizinle serbestçe ticaret yapacak ve konuşacaklar. İlişkiler {0} 'ın altına düşerse düşman olurlar. İlişkiler {1} üzerine çıkarsa, müttefik olacaklar ve size yardımcı olmak için aktif olarak çalışmaya başlayacaklar.</CurrentGoodwillTip_Neutral>
+  <CurrentGoodwillTip_Hostile>Bu fraksiyon düşmanca. Yerleşimlerinize ve kervanlarınıza baskın yapacaklar. İlişkiler {0} 'ın üzerine çıkarsa, tarafsız olurlar.</CurrentGoodwillTip_Hostile>
+  <CurrentGoodwillTip_NaturalGoodwill>Bu fraksiyon,{0} ila {1} arasında bir doğal iyi niyet aralığına sahiptir. İyi niyeti {1} 'in üzerindeyse, günde {3} düşecektir. Niyeti {0} 'ın altındaysa, günde {2} artacaktır.</CurrentGoodwillTip_NaturalGoodwill>
   
   <!-- Social tab -->
-	<Friend>Friend</Friend>
-	<Rival>Rival</Rival>
-	<Acquaintance>Acquaintance</Acquaintance>
-	
+  <Friend>Arkadaş</Friend>
+  <Rival>Rakip</Rival>
+  <Acquaintance>Acquaintance</Acquaintance>
+  
   <!-- History tab - subtabs -->
-  <Graph>Graph</Graph>
-  <Statistics>Statistics</Statistics>
+  <Graph>Çizelge</Graph>
+  <Messages>Mesajlar</Messages>
+  <Statistics>İstatistikler</Statistics>
   
   <!-- History tab - Graphs -->
-  <SelectGraph>Select graph</SelectGraph>
-  <Last30Days>Son 30 gün</Last30Days>
+  <SelectGraph>Çizelge seçin</SelectGraph>
+  <Last30Days>Son 3 gün</Last30Days>
   <Last100Days>Son 100 gün</Last100Days>
   <Last300Days>Son 300 gün</Last300Days>
-  <AllDays>Tümü</AllDays>
-  <Day>Gün</Day>
-  <Value>Değer</Value>
+  <AllDays>Tüm zamanlar</AllDays>
+  <Value>Varlık</Value>
   <External>Harici</External>
 
+  <!-- History tab - Messages -->
+  <ShowLetters>İletileri göster</ShowLetters>
+  <ShowMessages>Mesajları göster</ShowMessages>
+  <PinArchivableTip>Bu iletiyi sabitleyin ya da sabitlemeyi kaldırın.En eski sabitlenmemiş iletiler, {0} ileti sınırına ulaşıldıktan sonra otomatik olarak listeden kaldırılır. </PinArchivableTip>
+  <NoMessages>Mesaj yok</NoMessages>
+
   <!-- History tab - Statistics -->
-  <Playtime>Play time</Playtime>
-  <Storyteller>Storyteller</Storyteller>
-  <ThisMapColonyWealthTotal>Colony wealth (this map)</ThisMapColonyWealthTotal>
-  <ThisMapColonyWealthItems>Colony wealth (items) (this map)</ThisMapColonyWealthItems>
-  <ThisMapColonyWealthBuildings>Colony wealth (buildings) (this map)</ThisMapColonyWealthBuildings>
-  <NumThreatBigs>Major threats</NumThreatBigs>
-  <NumEnemyRaids>Enemy raids</NumEnemyRaids>
-  <ThisMapDamageTaken>Damage taken (this map)</ThisMapDamageTaken>
-  <ColonistsKilled>Colonists killed</ColonistsKilled>
-  <ColonistsLaunched>Colonists launched into space</ColonistsLaunched>
-  
+  <Playtime>Oyun süresi</Playtime>
+  <Storyteller>Hikaye Anlatıcı</Storyteller>
+  <ThisMapColonyWealthTotal>Koloni serveti (bu harita)</ThisMapColonyWealthTotal>
+  <ThisMapColonyWealthItems>Koloni serveti (öğeler) (bu harita)</ThisMapColonyWealthItems>
+  <ThisMapColonyWealthBuildings>Koloni serveti (yapılar) (bu harita)</ThisMapColonyWealthBuildings>
+  <ThisMapColonyWealthColonistsAndTameAnimals>Koloni serveti (insanlar ve hayvanlar) (bu harita</ThisMapColonyWealthColonistsAndTameAnimals>
+  <NumThreatBigs>Büyük tehditler</NumThreatBigs>
+  <NumEnemyRaids>Düşman baskınları</NumEnemyRaids>
+  <ThisMapDamageTaken>Alınan hasar (bu harita)</ThisMapDamageTaken>
+  <ColonistsKilled>Kaybedilen kolonistler</ColonistsKilled>
+  <ColonistsLaunched>Uzaya yollanan kolonistler</ColonistsLaunched>
+
   <!-- Research tab -->
-  <ProjectTechLevel>Proje teknoloji seviyesi</ProjectTechLevel>
-  <YourTechLevel>Senin teknoloji seviyen</YourTechLevel>
-  <ResearchCostMultiplier>cost multiplier</ResearchCostMultiplier>
-  <ResearchCostComparison>Project base cost {0} becomes {1} for you because of your tech level.</ResearchCostComparison>
+  <Research>Araştırma</Research>
+  <Researched>Araştırılan</Researched>
+  <Unresearched>Araştırılmayan</Unresearched>
+  <Finished>Bitirilen</Finished>
+  <InProgress>Devam eden</InProgress>
+  <Locked>Kilitli</Locked>
+  <ResearchPrerequisites>Araştırma önkoşulları</ResearchPrerequisites>
+  <ResearchTechprintRequirement>Gereken teknik baskılar {0} / {1}</ResearchTechprintRequirement>
+  <InsufficientTechprintsApplied>Yetersiz teknik baskı uygulandı ({0} / {1})</InsufficientTechprintsApplied>
+  <PrerequisitesNotCompleted>Önkoşul(lar) tamamlanmadı</PrerequisitesNotCompleted>
+  <RequiredResearchBench>Araştırma Tezgahı gerekli</RequiredResearchBench>
+  <RequiredResearchBenchFacilities>Araştırma Tezgahı Tesisi gerekli</RequiredResearchBenchFacilities>
+  <ResearchCostComparison>{0} proje taban maliyeti, teknoloji seviyeniz nedeniyle sizin için {1} olur.</ResearchCostComparison>
+  <ResearchTechprintsFromFactions>Teknik baskılar bu fraksiyonlardan ticaret ve görevler yoluyla elde edilebilir:</ResearchTechprintsFromFactions>
+  <TechLevelTooLow>İhtilaf teknoloji seviyeniz {0}, ancak bu projenin teknoloji seviyesi {1}. Araştırma hızı {2} ile çarpılacak.</TechLevelTooLow>
+
+  <!-- Quests tab -->
+  <AvailableQuests>Mevcut</AvailableQuests>
+  <ActiveQuests>Aktif</ActiveQuests>
+  <HistoricalQuests>Tarihsel</HistoricalQuests>
+  <NoQuestSelected>Görev seçilmedi</NoQuestSelected>
+  <AppearedDaysAgo>{0} gün önce ortaya çıktı</AppearedDaysAgo>
+  <AppearedOn>{0} tarihinde çıktı</AppearedOn>
+  <AcceptedAgo>{0} önce kabul edildi</AcceptedAgo>
+  <AcceptedOn>{0} önce kabul edildi</AcceptedOn>
+  <AcceptedAgoBy>{0} önce {1} tarafından kabul edildi</AcceptedAgoBy>
+  <AcceptedOnBy>{0} tarihinde {1} tarafından kabul edildi</AcceptedOnBy>
+  <QuestExpiresIn>{0} içinde sona eriyor</QuestExpiresIn>
+  <QuestExpiresOn>{0} tarihinde sona eriyor</QuestExpiresOn>
+  <ShuttleArrivesIn>Sefer {0}</ShuttleArrivesIn>
+  <ShuttleArrivesOn>Sefer {0} tarihinde varıyor</ShuttleArrivesOn>
+  <ShuttleDepartsIn>Sefer {0} içinde kalkıyor</ShuttleDepartsIn>
+  <ShuttleDepartsOn>Sefer {0} tarihinde kalkıyor</ShuttleDepartsOn>
+  <QuestFinishedAgo>{0} önce tamamlandı</QuestFinishedAgo>
+  <AcceptQuest>Görevi kabul et</AcceptQuest>
+  <AcceptWith>{0_labelShort} ile kabul edin</AcceptWith>
+  <QuestOutcomeInfo_OfferExpired>Bu görevi tamamladın.</QuestOutcomeInfo_OfferExpired>
+  <QuestOutcomeInfo_UnknownOrSuccess>Teklifin süresi doldu.</QuestOutcomeInfo_UnknownOrSuccess>
+  <QuestOutcomeInfo_Failed>Bu görevde başarısız oldun.</QuestOutcomeInfo_Failed>
+  <JumpToTargetCustom>{0} 'a git</JumpToTargetCustom>
+  <QuestChallengeRatingTip>Zorluk derecesi. Bu, görevin mevcut gücünüze göre ne kadar zor olacağına dair genel bir derecelendirmedir. Daha zorlu görevler daha büyük ödüller verir.\nn\n:Normal\n2:Zor\n3:Aşırı\n4:Ultimate</QuestChallengeRatingTip>
+  <QuestAcceptanceRequirementsDescription>Bu görevi kabul etmek için,</QuestAcceptanceRequirementsDescription>
+  <QuestBedroomRequirementsUnsatisfied>başlıca gereksinimlerini karşılayan ücretsiz yatak odaları</QuestBedroomRequirementsUnsatisfied>
+  <QuestBedroomRequirementsUnsatisfiedSingle>başlıca gereksinimlerini karşılayan ücretsiz bir yatak odası</QuestBedroomRequirementsUnsatisfiedSingle>
+  <QuestNoColonistWithTitle>{0} ünvanlı bir kolonist.</QuestNoColonistWithTitle>
+  <AcceptRoyalFavor>{FACTION_royalFavorLabel} 'i kabul et</AcceptRoyalFavor>
+ <AcceptRoyalFavorDesc>{FACTION_name} 'dan {FACTION_royalFavorLabel} ile ödüllendirilmek isteyip istemediğinizi.\n\nBu devre dışı bırakılırsa, {FACTION_name} bunun yerine başka tür ödüller sunar.\n\nBu ayar yalnızca yeni gelen görevleri etkiler.</AcceptRoyalFavorDesc>
+  <RoyalFavorOn>Şu anda {FACTION_royalFavorLabel} almayı seçiyorsunuz.</RoyalFavorOn>
+  <RoyalFavorOff>Şu anda {FACTION_royalFavorLabel} almamayı seçiyorsunuz.</RoyalFavorOff>
   
 </LanguageData>

@@ -1,188 +1,250 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!--=========== Main menu ==========-->
-  <Tutorial>Öğretici</Tutorial>
+  <!-- Main menu -->
+  <Tutorial>Eğitim</Tutorial>
   <NewColony>Yeni Koloni</NewColony>
-  <BackToGame>Oyuna Geri Dön</BackToGame>
-  <ReviewScenario>Senaryoyu incele</ReviewScenario>
+  <BackToGame>Oyuna dön</BackToGame>
+  <ReviewScenario>Hikayeye göz at</ReviewScenario>
   <Save>Kaydet</Save>
-  <LoadGame>Oyunu Yükle</LoadGame>
+  <LoadGame>Oyun yükle</LoadGame>
   <Options>Ayarlar</Options>
+  <Mod>Mod</Mod>
   <Mods>Modlar</Mods>
-  <Credits>Jenerik</Credits>
-  <QuitToMainMenu>Ana Menüye dön</QuitToMainMenu>
+  <SaveTranslationReport>Çeviri raporunu kaydet</SaveTranslationReport>
+  <GeneratingTranslationReport>Çeviri raporu oluşturma</GeneratingTranslationReport>
+  <CleanupTranslationFiles>Çeviri dosyalarını kaydetme</CleanupTranslationFiles>
+  <CleaningTranslationFiles>Çeviri dosyalarını temizleme</CleaningTranslationFiles>
+  <Credits>Yapımcılar</Credits>
+  <QuitToMainMenu>Ana menüye dön</QuitToMainMenu>
   <SaveAndQuitToMainMenu>Kaydet ve ana menüye dön</SaveAndQuitToMainMenu>
-  <QuitToOS>Oyundan Çık</QuitToOS>
-  <SaveAndQuitToOS>Kaydet ve masaüstüne dön</SaveAndQuitToOS>
-  <FictionPrimer>El Kitabı</FictionPrimer>
-  <LudeonBlog>Ludeon bloğu</LudeonBlog>
+  <QuitToOS>Masaüstüne çık</QuitToOS>
+  <SaveAndQuitToOS>Kaydet ve Masaüstüne çık</SaveAndQuitToOS>
+  <FictionPrimer>Kurgu</FictionPrimer>
+  <LudeonBlog>Ludeon blog</LudeonBlog>
   <Forums>Forumlar</Forums>
   <OfficialWiki>Resmi wiki</OfficialWiki>
   <TynansTwitter>Tynan'ın twitterı</TynansTwitter>
   <TynansDesignBook>Tynan'ın tasarım kitabı</TynansDesignBook>
-  <HelpTranslate>RimWorld'ü çevirmeye yardım et</HelpTranslate>
-  <BuySoundtrack>Oyun müziği satın al</BuySoundtrack>
-  <CreateWorld>Dünya Oluştur</CreateWorld>
+  <HelpTranslate>Altay Bey'e destek olmayı unutmayın.</HelpTranslate>
+  <BuySoundtrack>Müzikleri satın al</BuySoundtrack>
+  <CreateWorld>Dünya yarat</CreateWorld>
 
-  <!--=========== Create/review world ================-->
-  <ReviewWorld>Dünyayı Gözden Geçir</ReviewWorld>
+  <!-- Main menu translations info window -->
+  <TranslationThanks>Resmi Rimworld %90 Türkçe çevirisi. Tamamen Altay Bey tarafından yapılmıştır.\n\n{0}</TranslationThanks>
+  <TranslationHowToContribute>Destek olmak için Altay Bey isimli Youtube kanalına abone olmanız şu an için yeterlidir.</TranslationHowToContribute>
+  <LearnMore>Daha fazlası için</LearnMore>
+
+  <!-- Main menu dev build -->
+  <DevBuildWarning>Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
+
+  <!-- Create/review world -->
+  <ReviewWorld>Dünyayı incele</ReviewWorld>
   <WorldGenerate>Oluştur</WorldGenerate>
-  <WorldSaveAndFinish>Bitir</WorldSaveAndFinish>
+  <WorldSaveAndFinish>Kaydet ve bitir</WorldSaveAndFinish>
   <Reset>Sıfırla</Reset>
-  <PlanetCoverage>Gezegen kapsamı</PlanetCoverage>
-  <PlanetRainfall>Ortalama yağış miktarı</PlanetRainfall>
-  <PlanetTemperature>Ortalama sıcaklık</PlanetTemperature>
+  <PlanetCoverage>Dünya büyüklüğü</PlanetCoverage>
+  <PlanetRainfall>Toplam yağış</PlanetRainfall>
+  <PlanetTemperature>Toplam sıcaklık</PlanetTemperature>
+  <PlanetPopulation>Nüfus</PlanetPopulation>
   <PlanetRainfall_Low>Düşük</PlanetRainfall_Low>
   <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
   <PlanetRainfall_High>Yüksek</PlanetRainfall_High>
   <PlanetTemperature_Low>Düşük</PlanetTemperature_Low>
   <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
-  <PlanetTemperature_High>Yükksek</PlanetTemperature_High>
-  <WorldSeed>Yerleşke</WorldSeed>
-  <RandomizeSeed>Rastgele Yerleşke</RandomizeSeed>
-  <PlanetCoverageTip>Gezegen her zaman aynı genişliktedir, fakat oynamak için gerekli olandan çok daha büyük olduğundan beri, tüm yüzeyi üretmiyoruz, çünkü çok uzun sürebilir. Oluşturmak istediğiniz yüzey yüzdesi budur.</PlanetCoverageTip>
-  <WorldFactionsTab>Klanlar</WorldFactionsTab>
-  
-  <!--=========== Select world ===================-->
+  <PlanetTemperature_High>Yüksek</PlanetTemperature_High>
+  <PlanetPopulation_Low>Seyrek</PlanetPopulation_Low>
+  <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
+  <PlanetPopulation_High>Kalabalık</PlanetPopulation_High>
+  <WorldSeed>Çekirdek</WorldSeed>
+  <RandomizeSeed>Rastgele çekirdek</RandomizeSeed>
+  <PlanetCoverageTip>Gezegen aslında göründüğü gibi yarım değildir. Tam dünya çapındadır. Ancak Rimworld yüzeyinin tamamını oyununuzun yavaşlamaması için kullanmanızı önermiyoruz. Ama tabii yine de sizin tercihiniz.</PlanetCoverageTip>
+  <WorldFactionsTab>Fraksiyonlar</WorldFactionsTab>
+
+  <!-- Select world -->
   <SelectWorld>Dünya Seç</SelectWorld>
   <WorldChooseButton>Seç</WorldChooseButton>
-  <NoWorldsFilesFound>Dünya dosyası bulunamadı. Önce bir dünya yarat.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>Dünya dosyası bulunamadı. Önce bir dünya yaratın.</NoWorldsFilesFound>
+  
+  <!-- Version info -->
+  <BuildNowAvailable>{0} sürümü artık kullanılabilir. Daha fazla bilgi için ludeon.com adresini ziyaret edin.</BuildNowAvailable>
+  <BuildUpToDate>Bu oyunun son sürümüdür.</BuildUpToDate>
+  <ErrorGettingVersionInfo>{0} versiyonu nedeniyle hata alınıyor.</ErrorGettingVersionInfo>
+  <LoadingVersionInfo>Versiyon bilgisi alınıyor...</LoadingVersionInfo>
 
-  <!--=========== Version info ==========-->
-  <BuildNowAvailable>Yapı {0} artık kullanılabilir. Daha fazla bilgi için: ludeon.com</BuildNowAvailable>
-  <BuildUpToDate>Yapı güncel.</BuildUpToDate>
-  <ErrorGettingVersionInfo>Versiyon bilgisi alırken hata: {0}</ErrorGettingVersionInfo>
-  <LoadingVersionInfo>Versiyon bilgisi yükleniyor...</LoadingVersionInfo>
+  <!-- World generator -->
+  <GenerateWorld>Dünya oluşturun</GenerateWorld>
 
-  <!--=========== World generator =========-->
-  <GenerateWorld>Dünya Oluştur</GenerateWorld>
-
-  <!--=========== Mods screen ==========-->
-  <OpenSteamWorkshop>Steam Atölyesini Aç</OpenSteamWorkshop>
-  <GetModsFromForum>Modları forumdan alın</GetModsFromForum>
-  <OpenModsDataFolder>Mod Dosyasını Aç</OpenModsDataFolder>
-  <ConfirmDisableCoreMod>Temel modu devredışı bırakmak istediğinize emin misiniz? Tüm temel işlevlerini başka bir mod sahip olmadıkça oyun hiç çalışmaz.\n\nUnutma, diğer modlar temel modda aynı defName kullanarak defs'i devredışı kılabilir .</ConfirmDisableCoreMod>
-  <ConfirmDeleteMod>{0} için bütün içeriği silmek istediğinize emin misiniz?</ConfirmDeleteMod>
-  <Unsubscribe>Aboneliği İptal Etme</Unsubscribe>
-  <ConfirmUnsubscribe>{0} için aboneliği iptal etmek istediğinize emin misiniz?</ConfirmUnsubscribe>
-  <Author>Yazar</Author>
+  <!-- Mods config -->
+  <OpenSteamWorkshop>Workshop aç</OpenSteamWorkshop>
+  <GetModsFromForum>Forumdan mod al</GetModsFromForum>
+  <OpenModsDataFolder>Mod dosyasını aç</OpenModsDataFolder>
+  <ShowModsDataLocation>Mod dosyasının yerini göster</ShowModsDataLocation>
+  <ConfirmDisableCoreMod>Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName.</ConfirmDisableCoreMod>
+  <ConfirmDeleteMod>Are you sure you want to delete all the content for {0}?</ConfirmDeleteMod>
+  <ResolveModOrder>Auto-sort mods</ResolveModOrder>
+  <Unsubscribe>Abonelikten çık</Unsubscribe>
+  <ConfirmUnsubscribe>{0} tan gerçekten abonelikten çıkmak istiyor musun?</ConfirmUnsubscribe>
+  <Author>Yapımcı</Author>
   <WorkshopPage>Atölye Sayfası</WorkshopPage>
-  <UploadToSteamWorkshop>Steam Atölyesine Yükle</UploadToSteamWorkshop>
-  <UpdateOnSteamWorkshop>Steam Atölyesinde Güncelle</UpdateOnSteamWorkshop>
-  <UploadAlreadyInProgress>Zaten gelişmede olanı yükle.</UploadAlreadyInProgress>
-  <WorkshopSubmissionFailed>Atölye gönderilemedi.\n\nNedeni: {0}</WorkshopSubmissionFailed>
-  <WorkshopUploadSucceeded>{0} başarıyla gönderildi.</WorkshopUploadSucceeded>
-  <Downloading>İndirme</Downloading>
+  <UploadToSteamWorkshop>Steam atölyesine yükle</UploadToSteamWorkshop>
+  <UpdateOnSteamWorkshop>Steam atölyesindeki dosyayı güncelle</UpdateOnSteamWorkshop>
+  <UploadAlreadyInProgress>Zaten yükleniyor</UploadAlreadyInProgress>
+  <WorkshopSubmissionFailed>Yükleme Tamamlanamadı\n\nReason: {0}</WorkshopSubmissionFailed>
+  <WorkshopUploadSucceeded>Başarıyla Yüklendi {0}.</WorkshopUploadSucceeded>
+  <Downloading>Indiriliyor</Downloading>
+  <ModDisplayFulfilledRequirements>Karşılanan gereksinimleri görüntüle</ModDisplayFulfilledRequirements>
+  <ModClickToSelect>Seçmek için tıkla</ModClickToSelect>
+  <ModClickToGoToWebsite>Siteye gitmek için tıkla</ModClickToGoToWebsite>
   <Source>Kaynak</Source>
-  <ModTargetVersion>Versiyonu için: {0}</ModTargetVersion>
-  <ModNotMadeForThisVersion>Bu mod RimWorld'un bu versiyonu için yapılmadı ve büyük ihtimal doğru düzgün çalışmayacak.</ModNotMadeForThisVersion>
-  <MessageModNeedsWellFormattedTargetVersion>Mod, About.xml dosyasında iyi biçimlendirilmiş bir hedef sürüme ihtiyaç duyar. Bunun gibi: &lt;targetVersion&gt;{0}&lt;/targetVersion&gt;.</MessageModNeedsWellFormattedTargetVersion>
-  <DragToReorder>Yeniden düzenlemek için sürükleyin</DragToReorder>
+  <ModTargetVersion>Versiyon(ları)</ModTargetVersion>
+  <ModPackageId>ID</ModPackageId>
+  <ModMustLoadBefore>Bu: {0} dan önce yüklenmeli.</ModMustLoadBefore>
+  <ModMustLoadAfter>Bu: {0} dan sonra yüklenmeli.</ModMustLoadAfter>
+  <ModDependsOn>Bağ: {0}</ModDependsOn>
+  <ModIncompatibleWith>Incompatible with: {0}</ModIncompatibleWith>
+  <ModIncompatibleWithTip>This mod is incompatible with: {0}.</ModIncompatibleWithTip>
+  <ModOrderingWarning>This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually.</ModOrderingWarning>
+  <ModWithSameIdAlreadyActive>Another active mod uses the same ID: {0}.</ModWithSameIdAlreadyActive>
+  <ModCyclicDependency>There is a cyclic mod dependency starting with {0}.</ModCyclicDependency>
+  <ModUnsatisfiedDependency>This requires following mods to work: {0}.</ModUnsatisfiedDependency>
+  <ModNotMadeForThisVersion>This mod was not made for this version of RimWorld, and will probably not work correctly.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion_Newer>This mod was made for a newer version of RimWorld than this, and will probably not work correctly.</ModNotMadeForThisVersion_Newer>
+  <MessageModNeedsWellFormattedTargetVersion>Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt; is deprecated. Check log for further information.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedPackageId>Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n&lt;packageId&gt;AuthorName.ModName&lt;/packageId&gt;\n&lt;packageId&gt;AuthorName.ModName.Specific&lt;/packageId&gt;</MessageModNeedsWellFormattedPackageId>
+  <ModHadLoadFolderIssues>This mod has issues in LoadFolders.xml, that you need to resolve before uploading:</ModHadLoadFolderIssues>
+  <ModLoadFolderDoesntExist>Folder {0} specified for version {1} doesn't exist.</ModLoadFolderDoesntExist>
+  <ModLoadFolderMalformedVersion>Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderListEmpty>The list of load folders for version {0} is empty.</ModLoadFolderListEmpty>
+  <ModLoadFolderRepeatingFolder>Version {0} lists the same folder more than once: {1}.</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderOutOfOrder>Invalid version order: {0} should come before {1}.</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrderDefault>Invalid version order: 'default' should be defined first.</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderDefinesUnsupportedGameVersion>Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <DragToReorder>Drag to reorder</DragToReorder>
 
-    <!--=========== Select scenario =============-->
-  <ChooseScenario>Senaryoyu Seçin</ChooseScenario>
-  <ScenariosCustom>Özelleştirme</ScenariosCustom>
-  <ScenariosSteamWorkshop>Steam Atöylesi</ScenariosSteamWorkshop>
-  <ScenarioEditor>Senaryo Düzenleyicisi</ScenarioEditor>
+  <!-- Select scenario -->
+  <ChooseScenario>Senaryo seç</ChooseScenario>
+  <ScenariosCustom>Standart</ScenariosCustom>
+  <ScenariosSteamWorkshop>Steam Atölyesi</ScenariosSteamWorkshop>
+  <ScenarioEditor>Senaryo editörü</ScenarioEditor>
   <Delete>Sil</Delete>
-
-  <!--============ Scenario editor ===============-->
-  <Seed>Yerleşke</Seed>
-  <Load>Yükle</Load>
-  <EditMode>Modu Düzenle</EditMode>
+  
+  <!-- Scenario editor -->
+  <Seed>Çekirdek</Seed>
+  <Load>Yüklek</Load>
+  <EditMode>Düzenleme modu</EditMode>
   <Summary>Özet</Summary>
   <AddPart>Parça ekle</AddPart>
-  <TextFieldsMustBeFilled>Tüm metin alanlarının doldurulması zorunludur.</TextFieldsMustBeFilled>
-  <ConfirmSteamWorkshopUpload>Bunu Steam Atölyesine yüklemek istediğinizden emin misiniz?\n\nSteam Atölyesi hizmet şartlarını kabul etmeniz gerekir. Tam terimleri burada bulabilirsiniz:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
-  <ConfirmContentAuthor>Açıkçası, yalnızca kendiniz yarattığınız içeriği yüklemelisiniz.\n\nBu içeriği kendiniz mi yarattınız?</ConfirmContentAuthor>
-  <Incompatible>Uyumsuz</Incompatible>
-  <TooMany>Çok fazla (maks {0}): </TooMany>
-  <CanBeUpdatedOnWorkshop>Yazar olduğunuzdan Atölye güncellenebilir.</CanBeUpdatedOnWorkshop>
-
-  <!--=========== Select storyteller ==========-->
-  <ChooseAIStoryteller>Hikayeni anlatacak bir Yapay Zeka seç</ChooseAIStoryteller>
-  <HowStorytellersWork>Yapay zeka hikayecisi korsan saldırıları , kaynak düşmesi veya hayvan saldırıları gibi olaylar oluşturur. Onların seçimleri koloninin hikayesini etkiler.</HowStorytellersWork>
-  <MustChooseDifficulty>Lütfen bir zorluk seç.</MustChooseDifficulty>
+  <TextFieldsMustBeFilled>Tüm alanlar doldurulmalıdır.</TextFieldsMustBeFilled>
+  <ConfirmSteamWorkshopUpload>Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmContentAuthor>Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself?</ConfirmContentAuthor>
+  <Incompatible>Incompatible</Incompatible>
+  <TooMany>Too many (max {0}): </TooMany>
+  <CanBeUpdatedOnWorkshop>Can be updated on Workshop, since you are the author.</CanBeUpdatedOnWorkshop>
+  
+  <!-- Select storyteller -->
+  <ChooseAIStoryteller>Yapay Hikaye Anlatıcı Seçin</ChooseAIStoryteller>
+  <HowStorytellersWork>Hikayeci, korsan baskınları, kaynak kayıpları veya sürü hayvanların saldırıları gibi olayları başınıza bela eder. Onların seçimleri, kolonizin hikayesini etkileyecektir. Bu ayarları istediğiniz zaman değiştirebilirsiniz.</HowStorytellersWork>
+  <MustChooseDifficulty>Lütfen bir zorluk seviyesi seçin.</MustChooseDifficulty>
   <Difficulty>Zorluk</Difficulty>
+  <CommitmentMode>Geri dönüşü olmayan mod</CommitmentMode>
+  <ReloadAnytimeMode>Yeniden yüklenebilir mod</ReloadAnytimeMode>
+  <MustChoosePermadeath>Lütfen geri dönüşü olmayan mod yada yeniden yüklenebilir oyun modunu seçin.</MustChoosePermadeath>
+  <ReloadAnytimeModeInfo>Oyunu istediğiniz zaman kaydedip geri yükleyebilirsiniz.\n\nOyunu hala öğrenme aşamasındaysanız, kişisel oyun tarzınıza da uyuyorsa, oyunu bozabilecek modlar kullanıyorsanız bu mod sizi için iyi bir seçim olacaktır.</ReloadAnytimeModeInfo>
+  <PermadeathModeInfo>Sadece oyundan çıkarken oyunu kaydedebilirsiniz.\n\nRimworld size sadece bir oyun karakterine bağlı bir oyun şekli sunmuyor. Biri ölür, biri kalır. Hayat devam eder. Kaybettiğiniz kolonistlerden sonra oyununuza devam edebilirsiniz. (Hepsini kaybetmezseniz)\n\nBu kayıt modunda geri dönüş yok. Kaybettiğiniz kimseyi, yaşadığınız hiç bir olayı geri alamazsınız.</PermadeathModeInfo>
+  <CanChangeStorytellerSettingsDuringPlay>Hikaye anlatıcısı ve zorluk her zaman değiştirilebilir.</CanChangeStorytellerSettingsDuringPlay>
+  <UnlockExtremeDifficulty>Acımasız Mod</UnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>Acımasız Mod, her zorluğunn aşırı seviyelere çıktığı özel bir oyun modudur.\n\nAcımasız Mod, belli başarımlara ulaştığınız zaman otomatikman açılır. Ancak şimdi de açabilirsiniz.\n\nBu seçenek yalnızca yüksek zorlukta bir veya iki oyun oynadığınızda ve ne kadar çabalarsanız çabalayın ölmeyi kabullendiğinizde önerilir.</ConfirmUnlockExtremeDifficulty>
 
-  <!--=========== Landing site select =========-->
-  <SelectLandingSite>Bir iniş alanı seç</SelectLandingSite>
-  <SelectRandomSite>Rastgele yer seçin</SelectRandomSite>
-  <SelectSite>Alan seç</SelectSite>
-  <MustSelectLandingSite>Lütfen bir iniş alanı şeç</MustSelectLandingSite>
-  <CannotLandBiome>Bu iklime iniş yapamazsın: {0}</CannotLandBiome>
-  <BiomeNotImplemented>İklim henüz eklenmedi</BiomeNotImplemented>
-  <CannotLandImpassableMountains>Geçilmez dağlara inemezsin.</CannotLandImpassableMountains>
-  <BaseAlreadyThere>{0} 'in zaten bir üssü var.</BaseAlreadyThere>
-  <Biome>İklim</Biome>
+  <!-- Site select -->
+  <SelectStartingSite>Başlangıç bölgesini seç</SelectStartingSite>
+  <SelectRandomSite>Rastgele bölge seç</SelectRandomSite>
+  <SelectSite>Bölge seç</SelectSite>
+  <MustSelectStartingSite>Lütfen bölge seçin.</MustSelectStartingSite>
+  <CannotLandBiome>Bir biyom üzerine iniş yapamazsınız: {0}</CannotLandBiome>
+  <BiomeNotImplemented>Biyoma uygulanamaz</BiomeNotImplemented>
+  <CannotLandImpassableMountains>Aşılamaz dağlara iniş yapamazsınız.</CannotLandImpassableMountains>
+  <BaseAlreadyThere>{0} burada zaten bir üs var.</BaseAlreadyThere>
+  <YourBaseAlreadyThere>Burada zaten bir üssünüz var.</YourBaseAlreadyThere>
+  <TileOccupied>Bu bölge dolu.</TileOccupied>
+  <FactionBaseAdjacent>Yerleşim yerleri bitişik-komşu olamaz.</FactionBaseAdjacent>
+  <Biome>Biyom</Biome>
   <Terrain>Arazi</Terrain>
+  <Road>Yol</Road>
+  <River>Nehir</River>
   <Elevation>Yükseklik</Elevation>
   <Fertility>Verimlilik</Fertility>
-  <AvgTemp>Ortalama Sıcaklık</AvgTemp>
-  <AvgSummerTemp>Yaz sıcaklığı</AvgSummerTemp>
-  <AvgWinterTemp>Kış sıcaklığı</AvgWinterTemp>
-  <Rainfall>Yağış miktarı</Rainfall>
-  <HasCoast0>Kuzey kıyısı</HasCoast0>
-  <HasCoast1>Doğu kıyısı</HasCoast1>
-  <HasCoast2>Güney kıyısı</HasCoast2>
-  <HasCoast3>Batı kıyısı</HasCoast3>
-  <FactionBase>Birlik merkezi</FactionBase>
-  <StoneTypesHere>Kaya çeşitleri</StoneTypesHere>
-  <TimeZone>Zaman dilimi</TimeZone>
-  <MovementTimeNow>Şu anki hareket süresi</MovementTimeNow>
-  <MovementTimeSummer>Yazın hareket süresi</MovementTimeSummer>
-  <MovementTimeWinter>Kışın hareket süresi</MovementTimeWinter>
+  <AvgTemp>Ortalama sıcaklık</AvgTemp>
+  <Rainfall>Yağış Miktarı</Rainfall>
+  <SpecialFeatures>Özel özellikler</SpecialFeatures>
+  <HasCoast0>Kuzey Kıyısı</HasCoast0>
+  <HasCoast1>Doğu Kıyısı</HasCoast1>
+  <HasCoast2>Güney Kıyısı</HasCoast2>
+  <HasCoast3>Bayı Kıyısı</HasCoast3>
+  <HasCaves>Mağaralar</HasCaves>
+  <FactionBase>Topluluk Üssü</FactionBase>
+  <StoneTypesHere>Taş Çeşitleri</StoneTypesHere>
+  <TimeZone>Saat Dilimi</TimeZone>
+  <MovementDifficulty>Hareket Zorluğu</MovementDifficulty>
+  <AnimalsCanGrazeNow>Hayvanlar otlayabilir</AnimalsCanGrazeNow>
+  <AverageDiseaseFrequency>Ortalama hastalık sıklığı</AverageDiseaseFrequency>
+  <PerYear>Yıl başına</PerYear>
+  <Forageability>Toplayıcılığa verimli</Forageability>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>Seçilen kişilerden hiç biri aşağıdaki işleri yapamaz:\n\n{0}\n\nBu, oyunu normalden daha zor hale getiremez. Devam etmek istediğine emin misin?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
-  <!--=========== Character chooser ==========-->
-  <CreateCharacters>Karakterler Oluştur</CreateCharacters>
-  <FirstNameDesc>Karakterin ismi.\n\nBu sadece bazı menülerde gösterilir.</FirstNameDesc>
-  <ShortIdentifierDesc>Karakterin kısa adı.\n\nBu her zaman gösterilir. İsim ya da soyisim olabilir, ya da tamamen başka bir lakap olabilir.</ShortIdentifierDesc>
-  <LastNameDesc>Karakterin soyadı.\n\nBu sadece bazı menülerde gösterilir.</LastNameDesc>
+  <!-- Character chooser -->
+  <CreateCharacters>Karakter Oluştur</CreateCharacters>
+  <FirstNameDesc>Karakterin adı.\n\nSadece belli menülerde karakter adı gözükür.</FirstNameDesc>
+  <ShortIdentifierDesc>Karakterin lakabı.\n\n Bu kısa isim her zaman görünecektir. Adı ve soyadıyla aynı lakabı kullanabilir veya bambaşka bir lakab koyabilirsiniz.</ShortIdentifierDesc>
+  <LastNameDesc>Karakterin soyadı.\n\nSadece belli menülerde karakter soyadı gözükür.</LastNameDesc>
   <Randomize>Rastgele</Randomize>
-  <AgeIndicator>Yaş {0}</AgeIndicator>
-  <Backstory>Özgeçmiş</Backstory>
-  <IncapableOf>Yapamadıkları</IncapableOf>
-  <Traits>Özellikler</Traits>
-  <TraitsDoNothing>Özellikler sadece eğlenceli hikaye parçalarıdır; çoğu hiçbir şey yapmaz. Bu ileriki sürümlerde değişecektir.</TraitsDoNothing>
+  <AgeIndicator>{0} yaşında</AgeIndicator>
+  <PawnSummary>{PAWN_race}, {PAWN_ageFull} yaşında</PawnSummary>
+  <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, {PAWN_ageFull} yaşında</PawnSummaryWithGender>
+  <Backstory>Geçmişi</Backstory>
+  <IncapableOf>Yapamayacakları;</IncapableOf>
+  <Abilities>Beceriler</Abilities>
+  <IncapableOfTooltipBackstory>Geçmişinin neden olduğu: {0}</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipTitle>Ünvanı nedeniyle: {0}</IncapableOfTooltipTitle>
+  <IncapableOfTooltipTrait>Özellikleri nedeniyle: {0}</IncapableOfTooltipTrait>
+  <IncapableOfTooltipHediff>Nedeniyle: {0}</IncapableOfTooltipHediff>
+  <IncapableOfTooltipWorkTypes>Yapamadığı işler:</IncapableOfTooltipWorkTypes>
+  <Traits>Kişisel özellikler</Traits>
+  <PermanentMoodEffect>Kalıcı ruh hali etkisi</PermanentMoodEffect>
   <Skills>Yetenekler</Skills>
-  <NoneLower>Hiç</NoneLower>
-  <Adulthood>Yetişkinlik</Adulthood>
-  <Childhood>Çocukluk</Childhood>
+  <NoneLower>hiç kimse</NoneLower>
+  <Adulthood>Yetişkinlik'ten</Adulthood>
+  <Childhood>Çocukluk'tan</Childhood>
+  <Current>Şimdi</Current>
   <Male>Erkek</Male>
   <Female>Kadın</Female>
-  <Pain>Acı</Pain>
+  <MaleAnimal>Erkek</MaleAnimal>
+  <FemaleAnimal>Dişi</FemaleAnimal>
+  <Pain>Ağrı</Pain>
   <Health>Sağlık</Health>
   <Relations>İlişkiler</Relations>
-
-  <!--=========== Misc ==========-->
+  <TeamSkills>Takım yetenekleri</TeamSkills>
+  <StartingPawnsSelected>Seçilmiş</StartingPawnsSelected>
+  <StartingPawnsLeftBehind>Arkada Bırakılan</StartingPawnsLeftBehind>
+  
+  <!-- Misc -->
   <Start>Başlat</Start>
   <Advanced>Gelişmiş</Advanced>
-  <Next>Sonraki</Next>
-  <Back>Önceki</Back>
-
+  <Next>İlerle</Next>
+  <Back>Geri</Back>
   <Gameplay>Oynanış</Gameplay>
-
-  <ConfirmQuit>Çıkmak istediğine emin misin? Kaydedilmemiş her şeyi kaybedeceksin.</ConfirmQuit>
-
-  <EveryoneNeedsValidName>Herkesin geçerli bir ada ihtiyacı var.</EveryoneNeedsValidName>
+  <ConfirmQuit>Gerçekten çıkmak istiyor musunuz? Kaydedilmemiş ilerlemeleri kaybedeceksiniz.</ConfirmQuit>
+  <EveryoneNeedsValidName>Herkesin geçerli bir ada ihtiyacı vardır.</EveryoneNeedsValidName>
+  <RequiredWorkTypeDisabledForEveryone>Seçilen kişilerin hiç biri aşağıdaki işleri yapamaz.</RequiredWorkTypeDisabledForEveryone>
   <Quit>Çık</Quit>
-  <Ignore>Yoksay</Ignore>
-
-  <!--============ Progress bar==============-->
-  <GeneratingWorld>Dünya oluşturuluyor</GeneratingWorld>
-  <GeneratingPlanet>Gezegen oluşturuluyor</GeneratingPlanet>
+  <Ignore>Görmezden Gel</Ignore>
+  
+  <!-- Progress bar -->
+  <GeneratingWorld>Dünya üretiliyor</GeneratingWorld>
+  <GeneratingPlanet>Dünya oluşturuluyor</GeneratingPlanet>
   <GeneratingMap>Harita oluşturuluyor</GeneratingMap>
-  <GeneratingMapForNewEncounter>Yeni karşılaşma için harita oluşturuluyor</GeneratingMapForNewEncounter>
+  <GeneratingMapForNewEncounter>Yeni bir hikaye için harita oluşturuluyor</GeneratingMapForNewEncounter>
+
+  <ClickForMoreInfo>Daha fazla bilgi için tıklayın</ClickForMoreInfo>
 
 </LanguageData>
-
-<PermanentMoodEffect>Kalıcı moral etkeni</PermanentMoodEffect>
-<TileOccupied>Alan boş değil.</TileOccupied>
-<YourBaseAlreadyThere>Burada zaten üsse sahipsin.</YourBaseAlreadyThere>
-<WorldFactionsTab>Klanlar</WorldFactionsTab>
-<River>Dere</River>
-<AnimalsCanGrazeNow>Artık hayvanlar otlayabilir</AnimalsCanGrazeNow>
-<Road>Yol</Road>
-<GeneratingPlanet>Gezegen oluşturuluyor</GeneratingPlanet>
-<FactionBaseAdjacent>Yerleşimler doğrudan yan yana olamaz.</FactionBaseAdjacent>
