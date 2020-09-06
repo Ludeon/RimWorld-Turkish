@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <Confirm>Onayla</Confirm>
+  <GoBack>Geri git</GoBack>
+  <OK>Tamam</OK>
+  <Close>Kapat</Close>
+  
+  <!-- Game updated to new version -->
+  <GameUpdatedToNewVersionInitial>RimWorld, {0} sürümünden {1} sürümüne güncellendi.</GameUpdatedToNewVersionInitial>
+  <GameUpdatedToNewVersionSavesIncompatible>Bu, eski sürümdeki kaydedilmiş oyunların ve modların çalışmasının durmasına neden olabilir.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesCompatible>Eski sürümdeki kayıtlı oyunlar uyumlu olmalıdır, ancak bazı modlar çalışmayı durdurabilir.</GameUpdatedToNewVersionSavesCompatible>
+  <GameUpdatedToNewVersionNonSteam>Bu Steam dışı bir kopya olduğundan, hem eski hem de yeni sürümleri oynayabilmek için oyunu iki farklı klasöre iki kez yükleyebilirsiniz.</GameUpdatedToNewVersionNonSteam>
+  <GameUpdatedToNewVersionSteam>Eski sürüme devam etmek istiyorsanız Steam'in "Betalar" özelliğini kullanmayı seçebilirsiniz.\n\n1. Steam kitaplığında RimWorld'ü sağ tıklayın.\n 2. Özellikler'i tıklayın.\n3. simgesini tıklayın. Betas sekmesi.\n4. Açılır menüden istediğiniz sürümü seçin.</GameUpdatedToNewVersionSteam>
+  
+  <!-- Recovered from errors caused by mods -->
+  <RecoveredFromErrorsDialogTitle>Uyumsuz veya bozuk mods hatalarından kurtarıldı</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsText>Aktif modların bazıları hatalara neden oluyor gibi görünüyor.\n\nBirbiriyle uyumsuz, RimWorld'ün farklı bir sürümü için tasarlanmış veya bozuk.\n\nTüm modlar devre dışı bırakıldı ve modlar iletişim kutusunda tekrar etkinleştirilebilir </RecoveredFromErrorsText>
+  
+  <!-- Errors during loading -->
+  <ErrorWhileLoadingAssetsTitle>Varlıklar yüklenirken hata oluştu</ErrorWhileLoadingAssetsTitle>
+  <ErrorWhileLoadingAssets>Oyun öğeleri yüklenirken bir hata oluştu. Daha fazla bilgi için hata günlüğüne bakın.</ErrorWhileLoadingAssets>
+  <ErrorWhileLoadingAssets_ModsInfo>Oyun şu anda özel modlarla çalışıyor - bu sorunlara neden olabilir veya olmayabilir.</ErrorWhileLoadingAssets_ModsInfo>
+  <ErrorWhileGeneratingMapTitle>Harita oluşturulurken hata oluştu</ErrorWhileGeneratingMapTitle>
+  <ErrorWhileGeneratingMap>Yeni bir harita oluşturulurken bir hata oluştu. Daha fazla bilgi için hata günlüğüne bakın.</ErrorWhileGeneratingMap>
+  <ErrorWhileLoadingMapTitle>Harita yüklenirken hata oluştu</ErrorWhileLoadingMapTitle>
+  <ErrorWhileLoadingMap>Harita yüklenirken bir hata oluştu. Daha fazla bilgi için hata günlüğüne bakın.</ErrorWhileLoadingMap>
+  
+  <!-- Unloaded mod with an assembly -->
+  <ModsChanged>Mod listesi değişti. Oyun şimdi otomatik olarak yeniden başlayacak.</ModsChanged>
+  <FailedToRestart>Oyunu yeniden başlatırken bir şeyler ters gitti. Oyun, değiştirilmiş kodu devre dışı bırakılmış modlardan tamamen kaldıramaz, bu nedenle devre dışı bırakılmış modlardan kod hala etkin olabilir.\n\nTüm modları temiz bir şekilde yüklemek için oyunu şimdi kapatıp yeniden başlatmanız önerilir.</FailedToRestart>
+  <Restarting>Yeniden başlatılıyor</Restarting>
+  
+  <!-- Missing Steam -->
+  <SteamClientMissing>Steam API başlatılamadı. Olası nedenler:\n\n-Steam çalışmıyor.\n-steam_appid.txt yerinde olmadan Steam dışından başlatıldı.\n-Steam istemcisinden farklı ayrıcalıklarla çalışıyor (ör. "Yönetici olarak").\n\nÇoğu durumlarda, bilgisayarınızı yeniden başlatmak bu sorunu çözer.\n\nHerhangi bir şekilde oynayabilirsiniz, ancak Steam istatistikleri kaydedilmez ve Steam özellikleri kullanılamaz.</SteamClientMissing>
+  
+  <!-- Long events -->
+  <InitializingInterface>Arayüz başlatılıyor</InitializingInterface>
+  <UnloadingUnusedAssets>Kullanılmayan varlıkları boşa alınıyor</UnloadingUnusedAssets>
+  <LoadingAllActiveMods>Tüm aktif modları yükleme</LoadingAllActiveMods>
+  <LoadingDefs>Kaynaklar yükleniyor</LoadingDefs>
+  <LoadingAssets>Varlıklar yükleniyor</LoadingAssets>
+  <Initializing>Hazırlanıyor</Initializing>
+  <LoadingWorld>Dünya yükleniyor</LoadingWorld>
+  <LoadingMap>Harita yükleniyor</LoadingMap>
+  <InitializingGame>Oyun başlatılıyor</InitializingGame>
+  <SpawningAllThings>Öğeler yerleştiriliyor</SpawningAllThings>
+  <SpawningColonists>Kolonistler yerleştiriliyor</SpawningColonists>
+  
+  <!-- Save/load -->
+  <SaveGameButton>Kaydet</SaveGameButton>
+  <LoadGameButton>Oyun yükle</LoadGameButton>
+  <OverwriteButton>Üstüne kaydet</OverwriteButton>
+  <ConfirmDelete>{0} gerçekten silecek misiniz?</ConfirmDelete>
+  <DeleteThisSavegame>Kaydedilmiş oyunu sil.</DeleteThisSavegame>
+  <SavedAs>{0} olarak kaydedildi.</SavedAs>
+  <NeedAName>Lütfen bir isim girin.</NeedAName>
+  <LoadingLongEvent>Yükleniyor</LoadingLongEvent>
+  <SavingLongEvent>Kaydediliyor</SavingLongEvent>
+  <PermadeathModeSaveSuffix>(Permadeath)</PermadeathModeSaveSuffix>
+  <SaveIsFromDifferentGameVersion>{0} sürümünü çalıştırıyoruz, ancak kaydetme verileri tamamen farklı bir sürüm olan {1} 'den.\n\nBu verileri yüklemeye çalışmak muhtemelen işe yaramayacak.</SaveIsFromDifferentGameVersion>
+  <SaveIsFromDifferentGameBuild>{0} sürümünü çalıştırıyoruz, ancak kaydetme verileri farklı bir derleme olan {1} 'den.\n\nBu verileri yüklemeye çalışılmaya devam etmeli.</SaveIsFromDifferentGameBuild>
+  <SaveIsFromThisGameBuild>Kaydetme verileri oyun sürümümüzle kaydedildi ve sorunsuz çalışmalıdır.</SaveIsFromThisGameBuild>
+  <SaveIsUnknownFormat>Verileri kaydetme bilinmeyen bir biçimdedir ve neredeyse kesinlikle düzgün yüklenmez.</SaveIsUnknownFormat>
+  <ProblemSavingFile>{0} dosyası kaydedilirken bir sorun oluştu:\n\n{1}\n\nDaha fazla bilgi için hata günlüğüne bakın.</ProblemSavingFile>
+  <LoadAnyway>Yine de yükle</LoadAnyway>
+  <ChangeLoadedMods>Kaydetmekten mod listesini yükle</ChangeLoadedMods>
+  <MissingMods>Bazı modlar kullanılamıyor ve yeniden kurulması gerekiyor</MissingMods>
+  <OfficialContent>Resmi içerik</OfficialContent>
+  <ContentActive>Aktif</ContentActive>
+  <ContentInstalledButNotActive>Yüklü, ancak aktif değil</ContentInstalledButNotActive>
+  <ContentNotInstalled>Yüklenmemiş</ContentNotInstalled>
+  
+  <!-- Player faction naming -->
+  <NamePlayerFactionMessage>Bir süre burada olacakmış gibi göründüğünden, {0} grubunuza bir isim vermeniz gerektiğini düşünüyor. Topluluğunuzun adı ne olmalı?</NamePlayerFactionMessage>
+  <PlayerFactionGainsName>Topluluğunuz artık {0} olarak biliniyor.</PlayerFactionGainsName>
+  <PlayerFactionNameIsInvalid>Bu isim geçerli değil.</PlayerFactionNameIsInvalid>
+
+  <!-- Player faction base naming -->
+  <NamePlayerFactionBaseMessage>{0} bu yerleşime bir ad vermeniz gerektiğini düşünüyor. Buranın adı ne olmalı?</NamePlayerFactionBaseMessage>
+  <PlayerFactionBaseGainsName>Bu yerleşim artık {0} olarak biliniyor.</PlayerFactionBaseGainsName>
+  <PlayerFactionBaseNameIsInvalid>Bu isim geçerli değil.</PlayerFactionBaseNameIsInvalid>
+  
+  <!-- Player faction and faction base naming -->
+  <NamePlayerFactionBaseMessage_NameFactionContinuation>{0} ayrıca bu yerleşime bir ad vermeniz gerektiğini düşünüyor. Bu yerel yerleşime ne denilmeli?</NamePlayerFactionBaseMessage_NameFactionContinuation>
+  <PlayerFactionAndBaseGainsName>Topluluğunuz artık {0} olarak biliniyor ve bu yerleşim artık {1} olarak biliniyor.</PlayerFactionAndBaseGainsName>
+  
+  <!-- Renaming -->
+  <NameIsInvalid>Lütfen geçerli bir isim girin.</NameIsInvalid>
+  <NameIsInUse>İsim zaten kullanılıyor.</NameIsInUse>
+  <ZoneGainsName>Bölge şimdi {0} olarak adlandırılmaktadır.</ZoneGainsName>
+  
+  <!-- Pawn naming -->
+  <PawnGainsName>Bu kişinin takma adı şimdi {0}. {PAWN_possessive} ünvanı {PAWN_title}.</PawnGainsName>
+  <AnimalGainsName>Hayvanın adı şimdi {0}.</AnimalGainsName>
+
+  <!-- Save game incompatible warning -->
+  <VersionMismatch>Sürüm uyuşmazlığı</VersionMismatch>
+  <SaveGameIncompatibleWarningText>Bu oyun {0} oyun sürümü ile kaydedildi\n{1} oyun sürümünü çalıştırıyoruz\n\nBu kaydetmenin yüklenmesi hatalara ve çökmelere neden olabilir.</SaveGameIncompatibleWarningText>
+  <WorldFileVersionMismatch>{0} oyun sürümü ile dünya dosyası oluşturuldu\n{1} oyun sürümünü çalıştırıyoruz\n\nBu dünyayı yüklemek hatalara ve çökmelere neden olabilir. Sıfırdan yeni bir dünya yaratmalısınız.</WorldFileVersionMismatch>
+  <FileIncompatibleWarning>Bu dosya {0} oyun sürümü ile kaydedildi\n{1} oyun sürümünü çalıştırıyoruz\n\nBu dosyanın yüklenmesi hatalara ve çökmelere neden olabilir.</FileIncompatibleWarning>
+  <ModsMismatchWarningTitle>Mod uyumsuzluğu</ModsMismatchWarningTitle>
+  <ModsMismatchWarningText>Bu dosya, şu anda çalıştırmakta olduğumuz modlardan farklı bir mod kümesi ile kaydedildi. Bu, bu modların tam olarak ne yaptığına bağlı olarak sorunlara neden olabilir veya olmayabilir.\n\nDosya ile kaydedildi (bu sırayla):\n\n{0}\n\nBizle (bu sırayla) çalışıyoruz:\n\n{1}</ModsMismatchWarningText>
+
+  <!-- Resolution change dialog -->
+  <ConfirmResolutionChange>Ekran ayarlarınızı değiştirdiniz. Yeni ayarlar iyi çalışıyor mu?\n\n{0} içinde otomatik geri döndürme...</ConfirmResolutionChange>
+  <ResolutionKeep>Bu ayarları tut</ResolutionKeep>
+  <ResolutionRevert>Eski haline döndür</ResolutionRevert>
+
+  <!-- Confirm permanently disable dev mode -->
+  <ConfirmPermanentlyDisableDevMode>Bu bilgisayarda geliştirme modunu gerçekten kalıcı olarak devre dışı bırakmak istiyor musunuz?\n\nBu seçenek, normal oyunda avantaj elde etmek için geliştirme araçlarını kullanma cazibesi olmadan saf bir oyun deneyimi isteyenler içindir.\n\nGelişme modu yeniden oluşturulabilir. etkin, ancak bunun için yapılandırma dosyalarının manuel olarak düzenlenmesi gerekir. Nasıl yapılacağını öğrenmek için İnternet'te arama yapmanız gerekir.</ConfirmPermanentlyDisableDevMode>
+  
+  <!-- Advanced game start options -->
+  <MapTemperatureDangerWarning>Uyarı: Donmuş bir ortama ineceksiniz. Hayatta kalmak zor veya neredeyse imkansız olabilir. Aşırı zorluklarla karşılaşmak istemiyorsanız, farklı bir site veya sezon seçin.</MapTemperatureDangerWarning>
+  <MapSizePerformanceWarning>Oyun orta harita boyutlarında oynamak için tasarlanmıştır. Bu boyutlar geniş alan sağlar!\n\nBüyük harita boyutları performansı düşürmekle kalmaz, aynı zamanda oyun tasarımını da bozar. AI aptalca kararlar verecek ve oyun dengesi çeşitli şekillerde kötü bir şekilde etkilenecek. Bu boyutlar sadece gelenek ve test nedenleriyle dahil edilmiştir, lütfen belirli bir neden olmadan kullanmayın.</MapSizePerformanceWarning>
+  <MapSize>Harita büyüklüğü</MapSize>
+  <MapSizeDesc>{0}x{0} ({1} hücre)</MapSizeDesc>
+  <MapSizeSmall>Küçük</MapSizeSmall>
+  <MapSizeMedium>Orta</MapSizeMedium>
+  <MapSizeLarge>Geniş</MapSizeLarge>
+  <MapSizeExtreme>Aşırı büyük (test)</MapSizeExtreme>
+  <MapStartSeason>Başlangıç</MapStartSeason>
+  <MapStartSeasonDefault>Otomatik</MapStartSeasonDefault>
+  <Notice>Dikkat</Notice>
+
+  <!-- Bill config -->
+  <Suspended>Askıya alındı</Suspended>
+  <NotSuspended>Askıya alınmadı</NotSuspended>
+  <SuspendedAllCaps>ASKIYA ALINDI</SuspendedAllCaps>
+  <RepeatCount>Tekrar:</RepeatCount>
+  <Forever>Sonsuza dek:</Forever>
+  <Details>Ayrıntılar</Details>
+  <IngredientSearchRadius>Bileşen yarıçapı</IngredientSearchRadius>
+  <CurrentlyHave>Şu anda olan</CurrentlyHave>
+  <CountingProducts>Sayılıyor</CountingProducts>
+  <Infinite>Sınırsız</Infinite>
+  <AllowedSkillRange>İzin verilen {0} beceri:</AllowedSkillRange>
+  <IncompatibleLower>Uyumsuz</IncompatibleLower>
+  <AnyWorker>Herhangi bir işçi</AnyWorker>
+  <Unlimited>Limitsiz</Unlimited>
+  
+  <RecipeCannotHaveTargetCount>(Birden fazla veya öngörülemeyen ürünleri olduğu için bu tarifin bir hedef sayısı olamaz.)</RecipeCannotHaveTargetCount>
+  <WorkAmount>İş miktarı</WorkAmount>
+  <MinimumSkills>Minimum beceriler:</MinimumSkills>
+  <BillRequires>{0} {1} gerektirir</BillRequires>
+  <BillRequiresNutrition>{0} beslenme gerektirir</BillRequiresNutrition>
+  <BillRequiresMayVary>Not: Altın gibi küçük hacimli bileşenler için {0} x gerekir.</BillRequiresMayVary>
+  <ThisIsSmallVolume>Bu küçük hacimli bir maddedir. Bu, her bir "birim" in normal hacimli bir bileşen kadar yalnızca 1 / {0} olduğu anlamına gelir. Bu nedenle, aynı bileşen gereksinimini karşılamak için her zamanki gibi {0} x'e ihtiyacınız olacak.</ThisIsSmallVolume>
+  <UsableIngredients>Malzemeler</UsableIngredients>
+  <BillRepeatTargetCountShort>{0}'a</BillRepeatTargetCountShort>
+
+  <PauseWhenSatisfied>Memnun kalındığında durdur</PauseWhenSatisfied>
+  <UnpauseWhenYouHave>Durdurmayı kapat</UnpauseWhenYouHave>
+  <Paused>Durdur</Paused>
+  <Unpause>Devam et</Unpause>
+
+  <IncludeEquipped>Donanılmış</IncludeEquipped>
+  <IncludeTainted>Eğitilmiş</IncludeTainted>
+  <LimitToAllowedStuff>Yalnızca izin verilen malzemeler</LimitToAllowedStuff>
+  <IncludeFromAll>Her yere bak</IncludeFromAll>
+  <IncludeSpecific>{0} 'a bakın</IncludeSpecific>
+  
+  <!-- Info card -->
+  <Damage>Hasar</Damage>
+  <ArmorPenetration>Zırh koruması</ArmorPenetration>
+  <ArmorPenetrationExplanation>Zırh nüfuzu, bir silahın hedefe her vuruşunda, hasarı koruyacak zırh miktarıdır.\n\nZırh nüfuzu hedefin hasarından daha büyükse, sanki hedef silahsızdır. Aksi takdirde, zırh hasara karşı etkisiz kalır.</ArmorPenetrationExplanation>
+  <Accuracy>Doğruluk</Accuracy>
+  <BurstShotCount>Seri atış sayısı</BurstShotCount>
+  <WarmupTime>Isınma</WarmupTime>
+  <MeleeWarmupTime>Yakın dövüş</MeleeWarmupTime>
+  <CooldownTime>Süre</CooldownTime>
+  <DisarmedTime>Silahsız kalma</DisarmedTime>
+  <BurstShotFireRate>Atış hızı</BurstShotFireRate>
+  <Range>Menzilli</Range>
+  <StoppingPower>Atışı durdurma</StoppingPower>
+  <StoppingPowerExplanation>Bu silahtan gelen vuruşlar hedefleri şaşırtacak ve hareketlerini birkaç saniye yavaşlatacak.\n\nKurulum gücünden daha büyük bir vücut büyüklüğüne sahip hedefler etkilenmeyecek.</StoppingPowerExplanation>
+  <DirectHitChance>Doğrudan isabet şansı</DirectHitChance>
+  <MissRadius>Iskalama yarıçapı</MissRadius>
+  <GrowsWild>Vahşi bitki</GrowsWild>
+  <Harvestable>Hasat edilebilir</Harvestable>
+  <LimitedLifespan>Ömür sınırı</LimitedLifespan>
+  <GrowingTime>Yetişme süresi</GrowingTime>
+  <HarvestYield>Hasat verimliliği</HarvestYield>
+  <MinGrowthTemperature>En az yetişme sıcaklığı</MinGrowthTemperature>
+  <MaxGrowthTemperature>En fazla yetişme sıcaklığı</MaxGrowthTemperature>
+  <GrowingTimeDesc>Bitkiler sadece günün bir kısmı için ve sadece yandığında büyür.\n\nBu istatistik, bitkinin tam boyuta ulaşmak için gerçekten büyümek için harcadığı zamanı ölçer.\nGerçek gerçek büyüme süresi genellikle yaklaşık iki kat daha uzun olacaktır.\nDüşük sıcaklıklar da bitki büyümesini yavaşlatır.</GrowingTimeDesc>
+  <Days>Günler</Days>
+  <MinGrowingSkillToSow>Ekim için minimum çiftçilik becerisi</MinGrowingSkillToSow>
+  <FertilityRequirement>Verimlilik şartı</FertilityRequirement>
+  <FertilitySensitivity>Verimlilik hassasiyeti</FertilitySensitivity>
+  <LightRequirement>Işık gereksinimi</LightRequirement>
+  <Attributes>Nitelikler</Attributes>
+  <LifeSpan>Ömür</LifeSpan>
+  <Nutrition>Beslenme</Nutrition>
+  <Joy>Eğlenme</Joy>
+  <FoodQuality>Yemek kalitesi</FoodQuality>
+  <WalkSpeedProperty>Yürüme hızı</WalkSpeedProperty>
+  <MinFoodQuality>En düşük yemek kalitesi</MinFoodQuality>
+  <Diet>Perhiz</Diet>
+  <NutritationEatenPerDay>Günlük beslenme ihtiyacı</NutritationEatenPerDay>
+  <LeatherType>Deri türü</LeatherType>
+  <BodySize>Vücut ölçüsü</BodySize>
+  <RecruitDifficulty>Koloniye alım zorluğu</RecruitDifficulty>
+  <MarketValue>Taban ücreti</MarketValue>
+  <Covers>Siperler</Covers>
+  <CreatedAt>Oluşturuldu</CreatedAt>
+  <Layer>Katman</Layer>
+  <CoverEffectiveness>Siper etkinliği</CoverEffectiveness>
+  <CoverEffectivenessExplanation>Bir silahlı çatışmada siper alındığında, siper almak ne kadar etkili olur?\n\nYüksek yüzdeler daha fazla atış almayı ya da yapmayı engelleyecektir.</CoverEffectivenessExplanation>
+  <MedicineXpGainFactor>Deneyim kazancı faktörü</MedicineXpGainFactor>
+  <MoodChange>Ruh hali değişimi</MoodChange>
+  <Wildness>Vahşilik</Wildness>
+  <WildnessExplanation>Daha vahşi yaratıkların evcilleştirilmesi, eğitilmesi ve işlenmesi doğal olarak daha zordur.</WildnessExplanation>
+  <TrainingDecayInterval>Egzersiz bozulma aralığı</TrainingDecayInterval>
+  <TamenessWillNotDecay>Eğitim asla bozulmaz.</TamenessWillNotDecay>
+  <AnimalFilthRate>Hayvan pislik oranı</AnimalFilthRate>
+  <AnimalFilthRateExplanation>Hayvanlar, inşa edilmiş zeminlerde hareket ederken pislik üretir.\n\nBu yaratık tarafından yürüyen {0} hücre başına üretilen bu pisliğin ortalama miktarıdır.\n\nDaha büyük veya daha az evcil hayvan benzeri hayvanlar daha fazla pislik üretir.</AnimalFilthRateExplanation>
+  <TimeRecordsCategory>Zaman</TimeRecordsCategory>
+  <MiscRecordsCategory>Çeşitli</MiscRecordsCategory>
+  <Addictiveness>Bağımlılık</Addictiveness>
+  <PackAnimal>Hayvan sürüsü</PackAnimal>
+  <PackAnimalExplanation>Bu hayvanın uzun mesafelerde, bir kervanda eşya taşımak için kullanılmasının uygun olup olmadığı.</PackAnimalExplanation>
+  <Skill>Yetenek</Skill>
+  <SurgerySuccessChanceFactor>Başarı oranı çarpanı</SurgerySuccessChanceFactor>
+  <SurgeryDeathOnFailChance>Başarısız öldürme şansı</SurgeryDeathOnFailChance>
+  <WorkSpeedStat>Çalışma hızı</WorkSpeedStat>
+  <EfficiencyStat>Yönetilen çıktı miktarı</EfficiencyStat>
+  <SkillRequiredToBuild>{0} beceri gerekli</SkillRequiredToBuild>
+  <SkillRequiredToBuildExplanation>Oluşturmak için {0} seviyesi gerekir.</SkillRequiredToBuildExplanation>
+  <NuzzleInterval>Sokulma aralığı</NuzzleInterval>
+  <NuzzleIntervalExplanation>Bir hayvanın ortalama olarak dost kolonistlere ne sıklıkta sokulup onları dürteceği konusu...\n\nTatlı bir hayvan, burnunu veya ağzını bir arkadaşına karşı bir sevgi işareti olarak bastırabilir. Bu, birçok hayvan türü tarafından paylaşılan bir davranıştır.\nÇoğu insan bunu sevimli bir hareket olarak görüyor. Ruh halini arttıran ufak bir etkendir.</NuzzleIntervalExplanation>
+  <HarmedRevengeChance>İntikama dönüşme şansı</HarmedRevengeChance>
+  <HarmedRevengeChanceExplanation>Bu yaratığın, atış mesafesindeki bir saldırgan tarafından zarar gördükten sonra intikam alma şansı var.\n\nAvcı daha yakınsa bu şans artar. Hayvan çok yakın mesafeden saldırıya uğrarsa, saldırma şans üç kat daha fazladır.\nBu şans her hasar alındığında uygulanır, bu nedenle daha yavaş ateş eden, daha yüksek hasar veren silahların bu arzuyu tetikleme olasılığı daha düşüktür.\nBir yaratığın intikam şansını en aza indirmek için, uzun menzilli ve tek atışta öldürebilecek silahlar kullanın.</HarmedRevengeChanceExplanation>
+  <TameFailedRevengeChance>Evcilleştirme esnasında hayvan saldırısı şansı</TameFailedRevengeChance>
+  <TerrainRequirement>Arazi ihtiyacı</TerrainRequirement>
+  <Supports>Dayanaklar</Supports>
+  <TrapArmorPenetration>Tuzakların zırha etkisi</TrapArmorPenetration>
+  <RearmCost>Yeniden maliyet</RearmCost>
+  <RearmCostExplanation>Bu tareti yeniden silahlandırmak için gerekli kaynaklar (zorluk seviyesinden etkilenir).</RearmCostExplanation>
+  <ShotsBeforeRearm>Tekrarlanmadan önceki ateşler</ShotsBeforeRearm>
+  <ShotsBeforeRearmExplanation>Bu taretin yeniden silahlandırılmadan önce kaç atış yapabileceği.</ShotsBeforeRearmExplanation>
+  <PowerConsumption>Güç tüketimi</PowerConsumption>
+  <Target>Hedef</Target>
+  <TargetHuman>İnsan</TargetHuman>
+  <TargetAnimal>Hayvan</TargetAnimal>
+  <TargetSelf>Kendisi</TargetSelf>
+  <TargetGround>Zemin</TargetGround>
+  <ClickToLearnMore>Daha fazla bilgi için tıklayın.</ClickToLearnMore>
+  <ClickToViewFactions>Fraksiyonları görmek için tıklayın.</ClickToViewFactions>
+  
+  <!-- Trade -->
+  <PositiveBuysNegativeSells>Pozitif sayılar kazancımızdır.\n\nNegatif sayılar harcadığımız.</PositiveBuysNegativeSells>
+  <BuyPriceDesc>Bunu satın almak için ödediğiniz fiyat.</BuyPriceDesc>
+  <SellPriceDesc>Bunu satıp, aldığınız ödeme.</SellPriceDesc>
+  <PriceTypeDesc>Bu öğe için fiyat {0}.</PriceTypeDesc>
+  <ColonyCount>Bu öğeden kaç tanesi koloninin takas yapmaya hazır olduğunu gösteriyor.\n\nTicari mallarınızı, yalnızca yörünge ticaretine yakın olan yörünge tüccarlarına satabilirsiniz.</ColonyCount>
+  <TraderCount>Bu ürünün kaç tanesinin ticarete uygun olduğu.</TraderCount>
+  <AcceptButton>Tamamla</AcceptButton>
+  <ResetButton>Sıfırla</ResetButton>
+  <CancelButton>Vazgeç</CancelButton>
+  <CloseButton>Kapat</CloseButton>
+  <YourTradeableSilver>Kullanılabilir gümüşünüz: {0}</YourTradeableSilver>
+  <YourTradeableSilverTip>Sadece yörüngesel ticaret fenerine yakın olan ve çatıyla kapatılmış olmayan gümüş ile ticaret yapabilirsiniz.</YourTradeableSilverTip>
+  <TraderHasNoMore>Tüccar artık yok.</TraderHasNoMore>
+  <ColonyHasNoMore>Daha fazla satış yok.</ColonyHasNoMore>
+  <TraderWillNotTrade>Tüccar bu malla ilgilenmiyor.</TraderWillNotTrade>
+  <Negotiator>Müzakereci</Negotiator>
+  <NegotiatorTradeDialogInfo>Müzakere: {0} (+ {1})</NegotiatorTradeDialogInfo>
+  <NegotiatorTalkingImpaired>Müzakereciniz {1_labelShort} kötü sağlık nedeniyle düzgün konuşamıyor.</NegotiatorTalkingImpaired>
+  <NegotiatorHearingImpaired>Müzakereciniz {1_labelShort} kötü sağlık nedeniyle düzgün duyamıyor.</NegotiatorHearingImpaired>
+  <NegotiatorCapacityImpaired>Bu kötü durum, ticaret fiyatlarını etkileyecektir.\n\nDaha sağlıklı bir müzakereci kullanmayı düşünün.</NegotiatorCapacityImpaired>
+  <ConfirmTraderShortFunds>Alıcı, bu alışverişi tam olarak karşılayamayacak kadar gümüşe sahip. Yine de anlaşılsın mı?</ConfirmTraderShortFunds>
+  <SortBy>Göre sırala</SortBy>
+  <TraderTypePrice>Tüccar türü</TraderTypePrice>
+  <Selling>Satış</Selling>
+  <Buying>Alış</Buying>
+  <ItemSellPriceFactor>Ürün satış fiyatı çarpanı</ItemSellPriceFactor>
+  <DifficultyLevel>Zorluk seviyesi</DifficultyLevel>
+  <PostCurve>Küresel işlem sonrası eğrisi</PostCurve>
+  <YourNegotiatorBonus>Müzakereci bonusunuz</YourNegotiatorBonus>
+  <TradeWithFactionBaseBonus>Fraksiyon tabanı bonusu ile alım satım</TradeWithFactionBaseBonus>
+  <minimum>En az</minimum>
+  <FinalPrice>Son fiyat</FinalPrice>
+  <GiftModeTip>Hediye ekranı - {0} 'a hediyeler sunun.</GiftModeTip>
+  <TradeModeTip>Ticaret ekranına dönün.</TradeModeTip>
+
+  <!-- Sellable items -->
+  <SellableItemsTitle>Tüccarın satın alabileceği eşyalar</SellableItemsTitle>
+  <TraderNotVisitedYet>Hiç ziyaret edilmedi - stok bilinmiyor</TraderNotVisitedYet>
+  <TraderRestockedSinceLastVisit>Son ziyaretinizden bu yana yeniden stoklandı</TraderRestockedSinceLastVisit>
+  <NextTraderRestock>Bir sonraki stok: {0} gün</NextTraderRestock>
+  <PawnsTabShort>Canlılar</PawnsTabShort>
+  
+  <!-- Form caravan -->
+  <FormCaravan>Kervan oluştur</FormCaravan>
+  <FormCaravanColonyThingCountTip>Kervanla gönderilebilecek sayı</FormCaravanColonyThingCountTip>
+  <PawnsTab>İnsanlar ve hayvanlar</PawnsTab>
+  <ItemsTab>Eşyalar</ItemsTab>
+  <CaravanMustHaveAtLeastOneColonist>En az bir adet sağlıklı kolonist atamalısınız.</CaravanMustHaveAtLeastOneColonist>
+  <CaravanCouldNotFindExitSpot>Seçilen çıkış konumuna ({0}) erişilemiyor.</CaravanCouldNotFindExitSpot>
+  <CaravanCouldNotFindPackingSpot>Geçerli bir kervan hazırlık noktası bulunamadı. Seçilen çıkış konumuna ({0}) erişilebilir olduğundan emin olun.</CaravanCouldNotFindPackingSpot>
+  <CaravanCouldNotFindReachableExitSpot>Uyarı: Atanan kolonistlerin bazıları çıkış konumuna erişemiyor ({0}).</CaravanCouldNotFindReachableExitSpot>
+  <CaravanPawnIsUnreachable>{1_labelShort} 'a atanan kolonistlerin hiçbiri ulaşılamıyor.</CaravanPawnIsUnreachable>
+  <CaravanItemIsUnreachableSingle>Atanan kolonistlerin hiçbiri {0} 'a erişemedi.</CaravanItemIsUnreachableSingle>
+  <CaravanItemIsUnreachableMulti>Atanan kolonistlerin hiçbiri {0} x {1} 'e ulaşamıyor.</CaravanItemIsUnreachableMulti>
+  <TooBigCaravanMassUsage>Bu kervan bu kadar ağırlık taşıyamaz.</TooBigCaravanMassUsage>
+  <CaravanMassUsageTooltip>Taşınan eşyaları ve donanılmış ekipmanları içerir. Maksimumdan az taşımak, hız bonusu verir.</CaravanMassUsageTooltip>
+  <CaravanVisibilityTip>Görünürlük, kervanınızın fark edilmesinin ne kadar kolay olduğunu belirtir.\n\nKervanınızın düşmanlar tarafından fark edilme ihtimali vardır.\n\nGörünürlük istediğiniz şeyleri bulma yeteneğinizi etkilemez.\n\nGörünürlük toplamı temel alır, kervandaki tüm insanların ve hayvanların vücut büyüklüğüne bağlıdır.</CaravanVisibilityTip>
+  <DaysWorthOfFood>Kaç günlük yemek</DaysWorthOfFood>
+  <DaysWorthOfFoodInfoRot>{0} içinde çürüyecek</DaysWorthOfFoodInfoRot>
+  <InfiniteDaysWorthOfFoodInfo>Limitsiz</InfiniteDaysWorthOfFoodInfo>
+  <DaysWorthOfFoodTooltip>En az bir kişi veya hayvan belli gün sayısı dışında gıdasız kalacaktır. Farklı türlerin farklı yeme alışkanlıkları vardır, bu yüzden biri diğerlerinden önce yiyecek bitebilir. Bu değer, rota seçildikten sonra daha doğru bir şekilde hesaplanır.\n\nBundan etkilenen:\n- Mevcut kervan envanteri\n- Taşınan gıda tipi ve miktarı\n- Kervan üyeleri ve yeme alışkanlıkları\n- Yem oranı\n- Otlayabilir hayvan olup olmadığı\n- Yemeklerin bozulmasına kalan süre\n- Sıcak hava yiyecekleri daha hızlı çürütür</DaysWorthOfFoodTooltip>
+  <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(yalnızca ilk ara nokta dikkate alınır)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
+  <DaysWorthOfFoodWarningDialog>Karavanınızda sadece {0} günlük yiyecek var ve çabuk aç olacak.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodWarningDialog_NoFood>Kervanınızda yiyecek yok ve her an aç kalabilirler.</DaysWorthOfFoodWarningDialog_NoFood>
+  <ForagedFoodPerDayTip>İnsanlarınızın yem alacağı günlük ortalama yiyecek miktarı. Farklı yem verimi oranlarına sahip biyomlar arasında seyahat ederken bu değer değişecektir.</ForagedFoodPerDayTip>
+  <ForagedFoodPerDay>Günlük yiyecek</ForagedFoodPerDay>
+  <CaravanFoodWillRotSoonWarningDialog>Kervan yemeğinin büyük bir kısmı yakında çürüyecek.</CaravanFoodWillRotSoonWarningDialog>
+  <CaravanIncapableOfSocial>Diplomasi veya ticaret yapabilen kervan üyeniz yok.</CaravanIncapableOfSocial>
+  <CaravanAreYouSure>Bu karavanı oluşturmak istediğinizden emin misiniz?</CaravanAreYouSure>
+  <MessageMustChooseRouteFirst>Önce karavan için bir rota seçmelisiniz.</MessageMustChooseRouteFirst>
+  <MessageNoValidExitTile>Kervan alandan ayrılamıyor. En az bir tarafın erişilebilir olduğundan emin olun.</MessageNoValidExitTile>
+  <ItemWeightTip>Bu ürünün ağırlığı.</ItemWeightTip>
+  <MarketValueTip>Market değeri</MarketValueTip>
+  <DaysUntilRotTip>Hedefe varana kadar geçen gün sayısı, bu alandaki ortalama sıcaklığa göre yiyecekler çürümeye başlar.</DaysUntilRotTip>
+  <ItemNutritionTip>Bu yiyecek ne kadar beslenme sağlar.\n\nReferans için: yetişkin kişinin günde {0} beslenme ihtiyacı vardır.</ItemNutritionTip>
+  <AnimalCanGrazeTip>Bu hayvan, taşınan yiyecekleri yemek yerine yiyecekleri çevreden otlayabilir. Otlatma sadece bazı ovalarda ve sıcaklık aralıklarında mümkündür.</AnimalCanGrazeTip>
+  <NutritionForagedPerDayTip>Toplam beslenme günü. Toplanan gerçek miktar biyom kırılabilirliğinden de etkilenir.\n\n{0}</NutritionForagedPerDayTip>
+  <NutritionEatenPerDayTip>Günde tüketilen gıda. Referans olarak, basit öğünlerde {0} beslenme vardır.\n\nYemek yiyebilir: {2}\n\nLegend:\n{1}</NutritionEatenPerDayTip>
+  <MassCarriedSimple>Taşınan ağırlık</MassCarriedSimple>
+  <MassCapacity>Ağırlık kapasitesi</MassCapacity>
+  <Mass>Ağırlık</Mass>
+  <CaravanMass>Kervan ağırlığı</CaravanMass>
+  <EquipmentAndApparelMass>Ekipman ve kıyafet ağırlığı</EquipmentAndApparelMass>
+  <InventoryMass>Envanter ağırlığı</InventoryMass>
+  <CaravanFormationProcessStarted>Kolonistleriniz şimdi eşyaları toplayacak ve bölgeyi terk edecekler.</CaravanFormationProcessStarted>
+  <ReformCaravan>Kervanı düzenle</ReformCaravan>
+  <ColonistsSection>Kolonistler</ColonistsSection>
+  <PrisonersSection>Mahkumlar</PrisonersSection>
+  <CaptureSection>Ele geçirilen</CaptureSection>
+  <AnimalsSection>Hayvanlar</AnimalsSection>
+  <ChooseRouteButton>Rota seç</ChooseRouteButton>
+  <AbandonButton>Dağıt</AbandonButton>
+  <CaravanMovementSpeed>Hareket hızı</CaravanMovementSpeed>
+  <TilesPerDay>Bölgeler/Gün</TilesPerDay>
+  <CaravanMovementSpeedTip>Hareket hızı, tüm insanların ve hayvanların ortalama hızına, taşınan kütleye ve arazi hareketi zorluğuna bağlıdır.</CaravanMovementSpeedTip>
+  <AnimalsWillBeAbleToGraze>Hayvanlar otlayabilir</AnimalsWillBeAbleToGraze>
+  <AnimalsCanGraze>Hayvanlar otlayabilir</AnimalsCanGraze>
+  <PossibleToGrazeFor>({0} gün daha)</PossibleToGrazeFor>
+  <PossibleToGrazeForever>(sonsuza dek)</PossibleToGrazeForever>
+  <CantGrazeBecauseOfBiome>({0})</CantGrazeBecauseOfBiome>
+  <CantGrazeBecauseOfTemp>({0} gün daha fazla soğuk)</CantGrazeBecauseOfTemp>
+  <TotalNutrition>Toplam beslenme</TotalNutrition>
+  <CaravanNotMoving>Hareket etmiyor</CaravanNotMoving>
+  <ForagedNutritionPerDay>Günlük beslenme</ForagedNutritionPerDay>
+  <FactionType>Fraksiyon türü</FactionType>
+  <TotalBodySize>Toplam ölçüler</TotalBodySize>
+
+  <!-- Split caravan -->
+  <SplitCaravan>Kervanı ayır</SplitCaravan>
+  <SourceCaravanMustHaveAtLeastOneColonist>Geride az bir adet ayakta kolonist bırakmalısınız.</SourceCaravanMustHaveAtLeastOneColonist>
+  <SplitCaravanThingCountTip>Bu kervandan ayrılan kervana kaç tane eşya verebilirsiniz?</SplitCaravanThingCountTip>
+  
+  <!-- Caravan misc -->
+  <ConfirmAttackFriendlyFaction>{0} 'a saldırmak istediğinizden emin misiniz?\n\nBu saldırı sonucunda {1} düşmanlık yapacak ve sonunda koloninize baskın yapmaya başlayacaklar!</ConfirmAttackFriendlyFaction>
+  
+  <!-- Load transporters -->
+  <LoadTransporters>{0} yükleyin</LoadTransporters>
+  <TooBigTransportersMassUsage>Atanan kişiler ve eşyalar taşıma bölmeleri için çok ağır.</TooBigTransportersMassUsage>
+  <TooBigTransporterSingleMassUsage>Atanan kişiler ve eşyalar mekik için çok ağır.</TooBigTransporterSingleMassUsage>
+  <CantSendEmptyTransportPods>Boş taşıma kapsülleri gönderemezsiniz.</CantSendEmptyTransportPods>
+  <CantSendEmptyTransporterSingle>Boş mekiği gönderemezsiniz.</CantSendEmptyTransporterSingle>
+  <PawnCantReachTransporters>{1_labelShort} taşıma bölmelerine erişemiyor.</PawnCantReachTransporters>
+  <PawnCantReachTransporterSingle>{1_labelShort} mekiğe ulaşamıyor.</PawnCantReachTransporterSingle>
+  <TransporterItemIsUnreachableSingle>Taşıma bölmeleri ile {0} arasında hiçbir yol yoktur.</TransporterItemIsUnreachableSingle>
+  <TransporterSingleItemIsUnreachableSingle>Mekik ve {0} arasında hiçbir yol yok.</TransporterSingleItemIsUnreachableSingle>
+  <TransporterItemIsUnreachableMulti>Taşıma bölmeleri ile {0} x {1} arasında bir yol yok.</TransporterItemIsUnreachableMulti>
+  <TransporterSingleItemIsUnreachableMulti>Mekik ile {0} x {1} arasında bir yol yok.</TransporterSingleItemIsUnreachableMulti>
+  
+  <!-- Comms -->
+  <SocialSkillIs>Sosyal beceri: {0}</SocialSkillIs>
+  
+  <!--Research-->
+  <ResearchFinished>Araştırma tamamlandı: {0}</ResearchFinished>
+  <ResearchScreen>Araştırma Ekranı</ResearchScreen>
+  
+  <!--HistoryUpload-->
+  <HistoryUploadMessage>Geliştiricilerin oyunu dengelemesine yardımcı olmak için oyun veri kayıtlarınızı RimWorld sunucusuna yüklemek ister misiniz? Kabul ederseniz, verileriniz her {0} günde bir (ve oyunun sonu gibi bazı nadir durumlarda) yüklenir. Gizlilik tercihleri ​​daha sonra seçenekler menüsünden değiştirilebilir.</HistoryUploadMessage>
+  <HistoryUploadMessagePlayerName>İsimler anonim olarak gönderilse de adınızı ekleyebilirsiniz</HistoryUploadMessagePlayerName>
+  <HistoryUploadYes>Oyun verilerinin yüklenmesine izin ver</HistoryUploadYes>
+  <HistoryUploadNo>Oyun verilerinin yüklenmesine izin verme</HistoryUploadNo>
+  <HistoryUploadYesOnce>Yalnızca bu sefer yükle</HistoryUploadYesOnce>
+  <HistoryUploadNoOnce>Bu sefer yükleme, sonra sor</HistoryUploadNoOnce>
+  
+  <!-- Outfit management -->
+  <Outfit>Kıyafet</Outfit>
+  <SelectOutfit>Kıyafet seç</SelectOutfit>
+  <NewOutfit>Yeni kıyafet düzeni</NewOutfit>
+  <DeleteOutfit>Kıyafet düzenini sil</DeleteOutfit>
+  <OutfitInUse>Kıyafet {0} tarafından kullanılıyor.</OutfitInUse>
+  <NoOutfitSelected>Seçili kıyafet yok</NoOutfitSelected>
+  
+  <!-- Drug policy management -->
+  <DrugPolicy>Uyuşturucu politikası</DrugPolicy>
+  <SelectDrugPolicy>Politika seç...</SelectDrugPolicy>
+  <NewDrugPolicy>Yeni politika</NewDrugPolicy>
+  <DeleteDrugPolicy>Politika sil...</DeleteDrugPolicy>
+  <DrugPolicyInUse>Uyuşturucu politikası {0} tarafından kullanılıyor.</DrugPolicyInUse>
+  <FoodRestrictionInUse>Gıda kısıtlaması {0} tarafından kullanılıyor</FoodRestrictionInUse>
+  <SocialDrugs>Sosyal uyuşturucular</SocialDrugs>
+  <NoDrugs>Uyuşturucu yok</NoDrugs>
+  <OneDrinkPerDay>Her gün bir defa al</OneDrinkPerDay>
+  <Unrestricted>Serbest</Unrestricted>
+  <NoDrugPolicySelected>Hiçbir ilaç politikası seçilmedi</NoDrugPolicySelected>
+  <AddDrug>Uyuşturucu ekle</AddDrug>
+  <DrugColumnLabel>Uyuşturucu</DrugColumnLabel>
+  <DrugUsageColumnLabel>Kullanım</DrugUsageColumnLabel>
+  <FrequencyColumnLabel>Sıklık</FrequencyColumnLabel>
+  <MoodThresholdColumnLabel>Sadece aşağıdaki ruh hali varsa</MoodThresholdColumnLabel>
+  <JoyThresholdColumnLabel>Yalnızca aşağıdaki eplence seviyesinde</JoyThresholdColumnLabel>
+  <TakeToInventoryColumnLabel>Envantere götür</TakeToInventoryColumnLabel>
+  <NoDrugsBrackets>(uyuşturucu yok)</NoDrugsBrackets>
+  <EveryDay>Her gün</EveryDay>
+  <TimesPerDay>Günde {0} kez</TimesPerDay>
+  <EveryDays>{0} günde bir</EveryDays>
+  <NoDrugUseRequirement>Herhangi</NoDrugUseRequirement>
+  <DeleteDrugTooltip>Bu uyuşturucuyu sil</DeleteDrugTooltip>
+  <DrugNameColumnDesc>İlacın adı.</DrugNameColumnDesc>
+  <DrugUsageColumnDesc>İlacın kullanılmasına nasıl izin verilir?</DrugUsageColumnDesc>
+  <FrequencyColumnDesc>Sömürgecilerin bu ilacı ne sıklıkla almaya çalışması gerekir.</FrequencyColumnDesc>
+  <MoodThresholdColumnDesc>Kolonistler bu ilacı sadece ruh hali seviyeleri bu eşiğin altındaysa alacaktır.</MoodThresholdColumnDesc>
+  <JoyThresholdColumnDesc>Kolonistler bu ilacı ancak eğlence seviyeleri bu eşiğin altındaysa alacaktır.</JoyThresholdColumnDesc>
+  <TakeToInventoryColumnDesc>Her seferinde ilaç stokunu ziyaret etmek zorunda kalmamak için tüketim için toplanırken fazladan alınacak ilaç miktarı.</TakeToInventoryColumnDesc>
+  <DrugUsageTipForAddiction>Bağımlılıklar için\n\nBu ilacı önceden belirlenmiş bağımlılık gereksinimlerini karşılamak için kullanın.\n\nB devre dışı bırakılmış olsa bile, belirli özelliklere sahip bazı karakterler veya zihinsel aralarda ilacı yine de kullanabilir.</DrugUsageTipForAddiction>
+  <DrugUsageTipForJoy>Eğlence için\n\nBu ilacı eğlence ve sosyal amaçlar için kullanın.\n\nEğer devre dışı bırakılmış olsa bile, belirli özelliklere sahip bazı karakterler veya zihinsel molalarda ilacı yine de kullanabilir.</DrugUsageTipForJoy>
+  <DrugUsageTipScheduled>Zamanlanmış\n\nBu ilacı belirli koşullar karşılandığında belirli bir programda kullanın.</DrugUsageTipScheduled>
+
+  <!-- Food restriction management -->
+  <FoodRestriction>Gıda kısıtlaması</FoodRestriction>
+  <FoodRestrictionLavish>Lüks</FoodRestrictionLavish>
+  <FoodRestrictionFine>Güzel</FoodRestrictionFine>
+  <FoodRestrictionSimple>Basit</FoodRestrictionSimple>
+  <FoodRestrictionPaste>Hamur</FoodRestrictionPaste>
+  <FoodRestrictionRaw>Çiğ</FoodRestrictionRaw>
+  <FoodRestrictionNothing>Hiçbir şey</FoodRestrictionNothing>
+  <SelectFoodRestriction>Gıda kısıtlamasını seçin</SelectFoodRestriction>
+  <NewFoodRestriction>Yeni gıda kısıtlaması</NewFoodRestriction>
+  <DeleteFoodRestriction>Yiyecek kısıtlamasını sil</DeleteFoodRestriction>
+  <NoFoodRestrictionSelected>Hiçbir gıda kısıtlaması seçilmedi</NoFoodRestrictionSelected>
+
+  <!-- Medical settings -->
+  <MedGroupDefaults>Varsayılan</MedGroupDefaults>
+  <MedGroupColonist>Kolonistler</MedGroupColonist>
+  <MedGroupImprisonedColonist>Mahkum ediken kolonist</MedGroupImprisonedColonist>
+  <MedGroupColonyAnimal>Koloni hayvanı</MedGroupColonyAnimal>
+  <MedGroupNeutralAnimal>Tarafsız hayvan</MedGroupNeutralAnimal>
+  <MedGroupNeutralFaction>Tarafsız fraksiyon</MedGroupNeutralFaction>
+  <MedGroupHostileFaction>Düşman fraksiyon</MedGroupHostileFaction>
+  
+  <!-- Growing -->
+  <NoGrowerCanPlant>{0}, {1} Yetiştirmek için yetiştirme konusunda beceri gerektiriyor.\n\nBelirlenen yetiştiricilerinizden hiçbirinde bu beceri yok, bu nedenle bu bitki ekilmeyecek.</NoGrowerCanPlant>
+
+  <!-- Abandon home -->
+  <ConfirmAbandonHomeWithColonyPawns>Kolonistlerinizden veya hayvanlarınızdan bazıları bu bölgede. Terk etmek istediğinizden emin misiniz?\n\nAşağıdaki insanlar ve hayvanlar geride kalacak:\n\n{0}</ConfirmAbandonHomeWithColonyPawns>
+  <ConfirmAbandonHomeNegativeThoughts>{0} 'dan vazgeçmek, aşağıdaki kişilerin aşağıdaki düşünceleri düşünmesine neden olacaktır:</ConfirmAbandonHomeNegativeThoughts>
+  <ConfirmAbandonHomeNegativeThoughts_Everyone>Herkes:</ConfirmAbandonHomeNegativeThoughts_Everyone>
+  
+  <!-- Move caravan and leave prisoners and animals behind -->
+  <ConfirmMoveAutoJoinableCaravan>Bazı hayvanlar veya mahkumlar bu kervana katılmaya çalışıyor. Eğer onu hareket ettirirseniz, artık yapamayacaklar.\n\nHerhangi bir  geride bırakılmış kolonist olmadan bir haritada geride kalan hayvanlar, mahkumlar ve yürüyemeyen kolonistler terk edilmiş sayılır ve düşmanlar tarafından yakalanabilir.\n\nKervanını hareket ettirmek istediğine emin misin?</ConfirmMoveAutoJoinableCaravan>
+  
+  <!-- Abandon pawn -->
+  <ConfirmBanishPawnDialog>Gerçekten {1_label} 'i yasaklamak istiyor musunuz?</ConfirmBanishPawnDialog>
+  <ConfirmBanishPawnDialog_LeftToDie>{1_labelShort} büyük olasılıkla ölecek.</ConfirmBanishPawnDialog_LeftToDie>
+  <ConfirmBanishPawnDialog_Items>{1_labelShort}, {1_objective} ile aşağıdaki öğeleri alacak:</ConfirmBanishPawnDialog_Items>
+  <ConfirmBanishPawnDialog_AllColonistsThoughts>Tüm sömürgeciler aşağıdaki düşünceleri alacaklar:</ConfirmBanishPawnDialog_AllColonistsThoughts>
+  <ConfirmBanishPawnDialog_IndividualThoughts>{1_labelShort} 'un kaybolması, aşağıdaki kişilerin aşağıdaki düşünceleri almasına neden olur:</ConfirmBanishPawnDialog_IndividualThoughts>
+
+  <!-- Send transport pods which are not completely loaded -->
+  <ConfirmSendNotCompletelyLoadedPods>Kapsülle tamamen yüklenmedi. {1_labelShort} eksik. Yine de başlansın mı?</ConfirmSendNotCompletelyLoadedPods>
+
+  <!-- Settle near a faction base -->
+  <ConfirmSettleNearFactionBase>Bu konum başka bir ulus tabanının {0} döşemesi içinde olduğundan, kendi topraklarında tecavüze uğradığınızı hissedecekler ve bu gruplarla ilişkiler her {1} günde bir kötüleşecektir.\n\nHerhangi bir yerde burası?</ConfirmSettleNearFactionBase>
+  
+  <!-- Cleanup translation files -->
+  <ConfirmCleanupTranslationFiles>{0} dili için tüm çeviri dosyalarını temizlemek istediğinizden emin misiniz?\n\nBu olacak:\n- Eksik anahtarlı çeviriler, def-enjekte edilmiş çeviriler ve yedeklemeler için yer tutucular ekleyin\n- Orijinali içeren yorumları ekleyin veya güncelleyin, çevrilmemiş metin\n- Anahtarlı ve def ile enjekte edilmiş tüm çevirileri uygun XML dosyalarına taşı\n- Tüm XML dosyalarına otomatik biçimlendirme uygula\n- Geri uyumlu def adlarını güncelle\n- Varolan tüm XML yorumlarını kaldır ( liste enjeksiyonları)\n\nXML olmayan dosyalar kaldırılmaz veya değiştirilmez.\n\nTüm verileri yeniden yüklemek için bu aracı çalıştırmadan önce dil dosyalarını değiştirdikten sonra oyunu yeniden başlatmayı unutmayın.\n\nTüm yedeklediğinizden emin olun. Bu aracı kullanmadan önce çeviri dosyaları.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles_Confirm>Evet, bir yedek var</ConfirmCleanupTranslationFiles_Confirm>
+
+  <!-- Load transporters -->
+  <TransportersCaravanWillBeImmobile>Eğer bölmeleri boş bir döşemeye gönderirseniz karavan hareketsiz olacaktır. Her halükarda devam et?</TransportersCaravanWillBeImmobile>
+
+  <!-- Confirm cancel monument marker -->
+  <ConfirmCancelMonumentMarker>Bu anıt işaretleyiciyi gerçekten kaldırmak istiyor musunuz?</ConfirmCancelMonumentMarker>
+
+  <!-- Abilities -->
+  <AbilityRequiresLOS>Görüş alanı gerekli</AbilityRequiresLOS>
+  <AbilityEntropyGain>Entropi kazancı </AbilityEntropyGain>
+  <AbilityDuration>Etki süresi</AbilityDuration>
+  <AbilityEffectRadius>Etki yarıçapı</AbilityEffectRadius>
+  <AbilityCastingTime>Yapılış süresi</AbilityCastingTime>
+  <AbilityCannotHitTarget>Hedeflenen görüş alanı yok.</AbilityCannotHitTarget>
+  <AbilityOccupiedCells>{0} boş bir alanı hedeflemelidir.</AbilityOccupiedCells>
+  <AbilityUnwalkable>{0} yürünebilir bir alanı hedeflemelidir.</AbilityUnwalkable>
+  
+</LanguageData>

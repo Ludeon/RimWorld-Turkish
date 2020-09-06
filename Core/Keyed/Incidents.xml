@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <LetterLabelAnimalInsanitySingle>Öfkeli {ANIMAL_labelShort}</LetterLabelAnimalInsanitySingle>
+  <AnimalInsanitySingle>Yakındaki bir {ANIMAL_label} deliye döndü. Gördüğü herkese saldıracak.</AnimalInsanitySingle>
+  <LetterLabelAnimalInsanityMultiple>Deli {0}</LetterLabelAnimalInsanityMultiple>
+  <AnimalInsanityMultiple>Bir tür psişik dalga manzarayı süpürdü. Kolonistleriniz iyi, ama ...\n\nBu bölgedeki {0} alanın çoğu delirmiş gibi görünüyor.</AnimalInsanityMultiple>
+
+  <LetterLabelCropBlight>Küflenme: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <LetterCropBlight>{PLANTDEF_labelPlural}'de küflenme başladı!
+\nKüflenme tüm tarlayı sarmadan, küflenen bitkileri hasat etmelisiniz yada küflenenleri yakmalısınız</LetterCropBlight>
+
+  <LetterLabelMiracleHeal>Mucize</LetterLabelMiracleHeal>
+  <MiracleHeal>{0} mucizevi bir iyileşme yaşadı!</MiracleHeal>
+
+  <!-- Enemy raids -->
+  <EnemyRaidLeaderPresent>{LEADER_factionPawnsPlural} - {LEADER_labelShort} 'dan biri topluluk lideridir.</EnemyRaidLeaderPresent>
+
+  <!-- Friendly raids -->
+  <FriendlyRaidLeaderPresent>{LEADER_factionPawnsPlural} - {LEADER_labelShort} 'dan biri topluluk lideri.</FriendlyRaidLeaderPresent>
+
+  <LetterLabelRefugeePodCrash>Taşıma kapsülü kazası</LetterLabelRefugeePodCrash>
+  <RefugeePodCrash>{PAWN_nameDef} adlı {PAWN_titleIndef}, yakındaki bir taşıma kapsülüyle kaza geçirdi, {PAWN_pronoun} kazadan kurtulursa, {PAWN_pronoun} ağır şekilde yaralanacaktır.</RefugeePodCrash>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef} herhangi bir fraksiyona üye değil. {PAWN_objective} 'u kurtarabilir ve {PAWN_pronoun}' un özgürce koloninize katılmasını umabilir veya işe alım veya mahkumluk amacıyla {PAWN_objective} 'u yakalayabilirsiniz.</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef}, düşmanınızdan {PAWN_factionName}. İşe alma veya mahkum alma amacıyla {PAWN_objective} yakalayabilirsiniz.</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef}, {PAWN_factionName}'den. {PAWN_objective} 'u kurtarırsanız, {PAWN_pronoun} size özgürce katılabilir. Aksi takdirde, {PAWN_pronoun} eve dönecek ve bağlı fraksiyonla aranızda iyi niyet yayacaktır.\n\nKoloniye alma veya mahkum alma amacıyla {PAWN_objective} yakalayabilirsiniz, ancak bu {PAWN_possessive} grubunu kızdırır.</RefugeePodCrash_NonHostile>
+
+  <LetterLabelCargoPodCrash>Taşıma kapsülleri</LetterLabelCargoPodCrash>
+  <CargoPodCrash>Yakınlarda düşmekte olan bir kargo bölmeleri tespit ettiniz.\n\nBelki enkazda yararlı bir şeyler bulabilirsiniz.</CargoPodCrash>
+
+  <AnElectricalConduit>elektriksel hat</AnElectricalConduit>
+  <ShortCircuit>{0} 'da bir hata kısa devreye neden oldu.</ShortCircuit>
+  <ShortCircuitStartedFire>{0} 'da bir arıza yangına neden olan kısa devreye neden oldu.</ShortCircuitStartedFire>
+  <ShortCircuitDischargedEnergy>Bağlı pillerdeki tüm {0} WD enerji elektrikli bir patlamada boşalmıştır.</ShortCircuitDischargedEnergy>
+  <ShortCircuitWasLarge>Bu büyük miktardaki güç, kayda değer büyüklükte bir patlama yarattı.</ShortCircuitWasLarge>
+  <ShortCircuitWasHuge>Bu gerçekten büyük bir patlama. Vay.</ShortCircuitWasHuge>
+
+  <TraderArrival>Bir ticaret gemisi yakınından geçiyor.\n\n{0} olarak biliniyorlar. Bunlar bir {1}.\n\n{2}</TraderArrival>
+  <TraderArrivalFromFaction>{FACTION_name} ile bağlantılılar.</TraderArrivalFromFaction>
+  <TraderArrivalNoFaction>Herhangi bir fraksiyona bağlı değiller.</TraderArrivalNoFaction>
+
+  <SingleTravelerPassing>{1} kaynağından bir {PAWN_title} geçiyor. {PAWN_pronoun}, {PAWN_nameFull} olarak adlandırıldı.</SingleTravelerPassing>
+  <GroupTravelersPassing>{0} 'dan bir grup gezgin geçiyor.</GroupTravelersPassing>
+
+  <LetterLabelSingleVisitorArrives>Ziyaretçi</LetterLabelSingleVisitorArrives>
+  <SingleVisitorArrives>{1} 'den {PAWN_titleIndef} koloniyi ziyaret ediyor.\n\n{PAWN_pronoun}, {PAWN_nameFull} olarak adlandırıldı. {3} {4}</SingleVisitorArrives>
+  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun} 'da ticaret yapabilmek için birkaç öğe var gibi görünüyor.</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun} , grubun lideri.</SingleVisitorArrivesLeaderInfo>
+  <LetterLabelGroupVisitorsArrive>Ziyaretçiler</LetterLabelGroupVisitorsArrive>
+  <GroupVisitorsArrive>{0} 'dan bir grup koloninizi ziyaret ediyor. {1} {2}</GroupVisitorsArrive>
+  <GroupVisitorsArriveTraderInfo>Ticaret için birkaç eşyaları var gibi görünüyor.</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveLeaderInfo>Ziyaretçilerden biri - {1_labelShort}, grubun lideri.</GroupVisitorsArriveLeaderInfo>
+  <VisitorsLeaving>{0} ziyaretçileri gidiyor.</VisitorsLeaving>
+
+  <LetterLabelManhunterPackArrived>İnsan avcısı sürüsü</LetterLabelManhunterPackArrived>
+  <ManhunterPackArrived>Bölgeye bir grup {0} geldi. Bölgede dolaşıp insan eti yemek istiyorlar.\n\n Birinin kapıyı kullandığını görmedikçe kapılara saldırmak akıllarına gelmez. İçeride saklan ve güvenhde ol. Ayrıca kapalı olan taretlere saldırmazlar, bu yüzden taretleri kurtarmak için enerjilerini kapatın.\n\n{0} bölgeden bir veya iki gün sonra ayrılacaklar. Gitmelerini bekleyebilir ya da onlara saldırabilirsiniz. </ManhunterPackArrived>
+  
+  <!-- Crashed ship part-->
+  <MessageAnimalInsanityPulse>{SOURCE_label}, yakındaki hayvanları çıldırtan psişik bir sinyal yaydı.</MessageAnimalInsanityPulse>
+  <LetterShipPartDroveColonistInsane>Düşmüş gemi parçası, kolonistleri deliye çeviren odaklanmış bir psişik sinyaller yaydı.</LetterShipPartDroveColonistInsane>
+  <AwokeDaysAgo>{0} gün önce uyandı</AwokeDaysAgo>
+  <ActivatedDaysAgo>{0} gün önce etkinleştirildi</ActivatedDaysAgo>
+  <OpenedDaysAgo>{0} gün önce açıldı</OpenedDaysAgo>
+  <PsychicDroneLevel>Psişik sinyal seviyesi: {0}</PsychicDroneLevel>
+  <LetterLabelPsychicDroneLevelIncreased>Psişik sinyal yoğunlaşıyor</LetterLabelPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>Düşen gemi bölümü şimdi daha güçlü bir psişik drone üretiyor. Bölgedeki her insan gibi şimdi daha rahatsız, dehşete kapılmış ve paranoyak hissediyor.</LetterPsychicDroneLevelIncreased>
+  
+  <!-- Agent revealed -->
+  <LetterLabelAgentRevealed>Ajan</LetterLabelAgentRevealed>
+  <LetterAgentRevealed>{0}, düşmanınızın ajanı olarak {1} açıklandı.\n\nŞimdi kaçmaya çalışıyorlar.</LetterAgentRevealed>
+
+  <!-- Beavers -->
+  <LetterLabelBeaversArrived>Hay bin kunduz!</LetterLabelBeaversArrived>
+  <BeaversArrived>Bölgenize bir grup aç kunduz dadandı!\n\nBölgedeki son odun kaynağına kadar odunları ve ahşap yapıları yok etmeden önce onları yok etmeye çalışın.</BeaversArrived>
+  
+  <!-- Self-tame -->
+  <LetterLabelAnimalSelfTame>{1_kind} kendi kendine evcilleşti</LetterLabelAnimalSelfTame>
+  <LetterAnimalSelfTame>{0} evcilleşti.</LetterAnimalSelfTame>
+  <LetterAnimalSelfTameAndNameNumerical>{0} evcilleşti. Şimdi {ANIMAL_nameFull} olarak adlandırıldı.</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndName>{0} evcilleşti. Kolonistler bunu {ANIMAL_nameFull} olarak adlandırmaya karar verdiler.</LetterAnimalSelfTameAndName>
+
+  <!-- Farm animals wander in -->
+  <LetterLabelFarmAnimalsWanderIn>{0} hayvanlar katıldı</LetterLabelFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>Sürgün edilmiş veya kaybolmuş bir grup {0} bölgeye girdi.\n\nİnsan temasına alışkın görünüyorlar ve koloniye katılıyorlar.</LetterFarmAnimalsWanderIn>
+  
+  <!-- Thrumbo passes -->
+  <LetterLabelThrumboPasses>Ebder Thrumbolar</LetterLabelThrumboPasses>
+  <LetterThrumboPasses>Küçük bir Thrumbo sürüsü bölgeye girdi.\n\nDoğası gereği huzurlu olan bu nadir yaratıklar, saldırdıklarında son derece tehlikelidir. Bazı tüccarlar değerli deri ve boynuzları için çok para öderler.\n\nThrumbolar birkaç gün içinde bölgeyi terk edecek.</LetterThrumboPasses>
+  
+  <!-- Trader caravan -->
+  <LetterLabelTraderCaravanArrival>{0} 'dan {1}</LetterLabelTraderCaravanArrival>
+  <LetterTraderCaravanArrival>{0} dan bir kervan yaklaşıyor. Bunlar bir {1}.</LetterTraderCaravanArrival>
+  <LetterCaravanArrivalCommonWarning>Onlar bölgenizden ayrılmadan önce bir süre yerleşkenizin etrafında dinlenecekler. Onlara saldırabilirsiniz - ama bu onların fraksiyonunu kızdırır!</LetterCaravanArrivalCommonWarning>
+    
+  <!-- Ransom demand -->
+  <RansomDemandTitle>{0} 'da fidye talebi</RansomDemandTitle>
+  <RansomDemand>{1} sizinle radyo üzerinden iletişim kuruyor. Eski kolonistinizi, fidye için {PAWN_labelShort} tutuyorlar.\n\n{2} gümüş karşılığında size {PAWN_objective} sağlıklı şekilde teslim etmek istiyorlar.</RansomDemand>
+  <RansomDemand_Accept>Kabul et</RansomDemand_Accept>
+  <RansomDemand_Reject>Reddet</RansomDemand_Reject>
+  
+  <!-- Journey-related -->
+  <EscapeShipFoundLabel>Uzaygemisi bulundu</EscapeShipFoundLabel>
+  <EscapeShipFound>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; tarafından gönderilen koordinatlar elinize ulaştı. O, gizlenmiş bir uzay gemisi keşfetti.\n\nGeminin reaktörü hala aktif ve bekleme modunda, bu yüzden henüz çalışmıyor ve uçmuyor. Bilgisayar çekirdeği ile etkileşime geçerek başlatabilirsiniz.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; başlatma işleminin yaklaşık 15 gün süreceğini ve dünyaya ciddi bir enerji yayılacağını, çok uzak diyarlardan bu sinyalin tespit edileceğini belirtiyor. Bu tür bir enerji dalgası, yıldızlararası uçabilme belirtisi gösterir ve bu gezegenden kurtulmak isteyen çaresiz akıncı çeteleri, haydutlar ve ölümcül mekanoid sürülerinin dikkatini çekecektir.\n\nDaha önce hiç görmediğiniz bir yoğunlukta saldırıya maruz kalacaksınız. İşlemi başlatmadan önce çok uzun süre direnebilecek savunmalarınızın hazırlandığından emin olun.</EscapeShipFound>
+  <EscapeShipFoundPeaceful>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; tarafından gönderilen koordinatlar elinize ulaştı. O, gizlenmiş bir uzat gemisi keşfetti.\n\nGeminin reaktörü hala aktif ve bekleme modunda, bu yüzden henüz uçmuyor. Bilgisayar çekirdeği ile etkileşime geçerek başlatabilirsiniz.\n\n&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; başlatma işleminin yaklaşık 15 gün süreceği konusunda sizi uyarıyor.</EscapeShipFoundPeaceful>
+  <EscapeShipLostLabel>Uzaygemisi yok edildi</EscapeShipLostLabel>
+  <EscapeShipLost>&lt;Name&gt;Charlon Whitestone&lt;/Name&gt; size bir mesaj gönderiyor.\n\nGizli uzay gemisinin kontrolünü kaybettiğinizi fark ediyor. Bu muhteşem uzay gemisinin, yanlış kişilerin ellerine geçmesine engel olmak için,  geminin kendini imha mekanizmasını tetiklemek zorunda kaldı. Gemi şimdi sadece bir krater.\n\nBu gezegenden ayrılmak için başka bir yol bulmanız gerekecek.</EscapeShipLost>
+
+  <!-- Caravan meeting -->
+  <CaravanMeetingTitle>Kervan {0} ile buluştu</CaravanMeetingTitle>
+  <CaravanMeeting>{0}, {1} adlı bir kervanla barış içinde buluştu. Diğer kervan, şunlardan oluşur:\n\n{2}</CaravanMeeting>
+  <CaravanMeeting_Trade>Ticaret</CaravanMeeting_Trade>
+  <CaravanMeeting_Attack>Saldır</CaravanMeeting_Attack>
+  <CaravanMeeting_MoveOn>Hareket et</CaravanMeeting_MoveOn>
+  <CaravanMeeting_TradeIncapable>ticaret yapabilen hiçbir kervan üyesi yok</CaravanMeeting_TradeIncapable>
+  <CaravanMeeting_NoPermit>{1_name} gibi {0} ünvanlı bir tüccara ihtiyacınız var</CaravanMeeting_NoPermit>
+  
+  <!-- Caravan request -->
+  <LetterLabelCaravanRequest>Kervan talebi</LetterLabelCaravanRequest>
+  <LetterCaravanRequest>Yakınınızdaki bir yerleşim olan {0} sizinle özel bir ticaret talebiyle bağlantı kuruyor. Şunları satın almak istiyorlar:\n\n {1} ({2} değerinde)\n\n Karşılığında şunları teklif ediyorlar:\n\n{3} ({4} değerinde)\n\nBu talebin süresi sona erdiğinde: { 5}\n\nTicaret yapmak istiyorsanız, istenen malzemeleri içeren bir kervan gönderin. Tahmini yolculuk süresi {6}. Dünya haritasında {0} seçeneğini belirleyerek bu teklifi inceleyebilirsiniz.</LetterCaravanRequest>
+  <CaravanRequestInfo>İsteniyor: {0} ({2}) ({1} kaldı)</CaravanRequestInfo>
+  <NormalQualityOrBetter>Normal yada daha iyi kalite bekleniyor</NormalQualityOrBetter>
+  <NotTainted>Pis olmayanlar</NotTainted>
+
+  <!-- Caravan demand -->
+  <CaravanDemandTitle>{0} tarafından kervan talebi</CaravanDemandTitle>
+  <CaravanDemand>{0}, {1} grubundan {2} {4} adlı bir grup tarafından pusuya düşürüldü. Siz şu malları onlara vermezseniz eğer saldıracaklar:\n\n{3}</CaravanDemand>
+  <CaravanDemand_Give>İstenilen eşyaları ver ve geç</CaravanDemand_Give>
+  <CaravanDemand_Fight>Talebi reddet ve savaş</CaravanDemand_Fight>
+
+  <!-- Site no longer hostile -->
+  <LetterLabelSiteNoLongerHostile>Görev artık mevcut değil</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostileMulti>Görevler artık mevcut değil</LetterLabelSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostile>Artık {0} ile düşman olmadığınızdan, {1} bölgesi artık kullanılamıyor.</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostileMulti>Artık {0} ile düşman olmadığınızdan, aşağıdaki bölgeler artık kullanılamıyor.</LetterSiteNoLongerHostileMulti>
+
+  <!-- Quest asker faction hostile -->
+  <LetterLabelQuestAskerFactionHostile>Görev başarısız oldu</LetterLabelQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>{FACTION_name} artık düşman olduğu için görev tamamlanamıyor.</LetterQuestAskerFactionHostile>
+
+  <!-- Quest asker captured -->
+  <LetterLabelQuestAskerCaptured>Görev başarısız old</LetterLabelQuestAskerCaptured>
+  <LetterQuestAskerCaptured>{SUBJECT_definite} yakalandığı için görev artık tamamlanamıyor.</LetterQuestAskerCaptured>
+
+  <!-- Quest asker died -->
+  <LetterLabelQuestAskerDied>Görev başarısız oldu</LetterLabelQuestAskerDied>
+  <LetterQuestAskerDied>{SUBJECT_definite} öldüğü için görev artık tamamlanamıyor.</LetterQuestAskerDied>
+
+</LanguageData>
