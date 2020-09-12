@@ -4,24 +4,10 @@
 * Official Turkish language translation for RimWorld.
 
 ## Translators - Çevirmenler
-* [@Meriç Alemdar](https://github.com/alemdarwilson)
-* [@Ferhatyesil](https://github.com/Ferhatyesil)
-* [@XxXKroseXxX](https://github.com/XxXKroseXxX)
-* [@Hüseyin Cem ARAS](https://github.com/hcemaras)
-* [@sonobacari](https://github.com/sonobacari)
-* [@Hakkiro](https://github.com/Hakkiro)
-* [@sinanisler](https://github.com/sinanisler)
-* [@Zamahoya](https://github.com/Zamahoya)
-* [@fyagiz](https://github.com/fyagiz)
-* [@mmustafasanli](https://github.com/mmustafasanli)
-* [@mahsun4303](https://github.com/mahsun4303)
-* [@Ahmet Can AYDEMİR](https://github.com/ahmetcanaydemir)
-* [@alimormeci](https://github.com/alimormeci)
-* [@IsilwenA](https://github.com/IsilwenA)
-* [@deathclean](https://github.com/deathclean)
-* [@hamitozdemir](https://github.com/hamitozdemir)
 * [@AtFreezingPoint](https://github.com/AtFreezingPoint)
 * [Altay Bey] (https://www.instagram.com/altay.bey/) IG
+
+* 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 ## Translation Progress - Çeviri İlerlemesi
 * Eğer ilerlemeyi görmek istersen, [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Notes/Progress.md)'ye bakabilirsin.
 * If you want to see our progression of Turkish Language Translation, you can look at [Progress.md](https://github.com/Ludeon/RimWorld-Turkish/blob/master/Notes/Progress.md).
