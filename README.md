@@ -7,6 +7,8 @@
 * [@AtFreezingPoint](https://github.com/AtFreezingPoint)
 * [Altay Bey Instagram](https://www.instagram.com/altay.bey/)
 
+## [Proje Wiki Sayfası](https://github.com/Ludeon/RimWorld-Turkish/wiki)
+
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 
 ## See this page for license info:
