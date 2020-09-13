@@ -5,7 +5,7 @@
 
 ## Translators - Çevirmenler
 * [@AtFreezingPoint](https://github.com/AtFreezingPoint)
-* [Altay Bey] (https://www.instagram.com/altay.bey/) IG
+* [Altay Bey Instagram](https://www.instagram.com/altay.bey/)
 
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 
