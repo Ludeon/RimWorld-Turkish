@@ -4,6 +4,7 @@
 * Official Turkish language translation for RimWorld.
 
 ## Translators - Çevirmenler
+* [@Meriç Alemdar](https://github.com/alemdarwilson)
 * [@AtFreezingPoint](https://github.com/AtFreezingPoint)
 * [Altay Bey Instagram](https://www.instagram.com/altay.bey/)
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
