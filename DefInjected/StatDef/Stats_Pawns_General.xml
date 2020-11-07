@@ -1,43 +1,91 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-	<MoveSpeed.label>Hareket hızı</MoveSpeed.label>
-	<MoveSpeed.description>Saniye başına blok olmak üzere dünyada hareket hızı.</MoveSpeed.description>saniyede blok
-
-	<MentalBreakThreshold.label>Mental kırılma noktası</MentalBreakThreshold.label>
-	<MentalBreakThreshold.description>Birilerinin modu bu noktanın altında olduğu sürece mental bir kırılma geçirme tehlikesine sahiptirler.</MentalBreakThreshold.description>
-
-	<PsychicSensitivity.label>Psişik duyarlılık</PsychicSensitivity.label>
-	<PsychicSensitivity.description>Psişik bir fenomenin bu karakter üzerinde yaptığı etkinin çarpanı.</PsychicSensitivity.description>
-
-	<ToxicSensitivity.label>Toksik duyarlılık</ToxicSensitivity.label>
-	<ToxicSensitivity.description>Toksik birikintinin bu karakter üzerinde yaptığı etkinin çarpanı.</ToxicSensitivity.description>
-
-	<GlobalLearningFactor.label>Küresel öğrenme faktörü</GlobalLearningFactor.label>
-	<GlobalLearningFactor.description>Bütün yetenekler üzerinde küresel öğrenme hızı.</GlobalLearningFactor.description>
-
-	<EatingSpeed.label>Yeme hızı</EatingSpeed.label>
-	<EatingSpeed.description>Yeme hızı çarpanı.</EatingSpeed.description>
-
-	<ComfyTemperatureMin.label>Minimum rahat edilebilen sıcaklık</ComfyTemperatureMin.label>
-	<ComfyTemperatureMin.description>Bu sıcaklığın altında, karakterler mutsuz olacak. Bu sıcaklığın daha aşağısında, karakterler hipotermi ve donuk geçirecekler ve devamında ölecektirler.</ComfyTemperatureMin.description>
-
-	<ComfyTemperatureMax.label>Maximum rahat edilebilen sıcaklık</ComfyTemperatureMax.label>
-	<ComfyTemperatureMax.description>Bu sıcaklığın üstünde , karakterler mutsuz olacak. Bu sıcaklığın daha da üstünde, karakterler güneş çarpması geçirecekler ve devamında ölecektirler.</ComfyTemperatureMax.description>
-
-	<ImmunityGainSpeed.label>Bağışıklık kazanma hızı</ImmunityGainSpeed.label>
-	<ImmunityGainSpeed.description>Bu karakterin bağışıklık kazanma hızı. Eğer bu çok yavaş ise karakter bağışıklık kazanamadan hastalıktan dolayı ölecektir.</ImmunityGainSpeed.description>
-
-	<CarryingCapacity.label>Taşıma kapasitesi</CarryingCapacity.label>
-	<CarryingCapacity.description>Bu canlının elinde , ağzında gibi uzuvlarında taşıyabileceği şey miktarı.</CarryingCapacity.description>
-
-	<MeatAmount.label>Et oranı</MeatAmount.label>
-	<MeatAmount.description>Bu canlıyı parçaladığında elde edeceğin et miktarı.</MeatAmount.description>
-
-	<LeatherAmount.label>Deri oranı</LeatherAmount.label>
-	<LeatherAmount.description>Bu canlıyı parçaladığında elde ediceğin deri miktarı.</LeatherAmount.description>
-
-	<MinimumHandlingSkill.label>Minumum bakım yeteneği</MinimumHandlingSkill.label>
-	<MinimumHandlingSkill.description>Bu yaratık hayvanlara bakım yeteneği bundan düşük olan biri tarafından evcilleştirilemez , eğitilemez veya emir verilemez.</MinimumHandlingSkill.description>
-
+  
+  <!-- EN: carrying capacity -->
+  <CarryingCapacity.label>taşıma kapasitesi</CarryingCapacity.label>
+  <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
+  <CarryingCapacity.description>Bu canlının ellerinde, ağzında yada diğer organlarında/ekipmanlarında taşıyabileceği madde miktarı.\n\nBu, uzun dünyalar arası kargo taşıma yeteneğini ile aynı şey değildir.</CarryingCapacity.description>
+  
+  <!-- EN: Maximum comfortable temperature -->
+  <ComfyTemperatureMax.label>maksimum rahat edilebilen sıcaklık</ComfyTemperatureMax.label>
+  <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
+  <ComfyTemperatureMax.description>Sıcaklık bunun üstüne çıkarsa karakterler mutsuz olurlar.\n\nSıcaklık bunun çok üstüne çıkarsa, güneş çarpması yaşarlar ve sonunda ölürler.</ComfyTemperatureMax.description>
+  
+  <!-- EN: Minimum comfortable temperature -->
+  <ComfyTemperatureMin.label>minimum rahat edilebilen sıcaklık</ComfyTemperatureMin.label>
+  <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
+  <ComfyTemperatureMin.description>Sıcaklık bunun altına düşerse karakterler mutsuz olurlar.\n\nSıcaklık bunun çok altına düşerse, hipotermi ve donma yaşarlar ve sonunda ölürler.</ComfyTemperatureMin.description>
+  
+  <!-- EN: eating speed -->
+  <EatingSpeed.label>yeme hızı</EatingSpeed.label>
+  <!-- EN: A multiplier on eating speed. -->
+  <EatingSpeed.description>Yeme hızına etki eden bir çarpan.</EatingSpeed.description>
+  
+  <!-- EN: foraged food amount -->
+  <ForagedNutritionPerDay.label>toplanan yiyecek miktarı</ForagedNutritionPerDay.label>
+  <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
+  <ForagedNutritionPerDay.description>Bu kişinin kervanla seyahat ederken günlük otomatik topladığı besin miktarı.</ForagedNutritionPerDay.description>
+  
+  <!-- EN: global learning factor -->
+  <GlobalLearningFactor.label>küresel öğrenme faktörü</GlobalLearningFactor.label>
+  <!-- EN: A multiplier on the learning rate for all skills. -->
+  <GlobalLearningFactor.description>Tüm beceriler için öğrenme oranına etki eden bir çarpan.</GlobalLearningFactor.description>
+  
+  <!-- EN: hunger rate multiplier -->
+  <HungerRateMultiplier.label>açlık oranı çarpanı</HungerRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
+  <HungerRateMultiplier.description>Bir canlının ne kadar hızlı acıktığına etki eden bir çarpan.</HungerRateMultiplier.description>
+  
+  <!-- EN: immunity gain speed -->
+  <ImmunityGainSpeed.label>bağışıklık kazanma hızı</ImmunityGainSpeed.label>
+  <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
+  <ImmunityGainSpeed.description>Bu karakterin hastalıklara karşı bağışıklık kazanma hızı.\n\nEğer bu çok yavaşsa, karakter bağışıklık geliştiremeden önce hastalıktan ölür.</ImmunityGainSpeed.description>
+  
+  <!-- EN: leather amount -->
+  <LeatherAmount.label>deri miktarı</LeatherAmount.label>
+  <!-- EN: The amount of leather yielded when butchering this creature. -->
+  <LeatherAmount.description>Bu canlının kesildiğinde verdiği deri miktarı.</LeatherAmount.description>
+  
+  <!-- EN: meat amount -->
+  <MeatAmount.label>et miktarı</MeatAmount.label>
+  <!-- EN: The amount of meat yielded when butchering this creature. -->
+  <MeatAmount.description>Bu canlının kesildiğinde vereceği et miktarı.</MeatAmount.description>
+  
+  <!-- EN: mental break threshold -->
+  <MentalBreakThreshold.label>ruhsal çöküş eşiği</MentalBreakThreshold.label>
+  <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
+  <MentalBreakThreshold.description>Ruh hali bu seviyenin altında olan kişiler ruhsal çöküş yaşama tehlikesi altındadır.\n\nRuhsal çöküşün şiddeti, eşiğin ne kadar altına inildiğine bağlıdır.</MentalBreakThreshold.description>
+  
+  <!-- EN: minimum handling skill -->
+  <MinimumHandlingSkill.label>minimum ilgilenme becerisi</MinimumHandlingSkill.label>
+  <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
+  <MinimumHandlingSkill.description>Bu canlı, hayvancılık becerisi bu seviyeden düşük biri tarafından eğitilemez, evcilleştirilemez yada kontrol edilemez.</MinimumHandlingSkill.description>
+  
+  <!-- EN: move speed -->
+  <MoveSpeed.label>yürüme hızı</MoveSpeed.label>
+  <!-- EN: Speed of movement in cells per second. -->
+  <MoveSpeed.description>Saniye başına hareket ettiği hücre sayısı.</MoveSpeed.description>
+  <!-- EN: {0} c/s -->
+  <MoveSpeed.formatString>{0} z/s</MoveSpeed.formatString>
+  
+  <!-- EN: pain shock threshold -->
+  <PainShockThreshold.label>acı şoku eşiği</PainShockThreshold.label>
+  <!-- EN: The pain level at which this creature is downed from pain. -->
+  <PainShockThreshold.description>Bu canlının şok geçirdiği acı seviyesi.</PainShockThreshold.description>
+  
+  <!-- EN: psychic sensitivity -->
+  <PsychicSensitivity.label>psişik hassaslık</PsychicSensitivity.label>
+  <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
+  <PsychicSensitivity.description>Daha hassas insanlar psişik etkilerden daha çok acı ve zevk alır. Ayrıca yüksek psişik hassaslık sinirsel ısı limitini arttırır.</PsychicSensitivity.description>
+  
+  <!-- EN: rest rate multiplier -->
+  <RestRateMultiplier.label>dinlenme oranı çarpanı</RestRateMultiplier.label>
+  <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
+  <RestRateMultiplier.description>Bir canlının uyurken ne kadar hızlı dinlendiğine etki eden bir çarpan.</RestRateMultiplier.description>
+  
+  <!-- EN: toxic sensitivity -->
+  <ToxicSensitivity.label>zehre duyarlılık</ToxicSensitivity.label>
+  <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
+  <ToxicSensitivity.description>Bu canlıdaki zehir birikiminin etkisinin çarpanı.</ToxicSensitivity.description>
+  
 </LanguageData>

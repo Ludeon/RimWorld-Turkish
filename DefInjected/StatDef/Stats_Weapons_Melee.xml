@@ -1,16 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <MeleeWeapon_DamageAmount.label>Yakın hasar</MeleeWeapon_DamageAmount.label>
-    <MeleeWeapon_DamageAmount.description>Yakın çatışmada vuruş başına verilen hasar.</MeleeWeapon_DamageAmount.description>
-    
-    <MeleeWeapon_Cooldown.label>Yakın saldırı bekleme süresi</MeleeWeapon_Cooldown.label>
-    <MeleeWeapon_Cooldown.description>Yakın silahta başka bir hamleye kadar geçmesi gereken süre.</MeleeWeapon_Cooldown.description>
-    
-    <SharpDamageMultiplier.label>Kesici hasar </SharpDamageMultiplier.label>
-    <SharpDamageMultiplier.description>Bu materyalden yapılmış ögeler için saplama veya kesme gibi kesici hasar çarpanı.</SharpDamageMultiplier.description>
-    
-    <BluntDamageMultiplier.label>Ezici hasar</BluntDamageMultiplier.label> 
-    <BluntDamageMultiplier.description>Bu materyalden yapılmış ögeler için ezici hasar çarpanı.</BluntDamageMultiplier.description>
-    
+  
+  <!-- EN: detection chance -->
+  <Bladelink_DetectionChance.label>tespit şansı</Bladelink_DetectionChance.label>
+  <!-- EN: The likelihood of the bladelink implant being detected each time it is used to attack in combat.\n\nSome factions try to enforce laws restricting the use of the bladelink to those holding specific titles. Using the bladelink emits a psychic signature which has a chance of being detected at a distance. If it is used illegally and detected, there will be diplomatic consequences. -->
+  <Bladelink_DetectionChance.description>Savaştayken saldırmak için her bladelink implantı kullanıldığında tespit edilme ihtimali.\n\nBazı fraksiyonların, bazı güçlerin sadece belirli bir ünvana sahip olanlar tarafından kullanılması için yasası vardır. Bladelink kullandığında belli bir mesafeden tespit edilme ihtimali olan bir psişik sinyal yayılır. Eğer bu yasadışı olarak kullanılırsa ve tespit edilirse bunun diplomatik sonuçları olur.</Bladelink_DetectionChance.description>
+  
+  <!-- EN: blunt damage -->
+  <BluntDamageMultiplier.label>kör hasar</BluntDamageMultiplier.label>
+  <!-- EN: A multiplier on damage from blunt-type attacks for weapons made of this material. -->
+  <BluntDamageMultiplier.description>Bu malzemeden yapılmış silahlardan yapılmış kör saldırıların hasarına etki eden bir çarpan.</BluntDamageMultiplier.description>
+  
+  <!-- EN: melee armor penetration -->
+  <MeleeWeapon_AverageArmorPenetration.label>yakın dövüş zırh delme</MeleeWeapon_AverageArmorPenetration.label>
+  <!-- EN: Average armor penetration in melee combat. -->
+  <MeleeWeapon_AverageArmorPenetration.description>Yakın dövüş saldırılarının ortalama zırh delmesi.</MeleeWeapon_AverageArmorPenetration.description>
+  
+  <!-- EN: melee damage per second -->
+  <MeleeWeapon_AverageDPS.label>saniye başına yakın dövüş hasarı</MeleeWeapon_AverageDPS.label>
+  <!-- EN: Average damage dealt per second in melee combat, if all attacks hit. -->
+  <MeleeWeapon_AverageDPS.description>Yakın dövüşte saniyede isabet etmiş tüm vuruşlardan verilen ortalama hasar.</MeleeWeapon_AverageDPS.description>
+  
+  <!-- EN: melee cooldown -->
+  <MeleeWeapon_CooldownMultiplier.label>yakın dövüş bekleme süresi</MeleeWeapon_CooldownMultiplier.label>
+  <!-- EN: A multiplier on attack delay for weapons made of this material. -->
+  <MeleeWeapon_CooldownMultiplier.description>Bu malzemeden yapılmış silahların saldırı gecikmesine etki eden bir çarpan.</MeleeWeapon_CooldownMultiplier.description>
+  
+  <!-- EN: melee damage multiplier -->
+  <MeleeWeapon_DamageMultiplier.label>yakın dövüş çarpanı</MeleeWeapon_DamageMultiplier.label>
+  <!-- EN: A damage multiplier applied to melee combat. -->
+  <MeleeWeapon_DamageMultiplier.description>Yakın dövüşe etki eden bir hasar çarpanı.</MeleeWeapon_DamageMultiplier.description>
+  
+  <!-- EN: sharp damage -->
+  <SharpDamageMultiplier.label>keskin hasar</SharpDamageMultiplier.label>
+  <!-- EN: A multiplier on damage from sharp-type attacks for weapons made of this material. -->
+  <SharpDamageMultiplier.description>Bu malzemeden yapılmış silahlardan yapılmış keskin saldırıların hasarına etki eden bir çarpan.</SharpDamageMultiplier.description>
+  
 </LanguageData>

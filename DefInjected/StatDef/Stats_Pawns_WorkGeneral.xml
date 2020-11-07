@@ -1,31 +1,74 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<WorkSpeedGlobal.label>genel iş hızı</WorkSpeedGlobal.label>
-	<WorkSpeedGlobal.description>Bireyin herhangi bir işi yapma hızının çarpanı.</WorkSpeedGlobal.description>
-	
-	<MiningSpeed.label>madencilik hızı</MiningSpeed.label>
-	<MiningSpeed.description>Bireyin kaya kazma hızının çarpanı.</MiningSpeed.description>
-	
-	<SmoothingSpeed.label>pürüz düzeltme hızı</SmoothingSpeed.label>
-	<SmoothingSpeed.description>Bireyin zemindeki pürüzleri düzeltme hızının çarpanı.</SmoothingSpeed.description>
-	
-	<ResearchSpeed.label>araştırma hızı</ResearchSpeed.label>
-	<ResearchSpeed.description>Bu birey araştırmaları bu hızla yapar.</ResearchSpeed.description>
-	
-	<ConstructionSpeed.label>inşa hızı</ConstructionSpeed.label>
-	<ConstructionSpeed.description>Bireyin inşa ve binaları tamir hızı.</ConstructionSpeed.description>
-	
-	<PlantWorkSpeed.label>tarım işleri hızı</PlantWorkSpeed.label>
-	<PlantWorkSpeed.description>Bireyin bitkileri ekme ve hasat etme hızı.</PlantWorkSpeed.description>
-	
-	<HarvestFailChance.label>hasat başarısızlık şansı</HarvestFailChance.label>
-	<HarvestFailChance.description>Bireyin hasat etmeye çalıştığı ürünü yanlışlıkla mahvetmesi ihtimali.</HarvestFailChance.description>
-	
-	<ConstructFailChance.label>inşa başarısızlık şansı</ConstructFailChance.label>
-	<ConstructFailChance.description>Bireyin bir şey inşa ederken başarısız olup zaman ve malzeme kaybına yol açmasının ihtimali.</ConstructFailChance.description>
-    
-	<FixBrokenDownBuildingFailChance.label>tamir başarısızlık şansı</FixBrokenDownBuildingFailChance.label>
-	<FixBrokenDownBuildingFailChance.description>Bireyin yıkık bir binayı tamir ederken başarısız olması ihtimali.</FixBrokenDownBuildingFailChance.description>
-    
+  
+  <!-- EN: animal gather speed -->
+  <AnimalGatherSpeed.label>hayvansal ürün toplama hızı</AnimalGatherSpeed.label>
+  <!-- EN: The speed at which this person milks, shears, and otherwise gathers resources from animals. -->
+  <AnimalGatherSpeed.description>Bu kişinin sağma, kırpma ve diğer hayvansal ürünleri toplama hızı.</AnimalGatherSpeed.description>
+  
+  <!-- EN: animal gather yield -->
+  <AnimalGatherYield.label>hayvansal ürün toplama verimi</AnimalGatherYield.label>
+  <!-- EN: The percentage yield someone receives when they shear, milk, or otherwise gather resources from a living animal.\n\nHigher percentages reduce the chance of wasting the product. -->
+  <AnimalGatherYield.description>Birinin canlı bir hayvanı sağarak, kırparak yada başka bir şekilde kaynak elde ederken ki ürün veriminin yüzdesi.\n\nYüksek yüzdeler ürünü israf etme şansını düşürür.</AnimalGatherYield.description>
+  
+  <!-- EN: construction speed -->
+  <ConstructionSpeed.label>inşa hızı</ConstructionSpeed.label>
+  <!-- EN: The speed at which this person constructs and repairs buildings. -->
+  <ConstructionSpeed.description>Bu kişinin yapı inşa etme ve yıkma hızı.</ConstructionSpeed.description>
+  
+  <!-- EN: construct success chance -->
+  <ConstructSuccessChance.label>inşa başarı şansı</ConstructSuccessChance.label>
+  <!-- EN: The chance that this person will succeed in constructing something.\nFailing means wasting time and resources. -->
+  <ConstructSuccessChance.description>Bu kişinin bir şeyler inşa ederken başarılı olma şansı.\nBaşarısızlık, zaman ve kaynak israfı anlamına gelir.</ConstructSuccessChance.description>
+  
+  <!-- EN: deep drilling speed -->
+  <DeepDrillingSpeed.label>derin sondaj hızı</DeepDrillingSpeed.label>
+  <!-- EN: A speed at which this person uses a deep drill to extract underground resources. -->
+  <DeepDrillingSpeed.description>Bu kişinin derin sondaj makinesi kullanarak yeraltından kaynak çıkarma hızı.</DeepDrillingSpeed.description>
+  
+  <!-- EN: repair success chance -->
+  <FixBrokenDownBuildingSuccessChance.label>tamirat başarı şansı</FixBrokenDownBuildingSuccessChance.label>
+  <!-- EN: The chance that this person will successfully repair a broken down building using a component.\n\nFailing means wasting time and resources.\nNote that this only applies to repairing breakdowns, which is different from repairing damage. -->
+  <FixBrokenDownBuildingSuccessChance.description>Bu kişinin, bileşen kullanarak bozulmuş bir yapıyı tamir ederken başarılı olma şansı.\n\nBaşarısızlık, zaman ve kaynak israfı anlamına gelir.\nBunun sadece bozulmuş şeyler için geçerli olduğunu unutma, hasar tamiri bambaşka bir şey.</FixBrokenDownBuildingSuccessChance.description>
+  
+  <!-- EN: hunting stealth -->
+  <HuntingStealth.label>gizli avlanma</HuntingStealth.label>
+  <!-- EN: This stat reduces the chance of hunted animals attacking the hunter.\n\nA 0% score means no reduction.\nA 100% score means animals never attack. -->
+  <HuntingStealth.description>Bu nitelik, avlanan hayvanların avcıya saldırma şansını düşürür.\n\n%0 skor düşüş yok demektir.\n%100 skor hayvanlar asla saldırmaz demektir.</HuntingStealth.description>
+  
+  <!-- EN: mining speed -->
+  <MiningSpeed.label>madencilik hızı</MiningSpeed.label>
+  <!-- EN: A speed at which this person mines away walls. -->
+  <MiningSpeed.description>Bu kişinin duvarları kazma hızı.</MiningSpeed.description>
+  
+  <!-- EN: mining yield -->
+  <MiningYield.label>madencilik verimi</MiningYield.label>
+  <!-- EN: The percentage of mined resources a miner will produce.\n\nThis applies to both wall mining and deep drill mining.\nThis doesn't affect the production rate of rock chunks from deep drills. -->
+  <MiningYield.description>Bir madencinin kazdığı madenlerden kaynak çıkarma yüzdesi.\n\nBu, hem duvar kazmaya hemde derin sondaj madenciliğine uygulanır.\nBu, derin sondaj makinesinden kaya yığını üretimine etki etmez.</MiningYield.description>
+  
+  <!-- EN: plant harvest yield -->
+  <PlantHarvestYield.label>hasat verimi</PlantHarvestYield.label>
+  <!-- EN: The yield this person gets when harvesting plants.\n\nLow yields give a chance that this person will accidentally waste the harvest. -->
+  <PlantHarvestYield.description>Bu kişinin bitki hasat etme verimi.\n\nDüşük verim kişiye hasadı kazara israf etme şansı verir.</PlantHarvestYield.description>
+  
+  <!-- EN: plant work speed -->
+  <PlantWorkSpeed.label>tarım hızı</PlantWorkSpeed.label>
+  <!-- EN: The speed at which this person sows and harvests plants. -->
+  <PlantWorkSpeed.description>Bu kişinin bitki ekme ve hasat etme hızı.</PlantWorkSpeed.description>
+  
+  <!-- EN: research speed -->
+  <ResearchSpeed.label>araştırma hızı</ResearchSpeed.label>
+  <!-- EN: How fast this person performs research and how quickly they can find things using scanning equipment. -->
+  <ResearchSpeed.description>Bu kişi ne kadar hızlı araştırma yapıyor ve tarama yaparken ne kadar çabuk aradığı şeyleri bulabiliyor.</ResearchSpeed.description>
+  
+  <!-- EN: smoothing speed -->
+  <SmoothingSpeed.label>düzleştirme</SmoothingSpeed.label>
+  <!-- EN: A multiplier on the speed at which this person smooths rough stone floors and walls. -->
+  <SmoothingSpeed.description>Bu kişinin sert taş zeminleri ve duvarları düzleştirme hızının çarpanı.</SmoothingSpeed.description>
+  
+  <!-- EN: global work speed -->
+  <WorkSpeedGlobal.label>küresel çalışma faktörü</WorkSpeedGlobal.label>
+  <!-- EN: A multiplier on a character's speed at doing any kind of work. -->
+  <WorkSpeedGlobal.description>Karakterin herhangi bir işi yapma hızının çarpanı.</WorkSpeedGlobal.description>
+  
 </LanguageData>

@@ -1,19 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <AccuracyTouch.label>Atış kesinliği (Yakın)</AccuracyTouch.label>
-    <AccuracyTouch.description>Yakın mesafeden atış kesinliği çarpanı.</AccuracyTouch.description>
-    
-    <AccuracyShort.label>Atış kesinliği (Kısa)</AccuracyShort.label>
-    <AccuracyShort.description>Uzun mesafeden atış kesinliği çarpanı.</AccuracyShort.description>
-    
-    <AccuracyMedium.label>Atış kesinliği (Orta)</AccuracyMedium.label>
-    <AccuracyMedium.description>Orta mesafeden atış kesinliği çarpanı.</AccuracyMedium.description>
-    
-    <AccuracyLong.label>Atış kesinliği (Uzun)</AccuracyLong.label>
-    <AccuracyLong.description>Uzun mesafeden atış kesinliği çarpanı.</AccuracyLong.description>
-    
-    <RangedWeapon_Cooldown.label>Uzun mesafe bekleme süresi</RangedWeapon_Cooldown.label>
-    <RangedWeapon_Cooldown.description>Silahı ateşledikten sonra tekrar kullanım için ne kadar süre gerektiğidir.</RangedWeapon_Cooldown.description>
-    
+  
+  <!-- EN: Accuracy (long) -->
+  <AccuracyLong.label>İsabet (uzun)</AccuracyLong.label>
+  <!-- EN: The weapon's accuracy at a distance of 40 cells or more.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyLong.description>Silahın 40 hücre yada daha fazla mesafedeki isabeti.\n\nBir atışın gerçek isabet şansını etkileyen başka faktörler de vardır.</AccuracyLong.description>
+  
+  <!-- EN: Accuracy (medium) -->
+  <AccuracyMedium.label>İsabet (orta)</AccuracyMedium.label>
+  <!-- EN: The weapon's accuracy at a distance of 25 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyMedium.description>Silahın 25 hücre mesafedeki isabeti.\n\nBir atışın gerçek isabet şansını etkileyen başka faktörler de vardır.</AccuracyMedium.description>
+  
+  <!-- EN: Accuracy (short) -->
+  <AccuracyShort.label>İsabet (kısa)</AccuracyShort.label>
+  <!-- EN: The weapon's accuracy at a distance of 12 cells.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyShort.description>Silahın 12 hücre mesafedeki isabeti.\n\nBir atışın gerçek isabet şansını etkileyen başka faktörler de vardır.</AccuracyShort.description>
+  
+  <!-- EN: Accuracy (close) -->
+  <AccuracyTouch.label>İsabet (yakın)</AccuracyTouch.label>
+  <!-- EN: The weapon's accuracy at a distance of 3 cells or less.\n\nAn actual shot's chance to hit will also be affected by other factors. -->
+  <AccuracyTouch.description>Silahın 3 hücre yada daha az mesafedeki isabeti.\n\nBir atışın gerçek isabet şansını etkileyen başka faktörler de vardır.</AccuracyTouch.description>
+  
+  <!-- EN: ranged cooldown -->
+  <RangedWeapon_Cooldown.label>menzilli bekleme süresi</RangedWeapon_Cooldown.label>
+  <!-- EN: How long it takes to recover after firing this weapon. -->
+  <RangedWeapon_Cooldown.description>Bu silahın bir sonraki atış için hazır olması ne kadar sürer.</RangedWeapon_Cooldown.description>
+  <!-- EN: {0} s -->
+  <RangedWeapon_Cooldown.formatString>{0} sn</RangedWeapon_Cooldown.formatString>
+  
+  <!-- EN: damage multiplier -->
+  <RangedWeapon_DamageMultiplier.label>hasar çarpanı</RangedWeapon_DamageMultiplier.label>
+  <!-- EN: A damage multiplier applied to projectiles fired from this weapon. -->
+  <RangedWeapon_DamageMultiplier.description>Bu silahlar ateşlenen mermilere etki eden bir hasar çarpanı.</RangedWeapon_DamageMultiplier.description>
+  
 </LanguageData>

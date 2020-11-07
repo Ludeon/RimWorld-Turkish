@@ -1,16 +1,24 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <MedicalOperationSpeed.label>medikal operasyon hızı</MedicalOperationSpeed.label>
-    <MedicalOperationSpeed.description>Bireyin medikal operasyonları gerçekleştirme hızı.</MedicalOperationSpeed.description>
-    
-    <SurgerySuccessChance.label>ameliyat başarı şansı</SurgerySuccessChance.label>
-    <SurgerySuccessChance.description>Bireyin ameliyat etme denemelerinde başarılı olma şansı. Başarısızlıklar sadece vakit ve ilaç kaybına yol açabileceği gibi hastaya ağır hasar da verebilir.</SurgerySuccessChance.description>
-    
-    <BaseHealingQuality.label>temel iyileştirme kalitesi</BaseHealingQuality.label>
-    <BaseHealingQuality.description>Doktorluk görevindeyken hastalara verilen iyileştirme hizmetinin kalitesi.</BaseHealingQuality.description>
-    
-    <HealingSpeed.label>iyileştirme hızı./HealingSpeed.label>
-    <HealingSpeed.description>Doktorluk görevindeyken bireyin yaraları iyileştirme hızı.</HealingSpeed.description>
-    
+  
+  <!-- EN: medical operation speed -->
+  <MedicalOperationSpeed.label>ameliyat hızı</MedicalOperationSpeed.label>
+  <!-- EN: The speed at which the character performs medical operations. -->
+  <MedicalOperationSpeed.description>Karakterin ameliyat yapma hızı.</MedicalOperationSpeed.description>
+  
+  <!-- EN: medical surgery success chance -->
+  <MedicalSurgerySuccessChance.label>ameliyat başarı şansı</MedicalSurgerySuccessChance.label>
+  <!-- EN: The base chance that a character will succeed when performing a medical operation.\n\nThe actual success chance is also affected by factors like facilities, room cleanliness, medicine used, the difficulty of the surgery, and inspirations.\n\nNo matter how high this stat is, there is always a small chance of failure on any operation. -->
+  <MedicalSurgerySuccessChance.description>Bir karakterin ameliyat yaparken temel başarı şansı.\n\nGerçek başarı şansı tesisler, oda temizliliği, kullanılan ilaç, ameliyat zorluğu ve ilhamlar gibi birçok faktöre göre hesaplanır.\n\nBu niteliğin ne kadar yüksek olduğunun önemi yok, her ameliyatta küçükte olsa bir başarısızlık şansı vardır.</MedicalSurgerySuccessChance.description>
+  
+  <!-- EN: medical tend quality -->
+  <MedicalTendQuality.label>tedavi kalitesi</MedicalTendQuality.label>
+  <!-- EN: The base quality of tending given when tending wounds and illnesses.\n\nThe actual tend quality will also be affected by factors like medicine used, facilities, luck, and so on. -->
+  <MedicalTendQuality.description>Yaraları ve hastalıkları tedavi ederken ki temel kalite.\n\nGerçek tedavi kalitesi kullanılan ilaç, tesiser, şans vb. faktörlere göre hesaplanır.</MedicalTendQuality.description>
+  
+  <!-- EN: medical tend speed -->
+  <MedicalTendSpeed.label>tedavi hızı</MedicalTendSpeed.label>
+  <!-- EN: Speed at which the character tends to wounds and illnesses. -->
+  <MedicalTendSpeed.description>Karakterin yaraları ve hastalıkları tedavi etme hızı.</MedicalTendSpeed.description>
+  
 </LanguageData>
