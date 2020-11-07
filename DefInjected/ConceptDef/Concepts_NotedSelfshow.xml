@@ -1,111 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <LanguageData>
-	<CameraDolly.label>Kamera Hareketi</CameraDolly.label>
-	<CameraDolly.helpText>Kamerayı hareket ettirmek için MOUSE TEKERLEĞİ'ne basarak sürükle veya {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight} tuşlarını kullan.</CameraDolly.helpText>
 
-	<CameraZoom.label>Kamera Yakınlaştırma</CameraZoom.label>
-	<CameraZoom.helpText>Fare tekerleği veya {Key:MapZoomIn} ve {Key:MapZoomOut} tuşlarıyla yakınlaştırıp uzaklaştırabilirsiniz. </CameraZoom.helpText>
-	
-	<TimeControls.label>Zaman Kontrolu</TimeControls.label>
-	<TimeControls.helpText>Sağ alttaki bölmeden veya {Key:TimeSpeedNormal}, {Key:TimeSpeedFast} ve {Key:TimeSpeedSuperfast} tuşlarıyla zamanı hızlandırabilir, yavaşlatabilir, durdurabilirsin..</TimeControls.helpText>
-
-	<Pause.label>Oyunu Durdurma</Pause.label>
-	<Pause.helpText>Oyunu durdurmak için {Key:TogglePause} tuşuna bas.\n\nOyunu durdurmuşken emir verebilirsin.\n\nSakın unutma - eğer işler kötüye giderse, sadece {Key:TogglePause} tuşuna bas!!</Pause.helpText>
-
-	<Stockpiles.label>Depolama Alanı</Stockpiles.label>
-    <Stockpiles.helpText>Kolonistlerin eşyaları saklamak için bir yere ihtiyacları var. MİMAR menüsünden onların eşyalarını saklayabilmesi için bir Depolama alanı tanımlayın.</Stockpiles.helpText>
-
-    <Forbidding.label>Etkileşim</Forbidding.label>
-    <Forbidding.helpText>Kolonistler YASAKLANMIŞ itemlerle etkileşime geçmezler.\n\nİndiğin yerin yakınındaki metal ve yemeklere tıkla ardından YASAKLANMAMIŞ yapmak için F tuşuna bas.</Forbidding.helpText>
-
-    <GrowingFood.label>Ekin Bölgesi</GrowingFood.label>
-    <GrowingFood.helpText>Yiyecek yetiştirmek için, İnşa menüsünden EKİN ALANI yapmalısın.\n\nSadece ekilebilen alanlara ekin ekebilirsin.</GrowingFood.helpText>
-
-	<EquippingWeapons.label>Silah Donan</EquippingWeapons.label>
-	<EquippingWeapons.helpText>Kolonistlerin kendisini savunları için silaha ihtiyacı var.\n\ Bir kolonist seçin ve silaha sağ tıklayın, silahı donanın.</EquippingWeapons.helpText>
-
-  <Alerts.label>Alarm</Alerts.label>
-  <Alerts.helpText>Ekranın sağ tarafındaki alarmlar size dikkat edilmesi gereken önemli olayları gösterecektir!</Alerts.helpText>
+  <!-- EN: Alerts -->
+  <Alerts.label>Alarmlar</Alerts.label>
+  <!-- EN: The alerts at the right edge of the screen tell you about issues that need your attention.\n\nKeep an eye on the alerts. -->
+  <Alerts.helpText>Ekranın sağ tarafındaki alarmlar size dikkat edilmesi gereken önemli olayları gösterecektir.\n\nGözün alarmlarda olsun!</Alerts.helpText>
   
-  <Mining.label>Kazı</Mining.label>
-  <Mining.helpText>Kazmak istediğiniz yeri İNŞA menüsünden EMİRLER bölümüne girerek oradan KAZ emrini seçerek kazabilirsin.\n\nKazılabilen bloklardan ÇELİK, ALTIN vb. materyaller elde edersin.</Mining.helpText>
+  <!-- EN: Allowed areas -->
+  <AllowedAreas.label>İzinli bölgeler</AllowedAreas.label>
+  <!-- EN: Colonists and colony animals can be assigned to ALLOWED AREAS. This forbids them from taking destinations outside their allowed area.\n\nThis can be used to, for example, forbid colonists from going outside.\n\nYou can create multiple allowed areas and assign them to different colonists and animals.\n\nCreate, delete, and assign allowed areas in the RESTRICT tab.\n\nPaint allowed areas onto the map using the EXPAND ALLOWED AREA and CLEAR ALLOWED AREA designators in the Architect tab. -->
+  <AllowedAreas.helpText>Kolonistlerini ve koloni hayvanlarını İZİNLİ BÖLGELERE atayabilirsin. Bu, bu alanın dışına çıkmalarını yasaklar.\n\nÖrneğin, kolonistlerinin dışarı çıkmasını yasaklayabilirsin.\n\nBirden fazla izinli bölge oluşturabilir ve bunlara farklı kolonist ve hayvan atayabilirsin.\n\nKISITLAMA sekmesinden izinli bölge oluşturabilir, silebilir ve kolonist atayabilirsin.\n\nMimari sekmesinden İZİNLİ BÖLGEYİ GENİŞLET ve İZİNLİ BÖLGEYİ DARALT seçeneklerini kullanabilirsin.</AllowedAreas.helpText>
   
-  <WorkTab.label>Çalışma Sekmesi</WorkTab.label>
-  <WorkTab.helpText>Kolonistlerin iş önceliğini ÇALIŞMA sekmesinden ayarlayabilirsin.</WorkTab.helpText>
-
-  <ForbiddingDoors.label>Kapıları Yasaklamak</ForbiddingDoors.label>
-  <ForbiddingDoors.helpText>Kapılara girişi yasaklayarak hayvanların ve kolonistlerin girmesini engelleyebilirsin.</ForbiddingDoors.helpText>
-
-  <CoverAndShooting.label>Siper Almak</CoverAndShooting.label>
-  <CoverAndShooting.helpText>Uzun menzilli silahta en iyi örtü. Kolonistlerinizi kum torbası ,ağaç , yığıntıların arkasına siper aldırabilir hasar almalarını engelleyebilirsiniz.</CoverAndShooting.helpText>
+  <!-- EN: Animal taming -->
+  <AnimalTaming.label>Hayvan evcilleştirme</AnimalTaming.label>
+  <!-- EN: You can assign colonists to tame a wild animal with the TAME designator.\n\nColonists will offer the animal food and attempt to tame it.\n\nBeware: Some animals can respond violently to failed taming attempts. -->
+  <AnimalTaming.helpText>Kolonistlerine evcilleştirme emri vererek vahşi hayvanları evcilleştirebilirsin.\n\nKolonistler hayvanlara yemek vererek onları evcilleştirmeye çalışır.\n\nDikkat: Bazı hayvanlar başarısız girişimlerde saldırgan bir tutum sergileyebilir.</AnimalTaming.helpText>
   
-  <FormCaravan.label>Kervan Oluştur</FormCaravan.label>
-  <FormCaravan.helpText>Gezegende seyehat etmek için kervan oluşturabilirsiniz!\n\nDünya üzerinde kolonninize tıklayıp kervanı oluşturabilirsiniz.</FormCaravan.helpText>
+  <!-- EN: Animal training -->
+  <AnimalTraining.label>Hayvan eğitme</AnimalTraining.label>
+  <!-- EN: You can assign a tame animal to be trained in specific skills on its TRAINING tab.\n\nAnimals can't be trained continuously; they need time between training sessions. -->
+  <AnimalTraining.helpText>Koloni hayvanlarını EĞİTİM sekmesinden eğitebilirsin.\n\nHayvanlar sürekli eğitilemez; eğitimlerden sonra biraz ara vermeliler.</AnimalTraining.helpText>
   
-  <AnimalTaming.label>Hayvan Evcilleştirme</AnimalTaming.label>
-  <AnimalTaming.helpText>Hayvanlara çiğ et vererek onları evcilleştirmeye çalışabilirsin.</AnimalTaming.helpText>
+  <!-- EN: Camera dolly -->
+  <CameraDolly.label>Kamera hareketi</CameraDolly.label>
+  <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
+  <CameraDolly.helpText>Kamerayı hareket ettirmek için MOUSE TEKERLEĞİ'ne basarak sürükle veya {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight} tuşlarını kullan.</CameraDolly.helpText>
   
-  <AnimalTraining.label>Evcil Hayvanı Geliştirme</AnimalTraining.label>
-  <AnimalTraining.helpText>Hayvanın üstüne tıklayarak geliştirmek istediğin özelliği seçmen yeterli.</AnimalTraining.helpText>
+  <!-- EN: Camera zoom -->
+  <CameraZoom.label>Kamera yakınlaştırma</CameraZoom.label>
+  <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
+  <CameraZoom.helpText>FARE TEKERLEĞİ veya {Key:MapZoomIn} ve {Key:MapZoomOut} tuşlarıyla ekrana yakınlaşıp uzaklaşabilirsin.</CameraZoom.helpText>
   
-  <InfoCard.label>Bilgi Kartı</InfoCard.label>
-  <InfoCard.helpText>Her konuda, her kişinin veya her tasarım ile ilgili ayrıntılı istatistikleri gösterir. \n\n yi seçin, bir kişi ya da bir nesnenin görünüm sayfasındaki 'i' düğmesi ile bilgi kartını açın.</InfoCard.helpText>
-
-  <StorageTab.label>Hammadde stoğu</StorageTab.label>
-  <StorageTab.helpText>Hammadde stoğuna ve depolara koyulacak eşyaları DEPO bölümünden ayarlayabilirsin</StorageTab.helpText>
-
+  <!-- EN: Clicking messages -->
+  <ClickingMessages.label>Mesaja tıklama</ClickingMessages.label>
+  <!-- EN: You can click on the notifications in the top-left of the screen to instantly center the camera on their subject. -->
+  <ClickingMessages.helpText>Ekranın sağ-üst köşesindeki bildirimlere tıklayarak ekranı olayın gerçekleştiği yere ortalayabilirsin.</ClickingMessages.helpText>
+  
+  <!-- EN: Cover and shooting -->
+  <CoverAndShooting.label>Siper alma ve ateş etme</CoverAndShooting.label>
+  <!-- EN: The most important thing to do in ranged combat is to use cover.\n\nCover only works if your colonist is touching it, and it is between your colonist and the enemy.\n\nYou can also place colonists behind wall corners. They will lean out to shoot.\n\nMost things can be used as cover, but some things are better than others. Hiding behind a tree is better than nothing, but hiding behind sandbags is better than using a tree. -->
+  <CoverAndShooting.helpText>Uzun menzilli silahlardaki en önemli şey siperdir.\n\nSiper sadece kolonist arkasındaysa ve düşmanla kolonist arasındaysa işe yarar.\n\nAyrıca kolonistleri duvar köşelerinede konumlandırabilirsin. Ateş etmek için duvarın yanına geçip ardından hemen ardından korunmak için duvarın arkasına geçerler.\n\n. Çoğu şey siper olarak kullanılabilir, ama bazıları diğerlerinden iyi. Ağacın arkasına saklanmak hiç yoktan iyi, fakat kum torbasının arkasına saklanmak ağacın arkasına saklanmaktan kat kat daha iyi.</CoverAndShooting.helpText>
+  
+  <!-- EN: Item deterioration -->
+  <Deterioration.label>Eşyaların hasar görmesi</Deterioration.label>
+  <!-- EN: Items left outdoors will slowly deteriorate.\n\nIf you want to store items long-term, keep them in a roofed room. -->
+  <Deterioration.helpText>Dışarda duran eşyalar yavaş yavaş hasar alır.\n\nEğer uzun süre dayanmalarını istiyorsan, çatılı bir alanda saklamayı dene.</Deterioration.helpText>
+  
+  <!-- EN: Equipping weapons -->
+  <EquippingWeapons.label>Silah donanma</EquippingWeapons.label>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
+  <EquippingWeapons.helpText>Kolonistlerin yanlarında birkaç silahla geldiler. Donan!\n\nHer bir koloniste tek tek sağ-tıkla ve donanmalarını istediğin silahı seç.</EquippingWeapons.helpText>
+  
+  <!-- EN: Fire preparation -->
+  <FirePreparation.label>Yangın için hazırlık</FirePreparation.label>
+  <!-- EN: Fires can easily burn down a colony. To defeat them, you must prepare before they happen.\n\nThese design elements can help reduce the damage from fires:\n\n1. Instead of constructing one super-building, build separate buildings with spaces in between.\n\n2. Use less flammable materials. Wood is cheap and fast - but very flammable.\n\n3. Build firebreaks to stop wildfires approaching your base. A strip of concrete floor 3 or 4 cells wide will generally stop an advancing fire. -->
+  <FirePreparation.helpText>Ateş kolayca bir bütün koloniyi yakabilir. Bunu önlemek için, kendini hazırlamak zorundasın.\n\nŞunlar hasarı düşürmene yardımcı olabilir:\n\n1. Büyük tek bir yapılanma yerine ayrık ayrık yapılanma.\n\n2. Yanıcılığı az olan malzemeler kullan. Odun ucuz ve hızlı - ama aşırı yanıcı\n\n3. Orman yangınlarının yayılmasını engellemek için yangın kırıcı inşa et. 3-4 hücre genişliğindeki beton bir yapı genellikle yangını durdurmaya yeter.</FirePreparation.helpText>
+  
+  <!-- EN: Forbid and allow -->
+  <Forbidding.label>Yasaklama ve izin verme</Forbidding.label>
+  <!-- EN: Colonists will not interact with items marked FORBIDDEN.\n\nForbidden items have a small red X attached. Select a forbidden item and use the controls at the bottom to ALLOW it. -->
+  <Forbidding.helpText>Kolonistler YASAKLI eşyalarla etkileşim kuramazlar.\n\nYasaklı eşyalar küçük bir kırmızı X eklidir. Yasaklı bir eşyayı aşağıdaki menüden İZİN VER tuşuna tıklayarak yasağını kaldırabilirsin.</Forbidding.helpText>
+  
+  <!-- EN: Forbidding doors -->
+  <ForbiddingDoors.label>Kapı yasaklama</ForbiddingDoors.label>
+  <!-- EN: You can FORBID doors so colonists and tame animals won't go through them.\n\nNote that this isn't a door lock. Doors are always locked, so enemies can't pass freely. Forbidding just directs your colonists not to use the door. Colonists who are going crazy might use the door anyway. -->
+  <ForbiddingDoors.helpText>Kapılara girişi yasaklayarak hayvanların ve kolonistlerin girmesini engelleyebilirsin.\n\nBunun bir kilit olmadığını unutma. Kapılar, düşmanlar kendi evi gibi gezmesin diye her zaman kitli. Yasaklamak, kolonistlerinin kullanmasını engeller. Tabii ki deliler hariç.</ForbiddingDoors.helpText>
+  
+  <!-- EN: Forming caravans -->
+  <FormCaravan.label>Kervan kurma</FormCaravan.label>
+  <!-- EN: You can form a caravan to send groups of people traveling across the planet!\n\nIn the WORLD tab, select your home base and click the "form caravan" button. -->
+  <FormCaravan.helpText>Gezegende seyahat etmek için kervan oluşturabilirsin!\n\nDÜNYA sekmesinden, koloninize tıklayıp "kervan kur" tuşuna tıklayarak kervan kurabilirsin.</FormCaravan.helpText>
+  
+  <!-- EN: Friendly fire safety -->
+  <FriendlyFireSafety.label>Güvenli dost ateşi</FriendlyFireSafety.label>
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <FriendlyFireSafety.helpText>Nişancın müttefiklerine yakınsa onlara asla ateş etmez.\n\nÖrneğin, bir kılıç kullanabilen kolonisti direkt olarak silah kullanan birinin önüne koyabilirsiniz. Nişancı, arkadaşının omuzunun üstünden ateş eder.\n\nBu menzilli ve menzilsiz savaşçıları kombine etmenin harika bir yolu.</FriendlyFireSafety.helpText>
+  
+  <!-- EN: Getting more traders -->
+  <GettingMoreTraders.label>Daha fazla tüccar</GettingMoreTraders.label>
+  <!-- EN: More trader caravans will come to visit you if you're allied with more factions.\n\nIf you have no allies, no caravans will ever visit!\n\nYou can also pay allies to send trade caravans by calling them on the comms console. -->
+  <GettingMoreTraders.helpText>Eğer daha fazla müttefiğin olursa kolonini ziyaret eden kervan sayısıda artacaktır.\n\nEğer müttefiğin yoksa, hiç kervan gelmez!\n\nBunun dışında müttefiklerini arayıp onlardan parasını ödeyerek kervan göndermelerini isteyebilirsin.</GettingMoreTraders.helpText>
+  
+  <!-- EN: Growing zones -->
+  <GrowingFood.label>Tarlalar</GrowingFood.label>
+  <!-- EN: To grow food, place GROWING ZONES using the Architect menu.\n\nThey can only be placed on fertile ground. -->
+  <GrowingFood.helpText>Yiyecek yetiştirmek için, Mimari sekmesinden TARLA yapmalısın.\n\nSadece ekilebilen alanlara ekin ekebilirsin.</GrowingFood.helpText>
+  
+  <!-- EN: History tab -->
+  <HistoryTab.label>Tarih sekmesi</HistoryTab.label>
+  <!-- EN: You can see a record of your colony's fortunes over time in the HISTORY tab at the bottom of the screen. -->
+  <HistoryTab.helpText>Koloninin şu ana kadar yaptığı şeyleri TARİH sekmesinden görebilirsin.</HistoryTab.helpText>
+  
+  <!-- EN: Home area -->
   <HomeArea.label>Ev bölgesi</HomeArea.label>
-  <HomeArea.helpText>EV BÖLGESİN'nin olduğu yerler kolonistinin temizleyeceği ve yangını söndüreceği yerlerdir.\n\nEV BÖLGESİ belirlemek için İnşa menüsünden Bölge bölümüne gir.</HomeArea.helpText>
-
-  <SpoilageAndFreezers.label>Çürüme ve Dondurma</SpoilageAndFreezers.label>
-  <SpoilageAndFreezers.helpText>Yiyeceklerin çoğu nispeten kısa bir süre sonra bozulabilir. Bunu engellemek için kapalı bir odaya soğutucu koy ve derecesini düşür, yiyecekleri orada stokla.</SpoilageAndFreezers.helpText>
+  <!-- EN: The HOME AREA tells your colonists which area to clean and where to extinguish fires.\n\nDefine the HOME AREA with the Zones category under the Architect menu. -->
+  <HomeArea.helpText>EV BÖLGESİ kolonistlerinin temizleyeceği ve içerisinde oluşan yangınların söndürüleceği alandır.\n\nEV BÖLGESİ belirlemek için Mimari sekmesinden Alan bölümüne gir.</HomeArea.helpText>
   
-  <Deterioration.label>Gıdaların Çürümesi</Deterioration.label>
-  <Deterioration.helpText>Gıdalar yavaş yavaş bozulmaya varacaktır.\n\nEğer bozulmasını engellemek istiyorsanız soğuk bir oda yapıp gıdaları orada saklayın.</Deterioration.helpText>
+  <!-- EN: Hostility response modes -->
+  <HostilityResponse.label>Düşmana verilen tepki</HostilityResponse.label>
+  <!-- EN: You can configure how colonists should automatically respond to threats like predatory animals.\n\nChoose from FLEE, ATTACK, and IGNORE modes in the ASSIGN menu. -->
+  <HostilityResponse.helpText>Yırtıcı hayvanlar gibi tehlikeler karşısında kolonistlerinin tepkisinin ne olacağını ayarlayabilirsin.\n\nATAMA sekmesinden KAÇ, SALDIR ve GÖRMEZDEN GEL gibi seçenekler seçilebilir.</HostilityResponse.helpText>
   
-  <HostilityResponse.label>Düşmanlık Yanıtı</HostilityResponse.label>
-  <HostilityResponse.helpText>Düşmanlık Yanıtı</HostilityResponse.helpText>
+  <!-- EN: Info card -->
+  <InfoCard.label>Bilgi kardı</InfoCard.label>
+  <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
+  <InfoCard.helpText>Bilgi kardı herhangi bir eşyanın, yapının yada kişiyle ilgili detaylı istatistik sağlar. \n\nBir şeyle ilgili detaylı bilgiye ihtiyaç duyuyorsan 'i' butonuna tıklayarak ihtiyacını giderebilirsin :) .</InfoCard.helpText>
   
-  <AllowedAreas.label>İzin Verilen Bölgeler</AllowedAreas.label>
-  <AllowedAreas.helpText>Koloniler için geçişe izin verilen bölgeleri ayarlayabilirsin. Bunun için alt tarafta İZİN VERİLEN BÖLGELER sekmesine git. </AllowedAreas.helpText>
+  <!-- EN: Room stats inspector -->
+  <InspectRoomStats.label>Oda istatistikleri</InspectRoomStats.label>
+  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
+  <InspectRoomStats.helpText>Ekranın sağ alt tarafında bulunan ODA ÖZELLİKLERİ ne tıklayarak odanın güzelliğini, etkileyiciliğini ve zenginliğini inceleyebilirsin.</InspectRoomStats.helpText>
   
+  <!-- EN: Manual work priorities -->
+  <ManualWorkPriorities.label>Manuel iş önceliklendirme</ManualWorkPriorities.label>
+  <!-- EN: One of the most important parts of RimWorld is choosing good work settings for your colonists.\n\nPoor work settings can leave essential work unfinished for a long time while colonists waste time on unimportant tasks.\n\nTo give more control over what work colonists do, you can use the Manual Priorities mode in the WORK tab.\n\nIn this mode, each colonist has a priority number for each work type. Colonists will do priority 1 work from left to right, then priority 2 work from left to right, and so on.\n\nIntelligent use of these setting is essential for a large, well-automated colony. -->
+  <ManualWorkPriorities.helpText>RimWorld'ün en önemli kısımlarından biri, kolonicilerinizin iş önceliğini ayarlamaktır.\n\nKötü ayarlarda önemli işler yarım kalabilir ve kolonistlerin önemsiz işlerde çok zaman harcayabilir.\n\nKolonistlerine olan kontrolünü arttırmak için, İŞ sekmesinden Manuel Öncelik modunu kullanabilirsin.\n\nBu modda, her kolonistin her iş tipi için önceliğini belirten numarası vardır. Kolonistleriniz soldan sağa doğru 1'den başlayarak işlerini yaparlar.\n\nBu ayarlar büyük kolonilerde çok önemlidir. Bunu akıllıca kullan ve koloninin otomasyonunu arttır.</ManualWorkPriorities.helpText>
+  
+  <!-- EN: Medical operations -->
   <MedicalOperations.label>Tıbbi işlemler</MedicalOperations.label>
-  <MedicalOperations.helpText>Tıbbi bir operasyon yapmak için, organ almak, protez takmak gibi, kolonistin SAĞLIK bölümünü aç ve OPERASYON bölümüne seç.</MedicalOperations.helpText>
+  <!-- EN: To assign a medical operation, like organ harvesting or prosthetics installation, open a colonist's HEALTH tab, then switch to the OPERATIONS sub-tab. -->
+  <MedicalOperations.helpText>Organ alma, protez takma gibi tıbbi operasyonları yapmak için, kolonistinin SAĞLIK sekmesini aç ve OPERASYON bölümünü seç.</MedicalOperations.helpText>
   
-  <TimeAssignments.label>Zaman Atamaları</TimeAssignments.label>
-  <TimeAssignments.helpText>Sağ taraftan zamanı istediğin gibi ayarlayabilirsin.</TimeAssignments.helpText>
-
-  <ManualWorkPriorities.label>Manuel Çalışma Önceliklendirme</ManualWorkPriorities.label>
-  <ManualWorkPriorities.helpText>RimWorld en önemli parçalarından biri, Kolonicilerin için en iyi iş önceliğini belirlemektir.İş sekmesinde istediğin koloninin istediğin işe hangi ölçüde öncelik vericeğini ayarlayabilirsin</ManualWorkPriorities.helpText>
+  <!-- EN: Mining -->
+  <Mining.label>Kazı</Mining.label>
+  <!-- EN: You can designate where to mine by opening the ARCHITECT menu and selecting the ORDERS tab.\n\nSome mineable blocks yield STEEL, GOLD, PLASTEEL, and other useful materials. -->
+  <Mining.helpText>Kazmak istediğin yeri işaretlemek için MİMARİ menüsünden EMİRLER sekmesini seç.\n\nBazı kazımlarda ÇELİK, ALTIN, PLAÇELİK gibi kullanışlı materyaller elde edersin.</Mining.helpText>
   
-  <GettingMoreTraders.label>Daha Fazla Tüccar</GettingMoreTraders.label>
-  <GettingMoreTraders.helpText>Daha fazla müttefik elde ederek veya mevcut olanlarla daha iyi geçinerek bunu arttırabilirsin.</GettingMoreTraders.helpText>
-  
-  <InspectRoomStats.label>Oda İstatistikleri</InspectRoomStats.label>
-  <InspectRoomStats.helpText>Ekranın sağ alt tarafında bulunan ALAN ÖZELLİKLERİ ne tıklayarak mevcut özelliğini inceleyebilirsin.</InspectRoomStats.helpText>
-  
+  <!-- EN: Outfits -->
   <Outfits.label>Kıyafetler</Outfits.label>
-  <Outfits.helpText>Kolonilerin her zaman mevcut en iyi kıyafeti giyerler ancak bunu istersen giymesini istediğin kıyafete sağ tıklayıp donanarak kendinde ayarlayabilirsin</Outfits.helpText>
+  <!-- EN: Colonists will automatically try to wear the newest, highest-quality apparel they can.\n\nYou don't need to manually assign each piece of apparel to colonists (though you can, if you wish).\n\nTo assign colonists restrictions on how to dress, open the ASSIGN tab, use the "Manage outfits" dialog box to design a new outfit, and then assign the outfit to colonists. -->
+  <Outfits.helpText>Kolonistler otomatik olarak yeni ve kaliteli kıyafetleri giyerler.\n\nKıyafetleri elle atamana gerek yok (tabii ki istersen yapabilirsin).\n\nKolonistlerinin giyimini ayarlamak için, ATAMA menüsünü aç, "Kıyafetleri yönet" kutucuğundan ne giymelerini istediğini ayarlayabilirsin.</Outfits.helpText>
   
-  <FirePreparation.label>Yangın İçin Hazırlık</FirePreparation.label>
-  <FirePreparation.helpText>Ateş kolayca bir bütün koloniyi yakabilir. Bunu önlemek için, kendinizi hazırlamak zorundasınız.
-  \n1. Büyük tek bir yapılanma yerine ayrık ayrık yapılanma.
-  \n2. Yanıcı olmayan malzemeler kullanmak: ahşap gibi.
-  </FirePreparation.helpText>
-
-  <HistoryTab.label>Geçmiş Sekmesi</HistoryTab.label>
-  <HistoryTab.helpText>GENEL penceresinin GEÇMİŞ sekmesinde zamanla koloninin kayıtlarını görebilirsiniz.</HistoryTab.helpText>
-
-  <ClickingMessages.label>Mesaja Tıklama</ClickingMessages.label>
-  <ClickingMessages.helpText>Uygun konuya hemen kamerayı ortalamak mesaja sol tıklayabilirsin.</ClickingMessages.helpText>
-
-  <ShotAccuracyTooltip.label>Atış Hassasiyeti</ShotAccuracyTooltip.label>
-  <ShotAccuracyTooltip.helpText>Atış Hassasiyeti hedefe vuruş ihtimali için önemlidir.</ShotAccuracyTooltip.helpText>
+  <!-- EN: Pausing -->
+  <Pause.label>Oyunu durdurma</Pause.label>
+  <!-- EN: Hit {Key:TogglePause} to pause or unpause the game.\n\nYou can give orders while paused.\n\nRemember this - if things get hectic, just hit {Key:TogglePause}! -->
+  <Pause.helpText>Oyunu durdurmak yada devam ettirmek için {Key:TogglePause} tuşuna bas.\n\nOyunu durdurduğun sırada emir verebilirsin.\n\nSakın unutma - eğer işler kötüye giderse, sadece {Key:TogglePause} tuşuna bas!</Pause.helpText>
   
-  <FriendlyFireSafety.label>Güvenli Dost Ateşi</FriendlyFireSafety.label>
-  <FriendlyFireSafety.helpText>Nişancın müttefiklerine yakınsa onlara asla eteş etmez.\n\nÖrneğin, bir kılıç kullanabilen kolonisti direkt olarak silah kullanan birinin önüne koyabilirsiniz. Nişancı, omuzunun üstünden vurur.\n\nYakın vurucu ile uzaktan vurucuyu kombinlemenin iyi yolu.</FriendlyFireSafety.helpText>
-
-
-
+  <!-- EN: Shot accuracy tooltip -->
+  <ShotAccuracyTooltip.label>İsabet hassasiyeti</ShotAccuracyTooltip.label>
+  <!-- EN: You can see the exact calculations behind the accuracy of any shot.\n\nTo do so, select the shooter, then rest the mouse over the target. The tooltip will show the chance to hit, and a breakdown of the contribution of various to-hit chance multipliers. -->
+  <ShotAccuracyTooltip.helpText>Yapılan her atışın isabet şansını görebilirsin.\n\nBunu yapmak için, nişancıyı seç, ardından fareyi hedefe götür. Çubukta isabet şansısı, ve çeşitli çarpanlar görebilirsin.</ShotAccuracyTooltip.helpText>
+  
+  <!-- EN: Spoilage and freezers -->
+  <SpoilageAndFreezers.label>Bozulma ve donma</SpoilageAndFreezers.label>
+  <!-- EN: Most foodstuffs will spoil after a relatively short time.\n\nTo prevent this, you can build a walk-in freezer.\n\nTo build a freezer, construct a closed room, and put one or two coolers into the wall. Set the coolers to a negative target temperature.\n\nFrozen foods won't ever spoil. -->
+  <SpoilageAndFreezers.helpText>Yiyeceklerin çoğu nispeten kısa bir süre sonra bozulabilir.\n\nBunu engellemek için, soğutucu yapabilirsin.\n\nSoğutucu yapmak için, kapalı bir oda inşa et, ve duvara bir iki klima koy. Klimaların hedef sıcaklığını 0'ın altına düşür.\n\nDonmuş yiyecekler asla çürümez.</SpoilageAndFreezers.helpText>
+  
+  <!-- EN: Stockpiles -->
+  <Stockpiles.label>Stok</Stockpiles.label>
+  <!-- EN: Your colonists need somewhere to store items. Designate a STOCKPILE for them to store things.\n\nFind the stockpile in the ZONES section of the ARCHITECT menu in the lower-left. -->
+  <Stockpiles.helpText>Kolonistlerinin eşyaları depolaması gerekiyor. Eşyaları depolamaları için bir STOK tanımla.\n\nStokları MİMARİ menüsünden ALANLAR sekmesinde bulabilirsin.</Stockpiles.helpText>
+  
+  <!-- EN: Storage tab -->
+  <StorageTab.label>Depolama sekmesi</StorageTab.label>
+  <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
+  <StorageTab.helpText>Stokları ve depo yapılarını DEPOLAMA SEKMESİ içerisinden inceleyebilirsin.\n\nDepolama sekmesinden stoklara koyulacak eşyaları ayarlayabilir yada stoğu genişletebilirsin.\n\nBunun dışında depoların ÖNCELİĞİNİ ayarlayabilirsin. Kolonistler depoları önceliklerine göre doldurur.</StorageTab.helpText>
+  
+  <!-- EN: Time assignments -->
+  <TimeAssignments.label>Zaman atamaları</TimeAssignments.label>
+  <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
+  <TimeAssignments.helpText>Kolonistlerinin ne zaman ne yapacağını ATAMA sekmesinden ayarlayabilirsin.</TimeAssignments.helpText>
+  
+  <!-- EN: Time controls -->
+  <TimeControls.label>Zaman kontrolü</TimeControls.label>
+  <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
+  <TimeControls.helpText>Zamanı hızlandırabilirsin.\n\nZamanı {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, {Key:TimeSpeed_Superfast} tuşlarıyla yada sağ alttan kontrol edebelirsin.</TimeControls.helpText>
+  
+  <!-- EN: Work settings -->
+  <WorkTab.label>Çalışma ayarlamaları</WorkTab.label>
+  <!-- EN: You can set each colonist's work settings in the WORK tab at the bottom left of the screen.\n\nThey will always do the highest priority work that they can find.\n\nIf nobody has a certain work type assigned, or if they are busy with higher-priority tasks, it will never get done. -->
+  <WorkTab.helpText>İŞ menüsünden kolonistlerinin hangi işte çalışacağını ayarlayabilirsin.\n\nKolonistler bulabildikleri en yüksek öncelikteki işleri yapmaya çalışırlar.\n\nEğer belirli bir iş düzenleri yoksa, yada yüksek öncelikli işlerle meşgullarsa, işler asla bitmez.</WorkTab.helpText>
+  
  </LanguageData>

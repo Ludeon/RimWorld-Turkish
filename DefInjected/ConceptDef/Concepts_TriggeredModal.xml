@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <TradeGoodsMustBeNearBeacon.label>Eşya Ticareti ve Ticaret Sinyali</TradeGoodsMustBeNearBeacon.label>
-  <TradeGoodsMustBeNearBeacon.helpTexts.0>Eşyaları veya gümüşü yörüngesel tüccarlara göndermek için,Yörüngesel Tİcaret Sinyali kurmalısın ve eşyaların stok alanına yakın yerleştirmelisin.</TradeGoodsMustBeNearBeacon.helpTexts.0>
-  
-  <ArrestingCreatesEnemies.label>Birini Tutuklama ve Gruplararası İlişkiler</ArrestingCreatesEnemies.label>
-  <ArrestingCreatesEnemies.helpTexts.0>Uyarı:Tutuklamaya çalıştığın kişi çokta oralı olmak istemeyebilir.\n\nEğer koloninden olmayan birini yakalarsan,onların bütün kolonileri düşmanın olucaktır.</ArrestingCreatesEnemies.helpTexts.0>
- 
-  <SwitchFlickingDesignation.label>Güç Kontroloru</SwitchFlickingDesignation.label> 
-  <SwitchFlickingDesignation.helpTexts.0>Not:Bu sadece bir kolonistin düğmeleri açıp kapatmasını sağlar.\n\nAç-kapa çalışması olan bir kolonistin gelip ve anahtarı açıp-kapatıncaya kadar hiçbir şey olmayacaktır.</SwitchFlickingDesignation.helpTexts.0>
-  
-  <MaxNumberOfPlayerHomes.label>Oynanabilecek Maksimum Koloni Sayısı</MaxNumberOfPlayerHomes.label>
-  <MaxNumberOfPlayerHomes.helpText>Uyarı: RimWorld tek seferde bir oyuncu kolonisi ile çalışacak şekilde tasarlanmıştır. Başka kolonilere sahip olmak mümkün olsa da,bu muhtemelen performans yavaşlamalarına ve oyun dengesizliklerine neden olacaktır. Başlangıç olarak maksimum 1 koloni ile oynamanızı öneriyoruz.</MaxNumberOfPlayerHomes.helpText>
 
+  <!-- EN: Arresting worsens faction relations -->
+  <ArrestingCreatesEnemies.label>Tutuklama fraksiyonlar arası ilişkiyi geriletir</ArrestingCreatesEnemies.label>
+  <!-- EN: Warning: The person you are trying to arrest may not go quietly.\n\nIf you arrest a non-colonist or a colonist from another faction, their entire faction may become your enemy. \n\nThis arrest has a {0} chance of succeeding, based on the social skill of the arrester. -->
+  <ArrestingCreatesEnemies.helpText>Dikkat: Tutuklamaya çalıştığın kişi sessiz kalmayabilir.\n\nKoloninden olmayan birini tutuklamaya çalışırsan, o kişinin fraksiyonu düşmanın olabilir.\n\nBu tutuklamada {0} başarılı olma şansın var, bu tutuklayanın sosyal yeteneklerine bağlıdır.</ArrestingCreatesEnemies.helpText>
+  
+  <!-- EN: Maximum number of player colonies -->
+  <MaxNumberOfPlayerSettlements.label>Maksimum koloni sayısı</MaxNumberOfPlayerSettlements.label>
+  <!-- EN: Warning: RimWorld is designed to be played with one player colony at a time. Multiple player colonies are allowed as an experimental testing feature only.\n\nPlaying with multiple colonies will cause gameplay imbalances and split your focus, as well as likely causing performance slowdowns.\n\nWe recommend that you play with the one-colony maximum the game was designed for, at least for your first few games. -->
+  <MaxNumberOfPlayerSettlements.helpText>Dikkat: RimWorld aynı anda sadece bir koloni ile oynanacak şekilde tasarlanmıştır. Çoklu koloninin hala deneysel olduğunu unutma.\n\nBirden fazla koloniyle oynamak koloniler arasındaki dengeyi sağlamayı zorlaştırır ve performansa olumsuz etki eder.\n\nTek koloniyle oynamanı tavsiye ediyoruz, en azından oyunda ustalaşana kadar.</MaxNumberOfPlayerSettlements.helpText>
+  
+  <!-- EN: Flick designations only designate -->
+  <SwitchFlickingDesignation.label>Şalterle güç kontrolü</SwitchFlickingDesignation.label>
+  <!-- EN: Note: This only designates that a colonist should flick the switch.\n\nNothing will actually happen until a colonist comes and flicks the switch by hand. -->
+  <SwitchFlickingDesignation.helpText>Not: Bunun için kolonistin şalteri indirmesi gerekir.\n\nBir kolonist gelip şalteri indirene kadar hiçbir şey değişmez.</SwitchFlickingDesignation.helpText>
+  
+  <!-- EN: Trade goods and trade beacons -->
+  <TradeGoodsMustBeNearBeacon.label>Ticari mallar ve ticaret feneri</TradeGoodsMustBeNearBeacon.label>
+  <!-- EN: To send items or silver to orbital traders, you must build an ORBITAL TRADE BEACON and place a stockpile of items near it. -->
+  <TradeGoodsMustBeNearBeacon.helpText>Yörüngesel tüccarlara eşya yada gümüş göndermek için, stok yanına bir YÖRÜNGESEL TİCARET FENERİ inşa etmelisin.</TradeGoodsMustBeNearBeacon.helpText>
+  
+  <!-- EN: Trading permit requirements -->
+  <TradingRequiresPermit.label>Ticari gereksinimler</TradingRequiresPermit.label>
+  <!-- EN: Trading here requires the title of {0}.\n\nEnsure any trade caravan you send has someone with the title of {0} or higher. -->
+  <TradingRequiresPermit.helpText>Burda ticaret yapmak {0} ünvanını gerektirir.\n\nKervanlarında en az {0} ünvanına sahip biri olduğundan emin ol.</TradingRequiresPermit.helpText>
   
 </LanguageData>

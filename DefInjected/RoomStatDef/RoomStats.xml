@@ -1,65 +1,112 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-	
-	<Impressiveness.label>Etkileyicilik</Impressiveness.label>
-	<Impressiveness.scoreStages.0.label>Korkunç</Impressiveness.scoreStages.0.label>
-	<Impressiveness.scoreStages.1.label>İğrenç</Impressiveness.scoreStages.1.label>
-	<Impressiveness.scoreStages.2.label>Vasat</Impressiveness.scoreStages.2.label>
-	<Impressiveness.scoreStages.3.label>İyi</Impressiveness.scoreStages.3.label>
-	<Impressiveness.scoreStages.4.label>Biraz etkileyici</Impressiveness.scoreStages.4.label>
-	<Impressiveness.scoreStages.5.label>Etkileyici</Impressiveness.scoreStages.5.label>
-	<Impressiveness.scoreStages.6.label>Çok Etkileyici</Impressiveness.scoreStages.6.label>
-	<Impressiveness.scoreStages.7.label>Son derece etkileyici</Impressiveness.scoreStages.7.label>
-	<Impressiveness.scoreStages.8.label>İnanılmaz</Impressiveness.scoreStages.8.label>
-	<Impressiveness.scoreStages.9.label>Süper</Impressiveness.scoreStages.9.label>
-	<Impressiveness.scoreStages.10.label>Harika</Impressiveness.scoreStages.10.label>
-	<Impressiveness.scoreStages.11.label>Dünya harikası</Impressiveness.scoreStages.11.label>
-	
-	<Wealth.label>Zenginlik</Wealth.label>
-	<Wealth.scoreStages.0.label>çok Fakir</Wealth.scoreStages.0.label>
-	<Wealth.scoreStages.1.label>Fakir</Wealth.scoreStages.1.label>
-	<Wealth.scoreStages.2.label>Ortadirek</Wealth.scoreStages.2.label>
-	<Wealth.scoreStages.3.label>Biraz zengin</Wealth.scoreStages.3.label>
-	<Wealth.scoreStages.4.label>Zengin</Wealth.scoreStages.4.label>
-	<Wealth.scoreStages.5.label>Çok Zengin</Wealth.scoreStages.5.label>
-	<Wealth.scoreStages.6.label>Lüks</Wealth.scoreStages.6.label>
-	<Wealth.scoreStages.7.label>Çok lüks</Wealth.scoreStages.7.label>
-	<Wealth.scoreStages.8.label>İnanılmaz lüks</Wealth.scoreStages.8.label>
-	
-	<Space.label>Ferahlık</Space.label>
-	<Space.scoreStages.0.label>Sıkışık</Space.scoreStages.0.label>
-	<Space.scoreStages.1.label>Biraz sıkışık</Space.scoreStages.1.label>
-	<Space.scoreStages.2.label>Ortalama büyüklükte</Space.scoreStages.2.label>
-	<Space.scoreStages.3.label>Biraz geniş</Space.scoreStages.3.label>
-	<Space.scoreStages.4.label>Geniş</Space.scoreStages.4.label>
-	<Space.scoreStages.5.label>Çok geniş</Space.scoreStages.5.label>
-	<Space.scoreStages.6.label>Çok fazla geniş</Space.scoreStages.6.label>
-	
-	<Beauty.label>Güzellik</Beauty.label>
-	<Beauty.scoreStages.0.label>İğrenç</Beauty.scoreStages.0.label>
-	<Beauty.scoreStages.1.label>Çirkin</Beauty.scoreStages.1.label>
-	<Beauty.scoreStages.2.label>Fena değil</Beauty.scoreStages.2.label>
-	<Beauty.scoreStages.3.label>Doğal</Beauty.scoreStages.3.label>
-	<Beauty.scoreStages.4.label>Güzel</Beauty.scoreStages.4.label>
-	<Beauty.scoreStages.5.label>Çok güzel</Beauty.scoreStages.5.label>
-	<Beauty.scoreStages.6.label>Muhteşem</Beauty.scoreStages.6.label>
-	<Beauty.scoreStages.7.label>Göz Kamaştırıcı</Beauty.scoreStages.7.label>
-	
-	<Cleanliness.label>Temizlik</Cleanliness.label>
-	<Cleanliness.scoreStages.0.label>Çok Kirli</Cleanliness.scoreStages.0.label>
-	<Cleanliness.scoreStages.1.label>Kirli</Cleanliness.scoreStages.1.label>
-	<Cleanliness.scoreStages.2.label>Az kirli</Cleanliness.scoreStages.2.label>
-	<Cleanliness.scoreStages.3.label>Temiz</Cleanliness.scoreStages.3.label>
-	<Cleanliness.scoreStages.4.label>Steril</Cleanliness.scoreStages.4.label>
-	
-	<InfectionChanceFactor.label>Enfeksiyon riski</InfectionChanceFactor.label>
-	
-	<SurgerySuccessChanceFactor.label>Başarılı ameliyat şansı</SurgerySuccessChanceFactor.label>
-	
-	<ResearchSpeedFactor.label>Araştırma hızı</ResearchSpeedFactor.label>
-	
-	<GraveVisitingJoyGainFactor.label>Mezar ziyareti sevinç kazancı</GraveVisitingJoyGainFactor.label>
-	
-	<FoodPoisonChanceFactor.label>Gıda zehirlenmesi şansı</FoodPoisonChanceFactor.label>
+
+  <!-- EN: beauty -->
+  <Beauty.label>güzellik</Beauty.label>
+  <!-- EN: hideous -->
+  <Beauty.scoreStages.hideous.label>iğrenç</Beauty.scoreStages.hideous.label>
+  <!-- EN: ugly -->
+  <Beauty.scoreStages.ugly.label>çirkin</Beauty.scoreStages.ugly.label>
+  <!-- EN: neutral -->
+  <Beauty.scoreStages.neutral.label>doğal</Beauty.scoreStages.neutral.label>
+  <!-- EN: pretty -->
+  <Beauty.scoreStages.pretty.label>hoş</Beauty.scoreStages.pretty.label>
+  <!-- EN: beautiful -->
+  <Beauty.scoreStages.beautiful.label>güzel</Beauty.scoreStages.beautiful.label>
+  <!-- EN: very beautiful -->
+  <Beauty.scoreStages.very_beautiful.label>çok güzel</Beauty.scoreStages.very_beautiful.label>
+  <!-- EN: extremely beautiful -->
+  <Beauty.scoreStages.extremely_beautiful.label>muhteşem</Beauty.scoreStages.extremely_beautiful.label>
+  <!-- EN: unbelievably beautiful -->
+  <Beauty.scoreStages.unbelievably_beautiful.label>göz kamaştırıcı</Beauty.scoreStages.unbelievably_beautiful.label>
+  
+  <!-- EN: cleanliness -->
+  <Cleanliness.label>temizlik</Cleanliness.label>
+  <!-- EN: very dirty -->
+  <Cleanliness.scoreStages.very_dirty.label>çok kirli</Cleanliness.scoreStages.very_dirty.label>
+  <!-- EN: dirty -->
+  <Cleanliness.scoreStages.dirty.label>kirli</Cleanliness.scoreStages.dirty.label>
+  <!-- EN: slightly dirty -->
+  <Cleanliness.scoreStages.slightly_dirty.label>biraz kirli</Cleanliness.scoreStages.slightly_dirty.label>
+  <!-- EN: clean -->
+  <Cleanliness.scoreStages.clean.label>temiz</Cleanliness.scoreStages.clean.label>
+  <!-- EN: sterile -->
+  <Cleanliness.scoreStages.sterile.label>steril</Cleanliness.scoreStages.sterile.label>
+  
+  <!-- EN: food poison chance -->
+  <FoodPoisonChance.label>gıda zehirlenmesi şansı</FoodPoisonChance.label>
+  
+  <!-- EN: grave visiting recreation factor -->
+  <GraveVisitingJoyGainFactor.label>mezar ziyareti eğlence faktörü</GraveVisitingJoyGainFactor.label>
+  
+  <!-- EN: impressiveness -->
+  <Impressiveness.label>etkileyicilik</Impressiveness.label>
+  <!-- EN: awful -->
+  <Impressiveness.scoreStages.awful.label>korkunç</Impressiveness.scoreStages.awful.label>
+  <!-- EN: dull -->
+  <Impressiveness.scoreStages.dull.label>sıkıcı</Impressiveness.scoreStages.dull.label>
+  <!-- EN: mediocre -->
+  <Impressiveness.scoreStages.mediocre.label>ortalama</Impressiveness.scoreStages.mediocre.label>
+  <!-- EN: decent -->
+  <Impressiveness.scoreStages.decent.label>iyi</Impressiveness.scoreStages.decent.label>
+  <!-- EN: slightly impressive -->
+  <Impressiveness.scoreStages.slightly_impressive.label>biraz etkileyici</Impressiveness.scoreStages.slightly_impressive.label>
+  <!-- EN: somewhat impressive -->
+  <Impressiveness.scoreStages.somewhat_impressive.label>etkileyici</Impressiveness.scoreStages.somewhat_impressive.label>
+  <!-- EN: very impressive -->
+  <Impressiveness.scoreStages.very_impressive.label>çok etkileyici</Impressiveness.scoreStages.very_impressive.label>
+  <!-- EN: extremely impressive -->
+  <Impressiveness.scoreStages.extremely_impressive.label>inanılmaz etkileyici</Impressiveness.scoreStages.extremely_impressive.label>
+  <!-- EN: unbelievably impressive -->
+  <Impressiveness.scoreStages.unbelievably_impressive.label>göz kamaştırıcı</Impressiveness.scoreStages.unbelievably_impressive.label>
+  <!-- EN: wondrously impressive -->
+  <Impressiveness.scoreStages.wondrously_impressive.label>mükemmel</Impressiveness.scoreStages.wondrously_impressive.label>
+  
+  <!-- EN: infection chance factor -->
+  <InfectionChanceFactor.label>enfeksiyon risk faktörü</InfectionChanceFactor.label>
+  
+  <!-- EN: research speed factor -->
+  <ResearchSpeedFactor.label>araştırma hızı faktörü</ResearchSpeedFactor.label>
+  
+  <!-- EN: space -->
+  <Space.label>ferahlık</Space.label>
+  <!-- EN: cramped -->
+  <Space.scoreStages.cramped.label>sıkışık</Space.scoreStages.cramped.label>
+  <!-- EN: rather tight -->
+  <Space.scoreStages.rather_tight.label>çok sıkışık</Space.scoreStages.rather_tight.label>
+  <!-- EN: average-sized -->
+  <Space.scoreStages.averagesized.label>ortalama</Space.scoreStages.averagesized.label>
+  <!-- EN: somewhat spacious -->
+  <Space.scoreStages.somewhat_spacious.label>biraz ferah</Space.scoreStages.somewhat_spacious.label>
+  <!-- EN: quite spacious -->
+  <Space.scoreStages.quite_spacious.label>ferah</Space.scoreStages.quite_spacious.label>
+  <!-- EN: very spacious -->
+  <Space.scoreStages.very_spacious.label>çok ferah</Space.scoreStages.very_spacious.label>
+  <!-- EN: extremely spacious -->
+  <Space.scoreStages.extremely_spacious.label>aşırı ferah</Space.scoreStages.extremely_spacious.label>
+  
+  <!-- EN: surgery success chance cleanliness factor -->
+  <SurgerySuccessChanceCleanlinessFactor.label>ameliyat başarı şansı temizlik faktörü</SurgerySuccessChanceCleanlinessFactor.label>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>zenginlik</Wealth.label>
+  <!-- EN: impoverished -->
+  <Wealth.scoreStages.impoverished.label>çok fakir</Wealth.scoreStages.impoverished.label>
+  <!-- EN: somewhat poor -->
+  <Wealth.scoreStages.somewhat_poor.label>fakir</Wealth.scoreStages.somewhat_poor.label>
+  <!-- EN: mediocre -->
+  <Wealth.scoreStages.mediocre.label>ortalama</Wealth.scoreStages.mediocre.label>
+  <!-- EN: somewhat rich -->
+  <Wealth.scoreStages.somewhat_rich.label>biraz zengin</Wealth.scoreStages.somewhat_rich.label>
+  <!-- EN: rich -->
+  <Wealth.scoreStages.rich.label>zengin</Wealth.scoreStages.rich.label>
+  <!-- EN: luxurious -->
+  <Wealth.scoreStages.luxurious.label>lüks</Wealth.scoreStages.luxurious.label>
+  <!-- EN: very luxurious -->
+  <Wealth.scoreStages.very_luxurious.label>çok lüks</Wealth.scoreStages.very_luxurious.label>
+  <!-- EN: extremely luxurious -->
+  <Wealth.scoreStages.extremely_luxurious.label>aşırı lüks</Wealth.scoreStages.extremely_luxurious.label>
+  <!-- EN: unbelievably luxurious -->
+  <Wealth.scoreStages.unbelievably_luxurious.label>inanılmaz lüks</Wealth.scoreStages.unbelievably_luxurious.label>
 	
 </LanguageData>

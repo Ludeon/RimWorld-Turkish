@@ -1,32 +1,51 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <WanderConfused.label>Avarelik</WanderConfused.label>
-    <WanderConfused.beginLetterLabel>Avare</WanderConfused.beginLetterLabel>
-    <WanderConfused.beginLetter>{0} mental bir çöküntüye uğradı ve kafası karışık bir şekilde dolanıyor.</WanderConfused.beginLetter>
-    <WanderConfused.recoveryMessage>{0} artık kafası karışık değil.</WanderConfused.recoveryMessage>
-    <WanderConfused.inspectLine>Akıl durumu: Aklı karışık dolanıyor</WanderConfused.inspectLine>
-    
-    <PanicFlee.label>Panik Kaçıyor</PanicFlee.label>
-    <PanicFlee.beginLetterLabel>Kaçıyor</PanicFlee.beginLetterLabel>
-    <PanicFlee.beginLetter>{0} Panik içinde kaçıyor.</PanicFlee.beginLetter>
-    <PanicFlee.recoveryMessage>{0} artık panik içinde kaçmıyor.</PanicFlee.recoveryMessage>
-    <PanicFlee.inspectLine>Akıl durumu: Panik içinde Kaçıyor</PanicFlee.inspectLine>
-    
-    <Manhunter.label>Cani</Manhunter.label>
-    <Manhunter.beginLetterLabel>Cani</Manhunter.beginLetterLabel>
-    <Manhunter.beginLetter>{0} Canileşti.</Manhunter.beginLetter>
-    <Manhunter.recoveryMessage>{0}'nin cani kan tutkusu sona erdi.</Manhunter.recoveryMessage>
-    <Manhunter.inspectLine>Kudurdu: Cani</Manhunter.inspectLine>
-    
-    <ManhunterPermanent.label>Yamyam</ManhunterPermanent.label>
-    <ManhunterPermanent.beginLetter>{0} yamyam!</ManhunterPermanent.beginLetter>
-    <ManhunterPermanent.beginLetterLabel>yamyam</ManhunterPermanent.beginLetterLabel>
-    <ManhunterPermanent.recoveryMessage>{0} artık yamyam değil.</ManhunterPermanent.recoveryMessage>
-    <ManhunterPermanent.baseInspectLine>Akıl durumu: yamyam</ManhunterPermanent.baseInspectLine>
-    
-    <SocialFighting.label>Sosyal Tartışma</SocialFighting.label>
-    <SocialFighting.recoveryMessage>{0} ve {1} artık tartışmıyor.</SocialFighting.recoveryMessage>
-    <SocialFighting.inspectLine>Akıl durumu: Sosyal Tartışma</SocialFighting.inspectLine>
-    
+  
+  <!-- EN: manhunter -->
+  <Manhunter.label>insan avcısı</Manhunter.label>
+  <!-- EN: Maddened: Manhunter -->
+  <Manhunter.baseInspectLine>Zihinsel durum: İnsan avcısı</Manhunter.baseInspectLine>
+  <!-- EN: {0} has become a manhunter! -->
+  <Manhunter.beginLetter>{0} insan avcısı oldu!</Manhunter.beginLetter>
+  <Manhunter.beginLetterLabel>insan avcısı</Manhunter.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <Manhunter.recoveryMessage>{0} artık kanasusamış bir şekilde insan avlamıyor.</Manhunter.recoveryMessage>
+  
+  <!-- EN: manhunter -->
+  <ManhunterPermanent.label>insan avcısı</ManhunterPermanent.label>
+  <!-- EN: Maddened: Manhunter -->
+  <ManhunterPermanent.baseInspectLine>Zihinsel durum: İnsan avcısı</ManhunterPermanent.baseInspectLine>
+  <!-- EN: {0} has become a manhunter! -->
+  <ManhunterPermanent.beginLetter>{0} insan avcısı oldu!</ManhunterPermanent.beginLetter>
+  <ManhunterPermanent.beginLetterLabel>insan avcısı</ManhunterPermanent.beginLetterLabel>
+  <!-- EN: {0}'s manhunting bloodlust has come to an end. -->
+  <ManhunterPermanent.recoveryMessage>{0} artık kanasusamış bir şekilde insan avlamıyor.</ManhunterPermanent.recoveryMessage>
+  
+  <!-- EN: panic fleeing -->
+  <PanicFlee.label>panik kaçışı</PanicFlee.label>
+  <!-- EN: Mental state: Fleeing in panic -->
+  <PanicFlee.baseInspectLine>Zihinsel durum: Panik içinde kaçıyor</PanicFlee.baseInspectLine>
+  <!-- EN: {0} is fleeing in panic. -->
+  <PanicFlee.beginLetter>{0} panik içinde kaçıyor.</PanicFlee.beginLetter>
+  <!-- EN: flee -->
+  <PanicFlee.beginLetterLabel>kaçış</PanicFlee.beginLetterLabel>
+  <!-- EN: {0} is no longer fleeing in panic. -->
+  <PanicFlee.recoveryMessage>{0} artık panik içinde kaçmıyor.</PanicFlee.recoveryMessage>
+  
+  <!-- EN: social fighting -->
+  <SocialFighting.label>sosyal savaş</SocialFighting.label>
+  <!-- EN: Mental state: Social fighting -->
+  <SocialFighting.baseInspectLine>Zihinsel durum: Sosyal savaş</SocialFighting.baseInspectLine>
+  
+  <!-- EN: confused wandering -->
+  <WanderConfused.label>kafası karışık gezinme</WanderConfused.label>
+  <!-- EN: Mental state: Confused and wandering -->
+  <WanderConfused.baseInspectLine>Zihinsel durum: Kafası karışmış geziyor</WanderConfused.baseInspectLine>
+  <!-- EN: {0} has broken down and is wandering around confused. -->
+  <WanderConfused.beginLetter>{0} çöktü ve kafası karışmış bir şekilde etrafta geziniyor.</WanderConfused.beginLetter>
+  <!-- EN: confusion -->
+  <WanderConfused.beginLetterLabel>bilinç bulanıklığı</WanderConfused.beginLetterLabel>
+  <!-- EN: {0} is no longer confused. -->
+  <WanderConfused.recoveryMessage>{0} artık kafası karışmış bir şekilde etrafta gezinmiyor.</WanderConfused.recoveryMessage>
+  
 </LanguageData>
