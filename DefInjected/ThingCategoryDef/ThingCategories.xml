@@ -1,35 +1,187 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<Root.label>Kök</Root.label>
-	<Resources.label>Kaynaklar</Resources.label>
-	<Foods.label>Besinler</Foods.label>
-	<FoodMeals.label>Yemekler</FoodMeals.label>
-	<FoodRaw.label>Çiğ Yemek</FoodRaw.label>
-	<MeatRaw.label>Çiğ Et</MeatRaw.label>
-	<PlantFoodRaw.label>Vejetaryen</PlantFoodRaw.label>
-	<Manufactured.label>Üretilmiş</Manufactured.label>
-	<Textiles.label>Dokuma</Textiles.label>
-	<Leathers.label>Deriler</Leathers.label>
-	<Medicine.label>İlaç</Medicine.label>
-	<ResourcesRaw.label>İşlenmemiş Kaynaklar</ResourcesRaw.label>
-	<StoneBlocks.label>Taş Bloklar</StoneBlocks.label>
-	<Items.label>Öğeler</Items.label>
-	<Art.label>Sanat</Art.label>
-	<Furniture.label>Mobilya</Furniture.label>
-	<Unfinished.label>Bitmemiş</Unfinished.label>
-	<Weapons.label>Silahlar</Weapons.label>
-	<WeaponsMelee.label>Yakın Dövüş Silahları</WeaponsMelee.label>
-	<WeaponsRanged.label>Menzilli Silahlar</WeaponsRanged.label>
-	<Grenades.label>Bombalar</Grenades.label>
-	<Apparel.label>Giyim</Apparel.label>
-	<Headgear.label>Şapka</Headgear.label>
-	<BodyParts.label>Vücut Parçaları</BodyParts.label>
-	<Chunks.label>Yığınlar</Chunks.label>
-	<StoneChunks.label>Taş Yığınları</StoneChunks.label>
-	<Corpses.label>Ceset</Corpses.label>
-	<CorpsesHumanlike.label>İnsan Cesetleri</CorpsesHumanlike.label>
-	<CorpsesAnimal.label>Hayvan Cesetleri</CorpsesAnimal.label>
-	<CorpsesMechanoid.label>Mekanoid Cesetleri </CorpsesMechanoid.label>
-
+  
+  <!-- EN: animal products -->
+  <AnimalProductRaw.label>hayvansal ürünler</AnimalProductRaw.label>
+  
+  <!-- EN: apparel -->
+  <Apparel.label>kıyafet</Apparel.label>
+  
+  <!-- EN: armor -->
+  <ApparelArmor.label>zırh</ApparelArmor.label>
+  
+  <!-- EN: noble apparel -->
+  <ApparelNoble.label>soylu kıyafeti</ApparelNoble.label>
+  
+  <!-- EN: utility -->
+  <ApparelUtility.label>kıyafet yararı</ApparelUtility.label>
+  
+  <!-- EN: headgear -->
+  <ArmorHeadgear.label>başlık</ArmorHeadgear.label>
+  
+  <!-- EN: artifacts -->
+  <Artifacts.label>eserler</Artifacts.label>
+  
+  <!-- EN: body parts -->
+  <BodyParts.label>vücut parçaları</BodyParts.label>
+  
+  <!-- EN: archotech -->
+  <BodyPartsArchotech.label>archotech</BodyPartsArchotech.label>
+  
+  <!-- EN: bionic -->
+  <BodyPartsBionic.label>biyonik</BodyPartsBionic.label>
+  
+  <!-- EN: natural -->
+  <BodyPartsNatural.label>doğal</BodyPartsNatural.label>
+  
+  <!-- EN: prosthetic -->
+  <BodyPartsProsthetic.label>protez</BodyPartsProsthetic.label>
+  
+  <!-- EN: simple parts -->
+  <BodyPartsSimple.label>basit parça</BodyPartsSimple.label>
+  
+  <!-- EN: ultratech -->
+  <BodyPartsUltra.label>ultratech</BodyPartsUltra.label>
+  
+  <!-- EN: buildings -->
+  <Buildings.label>inşalar</Buildings.label>
+  
+  <!-- EN: art -->
+  <BuildingsArt.label>sanat</BuildingsArt.label>
+  
+  <!-- EN: furniture -->
+  <BuildingsFurniture.label>mobilya</BuildingsFurniture.label>
+  
+  <!-- EN: recreation -->
+  <BuildingsJoy.label>eğlenme</BuildingsJoy.label>
+  
+  <!-- EN: misc -->
+  <BuildingsMisc.label>çeşitli</BuildingsMisc.label>
+  
+  <!-- EN: power -->
+  <BuildingsPower.label>güç</BuildingsPower.label>
+  
+  <!-- EN: production -->
+  <BuildingsProduction.label>üretim</BuildingsProduction.label>
+  
+  <!-- EN: security -->
+  <BuildingsSecurity.label>güvenlik</BuildingsSecurity.label>
+  
+  <!-- EN: special -->
+  <BuildingsSpecial.label>özel</BuildingsSpecial.label>
+  
+  <!-- EN: temperature -->
+  <BuildingsTemperature.label>sıcaklık</BuildingsTemperature.label>
+  
+  <!-- EN: chunks -->
+  <Chunks.label>yığınlar</Chunks.label>
+  
+  <!-- EN: corpses -->
+  <Corpses.label>cesetler</Corpses.label>
+  
+  <!-- EN: animal corpses -->
+  <CorpsesAnimal.label>hayvan cesetleri</CorpsesAnimal.label>
+  
+  <!-- EN: humanlike corpses -->
+  <CorpsesHumanlike.label>insan cesetleri</CorpsesHumanlike.label>
+  
+  <!-- EN: insect corpses -->
+  <CorpsesInsect.label>böcek cesetleri</CorpsesInsect.label>
+  
+  <!-- EN: mechanoid corpses -->
+  <CorpsesMechanoid.label>mekanoid cesetleri</CorpsesMechanoid.label>
+  
+  <!-- EN: drugs -->
+  <Drugs.label>uyuşturucular</Drugs.label>
+  
+  <!-- EN: eggs (fert.) -->
+  <EggsFertilized.label>yumurtalar (döllenmiş)</EggsFertilized.label>
+  
+  <!-- EN: eggs (unfert.) -->
+  <EggsUnfertilized.label>yumurtalar (döllenmemiş)</EggsUnfertilized.label>
+  
+  <!-- EN: meals -->
+  <FoodMeals.label>yemekler</FoodMeals.label>
+  
+  <!-- EN: raw food -->
+  <FoodRaw.label>çiğ yiyecekler</FoodRaw.label>
+  
+  <!-- EN: foods -->
+  <Foods.label>yiyecekler</Foods.label>
+  
+  <!-- EN: grenades -->
+  <Grenades.label>bombalar</Grenades.label>
+  
+  <!-- EN: headgear -->
+  <Headgear.label>başlık</Headgear.label>
+  
+  <!-- EN: headgear -->
+  <HeadgearNoble.label>başlık</HeadgearNoble.label>
+  
+  <!-- EN: items -->
+  <Items.label>eşyalar</Items.label>
+  
+  <!-- EN: leathers -->
+  <Leathers.label>deriler</Leathers.label>
+  
+  <!-- EN: manufactured -->
+  <Manufactured.label>üretilmiş</Manufactured.label>
+  
+  <!-- EN: meat -->
+  <MeatRaw.label>et</MeatRaw.label>
+  
+  <!-- EN: medicine -->
+  <Medicine.label>ilaç</Medicine.label>
+  
+  <!-- EN: mortar shells -->
+  <MortarShells.label>havan topları</MortarShells.label>
+  
+  <!-- EN: neurotrainers -->
+  <Neurotrainers.label>nöroeğiticiler</Neurotrainers.label>
+  
+  <!-- EN: psytrainers -->
+  <NeurotrainersPsycast.label>psiko-eğiticiler</NeurotrainersPsycast.label>
+  
+  <!-- EN: skilltrainers -->
+  <NeurotrainersSkill.label>beceri eğiticiler</NeurotrainersSkill.label>
+  
+  <!-- EN: vegetarian -->
+  <PlantFoodRaw.label>vejetaryen</PlantFoodRaw.label>
+  
+  <!-- EN: plant matter -->
+  <PlantMatter.label>bitki maddesi</PlantMatter.label>
+  
+  <!-- EN: raw resources -->
+  <ResourcesRaw.label>ham maddeler</ResourcesRaw.label>
+  
+  <!-- EN: root -->
+  <Root.label>temel</Root.label>
+  
+  <!-- EN: stone blocks -->
+  <StoneBlocks.label>taş bloklar</StoneBlocks.label>
+  
+  <!-- EN: stone chunks -->
+  <StoneChunks.label>taş yığınları</StoneChunks.label>
+  
+  <!-- EN: techprints -->
+  <Techprints.label>teknoloji projeleri</Techprints.label>
+  
+  <!-- EN: textiles -->
+  <Textiles.label>tekstil</Textiles.label>
+  
+  <!-- EN: unfinished -->
+  <Unfinished.label>bitmemiş</Unfinished.label>
+  
+  <!-- EN: weapons -->
+  <Weapons.label>silahlar</Weapons.label>
+  
+  <!-- EN: melee weapons -->
+  <WeaponsMelee.label>yakın dövüş silahları</WeaponsMelee.label>
+  
+  <!-- EN: persona weapons -->
+  <WeaponsMeleeBladelink.label>kişisel silahlar</WeaponsMeleeBladelink.label>
+  
+  <!-- EN: ranged weapons -->
+  <WeaponsRanged.label>menzilli silahlar</WeaponsRanged.label>
+  
 </LanguageData>

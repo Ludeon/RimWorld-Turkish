@@ -1,36 +1,174 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <AnimalChat.label>Hayvanla Muhabbet</AnimalChat.label>
-	<AnimalChat.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef] ile iletişim kurdu, dostane bir ilişki kurulmaya çalıştı.</li>
-	</AnimalChat.logRulesInitiator.rulesStrings>
-	<AnimalChat.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef]'ın dostane iletişimine cevap verdi.</li>
-	</AnimalChat.logRulesRecipient.rulesStrings>
-    
-    <TrainAttempt.label>Eğitme Girişimi</TrainAttempt.label>
-	<TrainAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef]'ı eğitti.</li>
-	</TrainAttempt.logRulesInitiator.rulesStrings>
-	<TrainAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->logentry->[other_nameShortIndef] tarafından eğitildi.</li>
-	</TrainAttempt.logRulesRecipient.rulesStrings>
-    
-    <TameAttempt.label>Evcilleştirme Girişimi</TameAttempt.label>
-	<TameAttempt.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef]'i evcilleştirmeyi denedi.</li>
-	</TameAttempt.logRulesInitiator.rulesStrings>
-	<TameAttempt.logRulesRecipient.rulesStrings>
-		<li>logentry->logentry->[other_nameShortIndef]'nin beni evcilleştirme girişimini izledim.</li>
-	</TameAttempt.logRulesRecipient.rulesStrings>
-    
-    <Nuzzle.label>Burun ile Dürtme</Nuzzle.label>
-	<Nuzzle.logRulesInitiator.rulesStrings>
-		<li>logentry->[other_nameShortIndef]'u burnu ile dürttü.</li>
-	</Nuzzle.logRulesInitiator.rulesStrings>
-	<Nuzzle.logRulesRecipient.rulesStrings>
-		<li>logentry->[other_nameShortIndef]'nın burnu ile dürtüldü.</li>
-	</Nuzzle.logRulesRecipient.rulesStrings>
-    
+  
+  <!-- EN: animal chat -->
+  <AnimalChat.label>hayvan sohbeti</AnimalChat.label>
+  <!-- EN:
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [tamed] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] sat near [RECIPIENT_nameDef] and talked to [INITIATOR_objective]self about [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] approached [RECIPIENT_nameDef] while whispering to [INITIATOR_objective]self about [TalkTopicAny].</li>
+    <li>r_logentry->[INITIATOR_nameDef] came near [RECIPIENT_nameDef] while talking to [INITIATOR_objective]self about [TalkTopicAny].</li>
+    <li>tamed->made calming noises towards</li>
+    <li>tamed->offered slow, friendly gestures to</li>
+    <li>tamed->made shushing noises at</li>
+    <li>tamed->made happy clicking noises at</li>
+    <li>tamed->gestured gently and approached</li>
+    <li>tamed->slowly approached</li>
+    <li>tamed->gently touched</li>
+    <li>tamed->calmed and encouraged</li>
+    <li>tamed->matched breathing with</li>
+    <li>tamed->took a low stance while approaching</li>
+    <li>tamed->showed no fear or anger to</li>
+    <li>tamed->feigned inattention towards</li>
+    <li>tamed->gently hummed a song at</li>
+    <li>tamed->sang an old lullaby at</li>
+    <li>tamed->firmly yet softly touched</li>
+    <li>tamed->showed a relaxed attitude towards</li>
+    <li>tamed->sat patiently near</li>
+    <li>tamed->whispered a story about [TalkTopicAny] to</li>
+  -->
+  <AnimalChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [tamed].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'in yanına oturdu ve kendi kendine [TalkTopicAny] hakkında konuştu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] kendi kendine [TalkTopicAny] hakkında sessizce konuşurken [RECIPIENT_nameDef]'e yaklaştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] kendi kendine [TalkTopicAny] hakkında konuşurken [RECIPIENT_nameDef]'e yaklaştı.</li>
+    <li>tamed->sakinleştirici sesler çıkarttı</li>
+    <li>tamed->yavaşça ve dostça hareketlerde bulundu</li>
+    <li>tamed->susturucu sesler çıkarttı</li>
+    <li>tamed->mutlu sesler çıkarttı</li>
+    <li>tamed->iyi niyetle yaklaştı</li>
+    <li>tamed->yavaşça yaklaştı</li>
+    <li>tamed->nazikçe dokundu</li>
+    <li>tamed->sakin ve cesaretli bir şekilde yaklaştı</li>
+    <li>tamed->uyumlu nefes aldı</li>
+    <li>tamed->çömelip yaklaştı</li>
+    <li>tamed->korku yada nefret göstermedi</li>
+    <li>tamed->dikkatsiz numarası yaptı</li>
+    <li>tamed->bir şarkı mırıldadı</li>
+    <li>tamed->eski bir ninni söyledi</li>
+    <li>tamed->yumuşakça sarıldı</li>
+    <li>tamed->karşı rahat tavırlar takındı</li>
+    <li>tamed->yanına oturdu</li>
+    <li>tamed->[TalkTopicAny] hakkında bir hikaye fısıldadı</li>
+  </AnimalChat.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: nuzzle -->
+  <Nuzzle.label>sarılma</Nuzzle.label>
+  <!-- EN:
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
+    <li>nuzzled(p=2)->nuzzled</li>
+    <li>nuzzled->snuggled up to</li>
+    <li>nuzzleadverb(p=4)-></li>
+    <li>nuzzleadverb->gently</li>
+    <li>nuzzleadverb->encouragingly</li>
+    <li>nuzzleadverb->happily</li>
+    <li>nuzzleadverb->softly</li>
+    <li>nuzzleadverb->supportively</li>
+    <li>nuzzleadverb->lightly</li>
+    <li>nuzzleadverb->warmly</li>
+    <li>nuzzleadverb->plaintively</li>
+    <li>nuzzleadverb->lovingly</li>
+    <li>nuzzleadverb->affectionately</li>
+    <li>rubbedpart->leg</li>
+    <li>rubbedpart->knee</li>
+    <li>rubbedpart->foot</li>
+    <li>rubbedpart->elbow</li>
+    <li>rubbedpart->hip</li>
+    <li>rubbedpart->shoulder</li>
+    <li>rubbedpart->hand</li>
+    <li>rubbedpart->side</li>
+    <li>rubbedpart->arm</li>
+  -->
+  <Nuzzle.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=2)->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [nuzzleadverb] [nuzzled].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'in [rubbedpart] [nuzzleadverb] sarıldı.</li>
+    <li>nuzzled(p=2)->sarıldı</li>
+	<li>nuzzled->sarıldı</li>
+    <li>nuzzleadverb(p=4)-></li>
+    <li>nuzzleadverb->nazikçe</li>
+    <li>nuzzleadverb->cesaret verici bir şekilde</li>
+    <li>nuzzleadverb->sevinçle</li>
+    <li>nuzzleadverb->yumuşakça</li>
+    <li>nuzzleadverb->destekleyici bir şekilde</li>
+    <li>nuzzleadverb->hafifçe</li>
+    <li>nuzzleadverb->içtenlikle</li>
+    <li>nuzzleadverb->üzüntüyle</li>
+    <li>nuzzleadverb->aşkla</li>
+    <li>nuzzleadverb->sevgiyle</li>
+    <li>rubbedpart->bacağına</li>
+    <li>rubbedpart->dizine</li>
+    <li>rubbedpart->ayağına</li>
+    <li>rubbedpart->dirseğine</li>
+    <li>rubbedpart->kalçasına</li>
+    <li>rubbedpart->omzuna</li>
+    <li>rubbedpart->eline</li>
+    <li>rubbedpart->yanına</li>
+    <li>rubbedpart->koluna</li>
+  </Nuzzle.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: tame attempt -->
+  <TameAttempt.label>evcilleştirme girişimi</TameAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to tame [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] tried to bring [RECIPIENT_nameDef] under control.</li>
+    <li>r_logentry->[INITIATOR_nameDef] attempted to collar [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] demanded obedience from [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come to [INITIATOR_objective].</li>
+    <li>r_logentry->[INITIATOR_nameDef] tried to make [RECIPIENT_nameDef] sit still.</li>
+    <li>r_logentry->[INITIATOR_nameDef] seized [RECIPIENT_nameDef] sharply and barked a command.</li>
+    <li>r_logentry->[INITIATOR_nameDef] attempted to hold [RECIPIENT_nameDef] still.</li>
+    <li>r_logentry->[INITIATOR_nameDef] shouted a command at [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] slapped [RECIPIENT_nameDef] in a show of dominance.</li>
+    <li>r_logentry->[INITIATOR_nameDef] directed [RECIPIENT_nameDef] back towards the community.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [RECIPIENT_nameDef] to come back to the community.</li>
+    <li>r_logentry->[INITIATOR_nameDef] touched a vulnerable body part of [RECIPIENT_nameDef], demanding obedience.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pointed at the ground, demanding that [RECIPIENT_nameDef] come.</li>
+    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] a first command.</li>
+  -->
+  <TameAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i evcilleştirmeye çalıştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i kontrol altına almaya çalıştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i yakalamaya teşebbüs etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'den itaat talep etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i yanına çağırdı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i hareketsiz oturtmaya çalıştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i sert bir şekilde yakaladı ve bir komut verdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i sabit tutmaya çalıştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e bağırarak bir komut verdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] hakimiyet göstergesi olarak [RECIPIENT_nameDef]'i tokatladı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i tekrar topluluğa yönlendirdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] topluluğa geri gelmek için [RECIPIENT_nameDef]'i aradı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] itaat talep ederek [RECIPIENT_nameDef]'in savunmasız bir vücut kısmına dokundu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'den işaret ettiği yere gitmesini istedi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e ilk komutunu verdi.</li>
+  </TameAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: train attempt -->
+  <TrainAttempt.label>eğitme girişimi</TrainAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [trained] [RECIPIENT_nameDef].</li>
+    <li>trained(p=2)->[tried] to train</li>
+    <li>trained->[tried] to show a new trick to</li>
+    <li>trained->[tried] to discipline</li>
+    <li>trained->[tried] to instruct</li>
+    <li>trained->[tried] to encourage a new skill in</li>
+    <li>trained->demonstrated a skill to</li>
+    <li>trained->encouraged a new response from</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <TrainAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i [trained].</li>
+    <li>trained(p=2)->eğitme[tried]</li>
+    <li>trained->yeni bir numara gösterme[tried]</li>
+    <li>trained->terbiye etme[tried]</li>
+    <li>trained->talimat verme[tried]</li>
+    <li>trained->yeni bir beceriye cesaretlendirme[tried]</li>
+    <li>trained->bir beceri gösterdi</li>
+    <li>trained->yeni bir tepki öğrenmesi için cesaretlendirdi</li>
+    <li>tried->yi denedi</li>
+    <li>tried->girişimde bulundu</li>
+  </TrainAttempt.logRulesInitiator.rulesStrings>
+  
 </LanguageData>

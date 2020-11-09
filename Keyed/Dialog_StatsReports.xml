@@ -1,134 +1,354 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+  <!-- EN: Tool -->
   <Tool>Araç</Tool>
+  <!-- EN: damage -->
   <DamageLower>hasar</DamageLower>
-  <SecondsPerAttackLower>saniye başına hasar</SecondsPerAttackLower>
+  <!-- EN: seconds per attack -->
+  <SecondsPerAttackLower>saldırı başına saniye</SecondsPerAttackLower>
 
+  <!-- EN: Base value -->
   <StatsReport_BaseValue>Temel değer</StatsReport_BaseValue>
-  <StatsReport_RelevantTraits>Uygun özellikler</StatsReport_RelevantTraits>
-  <StatsReport_RelevantGear>Uygun ekipman</StatsReport_RelevantGear>
-  <StatsReport_RelevantHediffs>Uygun sağlık koşulları</StatsReport_RelevantHediffs>
+  <!-- EN: Relevant traits -->
+  <StatsReport_RelevantTraits>İlgili özellikler</StatsReport_RelevantTraits>
+  <!-- EN: Relevant gear -->
+  <StatsReport_RelevantGear>İlgili ekipman</StatsReport_RelevantGear>
+  <!-- EN: Relevant health conditions -->
+  <StatsReport_RelevantHediffs>İlgili sağlık koşulları</StatsReport_RelevantHediffs>
+  <!-- EN: Life stage -->
   <StatsReport_LifeStage>Yaşam evresi</StatsReport_LifeStage>
+  <!-- EN: Material -->
   <StatsReport_Material>Malzeme</StatsReport_Material>
+  <!-- EN: Character quality -->
   <StatsReport_CharacterQuality>Karakter kalitesi</StatsReport_CharacterQuality>
-  <StatsReport_Skills>Yetenek faktörleri</StatsReport_Skills>
-  <StatsReport_OtherStats>Diğer faktörler</StatsReport_OtherStats>
+  <!-- EN: Skills -->
+  <StatsReport_Skills>Beceriler</StatsReport_Skills>
+  <!-- EN: Post-process - other stats -->
+  <StatsReport_OtherStats>İşlem sonrası - diğer nitelikler</StatsReport_OtherStats>
+  <!-- EN: Health -->
   <StatsReport_Health>Sağlık</StatsReport_Health>
-  <HealthFactorPercentImpact>{0} önem</HealthFactorPercentImpact>
-  <HealthOffsetScale>{0} etki</HealthOffsetScale>
+  <!-- EN: {0} importance -->
+  <HealthFactorPercentImpact>{0} önemi</HealthFactorPercentImpact>
+  <!-- EN: {0} impact -->
+  <HealthOffsetScale>{0} etkisi</HealthOffsetScale>
+  <!-- EN: {0} max -->
   <HealthFactorMaxImpact>maksimum {0}</HealthFactorMaxImpact>
-  <HealthFactorAllowedDefect>{0} altında</HealthFactorAllowedDefect>
+  <!-- EN: if below {0} -->
+  <HealthFactorAllowedDefect>{0} altındaysa</HealthFactorAllowedDefect>
+  <!-- EN: Post-process curve -->
   <StatsReport_PostProcessed>İşlem sonrası eğrisi</StatsReport_PostProcessed>
+  <!-- EN: Final value -->
   <StatsReport_FinalValue>Nihai değer</StatsReport_FinalValue>
-  <StatsReport_MarketValueFromStuffsAndWork>Piyasa değeri, inşa malzemeleri ve çalışma zamanıyla hesaplanıldı.</StatsReport_MarketValueFromStuffsAndWork>
+  <!-- EN: Materials and labor -->
+  <StatsReport_MarketValueFromStuffsAndWork>Malzemeler ve işgücü</StatsReport_MarketValueFromStuffsAndWork>
+  <!-- EN: Quality multiplier -->
   <StatsReport_QualityMultiplier>Kalite çarpanı</StatsReport_QualityMultiplier>
+  <!-- EN: Max gain -->
   <StatsReport_MaxGain>Maksimum kazanç</StatsReport_MaxGain>
-  <StatsReport_AgeMultiplier>Yaş için çarpan {0}</StatsReport_AgeMultiplier>
-  <StatsReport_HealthMultiplier>Sağlık için çarpan {0}</StatsReport_HealthMultiplier>
-  <StatsReport_MoodMultiplier>Ruh için çarpan {0}</StatsReport_MoodMultiplier>
-  <StatsReport_LightMultiplier>Işık için çarpan {0}</StatsReport_LightMultiplier>
-  <StatsReport_DifficultyMultiplier>Zorluk için çarpan {0}</StatsReport_DifficultyMultiplier>
+  <!-- EN: Multiplier for age {0} -->
+  <StatsReport_AgeMultiplier>{0} yaş için çarpan</StatsReport_AgeMultiplier>
+  <!-- EN: Multiplier for health {0} -->
+  <StatsReport_HealthMultiplier>{0} sağlık için çarpan</StatsReport_HealthMultiplier>
+  <!-- EN: Cost to reload ({COUNT} {AMMO_label}) -->
+  <StatsReport_ReloadMarketValue>Doldurma maliyeti ({COUNT} {AMMO_label})</StatsReport_ReloadMarketValue>
+  <!-- EN: Multiplier for remaining {CHARGENOUN_plural} ({0}) -->
+  <StatsReport_ReloadRemainingChargesMultipler>Kalan {CHARGENOUN_plural} ({0}) için çarpan</StatsReport_ReloadRemainingChargesMultipler>
+  <!-- EN: Multiplier for mood {0} -->
+  <StatsReport_MoodMultiplier>{0} ruh hali için çarpan</StatsReport_MoodMultiplier>
+  <!-- EN: Multiplier for light {0} -->
+  <StatsReport_LightMultiplier>{0} ışık için çarpan</StatsReport_LightMultiplier>
+  <!-- EN: Multiplier for difficulty {0} -->
+  <StatsReport_DifficultyMultiplier>{0} zorluk için çarpan</StatsReport_DifficultyMultiplier>
+  <!-- EN: In bed -->
   <StatsReport_InBed>Yatakta</StatsReport_InBed>
+  <!-- EN: Facilities -->
   <StatsReport_Facilities>Tesisler</StatsReport_Facilities>
-  <StatsReport_BodySize>{0} vücut büyüklüğü için çarpan</StatsReport_BodySize>
-  <StatsReport_MeleeDPSExplanation>DPS = yakın dövüş hasarı * yakın dövüş isabet şansı / hamle için bekleme süresi</StatsReport_MeleeDPSExplanation>
+  <!-- EN: Multiplier for body size {0} -->
+  <StatsReport_BodySize>{0} vücut boyutu için çarpan</StatsReport_BodySize>
+  <!-- EN: Carefully slaughtered without wounds -->
+  <StatsReport_HasHediffExplanation>Dikkatlice yara izi bırakılmadan katledilmiş</StatsReport_HasHediffExplanation>
+  <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
+  <StatsReport_MeleeDPSExplanation>DPS = Yakın dövüş hasarı * Yakın dövüş isabet şansı / bekleme süresi</StatsReport_MeleeDPSExplanation>
+  <!-- EN: Melee damage -->
   <StatsReport_MeleeDamage>Yakın dövüş hasarı</StatsReport_MeleeDamage>
-  <StatsReport_Cooldown>Hazırlanma</StatsReport_Cooldown>
+  <!-- EN: Cooldown -->
+  <StatsReport_Cooldown>Bekleme süresi</StatsReport_Cooldown>
+  <!-- EN: Melee hit chance -->
   <StatsReport_MeleeHitChance>Yakın dövüş isabet şansı</StatsReport_MeleeHitChance>
-  <StatsReport_CooldownFormat>{0} s</StatsReport_CooldownFormat>
-  <StatsReport_LifeExpectancy>Tahmini ömür</StatsReport_LifeExpectancy>
+  <!-- EN: {0} s -->
+  <StatsReport_CooldownFormat>{0} sn</StatsReport_CooldownFormat>
+  <!-- EN: Life expectancy -->
+  <StatsReport_LifeExpectancy>Tahmini yaşam süresi</StatsReport_LifeExpectancy>
+  <!-- EN: Multiplier for missing body parts -->
   <StatsReport_MissingBodyParts>Eksik vücut parçaları için çarpan</StatsReport_MissingBodyParts>
+  <!-- EN: Gear and inventory -->
   <StatsReport_GearAndInventoryMass>Ekipman ve envanter</StatsReport_GearAndInventoryMass>
-  <StatsReport_WornByCorpse>Ceset tarafından giyilenler çarpanı</StatsReport_WornByCorpse>
-  <AverageOfAllAttacks>Tüm saldırıların ortalaması</AverageOfAllAttacks>
+  <!-- EN: Multiplier for worn by corpse -->
+  <StatsReport_WornByCorpse>Ceset tarafından yıpratılma için çarpan</StatsReport_WornByCorpse>
+  <!-- EN: average of all attacks -->
+  <AverageOfAllAttacks>tüm saldırıların ortalaması</AverageOfAllAttacks>
+  <!-- EN: Scenario -->
   <StatsReport_ScenarioFactor>Senaryo</StatsReport_ScenarioFactor>
+  <!-- EN: Ingredients -->
   <StatsReport_IngredientsMass>Malzemeler</StatsReport_IngredientsMass>
-  <StatsReport_PermanentlyDisabled>Kalıcı olarak devredışı</StatsReport_PermanentlyDisabled>
+  <!-- EN: Permanently disabled. -->
+  <StatsReport_PermanentlyDisabled>Kalıcı olarak devredışı bırakılmış.</StatsReport_PermanentlyDisabled>
+  <!-- EN: {0} -->
   <StatsReport_Inspiration>{0}</StatsReport_Inspiration>
+  <!-- EN: Added body parts -->
   <StatsReport_AddedBodyPartsMass>Eklenmiş vücut parçaları</StatsReport_AddedBodyPartsMass>
+  <!-- EN: Material effect multiplier -->
   <StatsReport_StuffEffectMultiplier>Malzeme etkisi çarpanı</StatsReport_StuffEffectMultiplier>
+  <!-- EN: Resting -->
   <StatsReport_Resting>Dinlenme</StatsReport_Resting>
-  <StatsReport_JoyKind>Eğlence türü</StatsReport_JoyKind>
-  <StatsReport_WorkToUninstall>kaldırmak için iş</StatsReport_WorkToUninstall>
-  <StatsReport_PlantGrowth>Büyüme çarpanı {0}</StatsReport_PlantGrowth>
-  <StatsReport_PlantGrowth_Wild>Vahşi büyüme için ölçek</StatsReport_PlantGrowth_Wild>
+  <!-- EN: recreation type -->
+  <StatsReport_JoyKind>eğlence türü</StatsReport_JoyKind>
+  <!-- EN: work to uninstall -->
+  <StatsReport_WorkToUninstall>kaldırmak çabası</StatsReport_WorkToUninstall>
+  <!-- EN: Multiplier for growth {0} -->
+  <StatsReport_PlantGrowth>{0} büyüme için çarpan</StatsReport_PlantGrowth>
+  <!-- EN: scaled because wild -->
+  <StatsReport_PlantGrowth_Wild>derecelendirilmiş çünkü yabani</StatsReport_PlantGrowth_Wild>
+  <!-- EN: Not flesh -->
   <StatsReport_NotFlesh>Et değil</StatsReport_NotFlesh>
+  <!-- EN: Not fresh -->
   <StatsReport_NotFresh>Taze değil</StatsReport_NotFresh>
-  <StatsReport_WildMan>Vahşi Adam</StatsReport_WildMan>
+  <!-- EN: Wild man -->
+  <StatsReport_WildMan>Vahşi adam</StatsReport_WildMan>
+  <!-- EN: Attack -->
   <StatsReport_NonToolAttack>Saldırı</StatsReport_NonToolAttack>
+  
+  <!-- EN: Possible offsets -->
+  <StatReport_PossibleOffsets>Olası dengelemeler</StatReport_PossibleOffsets>
+  <!-- EN: Room impressiveness -->
+  <StatsReport_RoomImpressiveness>Oda etkileyiciliği</StatsReport_RoomImpressiveness>
+  <!-- EN: Lit -->
+  <StatsReport_Lit>Aydınlatılmış</StatsReport_Lit>
+  <!-- EN: Contains {0} -->
+  <StatsReport_GraveFull>{0} içerir</StatsReport_GraveFull>
+  <!-- EN: Contains a human corpse -->
+  <StatsReport_GraveFullAbstract>İçinde insan cesedi vardır</StatsReport_GraveFullAbstract>
+  <!-- EN: Meditator is related to the corpse inside -->
+  <StatsReport_GraveCorpseRelatedAbstract>Meditasyoncu içerideki cesetle ilgilidir</StatsReport_GraveCorpseRelatedAbstract>
+  <!-- EN: From quality -->
+  <StatsReport_FromQuality>Kaliteden</StatsReport_FromQuality>
+  <!-- EN: Nearby artificial structures -->
+  <StatsReport_NearbyArtificialStructures>Yakındaki eserler</StatsReport_NearbyArtificialStructures>
+  <!-- EN: Satisfies user's title requirements -->
+  <StatsReport_SatisfiesTitle>Kullanıcının ünvan gereksinimlerini karşılar</StatsReport_SatisfiesTitle>
 
-  <Stat_MineableThing_Name>Kazılmış Öğe</Stat_MineableThing_Name>
-  <Stat_MineableThing_Desc>Madencilik yapılırken verilecek öğe.</Stat_MineableThing_Desc>
+  <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
+  <Stat_RecreationType_Desc>Farklı eğlence kaynakları, farklı eğlence türlerini tatmin eder. Kolonistler aynı şeyi tekrarlamaktan sıkılır, bu yüzden farklı eğlence türlerine sahip çeşitli eğlence kaynakları sağlamak önemlidir.</Stat_RecreationType_Desc>
+  <!-- EN: All recreation types -->
+  <Stat_JoyKind_AllTypes>Tüm eğlence türleri</Stat_JoyKind_AllTypes>
+  <!-- EN: Mined item -->
+  <Stat_MineableThing_Name>Kazılmış eşya</Stat_MineableThing_Name>
+  <!-- EN: The item that will be yielded when mining this. -->
+  <Stat_MineableThing_Desc>Madencilik yapılırken çıkarılan eşya.</Stat_MineableThing_Desc>
+  <!-- EN: Mining yield -->
+  <Stat_MiningYield_Name>Madencilik verimi</Stat_MiningYield_Name>
+  <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
+  <Stat_MiningYield_Desc>Bunun kazıldığında çıkardığı maksimum maden miktarı. Bu miktar madencinin maden becerisine göre ayarlanır.</Stat_MiningYield_Desc>
+  <!-- EN: Source species -->
   <Stat_SourceSpecies_Name>Kaynak türleri</Stat_SourceSpecies_Name>
-  <Stat_SourceSpecies_Desc>Bunun alındığı yaratık türleri.</Stat_SourceSpecies_Desc>
-  <Stat_Stuff_Name>Eşya</Stat_Stuff_Name>
-  <Stat_Stuff_Desc>Bu eşyanın yapıldığı şeyler. Bu, silah hasarı, kıyafet zırhı ve yalıtımı, eşya ve bina isabet puanları, güzellik, piyasa değeri ve çok daha fazlası dahil olmak üzere diğer birçok istatistikleri etkiler.</Stat_Stuff_Desc>
+  <!-- EN: The species of creature from which this was taken. -->
+  <Stat_SourceSpecies_Desc>Bunun alındığı canlı türleri.</Stat_SourceSpecies_Desc>
+  <!-- EN: Stuff -->
+  <Stat_Stuff_Name>Madde</Stat_Stuff_Name>
+  <!-- EN: The stuff this thing is made of. This affects many other stats, including weapon damage, apparel armor and insulation, item and building hit points, beauty, market value, and much more. -->
+  <Stat_Stuff_Desc>Bu şeyin yapıldığı maddeler. Bu silah hasarı, kıyafet zırhı ve yalıtımı, eşya ve bina isabet puanları, güzellik, market değeri ve çok daha fazlası dahil olmak üzere diğer birçok niteliği etkiler.</Stat_Stuff_Desc>
+  <!-- EN: Weapon -->
   <Stat_Weapon_Name>Silah</Stat_Weapon_Name>
+  <!-- EN: The weapon used by this turret. -->
   <Stat_Weapon_Desc>Bu taretin kullandığı silah.</Stat_Weapon_Desc>
-  <Stat_HitPoints_Desc>Bir nesnenin yok edilmeden önce ne kadar hasar alabileceği.</Stat_HitPoints_Desc>
+  <!-- EN: How much damage an object can take before being destroyed. -->
+  <Stat_HitPoints_Desc>Bir nesne yok edilmeden önce ne kadar hasar alabilir.</Stat_HitPoints_Desc>
+  <!-- EN: The amount of work it takes to uninstall this. -->
   <Stat_Thing_WorkToUninstall_Desc>Bunu kaldırmak için gereken çalışma miktarı.</Stat_Thing_WorkToUninstall_Desc>
-  <Stat_Thing_CreatedAt_Desc>Bunu üretmek için hangi tesisler kullanılabilir?</Stat_Thing_CreatedAt_Desc>
+  <!-- EN: Which facilities can be used to produce this. -->
+  <Stat_Thing_CreatedAt_Desc>Bu hangi tesislerde üretilebilir.</Stat_Thing_CreatedAt_Desc>
+  <!-- EN: The amount of damage this weapon deals.\n\nThis may be deflected or mitigated by the target's armor. -->
   <Stat_Thing_Damage_Desc>Bu silahın verdiği hasar miktarı.\n\nBu hedefin zırhı tarafından saptırılabilir veya hafifletilebilir.</Stat_Thing_Damage_Desc>
-  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Bir hastayı tedavi etmek için bunu kullanırken doktorların kazandığı deneyim miktarının bir çarpan.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
-  <Stat_Thing_Plant_Attributes_Desc>Bu bitkinin özellikleri</Stat_Thing_Plant_Attributes_Desc>
-  <Stat_Thing_Apparel_Covers_Desc>Bunun hangi gövde parçalarını kapladığı.\n\nZırhın kapsamadığı gövde parçalarını korumaz.</Stat_Thing_Apparel_Covers_Desc>
-  <Stat_Thing_Apparel_Layer_Desc>Bunun hangi giyim katmanlarını doldurduğu.\n\nBelirli bir vücut parçası için, her katta sadece bir parça giyim giyilebilir.</Stat_Thing_Apparel_Layer_Desc>
+  <!-- EN: A multiplier on the amount of experience doctors gain when using this to tend a patient. -->
+  <Stat_Thing_Drug_MedicineXpGainFactor_Desc>Doktorların bunla hasta tedavi ederken kazandığı tecrübe miktarınının çarpanı.</Stat_Thing_Drug_MedicineXpGainFactor_Desc>
+  <!-- EN: The attributes of this plant. -->
+  <Stat_Thing_Plant_Attributes_Desc>Bu bitkinin nitelikleri.</Stat_Thing_Plant_Attributes_Desc>
+  <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
+  <Stat_Thing_Apparel_Covers_Desc>Bu vücudun hangi parçalarını kapsar.\n\nZırh kapsamadığı gövde parçalarını korumaz.</Stat_Thing_Apparel_Covers_Desc>
+  <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
+  <Stat_Thing_Apparel_Layer_Desc>Bu hangi kıyafet katmanlarını doldurur.\n\nBelirli bir vücut parçası için her katmanda sadece bir parça kıyafet giyilebilir.</Stat_Thing_Apparel_Layer_Desc>
+  <!-- EN: The minimum soil fertility that this plant requires to grow. -->
   <Stat_Thing_Plant_FertilityRequirement_Desc>Bu bitkinin büyümesi için gereken minimum toprak verimliliği.</Stat_Thing_Plant_FertilityRequirement_Desc>
-  <Stat_Thing_Plant_FertilitySensitivity_Desc>Bu bitki toprak verimliliğine ne kadar duyarlıdır.\n\nDüşük hassasiyet, bitkinin zengin veya fakir toprakta aynı hızda büyüyeceği anlamına gelir. Yüksek hassasiyet, bitkinin fakir toprakta yavaş, zengin toprakta daha hızlı büyüdüğü anlamına gelir.</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
+  <Stat_Thing_Plant_FertilitySensitivity_Desc>Bu bitki toprak verimliliğine ne kadar duyarlıdır.\n\nDüşük duyarlılık bitkinin zengin veya fakir toprakta aynı hızda büyüyeceği anlamına gelir. Yüksek duyarlılık bitkinin fakir toprakta yavaş, zengin toprakta hızlı büyüyeceği anlamına gelir.</Stat_Thing_Plant_FertilitySensitivity_Desc>
+  <!-- EN: The amount of light this plant requires to grow. -->
   <Stat_Thing_Plant_LightRequirement_Desc>Bu bitkinin büyümesi için gereken ışık miktarı.</Stat_Thing_Plant_LightRequirement_Desc>
-  <Stat_Thing_Plant_LifeSpan_Desc>Bitkinin ömrü.\n\nBitkiler, hasat edilmese bile, belirli bir yaşa ulaştıktan sonra doğal olarak ölürler.</Stat_Thing_Plant_LifeSpan_Desc>
+  <!-- EN: The lifespan of the plant.\n\nPlants naturally die after they reach a certain age, even if not harvested. -->
+  <Stat_Thing_Plant_LifeSpan_Desc>Bitkinin yaşam süresi.\n\nBitkiler hasat edilmese bile belirli bir yaşa ulaştıktan sonra doğal olarak ölürler.</Stat_Thing_Plant_LifeSpan_Desc>
+  <!-- EN: The amount of product this plant will yield when harvested. -->
   <Stat_Thing_Plant_HarvestYield_Desc>Bu bitkinin hasat edildiğinde vereceği ürün miktarı.</Stat_Thing_Plant_HarvestYield_Desc>
+  <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
   <Stat_Thing_Plant_MinGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği minimum sıcaklık.\n\nBunun altındaki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
-  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği maximum sıcaklık.\n\nBunun altındaki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
-  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Bir çiftçinin bu bitkiyi ekmesi için gereken minimum beceri.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
-  <Stat_Race_Diet_Desc>Bu yaratığın yiyebileceği yiyecek çeşitleri.\n\nYemek yiyebilir: {0}</Stat_Race_Diet_Desc>
+  <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği maksimum sıcaklık.\n\nBunun üstündeki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Bir çiftçinin bu bitkiyi ekebilmesi için gereken minimum beceri.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
+  <Stat_Race_Diet_Desc>Bu canlının yiyebileceği yiyecek çeşitleri.\n\nYiyebilir: {0}</Stat_Race_Diet_Desc>
+  <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>Bu canlının kesildiğinde vereceği deri türü.</Stat_Race_LeatherType_Desc>
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Bir eğitmen, hayvanı evcilleştirmeye çalışıp başarısız olduğunda bu yaratığın saldırma şansı.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
-  <Stat_Race_Trainability_Desc>Bu yaratığın eğitim için genel zihinsel yeteneği. Bu zeka ve dikkatin birleşimidir. Bu yaratığın ne tür görevleri yerine getirmek için eğitilebileceğini belirler.</Stat_Race_Trainability_Desc>
-  <Stat_Race_LifeExpectancy_Desc>Bu yaratığın ortalama ömrü.</Stat_Race_LifeExpectancy_Desc>
-  <Stat_Thing_Ingestible_Joy_Desc>Bunu kullanmanın verdiği eğlence değeri. Daha yüksek rakamlar, eğlence ihtiyacını daha fazla karşılayacaktır.</Stat_Thing_Ingestible_Joy_Desc>
-  <Stat_Race_BodySize_Desc>Ortalama bir yetişkin insana kıyasla bu canlının vücudunun büyüklüğü.</Stat_Race_BodySize_Desc>
-  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Bu silahla bir yakın dövüş saldırısı başladığında ve vurulduğunda arasında ne kadar zaman geçtiği.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
-  <Stat_Thing_Weapon_BurstShotCount_Desc>Bu silahın her ateşlendiğinde, ateş ettiği atış miktarı.</Stat_Thing_Weapon_BurstShotCount_Desc>
-  <Stat_Thing_Weapon_BurstShotFireRate_Desc>Her bir ateşleme sırasında bu silahın ateş hızı.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Bu canlının evcilleştirilmeye çalışıp başarısız olunduğunda evcilleştirene saldırma şansı.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
+  <Stat_Race_Trainability_Desc>Bu canlının eğitime olan genel zihinsel eğilimi. Bu zeka ve dikkatin birleşimidir. Bu, canlının ne tür görevleri yapmak için eğitilebileceğini belirler.</Stat_Race_Trainability_Desc>
+  <!-- EN: The average life expectancy of this creature. -->
+  <Stat_Race_LifeExpectancy_Desc>Bu canlının ortalama tahmini yaşam süresi.</Stat_Race_LifeExpectancy_Desc>
+  <!-- EN: The recreational value of ingesting this. Higher numbers will fulfill the recreation need more. -->
+  <Stat_Thing_Ingestible_Joy_Desc>Bunu yutmanın verdiği eğlence değeri. Daha yüksek rakamlar eğlence ihtiyacını daha fazla karşılar.</Stat_Thing_Ingestible_Joy_Desc>
+  <!-- EN: The size of this creature's body, compared to an average adult human. -->
+  <Stat_Race_BodySize_Desc>Ortalama bir yetişkin insana kıyasla bu canlının vücut boyutu.</Stat_Race_BodySize_Desc>
+  <!-- EN: How much time passes between when a melee attack with this weapon begins and when it hits. -->
+  <Stat_Thing_Weapon_MeleeWarmupTime_Desc>Bu silahla bir yakın dövüş saldırısının başlamasıyla vurması arasında geçen zaman.</Stat_Thing_Weapon_MeleeWarmupTime_Desc>
+  <!-- EN: The amount of shots this weapon fires in each burst. -->
+  <Stat_Thing_Weapon_BurstShotCount_Desc>Bu silah her ateşlendiğinde yapılan atış miktarı.</Stat_Thing_Weapon_BurstShotCount_Desc>
+  <!-- EN: The fire rate of this weapon during each burst. -->
+  <Stat_Thing_Weapon_BurstShotFireRate_Desc>Bu silahın her ateşleme sırasındaki atış hızı.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
+  <!-- EN: The maximum range of this weapon. -->
   <Stat_Thing_Weapon_Range_Desc>Bu silahın maksimum menzili.</Stat_Thing_Weapon_Range_Desc>
-  <Stat_Thing_Weapon_MissRadius_Desc>Bu silahın ateş ettiği atışlarda rastgele yayılma yarıçapı.\n\nYüksek değerler mermilerin hedefin etrafında rastgele dağılmasını sağlar.</Stat_Thing_Weapon_MissRadius_Desc>
-  <Stat_Thing_Weapon_DirectHitChance_Desc>Bir atış engellenemzse, hedef kaçmazsa veya durdurulmazsa doğrudan hedefini vurma şansı.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
+  <Stat_Thing_Weapon_MissRadius_Desc>Bu silahtan yapılan atışlarda merminin rastgele yayılma yarıçapı.\n\nYüksek değerler mermilerin hedefin etrafında rastgele dağılmasını sağlar.</Stat_Thing_Weapon_MissRadius_Desc>
+  <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
+  <Stat_Thing_Weapon_DirectHitChance_Desc>Bir atışın eğer engellenmezse, kaçılmazsa veya durdurulmazsa doğrudan hedefini vurma şansı.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>Bu vücut parçasının sahibinin ruh hali üzerindeki etkisi.</Stat_Thing_MoodChange_Desc>
-  <Stat_Recipe_Skill_Desc>Bu tarifi yaparken kullanılan ana beceri.\n\nSonuç kalitesini belirler ve bu tarifi yaparken öğrenilir.</Stat_Recipe_Skill_Desc>
-  <Stat_Recipe_Ingredients_Desc>Bu tarifi gerçekleştirmek için gerekli malzemeler</Stat_Recipe_Ingredients_Desc>
+  <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
+  <Stat_Recipe_Skill_Desc>Bu tarifi yaparken kullanılan ana beceri.\n\nBu, sonucun kalitesini belirler ve tarifi yaparken öğrenilir.</Stat_Recipe_Skill_Desc>
+  <!-- EN: The ingredients required to perform this recipe. -->
+  <Stat_Recipe_Ingredients_Desc>Bu tarifi yapmak için gerekli malzemeler</Stat_Recipe_Ingredients_Desc>
+  <!-- EN: The skills required to perform this recipe. -->
   <Stat_Recipe_SkillRequirements_Desc>Bu tarifi yapmak için gerekli beceriler.</Stat_Recipe_SkillRequirements_Desc>
+  <!-- EN: The products produced by this recipe. -->
   <Stat_Recipe_Products_Desc>Bu tarifle üretilen ürünler.</Stat_Recipe_Products_Desc>
-  <Stat_Recipe_WorkSpeedStat_Desc>Bu tarifin çalışma hızını hangi karakter statüsü yönetir.\n\nİşçinin statüsü ne kadar yüksek olursa, o kadar hızlı çalışma yapılır.</Stat_Recipe_WorkSpeedStat_Desc>
- <Stat_Recipe_EfficiencyStat_Desc>Hangi değer, çıktı kalitesini veya miktarını yönetir?\n\nÇalışan statüsü ne kadar yüksek olursa, kalite veya verim o kadar yüksek olur.</Stat_Recipe_EfficiencyStat_Desc>
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Bu operasyonun şansı üzerinde bir çarpan başarılı olacaktır. Daha zor operasyonların çarpanları daha düşüktür.\n\nBir ameliyatın başarı şansı, kullanılan doktordan, tesislerden ve ilaçtan da etkilenir.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <!-- EN: Which character stat governs the workspeed of this recipe.\n\nThe higher the stat of the worker is, the faster work will be done. -->
+  <Stat_Recipe_WorkSpeedStat_Desc>Bu tarifin çalışma hızını yöneten karakter niteliği.\n\nNitelik ne kadar yüksek olursa iş o kadar hızlı biter.</Stat_Recipe_WorkSpeedStat_Desc>
+  <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
+  <Stat_Recipe_EfficiencyStat_Desc>Çıktının kalitesini yada miktarını yöneten nitelik.\n\nNitelik ne kadar yüksek olursa kalite veya verim o kadar yüksek olur.</Stat_Recipe_EfficiencyStat_Desc>
+  <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Bu operasyonun başarılı olma şansının çarpanı. Daha zor operasyonların çarpanları daha düşüktür.\n\nGerçek başarı şansı kullanılan doktora, tesislere ve ilaca göre hesaplanır.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Başarısız olamaz</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
-  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Bu işlemin yapılması hasta için güvenlidir</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
-  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Hastanın bu, bu operasyon başarısızlığı üzerine ölme şansı.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
-  <Stat_Thing_Drug_Addictiveness_Desc>Bu ilacın bağımlılığı</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: Performing this operation is safe for the patient. -->
+  <Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>Bu ameliyatın yapılması hasta için güvenlidir.</Stat_Thing_Surgery_SuccessChanceFactor_CantFail_Desc>
+  <!-- EN: The chance the patient will die upon failure of this surgery. -->
+  <Stat_Thing_Surgery_DeathOnFailChance_Desc>Hastanın bu ameliyatın başarısızlığı yüzünden ölme şansı.</Stat_Thing_Surgery_DeathOnFailChance_Desc>
+  <!-- EN: Total bleed factor -->
   <Stat_Hediff_TotalBleedFactor_Name>Toplam kanama faktörü</Stat_Hediff_TotalBleedFactor_Name>
+  <!-- EN: A multiplier applied to the overall rate of blood loss. -->
   <Stat_Hediff_TotalBleedFactor_Desc>Genel kan kaybı oranının çarpanı</Stat_Hediff_TotalBleedFactor_Desc>
+  <!-- EN: Natural healing factor -->
   <Stat_Hediff_NaturalHealingFactor_Name>Doğal iyileşme faktörü</Stat_Hediff_NaturalHealingFactor_Name>
-  <Stat_Hediff_NaturalHealingFactor_Desc>Doğal yara iyileşmesinin genel oranının çarpanı.</Stat_Hediff_NaturalHealingFactor_Desc>
+  <!-- EN: A multiplier applied to the overall rate of natural wound healing. -->
+  <Stat_Hediff_NaturalHealingFactor_Desc>Genel doğal yara iyileşme oranına etki eden bir çarpan.</Stat_Hediff_NaturalHealingFactor_Desc>
+  <!-- EN: Food poisoning chance factor -->
   <Stat_Hediff_FoodPoisoningChanceFactor_Name>Gıda zehirlenmesi şans faktörü</Stat_Hediff_FoodPoisoningChanceFactor_Name>
-  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Yemek zehirlenmesi ve yemek pişirme şeklinin çarpanı</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <!-- EN: A multiplier applied to the chance of getting food poisoning. -->
+  <Stat_Hediff_FoodPoisoningChanceFactor_Desc>Gıda zehirlenmesi şansına etki eden bir çarpan.</Stat_Hediff_FoodPoisoningChanceFactor_Desc>
+  <!-- EN: The rate at which this condition causes blood loss. -->
   <Stat_Hediff_BleedingRate_Desc>Bu durumun neden olduğu kan kaybı miktarı.</Stat_Hediff_BleedingRate_Desc>
+  <!-- EN: The amount of pain caused by this condition. -->
   <Stat_Hediff_Pain_Desc>Bu durumun neden olduğu ağrı miktarı.</Stat_Hediff_Pain_Desc>
-  <Stat_Hediff_PartEfficiency_Desc>Bundan etkilenen vücut kısımlarına uygulanan verimlilik farkı.</Stat_Hediff_PartEfficiency_Desc>
-  <Stat_Hediff_Affects_Desc>Zihni etkileyen yetenekler.</Stat_Hediff_Affects_Desc>
-  <Stat_Hediff_HungerRateOffset_Name>Açlık oranı farkı.</Stat_Hediff_HungerRateOffset_Name>
-  <Stat_Hediff_HungerRateFactor_Desc>Yiyeceğe ihtiyaç duyduğu oranda çarpan.</Stat_Hediff_HungerRateFactor_Desc>
-  <Stat_Hediff_HungerRateOffset_Desc>Yiyeceklerin tükenme oranındaki bir çarpan.</Stat_Hediff_HungerRateOffset_Desc>
+  <!-- EN: The offset in efficiency applied to body parts affected by this. -->
+  <Stat_Hediff_PartEfficiency_Desc>Bundan etkilenen vücut parçalarının verimliliğine etki eden bir dengeleme.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: The mental abilities this affects. -->
+  <Stat_Hediff_Affects_Desc>Bunun etkilediği zihinsel yetenekler.</Stat_Hediff_Affects_Desc>
+  <!-- EN: Hunger rate offset -->
+  <Stat_Hediff_HungerRateOffset_Name>Açlık oranı dengelemesi</Stat_Hediff_HungerRateOffset_Name>
+  <!-- EN: A multiplier on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateFactor_Desc>Tüketilmesi gereken yiyecek oranına etki eden bir çarpan.</Stat_Hediff_HungerRateFactor_Desc>
+  <!-- EN: An offset on the rate at which the food need depletes. -->
+  <Stat_Hediff_HungerRateOffset_Desc>Tüketilmesi gereken yiyecek oranına etki eden bir dengeleme.</Stat_Hediff_HungerRateOffset_Desc>
+  <!-- EN: Rest fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Yorgunluktan bayılma oranı</Stat_Hediff_TirednessOffset_Name>
-  <Stat_Hediff_TirednessOffset_Desc>Canlıların dinlenme hızına uygulanan bir etkileşim.</Stat_Hediff_TirednessOffset_Desc>
-  <Stat_Hediff_TirednessFactor_Desc>Yaratıkların ihtiyaç duydukları orana uygulanan bir çarpan.</Stat_Hediff_TirednessFactor_Desc>
-  <Stat_Hediff_PreventsInfection_Desc>Bunun enfeksiyonları önleyip önlemeyeceği.</Stat_Hediff_PreventsInfection_Desc>
+  <!-- EN: An offset applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessOffset_Desc>Dinlenme ihtiyacındaki azalma oranına etki eden bir dengeleme.</Stat_Hediff_TirednessOffset_Desc>
+  <!-- EN: A multiplier applied to the rate at which the creatures rest need falls. -->
+  <Stat_Hediff_TirednessFactor_Desc>Dinlenme ihtiyacındaki azalma oranına etki eden bir çarpan.</Stat_Hediff_TirednessFactor_Desc>
+  <!-- EN: Whether or not this will prevent infections. -->
+  <Stat_Hediff_PreventsInfection_Desc>Bu enfeksiyonları önler mi önlemez mi.</Stat_Hediff_PreventsInfection_Desc>
+  <!-- EN: The things this terrain supports. -->
   <Stat_Thing_Terrain_Supports_Desc>Bu arazinin desteklediği şeyler.</Stat_Thing_Terrain_Supports_Desc>
+  <!-- EN: This can only be placed on terrain of these types. -->
   <Stat_Thing_TerrainRequirement_Desc>Bu yalnızca bu tür arazilere yerleştirilebilir.</Stat_Thing_TerrainRequirement_Desc>
-  <Stat_Thing_PowerConsumption_Desc>Bu binanın elektrik şebekesinden çekeceği güç miktarı.</Stat_Thing_PowerConsumption_Desc>
-  <Stat_Thing_BodyPartEfficiency_Desc>Bu vücut bölümünün genel verimliliği.</Stat_Thing_BodyPartEfficiency_Desc>
-  <Stat_Thing_Weapon_Biocoded_Name>Biyokodculuk</Stat_Thing_Weapon_Biocoded_Name>
-  <Stat_Thing_Weapon_Biocoded_Desc>Bu madde sadece belirli bir kişinin biyo-imzasını kabul edecek şekilde kodlanmıştır.</Stat_Thing_Weapon_Biocoded_Desc>
+  <!-- EN: Considered -->
+  <Stat_Thing_Terrain_Fine_Name>Düşünülmüş</Stat_Thing_Terrain_Fine_Name>
+  <!-- EN: Fine -->
+  <Stat_Thing_Terrain_Fine_Value>İyi</Stat_Thing_Terrain_Fine_Value>
+  <!-- EN: This floor is considered fine and suitable for royalty. -->
+  <Stat_Thing_Terrain_Fine_Desc>Bu zemin iyi düşünülmüş ve kraliyet için uygun.</Stat_Thing_Terrain_Fine_Desc>
+  <!-- EN: The amount of power this building will draw from the power grid. -->
+  <Stat_Thing_PowerConsumption_Desc>Bu yapının elektrik şebekesinden çekeceği güç miktarı.</Stat_Thing_PowerConsumption_Desc>
+  <!-- EN: {CHARGENOUN_plural} remaining -->
+  <Stat_Thing_ReloadChargesRemaining_Name>Kalan {CHARGENOUN_plural}</Stat_Thing_ReloadChargesRemaining_Name>
+  <!-- EN: The number of {CHARGENOUN_plural} remaining on this object. If these run out, the special ability can no longer be used. -->
+  <Stat_Thing_ReloadChargesRemaining_Desc>Kalan {CHARGENOUN_plural} sayısı. Eğer bunlar tükenirse, özel yetenek kullanılamaz.</Stat_Thing_ReloadChargesRemaining_Desc>
+  <!-- EN: {CHARGENOUN_plural} -->
+  <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
+  <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
+  <Stat_Thing_ReloadMaxCharges_Desc>Bu nesnenin sahip olduğu maksimum {CHARGENOUN_plural} sayısı.</Stat_Thing_ReloadMaxCharges_Desc>
+  <!-- EN: {CHARGENOUN} reload cost -->
+  <Stat_Thing_ReloadRefill_Name>{CHARGENOUN} doldurma maliyeti</Stat_Thing_ReloadRefill_Name>
+  <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
+  <Stat_Thing_ReloadRefill_Desc>Bu nesneyi doldurmak için gereken eşya miktarı.\n\nBoşalmadan tekrar doldurulabilir ama yeniden doldurulurken boşmuş gibi sayılır.</Stat_Thing_ReloadRefill_Desc>
+  <!-- EN: Reload cost per {CHARGENOUN} -->
+  <Stat_Thing_ReloadPerCharge_Name>{CHARGENOUN} başına doldurma maliyeti</Stat_Thing_ReloadPerCharge_Name>
+  <!-- EN: The amount of items required to reload one {CHARGENOUN}. Multiple {CHARGENOUN_plural} can be reloaded at once. -->
+  <Stat_Thing_ReloadPerCharge_Desc>Bir {CHARGENOUN} doldurmak için gereken eşya miktarı. Birden fazla {CHARGENOUN_plural} tek seferde yeniden doldurulabilir.</Stat_Thing_ReloadPerCharge_Desc>
+  <!-- EN: Vanish on exhaust -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Name>doldurma miktarı</Stat_Thing_ReloadDestroyOnEmpty_Name>
+  <!-- EN: This item will vanish when its last {CHARGENOUN} is used. -->
+  <Stat_Thing_ReloadDestroyOnEmpty_Desc>Bu eşya son {CHARGENOUN} kullanıldığında kaybolacak.</Stat_Thing_ReloadDestroyOnEmpty_Desc>
+  <!-- EN: The overall efficiency of this body part. -->
+  <Stat_Thing_BodyPartEfficiency_Desc>Bu vücut parçasının genel verimliliği.</Stat_Thing_BodyPartEfficiency_Desc>
+  <!-- EN: Biocoding -->
+  <Stat_Thing_Weapon_Biocoded_Name>Biyokodlama</Stat_Thing_Weapon_Biocoded_Name>
+  <!-- EN: This item has been coded to only accept a particular individual's bio-signature. -->
+  <Stat_Thing_Weapon_Biocoded_Desc>Bu eşya sadece belirli bir kişinin biyo-imzasını kabul edecek şekilde kodlanmış.</Stat_Thing_Weapon_Biocoded_Desc>
+  
+  <!-- Drugs -->
+  <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
+  <Stat_Thing_Drug_Chemical_Desc>İçinde bulunan aktif kimyasallar.\n\nBazı kimyasallar, farklı uyuşturucuların içinde bulunabilir. Bu birbirinden farklı uyuşturucular aynı bağımlılığı farklı yollarda tatmin edecekler.</Stat_Thing_Drug_Chemical_Desc>
+  <!-- EN: The intensity of high gained per dose of this drug. -->
+  <Stat_Thing_Drug_HighGainPerDose_Desc>Doz başı uyuşturucu etkisi artışı.</Stat_Thing_Drug_HighGainPerDose_Desc>
+  <!-- EN: How much this drug's high will decay each day. -->
+  <Stat_Thing_Drug_HighFallPerDay_Desc>Uyuşturucun etkisinin gün başına azalma miktarı.</Stat_Thing_Drug_HighFallPerDay_Desc>
+  <!-- EN: How long this drug's high will last per dose.\n\nThis is calculated from the high gained per dose and the high fall rate. -->
+  <Stat_Thing_Drug_HighDurationPerDose_Desc>Doz başı uyuşturucu etkin kalma süresi.\n\nBu, doz başı uyuşturucu etkisi artışına ve uyuşturucun etkisinin gün başına azalma miktarına bağlıdır.</Stat_Thing_Drug_HighDurationPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will increase for each dose of this drug.\n\nThis can be different for different forms of the same chemical. -->
+  <Stat_Thing_Drug_ToleranceGainPerDose_Desc>Kullananın doz başına kimyasal toleransının artma miktarı.\n\nBu aynı kimyasalın farklı formlarında farklılaşabilir.</Stat_Thing_Drug_ToleranceGainPerDose_Desc>
+  <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
+  <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Kullananın günlük kimyasal toleransının azalma miktarı.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
+  <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Yeni bağımlı olmak için gereken minimum tolerans.\n\nEğer kullananın toleransı bundan azsa yeni doz alarak bağımlı olamaz.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <!-- EN: A user will never become addicted if they never take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay.\n\nNote that some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one. -->
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Kullanıcı bundan daha sık doz almadığı sürece bağımlı olmaz.\n\nBu, bağımlı olmak için gereken minimum toleransa, doz başına kimyasal toleransının artma miktarına ve tolerans azalma oranına bağlıdır.\n\nNot bazı uyuşturucuların güvenli kullanım aralığı yoktur. Bunlar her dozda bağımlılık yapabilir, ilk seferde bile.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
+  <Stat_Thing_Drug_RandomODChance_Desc>Aşırı doz alma şansı. Bu, her dozda olabilir, tecrübeli birinin 100. dozunda yada meraklı birinin ilk dozunda.</Stat_Thing_Drug_RandomODChance_Desc>
+  <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
+  <Stat_Thing_Drug_Addictiveness_Desc>Bağımlı olma şansı.\n\nEğer uyuşturucu minimum toleransa sahipse, toleransın bu miktardan fazla olması gerekir. Eğer yoksa, her doz bağımlılığa yol açabilir.</Stat_Thing_Drug_Addictiveness_Desc>
+  <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
+  <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Bu uyuşturucuya olan yeni bağımlılıkların başlangıç şiddet seviyesi.\n\nDaha fazla uyuşturucu almak bu şiddeti arttıracaktır, zamansa azaltacaktır.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
+  <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->
+  <Stat_Thing_Drug_AddictionRecoveryTime_Desc>Bu uyuşturucuya olan bağımlılığın ne kadar sürede bırakıldığı.\n\nBu, bağımlılık başlangıç şiddetinin bağımlıktan kurtulma oranına bölünmesiyle hesaplanır. Beslenmiş bir bağımlılı bırakmak daha zordur.</Stat_Thing_Drug_AddictionRecoveryTime_Desc>
+  <!-- EN: How much severity is added to an existing addiction for each dose of this drug.\n\nAddiction severity cannot go above 100%. -->
+  <Stat_Thing_Drug_AddictionSeverityPerDose_Desc>Bu uyuşturucunun doz başına bağımlılık şiddetini ne kadar arttırdığı.\n\nŞiddet %100'ün üstüne çıkamaz.</Stat_Thing_Drug_AddictionSeverityPerDose_Desc>
+  <!-- EN: How often an addict needs to take a dose of this drug to feed the addiction and prevent withdrawal.\n\nThis is calculated from the addiction need fall rate and the need fill per dose. -->
+  <Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>Bir bağımlının bağımlılığı beslemesi ve bırakmayı önlemesi için gereken uyuşturucu alma sıklığı.\n\nBu, uyuşturucu ihtiyacı azalma oranına ve doz başına tatminliğe göre hesaplanır.</Stat_Thing_Drug_AddictionNeedDoseInterval_Desc>
+  <!-- EN: How much each dose of this drug fills an addict's need for the chemical. -->
+  <Stat_Thing_Drug_AddictionNeedOffset_Desc>Bu uyuşturucunun doz başına ne kadar tatmin ettiği.</Stat_Thing_Drug_AddictionNeedOffset_Desc>
+  <!-- EN: How quickly an addict's need for the chemical will fall. -->
+  <Stat_Thing_Drug_AddictionNeedFallRate_Desc>Bağımlının uyuşturucuya olan ihtiyacının ne kadar hızlı düştüğü.</Stat_Thing_Drug_AddictionNeedFallRate_Desc>
+  <!-- EN: The market value of drugs that must be consumed per day to support an addiction to this drug without going into withdrawal.\n\nThis value is calculated from the addict's chemical need per dose, the need fall rate, and the market value of this drug.\n\nNote that there may be other ways to get the same chemical with different costs. -->
+  <Stat_Thing_Drug_AddictionCost_Desc>Bu uyuşturucuya olan bağımlılık kesilmeden günlük tüketilmesi gereken uyuşturucuların piyasadaki değeri.\n\nBu, bağımlılının ihtiyacı olan doz miktarına, uyuşturucu etkisinin düşüş oranına ve uyuşturucunun piyasadaki değerine göre hesaplanır.\n\nNot: Aynı uyuşturucuyu farklı maliyetlerde elde edebeliceğini de unutma.</Stat_Thing_Drug_Addiction>
 
 </LanguageData>
