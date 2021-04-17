@@ -37,3 +37,4 @@ Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797b
 ### Yeni klasörler
 
 - [ ] Core\DefInjected\RulePackDef\
+- [ ] Core\DefInjected\QuestScriptDef\
