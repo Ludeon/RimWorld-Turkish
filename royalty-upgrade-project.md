@@ -38,6 +38,7 @@ Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797b
 
 - [ ] Core\DefInjected\ThingDef\Buildings_Power.xml -> Chemfuel
 - [ ] Core\DefInjected\ThingDef\Apparel_Headgear.xml
+- [ ] Core\DefInjected\ThingDef\Apparel_Belts.xml
 
 ### Yeni klasörler
 
