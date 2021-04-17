@@ -1,322 +1,545 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Forbid -->
+  <!-- EN: Forbid -->
   <CommandForbid>Yasakla</CommandForbid>
+  <!-- EN: Allow -->
   <CommandAllow>İzin ver</CommandAllow>
+  <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
   <CommandForbiddenDesc>Yasakla: Kolonistlerinizin bununla etkileşime girmesine izin verilmez. İzin vermek için tıklayın.</CommandForbiddenDesc>
+  <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
   <CommandNotForbiddenDesc>İzin ver: Kolonistlerinizin bununla etkileşime girmesine izin verilir. Yasaklamak için tıklayın.</CommandNotForbiddenDesc>
 
   <!-- Power -->
+  <!-- EN: Toggle power -->
   <CommandTogglePowerLabel>Gücü Aç/Kapat</CommandTogglePowerLabel>
+  <!-- EN: Toggle power. -->
   <CommandTogglePowerDesc>Gücü Aç/Kapat</CommandTogglePowerDesc>
   
+  <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>Geçiş gücünü belirleyin</CommandDesignateTogglePowerLabel>
+  <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
   <CommandDesignateTogglePowerDesc>Bu öğenin gücünün değiştirilmesini sağlayın. Yakında bir kolonist güç anahtarına basacak.</CommandDesignateTogglePowerDesc>
   
+  <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Yeniden bağla</CommandTryReconnectLabel>
+  <!-- EN: Try to connect to a different power net within my connection radius. This is useful if I'm connected to an unpowered net but there is a powered net nearby. -->
   <CommandTryReconnectDesc>Başka bir güç ağına bağlanmayı deneyin. Elektriksiz bir ağa bağlıysa, elektriği temin edip yeniden bağlayabilirsiniz.</CommandTryReconnectDesc>
 
+  <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>Toplanma Noktası</CommandGatherSpotToggleLabel>
+  <!-- EN: Active - colonists will gather around this object. -->
   <CommandGatherSpotToggleDescActive>Aktif kolonistler bu nesnenin etrafında toplanacaklar.</CommandGatherSpotToggleDescActive>
+  <!-- EN: Inactive - colonists will not gather around this object. -->
   <CommandGatherSpotToggleDescInactive>Pasif kolonistler bu nesnenin etrafında toplanmazlar.</CommandGatherSpotToggleDescInactive>
   
   <!-- Drafting -->
+  <!-- EN: Draft -->
   <CommandDraftLabel>Askeri Mod</CommandDraftLabel>
+  <!-- EN: Undraft -->
   <CommandUndraftLabel>Normal Mod</CommandUndraftLabel>
+  <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
   <CommandToggleDraftDesc>Askeri durumu Aç/Kapat.\n\nGelişmiş insanlar emir alır ve savaşırlar. Çalışmayacak, yemek yemeyecek veya dinlenmeyecekler. Sadece talimatları yerine getirecekler.</CommandToggleDraftDesc>
+  <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} yürüyemiyor.</IsIncapped>
 
+  <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Ateş serbest</CommandFireAtWillLabel>
+  <!-- EN: Toggle fire at will.\n\nWhen disabled, this character will not automatically shoot at ranged targets. Does not affect melee combat. -->
   <CommandFireAtWillDesc>Atış şeklini istediğiniz gibi değiştirin.\n\nBu aktif edildiğinde, karakter menzilli hedeflere otomatik olarak ateş etmez. Yakın dövüşü etkilemez.</CommandFireAtWillDesc>
   
+  <!-- EN: Clear prioritized work -->
   <CommandClearPrioritizedWork>Öncelikli işi temizle</CommandClearPrioritizedWork>
+  <!-- EN: Clear any prioritized work you assigned. The character will go back to their usual self-directed activities. -->
   <CommandClearPrioritizedWorkDesc>Atadığınız öncelikli işleri silin. Karakter, kendi kendini yöneten aktivitelerine geri dönecek.</CommandClearPrioritizedWorkDesc>
   
+  <!-- EN: Cancel -->
   <CommandCancelConstructionLabel>Vazgeç</CommandCancelConstructionLabel>
+  <!-- EN: Cancel this construction. -->
   <CommandCancelConstructionDesc>Bu yapıdan vazgeç.</CommandCancelConstructionDesc>
 
+  <!-- EN: Get out of bed -->
   <CommandGetOutOfBedLabel>Yataktan çık</CommandGetOutOfBedLabel>
+  <!-- EN: Get out of current bed. -->
   <CommandGetOutOfBedDesc>Mevcut yataktan çık</CommandGetOutOfBedDesc>
 
+  <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Yatak sahibi</CommandThingSetOwnerLabel>
+  <!-- EN: Assign this bed to be owned by a specific colonist. -->
   <CommandBedSetOwnerDesc>Bu yatağı belirli bir koloniste ait olarak atayın.</CommandBedSetOwnerDesc>
+  <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Bu tahtı belirli bir koloniste ait olarak atayın.</CommandThroneSetOwnerDesc>
+  <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
+  <CommandMeditationSpotSetOwnerDesc>TODO</CommandMeditationSpotSetOwnerDesc>
+  <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Kolonist ata</CommandGraveAssignColonistLabel>
+  <!-- EN: Assign this grave to be owned by a specific colonist. -->
   <CommandGraveAssignColonistDesc>Bu mezarı belirli bir koloniste atayın.</CommandGraveAssignColonistDesc>
+  <!-- EN: Assign -->
   <BuildingAssign>Ata</BuildingAssign>
+  <!-- EN: Reassign -->
   <BuildingReassign>Yeniden ata</BuildingReassign>
+  <!-- EN: Unassign -->
   <BuildingUnassign>Atamayı temizle</BuildingUnassign>
+  <!-- EN: For prisoners -->
   <CommandBedSetForPrisonersLabel>Mahkumlar için</CommandBedSetForPrisonersLabel>
+  <!-- EN: Whether beds in this room should be used by prisoners. -->
   <CommandBedSetForPrisonersDesc>Bu odadaki yatakların mahkumlar tarafından kullanılması gerekip gerekmediğini belirleyin.</CommandBedSetForPrisonersDesc>
+  <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
   <CommandBedSetForPrisonersFailOutdoors>Mahkumlar için sadece kapalı alanlardaki yataklar ayarlanabilir.</CommandBedSetForPrisonersFailOutdoors>
+  <!-- EN: Medical -->
   <CommandBedSetAsMedicalLabel>Tıbbi yatak</CommandBedSetAsMedicalLabel>
+  <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>Bu yatağın tıbbi kullanım için olup olmadığını belirleyin.</CommandBedSetAsMedicalDesc>
+  <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOnPrisonerBedWarning>Mahkum modunun açılması tüm odayı etkiler (mahkumlar ve kolonistler aynı odada uyuyamazlar).\n\nBu insanlar yataklarının sahipliğini kaybedecek:</TurningOnPrisonerBedWarning>
+  <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <TurningOffPrisonerBedWarning>Mahkum modunun kapatılması tüm odayı etkiler (mahkumlar ve kolonistler aynı odada uyuyamadıkları için).\n\nBu insanlar yataklarının sahipliğini kaybedecek:</TurningOffPrisonerBedWarning>
+  <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Bunu yapmak istediğinizden emin misiniz?</AreYouSure>
 
+  <!-- EN: Detonate -->
   <CommandDetonateLabel>Patlat</CommandDetonateLabel>
+  <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Patlatma için geri sayımı başlatın.</CommandDetonateDesc>
 
+  <!-- EN: Rename -->
   <CommandRenameZoneLabel>Yeniden isimlendir</CommandRenameZoneLabel>
+  <!-- EN: Rename this zone. -->
   <CommandRenameZoneDesc>Bölgeyi yeniden isimlendir</CommandRenameZoneDesc>
 
+  <!-- EN: Hide -->
   <CommandHideZoneLabel>Gizle</CommandHideZoneLabel>
+  <!-- EN: Unhide -->
   <CommandUnhideZoneLabel>Gizleme</CommandUnhideZoneLabel>
+  <!-- EN: Hide/unhide this zone. -->
   <CommandHideZoneDesc>Bu bölgeyi gizle ya da gizleme.</CommandHideZoneDesc>
 
+  <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Kaldır</CommandDeleteZoneLabel>
+  <!-- EN: Delete this zone. -->
   <CommandDeleteZoneDesc>Bu bölgeyi kaldır</CommandDeleteZoneDesc>
 
+  <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Ayarları kopyala</CommandCopyZoneSettingsLabel>
+  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>Başka bir bölgeye yapıştırabilmeniz için bu bölgenin ayarlarını kopyalayın.</CommandCopyZoneSettingsDesc>
 
+  <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Ayarları yapıştır</CommandPasteZoneSettingsLabel>
+  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>Daha önce panoya kopyalanan ayarları, bu bölgenin ayarlarının üzerine yazın.</CommandPasteZoneSettingsDesc>
 
+  <!-- EN: Allow sowing -->
   <CommandAllowSow>Ekim yapmaya izin ver</CommandAllowSow>
+  <!-- EN: When disabled, colonists will never sow plants in this zone. They will still harvest. -->
   <CommandAllowSowDesc>Ekime izin verilmezse, kolonistler bu tarladaki ekinleri hasat ettikten sonra yeni ekim yapmayacaklar.</CommandAllowSowDesc>
 
   <!-- Artillery -->
+  <!-- EN: Set forced target -->
   <CommandSetForceAttackTarget>Emirle hedef belirleme</CommandSetForceAttackTarget>
+  <!-- EN: Sets a target that this turret must attack continuously as long as it can. -->
   <CommandSetForceAttackTargetDesc>Bu taretin mümkün olduğunca sürekli saldırması gereken bir hedef belirler.</CommandSetForceAttackTargetDesc>
+  <!-- EN: Stop forced attack -->
   <CommandStopForceAttack>Emir verilen hedefi bırak</CommandStopForceAttack>
+  <!-- EN: Stops force-attacking and allows the turret to fire as it wishes. -->
   <CommandStopForceAttackDesc>Taret, emir verilen hedefe yaptığı saldırıyı durdurur ve istediği gibi ateş eder.</CommandStopForceAttackDesc>
+  <!-- EN: Not currently force-attacking. -->
   <CommandStopAttackFailNotForceAttacking>Şu anda emirle hareket etmiyor. </CommandStopAttackFailNotForceAttacking>
+  <!-- EN: Extract shell -->
   <CommandExtractShell>Mermiyi çıkar</CommandExtractShell>
+  <!-- EN: Unloads the current shell so it can be replaced with different ammunition. -->
   <CommandExtractShellDesc>Mevcut mermiyi çıkarır, böylece farklı bir mühimmat koyulabilir.</CommandExtractShellDesc>
+  <!-- EN: Target beyond maximum range. -->
   <MessageTargetBeyondMaximumRange>Hedef menzilden uzak.</MessageTargetBeyondMaximumRange>
+  <!-- EN: Target below minimum range. -->
   <MessageTargetBelowMinimumRange>Hedef minimum menzilden daha yakın.</MessageTargetBelowMinimumRange>
+  <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
   <MessageTurretWontFireBecauseHoldFire>Uyarı: Havan topu "ateş kes" modu ayarlandığından dolayı ateşlenemez.</MessageTurretWontFireBecauseHoldFire>
   
   <!-- Ship computer core -->
+  <!-- EN: Launch ship -->
   <CommandShipLaunch>Gemiyi ateşle</CommandShipLaunch>
+  <!-- EN: Start the ship launch sequence with the current configuration. -->
   <CommandShipLaunchDesc>Gerekli yapılanma mevcutsa, gemiyi ateşleyin.</CommandShipLaunchDesc>
+  <!-- EN: Show launch report -->
   <CommandShipLaunchReport>Fırlatma raporunu göster</CommandShipLaunchReport>
+  <!-- EN: Show a readiness report about the ship's launch capability. -->
   <CommandShipLaunchReportDesc>Geminin fırlatma durumuyla ilgili detaylı bilgi verir.</CommandShipLaunchReportDesc>
+  <!-- EN: Start ship -->
   <CommandShipStartup>Gemiyi çalıştır</CommandShipStartup>
+  <!-- EN: Wake up hibernating ship components. -->
   <CommandShipStartupDesc>Hazır olan gemiyi çalıştırın.</CommandShipStartupDesc>
 
   <!-- Pod -->
+  <!-- EN: Eject sleeper -->
   <CommandPodEject>Uyuyanı çıkar</CommandPodEject>
+  <!-- EN: Wake up the cryptosleeper and eject them. -->
   <CommandPodEjectDesc>Kripto-uyku tabutundaki kişiyi tabuttan çıkartın ve uyandırın.</CommandPodEjectDesc>
+  <!-- EN: Contains nobody. -->
   <CommandPodEjectFailEmpty>İçeride kimse yok.</CommandPodEjectFailEmpty>
 
   <!-- Door -->
+  <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Geçişi yasakla</CommandToggleDoorForbid>
+  <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
   <CommandToggleDoorForbidDesc>Bir kapı yasaklandığında, kolonistler ve müttefikler kapıdan geçmeyeceklerdir. Bu, düşmanların veya hayvanların kapı ile etkileşimini etkilemez.</CommandToggleDoorForbidDesc>
+  <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>Açık tut</CommandToggleDoorHoldOpen>
+  <!-- EN: When active, your colonists will not close the door after passing through. -->
   <CommandToggleDoorHoldOpenDesc>Açık tutulduklarında, kolonistleriniz geçtikten sonra kapıyı kapatmayacaklardır.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
+  <!-- EN: Reset -->
   <CommandResetTemp>Sıfırla</CommandResetTemp>
+  <!-- EN: Reset the target temperature to room temperature. -->
   <CommandResetTempDesc>Hedeflenen sıcaklığı sıfırla.</CommandResetTempDesc>
+  <!-- EN: Raise the target temperature. -->
   <CommandRaiseTempDesc>Sıcaklığı yükselt.</CommandRaiseTempDesc>
+  <!-- EN: Lower the target temperature. -->
   <CommandLowerTempDesc>Sıcaklığı azalt.</CommandLowerTempDesc>
 
   <!-- Install/reinstall -->
+  <!-- EN: Install -->
   <CommandInstall>Kur</CommandInstall>
+  <!-- EN: This item is currently packaged up for storage and transport. Use this command to install this item in a final location. -->
   <CommandInstallDesc>Bu ürün depolama ve taşıma için paketlenmiştir. Bu öğeyi, gerekli yere kurmak için "kur" komutunu kullanın.</CommandInstallDesc>
+  <!-- EN: Reinstall at... -->
   <CommandReinstall>Yeniden yükle...</CommandReinstall>
+  <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>Bu öğeyi başka bir yere yeniden kurun.</CommandReinstallDesc>
   
   <!-- Trade beacon -->
+  <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
   <CommandMakeBeaconStockpileDesc>İşaret fenerinin etrafında depo alanı oluşturun.</CommandMakeBeaconStockpileDesc>
+  <!-- EN: Create stockpile -->
   <CommandMakeBeaconStockpileLabel>Depo alanı oluşturun</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
+  <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
   <CommandSunLampMakeGrowingZoneDesc>İşaret fenerinin etrafında tarım alanı oluşturun.</CommandSunLampMakeGrowingZoneDesc>
+  <!-- EN: Create growing zone -->
   <CommandSunLampMakeGrowingZoneLabel>Tarım alanı oluştur</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
+  <!-- EN: Auto Rearm -->
   <CommandAutoRearm>Tekrar kur</CommandAutoRearm>
+  <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
   <CommandAutoRearmDesc>Bu talimat aktifse, tuzaklar kullanıldıktan sonra otomatik olarak yeniden kurulacaklar.</CommandAutoRearmDesc>
   
   <!-- Animal control -->
+  <!-- EN: Release animals -->
   <CommandReleaseAnimalsLabel>Hayvanı serbet bırak</CommandReleaseAnimalsLabel>
+  <!-- EN: While this is on, mastered animals are sent forth to attack distant targets. While it is off, they remain near and guard the master. -->
   <CommandReleaseAnimalsDesc>Bu ayar aktifken, hayvanlar uzak hedeflere saldırmak için eğitmenler tarafından serbest bırakılırlar. Aktif değilken, hayvanlar eğitmenlerine yakın durur ve onları korurlar.</CommandReleaseAnimalsDesc>
+  <!-- EN: No animals available. -->
   <CommandReleaseAnimalsFail_NoAnimals>Hayvan yok.</CommandReleaseAnimalsFail_NoAnimals>
   
   <!-- Squad attack -->
+  <!-- EN: Attack -->
   <CommandSquadAttack>Saldır</CommandSquadAttack>
+  <!-- EN: Order selected colonists to attack designated target. -->
   <CommandSquadAttackDesc>Seçilen kolonistlere belirlenen hedefe saldırma emri verin.</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
+  <!-- EN: Melee attack -->
   <CommandMeleeAttack>Yakın saldırı</CommandMeleeAttack>
+  <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
   <CommandMeleeAttackDesc>Seçilen kolonistlere sadece yumruk ve yakın dövüş silahlarını kullanarak belirlenen hedefe saldırma emri verin.</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
+  <!-- EN: Hold fire -->
   <CommandHoldFire>Ateş kes</CommandHoldFire>
+  <!-- EN: End any ongoing attacks. -->
   <CommandHoldFireDesc>Devam eden saldırıları sonlandırın.</CommandHoldFireDesc>
   
+  <!-- reload -->
+  <!-- EN: No {CHARGENOUN_plural} left. -->
+  <CommandReload_NoCharges>TODO</CommandReload_NoCharges>
+  <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
+  <CommandReload_NoAmmo>TODO</CommandReload_NoAmmo>
+  
   <!-- Select plant to grow -->
+  <!-- EN: Select plant to grow -->
   <CommandSelectPlantToGrowMulti>Ekmek için bitki seçin</CommandSelectPlantToGrowMulti>
+  <!-- EN: Plant: {0} -->
   <CommandSelectPlantToGrow>Bitki: {0}</CommandSelectPlantToGrow>
+  <!-- EN: Determine which plant should be sown here. -->
   <CommandSelectPlantToGrowDesc>Burada hangi bitkinin ekilmesi gerektiğini belirleyin.</CommandSelectPlantToGrowDesc>
   
   <!-- Select mineral to scan for (long-range mineral scanner) -->
+  <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Uyarlanmış</CommandSelectMineralToScanFor>
 
   <!-- Build copy -->
+  <!-- EN: Build copy -->
   <CommandBuildCopy>Yapıyı kopyala</CommandBuildCopy>
+  <!-- EN: Build a copy of this building. -->
   <CommandBuildCopyDesc>Bu binanın bir kopyasını oluşturun.</CommandBuildCopyDesc>
 
   <!-- Form caravan -->
+  <!-- EN: Form caravan -->
   <CommandFormCaravan>Kervan oluştur</CommandFormCaravan>
+  <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Yeni bölgelere seyahat edecek olan bir kolonist kervanı oluşturun. Kervana atanan kolonistler, belirlenen malzemeleri ve hayvanları alarak bulundukları bölgeyi terk ederek verilen emirleri yerine getirecek ve yeni emirler bekleyecekler.</CommandFormCaravanDesc>
   
   <!-- Reform caravan -->
+  <!-- EN: Reform caravan -->
   <CommandReformCaravan>Kervanı yenile</CommandReformCaravan>
+  <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
   <CommandReformCaravanDesc>Yeniden toparlanan kervan. Kolonistler şu anki bölgelerini terk edip yeni talimatlar bekleyecekler.</CommandReformCaravanDesc>
+  <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Bu bölgede hala bazı düşmanlar var.</CommandReformCaravanFailHostilePawns>
   
   <!-- Split caravan -->
+  <!-- EN: Split -->
   <CommandSplitCaravan>Ayır</CommandSplitCaravan>
+  <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
   <CommandSplitCaravanDesc>Bu karavanı ikiye ayırın. Karavanlar daha sonra birbirlerine yakın oldukları sürece yeniden birleştirilebilir.</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
+  <!-- EN: Merge -->
   <CommandMergeCaravans>Birleştir</CommandMergeCaravans>
+  <!-- EN: Merge selected caravans. -->
   <CommandMergeCaravansDesc>Seçilen kervanları birleştirin.</CommandMergeCaravansDesc>
+  <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Birleştirilmesi gereken kervanları seçin. Kervanlar birbirlerine yakın konumlarda olmalıdırlar.</CommandMergeCaravansFailCaravansNotSelected>
+  <!-- EN: Join -->
+  <CommandJoinCaravan>TODO</CommandJoinCaravan>
   
   <!-- Settle -->
+  <!-- EN: Settle -->
   <CommandSettle>Yerleş</CommandSettle>
+  <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
   <CommandSettleDesc>Bu alana yerleşin. Kolonistleriniz bu alana girecek ve yeni bir ev inşa etmeye başlayabileceksiniz.</CommandSettleDesc>
+  <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>Koloniniz sadece bir bölgeye yerleşebilir.</CommandSettleFailAlreadyHaveBase>
+  <!-- EN: Reached maximum number of colonies. -->
   <CommandSettleFailReachedMaximumNumberOfBases>Maksimum yerleşke sayısına ulaştınız.</CommandSettleFailReachedMaximumNumberOfBases>
+  <!-- EN: There isn't anybody there to claim the area. -->
   <CommandSettleFailNoColonists>Bu bölgeye yerleşebilecek birileri yok.</CommandSettleFailNoColonists>
+  <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Bu bölge düşmanın kontrolü altında.</CommandSettleFailEnemies>
   
   <!-- Abandon home -->
+  <!-- EN: Abandon -->
   <CommandAbandonHome>Terk et</CommandAbandonHome>
+  <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>Bu alanı terk edin. Alan erişilemez olacak ve buraya bir daha geri dönmek mümkün olmayacaktır. Evinizi terk ettikten sonra, kervanlarınızdan birine yeni bir alana yerleşmek için talimat verebilirsiniz.</CommandAbandonHomeDesc>
+  <!-- EN: All of your colonists are there. -->
   <CommandAbandonHomeFailAllColonistsThere>Tüm kolonistleriniz burada.</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
+  <!-- EN: Cancel forming caravan -->
   <CommandCancelFormingCaravan>Kervan oluşturmaktan vazgeç</CommandCancelFormingCaravan>
+  <!-- EN: Terminate the caravan formation process. -->
   <CommandCancelFormingCaravanDesc>Kervan oluşturmaktan vazgeçin.</CommandCancelFormingCaravanDesc>
 
   <!-- Remove from caravan -->
+  <!-- EN: Remove from caravan -->
   <CommandRemoveFromCaravan>Kervandan at</CommandRemoveFromCaravan>
+  <!-- EN: Remove this person or animal from the caravan. -->
   <CommandRemoveFromCaravanDesc>Bir kişiyi veya hayvanı kervandan atın.</CommandRemoveFromCaravanDesc>
   
   <!-- Add to caravan -->
+  <!-- EN: Add to caravan -->
   <CommandAddToCaravan>Kervana al</CommandAddToCaravan>
+  <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Bir kişiyi veya hayvanı kervana alın.</CommandAddToCaravanDesc>
   
   <!-- Show map -->
+  <!-- EN: Zoom in -->
   <CommandShowMap>Yaklaş</CommandShowMap>
+  <!-- EN: Zoom in on this area. -->
   <CommandShowMapDesc>Bölgeye yaklaşın.</CommandShowMapDesc>
   
   <!-- Trade -->
+  <!-- EN: Trade -->
   <CommandTrade>Ticaret</CommandTrade>
+  <!-- EN: Trade with this faction. -->
   <CommandTradeDesc>Bu fraksiyonla alış-veriş yapın.</CommandTradeDesc>
+  <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>Bilinçli ve yetenekli bir müzakereciniz bulunmuyor.</CommandTradeFailNoNegotiator>
+  <!-- EN: None of your people have the required faction permission: {0} -->
   <CommandTradeFailNeedPermit>Hiç bir kolonistinizin diğer fraksiyonla ticaret yapmaya izni yok:{0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
+  <!-- EN: Offer gifts -->
   <CommandOfferGifts>Hediye teklif et</CommandOfferGifts>
+  <!-- EN: Offer gifts to this faction. -->
   <CommandOfferGiftsDesc>Bu fraksiyona hediye teklif edin.</CommandOfferGiftsDesc>
 
   <!-- Fulfill request -->
+  <!-- EN: Fulfill trade offer -->
   <CommandFulfillTradeOffer>Anlaşmayı yerine getir</CommandFulfillTradeOffer>
+  <!-- EN: Fulfill the settlement's request for goods and claim your reward. -->
   <CommandFulfillTradeOfferDesc>Anlaşma üzerine gerekli malları teslim edip ödülünüzü alın.</CommandFulfillTradeOfferDesc>
+  <!-- EN: Your caravan must have {0} to fulfill this trade offer. -->
   <CommandFulfillTradeOfferFailInsufficient>Bu ticaret teklifini yerine getirmek için kervanınızın {0} olması gerekir. </CommandFulfillTradeOfferFailInsufficient>
+  <!-- EN: Give {0}? -->
   <CommandFulfillTradeOfferConfirm>{0} verilsin mi?</CommandFulfillTradeOfferConfirm>
   
   <!-- Take off -->
+  <!-- EN: Take off -->
   <CommandTakeOff>Fırlat</CommandTakeOff>
+  <!-- EN: Get on board the ship and escape the planet. -->
   <CommandTakeOffDesc>Gemiye binin ve gezegenden kaçın.</CommandTakeOffDesc>
+  <!-- EN: Are you sure you want to launch the ship?\n\nEveryone in this area will escape the planet. Everyone else will be left behind. -->
   <CommandTakeOffConfirmation>Gemiyi uzaya fırlatmak istediğinizden emin misiniz?\n\nBu alandaki herkes gezegenden kaçacak. Diğer herkes geride kalacak.</CommandTakeOffConfirmation>
 
   <!-- Set target fuel level -->
+  <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Yakıt seviyesini ayarlayın</CommandSetTargetFuelLevel>
+  <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
   <CommandSetTargetFuelLevelDesc>Hedef yakıt seviyesini ayarlayın. Kolonistler, sürekli hedef yakıt seviyesine kadar doldurmaya çalışacaklar.</CommandSetTargetFuelLevelDesc>
 
   <!-- Refueling -->
+  <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Otomatik yakıt ikmalini aç / kapat</CommandToggleAllowAutoRefuel>
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
   <CommandToggleAllowAutoRefuelDesc>Otomatik yakıt ikmaline izin verilip verilmeyeceğini ayarlar.</CommandToggleAllowAutoRefuelDesc>
   
   <!-- Cancel load -->
+  <!-- EN: Cancel load -->
   <CommandCancelLoad>Yüklemeyi iptal et</CommandCancelLoad>
+  <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>Canlılar veya öğeleri yüklemeyi iptal edin ve önceden yüklenmiş olan her şeyi geri çıkarın.</CommandCancelLoadDesc>
   
   <!-- Launch group -->
+  <!-- EN: Launch -->
   <CommandLaunchGroup>Grubu başlat</CommandLaunchGroup>
+  <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Bir grup taşıma bölmesinin başlatılması için hedefleme işlemini başlatır. Bir sonraki adım bir hedef seçmektir. Taşıma kapsülleri birlikte uçacak ve inecek.</CommandLaunchGroupDesc>
+  <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Bu yükleme grubundaki bazı taşıma bölmeleri yakıt doldurma bağlantı noktasına bağlı değildir.</CommandLaunchGroupFailNotConnectedToFuelingPort>
+  <!-- EN: Some pod launchers in this group have no fuel. -->
   <CommandLaunchGroupFailNoFuel>Bu gruptaki bazı kapsül fırlatıcılarında yakıt yok.</CommandLaunchGroupFailNoFuel>
+  <!-- EN: Some pod launchers are under a roof. -->
   <CommandLaunchGroupFailUnderRoof>Bazı kapsül rampaları bir çatı altında.</CommandLaunchGroupFailUnderRoof>
   
   <!-- Load transporter -->
+  <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>{0} başlangıç ​​grubunu yükle</CommandLoadTransporter>
+  <!-- EN: Defines the selected transporter(s) as a launch group. Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterDesc>Seçilen taşıyıcıları bir başlatma grubu olarak tanımlar. Kimin ve neyin içine yüklenmesi gerektiğine karar verebilmek için yükleme iletişim kutusunu açar.</CommandLoadTransporterDesc>
+  <!-- EN: The transport pod is not connected to a fueling port. -->
   <CommandLoadTransporterFailNotConnectedToFuelingPort>Taşıma kapsülü bir yakıt girişine bağlı değildir.</CommandLoadTransporterFailNotConnectedToFuelingPort>
+  <!-- EN: The pod launcher has no fuel. -->
   <CommandLoadTransporterFailNoFuel>Kapsül fırlatıcıda yakıt yok.</CommandLoadTransporterFailNoFuel>
   
   <!-- Load transporter (single) -->
+  <!-- EN: Load -->
   <CommandLoadTransporterSingle>Yükle</CommandLoadTransporterSingle>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandLoadTransporterSingleDesc>Kimin ve neyin içine yüklenmesi gerektiğine karar verebilmek için yükleme iletişim kutusunu açar.</CommandLoadTransporterSingleDesc>
   
   <!-- Transporters set to load -->
+  <!-- EN: Set to load -->
   <CommandSetToLoadTransporter>Yüklemeyi ayarla</CommandSetToLoadTransporter>
+  <!-- EN: Opens the loading dialog so you can decide who and what should be loaded inside. -->
   <CommandSetToLoadTransporterDesc>Kimin ve neyin içine yüklenmesi gerektiğine karar verebilmek için yükleme iletişim kutusunu açar.</CommandSetToLoadTransporterDesc>
   
   <!-- Autoload transporters -->
+  <!-- EN: Autoload -->
   <CommandAutoloadTransporters>Otomatik yükleme</CommandAutoloadTransporters>
+  <!-- EN: Toggle loading all required cargo automatically as soon as they become available. -->
   <CommandAutoloadTransportersDesc>Gerekli tüm kargoları hazır olur olmaz otomatik olarak yüklemeyi aç / kapat.</CommandAutoloadTransportersDesc>
   
   <!-- Select previous transporter -->
+  <!-- EN: Select previous in launch group -->
   <CommandSelectPreviousTransporter>Önceki fırlatma grubunu seç</CommandSelectPreviousTransporter>
+  <!-- EN: Select previous transport pod in this launch group. -->
   <CommandSelectPreviousTransporterDesc>Bu fırlatma grubunda önceki taşıma grubunu seçin.</CommandSelectPreviousTransporterDesc>
   
   <!-- Select all transporters -->
+  <!-- EN: Select launch group -->
   <CommandSelectAllTransporters>Fırlatma grubunu seç</CommandSelectAllTransporters>
+  <!-- EN: Select all transport pods in this launch group. -->
   <CommandSelectAllTransportersDesc>Bu başlatma grubundaki tüm taşıma kapsülleri seçin.</CommandSelectAllTransportersDesc>
   
   <!-- Select next transporter -->
+  <!-- EN: Select next in launch group -->
   <CommandSelectNextTransporter>Sonraki fırlatma grubunu seç</CommandSelectNextTransporter>
+  <!-- EN: Select next transport pod in this launch group. -->
   <CommandSelectNextTransporterDesc>Bu fırlatma grubunda sonraki taşıma grubunu seçin.</CommandSelectNextTransporterDesc>
   
   <!-- Vent -->
+  <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>Fırlatmayı açma/kapama görevi</CommandDesignateOpenCloseVentLabel>
+  <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
   <CommandDesignateOpenCloseVentDesc>Bu fırlatmayı açık kapatmayı ayarlayın. Yakında bir kolonist, fırlatma görevini yerine getirmek için gelecek..</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
+  <!-- EN: Remove -->
   <CommandRemoveWaypointLabel>Kaldır</CommandRemoveWaypointLabel>
+  <!-- EN: Remove this waypoint. -->
   <CommandRemoveWaypointDesc>Varış noktasını iptal et.</CommandRemoveWaypointDesc>
 
   <!-- Pause caravan -->
+  <!-- EN: Rest -->
   <CommandPauseCaravan>Dinlen</CommandPauseCaravan>
+  <!-- EN: Start resting. This has the following benefits:\n\n  - People can interact socially\n  - Forage for food {0} times faster\n  - Visibility multiplied by {1} -->
   <CommandToggleCaravanPauseDesc>Dinlenmeye başla. Bunun aşağıdaki faydaları vardır:\n\n- İnsanlar sosyal olarak etkileşime girebilir\n- Yiyecek için gıda {0} kat daha hızlı\n - Görünürlük {1} ile çarpılır</CommandToggleCaravanPauseDesc>
   
   <!-- Show sellable items -->
+  <!-- EN: Show what will buy -->
   <CommandShowSellableItems>Neyle ilgilenildiğini göster</CommandShowSellableItems>
+  <!-- EN: Show everything this trader wants to buy. -->
   <CommandShowSellableItemsDesc>Bu tüccarın ilgilendiği malları gösterir.</CommandShowSellableItemsDesc>
 
   <!-- Attack settlement -->
+  <!-- EN: Attack -->
   <CommandAttackSettlement>Saldır</CommandAttackSettlement>
+  <!-- EN: Attack this settlement. -->
   <CommandAttackSettlementDesc>Bu yerleşkeye saldır.</CommandAttackSettlementDesc>
 
   <!-- Send shuttle -->
+  <!-- EN: Send -->
   <CommandSendShuttle>Gönder</CommandSendShuttle>
+  <!-- EN: Initiate takeoff and have the shuttle fly to its destination. -->
   <CommandSendShuttleDesc>Kalkışı başlatın ve kapsülün varış noktasına doğru uçmasını sağlayın.</CommandSendShuttleDesc>
+  <!-- EN: The shuttle is under a roof. -->
   <CommandSendShuttleFailUnderRoof>Kapsül bir çatı altında.</CommandSendShuttleFailUnderRoof>
+  <!-- EN: Some of the required items or people are missing. -->
   <CommandSendShuttleFailMissingRequiredThing>Gerekli öğelerin veya kişilerin bazıları eksik.</CommandSendShuttleFailMissingRequiredThing>
+  
+  <!-- Dismiss shuttle -->
+  <!-- EN: Dismiss -->
+  <CommandShuttleDismiss>TODO</CommandShuttleDismiss>
+  <!-- EN: Unload all contents and send the shuttle away. -->
+  <CommandShuttleDismissDesc>TODO</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
+  <!-- EN: Place blueprints -->
   <CommandPlaceBlueprints>Planları yerleştirin</CommandPlaceBlueprints>
+  <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Gerekli tüm planları mümkün olduğunca yerleştirin.</CommandPlaceBlueprintsDesc>
+  <!-- EN: Place {0} blueprints -->
+  <CommandPlaceBlueprintsSpecific>TODO</CommandPlaceBlueprintsSpecific>
+  <!-- EN: Place all {0} blueprints where possible. -->
+  <CommandPlaceBlueprintsSpecificDesc>TODO</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
+  <!-- EN: Cancel -->
   <CommandCancelMonumentMarker>Kaldır</CommandCancelMonumentMarker>
+  <!-- EN: Permanently remove this monument marker. -->
   <CommandCancelMonumentMarkerDesc>Bu anıt işaretleyiciyi kalıcı olarak kaldırın.</CommandCancelMonumentMarkerDesc>
 
   <!-- View quest -->
+  <!-- EN: View quest: {0} -->
   <CommandViewQuest>Görevi görüntüle: {0}</CommandViewQuest>
+  <!-- EN: View this quest in quests tab. -->
   <CommandViewQuestDesc>Bu görevi görevler sekmesinde görüntüleyin.</CommandViewQuestDesc>
+  <!-- EN: Open linked quest -->
   <CommandOpenLinkedQuest>Bağlantılı görevi aç</CommandOpenLinkedQuest>
+  <!-- EN: Open linked quest in the quests tab. -->
   <CommandOpenLinkedQuestDesc>Bağlantılı görevi görevler sekmesinde açın.</CommandOpenLinkedQuestDesc>
+  
+  <!-- Take a drug -->
+  <!-- EN: Take drug... -->
+  <TakeDrug>TODO</TakeDrug>
+  <!-- EN: Choose a drug from inventory to ingest immediately. -->
+  <TakeDrugDesc>TODO</TakeDrugDesc>
   
 </LanguageData>

@@ -1,250 +1,636 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Main menu -->
+  <!-- EN: Tutorial -->
   <Tutorial>Eğitim</Tutorial>
+  <!-- EN: New colony -->
   <NewColony>Yeni Koloni</NewColony>
+  <!-- EN: Back to game -->
   <BackToGame>Oyuna dön</BackToGame>
+  <!-- EN: Review scenario -->
   <ReviewScenario>Hikayeye göz at</ReviewScenario>
+  <!-- EN: Save -->
   <Save>Kaydet</Save>
+  <!-- EN: Load game -->
   <LoadGame>Oyun yükle</LoadGame>
+  <!-- EN: Options -->
   <Options>Ayarlar</Options>
+  <!-- EN: Mod -->
   <Mod>Mod</Mod>
+  <!-- EN: Mods -->
   <Mods>Modlar</Mods>
+  <!-- EN: Save translation report -->
   <SaveTranslationReport>Çeviri raporunu kaydet</SaveTranslationReport>
+  <!-- EN: Generating translation report -->
   <GeneratingTranslationReport>Çeviri raporu oluşturma</GeneratingTranslationReport>
+  <!-- EN: Cleanup translation files -->
   <CleanupTranslationFiles>Çeviri dosyalarını kaydetme</CleanupTranslationFiles>
+  <!-- EN: Update translations files (TKey's) -->
+  <TranslationFilesTKeyUpdate>TODO</TranslationFilesTKeyUpdate>
+  <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Çeviri dosyalarını temizleme</CleaningTranslationFiles>
+  <!-- EN: Credits -->
   <Credits>Yapımcılar</Credits>
+  <!-- EN: Quit to main menu -->
   <QuitToMainMenu>Ana menüye dön</QuitToMainMenu>
+  <!-- EN: Save and quit to menu -->
   <SaveAndQuitToMainMenu>Kaydet ve ana menüye dön</SaveAndQuitToMainMenu>
+  <!-- EN: Quit to OS -->
   <QuitToOS>Masaüstüne çık</QuitToOS>
+  <!-- EN: Save and quit to OS -->
   <SaveAndQuitToOS>Kaydet ve Masaüstüne çık</SaveAndQuitToOS>
+  <!-- EN: Fiction primer -->
   <FictionPrimer>Kurgu</FictionPrimer>
+  <!-- EN: Ludeon blog -->
   <LudeonBlog>Ludeon blog</LudeonBlog>
+  <!-- EN: Forums -->
   <Forums>Forumlar</Forums>
+  <!-- EN: Official wiki -->
   <OfficialWiki>Resmi wiki</OfficialWiki>
+  <!-- EN: Tynan's twitter -->
   <TynansTwitter>Tynan'ın twitterı</TynansTwitter>
+  <!-- EN: Tynan's design book -->
   <TynansDesignBook>Tynan'ın tasarım kitabı</TynansDesignBook>
+  <!-- EN: Help translate RimWorld -->
   <HelpTranslate>Çeviri ekibine destek olmayı unutmayın.</HelpTranslate>
+  <!-- EN: Buy soundtrack -->
   <BuySoundtrack>Müzikleri satın al</BuySoundtrack>
+  <!-- EN: Create world -->
   <CreateWorld>Dünya yarat</CreateWorld>
 
   <!-- Main menu translations info window -->
+  <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
   <TranslationThanks>Resmi Rimworld %90 Türkçe çevirisi. Altay.Bey'e Teşekkürler! \n\n{0}</TranslationThanks>
+  <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
   <TranslationHowToContribute>Destek olmak için Github projesine katkıda bulunabilirsiniz.</TranslationHowToContribute>
+  <!-- EN: Learn more -->
   <LearnMore>Daha fazlası için</LearnMore>
 
   <!-- Main menu dev build -->
+  <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
   <DevBuildWarning>Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
 
   <!-- Create/review world -->
+  <!-- EN: Review world -->
   <ReviewWorld>Dünyayı incele</ReviewWorld>
+  <!-- EN: Generate -->
   <WorldGenerate>Oluştur</WorldGenerate>
+  <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Kaydet ve bitir</WorldSaveAndFinish>
+  <!-- EN: Reset -->
   <Reset>Sıfırla</Reset>
+  <!-- EN: Globe coverage -->
   <PlanetCoverage>Dünya büyüklüğü</PlanetCoverage>
+  <!-- EN: Overall rainfall -->
   <PlanetRainfall>Toplam yağış</PlanetRainfall>
+  <!-- EN: Overall temperature -->
   <PlanetTemperature>Toplam sıcaklık</PlanetTemperature>
+  <!-- EN: Population -->
   <PlanetPopulation>Nüfus</PlanetPopulation>
+  <!-- EN: Low -->
   <PlanetRainfall_Low>Düşük</PlanetRainfall_Low>
+  <!-- EN: Normal -->
   <PlanetRainfall_Normal>Normal</PlanetRainfall_Normal>
+  <!-- EN: High -->
   <PlanetRainfall_High>Yüksek</PlanetRainfall_High>
+  <!-- EN: Low -->
   <PlanetTemperature_Low>Düşük</PlanetTemperature_Low>
+  <!-- EN: Normal -->
   <PlanetTemperature_Normal>Normal</PlanetTemperature_Normal>
+  <!-- EN: High -->
   <PlanetTemperature_High>Yüksek</PlanetTemperature_High>
+  <!-- EN: Sparse -->
   <PlanetPopulation_Low>Seyrek</PlanetPopulation_Low>
+  <!-- EN: Normal -->
   <PlanetPopulation_Normal>Normal</PlanetPopulation_Normal>
+  <!-- EN: Crowded -->
   <PlanetPopulation_High>Kalabalık</PlanetPopulation_High>
+  <!-- EN: Seed -->
   <WorldSeed>Çekirdek</WorldSeed>
+  <!-- EN: Randomize seed -->
   <RandomizeSeed>Rastgele çekirdek</RandomizeSeed>
+  <!-- EN: The planet is always the same diameter, but since it's far larger than needed for play, we don't generate the whole surface because it can take a very long time. This is the percentage of the surface that you want generated. -->
   <PlanetCoverageTip>Gezegen aslında göründüğü gibi yarım değildir. Tam dünya çapındadır. Ancak Rimworld yüzeyinin tamamını oyununuzun yavaşlamaması için kullanmanızı önermiyoruz. Ama tabii yine de sizin tercihiniz.</PlanetCoverageTip>
+  <!-- EN: Factions -->
   <WorldFactionsTab>Fraksiyonlar</WorldFactionsTab>
 
   <!-- Select world -->
+  <!-- EN: Select world -->
   <SelectWorld>Dünya Seç</SelectWorld>
+  <!-- EN: Select -->
   <WorldChooseButton>Seç</WorldChooseButton>
+  <!-- EN: No world files found. Create a world first. -->
   <NoWorldsFilesFound>Dünya dosyası bulunamadı. Önce bir dünya yaratın.</NoWorldsFilesFound>
   
   <!-- Version info -->
+  <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
   <BuildNowAvailable>{0} sürümü artık kullanılabilir. Daha fazla bilgi için ludeon.com adresini ziyaret edin.</BuildNowAvailable>
+  <!-- EN: This is the latest version. -->
   <BuildUpToDate>Bu oyunun son sürümüdür.</BuildUpToDate>
+  <!-- EN: Error getting version info: {0} -->
   <ErrorGettingVersionInfo>{0} versiyonu nedeniyle hata alınıyor.</ErrorGettingVersionInfo>
+  <!-- EN: Loading version info... -->
   <LoadingVersionInfo>Versiyon bilgisi alınıyor...</LoadingVersionInfo>
 
   <!-- World generator -->
+  <!-- EN: Generate world -->
   <GenerateWorld>Dünya oluşturun</GenerateWorld>
 
   <!-- Mods config -->
+  <!-- EN: Open Steam Workshop -->
   <OpenSteamWorkshop>Workshop aç</OpenSteamWorkshop>
+  <!-- EN: Get mods from forum -->
   <GetModsFromForum>Forumdan mod al</GetModsFromForum>
+  <!-- EN: Open mods data folder -->
   <OpenModsDataFolder>Mod dosyasını aç</OpenModsDataFolder>
+  <!-- EN: Show mods data location -->
   <ShowModsDataLocation>Mod dosyasının yerini göster</ShowModsDataLocation>
+  <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName.</ConfirmDisableCoreMod>
+  <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>{0} İçin tüm içeriği silmek istediğinizden emin misiniz?</ConfirmDeleteMod>
+  <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Modları Otomatik Ayıkla</ResolveModOrder>
+  <!-- EN: Unsubscribe -->
   <Unsubscribe>Abonelikten çık</Unsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
   <ConfirmUnsubscribe>{0} tan gerçekten abonelikten çıkmak istiyor musun?</ConfirmUnsubscribe>
+  <!-- EN: Author -->
   <Author>Yapımcı</Author>
+  <!-- EN: Workshop page -->
   <WorkshopPage>Atölye Sayfası</WorkshopPage>
+  <!-- EN: Upload to Steam Workshop -->
   <UploadToSteamWorkshop>Steam atölyesine yükle</UploadToSteamWorkshop>
+  <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>Steam atölyesindeki dosyayı güncelle</UpdateOnSteamWorkshop>
+  <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>Zaten yükleniyor</UploadAlreadyInProgress>
+  <!-- EN: Workshop submission failed.\n\nReason: {0} -->
   <WorkshopSubmissionFailed>Yükleme Tamamlanamadı\n\nReason: {0}</WorkshopSubmissionFailed>
+  <!-- EN: Successfully uploaded {0}. -->
   <WorkshopUploadSucceeded>Başarıyla Yüklendi {0}.</WorkshopUploadSucceeded>
+  <!-- EN: Downloading -->
   <Downloading>Indiriliyor</Downloading>
+  <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Karşılanan gereksinimleri görüntüle</ModDisplayFulfilledRequirements>
+  <!-- EN: Click to select. -->
   <ModClickToSelect>Seçmek için tıkla</ModClickToSelect>
+  <!-- EN: Click to go to website. -->
   <ModClickToGoToWebsite>Siteye gitmek için tıkla</ModClickToGoToWebsite>
+  <!-- EN: Source -->
   <Source>Kaynak</Source>
+  <!-- EN: For game version(s) -->
   <ModTargetVersion>Versiyon(ları)</ModTargetVersion>
+  <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
+  <!-- EN: This must be loaded before: {0}. -->
   <ModMustLoadBefore>Bu: {0} dan önce yüklenmeli.</ModMustLoadBefore>
+  <!-- EN: This must be loaded after: {0}. -->
   <ModMustLoadAfter>Bu: {0} dan sonra yüklenmeli.</ModMustLoadAfter>
+  <!-- EN: Depends on: {0} -->
   <ModDependsOn>Bağ: {0}</ModDependsOn>
+  <!-- EN: Incompatible with: {0} -->
   <ModIncompatibleWith>Incompatible with: {0}</ModIncompatibleWith>
+  <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>This mod is incompatible with: {0}.</ModIncompatibleWithTip>
+  <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
   <ModOrderingWarning>This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually.</ModOrderingWarning>
+  <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>Another active mod uses the same ID: {0}.</ModWithSameIdAlreadyActive>
+  <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>There is a cyclic mod dependency starting with {0}.</ModCyclicDependency>
+  <!-- EN: This requires following mods to work: {0}. -->
   <ModUnsatisfiedDependency>This requires following mods to work: {0}.</ModUnsatisfiedDependency>
+  <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>This mod was not made for this version of RimWorld, and will probably not work correctly.</ModNotMadeForThisVersion>
+  <!-- EN: This mod is not made for this version of RimWorld. -->
+  <ModNotMadeForThisVersionShort>TODO</ModNotMadeForThisVersionShort>
+  <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>This mod was made for a newer version of RimWorld than this, and will probably not work correctly.</ModNotMadeForThisVersion_Newer>
-  <MessageModNeedsWellFormattedTargetVersion>Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions&gt;&lt;li&gt;{0}&lt;/li&gt;&lt;/supportedVersions&gt; - &lt;targetVersion&gt; is deprecated. Check log for further information.</MessageModNeedsWellFormattedTargetVersion>
-  <MessageModNeedsWellFormattedPackageId>Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n&lt;packageId&gt;AuthorName.ModName&lt;/packageId&gt;\n&lt;packageId&gt;AuthorName.ModName.Specific&lt;/packageId&gt;</MessageModNeedsWellFormattedPackageId>
+  <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
+  <MessageModNeedsWellFormattedTargetVersion>Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> is deprecated. Check log for further information.</MessageModNeedsWellFormattedTargetVersion>
+  <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
+  <MessageModNeedsWellFormattedPackageId>Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
   <ModHadLoadFolderIssues>This mod has issues in LoadFolders.xml, that you need to resolve before uploading:</ModHadLoadFolderIssues>
+  <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>Folder {0} specified for version {1} doesn't exist.</ModLoadFolderDoesntExist>
+  <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
   <ModLoadFolderMalformedVersion>Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1)</ModLoadFolderMalformedVersion>
+  <!-- EN: The list of load folders for version {0} is empty. -->
   <ModLoadFolderListEmpty>The list of load folders for version {0} is empty.</ModLoadFolderListEmpty>
+  <!-- EN: Version {0} lists the same folder more than once: {1}. -->
   <ModLoadFolderRepeatingFolder>Version {0} lists the same folder more than once: {1}.</ModLoadFolderRepeatingFolder>
+  <!-- EN: Invalid version order: {0} should come before {1}. -->
   <ModLoadFolderOutOfOrder>Invalid version order: {0} should come before {1}.</ModLoadFolderOutOfOrder>
+  <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Invalid version order: 'default' should be defined first.</ModLoadFolderOutOfOrderDefault>
+  <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
+  <ModLoadFolderDefaultDeprecated>TODO</ModLoadFolderDefaultDeprecated>
+  <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <!-- EN: Drag to reorder -->
   <DragToReorder>Drag to reorder</DragToReorder>
 
   <!-- Select scenario -->
+  <!-- EN: Choose scenario -->
   <ChooseScenario>Senaryo seç</ChooseScenario>
+  <!-- EN: Custom -->
   <ScenariosCustom>Standart</ScenariosCustom>
+  <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>Steam Atölyesi</ScenariosSteamWorkshop>
+  <!-- EN: Scenario editor -->
   <ScenarioEditor>Senaryo editörü</ScenarioEditor>
+  <!-- EN: Delete -->
   <Delete>Sil</Delete>
   
   <!-- Scenario editor -->
+  <!-- EN: seed -->
   <Seed>Çekirdek</Seed>
+  <!-- EN: Load -->
   <Load>Yüklek</Load>
+  <!-- EN: edit mode -->
   <EditMode>Düzenleme modu</EditMode>
+  <!-- EN: Summary -->
   <Summary>Özet</Summary>
+  <!-- EN: Add part -->
   <AddPart>Parça ekle</AddPart>
+  <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>Tüm alanlar doldurulmalıdır.</TextFieldsMustBeFilled>
+  <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
   <ConfirmSteamWorkshopUpload>Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>Yalnızca kendi oluşturduğunuz içeriği yüklemelisiniz.\n\nBu içeriği kendiniz mi oluşturdunuz?</ConfirmContentAuthor>
+  <!-- EN: Incompatible -->
   <Incompatible>Uyumsuz</Incompatible>
+  <!-- EN: Tag as translation -->
+  <TagAsTranslation>TODO</TagAsTranslation>
+  <!-- EN: Too many (max {0}):  -->
   <TooMany>Çok fazla (max {0}): </TooMany>
+  <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Yaratıcı siz olduğunuz için Atölye'de güncellenebilir.</CanBeUpdatedOnWorkshop>
   
   <!-- Select storyteller -->
+  <!-- EN: Choose AI Storyteller -->
   <ChooseAIStoryteller>Yapay Hikaye Anlatıcı Seçin</ChooseAIStoryteller>
+  <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
   <HowStorytellersWork>Hikayeci, korsan baskınları, kaynak kayıpları veya sürü hayvanların saldırıları gibi olayları başınıza bela eder. Onların seçimleri, kolonizin hikayesini etkileyecektir. Bu ayarları istediğiniz zaman değiştirebilirsiniz.</HowStorytellersWork>
+  <!-- EN: Please choose a difficulty setting. -->
   <MustChooseDifficulty>Lütfen bir zorluk seviyesi seçin.</MustChooseDifficulty>
+  <!-- EN: Difficulty -->
   <Difficulty>Zorluk</Difficulty>
+  <!-- EN: Commitment mode -->
   <CommitmentMode>Geri dönüşü olmayan mod</CommitmentMode>
+  <!-- EN: Reload anytime mode -->
   <ReloadAnytimeMode>Yeniden yüklenebilir mod</ReloadAnytimeMode>
+  <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Lütfen geri dönüşü olmayan mod yada yeniden yüklenebilir oyun modunu seçin.</MustChoosePermadeath>
+  <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
   <ReloadAnytimeModeInfo>Oyunu istediğiniz zaman kaydedip geri yükleyebilirsiniz.\n\nOyunu hala öğrenme aşamasındaysanız, kişisel oyun tarzınıza da uyuyorsa, oyunu bozabilecek modlar kullanıyorsanız bu mod sizi için iyi bir seçim olacaktır.</ReloadAnytimeModeInfo>
+  <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
   <PermadeathModeInfo>Sadece oyundan çıkarken oyunu kaydedebilirsiniz.\n\nRimworld size sadece bir oyun karakterine bağlı bir oyun şekli sunmuyor. Biri ölür, biri kalır. Hayat devam eder. Kaybettiğiniz kolonistlerden sonra oyununuza devam edebilirsiniz. (Hepsini kaybetmezseniz)\n\nBu kayıt modunda geri dönüş yok. Kaybettiğiniz kimseyi, yaşadığınız hiç bir olayı geri alamazsınız.</PermadeathModeInfo>
+  <!-- EN: Storyteller and playstyle can be changed any time. -->
   <CanChangeStorytellerSettingsDuringPlay>Hikaye anlatıcısı ve zorluk her zaman değiştirilebilir.</CanChangeStorytellerSettingsDuringPlay>
-  <UnlockExtremeDifficulty>Acımasız Mod</UnlockExtremeDifficulty>
-  <ConfirmUnlockExtremeDifficulty>Acımasız Mod, her zorluğunn aşırı seviyelere çıktığı özel bir oyun modudur.\n\nAcımasız Mod, belli başarımlara ulaştığınız zaman otomatikman açılır. Ancak şimdi de açabilirsiniz.\n\nBu seçenek yalnızca yüksek zorlukta bir veya iki oyun oynadığınızda ve ne kadar çabalarsanız çabalayın ölmeyi kabullendiğinizde önerilir.</ConfirmUnlockExtremeDifficulty>
+
+  <!-- custom difficulty settings -->
+  <!-- EN: Custom playstyle settings -->
+  <DifficultyCustomSectionLabel>TODO</DifficultyCustomSectionLabel>
+  <!-- EN: Set to standard playstyle... -->
+  <DifficultyReset>TODO</DifficultyReset>
+  
+  <!-- EN: Threats -->
+  <DifficultyThreatSection>TODO</DifficultyThreatSection>
+  <!-- EN: Threat scale -->
+  <Difficulty_ThreatScale_Label>TODO</Difficulty_ThreatScale_Label>
+  <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
+  <Difficulty_ThreatScale_Info>TODO</Difficulty_ThreatScale_Info>
+  <!-- EN: Major threats -->
+  <Difficulty_AllowBigThreats_Label>TODO</Difficulty_AllowBigThreats_Label>
+  <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
+  <Difficulty_AllowBigThreats_Info>TODO</Difficulty_AllowBigThreats_Info>
+  <!-- EN: Quest threats -->
+  <Difficulty_AllowViolentQuests_Label>TODO</Difficulty_AllowViolentQuests_Label>
+  <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
+  <Difficulty_AllowViolentQuests_Info>TODO</Difficulty_AllowViolentQuests_Info>
+  <!-- EN: Intro threats -->
+  <Difficulty_AllowIntroThreats_Label>TODO</Difficulty_AllowIntroThreats_Label>
+  <!-- EN: Enable the fixed intro threats that appear near game start. -->
+  <Difficulty_AllowIntroThreats_Info>TODO</Difficulty_AllowIntroThreats_Info>
+  <!-- EN: Predators hunt humans -->
+  <Difficulty_PredatorsHuntHumanlikes_Label>TODO</Difficulty_PredatorsHuntHumanlikes_Label>
+  <!-- EN: Allow wild predators to hunt humans. -->
+  <Difficulty_PredatorsHuntHumanlikes_Info>TODO</Difficulty_PredatorsHuntHumanlikes_Info>
+  <!-- EN: Extreme weather -->
+  <Difficulty_AllowExtremeWeatherIncidents_Label>TODO</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
+  <Difficulty_AllowExtremeWeatherIncidents_Info>TODO</Difficulty_AllowExtremeWeatherIncidents_Info>
+
+  <!-- EN: Economy -->
+  <DifficultyEconomySection>TODO</DifficultyEconomySection>
+  <!-- EN: Trade price disadvantage -->
+  <Difficulty_TradePriceFactorLoss_Label>TODO</Difficulty_TradePriceFactorLoss_Label>
+  <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
+  <Difficulty_TradePriceFactorLoss_Info>TODO</Difficulty_TradePriceFactorLoss_Info>
+  <!-- EN: Harvest yield -->
+  <Difficulty_CropYieldFactor_Label>TODO</Difficulty_CropYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
+  <Difficulty_CropYieldFactor_Info>TODO</Difficulty_CropYieldFactor_Info>
+  <!-- EN: Mining yield -->
+  <Difficulty_MineYieldFactor_Label>TODO</Difficulty_MineYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when mining. -->
+  <Difficulty_MineYieldFactor_Info>TODO</Difficulty_MineYieldFactor_Info>
+  <!-- EN: Butchering yield -->
+  <Difficulty_ButcherYieldFactor_Label>TODO</Difficulty_ButcherYieldFactor_Label>
+  <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
+  <Difficulty_ButcherYieldFactor_Info>TODO</Difficulty_ButcherYieldFactor_Info>
+  <!-- EN: Research speed -->
+  <Difficulty_ResearchSpeedFactor_Label>TODO</Difficulty_ResearchSpeedFactor_Label>
+  <!-- EN: Adjust the speed of research. -->
+  <Difficulty_ResearchSpeedFactor_Info>TODO</Difficulty_ResearchSpeedFactor_Info>
+  <!-- EN: Quest rewards -->
+  <Difficulty_QuestRewardValueFactor_Label>TODO</Difficulty_QuestRewardValueFactor_Label>
+  <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_QuestRewardValueFactor_Info>TODO</Difficulty_QuestRewardValueFactor_Info>
+  <!-- EN: Raid loot -->
+  <Difficulty_RaidLootPointsFactor_Label>TODO</Difficulty_RaidLootPointsFactor_Label>
+  <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
+  <Difficulty_RaidLootPointsFactor_Info>TODO</Difficulty_RaidLootPointsFactor_Info>
+  <!-- EN: Turret rearm cost -->
+  <Difficulty_MaintenanceCostFactor_Label>TODO</Difficulty_MaintenanceCostFactor_Label>
+  <!-- EN: Adjust the cost of rearming turrets. -->
+  <Difficulty_MaintenanceCostFactor_Info>TODO</Difficulty_MaintenanceCostFactor_Info>
+  <!-- EN: Scaria rot chance -->
+  <Difficulty_ScariaRotChance_Label>TODO</Difficulty_ScariaRotChance_Label>
+  <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
+  <Difficulty_ScariaRotChance_Info>TODO</Difficulty_ScariaRotChance_Info>
+  <!-- EN: Enemy death on downed -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+
+  <!-- EN: General -->
+  <DifficultyGeneralSection>TODO</DifficultyGeneralSection>
+  <!-- EN: Colonist mood -->
+  <Difficulty_ColonistMoodOffset_Label>TODO</Difficulty_ColonistMoodOffset_Label>
+  <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
+  <Difficulty_ColonistMoodOffset_Info>TODO</Difficulty_ColonistMoodOffset_Info>
+  <!-- EN: Food poison chance -->
+  <Difficulty_FoodPoisonChanceFactor_Label>TODO</Difficulty_FoodPoisonChanceFactor_Label>
+  <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
+  <Difficulty_FoodPoisonChanceFactor_Info>TODO</Difficulty_FoodPoisonChanceFactor_Info>
+  <!-- EN: Animal revenge chance -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>TODO</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>TODO</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <!-- EN: Friendly fire -->
+  <Difficulty_FriendlyFireChanceFactor_Label>TODO</Difficulty_FriendlyFireChanceFactor_Label>
+  <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
+  <Difficulty_FriendlyFireChanceFactor_Info>TODO</Difficulty_FriendlyFireChanceFactor_Info>
+  <!-- EN: Colonist instant kills -->
+  <Difficulty_AllowInstantKillChance_Label>TODO</Difficulty_AllowInstantKillChance_Label>
+  <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
+  <Difficulty_AllowInstantKillChance_Info>TODO</Difficulty_AllowInstantKillChance_Info>
+  <!-- EN: Infection chance -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <!-- EN: Adjust the chance that a wound will become infected. -->
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <!-- EN: Disease frequency -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <!-- EN: Adjust the frequency of random disease events. -->
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <!-- EN: Insect spawning rate -->
+  <Difficulty_EnemyReproductionRateFactor_Label>TODO</Difficulty_EnemyReproductionRateFactor_Label>
+  <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
+  <Difficulty_EnemyReproductionRateFactor_Info>TODO</Difficulty_EnemyReproductionRateFactor_Info>
+  <!-- EN: Deep drilling infestations -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>TODO</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>TODO</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <!-- EN: Map generation ancient threats -->
+  <Difficulty_PeacefulTemples_Inverted_Label>TODO</Difficulty_PeacefulTemples_Inverted_Label>
+  <!-- EN: Ancient structures may contain dangerous threats. -->
+  <Difficulty_PeacefulTemples_Inverted_Info>TODO</Difficulty_PeacefulTemples_Inverted_Info>
+  <!-- EN: Map generation natural hives -->
+  <Difficulty_AllowCaveHives_Label>TODO</Difficulty_AllowCaveHives_Label>
+  <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
+  <Difficulty_AllowCaveHives_Info>TODO</Difficulty_AllowCaveHives_Info>
+
+  <!-- EN: Player tools -->
+  <DifficultyPlayerToolsSection>TODO</DifficultyPlayerToolsSection>
+  <!-- EN: Player can build traps -->
+  <Difficulty_AllowTraps_Label>TODO</Difficulty_AllowTraps_Label>
+  <!-- EN: Player can build traps like spike traps and IED traps. -->
+  <Difficulty_AllowTraps_Info>TODO</Difficulty_AllowTraps_Info>
+  <!-- EN: Player can build turrets -->
+  <Difficulty_AllowTurrets_Label>TODO</Difficulty_AllowTurrets_Label>
+  <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
+  <Difficulty_AllowTurrets_Info>TODO</Difficulty_AllowTurrets_Info>
+  <!-- EN: Player can build mortars -->
+  <Difficulty_AllowMortars_Label>TODO</Difficulty_AllowMortars_Label>
+  <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
+  <Difficulty_AllowMortars_Info>TODO</Difficulty_AllowMortars_Info>
+  
+  <!-- EN: Adaptation -->
+  <DifficultyAdaptationSection>TODO</DifficultyAdaptationSection>
+  <!-- EN: Damage adaptation growth -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Damage adaptation effect -->
+  <Difficulty_AdaptationEffectFactor_Label>TODO</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <Difficulty_AdaptationEffectFactor_Info>TODO</Difficulty_AdaptationEffectFactor_Info>
+  <!-- EN: Wealth-independent progress mode -->
+  <Difficulty_FixedWealthMode_Label>TODO</Difficulty_FixedWealthMode_Label>
+  <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
+  <Difficulty_FixedWealthMode_Info>TODO</Difficulty_FixedWealthMode_Info>
+  <!-- EN: Years until maximum threat -->
+  <Difficulty_FixedWealthTimeFactor_Label>TODO</Difficulty_FixedWealthTimeFactor_Label>
+  <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
+  <Difficulty_FixedWealthTimeFactor_Info>TODO</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- Site select -->
+  <!-- EN: Select starting site -->
   <SelectStartingSite>Başlangıç bölgesini seç</SelectStartingSite>
+  <!-- EN: Select random site -->
   <SelectRandomSite>Rastgele bölge seç</SelectRandomSite>
+  <!-- EN: Select site -->
   <SelectSite>Bölge seç</SelectSite>
+  <!-- EN: Please select a site. -->
   <MustSelectStartingSite>Lütfen bölge seçin.</MustSelectStartingSite>
+  <!-- EN: You cannot land on this biome: {0} -->
   <CannotLandBiome>Bir biyom üzerine iniş yapamazsınız: {0}</CannotLandBiome>
+  <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>Biyoma uygulanamaz</BiomeNotImplemented>
+  <!-- EN: You cannot land on impassable mountains. -->
   <CannotLandImpassableMountains>Aşılamaz dağlara iniş yapamazsınız.</CannotLandImpassableMountains>
+  <!-- EN: {0} already have a base there. -->
   <BaseAlreadyThere>{0} burada zaten bir üs var.</BaseAlreadyThere>
+  <!-- EN: You already have a base there. -->
   <YourBaseAlreadyThere>Burada zaten bir üssünüz var.</YourBaseAlreadyThere>
+  <!-- EN: This tile is occupied. -->
   <TileOccupied>Bu bölge dolu.</TileOccupied>
+  <!-- EN: Settlements cannot be directly adjacent to each other. -->
   <FactionBaseAdjacent>Yerleşim yerleri bitişik-komşu olamaz.</FactionBaseAdjacent>
+  <!-- EN: Biome -->
   <Biome>Biyom</Biome>
+  <!-- EN: Terrain -->
   <Terrain>Arazi</Terrain>
+  <!-- EN: Road -->
   <Road>Yol</Road>
+  <!-- EN: River -->
   <River>Nehir</River>
+  <!-- EN: Elevation -->
   <Elevation>Yükseklik</Elevation>
+  <!-- EN: Fertility -->
   <Fertility>Verimlilik</Fertility>
+  <!-- EN: Average temperature -->
   <AvgTemp>Ortalama sıcaklık</AvgTemp>
+  <!-- EN: Rainfall -->
   <Rainfall>Yağış Miktarı</Rainfall>
+  <!-- EN: Special features -->
   <SpecialFeatures>Özel özellikler</SpecialFeatures>
+  <!-- EN: northern coast -->
   <HasCoast0>Kuzey Kıyısı</HasCoast0>
+  <!-- EN: eastern coast -->
   <HasCoast1>Doğu Kıyısı</HasCoast1>
+  <!-- EN: southern coast -->
   <HasCoast2>Güney Kıyısı</HasCoast2>
+  <!-- EN: western coast -->
   <HasCoast3>Bayı Kıyısı</HasCoast3>
+  <!-- EN: caves -->
   <HasCaves>Mağaralar</HasCaves>
+  <!-- EN: Faction base -->
   <FactionBase>Topluluk Üssü</FactionBase>
+  <!-- EN: Stone types -->
   <StoneTypesHere>Taş Çeşitleri</StoneTypesHere>
+  <!-- EN: Time zone -->
   <TimeZone>Saat Dilimi</TimeZone>
+  <!-- EN: Movement difficulty -->
   <MovementDifficulty>Hareket Zorluğu</MovementDifficulty>
+  <!-- EN: Animals can graze now -->
   <AnimalsCanGrazeNow>Hayvanlar otlayabilir</AnimalsCanGrazeNow>
+  <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>Ortalama hastalık sıklığı</AverageDiseaseFrequency>
+  <!-- EN: per year -->
   <PerYear>Yıl başına</PerYear>
+  <!-- EN: Forageability -->
   <Forageability>Toplayıcılığa verimli</Forageability>
+  <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>Seçilen kişilerden hiç biri aşağıdaki işleri yapamaz:\n\n{0}\n\nBu, oyunu normalden daha zor hale getiremez. Devam etmek istediğine emin misin?</ConfirmRequiredWorkTypeDisabledForEveryone>
 
   <!-- Character chooser -->
+  <!-- EN: Create characters -->
   <CreateCharacters>Karakter Oluştur</CreateCharacters>
+  <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>Karakterin adı.\n\nSadece belli menülerde karakter adı gözükür.</FirstNameDesc>
+  <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
   <ShortIdentifierDesc>Karakterin lakabı.\n\n Bu kısa isim her zaman görünecektir. Adı ve soyadıyla aynı lakabı kullanabilir veya bambaşka bir lakab koyabilirsiniz.</ShortIdentifierDesc>
+  <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>Karakterin soyadı.\n\nSadece belli menülerde karakter soyadı gözükür.</LastNameDesc>
+  <!-- EN: Randomize -->
   <Randomize>Rastgele</Randomize>
+  <!-- EN: age {0} -->
   <AgeIndicator>{0} yaşında</AgeIndicator>
+  <!-- EN: {PAWN_race}, age {PAWN_ageFull} -->
   <PawnSummary>{PAWN_race}, {PAWN_ageFull} yaşında</PawnSummary>
+  <!-- EN: {PAWN_gender} {PAWN_race}, age {PAWN_ageFull} -->
   <PawnSummaryWithGender>{PAWN_gender} {PAWN_race}, {PAWN_ageFull} yaşında</PawnSummaryWithGender>
+  <!-- EN: Backstory -->
   <Backstory>Geçmişi</Backstory>
+  <!-- EN: Incapable of -->
   <IncapableOf>Yapamayacakları;</IncapableOf>
+  <!-- EN: Abilities -->
   <Abilities>Beceriler</Abilities>
+  <!-- EN: Caused by backstory: {0} -->
   <IncapableOfTooltipBackstory>Geçmişinin neden olduğu: {0}</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title: {0} -->
   <IncapableOfTooltipTitle>Ünvanı nedeniyle: {0}</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait: {0} -->
   <IncapableOfTooltipTrait>Özellikleri nedeniyle: {0}</IncapableOfTooltipTrait>
+  <!-- EN: Caused by: {0} -->
   <IncapableOfTooltipHediff>Nedeniyle: {0}</IncapableOfTooltipHediff>
+  <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Yapamadığı işler:</IncapableOfTooltipWorkTypes>
+  <!-- EN: Caused by quest status: {0} -->
+  <IncapableOfTooltipQuest>TODO</IncapableOfTooltipQuest>
+  <!-- EN: Traits -->
   <Traits>Kişisel özellikler</Traits>
+  <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>Kalıcı ruh hali etkisi</PermanentMoodEffect>
+  <!-- EN: Skills -->
   <Skills>Yetenekler</Skills>
+  <!-- EN: none -->
   <NoneLower>hiç kimse</NoneLower>
+  <!-- EN: Adulthood -->
   <Adulthood>Yetişkinlik'ten</Adulthood>
+  <!-- EN: Childhood -->
   <Childhood>Çocukluk'tan</Childhood>
+  <!-- EN: Current -->
   <Current>Şimdi</Current>
+  <!-- EN: male -->
   <Male>Erkek</Male>
+  <!-- EN: female -->
   <Female>Kadın</Female>
+  <!-- EN: male -->
   <MaleAnimal>Erkek</MaleAnimal>
+  <!-- EN: female -->
   <FemaleAnimal>Dişi</FemaleAnimal>
+  <!-- EN: Pain -->
   <Pain>Ağrı</Pain>
+  <!-- EN: Health -->
   <Health>Sağlık</Health>
+  <!-- EN: Relations -->
   <Relations>İlişkiler</Relations>
+  <!-- EN: Team skills -->
   <TeamSkills>Takım yetenekleri</TeamSkills>
+  <!-- EN: Selected -->
   <StartingPawnsSelected>Seçilmiş</StartingPawnsSelected>
+  <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Arkada Bırakılan</StartingPawnsLeftBehind>
   
   <!-- Misc -->
+  <!-- EN: Start -->
   <Start>Başlat</Start>
+  <!-- EN: Advanced -->
   <Advanced>Gelişmiş</Advanced>
+  <!-- EN: Next -->
   <Next>İlerle</Next>
+  <!-- EN: Back -->
   <Back>Geri</Back>
+  <!-- EN: Change material... -->
+  <ShowMaterials>TODO</ShowMaterials>
+  <!-- EN: Gameplay -->
   <Gameplay>Oynanış</Gameplay>
+  <!-- EN: Really quit? You'll lose unsaved progress. -->
   <ConfirmQuit>Gerçekten çıkmak istiyor musunuz? Kaydedilmemiş ilerlemeleri kaybedeceksiniz.</ConfirmQuit>
+  <!-- EN: Each person needs a valid name. -->
   <EveryoneNeedsValidName>Herkesin geçerli bir ada ihtiyacı vardır.</EveryoneNeedsValidName>
+  <!-- EN: None of the selected people can do the following jobs -->
   <RequiredWorkTypeDisabledForEveryone>Seçilen kişilerin hiç biri aşağıdaki işleri yapamaz.</RequiredWorkTypeDisabledForEveryone>
+  <!-- EN: Quit -->
   <Quit>Çık</Quit>
+  <!-- EN: Ignore -->
   <Ignore>Görmezden Gel</Ignore>
   
   <!-- Progress bar -->
+  <!-- EN: Generating world -->
   <GeneratingWorld>Dünya üretiliyor</GeneratingWorld>
+  <!-- EN: Generating planet -->
   <GeneratingPlanet>Dünya oluşturuluyor</GeneratingPlanet>
+  <!-- EN: Generating map -->
   <GeneratingMap>Harita oluşturuluyor</GeneratingMap>
+  <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Yeni bir hikaye için harita oluşturuluyor</GeneratingMapForNewEncounter>
 
+  <!-- EN: Click for more info -->
   <ClickForMoreInfo>Daha fazla bilgi için tıklayın</ClickForMoreInfo>
+  <!-- EN: No more information is available. -->
+  <NoMoreInfoAvailable>TODO</NoMoreInfoAvailable>
+
+  <!-- UNUSED -->
+  <UnlockExtremeDifficulty>Acımasız Mod</UnlockExtremeDifficulty>
+  <ConfirmUnlockExtremeDifficulty>Acımasız Mod, her zorluğunn aşırı seviyelere çıktığı özel bir oyun modudur.\n\nAcımasız Mod, belli başarımlara ulaştığınız zaman otomatikman açılır. Ancak şimdi de açabilirsiniz.\n\nBu seçenek yalnızca yüksek zorlukta bir veya iki oyun oynadığınızda ve ne kadar çabalarsanız çabalayın ölmeyi kabullendiğinizde önerilir.</ConfirmUnlockExtremeDifficulty>
 
 </LanguageData>
