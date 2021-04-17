@@ -12,7 +12,7 @@ Güncellenen dosyaları repoya eklerken eski çeviriler kaybolmasın diye ```<!-
 
 Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek tek dosyaları gezip buradaki çevirileri gerekli yere ekleyeceğim. Bunun hakkında benimle #302 den konuşmanızı rica ediyorum.
 
-## <\!-- UNUSED -->
+## \<!-- UNUSED -->
 
 ### Core\Keyed\
 
@@ -33,3 +33,7 @@ Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797b
 - [ ] Core/Keyed/Menu_Options.xml
 - [ ] Core/Keyed/Skills.xml
 - [ ] Core/Keyed/WorkTags.xml
+
+### Yeni klasörler
+
+- [ ] Core\DefInjected\RulePackDef\
