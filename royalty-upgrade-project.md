@@ -34,6 +34,10 @@ Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797b
 - [ ] Core/Keyed/Skills.xml
 - [ ] Core/Keyed/WorkTags.xml
 
+## Düzeltilecek çeviriler
+
+- [ ] Core\DefInjected\ThingDef\Buildings_Power.xml -> Chemfuel
+
 ### Yeni klasörler
 
 - [ ] Core\DefInjected\RulePackDef\
