@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>disease->flu</li>
+    <li>disease->plague</li>
+    <li>disease->malaria</li>
+    <li>disease->infection</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
+  -->
+  <PawnLend.questDescriptionRules.rulesStrings>TODO</PawnLend.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[worker] Outsourcing</li>
+    <li>questName->Contract [worker]s</li>
+    <li>questName->Temporary Workers</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
+    <li>worker->Colonist</li>
+    <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
+  -->
+  <PawnLend.questNameRules.rulesStrings>TODO</PawnLend.questNameRules.rulesStrings>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef>TODO</PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>TODO</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef>TODO</PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>TODO</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <PawnLend.LetterLabelShuttleArrived.slateRef>TODO</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
+  <PawnLend.LetterTextShuttleArrived.slateRef>TODO</PawnLend.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>TODO</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>TODO</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Colonists returned -->
+  <PawnLend.LetterLabelColonistsReturned.slateRef>TODO</PawnLend.LetterLabelColonistsReturned.slateRef>
+  
+</LanguageData>
