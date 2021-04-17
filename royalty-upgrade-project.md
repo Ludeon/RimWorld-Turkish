@@ -38,3 +38,4 @@ Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797b
 
 - [ ] Core\DefInjected\RulePackDef\
 - [ ] Core\DefInjected\QuestScriptDef\
+- [ ] Core\DefInjected\TaleDef\ (nedense oyun Almanca dağıtmış)
