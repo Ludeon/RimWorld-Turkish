@@ -24,6 +24,8 @@ Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek
 - [ ] ITabs.xml
 - [ ] GameplayCommands.xml
 
+- [ ] Core\DefInjected\ThingDef\Items_Resource_Stuff.xml
+
 ## Eksik çeviriler
 
 Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797bad0e3eac7fdc6ad2ecaa83c036b3e6c7f)
@@ -45,3 +47,4 @@ Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797b
 - [ ] Core\DefInjected\RulePackDef\
 - [ ] Core\DefInjected\QuestScriptDef\
 - [ ] Core\DefInjected\TaleDef\ (nedense oyun Almanca dağıtmış)
+- [ ] Core\DefInjected\ThingDef\ (bir kısmı eksik)
