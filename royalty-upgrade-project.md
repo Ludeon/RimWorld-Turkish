@@ -12,66 +12,13 @@ Güncellenen dosyaları repoya eklerken eski çeviriler kaybolmasın diye ```<!-
 
 Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek tek dosyaları gezip buradaki çevirileri gerekli yere ekleyeceğim. Bunun hakkında benimle #302 den konuşmanızı rica ediyorum.
 
-## Eksik çeviriler
+~~Proje sayfasını düzenleyince buradakiler oraya aktaracağım.~~
 
-Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797bad0e3eac7fdc6ad2ecaa83c036b3e6c7f)
+[Proje sayfasına bir göz atın.](https://github.com/Ludeon/RimWorld-Turkish/projects)
 
-- [ ] Core/DefInjected/TraderKindDef/TraderKinds_Caravan_Neolithic.xml
-- [ ] Core/DefInjected/TrainableDef/Trainables.xml
-- [ ] Core/Keyed/Menu_Options.xml
-- [ ] Core/Keyed/Skills.xml
-- [ ] Core/Keyed/WorkTags.xml
-
-## Düzeltilecek çeviriler
-
-- [ ] Core\DefInjected\ThingDef\Buildings_Power.xml -> Chemfuel
-- [ ] Core\DefInjected\ThingDef\Apparel_Headgear.xml
-- [ ] Core\DefInjected\ThingDef\Apparel_Belts.xml
-
-### Yeni klasörler
+## Yeni klasörler
 
 - [ ] Core\DefInjected\RulePackDef\
 - [ ] Core\DefInjected\QuestScriptDef\
 - [ ] Core\DefInjected\TaleDef\ (nedense oyun Almanca dağıtmış)
 - [ ] Core\DefInjected\ThingDef\ (bir kısmı eksik)
-
-## \<!-- UNUSED -->
-
-### Core\Keyed\
-
-- [ ] Misc_Gameplay.xml
-- [ ] Messages.xml
-- [ ] Menus_Main.xml
-- [ ] MainTabs.xml
-- [ ] Letters.xml (satırlar ayrılmış)
-- [ ] ITabs.xml
-- [ ] GameplayCommands.xml
-
-### Races
-
-- [ ] Core\DefInjected\ThingDef\Races_Animal_Bears.xml
-- [ ] Core\DefInjected\ThingDef\Races_Animal_Giant.xml
-- [ ] Core\DefInjected\ThingDef\Races_Animal_Hares.xml
-- [ ] Core\DefInjected\ThingDef\Races_Animal_Insect.xml
-- [ ] Core\DefInjected\ThingDef\Races_Animal_Temperate.xml
-- [ ] Core\DefInjected\ThingDef\Races_Animal_WildCanines.xml
-
-### Thoughts
-
-- [ ] Core\DefInjected\ThoughtDef\Thoughts_Situation_Special.xml
-- [ ] Core\DefInjected\ThoughtDef\Thoughts_Memory_Misc.xml
-- [ ] Core\DefInjected\ThoughtDef\Thoughts_Situation_Needs.xml
-- [ ] Core\DefInjected\ThoughtDef\Thoughts_Situation_RoomStats.xml
-
-### Diğerleri
-
-- [ ] Core\DefInjected\ThingDef\Items_Artifacts.xml
-- [ ] Core\DefInjected\ThingDef\Items_Resource_Stuff.xml
-- [ ] Core\DefInjected\TraitDef\Traits_Singular.xml
-
-### Royalty
-
-- [ ] Royalty\Keyed\Dialogs_Various.xml
-- [ ] Royalty\Keyed\GameplayCommands.xml
-- [ ] Royalty\Keyed\Letters.xml
-- [ ] Royalty\Keyed\Misc_Gameplay.xml
