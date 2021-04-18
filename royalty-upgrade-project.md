@@ -33,6 +33,13 @@ Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek
 - [ ] Core\DefInjected\ThingDef\Races_Animal_Temperate.xml
 - [ ] Core\DefInjected\ThingDef\Races_Animal_WildCanines.xml
 
+### Thoughts
+
+- [ ] Core\DefInjected\ThoughtDef\Thoughts_Situation_Special.xml
+- [ ] Core\DefInjected\ThoughtDef\Thoughts_Memory_Misc.xml
+- [ ] Core\DefInjected\ThoughtDef\Thoughts_Situation_Needs.xml
+- [ ] Core\DefInjected\ThoughtDef\Thoughts_Situation_RoomStats.xml
+
 ### Diğerleri
 
 - [ ] Core\DefInjected\ThingDef\Items_Artifacts.xml

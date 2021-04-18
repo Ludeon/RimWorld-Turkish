@@ -1,93 +1,163 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-	
-	<KnowGuestExecuted.stages.0.label>birisine ötenazi yapıldı</KnowGuestExecuted.stages.0.label>
-	<KnowGuestExecuted.stages.0.description>Bir mahkuma veya misafire ötenazi yapıldı. İnsanca ama yine de üzücü.</KnowGuestExecuted.stages.0.description>
-	<KnowGuestExecuted.stages.1.label>birisi idam edildi</KnowGuestExecuted.stages.1.label>
-	<KnowGuestExecuted.stages.1.description>Bir mahkum veya misafir soğukkanlılıkla idam edildi. Bu çok fenaydı.</KnowGuestExecuted.stages.1.description>
-	<KnowGuestExecuted.stages.2.label>birisi organı alındığı için öldü</KnowGuestExecuted.stages.2.label>
-	<KnowGuestExecuted.stages.2.description>Bir mahkum veya misafir organı alındığı için öldü. Bu gerçekten korkunç.</KnowGuestExecuted.stages.2.description>
-
-	<KnowColonistExecuted.stages.0.label>koloniste ötenazi yapıldı</KnowColonistExecuted.stages.0.label>
-	<KnowColonistExecuted.stages.0.description>Bir koloniste ötenazi uygulandı. İnsanca ama yine de üzücü.</KnowColonistExecuted.stages.0.description>
-	<KnowColonistExecuted.stages.1.label>kolonist idam edildi</KnowColonistExecuted.stages.1.label>
-	<KnowColonistExecuted.stages.1.description>Bir kolonist soğukkanlılıkla idam edildi. Bu çok fenaydı.</KnowColonistExecuted.stages.1.description>
-	<KnowColonistExecuted.stages.2.label>kolonist organı alındığı için öldü</KnowColonistExecuted.stages.2.label>
-	<KnowColonistExecuted.stages.2.description>Bir kolonist organı alındığı için öldü. Bu gerçekten korkunç.</KnowColonistExecuted.stages.2.description>
- 
-  	<KnowPrisonerDiedInnocent.stages.0.label>masum mahkum öldü</KnowPrisonerDiedInnocent.stages.0.label>
-  	<KnowPrisonerDiedInnocent.stages.0.description>Mahkumlarımızdan birisi zararsız olmasına rağmen öldü. Mahkumlarımıza bakabilmeliyiz. Onların ölmelerini isteseydik bu barbarlığa izin vermektense en azından düzgün, saygılı bir infaz gerçekleştirebilirdik.</KnowPrisonerDiedInnocent.stages.0.description>
   
-  	<KnowColonistDied.stages.0.label>kolonist öldü</KnowColonistDied.stages.0.label>
-  	<KnowColonistDied.stages.0.description>İnsanlarımızdan birisini kaybettik. İnsanlarımızı hayatta tutabilmeliyiz.</KnowColonistDied.stages.0.description>
+  <!-- EN: bonded animal {0} died -->
+  <BondedAnimalDied.stages.bonded_animal_died.label>evcil hayvanımız {0} öldü</BondedAnimalDied.stages.bonded_animal_died.label>
+  <!-- EN: Such a tender, unique animal. This universe is evil! -->
+  <BondedAnimalDied.stages.bonded_animal_died.description>Böyle hassas ve eşsiz bir hayvan nasıl ölür? Bu evren çok fena!</BondedAnimalDied.stages.bonded_animal_died.description>
   
-	<BondedAnimalDied.stages.0.label>evcil hayvanımız {0} öldü</BondedAnimalDied.stages.0.label>
-	<BondedAnimalDied.stages.0.description>Böyle hassas ve eşsiz bir hayvan nasıl ölür? Bu evren çok fena!</BondedAnimalDied.stages.0.description>
+  <!-- EN: colonist died -->
+  <KnowColonistDied.stages.colonist_died.label>kolonist öldü</KnowColonistDied.stages.colonist_died.label>
+  <!-- EN: One of our people died. We should be able to take care of our people. -->
+  <KnowColonistDied.stages.colonist_died.description>İnsanlarımızdan birisini kaybettik. İnsanlarımızı hayatta tutabilmeliyiz.</KnowColonistDied.stages.colonist_died.description>
   
-	<PawnWithGoodOpinionDied.stages.0.label>arkadaşım {0} öldü</PawnWithGoodOpinionDied.stages.0.label>
-	<PawnWithGoodOpinionDied.stages.0.description>Ne kadar harika bir insandı. Evren her geçen gün daha çok kararıyor.</PawnWithGoodOpinionDied.stages.0.description>
-
-	<PawnWithBadOpinionDied.stages.0.label>hasımım {0} geberdi</PawnWithBadOpinionDied.stages.0.label>
-	<PawnWithBadOpinionDied.stages.0.description>Hak ettiğini aldı! İşler iyiye gidiyor!</PawnWithBadOpinionDied.stages.0.description>
+  <!-- EN: justified execution of colonist -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.label>koloniste ötenazi yapıldı</KnowColonistExecuted.stages.justified_execution_of_colonist.label>
+  <!-- EN: A guilty colonist was executed. It was justified, but still sad. -->
+  <KnowColonistExecuted.stages.justified_execution_of_colonist.description>Bir koloniste ötenazi uygulandı. İnsanca ama yine de üzücü.</KnowColonistExecuted.stages.justified_execution_of_colonist.description>
+  <!-- EN: colonist euthanized -->
+  <KnowColonistExecuted.stages.colonist_euthanized.label>kolonist idam edildi</KnowColonistExecuted.stages.colonist_euthanized.label>
+  <!-- EN: A colonist was euthanized. It was humane, but still sad. -->
+  <KnowColonistExecuted.stages.colonist_euthanized.description>Bir kolonist soğukkanlılıkla idam edildi. Bu çok fenaydı.</KnowColonistExecuted.stages.colonist_euthanized.description>
+  <!-- EN: colonist executed -->
+  <KnowColonistExecuted.stages.colonist_executed.label>kolonist organı alındığı için öldü</KnowColonistExecuted.stages.colonist_executed.label>
+  <!-- EN: A colonist was killed in cold blood. It seemed a bit evil. -->
+  <KnowColonistExecuted.stages.colonist_executed.description>Bir kolonist organı alındığı için öldü. Bu gerçekten korkunç.</KnowColonistExecuted.stages.colonist_executed.description>
+  <!-- EN: colonist organ-harvested -->
+  <KnowColonistExecuted.stages.colonist_organharvested.label>TODO</KnowColonistExecuted.stages.colonist_organharvested.label>
+  <!-- EN: A colonist died because someone took body parts from him. It's horrible. -->
+  <KnowColonistExecuted.stages.colonist_organharvested.description>TODO</KnowColonistExecuted.stages.colonist_organharvested.description>
   
-  	<MySonDied.stages.0.label>oğlum {0} vefat etti</MySonDied.stages.0.label>
-  	<MySonDied.stages.0.description>Oğlumu kaybettim... Benim canım, kanım. Nasıl ayakta kalabilirim?</MySonDied.stages.0.description>
-
-  	<MyDaughterDied.stages.0.label>kızım {0} vefat etti</MyDaughterDied.stages.0.label>
-  	<MyDaughterDied.stages.0.description>Güzel kızımı kaybettim... Benim canım, kanım. Nasıl ayakta kalabilirim?</MyDaughterDied.stages.0.description>
-
-  	<MyHusbandDied.stages.0.label>eşim {0} vefat etti</MyHusbandDied.stages.0.label>
-  	<MyHusbandDied.stages.0.description>Kocamı, yol arkadaşımı kaybettim. Artık çok yalnızım.</MyHusbandDied.stages.0.description>
-
-  	<MyWifeDied.stages.0.label>karım {0} vefat etti</MyWifeDied.stages.0.label>
-  	<MyWifeDied.stages.0.description>Karımı, yol arkadaşımı kaybettim. Artık çok yalnızım.</MyWifeDied.stages.0.description>
-
-  	<MyFianceDied.stages.0.label>nişanlım {0} vefat etti</MyFianceDied.stages.0.label>
-  	<MyFianceDied.stages.0.description>Nişanlım öldü. Böyle bir adam... Geleceğimi kaybettim...</MyFianceDied.stages.0.description>
-
-  	<MyFianceeDied.stages.0.label>nişanlım {0} öldü</MyFianceeDied.stages.0.label>
-  	<MyFianceeDied.stages.0.description>Nişanlım öldü. Böyle bir kadın... Geleceğimi kaybettim...</MyFianceeDied.stages.0.description>
-
-  	<MyLoverDied.stages.0.label>sevgilim {0} vefat etti</MyLoverDied.stages.0.label>
-  	<MyLoverDied.stages.0.description>Sevgilimi kaybettim... Çok yalnız hissediyorum...</MyLoverDied.stages.0.description>
-
-  	<MyBrotherDied.stages.0.label>kardeşim {0} vefat etti</MyBrotherDied.stages.0.label>
-  	<MyBrotherDied.stages.0.description>Kardeşim öldü. Benim kanımdı, canımdı...</MyBrotherDied.stages.0.description>
-
-  	<MySisterDied.stages.0.label>kız kardeşim {0} vefat etti</MySisterDied.stages.0.label>
-  	<MySisterDied.stages.0.description>Kardeşim öldü. Benim kanımdı, canımdı...</MySisterDied.stages.0.description>
-
-  	<MyGrandchildDied.stages.0.label>torunum {0} öldü</MyGrandchildDied.stages.0.label>
-  	<MyGrandchildDied.stages.0.description>Küçük torunumu kaybettim... Onun yerine keşke ben ölseydim...</MyGrandchildDied.stages.0.description>
-
-  	<MyFatherDied.stages.0.label>babam {0} öldü</MyFatherDied.stages.0.label>
-  	<MyFatherDied.stages.0.description>Babam göçtü gitti. Ona minnettarım ve özleyeceğim.</MyFatherDied.stages.0.description>
-
-  	<MyMotherDied.stages.0.label>annem {0} öldü</MyMotherDied.stages.0.label>
-  	<MyMotherDied.stages.0.description>Annemi kaybettim. Bu dünyadan göçtü gitti. Her zaman özleyeceğim.</MyMotherDied.stages.0.description>
-
-  	<MyNieceDied.stages.0.label>yeğenim {0} öldü</MyNieceDied.stages.0.label>
-  	<MyNieceDied.stages.0.description>Yeğenim öldü... Çok muhteşem bir kızdı...</MyNieceDied.stages.0.description>
-
-  	<MyNephewDied.stages.0.label>erkek yeğenim {0} öldü</MyNephewDied.stages.0.label>
-  	<MyNephewDied.stages.0.description>Yeğenim öldü. Çok efendi, düzgün bir çocuktu...</MyNephewDied.stages.0.description>
-
-  	<MyHalfSiblingDied.stages.0.label>ikizim {0} öldü</MyHalfSiblingDied.stages.0.label>
-  	<MyHalfSiblingDied.stages.0.description>İkizimi kaybettim. Kendimi kaybetmek üzereyim. Tanrım yardım et!</MyHalfSiblingDied.stages.0.description>
-
-  	<MyAuntDied.stages.0.label>teyzem {0} öldü</MyAuntDied.stages.0.label>
-  	<MyAuntDied.stages.0.description>Teyzem vefat etti... Anne yarısıydı...</MyAuntDied.stages.0.description>
-
-  	<MyUncleDied.stages.0.label>amcam {0} öldü</MyUncleDied.stages.0.label>
-  	<MyUncleDied.stages.0.description>Amcam vefat etti... Baba yarısıydı...</MyUncleDied.stages.0.description>
-
-  	<MyGrandparentDied.stages.0.label>aile büyüğüm {0} öldü</MyGrandparentDied.stages.0.label>
-  	<MyGrandparentDied.stages.0.description>Ona yakışır bir torun olmaya devam edeceğim.</MyGrandparentDied.stages.0.description>
-
-  	<MyCousinDied.stages.0.label>kuzenim {0} öldü</MyCousinDied.stages.0.label>
-  	<MyCousinDied.stages.0.description>Kuzenim vefat etti. Onunla büyümüştük. Benim kanımdı, canımdı...</MyCousinDied.stages.0.description>
-
-  	<MyKinDied.stages.0.label>akrabam {0} öldü</MyKinDied.stages.0.label>
-  	<MyKinDied.stages.0.description>Yakınımı kaybettim.</MyKinDied.stages.0.description>
-  	
+  <!-- EN: justified execution -->
+  <KnowGuestExecuted.stages.justified_execution.label>birisine ötenazi yapıldı</KnowGuestExecuted.stages.justified_execution.label>
+  <!-- EN: A guilty prisoner or guest was executed. It was justified, but still sad. -->
+  <KnowGuestExecuted.stages.justified_execution.description>Bir mahkuma veya misafire ötenazi yapıldı. İnsanca ama yine de üzücü.</KnowGuestExecuted.stages.justified_execution.description>
+  <!-- EN: someone was euthanized -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.label>birisi idam edildi</KnowGuestExecuted.stages.someone_was_euthanized.label>
+  <!-- EN: A prisoner or guest was euthanized. It was humane, but still sad. -->
+  <KnowGuestExecuted.stages.someone_was_euthanized.description>Bir mahkum veya misafir soğukkanlılıkla idam edildi. Bu çok fenaydı.</KnowGuestExecuted.stages.someone_was_euthanized.description>
+  <!-- EN: someone was executed -->
+  <KnowGuestExecuted.stages.someone_was_executed.label>birisi organı alındığı için öldü</KnowGuestExecuted.stages.someone_was_executed.label>
+  <!-- EN: A prisoner or guest was killed in cold blood. It seemed a bit evil. -->
+  <KnowGuestExecuted.stages.someone_was_executed.description>Bir mahkum veya misafir organı alındığı için öldü. Bu gerçekten korkunç.</KnowGuestExecuted.stages.someone_was_executed.description>
+  <!-- EN: someone was organ-murdered -->
+  <KnowGuestExecuted.stages.someone_was_organmurdered.label>TODO</KnowGuestExecuted.stages.someone_was_organmurdered.label>
+  <!-- EN: A prisoner or guest died because the colony took body parts from him. It's horrible. -->
+  <KnowGuestExecuted.stages.someone_was_organmurdered.description>TODO</KnowGuestExecuted.stages.someone_was_organmurdered.description>
+  
+  <!-- EN: innocent prisoner died -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>masum mahkum öldü</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.label>
+  <!-- EN: One of our prisoners died despite being harmless. We should be able to take care of our prisoners. If we wanted them dead, we could have at least conducted an orderly execution rather than permit that barbarism. -->
+  <KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>Mahkumlarımızdan birisi zararsız olmasına rağmen öldü. Mahkumlarımıza bakabilmeliyiz. Onların ölmelerini isteseydik bu barbarlığa izin vermektense en azından düzgün, saygılı bir infaz gerçekleştirebilirdik.</KnowPrisonerDiedInnocent.stages.innocent_prisoner_died.description>
+  
+  <!-- EN: my aunt {0} died -->
+  <MyAuntDied.stages.my_aunt_died.label>teyzem {0} öldü</MyAuntDied.stages.my_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <MyAuntDied.stages.my_aunt_died.description>Teyzem vefat etti... Anne yarısıydı...</MyAuntDied.stages.my_aunt_died.description>
+  
+  <!-- EN: my brother {0} died -->
+  <MyBrotherDied.stages.my_brother_died.label>kardeşim {0} vefat etti</MyBrotherDied.stages.my_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <MyBrotherDied.stages.my_brother_died.description>Kardeşim öldü. Benim kanımdı, canımdı...</MyBrotherDied.stages.my_brother_died.description>
+  
+  <!-- EN: my cousin {0} died -->
+  <MyCousinDied.stages.my_cousin_died.label>kuzenim {0} öldü</MyCousinDied.stages.my_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <MyCousinDied.stages.my_cousin_died.description>Kuzenim vefat etti. Onunla büyümüştük. Benim kanımdı, canımdı...</MyCousinDied.stages.my_cousin_died.description>
+  
+  <!-- EN: my daughter {0} died -->
+  <MyDaughterDied.stages.my_daughter_died.label>kızım {0} vefat etti</MyDaughterDied.stages.my_daughter_died.label>
+  <!-- EN: My daughter is dead. My own flesh and blood... -->
+  <MyDaughterDied.stages.my_daughter_died.description>Güzel kızımı kaybettim... Benim canım, kanım. Nasıl ayakta kalabilirim?</MyDaughterDied.stages.my_daughter_died.description>
+  
+  <!-- EN: my father {0} died -->
+  <MyFatherDied.stages.my_father_died.label>babam {0} öldü</MyFatherDied.stages.my_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <MyFatherDied.stages.my_father_died.description>Babam göçtü gitti. Ona minnettarım ve özleyeceğim.</MyFatherDied.stages.my_father_died.description>
+  
+  <!-- EN: my fiance {0} died -->
+  <MyFianceDied.stages.my_fiance_died.label>nişanlım {0} vefat etti</MyFianceDied.stages.my_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <MyFianceDied.stages.my_fiance_died.description>Nişanlım öldü. Böyle bir adam... Geleceğimi kaybettim...</MyFianceDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my fiancée {0} died -->
+  <MyFianceeDied.stages.my_fiance_died.label>nişanlım {0} öldü</MyFianceeDied.stages.my_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <MyFianceeDied.stages.my_fiance_died.description>Nişanlım öldü. Böyle bir kadın... Geleceğimi kaybettim...</MyFianceeDied.stages.my_fiance_died.description>
+  
+  <!-- EN: my grandchild {0} died -->
+  <MyGrandchildDied.stages.my_grandchild_died.label>torunum {0} öldü</MyGrandchildDied.stages.my_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <MyGrandchildDied.stages.my_grandchild_died.description>Küçük torunumu kaybettim... Onun yerine keşke ben ölseydim...</MyGrandchildDied.stages.my_grandchild_died.description>
+  
+  <!-- EN: my grandparent {0} died -->
+  <MyGrandparentDied.stages.my_grandparent_died.label>aile büyüğüm {0} öldü</MyGrandparentDied.stages.my_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <MyGrandparentDied.stages.my_grandparent_died.description>Ona yakışır bir torun olmaya devam edeceğim.</MyGrandparentDied.stages.my_grandparent_died.description>
+  
+  <!-- EN: my half-sibling {0} died -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.label>ikizim {0} öldü</MyHalfSiblingDied.stages.my_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <MyHalfSiblingDied.stages.my_halfsibling_died.description>İkizimi kaybettim. Kendimi kaybetmek üzereyim. Tanrım yardım et!</MyHalfSiblingDied.stages.my_halfsibling_died.description>
+  
+  <!-- EN: my husband {0} died -->
+  <MyHusbandDied.stages.my_husband_died.label>eşim {0} vefat etti</MyHusbandDied.stages.my_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <MyHusbandDied.stages.my_husband_died.description>Kocamı, yol arkadaşımı kaybettim. Artık çok yalnızım.</MyHusbandDied.stages.my_husband_died.description>
+  
+  <!-- EN: my kin {0} died -->
+  <MyKinDied.stages.my_kin_died.label>akrabam {0} öldü</MyKinDied.stages.my_kin_died.label>
+  <!-- EN: My kin died. -->
+  <MyKinDied.stages.my_kin_died.description>Yakınımı kaybettim.</MyKinDied.stages.my_kin_died.description>
+  
+  <!-- EN: my lover {0} died -->
+  <MyLoverDied.stages.my_lover_died.label>sevgilim {0} vefat etti</MyLoverDied.stages.my_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <MyLoverDied.stages.my_lover_died.description>Sevgilimi kaybettim... Çok yalnız hissediyorum...</MyLoverDied.stages.my_lover_died.description>
+  
+  <!-- EN: my mother {0} died -->
+  <MyMotherDied.stages.my_mother_died.label>annem {0} öldü</MyMotherDied.stages.my_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <MyMotherDied.stages.my_mother_died.description>Annemi kaybettim. Bu dünyadan göçtü gitti. Her zaman özleyeceğim.</MyMotherDied.stages.my_mother_died.description>
+  
+  <!-- EN: my nephew {0} died -->
+  <MyNephewDied.stages.my_nephew_died.label>erkek yeğenim {0} öldü</MyNephewDied.stages.my_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <MyNephewDied.stages.my_nephew_died.description>Yeğenim öldü. Çok efendi, düzgün bir çocuktu...</MyNephewDied.stages.my_nephew_died.description>
+  
+  <!-- EN: my niece {0} died -->
+  <MyNieceDied.stages.my_niece_died.label>yeğenim {0} öldü</MyNieceDied.stages.my_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <MyNieceDied.stages.my_niece_died.description>Yeğenim öldü... Çok muhteşem bir kızdı...</MyNieceDied.stages.my_niece_died.description>
+  
+  <!-- EN: my sister {0} died -->
+  <MySisterDied.stages.my_sister_died.label>kız kardeşim {0} vefat etti</MySisterDied.stages.my_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <MySisterDied.stages.my_sister_died.description>Kardeşim öldü. Benim kanımdı, canımdı...</MySisterDied.stages.my_sister_died.description>
+  
+  <!-- EN: my son {0} died -->
+  <MySonDied.stages.my_son_died.label>oğlum {0} vefat etti</MySonDied.stages.my_son_died.label>
+  <!-- EN: My son is dead. My own flesh and blood... -->
+  <MySonDied.stages.my_son_died.description>Oğlumu kaybettim... Benim canım, kanım. Nasıl ayakta kalabilirim?</MySonDied.stages.my_son_died.description>
+  
+  <!-- EN: my uncle {0} died -->
+  <MyUncleDied.stages.my_uncle_died.label>amcam {0} öldü</MyUncleDied.stages.my_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <MyUncleDied.stages.my_uncle_died.description>Amcam vefat etti... Baba yarısıydı...</MyUncleDied.stages.my_uncle_died.description>
+  
+  <!-- EN: my wife {0} died -->
+  <MyWifeDied.stages.my_wife_died.label>karım {0} vefat etti</MyWifeDied.stages.my_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <MyWifeDied.stages.my_wife_died.description>Karımı, yol arkadaşımı kaybettim. Artık çok yalnızım.</MyWifeDied.stages.my_wife_died.description>
+  
+  <!-- EN: my rival {0} died -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.label>hasımım {0} geberdi</PawnWithBadOpinionDied.stages.my_rival_died.label>
+  <!-- EN: Serves them right. At least there's some justice in this world. -->
+  <PawnWithBadOpinionDied.stages.my_rival_died.description>Hak ettiğini aldı! İşler iyiye gidiyor!</PawnWithBadOpinionDied.stages.my_rival_died.description>
+  
+  <!-- EN: my friend {0} died -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.label>arkadaşım {0} öldü</PawnWithGoodOpinionDied.stages.my_friend_died.label>
+  <!-- EN: Such a wonderful person, gone forever. The universe gets darker every day. -->
+  <PawnWithGoodOpinionDied.stages.my_friend_died.description>Ne kadar harika bir insandı. Evren her geçen gün daha çok kararıyor.</PawnWithGoodOpinionDied.stages.my_friend_died.description>
+  
 </LanguageData>
