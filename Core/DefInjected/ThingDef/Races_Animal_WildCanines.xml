@@ -1,37 +1,91 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-    
-    <Warg.label>warg</Warg.label>
-    <Warg.description>Heavily-muscled wolf-like creatures. Scientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. They will only eat meat or corpses.</Warg.description>
-    <Warg_Leather.label>warg fur</Warg_Leather.label>
-    <Warg_Leather.description>Leather made from the skin of a warg.</Warg_Leather.description>
-    <Warg_Leather.stuffProps.stuffAdjective>warg fur</Warg_Leather.stuffProps.stuffAdjective>
-    <Warg_Meat.label>warg meat</Warg_Meat.label>
-    <Warg_Meat.description>Raw flesh of a warg.</Warg_Meat.description>
-    <Warg_Corpse.label>warg corpse</Warg_Corpse.label>
-    <Warg_Corpse.description>Dead body of a warg.</Warg_Corpse.description>
-    
-    <WolfTimber.label>timber wolf</WolfTimber.label>
-    <WolfTimber.description>A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have a complex social life and are fiercely intelligent.</WolfTimber.description>
-    <WolfTimber.race.meatLabel>timber wolf meat</WolfTimber.race.meatLabel>
-    <WolfTimber.race.leatherLabel>timber wolf leather</WolfTimber.race.leatherLabel>
-
-        
-    <WolfArctic.label>arctic wolf</WolfArctic.label>
-    <WolfArctic.description>An arctic variant of the old Earth wolf. As pack hunters, wolves have a complex social life and are fiercely intelligent.</WolfArctic.description>
-    <WolfArctic.race.leatherLabel>arctic wolf leather</WolfArctic.race.leatherLabel>
-    
-    <FoxFennec.label>fennec fox</FoxFennec.label>
-    <FoxFennec.description>A small fox originally from the northern part of Earth's Africa continent. It hunts small creatures and has very large ears.</FoxFennec.description>
-    <FoxFennec.race.leatherLabel>fennec fox leather</FoxFennec.race.leatherLabel>
-    <FoxFennec.race.meatLabel>fennec fox meat</FoxFennec.race.meatLabel>
-    
-    <FoxRed.label>red Fox</FoxRed.label>
-    <FoxRed.description>A small solitary canine evolved for hunting small prey in temperate climates.</FoxRed.description>
-    <FoxRed.race.leatherLabel>red fox leather</FoxRed.race.leatherLabel>
-    
-    <FoxArctic.label>arctic fox</FoxArctic.label>
-    <FoxArctic.description>A small predator adapted for the far north. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey.</FoxArctic.description>
-    <FoxArctic.race.leatherLabel>arctic fox leather</FoxArctic.race.leatherLabel>
-    
+  
+  <!-- EN: arctic fox -->
+  <Fox_Arctic.label>arctic fox</Fox_Arctic.label>
+  <!-- EN: A small predator adapted for cold climates. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey. -->
+  <Fox_Arctic.description>A small predator adapted for the far north. It usually hunts small game like mice and voles, sometimes burrowing through a meter of snow to reach its prey.</Fox_Arctic.description>
+  <!-- EN: left claw -->
+  <Fox_Arctic.tools.left_claw.label>TODO</Fox_Arctic.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fox_Arctic.tools.right_claw.label>TODO</Fox_Arctic.tools.right_claw.label>
+  <!-- EN: head -->
+  <Fox_Arctic.tools.head.label>TODO</Fox_Arctic.tools.head.label>
+  
+  <!-- UNUSED -->
+  <Fox_Arctic.race.leatherLabel>arctic fox leather</Fox_Arctic.race.leatherLabel>
+  
+  <!-- EN: fennec fox -->
+  <Fox_Fennec.label>fennec fox</Fox_Fennec.label>
+  <!-- EN: A small fox originally from the northern part of Earth's Africa continent. It hunts small creatures and has very large ears for cooling itself in the heat. -->
+  <Fox_Fennec.description>A small fox originally from the northern part of Earth's Africa continent. It hunts small creatures and has very large ears.</Fox_Fennec.description>
+  <!-- EN: fox meat -->
+  <Fox_Fennec.race.meatLabel>fennec fox meat</Fox_Fennec.race.meatLabel>
+  <!-- EN: left claw -->
+  <Fox_Fennec.tools.left_claw.label>TODO</Fox_Fennec.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fox_Fennec.tools.right_claw.label>TODO</Fox_Fennec.tools.right_claw.label>
+  <!-- EN: head -->
+  <Fox_Fennec.tools.head.label>TODO</Fox_Fennec.tools.head.label>
+  
+  <!-- UNUSED -->
+  <Fox_Fennec.race.leatherLabel>fennec fox leather</Fox_Fennec.race.leatherLabel>
+  
+  <!-- EN: red fox -->
+  <Fox_Red.label>red Fox</Fox_Red.label>
+  <!-- EN: A small solitary canine evolved for hunting small prey in temperate climates. Chicken farmers hate foxes because of their ability to destroy a whole coop in minutes. -->
+  <Fox_Red.description>A small solitary canine evolved for hunting small prey in temperate climates.</Fox_Red.description>
+  <!-- EN: left claw -->
+  <Fox_Red.tools.left_claw.label>TODO</Fox_Red.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Fox_Red.tools.right_claw.label>TODO</Fox_Red.tools.right_claw.label>
+  <!-- EN: head -->
+  <Fox_Red.tools.head.label>TODO</Fox_Red.tools.head.label>
+  
+  <!-- UNUSED -->
+  <Fox_Red.race.leatherLabel>red fox leather</Fox_Red.race.leatherLabel>
+  
+  <!-- EN: warg -->
+  <Warg.label>warg</Warg.label>
+  <!-- EN: Heavily-muscled wolf-like creatures with vicious unnatural claws and an absurdly powerful bite. They will only eat meat or corpses. If disturbed in the wild, they are very likely to attack.\n\nScientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. -->
+  <Warg.description>Heavily-muscled wolf-like creatures. Scientists say wargs are the descendants of weaponized military animals created for population suppression. The superstitious see them as the tools of an angry god. They will only eat meat or corpses.</Warg.description>
+  <!-- EN: left claw -->
+  <Warg.tools.left_claw.label>TODO</Warg.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Warg.tools.right_claw.label>TODO</Warg.tools.right_claw.label>
+  <!-- EN: razorfangs -->
+  <Warg.tools.razorfangs.label>TODO</Warg.tools.razorfangs.label>
+  <!-- EN: head -->
+  <Warg.tools.head.label>TODO</Warg.tools.head.label>
+  
+  <!-- EN: arctic wolf -->
+  <Wolf_Arctic.label>arctic wolf</Wolf_Arctic.label>
+  <!-- EN: An arctic variant of the old Earth wolf. As pack hunters, wolves have a complex social life and are fiercely intelligent. -->
+  <Wolf_Arctic.description>An arctic variant of the old Earth wolf. As pack hunters, wolves have a complex social life and are fiercely intelligent.</Wolf_Arctic.description>
+  <!-- EN: left claw -->
+  <Wolf_Arctic.tools.left_claw.label>TODO</Wolf_Arctic.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Wolf_Arctic.tools.right_claw.label>TODO</Wolf_Arctic.tools.right_claw.label>
+  <!-- EN: head -->
+  <Wolf_Arctic.tools.head.label>TODO</Wolf_Arctic.tools.head.label>
+  
+  <!-- UNUSED -->
+  <Wolf_Arctic.race.leatherLabel>arctic wolf leather</Wolf_Arctic.race.leatherLabel>
+  
+  <!-- EN: timber wolf -->
+  <Wolf_Timber.label>timber wolf</Wolf_Timber.label>
+  <!-- EN: A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have complex social lives and are fiercely intelligent. -->
+  <Wolf_Timber.description>A rugged predator long feared by many ancient Earth cultures. As pack hunters, wolves have a complex social life and are fiercely intelligent.</Wolf_Timber.description>
+  <!-- EN: wolf meat -->
+  <Wolf_Timber.race.meatLabel>timber wolf meat</Wolf_Timber.race.meatLabel>
+  <!-- EN: left claw -->
+  <Wolf_Timber.tools.left_claw.label>TODO</Wolf_Timber.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <Wolf_Timber.tools.right_claw.label>TODO</Wolf_Timber.tools.right_claw.label>
+  <!-- EN: head -->
+  <Wolf_Timber.tools.head.label>TODO</Wolf_Timber.tools.head.label>
+  
+  <!-- UNUSED -->
+  <Wolf_Timber.race.leatherLabel>timber wolf leather</Wolf_Timber.race.leatherLabel>
+  
 </LanguageData>

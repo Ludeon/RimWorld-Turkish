@@ -24,6 +24,15 @@ Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek
 - [ ] ITabs.xml
 - [ ] GameplayCommands.xml
 
+### Races
+
+- [ ] Core\DefInjected\ThingDef\Races_Animal_Bears.xml
+- [ ] Core\DefInjected\ThingDef\Races_Animal_Giant.xml
+- [ ] Core\DefInjected\ThingDef\Races_Animal_Hares.xml
+- [ ] Core\DefInjected\ThingDef\Races_Animal_Insect.xml
+- [ ] Core\DefInjected\ThingDef\Races_Animal_Temperate.xml
+- [ ] Core\DefInjected\ThingDef\Races_Animal_WildCanines.xml
+
 - [ ] Core\DefInjected\ThingDef\Items_Resource_Stuff.xml
 
 ## Eksik çeviriler
