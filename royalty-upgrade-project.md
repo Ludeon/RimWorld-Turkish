@@ -44,6 +44,7 @@ Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek
 
 - [ ] Core\DefInjected\ThingDef\Items_Artifacts.xml
 - [ ] Core\DefInjected\ThingDef\Items_Resource_Stuff.xml
+- [ ] Core\DefInjected\TraitDef\Traits_Singular.xml
 
 ## Eksik çeviriler
 
