@@ -33,6 +33,9 @@ Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek
 - [ ] Core\DefInjected\ThingDef\Races_Animal_Temperate.xml
 - [ ] Core\DefInjected\ThingDef\Races_Animal_WildCanines.xml
 
+### Diğerleri
+
+- [ ] Core\DefInjected\ThingDef\Items_Artifacts.xml
 - [ ] Core\DefInjected\ThingDef\Items_Resource_Stuff.xml
 
 ## Eksik çeviriler
