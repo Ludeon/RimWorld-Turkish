@@ -46,6 +46,13 @@ Dosyalar repodaki konumlarına göre listelecek. Her şey tamamlandığında tek
 - [ ] Core\DefInjected\ThingDef\Items_Resource_Stuff.xml
 - [ ] Core\DefInjected\TraitDef\Traits_Singular.xml
 
+### Royalty
+
+- [ ] Royalty\Keyed\Dialogs_Various.xml
+- [ ] Royalty\Keyed\GameplayCommands.xml
+- [ ] Royalty\Keyed\Letters.xml
+- [ ] Royalty\Keyed\Misc_Gameplay.xml
+
 ## Eksik çeviriler
 
 Bkz: [Alakalı commit](https://github.com/Ludeon/RimWorld-Turkish/commit/e96797bad0e3eac7fdc6ad2ecaa83c036b3e6c7f)
