@@ -8,7 +8,6 @@
 * [@Meriç Alemdar](https://github.com/alemdarwilson)
 * [@AtFreezingPoint](https://github.com/AtFreezingPoint)
 * [Altay Bey Instagram](https://www.instagram.com/altay.bey/)
-* [Nihat Yiğitcan Badem](https://www.linkedin.com/in/nybadem/)
 * [@LadySmith](https://github.com/LadySmith)
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 
