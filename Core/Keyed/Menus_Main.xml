@@ -191,11 +191,11 @@
   <!-- EN: Depends on: {0} -->
   <ModDependsOn>Bağ: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>Incompatible with: {0}</ModIncompatibleWith>
+  <ModIncompatibleWith>{0} İle uyumsuz.</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
-  <ModIncompatibleWithTip>This mod is incompatible with: {0}.</ModIncompatibleWithTip>
+  <ModIncompatibleWithTip>Bu mod {0} ile uyumsuz.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually.</ModOrderingWarning>
+  <ModOrderingWarning>Bu mod başka bir moda bağlı olarak yanlış sıralamada yüklenmektedir. 'otomatik düzenle' butonunu kullanarak veya manuel olarak modları yeniden sırala.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>Another active mod uses the same ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
@@ -205,9 +205,9 @@
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>This mod was not made for this version of RimWorld, and will probably not work correctly.</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
-  <ModNotMadeForThisVersionShort>TODO</ModNotMadeForThisVersionShort>
+  <ModNotMadeForThisVersionShort>Bu mod Rimworld'ün bu versiyonu için yapılmamıştır.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>This mod was made for a newer version of RimWorld than this, and will probably not work correctly.</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>Bu mod Rimworld'ün daha yeni bir versiyonu için yapılmıştır, muhtemelen düzgün çalışmayacaktır.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
   <MessageModNeedsWellFormattedTargetVersion>Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> is deprecated. Check log for further information.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
@@ -265,7 +265,7 @@
   <!-- EN: Incompatible -->
   <Incompatible>Uyumsuz</Incompatible>
   <!-- EN: Tag as translation -->
-  <TagAsTranslation>TODO</TagAsTranslation>
+  <TagAsTranslation>Çeviri olarak işaretle</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
   <TooMany>Çok fazla (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
@@ -295,112 +295,112 @@
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
-  <DifficultyCustomSectionLabel>TODO</DifficultyCustomSectionLabel>
+  <DifficultyCustomSectionLabel>Özelleştirilmiş oynanış ayarları</DifficultyCustomSectionLabel>
   <!-- EN: Set to standard playstyle... -->
-  <DifficultyReset>TODO</DifficultyReset>
+  <DifficultyReset>Standart oynanış ayarı olarak seç...</DifficultyReset>
   
   <!-- EN: Threats -->
-  <DifficultyThreatSection>TODO</DifficultyThreatSection>
+  <DifficultyThreatSection>Tehditler</DifficultyThreatSection>
   <!-- EN: Threat scale -->
-  <Difficulty_ThreatScale_Label>TODO</Difficulty_ThreatScale_Label>
+  <Difficulty_ThreatScale_Label>Tehdit boyutu</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>TODO</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>Baskın, böcek istilası ve görev zorlukları gibi tehditlerin boyutunu ayarla.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
-  <Difficulty_AllowBigThreats_Label>TODO</Difficulty_AllowBigThreats_Label>
+  <Difficulty_AllowBigThreats_Label>Büyük tehditler</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>TODO</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>Baskın, böcek istilası, insan avcısı sürüsü, kaza yapmış mekanoid gemileri ve daha fazlası gibi büyük tehditlere izin ver.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
-  <Difficulty_AllowViolentQuests_Label>TODO</Difficulty_AllowViolentQuests_Label>
+  <Difficulty_AllowViolentQuests_Label>Görev tehditleri</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>TODO</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>Görevlerin şiddetli tehditler ve zorluklar ile var olmasına izin ver. Eğer bu seçenek açık olmazsa, görevler tehdit içermeyen şekilde değiştirilecektir.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
-  <Difficulty_AllowIntroThreats_Label>TODO</Difficulty_AllowIntroThreats_Label>
+  <Difficulty_AllowIntroThreats_Label>Başlangıç tehditleri</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
-  <Difficulty_AllowIntroThreats_Info>TODO</Difficulty_AllowIntroThreats_Info>
+  <Difficulty_AllowIntroThreats_Info>Sabit giriş tehditlerinin oyunun başında var olmasına izin ver.</Difficulty_AllowIntroThreats_Info>
   <!-- EN: Predators hunt humans -->
-  <Difficulty_PredatorsHuntHumanlikes_Label>TODO</Difficulty_PredatorsHuntHumanlikes_Label>
+  <Difficulty_PredatorsHuntHumanlikes_Label>Yırtıcılar insanları avlar</Difficulty_PredatorsHuntHumanlikes_Label>
   <!-- EN: Allow wild predators to hunt humans. -->
-  <Difficulty_PredatorsHuntHumanlikes_Info>TODO</Difficulty_PredatorsHuntHumanlikes_Info>
+  <Difficulty_PredatorsHuntHumanlikes_Info>Vahşi yırtıcıların insanları avlamasına izin ver </Difficulty_PredatorsHuntHumanlikes_Info>
   <!-- EN: Extreme weather -->
-  <Difficulty_AllowExtremeWeatherIncidents_Label>TODO</Difficulty_AllowExtremeWeatherIncidents_Label>
+  <Difficulty_AllowExtremeWeatherIncidents_Label>Ekstrem hava koşulları</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>TODO</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>Toksik felaket, Volkanik kış ve şimşek fırtınaları gibi ekstrem hava koşullarına izin ver</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
-  <DifficultyEconomySection>TODO</DifficultyEconomySection>
+  <DifficultyEconomySection>Ekonomi</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
-  <Difficulty_TradePriceFactorLoss_Label>TODO</Difficulty_TradePriceFactorLoss_Label>
+  <Difficulty_TradePriceFactorLoss_Label>Ticari fiyat dezavantajı</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>TODO</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>Ticaret yaparken, alım fiyatları bu miktarda artarken satış fiyatları bu miktarda düşürülecektir.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
-  <Difficulty_CropYieldFactor_Label>TODO</Difficulty_CropYieldFactor_Label>
+  <Difficulty_CropYieldFactor_Label>Hasat getirisi</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
-  <Difficulty_CropYieldFactor_Info>TODO</Difficulty_CropYieldFactor_Info>
+  <Difficulty_CropYieldFactor_Info>Bitki ve ekinleri hasat ederken elde edilecek materyal miktarını ayarla. Bu bitkileri hasat etmeyi ve ağaç kesmeyi de içerir.</Difficulty_CropYieldFactor_Info>
   <!-- EN: Mining yield -->
-  <Difficulty_MineYieldFactor_Label>TODO</Difficulty_MineYieldFactor_Label>
+  <Difficulty_MineYieldFactor_Label>Maden kazım getirisi</Difficulty_MineYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when mining. -->
-  <Difficulty_MineYieldFactor_Info>TODO</Difficulty_MineYieldFactor_Info>
+  <Difficulty_MineYieldFactor_Info>Maden kazımının vereceği materyal miktarını ayarla.</Difficulty_MineYieldFactor_Info>
   <!-- EN: Butchering yield -->
-  <Difficulty_ButcherYieldFactor_Label>TODO</Difficulty_ButcherYieldFactor_Label>
+  <Difficulty_ButcherYieldFactor_Label>Hayvan kesim getirisi</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>TODO</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>Hayvan kesiminin ne kadar materyal getireceğinin miktarını ayarla. Bu et, deri ve parçalanmış mekanoidlerin getirisini de içerir.</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
-  <Difficulty_ResearchSpeedFactor_Label>TODO</Difficulty_ResearchSpeedFactor_Label>
+  <Difficulty_ResearchSpeedFactor_Label>Araştırma hızı</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
-  <Difficulty_ResearchSpeedFactor_Info>TODO</Difficulty_ResearchSpeedFactor_Info>
+  <Difficulty_ResearchSpeedFactor_Info>Araştırma hızını ayarla.</Difficulty_ResearchSpeedFactor_Info>
   <!-- EN: Quest rewards -->
-  <Difficulty_QuestRewardValueFactor_Label>TODO</Difficulty_QuestRewardValueFactor_Label>
+  <Difficulty_QuestRewardValueFactor_Label>Görev ödülleri</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>TODO</Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>Görevler için verilen ödüllerin değerini ayarla.\n\nNot: Görev ödül değeri de tehdit boyutunu karşılamak için otomatik olarak ayarlanmıştır. Eğer bu ayarı değiştirirseniz, ek bir etken eklemiş olursunuz. </Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
-  <Difficulty_RaidLootPointsFactor_Label>TODO</Difficulty_RaidLootPointsFactor_Label>
+  <Difficulty_RaidLootPointsFactor_Label>Baskın ganimeti</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>TODO</Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>Baskıncılar tarafından taşınacak ganimet miktarını ayarla.\n\nNot: Baskıncı ganimet değeri de tehdit boyutunu karşılamak için otomatik olarak ayarlanmıştır. Eğer bu ayarı değiştirirseniz, ek bir etken eklemiş olursunuz. </Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>TODO</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>Taret yeniden doldurma maliyeti</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>TODO</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>Taretleri yeniden doldurma maliyetini ayarla.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>TODO</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>Scaria çürüme şansı</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>TODO</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>Bir canlı scaria hastalığına sahipse öldürülme anında çürüme olasılığı.\n\nNot: Varsayılan ayarlar yüksek seviyelerdeki hayvan artışını dengelemek için dizayn edilmiştir, böylece bütün oyuncular aynı et ödülünü alır.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Düşmanın düşürüldüğünde ölümü</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>TODO</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Bir düşmanın düşürüldüğü anda ölmesinin ekstra şansını ayarla. Bu mahkum alma şansını böylece koloni nüfusu büyüme oranını etkiler.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
-  <DifficultyGeneralSection>TODO</DifficultyGeneralSection>
+  <DifficultyGeneralSection>Genel</DifficultyGeneralSection>
   <!-- EN: Colonist mood -->
-  <Difficulty_ColonistMoodOffset_Label>TODO</Difficulty_ColonistMoodOffset_Label>
+  <Difficulty_ColonistMoodOffset_Label>Kolonici ruh hali</Difficulty_ColonistMoodOffset_Label>
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
   <Difficulty_ColonistMoodOffset_Info>TODO</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>TODO</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>Gıda zehirlenmesi şansı</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>TODO</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>Bir kişinin potansiyel olarak zehirlenmiş bir yemekten gıda zehirlenmesi yaşama şansını ayarla.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Label>TODO</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>Hayvan intikam şansı</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>TODO</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Vahşi bir hayvanı yaralamanın vahşi hayvanı geri saldırma şansını ayarla.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
-  <Difficulty_FriendlyFireChanceFactor_Label>TODO</Difficulty_FriendlyFireChanceFactor_Label>
+  <Difficulty_FriendlyFireChanceFactor_Label>Dost ateşi</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>TODO</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Dost ateşi şansını ayarla.\n\nNot: Bu ayar yalnızca asıl hedefini vuracak olan atışları etkiler. Patlayıcılardan gelen veya asıl hedefini ıskalayacak olan atışlardan gelecek hasarı önlemez.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
-  <Difficulty_AllowInstantKillChance_Label>TODO</Difficulty_AllowInstantKillChance_Label>
+  <Difficulty_AllowInstantKillChance_Label>Kolonici anında ölümü</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>TODO</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Bir kolonicinin bir saldırı dolayısıyla anında ölüm şansını ayarla. Gelecek olan hasar koloniciyi düşürecek şekilde ayarlanmıştır.\n\nBu yalnızca bazı tür anında ölümleri önler - koloniciler hala kan kaybından, ateşten, patlamalardan, hastalıklardan ve dahasından ölebilir.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Label>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Enfeksiyon şansı</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Info>TODO</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Bir yaranın enfeksiyon kapma şansını ayarla.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Label>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Label>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Label>Hastalık sıklığı</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Info>TODO</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>Rastgele hastalık etkinlikleri sıklığını ayarla.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
-  <Difficulty_EnemyReproductionRateFactor_Label>TODO</Difficulty_EnemyReproductionRateFactor_Label>
+  <Difficulty_EnemyReproductionRateFactor_Label>Böcek doğum hızı</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
   <Difficulty_EnemyReproductionRateFactor_Info>TODO</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
@@ -408,28 +408,28 @@
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
   <Difficulty_DeepDrillInfestationChanceFactor_Info>TODO</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
-  <Difficulty_PeacefulTemples_Inverted_Label>TODO</Difficulty_PeacefulTemples_Inverted_Label>
+  <Difficulty_PeacefulTemples_Inverted_Label>Antik tehlike tehditleri</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
-  <Difficulty_PeacefulTemples_Inverted_Info>TODO</Difficulty_PeacefulTemples_Inverted_Info>
+  <Difficulty_PeacefulTemples_Inverted_Info>Antik yapılar tehlikeli tehditler barındırabilir.</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
-  <Difficulty_AllowCaveHives_Label>TODO</Difficulty_AllowCaveHives_Label>
+  <Difficulty_AllowCaveHives_Label>Doğal böcek yuvası oluşumu</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>TODO</Difficulty_AllowCaveHives_Info>
 
   <!-- EN: Player tools -->
-  <DifficultyPlayerToolsSection>TODO</DifficultyPlayerToolsSection>
+  <DifficultyPlayerToolsSection>Oyuncu aletleri</DifficultyPlayerToolsSection>
   <!-- EN: Player can build traps -->
-  <Difficulty_AllowTraps_Label>TODO</Difficulty_AllowTraps_Label>
+  <Difficulty_AllowTraps_Label>Oyuncu tuzak yapabilir</Difficulty_AllowTraps_Label>
   <!-- EN: Player can build traps like spike traps and IED traps. -->
-  <Difficulty_AllowTraps_Info>TODO</Difficulty_AllowTraps_Info>
+  <Difficulty_AllowTraps_Info>Oyuncu kazık tuzağı ve IED tuzakları gibi tuzaklar yapabilir.</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>TODO</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>Oyuncu taret inşa edebilir</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>TODO</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>Oyuncu mini-taret, autocannon taret ve uranyum slug taret gibi sabit taretler inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen taretleri kullanabilirsin.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
-  <Difficulty_AllowMortars_Label>TODO</Difficulty_AllowMortars_Label>
+  <Difficulty_AllowMortars_Label>Oyuncu havan topu inşa edebilir</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>TODO</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>Oyuncu havan topu inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen havan toplarını kullanabilirsin.</Difficulty_AllowMortars_Info>
   
   <!-- EN: Adaptation -->
   <DifficultyAdaptationSection>TODO</DifficultyAdaptationSection>
