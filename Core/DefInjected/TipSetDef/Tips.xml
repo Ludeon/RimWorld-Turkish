@@ -9,8 +9,6 @@
   <GameplayTips.ReorderColonistbar>Sağ tıklayıp sürükleyerek kolonicilerinizi, kolonici çubuğunda yeniden sıralayabilirsiniz.</GameplayTips.ReorderColonistbar>
   <!-- EN: You can select previous/next colonist with the , and . keys. -->
   <GameplayTips.SelectPrevNextColonist>"," ve "." tuşları ile önceki/sonraki kolonicilerinizi seçebilirsiniz.</GameplayTips.SelectPrevNextColonist>
-  <!-- EN: Many menus allow you to click and drag a setting to 'paint' it over many entries. This even works for things like outfits or food restrictions. -->
-  <GameplayTips.SettingPainting></GameplayTips.SettingPainting>
   <!-- EN: In the work tab's manual priorities mode, 1 is first priority, while 4 is last priority. -->
   <GameplayTips.ManualPriorities>Çalışma önceliği sekmesinde, manuel öncelikler modunda 1 ilk, 4 ise son önceliktir.</GameplayTips.ManualPriorities>
   <!-- EN: Each colonists' mood is displayed in the background of their icon in the colonist bar at the top of the screen. -->
@@ -19,10 +17,12 @@
   <GameplayTips.WorkTabChangeAllColonists>Çalışma sekmesindeki iş tiplerinden birinin ismine sağ tıklamak, o iş için yapılan değişikliği bütün kolonicilere uygular.</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>Çalışma sekmesinde manuel öncelikler ayarlanırken bir sayıya sağ tıklamak, önceliği arttırmak yerine azaltacaktır.</GameplayTips.WorkTabDecreasePriority>
-  <!-- EN: In a gunfight, always be behind cover! -->
-  <GameplayTips.GunfightCover>Bir silahlı çatışmada, daima bir koruma arkasında ol</GameplayTips.GunfightCover>
-  <!-- EN: In a gunfight, spread your colonists out! Bunched-up targets are easy to hit. -->
-  <GameplayTips.GunfightSpread>Bir silahlı çatışmada, kolonicilerini dağıt! Bir yerde birikmiş hedeflerin vurulması daha kolaydır.</GameplayTips.GunfightSpread>
+  <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
+  <GameplayTips.GunfightCover>Bir silahlı çatışmada, daima bir koruma arkasında ol! Sağ tıklayıp sürükleyerek, askeri moddaki kolonicilerini bir hat oluşturması sağla.</GameplayTips.GunfightCover>
+  <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
+  <GameplayTips.GunfightSpread>Sağ tıklayıp sürükleyerek, askeri moddaki kolonicilerini bir hat oluşturması sağla. Bir yerde birikmiş hedeflerin vurulması daha kolaydır.</GameplayTips.GunfightSpread>
+  <!-- <GameplayTips.GunfightSpread>TODO</GameplayTips.GunfightSpread>
+  <GameplayTips.GunfightSpread>Bir silahlı çatışmada, kolonicilerini dağıt! Bir yerde birikmiş hedeflerin vurulması daha kolaydır.</GameplayTips.GunfightSpread> -->
   <!-- EN: Smoke totally prevents turrets from detecting targets, but people can still shoot with reduced accuracy. -->
   <GameplayTips.ShootingAccuracySmoke>Duman, taretlerin hedefleri tespit etmesini tamamiyle önler. İnsanlar ise azalmış isabet ile hala ateş etmeye devam edebilirler.</GameplayTips.ShootingAccuracySmoke>
   <!-- EN: When designing defences, assume enemies will get inside using drop pods or tunnels. Build internal defensive positions. -->
@@ -57,14 +57,16 @@
   <GameplayTips.CaravanPackingSpot>Karavanlarınızın nerede toplanacağını belirlemek için bir karavan toplanma noktası yerleştirin.</GameplayTips.CaravanPackingSpot>
   <!-- EN: Single-person caravans can be very useful in certain situations. -->
   <GameplayTips.CaravanSinglePerson>Tek kişilik karavanlar bazı durumlarda ok kullanışlı olabilir.</GameplayTips.CaravanSinglePerson>
-  <!-- EN: Faster animals make faster caravans. -->
-  <GameplayTips.CaravanFasterAnimals>Hızlı hayvanlar hızlı karavanlar oluşturur.</GameplayTips.CaravanFasterAnimals>
-  <!-- EN: Smaller caravans will be attacked less often because they're less visible. -->
+  <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
+  <GameplayTips.CaravanRideableAnimals>At, eşek ve hörgüçlü hayvanlar içeren kervanlar, daha hızlı hareket eder.</GameplayTips.CaravanRideableAnimals>
+  <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>Küçük karavanlar daha az saldırıya uğrar çünkü daha zor tespit edilirler.</GameplayTips.CaravanSmallerLessVisible>
   <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>Bir karavan oluşturmadan önce yanına alacağın eşyaları karavan toplama noktası yanındaki bir stok sahasına taşıt. Bu toplanmayı çok daha hızlı hale getirecektir.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>Eğer karavanında eğitimsiz hayvanların varsa, savaştan uzak tutmak için onları savaş öncesi ayrı bir karavana bölebilirsin.</GameplayTips.CaravanUntrainedAnimals>
+  <!-- EN: Don't forget to pack medicine on your caravans. -->
+  <GameplayTips.CaravanDontForgetMedicine>Karavanlarınıza ilaç koymayı unutmayın.</GameplayTips.CaravanDontForgetMedicine>
   <!-- EN: RimWorld is a story generator, not a skill test. A ruined colony is a dramatic tragedy, not a failure. -->
   <GameplayTips.StoryGenerator>Rimworld bir hikaye oluşturucusudur, yetenek testi değil. Yok olmuş bir koloni dramatik bir trajedidir, başarısızlık değil.</GameplayTips.StoryGenerator>
   <!-- EN: Some colonists are worse than useless. Bad allies are part of the challenge. -->
@@ -123,6 +125,12 @@
   <GameplayTips.ExtinguishFireArtillery>Patlayıcılar, patlama çevresindeki yangınları söndürebilirler. Bu başka bir seçenek olmadığında yangını söndürmek için havan toplarını kullanışlı yapar.</GameplayTips.ExtinguishFireArtillery>
   <!-- EN: Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations. -->
   <GameplayTips.BestStoriesFromDarkestSituations>Çok kötü aksilikler bile oyunun bitmesi gerektiği anlamına gelmez. Kayıp bir savaşı oynamayı dene - bazen en iyi hikayeler en karanlık durumlarda meydana gelir.</GameplayTips.BestStoriesFromDarkestSituations>
+  <!-- EN: Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives. -->
+  <GameplayTips.KeepWeaponsAwayFromPrisoners>Cephaneliğinizi hapishanelerinizden uzak tutun. Hapisten kaçışlar, silahlar ve patlayıcılar ile daha tehlikeli bir hal alır.</GameplayTips.KeepWeaponsAwayFromPrisoners>
+  <!-- EN: When taming animals, make sure you have enough food of the correct type to feed them. -->
+  <GameplayTips.MakeSureYouHaveFoodForTamedAnimals>Hayvanları evcilleştirirken, onları beslemek için doğru türde yeterli yiyeceğe sahip olduğunuzdan emin olun.</GameplayTips.MakeSureYouHaveFoodForTamedAnimals>
+  <!-- EN: Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders. -->
+  <GameplayTips.DroppingChunksWillForceDoorsOpen>Bir kapı aralığına  taş veya cüruf/hurda yığını bırakmak, kapının açık kalmasını sağlar ve sizi vahşi yaşam ve akıncılara karşı savunmasız bırakır.</GameplayTips.DroppingChunksWillForceDoorsOpen>
   <!-- EN: Clean labs with sterile tile give research speed bonuses. -->
   <GameplayTips.CleanLabs>Steril fayanslı temiz laboratuvarlar araştırma hızına bonus verirler.</GameplayTips.CleanLabs>
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
@@ -133,5 +141,14 @@
   <GameplayTips.CombatDrugsFromInventory>İlaç politikaları ayarlayarak savaşçılarınızın go-juice gibi savaş içecekleri taşımalarını sağlayabilirsiniz. Çarpışma başındaki küçük bir yudum çarpışmayı kazandırabilir.</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
   <GameplayTips.SchedulesSetLong>Yolculuk mesafesini minimize etmek için, çizelgenizde tek aktiviteden uzun süreler ayarlayın.</GameplayTips.SchedulesSetLong>
+  <!-- EN: Straw matting ignores filth. Use it as the floor for your barn. -->
+  <GameplayTips.StrawMatting>Hasır paspas pisliği yok sayar. Ahırınız için zemin olarak kullanın.</GameplayTips.StrawMatting>
+  <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
+  <GameplayTips.AnimalFilth>Bazı hayvanlar çok fazla pislik üretir. Fillerinizi ve sığırlarınızı dışarıda tutun.</GameplayTips.AnimalFilth>
+  <!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
+  <GameplayTips.PredatorsAndFences>Yırtıcı hayvanların çitler veya barikatlarla çevrili hayvanları avlama olasılığı daha düşüktür.</GameplayTips.PredatorsAndFences>
+  
+  <!-- UNUSED -->
+  <GameplayTips.CaravanFasterAnimals>Hızlı hayvanlar hızlı karavanlar oluşturur.</GameplayTips.CaravanFasterAnimals>
   
 </LanguageData>
