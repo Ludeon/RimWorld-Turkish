@@ -44,7 +44,7 @@
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} yürüyemiyor.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
-  <ParticipatingInRitual>TODO</ParticipatingInRitual>
+  <ParticipatingInRitual>{0_labelShort}, {1} etkinliğine katılıyor.</ParticipatingInRitual>
 
   <!-- EN: Fire at will -->
   <CommandFireAtWillLabel>Ateş serbest</CommandFireAtWillLabel>
@@ -73,7 +73,7 @@
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Bu tahtı belirli bir koloniste ait olarak atayın.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
-  <CommandMeditationSpotSetOwnerDesc>TODO</CommandMeditationSpotSetOwnerDesc>
+  <CommandMeditationSpotSetOwnerDesc>Bu meditasyon noktasını belirli bir sömürgeciye ait olacak şekilde atayın.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
   <CommandGraveAssignColonistLabel>Kolonist ata</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
@@ -101,7 +101,7 @@
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Bunu yapmak istediğinizden emin misiniz?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <ChangingOwnerTypeBedWarning>TODO</ChangingOwnerTypeBedWarning>
+  <ChangingOwnerTypeBedWarning>Değişen yatak kullanımı tüm odayı etkiler (mahkumlar, köleler ve sömürgeciler aynı odada uyuyamazlar).\n\nBu insanlar yataklarının sahipliğini kaybeder:</ChangingOwnerTypeBedWarning>
 
 
   <!-- EN: Detonate -->
@@ -142,9 +142,9 @@
   <CommandAllowSowDesc>Ekime izin verilmezse, kolonistler bu tarladaki ekinleri hasat ettikten sonra yeni ekim yapmayacaklar.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
-  <CommandAllowCut>TODO</CommandAllowCut>
+  <CommandAllowCut>Kesmeye izin ver </CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
-  <CommandAllowCutDesc>TODO</CommandAllowCutDesc>
+  <CommandAllowCutDesc>Devre dışı bırakıldığında, koloniciler bu bölgedeki bitkileri asla kesmezler. Halihazırda boş olan alanlara yeni bitkiler ekecek ve hasat edecekler.</CommandAllowCutDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -266,9 +266,9 @@
   
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
-  <CommandReload_NoCharges>TODO</CommandReload_NoCharges>
+  <CommandReload_NoCharges>{CHARGENOUN_plural} kalmadı.</CommandReload_NoCharges>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
-  <CommandReload_NoAmmo>TODO</CommandReload_NoAmmo>
+  <CommandReload_NoAmmo>{COUNT} {AMMO_label} ile yeniden yüklenmesi gerekiyor.</CommandReload_NoAmmo>
   
   <!-- Select plant to grow -->
   <!-- EN: Select plant to grow -->
@@ -306,7 +306,7 @@
   <!-- EN: Split -->
   <CommandSplitCaravan>Ayır</CommandSplitCaravan>
   <!-- EN: Split this caravan into two. The caravans can be later merged back into one as long as they are close to each other. -->
-  <CommandSplitCaravanDesc>Bu karavanı ikiye ayırın. Karavanlar daha sonra birbirlerine yakın oldukları sürece yeniden birleştirilebilir.</CommandSplitCaravanDesc>
+  <CommandSplitCaravanDesc>Bu kervanı ikiye ayırın. Kervanlar daha sonra birbirlerine yakın oldukları sürece yeniden birleştirilebilir.</CommandSplitCaravanDesc>
   
   <!-- Merge caravan -->
   <!-- EN: Merge -->
@@ -316,7 +316,7 @@
   <!-- EN: Select all caravans which should be merged. The caravans must be close to each other. -->
   <CommandMergeCaravansFailCaravansNotSelected>Birleştirilmesi gereken kervanları seçin. Kervanlar birbirlerine yakın konumlarda olmalıdırlar.</CommandMergeCaravansFailCaravansNotSelected>
   <!-- EN: Join -->
-  <CommandJoinCaravan>TODO</CommandJoinCaravan>
+  <CommandJoinCaravan>Katıl</CommandJoinCaravan>
   
   <!-- Settle -->
   <!-- EN: Settle -->
@@ -516,9 +516,9 @@
   
   <!-- Dismiss shuttle -->
   <!-- EN: Dismiss -->
-  <CommandShuttleDismiss>TODO</CommandShuttleDismiss>
+  <CommandShuttleDismiss>Kapat</CommandShuttleDismiss>
   <!-- EN: Unload all contents and send the shuttle away. -->
-  <CommandShuttleDismissDesc>TODO</CommandShuttleDismissDesc>
+  <CommandShuttleDismissDesc>Tüm içeriği boşaltın ve mekiği uzağa gönderin.</CommandShuttleDismissDesc>
 
   <!-- Place blueprints -->
   <!-- EN: Place blueprints -->
@@ -526,9 +526,9 @@
   <!-- EN: Place all required blueprints where possible. -->
   <CommandPlaceBlueprintsDesc>Gerekli tüm planları mümkün olduğunca yerleştirin.</CommandPlaceBlueprintsDesc>
   <!-- EN: Place {0} blueprints -->
-  <CommandPlaceBlueprintsSpecific>TODO</CommandPlaceBlueprintsSpecific>
+  <CommandPlaceBlueprintsSpecific>{0} taslağı yerleştirin</CommandPlaceBlueprintsSpecific>
   <!-- EN: Place all {0} blueprints where possible. -->
-  <CommandPlaceBlueprintsSpecificDesc>TODO</CommandPlaceBlueprintsSpecificDesc>
+  <CommandPlaceBlueprintsSpecificDesc>Mümkün olan tüm {0} planları yerleştirin.</CommandPlaceBlueprintsSpecificDesc>
 
   <!-- Cancel monument marker -->
   <!-- EN: Cancel -->
@@ -548,33 +548,33 @@
 
   <!-- Carry -->
   <!-- EN: Drop {0_nameDef} -->
-  <CommandDropPawn>TODO</CommandDropPawn>
+  <CommandDropPawn>{0_nameDef} 'ı bırak</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
-  <CommandDropPawnDesc>TODO</CommandDropPawnDesc>
+  <CommandDropPawnDesc>Taşınan kişiyi bırakın.</CommandDropPawnDesc>
   
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
-  <TakeDrug>TODO</TakeDrug>
+  <TakeDrug>İlaç kullan...</TakeDrug>
   <!-- EN: Choose a drug from inventory to ingest immediately. -->
-  <TakeDrugDesc>TODO</TakeDrugDesc>
+  <TakeDrugDesc>Hemen kullanmak için envanterden bir ilaç seçin.</TakeDrugDesc>
 
   <!-- Build X -->
   <!-- EN: Build {0} -->
-  <BuildThing>TODO</BuildThing>
+  <BuildThing>{0} inşa et</BuildThing>
 
   <!-- Rituals -->
   <!-- EN: Leave {RITUAL_label} -->
-  <CommandLeaveRitual>TODO</CommandLeaveRitual>
+  <CommandLeaveRitual>{RITUAL_label}'den çıkın</CommandLeaveRitual>
   <!-- EN: Stop participating in the {RITUAL_labelDef}. The ritual will continue as long as it has at least one participant. -->
-  <CommandLeaveRitualDesc>TODO</CommandLeaveRitualDesc>
+  <CommandLeaveRitualDesc> {RITUAL_labelDef}'e katılmayı bırakın. En az bir katılımcı olduğu sürece ritüel devam edecektir.</CommandLeaveRitualDesc>
   <!-- EN: This is the last participant in the {RITUAL_labelDef}. -->
-  <CommandLeaveLastParticipant>TODO</CommandLeaveLastParticipant>
+  <CommandLeaveLastParticipant>Bu, {RITUAL_labelDef}'deki son katılımcı.</CommandLeaveLastParticipant>
 
   <!-- EN: Cancel {RITUAL_label} -->
-  <CommandCancelRitual>TODO</CommandCancelRitual>
+  <CommandCancelRitual>İptal {RITUAL_label}</CommandCancelRitual>
   <!-- EN: End the {RITUAL_labelDef} immediately. Ritual obligation will remain. You can restart the ritual later. -->
-  <CommandCancelRitualDesc>TODO</CommandCancelRitualDesc>
+  <CommandCancelRitualDesc>{RITUAL_labelDef}'i hemen sonlandırın. Ritüel zorunluluk kalacaktır. Ritüeli daha sonra yeniden başlatabilirsiniz.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
-  <CommandCancelRitualConfirm>TODO</CommandCancelRitualConfirm>
+  <CommandCancelRitualConfirm>{RITUAL_labelDef}'i iptal etmek istediğinizden emin misiniz?</CommandCancelRitualConfirm>
   
 </LanguageData>
