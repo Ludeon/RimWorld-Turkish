@@ -3,6 +3,10 @@
 * RimWorld için resmi Türkçe Dil çevirisi.
 * Official Turkish language translation for RimWorld.
 
+# Current status
+
+* Çevrilmekte olan versiyon: `1.3.3072`
+
 ## Translators - Çevirmenler
 
 * [@Meriç Alemdar](https://github.com/alemdarwilson)
@@ -15,7 +19,7 @@
 :star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya kendiniz katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda çevirilmeyi bekleyen çevirileri ve düzenlemeleri proje sayfamızdan kontrol edebilirsiniz.
 [Proje sayfasına bir göz atın.](https://github.com/Ludeon/RimWorld-Turkish/projects)
 
-## [Proje Wiki Sayfası](https://github.com/Ludeon/RimWorld-Turkish/wiki)
+### [Proje Wiki Sayfası](https://github.com/Ludeon/RimWorld-Turkish/wiki)
 
 ## See this page for license info:
 
