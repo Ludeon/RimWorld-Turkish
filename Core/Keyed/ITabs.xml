@@ -38,6 +38,12 @@
   <TabSocial>Sosyal</TabSocial>
   <!-- EN: Log -->
   <TabLog>Kayıtlar</TabLog>
+  <!-- EN: Animals -->
+  <TabPenAnimals>TODO</TabPenAnimals>
+  <!-- EN: Food -->
+  <TabPenFood>TODO</TabPenFood>
+  <!-- EN: Auto-cut -->
+  <TabPenAutoCut>TODO</TabPenAutoCut>
   <!-- EN: Caravan -->
   <TabFormingCaravan>Kervan</TabFormingCaravan>
   <!-- EN: Contents -->
@@ -58,7 +64,7 @@
   <BoundWorkerIs>Çalışan: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
   <PlantVerb>Ekim</PlantVerb>
-  <!-- EN: Copied bill cannot be pasted here. -->
+  <!-- EN: Copied bill cannot be pasted here -->
   <ClipboardBillNotAvailableHere>Kopyalanan sipariş buraya yapıştırılamaz.</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
   <ReorderBillUpTip>Önceliğe al</ReorderBillUpTip>
@@ -76,32 +82,34 @@
   <PasteBillTip_LimitReached>Daha fazla eklenemiyor</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
-  <!-- EN: Resistance remaining -->
+  <!-- EN: Resistance -->
   <RecruitmentResistance>Kalan direnç</RecruitmentResistance>
-  <!-- EN: Recruitment difficulty -->
-  <RecruitmentDifficulty>Koloniye alım zorluğu</RecruitmentDifficulty>
-  <!-- EN: Recruitment chance -->
-  <RecruitmentChance>Koloniye alım zorluğu</RecruitmentChance>
-  <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
-  <RecruitmentChanceExplanation>İşe alma zorluk faktörü: {0}\nİyi faktör: {1}\nKombine temel şans: {2}</RecruitmentChanceExplanation>
-  <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
-  <RecruitmentChanceWithLastRecruiterExplanationPart>\n----------------\nSon işe alım denemesi\nAlımı sağlayan: {3} \nTavsiye yeteneği faktörü: {4} \nFikir faktörü: {5} ({6}) \n{3} için son şans: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
-  <!-- EN: \nResistance reduction: {0} -->
-  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nDirenç azaltma: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
+  <RecruitmentResistanceDesc>TODO</RecruitmentResistanceDesc>
+  <!-- EN: {0} base resistance -->
+  <RecruitmentResistanceFromPawnKind>TODO</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>Serbest bırakmada ilişki kazancı</PrisonerReleasePotentialRelationGains>
-  <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
+  <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
   <PrisonerReleaseRelationGainsDesc>Fraksiyon ilişkilerini geliştirmek için mahkumu serbest bırakabilirsiniz. Bu mahkumun bırakıldığındaki sağlığı ve zihinsel durumundan etkilenebilir.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Hapishaneden kaçış deneme süresi</PrisonBreakMTBDays>
-  <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
+  <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
   <PrisonBreakMTBDaysDescription>Hapishane kaçış girişimleri arasında geçen ortalama gün sayısı. Ruh halinden, özgür hissetmeden ve son hapishaneye atılıştan bu yana geçen süreden etkilenir.\n\nBu sayı, uslu durulan göz ardı eder, bu nedenle gerçek ortalama hapishane kaçış denemesi aralığı genellikle daha uzun olur.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Asla</Never>
   <!-- EN: Not while asleep -->
   <NotWhileAsleep>Uyurken olmaz</NotWhileAsleep>
+  <!-- EN: Breaking out now -->
+  <CurrentlyPrisonBreaking>TODO</CurrentlyPrisonBreaking>
+  <!-- EN: Multiplier for door count -->
+  <FactorForDoorCount>TODO</FactorForDoorCount>
+  <!-- EN: Multiplier for movement -->
+  <FactorForMovement>TODO</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Köle değeri</SlavePrice>
+  <!-- EN: The base market value of this {0} if sold. -->
+  <SlavePriceDescription>TODO</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Yemek verme</GetsFood>
   <!-- EN: Doctors care -->
@@ -188,6 +196,8 @@
   <SelfTend>Kendi kendine tedavi</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
   <SelfTendTip>Kendi kendine tedavi etkinken {0} otomatik olarak kendilerini normal verimlilikte {1} seviyesinde tedavi edebilirler.</SelfTendTip>
+  <!-- EN: death in {0} -->
+  <DeathIn>TODO</DeathIn>
   
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
@@ -279,6 +289,10 @@
   <CopyLogTip>Günlüğü panoya kopyala.</CopyLogTip>
 
   <!-- Forming caravan tab -->
+  <!-- EN: Gathering animals -->
+  <FormingCaravanStatus_GatheringAnimals>TODO</FormingCaravanStatus_GatheringAnimals>
+  <!-- EN: Gathering animals (waiting) -->
+  <FormingCaravanStatus_GatheringAnimals_Pause>TODO</FormingCaravanStatus_GatheringAnimals_Pause>
   <!-- EN: Gathering items -->
   <FormingCaravanStatus_GatheringItems>Eşya toplama</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
@@ -323,5 +337,75 @@
   <QuestDismissed>Bu görev burada çünkü görevden alındı.\n\nSüresi bitene kadar görevi tekrar aktif edebilirsiniz.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
   <DeleteQuest>Bu görevi sil ve görev listesinden tamamen kaldır.</DeleteQuest>
+
+  <!-- Animal pen food tab -->
+  <!-- EN: enclose the pen marker to calculate food information -->
+  <PenFoodTab_NotEnclosed>TODO</PenFoodTab_NotEnclosed>
+
+  <!-- EN: Nutrition stockpiled -->
+  <PenFoodTab_StockpileTotal>TODO</PenFoodTab_StockpileTotal>
+  <!-- EN: The total nutrition of stockpiled food in the pen. -->
+  <PenFoodTab_StockpileTotalDescription>TODO</PenFoodTab_StockpileTotalDescription>
+  <!-- EN: Days to stockpile exhaustion -->
+  <PenFoodTab_StockpileEmptyDays>TODO</PenFoodTab_StockpileEmptyDays>
+  <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
+  <PenFoodTab_StockpileEmptyDaysDescription>TODO</PenFoodTab_StockpileEmptyDaysDescription>
+
+  <!-- EN: Animal type -->
+  <PenFoodTab_AnimalType>TODO</PenFoodTab_AnimalType>
+  <!-- EN: Count -->
+  <PenFoodTab_Count>TODO</PenFoodTab_Count>
+  <!-- EN: Today -->
+  <PenFoodTab_CurrentDay>TODO</PenFoodTab_CurrentDay>
+  <!-- EN: nutrition -->
+  <PenFoodTab_Nutrition_Unit>TODO</PenFoodTab_Nutrition_Unit>
+  <!-- EN: per day -->
+  <PenFoodTab_NutritionPerDay_Unit>TODO</PenFoodTab_NutritionPerDay_Unit>
+  <!-- EN: Force display animal... -->
+  <PenFoodTab_AddAnimal>TODO</PenFoodTab_AddAnimal>
+
+  <!-- EN: Nutrition growth -->
+  <PenFoodTab_NaturalNutritionGrowthRate>TODO</PenFoodTab_NaturalNutritionGrowthRate>
+  <!-- EN: Growth per season -->
+  <PenFoodTab_GrowthPerSeason>TODO</PenFoodTab_GrowthPerSeason>
+  <!-- EN: Nutrition consumption -->
+  <PenFoodTab_TotalNutritionConsumptionRate>TODO</PenFoodTab_TotalNutritionConsumptionRate>
+  <!-- EN: The average nutrition provided by edible plants in this pen. -->
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>TODO</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
+  <PenFoodTab_NutritionConsumptionDescription>TODO</PenFoodTab_NutritionConsumptionDescription>
+  <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>TODO</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+
+  <!-- EN: Total consumption -->
+  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>TODO</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
+  <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>TODO</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <!-- EN: Daily consumption per {ANIMALDEF_label} -->
+  <PenFoodTab_NutritionConsumedPerDay>TODO</PenFoodTab_NutritionConsumedPerDay>
+  <!-- EN: each {CONSUMEDAMOUNT} -->
+  <PenFoodTab_NutritionConsumedEachAnimalLabel>TODO</PenFoodTab_NutritionConsumedEachAnimalLabel>
+  <!-- EN: Count that could be supported with no other animals in the pen -->
+  <PenFoodTab_AnimalTypeAnimalCapacity>TODO</PenFoodTab_AnimalTypeAnimalCapacity>
+
+  <!-- EN: Edible now -->
+  <PenFoodTab_EdibleNow>TODO</PenFoodTab_EdibleNow>
+
+  <!-- EN: Auto-cut plants in pen -->
+  <PenAutoCut_EnabledCheckbox>TODO</PenAutoCut_EnabledCheckbox>
+  <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
+  <PenAutoCut_EnabledCheckboxTip>TODO</PenAutoCut_EnabledCheckboxTip>
+
+  <!-- EN: Pen is not enclosed -->
+  <AutocutUnenclosedPen>TODO</AutocutUnenclosedPen>
+  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <AutocutUnenclosedPenTip>TODO</AutocutUnenclosedPenTip>
+
+  <!-- UNUSED -->
+  <RecruitmentDifficulty>Koloniye alım zorluğu</RecruitmentDifficulty>
+  <RecruitmentChance>Koloniye alım zorluğu</RecruitmentChance>
+  <RecruitmentChanceExplanation>İşe alma zorluk faktörü: {0}\nİyi faktör: {1}\nKombine temel şans: {2}</RecruitmentChanceExplanation>
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n----------------\nSon işe alım denemesi\nAlımı sağlayan: {3} \nTavsiye yeteneği faktörü: {4} \nFikir faktörü: {5} ({6}) \n{3} için son şans: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\nDirenç azaltma: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
 
 </LanguageData>

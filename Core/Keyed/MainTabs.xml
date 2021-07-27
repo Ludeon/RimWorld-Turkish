@@ -8,7 +8,7 @@
   <HigherPriority>Yüksek öncelik</HigherPriority>
   <!-- EN: lower priority -->
   <LowerPriority>Düşük öncelik</LowerPriority>
-  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} / {2} -->
+  <!-- EN: Relevant skills: {0}\nAverage of relevant skills: {1} -->
   <RelevantSkills>İlgili yetenekler: {0}\nİlgili becerilerin ortalaması {1} / {2}</RelevantSkills>
   <!-- EN: Click to jump to: -->
   <ClickToJumpTo>Gitmek için tıklayınız.</ClickToJumpTo>
@@ -36,6 +36,12 @@
   <Priority4>Düşük öncelikli</Priority4>
   <!-- EN: {0}\n\nThe faction {1_nameDef} currently belongs to.\n\nClick to view faction. -->
   <PawnFactionInfo>TODO</PawnFactionInfo>
+  <!-- EN: Disabled by backstory: {0} -->
+  <WorkDisabledByBackstory>TODO</WorkDisabledByBackstory>
+  <!-- EN: Disabled by trait: {0} -->
+  <WorkDisabledByTrait>TODO</WorkDisabledByTrait>
+  <!-- EN: Disabled by quest: {0} -->
+  <WorkDisabledByQuest>TODO</WorkDisabledByQuest>
   
   <!-- Assign tab -->
   <!-- EN: Manage outfits -->
@@ -84,16 +90,20 @@
   <Hostile>Düşman</Hostile>
   <!-- EN: Ally -->
   <Ally>Müttefik</Ally>
+  <!-- EN: hostile -->
+  <HostileLower>TODO</HostileLower>
+  <!-- EN: ally -->
+  <AllyLower>TODO</AllyLower>
   <!-- EN: defeated -->
   <DefeatedLower>Mağlup</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>{0}'a düşman</HostileTo>
   <!-- EN: Enemy of:  -->
   <EnemyOf>Düşmanı: </EnemyOf>
-  <!-- EN: Current goodwill and relations status with this faction. -->
-  <CurrentGoodwillTip>Bu fraksiyonla art niyetsiz şekildeki ilişki durumu.</CurrentGoodwillTip>
-  <!-- EN: Current relations with this faction. -->
-  <CurrentRelationTip>TODO</CurrentRelationTip>
+  <!-- EN: Recent events -->
+  <RecentEvents>TODO</RecentEvents>
+  <!-- EN: Ongoing events -->
+  <OngoingEvents>TODO</OngoingEvents>
   <!-- EN: This faction is permanently hostile. They will raid your settlements and caravans. Relations with them will never improve for any reason. -->
   <CurrentGoodwillTip_PermanentEnemy>Bu fraksiyon kalıcı olarak düşmanca davranıyor. Yerleşimlerinize ve kervanlarınıza baskın yapacaklar. Onlarla ilişkiler asla hiçbir nedenle gelişmeyecektir.</CurrentGoodwillTip_PermanentEnemy>
   <!-- EN: This faction is allied. They will send fighters to help you when they can. If relations fall below {0}, they will become neutral. -->
@@ -102,13 +112,7 @@
   <CurrentGoodwillTip_Neutral>Bu fraksiyon tarafsız. Sizinle serbestçe ticaret yapacak ve konuşacaklar. İlişkiler {0} 'ın altına düşerse düşman olurlar. İlişkiler {1} üzerine çıkarsa, müttefik olacaklar ve size yardımcı olmak için aktif olarak çalışmaya başlayacaklar.</CurrentGoodwillTip_Neutral>
   <!-- EN: This faction is hostile. They will raid your settlements and caravans. If relations rise above {0}, they will become neutral. -->
   <CurrentGoodwillTip_Hostile>Bu fraksiyon düşmanca. Yerleşimlerinize ve kervanlarınıza baskın yapacaklar. İlişkiler {0} 'ın üzerine çıkarsa, tarafsız olurlar.</CurrentGoodwillTip_Hostile>
-  <!-- EN: This faction has a natural goodwill range from {0} to {1}. -->
-  <CurrentGoodwillTip_NaturalGoodwill>Bu fraksiyon,{0} ila {1} arasında bir doğal iyi niyet aralığına sahiptir. İyi niyeti {1} 'in üzerindeyse, günde {3} düşecektir. Niyeti {0} 'ın altındaysa, günde {2} artacaktır.</CurrentGoodwillTip_NaturalGoodwill>
-  <!-- EN: If goodwill is under {0}, it will rise by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillRise>TODO</CurrentGoodwillTip_NaturalGoodwillRise>
-  <!-- EN: If goodwill is over {0}, it will fall by {1} per year. -->
-  <CurrentGoodwillTip_NaturalGoodwillFall>TODO</CurrentGoodwillTip_NaturalGoodwillFall>
-  
+
   <!-- Social tab -->
   <!-- EN: Friend -->
   <Friend>Arkadaş</Friend>
@@ -178,8 +182,8 @@
   <!-- Research tab -->
   <!-- EN: Research -->
   <Research>Araştırma</Research>
-  <!-- EN: Researched -->
-  <Researched>Araştırılan</Researched>
+  <!-- EN: Study -->
+  <Study>TODO</Study>
   <!-- EN: Unresearched -->
   <Unresearched>Araştırılmayan</Unresearched>
   <!-- EN: Finished -->
@@ -208,6 +212,12 @@
   <TechLevelTooLow>İhtilaf teknoloji seviyeniz {0}, ancak bu projenin teknoloji seviyesi {1}. Araştırma hızı {2} ile çarpılacak.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>TODO</UnlockedWith>
+
+  <!-- Factions tab -->
+  <!-- EN: Factions -->
+  <FactionsTab>TODO</FactionsTab>
+  <!-- EN: No known factions -->
+  <NoFactions>TODO</NoFactions>
 
   <!-- Quests tab -->
   <!-- EN: Available -->
@@ -282,7 +292,7 @@
   <QuestBedroomRequirementsUnsatisfiedSingle>başlıca gereksinimlerini karşılayan ücretsiz bir yatak odası</QuestBedroomRequirementsUnsatisfiedSingle>
   <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
   <QuestThroneRoomRequirementsUnsatisfied>TODO</QuestThroneRoomRequirementsUnsatisfied>
-  <!-- EN: a throneroom that satisfies the requirements of {PAWN_definite}'s {TITLE} title -->
+  <!-- EN: assign a throne for {PAWN_definite} -->
   <QuestNoThroneRoom>TODO</QuestNoThroneRoom>
   <!-- EN: a colonist with the title of {0} -->
   <QuestNoColonistWithTitle>{0} ünvanlı bir kolonist.</QuestNoColonistWithTitle>
@@ -316,9 +326,24 @@
   <QuestBetrayalOffer>TODO</QuestBetrayalOffer>
   <!-- EN: {0} will grant you a reward for killing all members of the {1}. -->
   <QuestBetrayalOfferTip>TODO</QuestBetrayalOfferTip>
-  
+  <!-- EN: a colony wealth of at least {0} -->
+  <QuestRequiredPlayerWealth>TODO</QuestRequiredPlayerWealth>
+  <!-- EN: alliance with {0} -->
+  <QuestAlliedTo>TODO</QuestAlliedTo>
+  <!-- EN: hostile to {0} -->
+  <QuestHostileTo>TODO</QuestHostileTo>
+  <!-- EN: neutral to {0} -->
+  <QuestNeutralTo>TODO</QuestNeutralTo>
+  <!-- EN: studied {0_labelShort} -->
+  <QuestRequiredThingStudied>TODO</QuestRequiredThingStudied>
+
   <!-- Health tab -->
   <!-- EN: Creates need -->
   <CreatesNeed>TODO</CreatesNeed>
+
+  <!-- UNUSED -->
+  <CurrentGoodwillTip>Bu fraksiyonla art niyetsiz şekildeki ilişki durumu.</CurrentGoodwillTip>
+  <CurrentGoodwillTip_NaturalGoodwill>Bu fraksiyon,{0} ila {1} arasında bir doğal iyi niyet aralığına sahiptir. İyi niyeti {1} 'in üzerindeyse, günde {3} düşecektir. Niyeti {0} 'ın altındaysa, günde {2} artacaktır.</CurrentGoodwillTip_NaturalGoodwill>
+  <Researched>Araştırılan</Researched>
 
 </LanguageData>
