@@ -23,13 +23,13 @@
   <!-- EN: Save translation report -->
   <SaveTranslationReport>Çeviri raporunu kaydet</SaveTranslationReport>
   <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>Çeviri raporu oluştur</GeneratingTranslationReport>
+  <GeneratingTranslationReport>Çeviri raporu oluşturma</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Çeviri dosyalarını temizle</CleanupTranslationFiles>
+  <CleanupTranslationFiles>Çeviri dosyalarını kaydetme</CleanupTranslationFiles>
   <!-- EN: Update translations files (TKey's) -->
-  <TranslationFilesTKeyUpdate>Çeviri dosyalarını güncelle</TranslationFilesTKeyUpdate>
+  <TranslationFilesTKeyUpdate>TODO</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Çeviri dosyaları temizleniyor</CleaningTranslationFiles>
+  <CleaningTranslationFiles>Çeviri dosyalarını temizleme</CleaningTranslationFiles>
   <!-- EN: Credits -->
   <Credits>Yapımcılar</Credits>
   <!-- EN: Quit to main menu -->
@@ -61,15 +61,15 @@
 
   <!-- Main menu translations info window -->
   <!-- EN: All translations of RimWorld are fan-made. This fan-made translation was created by the following excellent volunteers:\n\n{0} -->
-  <TranslationThanks>RimWorld'ün tüm çevirileri hayran yapımıdır. Bu hayran yapımı çeviri, aşağıdaki mükemmel gönüllüler tarafından oluşturuldu: \n\n{0}</TranslationThanks>
+  <TranslationThanks>Resmi Rimworld %90 Türkçe çevirisi. Altay.Bey'e Teşekkürler! \n\n{0}</TranslationThanks>
   <!-- EN: You can contribute too. Click below to learn more (opens web browser). -->
-  <TranslationHowToContribute>Siz de katkıda bulunabilirsiniz. Daha fazla bilgi edinmek için aşağıya tıklayın (web tarayıcısını açar, GitHub)</TranslationHowToContribute>
+  <TranslationHowToContribute>Destek olmak için Github projesine katkıda bulunabilirsiniz.</TranslationHowToContribute>
   <!-- EN: Learn more -->
   <LearnMore>Daha fazlası için</LearnMore>
 
   <!-- Main menu dev build -->
   <!-- EN: Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version. -->
-  <DevBuildWarning>Uyarı: Bu, kararsız bir geliştirme yapısıdır. Bu, tasarım deneyleri yürüttüğümüz ve teknik geliştirme yaptığımız anlamına geliyor.\n\nBazı şeyler bilerek geçici olarak dengesiz olacak. Bu, denge sınırlarını daha iyi anlamak için kasıtlı olarak bir denge değişikliği ile çok ileri gittiğimiz klasik bir oyun tasarım yöntemidir. Daha sonra bu bilgiyi nihai denge noktalarına karar vermek için kullanabiliriz.\n\nOyunu bozanlar da dahil olmak üzere hatalar da olacak. Kaydet uyumluluğu her an bozulabilir.\n\nBunların tamamında sorun yoksa, test için teşekkürler! Deneylerimize tabi olmak istemiyorsanız, lütfen en son kararlı sürümü oynayın.</DevBuildWarning>
+  <DevBuildWarning>Warning: This is an unstable development build. This means we are running design experiments and doing technical development.\n\nSome things will be temporarily unbalanced on purpose. This is a classic game design method where we deliberately go too far with a balance change in order to better understand balance boundaries. We can then use that information to decide on the final balance points.\n\nThere will also be bugs, including game-breaking ones. Save compatibility may break any time.\n\nIf you're okay with all of this, thanks for testing! If you don't want to be subject to our experiments, please play the latest stable version.</DevBuildWarning>
 
   <!-- Create/review world -->
   <!-- EN: Review world -->
@@ -121,7 +121,7 @@
   <!-- EN: Select -->
   <WorldChooseButton>Seç</WorldChooseButton>
   <!-- EN: No world files found. Create a world first. -->
-  <NoWorldsFilesFound>Dünya dosyası bulunamadı. Önce bir dünya oluşturun.</NoWorldsFilesFound>
+  <NoWorldsFilesFound>Dünya dosyası bulunamadı. Önce bir dünya yaratın.</NoWorldsFilesFound>
   
   <!-- Version info -->
   <!-- EN: Version {0} is now available. Check ludeon.com for more info. -->
@@ -129,7 +129,7 @@
   <!-- EN: This is the latest version. -->
   <BuildUpToDate>Bu oyunun son sürümüdür.</BuildUpToDate>
   <!-- EN: Error getting version info: {0} -->
-  <ErrorGettingVersionInfo>Versiyon bilgisi alınırken hata oluştu: {0}</ErrorGettingVersionInfo>
+  <ErrorGettingVersionInfo>{0} versiyonu nedeniyle hata alınıyor.</ErrorGettingVersionInfo>
   <!-- EN: Loading version info... -->
   <LoadingVersionInfo>Versiyon bilgisi alınıyor...</LoadingVersionInfo>
 
@@ -139,7 +139,7 @@
 
   <!-- Mods config -->
   <!-- EN: Open Steam Workshop -->
-  <OpenSteamWorkshop>Steam atölyesini aç</OpenSteamWorkshop>
+  <OpenSteamWorkshop>Workshop aç</OpenSteamWorkshop>
   <!-- EN: Get mods from forum -->
   <GetModsFromForum>Forumdan mod al</GetModsFromForum>
   <!-- EN: Open mods data folder -->
@@ -147,15 +147,11 @@
   <!-- EN: Show mods data location -->
   <ShowModsDataLocation>Mod dosyasının yerini göster</ShowModsDataLocation>
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
-  <ConfirmDisableCoreMod>Çekirdek modu devre dışı bırakmak istediğinizden emin misiniz? Tüm temel işlevlerin yerini alan başka bir modunuz olmadığı sürece oyun hiç çalışmayacaktır.\n\nUnutmayın, diğer modlar aynı defName kullanarak çekirdek moddaki tanımları geçersiz kılabilir.</ConfirmDisableCoreMod>
+  <ConfirmDisableCoreMod>Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
   <ConfirmDeleteMod>{0} İçin tüm içeriği silmek istediğinizden emin misiniz?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
-  <ResolveModOrder>Modları otomatik sırala</ResolveModOrder>
-  <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
-  <ModReorderConflict_MustLoadAfter>{0} taşınamıyor: {1}'den sonra yüklenmelidir.</ModReorderConflict_MustLoadAfter>
-  <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
-  <ModReorderConflict_MustLoadBefore>{0} taşınamıyor: {1}'den önce yüklenmelidir.</ModReorderConflict_MustLoadBefore>
+  <ResolveModOrder>Modları Otomatik Ayıkla</ResolveModOrder>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Abonelikten çık</Unsubscribe>
   <!-- EN: Are you sure you want to unsubscribe from {0}? -->
@@ -171,7 +167,7 @@
   <!-- EN: Upload already in progress. -->
   <UploadAlreadyInProgress>Zaten yükleniyor</UploadAlreadyInProgress>
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
-  <WorkshopSubmissionFailed>Yükleme Tamamlanamadı\n\nSebep: {0}</WorkshopSubmissionFailed>
+  <WorkshopSubmissionFailed>Yükleme Tamamlanamadı\n\nReason: {0}</WorkshopSubmissionFailed>
   <!-- EN: Successfully uploaded {0}. -->
   <WorkshopUploadSucceeded>Başarıyla Yüklendi {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
@@ -195,19 +191,19 @@
   <!-- EN: Depends on: {0} -->
   <ModDependsOn>Bağ: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>{0} İle uyumsuz.</ModIncompatibleWith>
+  <ModIncompatibleWith>{0} ile uyumsuz.</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>Bu mod {0} ile uyumsuz.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
   <ModOrderingWarning>Bu mod başka bir moda bağlı olarak yanlış sıralamada yüklenmektedir. 'otomatik düzenle' butonunu kullanarak veya manuel olarak modları yeniden sırala.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
-  <ModWithSameIdAlreadyActive>Başka bir etkin mod aynı kimliği kullanıyor: {0}</ModWithSameIdAlreadyActive>
+  <ModWithSameIdAlreadyActive>Another active mod uses the same ID: {0}.</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>There is a cyclic mod dependency starting with {0}.</ModCyclicDependency>
   <!-- EN: This requires following mods to work: {0}. -->
-  <ModUnsatisfiedDependency>Bunun için aşağıdaki modların çalışması gerekir: {0}.</ModUnsatisfiedDependency>
+  <ModUnsatisfiedDependency>This requires following mods to work: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion>Bu mod, RimWorld'ün bu sürümü için yapılmamıştır ve muhtemelen düzgün çalışmayacaktır.</ModNotMadeForThisVersion>
+  <ModNotMadeForThisVersion>This mod was not made for this version of RimWorld, and will probably not work correctly.</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
   <ModNotMadeForThisVersionShort>Bu mod Rimworld'ün bu versiyonu için yapılmamıştır.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
@@ -378,7 +374,7 @@
   <!-- EN: Colonist mood -->
   <Difficulty_ColonistMoodOffset_Label>Kolonici ruh hali</Difficulty_ColonistMoodOffset_Label>
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
-  <Difficulty_ColonistMoodOffset_Info>Her kolonici ve mahkuma uygulanan kalıcı bir ruh hali dengelemesi. Kolonistlerin temel ruh hali %50'dir.</Difficulty_ColonistMoodOffset_Info>
+  <Difficulty_ColonistMoodOffset_Info>TODO</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
   <Difficulty_FoodPoisonChanceFactor_Label>Gıda zehirlenmesi şansı</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
@@ -406,11 +402,11 @@
   <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>Böcek doğum hızı</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Mevcut böcek kovanlarının yeni böcekler üretme hızını ayarlayın. Daha düşük değerler, yumurtlama olayları arasında daha fazla zaman olduğu anlamına gelir.\n\nBu, istilaların gerçekleşip gerçekleşmeyeceğini etkilemez - yalnızca aktif kovanların böcek üretme hızını değiştirir.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>TODO</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Label>Derin sondaj istilaları</Difficulty_DeepDrillInfestationChanceFactor_Label>
+  <Difficulty_DeepDrillInfestationChanceFactor_Label>TODO</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>Derin sondajın istilayı tetikleme şansını ayarlayın.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>TODO</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
   <Difficulty_PeacefulTemples_Inverted_Label>Antik tehlike tehditleri</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
@@ -418,7 +414,7 @@
   <!-- EN: Map generation natural hives -->
   <Difficulty_AllowCaveHives_Label>Doğal böcek yuvası oluşumu</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Uyuyan böcek kovanları doğal mağaralarda ortaya çıkabilir.\n\nBu ayar yalnızca harita oluşturma için geçerlidir ve oyun sırasında tünel açabilecek aktif böcekleri etkilemez.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>TODO</Difficulty_AllowCaveHives_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Oyuncu aletleri</DifficultyPlayerToolsSection>
@@ -434,29 +430,25 @@
   <Difficulty_AllowMortars_Label>Oyuncu havan topu inşa edebilir</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
   <Difficulty_AllowMortars_Info>Oyuncu havan topu inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen havan toplarını kullanabilirsin.</Difficulty_AllowMortars_Info>
-  <!-- EN: Classic mortars -->
-  <Difficulty_ClassicMortars_Label>Klasik havan topu ayarı</Difficulty_ClassicMortars_Label>
-  <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>Havan topları, inşa etmek veya yeniden doldurmak için güçlendirilmiş namlulara ihtiyaç duymaz ve bu erişim kolaylığı için dengelenmiştir.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
-  <DifficultyAdaptationSection>Adaptasyon</DifficultyAdaptationSection>
-  <!-- EN: Adaptation growth rate -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Adaptasyon büyüme oranı</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Uyarlama, hikaye anlatıcısının, siz iyi olduğunuzda oyunu daha zorlu hale getirmesi anlamına gelir. Bir adaptasyon puanı zamanla büyür ve hasar aldığınızda düşer.\n\nBu ayar, adaptasyon puanının zaman içinde ne kadar hızlı büyüyeceğini ayarlar.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
-  <!-- EN: Adaptation impact -->
-  <Difficulty_AdaptationEffectFactor_Label>Adaptasyon etkisi</Difficulty_AdaptationEffectFactor_Label>
-  <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <Difficulty_AdaptationEffectFactor_Info>Uyarlama, hikaye anlatıcısının, siz iyi olduğunuzda oyunu daha zorlu hale getirmesi anlamına gelir. Bir adaptasyon puanı zamanla büyür ve hasar aldığınızda devrilir.\n\nBu ayar, adaptasyon puanının zorluğu ne kadar etkileyeceğini ayarlar.</Difficulty_AdaptationEffectFactor_Info>
+  <DifficultyAdaptationSection>TODO</DifficultyAdaptationSection>
+  <!-- EN: Damage adaptation growth -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Label>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the rate of that challenge growth. -->
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>TODO</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <!-- EN: Damage adaptation effect -->
+  <Difficulty_AdaptationEffectFactor_Label>TODO</Difficulty_AdaptationEffectFactor_Label>
+  <!-- EN: Adaptation means the storyteller makes the game more challenging over time as long as you are not taking losses. This is separate from the story effects of wealth and population.\n\nThis adjusts the effect of that adaptation value on actual threats. -->
+  <Difficulty_AdaptationEffectFactor_Info>TODO</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
-  <Difficulty_FixedWealthMode_Label>Servetten bağımsız ilerleme modu</Difficulty_FixedWealthMode_Label>
+  <Difficulty_FixedWealthMode_Label>TODO</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>Zenginlikten bağımsız bir ilerleme modunda oynayın.\n\nNormal modda, hikaye anlatıcı tehditleri kolonici sayısına, oyuncu zenginliğine ve çeşitli diğer faktörlere göre ölçeklendirir. Servetten bağımsız mod, servet faktörünü kaldırır ve onun yerine zamana dayalı sabit bir ilerleme eğrisi koyar. Zaman, her koloninin kuruluşundan itibaren sayılır.\n\nBu yalnızca katı bir beceri mücadelesi arayanlar için önerilir. Servetten bağımsız modda, yeni bir anlaşma bulamadığınız sürece ciddi kayıplardan kurtulmak neredeyse imkansız olabilir. Eğrinin çok ötesine geçmek ve oyunu çok kolay bulmak da mümkündür.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>TODO</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
-  <Difficulty_FixedWealthTimeFactor_Label>Maksimum tehdide kadar yıllar</Difficulty_FixedWealthTimeFactor_Label>
+  <Difficulty_FixedWealthTimeFactor_Label>TODO</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
-  <Difficulty_FixedWealthTimeFactor_Info>Zenginlikten bağımsız modun maksimum tehdit düzeyine ulaşmasına kadar geçen oyun yılı sayısı.\n\nHikaye anlatıcısının tehditleri kolonici sayısına ve çeşitli diğer faktörlere göre ölçeklendirmeye devam edeceğini unutmayın.</Difficulty_FixedWealthTimeFactor_Info>
+  <Difficulty_FixedWealthTimeFactor_Info>TODO</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -468,7 +460,7 @@
   <!-- EN: Please select a site. -->
   <MustSelectStartingSite>Lütfen bölge seçin.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
-  <CannotLandBiome>Bu biyom üzerine iniş yapamazsınız: {0}</CannotLandBiome>
+  <CannotLandBiome>Bir biyom üzerine iniş yapamazsınız: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
   <BiomeNotImplemented>Biyoma uygulanamaz</BiomeNotImplemented>
   <!-- EN: You cannot land on impassable mountains. -->
@@ -562,9 +554,7 @@
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Yapamadığı işler:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by quest status: {0} -->
-  <IncapableOfTooltipQuest>Görev durumundan kaynaklanır: {0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
-  <IncapableOfTooltipRole>Rol nedeniyle: {0}</IncapableOfTooltipRole>
+  <IncapableOfTooltipQuest>TODO</IncapableOfTooltipQuest>
   <!-- EN: Traits -->
   <Traits>Kişisel özellikler</Traits>
   <!-- EN: Permanent mood effect -->
@@ -583,8 +573,6 @@
   <Male>Erkek</Male>
   <!-- EN: female -->
   <Female>Kadın</Female>
-  <!-- EN: male and female -->
-  <MaleAndFemale>Erkek ve Kadın</MaleAndFemale>
   <!-- EN: male -->
   <MaleAnimal>Erkek</MaleAnimal>
   <!-- EN: female -->
@@ -601,8 +589,6 @@
   <StartingPawnsSelected>Seçilmiş</StartingPawnsSelected>
   <!-- EN: Left behind -->
   <StartingPawnsLeftBehind>Arkada Bırakılan</StartingPawnsLeftBehind>
-  <!-- EN: This colonist is considered guilty. You can freely banish, execute or arrest them, and others won't be bothered.\n\nGuilt expires in -->
-  <GuiltyDesc>Bu kolonici suçlu olarak kabul edilir. Onları özgürce sürgün edebilir, idam edebilir veya tutuklayabilirsiniz; diğerleri rahatsız olmaz.\n\nSuçluluk süresi içinde sona erer</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -614,7 +600,7 @@
   <!-- EN: Back -->
   <Back>Geri</Back>
   <!-- EN: Change material... -->
-  <ShowMaterials>Malzemeyi değiştir...</ShowMaterials>
+  <ShowMaterials>TODO</ShowMaterials>
   <!-- EN: Gameplay -->
   <Gameplay>Oynanış</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
@@ -630,9 +616,9 @@
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->
-  <GeneratingWorld>Dünya oluşturuluyor</GeneratingWorld>
+  <GeneratingWorld>Dünya üretiliyor</GeneratingWorld>
   <!-- EN: Generating planet -->
-  <GeneratingPlanet>Gezegen oluşturuluyor</GeneratingPlanet>
+  <GeneratingPlanet>Dünya oluşturuluyor</GeneratingPlanet>
   <!-- EN: Generating map -->
   <GeneratingMap>Harita oluşturuluyor</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
@@ -641,28 +627,6 @@
   <!-- EN: Click for more info -->
   <ClickForMoreInfo>Daha fazla bilgi için tıklayın</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
-  <NoMoreInfoAvailable>Daha fazla bilgi yok</NoMoreInfoAvailable>
-
-  <!-- Factions -->
-  <!-- EN: Factions -->
-  <Factions>Fraksiyonlar</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>{0}'den fazla fraksiyonda oyun sorunları ortaya çıkabilir.</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
-  <TotalFactionsAllowed>Maksimum {0} görünür fraksiyona izin verildi.</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
-  <MaxFactionsForType>{0} {1}'den fazla olamaz</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>Varsayılanları geri yükle</ResetFactionsToDefault>
-  <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
-  <FactionSelectionDesc>Dünyadaki fraksiyonları seçin. Toplamda en fazla {0} fraksiyon seçebilirsiniz.</FactionSelectionDesc>
-  <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>{0} öğesinin devre dışı bırakılması, daha az görev çeşitliliği ve diğer azaltılmış içerik anlamına gelir.</FactionDisabledContentWarning>
-  <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>{0}'in devre dışı bırakılması, daha az doğal tehdit çeşitliliği anlamına gelir.</InsectsDisabledContentWarning>
-  <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>{0} öğesini devre dışı bırakmak, daha az görev ve doğal tehdit çeşitliliği anlamına gelir.</MechanoidsDisabledContentWarning>
-  <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>Diğer fraksiyonlar olmadan, baskınlar, ticaret ve görevler normal şekilde gerçekleşmeyecek.</FactionsDisabledWarning>
+  <NoMoreInfoAvailable>TODO</NoMoreInfoAvailable>
 
 </LanguageData>
