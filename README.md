@@ -6,6 +6,10 @@
 # Current status
 
 * Çevrilmekte olan versiyon: `1.3.3072`
+* Lütfen katkılarınızı, **forkladığınız projeyi pull request açarak** gönderin. 
+    * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.
+    * Pull request ile çıkan conflictleri çözmek kolay. 
+    * Direkt repo üstüne yazdırılınca en küçük değişiklik olsa bile aynı dosya üzerinde başka birisi çalışıyorsa başkalarının çevirdikleri kayboluyor. [Bkz: Yorumlara bakınız](https://github.com/Ludeon/RimWorld-Turkish/commit/f3c73a008d2083b61a4aef5a646a72bb0c225b65#comments)
 
 ## Translators - Çevirmenler
 
