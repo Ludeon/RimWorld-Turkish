@@ -18,7 +18,7 @@
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
   <GameUpdatedToNewVersionInitial>RimWorld {0} sürümünden {1} sürümüne güncellendi.</GameUpdatedToNewVersionInitial>
   <!-- EN: This may cause saved games and mods from the old version to stop working. -->
-  <GameUpdatedToNewVersionSavesIncompatible>Bu, eski bir sürümde kaydedilmiş oyunların ve modların çalışmasının durmasına neden olabilir.</GameUpdatedToNewVersionSavesIncompatible>
+  <GameUpdatedToNewVersionSavesIncompatible>Bu, eski sürümdeki kayıtlı oyunların ve modların çalışmayı durdurmasına neden olabilir.</GameUpdatedToNewVersionSavesIncompatible>
   <!-- EN: Saved games from the old version should be compatible, however some mods may stop working. -->
   <GameUpdatedToNewVersionSavesCompatible>Eski sürümde kaydedilmiş oyunlar uyumlu olmalıdır aksi takdirde bazı modlar çalışmayabilir.</GameUpdatedToNewVersionSavesCompatible>
   <!-- EN: Since this is a DRM-free copy, you can install the game twice in two different folders, to be able to play both old and new versions. -->
@@ -28,7 +28,7 @@
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
-  <RecoveredFromErrorsDialogTitle>Uyumsuz veya bozuk olan modlar düzeltildi</RecoveredFromErrorsDialogTitle>
+  <RecoveredFromErrorsDialogTitle>Uyumsuz veya bozuk olan modlar devre dışı bırakıldı</RecoveredFromErrorsDialogTitle>
   <!-- EN: It seems that some of the active mods were causing errors.\n\nThey were incompatible with each other, designed for a different version of RimWorld, or corrupted.\n\nAll mods have been disabled and can be activated again in the mods dialog. -->
   <RecoveredFromErrorsText>Aktif modların bazıları hatalara neden oluyor gibi görünüyor.\n\nBirbiriyle uyumsuzlar, RimWorld'ün farklı bir sürümü için tasarlanmışlar veya bozulmuşlar.\n\nTüm modlar devre dışı bırakıldı ama mod menüsünden tekrar etkinleştirilebilirler.</RecoveredFromErrorsText>
   
@@ -120,7 +120,7 @@
   <!-- EN: Load mod list from save -->
   <ChangeLoadedMods>Kaydedilmiş mod listesini yükle</ChangeLoadedMods>
   <!-- EN: Some mods are unavailable, and need to be installed -->
-  <MissingMods>Bazı modlar yok ve indirilmeleri gerekiyor</MissingMods>
+  <MissingMods>Bazı modlar eksik ve indirilmeleri gerekiyor</MissingMods>
   <!-- EN: Official content -->
   <OfficialContent>Resmi içerik</OfficialContent>
   <!-- EN: Active -->
@@ -263,7 +263,7 @@
   <!-- EN: ingredients -->
   <UsableIngredients>malzemeler</UsableIngredients>
   <!-- EN: To {0} -->
-  <BillRepeatTargetCountShort>{0} tarihine kadar</BillRepeatTargetCountShort>
+  <BillRepeatTargetCountShort>{0} 'a kadar</BillRepeatTargetCountShort>
 
   <!-- EN: Pause when satisfied -->
   <PauseWhenSatisfied>Koşul karşılandığında duraklat</PauseWhenSatisfied>
@@ -383,7 +383,7 @@
   <!-- EN: Body size -->
   <BodySize>Vücut boyutu</BodySize>
   <!-- EN: Growth -->
-  <Growth>TODO</Growth>
+  <Growth>Büyüme</Growth>
   <!-- EN: Recruit difficulty -->
   <RecruitDifficulty>Koloniye katma zorluğu</RecruitDifficulty>
   <!-- EN: Base price -->
@@ -411,7 +411,7 @@
   <!-- EN: Tameness will never decay for animals of very low wildness. -->
   <TamenessWillNotDecay>Uysallık asla bozulmaz.</TamenessWillNotDecay>
   <!-- EN: Tameness will never decay for animals that can be kept behind fences. -->
-  <TamenessWillNotDecayFenceBlocked>TODO</TamenessWillNotDecayFenceBlocked>
+  <TamenessWillNotDecayFenceBlocked>Çit arkasında tutulabilen hayvanların uysallığı asla azalmaz.</TamenessWillNotDecayFenceBlocked>
   <!-- EN: Time -->
   <TimeRecordsCategory>Zaman</TimeRecordsCategory>
   <!-- EN: Misc -->
@@ -457,7 +457,7 @@
   <!-- EN: {0} / day -->
   <PerDay>{0} / gün</PerDay>
   <!-- EN: {0} / hour -->
-  <PerHour>TODO</PerHour>
+  <PerHour>{0} / saat</PerHour>
   <!-- EN: Pack animal -->
   <PackAnimal>Yük hayvanı</PackAnimal>
   <!-- EN: Whether this animal is appropriate to use to carry items in a caravan over long distances. -->
@@ -607,15 +607,15 @@
   <!-- EN: Trading with faction base bonus -->
   <TradeWithFactionBaseBonus>Fraksiyon tabanı bonusu ile alım satım</TradeWithFactionBaseBonus>
   <!-- EN: Joins as slave -->
-  <JoinsAsSlave>TODO</JoinsAsSlave>
+  <JoinsAsSlave>Köle olarak katıldı</JoinsAsSlave>
   <!-- EN: Joins as colonist -->
-  <JoinsAsColonist>TODO</JoinsAsColonist>
+  <JoinsAsColonist>Kolonist olarak katıldı</JoinsAsColonist>
   <!-- EN: If purchased, this person will join your colony as a slave. -->
-  <JoinsAsSlaveDesc>TODO</JoinsAsSlaveDesc> <!--  -->
+  <JoinsAsSlaveDesc>Satın alınırsa bu kişi koloninize köle olarak katılır. </JoinsAsSlaveDesc> <!--  -->
   <!-- EN: If purchased, this person will join your colony as a colonist. -->
-  <JoinsAsColonistDesc>TODO</JoinsAsColonistDesc>
+  <JoinsAsColonistDesc>Satın alınırsa bu kişi koloninize kolonist olarak katılır.</JoinsAsColonistDesc>
   <!-- EN: Trading drugs bonus -->
-  <TradingDrugsBonus>TODO</TradingDrugsBonus>
+  <TradingDrugsBonus>Uyuşturucu ticareti bonusu </TradingDrugsBonus>
   <!-- EN: minimum -->
   <minimum>minimum</minimum>
   <!-- EN: Final price -->
@@ -651,7 +651,7 @@
   <!-- EN: Items -->
   <ItemsTab>Eşyalar</ItemsTab>
   <!-- EN: Travel supplies -->
-  <TravelSupplies>TODO</TravelSupplies>
+  <TravelSupplies>Seyehat erzakalrı</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>En az bir adet sağlıklı kolonist atamalısın.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -661,7 +661,7 @@
   <!-- EN: Warning: Some of the assigned colonists are unable to reach the exit location ({0}). -->
   <CaravanCouldNotFindReachableExitSpot>Dikkat: Atanan kolonistlerin bazıları çıkış konumuna ({0}) erişemiyor.</CaravanCouldNotFindReachableExitSpot>
   <!-- EN: {1_labelShort} is unable to reach the packing spot or the exit location when led by any of the assigned colonists. -->
-  <CaravanRoamerCannotReachSpots>TODO</CaravanRoamerCannotReachSpots>
+  <CaravanRoamerCannotReachSpots>{1_labelShort}, atanan kolonistlerden herhangi biri tarafından yönetildiğinde toplama noktasına veya çıkış konumuna ulaşamaz.</CaravanRoamerCannotReachSpots>
   <!-- EN: None of the assigned colonists are able to reach the {0}. -->
   <CaravanItemIsUnreachableSingle>Atanmış kolonistlerin hiçbiri {0}'e erişemiyor.</CaravanItemIsUnreachableSingle>
   <!-- EN: None of the assigned colonists are able to reach {0}x {1}. -->
@@ -753,9 +753,9 @@
   <!-- EN: tiles/day -->
   <TilesPerDay>alan/gün</TilesPerDay>
   <!-- EN: None - too heavy -->
-  <TilesPerDayImmobile>TODO</TilesPerDayImmobile>
+  <TilesPerDayImmobile>Yok - çok ağır</TilesPerDayImmobile>
   <!-- EN: None -->
-  <TilesPerDayImmobileShort>TODO</TilesPerDayImmobileShort>
+  <TilesPerDayImmobileShort>Yok</TilesPerDayImmobileShort>
   <!-- EN: Movement speed depends on carried mass, ridden animals, and terrain movement difficulty. -->
   <CaravanMovementSpeedTip>Hareket hızı, tüm insanların ve hayvanların ortalama hızına, taşınan ağırlığa ve arazi hareket zorluğuna bağlıdır.</CaravanMovementSpeedTip>
   <!-- EN: Animals will be able to graze -->
@@ -781,7 +781,7 @@
   <!-- EN: Total body size -->
   <TotalBodySize>Toplam vücut boyutu</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
-  <AutomaticallySelectTravelSupplies>TODO</AutomaticallySelectTravelSupplies>
+  <AutomaticallySelectTravelSupplies>Seyahat erzaklarını otomatik olarak seç</AutomaticallySelectTravelSupplies>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -1039,15 +1039,15 @@
   <!-- EN: {0_labelShort} is not mentally broken. -->
   <AbilityCanOnlyApplyToMentallyBroken>{0_labelShort} ruhsal olarak çökük değil.</AbilityCanOnlyApplyToMentallyBroken>
   <!-- EN: {0_labelShort} is not maddened. -->
-  <AbilityCanOnlyApplyToManhunter>TODO</AbilityCanOnlyApplyToManhunter>
+  <AbilityCanOnlyApplyToManhunter>{0_labelShort} çıldırmadı.</AbilityCanOnlyApplyToManhunter>
   <!-- EN: {0_labelShort} has scaria, which can only be treated medically. -->
-  <AbilityCantApplyToScaria>TODO</AbilityCantApplyToScaria>
+  <AbilityCantApplyToScaria>{0_labelShort}, yalnızca tıbbi olarak tedavi edilebilen Scaria'ya sahip.</AbilityCantApplyToScaria>
   <!-- EN: {0} doesn't work on the '{1}' mental state. -->
   <AbilityDoesntWorkOnMentalState>{0} '{1}' modundayken çalışamaz.</AbilityDoesntWorkOnMentalState>
   <!-- EN: {0_labelShort} has zero resistance. -->
   <AbilityCantApplyNoResistance>{0_labelShort} sıfır dirence sahip.</AbilityCantApplyNoResistance>
   <!-- EN: {0_labelShort} is downed. -->
-  <AbilityCantApplyDowned>TODO</AbilityCantApplyDowned>
+  <AbilityCantApplyDowned>{0_labelShort} düştü.</AbilityCantApplyDowned>
   <!-- EN: Cannot use: {0} is asexual. -->
   <AbilityCantApplyOnAsexual>Kullanamıyor: {0} aseksüel.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
@@ -1059,21 +1059,21 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} şu anda ilham alamıyor.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>TODO</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>{0_labelShort}, {1_labelShort}'dan farklı bir ideolojiye sahip olmalıdır.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>TODO</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>{0_labelShort}, {1_labelShort} ile aynı ideolojiye sahip olmalıdır.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
-  <AbilityMustBeSickOrInjured>TODO</AbilityMustBeSickOrInjured>
+  <AbilityMustBeSickOrInjured>{0_labelShort} hasta veya yaralı olmalıdır.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
-  <AbilityMustBeSameIdeoCounsel>TODO</AbilityMustBeSameIdeoCounsel>
+  <AbilityMustBeSameIdeoCounsel>{0} yalnızca {1}'lere danışmanlık yapabilir.</AbilityMustBeSameIdeoCounsel>
   <!-- EN: {0_labelShort} is already considered guilty. -->
-  <AbilityMustBeNotGuilty>TODO</AbilityMustBeNotGuilty>
+  <AbilityMustBeNotGuilty>{0_labelShort} zaten suçlu kabul ediliyor.</AbilityMustBeNotGuilty>
   <!-- EN: Must target a human. -->
-  <AbilityMustBeHuman>TODO</AbilityMustBeHuman>
+  <AbilityMustBeHuman>Bir insanı hedef almalıdır.</AbilityMustBeHuman>
   <!-- EN: Must target a non-wild human. -->
-  <AbilityMustBeHumanNonWild>TODO</AbilityMustBeHumanNonWild>
+  <AbilityMustBeHumanNonWild> Vahşi olmayan bir insanı hedef almalıdır.</AbilityMustBeHumanNonWild>
   <!-- EN: Must target an animal. -->
-  <AbilityMustBeAnimal>TODO</AbilityMustBeAnimal>
+  <AbilityMustBeAnimal>Bir hayvanı hedef almalıdır.</AbilityMustBeAnimal>
   <!-- EN: {0_labelShort} is unconscious. -->
   <AbilityCantApplyUnconscious>{0_labelShort} bilinçsiz.</AbilityCantApplyUnconscious>
   <!-- EN: {0_labelShort} is asleep. -->
@@ -1131,38 +1131,38 @@
   <AllowSlaughter>TODO</AllowSlaughter>
 
   <!-- EN: The animal to be automatically slaughtered. -->
-  <AutoSlaugtherHeaderTooltipLabel>TODO</AutoSlaugtherHeaderTooltipLabel>
+  <AutoSlaugtherHeaderTooltipLabel>Otomatik olarak kesilecek hayvan.</AutoSlaugtherHeaderTooltipLabel>
   <!-- EN: The current number of animals in the colony, both male and female. -->
-  <AutoSlaugtherHeaderTooltipCurrentTotal>TODO</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <AutoSlaugtherHeaderTooltipCurrentTotal>Kolonideki mevcut hayvan sayısı, hem erkek hem dişi.</AutoSlaugtherHeaderTooltipCurrentTotal>
   <!-- EN: The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxTotal>TODO</AutoSlaugtherHeaderTooltipMaxTotal>
+  <AutoSlaugtherHeaderTooltipMaxTotal>Kolonideki hem erkek hem de dişi maksimum hayvan sayısı.\n\nBakıcılar herhangi bir fazlalığı otomatik olarak keser. </AutoSlaugtherHeaderTooltipMaxTotal>
   <!-- EN: The current number of males of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentMales>TODO</AutoSlaugtherHeaderTooltipCurrentMales>
+  <AutoSlaugtherHeaderTooltipCurrentMales>Kolonide üreme çağındaki mevcut erkek sayısı.</AutoSlaugtherHeaderTooltipCurrentMales>
   <!-- EN: The current number of baby and juvenile males in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentMalesYoung>TODO</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>Kolonideki mevcut bebek ve yavru erkek sayısı.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
   <!-- EN: The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxMales>TODO</AutoSlaugtherHeaderTooltipMaxMales>
+  <AutoSlaugtherHeaderTooltipMaxMales>Kolonide üreme çağındaki maksimum erkek sayısı.\n\nBakıcılar herhangi bir ekstrayı otomatik olarak keser.</AutoSlaugtherHeaderTooltipMaxMales>
   <!-- EN: The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxMalesYoung>TODO</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>Kolonideki maksimum bebek ve yavru erkek sayısı.\n\nBakıcılar herhangi bir ekstrayı otomatik olarak keser.</AutoSlaughterHeaderTooltipMaxMalesYoung>
   <!-- EN: The current number of females of breeding age in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemales>TODO</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <AutoSlaugtherHeaderTooltipCurrentFemales>Kolonideki üreme çağındaki dişilerin mevcut sayısı.</AutoSlaugtherHeaderTooltipCurrentFemales>
   <!-- EN: The current number of baby and juvenile females in the colony. -->
-  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>TODO</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>Kolonideki mevcut bebek ve yavru dişi sayısı.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
   <!-- EN: The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaugtherHeaderTooltipMaxFemales>TODO</AutoSlaugtherHeaderTooltipMaxFemales>
+  <AutoSlaugtherHeaderTooltipMaxFemales>Kolonideki maksimum dişi sayısı.\n\nBakıcılar tüm ekstraları otomatik olarak keser.</AutoSlaugtherHeaderTooltipMaxFemales>
   <!-- EN: The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras. -->
-  <AutoSlaughterHeaderTooltipMaxFemalesYoung>TODO</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>Kolonideki maksimum bebek ve yavru dişi sayısı.\n\nBakıcılar tüm ekstraları otomatik olarak keser.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
   <!-- EN: The current number of pregnant animals in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentPregnant>TODO</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <AutoSlaughterHeaderTooltipCurrentPregnant>Kolonideki mevcut gebe hayvan sayısı.</AutoSlaughterHeaderTooltipCurrentPregnant>
   <!-- EN: Allow pregnant animals to be slaughtered along with other females of the same species. -->
-  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>TODO</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Hamile hayvanların aynı türden diğer dişilerle birlikte kesilmesine izin verin.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
   <!-- EN: The current number of bonded animals in the colony. -->
-  <AutoSlaughterHeaderTooltipCurrentBonded>TODO</AutoSlaughterHeaderTooltipCurrentBonded>
+  <AutoSlaughterHeaderTooltipCurrentBonded>Kolonideki mevcut bağlı hayvan sayısı.</AutoSlaughterHeaderTooltipCurrentBonded>
   <!-- EN: Allow bonded animals to be slaughtered. -->
-  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>TODO</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>Bağlı hayvanların kesilmesine izin verin.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <!-- EN: Click to set an animal count limit. -->
-  <AutoSlaughterTooltipSetLimit>TODO</AutoSlaughterTooltipSetLimit>
+  <AutoSlaughterTooltipSetLimit>Hayvan sayım limiti ayarlamak için tıklayın.</AutoSlaughterTooltipSetLimit>
 
   <!-- Room requirements -->
   <!-- EN: no beds allowed -->
