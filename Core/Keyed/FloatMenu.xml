@@ -232,13 +232,13 @@
   <MinSkill>min beceri</MinSkill>
   
   <!-- EN: Equip {0} -->
-  <Equip>{0}'i donan</Equip>
+  <Equip>{0}'i kuşan</Equip>
   <!-- EN: (brawler will be unhappy) -->
   <EquipWarningBrawler>(kavgacı mutsuz olacak)</EquipWarningBrawler>
   <!-- EN: Cannot equip {0} -->
-  <CannotEquip>{0}'i donanamaz</CannotEquip>
+  <CannotEquip>{0}'i kuşanamaz</CannotEquip>
   <!-- EN: Cannot man {1_labelShort} -->
-  <CannotManThing>{1_labelShort} işaretlenemez</CannotManThing>
+  <CannotManThing>{1_labelShort} kullanamaz</CannotManThing>
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>{1_labelShort}'i zorla giy</ForceWear>
@@ -271,7 +271,7 @@
   <!-- EN: Pick up {1_labelShort} x{{0}} -->
   <PickUpCount>{1_label}'i al x{{0}}</PickUpCount>
   <!-- EN: Cannot pick up {1_labelShort} -->
-  <CannotPickUpSome>{1_labelShort} alınamıyor</CannotPickUpSome>
+  <CannotPickUpSome>{1_labelShort} alamaz</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
   <MaxPickUpAllowed>{0} {1} izin veriliyor</MaxPickUpAllowed>
   
@@ -328,9 +328,9 @@
   <WouldReplaceLockedApparel>kilitli kıyafetlerin yerini alacak</WouldReplaceLockedApparel>
 
   <!-- EN: Cannot place {0_label} in {1_label} -->
-  <CannotPlaceIn>{0_label}, {1_label} içine yerleştirilemez</CannotPlaceIn>
+  <CannotPlaceIn>{0_label}, {1_label}'e yerleştirilemez</CannotPlaceIn>
   <!-- EN: Place {0_label} in {1_label} -->
-  <PlaceIn>{0_label} 'ı {1_label} 'in içine yerleştirin</PlaceIn>
+  <PlaceIn>{0_label}'i {1_label}'e yerleştir</PlaceIn>
 
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Burada kendini imha et</SelfDestructHere>
@@ -348,7 +348,7 @@
   <!-- EN: Trade with {0} -->
   <TradeWith>{0} ile ticaret yap</TradeWith>
   <!-- EN: Cannot trade -->
-  <CannotTrade>ticaret yapamaz</CannotTrade>
+  <CannotTrade>Ticaret yapamaz</CannotTrade>
 
   <!-- EN: Open {0_label} -->
   <Open>{0_label}'i aç</Open>
@@ -384,9 +384,9 @@
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Yapamaz: {0} {1}</CannotGenericWork>
+  <CannotGenericWork>Şunu yapamaz: {1} {0}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
-  <CannotGenericWorkCustom>Yapamaz: {0}</CannotGenericWorkCustom>
+  <CannotGenericWorkCustom>Şunu yapamaz: {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>Öncelik veremez: {0} yapamaz</CannotMissingHealthActivities>
@@ -400,7 +400,7 @@
   <!-- EN: Cannot prioritize: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Öncelik veremez: asla {0} yapamaz</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
-  <MissingTitleAbility>gerekli ünvan eksik</MissingTitleAbility>
+  <MissingTitleAbility>gerekli ünvanı yok</MissingTitleAbility>
 
   <!-- EN: Cannot prioritize: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Öncelik veremez: asla {0}</CannotPrioritizeWorkGiverDisabled>
@@ -408,7 +408,7 @@
   <WillNever>asla {0}</WillNever>
 
   <!-- EN: Cannot prioritize: Not assigned to {0} -->
-  <CannotPrioritizeNotAssignedToWorkType>Öncelik veremez: {0}'e atanmamış</CannotPrioritizeNotAssignedToWorkType>
+  <CannotPrioritizeNotAssignedToWorkType>Öncelik veremez: Atanmamış</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>atanmamış</NotAssigned>
   <!-- EN: not assigned to {0} -->
@@ -428,7 +428,7 @@
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
-  <PrioritizeGeneric>Öncelik ver {1} {0}</PrioritizeGeneric>
+  <PrioritizeGeneric>{1} {0} öncelik ver</PrioritizeGeneric>
   
   <!-- EN: Drop at edge -->
   <DropAtEdge>Kenara in</DropAtEdge>
