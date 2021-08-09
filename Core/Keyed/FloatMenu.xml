@@ -36,7 +36,7 @@
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>şiddet uygulayamaz</IncapableOfViolenceLower>
   <!-- EN: {0_labelShort} is incapable of shooting -->
-  <IsIncapableOfShootingLower>TODO</IsIncapableOfShootingLower>
+  <IsIncapableOfShootingLower>{0_labelShort} ateş etmekten aciz</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
   <IsNotDraftedLower>{1_labelShort} savaş modunda değil</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
@@ -58,7 +58,7 @@
   <!-- EN: burying -->
   <Burying>gömüyor</Burying>
   <!-- EN: designated for {0} -->
-  <DesignatedFor>TODO</DesignatedFor>
+  <DesignatedFor>{0} için belirlenmiş</DesignatedFor>
 
   <!-- EN: forbidden -->
   <ForbiddenLower>yasak</ForbiddenLower>
@@ -83,7 +83,7 @@
   <!-- EN: above allowed skill {0} -->
   <AboveAllowedSkill>izinli {0} beceri seviyesi üstünde}</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
-  <NoReachableOutsideCell>TODO</NoReachableOutsideCell>
+  <NoReachableOutsideCell>ulaşılamaz dış hücre</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>eksik beceri seviyesi</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -103,19 +103,19 @@
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>hayvan meşgul</CantInteractAnimalBusy>
   <!-- EN: no allowed reachable pens -->
-  <CantRopeAnimalNoUsableReachablePens>TODO</CantRopeAnimalNoUsableReachablePens>
+  <CantRopeAnimalNoUsableReachablePens>izin verilmiş erişilebilir ahır yok</CantRopeAnimalNoUsableReachablePens>
   <!-- EN: no enclosed pens -->
-  <CantRopeAnimalNoEnclosedPens>TODO</CantRopeAnimalNoEnclosedPens>
+  <CantRopeAnimalNoEnclosedPens>kapalı ahır yok</CantRopeAnimalNoEnclosedPens>
   <!-- EN: no allowed pens -->
-  <CantRopeAnimalNoAllowedPens>TODO</CantRopeAnimalNoAllowedPens>
+  <CantRopeAnimalNoAllowedPens>izin verilmiş ahır yok</CantRopeAnimalNoAllowedPens>
   <!-- EN: no reachable pens -->
-  <CantRopeAnimalNoReachablePens>TODO</CantRopeAnimalNoReachablePens>
+  <CantRopeAnimalNoReachablePens>erişilebilir ahır yok</CantRopeAnimalNoReachablePens>
   <!-- EN: can't touch -->
-  <CantRopeAnimalCantTouch>TODO</CantRopeAnimalCantTouch>
+  <CantRopeAnimalCantTouch>dokunulamaz</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
-  <CantRopeAnimalNoSpace>TODO</CantRopeAnimalNoSpace>
+  <CantRopeAnimalNoSpace>ahırda boş yer yok</CantRopeAnimalNoSpace>
   <!-- EN: already in best pen -->
-  <CantRopeAnimalAlreadyInBestPen>TODO</CantRopeAnimalAlreadyInBestPen>
+  <CantRopeAnimalAlreadyInBestPen>zaten en iyi ahırda</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
   <SkillTooLowForConstruction>{0} becerisi çok düşük</SkillTooLowForConstruction>
   <!-- EN: need components -->
@@ -161,7 +161,7 @@
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>müttefik fraksiyon ihlali</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
-  <BeingCarriedBy>TODO</BeingCarriedBy>
+  <BeingCarriedBy>{0_labelShort} tarafından taşınıyor</BeingCarriedBy>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>{1_labelShort}'i tüket</ConsumeThing>
@@ -178,7 +178,7 @@
   <!-- EN: Cannot arrest -->
   <CannotArrest>Tutuklayamaz</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>TODO</ArrestChance>
+  <ArrestChance>{0} tutuklama şansı</ArrestChance>
 
   <!-- EN: Capture {1_label} -->
   <Capture>{1_label}'i esir al</Capture>
@@ -205,7 +205,7 @@
   <!-- EN: Hosted prisoners not allowed. -->
   <CryptosleepCasketGuestPrisonersNotAllowed>Mahkumlara izin verilmez.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
-  <CryptosleepCasketOccupied>TODO</CryptosleepCasketOccupied>
+  <CryptosleepCasketOccupied>Zaten dolu</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, ayırtılmamış mahkum işaretli yatak yok.</NoPrisonerBed>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
@@ -273,7 +273,7 @@
   <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUpSome>{1_labelShort} alamaz</CannotPickUpSome>
   <!-- EN: {0} {1} allowed -->
-  <MaxPickUpAllowed>TODO</MaxPickUpAllowed>
+  <MaxPickUpAllowed>{0} {1} izin veriliyor</MaxPickUpAllowed>
   
   <!-- EN: Cannot load {1_label} onto pack animal -->
   <CannotGiveToPackAnimal>{1_label}'i yük hayvanına yükleyemez</CannotGiveToPackAnimal>
@@ -317,9 +317,9 @@
   <!-- EN: Cannot drop {1_label} -->
   <CannotDrop>{1_label}'i bırakamaz</CannotDrop>
   <!-- EN: Carry {0_label} -->
-  <Carry>TODO</Carry>
+  <Carry>Taşı {0_label}</Carry>
   <!-- EN: Cannot carry {0_label} -->
-  <CannotCarry>TODO</CannotCarry>
+  <CannotCarry>{0_label} taşınamaz</CannotCarry>
   <!-- EN: temporary faction member -->
   <QuestRelated>geçici fraksiyon üyesi</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -328,7 +328,7 @@
   <WouldReplaceLockedApparel>kilitli kıyafetlerin yerini alacak</WouldReplaceLockedApparel>
 
   <!-- EN: Cannot place {0_label} in {1_label} -->
-  <CannotPlaceIn>{0_label}'i {1_label}'e yerleştiremez</CannotPlaceIn>
+  <CannotPlaceIn>{0_label}, {1_label}'e yerleştirilemez</CannotPlaceIn>
   <!-- EN: Place {0_label} in {1_label} -->
   <PlaceIn>{0_label}'i {1_label}'e yerleştir</PlaceIn>
 
@@ -412,19 +412,19 @@
   <!-- EN: not assigned -->
   <NotAssigned>atanmamış</NotAssigned>
   <!-- EN: not assigned to {0} -->
-  <NotAssignedToWorkType>TODO</NotAssignedToWorkType>
+  <NotAssignedToWorkType>{0} 'a atanmamış</NotAssignedToWorkType>
 
   <!-- EN: Cannot prioritize: Research is a long-term task -->
-  <CannotPrioritizeResearch>Öncelik veremez: araştırma uzun vadeli bir iştir</CannotPrioritizeResearch>
+  <CannotPrioritizeResearch>Öncelik verilemez: araştırma uzun vadeli bir iştir</CannotPrioritizeResearch>
 
   <!-- EN: Cannot prioritize: {1_label} is forbidden -->
-  <CannotPrioritizeForbidden>Öncelik veremez: {1_label} yasak</CannotPrioritizeForbidden>
+  <CannotPrioritizeForbidden>Öncelik verilemez: {1_label} yasak</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
-  <CannotPrioritizeCellForbidden>Öncelik veremez: yasak</CannotPrioritizeCellForbidden>
+  <CannotPrioritizeCellForbidden>Öncelik verilemez: yasak</CannotPrioritizeCellForbidden>
   <!-- EN: Outside allowed area -->
   <CannotPrioritizeForbiddenOutsideAllowedArea>İzinli alan dışında</CannotPrioritizeForbiddenOutsideAllowedArea>
   <!-- EN: Cannot prioritize burying -->
-  <CannotPrioritizeBurying>TODO</CannotPrioritizeBurying>
+  <CannotPrioritizeBurying>Öncelik verilemez: gömmek</CannotPrioritizeBurying>
 
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
@@ -474,7 +474,7 @@
   <!-- EN: Give as a gift to {0} ({1}) -->
   <GiveGiftViaTransportPods>{0}'e hediye olarak ver ({1})</GiveGiftViaTransportPods>
   <!-- EN: Not part of launch group -->
-  <NotPartOfLaunchGroup>TODO</NotPartOfLaunchGroup>
+  <NotPartOfLaunchGroup>Fırlatma grubunun parçası değil</NotPartOfLaunchGroup>
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
@@ -490,32 +490,29 @@
 
   <!-- CommsConsole -->
   <!-- EN: Nobody to call -->
-  <NoCommsTarget>TODO</NoCommsTarget>
+  <NoCommsTarget>Arayacak kimse yok</NoCommsTarget>
 
   <!-- EN: Invoke {0} -->
-  <Invoke>TODO</Invoke>
+  <Invoke>Kullan</Invoke>
   <!-- EN: Cannot invoke {0} -->
-  <CannotInvoke>TODO</CannotInvoke>
+  <CannotInvoke>Kullanılamıyor: {0}</CannotInvoke>
   <!-- EN: power -->
-  <Power>TODO</Power>
+  <Power>güç</Power>
   <!-- EN: already invoked -->
-  <AlreadyInvoked>TODO</AlreadyInvoked>
+  <AlreadyInvoked>zaten kullanılmış</AlreadyInvoked>
 
   <!-- EN: Tend {0} -->
-  <Tend>TODO</Tend>
+  <Tend>Tedavi</Tend>
   <!-- EN: Cannot tend {0} -->
-  <CannotTend>TODO</CannotTend>
+  <CannotTend>Tedavi edemez: {0}</CannotTend>
   <!-- EN: {0} does not require tending -->
-  <TendingNotRequired>TODO</TendingNotRequired>
+  <TendingNotRequired>{0} tedavi gerektirmez</TendingNotRequired>
   <!-- EN: without medicine -->
-  <WithoutMedicine>TODO</WithoutMedicine>
+  <WithoutMedicine>ilaçsız</WithoutMedicine>
 
   <!-- EN: Repair {0} -->
-  <RepairThing>TODO</RepairThing>
+  <RepairThing>Onar: {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
-  <CannotRepair>TODO</CannotRepair>
-  
-  <!-- UNUSED -->
-  <CannotTradeMissingTitleAbility>Ticaret yapamaz: gerekli ünvan eksikliği</CannotTradeMissingTitleAbility>
+  <CannotRepair>Onarılamıyor: {0}</CannotRepair>
 
 </LanguageData>
