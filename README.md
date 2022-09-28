@@ -19,7 +19,7 @@
 * [@LadySmith](https://github.com/LadySmith)
 * [@SangalHan](https://github.com/SangalHan)
 * [@Hüseyin Cem Aras](https://github.com/hcemaras)
-* [@Ilgın Yılmaz](https://github.com/Areciate)
+* [@Ilgın Yılmaz](https://github.com/Bruniikendov)
 * [@Emin Muhammed Şahin](https://github.com/ColdWind53)
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 
