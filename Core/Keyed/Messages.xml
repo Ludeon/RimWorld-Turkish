@@ -14,7 +14,7 @@
   <MessageRaidersStealing>{1}'den {0} ellerinden geleni çalmaya ve ayrılmaya karar verdiler.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>TODO</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>{1}'den {0} geldi ve saldırıyorlar! Daha fazlası yolda ve {2} içinde gelecek.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{1}'den {0} ayrılıyorlar.</MessageRaidersLeaving>
@@ -49,10 +49,10 @@
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Ticaret yapabilmen için ticaret feneri gerekli.</MessageNeedBeaconToTradeWithShip>
   <!-- EN: Caller must have the title of {0_label} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>TODO</MessageNeedRoyalTitleToCallWithShip>
+  <MessageNeedRoyalTitleToCallWithShip>Arayan kişinin en az {0_label} sahip olması gerekir.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>TODO</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0} yok edildi.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Tasarı bitti: {0}.</MessageBillComplete>
@@ -66,7 +66,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} {GUN_label} için yakında herhangi bir mermi bulunamadı.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>TODO</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort}, {GUN_label} için yakınlarda ayrılmamış {FUEL} bulunamadı.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Dikkat: {ANIMAL_kindBasePlural}ler zarar gördüğünde genellikle saldırırlar.</MessageAnimalsGoPsychoHunted>
@@ -558,7 +558,7 @@
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Yeterli bakılmadığı için, {1_labelShort} vahşi hayatına geri döndü.</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>TODO</MessageAnimalReturnedWildReleased>
+  <MessageAnimalReturnedWildReleased>{1_labelShort} doğaya geri döndü.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Eğitim eksikliğinden dolayı, {ANIMAL_labelShort} şu yeteneğini kaybetti: {1}</MessageAnimalLostSkill>
 
