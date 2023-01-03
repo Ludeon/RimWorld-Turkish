@@ -18,30 +18,30 @@
   <SlavesUnattendedDesc>Harita üzerinde bazı köleler etraflarında becerikli kolonist olmadan yalnız bulunmaktalar.\n\nBu şekilde gözetimsiz olan köleler yüksek istimalle birkaç gün veya saat içerisinde isyan çıkarırlar</SlavesUnattendedDesc>
 
   <!-- EN: {0} expected -->
-  <RitualExpected>TODO</RitualExpected>
+  <RitualExpected>{0} bekleniyor</RitualExpected>
   <!-- EN: {0} expected for -->
-  <RitualExpectedFor>TODO</RitualExpectedFor>
+  <RitualExpectedFor>{0} bekleniyor</RitualExpectedFor>
   <!-- EN: {0} days: Ritual opportunity ends. -->
   <RitualExpirationTime>{0} gün içinde: Ritüel sona eriyor.</RitualExpirationTime>
   <!-- EN: Expires in -->
-  <RitualExpiresIn>TODO</RitualExpiresIn>
+  <RitualExpiresIn>İçinde sona eriyor</RitualExpiresIn>
   <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
   <RitualCompletionEffects>{RITUAL_labelDef}'i tamamlamak şu etkilere neden olacak</RitualCompletionEffects>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Ritüele başlamak için bir odak nesnesi seçin ve '{RITUAL_label başla}' butonuna tıklayın. Aşağıdakiler geçerli odak nesneleridir:\n{1}</RitualTargetsExplanation>
   <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>TODO</RitualRolesExplanation>
+  <RitualRolesExplanation>Aşağıdaki rollerin {RITUAL_label} içinde bir rolü vardır:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Hedeflere atlamak için tıklayın</RitualJumpToTargets>
   <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
   <RitualObligationDelayEffects>{RITUAL_labelDef}'i geciktirmenin aşağıdaki etkileri olacaktır.</RitualObligationDelayEffects>
   <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>TODO</RitualObligationDelayEffectDesc>
+  <RitualObligationDelayEffectDesc>{0} gün: Tüm {2}lerde {1} ruh hali.</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
   <RitualUnfilledRoles>{0} gerçekleştirmek için bu rolleri doldurmanız gerekir</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
-  <IdeoBuildingMissing>TODO</IdeoBuildingMissing>
+  <IdeoBuildingMissing>{0} isteniyor</IdeoBuildingMissing>
   <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingMissingDesc>{1}, koloninizde {2} veya daha yüksek olduğu sürece bir {0} olmasını gerektirir.{4}\n\nGereksinim karşılanmazsa, bu inananlar mutsuz olacaktır:\n{3}</IdeoBuildingMissingDesc>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
@@ -50,7 +50,7 @@
   <IdeoBuildingExpectations>beklentiler</IdeoBuildingExpectations>
 
   <!-- EN: {0} disrespected -->
-  <IdeoBuildingDisrespected>saygısız</IdeoBuildingDisrespected>
+  <IdeoBuildingDisrespected>{0} saygısız</IdeoBuildingDisrespected>
   <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingDisrespectedDesc>{0}, {1} öğesinin saygın bir odada olmasını gerektirir. Şu oda gereksinimleri karşılanmalıdır:\n{2}\n\n{1}'nin oda gereksinimleri karşılanmazsa, bu inananlar mutsuz olacaktır:\n{3}</IdeoBuildingDisrespectedDesc>
   
@@ -106,13 +106,13 @@
   <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef}'in {IDEO_name}'ye olan inancı {PAWN_objective}'ın {ANIMALS}'ın etini yemesini engelliyor.</AlertRoyalTitleNoVeneratedAnimalMeat>
 
   <!-- EN: Dryad caste not set -->
-  <AlertGauranlenTreeWithoutDryadTypeLabel>TODO</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <AlertGauranlenTreeWithoutDryadTypeLabel>Orman perisi kastı belirlenmedi</AlertGauranlenTreeWithoutDryadTypeLabel>
   <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
-  <AlertGauranlenTreeWithoutDryadTypeDesc>TODO</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Bir veya daha fazla Gauranlen ağacının orman perisi kastı seti yok.\n\nAğacı seçin ve üretilen orman perisi kastını ayarlamak için '{0}' düğmesini tıklayın.</AlertGauranlenTreeWithoutDryadTypeDesc>
   <!-- EN: Connector not assigned to plant cutting -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>TODO</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Bitki kesimine atanmamış konektör</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
   <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
-  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>TODO</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Budanmak üzere ayarlanmış Gauranlen ağaçlarınız var, ancak konektörleri bitki kesimine atanmamış.\n\nBitki kesim işini aşağıdaki kişilere atamalısınız</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
 
   <!-- EN: Fuel node explodes in {0} -->
   <AlertFuelNodeIgniting>Yakıt düğümü {0} içinde patlayacak</AlertFuelNodeIgniting>
@@ -130,8 +130,8 @@
   <AlertHostilesWakingUpDesc>Bir veya daha fazla {0_pawnsPlural} uyanıyor.\ve sizi bulurlarsa saldıracaklar.</AlertHostilesWakingUpDesc>
 
   <!-- EN: Cryptosleep caskets opening in {0} -->
-  <AlertCasketOpening>TODO</AlertCasketOpening>
+  <AlertCasketOpening>{0} yılında açılan Cryptosleep tabutları</AlertCasketOpening>
   <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
-  <AlertCasketOpeningDesc>TODO</AlertCasketOpeningDesc>
+  <AlertCasketOpeningDesc>Bilinmeyen tehditler içeren kripto uyku tabutları yakında açılıyor.</AlertCasketOpeningDesc>
 
 </LanguageData>
