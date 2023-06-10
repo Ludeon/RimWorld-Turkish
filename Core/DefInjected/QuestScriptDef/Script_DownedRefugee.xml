@@ -7,17 +7,27 @@
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   -->
-  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>TODO</OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] sizden yardım istiyor. [refugee_pronoun] yaralanmış ve hareket edemiyor.\n\n[refugee_nameDef] [refugee_age]-yaşında [refugee_title]. [refugee_pronoun] eğer kurtarılırsa size katılacağına söz veriyor [refugee_objective].\n\n[refugee_nameDef] diyor ki [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_name] den [asker_faction_leaderTitle], diyor ki [asker_possessive] arkadaşı seyahat ederken yaralandı. Mağdur kişi: [refugee_nameIndef], [refugee_age]-yaşında [refugee_title].\n\n[asker_nameDef]'in [refugee_nameDef]'ı kurtarmak için ayırabileceği kimse yok, ancak [refugee_nameDef]'ın konumuna varabilir ve [refugee_objective]'ı kurtarabilirsiniz, [refugee_pronoun] size katılacak.\n\n[asker_nameDef] diyor ki [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
+    <li>pawnInvolvedInQuestInfo-></li>
+  </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Saving [refugee_nameDef]</li>
     <li>questName->The Rescue of [refugee_nameDef]</li>
     <li>questName->[refugee_nameDef]'s Rescue</li>
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
-  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>TODO</OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+  <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
+    <li>questName->[refugee_nameDef]'yi Kurtarma</li>
+    <li>questName->[refugee_nameDef]'nin Kurtarılışı</li>
+    <li>questName->[refugee_nameDef]'nin Kurtarılması</li>
+    <li>questName->[refugee_nameDef]'nin Kurtuluşu</li>
+  </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>TODO</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Görevin süresi doldu: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>TODO</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>[refugee_nameDef]'nin sinyali kayboldu, ve artık [refugee_pronoun] kurtarılamaz. Görevin süresi doldu: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>
