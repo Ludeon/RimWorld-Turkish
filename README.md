@@ -23,6 +23,7 @@
 * [@Emin Muhammed Şahin](https://github.com/ColdWind53)
 * [@ajexthedev](https://github.com/ajexthedev)
 * [@TinyTemim](https://github.com/TinyTemim)
+* [@ennear](https://github.com/ennear)
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 
 :star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya kendiniz katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda çevirilmeyi bekleyen çevirileri ve düzenlemeleri proje sayfamızdan kontrol edebilirsiniz.
