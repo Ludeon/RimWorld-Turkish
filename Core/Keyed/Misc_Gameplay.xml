@@ -24,6 +24,10 @@
   <Owners>Sahipleri</Owners>
   <!-- EN: Assigned colonist -->
   <AssignedColonist>Atanan kolonist</AssignedColonist>
+  <!-- EN: Uncomfortable room temperature -->
+  <BedUncomfortableTemperature>TODO</BedUncomfortableTemperature>
+  <!-- EN: Unsafe room temperature -->
+  <BedUnsafeTemperature>TODO</BedUnsafeTemperature>
   <!-- EN: Died on the {0} -->
   <DiedOn>{0} tarihinde öldü</DiedOn>
   <!-- EN: Nobody -->
@@ -62,6 +66,8 @@
   <NextTendIn>{0} içinde tedavi edilebilir</NextTendIn>
   <!-- EN: Tend quality -->
   <TendQuality>Tedavi kalitesi</TendQuality>
+  <!-- EN: Total tend quality -->
+  <DisappearsAtTotalTendQuality>TODO</DisappearsAtTotalTendQuality>
   <!-- EN: no {0} -->
   <MissingMedicalBillIngredient>yok {0}</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
@@ -103,15 +109,19 @@
   <!-- EN: Execute -->
   <Execute>İnfaz et</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Suçlu kolonisti idam edin\n\nBunu açarsanız, bir gardiyan bu kişiyi idam etmeye devam edecek.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>Suçlu kolonisti idam edin\n\nBunu açarsanız, bir gardiyan bu kişiyi idam etmeye devam edecek.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort} artık idam edilmek üzere işaretlendi. Bir sonraki müsait gardiyan {0_objective} idamı yürütecek.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} ın {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
   <RenounceTitleDescription>Bu eylem, {PAWN_nameDef}'in {PAWN_possessive} {TITLE} unvanını kaybetmesine neden olacaktır. Unvandan vazgeçtiğiniz için herhangi bir tazminat almayacaksınız.\n\nBunun aşağıdaki etkileri olacaktır:\n\n{EFFECTS}</RenounceTitleDescription>
-  <!-- EN: {PAWN_possessive} will lose these permissions -->
+  <!-- EN: {PAWN_pronoun} will lose these permissions -->
   <RenounceTitleWillLoosePermits>{PAWN_possessive} bu izinleri kaybedecek</RenounceTitleWillLoosePermits>
+  <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
+  <RenounceTitleWillLosePermitPoints>TODO</RenounceTitleWillLosePermitPoints>
+  <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
+  <RenounceTitleWillKeepPsylinkLevels>TODO</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>bilinmeyen</UnknownLower>
   <!-- EN: On -->
@@ -242,7 +252,7 @@
   <CaravanAttacking>Saldırıyor {0}.</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
   <CaravanOfferingGifts>{0} 'a hediye veriyor.</CaravanOfferingGifts>
-  <!-- EN: Trading with {0} -->
+  <!-- EN: Trading with {0}. -->
   <CaravanTrading>{0} ile ticaret yapılıyor.</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
   <WasWornByCorpse>Ölmüş birinin kıyafeti.</WasWornByCorpse>
@@ -252,8 +262,14 @@
   <DeterioratingUnroofed>çatısız alanda</DeterioratingUnroofed>
   <!-- EN: outdoors -->
   <DeterioratingOutdoors>dışarıda</DeterioratingOutdoors>
-  <!-- EN: Deteriorating because of -->
+  <!-- EN: raining -->
+  <DeterioratingRaining>TODO</DeterioratingRaining> 
+  <!-- EN: protected -->
+  <Protected>TODO</Protected>
+  <!-- EN: Deteriorating -->
   <DeterioratingBecauseOf>Nedeniyle bozuluyor</DeterioratingBecauseOf>
+  <!-- EN: Will deteriorate in {0}. -->
+  <DeteriorateInDuration>TODO</DeteriorateInDuration>
   <!-- EN: Map -->
   <Map>Harita</Map>
   <!-- EN: {0} until enemies arrive -->
@@ -264,9 +280,9 @@
   <Room>Oda</Room>
   <!-- EN: Beauty here -->
   <BeautyHere>Buranın güzelliği</BeautyHere>
-  <!-- EN: No power -->
+  <!-- EN: no power -->
   <NoPower>Enerji yok</NoPower>
-  <!-- EN: Work speed penalty -->
+  <!-- EN: Work speed -->
   <WorkSpeedPenalty>Çalışma hızı eksikliği</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>ENGELLİ</DisabledCommand>
@@ -324,6 +340,10 @@
   <SkillRequirements>Beceri Gereksinimleri</SkillRequirements>
   <!-- EN: Products -->
   <Products>Ürünler</Products>
+  <!-- EN: Requires -->
+  <Requires>TODO</Requires>
+  <!-- EN: {0}x any of -->
+  <NumAnyOf>TODO</NumAnyOf>
   <!-- EN: {0} of {1} -->
   <Relationship>{0}/{1}</Relationship>
   <!-- EN: Prisoner -->
@@ -410,6 +430,8 @@
   <Location>konum</Location>
   <!-- EN: animals -->
   <AnimalsLower>hayvanlar</AnimalsLower>
+  <!-- EN: items -->
+  <ItemsLower>TODO</ItemsLower>
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
@@ -440,7 +462,7 @@
   <ViewHyperlink>Görünüm: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>{0} gün içinde patlıyor</DetonationCountdown>
-  <!-- EN: Large fire explosion if damaged -->
+  <!-- EN: Large fire explosion if damaged. -->
   <ExplosionOnDamageWarning>Hasar alırsa büyük ateşli bir patlamaya sebep verir</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Mekanoid kümesi</MechCluster>
@@ -518,6 +540,30 @@
   <AttackToDestroy>Yok etmek için buna saldır.</AttackToDestroy>
   <!-- EN: Remove this by attacking it. -->
   <RemoveByAttackingTooltip>Saldırarak bunu kaldırın.</RemoveByAttackingTooltip>
+  <!-- EN: Food -->
+  <ThoughtFoodEatenFood>TODO</ThoughtFoodEatenFood>
+  <!-- EN: Ingredients -->
+  <ThoughtFoodEatenIngredients>TODO</ThoughtFoodEatenIngredients>
+  <!-- EN: Shield pack -->
+  <ShieldInbuilt>TODO</ShieldInbuilt>
+  <!-- EN: Punctured - will explode soon. -->
+  <PuncturedWillExplode>TODO</PuncturedWillExplode>
+  <!-- EN: Click to open research window -->
+  <ClickToOpenResearchTab>TODO</ClickToOpenResearchTab>
+  <!-- EN: Target belongs to another faction. -->
+  <TargetBelongsToNPCFaction>TODO</TargetBelongsToNPCFaction>
+  <!-- EN: more -->
+  <MoreLower>TODO</MoreLower>
+  <!-- EN: Requires -->
+  <RequiredTechprintTip>TODO</RequiredTechprintTip>
+  <!-- EN: size -->
+  <Size>boyut</Size>
+  <!-- EN: cost -->
+  <Cost>fiyat</Cost>
+  <!-- EN: Title -->
+  <BackstoryTitle>TODO</BackstoryTitle><!-- text_todo -->
+  <!-- EN: person -->
+  <Person>TODO</Person>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -642,7 +688,54 @@
   <PenCapacityDesc>{ANIMALDEF_label} kapasitesi</PenCapacityDesc>
   <!-- EN: Example animals -->
   <PenExampleAnimals>Örnek hayvanlar</PenExampleAnimals>
+  <!-- EN: No exterior access - Animals cannot be moved in or out. -->
+  <NoExteriorAccess>TODO</NoExteriorAccess>
 
+  <!-- Cell Inspector -->
+  <!-- EN: Beauty -->
+  <Beauty_Label>TODO</Beauty_Label>
+  <!-- EN: Zone -->
+  <Zone_Label>TODO</Zone_Label>
+  <!-- EN: Roof -->
+  <Roof_Label>TODO</Roof_Label>
+  <!-- EN: Terrain -->
+  <Terrain_Label>TODO</Terrain_Label>
+  <!-- EN: Snow -->
+  <Snow_Label>TODO</Snow_Label>
+  <!-- EN: Walk speed -->
+  <WalkSpeed_Label>TODO</WalkSpeed_Label>
+  <!-- EN: Fertility -->
+  <Fertility_Label>TODO</Fertility_Label>
+  <!-- EN: Temperature -->
+  <Temperature_Label>TODO</Temperature_Label>
+  <!-- EN: Light level -->
+  <LightLevel_Label>TODO</LightLevel_Label>
+  <!-- EN: Biome -->
+  <Biome_Label>TODO</Biome_Label>
+  <!-- EN: Hilliness -->
+  <Hilliness_Label>TODO</Hilliness_Label>
+  <!-- EN: Road -->
+  <Road_Label>TODO</Road_Label>
+  <!-- EN: River -->
+  <River_Label>TODO</River_Label> 
+  <!-- EN: Movement difficulty -->
+  <MovementDifficulty_Label>TODO</MovementDifficulty_Label>
+  <!-- EN: Pollution -->
+  <Pollution_Label>TODO</Pollution_Label>
+  <!-- EN: Filth -->
+  <Filth_Label>TODO</Filth_Label>
+  
+  <!-- EN: Faction -->
+  <Faction_Label>TODO</Faction_Label>
+  <!-- EN: Relationship -->
+  <Relationship_Label>TODO</Relationship_Label>
+  <!-- EN: Colonists -->
+  <CaravanColonists_Label>TODO</CaravanColonists_Label>
+  <!-- EN: Status -->
+  <CaravanStatus_Label>TODO</CaravanStatus_Label>
+  <!-- EN: Time to destination -->
+  <CaravanTTD_Label>TODO</CaravanTTD_Label>
+  
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
@@ -657,15 +750,17 @@
   <ApparelPreventsShooting>{PAWN_nameDef}, {PAWN_possessive} {APPAREL_label} nedeniyle menzilli silahları kullanamaz.</ApparelPreventsShooting>
 
   <!-- Snow -->
+  <!-- EN: Snow -->
+  <Snow>TODO</Snow>
   <!-- EN: No snow -->
   <SnowNone>Kar yok</SnowNone>
-  <!-- EN: Snow (dusting) -->
+  <!-- EN: dusting -->
   <SnowDusting>Kar (çok ince)</SnowDusting>
-  <!-- EN: Snow (thin) -->
+  <!-- EN: thin -->
   <SnowThin>Kar (ince)</SnowThin>
-  <!-- EN: Snow (medium) -->
+  <!-- EN: medium -->
   <SnowMedium>Kar (orta)</SnowMedium>
-  <!-- EN: Snow (thick) -->
+  <!-- EN: thick -->
   <SnowThick>Kar (kalın)</SnowThick>
 
   <!-- Turrets -->
@@ -683,6 +778,22 @@
   <ShellLoaded>Mermi yüklendi: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
   <ShellNotLoaded>Yüklenmedi</ShellNotLoaded>
+  <!-- EN: Already active -->
+  <AlreadyActive>TODO</AlreadyActive>
+  <!-- EN: Order activation -->
+  <OrderActivation>TODO</OrderActivation>
+  <!-- EN: Order a colonist to activate {THING_definite}. -->
+  <OrderActivationDesc>TODO</OrderActivationDesc>
+  <!-- EN: Must be activated by a colonist. -->
+  <MustBeActivatedByColonist>TODO</MustBeActivatedByColonist>
+  <!-- EN: No nearby fire -->
+  <NoNearbyFire>TODO</NoNearbyFire>
+  <!-- EN: No nearby fire. No fuel was used. -->
+  <NoNearbyFireNoFuelUsed>TODO</NoNearbyFireNoFuelUsed>
+  <!-- EN: Choose who should activate this. -->
+  <ChooseWhoShouldActivate>TODO</ChooseWhoShouldActivate>
+  <!-- EN: No fuel -->
+  <NoFuel>TODO</NoFuel>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
@@ -727,6 +838,10 @@
   <ReportExtinguishingFireOn>{TARGET_label} üzerinde yangını söndürüyor.</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
   <ReportDiggingUpCorpse>mezarı kazıyor</ReportDiggingUpCorpse>
+  <!-- EN: being carried by {0_labelShort}. -->
+  <CarriedBy>TODO</CarriedBy> 
+  <!-- EN: inside {0_labelShort}. -->
+  <InContainer>TODO</InContainer> 
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
@@ -809,8 +924,6 @@
   <PawnTitleDescWrap>{0} içinde {1}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
   <PawnMainDescUnderFactionedWrap>{1} altında {0}</PawnMainDescUnderFactionedWrap>
-  <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{0} altında {0}\nAna grup: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
@@ -845,12 +958,16 @@
   <State>Durum</State>
   <!-- EN: stun -->
   <StunLower>Sersem</StunLower>
+  <!-- EN: Slowed by damage -->
+  <SlowedByDamage>TODO</SlowedByDamage>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\n(*SectionTitle)Shortcut key:(/SectionTitle) {0}\n\nYou can also do this by slowly clicking the same square again. -->
   <SelectNextInSquareTip>Aynı karede bir sonraki öğeyi seçin.\n\nKısayol tuşu: {0}\n\nAyrıca aynı kareyi yavaşça tekrar tıklatarak da yapabilirsiniz.</SelectNextInSquareTip>
   <!-- EN: View information. -->
   <DefInfoTip>Bilgileri görüntüleyin.</DefInfoTip>
+  <!-- EN: Select next thing in same square.\n\nYou can also do this by slowly clicking the same square again. -->
+  <SelectNextInSquareTipController>TODO</SelectNextInSquareTipController>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
@@ -871,6 +988,8 @@
   <PowerNeeded>Gereken güç</PowerNeeded>
   <!-- EN: Power output -->
   <PowerOutput>Güç çıkışı</PowerOutput>
+  <!-- EN: {0} W when active -->
+  <PowerActiveNeeded>TODO</PowerActiveNeeded>
   <!-- EN: Stored -->
   <PowerBatteryStored>Depolanmış</PowerBatteryStored>
   <!-- EN: Efficiency -->
@@ -893,7 +1012,7 @@
   <Indoors>İçerisi</Indoors>
   <!-- EN: Unroofed -->
   <IndoorsUnroofed>Çatısız</IndoorsUnroofed>
-  <!-- EN: Outdoors -->
+  <!-- EN: outdoors -->
   <Outdoors>Dışarısı</Outdoors>
 
   <!-- Rotting -->
@@ -925,6 +1044,12 @@
   <!-- Meal -->
   <!-- EN: Ingredients -->
   <Ingredients>Malzemeler</Ingredients>
+  <!-- EN: The ingredients used to make this meal. -->
+  <IngredientsDesc>TODO</IngredientsDesc>
+  <!-- EN: Dietary type -->
+  <DietaryType>TODO</DietaryType>
+  <!-- EN: The type of meal produced. Some people have preferences for specific types of meals. -->
+  <DietaryTypeDesc>TODO</DietaryTypeDesc>
   <!-- EN: only stacks with similar meals -->
   <OnlyStacksWithCompatibleMeals>sadece benzer öğünlerle istiflenir.</OnlyStacksWithCompatibleMeals>
 
@@ -947,6 +1072,10 @@
   <ReadyToHarvest>Hasat edilmeye hazır.</ReadyToHarvest>
   <!-- EN: Mature. -->
   <Mature>Olgun.</Mature>
+  <!-- EN: Average plant age -->
+  <AveragePlantAge>TODO</AveragePlantAge>
+  <!-- EN: Oldest plant age -->
+  <OldestPlantAge>TODO</OldestPlantAge>
   <!-- EN: Growing period -->
   <OutdoorGrowingPeriod>Büyüme periyodu.</OutdoorGrowingPeriod>
   <!-- EN: Never -->
@@ -967,6 +1096,10 @@
   <HarvestGerund>topluyor</HarvestGerund>
   <!-- EN: cutting -->
   <CutGerund>kesiyor</CutGerund>
+  <!-- EN: Cut all blight -->
+  <CutAllBlight>TODO</CutAllBlight>
+  <!-- EN: Mark all blighted plants to be destroyed. Blighted plants will not yield any food or resources and should be destroyed before the blight spreads. -->
+  <CutAllBlightDesc>TODO</CutAllBlightDesc>
 
   <!-- Zones -->
   <!-- EN: Zone -->
@@ -1001,12 +1134,14 @@
   <ShowLearningHelperWhenEmptyToggleButton>Öğretici boş olduğunda görünürlüğünü açar kapar.\n\nÖğrenilecek bir kavram varsa öğretici her zaman açık kalır, ancak yoksa bu işaretli olduğu zaman kapalı olur.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Bölgeleri görünür yapar.</ZoneVisibilityToggleButton>
-  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
+  <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
   <ShowBeautyToggleButton>Güzellik durumunu gösterir.\n\nOrtamın güzellik durumu farenin çevresinde gözükür.</ShowBeautyToggleButton>
-  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
+  <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Odanın durumunu gösterir.\n\nFarenin işaret ettiği yere odanın istatistiklerini görüntüler.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
   <ShowColonistBarToggleButton>Kolonist barını aç/kapa.\n\nYukardaki kolonistlerin simgelerini açar veya kapar.</ShowColonistBarToggleButton>
+  <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
+  <ShowColonistBarToggleButtonController>TODO</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Ev bögesi genişletmeyi otomatik olarak ayarla. Manuel ayarlamak için bölgeler bölümüne göz atabilirsin.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1029,6 +1164,8 @@
   <ShowExpandingIconsToggleButton>Uzak nesneler için normal simgeler yerine genişleyen simgeleri görüntülemeyi aç/kapat.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Yeryüzü biçimi adlarının görünürlüğünü aç/kapat.</ShowWorldFeaturesToggleButton>
+  <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
+  <ShowTemperatureOverlayToggleButton>TODO</ShowTemperatureOverlayToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
@@ -1117,6 +1254,8 @@
   <ShipReportHibernating>Hazırda bekletme bileşeni</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
   <ShipReportNotReady>Bileşen henüz hazır değil</ShipReportNotReady>
+  <!-- EN: No settlement to return to. Form a settlement first. -->
+  <ShipNoSettlementToReturnTo>TODO</ShipNoSettlementToReturnTo> <!-- text_todo -->
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
   <HibernateWarning>Reaktör açılmaya hazır.\n\nSüreç yaklaşık 15 gün sürecek ve yaydığı enerji uzak mesafeden tespit edilebilinecek. Bu tür bir enerji, yıldızlararası uçuş yeteneğini gösterir. Çaresiz akıncıları ve ölümcül mekanoidlerin dikkatlerini üzerine çeker.\n\nHiç görmediğin bir şiddete maruz kalacaksın. Öncelikle savunmanızın hazırlandığından emin olun.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
@@ -1141,6 +1280,8 @@
   <Installed>Yüklenmiş</Installed>
   <!-- EN: Not installed -->
   <NotInstalled>Yüklenmemiş</NotInstalled>
+  <!-- EN: Extracted tree will die in {time} unless replanted. -->
+  <MinifiedTreeWillDieIn>TODO</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1283,6 +1424,8 @@
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
   <LearningHelper>Öğretici</LearningHelper>
+  <!-- EN: In-game tutor that aims to teach you information about topics relevant to your colony's current state -->
+  <LearningHelperTooltip>TODO</LearningHelperTooltip>
   <!-- EN: Mark as learned -->
   <MarkLearned>Öğrenildi olarak işaretle</MarkLearned>
   <!-- EN: Already learned -->
@@ -1309,10 +1452,16 @@
   <RoutePlannerUsingTicksPerMoveOfCaravan>Hesaplanan hız: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
   <RoutePlannerPressRMBToAddAndRemoveWaypoints>Sağ fare tuşu: Yol noktaları ekle / kaldır.</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <!-- EN: Left trigger button: Add/remove waypoints. -->
+  <RoutePlannerPressRMBToAddAndRemoveWaypointsController>TODO</RoutePlannerPressRMBToAddAndRemoveWaypointsController>
   <!-- EN: ESC: Exit planning mode. -->
   <RoutePlannerPressEscapeToExit>ESC: Planlama modundan çık.</RoutePlannerPressEscapeToExit>
+  <!-- EN: {Key:Cancel}: Exit planning mode. -->
+  <RoutePlannerPressEscapeToExitController>TODO</RoutePlannerPressEscapeToExitController>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
   <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: Kervan formasyonuna dön.</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <!-- EN: {Key:Cancel}: Return to the caravan formation dialog. -->
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>TODO</RoutePlannerPressEscapeToReturnToCaravanFormationDialogController>
   <!-- EN: Est. travel time: {0} -->
   <EstimatedTimeToWaypoint>Tahmini seyahat süresi: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
@@ -1353,7 +1502,7 @@
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
-  <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
+  <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Psişik entropi:{0}/{1}\nDüşük oranı: {2} / ({3}lar sıfıra kadar)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
   <PawnTooltipPsychicEntropyDesc>Bir psişik yayın gerçekleştirildikten sonra psişik entropi artar.\n\nGüvenli sınırın üzerine çıkılması uzun vadeli sağlık sonuçları getirir.</PawnTooltipPsychicEntropyDesc>
@@ -1363,7 +1512,7 @@
   <PawnTooltipPsychicEntropyLimit>Psişik entropi sınırlayıcısını aç/kapat.\n\nPişik entropi sınırınızı aşmak, uzun süreli psişik bozulma ve hatta ciddi fazlalıklar için beyin hasarı gibi ciddi sağlık sonuçlarına neden olabilir. Entropi ne kadar yüksek limitse, etkiler o kadar tehlikeli olur.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
   <PawnTooltipPsyfocus>Psiko-odak: {0}</PawnTooltipPsyfocus>
-
+  
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
   <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
@@ -1474,7 +1623,7 @@
   <RitualTakesPlaceAt>konumunda gerçekleşir</RitualTakesPlaceAt>
   <!-- EN: Any {0} -->
   <RitualTargetThingDefsInfo>Herhangi bir {0}</RitualTargetThingDefsInfo>
-  <!-- EN: Attending -->
+  <!-- EN: Attending {0} -->
   <LordReportAttending>Katılıyor</LordReportAttending>
   <!-- EN: {0} has been canceled. -->
   <RitualCalledOff>{0} iptal edildi.</RitualCalledOff>
@@ -1484,6 +1633,14 @@
   <RitualFinished>{0} tamamlandı.</RitualFinished>
   <!-- EN: ends in {0} -->
   <RitualEndsIn>{0} ile biter</RitualEndsIn>
+  <!-- EN: Can start any time -->
+  <RitualStartAnyTime>her an başlayabilir</RitualStartAnyTime>
+  <!-- EN: Can start after event -->
+  <RitualStartEvent>Etkinlikten sonra başlayabilir</RitualStartEvent>
+  <!-- EN: Focus objects -->
+  <RitualFocusObjects>Odak nesneleri</RitualFocusObjects>
+  <!-- EN: Participating roles -->
+  <RitualParticipatingRoles>katılan roller</RitualParticipatingRoles>
   <!-- EN: Organizers -->
   <Organizers>Organizatörler</Organizers>
   <!-- EN: Quality factors -->
@@ -1498,6 +1655,8 @@
   <NotParticipating>Katılmıyor</NotParticipating>
   <!-- EN: Drag and drop or left/right click to move people. -->
   <DragPawnsToRolesInfo>İnsanları taşımak için sürükleyip bırakın veya sol/sağ tıklayın.</DragPawnsToRolesInfo>
+  <!-- EN: Drag and drop or click to move people. -->
+  <DragPawnsToRolesInfoController>TODO</DragPawnsToRolesInfoController>
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Köle. Başkalarının insan malı</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
@@ -1526,10 +1685,12 @@
   <RitualQualityLowWarning>Toplam {0} kalitesi {1}'nin altında. Devam etmek büyük olasılıkla koloninizi olumsuz etkileyecektir.\n\nEmin misiniz?</RitualQualityLowWarning>
   <!-- EN: No reachable appropriate place to speak. -->
   <AbilitySpeechDisabledNoSpot>Konuşmak için ulaşılabilecek uygun bir yer yok</AbilitySpeechDisabledNoSpot>
-  <!-- EN: {0_labelShort} is incapable of talking. -->
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort} konuşamaz.</AbilitySpeechDisabledCantSpeak>
+  <!-- EN: {0_labelShort} is incapable of {1}. -->
+  <AbilityDisabledNoCapacity>TODO</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
   <RitualOutcomeExtraDesc_Mood>Ayine katılan herkes {1} gün boyunca {0} ruh hali kazanır.</RitualOutcomeExtraDesc_Mood>
+  <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
+  <RitualOutcomeNoQuality>TODO</RitualOutcomeNoQuality>
   
   <!-- EN: Choose who should participate in {RITUAL_labelDef}. -->
   <ChooseParticipants>{RITUAL_labelDef}'e kimlerin katılacağını seçin.</ChooseParticipants>
@@ -1545,13 +1706,13 @@
   <DateRitualNoObligation>{0}, tarihe özel bir ritüeldir. {1} içinde, {2} üzerinde başlatabileceksiniz.</DateRitualNoObligation>
 
   <!-- EN: Replace with -->
-  <PreceptReplaceWith>ile değiştirin</PreceptReplaceWith>
+  <PreceptReplaceWith>İle değiştirin</PreceptReplaceWith>
   <!-- EN: Ritual seat of {IDEOS} -->
   <RitualSeatOf>{IDEOS}'un ritüel yeri</RitualSeatOf>
   <!-- EN: Expected quality -->
   <ExpectedRitualQuality>Beklenen kalite</ExpectedRitualQuality>
   <!-- EN: Starting quality -->
-  <StartingQuality>Beklenen kalite</StartingQuality>
+  <StartingQuality>Başlangıç kalitesi</StartingQuality>
   <!-- EN: Expected duration -->
   <ExpectedRitualDuration>Beklenen süre</ExpectedRitualDuration>
   
@@ -1563,9 +1724,13 @@
   <RitualPredictedOutcomeDescParticipantCount>Katılımcılar</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort}'un beklentileri</RitualPredictedOutcomeDescPawnExpectations>
+  <!-- EN: Loved one present -->
+  <RitualOutcomeLovedOnePresentLabel>TODO</RitualOutcomeLovedOnePresentLabel>
+  <!-- EN: Any person that {PAWN_labelShort} considers their friend or more. -->
+  <RitualOutcomeLovedOnePresentTip>TODO</RitualOutcomeLovedOnePresentTip>
 
   <!-- EN: Any of these -->
-  <RitualOutcomeLabelAnyOfThese>Bunlardan herhangi biri</RitualOutcomeLabelAnyOfThese>
+  <RitualOutcomeLabelAnyOfThese>bunlardan herhangi biri</RitualOutcomeLabelAnyOfThese>
   <!-- EN: Replaces {PAWN_labelShort} -->
   <RitualRoleReplaces>{PAWN_labelShort}'un yerine geçer</RitualRoleReplaces>
 
@@ -1584,8 +1749,81 @@
   <OutcomeLetterLabel>{RITUALLABEL} {OUTCOMELABEL}</OutcomeLetterLabel>
   <!-- EN: {0} max -->
   <MaxValue>en fazla {0}</MaxValue>
-  
+
+  <!-- EN: {0} of -->
+  <ThingOf>TODO</ThingOf>
+  <!-- EN: {0} of {1} -->
+  <ThingOfSource>TODO</ThingOfSource>
+  <!-- EN: {0} of {1} and {2} -->
+  <ThingOfTwoSources>TODO</ThingOfTwoSources>
+
+  <!-- Gas types -->
+  <!-- EN: blind smoke -->
+  <BlindSmoke>TODO</BlindSmoke>
+  <!-- EN: tox gas -->
+  <ToxGas>TODO</ToxGas>
+  <!-- EN: rot stink -->
+  <RotStink>TODO</RotStink>
+
+  <!-- Abilities -->
+  <!-- EN: must be drafted. -->
+  <AbilityDisabledUndrafted>taslağı hazırlanmalıdır.</AbilityDisabledUndrafted>
+  <!-- EN: ability on cooldown. It will be available in {0}. -->
+  <AbilityOnCooldown>cooldown yeteneği. {0} içinde sunulacak.</AbilityOnCooldown>
+  <!-- EN: ability already queued. -->
+  <AbilityAlreadyQueued>yetenek zaten sıraya alındı.</AbilityAlreadyQueued>
+  <!-- EN: Ability ready: {0} -->
+  <AbilityReadyLabel>Yetenek hazır: {0}</AbilityReadyLabel>
+  <!-- EN: {0_nameDef} is ready to use {1}. -->
+  <AbilityReadyText>{0_nameDef}, {1} kullanımına hazır.</AbilityReadyText>
+  <!-- EN: {0_labelShort} is participating in {1}. -->
+  <AbilityDisabledInRitual>TODO</AbilityDisabledInRitual>
+  <!-- EN: Charges -->
+  <Charges>TODO</Charges>
+
+  <!-- EN: {0_nameDef} is in an aggressive mental state. -->
+  <PawnIsInMentalState>TODO</PawnIsInMentalState>
+
+  <!-- EN: Disabled work -->
+  <DisabledWorkLabel>TODO</DisabledWorkLabel>
+
+  <!-- Glowers -->
+  <!-- EN: change color -->
+  <GlowerChangeColor>TODO</GlowerChangeColor>
+  <!-- EN: Change the color of the light. -->
+  <GlowerChangeColorDescription>TODO</GlowerChangeColorDescription>
+  <!-- EN: You must research {0} to change light color. -->
+  <GlowerChangeColorNeedsResearch>TODO</GlowerChangeColorNeedsResearch>
+
+  <!-- Shields -->
+  <!-- EN: A personal shield that will attempt to stop incoming projectiles or shrapnel. It prevents the wearer from firing out, and shuts down instantly if hit by an EMP. -->
+  <ShieldPersonalTip>TODO</ShieldPersonalTip>
+
+  <!-- EN: {PAWN_nameDef} is so loyal to {PAWN_possessive} home that {PAWN_pronoun} will refuse to be recruited if taken prisoner. -->
+  <UnrecruitableDesc>TODO</UnrecruitableDesc>
+
+  <!-- EN: Random -->
+  <Random>TODO</Random>
+
+  <!-- EN: Plant {0_label} -->
+  <PlantThing>{0_label} ek</PlantThing>
+  <!-- EN: Plant a {0_label} in a chosen area. -->
+  <PlantThingDesc>Seçilen bir alana bir {0_label} ekin.</PlantThingDesc>
+  <!-- EN: Cancel planting {0_label} -->
+  <CancelPlantThing>{0_label} ekimini iptal et</CancelPlantThing>
+  <!-- EN: Cancel planting the {0_label}. -->
+  <CancelPlantThingDesc>{0_label} ekimini iptal et</CancelPlantThingDesc>
+
+  <!-- EN: another gathering is in progress. -->
+  <AbilitySpeechDisabledAnotherGatheringInProgress>bir toplantı daha yapılıyor.</AbilitySpeechDisabledAnotherGatheringInProgress>
+  <!-- EN: Next speech ready in -->
+  <AbilitySpeechCooldown>Bir sonraki konuşma hazır</AbilitySpeechCooldown>
+  <!-- EN: Initiated at -->
+  <AbilitySpeechTargetsLabel>başlatıldı</AbilitySpeechTargetsLabel>
+
   <!-- UNUSED -->
+  <PawnMainDescTempFactionedWrap>{0} altında {0}\nAna grup: {2}</PawnMainDescTempFactionedWrap>
+  <AbilitySpeechDisabledCantSpeak>{0_labelShort} konuşamaz.</AbilitySpeechDisabledCantSpeak>
   <AverageCaravanMemberMoveSpeed>Kişinin ortalama hızı</AverageCaravanMemberMoveSpeed>
 
 </LanguageData>

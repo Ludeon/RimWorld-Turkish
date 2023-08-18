@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN: Great!\n\nReorder and randomize more if you want - but don't try to get the perfect characters. Everyone has flaws, and it makes the story more interesting!\n\nYou can also re-name the characters by clicking on their names.\n\nClick START when you're ready. -->
@@ -10,6 +10,8 @@
   <AddBillSimpleMeal.rejectInputMessage>Ocakta basit yemekler pişirmek için lütfen bir sipariş ekleyin.</AddBillSimpleMeal.rejectInputMessage>
   <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and right-click the stove to prioritize building it. -->
   <AddBillSimpleMeal.text>Kolonistlere ne pişirecekleri söylenmelidir.\n\nYemek siparişleri ocağın kendisine eklenir. Bir sipariş oluşturulduktan sonra, kolonistler işi otomatik olarak yapacaktır.\n\n1. Ocağın kurulmasını bekleyin.\n2. Seçmek için ocağa tıklayın.\n3. SİPARİŞLER sekmesini açın.\n4. SİPARİŞ EKLE'ye tıklayın.\n5. Menüsüde BASİT YEMEK PİŞİR'i seçin.\n6. Sayıyı 10'a çıkarmak için + düğmesini tıklayın.\n\nİnşa etme çok uzun sürüyorsa süreyi hızlandırabileceğinizi unutmayın.\n\nAyrıca bir kolonist seçebilir ve inşa etmeye öncelik vermek için ocağa sağ tıklayabilirsiniz.</AddBillSimpleMeal.text>
+  <!-- EN: Colonists need to be told what to cook.\n\nCooking orders are added on the stove itself. Once a bill has been created, colonists will do the work automatically.\n\n1. Wait for the stove to be built.\n2. Click the stove to select it.\n3. Open the BILLS tab.\n4. Click ADD BILL.\n5. Select COOK SIMPLE MEAL on the context menu.\n6. Click the + button to increase the count to 10.\n\nRemember, you can speed up time if building is taking too long.\n\nYou can also select a colonist and press left trigger button on the stove to prioritize building it. -->
+  <AddBillSimpleMeal.textController>TODO</AddBillSimpleMeal.textController>
   
   <!-- EN: Build an animal sleeping spot\ninside the room -->
   <BuildAnimalSleepingSpot.onMapInstruction>Odanın içinde bir hayvan uyku yeri inşa edin</BuildAnimalSleepingSpot.onMapInstruction>
@@ -24,6 +26,8 @@
   <BuildBeds.rejectInputMessage>Lütfen odanın içine ahşap yataklar yapın.</BuildBeds.rejectInputMessage>
   <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can use the {Key:Designator_RotateLeft} and {Key:Designator_RotateRight} keys to rotate the building. -->
   <BuildBeds.text>Kolonistleriniz şimdi odayı inşa edecek!\n\nArtık uyuyacak bir yere ihtiyaçları var. Odaya üç YATAK yerleştirin.\n\nMobilya kategorisinde bulun.\n\nBinayı döndürmek için {Key:Designator_RotateLeft} ve {Key:Designator_RotateRight} tuşlarını kullanabilirsiniz.</BuildBeds.text>
+  <!-- EN: Your colonists will now build the room!\n\nNow they need somewhere to sleep. Place three BEDS inside the room.\n\nFind them in the FURNITURE category.\n\nYou can rotate the building by pressing the rotate buttons on the left. -->
+  <BuildBeds.textController>TODO</BuildBeds.textController>
   
   <!-- EN: Build a fueled stove inside the room -->
   <BuildFueledStove.onMapInstruction>Odanın içinde yakıtlı bir ocak inşa edin</BuildFueledStove.onMapInstruction>
@@ -86,7 +90,7 @@
   
   <!-- EN: Please choose a storyteller in the Options menu to end the tutorial. -->
   <ChooseStoryteller.rejectInputMessage>Eğitimi bitirmek için lütfen Seçenekler menüsünden bir hikaye anlatıcısı seçin.</ChooseStoryteller.rejectInputMessage>
-  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click STORYTELLER SETTINGS.\n4. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
+  <!-- EN: This is the end of the tutorial!\n\nThere's still tons more to learn, including prisoners, hunting, trade, animal taming, and much more. But you've got the basics down.\n\nRandom incidents were disabled during this tutorial. To begin the real game:\n\n1. Open the MENU tab in the bottom-right.\n2. Select OPTIONS.\n3. Click the Gameplay button in the left columm.\n4. Click the Modify button beside Storyteller settings.\n5. Select a storyteller and playstyle that appeals to you.\n\nGood luck, and have fun. -->
   <ChooseStoryteller.text>Bu eğitimin sonu!\n\nTutsaklar, avcılık, ticaret, hayvan evcilleştirme ve çok daha fazlası dahil olmak üzere daha öğrenilecek tonlarca şey var. Ancak temel bilgileri öğrendiniz.\n\nBu eğitim sırasında rastgele olaylar devre dışı bırakıldı. Gerçek oyuna başlamak için:\n\n1. Sağ alttaki MENÜ sekmesini açın.\n2. SEÇENEKLER'i seçin.\n3. HİKAYE AYARLARI'nı tıklayın.\n4. Size hitap eden bir hikaye anlatıcısı ve oyun tarzı seçin.\n\nİyi şanslar ve iyi eğlenceler.</ChooseStoryteller.text>
   
   <!-- EN: Please drag the 'chop wood' designator over some trees. -->
@@ -97,17 +101,21 @@
   <!-- EN: Click GENERATE to generate your world. -->
   <CreateWorldParams.rejectInputMessage>Kendi dünyanızı oluşturmak için OLUŞTUR'a tıklayın.</CreateWorldParams.rejectInputMessage>
   <!-- EN: Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE! -->
-  
   <CreateWorldParams.text>RimWorld'e hoşgeldiniz! \n\nBu panel dünyanızın nasıl oluşturulacağını ayarlar.\n\nBuradaki varsayılan ayarlar iyi duruyor, devam edip Oluştur'a basın.</CreateWorldParams.text>
+  
   <!-- EN: Send colonists here\ntouching sandbags for cover -->
   <DownRaider.onMapInstruction>Kolonistleri buraya\ndokunmak için kum torbalarına gönder</DownRaider.onMapInstruction>
   <!-- EN: Please focus on winning the fight! -->
   <DownRaider.rejectInputMessage>Lütfen savaşı kazanmaya odaklanın!</DownRaider.rejectInputMessage>
   <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
   <DownRaider.text>Şimdi koloninize saldırması için bir grup gönderdim!\n\n1. {Key:TogglePause}'a basarak oyunu duraklatın!\n2. Ekranın sağ alt köşesindeki kırmızı harfi okuyun.\n3. Kolonistlerinizi seçip SAVAŞ MODU komutuna basın.\n4. Onları kum torbalarına dokunarak kum torbası karesinin içindeki konumlara göndermek için sağ tıklayın.\n5. Duraklat.\n\nKolonistler bundan yararlanmak için sipere dokunmalıdır. Sipere girdikten sonra saldırganın yaklaşmasını bekleyin. Kolonistleriniz otomatik olarak ateş edecek.</DownRaider.text>
+  <!-- EN: I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Press left trigger button to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically. -->
+  <DownRaider.textController>TODO</DownRaider.textController>
   
   <!-- EN: Right-click to get out of stockpile designating mode. -->
   <EndStockpileDesignating.text>Stok belirleme modundan çıkmak için sağ tıklayın.</EndStockpileDesignating.text>
+  <!-- EN: Press left trigger button to get out of stockpile designating mode. -->
+  <EndStockpileDesignating.textController>TODO</EndStockpileDesignating.textController>
   
   <!-- EN: Equip this -->
   <EquipWeapons.onMapInstruction>Bunu donat</EquipWeapons.onMapInstruction>
@@ -115,6 +123,8 @@
   <EquipWeapons.rejectInputMessage>Lütfen kolonistlerinizin silah kuşanmasını sağlayın.</EquipWeapons.rejectInputMessage>
   <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Right-click the weapon you want to equip.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
   <EquipWeapons.text>Kolonistlerinizin başlangıç silahlarını kuşanmasını sağlayın. Bir silahı donatmak için:\n\n1. Seçmek için bir kolonisti tıklayın.\n2. Kuşanmak istediğiniz silaha sağ tıklayın.\n3. Bağlam menüsünde 'silah donat'ı tıklayın.\n\nBunu her kolonist için yapın.</EquipWeapons.text>
+  <!-- EN: Have your colonists equip the starting weapons. To equip a weapon:\n\n1. Click a colonist to select them.\n2. Hover over the weapon you want to equip and press left trigger button.\n3. Click 'equip weapon' on the context menu.\n\nDo this for each colonist. -->
+  <EquipWeapons.textController>TODO</EquipWeapons.textController>
   
   <!-- EN: Please expand the build roof area a bit, just for practice. -->
   <ExpandAreaBuildRoof.rejectInputMessage>Lütfen sadece pratik yapmak için inşa edilen çatı alanını biraz genişletin.</ExpandAreaBuildRoof.rejectInputMessage>
@@ -147,9 +157,13 @@
   
   <!-- EN: Here you are on the surface!\n\nNow try moving the camera around.\n\nUse the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys, or click and drag with the middle mouse button.\n\nTry it now! -->
   <MapCameraDolly.text>İşte yüzeydesiniz!\n\nŞimdi kamerayı hareket ettirmeyi deneyin.\n\n{Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} tuşlarını kullanın veya tıklayın ve farenin orta tekerleğiyle sürükleyin.\n\nŞimdi deneyin!</MapCameraDolly.text>
+  <!-- EN: Here you are on the surface!\n\nNow try moving the camera around with the left joystick.\n\nTry it now! -->
+  <MapCameraDolly.textController>TODO</MapCameraDolly.textController>
   
   <!-- EN: Great!\n\nYou can also zoom in and out with the mouse wheel, or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys.\n\nTry it now! -->
   <MapCameraZoom.text>Harika!\n\nAyrıca fare tekerleği veya {Key:MapZoom_In} ve {Key:MapZoom_Out} tuşlarıyla da yakınlaştırıp uzaklaştırabilirsiniz.\n\nŞimdi deneyin!</MapCameraZoom.text>
+  <!-- EN: Great!\n\nYou can also zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}.\n\nTry it now! -->
+  <MapCameraZoom.textController>TODO</MapCameraZoom.textController>
   
   <!-- EN: Designate all this\nfor mining -->
   <MineSteel.onMapInstruction>Tüm bunları\nmadencilik için atayın</MineSteel.onMapInstruction>
@@ -170,6 +184,8 @@
   
   <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} key, or by using the time controls in the bottom right. -->
   <Pause.text>Zamanı duraklatabilirsiniz.\n\nBu, hiçbir zaman acele etmenize gerek olmadığı anlamına gelir. Dilediğiniz zaman duraklatabilirsiniz ve ara vermek için zaman ayırabilirsiniz.\n\n{Key:TogglePause} tuşuyla veya sağ alttaki zaman kontrollerini kullanarak duraklatmayı deneyin.</Pause.text>
+  <!-- EN: You can pause time.\n\nThis means you never need to rush. You can always pause and take your time to issue orders.\n\nTry pausing with the {Key:TogglePause} button, or by using the time controls in the bottom right. -->
+  <Pause.textController>TODO</Pause.textController>
   
   <!-- EN: Please click the RANDOMIZE button to randomize the character. -->
   <RandomizeCharacter.rejectInputMessage>Karakteri rastgele seçmek için lütfen  RASTGELE düğmesine tıklayın.</RandomizeCharacter.rejectInputMessage>
@@ -192,9 +208,13 @@
   <SetToGrowRice.rejectInputMessage>Lütfen ekin bölgenizi pirinç yetiştirmek için ayarlayın.</SetToGrowRice.rejectInputMessage>
   <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Right-click to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
   <SetToGrowRice.text>Kolonistlerinizin ekin alanında hangi bitkiyi ekeceğine siz karar verebilirsiniz.\n\n1. Mimar modundan çıkmak için sağ tıklayın.\n2. Seçmek için büyüyen bölgenizi tıklayın.\n3. Alt kısımdaki ekilen bitkiye tıklayın ve onu pirinç olarak değiştirin.</SetToGrowRice.text>
+  <!-- EN: You can decide what plant your colonists should sow in a growing zone.\n\n1. Press left trigger button to exit architect mode.\n2. Click your growing zone to select it.\n3. Click the plant selector at the bottom and change it to rice. -->
+  <SetToGrowRice.textController>TODO</SetToGrowRice.textController>
   
   <!-- EN: You can also speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.text>Ayrıca zamanı hızlandırabilirsiniz.\n\nZamanı {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast} ve {Key:TimeSpeed_Superfast} tuşlarıyla veya sağ alttaki zaman kontrolleriyle kontrol etmeyi deneyin.</TimeControls.text>
+  <!-- EN: You can also speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.textController>TODO</TimeControls.textController>
   
   <!-- EN: Please un-draft your colonists. -->
   <UndraftAll.rejectInputMessage>Lütfen kolonistlerinizin işlerini iptal edin.</UndraftAll.rejectInputMessage>

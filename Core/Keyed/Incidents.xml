@@ -32,7 +32,9 @@
   <!-- EN: Transport pod crash -->
   <LetterLabelRefugeePodCrash>Taşıma kapsülü kazası</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>{PAWN_nameDef} adlı {PAWN_titleIndef}, yakındaki bir taşıma kapsülüyle kaza geçirdi, {PAWN_pronoun} kazadan kurtulursa, {PAWN_pronoun} ağır şekilde yaralanacaktır.</RefugeePodCrash>  
+  <RefugeePodCrash>{PAWN_nameDef} adlı {PAWN_titleIndef}, yakındaki bir taşıma kapsülüyle kaza geçirdi, {PAWN_pronoun} kazadan kurtulursa, {PAWN_pronoun} ağır şekilde yaralanacaktır.</RefugeePodCrash>
+  <!-- EN: {PAWN_nameDef} is a child of {AGE}. -->
+  <RefugeePodCrash_Child>TODO</RefugeePodCrash_Child>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
   <RefugeePodCrash_Factionless>{PAWN_nameDef} herhangi bir fraksiyona üye değil. {PAWN_objective} 'u kurtarabilir ve {PAWN_pronoun}' un özgürce koloninize katılmasını umabilir veya işe alım veya mahkumluk amacıyla {PAWN_objective} 'u yakalayabilirsiniz.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
@@ -176,10 +178,6 @@
   <EscapeShipFound>&lt;Name>Charlon Whitestone&lt;/Name> tarafından gönderilen koordinatlar elinize ulaştı. O, gizlenmiş bir uzay gemisi keşfetti.\n\nGeminin reaktörü hala aktif ve bekleme modunda, bu yüzden henüz çalışmıyor ve uçmuyor. Bilgisayar çekirdeği ile etkileşime geçerek başlatabilirsiniz.\n\n&lt;Name>Charlon Whitestone&lt;/Name> başlatma işleminin yaklaşık 15 gün süreceğini ve dünyaya ciddi bir enerji yayılacağını, çok uzak diyarlardan bu sinyalin tespit edileceğini belirtiyor. Bu tür bir enerji dalgası, yıldızlararası uçabilme belirtisi gösterir ve bu gezegenden kurtulmak isteyen çaresiz akıncı çeteleri, haydutlar ve ölümcül mekanoid sürülerinin dikkatini çekecektir.\n\nDaha önce hiç görmediğiniz bir yoğunlukta saldırıya maruz kalacaksınız. İşlemi başlatmadan önce çok uzun süre direnebilecek savunmalarınızın hazırlandığından emin olun.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
   <EscapeShipFoundPeaceful>&lt;Name>Charlon Whitestone&lt;/Name> tarafından gönderilen koordinatlar elinize ulaştı. O, gizlenmiş bir uzat gemisi keşfetti.\n\nGeminin reaktörü hala aktif ve bekleme modunda, bu yüzden henüz uçmuyor. Bilgisayar çekirdeği ile etkileşime geçerek başlatabilirsiniz.\n\n&lt;Name>Charlon Whitestone&lt;/Name> başlatma işleminin yaklaşık 15 gün süreceği konusunda sizi uyarıyor.</EscapeShipFoundPeaceful>
-  <!-- EN: Ship destroyed -->
-  <EscapeShipLostLabel>Uzaygemisi yok edildi</EscapeShipLostLabel>
-  <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>&lt;Name>Charlon Whitestone&lt;/Name> size bir mesaj gönderiyor.\n\nGizli uzay gemisinin kontrolünü kaybettiğinizi fark ediyor. Bu muhteşem uzay gemisinin, yanlış kişilerin ellerine geçmesine engel olmak için,  geminin kendini imha mekanizmasını tetiklemek zorunda kaldı. Gemi şimdi sadece bir krater.\n\nBu gezegenden ayrılmak için başka bir yol bulmanız gerekecek.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
@@ -246,5 +244,9 @@
   <LetterLabelQuestAskerDied>Görev başarısız oldu</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
   <LetterQuestAskerDied>{SUBJECT_definite} öldüğü için görev artık tamamlanamıyor.</LetterQuestAskerDied>
+
+  <!-- UNUSED -->
+  <EscapeShipLostLabel>Uzaygemisi yok edildi</EscapeShipLostLabel>
+  <EscapeShipLost>&lt;Name>Charlon Whitestone&lt;/Name> size bir mesaj gönderiyor.\n\nGizli uzay gemisinin kontrolünü kaybettiğinizi fark ediyor. Bu muhteşem uzay gemisinin, yanlış kişilerin ellerine geçmesine engel olmak için,  geminin kendini imha mekanizmasını tetiklemek zorunda kaldı. Gemi şimdi sadece bir krater.\n\nBu gezegenden ayrılmak için başka bir yol bulmanız gerekecek.</EscapeShipLost>
 
 </LanguageData>

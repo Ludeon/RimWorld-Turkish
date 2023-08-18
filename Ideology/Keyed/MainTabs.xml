@@ -16,12 +16,14 @@
   <CoreNarrativeDesc>İdeolojinizin temel anlatısı. Bunun oyun etkisi yoktur.</CoreNarrativeDesc>
   <!-- EN: Edit narrative -->
   <EditNarrative>Anlatımı düzenle</EditNarrative>
-  <!-- EN: Clicking this button toggles a lock the current ideoligion narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
+  <!-- EN: Lock or unlock the ideoligion's narrative. When locked, the narrative text will not auto-regenerate if the ideoligion is changed. -->
   <LockButtonDesc>Bu düğmeye tıklamak, mevcut ideoloji anlatısını bir kilitle değiştirir. Kilitlendiğinde, ideoloji değiştirilirse anlatı metni otomatik olarak yenilenmez.</LockButtonDesc>
-  <!-- EN: Narrative lock is currently on. The narrative will not auto-regenerate. -->
+  <!-- EN: {0} lock is currently on. The {1} will not auto-regenerate. -->
   <LockInOn>TODO</LockInOn>
-  <!-- EN: Narrative lock is currently off. The narrative text can auto-regenerate. -->
+  <!-- EN: {0} lock is currently off. The {1} text can auto-regenerate. -->
   <LockInOff>Anlatı kilidi şu anda kapalı. Anlatı metni otomatik olarak yeniden üretilebilir.</LockInOff>
+  <!-- EN: Lock or unlock the name of this precept. When locked, the precept name will not auto-regenerate if the ideoligion is changed. -->
+  <LockPreceptNameButtonDesc>TODO</LockPreceptNameButtonDesc>
   <!-- EN: Precepts -->
   <Precepts>kurallar</Precepts>
   <!-- EN: Rituals -->
@@ -48,14 +50,14 @@
   <RandomizeName>adı rastgele yap</RandomizeName>
   <!-- EN: Randomize precepts -->
   <RandomizePrecepts>kuralları rastgele yap</RandomizePrecepts>
-  <!-- EN: Add precept -->
-  <AddPrecept>kural ekle</AddPrecept>
   <!-- EN: Randomize deities -->
   <RandomizeDeities>rastgele tanrı</RandomizeDeities>
   <!-- EN: Add deity -->
   <AddDeity>tanrı ekle</AddDeity>
   <!-- EN: Choose memes -->
   <ChooseMemes>özellikleri seç</ChooseMemes>
+  <!-- EN: Choose starting meme -->
+  <ChooseStartingMeme>TODO</ChooseStartingMeme>
   <!-- EN: Choose structure -->
   <ChooseStructure>yapı seç</ChooseStructure>
   <!-- EN: Choose culture -->
@@ -98,8 +100,6 @@
   <RandomizeSymbolsTooltip>İdeolojik adı, ikonu, anlatıyı, lider unvanını ve ritüel adları veya rol adları gibi diğer metinleri rastgele düzenleyin. Bu, özellikler veya kurallar gibi oyun öğelerini etkilemez.</RandomizeSymbolsTooltip>
   <!-- EN: Click any element to edit it -->
   <ClickAnyElementToEditIt>Düzenlemek için herhangi bir öğeye tıklayın</ClickAnyElementToEditIt>
-  <!-- EN: Click to edit -->
-  <ClickToEdit>Düzenlemek için tıklayın</ClickToEdit>
   <!-- EN: Leader title -->
   <LeaderTitle>Lider unvanı</LeaderTitle>
   <!-- EN: Deity name -->
@@ -130,6 +130,8 @@
   <All>tümü</All>
   <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims, enhance rituals, and strengthen an ideoligion's ability to convert outsiders. -->
   <RelicTip>Kalıntılar, manevi veya ideolojik öneme sahip nesnelerdir. Uzun ve tehlikeli görevleri tamamlayarak keşfedilebilirler. Hacıları çekmek, ritüelleri geliştirmek ve bir ideolojinin yabancıların inançlarını değiştirme yeteneğini güçlendirmek için bir kutsal emanete bir kalıntı yerleştirilebilir.</RelicTip>
+  <!-- EN: Relics are objects of spiritual or ideological significance. They can be discovered by completing long and dangerous quests. A relic can be installed in a reliquary to attract pilgrims and enhance rituals. -->
+  <RelicTipClassic>TODO</RelicTipClassic>
   <!-- EN: animal -->
   <Animal>hayvan</Animal>
   <!-- EN: Venerated animals -->
@@ -186,10 +188,21 @@
   <IdeoImpactLabel_9>aşırı</IdeoImpactLabel_9>
   <!-- EN: This was your colony's starting ideoligion. -->
   <InitialPlayerIdeo>Bu, koloninizin başlangıç ideolojisi</InitialPlayerIdeo>
+  
+  
+  <!-- EN: Since this ideoligion is so new and has so few followers on this planet, it is fluid. This means that it can develop over time.\n\nDeveloping the ideoligion costs development points. You can earn development points by completing rituals and quests related to this ideoligion.\n\nWith enough development points, you can reform the ideoligion with new memes, precepts, styles, and more. -->
+  <FluidIdeoTip>TODO</FluidIdeoTip>
+  <!-- EN: How to get development points -->
+  <FluidIdeoTipGetPoints>TODO</FluidIdeoTipGetPoints>
+  <!-- EN: Convert someone to your ideoligion -->
+  <FluidIdeoTipGetPoinsByConversion>TODO</FluidIdeoTipGetPoinsByConversion>
 
   <!-- EN: {0} unlocks things which you cannot build because they require memes that none of your people believe -->
   <ResearchProjectHasDefsWithMissingMemes>{0}, insanlarınızın hiçbirinin inanmadığı özellikler gerektirdiği için inşa edemeyeceğiniz şeylerin kilidini açar.</ResearchProjectHasDefsWithMissingMemes>
   <!-- EN: Warning: This kind of work is opposed by {0_possessive} ideoligion, so it may make this person unhappy. -->
   <SelectedWorkTypeOpposedByIdeo>Uyarı: Bu tür çalışmalara {0_possessive} ideoloji karşı çıktığı için bu kişiyi mutsuz edebilir.</SelectedWorkTypeOpposedByIdeo>
+
+  <!-- EN: Development points -->
+  <DevelopmentPoints>TODO</DevelopmentPoints>
 
 </LanguageData>

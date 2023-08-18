@@ -17,33 +17,31 @@
   <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
   <SlavesUnattendedDesc>Harita üzerinde bazı köleler etraflarında becerikli kolonist olmadan yalnız bulunmaktalar.\n\nBu şekilde gözetimsiz olan köleler yüksek istimalle birkaç gün veya saat içerisinde isyan çıkarırlar</SlavesUnattendedDesc>
 
-  <!-- EN: {0} expected -->
-  <RitualExpected>{0} bekleniyor</RitualExpected>
-  <!-- EN: {0} expected for -->
-  <RitualExpectedFor>{0} bekleniyor</RitualExpectedFor>
-  <!-- EN: {0} days: Ritual opportunity ends. -->
-  <RitualExpirationTime>{0} gün içinde: Ritüel sona eriyor.</RitualExpirationTime>
-  <!-- EN: Expires in -->
+  <!-- EN: {0} opportunity -->
+  <RitualOpportunity>TODO</RitualOpportunity>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>TODO</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
   <RitualExpiresIn>İçinde sona eriyor</RitualExpiresIn>
-  <!-- EN: Completing {RITUAL_labelDef} will have these effects -->
-  <RitualCompletionEffects>{RITUAL_labelDef}'i tamamlamak şu etkilere neden olacak</RitualCompletionEffects>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>TODO</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>TODO</RitualMultiTargetDesc>
   <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
   <RitualTargetsExplanation>Ritüele başlamak için bir odak nesnesi seçin ve '{RITUAL_label başla}' butonuna tıklayın. Aşağıdakiler geçerli odak nesneleridir:\n{1}</RitualTargetsExplanation>
-  <!-- EN: Following roles have a part in {RITUAL_label}:\n{1} -->
-  <RitualRolesExplanation>Aşağıdaki rollerin {RITUAL_label} içinde bir rolü vardır:\n{1}</RitualRolesExplanation>
   <!-- EN: Click to jump to targets -->
   <RitualJumpToTargets>Hedeflere atlamak için tıklayın</RitualJumpToTargets>
-  <!-- EN: Delaying {RITUAL_labelDef} will have following effects -->
-  <RitualObligationDelayEffects>{RITUAL_labelDef}'i geciktirmenin aşağıdaki etkileri olacaktır.</RitualObligationDelayEffects>
-  <!-- EN: {0} days: {1} mood on all {2}s. -->
-  <RitualObligationDelayEffectDesc>{0} gün: Tüm {2}lerde {1} ruh hali.</RitualObligationDelayEffectDesc>
   <!-- EN: In order to perform {0} you need to fill these roles -->
   <RitualUnfilledRoles>{0} gerçekleştirmek için bu rolleri doldurmanız gerekir</RitualUnfilledRoles>
 
   <!-- EN: {0} desired -->
   <IdeoBuildingMissing>{0} isteniyor</IdeoBuildingMissing>
-  <!-- EN: {1} requires that you have a {0} in your colony as long as {2} or higher.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
   <IdeoBuildingMissingDesc>{1}, koloninizde {2} veya daha yüksek olduğu sürece bir {0} olmasını gerektirir.{4}\n\nGereksinim karşılanmazsa, bu inananlar mutsuz olacaktır:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc>TODO</IdeoBuildingArchitectTabDesc>
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>TODO</IdeoBuildingCanBeCraftedAt>
   <!-- EN: In order to dignify {0}, these room requirements must be met -->
   <IdeoBuildingRoomRequirementsDesc>{0} onurunu yaşatmak için bu oda gereksinimlerinin karşılanması gerekir</IdeoBuildingRoomRequirementsDesc>
   <!-- EN: expectations are -->
@@ -63,7 +61,7 @@
   <IdeoRoleEmpty>{0} rolü doldurulmadı</IdeoRoleEmpty>
   <!-- EN: {0} roles unfilled -->
   <IdeoRolesEmpty>{0} rolleri doldurulmadı</IdeoRolesEmpty>
-  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab.\n\nIf these roles remain empty, the following people will be unhappy -->
+  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
   <IdeoRolesEmptyDesc>Bu roller doldurulmadı:\n{0}\n\nBirine Sosyal sekmesinden bir rol atayabilirsiniz.\n\nBu roller boş kalırsa, aşağıdaki kişiler mutsuz olur</IdeoRolesEmptyDesc>
 
   <!-- EN: Security threats activated in {0} -->
@@ -71,22 +69,13 @@
   <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
   <AncientAltarThreatsWakingDesc>Güvenlik tehditleri {0} içinde etkinleştirilecek. Kalıntıyı tehdit edebilecek herkese saldıracaklar.</AncientAltarThreatsWakingDesc>
 
-  <!-- EN: No recent slaughter -->
-  <AlertNoRecentSlaughter>Yakın zamanda ölüm yok</AlertNoRecentSlaughter>
-  <!-- EN: No large {0} animal has been slaughtered recently. This is a requirement of the following ideoligions -->
-  <AlertNoRecentSlaughterDesc>Yakın zamanda büyük bir {0} hayvan kesilmedi. Bu, aşağıdaki ideolojilerin bir gereğidir.</AlertNoRecentSlaughterDesc>
-  <!-- EN: {0} body size or above -->
-  <BodySizeOrAbove>{0} boyutu veya üzeri</BodySizeOrAbove>
-  <!-- EN: If no slaughter is performed, these colonists will remain unhappy -->
-  <AlertNoRecentSlaughterDescPost>Hayvan öldürülmezse, bu kolonistler mutsuz kalacak</AlertNoRecentSlaughterDescPost>
-  
   <!-- EN: Ritual opportunity soon -->
   <AlertRitualComing>Ritüel başlangıcı yakında</AlertRitualComing>
   <!-- EN: A ritual opportunity is coming soon for following rituals -->
   <AlertRitualComingDesc>Ritüelleri uygulamak için yakın zamanda bir ritüel geliyor</AlertRitualComingDesc>
   <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
   <AlertRitualComingExtra>Fırsatlar {0} gün sonra sona erer ve her yıl aynı gün tekrarlanır.</AlertRitualComingExtra>
-  <!-- EN: {0} on {1}, {2} left -->
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
   <AlertRitualComingEntry>{1} üzerinde {0}, {2} sola</AlertRitualComingEntry>
 
   <!-- EN: Age reversal demanded -->
@@ -133,5 +122,25 @@
   <AlertCasketOpening>{0} yılında açılan Cryptosleep tabutları</AlertCasketOpening>
   <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
   <AlertCasketOpeningDesc>Bilinmeyen tehditler içeren kripto uyku tabutları yakında açılıyor.</AlertCasketOpeningDesc>
+
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>TODO</AlertSlaveRebellionLikely>
+  <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
+  <AlertSlaveRebellionLikelyRebelliousCount>TODO</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>TODO</AlertSlaveRebellionLikelyMostRebellious>
+  
+  <!-- UNUSED -->
+  <RitualExpected>{0} bekleniyor</RitualExpected>
+  <RitualExpectedFor>{0} bekleniyor</RitualExpectedFor>
+  <RitualExpirationTime>{0} gün içinde: Ritüel sona eriyor.</RitualExpirationTime>
+  <RitualCompletionEffects>{RITUAL_labelDef}'i tamamlamak şu etkilere neden olacak</RitualCompletionEffects>
+  <RitualRolesExplanation>Aşağıdaki rollerin {RITUAL_label} içinde bir rolü vardır:\n{1}</RitualRolesExplanation>
+  <RitualObligationDelayEffects>{RITUAL_labelDef}'i geciktirmenin aşağıdaki etkileri olacaktır.</RitualObligationDelayEffects>
+  <RitualObligationDelayEffectDesc>{0} gün: Tüm {2}lerde {1} ruh hali.</RitualObligationDelayEffectDesc>
+  <AlertNoRecentSlaughter>Yakın zamanda ölüm yok</AlertNoRecentSlaughter>
+  <AlertNoRecentSlaughterDesc>Yakın zamanda büyük bir {0} hayvan kesilmedi. Bu, aşağıdaki ideolojilerin bir gereğidir.</AlertNoRecentSlaughterDesc>
+  <BodySizeOrAbove>{0} boyutu veya üzeri</BodySizeOrAbove>
+  <AlertNoRecentSlaughterDescPost>Hayvan öldürülmezse, bu kolonistler mutsuz kalacak</AlertNoRecentSlaughterDescPost>
 
 </LanguageData>
