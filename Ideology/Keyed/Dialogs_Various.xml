@@ -2,8 +2,6 @@
 <LanguageData>
 
   <!-- Misc -->
-  <!-- EN: add -->
-  <Add>TODO</Add>
   <!-- EN: Trading animal products bonus -->
   <TradingAnimalProduceBonus>TODO</TradingAnimalProduceBonus>
   <!-- EN: Slaves -->
@@ -12,10 +10,16 @@
   <DominantStyle>TODO</DominantStyle>
   <!-- EN: Date -->
   <Date>TODO</Date>
+  <!-- EN: The following development points will be awarded depending on the ritual outcome -->
+  <RitualDevelopmentPointRewards>TODO</RitualDevelopmentPointRewards>
+  <!-- EN: Use global style -->
+  <UseGlobalStyle>TODO</UseGlobalStyle>
+  <!-- EN: No style variations available -->
+  <NoStylesAvailable>TODO</NoStylesAvailable>
 
   <!-- EN: Choose the symbolic structure of your ideoligion. This only affects symbols - it does not affect gameplay. -->
   <ChooseStructureMemesInfo>TODO</ChooseStructureMemesInfo>
-  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. Some of these have much more gameplay impact than others. -->
+  <!-- EN: Choose {0}-{1} memes to form the foundational ideas of this ideoligion. -->
   <ChooseNormalMemesInfo>TODO</ChooseNormalMemesInfo>
   <!-- EN: Choose at least {0} meme. -->
   <NotEnoughMemes>TODO</NotEnoughMemes>
@@ -25,16 +29,43 @@
   <ChooseStructureMeme>TODO</ChooseStructureMeme>
   <!-- EN: {0_label} and {1_label} are incompatible. -->
   <IncompatibleMemes>TODO</IncompatibleMemes>
+  <!-- EN: Some of these have much more gameplay impact than others. -->
+  <SomeMemesHaveMoreImpact>TODO</SomeMemesHaveMoreImpact>
+  <!-- EN: Choose one meme to form the initial idea of this ideoligion. You will add more memes as the ideoligion develops over time. -->
+  <ChooseNormalMemesFluidIdeoInfo>TODO</ChooseNormalMemesFluidIdeoInfo>
+  <!-- EN: Choose a meme or remove a meme. -->
+  <ChooseOrRemoveMeme>TODO</ChooseOrRemoveMeme>
+  <!-- EN: Reset changes -->
+  <ReformIdeoResetChanges>TODO</ReformIdeoResetChanges>
+  <!-- EN: Choose {0} meme. -->
+  <NotEnoughMemesFluidIdeo>TODO</NotEnoughMemesFluidIdeo>
+
+  <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
+  <ChangesRandomizePrecepts>TODO</ChangesRandomizePrecepts>
+  <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
+  <ChangesRemovePrecepts>TODO</ChangesRemovePrecepts>
   
   <!-- EN: Room requirements -->
   <RoomRequirements>TODO</RoomRequirements>
-  
+  <!-- EN: The ideoligion you are loading has memes that are incompatible with a new fluid ideoligion and its memes will need to be chosen again (fluid ideoligions may only start with one low-impact meme). -->
+  <ConfirmChangeMemesForFluidIdeo>TODO</ConfirmChangeMemesForFluidIdeo>
+  <!-- EN: The following memes are incompatible -->
+  <ConfirmIncompatibleMemes>TODO</ConfirmIncompatibleMemes>
+  <!-- EN: Would you like to continue? -->
+  <ConfirmChangeMemesForFluidIdeoContinue>TODO</ConfirmChangeMemesForFluidIdeoContinue>
+
   <!-- EN: role -->
   <Role>TODO</Role>
   <!-- EN: Assign role -->
   <ChooseRole>TODO</ChooseRole>
+  <!-- EN: Choose new role -->
+  <ChooseNewRole>TODO</ChooseNewRole>
   <!-- EN: No role assigned -->
   <NoRoleAssigned>TODO</NoRoleAssigned>
+  <!-- EN: Children cannot take on roles -->
+  <ChildNoRoleAssigned>TODO</ChildNoRoleAssigned>
+  <!-- EN: Remove {0} role -->
+  <RemoveRole>TODO</RemoveRole>
   <!-- EN: You're about to assign the role of {ROLE_labelDef} to {PAWN_labelShort}. -->
   <ChooseRoleConfirmAssign>TODO</ChooseRoleConfirmAssign>
   <!-- EN: Are you sure? -->
@@ -96,6 +127,31 @@
   <!-- EN: {PAWN_labelShort} was already counselled recently. -->
   <AbilityCantApplyAlreadyCounselled>TODO</AbilityCantApplyAlreadyCounselled>
 
+  <!-- EN: Reform... -->
+  <ReformIdeo>TODO</ReformIdeo>
+  <!-- EN: Reform ideoligion -->
+  <ReformIdeoligion>TODO</ReformIdeoligion>
+  <!-- EN: Reform your ideoligion by changing its structure, memes or style. -->
+  <ReformIdeoligionDesc>TODO</ReformIdeoligionDesc>
+  <!-- EN: Change styles -->
+  <ReformIdeoChangeStyles>TODO</ReformIdeoChangeStyles>
+  <!-- EN: Add or remove a meme -->
+  <ReformIdeoAddOrRemoveMeme>TODO</ReformIdeoAddOrRemoveMeme>
+  <!-- EN: Add a meme -->
+  <ReformIdeoAddMeme>TODO</ReformIdeoAddMeme>
+  <!-- EN: Choose one -->
+  <ReformIdeoChooseOneChange>TODO</ReformIdeoChooseOneChange>
+  <!-- EN: Change structure -->
+  <ReformIdeoChangeStructure>TODO</ReformIdeoChangeStructure>
+  <!-- EN: Change any of the following -->
+  <ReformIdeoChangeAny>TODO</ReformIdeoChangeAny>
+  <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
+  <ReformIdeoRelicHuntQuestEnd>TODO</ReformIdeoRelicHuntQuestEnd>
+  <!-- EN: The ritual {0} is in progress and will be cancelled. -->
+  <ReformIdeoCancelRituals>TODO</ReformIdeoCancelRituals>
+  <!-- EN: Do you wish to continue? -->
+  <ReformIdeoContinue>TODO</ReformIdeoContinue>
+
   <!-- Slavery -->
   <!-- EN: Slave -->
   <CannotAssignBedToSlave>TODO</CannotAssignBedToSlave>
@@ -103,17 +159,15 @@
   <CannotAssignBedToColonist>TODO</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
   <AnySlave>TODO</AnySlave>
-  <!-- EN: Negotiator will not sell people into slavery. -->
+  <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
   <NegotiatorWillNotTradeSlaves>TODO</NegotiatorWillNotTradeSlaves>
-  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to their own faction, but isn't willing to sell someone to a different faction. -->
+  <!-- EN: The negotiator, {0_nameDef}, will not people into slavery due to {0_possessive} belief in {1}.\n\nNote that {0_nameDef} is willing to ransom someone back to {0_possessive} own faction, but isn't willing to sell someone to a different faction. -->
   <NegotiatorWillNotTradeSlavesTip>TODO</NegotiatorWillNotTradeSlavesTip>
 
   <!-- EN: Last human meat -->
   <LastHumanMeat>TODO</LastHumanMeat>
   <!-- EN: Because of {PAWN_possessive} belief in {IDEO_name}, {PAWN_nameDef} will become unhappy if {PAWN_pronoun} goes more than {DURATION} days without eating human meat. -->
   <LastHumanMeatDesc>TODO</LastHumanMeatDesc>
-  <!-- EN: Last large animal slaughter -->
-  <LastAnimalSlaughter>TODO</LastAnimalSlaughter>
 
   <!-- EN: Executing {PAWN_labelShort} will negatively affect relations with {FACTION_name}. -->
   <ExectueNeutralFactionSlave>TODO</ExectueNeutralFactionSlave>
@@ -126,8 +180,6 @@
   <!-- Style -->
   <!-- EN: Style -->
   <StylePawn>TODO</StylePawn>
-  <!-- EN: Cancel -->
-  <Cancel>TODO</Cancel>
   <!-- EN: hair -->
   <Hair>TODO</Hair>
   <!-- EN: beard -->
@@ -148,8 +200,12 @@
   <PawnUnhappyWithStyleItems>TODO</PawnUnhappyWithStyleItems>
   <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by {IDEO_memberNamePlural}. If more than one category affects the same thing, the left-most one applies. -->
   <StyleCategoryDescription>TODO</StyleCategoryDescription>
+  <!-- EN: Style categories affect the appearance of some buildings, apparel and weapons made by your colony. If more than one category affects the same thing, the left-most one applies. -->
+  <StyleCategoryDescriptionAbstract>TODO</StyleCategoryDescriptionAbstract>
   <!-- EN: {IDEO_memberNamePlural} will be happy if they notice buildings, floors, and art matching this style. -->
   <StyleCategoryDescStyleDominance>TODO</StyleCategoryDescStyleDominance>
+  <!-- EN: Ideoligion members will be happy if they notice buildings, floors, and art matching this style. -->
+  <StyleCategoryDescStyleDominanceAbstract>TODO</StyleCategoryDescStyleDominanceAbstract>
   <!-- EN: {0} style category affects -->
   <StyleCategoryDetails>TODO</StyleCategoryDetails>
   <!-- EN: Overriden by {0} -->
@@ -182,14 +238,8 @@
   <EditAppearanceItems>TODO</EditAppearanceItems>
   <!-- EN: {0} in use -->
   <NumAvailable>TODO</NumAvailable>
-  <!-- EN: Expand all -->
-  <ExpandAllCategories>TODO</ExpandAllCategories>
-  <!-- EN: Collapse all -->
-  <CollapseAllCategories>TODO</CollapseAllCategories>
   <!-- EN: Resets all style items to their default values. -->
   <ResetButtonDesc>TODO</ResetButtonDesc>
-  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
-  <TooltipDyeExplanation>TODO</TooltipDyeExplanation>
 
   <!-- Ancient complex mission -->
   <!-- EN: Send shuttle anyway -->
@@ -232,6 +282,18 @@
   <ChoosePeopleDesc>TODO</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
   <ChooseOnlySlavesInfo>TODO</ChooseOnlySlavesInfo>
+  <!-- EN: Confirm decisions -->
+  <ConfirmDecisionsTitle>TODO</ConfirmDecisionsTitle>
+  <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
+  <ShipEscapeWillEndDescription>TODO</ShipEscapeWillEndDescription>
+  <!-- EN: No relic was chosen to be brought to the new colony. -->
+  <ArchonexusRelicNotChosen>TODO</ArchonexusRelicNotChosen>
+  <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
+  <ArchonexusItemsNotChosen>TODO</ArchonexusItemsNotChosen>
+  <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
+  <RemoveEquippedRelicsDescription>TODO</RemoveEquippedRelicsDescription>
+  <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
+  <WantToProceed>TODO</WantToProceed>
   <!-- EN: Convert -->
   <ConvertToPlayerIdeoligion>TODO</ConvertToPlayerIdeoligion>
   <!-- EN: Revert -->
@@ -240,11 +302,29 @@
   <ExistingFollowerOfPlayerIdeoligion>TODO</ExistingFollowerOfPlayerIdeoligion>
   <!-- EN: You are abandoning a site that contains archotech structures which you have not yet fully studied.\n\nYou will be able to resettle here later, but your colony will be wiped away. -->
   <AbandonArchotechStructuresWarningDialog>TODO</AbandonArchotechStructuresWarningDialog>
+  <!-- EN: {0} quantity that can be brought to the new colony.\n\nThe maximum allowed quantity is: {1} -->
+  <ItemQuantityTooltip>TODO</ItemQuantityTooltip>
+  <!-- EN: Your colony was sold. Its purchasers are ready for you to choose where to land next. -->
+  <SoldColonyDescription>TODO</SoldColonyDescription>
 
-  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do really want to hack {0}? -->
+  <!-- EN: Hacking this {0} will alert enemies and cause them to attack. Do you really want to hack {0}? -->
   <ConfirmHackEnenyTerminal>TODO</ConfirmHackEnenyTerminal>
 
   <!-- EN: Relics -->
   <RelicsSection>TODO</RelicsSection>
 
+  <!-- Food restrictions -->
+  <!-- EN: Vegetarian -->
+  <FoodRestrictionVegetarian>TODO</FoodRestrictionVegetarian>
+  <!-- EN: Carnivore -->
+  <FoodRestrictionCarnivore>TODO</FoodRestrictionCarnivore>
+  <!-- EN: Cannibal -->
+  <FoodRestrictionCannibal>TODO</FoodRestrictionCannibal>
+  <!-- EN: Insect meat -->
+  <FoodRestrictionInsectMeat>TODO</FoodRestrictionInsectMeat>
+
+  <!-- EN: Styles in use -->
+  <StylesInUse>TODO</StylesInUse>
+  <!-- EN: Add a style. -->
+  <StyleCategoryAddDesc>TODO</StyleCategoryAddDesc>
 </LanguageData>

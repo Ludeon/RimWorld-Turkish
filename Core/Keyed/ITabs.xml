@@ -50,6 +50,8 @@
   <TabTransporterContents>İçerikler</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>İçerikler</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -108,7 +110,7 @@
   <FactorForMovement>Hareket çarpanı</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Köle değeri</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
+  <!-- EN: The base market value of this slave if sold. -->
   <SlavePriceDescription>{0} satılması durumunda taban piyasa değeri.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Yemek verme</GetsFood>
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Suçlu sayılması ({0} içinde sona eriyor)</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Suçlu kabul edildi</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>TODO</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>TODO</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -148,7 +167,7 @@
   <PainLevel>Acı</PainLevel>
   <!-- EN: Injured -->
   <Injured>Yaralı</Injured>
-  <!-- EN: Untended injury -->
+  <!-- EN: untended injury -->
   <UntendedInjury>Tedavi edilmemiş yaralanma</UntendedInjury>
   <!-- EN: no health conditions -->
   <NoHealthConditions>Sağlık problemi yok</NoHealthConditions>
@@ -168,9 +187,9 @@
   <WontBleedOutSoon>Acil tehlikesi yok</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Genel bakış</HealthOverview>
-  <!-- EN: Operations ({0}) -->
+  <!-- EN: Operations -->
   <MedicalOperationsShort>Operasyonlar ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
+  <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>Değişiklikler ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Tıbbi operasyonlar</MedicalOperations>
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>Sosyal etkileşimler</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Açlık seviyesi</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>TODO</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Yorgunluk</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Önkoşul gerekli: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(kimseyle iletişimi yok)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Kaçırıldı</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -250,12 +269,12 @@
   <!-- EN: Missing -->
   <Missing>Kayıp</Missing>
   <!-- EN: Slave -->
-  <Slave>Tutsak</Slave>
+  <Slave>köle</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Fraksiyon lideri</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>{1_labelShort} görüşü</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>{1_labelShort} 'in benim hakkında fikri</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Öldüm</IAmDead>
@@ -398,10 +417,14 @@
 
   <!-- EN: Pen is not enclosed -->
   <AutocutUnenclosedPen>kümes kapalı değil</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
   <AutocutUnenclosedPenTip>kümes artık kapalı değil, bu nedenle otomatik kesme gerçekleşmeyecek.</AutocutUnenclosedPenTip>
 
+  <!-- EN: Auto-cut blocking plants -->
+  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
+
   <!-- UNUSED -->
+  <NoRelationships>(kimseyle iletişimi yok)</NoRelationships>
   <RecruitmentDifficulty>Koloniye alım zorluğu</RecruitmentDifficulty>
   <RecruitmentChance>Koloniye alım zorluğu</RecruitmentChance>
   <RecruitmentChanceExplanation>İşe alma zorluk faktörü: {0}\nİyi faktör: {1}\nKombine temel şans: {2}</RecruitmentChanceExplanation>

@@ -10,10 +10,12 @@
   <RejectLetter>Reddet</RejectLetter>
   <!-- EN: Read more -->
   <ReadMore>Daha fazla oku</ReadMore>
+  <!-- EN: You have {0} more letters -->
+  <MoreLetters>TODO</MoreLetters>
 
   <!-- EN: Summer -->
   <LetterLabelFirstSummerWarning>Yaz geldi!</LetterLabelFirstSummerWarning>
-  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
+  <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nTo prepare for winter, buy, steal, or make some parkas, or you'll freeze when you step outside. -->
   <FirstSummerWarning>Yaz başladı! Fakat kışı da unutmayın. Bitkiler soğuk havada yetiştirilemez. Kışın hayatta kalabilecek kadar gıda yetiştirmeye çalışın. Yiyeceklerin bozulmaması için derin dondurucu oluşturun.\n\nParkalar satın alın, dikin. Kısacası kışa hazırlanın.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
@@ -29,7 +31,7 @@
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>{0} ile ilişkiler soğudu. Artık müttefiklik yerine tarafsız olduğunu düşünüyorlar.\n\nHala sizinle barış içinde etkileşime girecek olsalar da, artık tehdit altındayken sana yardım etmek için savaşçı göndermeyecekler.\n\nBu iyi niyet ({1}) düştüğü için oldu {2} altında. İyi niyet {3} 'in altına düşerse, {0} düşman olur. İyi niyet {4} 'in üzerine çıkarsa, bir kez daha müttefik olurlar.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription><!-- TR: Sizinle hala barışçıl bir şekilde etkileşime girecek olsalar da, artık tehdit altında olduğunuzda size yardım etmek için savaşçı göndermeyecekler.\n\nBunun nedeni, iyi niyetin ({1}) {2}'nin altına düşmesidir. İyi niyet {3}'ün altına düşerse, {0} düşman olur. İyi niyet {4}'ün üzerine çıkarsa, bir kez daha müttefik olurlar. --></LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription />
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>{0} ile ilişkiler çok iyi gelişti. Artık sizi bir müttefik olarak görüyorlar.\n\nMüttefikler bazen saldırı altındayken düşmanlarınızla savaşmaya yardımcı olacaklar. İstediğiniz zaman, iyi niyet bedeli karşılığında yardım için de arayabilirsiniz.\n\nİyi niyetiniz ({1}) {2} geçmişte kaldığı için müttefik oldunuz. İyi niyet, {3} 'in altına düşerse, ilişkiler nötr hale gelir.</LetterRelationsChange_Ally>
@@ -45,7 +47,7 @@
   <!-- EN: Death -->
   <Death>Ölüm</Death>
 
-  <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
+  <!-- EN: A {1_label} has short-circuited due to precipitation and started a fire. -->
   <ShortCircuitRain>Bir {1_label} yağmurda kısa devre yaptı ve yangın başlattı.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
@@ -76,7 +78,9 @@
   <LetterLabelBirthday>Doğum günü</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
   <BirthdayChronological>Bugün {0}'ın kronolojik olarak doğum günü! Biyolojik olarak, {1} {3} yaşındadır.\n\nKronolojik olarak, {1} sadece {2} 'ye döndü.\n\nKripto uykuda insanların yaşlanmadığı için kronolojik doğum gününün biyolojik doğum gününden ayrı olduğunu unutmayın.</BirthdayChronological>
-  <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
+  <!-- EN: {0_nameFull} has reached the biological age of {1}. -->
+  <LetterBirthdayBiological>TODO</LetterBirthdayBiological>
+  <!-- EN: Unfortunately, {0_nameFull} has gained the following diseases due to aging -->
   <BirthdayBiologicalAgeInjuries>{0_nameFull}, {1} biyolojik yaşına ulaştı.\n\nNe yazık ki, {0_nameFull} yaşlanma nedeniyle aşağıdaki hastalıkları ortaya çıkmıştır:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
@@ -419,24 +423,12 @@
   <LetterPredatorHuntingColonist>{PREDATOR} yemek için {PREY_definite} avlıyor!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
-  <!-- EN: {0} blocked {1} on: {2}. -->
+  <!-- EN: {0} blocked {1} on -->
   <LetterDisease_Blocked>{0}, {2} tarihinde {1} adlı canlıyı engelledi.</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
   <LetterLabelTraitDisease>Hastalık: {0}</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
   <LetterTraitDisease>{PAWN_label}, {1} hastalığına yakalandı.\n\nTıbbi yatağınız ve doktorunuz olduğundan emin olun. {PAWN_pronoun} 'un uygun tedavi gördüğünden ve yatakta mümkün olduğunca fazla zaman geçirdiğinden emin olun.</LetterTraitDisease>
-
-  <!-- Surgery -->
-  <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>{PATIENT_labelShort} üzerinde ameliyat başarısız oldu</LetterLabelSurgeryFailed>
-  <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}, {PATIENT_labelShort}'ın operasyonu sırasında küçük bir hata yaptı.</MessageMedicalOperationFailureMinor>
-  <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {patient.LabelShort}'in operasyonu sırasında olan felaketlere yol açacak şekilde başarısız oldu.</MessageMedicalOperationFailureCatastrophic>
-  <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonu sırasında saçma bir şekilde başarısız oldu.</MessageMedicalOperationFailureRidiculous>
-  <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonunda kritik bir hata yaptı.</MessageMedicalOperationFailureFatal>
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
@@ -552,5 +544,55 @@
   <LetterLabelSiteCountdownStarted>Kervanınız tespit edildi</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
   <LetterTextSiteCountdownStarted>Kervanınız tespit edildi. {0} içinde, {2}'den {1} takviyesi bölgeye gelmeye başlayacak.\n\nKervanınızı yeniden düzenleyin ve {1}'den kaçınmak için hareket etmeye başlayın. Artık varışlarına kadar geri sayan bir zamanlayıcı görünür.</LetterTextSiteCountdownStarted>
+
+  <!-- EN: Unwavering prisoner -->
+  <LetterLabelUnrecruitablePawnCaptured>TODO</LetterLabelUnrecruitablePawnCaptured>
+  <!-- EN: {PAWN_nameDef} is unwaveringly loyal to their home and will refuse to be recruited entirely.\n\nYou can see whether someone is unwaveringly loyal by selecting them. -->
+  <LetterTextUnrecruitablePawnCaptured>TODO</LetterTextUnrecruitablePawnCaptured>
+  <!-- EN: enslave {PAWN_objective} -->
+  <OptionalEnslaveDesc>TODO</OptionalEnslaveDesc>
+
+  <!-- Lung rot -->
+  <!-- EN: {PAWN} has gotten sick from {1} due to long-term exposure to rot stink gas (which is given off by rotting corpses).\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment. -->
+  <LetterTextLungRot>TODO</LetterTextLungRot>
+
+  <!-- Join Offer -->
+  <!-- EN: Join offer: {PAWN_nameDef} -->
+  <LetterJoinOfferLabel>TODO</LetterJoinOfferLabel>
+  <!-- EN: {PAWN_nameDef} wishes to join your faction. -->
+  <LetterJoinOfferTitle>TODO</LetterJoinOfferTitle>
+  <!-- EN: {PAWN_nameDef} believes that {PAWN_pronoun} is happy at {MAP_definite}. {PAWN_pronoun} wishes to join you permanently. -->
+  <LetterJoinOfferText>TODO</LetterJoinOfferText>
+  <!-- EN: Accept -->
+  <LetterJoinOfferAccept>TODO</LetterJoinOfferAccept>
+
+  <!-- Speeches -->
+  <!-- EN: {ORGANIZER_labelShort} has finished {ORGANIZER_possessive} speech. -->
+  <LetterFinishedSpeech>{ORGANIZER_labelShort}, {ORGANIZER_possessive} konuşmasını tamamladı.</LetterFinishedSpeech>
+  <!-- EN: It was truly atrocious - halting, full of awkward jokes and depressing stories. -->
+  <LetterTerribleSpeech>Gerçekten iğrençti - aksak, garip şakalar ve iç karartıcı hikayeler...</LetterTerribleSpeech>
+  <!-- EN: It was uninspiring - unoriginal, droning and lacking any sense of passion. -->
+  <LetterUninspiringSpeech>Bu sönüktü - orijinal olmayan, vızıldıyor ve tutku duygusu yoktu.</LetterUninspiringSpeech>
+  <!-- EN: It was encouraging and well-delivered. -->
+  <LetterEncouragingSpeech>Cesaret vericiydi ve iyi konuştu.</LetterEncouragingSpeech>
+  <!-- EN: It was remarkably inspiring, full of intensity and purpose. -->
+  <LetterInspirationalSpeech>Son derece ilham verici, yoğunluk ve amaçlarla doluydu.</LetterInspirationalSpeech>
+  <!-- EN: The following people were particularly moved by the speech and are now inspired: -->
+  <LetterSpeechInspiredListeners>TODO</LetterSpeechInspiredListeners>
+  <!-- EN: Thanks to {SPEAKER_nameIndef}'s remarkable speech, {PAWN_nameIndef} has experienced an inspiration! -->
+  <LetterSpeechInspiration>TODO</LetterSpeechInspiration>
+  <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
+  <LetterSpeechInterrupted>Konuşma yalnızca {0} tamamlandıktan sonra kesildi, o kadar etkili değildi.</LetterSpeechInterrupted>
+  <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
+  <LetterSpeechCancelled>{ORGANIZER_bestRoyalTitleDef} 'in konuşması %50'si bile tamamlanmadan iptal edildi. Etkisi yoktu.</LetterSpeechCancelled>
+  <!-- EN: Speech cancelled -->
+  <LetterLabelSpeechCancelled>Konuşma iptal edildi</LetterLabelSpeechCancelled>
+
+  <!-- UNUSED -->
+  <LetterLabelSurgeryFailed>{PATIENT_labelShort} üzerinde ameliyat başarısız oldu</LetterLabelSurgeryFailed>
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}, {PATIENT_labelShort}'ın operasyonu sırasında küçük bir hata yaptı.</MessageMedicalOperationFailureMinor>
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {patient.LabelShort}'in operasyonu sırasında olan felaketlere yol açacak şekilde başarısız oldu.</MessageMedicalOperationFailureCatastrophic>
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonu sırasında saçma bir şekilde başarısız oldu.</MessageMedicalOperationFailureRidiculous>
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonunda kritik bir hata yaptı.</MessageMedicalOperationFailureFatal>
 
 </LanguageData>

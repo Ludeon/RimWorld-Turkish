@@ -18,7 +18,7 @@
   <SlaveReleasePotentialRelationGains>Serbest bırakıldığında ilişki kazancı</SlaveReleasePotentialRelationGains>
   <!-- EN: Slave rebellion interval -->
   <SlaveRebellionMTBDays>Köle isyan aralığı</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map. -->
+  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
   <SlaveRebellionMTBDaysDescription>Köle isyan girişimleri arasındaki ortalama gün sayısı. Sadece uyanık kalma süresi sayılır. Bu, ruh hali, sağlık, bastırma, silahlara yakınlık ve haritadaki kolonistlerin varlığından etkilenir.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
@@ -51,6 +51,8 @@
   <SuppressionFactor>baskı</SuppressionFactor>
   <!-- EN: Mood -->
   <SuppressionMoodFactor>ruh hali</SuppressionMoodFactor>
+  <!-- EN: Slave count -->
+  <SuppressionSlaveCountFactor>TODO</SuppressionSlaveCountFactor>
   <!-- EN: Escape route -->
   <SuppressionEscapeFactor>Kaçış yolu</SuppressionEscapeFactor>
   <!-- EN: Weapon proximity -->
@@ -59,6 +61,8 @@
   <SuppressionFinalInterval>son aralık</SuppressionFinalInterval>
   <!-- EN: Unattended -->
   <SuppressionUnattendedByColonists>sahipsiz</SuppressionUnattendedByColonists>
+  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
+  <SuppressionRebellionAnySlave>TODO</SuppressionRebellionAnySlave>
 
   <!-- EN: Will -->
   <WillLevel>irade</WillLevel>
@@ -80,6 +84,8 @@
   <CertaintyInIdeo>{PAWN_nameDef}'in {IDEO_name} içindeki kesinliği</CertaintyInIdeo>
   <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
   <RoleDesc>Bu kişinin kendi ideolojisinde sahip olduğu özel bir statü. Bu rolü değiştirirseniz veya ortadan kaldırırsanız mutsuz olurlar.</RoleDesc>
+  <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
+  <RoleAssignmentTip>TODO</RoleAssignmentTip>
   <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
   <ConversionWeakerDueToTraitAgreements>Özellik/mem uyumu nedeniyle inanç değiştirme girişimleri daha zayıf olacaktır</ConversionWeakerDueToTraitAgreements>
   <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
