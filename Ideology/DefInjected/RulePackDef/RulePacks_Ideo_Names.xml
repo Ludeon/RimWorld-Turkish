@@ -24,11 +24,13 @@
     <li>r_ideoAdjective->[keyDeity]ic</li>
     <li>r_memberName->[keyDeity]ist</li>
     <li>r_memberName->[keyDeity]ite</li>
-    <li>r_ideoName(p=2)->[globalAdjective] [packIdeoName]</li>
-    <li>r_ideoName(p=1.5,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
-    <li>r_ideoName->[memeAdjective] [packIdeoName]</li>
-    <li>r_ideoName(p=0.5)->[memeAdjective] [creed]</li>
-    <li>r_ideoName(p=0.2)->[creed] of [packTheme]</li>
+    <li>r_ideoName(p=6)->[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoName]</li>
+    <li>r_ideoName(p=2,forcePrefix==False)->[hyphenPrefix]-[packIdeoNameStructure]</li>
+    <li>r_ideoName(p=2)->[memeAdjective] [creed]</li>
+    <li>r_ideoName(p=1)->[creed] of [packTheme]</li>
+    <li>r_ideoName(p=1)->[place_adjective] [creed]</li>
+    <li>r_ideoName(p=0.25)->The [memeCreed]</li>
     <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
     <li>r_memberName->[packMember]</li>
     <li>creed(priority=1)->[memeCreed]</li>
@@ -37,20 +39,6 @@
     <li>genericCreed->doctrine</li>
     <li>genericCreed->way</li>
     <li>genericCreed->path</li>
-    <li>globalAdjective->[Color]</li>
-    <li>globalAdjective->New</li>
-    <li>globalAdjective->Full</li>
-    <li>globalAdjective->Old</li>
-    <li>globalAdjective->Ancient</li>
-    <li>globalAdjective->Historical</li>
-    <li>globalAdjective->Revised</li>
-    <li>globalAdjective->Reformed</li>
-    <li>globalAdjective->Hard</li>
-    <li>globalAdjective->Fundamental</li>
-    <li>globalAdjective->True</li>
-    <li>globalAdjective->Folk</li>
-    <li>globalAdjective->Reformed</li>
-    <li>globalAdjective->[place_adjective]</li>
     <li>hyphenPrefix->[globalHyphenPrefix]</li>
     <li>hyphenPrefix->[memeHyphenPrefix]</li>
     <li>globalHyphenPrefix(p=4)->neo</li>

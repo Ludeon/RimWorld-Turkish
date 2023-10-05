@@ -50,6 +50,8 @@
   <TabTransporterContents>İçerikler</TabTransporterContents>
   <!-- EN: Contents -->
   <TabCasketContents>İçerikler</TabCasketContents>
+  <!-- EN: Auto-cut -->
+  <TabWindTurbineAutoCut>TODO</TabWindTurbineAutoCut>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
@@ -108,7 +110,7 @@
   <FactorForMovement>Hareket çarpanı</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Köle değeri</SlavePrice>
-  <!-- EN: The base market value of this {0} if sold. -->
+  <!-- EN: The base market value of this slave if sold. -->
   <SlavePriceDescription>{0} satılması durumunda taban piyasa değeri.</SlavePriceDescription>
   <!-- EN: Gets food -->
   <GetsFood>Yemek verme</GetsFood>
@@ -122,6 +124,23 @@
   <ConsideredGuilty>Suçlu sayılması ({0} içinde sona eriyor)</ConsideredGuilty>
   <!-- EN: Considered guilty -->
   <ConsideredGuiltyNoTimer>Suçlu kabul edildi</ConsideredGuiltyNoTimer>
+  <!-- EN: Last resistance reduction -->
+  <LastRecruitment>TODO</LastRecruitment>
+  <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
+  <LastRecruitmentDescription>TODO</LastRecruitmentDescription>
+  <!-- EN: Opinion of recruiter -->
+  <OpinionOfRecruiter>TODO</OpinionOfRecruiter>
+  <!-- EN: Recruiter negotiation ability -->
+  <RecruiterNegotiationAbility>TODO</RecruiterNegotiationAbility>
+  <!-- EN: Unwavering loyalty -->
+  <NonRecruitable>TODO</NonRecruitable>
+  <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
+  <NonRecruitableTip>TODO</NonRecruitableTip>
+  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
+  <NonRecruitableTipCannotConvert>TODO</NonRecruitableTipCannotConvert>
+
+
+
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
@@ -148,10 +167,10 @@
   <PainLevel>Acı</PainLevel>
   <!-- EN: Injured -->
   <Injured>Yaralı</Injured>
-  <!-- EN: Untended injury -->
+  <!-- EN: untended injury -->
   <UntendedInjury>Tedavi edilmemiş yaralanma</UntendedInjury>
   <!-- EN: no health conditions -->
-  <NoHealthConditions>Sağlık durumu berbat</NoHealthConditions>
+  <NoHealthConditions>Sağlık problemi yok</NoHealthConditions>
   <!-- EN: Whole body -->
   <WholeBody>Tüm vücut</WholeBody>
   <!-- EN: Data processing -->
@@ -168,9 +187,9 @@
   <WontBleedOutSoon>Acil tehlikesi yok</WontBleedOutSoon>
   <!-- EN: Overview -->
   <HealthOverview>Genel bakış</HealthOverview>
-  <!-- EN: Operations ({0}) -->
+  <!-- EN: Operations -->
   <MedicalOperationsShort>Operasyonlar ({0})</MedicalOperationsShort>
-  <!-- EN: Modifications ({0}) -->
+  <!-- EN: Modifications -->
   <MedicalOperationsMechanoidsShort>Değişiklikler ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
   <MedicalOperations>Tıbbi operasyonlar</MedicalOperations>
@@ -186,6 +205,8 @@
   <SocialInteractionsLower>Sosyal etkileşimler</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
   <HungerRate>Açlık seviyesi</HungerRate>
+  <!-- EN: Food consumption -->
+  <FoodConsumption>TODO</FoodConsumption>
   <!-- EN: Tiredness -->
   <Tiredness>Yorgunluk</Tiredness>
   <!-- EN: Pain -->
@@ -241,8 +262,6 @@
   <TrainingNeedsPrerequisite>Önkoşul gerekli: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
-  <!-- EN: (no relationships) -->
-  <NoRelationships>(kimseyle iletişimi yok)</NoRelationships>
   <!-- EN: Kidnapped -->
   <Kidnapped>Kaçırıldı</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
@@ -250,12 +269,12 @@
   <!-- EN: Missing -->
   <Missing>Kayıp</Missing>
   <!-- EN: Slave -->
-  <Slave>Tutsak</Slave>
+  <Slave>köle</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Fraksiyon lideri</FactionLeader>
-  <!-- EN: Opinion of {1_labelShort} -->
+  <!-- EN: Opinion of {0} -->
   <OpinionOf>{1_labelShort} görüşü</OpinionOf>
-  <!-- EN: {1_labelShort}'s opinion of me -->
+  <!-- EN: {0}'s opinion of me -->
   <SomeonesOpinionOfMe>{1_labelShort} 'in benim hakkında fikri</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
   <IAmDead>Öldüm</IAmDead>
@@ -340,68 +359,72 @@
 
   <!-- Animal pen food tab -->
   <!-- EN: enclose the pen marker to calculate food information -->
-  <PenFoodTab_NotEnclosed>TODO</PenFoodTab_NotEnclosed>
+  <PenFoodTab_NotEnclosed>Gıda bilgilerini hesaplamak için kümes işaretleyici içine alın</PenFoodTab_NotEnclosed>
 
   <!-- EN: Nutrition stockpiled -->
-  <PenFoodTab_StockpileTotal>TODO</PenFoodTab_StockpileTotal>
+  <PenFoodTab_StockpileTotal>Beslenme stoklanmış</PenFoodTab_StockpileTotal>
   <!-- EN: The total nutrition of stockpiled food in the pen. -->
-  <PenFoodTab_StockpileTotalDescription>TODO</PenFoodTab_StockpileTotalDescription>
+  <PenFoodTab_StockpileTotalDescription>Kümeste stoklanan gıdaların toplam beslenmesi.</PenFoodTab_StockpileTotalDescription>
   <!-- EN: Days to stockpile exhaustion -->
-  <PenFoodTab_StockpileEmptyDays>TODO</PenFoodTab_StockpileEmptyDays>
+  <PenFoodTab_StockpileEmptyDays>Stokların tükenmesi için kalan gün</PenFoodTab_StockpileEmptyDays>
   <!-- EN: Nutrition consumption exceeds nutrition growth rate in this pen. The animals will eventually eat all the stockpiled food and starve. -->
-  <PenFoodTab_StockpileEmptyDaysDescription>TODO</PenFoodTab_StockpileEmptyDaysDescription>
+  <PenFoodTab_StockpileEmptyDaysDescription>Beslenme tüketimi bu kümeste beslenme büyüme oranını aşıyor. Hayvanlar sonunda stoklanan tüm yiyecekleri yiyecek ve aç kalacaklardır.</PenFoodTab_StockpileEmptyDaysDescription>
 
   <!-- EN: Animal type -->
-  <PenFoodTab_AnimalType>TODO</PenFoodTab_AnimalType>
+  <PenFoodTab_AnimalType>hayvan türü</PenFoodTab_AnimalType>
   <!-- EN: Count -->
-  <PenFoodTab_Count>TODO</PenFoodTab_Count>
+  <PenFoodTab_Count>Saymak</PenFoodTab_Count>
   <!-- EN: Today -->
-  <PenFoodTab_CurrentDay>TODO</PenFoodTab_CurrentDay>
+  <PenFoodTab_CurrentDay>Bugün</PenFoodTab_CurrentDay>
   <!-- EN: nutrition -->
-  <PenFoodTab_Nutrition_Unit>TODO</PenFoodTab_Nutrition_Unit>
+  <PenFoodTab_Nutrition_Unit>besin</PenFoodTab_Nutrition_Unit>
   <!-- EN: per day -->
-  <PenFoodTab_NutritionPerDay_Unit>TODO</PenFoodTab_NutritionPerDay_Unit>
+  <PenFoodTab_NutritionPerDay_Unit>günlük</PenFoodTab_NutritionPerDay_Unit>
   <!-- EN: Force display animal... -->
-  <PenFoodTab_AddAnimal>TODO</PenFoodTab_AddAnimal>
+  <PenFoodTab_AddAnimal>Bu hayvanı zorla...</PenFoodTab_AddAnimal>
 
   <!-- EN: Nutrition growth -->
-  <PenFoodTab_NaturalNutritionGrowthRate>TODO</PenFoodTab_NaturalNutritionGrowthRate>
+  <PenFoodTab_NaturalNutritionGrowthRate>Besin büyümesi</PenFoodTab_NaturalNutritionGrowthRate>
   <!-- EN: Growth per season -->
-  <PenFoodTab_GrowthPerSeason>TODO</PenFoodTab_GrowthPerSeason>
+  <PenFoodTab_GrowthPerSeason>Sezon başına büyüme</PenFoodTab_GrowthPerSeason>
   <!-- EN: Nutrition consumption -->
-  <PenFoodTab_TotalNutritionConsumptionRate>TODO</PenFoodTab_TotalNutritionConsumptionRate>
+  <PenFoodTab_TotalNutritionConsumptionRate>Beslenme tüketimi</PenFoodTab_TotalNutritionConsumptionRate>
   <!-- EN: The average nutrition provided by edible plants in this pen. -->
-  <PenFoodTab_NaturalNutritionGrowthRateDescription>TODO</PenFoodTab_NaturalNutritionGrowthRateDescription>
+  <PenFoodTab_NaturalNutritionGrowthRateDescription>Bu kümesteki yenilebilir bitkilerin sağladığı ortalama beslenme.</PenFoodTab_NaturalNutritionGrowthRateDescription>
   <!-- EN: The nutrition needed by animals currently in this pen.\n\nTo get more food, expand the pen to cover more wild plant growth, or deliver stockpiled food like haygrass to the pen. -->
-  <PenFoodTab_NutritionConsumptionDescription>TODO</PenFoodTab_NutritionConsumptionDescription>
+  <PenFoodTab_NutritionConsumptionDescription>Şu anda bu kümeste hayvanların ihtiyaç duyduğu besin.\n\nDaha fazla yiyecek almak için, daha fazla yabani bitki büyümesini kapsayacak şekilde ağı genişletin veya saman otu gibi stoklanmış gıdaları ağıla teslim edin.</PenFoodTab_NutritionConsumptionDescription>
   <!-- EN: Note: Plant growth rate varies due to seasons, weather, theft by wild animals, and other factors. These calculations are approximations. -->
-  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>TODO</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
+  <PenFoodTab_NaturalNutritionGrowthRateSeasonal>Not: Bitki büyüme hızı mevsimlere, hava koşullarına, vahşi hayvanların hırsızlığına ve diğer faktörlere göre değişir. Bu hesaplamalar yaklaşık değerlerdir.</PenFoodTab_NaturalNutritionGrowthRateSeasonal>
 
   <!-- EN: Total consumption -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>TODO</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
+  <PenFoodTab_NutritionConsumedPerDay_ColumLabel>Toplam kullanım</PenFoodTab_NutritionConsumedPerDay_ColumLabel>
   <!-- EN: The total nutrition that will be consumed each day by each type of animal in this pen. -->
-  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>TODO</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
+  <PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>Bu kümesteki her bir hayvan türü tarafından her gün tüketilecek toplam besin miktarı.</PenFoodTab_NutritionConsumedPerDay_ColumnTooltip>
   <!-- EN: Daily consumption per {ANIMALDEF_label} -->
-  <PenFoodTab_NutritionConsumedPerDay>TODO</PenFoodTab_NutritionConsumedPerDay>
+  <PenFoodTab_NutritionConsumedPerDay>{ANIMALDEF_label} başına günlük tüketim</PenFoodTab_NutritionConsumedPerDay>
   <!-- EN: each {CONSUMEDAMOUNT} -->
-  <PenFoodTab_NutritionConsumedEachAnimalLabel>TODO</PenFoodTab_NutritionConsumedEachAnimalLabel>
+  <PenFoodTab_NutritionConsumedEachAnimalLabel>her biri {CONSUMEDAMOUNT}</PenFoodTab_NutritionConsumedEachAnimalLabel>
   <!-- EN: Count that could be supported with no other animals in the pen -->
-  <PenFoodTab_AnimalTypeAnimalCapacity>TODO</PenFoodTab_AnimalTypeAnimalCapacity>
+  <PenFoodTab_AnimalTypeAnimalCapacity>kümeste başka hiçbir hayvan olmadan desteklenebilecek sayım</PenFoodTab_AnimalTypeAnimalCapacity>
 
   <!-- EN: Edible now -->
-  <PenFoodTab_EdibleNow>TODO</PenFoodTab_EdibleNow>
+  <PenFoodTab_EdibleNow>şimdi yenilebilir</PenFoodTab_EdibleNow>
 
   <!-- EN: Auto-cut plants in pen -->
-  <PenAutoCut_EnabledCheckbox>TODO</PenAutoCut_EnabledCheckbox>
+  <PenAutoCut_EnabledCheckbox>kümesde otomatik kesilen bitkiler</PenAutoCut_EnabledCheckbox>
   <!-- EN: Automatically mark certain inedible plants to be cut. This makes room for edible plants to grow, which your animals can then eat.\n\nThis auto-designation happens periodically and only applies to certain plants.\n\nThis only works when the pen is enclosed. -->
-  <PenAutoCut_EnabledCheckboxTip>TODO</PenAutoCut_EnabledCheckboxTip>
+  <PenAutoCut_EnabledCheckboxTip>Bazı yenmeyen bitkileri kesilecek otomatik olarak işaretleyin. Bu, hayvanlarınızın daha sonra yiyebileceği yenilebilir bitkilerin büyümesi için yer açar.\n\nBu otomatik atama periyodik olarak gerçekleşir ve yalnızca belirli bitkiler için geçerlidir.\n\nBu yalnızca kümes kapalıyken çalışır.</PenAutoCut_EnabledCheckboxTip>
 
   <!-- EN: Pen is not enclosed -->
-  <AutocutUnenclosedPen>TODO</AutocutUnenclosedPen>
-  <!-- EN: Pen is not enclosed now, so auto-cut won’t occur. -->
-  <AutocutUnenclosedPenTip>TODO</AutocutUnenclosedPenTip>
+  <AutocutUnenclosedPen>kümes kapalı değil</AutocutUnenclosedPen>
+  <!-- EN: Pen is not enclosed now, so auto-cut won't occur. -->
+  <AutocutUnenclosedPenTip>kümes artık kapalı değil, bu nedenle otomatik kesme gerçekleşmeyecek.</AutocutUnenclosedPenTip>
+
+  <!-- EN: Auto-cut blocking plants -->
+  <WindTurbineAutoCut_EnabledCheckbox>TODO</WindTurbineAutoCut_EnabledCheckbox>
 
   <!-- UNUSED -->
+  <NoRelationships>(kimseyle iletişimi yok)</NoRelationships>
   <RecruitmentDifficulty>Koloniye alım zorluğu</RecruitmentDifficulty>
   <RecruitmentChance>Koloniye alım zorluğu</RecruitmentChance>
   <RecruitmentChanceExplanation>İşe alma zorluk faktörü: {0}\nİyi faktör: {1}\nKombine temel şans: {2}</RecruitmentChanceExplanation>

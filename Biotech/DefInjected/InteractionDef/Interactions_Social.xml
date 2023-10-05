@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: play -->
+  <BabyPlay.label>oyun</BabyPlay.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] made [RECIPIENT_nameDef] [reaction].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [interaction] [RECIPIENT_nameDef].</li>
+    <li>r_logentry->[INITIATOR_nameDef] played [babyGame] with [RECIPIENT_nameDef].</li>
+    <li>reaction->giggle</li>
+    <li>reaction->smile</li>
+    <li>reaction->squirm with joy</li>
+    <li>reaction->laugh</li>
+    <li>reaction->drool playfully</li>
+    <li>reaction->gurgle</li>
+    <li>reaction->squeal</li>
+    <li>reaction->burp</li>
+    <li>reaction->stare in fascination</li>
+    <li>interaction->delighted</li>
+    <li>interaction->played with</li>
+    <li>interaction->entertained</li>
+    <li>interaction->amused</li>
+    <li>interaction->tickled</li>
+    <li>interaction->nuzzled</li>
+    <li>interaction->snuffled</li>
+    <li>interaction->hugged</li>
+    <li>interaction->tossed</li>
+    <li>interaction->sang to</li>
+    <li>interaction->told a story to</li>
+    <li>interaction->played a magic trick on</li>
+    <li>babyGame->hide-and-go-seek</li>
+    <li>babyGame->peekaboo</li>
+    <li>babyGame->find-the-finger</li>
+    <li>babyGame->monkey-see-monkey-do</li>
+    <li>babyGame->show-and-tell</li>
+    <li>babyGame->fingerpuppets</li>
+  -->
+  <BabyPlay.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] [reaction] neden oldu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] [interaction].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [interaction2].</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [babyGame] oynadı.</li>
+    <li>reaction->kıkırdamasına</li>
+    <li>reaction->gülmesine</li>
+    <li>reaction->sevinçle kıvranmasına</li>
+    <li>reaction->kahkaha atmasına</li>
+    <li>reaction->şakacı bir şekilde salya akıtmasına</li>
+    <li>reaction->guruldamasına</li>
+    <li>reaction->gıcırdamasına</li>
+    <li>reaction->geğirmesine</li>
+    <li>reaction->hayranlıkla bakmasına</li>
+    <li>interaction->ile memnun oldu</li>
+    <li>interaction->ile oynadı</li>
+    <li>interaction->ile eğlendi</li>
+    <li>interaction->ile oyalandı</li>
+    <li>interaction->ile gıdıklandı</li>
+    <li>interaction->ile sokuldu</li>
+    <li>interaction->ile sarıldı</li>
+    <li>interaction->ile fırlattı</li>
+    <li>interaction2->ile şarkı söyledi</li>
+    <li>interaction2->ile [RECIPIENT_nameDef] şarkısını söyledi</li>
+    <li>interaction2->ile bir hikaye anlattı</li>
+    <li>interaction2->ile bir sihir numarası üzerine oynadı</li>
+    <li>babyGame->saklambaç</li>
+    <li>babyGame->gözetleme</li>
+    <li>babyGame->maymun görmek maymun yapmak</li>
+    <li>babyGame->göster ve anlat</li>
+    <li>babyGame->birdirbir</li>
+    <li>babyGame->parmak kuklaları</li>
+  </BabyPlay.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: animal lesson -->
+  <LessonAnimals.label>hayvan dersi</LessonAnimals.label>
+  <!-- EN:
+    <li>r_logentry(p=4)->[INITIATOR_nameDef] [teach_verb] how to [animal_verb] [article_animal] to [RECIPIENT_nameDef].</li>
+    <li>article_animal->a megasloth</li>
+    <li>article_animal->a megaspider</li>
+    <li>article_animal->a thrumbo</li>
+    <li>article_animal->a boomrat</li>
+    <li>article_animal->a chinchilla</li>
+    <li>article_animal->a guinea pig</li>
+    <li>article_animal->a cobra</li>
+    <li>article_animal->an emu</li>
+    <li>article_animal->an iguana</li>
+    <li>article_animal->a raccoon</li>
+    <li>article_animal->a warg</li>
+    <li>article_animal->a yak</li>
+    <li>article_animal->a squirrel</li>
+    <li>article_animal->a muffalo</li>
+    <li>animal_verb->tame</li>
+    <li>animal_verb->feed</li>
+    <li>animal_verb->calm</li>
+    <li>animal_verb->spook</li>
+    <li>animal_verb->gain the trust of</li>
+    <li>subject->animal psychology</li>
+    <li>subject->taming techniques</li>
+    <li>subject->dangerous wildlife</li>
+    <li>subject->reptiles</li>
+    <li>subject->scaria</li>
+    <li>subject->kibble</li>
+  -->
+  <LessonAnimals.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=4)->[INITIATOR_nameDef], [RECIPIENT_nameDef]'e [article_animal] nasıl [animal_verb] [teach_verb].</li>
+    <li>article_animal->bir megasloth</li>
+    <li>article_animal->bir mega örümcek</li>
+    <li>article_animal->bir thrumbo</li>
+    <li>article_animal->bir bumrat</li>
+    <li>article_animal->çinçilla</li>
+    <li>article_animal->bir gine domuzu</li>
+    <li>article_animal->bir kobra</li>
+    <li>article_animal->an emu</li>
+    <li>article_animal->bir iguana</li>
+    <li>article_animal->bir rakun</li>
+    <li>article_animal->bir warg</li>
+    <li>article_animal->bir yak</li>
+    <li>article_animal->bir sincap</li>
+    <li>article_animal->bir muffalo</li>
+    <li>animal_verb->ehlileştiril</li>
+    <li>animal_verb->beslenir</li>
+    <li>animal_verb->yakalanır</li>
+    <li>animal_verb->ürkütülür</li>
+    <li>animal_verb->güvenini kazanılır</li>
+    <li>subject->hayvan psikolojisi</li>
+    <li>subject->evcilleştirme teknikleri</li>
+    <li>subject->tehlikeli yaban hayatı</li>
+    <li>subject->sürüngenler</li>
+    <li>subject->skarya</li>
+    <li>subject->mama</li>
+  </LessonAnimals.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: art lesson -->
+  <LessonArtistic.label>Sanat dersi</LessonArtistic.label>
+  <!-- EN:
+    <li>article_tool->a paint brush</li>
+    <li>article_tool->a charcoal pencil</li>
+    <li>article_tool->a chisel</li>
+    <li>article_tool->a canvas</li>
+    <li>article_tool->a lump of clay</li>
+    <li>action->make art with</li>
+    <li>action->use</li>
+    <li>action->express one's self with</li>
+    <li>action_gerund->making art with</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->expressing one's self with</li>
+    <li>subject->sculpture materials</li>
+    <li>subject->famous artists</li>
+    <li>subject->famous paintings</li>
+    <li>subject->glitterworld galleries</li>
+    <li>subject->portraiture</li>
+    <li>subject->abstract art</li>
+    <li>subject->mixing paints</li>
+  -->
+  <LessonArtistic.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->boya fırçası</li>
+    <li>article_tool_acc->bir kömür kalemi</li>
+    <li>article_tool_acc->bir keski</li>
+    <li>article_tool_acc->bir tuval</li>
+    <li>article_tool_acc->bir parça kil</li>
+    <li>article_tool_dat->boya fırçası</li>
+    <li>article_tool_dat->bir kömür kalemi</li>
+    <li>article_tool_dat->bir keski</li>
+    <li>article_tool_dat->bir tuval</li>
+    <li>article_tool_dat->bir parça kil</li>
+    <li>action_with->boya fırçası</li>
+    <li>action->kullanılır</li>
+    <li>action_with->sanat ile kullanılır</li>
+    <!-- <li>action_gerund->making art with</li> -->
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->expressing one's self with</li> -->
+    <li>subject->heykel malzemesi</li>
+    <li>subject->ünlü sanatçılar</li>
+    <li>subject->ünlü ressamlar</li>
+    <li>subject->parıltı dünyası galerileri</li>
+    <li>subject->portre</li>
+    <li>subject->soyut sanat</li>
+    <li>subject->boyaları karıştırma</li>
+  </LessonArtistic.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: construction lesson -->
+  <LessonConstruction.label>inşaat dersi</LessonConstruction.label>
+  <!-- EN:
+    <li>article_tool->a hammer</li>
+    <li>article_tool->a table saw</li>
+    <li>article_tool->a ruler</li>
+    <li>article_tool->a ladder</li>
+    <li>article_tool->a level</li>
+    <li>action->use</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->architecture</li>
+    <li>subject->construction techniques</li>
+    <li>subject->deconstruction techniques</li>
+    <li>subject->building materials</li>
+    <li>subject->modeling software</li>
+    <li>subject->blueprints</li>
+  -->
+  <LessonConstruction.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->bir çekiç</li>
+    <li>article_tool_acc->bir masa testeresi</li>
+    <li>article_tool_acc->bir cetvel</li>
+    <li>article_tool_acc->bir merdiven</li>
+    <li>article_tool_acc->bir ruh düzeyi</li>
+    <li>article_tool_dat->bir çekiç</li>
+    <li>article_tool_dat->bir masa testeresi</li>
+    <li>article_tool_dat->bir cetvel</li>
+    <li>article_tool_dat->bir merdiven</li>
+    <li>article_tool_dat->bir ruh düzeyi</li>
+    <li>action->kullanılır</li>
+    <li>action_with->iş ile</li>
+    <li>action->gözden geçirilir</li>
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->working with</li> -->
+    <!-- <li>action_gerund->inspecting</li> -->
+    <li>subject->mimari</li>
+    <li>subject->inşaat teknikleri</li>
+    <li>subject->yapısöküm teknikleri</li>
+    <li>subject->Baumaterialien</li>
+    <li>subject->yapı malzemeleri</li>
+    <li>subject->planlar</li>
+  </LessonConstruction.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: cooking lesson -->
+  <LessonCooking.label>aşçılık dersi</LessonCooking.label>
+  <!-- EN:
+    <li>article_tool->a stove</li>
+    <li>article_tool->a spatula</li>
+    <li>article_tool->an oven</li>
+    <li>article_tool->a saucepan</li>
+    <li>article_tool->a nutrient paste dispenser</li>
+    <li>article_tool->a butcher table</li>
+    <li>action->clean</li>
+    <li>action->cook with</li>
+    <li>action_gerund->cleaning</li>
+    <li>action_gerund->cooking with</li>
+    <li>subject->spices</li>
+    <li>subject->packaged survival meals</li>
+    <li>subject->egg varieties</li>
+    <li>subject->varieties of meats</li>
+    <li>subject->flavors</li>
+    <li>subject->recipes</li>
+    <li>situation->while caravaning</li>
+    <li>situation->blindfolded</li>
+    <li>situation->in a hurry</li>
+    <li>situation->safely</li>
+  -->
+  <LessonCooking.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->soba</li>
+    <li>article_tool_acc->bir spatula</li>
+    <li>article_tool_acc->bir fırın</li>
+    <li>article_tool_acc->bir tencere</li>
+    <li>article_tool_acc->bir besin ezmesi dağıtıcısı</li>
+    <li>article_tool_acc->kasap masası</li>
+    <li>article_tool_dat->bir fırın</li>
+    <li>article_tool_dat->bir spatula</li>
+    <li>article_tool_dat->soba</li>
+    <li>article_tool_dat->bir tencere</li>
+    <li>article_tool_dat->bir besin ezmesi dağıtıcısı</li>
+    <li>article_tool_dat->kasap masası</li>
+    <li>action->temiz</li>
+    <li>action_with->yemek ile</li>
+    <!-- <li>action_gerund->cleaning</li> -->
+    <!-- <li>action_gerund->cooking with</li> -->
+    <li>subject->baharat</li>
+    <li>subject->paketlenmiş hayatta kalma yemekleri</li>
+    <li>subject->yumurta çeşitleri</li>
+    <li>subject->et çeşitleri</li>
+    <li>subject->tatlar</li>
+    <li>subject->yemek tarifleri</li>
+    <li>situation->karavan yaparken</li>
+    <li>situation->gözü bağlı</li>
+    <li>situation->aceleyle</li>
+    <li>situation->güvenli bir şekilde</li>
+  </LessonCooking.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: crafting lesson -->
+  <LessonCrafting.label>zanaat dersi</LessonCrafting.label>
+  <!-- EN:
+    <li>article_tool->a screwdriver</li>
+    <li>article_tool->a pair of pliers</li>
+    <li>article_tool->a circuit board</li>
+    <li>article_tool->a tailor bench</li>
+    <li>article_tool->a machining table</li>
+    <li>article_tool->a fabricator</li>
+    <li>action->use</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->organizing tools</li>
+    <li>subject->tinkering accomplishments</li>
+    <li>subject->gadgets</li>
+    <li>subject->fabric varieties</li>
+    <li>subject->cloth weaving techniques</li>
+    <li>subject->plate armor</li>
+    <li>subject->utility belts</li>
+    <li>subject->bionics</li>
+    <li>situation->safely</li>
+    <li>situation->without instructions</li>
+    <li>situation->by candlelight</li>
+    <li>situation(p=0.1)->while drunk</li>
+  -->
+  <LessonCrafting.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->Bir tornavida</li>
+    <li>article_tool_acc->bir çift pense</li>
+    <li>article_tool_acc->bir devre kartı</li>
+    <li>article_tool_acc->terzi tezgahı</li>
+    <li>article_tool_acc->işleme masası</li>
+    <li>article_tool_acc->fabrikatör</li>
+    <li>article_tool_dat->bir tornavida</li>
+    <li>article_tool_dat->bir çift pense</li>
+    <li>article_tool_dat->bir devre kartı</li>
+    <li>article_tool_dat->terzi tezgahı</li>
+    <li>article_tool_dat->işleme masası</li>
+    <li>article_tool_dat->fabrikatör</li>
+    <li>action->kullanılır</li>
+    <li>action_with->iş ile</li>
+    <li>action->gözden geçirilir</li>
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->working with</li> -->
+    <!-- <li>action_gerund->inspecting</li> -->
+    <li>subject->düzenleme araçları</li>
+    <li>subject->zanaat talimatları</li>
+    <li>subject->kumaş dokuma teknikleri</li>
+    <li>subject->plaka zırh</li>
+    <li>subject->yardımcı kemerler</li>
+    <li>subject->die Plattenrüstung</li>
+    <li>subject->Spezialgürtel</li>
+    <li>subject->biyonik</li>
+    <li>situation->güvenli bir şekilde</li>
+    <li>situation->Talimatlar olmadan</li>
+    <li>situation->bei mum ışığı ile</li>
+    <li>situation(p=0.1)->sarhoşken</li>
+  </LessonCrafting.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: lesson -->
+  <LessonGeneric.label>ders</LessonGeneric.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] taught a lesson to [RECIPIENT_nameDef]</li>
+  -->
+  <LessonGeneric.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye bir ders verdi</li>
+  </LessonGeneric.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: intellectual lesson -->
+  <LessonIntellectual.label>entelektüel ders</LessonIntellectual.label>
+  <!-- EN:
+    <li>subject->genetics</li>
+    <li>subject->techprints</li>
+    <li>subject->multi-analyzer functions</li>
+    <li>subject->philosophy</li>
+    <li>subject->mathematics</li>
+    <li>subject->biology</li>
+    <li>subject->chemistry</li>
+    <li>subject->archotech mysteries</li>
+    <li>subject->starship reactors</li>
+    <li>subject->the scientific method</li>
+    <li>subject->seminal whitepapers</li>
+    <li>subject->Johnson-Tanaka propulsion</li>
+  -->
+  <LessonIntellectual.logRulesInitiator.rulesStrings>
+    <li>subject->genetikk</li>
+    <li>subject->teknik planlar</li>
+    <li>subject->çoklu analizör fonksiyonları</li>
+    <li>subject->felsefee</li>
+    <li>subject->dmatematik</li>
+    <li>subject->biyoloji</li>
+    <li>subject->kimya</li>
+    <li>subject->arkotek gizemleri</li>
+    <li>subject->yıldız gemisi reaktörleri</li>
+    <li>subject->bilimsel metot</li>
+    <li>subject->ufuk açıcı teknik incelemeler</li>
+    <li>subject->Johnson-Tanaka itiş gücü</li>
+  </LessonIntellectual.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: medical lesson -->
+  <LessonMedicine.label>tıp dersi</LessonMedicine.label>
+  <!-- EN:
+    <li>r_logentry(p=5)->[INITIATOR_nameDef] [teach_verb] how to [medical_verb] [hediff] to [RECIPIENT_nameDef].</li>
+    <li>article_tool->a medicine pack</li>
+    <li>article_tool->a bandage</li>
+    <li>article_tool->a syringe</li>
+    <li>article_tool->a healroot plant</li>
+    <li>article_tool->a vitals monitor</li>
+    <li>article_tool->a scalpel</li>
+    <li>article_tool->a healer mech serum dose</li>
+    <li>article_tool->a painstopper</li>
+    <li>action->use</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->inspecting</li>
+    <li>hediff->blood loss</li>
+    <li>hediff->a heart attack</li>
+    <li>hediff->heatstroke</li>
+    <li>hediff->food poisoning</li>
+    <li>hediff->carcinoma</li>
+    <li>hediff->gut worms</li>
+    <li>hediff->muscle parasites</li>
+    <li>hediff->paralytic abasia</li>
+    <li>hediff->malaria</li>
+    <li>hediff->the flu</li>
+    <li>hediff->cirrhosis</li>
+    <li>medical_verb->diagnose</li>
+    <li>medical_verb->triage</li>
+    <li>medical_verb->treat</li>
+    <li>subject->anesthesia dosing</li>
+    <li>subject->types of cancer</li>
+    <li>subject->surgical procedures</li>
+    <li>subject->bedside manner</li>
+    <li>subject->sterilization methods</li>
+  -->
+  <LessonMedicine.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=5)->[INITIATOR_nameDef]  [RECIPIENT_nameDef]'e [hediff] nasıl [medical_verb] [teach_verb].</li>
+    <li>article_tool_acc->bir ilaç paketi</li>
+    <li>article_tool_acc->bir bandaj</li>
+    <li>article_tool_acc->bir şırınga</li>
+    <li>article_tool_acc->şifalı bitki</li>
+    <li>article_tool_acc->bir hayati monitör</li>
+    <li>article_tool_acc-bir neşter</li>
+    <li>article_tool_acc->şifacı mech serum dozu</li>
+    <li>article_tool_acc->ağrı kesici</li>
+    <li>article_tool_dat->bir ilaç paketi</li>
+    <li>article_tool_dat->bir bandaj</li>
+    <li>article_tool_dat->bir şırınga</li>
+    <li>article_tool_dat->şifalı bitki</li>
+    <li>article_tool_dat->bir hayati monitör</li>
+    <li>article_tool_dat->bir neşter</li>
+    <li>article_tool_dat->şifacı mech serum dozu</li>
+    <li>article_tool_dat->ağrı kesici</li>
+    <li>action->kullanılır</li>
+    <li>action->gözden geçirilir</li>
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->inspecting</li> -->
+    <li>hediff->kan kaybı</li>
+    <li>hediff->kalp krizi</li>
+    <li>hediff->sıcak çarpması</li>
+    <li>hediff->gıda zehirlenmesi</li>
+    <li>hediff->karsinom</li>
+    <li>hediff->bağırsak solucanları</li>
+    <li>hediff->kas parazitleri</li>
+    <li>hediff->felçli abasia</li>
+    <li>hediff->Malaria</li>
+    <li>hediff->sıtma</li>
+    <li>hediff->grip</li>
+    <li>medical_verb->teşhis koyulur</li>
+    <li>medical_verb->triyaj yapılır</li>
+    <li>subject->anestezi dozu</li>
+    <li>subject->kanser türleri</li>
+    <li>subject->cerrahi prosedürler</li>
+    <li>subject->hastaya karşı tutum</li>
+    <li>subject->kısırlaştırma yöntemleri</li>
+  </LessonMedicine.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: melee lesson -->
+  <LessonMelee.label>yakın dövüş dersi</LessonMelee.label>
+  <!-- EN:
+    <li>article_tool->an axe</li>
+    <li>article_tool->a club</li>
+    <li>article_tool->a sword</li>
+    <li>article_tool->an elbow blade</li>
+    <li>article_tool->a hand talon</li>
+    <li>article_tool->a longsword</li>
+    <li>article_tool->a monosword</li>
+    <li>article_tool->a plasmasword</li>
+    <li>article_tool->a spear</li>
+    <li>article_tool->a mace</li>
+    <li>article_tool->a warhammer</li>
+    <li>article_tool->a fist</li>
+    <li>action->parry</li>
+    <li>action->fight with</li>
+    <li>action->counter</li>
+    <li>action->care for</li>
+    <li>action->use</li>
+    <li>action->swing</li>
+    <li>action_gerund->parrying</li>
+    <li>action_gerund->fighting with</li>
+    <li>action_gerund->countering</li>
+    <li>action_gerund->caring for</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->swinging</li>
+  -->
+  <LessonMelee.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->bir balta</li>
+    <li>article_tool_acc->bir sopa</li>
+    <li>article_tool_acc->bir kılıç</li>
+    <li>article_tool_acc->bir bıçak</li>
+    <li>article_tool_acc->bir hançer</li>
+    <li>article_tool_acc->uzun kıçık</li>
+    <li>article_tool_acc->mono kolıç</li>
+    <li>article_tool_acc->plazma kılıç</li>
+    <li>article_tool_acc->bir mızrak</li>
+    <li>article_tool_acc->bir gürz</li>
+    <li>article_tool_acc->savaş çekici</li>
+    <li>article_tool_acc->yumruk</li>
+    <li>article_tool_dat->bir balta</li>
+    <li>article_tool_dat->bir sopa</li>
+    <li>article_tool_dat->bir kılıç</li>
+    <li>article_tool_dat->bir bıçak</li>
+    <li>article_tool_dat->bir hançer</li>
+    <li>article_tool_dat->uzun kıçık</li>
+    <li>article_tool_dat->mono kolıç</li>
+    <li>article_tool_dat->plazma kılıç</li>
+    <li>article_tool_dat->bir mızrak</li>
+    <li>article_tool_dat->bir gürz</li>
+    <li>article_tool_dat->savaş çekici</li>
+    <li>article_tool_dat->yumruk</li>
+    <li>action->kullanılır</li>
+    <li>action_with->ile mücadele</li>
+    <li>action->savuşturulur</li>
+    <li>action->korunur</li>
+    <li>action->Kullanılır</li>
+    <li>action->savrulur</li>
+    <!-- <li>action_gerund->parrying</li> -->
+    <!-- <li>action_gerund->fighting with</li> -->
+    <!-- <li>action_gerund->countering</li> -->
+    <!-- <li>action_gerund->caring for</li> -->
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->swinging</li> -->
+  </LessonMelee.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: mining lesson -->
+  <LessonMining.label>madencilik dersi</LessonMining.label>
+  <!-- EN:
+    <li>article_tool->a pickaxe</li>
+    <li>article_tool->a deep drill</li>
+    <li>article_tool->a shovel</li>
+    <li>article_tool->a long-range mineral scanner</li>
+    <li>article_tool->a ground-penetrating scanner</li>
+    <li>action->use</li>
+    <li>action->mine with</li>
+    <li>action->work with</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->mining with</li>
+    <li>action_gerund->working with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->mineral veins</li>
+    <li>subject->precious gemstones</li>
+    <li>subject->geology</li>
+    <li>subject->tunneling</li>
+    <li>subject->sediment analysis</li>
+    <li>subject->cave-dwelling insects</li>
+    <li>situation(p=2)->underground</li>
+  -->
+  <LessonMining.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->bir kazma</li>
+    <li>article_tool_acc->derin bir matkap</li>
+    <li>article_tool_acc->kürek</li>
+    <li>article_tool_acc->uzun menzilli mineral tarayıcı</li>
+    <li>article_tool_acc->yeraltı tarayıcı</li>
+    <li>article_tool_dat->bir kazma</li>
+    <li>article_tool_dat->derin bir matkap</li>
+    <li>article_tool_dat->kürek</li>
+    <li>article_tool_dat->uzun menzilli mineral tarayıcı</li>
+    <li>article_tool_dat->yeraltı tarayıcı</li>
+    <li>action->kullanılır</li>
+    <li>action_with->madencilik ile</li>
+    <li>action_with->iş ile</li>
+    <li>action->incelenir</li>
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->mining with</li> -->
+    <!-- <li>action_gerund->working with</li> -->
+    <!-- <li>action_gerund->inspecting</li> -->
+    <li>subject->mineral damarları</li>
+    <li>subject->değerli taşlar</li>
+    <li>subject->jeoloji</li>
+    <li>subject->ünel açma</li>
+    <li>subject->tortu analizi</li>
+    <li>subject->mağarada yaşayan böcekler</li>
+    <li>situation(p=2)->yeraltı</li>
+  </LessonMining.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: gardening lesson -->
+  <LessonPlants.label>bahçıvanlık dersi</LessonPlants.label>
+  <!-- EN:
+    <li>article_tool->a sun lamp</li>
+    <li>article_tool->a hydroponics basin</li>
+    <li>article_tool->a sprinkler</li>
+    <li>article_tool->a shovel</li>
+    <li>article_tool->pruning shears</li>
+    <li>action->garden with</li>
+    <li>action->use</li>
+    <li>action->inspect</li>
+    <li>action_gerund->using</li>
+    <li>action_gerund->gardening with</li>
+    <li>action_gerund->inspecting</li>
+    <li>subject->types of soil</li>
+    <li>subject->pesticides</li>
+    <li>subject->irrigation techniques</li>
+    <li>subject->varieties of cacti</li>
+    <li>subject->anima trees</li>
+    <li>subject->gauranlen trees</li>
+  -->
+  <LessonPlants.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->bir güneş lambası</li>
+    <li>article_tool_acc->hidroponik havza</li>
+    <li>article_tool_acc->fıskiye</li>
+    <li>article_tool_acc->kürek</li>
+    <li>article_tool_acc->budama makası</li>
+    <li>article_tool_dat->bir güneş lambası</li>
+    <li>article_tool_dat->hidroponik havza</li>
+    <li>article_tool_dat->fıskiye</li>
+    <li>article_tool_dat->kürek</li>
+    <li>article_tool_dat->budama makası</li>
+    <li>action_with->bahçe ile</li>
+    <li>action->kullanılır</li>
+    <li>action->gözden geçirilir</li>
+    <!-- <li>action_gerund->using</li> -->
+    <!-- <li>action_gerund->gardening with</li> -->
+    <!-- <li>action_gerund->inspecting</li> -->
+    <li>subject->toprak türleri</li>
+    <li>subject->Tarım ilacı</li>
+    <li>subject->sulama teknikleri</li>
+    <li>subject->kaktüs çeşitleri</li>
+    <li>subject->anima ağaçları</li>
+    <li>subject->gauranlen ağaçları</li>
+  </LessonPlants.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: shooting lesson -->
+  <LessonShooting.label>atış dersi</LessonShooting.label>
+  <!-- EN:
+    <li>article_tool->a rifle</li>
+    <li>article_tool->a pistol</li>
+    <li>article_tool->a shotgun</li>
+    <li>article_tool->a rocket launcher</li>
+    <li>article_tool->an SMG</li>
+    <li>article_tool->a minigun</li>
+    <li>article_tool->a short bow</li>
+    <li>article_tool->a recurve bow</li>
+    <li>article_tool->a greatbow</li>
+    <li>action->aim</li>
+    <li>action->shoot</li>
+    <li>action->care for</li>
+    <li>action->reload</li>
+    <li>action_gerund->aiming</li>
+    <li>action_gerund->shooting</li>
+    <li>action_gerund->caring for</li>
+    <li>action_gerund->reloading</li>
+  -->
+  <LessonShooting.logRulesInitiator.rulesStrings>
+    <li>article_tool_acc->bir tüfek</li>
+    <li>article_tool_acc->bir pistol</li>
+    <li>article_tool_acc->bir pompalı tüfek</li>
+    <li>article_tool_acc->roketatar</li>
+    <li>article_tool_acc->bir SMG</li>
+    <li>article_tool_acc->bir minigun</li>
+    <li>article_tool_acc->Kısa yay</li>
+    <li>article_tool_acc->olimpik yay</li>
+    <li>article_tool_acc->uzun yay</li>
+    <li>article_tool_dat->bir tüfek</li>
+    <li>article_tool_dat->bir pistol</li>
+    <li>article_tool_dat->bir pompalı tüfek</li>
+    <li>article_tool_dat->roketatar</li>
+    <li>article_tool_dat->bir SMG</li>
+    <li>article_tool_dat->bir minigun</li>
+    <li>article_tool_dat->Kısa yay</li>
+    <li>article_tool_dat->olimpik yay</li>
+    <li>article_tool_dat->uzun yay</li>
+    <li>action_with->ile nişan alınır</li>
+    <li>action_with->ile ateş edilir</li>
+    <li>action->taşınır</li>
+    <li>action->şarjör değiştirilir</li>
+    <!-- <li>action_gerund->aiming</li> -->
+    <!-- <li>action_gerund->shooting</li> -->
+    <!-- <li>action_gerund->caring for</li> -->
+    <!-- <li>action_gerund->reloading</li> -->
+  </LessonShooting.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: social lesson -->
+  <LessonSocial.label>Sosyal ders</LessonSocial.label>
+  <!-- EN:
+    <li>subject->public speaking</li>
+    <li>subject->faction relations</li>
+    <li>subject->recruiting prisoners</li>
+    <li>subject->haggling techniques</li>
+    <li>subject->maintaining relationships</li>
+    <li>subject->comms console etiquette</li>
+    <li>subject->boosting morale</li>
+    <li>subject->naughty words</li>
+    <li>subject->sign language</li>
+  -->
+  <LessonSocial.logRulesInitiator.rulesStrings>
+    <li>subject->topluluk önünde konuşma</li>
+    <li>subject->fraksiyon ilişkileri</li>
+    <li>subject->mahkumları işe almaa</li>
+    <li>subject->pazarlık teknikleri</li>
+    <li>subject->ilişkileri sürdürmee</li>
+    <li>subject->iletişim konsolu görgü kuralları</li>
+    <li>subject->moral yükseltme</li>
+    <li>subject->yaramaz sözler</li>
+    <li>subject->işaret dili</li>
+  </LessonSocial.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: sanguophage chat -->
+  <SanguophageChat.label>sanguophage chat</SanguophageChat.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>talkedabout->spoke about</li>
+    <li>talkedabout->talked about</li>
+    <li>talkedabout->whispered about</li>
+    <li>talkedabout(p=0.5)->spoke [adverb] about</li>
+    <li>talkedabout(p=0.5)->talked [adverb] about</li>
+    <li>talkedabout(p=0.5)->whispered [adverb] about</li>
+    <li>talkedabout->shared a word about</li>
+    <li>talkedabout->exchanged thoughts about</li>
+    <li>talkedabout->exchanged ideas about</li>
+    <li>talkedabout->expressed shared interest in</li>
+    <li>talkedabout->debated about</li>
+    <li>talkedabout->argued about</li>
+    <li>talkedabout->shared stories of</li>
+    <li>adverb->amicably</li>
+    <li>adverb->quietly</li>
+    <li>adverb->softly</li>
+    <li>adverb->disgustedly</li>
+    <li>adverb->bitterly</li>
+    <li>adverb->wearily</li>
+    <li>adverb->thoughtfully</li>
+    <li>adverb->soberly</li>
+    <li>adverb->grimly</li>
+    <li>adverb->solemnly</li>
+    <li>subject(p=20)->plans for [planType]</li>
+    <li>subject(p=0.1)->[TalkTopicHeavy]</li>
+    <li>subject->hemogen</li>
+    <li>subject->blood quality</li>
+    <li>subject->cannibalism</li>
+    <li>subject->deathlessness</li>
+    <li>subject->entropy</li>
+    <li>subject->eternity</li>
+    <li>subject->the passage of time</li>
+    <li>subject->life and death</li>
+    <li>subject->deathrest</li>
+    <li>subject->cheating death</li>
+    <li>subject->thralls</li>
+    <li>subject->humanity</li>
+    <li>subject->fire</li>
+    <li>subject->burning</li>
+    <li>subject->pain</li>
+    <li>subject->agony</li>
+    <li>subject->beheading</li>
+    <li>subject->flaying enemies</li>
+    <li>subject->torture</li>
+    <li>subject->archites</li>
+    <li>subject->genetics</li>
+    <li>subject->genes</li>
+    <li>subject->xenotypes</li>
+    <li>subject->sanguophages</li>
+    <li>subject->hussars</li>
+    <li>subject->impids</li>
+    <li>subject->dirtmoles</li>
+    <li>subject->genies</li>
+    <li>subject->neanderthals</li>
+    <li>subject->pigskins</li>
+    <li>subject->wasters</li>
+    <li>subject->deep history</li>
+    <li>subject->the history of the future</li>
+    <li>planType->domination</li>
+    <li>planType->escape</li>
+    <li>planType->blending in</li>
+    <li>planType->wielding influence</li>
+    <li>planType->collecting hemogen</li>
+    <li>planType->mastering technology</li>
+    <li>planType->spreading to other worlds</li>
+    <li>planType->influencing humans</li>
+    <li>planType->destroying sanguophage hunters</li>
+    <li>planType->enjoying endless life</li>
+  -->
+  <SanguophageChat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef] [subject] hakkında konuştu.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında konuştu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] hakkında konuşuyorlardı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında konuştu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] hakkında fısıldaştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'e [subject] hakkında fısıldadı.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] hakkında [adverb] konuştu.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında [adverb] konuştu.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] hakkında [adverb] konuşuyordu.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında konuşuyordu.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject]üzerine [adverb] fısıldadı.</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında [adverb] fısıldadı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] konusuna ortak bir ilgi gösterdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] konusunu tartıştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında görüştü..</li>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] hakkında tartışıyorlardı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] hakkında tartıştı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef], [subject] hakkında hikayeler anlattı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'e [subject] hakkında bir hikaye anlattı.</li>
+    <li>adverb->dostane bir şekilde</li>
+    <li>adverb->sessizce</li>
+    <li>adverb->usulca</li>
+    <li>adverb->iğrenmişce</li>
+    <li>adverb->acıyla</li>
+    <li>adverb->gergince</li>
+    <li>adverb->düşkünce</li>
+    <li>adverb->kapsamlıca</li>
+    <li>adverb->acımasızca</li>
+    <li>adverb->tutkuluca</li>
+    <li>subject(p=20)->[planType] dair planlar</li>
+    <li>subject(p=0.1)->[TalkTopicHeavyAcc]</li>
+    <li>subject->homojen</li>
+    <li>subject->kanın kalitesi</li>
+    <li>subject->yamyamlık</li>
+    <li>subject->ölümsüzlük</li>
+    <li>subject->entropi</li>
+    <li>subject->sonsuzluk</li>
+    <li>subject->zamanın geçişi</li>
+    <li>subject->yaşam ve ölüm</li>
+    <li>subject->ölüm uykusu</li>
+    <li>subject->ölümü alt etme olasılığı</li>
+    <li>subject->köleler</li>
+    <li>subject->insanlık</li>
+    <li>subject->ateş</li>
+    <li>subject->yanma</li>
+    <li>subject->acı</li>
+    <li>subject->ıstırap</li>
+    <li>subject->kafa kesme</li>
+    <li>subject->düşmanların derisini yüzme</li>
+    <li>subject->işkence</li>
+    <li>subject->mimarlar</li>
+    <li>subject->Genetik</li>
+    <li>subject->gen</li>
+    <li>subject->zenotip</li>
+    <li>subject->sanguophages</li>
+    <li>subject->hafif süvariler</li>
+    <li>subject->impidler</li>
+    <li>subject->toprak kazıcı</li>
+    <li>subject->cinler</li>
+    <li>subject->Neandertaller</li>
+    <li>subject->domuz derililer</li>
+    <li>subject->çorak toprak sahipleri</li>
+    <li>subject->tarih öncesi</li>
+    <li>subject->geleceğin hikayesi</li>
+    <li>planType->dünya egemenliğine</li>
+    <li>planType->kaçmaya</li>
+    <li>planType->uyuma</li>
+    <li>planType->etkiye</li>
+    <li>planType->hemojen toplamaya</li>
+    <li>planType->teknolojiye hakim olmaya</li>
+    <li>planType->başka dünyaları fethetmeye</li>
+    <li>planType->diğer insanları manipüle etmeye</li>
+    <li>planType->sanguophages avcılarını yok etmeye</li>
+    <li>planType->sonsuz hayatın tadını çıkarmaya</li>
+  </SanguophageChat.logRulesInitiator.rulesStrings>
+  
+</LanguageData>

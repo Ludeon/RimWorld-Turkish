@@ -13,6 +13,22 @@
   <Close>Kapat</Close>
   <!-- EN: Accept -->
   <Accept>Kabul et</Accept>
+  <!-- EN: Cancel -->
+  <Cancel>TODO</Cancel>
+  <!-- EN: Reset -->
+  <Reset>Sıfırla</Reset>
+  <!-- EN: Reset all -->
+  <ResetAll>TODO</ResetAll>
+  <!-- EN: Disable -->
+  <Disable>TODO</Disable>
+  <!-- EN: Modify -->
+  <Modify>TODO</Modify>
+  <!-- EN: Settle here anyways? -->
+  <ConfirmSettle>TODO</ConfirmSettle>
+  <!-- EN: add -->
+  <Add>TODO</Add>
+  <!-- EN: Cannot shoot -->
+  <CannotShoot>TODO</CannotShoot>
   
   <!-- Game updated to new version -->
   <!-- EN: RimWorld has been updated from version {0} to version {1}. -->
@@ -25,6 +41,8 @@
   <GameUpdatedToNewVersionNonSteam>Bu, Steam dışı bir kopya olduğundan hem eski hem de yeni sürümleri oynayabilmek için oyunu iki farklı klasöre iki kez yüklemelisin.</GameUpdatedToNewVersionNonSteam>
   <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature.\n\n  1. In the Steam library, right-click RimWorld.\n  2. Click Properties.\n  3. Click the Betas tab.\n  4. Select the version you want from the drop-down menu. -->
   <GameUpdatedToNewVersionSteam>Eski sürüme devam etmek istiyorsan Steam'in "Betalar" özelliğini kullanabilirsin.\n\n1. Steam kütüphanesinden RimWorld'e sağ tıkla.\n 2. Özelliklere tıkla.\n3. Betalar sekmesine tıkla.\n4. Açılır menüden oynamak istediğin sürümü seç.</GameUpdatedToNewVersionSteam>
+  <!-- EN: If you wish to continue with the old version, you can opt in using Steam's "Betas" feature. -->
+  <GameUpdatedToNewVersionSteamController>TODO</GameUpdatedToNewVersionSteamController>
   
   <!-- Recovered from errors caused by mods -->
   <!-- EN: Recovered from incompatible or corrupted mods errors -->
@@ -161,10 +179,28 @@
   <ZoneGainsName>Alan artık {0} olarak adlandırılacak.</ZoneGainsName>
   
   <!-- Pawn naming -->
+  <!-- EN: Chosen name is invalid. -->
+  <NameInvalid>TODO</NameInvalid>
   <!-- EN: This person's nickname is now {0}. {PAWN_possessive} title is {PAWN_title}. -->
   <PawnGainsName>Bu kişinin takma adı artık {0}. Ünvanıysa {PAWN_title}.</PawnGainsName>
   <!-- EN: The animal's name is now {0}. -->
   <AnimalGainsName>Hayvanın adı artık {0}.</AnimalGainsName>
+  <!-- EN: rename person -->
+  <RenamePerson>TODO</RenamePerson>
+  <!-- EN: mother -->
+  <Mother>TODO</Mother>
+  <!-- EN: father -->
+  <Father>TODO</Father>
+  <!-- EN: unknown -->
+  <Unknown>TODO</Unknown>
+  <!-- EN: first name -->
+  <FirstName>TODO</FirstName>
+  <!-- EN: nickname -->
+  <NickName>TODO</NickName>
+  <!-- EN: last name -->
+  <LastName>TODO</LastName>
+  <!-- EN: suggested -->
+  <Suggested>TODO</Suggested>
 
   <!-- Save game incompatible warning -->
   <!-- EN: Version mismatch -->
@@ -177,8 +213,12 @@
   <FileIncompatibleWarning>Bu dosya {0} oyun sürümü ile kaydedildi\n{1} oyun sürümünü çalıştırıyoruz\n\nBu dosyanın yüklenmesi hatalara ve çökmelere neden olabilir.</FileIncompatibleWarning>
   <!-- EN: Mods mismatch -->
   <ModsMismatchWarningTitle>Mod uyuşmazlığı</ModsMismatchWarningTitle>
-  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do.\n\nFile was saved with (in this order):\n\n{0}\n\nWe are running with (in this order):\n\n{1} -->
+  <!-- EN: This file was saved with a different set of mods active than those we are currently running. This may or may not cause problems, depending on exactly what these mods do. -->
   <ModsMismatchWarningText>Bu kayıt şu anda çalıştırmakta olduğumuz modlardan farklı modlarla kaydedilmiş. Bu, bu modların tam olarak ne yaptığına bağlı olarak sorunlara neden olabilir veya olmayabilir.\n\nDosya şu sırayla kaydedildi:\n\n{0}\n\nBiz ise şu sırayla çalıştıyoruz:\n\n{1}</ModsMismatchWarningText>
+  <!-- EN: No mods have been added or removed, but the order of your mod list has changed. -->
+  <ModsMismatchOrderChanged>TODO</ModsMismatchOrderChanged>
+  <!-- EN: Are you sure you want to load the mod list from this save file? -->
+  <ConfirmLoadSaveList>TODO</ConfirmLoadSaveList>
 
   <!-- Resolution change dialog -->
   <!-- EN: You've changed your screen settings. Do the new ones work okay?\n\nAuto-reverting in {0}... -->
@@ -191,7 +231,19 @@
   <!-- Confirm permanently disable dev mode -->
   <!-- EN: Do you really want to permanently disable development mode on this computer?\n\nThis option is for people who want a pure play experience without the temptation to use development tools to gain advantage in normal play.\n\nDevelopment mode can be re-enabled, but doing so requires manually editing configuration files. You'll need to search the Internet to find out how. -->
   <ConfirmPermanentlyDisableDevMode>Gerçekten bu bilgisayarda geliştirici modunu kalıcı olarak devre dışı bırakmak istiyor musun?\n\nBu seçenek normal oyunda avantaj elde etmek için geliştirici araçlarını kullanmak istemeyen, saf bir oyun deneyimi isteyenler içindir.\n\nGeliştirici modu yeniden etkinleştirilebilir ancak bunun için yapılandırma dosyalarının manuel olarak düzenlenmesi gerekir. Nasıl yapılacağını öğrenmek için internette arama yapman gerekecek.</ConfirmPermanentlyDisableDevMode>
-  
+
+  <!-- Confirm reset learning helper -->
+  <!-- EN: Are you sure you want to reset the learning helper?\n\nAll records of which concepts have been learned will be erased and the system will teach everything from scratch. -->
+  <ConfirmResetLearningHelper>TODO</ConfirmResetLearningHelper>
+
+  <!-- Backstory translation restart dialog -->
+  <!-- EN: Backstories are now implemented as a def and all legacy backstory translations have been imported into def translations. The file {0} has been imported and moved to {1}. It can now be deleted.\n\nRestart the game for changes to take effect. -->
+  <RestartAfterImportingLegacyBackstoryTanslations>TODO</RestartAfterImportingLegacyBackstoryTanslations>
+
+  <!-- Game start -->
+  <!-- EN: Must include exactly {SUMMARY} -->
+  <SelectedCharactersMustInclude>TODO</SelectedCharactersMustInclude>
+
   <!-- Advanced game start options -->
   <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
   <MapTemperatureDangerWarning>Dikkat: Donmuş bir ortama ineceksin. Hayatta kalmak neredeyse imkansız. Aşırı zorluklarla karşılaşmak istemiyorsan, farklı bir yer veya mevsim seç.</MapTemperatureDangerWarning>
@@ -252,10 +304,10 @@
   <WorkAmount>İş miktarı</WorkAmount>
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Minimum beceri:</MinimumSkills>
-  <!-- EN: Requires {0} {1} -->
+  <!-- EN: Requires -->
   <BillRequires>{0} {1} gerektirir</BillRequires>
-  <!-- EN: Requires {0} nutrition -->
-  <BillRequiresNutrition>{0} beslenme gerektirir</BillRequiresNutrition>
+  <!-- EN: nutrition -->
+  <BillNutrition>TODO</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
   <BillRequiresMayVary>Not: Altın gibi küçük hacimli malzemeler {0} kat daha fazlasını gerektiririr.</BillRequiresMayVary>
   <!-- EN: This is a small-volume ingredient. This means that each 'unit' is only 1/{0} as much as a normal-volume ingredient. So, to fill the same ingredient requirement, you'll need {0}x as much as usual. -->
@@ -312,6 +364,8 @@
   <WarmupTime>Hazırlık süresi</WarmupTime>
   <!-- EN: Melee warmup -->
   <MeleeWarmupTime>Yakın dövüş hazırlık süresi</MeleeWarmupTime>
+  <!-- EN: Aiming time -->
+  <RangedWarmupTime>TODO</RangedWarmupTime>
   <!-- EN: Cooldown -->
   <CooldownTime>Bekleme süresi</CooldownTime>
   <!-- EN: Disarmed -->
@@ -430,8 +484,12 @@
   <ToleranceFallRate>Tolerans azalma oranı</ToleranceFallRate>
   <!-- EN: New addiction min tolerance -->
   <MinimumToleranceForAddiction>Yeni bağımlılık için gereken minimum tolerans</MinimumToleranceForAddiction>
-  <!-- EN: Safe dose interval -->
+  <!-- EN: Safe dose interval for adults -->
   <SafeDoseInterval>Güvenli kullanım aralığı</SafeDoseInterval>
+  <!-- EN: age {0}-{1} -->
+  <AgeXToY>TODO</AgeXToY>
+  <!-- EN: age {0}+ -->
+  <AgePlus>TODO</AgePlus>
   <!-- EN: New addiction chance -->
   <Addictiveness>Yeni bağımlılık şansı</Addictiveness>
   <!-- EN: Addiction initial severity -->
@@ -482,7 +540,7 @@
   <NuzzleIntervalExplanation>Bir hayvan ortalama olarak dost kolonistlere ne kadar sıklıkta sarılır.\n\nÇoğu hayvan türüne göre burnunu veya ağzını dostuna sürtmek bir şefkat göstergesidir.\nÇoğu insan bunu sevimli bir hareket olarak görür ve bir süre ruh halleri daha pozitif olur.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
   <HarmedRevengeChance>Zarar görünce intikam alma şansı</HarmedRevengeChance>
-  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that so slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
+  <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
   <HarmedRevengeChanceExplanation>Bu canlının bir saldırgan tarafından zarar görünce saldırma şansı.\n\nAvcı daha yakınsa bu şans artar. Hayvan çok yakın mesafeden saldırıya uğrarsa şans üçe katlanır.\nBu şans her hasar alındığında uygulanır, bu nedenle daha yavaş ateş eden, daha yüksek hasar veren silahların bu arzuyu tetikleme olasılığı daha düşüktür.\nBir canlının intikam alma şansını en aza indirmek için uzun menzilli ve tek atışta öldürebilecek silahlar kullan.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
   <TameFailedRevengeChance>Evcilleştirilemediğinde intikam alma şansı</TameFailedRevengeChance>
@@ -494,8 +552,10 @@
   <TrapArmorPenetration>Tuzak zırh delmesi</TrapArmorPenetration>
   <!-- EN: Rearm cost -->
   <RearmCost>Yeniden silahlandırma maliyeti</RearmCost>
-  <!-- EN: Resources needed to rearm this turret (affected by difficulty). -->
+  <!-- EN: Resources needed to rearm this turret -->
   <RearmCostExplanation>Bu tareti yeniden silahlandırmak için gerekli kaynaklar (zorluk seviyesinden etkilenir).</RearmCostExplanation>
+  <!-- EN: affected by difficulty -->
+  <RearmCostExplanationDifficulty>TODO</RearmCostExplanationDifficulty>
   <!-- EN: Shots before rearm -->
   <ShotsBeforeRearm>Yeniden silahlandırmadan yapılan atışlar</ShotsBeforeRearm>
   <!-- EN: How many shots this turret can fire before it has to be rearmed. -->
@@ -522,7 +582,7 @@
   <MeditationFocuses>meditasyon odak türleri</MeditationFocuses>
   <!-- EN: Unlocks meditation focus types -->
   <MeditationFocusesUnlocked>Med-odak türlerinin kilidini açar</MeditationFocusesUnlocked>
-  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an obejct to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
+  <!-- EN: The types of meditation focus this person can use. When meditating, a person can focus on an object to boost their psyfocus gain - but only if that object offers a focus type they can use. Each person's meditation types are determined by their background, traits, social position, and so on. -->
   <MeditationFocusesPawnDesc>Bu kişinin kullanabileceği med-odak türleri. Meditasyon yaparken bir kişi psiko-odak kazanımı arttırmak için bir nesneye odaklanabilir, tabii ki eğer bu nesne kullanabilecekleri bir odak türü sağlıyorsa. Kişilerin meditasyon türleri, geçmişine, kişisel özelliklerine, sosyal konumlarına vb. ilişkilidir.</MeditationFocusesPawnDesc>
   <!-- EN: The types of meditation focus this object offers. A meditating person can focus on this object to boost their psyfocus gain, but only if they are able to use one of its meditation types. Each person can use different meditation types depending on their background, traits, social position, and so on. -->
   <MeditationFocusesDesc>Bu nesnede kullanılabilen med-odak türleri. Meditasyon yaparken, bir kişi psiko-odak kazanımı arttırmak için bir nesneye odaklanabilir, tabii ki eğer bu nesne kullanabilecekleri bir odak türü sağlıyorsa. Kişilerin meditasyon türleri geçmişine, kişisel özelliklerine, sosyal konumlarına vb. ilişkilidir.</MeditationFocusesDesc>
@@ -684,6 +744,8 @@
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(yalnızca ilk ara nokta dikkate alınır)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <!-- EN: Your caravan only has {0} days worth of food and will become hungry quickly. -->
   <DaysWorthOfFoodWarningDialog>Kervanında sadece {0} günlük yiyecek var ve hızlı acıkacaklar.</DaysWorthOfFoodWarningDialog>
+  <!-- EN: Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy. -->
+  <DaysWorthOfFoodDietWarningDialog>TODO</DaysWorthOfFoodDietWarningDialog>
   <!-- EN: Your caravan has no food and will become hungry very quickly. -->
   <DaysWorthOfFoodWarningDialog_NoFood>Kervanında yiyecek yok ve her an aç kalabilirler.</DaysWorthOfFoodWarningDialog_NoFood>
   <!-- EN: The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates. -->
@@ -782,6 +844,8 @@
   <TotalBodySize>Toplam vücut boyutu</TotalBodySize>
   <!-- EN: Automatically select travel supplies -->
   <AutomaticallySelectTravelSupplies>Seyahat erzaklarını otomatik olarak seç</AutomaticallySelectTravelSupplies>
+  <!-- EN: This animal is sick. It is suffering from the following illnesses -->
+  <CaravanAnimalSick>TODO</CaravanAnimalSick>
 
   <!-- Split caravan -->
   <!-- EN: Split caravan -->
@@ -922,6 +986,8 @@
   <!-- Food restriction management -->
   <!-- EN: Food restriction -->
   <FoodRestriction>Gıda kısıtlaması</FoodRestriction>
+  <!-- EN: Food -->
+  <FoodRestrictionShort>TODO</FoodRestrictionShort>
   <!-- EN: Lavish -->
   <FoodRestrictionLavish>Lüks</FoodRestrictionLavish>
   <!-- EN: Fine -->
@@ -944,6 +1010,8 @@
   <NoFoodRestrictionSelected>Hiçbir gıda kısıtlaması seçilmemiş</NoFoodRestrictionSelected>
 
   <!-- Medical settings -->
+  <!-- EN: Default medicine settings -->
+  <DefaultMedicineSettings>TODO</DefaultMedicineSettings>
   <!-- EN: Defaults -->
   <MedGroupDefaults>Varsayılan</MedGroupDefaults>
   <!-- EN: Colonist -->
@@ -992,7 +1060,7 @@
   <ConfirmSendNotCompletelyLoadedPods>Kapsül tamamen yüklenmedi. {1_labelShort} eksik. Yine de fırlatılsın mı?</ConfirmSendNotCompletelyLoadedPods>
 
   <!-- Settle near a faction base -->
-  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days.\n\nSettle here anyways? -->
+  <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
   <ConfirmSettleNearFactionBase>Bu konum {0} başka bir fraksiyonun üssünün içinde olduğundan, kendi topraklarında tecavüze uğradıklarını hissedecekler ve bu fraksiyonla ilişkin her {1} günde bir kötüleşecek.\n\nCanına susayıp yerleşecek misin?</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
@@ -1010,6 +1078,8 @@
   <ConfirmCancelMonumentMarker>Bu anıt işaretleyiciyi gerçekten kaldırmak istiyor musun?</ConfirmCancelMonumentMarker>
 
   <!-- Abilities -->
+  <!-- EN: Cannot use {0} -->
+  <CannotUseAbility>TODO</CannotUseAbility>
   <!-- EN: Line of sight required -->
   <AbilityRequiresLOS>Net görüş gerekli</AbilityRequiresLOS>
   <!-- EN: Neural heat gain -->
@@ -1024,15 +1094,17 @@
   <AbilityCastingTime>Döküm süresi</AbilityCastingTime>
   <!-- EN: No line of sight to target. -->
   <AbilityCannotHitTarget>Hedefe doğru net bir görüş yok.</AbilityCannotHitTarget>
+  <!-- EN: Target is out of range. -->
+  <AbilityOutOfRange>TODO</AbilityOutOfRange>
   <!-- EN: Can't reach the target. -->
   <AbilityCannotReachTarget>Hedefe erişilemiyor.</AbilityCannotReachTarget>
   <!-- EN: Not enough free space. -->
   <AbilityNotEnoughFreeSpace>Yetersiz boş alan.</AbilityNotEnoughFreeSpace>
-  <!-- EN: {0} must target an empty area. -->
+  <!-- EN: Must target an empty area. -->
   <AbilityOccupiedCells>{0} boş bir alanı hedeflemelidir.</AbilityOccupiedCells>
-  <!-- EN: {0} must target a walkable area. -->
+  <!-- EN: Must target a walkable area. -->
   <AbilityUnwalkable>{0} yürünebilir bir alanı hedeflemelidir.</AbilityUnwalkable>
-  <!-- EN: {0} must target an unroofed area. -->
+  <!-- EN: Must target an unroofed area. -->
   <AbilityRoofed>{0} çatısız bir alanı hedeflemelidir.</AbilityRoofed>
   <!-- EN: {0_labelShort} is mentally broken. -->
   <AbilityCantApplyToMentallyBroken>{0_labelShort} ruhsal olarak çökük.</AbilityCantApplyToMentallyBroken>
@@ -1052,6 +1124,10 @@
   <AbilityCantApplyOnAsexual>Kullanamıyor: {0} aseksüel.</AbilityCantApplyOnAsexual>
   <!-- EN: {1_labelShort} is the wrong gender for {0_labelShort}. -->
   <AbilityCantApplyWrongAttractionGender>{1_labelShort} {0_labelShort} için yanlış cinsiyette.</AbilityCantApplyWrongAttractionGender>
+  <!-- EN: {0_labelShort} is too young. -->
+  <AbilityCantApplyTooYoung>TODO</AbilityCantApplyTooYoung>
+  <!-- EN: Cannot target a baby. -->
+  <AbilityCantApplyOnBaby>TODO</AbilityCantApplyOnBaby>
   <!-- EN: Psyfocus cost per mental break intensity -->
   <PsyfocusCostPerMentalBreakIntensity>Ruhsal çöküş şiddeti başına psiko-odak maliyeti</PsyfocusCostPerMentalBreakIntensity>
   <!-- EN: {0_labelShort} is already inspired. -->
@@ -1182,7 +1258,72 @@
   <!-- EN: no altars allowed -->
   <RoomRequirementNoAltars>sunaklara izin verilmez</RoomRequirementNoAltars>
 
+  <!-- EN: Lifestage max food factor -->
+  <LifeStageMaxFood>TODO</LifeStageMaxFood>
+
+  <!-- EN: Expand all -->
+  <ExpandAllCategories>TODO</ExpandAllCategories>
+  <!-- EN: Collapse all -->
+  <CollapseAllCategories>TODO</CollapseAllCategories>
+
+  <!-- EN: Dye can be farmed from tinctoria or purchased from traders. -->
+  <TooltipDyeExplanation>TODO</TooltipDyeExplanation>
+
+  <!-- EN: Zoom range {0} -->
+  <ZoomRange>TODO</ZoomRange>
+
+  <!-- Color picker -->
+  <!-- EN: color temperature -->
+  <ColorTemperature>TODO</ColorTemperature>
+  <!-- EN: choose a color -->
+  <ChooseAColor>TODO</ChooseAColor>
+  <!-- EN: red -->
+  <Red>TODO</Red>
+  <!-- EN: green -->
+  <Green>TODO</Green>
+  <!-- EN: blue -->
+  <Blue>TODO</Blue>
+  <!-- EN: hue -->
+  <Hue>TODO</Hue>
+  <!-- EN: sat -->
+  <Saturation>TODO</Saturation>
+  <!-- EN: value -->
+  <ColorValue>TODO</ColorValue>
+  <!-- EN: darklight -->
+  <Darklight>TODO</Darklight>
+  <!-- EN: not darklight -->
+  <NotDarklight>TODO</NotDarklight>
+  <!-- EN: current color -->
+  <CurrentColor>TODO</CurrentColor>
+  <!-- EN: old color -->
+  <OldColor>TODO</OldColor>
+  <!-- EN: Copy color -->
+  <CommandCopyColorLabel>TODO</CommandCopyColorLabel>
+  <!-- EN: Copy the current color to the clipboard. -->
+  <CommandCopyColorDesc>TODO</CommandCopyColorDesc>
+  <!-- EN: Paste color -->
+  <CommandPasteColorLabel>TODO</CommandPasteColorLabel>
+  <!-- EN: Overwrite the color with the color in the clipboard. -->
+  <CommandPasteColorDesc>TODO</CommandPasteColorDesc>
+  <!-- EN: The clipboard does not contain a valid color. -->
+  <ClipboardInvalidColor>TODO</ClipboardInvalidColor>
+  <!-- EN: Color copied to clipboard. -->
+  <ColorCopiedSuccessfully>TODO</ColorCopiedSuccessfully>
+  <!-- EN: Updated color from the clipboard. -->
+  <ColorPastedSuccessfully>TODO</ColorPastedSuccessfully>
+  <!-- EN: Change to normal light -->
+  <ToggleDarklightOff>TODO</ToggleDarklightOff>
+  <!-- EN: Change the light color to its normal color. -->
+  <ToggleDarklightOffDesc>TODO</ToggleDarklightOffDesc>
+  <!-- EN: Change to darklight -->
+  <ToggleDarklightOn>TODO</ToggleDarklightOn>
+  <!-- EN: Change the light color to darklight. -->
+  <ToggleDarklightOnDesc>TODO</ToggleDarklightOnDesc>
+  <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
+  <ColorTemperatureTooltip>TODO</ColorTemperatureTooltip>
+
   <!-- UNUSED -->
+  <BillRequiresNutrition>{0} beslenme gerektirir</BillRequiresNutrition>
   <AnimalFilthRate>Hayvan pislik oranı</AnimalFilthRate>
   <AnimalFilthRateExplanation>Hayvanlar inşa edilmiş zeminlerde hareket ederken pislik üretirler.\n\nBu, canlı tarafından yürünen {0} hücre başına üretilen pisliğin ortalama miktarıdır.\n\nDaha büyük veya daha az evcil hayvanlar daha fazla pislik üretir.</AnimalFilthRateExplanation>
   <FoodAndMedicineTab>Seyahat malzemeleri</FoodAndMedicineTab>

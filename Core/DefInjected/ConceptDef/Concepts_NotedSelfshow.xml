@@ -25,11 +25,15 @@
   <CameraDolly.label>Kamera hareketi</CameraDolly.label>
   <!-- EN: Move the camera by clicking and dragging the MOUSE BUTTON 3 (middle button) or with the {Key:MapDolly_Up}-{Key:MapDolly_Left}-{Key:MapDolly_Down}-{Key:MapDolly_Right} keys. -->
   <CameraDolly.helpText>Kamerayı hareket ettirmek için MOUSE TEKERLEĞİ'ne basarak sürükle veya {Key:MapDollyUp}-{Key:MapDollyLeft}-{Key:MapDollyDown}-{Key:MapDollyRight} tuşlarını kullan.</CameraDolly.helpText>
+  <!-- EN: Move the camera by using the D-pad. -->
+  <CameraDolly.helpTextController>TODO</CameraDolly.helpTextController>
   
   <!-- EN: Camera zoom -->
   <CameraZoom.label>Kamera yakınlaştırma</CameraZoom.label>
   <!-- EN: Zoom in and out with the MOUSEWHEEL or the {Key:MapZoom_In} and {Key:MapZoom_Out} keys. -->
   <CameraZoom.helpText>FARE TEKERLEĞİ veya {Key:MapZoomIn} ve {Key:MapZoomOut} tuşlarıyla ekrana yakınlaşıp uzaklaşabilirsin.</CameraZoom.helpText>
+  <!-- EN: Zoom in and out with {Key:MapZoom_In} and {Key:MapZoom_Out}. -->
+  <CameraZoom.helpTextController>TODO</CameraZoom.helpTextController>
   
   <!-- EN: Clicking messages -->
   <ClickingMessages.label>Mesaja tıklama</ClickingMessages.label>
@@ -50,6 +54,8 @@
   <EquippingWeapons.label>Silah donanma</EquippingWeapons.label>
   <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and right-click on the weapon you want them to equip. -->
   <EquippingWeapons.helpText>Kolonistlerin yanlarında birkaç silahla geldiler. Donan!\n\nHer bir koloniste tek tek sağ-tıkla ve donanmalarını istediğin silahı seç.</EquippingWeapons.helpText>
+  <!-- EN: Your colonists arrived with some weapons. Equip them!\n\nSelect each colonist and press the left trigger on the weapon you want them to equip. -->
+  <EquippingWeapons.helpTextController>TODO</EquippingWeapons.helpTextController>
   
   <!-- EN: Fire preparation -->
   <FirePreparation.label>Yangın için hazırlık</FirePreparation.label>
@@ -73,7 +79,7 @@
   
   <!-- EN: Friendly fire safety -->
   <FriendlyFireSafety.label>Güvenli dost ateşi</FriendlyFireSafety.label>
-  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over his friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
+  <!-- EN: Friendly fire never occurs if the shooter is close to their ally.\n\nFor example, you can safely put a sword-wielding colonist directly in front of a gun-wielding one. The shooter will fire over their friend's shoulder.\n\nThis is a good way to combine ranged and melee fighters. -->
   <FriendlyFireSafety.helpText>Nişancın müttefiklerine yakınsa onlara asla ateş etmez.\n\nÖrneğin, bir kılıç kullanabilen kolonisti direkt olarak silah kullanan birinin önüne koyabilirsiniz. Nişancı, arkadaşının omuzunun üstünden ateş eder.\n\nBu menzilli ve menzilsiz savaşçıları kombine etmenin harika bir yolu.</FriendlyFireSafety.helpText>
   
   <!-- EN: Getting more traders -->
@@ -102,14 +108,9 @@
   <HostilityResponse.helpText>Yırtıcı hayvanlar gibi tehlikeler karşısında kolonistlerinin tepkisinin ne olacağını ayarlayabilirsin.\n\nATAMA sekmesinden KAÇ, SALDIR ve GÖRMEZDEN GEL gibi seçenekler seçilebilir.</HostilityResponse.helpText>
   
   <!-- EN: Info card -->
-  <InfoCard.label>Bilgi kardı</InfoCard.label>
+  <InfoCard.label>Bilgi kartı</InfoCard.label>
   <!-- EN: The info card shows you detailed statistics about any item, person, or construction.\n\nSelect a person or item and open their info card with the 'i' button on the inspect pane. -->
-  <InfoCard.helpText>Bilgi kardı herhangi bir eşyanın, yapının yada kişiyle ilgili detaylı istatistik sağlar. \n\nBir şeyle ilgili detaylı bilgiye ihtiyaç duyuyorsan 'i' butonuna tıklayarak ihtiyacını giderebilirsin :) .</InfoCard.helpText>
-  
-  <!-- EN: Room stats inspector -->
-  <InspectRoomStats.label>Oda istatistikleri</InspectRoomStats.label>
-  <!-- EN: You can inspect the impressiveness, wealth, and beauty of individual rooms using the ROOM STATS INSPECT toggle in the bottom right. -->
-  <InspectRoomStats.helpText>Ekranın sağ alt tarafında bulunan ODA ÖZELLİKLERİ ne tıklayarak odanın güzelliğini, etkileyiciliğini ve zenginliğini inceleyebilirsin.</InspectRoomStats.helpText>
+  <InfoCard.helpText>Bilgi kartı herhangi bir eşyanın, yapının yada kişiyle ilgili detaylı istatistik sağlar. \n\nBir şeyle ilgili detaylı bilgiye ihtiyaç duyuyorsan 'i' butonuna tıklayarak ihtiyacını giderebilirsin.</InfoCard.helpText>
   
   <!-- EN: Manual work priorities -->
   <ManualWorkPriorities.label>Manuel iş önceliklendirme</ManualWorkPriorities.label>
@@ -156,6 +157,11 @@
   <!-- EN: You can configure stockpiles and storage buildings by selecting them and opening the STORAGE TAB above the bottom-left inspector pane.\n\nIn the storage tab of a stockpile, you can expand categories to allow or deny specific items. Click the triangles to the left of category names.\n\nYou can change the PRIORITY of storage. Colonists will fill higher-priority storage first, and move items from lower to higher priority. -->
   <StorageTab.helpText>Stokları ve depo yapılarını DEPOLAMA SEKMESİ içerisinden inceleyebilirsin.\n\nDepolama sekmesinden stoklara koyulacak eşyaları ayarlayabilir yada stoğu genişletebilirsin.\n\nBunun dışında depoların ÖNCELİĞİNİ ayarlayabilirsin. Kolonistler depoları önceliklerine göre doldurur.</StorageTab.helpText>
   
+  <!-- EN: Tile inspector -->
+  <TileInspector.label>TODO</TileInspector.label>
+  <!-- EN: You can inspect the details of a tile by holding {Key:ShowCellInspector}. This displays the contents of a tile, room information, beauty information, and more. -->
+  <TileInspector.helpText>TODO</TileInspector.helpText>
+  
   <!-- EN: Time assignments -->
   <TimeAssignments.label>Zaman atamaları</TimeAssignments.label>
   <!-- EN: You can modify what time of day colonists should do different activities using the RESTRICT tab. -->
@@ -165,6 +171,8 @@
   <TimeControls.label>Zaman kontrolü</TimeControls.label>
   <!-- EN: You can speed up time.\n\nTry controlling time with the {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, and {Key:TimeSpeed_Superfast} keys, or with the time controls in the bottom right. -->
   <TimeControls.helpText>Zamanı hızlandırabilirsin.\n\nZamanı {Key:TimeSpeed_Normal}, {Key:TimeSpeed_Fast}, {Key:TimeSpeed_Superfast} tuşlarıyla yada sağ alttan kontrol edebelirsin.</TimeControls.helpText>
+  <!-- EN: You can speed up time.\n\nTry controlling time with {Key:TimeSpeed_Faster} and {Key:TimeSpeed_Slower}, or with the time controls in the bottom right. -->
+  <TimeControls.helpTextController>TODO</TimeControls.helpTextController>
   
   <!-- EN: Work settings -->
   <WorkTab.label>Çalışma ayarlamaları</WorkTab.label>

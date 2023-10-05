@@ -6,9 +6,9 @@
   <!-- EN: You can hold the shift key to queue orders on your colonists. -->
   <GameplayTips.QueueOrders>Shift tuşuna basılı tutarak kolonicilerinize vereceğiniz emirleri sıralayabilirsiniz.</GameplayTips.QueueOrders>
   <!-- EN: You can right-click and drag to reorder colonists on the colonist bar. -->
-  <GameplayTips.ReorderColonistbar>Sağ tıklayıp sürükleyerek kolonicilerinizi, kolonici çubuğunda yeniden sıralayabilirsiniz.</GameplayTips.ReorderColonistbar>
+  <GameplayTips.ReorderColonistbar>Sağ tıklayıp sürükleyerek kolonistlerinizi, kolonici çubuğunda yeniden sıralayabilirsiniz.</GameplayTips.ReorderColonistbar>
   <!-- EN: You can select previous/next colonist with the , and . keys. -->
-  <GameplayTips.SelectPrevNextColonist>"," ve "." tuşları ile önceki/sonraki kolonicilerinizi seçebilirsiniz.</GameplayTips.SelectPrevNextColonist>
+  <GameplayTips.SelectPrevNextColonist>"," ve "." tuşları ile önceki/sonraki kolonistlerinizi seçebilirsiniz.</GameplayTips.SelectPrevNextColonist>
   <!-- EN: Many menus allow you to click and drag a setting to 'paint' it over many entries. This even works for things like outfits or food restrictions. -->
   <GameplayTips.SettingPainting>Birçok menü, birçok girişin üzerine 'boyamak' için bir ayarı tıklayıp sürüklemenize izin verir. Bu, kıyafetler veya yiyecek kısıtlamaları gibi şeyler için bile işe yarar.</GameplayTips.SettingPainting>
   <!-- EN: In the work tab's manual priorities mode, 1 is first priority, while 4 is last priority. -->
@@ -19,6 +19,8 @@
   <GameplayTips.WorkTabChangeAllColonists>Çalışma sekmesindeki iş tiplerinden birinin ismine sağ tıklamak, o iş için yapılan değişikliği bütün kolonicilere uygular.</GameplayTips.WorkTabChangeAllColonists>
   <!-- EN: Right-clicking a number in the Work tab using manual priorities will reduce the priority instead of increasing it. -->
   <GameplayTips.WorkTabDecreasePriority>Çalışma sekmesinde manuel öncelikler ayarlanırken bir sayıya sağ tıklamak, önceliği arttırmak yerine azaltacaktır.</GameplayTips.WorkTabDecreasePriority>
+  <!-- EN: You can hold the alt key to show detailed information about a specific tile. -->
+  <GameplayTips.CellInspector>TODO</GameplayTips.CellInspector>
   <!-- EN: In a gunfight, always be behind cover! Right-click and drag to have your drafted fighters form a line. -->
   <GameplayTips.GunfightCover>Bir silahlı çatışmada, daima bir koruma arkasında ol! Sağ tıklayıp sürükleyerek, görevlendirilmiş kolonicilerini bir hat oluşturması sağla.</GameplayTips.GunfightCover>
   <!-- EN: Right-click and drag to have your drafted fighters form a line. Bunched-up targets are easy to hit! -->
@@ -53,15 +55,15 @@
   <GameplayTips.AnimalDeathExplosionRain>Eğer boomrat ve boomalopeları yağmur yağarken avlarsanız, ölümleri orman yangınlarına sebep olmaz.</GameplayTips.AnimalDeathExplosionRain>
   <!-- EN: Carefully-slaughtered animals yield more meat and leather than those who were killed violently. -->
   <GameplayTips.GreaterSlaughterYield>Dikkatlice kesilmiş hayvanlar, vahşice öldürülmüş hayvanlara göre daha fazla et ve deri vermektedir.</GameplayTips.GreaterSlaughterYield>
-  <!-- EN: Place a caravan packing spot to designate where you want your caravans to form up. -->
-  <GameplayTips.CaravanPackingSpot>Kervanlarınızın nerede toplanacağını belirlemek için bir kervan toplanma noktası yerleştirin.</GameplayTips.CaravanPackingSpot>
-  <!-- EN: Single-person caravans can be very useful in certain situations. -->
-  <GameplayTips.CaravanSinglePerson>Tek kişilik kervanlar bazı durumlarda ok kullanışlı olabilir.</GameplayTips.CaravanSinglePerson>
+  <!-- EN: Place the caravan hitching spot where you want your caravans to form up. It's usually best to place it near your storage areas. -->
+  <GameplayTips.CaravanHitchingSpot>TODO</GameplayTips.CaravanHitchingSpot>
+  <!-- EN: During encounters away from home, you can place a caravan hitching spot to keep your animals from wandering. -->
+  <GameplayTips.CaravanHitchingSpotRoamers>TODO</GameplayTips.CaravanHitchingSpotRoamers>
   <!-- EN: Caravans move faster if they include rideable animals like horses, donkeys and dromedaries. -->
   <GameplayTips.CaravanRideableAnimals>At, eşek ve hörgüçlü hayvanlar içeren kervanlar, daha hızlı hareket eder.</GameplayTips.CaravanRideableAnimals>
   <!-- EN: Smaller caravans get attacked less often because they're less visible. -->
   <GameplayTips.CaravanSmallerLessVisible>Küçük kervanlar daha az saldırıya uğrar çünkü daha zor tespit edilirler.</GameplayTips.CaravanSmallerLessVisible>
-  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster. -->
+  <!-- EN: Before forming a caravan, collect the items you want to send in a stockpile near your caravan hitching spot. This will make packing much faster. -->
   <GameplayTips.CaravanStockpileNearPackingSpot>Bir kervan oluşturmadan önce yanına alacağın eşyaları kervan toplama noktası yanındaki bir stok sahasına taşıt. Bu toplanmayı çok daha hızlı hale getirecektir.</GameplayTips.CaravanStockpileNearPackingSpot>
   <!-- EN: If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight. -->
   <GameplayTips.CaravanUntrainedAnimals>Eğer kervanında eğitimsiz hayvanların varsa, savaştan uzak tutmak için onları savaş öncesi ayrı bir kervana bölebilirsin.</GameplayTips.CaravanUntrainedAnimals>
@@ -73,8 +75,10 @@
   <GameplayTips.BadAllies>Bazı koloniciler kullanışsızdan da kötüdürler. Kötü müttefikler zorluğun bir parçası.</GameplayTips.BadAllies>
   <!-- EN: If you can't defend against a threat, make a caravan and run. You may lose your home, but your story can continue. -->
   <GameplayTips.MakeCaravanRunBeforeDefeat>Eğer bir tehdite karşı savunma yapabileceğini düşünmüyorsan, bir kervan oluştur ve kaç. Evini kaybedebilirsin ancak hikayen devam edecektir.</GameplayTips.MakeCaravanRunBeforeDefeat>
+  <!-- EN: When you have more wealth, more powerful enemies attack. If you want the challenge to scale with time instead, select 'Wealth-independent progress mode' in the storyteller settings. -->
+  <GameplayTips.FixedWealthMode>TODO</GameplayTips.FixedWealthMode>
   <!-- EN: Avoid using stone for doors. They open very slowly, which wastes your colonists' time. -->
-  <GameplayTips.StoneDoors>Kapılar için taş kullanmaktan kaçın. Çok yavaş açılırlar ve bu sebeple kolonicilerinizin çok fazla zamanını harcarlar.</GameplayTips.StoneDoors>
+  <GameplayTips.StoneDoors>Kapılar için taş kullanmaktan kaçın. Çok yavaş açılırlar ve bu sebeple kolonistlerinizin çok fazla zamanını harcarlar.</GameplayTips.StoneDoors>
   <!-- EN: Put chairs in front of workbenches so workers can sit comfortably while working. -->
   <GameplayTips.ChairsWorkbench>Çalışma masalarının önüne sandalye koy, böylece çalışanlar iş yaparken konforlu şekilde oturabilir.</GameplayTips.ChairsWorkbench>
   <!-- EN: Mechanical structures break down and require replacement components. Don't build things you don't need. -->
@@ -86,10 +90,12 @@
   <!-- EN: Building your whole colony in one structure saves resources, but also makes it difficult to contain fires. -->
   <GameplayTips.ColonyOneStructure>Bütün koloniyi bir bina içerisine inşa etmek kaynaklarını korumana yardımcı olur ancak yangınları kontrol etmeyi de zorlaştırır.</GameplayTips.ColonyOneStructure>
   <!-- EN: Terrain affects movement speed. Build floors to help your colonists get around quicker. -->
-  <GameplayTips.TerrainMovementSpeed>Yerde ne olduğu hareket hızını etkiler. Kolonicilerinizi etrafta daha hızlı gezebilmesi için zeminlerden yol inşa edin.</GameplayTips.TerrainMovementSpeed>
+  <GameplayTips.TerrainMovementSpeed>Yerde ne olduğu hareket hızını etkiler. kolonistlerinizi etrafta daha hızlı gezebilmesi için zeminlerden yol inşa edin.</GameplayTips.TerrainMovementSpeed>
   <!-- EN: Different terrain has different inherent cleanliness levels. Tiles are inherently clean; dirt is inherently dirty. -->
   <GameplayTips.TerrainCleanliness>Farklı zeminler farklı temizlik seviyelerine sahiptir. Fayanslar direkt olarak temizken, toprak kirlidir.</GameplayTips.TerrainCleanliness>
-  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to his own faction will be highly appreciated. -->
+  <!-- EN: Some floor types are faster to clean than others. It takes much longer to clean carpet compared to metal tile. -->
+  <GameplayTips.TerrainCleanSpeed>TODO</GameplayTips.TerrainCleanSpeed>
+  <!-- EN: You can give prisoners as gifts. Giving a prisoner back to their own faction will be highly appreciated. -->
   <GameplayTips.PrisonersAsGifts>Mahkumları hediye olarak verebilirsiniz. Bir mahkumu fraksiyonuna iade etmek o fraksiyon tarafından iyi karşılanacaktır.</GameplayTips.PrisonersAsGifts>
   <!-- EN: You can request specific types of trade caravans using the comms console. -->
   <GameplayTips.RequestTradeCaravans>İletişim konsolunu kullanarak spesifik türde ticari kervanlar isteyebilirsiniz.</GameplayTips.RequestTradeCaravans>
@@ -136,7 +142,7 @@
   <!-- EN: You can change storyteller and playstyle at any time through the options menu. -->
   <GameplayTips.ChangeStoryteller>Hikaye anlatıcısı ve oynanış stilini istediğin zaman ayarlar menüsünden değiştirebilirsin.</GameplayTips.ChangeStoryteller>
   <!-- EN: The more factions you are allied with, the more random traders and military aid you will receive. -->
-  <GameplayTips.MoreAlliesMoreTraders>Ne kadar fraksiyonla müttefik olursan o kadar kervan ve askeri yardım eldersin.</GameplayTips.MoreAlliesMoreTraders>
+  <GameplayTips.MoreAlliesMoreTraders>Ne kadar fraksiyonla müttefik olursan o kadar kervan ve askeri yardım elde edersin.</GameplayTips.MoreAlliesMoreTraders>
   <!-- EN: You can use drug policies to have your fighters carry combat drugs like go-juice. A quick dose at the start of combat can win the battle. -->
   <GameplayTips.CombatDrugsFromInventory>İlaç politikaları ayarlayarak savaşçılarınızın go-juice gibi savaş içecekleri taşımalarını sağlayabilirsiniz. Çarpışma başındaki küçük bir yudum çarpışmayı kazandırabilir.</GameplayTips.CombatDrugsFromInventory>
   <!-- EN: Set schedules with long stretches of one activity to minimize travel time. -->
@@ -145,10 +151,7 @@
   <GameplayTips.StrawMatting>Hasır paspas pisliği yok sayar. Ahırınız için zemin olarak kullanın.</GameplayTips.StrawMatting>
   <!-- EN: Some animals produce a lot of filth. Keep your elephants and cattle outside. -->
   <GameplayTips.AnimalFilth>Bazı hayvanlar çok fazla pislik üretir. Fillerinizi ve sığırlarınızı dışarıda tutun.</GameplayTips.AnimalFilth>
-  <!-- EN: Predators are less likely to hunt animals which are enclosed by fences or barricades. -->
+  <!-- EN: Predators won't hunt animals which are on the other side of fences or barricades. -->
   <GameplayTips.PredatorsAndFences>Yırtıcı hayvanların çitler veya barikatlarla çevrili hayvanları avlama olasılığı daha düşüktür.</GameplayTips.PredatorsAndFences>
-  
-  <!-- UNUSED -->
-  <GameplayTips.CaravanFasterAnimals>Hızlı hayvanlar hızlı kervanlar oluşturur.</GameplayTips.CaravanFasterAnimals>
   
 </LanguageData>

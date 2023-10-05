@@ -95,7 +95,7 @@
   <!-- EN: prisoner executed -->
   <ExecutedPrisoner.label>mahkum idam edildi</ExecutedPrisoner.label>
   <!-- EN:
-    <li>tale_noun->[executioner] executing [PRISONER_nameDef]</li>
+    <li>tale_noun->[EXECUTIONER_nameDef] executing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
     <li>tale_noun->the execution of [PRISONER_nameDef]</li>
     <li>image->[EXECUTIONER_nameFull] executing [PRISONER_nameFull] [circumstance_group]</li>
@@ -385,8 +385,8 @@
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_nameFull] [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[TAMER_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
     <li>circumstance_phrase->with great care and caution</li>
     <li>circumstance_phrase->with a smile</li>
     <li>circumstance_phrase->while exhausted but happy</li>
@@ -481,8 +481,8 @@
     <li>desc_sentence->[ANIMAL_nameDef] is represented as a pile of power tools.</li>
     <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is depicted with [quantity] arms.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_ShortDefinite].</li>
+    <li>desc_sentence->[TRAINER_nameDef] is depicted with [Quantity_adjphrase] arms.</li>
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li>
   -->
   <TrainedAnimal.rulePack.rulesStrings>
     <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>

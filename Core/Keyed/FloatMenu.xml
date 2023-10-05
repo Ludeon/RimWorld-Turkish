@@ -45,12 +45,14 @@
   <CannotAttackSelf>kendine saldıramaz</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>fraksiyon müttefiğine saldıramaz</CannotAttackSameFactionMember>
+  <!-- EN: Incapable of firefighting. -->
+  <IncapableOfFirefighting>TODO</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Adam {1_labelShort}</OrderManThing>
   
   <!-- EN: Melee attack {1_label} -->
-  <MeleeAttack>{1_label}'e yakın dövüş saldırısı</MeleeAttack>
+  <MeleeAttack>{1_label}'e yakından saldır</MeleeAttack>
   <!-- EN: Melee attack {1_label} to death -->
   <MeleeAttackToDeath>{1_label}'i öldür</MeleeAttackToDeath>
   <!-- EN: no path -->
@@ -74,8 +76,10 @@
   <NoMergeTarget>birleştirilebilecek yığın yok</NoMergeTarget>
   <!-- EN: already filled enough -->
   <AlreadyFilledLower>zaten yeterince dolu</AlreadyFilledLower>
-  <!-- EN: need material -->
+  <!-- EN: missing {0} -->
   <MissingMaterials>malzemeye ihtiyaç var</MissingMaterials>
+  <!-- EN: No medicine for restriction '{CATEGORY}'. -->
+  <NoMedicineMatchingCategory>TODO</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
   <UnderRequiredSkill>gerekli {0} beceri seviyesi altında</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
@@ -88,10 +92,16 @@
   <MissingRequiredSkillLevel>eksik beceri seviyesi</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
   <AnimalInteractedTooRecently>hayvan çok yakın zamanda etkileşime girmiş</AnimalInteractedTooRecently>
+  <!-- EN: interacted with too recently -->
+  <PrisonerInteractedTooRecently>TODO</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>kullanılabilir yiyecek yok</NoUsableFood>
   <!-- EN: no food -->
   <NoFood>yiyecek yok</NoFood>
+  <!-- EN: no food matching restrictions -->
+  <NoFoodMatchingRestrictions>TODO</NoFoodMatchingRestrictions>
+  <!-- EN: No {0_label} -->
+  <NoIngredient>TODO</NoIngredient>
   <!-- EN: below requirements of {0} -->
   <FoodBelowTitleRequirements>{0} şartlarının altında</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
@@ -114,6 +124,8 @@
   <CantRopeAnimalCantTouch>dokunulamaz</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
   <CantRopeAnimalNoSpace>ahırda boş yer yok</CantRopeAnimalNoSpace>
+  <!-- EN: {0_labelShort} is in {1} state -->
+  <CantRopeAnimalMentalState>TODO</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
   <CantRopeAnimalAlreadyInBestPen>zaten en iyi ahırda</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
@@ -154,14 +166,24 @@
   <InstallImplantNotAllowedForNonColonists>kolonist değil</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>zaten nakledilmiş</InstallImplantAlreadyInstalled>
+  <!-- EN: requires an existing {0} -->
+  <InstallImplantHediffRequired>TODO</InstallImplantHediffRequired>
   <!-- EN: max level -->
   <InstallImplantAlreadyMaxLevel>maks seviye</InstallImplantAlreadyMaxLevel>
+  <!-- EN: requires min level {0} -->
+  <InstallImplantMinLevel>TODO</InstallImplantMinLevel>
+  <!-- EN: psychically deaf -->
+  <InstallImplantPsychicallyDeaf>TODO</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
   <UpgradeImplant>{0}'ı {1} seviyesine yükselt</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>müttefik fraksiyon ihlali</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>{0_labelShort} tarafından taşınıyor</BeingCarriedBy>
+  <!-- EN: full -->
+  <ContainerFull>TODO</ContainerFull>
+  <!-- EN: already assigned -->
+  <AlreadyAssigned>TODO</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
   <ConsumeThing>{1_labelShort}'i tüket</ConsumeThing>
@@ -184,9 +206,15 @@
   <Capture>{1_label}'i esir al</Capture>
   <!-- EN: Cannot capture -->
   <CannotCapture>Esir alınamaz</CannotCapture>
+  <!-- EN: unwaveringly loyal -->
+  <Unrecruitable>TODO</Unrecruitable>
 
   <!-- EN: Rescue {1_label} -->
   <Rescue>{1_label}'i kurtar</Rescue>
+  <!-- EN: Put {1_label} somewhere safe -->
+  <PutSomewhereSafe>TODO</PutSomewhereSafe>
+  <!-- EN: Taking {0_labelShort} to bed. -->
+  <TakingToBed>TODO</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Kurtaramaz</CannotRescue>
 
@@ -227,6 +255,8 @@
   <Incapable>aciz</Incapable>
   <!-- EN: incapable of {0} -->
   <IncapableOfCapacity>{0} yapamaz</IncapableOfCapacity>
+  <!-- EN: Must have {0_label} -->
+  <MustHaveHediff>TODO</MustHaveHediff>
 
   <!-- EN: min skill -->
   <MinSkill>min beceri</MinSkill>
@@ -257,13 +287,15 @@
   <ReloadFull>Dolu</ReloadFull>
   <!-- EN: Too few -->
   <ReloadNotEnough>Çok az</ReloadNotEnough>
+  <!-- EN: Cannot carry enough {AMMO_label} to reload 1 charge. -->
+  <ReloadCannotCarryEnough>TODO</ReloadCannotCarryEnough>
   
-  <!-- EN: Cannot pick up {1_label} -->
+  <!-- EN: Cannot pick up {1_labelShort} -->
   <CannotPickUp>{1_label}'i alamaz</CannotPickUp>
   <!-- EN: Cannot pick up {1_label} (all) -->
   <CannotPickUpAll>{1_label}'i alamaz (tümü)</CannotPickUpAll>
-  <!-- EN: Pick up {1_label} -->
-  <PickUp>{1_label}'i al</PickUp>
+  <!-- EN: Pick up {1_labelShort} x1 -->
+  <PickUpOne>TODO</PickUpOne>
   <!-- EN: Pick up {1_label} (all) -->
   <PickUpAll>{1_label}'i al (tümü)</PickUpAll>
   <!-- EN: Pick up {1_labelShort}... -->
@@ -342,6 +374,10 @@
   <UseMedicalBed>İyileşene kadar dinlen</UseMedicalBed>
   <!-- EN: not injured -->
   <NotInjured>yaralı değil</NotInjured>
+  <!-- EN: no doctor -->
+  <NoDoctor>TODO</NoDoctor>
+  <!-- EN: medical bed not for slaves -->
+  <NotForSlaves>TODO</NotForSlaves><!-- text_todo -->
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>{0} tarafından işgal edilmiş</SomeoneElseSleeping>
   
@@ -514,5 +550,21 @@
   <RepairThing>Onar: {0}</RepairThing>
   <!-- EN: Cannot repair {0} -->
   <CannotRepair>Onarılamıyor: {0}</CannotRepair>
+
+  <!-- EN: Cannot enter -->
+  <CannotEnter>TODO</CannotEnter>
+
+  <!-- Romance partner -->
+  <!-- EN: Cannot romance {0} -->
+  <CannotRomance>TODO</CannotRomance>
+  <!-- EN: Romance {0} -->
+  <CanRomance>TODO</CanRomance>
+
+  <!-- Feeding -->
+  <!-- EN: disliked food -->
+  <WarningFoodDisliked>TODO</WarningFoodDisliked>
+
+  <!-- UNUSED -->
+  <PickUp>{1_label}'i al</PickUp>
 
 </LanguageData>

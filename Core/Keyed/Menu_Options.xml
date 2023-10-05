@@ -1,15 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
   <!-- Audiovisuals -->
   <!-- EN: Audiovisuals -->
   <Audiovisuals>İşitsel görseller</Audiovisuals>
+  <!-- EN: Master volume -->
+  <MasterVolume>TODO</MasterVolume>
   <!-- EN: Game volume -->
   <GameVolume>Oyun sesi</GameVolume>
   <!-- EN: Music volume -->
   <MusicVolume>Müzik sesi</MusicVolume>
-  <!-- EN: Ambient volume -->
+  <!-- EN: Ambience volume -->
   <AmbientVolume>Ortam sesi</AmbientVolume>
+  <!-- EN: UI volume -->
+  <UIVolume>TODO</UIVolume>
+  <!-- EN: Affects all sounds. -->
+  <MasterVolumeTooltip>TODO</MasterVolumeTooltip>
+  <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
+  <GameVolumeTooltip>TODO</GameVolumeTooltip>
+  <!-- EN: Affects music. -->
+  <MusicVolumeTooltip>TODO</MusicVolumeTooltip>
+  <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
+  <AmbientVolumeTooltip>TODO</AmbientVolumeTooltip>
+  <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
+  <UIVolumeTooltip>TODO</UIVolumeTooltip>
   <!-- EN: Anti-aliasing -->
   <Antialiasing>Kenar yumuşatma</Antialiasing>
 
@@ -20,22 +34,28 @@
   <PauseOnLoad>Yüklendiğinde durdur</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
   <PauseOnUrgentLetter>Acil bildirimlerde durdur</PauseOnUrgentLetter>
-  <!-- EN: Pause on -->
+  <!-- EN: Pause on letter -->
   <AutomaticPauseModeSetting>Durdur</AutomaticPauseModeSetting>
-  <!-- EN: Custom cursor -->
+  <!-- EN: Disable game-specific cursor -->
   <CustomCursor>Özel imleç</CustomCursor>
-  <!-- EN: Hats shown only on game map -->
+  <!-- EN: Hide hats on UI -->
   <HatsShownOnlyOnMap>Şapkalar sadece haritada görünür</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Kullanıcı arayüzü ölçeği</UIScale>
   <!-- EN: Keyboard configuration -->
   <KeyboardConfig>Klavye yapılandırma</KeyboardConfig>
+  <!-- EN: Controller configuration -->
+  <ControllerConfig>TODO</ControllerConfig>
+  <!-- EN: Modify -->
+  <ModifyConfig>TODO</ModifyConfig>
   <!-- EN: Choose language -->
   <ChooseLanguage>Dil seç</ChooseLanguage>
   <!-- EN: Reset learning helper -->
   <ResetAdaptiveTutor>Öğrenme yardımcısını sıfırla</ResetAdaptiveTutor>
   <!-- EN: Tutor is reset. You will be now be re-taught all lessons from scratch. -->
   <AdaptiveTutorIsReset>Eğitmen sıfırlandı. Artık tüm dersleri sıfırdan öğreneceksin.</AdaptiveTutorIsReset>
+  <!-- EN: Keyboard mode -->
+  <SteamDeckKeyboardMode>TODO</SteamDeckKeyboardMode>
   <!-- EN: Run in background -->
   <RunInBackground>Arkaplanda çalıştır</RunInBackground>
   <!-- EN: Development mode -->
@@ -45,19 +65,27 @@
   <!-- EN: Simulate not owning Royalty -->
   <SimulateNotOwningRoyalty>Royalty DLC'siz simüle et</SimulateNotOwningRoyalty>
   <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>TODO</SimulateNotOwningIdeology>
+  <SimulateNotOwningIdeology>İdeolojiye sahip olmamayı simüle edin</SimulateNotOwningIdeology>
+  <!-- EN: Simulate not owning Biotech -->
+  <SimulateNotOwningBiotech>TODO</SimulateNotOwningBiotech>
   <!-- EN: Verbose logging -->
   <LogVerbose>Ayrıntılı günlük kaydı</LogVerbose>
-  <!-- EN: Open save data folder -->
-  <OpenSaveGameDataFolder>Kayıt klasörünü aç</OpenSaveGameDataFolder>
-  <!-- EN: Show save data location -->
-  <ShowSaveGameDataLocation>Kayıt klasörünün konumunu göster</ShowSaveGameDataLocation>
-  <!-- EN: Open log file folder -->
-  <OpenLogFileFolder>Günlük dosyasını klasörünü aç</OpenLogFileFolder>
-  <!-- EN: Show log file location -->
-  <ShowLogFileLocation>Günlük dosyasının konumunu göster</ShowLogFileLocation>
-  <!-- EN: Preferred player-created characters. These characters will be more likely to randomly appear during play: -->
+  <!-- EN: Save data folder -->
+  <SaveGameDataFolder>TODO</SaveGameDataFolder>
+  <!-- EN: Save data location -->
+  <SaveGameDataLocation>TODO</SaveGameDataLocation>
+  <!-- EN: Log file folder -->
+  <LogFileFolder>TODO</LogFileFolder>
+  <!-- EN: Log file location -->
+  <LogFileLocation>TODO</LogFileLocation>
+  <!-- EN: Open -->
+  <OpenFolder>TODO</OpenFolder>
+  <!-- EN: Show -->
+  <ShowFolder>TODO</ShowFolder>
+  <!-- EN: Preferred "Name in Game" characters -->
   <NamesYouWantToSee>Tercih edilen oyuncu tarafından oluşturulmuş karakterler. Şu karakterlerin oyun sırasında rastgele görünme olasılığı daha yüksektir:</NamesYouWantToSee>
+  <!-- EN: These characters will be more likely to appear randomly during play. -->
+  <NamesYouWantToSeeSubText>TODO</NamesYouWantToSeeSubText>
   <!-- EN: Add name -->
   <AddName>İsim ekle</AddName>
   <!-- EN: Type the first name, nickname, or last name. -->
@@ -68,10 +96,14 @@
   <ChangeStoryteller>Hikaye anlatıcısı ayarları</ChangeStoryteller>
   <!-- EN: Autosave interval -->
   <AutosaveInterval>Oto-kayıt aralığı</AutosaveInterval>
-  <!-- EN: Temperature mode -->
+  <!-- EN: The number of in game days between each auto save. -->
+  <AutosaveIntervalTooltip>TODO</AutosaveIntervalTooltip>
+  <!-- EN: Temperature unit -->
   <TemperatureMode>Sıcaklık birimi</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Gerçek zamanlı saati göster</ShowRealtimeClock>
+  <!-- EN: Disable tiny font -->
+  <DisableTinyText>TODO</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Maksimum koloni sayısı: {0}</MaxNumberOfPlayerSettlements>
   <!-- EN: Map mouse drag sensitivity -->
@@ -86,12 +118,24 @@
   <ModSettings>Mod Ayarları</ModSettings>
   <!-- EN: Permanently disable development mode -->
   <PermanentlyDisableDevMode>Geliştirici modunu kalıcı olarak devre dışı bırak</PermanentlyDisableDevMode>
+  <!-- EN: Texture compression -->
+  <TextureCompression>TODO</TextureCompression>
+  <!-- EN: Turning off texture compression will use much more video memory, but makes textures look slightly better in detailed areas. Only turn this off if you know you have lots of extra video memory.\n\nNote that using certain mods will often consume much more video memory, so you may need to turn this on if you add certain mods. -->
+  <TextureCompression_Tooltip>TODO</TextureCompression_Tooltip>
+  <!-- EN: Smooth camera jumps -->
+  <SmoothCameraJumps>TODO</SmoothCameraJumps>
+  <!-- EN: When enabled, the camera will quickly pan when focusing on a new location. When disabled, the camera will jump instantly. -->
+  <SmoothCameraJumpsDesc>TODO</SmoothCameraJumpsDesc>
 
   <!-- Resolution -->
   <!-- EN: Resolution -->
   <Resolution>Çözünürlük</Resolution>
   <!-- EN: Fullscreen -->
   <Fullscreen>Tam Ekran</Fullscreen>
+  <!-- EN: Borderless fullscreen -->
+  <BorderlessFullscreen>TODO</BorderlessFullscreen>
+  <!-- EN: To run RimWorld in borderless fullscreen mode:\n\n1) Open Steam\n2) Go to the "Library" tab at the top\n3) Find RimWorld on the list and right-click it\n4) Choose "Properties..."\n5) Add "-popupwindow" without quotes to "Launch options" in the "General" tab\n6) Restart game\n7) If done correctly, you won't see this window\n\nHint: Use Windows Key + Shift + Left/Right to move the window between your monitors. -->
+  <BorderlessFullscreenInstructions>TODO</BorderlessFullscreenInstructions>
 
   <!-- Mods -->
   <!-- EN: Select mod... -->
@@ -100,15 +144,25 @@
   <NoConfigurableMods>Yapılandırılabilir mod bulunamadı.</NoConfigurableMods>
   
   <!-- Options reset -->
-  <!-- EN: Restore to default settings -->
+  <!-- EN: Restore all settings to default -->
+  <RestoreToDefaultSettingsLabel>TODO</RestoreToDefaultSettingsLabel>
+  <!-- EN: Restore defaults -->
   <RestoreToDefaultSettings>Varsayılan ayarlara sıfırla</RestoreToDefaultSettings>
-  <!-- EN: Your options have been reset. The game will now restart automatically. -->
+  <!-- EN: All settings have been reset. The game will now restart automatically. -->
   <ResetAndRestart>Seçeneklerin sıfırlandı. Oyun şimdi otomatik olarak yeniden başlayacak.</ResetAndRestart>
-  <!-- EN: All your settings will be reset to the default and the game will be restarted. All unsaved progress will be lost!\n\nContinue? -->
+  <!-- EN: All settings will be reset to the default and the game will be restarted. Unsaved progress will be lost,\n\nContinue? -->
   <ResetAndRestartConfirmationDialog>Tüm ayarların varsayılana sıfırlanacak ve oyun yeniden başlatılacaktır. Kaydedilmemiş tüm ilerlemeler kaybedilecek!\n\nDevam et?</ResetAndRestartConfirmationDialog>
+  <!-- EN: Changing texture compression settings requires a restart. Unsaved progress will be lost.\n\nContinue? -->
+  <ChangedTextureCompressionRestart>TODO</ChangedTextureCompressionRestart>
   
   <!-- Background image -->
   <!-- EN: Menu background -->
-  <SetBackgroundImage>TODO</SetBackgroundImage>
+  <SetBackgroundImage>Arka plan görüntüsü</SetBackgroundImage>
+
+  <!-- UNUSED -->
+  <OpenSaveGameDataFolder>Kayıt klasörünü aç</OpenSaveGameDataFolder>
+  <ShowSaveGameDataLocation>Kayıt klasörünün konumunu göster</ShowSaveGameDataLocation>
+  <OpenLogFileFolder>Günlük dosyasını klasörünü aç</OpenLogFileFolder>
+  <ShowLogFileLocation>Günlük dosyasının konumunu göster</ShowLogFileLocation>
 
 </LanguageData>

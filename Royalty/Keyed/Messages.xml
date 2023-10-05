@@ -3,46 +3,50 @@
 
   <!-- Shuttle landing zones -->
   <!-- EN: Shuttle could not land on pad: {0} -->
-  <ShuttleBlocked>TODO</ShuttleBlocked>
+  <ShuttleBlocked>Mekik piste inemedi: {0}</ShuttleBlocked>
   <!-- EN: The shuttle has arrived. -->
-  <MessageShuttleArrived>TODO</MessageShuttleArrived>
+  <MessageShuttleArrived>Mekik geldi.</MessageShuttleArrived>
   <!-- EN: The shuttle arrived, but since there were no colonists inside, the contents were lost. -->
-  <MessageShuttleArrivedContentsLost>TODO</MessageShuttleArrivedContentsLost>
+  <MessageShuttleArrivedContentsLost>Mekik geldi ama içeride kolonist olmadığı için içindekiler kayboldu.</MessageShuttleArrivedContentsLost>
   <!-- EN: Cannot call shuttle -->
-  <CannotCallShuttle>TODO</CannotCallShuttle>
+  <CannotCallShuttle>mekik çağırılamıyor</CannotCallShuttle>
 
   <!-- EN: Cannot land in undiscovered area. -->
-  <ShuttleCannotLand_Fogged>TODO</ShuttleCannotLand_Fogged>
+  <ShuttleCannotLand_Fogged>Keşfedilmemiş alana inemez.</ShuttleCannotLand_Fogged>
   <!-- EN: Area must be walkable. -->
-  <ShuttleCannotLand_Unwalkable>TODO</ShuttleCannotLand_Unwalkable>
-
-  <!-- EN: Warning: Anima tree has been marked for cutting. -->
-  <MessageWarningCutAnimaTree>TODO</MessageWarningCutAnimaTree>
+  <ShuttleCannotLand_Unwalkable>Alan yürünebilir olmalıdır.</ShuttleCannotLand_Unwalkable>
 
   <!-- EN: Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony. -->
-  <MessageBestowerWaiting>TODO</MessageBestowerWaiting>
+  <MessageBestowerWaiting>{BESTOWER_definite} öğesini seçin ve töreni başlatmak için ' x törenini başlat'ı tıklayın.</MessageBestowerWaiting>
   <!-- EN: Cannot reach bestower! -->
-  <MessageBestowerUnreachable>TODO</MessageBestowerUnreachable>
+  <MessageBestowerUnreachable>Bağışlayana ulaşılamıyor!</MessageBestowerUnreachable>
   <!-- EN: {0} is busy. -->
-  <MessageBestowingTargetIsBusy>TODO</MessageBestowingTargetIsBusy>
+  <MessageBestowingTargetIsBusy>{0} meşgul.</MessageBestowingTargetIsBusy>
   <!-- EN: The bestower is annoyed with the interference and has decided to leave. -->
-  <MessageBestowingSpotUnreachable>TODO</MessageBestowingSpotUnreachable>
+  <MessageBestowingSpotUnreachable>hediye veren , müdahaleden rahatsız olur ve ayrılmaya karar verir.</MessageBestowingSpotUnreachable>
   <!-- EN: The bestower is leaving due to life-threatening danger. -->
-  <MessageBestowingDanger>TODO</MessageBestowingDanger>
+  <MessageBestowingDanger>hediye veren, hayati tehlike nedeniyle ayrılıyor.</MessageBestowingDanger>
+  <!-- EN: The bestower is leaving due to life-threatening temperature. -->
+  <MessageBestowingDangerTemperature>TODO</MessageBestowingDangerTemperature>
+  <!-- EN: The bestower is leaving due to life-threatening gases in the area. -->
+  <MessageBestowingDangerGas>TODO</MessageBestowingDangerGas><!-- text_todo -->
   <!-- EN: The bestowing ceremony has been interrupted. -->
-  <MessageBestowingInterrupted>TODO</MessageBestowingInterrupted>
+  <MessageBestowingInterrupted>Hediye verme töreni yarıda kesildi.</MessageBestowingInterrupted>
 
   <!-- EN: {PAWN_definite}'s bestowing ceremony has begun. -->
-  <MessageBestowingCeremonyStarted>TODO</MessageBestowingCeremonyStarted>
+  <MessageBestowingCeremonyStarted>{PAWN_definite}'nin bağış töreni başladı.</MessageBestowingCeremonyStarted>
   <!-- EN: You defeated the {FACTION_pawnsPlural}! Get back on the shuttle to launch it. -->
-  <MessageMissionGetBackToShuttle>TODO</MessageMissionGetBackToShuttle>
+  <MessageMissionGetBackToShuttle>{FACTION_pawnsPlural}'ı yendiniz! Fırlatmak için mekiğe geri dönün.</MessageMissionGetBackToShuttle>
 
   <!-- EN: {FACTION_name} has dropped resources nearby. -->
-  <MessagePermitTransportDrop>TODO</MessagePermitTransportDrop>
+  <MessagePermitTransportDrop>{FACTION_name}, yakındaki kaynakları bıraktı.</MessagePermitTransportDrop>
   <!-- EN: {FACTION_name} has sent resources to {PAWN_nameDef}'s caravan. -->
-  <MessagePermitTransportDropCaravan>TODO</MessagePermitTransportDropCaravan>
+  <MessagePermitTransportDropCaravan>{FACTION_name}, kaynakları {PAWN_nameDef}'in kervanına gönderdi.</MessagePermitTransportDropCaravan>
 
   <!-- EN: No orbiting mechanoids found. -->
-  <MessageNoFactionForVerbMechCluster>TODO</MessageNoFactionForVerbMechCluster>
+  <MessageNoFactionForVerbMechCluster>Yörüngede dönen mekanoid bulunamadı.</MessageNoFactionForVerbMechCluster>
+
+  <!-- UNUSED -->
+  <MessageWarningCutAnimaTree>Uyarı: Anima ağacı kesilmek üzere işaretlendi.</MessageWarningCutAnimaTree>
 
 </LanguageData>
