@@ -5,7 +5,7 @@
 
 # Current status
 
-* Çevrilmekte olan versiyon: `1.3.3072`
+* Çevrilmekte olan versiyon: `1.4.3525`
 * Lütfen katkılarınızı, **forkladığınız projeyi pull request açarak** gönderin. 
     * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.
     * Pull request ile çıkan conflictleri çözmek kolay. 
@@ -19,8 +19,11 @@
 * [@LadySmith](https://github.com/LadySmith)
 * [@SangalHan](https://github.com/SangalHan)
 * [@Hüseyin Cem Aras](https://github.com/hcemaras)
-* [@Ilgın Yılmaz](https://github.com/Areciate)
+* [@Ilgın Yılmaz](https://github.com/Bruniikendov)
 * [@Emin Muhammed Şahin](https://github.com/ColdWind53)
+* [@ajexthedev](https://github.com/ajexthedev)
+* [@TinyTemim](https://github.com/TinyTemim)
+* [@ennear](https://github.com/ennear)
 * 13.09.2020: Listeyi daha temiz tutmak amacıyla aktif üyelerin adlarını buraya ve LanguageInfo.xml dosyasına yazmalarını rica ediyorum.
 
 :star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya kendiniz katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda çevirilmeyi bekleyen çevirileri ve düzenlemeleri proje sayfamızdan kontrol edebilirsiniz.

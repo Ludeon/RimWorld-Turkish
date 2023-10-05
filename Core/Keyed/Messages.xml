@@ -14,7 +14,7 @@
   <MessageRaidersStealing>{1}'den {0} ellerinden geleni çalmaya ve ayrılmaya karar verdiler.</MessageRaidersStealing>
 
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>TODO</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>{1}'den {0} geldi ve saldırıyorlar! Daha fazlası yolda ve {2} içinde gelecek.</MessageCaravanDetectedRaidArrived>
 
   <!-- EN: {0} from {1} are leaving. -->
   <MessageRaidersLeaving>{1}'den {0} ayrılıyorlar.</MessageRaidersLeaving>
@@ -49,10 +49,10 @@
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
   <MessageNeedBeaconToTradeWithShip>Ticaret yapabilmen için ticaret feneri gerekli.</MessageNeedBeaconToTradeWithShip>
   <!-- EN: Caller must have the title of {0_label} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>TODO</MessageNeedRoyalTitleToCallWithShip>
+  <MessageNeedRoyalTitleToCallWithShip>Arayan kişinin en az {0_label} sahip olması gerekir.</MessageNeedRoyalTitleToCallWithShip>
 
   <!-- EN: {0} has been destroyed. -->
-  <MessageConditionCauserDespawned>TODO</MessageConditionCauserDespawned>
+  <MessageConditionCauserDespawned>{0} yok edildi.</MessageConditionCauserDespawned>
   
   <!-- EN: Bill complete: {0}. -->
   <MessageBillComplete>Tasarı bitti: {0}.</MessageBillComplete>
@@ -66,7 +66,7 @@
   <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
   <MessageOutOfNearbyShellsFor>{PAWN_labelShort} {GUN_label} için yakında herhangi bir mermi bulunamadı.</MessageOutOfNearbyShellsFor>
   <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>TODO</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort}, {GUN_label} için yakınlarda ayrılmamış {FUEL} bulunamadı.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
   <MessageAnimalsGoPsychoHunted>Dikkat: {ANIMAL_kindBasePlural}ler zarar gördüğünde genellikle saldırırlar.</MessageAnimalsGoPsychoHunted>
@@ -74,6 +74,9 @@
   <MessageAnimalManhuntsOnTameFailed>Dikkat: {ANIMAL_kindBasePlural} ler, başarısız bir evcilleştirme girişiminde saldırabilir ({1} şans).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>Yalnızca böcek sempatisi özelliğine sahip olanlar {INSECT_indefinite}'i evcilleştirebilir.</MessageInsectTameDesignated>
+
+  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
+  <MessageInsectsHostileOnTaming>TODO</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
   <LetterLabelMessageRecruitSuccess>Yeni alım</LetterLabelMessageRecruitSuccess>
@@ -110,8 +113,14 @@
   <MessageMustDesignateHuntable>Avlanılabilir hayvanları belirtmelisin.</MessageMustDesignateHuntable>
   <!-- EN: Must designate tameable animals. -->
   <MessageMustDesignateTameable>Evcilleştirilebilir hayvanları belirtmelisin.</MessageMustDesignateTameable>
-  <!-- EN: Must designate abandoned artificial structures. -->
+  <!-- EN: Must designate abandoned claimable structures or items. -->
   <MessageMustDesignateClaimable>Terk edilmiş yapılarları belirtmelisin.</MessageMustDesignateClaimable>
+  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
+  <MessageMustDesignatePaintableBuildings>TODO</MessageMustDesignatePaintableBuildings>
+  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
+  <MessageMustDesignatePaintableFloors>TODO</MessageMustDesignatePaintableFloors>
+  <!-- EN: Must designate painted buildings or floors. -->
+  <MessageMustDesignatePainted>TODO</MessageMustDesignatePainted>
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>Yapısını bozmadan önce bir mekanik kümeyi yenmelisiniz.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
@@ -130,6 +139,10 @@
   <MessageMustDesignateForbiddable>Yasak olan eşyalar belirtilmelidir.</MessageMustDesignateForbiddable>
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Yasak olmayan eşyalar belirtilmelidir.</MessageMustDesignateUnforbiddable>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>TODO</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>TODO</MessageCannotAdoptWhileThreatsAreNear>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} tutuklanmayı reddetti!</MessageRefusedArrest>
@@ -138,8 +151,8 @@
   <MessageNoMedicalBeds>Kullanılabilir tıbbi yatak yok.</MessageNoMedicalBeds>
   <!-- EN: There are no animal beds available. -->
   <MessageNoAnimalBeds>Hayvan için kulalnılabilir yatak yok.</MessageNoAnimalBeds>
-  <!-- EN: Operation requires {0} or better, but {PAWN_labelShort}'s current medical care mode is "{2}". -->
-  <MessageTooLowMedCare>Operasyon için {0} veya daha iyisi gerekiyor, fakat {PAWN_labelShort}'in geçerli tıbbi bakımi "{2}".</MessageTooLowMedCare>
+  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
+  <MessageWarningNoMedicineForRestriction>TODO</MessageWarningNoMedicineForRestriction>
   
   <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
   <PawnDiedBecauseOf>{PAWN_labelShort} {1} sebebiyle öldü.</PawnDiedBecauseOf>
@@ -558,7 +571,7 @@
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Yeterli bakılmadığı için, {1_labelShort} vahşi hayatına geri döndü.</MessageAnimalReturnedWild>
   <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>TODO</MessageAnimalReturnedWildReleased>
+  <MessageAnimalReturnedWildReleased>{1_labelShort} doğaya geri döndü.</MessageAnimalReturnedWildReleased>
   <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
   <MessageAnimalLostSkill>Eğitim eksikliğinden dolayı, {ANIMAL_labelShort} şu yeteneğini kaybetti: {1}</MessageAnimalLostSkill>
 
@@ -622,6 +635,9 @@
 
   <!-- EN: No valid destination found for {0} -->
   <NoValidDestinationFound>{0} için geçerli bir hedef bulunamadı</NoValidDestinationFound>
+
+  <!-- EN: An extracted tree just died. -->
+  <MessageMinifiedTreeDied>TODO</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <!-- EN: Warning: Research will not begin until you build a research bench. -->
@@ -653,6 +669,8 @@
   <RitualBegun>{0} başladı.</RitualBegun>
   <!-- EN: The maximum number of {0}s is {1}. -->
   <MaxPawnsPerRole>Maksimum {0} sayısı {1}'dir.</MaxPawnsPerRole>
+  <!-- EN: Role of {0} is locked. -->
+  <RoleIsLocked>TODO</RoleIsLocked>
   <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>En az bir katılımcıya ihtiyacınız var.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
@@ -679,10 +697,18 @@
   <MessageRitualRoleMustBeAnimal>{0} bir hayvan olmalıdır.</MessageRitualRoleMustBeAnimal>
   <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} bir insan olmalıdır.</MessageRitualRoleMustBeHumanlike>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeABaby>TODO</MessageRitualRoleCannotBeABaby>
+  <!-- EN: No roles available for {0_labelShort}. -->
+  <MessageRitualNoRolesAvailable>TODO</MessageRitualNoRolesAvailable>
+  <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
+  <MessageRitualNotOfPlayerIdeo>TODO</MessageRitualNotOfPlayerIdeo>
   <!-- EN: {0} must have eyes -->
   <MessageRitualRoleMustHaveEyes>{0} gözleri olmalı</MessageRitualRoleMustHaveEyes>
   <!-- EN: {0_labelShort} does not require further scarification. -->
   <MessageRitualRoleMustRequireScarification>{0_labelShort}, daha fazla kazım gerektirmez.</MessageRitualRoleMustRequireScarification>
+  <!-- EN: {0_labelShort} does not require blinding. -->
+  <MessageRitualRoleMustRequireBlinding>TODO</MessageRitualRoleMustRequireBlinding>
   <!-- EN: {0} must be a prisoner or slave. -->
   <MessageRitualRoleMustBePrisonerOrSlave>{0} bir mahkum veya köle olmalıdır.</MessageRitualRoleMustBePrisonerOrSlave>
   <!-- EN: {0_labelShort} must be capable of fighting. -->
@@ -705,6 +731,10 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>{1} rolünü yalnızca {0} doldurabilir.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>{0} rolü için kolonist olmalıdır.</MessageRitualRoleMustBeColonist>
+  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
+  <MessageRitualWontAttendExtremeTemperature>TODO</MessageRitualWontAttendExtremeTemperature>
+  <!-- EN: must be colonist and not enslaved for the {0} role. -->
+  <MessageRitualRoleMustBeFreeColonist>TODO</MessageRitualRoleMustBeFreeColonist>
   <!-- EN: {0} must have an animal with min body size of {1}. -->
   <MessageRitualRoleMustHaveLargerBodySize>{0}, minimum vücut boyutu {1} olan bir hayvana sahip olmalıdır.</MessageRitualRoleMustHaveLargerBodySize>
   <!-- EN: {0_labelShort} is in a mental state. -->
@@ -713,6 +743,14 @@
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} zaten {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
   <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort}, izleyiciden başka bir rol üstlenemez.</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
+  <MessageRitualRoleMustNotBeImprisonedWildMan>TODO</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <!-- EN: {0} must be free. -->
+  <MessageRitualRoleMustNotBeImprisoned>TODO</MessageRitualRoleMustNotBeImprisoned>
+  <!-- EN: {0} cannot be a child. -->
+  <MessageRitualRoleCannotBeChild>TODO</MessageRitualRoleCannotBeChild>
+  <!-- EN: {0} cannot be a baby. -->
+  <MessageRitualRoleCannotBeBaby>TODO</MessageRitualRoleCannotBeBaby>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Devam etmek için bir yer seçmelisiniz.</MessagePlayerMustSelectTile>
@@ -727,10 +765,32 @@
   <AdjacentSowBlocker>{0_label} yanına yerleştirilemez.</AdjacentSowBlocker>
   <!-- EN: Too close to {0_label}. -->
   <TooCloseToOtherPlant> {0_label}'e çok yakın</TooCloseToOtherPlant>
-  <!-- EN: Too close to {0_label}'s planting location. -->
+  <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>{0_label} ürününün ekim yerine çok yakın.</TooCloseToOtherSeedPlantCell>
-  
+
+  <!-- EN: Warning: {0} has been marked for cutting. -->
+  <MessageWarningCutImportantPlant>TODO</MessageWarningCutImportantPlant>
+
+  <!-- EN: {0_labelShort} is incapable of manipulation. -->
+  <MessageIncapableOfManipulation>TODO</MessageIncapableOfManipulation>
+
+  <!-- EN: {0_labelShort} activation canceled -->
+  <MessageActivationCanceled>TODO</MessageActivationCanceled>
+
+  <!-- EN: Nothing is currently buildable in category -->
+  <NothingAvailableInCategory>TODO</NothingAvailableInCategory>
+
+  <!-- EN: Storage settings linked for {0} buildings. -->
+  <SettingsLinkedFor>TODO</SettingsLinkedFor>
+  <!-- EN: Storage settings unlinked for {0} buildings. -->
+  <SettingsUnlinkedFor>TODO</SettingsUnlinkedFor>
+  <!-- EN: Storage settings copied to clipboard. -->
+  <StorageSettingsCopiedToClipboard>TODO</StorageSettingsCopiedToClipboard>
+  <!-- EN: Storage settings pasted from clipboard. -->
+  <StorageSettingsPastedFromClipboard>TODO</StorageSettingsPastedFromClipboard>
+
   <!-- UNUSED -->
+  <MessageTooLowMedCare>Operasyon için {0} veya daha iyisi gerekiyor, fakat {PAWN_labelShort}'in geçerli tıbbi bakımi "{2}".</MessageTooLowMedCare>
   <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull}, {1} {NAMEE_nameFull} ismini verdi.</MessageNuzzledPawnGaveNameTo>
   <MessageSiteCountdownBecauseNoMoreEnemies>Tüm düşmanları yendin. Kervan otomatik olarak yeniden oluşturulacak.</MessageSiteCountdownBecauseNoMoreEnemies>
   <MessageSiteCountdownBecauseNoEnemiesInitially>Kervan otomatik olarak yeniden oluşturuldu. Kervanı şimdi Dünya ekranında yeniden düzenleyebilirsiniz.</MessageSiteCountdownBecauseNoEnemiesInitially>

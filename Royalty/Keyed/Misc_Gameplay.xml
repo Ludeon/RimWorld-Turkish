@@ -20,7 +20,7 @@
   <PsycastNeurotrainerLabel>psytrainer ({0})</PsycastNeurotrainerLabel>
   <!-- EN: Use psytrainer to learn {0} psycast -->
   <PsycastNeurotrainerUseLabel>{0} psikast öğrenmek için nörotrainer kullanın</PsycastNeurotrainerUseLabel>
-  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed. -->
+  <!-- EN: A one-use super-dose of mechanites which trains a specific psychic power.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites form knowledge of a specific ability, transmuting themselves into neural tissue as needed.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION} -->
   <PsycastNeurotrainerDescription>Belirli bir psycasti eğiten tek kullanımlık süper doz mekanizmalar.\n\nDoz gözün yörüngesinden uygulanır. Beynin içine bırakıldıktan sonra, mekanizmalar, kendilerini gerektiği gibi sinir dokusuna dönüştürerek belirli bir psikast yeteneği hakkında bilgi oluştururlar.</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort}, {1} psycastını öğrenmek için nörotrainer kullandı.</AbilityNeurotrainerUsed>
@@ -49,7 +49,7 @@
   <Psyfocus>psifokus</Psyfocus>
   <!-- EN: Psyfocus -->
   <PsyfocusLabelGizmo>psifokus</PsyfocusLabelGizmo>
-  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychics, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
+  <!-- EN: Psyfocus is a special type of mental structuring which is necessary to use psychic powers. Psyfocus dissipates over time, and must be built by regular meditation. Losing all psyfocus makes someone unable to use psychic powers, but has no other consequences.\n\nHigher levels of psyfocus permit higher-level powers, but also increase the rate of psyfocus dissipation -->
   <PsyfocusDesc>Psyfocus, psişik güçleri kullanmak için gerekli olan özel bir zihinsel yapılanma türüdür. Psyfocus zamanla dağılır ve düzenli meditasyonla oluşturulmalıdır. Tüm psifokusunu kaybetmek, birinin özelliklerini kullanamamasına neden olur, ancak başka bir sonucu olmaz.\n\nDaha yüksek psikofokus seviyeleri, daha yüksek seviyeli güçlere izin verir, ancak aynı zamanda psifokus dağılma oranını da artırır.</PsyfocusDesc>
   <!-- EN: {0}-{1}% -->
   <PsyfocusLevelInfoRange>{0}-{1}% </PsyfocusLevelInfoRange>
@@ -88,20 +88,6 @@
   <!-- EN: Click to set desired psyfocus. -->
   <DesiredPsyfocusDesc>İstenen psifokusu ayarlamak için tıklayın.</DesiredPsyfocusDesc>
 
-  <!-- Abilities -->
-  <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>taslağı hazırlanmalıdır.</AbilityDisabledUndrafted>
-  <!-- EN: ability on cooldown. It will be available in {0}. -->
-  <AbilityOnCooldown>cooldown yeteneği. {0} içinde sunulacak.</AbilityOnCooldown>
-  <!-- EN: ability already queued. -->
-  <AbilityAlreadyQueued>yetenek zaten sıraya alındı.</AbilityAlreadyQueued>
-  <!-- EN: no heat to dump. -->
-  <AbilityNoEntropyToDump>boşaltmak için ısı yok.</AbilityNoEntropyToDump>
-  <!-- EN: Ability ready: {0} -->
-  <AbilityReadyLabel>Yetenek hazır: {0}</AbilityReadyLabel>
-  <!-- EN: {0_nameDef} is ready to use {1}. -->
-  <AbilityReadyText>{0_nameDef}, {1} kullanımına hazır.</AbilityReadyText>
-  
   <!-- EN: no throne assigned. -->
   <AbilitySpeechDisabledNoThroneAssigned>taht atanmamış.</AbilitySpeechDisabledNoThroneAssigned>
   <!-- EN: throne is not accessible. -->
@@ -110,16 +96,10 @@
   <AbilitySpeechDisabledNoThroneUndignified>taht, onursuz olduğu için kullanılamaz.</AbilitySpeechDisabledNoThroneUndignified>
   <!-- EN: already giving a speech. -->
   <AbilitySpeechDisabledAlreadyGivingSpeech>zaten konuşma yapıyor.</AbilitySpeechDisabledAlreadyGivingSpeech>
-  <!-- EN: another gathering is in progress. -->
-  <AbilitySpeechDisabledAnotherGatheringInProgress>bir toplantı daha yapılıyor.</AbilitySpeechDisabledAnotherGatheringInProgress>
-  <!-- EN: Next speech ready in -->
-  <AbilitySpeechCooldown>Bir sonraki konuşma hazır</AbilitySpeechCooldown>
   <!-- EN: Outcome chances -->
   <AbilitySpeechPossibleOutcomes>sonuç şansı</AbilitySpeechPossibleOutcomes>
   <!-- EN: {ORGANIZER_labelShort}'s {1} stat -->
   <AbilitySpeechStatInfo>{ORGANIZER_labelShort}'un {1} istatistiği</AbilitySpeechStatInfo>
-  <!-- EN: Initiated at -->
-  <AbilitySpeechTargetsLabel>başlatıldı</AbilitySpeechTargetsLabel>
   <!-- EN: Dignified throne -->
   <AbilitySpeechTargetDescThrone>onurlu taht</AbilitySpeechTargetDescThrone>
   
@@ -171,13 +151,22 @@
   <RitualTargetAnimaTreeNoPawnsWithNatureFocus>Doğal meditasyon odak tipine sahip kolonist yok.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
   <!-- EN: Need at least {0} anima grass. -->
   <RitualTargetAnimaTreeNotEnoughAnimaGrass>En az {0} anima otu gerekir</RitualTargetAnimaTreeNotEnoughAnimaGrass>
-  <!-- EN: An anima tree. -->
+  <!-- EN: an anima tree -->
   <RitualTargetAnimaTreeInfo>Bir anima ağacı.</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
   <RitualTargetAnimaTreeMustBeCapableOfNature>Maksimum psişik seviyesinin altında olan doğal meditasyon odak tipine sahip bir kolonist olmalı.</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <!-- EN: Must not be psychically deaf. -->
+  <RitualTargetAnimaTreeMustBePsychicallySensitive>TODO</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
   <!-- EN: The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony. -->
   <AnimaLinkingExplanationBase>Anima bağlama töreni, daha fazla katılımcıyla daha güçlüdür. Ne kadar çok insan katılırsa, tören o kadar az zaman alır ve o kadar çok anima otu büyür.\n\n{0} ek katılımcıyla, törenin sonunda {1} anima otu yenilenir.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Gerekli tüm kargolar henüz yüklenmedi!</ShuttleRequiredItemsNotSatisfied>
+
+  <!-- EN: no heat to dump. -->
+  <AbilityNoEntropyToDump>boşaltmak için ısı yok.</AbilityNoEntropyToDump>
+
+  <!-- EN: level {0} -->
+  <LevelNum>TODO</LevelNum> <!-- Psylink level as reported in health tab-->
+
 </LanguageData>

@@ -31,8 +31,14 @@
   <MessageIncompatibleMemes>{0_label} ve {1_label} birbiriyle uyumlu değil.</MessageIncompatibleMemes>
   <!-- EN: You need {0} to start the {1}. -->
   <MessageNoRequiredRolePawnToBeginRitual>{1}'yi başlatmak için {0}'e ihtiyacınız var.</MessageNoRequiredRolePawnToBeginRitual>
+  <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
+  <MessageNotEnoughSpectators>TODO</MessageNotEnoughSpectators>
+  <!-- EN: You must choose a role. -->
+  <MessageRoleChangeChooseDifferentRole>TODO</MessageRoleChangeChooseDifferentRole>
   <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
   <MessageNeedAssignedRoleToBeginRitual>{1}'yi başlatmadan önce, birini {0} rolüne atamanız gerekir.</MessageNeedAssignedRoleToBeginRitual>
+  <!-- EN: Need at least one {0} participating. -->
+  <MessageNeedAtLeastOneParticipantOfIdeo>TODO</MessageNeedAtLeastOneParticipantOfIdeo>
   
   <!-- EN: {0_labelShort} now holds the role of {1}. -->
   <MessageRoleAssigned>{0_labelShort} artık {1} rolünü üstleniyor.</MessageRoleAssigned>
@@ -70,9 +76,9 @@
   <MessageCharityEventRefused>hayır kurumu reddetti</MessageCharityEventRefused>
   <!-- EN: Charity fulfilled -->
   <MessageCharityEventFulfilled>sadaka yerine getirildi</MessageCharityEventFulfilled>
-  <!-- EN: {0} leaving empty-handed. -->
+  <!-- EN: {0} are leaving empty-handed. -->
   <MessageBeggarsLeavingWithNoItems>{0} eli boş gidiyor.</MessageBeggarsLeavingWithNoItems>
-  <!-- EN: {0} leaving with requested items. -->
+  <!-- EN: {0} have accepted the requested items and are leaving. -->
   <MessageBeggarsLeavingWithItems>{0} istenen öğelerle ayrılıyor.</MessageBeggarsLeavingWithItems>
   <!-- EN: {0_nameDef} died without any treatment. -->
   <MessageWandererLeftToDie>{0_nameDef} herhangi bir tedavi görmeden öldü.</MessageWandererLeftToDie>
@@ -80,9 +86,9 @@
   <MessageWandererRecruited>{0_nameDef} alındı.</MessageWandererRecruited>
   <!-- EN: {0_nameDef} left healthy. -->
   <MessageWandererLeftHealthy>{0_nameDef} sağlıklı kaldı.</MessageWandererLeftHealthy>
-  <!-- EN: {0} failed. -->
+  <!-- EN: {0} has been failed. -->
   <MessageCharityQuestEndedFailed>{0} başarısız oldu.</MessageCharityQuestEndedFailed>
-  <!-- EN: {0} succesfully completed. -->
+  <!-- EN: {0} has been successfully completed. -->
   <MessageCharityQuestEndedSuccess>{0} başarıyla tamamlandı.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
@@ -97,8 +103,10 @@
   <!-- EN: Roles cannot have overlapping apparel requirements. -->
   <OverlappingRoleApparel>Roller örtüşen giyim gereksinimlerine sahip olamaz.</OverlappingRoleApparel>
   
-  <!-- EN: {0_label} will self-destruct in {1}. -->
+  <!-- EN: {0} will self-destruct in {1}. -->
   <SelfDestructCountdown>{0_label}, {1} içinde kendini imha edecek.</SelfDestructCountdown>
+  <!-- EN: Precept name is too long (maximum {0} letters) -->
+  <PreceptNameTooLong>TODO</PreceptNameTooLong>
 
   <!-- Ancient complex -->
   <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
@@ -137,5 +145,11 @@
   <MessageInfestationDelayActivated>İstila geliyor.</MessageInfestationDelayActivated>
   <!-- EN: {0} was disturbed and might explode soon! -->
   <MessageFuelNodeDelayActivated>{0} rahatsız edildi ve yakında patlayabilir!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+
+  <!-- Fluid ideo messages -->
+  <!-- EN: Development points changed from {0} to {1} ({2}). -->
+  <MessageDevelopmentPointsEarned>TODO</MessageDevelopmentPointsEarned>
+  <!-- EN: Only one change to structures, memes and styles is allowed. -->
+  <MessageFluidIdeoOneChangeAllowed>TODO</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>

@@ -30,6 +30,8 @@
   <TranslationFilesTKeyUpdate>Çeviri dosyalarını güncelle</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
   <CleaningTranslationFiles>Çeviri dosyaları temizleniyor</CleaningTranslationFiles>
+  <!-- EN: Dev quicktest -->
+  <DevQuickTest>TODO</DevQuickTest>
   <!-- EN: Credits -->
   <Credits>Yapımcılar</Credits>
   <!-- EN: Quit to main menu -->
@@ -78,8 +80,8 @@
   <WorldGenerate>Oluştur</WorldGenerate>
   <!-- EN: Save and finish -->
   <WorldSaveAndFinish>Kaydet ve bitir</WorldSaveAndFinish>
-  <!-- EN: Reset -->
-  <Reset>Sıfırla</Reset>
+  <!-- EN: Reset factions -->
+  <ResetFactions>TODO</ResetFactions>
   <!-- EN: Globe coverage -->
   <PlanetCoverage>Dünya büyüklüğü</PlanetCoverage>
   <!-- EN: Overall rainfall -->
@@ -152,16 +154,66 @@
   <ConfirmDeleteMod>{0} İçin tüm içeriği silmek istediğinizden emin misiniz?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Modları otomatik sırala</ResolveModOrder>
+  <!-- EN: Save and apply changes -->
+  <SaveModChanges>TODO</SaveModChanges>
+  <!-- EN: Mod changes have not been saved. Are you sure you want to continue? -->
+  <DiscardModChanges>TODO</DiscardModChanges>
   <!-- EN: Cannot move {0}: It must be loaded after {1}. -->
   <ModReorderConflict_MustLoadAfter>{0} taşınamıyor: {1}'den sonra yüklenmelidir.</ModReorderConflict_MustLoadAfter>
   <!-- EN: Cannot move {0}: It must be loaded before {1}. -->
   <ModReorderConflict_MustLoadBefore>{0} taşınamıyor: {1}'den önce yüklenmelidir.</ModReorderConflict_MustLoadBefore>
   <!-- EN: Unsubscribe -->
   <Unsubscribe>Abonelikten çık</Unsubscribe>
-  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <!-- EN: Are you sure you want to unsubscribe? -->
   <ConfirmUnsubscribe>{0} tan gerçekten abonelikten çıkmak istiyor musun?</ConfirmUnsubscribe>
+  <!-- EN: Are you sure you want to unsubscribe from {0}? -->
+  <ConfirmUnsubscribeFrom>TODO</ConfirmUnsubscribeFrom>
+  <!-- EN: Are you sure you want to unsubscribe from:\n\n{0} -->
+  <ConfirmUnsubscribeFromMultiple>TODO</ConfirmUnsubscribeFromMultiple>
   <!-- EN: Author -->
   <Author>Yapımcı</Author>
+  <!-- EN: Enabled -->
+  <Enabled>TODO</Enabled>
+  <!-- EN: Disabled -->
+  <Disabled>TODO</Disabled>
+  <!-- EN: Enable -->
+  <Enable>TODO</Enable>
+  <!-- EN: Disable -->
+  <Disable>TODO</Disable>
+  <!-- EN: Get mods from... -->
+  <GetMods>TODO</GetMods>
+  <!-- EN: Unsubscribe from... -->
+  <UnsubscribeMultiple>TODO</UnsubscribeMultiple>
+  <!-- EN: Save / load list... -->
+  <SaveLoadList>TODO</SaveLoadList>
+  <!-- EN: Save mod list -->
+  <SaveModList>TODO</SaveModList>
+  <!-- EN: Load mod list -->
+  <LoadModList>TODO</LoadModList>
+  <!-- EN: Added mods -->
+  <AddedModsList>TODO</AddedModsList>
+  <!-- EN: Missing mods -->
+  <MissingModsList>TODO</MissingModsList>
+  <!-- EN: Shared mods -->
+  <SharedModsList>TODO</SharedModsList>
+  <!-- EN: Website -->
+  <ModWebsite>TODO</ModWebsite>
+  <!-- EN: Open folder -->
+  <ModFolder>TODO</ModFolder>
+  <!-- EN: Mod options -->
+  <ModOptions>TODO</ModOptions>
+  <!-- EN: Workshop -->
+  <FromWorkshop>TODO</FromWorkshop>
+  <!-- EN: Forum -->
+  <FromForum>TODO</FromForum>
+  <!-- EN: Advanced... -->
+  <MoreActions>TODO</MoreActions>
+  <!-- EN: All selected mods -->
+  <AllSelectedMods>TODO</AllSelectedMods>
+  <!-- EN: All disabled mods -->
+  <AllDisabledMods>TODO</AllDisabledMods>
+  <!-- EN: All incompatible mods -->
+  <AllIncompatibleMods>TODO</AllIncompatibleMods>
   <!-- EN: Workshop page -->
   <WorkshopPage>Atölye Sayfası</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
@@ -176,6 +228,8 @@
   <WorkshopUploadSucceeded>Başarıyla Yüklendi {0}.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
   <Downloading>Indiriliyor</Downloading>
+  <!-- EN: Workshop ID -->
+  <WorkshopId>TODO</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Karşılanan gereksinimleri görüntüle</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -184,8 +238,10 @@
   <ModClickToGoToWebsite>Siteye gitmek için tıkla</ModClickToGoToWebsite>
   <!-- EN: Source -->
   <Source>Kaynak</Source>
-  <!-- EN: For game version(s) -->
+  <!-- EN: Game versions -->
   <ModTargetVersion>Versiyon(ları)</ModTargetVersion>
+  <!-- EN: Mod version -->
+  <ModVersion>TODO</ModVersion>
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
@@ -204,7 +260,7 @@
   <ModWithSameIdAlreadyActive>Başka bir etkin mod aynı kimliği kullanıyor: {0}</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
   <ModCyclicDependency>There is a cyclic mod dependency starting with {0}.</ModCyclicDependency>
-  <!-- EN: This requires following mods to work: {0}. -->
+  <!-- EN: This requires the following mods to work: {0}. -->
   <ModUnsatisfiedDependency>Bunun için aşağıdaki modların çalışması gerekir: {0}.</ModUnsatisfiedDependency>
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Bu mod, RimWorld'ün bu sürümü için yapılmamıştır ve muhtemelen düzgün çalışmayacaktır.</ModNotMadeForThisVersion>
@@ -231,7 +287,7 @@
   <!-- EN: Invalid version order: 'default' should be defined first. -->
   <ModLoadFolderOutOfOrderDefault>Invalid version order: 'default' should be defined first.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>TODO</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>Using 'default' in load folders is deprecated. Please define folders for each version using the &lt;v...> tags.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
   <ModLoadFolderDefinesUnsupportedGameVersion>Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
@@ -274,6 +330,8 @@
   <TooMany>Çok fazla (max {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
   <CanBeUpdatedOnWorkshop>Yaratıcı siz olduğunuz için Atölye'de güncellenebilir.</CanBeUpdatedOnWorkshop>
+  <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
+  <ScenarioChangedSavePrompt>TODO</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
@@ -419,6 +477,10 @@
   <Difficulty_AllowCaveHives_Label>Doğal böcek yuvası oluşumu</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
   <Difficulty_AllowCaveHives_Info>Uyuyan böcek kovanları doğal mağaralarda ortaya çıkabilir.\n\nBu ayar yalnızca harita oluşturma için geçerlidir ve oyun sırasında tünel açabilecek aktif böcekleri etkilemez.</Difficulty_AllowCaveHives_Info>
+  <!-- EN: Add unwavering prisoners -->
+  <Difficulty_UnwaveringPrisoners_Label>TODO</Difficulty_UnwaveringPrisoners_Label>
+  <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
+  <Difficulty_UnwaveringPrisoners_Info>TODO</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Oyuncu aletleri</DifficultyPlayerToolsSection>
@@ -459,11 +521,11 @@
   <Difficulty_FixedWealthTimeFactor_Info>Zenginlikten bağımsız modun maksimum tehdit düzeyine ulaşmasına kadar geçen oyun yılı sayısı.\n\nHikaye anlatıcısının tehditleri kolonici sayısına ve çeşitli diğer faktörlere göre ölçeklendirmeye devam edeceğini unutmayın.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>TODO</DifficultyIdeologySection>
+  <DifficultyIdeologySection>Ideoloji</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
-  <Difficulty_LowPopConversionBoost_Label>TODO</Difficulty_LowPopConversionBoost_Label>
-  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>TODO</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Label>Düşük nüfus dönüşüm artışı</Difficulty_LowPopConversionBoost_Label>
+  <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
+  <Difficulty_LowPopConversionBoost_Info>Oyuncunun başlangıç ideolojisinin tek bir kolonicisi ile, onun ideolojisine dönüşüm şansı bu miktar ile çarpılır. Onlara karşı yapılan dönüştürme girişimlerinin etkisi bu miktara bölünür.\n\nOyuncunun başlangıç ideolojisinin iki kolonicisi ile etki yarıya iner.\n\nOyuncunun başlangıç ideolojisinin üç veya daha fazla kolonisi olduğunda bunun bir etkisi olmaz.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -500,6 +562,8 @@
   <Elevation>Yükseklik</Elevation>
   <!-- EN: Fertility -->
   <Fertility>Verimlilik</Fertility>
+  <!-- EN: fertility -->
+  <FertilityLower>TODO</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Ortalama sıcaklık</AvgTemp>
   <!-- EN: Rainfall -->
@@ -534,6 +598,10 @@
   <Forageability>Toplayıcılığa verimli</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
   <ConfirmRequiredWorkTypeDisabledForEveryone>Seçilen kişilerden hiç biri aşağıdaki işleri yapamaz:\n\n{0}\n\nBu, oyunu normalden daha zor hale getiremez. Devam etmek istediğine emin misin?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <!-- EN: temperature -->
+  <TemperatureLower>TODO</TemperatureLower>
+  <!-- EN: light -->
+  <LightLower>TODO</LightLower>
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
@@ -558,20 +626,22 @@
   <IncapableOf>Yapamayacakları;</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Beceriler</Abilities>
-  <!-- EN: Caused by backstory: {0} -->
-  <IncapableOfTooltipBackstory>Geçmişinin neden olduğu: {0}</IncapableOfTooltipBackstory>
-  <!-- EN: Caused by title: {0} -->
-  <IncapableOfTooltipTitle>Ünvanı nedeniyle: {0}</IncapableOfTooltipTitle>
-  <!-- EN: Caused by trait: {0} -->
-  <IncapableOfTooltipTrait>Özellikleri nedeniyle: {0}</IncapableOfTooltipTrait>
-  <!-- EN: Caused by: {0} -->
+  <!-- EN: Caused by -->
   <IncapableOfTooltipHediff>Nedeniyle: {0}</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Yapamadığı işler:</IncapableOfTooltipWorkTypes>
-  <!-- EN: Caused by quest status: {0} -->
+  <!-- EN: Caused by backstory -->
+  <IncapableOfTooltipBackstory>Geçmişinin neden olduğu: {0}</IncapableOfTooltipBackstory>
+  <!-- EN: Caused by title -->
+  <IncapableOfTooltipTitle>Ünvanı nedeniyle: {0}</IncapableOfTooltipTitle>
+  <!-- EN: Caused by trait -->
+  <IncapableOfTooltipTrait>Özellikleri nedeniyle: {0}</IncapableOfTooltipTrait>
+  <!-- EN: Caused by quest status -->
   <IncapableOfTooltipQuest>Görev durumundan kaynaklanır: {0}</IncapableOfTooltipQuest>
-  <!-- EN: Caused by role: {0} -->
+  <!-- EN: Caused by role -->
   <IncapableOfTooltipRole>Rol nedeniyle: {0}</IncapableOfTooltipRole>
+  <!-- EN: Caused by gene -->
+  <IncapableOfTooltipGene>TODO</IncapableOfTooltipGene>
   <!-- EN: Traits -->
   <Traits>Kişisel özellikler</Traits>
   <!-- EN: Permanent mood effect -->
@@ -584,8 +654,6 @@
   <Adulthood>Yetişkinlik'ten</Adulthood>
   <!-- EN: Childhood -->
   <Childhood>Çocukluk'tan</Childhood>
-  <!-- EN: Current -->
-  <Current>Şimdi</Current>
   <!-- EN: male -->
   <Male>Erkek</Male>
   <!-- EN: female -->
@@ -602,6 +670,8 @@
   <Health>Sağlık</Health>
   <!-- EN: Relations -->
   <Relations>İlişkiler</Relations>
+  <!-- EN: Possessions -->
+  <Possessions>TODO</Possessions>
   <!-- EN: Team skills -->
   <TeamSkills>Takım yetenekleri</TeamSkills>
   <!-- EN: Selected -->
@@ -645,7 +715,7 @@
   <!-- EN: Generating map for new encounter -->
   <GeneratingMapForNewEncounter>Yeni bir hikaye için harita oluşturuluyor</GeneratingMapForNewEncounter>
 
-  <!-- EN: Click for more info -->
+  <!-- EN: Click for more info. -->
   <ClickForMoreInfo>Daha fazla bilgi için tıklayın</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
   <NoMoreInfoAvailable>Daha fazla bilgi yok</NoMoreInfoAvailable>
@@ -653,14 +723,10 @@
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>Fraksiyonlar</Factions>
-  <!-- EN: Gameplay problems can occur with more than {0} factions. -->
-  <RecommendedFactionCount>{0}'den fazla fraksiyonda oyun sorunları ortaya çıkabilir.</RecommendedFactionCount>
-  <!-- EN: Maximum {0} visible factions allowed. -->
+  <!-- EN: max {0} basic factions allowed -->
   <TotalFactionsAllowed>Maksimum {0} görünür fraksiyona izin verildi.</TotalFactionsAllowed>
-  <!-- EN: There can be no more than {0} {1}. -->
+  <!-- EN: max {0} -->
   <MaxFactionsForType>{0} {1}'den fazla olamaz</MaxFactionsForType>
-  <!-- EN: Restore defaults -->
-  <ResetFactionsToDefault>Varsayılanları geri yükle</ResetFactionsToDefault>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
   <FactionSelectionDesc>Dünyadaki fraksiyonları seçin. Toplamda en fazla {0} fraksiyon seçebilirsiniz.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
@@ -671,5 +737,10 @@
   <MechanoidsDisabledContentWarning>{0} öğesini devre dışı bırakmak, daha az görev ve doğal tehdit çeşitliliği anlamına gelir.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
   <FactionsDisabledWarning>Diğer fraksiyonlar olmadan, baskınlar, ticaret ve görevler normal şekilde gerçekleşmeyecek.</FactionsDisabledWarning>
+
+  <!-- UNUSED -->
+  <Current>Şimdi</Current>
+  <RecommendedFactionCount>{0}'den fazla fraksiyonda oyun sorunları ortaya çıkabilir.</RecommendedFactionCount>
+  <ResetFactionsToDefault>Varsayılanları geri yükle</ResetFactionsToDefault>
 
 </LanguageData>

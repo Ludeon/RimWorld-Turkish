@@ -68,7 +68,7 @@
 
   <!-- EN: Set owner -->
   <CommandThingSetOwnerLabel>Yatak sahibi</CommandThingSetOwnerLabel>
-  <!-- EN: Assign this bed to be owned by a specific colonist. -->
+  <!-- EN: Assign this bed to be owned by a specific {0}. -->
   <CommandBedSetOwnerDesc>Bu yatağı belirli bir koloniste ait olarak atayın.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
   <CommandThroneSetOwnerDesc>Bu tahtı belirli bir koloniste ait olarak atayın.</CommandThroneSetOwnerDesc>
@@ -128,12 +128,12 @@
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Ayarları kopyala</CommandCopyZoneSettingsLabel>
-  <!-- EN: Copy this zone's settings to the clipboard so you can paste them onto another zone. -->
+  <!-- EN: Copy this storage's settings to the clipboard so you can paste them onto another zone. -->
   <CommandCopyZoneSettingsDesc>Başka bir bölgeye yapıştırabilmeniz için bu bölgenin ayarlarını kopyalayın.</CommandCopyZoneSettingsDesc>
 
   <!-- EN: Paste settings -->
   <CommandPasteZoneSettingsLabel>Ayarları yapıştır</CommandPasteZoneSettingsLabel>
-  <!-- EN: Overwrite this zone's settings with those previously copied to the clipboard. -->
+  <!-- EN: Overwrite this storage's settings with those previously copied to the clipboard. -->
   <CommandPasteZoneSettingsDesc>Daha önce panoya kopyalanan ayarları, bu bölgenin ayarlarının üzerine yazın.</CommandPasteZoneSettingsDesc>
 
   <!-- EN: Allow sowing -->
@@ -143,8 +143,13 @@
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Kesmeye izin ver </CommandAllowCut>
-  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest. -->
+  <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
   <CommandAllowCutDesc>Devre dışı bırakıldığında, koloniciler bu bölgedeki bitkileri asla kesmezler. Halihazırda boş olan alanlara yeni bitkiler ekecek ve hasat edecekler.</CommandAllowCutDesc>
+  
+  <!-- EN: Select {0_label} -->
+  <CommandSelectStoredThing>TODO</CommandSelectStoredThing>
+  <!-- EN: Select the item stored in here. -->
+  <CommandSelectStoredThingDesc>TODO</CommandSelectStoredThingDesc>
 
   <!-- Artillery -->
   <!-- EN: Set forced target -->
@@ -219,6 +224,10 @@
   <CommandReinstall>Yeniden yükle...</CommandReinstall>
   <!-- EN: Designate this item to be uninstalled and reinstalled somewhere else. -->
   <CommandReinstallDesc>Bu öğeyi başka bir yere yeniden kurun.</CommandReinstallDesc>
+  <!-- EN: Replant -->
+  <CommandReplant>TODO</CommandReplant>
+  <!-- EN: This tree is currently packaged up for storage and transport. Use this command to replant it in a new location. -->
+  <CommandReplantDesc>TODO</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
@@ -267,6 +276,8 @@
   <!-- reload -->
   <!-- EN: No {CHARGENOUN_plural} left. -->
   <CommandReload_NoCharges>{CHARGENOUN_plural} kalmadı.</CommandReload_NoCharges>
+  <!-- EN: {COOLDOWNGERUND} for {TIME}. -->
+  <CommandReload_Cooldown>TODO</CommandReload_Cooldown>
   <!-- EN: Needs to be reloaded with {COUNT} {AMMO_label}. -->
   <CommandReload_NoAmmo>{COUNT} {AMMO_label} ile yeniden yüklenmesi gerekiyor.</CommandReload_NoAmmo>
   
@@ -281,6 +292,8 @@
   <!-- Select mineral to scan for (long-range mineral scanner) -->
   <!-- EN: Tuned to -->
   <CommandSelectMineralToScanFor>Uyarlanmış</CommandSelectMineralToScanFor>
+  <!-- EN: Select the mineral type to scan for. -->
+  <CommandSelectMineralToScanForDesc>TODO</CommandSelectMineralToScanForDesc><!-- text_todo -->
 
   <!-- Build copy -->
   <!-- EN: Build copy -->
@@ -293,6 +306,8 @@
   <CommandFormCaravan>Kervan oluştur</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
   <CommandFormCaravanDesc>Yeni bölgelere seyahat edecek olan bir kolonist kervanı oluşturun. Kervana atanan kolonistler, belirlenen malzemeleri ve hayvanları alarak bulundukları bölgeyi terk ederek verilen emirleri yerine getirecek ve yeni emirler bekleyecekler.</CommandFormCaravanDesc>
+  <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
+  <CommandFormCaravanDescAtSpot>TODO</CommandFormCaravanDescAtSpot>
   
   <!-- Reform caravan -->
   <!-- EN: Reform caravan -->
@@ -551,7 +566,31 @@
   <CommandDropPawn>{0_nameDef} 'ı bırak</CommandDropPawn>
   <!-- EN: Drop the person being carried. -->
   <CommandDropPawnDesc>Taşınan kişiyi bırakın.</CommandDropPawnDesc>
-  
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarriedPawn>TODO</CommandSelectCarriedPawn>
+  <!-- EN: Select the creature being carried. -->
+  <CommandSelectCarriedPawnDesc>TODO</CommandSelectCarriedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectCarriedThing>TODO</CommandSelectCarriedThing>
+  <!-- EN: Select the carried item. -->
+  <CommandSelectCarriedThingDesc>TODO</CommandSelectCarriedThingDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainerThing>TODO</CommandSelectContainerThing>
+  <!-- EN: Select the containing item. -->
+  <CommandSelectContainerThingDesc>TODO</CommandSelectContainerThingDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectCarryingPawn>TODO</CommandSelectCarryingPawn>
+  <!-- EN: Select the carrying creature. -->
+  <CommandSelectCarryingPawnDesc>TODO</CommandSelectCarryingPawnDesc>
+  <!-- EN: Select {0_nameDef} -->
+  <CommandSelectContainedPawn>TODO</CommandSelectContainedPawn>
+  <!-- EN: Select the contained creature. -->
+  <CommandSelectContainedPawnDesc>TODO</CommandSelectContainedPawnDesc>
+  <!-- EN: Select {0_label} -->
+  <CommandSelectContainedThing>TODO</CommandSelectContainedThing>
+  <!-- EN: Select the contained item. -->
+  <CommandSelectContainedThingDesc>TODO</CommandSelectContainedThingDesc>
+
   <!-- Take a drug -->
   <!-- EN: Take drug... -->
   <TakeDrug>İlaç kullan...</TakeDrug>
@@ -576,5 +615,32 @@
   <CommandCancelRitualDesc>{RITUAL_labelDef}'i hemen sonlandırın. Ritüel zorunluluk kalacaktır. Ritüeli daha sonra yeniden başlatabilirsiniz.</CommandCancelRitualDesc>
   <!-- EN: Are you sure you want to cancel {RITUAL_labelDef}? -->
   <CommandCancelRitualConfirm>{RITUAL_labelDef}'i iptal etmek istediğinizden emin misiniz?</CommandCancelRitualConfirm>
+
+  <!-- Storage linking -->
+  <!-- EN: Link settings -->
+  <LinkStorageSettings>TODO</LinkStorageSettings>
+  <!-- EN: Link storage settings for multiple selected buildings so that they share storage settings.\n\nThe group will start with the settings of whatever you selected first. -->
+  <LinkStorageSettingsDesc>TODO</LinkStorageSettingsDesc>
+  <!-- EN: You must select two or more buildings to link their storage settings. -->
+  <LinkStorageDisabledSelectTwo>TODO</LinkStorageDisabledSelectTwo>
+  <!-- EN: Already linked. -->
+  <AlreadyLinked>TODO</AlreadyLinked>
+  <!-- EN: Unlink settings -->
+  <UnlinkStorageSettings>TODO</UnlinkStorageSettings>
+  <!-- EN: Unlink this from other buildings' storage settings so its settings can be set independently. -->
+  <UnlinkStorageSettingsDesc>TODO</UnlinkStorageSettingsDesc>
+  <!-- EN: Linked storage settings -->
+  <LinkedStorageSettings>TODO</LinkedStorageSettings>
+  <!-- EN: {0} buildings -->
+  <NumBuildings>TODO</NumBuildings>
+  <!-- EN: Stores -->
+  <StoresThings>TODO</StoresThings>
+  <!-- EN: Select all linked -->
+  <SelectAllLinked>TODO</SelectAllLinked>
+  <!-- EN: Select all storage buildings linked to this. -->
+  <SelectAllLinkedDesc>TODO</SelectAllLinkedDesc>
+
+  <!-- EN: {0_labelShort} is unconscious. -->
+  <CommandDisabledUnconscious>{0_labelShort} bilinçsiz.</CommandDisabledUnconscious>
   
 </LanguageData>

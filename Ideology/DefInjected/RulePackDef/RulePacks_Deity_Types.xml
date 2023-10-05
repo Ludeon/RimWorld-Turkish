@@ -3,7 +3,8 @@
   
   <!-- EN:
     <li>r_deityType->[god] of [memeConcept]</li>
-    <li>god(p=7)->God</li>
+    <li>god(p=7, gender!=Female)->God</li>
+    <li>god(p=7, gender==Female)->Goddess</li>
     <li>god(p=4)->[memeGod]</li>
     <li>god(p=3)->Spirit</li>
     <li>god->Creator</li>

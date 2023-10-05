@@ -25,6 +25,8 @@
   <ColonistsNeedRescue>Kolonistlerin kurtarılması gerekiyor</ColonistsNeedRescue>
   <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
   <ColonistsNeedRescueDesc>Şu kolonistler, hareket edemeyecek durumda:\n\n{0}\nOnları kurtarıp, yatağa taşıması için başka bir kolonist gönder.\n\n(Kurtarmak için, başka bir kolonist seç ve yardıma ihtiyacı olan kişinin üzerine sağ tıklayıp "Kurtar" seçeneğini seç.).</ColonistsNeedRescueDesc>
+  <!-- EN: These colonists are incapacitated on the ground:\n\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
+  <ColonistsNeedRescueDescController>Şu kolonistler, hareket edemeyecek durumda:\n\n{0}\nOnları kurtarıp, yatağa taşıması için başka bir kolonist gönder.\n\n(Kurtarmak için, başka bir kolonist seç ve yardıma ihtiyacı olan kişinin üzerindeki sol tetik düğmesine basın ve Kurtar'ı seçin.)</ColonistsNeedRescueDescController>
 
   <!-- EN: Need defenses -->
   <NeedDefenses>Savunma gerekiyor</NeedDefenses>
@@ -70,7 +72,7 @@
 
   <!-- EN: Hunter lacks ranged weapon -->
   <HunterLacksWeapon>Silahsız avcı</HunterLacksWeapon>
-  <!-- EN: A colonist is assigned as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon. -->
+  <!-- EN: A colonist is assigned to work as a hunter but does not have a ranged weapon.\n\nThey will not hunt until they are carrying a ranged weapon.\n\nThe following colonists are assigned as hunters and need ranged weapons -->
   <HunterLacksWeaponDesc>Bir kolonist avcı olarak görevlendirildi ama silahı yok.\n\nBir silah edinene kadar avlanamayacak.</HunterLacksWeaponDesc>
 
   <!-- EN: Tattered apparel -->
@@ -128,8 +130,12 @@
 
   <!-- EN: Need batteries -->
   <NeedBatteries>Akü gerekiyor</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. This means you'll lose power every time the sun goes down or the wind calms.\n\nBuild a battery or two to guarantee sustained power. -->
+  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
   <NeedBatteriesDesc>Güneş panelin veya rüzgar türbinin var, ancak akün yok. Güneş batınca yada rüzgar dinince enerji kaybına uğrayacaksın.\n\nAkü kurarsan fazla enerjiyi koruyabilirsin. Bir iki akü inşa et.</NeedBatteriesDesc>
+  <!-- EN: Build a battery or two to guarantee sustained power. -->
+  <NeedBatteriesResearchedDesc>Sürekli gücü temin etmek için bir veya iki pil inşa edin.</NeedBatteriesResearchedDesc>
+  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
+  <NeedBatteriesNotResearchedDesc>Sürekli gücü temin etmek için pilleri araştırın ve bir çift inşa edin.</NeedBatteriesNotResearchedDesc>
 
   <!-- EN: Brawler has ranged weapon -->
   <BrawlerHasRangedWeapon>Kavgacının menzilli silahı var</BrawlerHasRangedWeapon>
@@ -156,10 +162,12 @@
   <!-- EN: These caravans are waiting for you to set their next destination:\n\n{0} -->
   <CaravanIdleDesc>Şu kervanlar boşta, bir sonraki hedeflerini belirlemeni bekliyorlar:\n\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Colonist needs treatment -->
+  <!-- EN: Medical treatment needed -->
   <ColonistNeedsTreatment>Kolonistin tedaviye ihtiyacı var</ColonistNeedsTreatment>
-  <!-- EN: These colonists need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded colonists and right-click on the medical bed to make them a patient.) -->
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
   <ColonistNeedsTreatmentDesc>Şu kolonistlerin tedavi olması gerekiyor. Gerekli tedavi uygulanmazsa yaraları onları öldürebilir yada yaraları kalıcı olabilir:\n\n{0}\nOnları tıbbi bir yatağa göndererek tedavi et.\n\n(Önce bir yatak seç ve onu tıbbi yatağa dönüştür. Sonra yaralı kolonistleri seç ve tıbbi yatağın üzerine sağ tıklayarak onları hastaya dönüştür.)</ColonistNeedsTreatmentDesc>
+  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n\n{0}\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
+  <ColonistNeedsTreatmentDescController>Bu kişilerin tıbbi tedaviye ihtiyacı var. Tedavi olmazlarsa yaralarından ölebilirler veya yaraları kalıcı hale gelebilir.\n\n{0}\nOnları bir tıbbi yatağa göndererek tedavi edin.\n\n(Önce, bir yatak seçerek onu tıbbi yatak olarak atayın ve sonra, yaralı kişiyi seçin ve onu yatağa yatırmak için tıbbi yatak üzerindeki sol tetik düğmesine basın.)</ColonistNeedsTreatmentDescController>
 
   <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermi</AlertHypothermia>
@@ -187,6 +195,16 @@
   <BilliardsNeedsSpace>Bilardo alanı gerekiyor</BilliardsNeedsSpace>
   <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
   <BilliardsNeedsSpaceDesc>Bilardo masalarından birisi bir başka bir eşyayla bitişik ve bu, kolonistlerinin bilardo oynamasına engel oluyor.\n\nBilardo masalarının kullanılabilmesi için dört tarafında yeterli boş alan bulunmalı.</BilliardsNeedsSpaceDesc>
+
+  <!-- EN: Chess table needs chairs -->
+  <ChessTablesNeedChairs>Satranç masasının sandalyeye ihtiyacı var</ChessTablesNeedChairs>
+  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
+  <ChessTablesNeedChairsDesc>Satranç masalarınızdan birinde bitişik sandalye yok.\n\nKolonistlerinizin satranç masasını kullanmasına izin vermek için bitişik sandalyeler veya tabureler inşa edin. Bir satranç masasını aynı anda en fazla iki kişi kullanabilir.</ChessTablesNeedChairsDesc>
+
+  <!-- EN: Poker table needs chairs -->
+  <PokerTablesNeedChairs>Poker masasının sandalyeye ihtiyacı var</PokerTablesNeedChairs>
+  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
+  <PokerTablesNeedChairsDesc>Poker masalarınızdan birinde bitişik sandalye yok.\n\nKolonistlerinizin poker masasını kullanmasına izin vermek için bitişik sandalyeler veya tabureler oluşturun. Bir poker masasını aynı anda en fazla sekiz kişi kullanabilir.</PokerTablesNeedChairsDesc>
 
   <!-- EN: Hunter has shield and ranged weapon -->
   <HunterHasShieldAndRangedWeapon>Avcı kalkan kullanıyor</HunterHasShieldAndRangedWeapon>
@@ -256,48 +274,68 @@
   <QuestExpiresSoonDesc>'{0}' görevinin süresi {1} içinde dolacak.</QuestExpiresSoonDesc>
 
   <!-- EN: Animal filth -->
-  <AlertAnimalFilth>TODO</AlertAnimalFilth>
+  <AlertAnimalFilth>Hayvan pisliği</AlertAnimalFilth>
   <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
-  <AlertAnimalFilthDesc>TODO</AlertAnimalFilthDesc>
+  <AlertAnimalFilthDesc>Pislik üreten bir hayvan içeride temiz bir zemin üzerinde duruyor.\n\nHayvanlar normal zeminlerde hareket ederken çok büyük miktarda pislik üretir. Pislik üreten hayvanları açık havada veya çok daha az pislik üretecekleri bir hasır üzerinde tutun.\n\nBir hayvanın pislik üretim oranını 'i' düğmesini tıklayarak istatistiklerinden kontrol edebilirsiniz.\n\nSorun şu hayvanlar: \n{0}</AlertAnimalFilthDesc>
 
   <!-- EN: Pen needed -->
-  <AlertAnimalPenNeeded>TODO</AlertAnimalPenNeeded>
-  <!-- EN: Some of your tame animals are roamers. If not kept in an animal pen, they will wander away. -->
-  <AlertAnimalPenNeededDesc>TODO</AlertAnimalPenNeededDesc>
+  <AlertAnimalPenNeeded>Ağıl gerekli</AlertAnimalPenNeeded>
+  <!-- EN: Some of your tame animals are roamers. If not kept in a pen or roped to a caravan hitching spot, they will wander away. -->
+  <AlertAnimalPenNeededDesc>Evcil hayvanlarınızdan bazıları başıboş geziniyor. Ağılda tutulmazlarsa uzaklaşırlar.</AlertAnimalPenNeededDesc>
   <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
-  <AlertAnimalPenNeededNoHandlers>TODO</AlertAnimalPenNeededNoHandlers>
-  <!-- EN: None of your assigned handlers have the required animals skill needed to take the following animals to a pen. -->
-  <AlertAnimalPenNeededLowSkillHandlers>TODO</AlertAnimalPenNeededLowSkillHandlers>
-  <!-- EN: needs {MINSKILL}, {HANDLER_labelShort} has {BESTSKILL} -->
-  <AlertAnimalPenNeededLowSkillHandlersDetail>TODO</AlertAnimalPenNeededLowSkillHandlersDetail>
+  <AlertAnimalPenNeededNoHandlers>Hayvanları ağıla götürecek terbiyeciniz yok.\n\nTerbiyeci iş türüne bir kolonist atayın.</AlertAnimalPenNeededNoHandlers>
   <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
-  <AlertAnimalPenNeededDescExplanation>TODO</AlertAnimalPenNeededDescExplanation>
-
+  <AlertAnimalPenNeededDescExplanation>Çitlerle, barikatlarla veya duvarlarla çevrili bir alana ağıl işaretleyici yaparak bir hayvan ağılı oluşturun. Hangi hayvanları kabul ettiğini ve ağılının kaç tanesini destekleyebileceğini görmek için ağıl işaretçisini seçin.\n\nHayvan terbiyecileriniz hayvanları otomatik olarak atandıkları ağıllara getirecektir.\n\nBir ağıl, hayvanları kabul etmek için bir kapıya veya geçite ihtiyaç duyar.</AlertAnimalPenNeededDescExplanation>
+  
   <!-- EN: Pen not enclosed -->
-  <AlertAnimalPenNotEnclosed>TODO</AlertAnimalPenNotEnclosed>
+  <AlertAnimalPenNotEnclosed>Ağıl çevrelenmemiş</AlertAnimalPenNotEnclosed>
   <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
-  <AlertAnimalPenNotEnclosedDesc>TODO</AlertAnimalPenNotEnclosedDesc>
+  <AlertAnimalPenNotEnclosedDesc>Bir ağıl işaretleyicisi çevrelenmemiş.\n\nHayvanların dışarı çıkmasını önlemek için ağılı çitler, barikatlar, kapılar, duvarlar veya kapılar kullanarak çevreleyin.\n\nYalnızca kapatılmamış ağıl işaretleyicileriniz varsa, terbiyecileriniz yine de başıboş dolaşan hayvanları eve yönlendirebilir  - ancak bu, hayvanlar bir kez daha uzaklaştığında zaman zaman tekrarlanmalıdır.</AlertAnimalPenNotEnclosedDesc>
+
+  <!-- EN: {ANIMAL_labelShort} in animal pen -->
+  <AlertPredatorInAnimalPen>TODO</AlertPredatorInAnimalPen>
+  <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
+  <AlertPredatorInAnimalPenDesc>TODO</AlertPredatorInAnimalPenDesc>
 
   <!-- EN: Animal wandering away -->
-  <AlertAnimalIsRoaming>TODO</AlertAnimalIsRoaming>
+  <AlertAnimalIsRoaming>Hayvan başıboş geziniyor</AlertAnimalIsRoaming>
   <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n\n{0} -->
-  <AlertAnimalIsRoamingDesc>TODO</AlertAnimalIsRoamingDesc>
+  <AlertAnimalIsRoamingDesc>Evcil hayvanlarınızdan bazılarının başıboş ve gezinmeye başladılar. Haritanın kenarına ulaşırlarsa sonunda oradan ayrılırlar.\n\nKapalı bir hayvan ağılınız varsa, hayvan bakıcılarınız hayvanı geri getirebilir. Bir ağıla konulmuş hayvanlar dolaşmaz.\n\nAşağıdaki hayvanlar dolaşıyor:\n\n{0}</AlertAnimalIsRoamingDesc>
 
   <!-- EN: Hungry pen animals -->
-  <AlertPennedAnimalHungry>TODO</AlertPennedAnimalHungry>
+  <AlertPennedAnimalHungry>Aç ağıl hayvanları</AlertPennedAnimalHungry>
   <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n\n{0} -->
-  <AlertPennedAnimalHungryDesc>TODO</AlertPennedAnimalHungryDesc>
+  <AlertPennedAnimalHungryDesc>Ağıldaki hayvanlarınızdan bazıları aç.\n\nBir kalem işaretleyici seçin ve daha fazla ayrıntı görmek için Yiyecek sekmesini kullanın.\n\nOt yiyen hayvanların, yeterli ot sağlamak için daha büyük bir ağıla ihtiyacı olabilir. Diğer hayvanlara saman veya benzer yiyeceklerin bir yığın kullanılarak sağlanması gerekebilir.\n\nAşağıdaki kafesli hayvanlar aç:\n\n{0}</AlertPennedAnimalHungryDesc>
+
+  <!-- EN: Hungry hitched animal -->
+  <AlertHitchedAnimalHungryNoFood>TODO</AlertHitchedAnimalHungryNoFood>
+  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n\n{0} -->
+  <AlertHitchedAnimalHungryNoFoodDesc>TODO</AlertHitchedAnimalHungryNoFoodDesc>
 
   <!-- EN: Raids arriving in {0} -->
-  <AlertTimedRaidsArrivingIn>TODO</AlertTimedRaidsArrivingIn>
+  <AlertTimedRaidsArrivingIn>{0} içinde baskın geliyor.</AlertTimedRaidsArrivingIn>
   <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
-  <AlertTimedRaidsArrivingInDesc>TODO</AlertTimedRaidsArrivingInDesc>
+  <AlertTimedRaidsArrivingInDesc>Düşmanlar aşağıdaki bölgelere çekildi ve yakında saldıracaklar.\n\n{0}</AlertTimedRaidsArrivingInDesc>
   <!-- EN: Arriving at {0} in {1} -->
-  <AlertTimedRaidsArrivingAt>TODO</AlertTimedRaidsArrivingAt>
+  <AlertTimedRaidsArrivingAt>{1} içinde {0}'a varıyor.</AlertTimedRaidsArrivingAt>
 
   <!-- EN: Faction will become hostile if you stay -->
-  <FactionWillBecomeHostileIfNotLeavingWithin>TODO</FactionWillBecomeHostileIfNotLeavingWithin>
+  <FactionWillBecomeHostileIfNotLeavingWithin>Eğer kalırsan kabile düşman olacak</FactionWillBecomeHostileIfNotLeavingWithin>
   <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n\n{0} -->
-  <FactionWillBecomeHostileIfNotLeavingWithinDesc>TODO</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>Yerleşim yerlerinde veya ileri karakollarında daha uzun süre kalırsanız, bu gruplar size düşman olacaktır:\n\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+
+  <!-- EN: {0} trees dying -->
+  <AlertMinifiedTreeAboutToDie>TODO</AlertMinifiedTreeAboutToDie>
+  <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
+  <AlertMinifiedTreeAboutToDieDesc>TODO</AlertMinifiedTreeAboutToDieDesc>
+
+  <!-- EN: Need research bench -->
+  <NeedResearchBench>TODO</NeedResearchBench>
+  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
+  <NeedResearchBenchDesc>TODO</NeedResearchBenchDesc>
+  
+  <!-- UNUSED -->
+  <AlertAnimalPenNeededLowSkillHandlers>Atanan terbiyecilerinizden hiçbiri, aşağıdaki hayvanları bir ağıla götürmek için gereken hayvan becerisine sahip değil.</AlertAnimalPenNeededLowSkillHandlers>
+  <AlertAnimalPenNeededLowSkillHandlersDetail>{MINSKILL}'e ihtiyaç var, {HANDLER_labelShort}'ta {BESTSKILL} var.</AlertAnimalPenNeededLowSkillHandlersDetail>
 
 </LanguageData>
