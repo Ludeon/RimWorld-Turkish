@@ -25,6 +25,8 @@
   <CaravanMech>1 makine</CaravanMech>
   <!-- EN: {0} mechs -->
   <CaravanMechsCount>{0} makineler</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>TODO</BossWithApparel>
 
   <!-- Job reports -->
   <!-- EN: removing {0}. -->
@@ -113,6 +115,8 @@
   <WaitingFor>için bekliyor</WaitingFor>
   <!-- EN: Uncontrolled -->
   <Uncontrolled>kontrol edilemeyen</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>TODO</BossgroupIncoming>
 
   <!-- Sanguophage -->
   <!-- EN: hemogen -->
@@ -165,6 +169,8 @@
   <NextDeathrestNeed>{PAWN_nameDef}, tükenmeyi önlemek için {DURATION} içinde ölüme uykusu yapmalıdır.</NextDeathrestNeed>
   <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
   <PawnShouldDeathrestNow>{PAWN_nameDef}, tükenmeyi önlemek için yakında ölüme uykusu yapmalıdır.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>TODO</AutoTakeHemogenDesc>
   <!-- EN: Consume hemogen below -->
   <ConsumeHemogenBelow>Aşağıda tüketilen hemojen</ConsumeHemogenBelow>
   <!-- EN: Never consume hemogen. -->
@@ -271,6 +277,10 @@
   <EjectAllDesc>İçerideki tüm gen paketlerini yere bırakın.</EjectAllDesc>
   <!-- EN: Genepacks stored -->
   <GenepacksStored>gen paketleri depolandı</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>TODO</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>TODO</GenepackAutoLoadDesc>
   <!-- EN: Forced traits -->
   <ForcedTraits>Zorunlu özellikler</ForcedTraits>
   <!-- EN: Suppressed traits -->
@@ -389,7 +399,7 @@
   <WaitingForPawn>{PAWN_nameDef} bekleniyor.</WaitingForPawn>
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>{PAWN_nameDef}'den genler ayıklanıyor.</ExtractingXenogermFrom>
-  <!-- EN: Extraction paused: No power -->
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
   <ExtractionPausedNoPower>Çıkarma duraklatıldı: Güç yok</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>En son {CHEMICAL_label} {DURATION} önce kullanıldı.</LastIngestedDurationAgo>
@@ -543,7 +553,7 @@
   <BiostarvationExplanation>Bir veya daha fazla büyüme teknesi, beslenme veya güç eksikliğinden biyolojik açlık yaşıyor.\n\nBiyo açlık %100'e ulaşırsa, kontrol altındaki insanlar ölecek.</BiostarvationExplanation>
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Küvöze bir kişi yerleştirin. Normalden 20 kat daha hızlı yaşlanacaklar.</InsertPersonGrowthVatDesc>
-  <!-- EN: Implant an embryo into the growth vat. After gestating for 18 days a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
   <InsertEmbryoGrowthVatDesc>Küvöze bir embriyo yükleyin. 18 gün boyunca hamile kaldıktan sonra, küvözden tamamen şekillenmiş bir bebek, umarım sağlıklı bir şekilde doğar.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Embriyo ekle</ImplantEmbryo>
@@ -599,6 +609,8 @@
   <SubcoreScannerWaitingForOccupant>mahkumlar için bekliyor</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Malzemeler için bekliyorum</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>TODO</SubcoreScannerWaitingForIngredientsDesc>
   <!-- EN: Has {0} -->
   <SubcoreScannerPawnHasSickness>{0} var</SubcoreScannerPawnHasSickness>
   <!-- EN: Babies are not allowed -->
@@ -622,8 +634,6 @@
   <Baby>Bebek</Baby>
   <!-- EN: babies -->
   <Babies>Bebekler</Babies>
-  <!-- EN: person -->
-  <Person>Kişi</Person>
   <!-- EN: feral child -->
   <FeralChild>vahşi çocuk</FeralChild>
   <!-- EN: Wearable by -->
@@ -693,6 +703,8 @@
   <SurgeryDisableReasonOvumExtracted>yakın zamanda çıkarılan yumurta</SurgeryDisableReasonOvumExtracted>
   <!-- EN: Fertilize -->
   <Fertilize>dölleme</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>TODO</FertilizeThing>
   <!-- EN: Cannot fertilize -->
   <FertilizeCannotFloatOption>Döllenemez</FertilizeCannotFloatOption>
   <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->

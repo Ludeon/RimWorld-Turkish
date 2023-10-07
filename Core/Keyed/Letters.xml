@@ -31,7 +31,7 @@
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
   <LetterRelationsChange_NeutralFromAlly>{0} ile ilişkiler soğudu. Artık müttefiklik yerine tarafsız olduğunu düşünüyorlar.\n\nHala sizinle barış içinde etkileşime girecek olsalar da, artık tehdit altındayken sana yardım etmek için savaşçı göndermeyecekler.\n\nBu iyi niyet ({1}) düştüğü için oldu {2} altında. İyi niyet {3} 'in altına düşerse, {0} düşman olur. İyi niyet {4} 'in üzerine çıkarsa, bir kez daha müttefik olurlar.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription />
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>TODO</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
   <LetterRelationsChange_Ally>{0} ile ilişkiler çok iyi gelişti. Artık sizi bir müttefik olarak görüyorlar.\n\nMüttefikler bazen saldırı altındayken düşmanlarınızla savaşmaya yardımcı olacaklar. İstediğiniz zaman, iyi niyet bedeli karşılığında yardım için de arayabilirsiniz.\n\nİyi niyetiniz ({1}) {2} geçmişte kaldığı için müttefik oldunuz. İyi niyet, {3} 'in altına düşerse, ilişkiler nötr hale gelir.</LetterRelationsChange_Ally>
@@ -136,12 +136,12 @@
   <!-- EN: {1} died: {0} -->
   <LetterLeadersDeathLabel>{1} öldü: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
-  <LetterLeadersDeath>{1} için {3} {OLDLEADER_nameFull} öldü.\n\nYeni {3} {NEWLEADER_nameFull}.</LetterLeadersDeath>
+  <LetterLeadersDeath>{0}'den {1}, {OLDLEADER_nameFull} öldü.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
   <LetterLeaderChangedLabel>Yeni {1}: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull} artık {1} için {3} değil.\n\nYeni {3} {NEWLEADER_nameFull}.</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull} artık {0}'in {1}'i değil.</LetterLeaderChanged>
 
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
   <LetterNewLeader>Yeni {0}, {NEWLEADER_nameFull}.</LetterNewLeader>
@@ -584,15 +584,8 @@
   <!-- EN: Because the speech was interrupted after only {0} completed, it wasn't as effective. -->
   <LetterSpeechInterrupted>Konuşma yalnızca {0} tamamlandıktan sonra kesildi, o kadar etkili değildi.</LetterSpeechInterrupted>
   <!-- EN: {0}'s speech was cancelled before reaching 50% completion. It had no effect. -->
-  <LetterSpeechCancelled>{ORGANIZER_bestRoyalTitleDef} 'in konuşması %50'si bile tamamlanmadan iptal edildi. Etkisi yoktu.</LetterSpeechCancelled>
+  <LetterSpeechCancelled>{0}'in konuşması %50'si bile tamamlanmadan iptal edildi. Etkisi yoktu.</LetterSpeechCancelled>
   <!-- EN: Speech cancelled -->
   <LetterLabelSpeechCancelled>Konuşma iptal edildi</LetterLabelSpeechCancelled>
-
-  <!-- UNUSED -->
-  <LetterLabelSurgeryFailed>{PATIENT_labelShort} üzerinde ameliyat başarısız oldu</LetterLabelSurgeryFailed>
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}, {PATIENT_labelShort}'ın operasyonu sırasında küçük bir hata yaptı.</MessageMedicalOperationFailureMinor>
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort} {patient.LabelShort}'in operasyonu sırasında olan felaketlere yol açacak şekilde başarısız oldu.</MessageMedicalOperationFailureCatastrophic>
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonu sırasında saçma bir şekilde başarısız oldu.</MessageMedicalOperationFailureRidiculous>
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort} {PATIENT_labelShort}'in operasyonunda kritik bir hata yaptı.</MessageMedicalOperationFailureFatal>
 
 </LanguageData>

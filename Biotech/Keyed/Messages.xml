@@ -15,6 +15,8 @@
   <MessageCantUseOnResistingPerson>{ABILITY_label}, aktif olarak direnecek hiç kimse üzerinde kullanılamaz.</MessageCantUseOnResistingPerson>
   <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
   <MessageCannotUseOnSameXenotype>{0_labelShort} zaten {0_xenotype} zenotipine sahip.</MessageCannotUseOnSameXenotype>
+  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
+  <MessagePawnHasNoXenogenes>TODO</MessagePawnHasNoXenogenes>
   <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
   <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Zenogermler yalnızca kolonistlere, mahkumlara ve kölelere yerleştirilebilir.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
   <!-- EN: Cannot implant in temporary faction members. -->
@@ -27,6 +29,8 @@
   <MessageAbsorbingXenogermWillAngerFaction>{PAWN_nameDef}'in zenogermini absorbe {0}'i kızdıracak.</MessageAbsorbingXenogermWillAngerFaction>
   <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
   <MessageCannotUseOnOtherFactions>{ABILITY_label} yalnızca koloniciler, mahkumlar ve köleler üzerinde kullanılabilir.</MessageCannotUseOnOtherFactions>
+  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
+  <MessageCannotBecomeNonPreferredXenotype>TODO</MessageCannotBecomeNonPreferredXenotype>
 
   <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
   <MessageCaravanAddingEscortingMech>{OVERSEER_nameDef}'e refakat ettiği için kervana {MECH_nameDef} otomatik olarak eklenir</MessageCaravanAddingEscortingMech> 
@@ -43,6 +47,8 @@
   <MessagePregnancyTerminated>{PAWN_nameDef}'in hamileliği başarıyla sonlandırıldı.</MessagePregnancyTerminated>
   
   <!-- Pollution -->
+  <!-- EN: {0} has been angered ({1}) -->
+  <MessageAngeredPollutedCell>TODO</MessageAngeredPollutedCell>
   <!-- EN: Need unpolluted terrain. -->
   <MessageWarningPollutedCell>Kirlenmemiş araziye ihtiyaç var.</MessageWarningPollutedCell>
   <!-- EN: Need polluted terrain. -->
@@ -103,9 +109,14 @@
   <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
   <MessageBedExposedToSunlight>{BED_labelShort} ölüm uykusu için kullanılmak üzere atanmıştır, güneş ışığına maruz kaldığında {PAWN_nameDef} orada ölüm uykusu yapamaz..</MessageBedExposedToSunlight>
 
+  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
+  <GeneExtractorNoPowerEjectedMessage>TODO</GeneExtractorNoPowerEjectedMessage>
+
   <!-- Mechanitor -->
   <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>{PAWN_nameDef}'in beyni, alt çekirdek kopya tarayıcı tarafından yok edildi.</MessagePawnKilledRipscanner> 
+  <MessagePawnKilledRipscanner>{PAWN_nameDef}'in beyni, alt çekirdek kopya tarayıcı tarafından yok edildi.</MessagePawnKilledRipscanner>
+  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
+  <MessageSubcoreSoftscannerCompleted>TODO</MessageSubcoreSoftscannerCompleted>
 
   <!-- EN: Cannot resurrect dessicated corpses. -->
   <MessageCannotResurrectDessicatedCorpse>Kurumuş cesetler diriltemez.</MessageCannotResurrectDessicatedCorpse>
@@ -140,5 +151,14 @@
 
   <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
   <MessageDraftedPawnCarryingBaby>Uyarı: {0_labelShort}, işe alınırken bir bebek taşıyor.</MessageDraftedPawnCarryingBaby>
+  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
+  <MessageTakingBabyToSafeTemperature>TODO</MessageTakingBabyToSafeTemperature>
+
+  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
+  <MessagePregnancyFailed>TODO</MessagePregnancyFailed>
+  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
+  <MessageFerilizeFailed>TODO</MessageFerilizeFailed>
+  <!-- EN: Combined genes exceeded metabolism limits. -->
+  <CombinedGenesExceedMetabolismLimits>TODO</CombinedGenesExceedMetabolismLimits>
 
 </LanguageData>

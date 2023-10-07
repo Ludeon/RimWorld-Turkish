@@ -69,7 +69,7 @@
   <MessageOutOfNearbyFuelFor>{PAWN_labelShort}, {GUN_label} için yakınlarda ayrılmamış {FUEL} bulunamadı.</MessageOutOfNearbyFuelFor>
 
   <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Dikkat: {ANIMAL_kindBasePlural}ler zarar gördüğünde genellikle saldırırlar.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalsGoPsychoHunted>Dikkat: {ANIMAL_kindBasePlural}ler zarar gördüğünde {1} ihtimalle saldırırlar. Şans menzile ve avcının gizlilik niteliğine bağlıdır.</MessageAnimalsGoPsychoHunted>
   <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
   <MessageAnimalManhuntsOnTameFailed>Dikkat: {ANIMAL_kindBasePlural} ler, başarısız bir evcilleştirme girişiminde saldırabilir ({1} şans).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
@@ -253,7 +253,7 @@
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} ve {PAWN2_labelShort} artık tartışmıyorlar.</MessageNoLongerSocialFighting>
   
   <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort} is no longer binging on {1}.</MessageNoLongerBingingOnDrug>
+  <MessageNoLongerBingingOnDrug>TODO</MessageNoLongerBingingOnDrug>
 
   <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
   <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} artık {TARGET_label}'e saydırmayı bıraktı.</MessageNoLongerOnTargetedInsultingSpree>
@@ -439,7 +439,7 @@
   <!-- EN: Body part restored: {0}. -->
   <MessageBodyPartCuredByItem>Vücut bölgesi iyileştirilde: {0}.</MessageBodyPartCuredByItem>
   <!-- EN: Technology given: {0}. -->
-  <MessageResearchProjectFinishedByItem>Technology given: {0}.</MessageResearchProjectFinishedByItem>
+  <MessageResearchProjectFinishedByItem>TODO</MessageResearchProjectFinishedByItem>
 
   <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0} hayata geri getirildi!</MessagePawnResurrected>
@@ -496,7 +496,7 @@
   <!-- EN: downgraded {0} -->
   <GoodwillChangedReason_DowngradedImplant>{0} eski sürüme geçirildi</GoodwillChangedReason_DowngradedImplant>
   <!-- EN: needlessly installed {0} -->
-  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>needlessly installed {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>TODO</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
   <!-- EN: captured {1_labelShort} -->
   <GoodwillChangedReason_CapturedPawn>{1_labelShort} ele geçirildi</GoodwillChangedReason_CapturedPawn>
   <!-- EN: {1_labelShort} crushed -->
@@ -560,13 +560,13 @@
   <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
   <MessageBillValidationStoreZoneUnavailable>{1} stok alanına ulaşılamadığından dolayı eşyayı oraya bırakamıyor ({2}).</MessageBillValidationStoreZoneUnavailable>
   <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
-  <MessageBillValidationPawnUnavailable>{0} can no longer work on "{1}" at {2}. The restriction has been removed.</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationPawnUnavailable>TODO</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>{1} stok alanı silindiğinden dolayı stoktaki öğeleri dahil edemiyor ({2}).</MessageBillValidationIncludeZoneDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>{1} stok alanına ulaşılamadığından dolayı stoktaki öğeleri dahil edemiyor ({2}).</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>{1}'s "{0}" can no longer deliver all products to stockpile {2}.</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneInsufficient>TODO</MessageBillValidationStoreZoneInsufficient>
 
   <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
   <MessageAnimalReturnedWild>Yeterli bakılmadığı için, {1_labelShort} vahşi hayatına geri döndü.</MessageAnimalReturnedWild>
@@ -788,12 +788,5 @@
   <StorageSettingsCopiedToClipboard>TODO</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
   <StorageSettingsPastedFromClipboard>TODO</StorageSettingsPastedFromClipboard>
-
-  <!-- UNUSED -->
-  <MessageTooLowMedCare>Operasyon için {0} veya daha iyisi gerekiyor, fakat {PAWN_labelShort}'in geçerli tıbbi bakımi "{2}".</MessageTooLowMedCare>
-  <MessageNuzzledPawnGaveNameTo>{NAMER_nameFull}, {1} {NAMEE_nameFull} ismini verdi.</MessageNuzzledPawnGaveNameTo>
-  <MessageSiteCountdownBecauseNoMoreEnemies>Tüm düşmanları yendin. Kervan otomatik olarak yeniden oluşturulacak.</MessageSiteCountdownBecauseNoMoreEnemies>
-  <MessageSiteCountdownBecauseNoEnemiesInitially>Kervan otomatik olarak yeniden oluşturuldu. Kervanı şimdi Dünya ekranında yeniden düzenleyebilirsiniz.</MessageSiteCountdownBecauseNoEnemiesInitially>
-  <GoodwillChangedReason_NaturallyOverTime>doğal olarak zamanla {0} değerine ulaşma eğilimli</GoodwillChangedReason_NaturallyOverTime>
 
 </LanguageData>
