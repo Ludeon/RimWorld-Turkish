@@ -79,6 +79,15 @@
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>Bu canlının kesildiğinde vereceği et miktarı.</MeatAmount.description>
   
+  <!-- EN: meditation psyfocus gain -->
+  <MeditationFocusGain.label>TODO</MeditationFocusGain.label>
+  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
+  <MeditationFocusGain.description>TODO</MeditationFocusGain.description>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatString>TODO</MeditationFocusGain.formatString>
+  <!-- EN: {0} / day -->
+  <MeditationFocusGain.formatStringUnfinalized>TODO</MeditationFocusGain.formatStringUnfinalized>
+  
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>ruhsal çöküş eşiği</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
@@ -101,15 +110,27 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Bu canlının şok geçirdiği acı seviyesi.</PainShockThreshold.description>
   
+  <!-- EN: neural heat limit -->
+  <PsychicEntropyMax.label>TODO</PsychicEntropyMax.label>
+  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
+  <PsychicEntropyMax.description>TODO</PsychicEntropyMax.description>
+  
+  <!-- EN: neural heat recovery rate -->
+  <PsychicEntropyRecoveryRate.label>TODO</PsychicEntropyRecoveryRate.label>
+  <!-- EN: The rate at which this person reduces neural heat. -->
+  <PsychicEntropyRecoveryRate.description>TODO</PsychicEntropyRecoveryRate.description>
+  <!-- EN: {0}/s -->
+  <PsychicEntropyRecoveryRate.formatString>TODO</PsychicEntropyRecoveryRate.formatString>
+  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>psişik hassaslık</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
   <PsychicSensitivity.description>Daha hassas insanlar psişik etkilerden daha çok acı ve zevk alır. Ayrıca yüksek psişik hassaslık sinirsel ısı limitini arttırır.</PsychicSensitivity.description>
   
   <!-- EN: sleep fall rate -->
-  <RestFallRateFactor.label>TODO</RestFallRateFactor.label>
+  <RestFallRateFactor.label>uyku düşme oranı</RestFallRateFactor.label>
   <!-- EN: A multiplier on the speed that a person's sleep need falls. -->
-  <RestFallRateFactor.description>TODO</RestFallRateFactor.description>
+  <RestFallRateFactor.description>Bir kişinin uyku ihtiyacı olan hızın çarpanı düşer.</RestFallRateFactor.description>
   
   <!-- EN: rest rate multiplier -->
   <RestRateMultiplier.label>dinlenme oranı çarpanı</RestRateMultiplier.label>
@@ -118,7 +139,7 @@
   
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>TODO</ToxicEnvironmentResistance.label>
-  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
   <ToxicEnvironmentResistance.description>TODO</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->

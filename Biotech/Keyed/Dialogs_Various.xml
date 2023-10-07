@@ -22,6 +22,14 @@
   <ConfirmInstallMechlink>Bir mekanitörün mekanoid oluşturmak için demircilik yapabilmesi gerekir\n\nDevam etmek istediğinizden emin misiniz?</ConfirmInstallMechlink>
   <!-- EN: insufficient bandwidth -->
   <InsufficientBandwidth>yetersiz bant genişliği</InsufficientBandwidth>
+  <!-- EN: The following mechs have been left behind by {PAWN_labelShort}:\n\n{MECHS}\n\nThe mechs will stay here until they are picked up.\n\nWould you like to set their work mode to escort so they follow {PAWN_labelShort} off the map? -->
+  <MechanitorLeftMapWithoutMechs>TODO</MechanitorLeftMapWithoutMechs>
+
+  <!-- Apparel -->
+  <!-- EN: Any mechlord apparel -->
+  <ApparelRequirementAnyMechlordApparel>TODO</ApparelRequirementAnyMechlordApparel>
+  <!-- EN: or any psycaster, prestige, or mechlord apparel -->
+  <ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>TODO</ApparelRequirementOrAnyPsycasterOrPrestigeApparelOrMechlord>
 
   <!-- Mech gestator -->
   <!-- EN: Gestation cycles completed -->
@@ -32,6 +40,8 @@
   <!-- Subcore scanner -->
   <!-- EN: Ripscanning {PAWN_nameDef} will kill {PAWN_objective}. Are you sure you want to continue? -->
   <ConfirmRipscanPawn>Kopya tarayıcı {PAWN_nameDef}'i öldürecek. Devam etmek istediğine emin misin?</ConfirmRipscanPawn>
+  <!-- EN: Cancelling a ripscan will still kill {PAWN_nameDef}. Are you sure you want to continue? -->
+  <ConfirmCancelRipscan>TODO</ConfirmCancelRipscan>
 
   <!-- Xenogerm -->
   <!-- EN: Assemble genes -->
@@ -116,7 +126,7 @@
   <Xenogenes>zenogenler</Xenogenes>
   <!-- EN: overridden -->
   <Overridden>üzerine yazılmış</Overridden>
-  <!-- EN: Overridden by xenogene -->
+  <!-- EN: Overridden by gene -->
   <OverriddenByGene>zenojen tarafından geçersiz kılındı</OverriddenByGene>
   <!-- EN: Overridden by identical gene -->
   <OverriddenByIdenticalGene>Özdeş gen tarafından geçersiz kılınmış</OverriddenByIdenticalGene>
@@ -234,6 +244,8 @@
   <MechWorkSkillDesc>Bu mekanoidin birlikte hareket ettiği beceri seviyesi.</MechWorkSkillDesc>
   <!-- EN: Any mech -->
   <AnyMech>herhangi bir makine</AnyMech>
+  <!-- EN: Any human -->
+  <AnyNonMech>TODO</AnyNonMech>
   <!-- EN: Your caravan contains a mechanoid but not their overseer. You will have limited control over the mechanoid when you reach your destination. -->
   <CaravanLacksMechMechanitorWarning>Kervanınızda bir mekanoid var ama onların gözetmenleri yok. Hedefinize ulaştığınızda mekanoid üzerinde sınırlı kontrolünüz olacak.</CaravanLacksMechMechanitorWarning>
   <!-- EN: Mechanoids -->
@@ -343,5 +355,9 @@
 
   <!-- EN: {0_labelShort} must have a tendable wound. -->
   <AbilityMustHaveTendableWound>{0_labelShort}, iyileştirilebilir bir yaraya sahip olmalıdır.</AbilityMustHaveTendableWound>
+
+  <!-- Abandon home (including mechs) -->
+  <!-- EN: Some of your colonists, animals or mechanoids are in this area. Are you sure you want to abandon it?\n\nThe following people, animals and mechs will be left behind:\n\n{0} -->
+  <ConfirmAbandonHomeWithColonyPawnsIncMechs>TODO</ConfirmAbandonHomeWithColonyPawnsIncMechs>
 
 </LanguageData>

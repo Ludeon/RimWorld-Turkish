@@ -26,7 +26,7 @@
 
   <!-- EN: Summon {LEADER_label} available -->
   <LetterLabelCommsConsoleSpawned>Mevcut {LEADER_label} çağırdı</LetterLabelCommsConsoleSpawned>
-  <!-- EN: A mechanitor can use the {PARENT_label} to summon a {LEADER_label} mechanoid. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
+  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
   <LetterCommsConsoleSpawned>Bir mekanitör, bir {LEADER_label} mekanoidi çağırmak için {PARENT_label}'i kullanabilir. {LEADER_label} etiketini yenerseniz, şu öğeler düşer:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
   <!-- EN: Summon {LEADER_label} possible -->
@@ -42,6 +42,12 @@
   <LetterLabelMechanitorCasketFound>Mekanitör tabutu bulundu</LetterLabelMechanitorCasketFound>
   <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
   <LetterMechanitorCasketFound>Bir mekanitörün şifreli uyku tabutunu keşfettiniz!\n\nOnları içeride bulmak için açın.</LetterMechanitorCasketFound>
+  
+  <!-- Pawns lost because map closed (including mechs) -->
+  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <!-- EN: The following people, animals and mechanoids have been abandoned -->
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>TODO</LetterPawnsLostIncMechsBecauseMapClosed_Home>
   
 
   <!-- Children -->
@@ -108,10 +114,14 @@
   <Immediately>derhal</Immediately>
   <!-- EN: within -->
   <Within>içinde</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. You can change it until {1} after birth. -->
-  <LetterPartNameBaby>Bebeğe geçici {0_nameFull} adı verildi. Doğumdan sonra {1} tarihine kadar değiştirebilirsiniz.</LetterPartNameBaby>
+  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <LetterPartTempBabyName>TODO</LetterPartTempBabyName>
+  <!-- EN: You can change it until {0} after birth. -->
+  <LetterPartLiveBirthNameDeadline>TODO</LetterPartLiveBirthNameDeadline>
+  <!-- EN: Would you like to give the baby another name? -->
+  <LetterPartStillbirthNameDeadline>TODO</LetterPartStillbirthNameDeadline>
   <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Bebeğe geçici {0_nameFull} adı verildi. Bebek {1} yaşından küçük olduğu sürece değiştirebilirsiniz.</LetterPartNameBabyAdopt> 
+  <LetterPartNameBabyAdopt>Bebeğe geçici {0_nameFull} adı verildi. Bebek {1} yaşından küçük olduğu sürece değiştirebilirsiniz.</LetterPartNameBabyAdopt>
 
   <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME} için büyüme anı</BirthdayGrowthMoment>
@@ -134,7 +144,11 @@
   <BirthdayPassionArchive>{0} için tutku arttı.</BirthdayPassionArchive>
   <!-- EN: The trait {0} was gained. -->
   <BirthdayTraitArchive>{0} özelliği kazanıldı.</BirthdayTraitArchive>
-  
+  <!-- EN: No trait -->
+  <BirthdayNoTraitChoice>TODO</BirthdayNoTraitChoice>
+  <!-- EN: {0} does not gain a trait. -->
+  <BirthdayNoTraitChoiceTooltip>TODO</BirthdayNoTraitChoiceTooltip>
+
   <!-- EN: Make choices to close -->
   <BirthdayMakeChoices>Kapatmak için seçim yapın</BirthdayMakeChoices>
   <!-- EN: {0} has gained the nickname {1}. -->
@@ -164,8 +178,16 @@
   <XenogermOrderedImplantedMedicineNeeded>\n\nZenogermi yerleştirmek için yeterli ilacınız yok. {MEDICINENEEDED} ilacı alana kadar implantasyon başlayamaz.</XenogermOrderedImplantedMedicineNeeded>
   <!-- EN: Involuntary deathrest -->
   <LetterLabelInvoluntaryDeathrest>istemsiz ölüm uykusu</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: {PAWN_nameDef} has fallen into deathrest. -->
-  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} ölüm uykusuna düştü.</LetterTextInvoluntaryDeathrest>
+  <!-- EN: Regeneration coma -->
+  <LetterLabelRegenerationComa>TODO</LetterLabelRegenerationComa>
+  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
+  <LetterTextInvoluntaryDeathrestOrComa>TODO</LetterTextInvoluntaryDeathrestOrComa>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
+  <LetterTextDeathrest>TODO</LetterTextDeathrest>
+  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextRegenerationComa>TODO</LetterTextRegenerationComa>
+  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
+  <DeathrestLostSkill>TODO</DeathrestLostSkill>
   <!-- EN: Lethal damage taken. -->
   <DeathrestLethalDamage>Ölümcül hasar alındı.</DeathrestLethalDamage>
 
@@ -186,5 +208,14 @@
 
   <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
   <LetterPsychicBondCreated>İçgüdüsel olarak bir eş arayan {BONDPAWN_nameDef}, {OTHERPAWN_nameDef} ile psişik olarak bağlı romantik bir ilişki kurdu. {OTHERPAWN_nameDef}, {BONDPAWN_nameDef} ile olan bağlantıdan psikolojik olarak fayda sağlayacaktır, ancak farklı dünya karolarına ayrılırlarsa, her ikisi de psişik stresten muzdarip olacaktır. Biri ölürse diğeri deliliğe sürüklenir.</LetterPsychicBondCreated>
+
+  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreatedLovinLabel>TODO</LetterPsychicBondCreatedLovinLabel>
+  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
+  <LetterPsychicBondCreatedLovinText>TODO</LetterPsychicBondCreatedLovinText>
+
+  <!-- UNUSED -->
+  <LetterPartNameBaby>Bebeğe geçici {0_nameFull} adı verildi. Doğumdan sonra {1} tarihine kadar değiştirebilirsiniz.</LetterPartNameBaby>
+  <LetterTextInvoluntaryDeathrest>{PAWN_nameDef} ölüm uykusuna düştü.</LetterTextInvoluntaryDeathrest>
 
 </LanguageData>
