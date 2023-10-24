@@ -53,7 +53,7 @@
   </AnimalChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: nuzzle -->
-  <Nuzzle.label>sarılma</Nuzzle.label>
+  <Nuzzle.label>sokulma</Nuzzle.label>
   <!-- EN:
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
@@ -83,8 +83,8 @@
   <Nuzzle.logRulesInitiator.rulesStrings>
     <li>r_logentry(p=2)->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [nuzzleadverb] [nuzzled].</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'in [rubbedpart] [nuzzleadverb] sarıldı.</li>
-    <li>nuzzled(p=2)->sarıldı</li>
-    <li>nuzzled->sarıldı</li>
+    <li>nuzzled(p=2)->sokuldu</li>
+    <li>nuzzled->sokuldu</li>
     <li>nuzzleadverb(p=4)-></li>
     <li>nuzzleadverb->nazikçe</li>
     <li>nuzzleadverb->cesaret verici bir şekilde</li>
@@ -108,7 +108,7 @@
   </Nuzzle.logRulesInitiator.rulesStrings>
   
   <!-- EN: release to the wild -->
-  <ReleaseToWild.label>doğaya sal</ReleaseToWild.label>
+  <ReleaseToWild.label>doğaya salma</ReleaseToWild.label>
   <!-- EN:
     <li>r_logentry->[farewell] [released]</li>
     <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
@@ -124,16 +124,16 @@
   -->
   <ReleaseToWild.logRulesInitiator.rulesStrings>
     <li>r_logentry->[farewell] [released]</li>
-    <li>farewell->[INITIATOR_nameDef] gently pet [RECIPIENT_nameDef] one last time</li>
-    <li>farewell->[INITIATOR_nameDef] said some warm words to [RECIPIENT_nameDef]</li>
-    <li>farewell->[INITIATOR_nameDef] removed [RECIPIENT_nameDef]'s collar</li>
-    <li>farewell->[INITIATOR_nameDef] reminisced about the good time [INITIATOR_objective] had with [RECIPIENT_nameDef]</li>
-    <li>released->and released [RECIPIENT_objective] to the wild.</li>
-    <li>released->and set [RECIPIENT_objective] free.</li>
-    <li>released->and sent [RECIPIENT_objective] off.</li>
-    <li>released->and let [RECIPIENT_objective] go.</li>
-    <li>released->then turned away and let [RECIPIENT_objective] leave the colony.</li>
-    <li>released->before letting [RECIPIENT_objective] go to live in freedom.\n    </li>
+    <li>farewell->[INITIATOR_nameDef] nazikçe [RECIPIENT_nameDef]'i son kez sevdi</li>
+    <li>farewell->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e sevgi dolu birkaç şey söyledi</li>
+    <li>farewell->[INITIATOR_nameDef] [RECIPIENT_nameDef]'in tasmasını çıkardı</li>
+    <li>farewell->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile yaşadığı güzel zamanları yad etti</li>
+    <li>released->ve onu doğaya saldı.</li>
+    <li>released->ve onu özgürleştirdi.</li>
+    <li>released->ve onu gönderdi.</li>
+    <li>released->ve onun gitmesine izin verdi.</li>
+    <li>released->sonra yüzünü çevirdi ve onu serbest bıraktı.</li>
+    <li>released->sonra özgürce yaşasın diye onu serbest bıraktı.\n    </li>
   </ReleaseToWild.logRulesInitiator.rulesStrings>
   
   <!-- EN: tame attempt -->
@@ -162,13 +162,13 @@
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'den itaat talep etti.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i yanına çağırdı.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i hareketsiz oturtmaya çalıştı.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i sert bir şekilde yakaladı ve bir komut verdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i sert bir şekilde yakaladı ve bir emir verdi.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i sabit tutmaya çalıştı.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e bağırarak bir komut verdi.</li>
     <li>r_logentry->[INITIATOR_nameDef] hakimiyet göstergesi olarak [RECIPIENT_nameDef]'i tokatladı.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i tekrar topluluğa yönlendirdi.</li>
-    <li>r_logentry->[INITIATOR_nameDef] topluluğa geri gelmek için [RECIPIENT_nameDef]'i aradı.</li>
-    <li>r_logentry->[INITIATOR_nameDef] itaat talep ederek [RECIPIENT_nameDef]'in savunmasız bir vücut kısmına dokundu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] topluluğa geri gelmesi için [RECIPIENT_nameDef]'e seslendi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] itaat talep ederek [RECIPIENT_nameDef]'in savunmasız bir vücut parçasına dokundu.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'den işaret ettiği yere gitmesini istedi.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e ilk komutunu verdi.</li>
   </TameAttempt.logRulesInitiator.rulesStrings>
@@ -189,15 +189,15 @@
   -->
   <TrainAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i [trained].</li>
-    <li>trained(p=2)->eğitme[tried]</li>
-    <li>trained->yeni bir numara gösterme[tried]</li>
-    <li>trained->terbiye ediyor[tried]</li>
-    <li>trained->talimat verme[tried]</li>
-    <li>trained->yeni bir beceriye cesaretlendirme[tried]</li>
+    <li>trained(p=2)->eğitmeye [tried]</li>
+    <li>trained->yeni bir numara göstermeye [tried]</li>
+    <li>trained->terbiye etmeye [tried]</li>
+    <li>trained->talimat vermeye [tried]</li>
+    <li>trained->yeni bir beceriye cesaretlendirmeye [tried]</li>
     <li>trained->bir beceri gösterdi</li>
     <li>trained->yeni bir tepki öğrenmesi için cesaretlendirdi</li>
-    <li>tried->yi denedi</li>
-    <li>tried->girişimde bulundu</li>
+    <li>tried->çalıştı</li>
+    <li>tried->kalkıştı</li>
   </TrainAttempt.logRulesInitiator.rulesStrings>
   
 </LanguageData>

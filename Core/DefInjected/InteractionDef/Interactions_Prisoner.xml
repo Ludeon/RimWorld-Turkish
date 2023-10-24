@@ -46,7 +46,7 @@
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i [subject] [talkabouthal] teşvik etti.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [subject] [talkabout] için bir şans sundu.</li>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'in [PersonalCharacteristic] ile ilgilendiğini belirtti.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [RECIPIENT_possessive] [PersonalCharacteristic] hakkında soru sordu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [PersonalCharacteristic]'i hakkında soru sordu.</li>
     <li>toldastoryabout(p=2)->hakkında bir hikaye anlattı</li>
     <li>toldastoryabout->hakkında komik bir hikaye anlattı</li>
     <li>toldastoryabout->hakkında samimi bir hikaye anlattı</li>
@@ -72,13 +72,13 @@
     <li>subject->takım değiştirme</li>
     <li>subject->arkadaş bulma</li>
     <li>subject->yeni insanlarla tanışma</li>
-    <li>subject->[RECIPIENT_possessive] fikirlerini yeniden düşünmesi</li>
-    <li>subject->[RECIPIENT_possessive] sadakatini sorgulaması</li>
+    <li>subject->fikirlerin tartılması</li>
+    <li>subject->sadakatin sorgulanması</li>
     <li>subject->sağlık</li>
     <li>subject->gelecek</li>
     <li>subject->salıverme</li>
     <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
+    <li>subject(p=2)->[PersonalCharacteristic]'i</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
@@ -92,13 +92,13 @@
   -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
     <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'den koloniye katılmasını istedi.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [goodthing] sözü verdi ve [RECIPIENT_objective] katılıp katılmayacağını sordu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [goodthing] sözü verdi ve ona katılıp katılmayacağını sordu.</li>
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->bedava, taze [Vegetable]ler</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>firara teşvik</SparkJailbreak.label>
+  <SparkJailbreak.label>firarı tetikleme</SparkJailbreak.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
@@ -110,18 +110,15 @@
     <li>freedom->self-determination</li>
   -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [freedom] bahsetti ve bir kaçış yolu sundu.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [TerrainFeature]'nin ne kadar güzel olduğundan bahsetti ve özgürlük sundu.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e bir kaçış yolu gösterdi ve [freedomx] sözü verdi.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e güvenliğin dikkatsiz olduğunu söyledi ve kaçmaya teşvik etti.</li>
-    <li>freedom->özgürlüğün muhteşemliğinden</li>
-    <li>freedom->fırsatların güzelliğinden</li>
-    <li>freedom->evin rahatlatıcılığından</li>
-    <li>freedom->özgür iradenin muhteşemliğinden</li>
-    <li>freedomx->özgürlük</li>
-    <li>freedomx->mutluluk</li>
-    <li>freedomx->ev</li>
-    <li>freedomx->özgür irade</li>
+    <li>r_logentry->[INITIATOR_nameDef] [freedom]'in zevki hakkında konuştu ve bir kaçış yolu sundu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [TerrainFeature]'in ne kadar güzel olduğundan bahsetti ve özgürlük teklif etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e bir kaçış yolu gösterdi ve [freedom] sözü verdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e güvenliğin dikkatsiz olduğunu söyledi ve kaçış için cesaretlendirdi.</li>
+    <li>freedom->özgürlük</li>
+    <li>freedom->fırsat</li>
+    <li>freedom->ev</li>
+    <li>freedom->hür irade</li>
+    
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>
