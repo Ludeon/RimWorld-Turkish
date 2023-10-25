@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: attended party -->
+  <AttendedParty.label>partiye katıldı</AttendedParty.label>
+  <!-- EN:
+    <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
+    <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
+    <li>image->[ATTENDER_nameFull] having a conversation with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] getting a drink from [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ATTENDER_nameFull] chatting with [ORGANIZER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] welcoming [ATTENDER_nameFull] [circumstance_group]</li>
+    <li>image->[ORGANIZER_nameFull] introducing [ATTENDER_nameFull] to a friend [circumstance_group]</li>
+    <li>circumstance_phrase->with a broad grin</li>
+    <li>circumstance_phrase->with a laugh</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] smile</li>
+    <li>circumstance_phrase->while laughing uproariously</li>
+    <li>circumstance_phrase->while [AdjectiveFriendly]</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are involved in the conversation.</li>
+    <li>desc_sentence->The area is decorated with [Color] and [Color].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+  -->
+  <AttendedParty.rulePack.rulesStrings>
+    <li>tale_noun->[ATTENDER_nameDef] [ORGANIZER_nameDef]'in partisine katılıyor</li>
+    <li>tale_noun->[ATTENDER_nameDef] bir partide [ORGANIZER_nameDef] ile rahatlıyor</li>
+    <li>image->[ATTENDER_nameFull] [circumstance_group] [ORGANIZER_nameFull]'le sohbet ediyor. </li>
+    <li>image->[ATTENDER_nameFull] [circumstance_group] [ORGANIZER_nameFull]'ten bir içki alıyor. </li>
+    <li>image->[ATTENDER_nameFull] [circumstance_group] [ORGANIZER_nameFull]'le sohbet ediyor.</li>
+    <li>image->[ORGANIZER_nameFull] [circumstance_group] [ATTENDER_nameFull]'i karşılıyor </li>
+    <li>image->[ORGANIZER_nameFull] [circumstance_group] [ATTENDER_nameFull]'i bir arkadaşıyla tanıştırır.</li>
+    <li>circumstance_phrase->geniş bir sırıtışla</li>
+    <li>circumstance_phrase->gülerek</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] gülümsemeyle</li>
+    <li>circumstance_phrase->kahkahalarla gülerken</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]'ken</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] konuşmaya dahil olur.</li>
+    <li>desc_sentence->Alan [Color] ve [Color] ile dekore edilmiştir..</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] yakında oynuyor.</li>
+  </AttendedParty.rulePack.rulesStrings>
+  
+  <!-- EN: built snowman -->
+  <BuiltSnowman.label>kardan adam yaptı</BuiltSnowman.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] building a snowman</li>
+    <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
+    <li>image->[PAWN_nameFull] forming a snowball [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling a giant ball of snow on the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] arranging [Vegetable]s into a rough human face [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] lying down in the snow [circumstance_group]</li>
+    <li>circumstance_phrase->while enveloped in [Quantity_adjphrase] parkas</li>
+    <li>circumstance_phrase->while obscured in a light snowstorm</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a fort</li>
+    <li>circumstance_phrase->while [PAWN_possessive] friends build a snowman family</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A field of [Vegetable]s is barely visible through the snow.</li>
+    <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
+  -->
+  <BuiltSnowman.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] kardan adam yapıyor</li>
+    <li>tale_noun->[PAWN_nameDef] karda oynuyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] kartopu oluşturuyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] yerde dev bir kar topu yuvarlar</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] kaba bir insan yüzüne [Vegetable] yerleştiriyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] karda uzanmış.</li>
+    <li>circumstance_phrase->parkalarla sarılmışken</li>
+    <li>circumstance_phrase->hafif bir kar fırtınasında gizlenirken</li>
+    <li>circumstance_phrase->arkadaşları bir kale inşa ederken</li>
+    <li>circumstance_phrase->arkadaşları bir kardan adam ailesi yaparken</li>
+    <li>desc_sentence->Arka planda [Color] bir aurora parlıyor.</li>
+    <li>desc_sentence->Uzaklarda bir [Community] karla kaplı.</li>
+    <li>desc_sentence->Karda bir [Vegetable] tarlası zar zor görülüyor.</li>
+    <li>desc_sentence->Uzakta karla kaplı bir [TerrainFeature] görülebilir.</li>
+  </BuiltSnowman.rulePack.rulesStrings>
+  
+  <!-- EN: buried corpse -->
+  <BuriedCorpse.label>ceset gömdü</BuriedCorpse.label>
+  <!-- EN:
+    <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
+    <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
+    <li>image->[DIGGER_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] scribing text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] drawing art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[DIGGER_nameFull] placing [CORPSE_nameFull]'s body within a grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [DIGGER_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <BuriedCorpse.rulePack.rulesStrings>
+    <li>tale_noun->[DIGGER_nameDef] [CORPSE_nameDef]'i gömdü</li>
+    <li>tale_noun->[DIGGER_nameDef] [CORPSE_nameDef]'i sonsuz dinlenmeye yatırır.</li>
+    <li>image->[DIGGER_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarının yanında duruyor.</li>
+    <li>image->[DIGGER_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarının yanında oturuyor.</li>
+    <li>image->[DIGGER_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarına yaslanır.</li>
+    <li>image->[DIGGER_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarına yazı yazıyor.</li>
+    <li>image->[DIGGER_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarına resim yapıyor.</li>
+    <li>image->[DIGGER_nameFull] [circumstance_group] [CORPSE_nameFull]'in cesedini bir mezara koyar.</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] ifade takınarak</li>
+    <li>circumstance_phrase->düşüncelere dalarken</li>
+    <li>circumstance_phrase->uzaktaki bir [TerrainFeature]'a bakarken</li>
+    <li>circumstance_phrase->sessizce anma töreniyle konuşurken</li>
+    <li>desc_sentence->Arka planda bir [Renk] aurora parlıyorken</li>
+    <li>desc_sentence->Uzakta bir [Topluluk] karla kaplı.</li>
+    <li>desc_sentence->[CORPSE_nameDef]'nin hayaletimsi bir görüntüsü sahneye [AdjectiveFriendly] bir ifadeyle bakar.</li>
+    <li>desc_sentence->[CORPSE_nameDef]'nin hayalet bir görüntüsü [DIGGER_nameDef]'in yanında [AdjectiveFriendly] bir ifadeyle durmaktadır.</li>
+    <li>desc_sentence->[CORPSE_nameDef]nin hayaletimsi bir görüntüsü sahneye [AdjectiveFriendly] bir ifadeyle bakar.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] rest near the scene</li>
+  </BuriedCorpse.rulePack.rulesStrings>
+  
+  <!-- EN: completed long construction project -->
+  <CompletedLongConstructionProject.label>uzun inşaat projesi tamamlandı</CompletedLongConstructionProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] putting together a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] appears to tower above [PAWN_nameDef].</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the [OBJECT_label].</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongConstructionProject.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] bir [OBJECT_label]'daki inşaatı bitiriyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label] inşaat ediyor </li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label] yerleştiriyor </li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label]'ın yüzeyini parlatıyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label]'a adını kazıyor</li>
+    <li>circumstance_phrase->gözünde bir parıltıyla</li>
+    <li>circumstance_phrase->alnından akan teri silerken</li>
+    <li>circumstance_phrase->pislik içindeyken</li>
+    <li>circumstance_phrase->gururla gülümserken</li>
+    <li>circumstance_phrase->yüzünde memnun bir ifadeyle</li>
+    <li>desc_sentence->[OBJECT_label].[PAWN_nameDef]'nin üzerinde bir kule gibi görünüyor..</li>
+    <li>desc_sentence->[OBJECT_label] yumuşak [Color] bir şekilde parlıyor.</li>
+    <li>desc_sentence->[OBJECT_label] karmaşık bir şekilde detaylandırılmıştır.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] [OBJECT_label]'a hayran kalır.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hayranlıkla bakar.</li>
+  </CompletedLongConstructionProject.rulePack.rulesStrings>
+  
+  <!-- EN: completed long crafting project -->
+  <CompletedLongCraftingProject.label>uzun zanaat projesi tamamlandı</CompletedLongCraftingProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] polishing the surface of a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] adding surface detail to a [OBJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] inscribing [PAWN_possessive] name on a [OBJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with a gleam in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while wiping the sweat from [PAWN_possessive] forehead</li>
+    <li>circumstance_phrase->while covered in grime</li>
+    <li>circumstance_phrase->while smiling proudly</li>
+    <li>circumstance_phrase->with a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->The [OBJECT_label] glows a soft [Color].</li>
+    <li>desc_sentence->The [OBJECT_label] is intricately detailed.</li>
+    <li>desc_sentence->[PAWN_nameDef] lifts the [OBJECT_label] seemingly without effort.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s marvel at the device.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
+  -->
+  <CompletedLongCraftingProject.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] [OBJECT_label]'daki işini tamamlıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label]'da çalışıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label]'ın yüzeyini parlatıyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label]'a yüzey detayı ekliyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [OBJECT_label]'a adını kazıyor</li>
+    <li>circumstance_phrase->gözünde bir parıltıyla</li>
+    <li>circumstance_phrase->alnından akan teri silerken</li>
+    <li>circumstance_phrase->pislik içindeyken</li>
+    <li>circumstance_phrase->gururla gülümserken</li>
+    <li>circumstance_phrase->yüzünde memnun bir ifadeyle</li>
+    <li>desc_sentence->[OBJECT_label] yumuşak [Color] bir şekilde parlıyor.</li>
+    <li>desc_sentence->[OBJECT_label] karmaşık bir şekilde detaylandırılmıştır.</li>
+    <li>desc_sentence->[PAWN_nameDef] görünüşte hiç çaba harcamadan [OBJECT_label]'ı kaldırır..</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] [OBJECT_label]'a hayran kalır.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hayranlıkla bakar.</li>
+  </CompletedLongCraftingProject.rulePack.rulesStrings>
+  
+  <!-- EN: entered cryptosleep -->
+  <EnteredCryptosleep.label>kriptouykuya girdi</EnteredCryptosleep.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
+    <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] opening an empty cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sealing themselves inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking through the wall of a cryptosleep casket at a world they're about to leave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to themselves</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[PAWN_nameDef] radiates determination.</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <EnteredCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] kripto uykusuna giriyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] bir kripto uyku tabutunun içinde yatıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] boş bir kriptolu uyku tabutu açıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] kendini bir kripto uyku tabutunun içine kapatıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] ayrılmak üzere oldukları dünyaya  kripto uyku tabutunun içinden bakıyor</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] ifade takınarak</li>
+    <li>circumstance_phrase->düşüncelere dalarak</li>
+    <li>circumstance_phrase->uzaktaki bir [TerrainFeature]'a bakarken</li>
+    <li>circumstance_phrase->kendi kendine sessizce konuşurken</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] olay yerinin yakınında dinlenir.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] bölgeye yaklaşır.</li>
+    <li>desc_sentence->[PAWN_nameDef] kararlılık saçıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] gözle görülür şekilde yaralandı..</li>
+    <li>desc_sentence->arka planda [Color]  aurora parlıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dolu kripto uyku tabutu sahneyi çevreliyor.</li>
+  </EnteredCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill -->
+  <GainedMasterSkillWithoutPassion.label>ustalık becerisi kazandı</GainedMasterSkillWithoutPassion.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training in [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->with a bored expression</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The scene is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] [SKILL_label] işlerinde usta oluyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [SKILL_label] becerisinde  pratik yapıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [SKILL_label] yöntemleri üzerine bir cilt okuyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [SKILL_label] becerileri eğitimi alıyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] hararetle çalışıyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] projeyi bitiriyor.</li>
+    <li>circumstance_phrase->ter içindeyken</li>
+    <li>circumstance_phrase->gözle görülür bir yorgunlukla</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] ifade takınırken</li>
+    <li>circumstance_phrase->sıkılmış bir ifadeyle</li>
+    <li>desc_sentence->Sahne [Quantity_adjphrase] başarısız deneyle çevrilidir.</li>
+    <li>desc_sentence->Sahne [Quantity_adjphrase] kitapla çevrilidir.</li>
+    <li>desc_sentence->Yeteneği eserde kendini gösteriyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]  şaşkınlıkla izliyor..</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s şaşkınlıkla izliyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] kadim ustanın ruhu yukarıdan izliyor.</li>
+  </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
+  
+  <!-- EN: gained master skill with passion -->
+  <GainedMasterSkillWithPassion.label>tutkuyla ustalık becerisi kazandı</GainedMasterSkillWithPassion.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
+    <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] reading a tome on [SKILL_label] methods [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] receiving training for [SKILL_label] skills [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] working feverishly [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] finishing a project [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->with a joyous expression</li>
+    <li>circumstance_phrase->while [VerbFriendly]</li>
+    <li>circumstance_phrase->with an exuberant shout</li>
+    <li>circumstance_phrase->while covered in sweat</li>
+    <li>circumstance_phrase->with visible exhaustion</li>
+    <li>desc_sentence->The subject is surrounded by the results of [Quantity_adjphrase] failed experiments.</li>
+    <li>desc_sentence->The subject is surrounded by [Quantity_adjphrase] books.</li>
+    <li>desc_sentence->[PAWN_possessive] skill is visible in the work.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s watch with amazement.</li>
+    <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
+  -->
+  <GainedMasterSkillWithPassion.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] [SKILL_label] işlerinde usta oluyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [SKILL_label] becerisinde  pratik yapıyor</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [SKILL_label] yöntemleri üzerine bir cilt okuyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] [SKILL_label] becerileri eğitimi alıyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] hararetle çalışıyor.</li>
+    <li>image->[PAWN_nameFull] [circumstance_group] projeyi bitiriyor.</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] ifade takınarak</li>
+    <li>circumstance_phrase->neşeli bir ifadeyle</li>
+    <li>circumstance_phrase->[VerbFriendly]'ken</li>
+    <li>circumstance_phrase->coşkulu bir haykırışla</li>
+    <li>circumstance_phrase->ter içindeyken</li>
+    <li>circumstance_phrase->gözle görülür bir yorgunlukla</li>
+    <li>desc_sentence->[Quantity_adjphrase] başarısız deneyin sonuçlarıyla çevrilidir.</li>
+    <li>desc_sentence->Konu [Quantity_adjphrase] kitapla çevrilidir.</li>
+    <li>desc_sentence->yeteneği işte görülebilir.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]  şaşkınlıkla izliyor..</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s şaşkınlıkla izliyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] kadim ustanın ruhu yukarıdan izliyor.</li>
+  </GainedMasterSkillWithPassion.rulePack.rulesStrings>
+  
+  <!-- EN: increased menagerie -->
+  <IncreasedMenagerie.label>artan hayvancılık</IncreasedMenagerie.label>
+  <!-- EN:
+    <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
+    <li>tale_noun->[HUMAN_nameDef]'s taming of [ANIMAL_nameDef]</li>
+    <li>image->[HUMAN_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] whispering to a skittish [ANIMAL_label] [circumstance_group]</li>
+    <li>image->[HUMAN_nameFull] calming a wild [ANIMAL_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with great care and caution</li>
+    <li>circumstance_phrase->with a smile</li>
+    <li>circumstance_phrase->while exhausted but happy</li>
+    <li>circumstance_phrase->with a [AnimalGroup] in the background</li>
+    <li>desc_sentence->[HUMAN_nameDef] is surrounded by uncountable [Animal]s.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] is moving to join a [AnimalGroup] of its kin.</li>
+    <li>desc_sentence->The scene is packed with [Animal]s and [Animal]s.</li>
+    <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
+  -->
+  <IncreasedMenagerie.rulePack.rulesStrings>
+    <li>tale_noun(p=3)->[HUMAN_nameDef] büyüyen [AnimalGroup]'na bir hayvan daha alıyor</li>
+    <li>tale_noun->[HUMAN_nameDef] [AnimalGroup] tarafından takip ediliyor</li>
+    <li>tale_noun->[HUMAN_nameDef]'nin [ANIMAL_nameDef] evcilleştirmesi</li>
+    <li>image->[HUMAN_nameFull] [circumstance_group] [ANIMAL_nameFull] evcilleştiriyor.</li>
+    <li>image->[HUMAN_nameFull] [circumstance_group] [ANIMAL_nameFull]'e bir lokma yemek sunar.</li>
+    <li>image->[HUMAN_nameFull] [circumstance_group] ürkek [ANIMAL_nameFull]e fısıldıyor.</li>
+    <li>image->[HUMAN_nameFull] [circumstance_group] vahşi [ANIMAL_nameFull]'i sakinleştiriyor.</li>
+    <li>circumstance_phrase->büyük bir özenle ve dikkatle</li>
+    <li>circumstance_phrase->bir gülümsemeyle</li>
+    <li>circumstance_phrase->yorgun ama mutluyken</li>
+    <li>circumstance_phrase->arka planda bir [AnimalGroup] ile</li>
+    <li>desc_sentence->[HUMAN_nameDef] sayısız [Animal] ile çevrilidir.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] akrabalarından oluşan [AnimalGroup]'e katılmak için hareket ediyor.</li>
+    <li>desc_sentence->Sahne [Animal] ve [Animal] ile doludur.</li>
+    <li>desc_sentence->Sayılamayan bir [Animal] dizisi, [HUMAN_nameDef] tarafından evcilleştirilmeyi bekliyor.</li>
+  </IncreasedMenagerie.rulePack.rulesStrings>
+  
+  <!-- EN: meditated -->
+  <Meditated.label>meditasyon yaptı</Meditated.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] meditating</li>
+    <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting quietly, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->with a tranquil smile</li>
+    <li>circumstance_phrase->with a [VerbFriendly] smile</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Meditated.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] meditasyon yapıyor.</li>
+    <li>image->[PAWN_nameFull] [TreeType] ağacının altında oturuyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sessizce oturuyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] uzaklara bakıyor ve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gözlerini kapatıyor ve [circumstance_group]</li>
+    <li>circumstance_phrase->huzurla</li>
+    <li>circumstance_phrase->sakin bir gülümsemeyle</li>
+    <li>circumstance_phrase->[VerbFriendly] ifade takınarak</li>
+    <li>circumstance_phrase->usulca parlarken</li>
+    <li>circumstance_phrase->[Color] bir aura ile çevrili</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] ona bakar.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] tarafından etrafı çevrilidir</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] huzur içinde yatsın..</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] bu manzara karşısında şaşkına dönmüştür.</li>
+  </Meditated.rulePack.rulesStrings>
+  
+  <!-- EN: mined valuable -->
+  <MinedValuable.label>değerli maden çıkardı</MinedValuable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
+    <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] holding up a chunk of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] resting against a wall of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] coordinating an excavation team against a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] carefully inspecting a rich vein of [MATERIAL_label], [circumstance_group]</li>
+    <li>circumstance_phrase->sweating heavily</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveFriendly] expression</li>
+    <li>circumstance_phrase->smiling proudly</li>
+    <li>circumstance_phrase->a satisfied expression on [PAWN_possessive] face</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally]s assist.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander the area.</li>
+    <li>desc_sentence->There is a [Community] in the background.</li>
+    <li>desc_sentence->[Quantity_adjphrase] further veins are visible in the distance.</li>
+    <li>desc_sentence->A [TerrainFeature] is visible in the distance.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <MinedValuable.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] zengin bir [MATERIAL_label] damarı çıkarıyor</li>
+    <li>image->[PAWN_nameFull] madencilik aletleriyle [MATERIAL_label] bir duvarda çalışıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [MATERIAL_label] parçası tutuyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [MATERIAL_label]'den ten bir duvara yaslanıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] zengin bir [MATERIAL_label] damarına karşı bir kazı ekibini koordine ediyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] zengin bir [MATERIAL_label] damarını dikkatle inceliyor, [circumstance_group]</li>
+    <li>circumstance_phrase->aşırı terlemeyle</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] ifade takınıyor</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] ifade takınıyor</li>
+    <li>circumstance_phrase->gururla gülümseyerek</li>
+    <li>circumstance_phrase->yüzünde memnun bir ifade</li>
+    <li>desc_sentence->[Quantity_adjphrase] [ally] yardım ediyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeyi dolaşıyor.</li>
+    <li>desc_sentence->Arka planda bir [Community] var.</li>
+    <li>desc_sentence->Uzakta [Quantity_adjphrase] damar daha görülüyor.</li>
+    <li>desc_sentence->uzakta bir [TerrainFeature] görülüyor</li>
+    <li>desc_sentence->[PAWN_nameDef] işten dolayı terli ve kirli.</li>
+  </MinedValuable.rulePack.rulesStrings>
+  
+  <!-- EN: played game -->
+  <PlayedGame.label>oyun oynadı</PlayedGame.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
+    <li>tale_noun->[PAWN_nameDef] enjoying [PAWN_objective]self at a [OBJECT_label]</li>
+    <li>image->[PAWN_nameFull] waiting in a chair, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] poised over the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sitting next to the [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] winning at a [OBJECT_label], [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] losing at a [OBJECT_label], [circumstance_group]</li>
+    <li>circumstance_phrase->tense with energy</li>
+    <li>circumstance_phrase->[PAWN_possessive] body loose and relaxed</li>
+    <li>circumstance_phrase->planning [PAWN_possessive] next action</li>
+    <li>circumstance_phrase->gently massaging [PAWN_possessive] wrists</li>
+    <li>circumstance_phrase->[angstyverb] with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->wearing a [AdjectiveAngsty] look</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is visible.</li>
+    <li>desc_sentence->In the distance, a [TerrainFeature] is visible.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are playing as well.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
+    <li>desc_sentence->[PAWN_nameDef] is glowing with a [Color] aura.</li>
+    <li>desc_sentence->[PAWN_nameDef]'s features are exaggerated.</li>
+    <li>desc_sentence->[PAWN_nameDef] towers above the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
+  -->
+  <PlayedGame.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] [OBJECT_label]'de rahatlıyor</li>
+    <li>tale_noun->[PAWN_nameDef] [OBJECT_label] ile oyun oynuyor</li>
+    <li>tale_noun->[PAWN_nameDef] [OBJECT_label] başında eğleniyor</li>
+    <li>image->[PAWN_nameFull] bir sandalyede bekliyor., [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [OBJECT_label]'in üzerinde durdu, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [OBJECT_label]'in yanında oturuyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [OBJECT_label]'te kazanıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [OBJECT_label]'te kaybediyor, [circumstance_group]</li>
+    <li>circumstance_phrase->gergin bir enerjiyle</li>
+    <li>circumstance_phrase->vücudu gevşemiş ve rahatlamış</li>
+    <li>circumstance_phrase->bir sonraki eylemini planlıyor.</li>
+    <li>circumstance_phrase->bileklerine hafifçe masaj yaparak.</li>
+    <li>circumstance_phrase->[angstyverb] ile  [AdjectiveAngsty] bir ifadeyle</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] bir görünüm takınarak</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->Arka planda [Color] bir aurora var </li>
+    <li>desc_sentence->Uzakta bir [Community] görünüyor.</li>
+    <li>desc_sentence->Uzakta bir [TerrainFeature] görünür.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] de oynuyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] yakında oynuyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] [Color] aura ile parlıyor</li>
+    <li>desc_sentence->[PAWN_nameDef]'nin yüz hatları abartılı.</li>
+    <li>desc_sentence->[PAWN_nameDef] sahnenin üzerinde kule gibi.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] yenilgiye uğradı.</li>
+  </PlayedGame.rulePack.rulesStrings>
+  
+  <!-- EN: prayed -->
+  <Prayed.label>dua etti</Prayed.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] praying</li>
+    <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
+    <li>image->[PAWN_nameFull] gazing into the distance and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] closing [PAWN_possessive] eyes and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] clasping [PAWN_possessive] hands and [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking into the sky and [circumstance_group]</li>
+    <li>circumstance_phrase->radiating serenity</li>
+    <li>circumstance_phrase->whispering softly</li>
+    <li>circumstance_phrase->wearing a hopeful expression</li>
+    <li>circumstance_phrase->glowing softly</li>
+    <li>circumstance_phrase->surrounded by a [Color] aura</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze upon [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by [Quantity_adjphrase] [Animal]s.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest peacefully.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
+  -->
+  <Prayed.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] dua ediyor</li>
+    <li>tale_noun->[PAWN_nameDef] daha yüksek bir güce dua ediyor</li>
+    <li>image->[PAWN_nameFull] uzaklara bakıyor ve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gözlerini kapatıyor ve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] ellerini ovuşturdu ve [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] gökyüzüne bakıyor ve [circumstance_group]</li>
+    <li>circumstance_phrase->huzur yayılıyor</li>
+    <li>circumstance_phrase->usulca fısıldıyor</li>
+    <li>circumstance_phrase->umutlu bir ifade takınıyor.</li>
+    <li>circumstance_phrase->yumuşak bir şekilde parlıyor.</li>
+    <li>circumstance_phrase->[Color] bir aura ile çevrilidir.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] ona bakar.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] tarafından etrafı çevrili.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] huzur içinde dinleniyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] sahne karşısında şaşkına döndü.</li>
+  </Prayed.rulePack.rulesStrings>
+  
+  <!-- EN: put into cryptosleep -->
+  <PutIntoCryptosleep.label>kriptouykuya konuldu</PutIntoCryptosleep.label>
+  <!-- EN:
+    <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
+    <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] opening an empty cryptosleep casket while supporting [SLEEPER_nameDef] [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] sealing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
+    <li>image->[CARRIER_nameFull] walking away as [SLEEPER_nameDef] looks through the wall of a cryptosleep casket [circumstance_group]</li>
+    <li>circumstance_phrase(p=3)->with a [AdjectiveAny] expression</li>
+    <li>circumstance_phrase->while consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->with visible tension between the two</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy]s approach the area.</li>
+    <li>desc_sentence->[CARRIER_nameDef] radiates determination.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] is visibly wounded.</li>
+    <li>desc_sentence->[SLEEPER_nameDef] looks exhausted.</li>
+    <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
+  -->
+  <PutIntoCryptosleep.rulePack.rulesStrings>
+    <li>tale_noun->[CARRIER_nameDef] [SLEEPER_nameDef]'i kriptolu uykuya yatırıyor</li>
+    <li>image->[CARRIER_nameFull] [circumstance_group] [SLEEPER_nameDef]'i gizli bir kriptouyku kapsülü içine yerleştirir.</li>
+    <li>image->[CARRIER_nameFull] [circumstance_group] [SLEEPER_nameDef]i desteklerken boş bir kriptouyku tabutunu açar. </li>
+    <li>image->[CARRIER_nameFull] [circumstance_group] [SLEEPER_nameDef]'i kriptouyku tabutunun içine mühürler. </li>
+    <li>image->[CARRIER_nameFull] [circumstance_group] [SLEEPER_nameDef] kriptouyku tabutunun duvarına bakıyorken uzaklaştı.</li>
+    <li>circumstance_phrase(p=3)->[AdjectiveAny] bir ifade takınırken</li>
+    <li>circumstance_phrase->düşüncelere dalıyorken</li>
+    <li>circumstance_phrase->uzaktaki bir [TerrainFeature]'a bakarken</li>
+    <li>circumstance_phrase->ikisi arasında görünür bir gerilim varken</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] olay yerine yakın dinlenir.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Enemy] bölgeye yaklaşır.</li>
+    <li>desc_sentence->[CARRIER_nameDef] kararlılık saçıyor</li>
+    <li>desc_sentence->[SLEEPER_nameDef] gözle görülür şekilde yaralandı..</li>
+    <li>desc_sentence->[SLEEPER_nameDef] yorgun görünüyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] dolu kriptouyku tabutu sahneyi çevreliyor.</li>
+  </PutIntoCryptosleep.rulePack.rulesStrings>
+  
+  <!-- EN: stripped -->
+  <Stripped.label>soyuldu</Stripped.label>
+  <!-- EN:
+    <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
+    <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] removing the clothes of [STRIPPED_nameFull] [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] holding an armful of [Apparel]s while standing next to [STRIPPED_nameFull], who is completely naked [circumstance_group]</li>
+    <li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [STRIPPED_possessive] clothes [circumstance_group]</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] is fondling a shrub.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
+  -->
+  <Stripped.rulePack.rulesStrings>
+    <li>tale_noun->[TAKER_nameDef] [STRIPPED_nameDef]'i soyuyor</li>
+    <li>image->[TAKER_nameFull] [circumstance_group] [STRIPPED_nameFull]'i toplum içinde soyunuyor.</li>
+    <li>image->[TAKER_nameFull] [circumstance_group] [STRIPPED_nameFull]'in kıyafetlerini çıkarıyor. </li>
+    <li>image->[TAKER_nameFull] [circumstance_group] tamamen çıplak olan [STRIPPED_nameFull]'in yanında dururken bir kucak dolusu çelik tutar.</li>
+    <li>image->[TAKER_nameFull] waiting patiently as [STRIPPED_nameFull] removes [STRIPPED_possessive] clothes [circumstance_group]</li>
+    <li>circumstance_phrase->amaç duygusuyla</li>
+    <li>circumstance_phrase->hiçbir utanç belirtisi olmadan</li>
+    <li>circumstance_phrase->diğerleri bakarken</li>
+    <li>circumstance_phrase->görünür bir sebep olmadan</li>
+    <li>circumstance_phrase->kafası karışmış hayvanlar bakarken</li>
+    <li>desc_sentence->[STRIPPED_nameDef] gözle görülür şekilde tahrik olur.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] açıklanamayan nemle kaplıdır.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] sebepsiz yere derin derin nefes alıyor.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] bir çalıyı okşuyor.</li>
+    <li>desc_sentence->[STRIPPED_nameDef] sadece [AdjectiveAngsty] bir ifade takınır.</li>
+  </Stripped.rulePack.rulesStrings>
+  
+  <!-- EN: visited grave -->
+  <VisitedGrave.label>mezar ziyaret etti</VisitedGrave.label>
+  <!-- EN:
+    <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
+    <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
+    <li>image->[VISITOR_nameFull] standing next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] sitting next to [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] leaning against [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] reading the text on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>image->[VISITOR_nameFull] looking at the art on [CORPSE_nameFull]'s grave [circumstance_group]</li>
+    <li>circumstance_phrase->with a [AdjectiveAngsty] expression</li>
+    <li>circumstance_phrase->and consumed in thought</li>
+    <li>circumstance_phrase->while gazing at a faraway [TerrainFeature]</li>
+    <li>circumstance_phrase->and talking quietly to the memorial</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->In the distance, a [Community] is covered with snow.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveFriendly] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] looks over the scene with a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->A spectral image of [CORPSE_nameDef] stands next to [VISITOR_nameDef], wearing a [AdjectiveAngsty] expression.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
+  -->
+  <VisitedGrave.rulePack.rulesStrings>
+    <li>tale_noun->[VISITOR_nameDef] [CORPSE_nameDef]'in mezarını ziyaret ediyor.</li>
+    <li>tale_noun->[VISITOR_nameDef] [CORPSE_nameDef]'in mezarını ziyaret ediyor</li>
+    <li>image->[VISITOR_nameFull] [circumstance_group] [CORPSE_nameFull]in mezarının yanında duruyor</li>
+    <li>image->[VISITOR_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarının yanında oturuyor</li>
+    <li>image->[VISITOR_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarına yaslanmış</li>
+    <li>image->[VISITOR_nameFull] [circumstance_group] [CORPSE_nameFull]''in mezarı üzerindeki yazıyı okuyor</li>
+    <li>image->[VISITOR_nameFull] [circumstance_group] [CORPSE_nameFull]'in mezarındaki resme bakıyor</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] bir ifade takınarak</li>
+    <li>circumstance_phrase->düşüncelere dalıyorken</li>
+    <li>circumstance_phrase->uzaktaki bir [TerrainFeature]'e bakarken</li>
+    <li>circumstance_phrase->sessizce anma töreniyle konuşurken</li>
+    <li>desc_sentence->A [Color] aurora shines in the background.</li>
+    <li>desc_sentence->Uzakta, bir [Community] karla kaplı.</li>
+    <li>desc_sentence->[CORPSE_nameDef]'nin hayaletimsi bir görüntüsü, [AdjectiveFriendly] bir ifadeyle sahneye bakar.</li>
+    <li>desc_sentence->[CORPSE_nameDef]'nin hayalet bir görüntüsü, [VISITOR_nameDef]'in yanında [AdjectiveFriendly] bir ifadeyle durmaktadır.</li>
+    <li>desc_sentence->[CORPSE_nameDef]'nin hayaletimsi bir görüntüsü, [AdjectiveAngsty] bir ifadeyle sahneye bakar.</li>
+    <li>desc_sentence->[CORPSE_nameDef]'nin hayalet bir görüntüsü, [VISITOR_nameDef]'in yanında [AdjectiveAngsty] bir ifadeyle durmaktadır.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] olay yerine yakın dinleniyor.</li>
+  </VisitedGrave.rulePack.rulesStrings>
+  
+</LanguageData>
