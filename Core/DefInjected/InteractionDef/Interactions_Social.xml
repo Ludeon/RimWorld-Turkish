@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: chitchat -->
+  <Chitchat.label>geyik</Chitchat.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
+    <li>talkedabout(p=4)->chatted about</li>
+    <li>talkedabout->shared a word about</li>
+    <li>talkedabout->spoke about</li>
+    <li>talkedabout->gabbed about</li>
+    <li>talkedabout->talked about</li>
+    <li>talkedabout->joked about</li>
+    <li>talkedabout->quipped about</li>
+    <li>commentedabout->said something about</li>
+    <li>commentedabout->said a word about</li>
+    <li>commentedabout->made a comment about</li>
+    <li>commentedabout->commented about</li>
+    <li>commentedabout->told a joke about</li>
+  -->
+  <Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef] [TalkTopicLight] [talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile birlikte [TalkTopicLight] [talkedabout].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [RECIPIENT_nameDef]'e [TalkTopicLight] [commentedabout].</li>
+    <li>talkedabout(p=4)->hakkında sohbet etti</li>
+    <li>talkedabout->hakkında bir söz paylaştı</li>
+    <li>talkedabout->hakkında konuştu</li>
+    <li>talkedabout->hakkında zırvaladı</li>
+    <li>talkedabout->hakkında bir şeyler anlattı</li>
+    <li>talkedabout->hakkında bir şaka yaptı</li>
+    <li>talkedabout->hakkında bir espri yaptı</li>
+    <li>commentedabout->hakkında bir şeyler söyledi</li>
+    <li>commentedabout->hakkında bir söz söyledi</li>
+    <li>commentedabout->hakkında bir yorum yaptı</li>
+    <li>commentedabout->hakkında bir eleştiri yaptı</li>
+    <li>commentedabout->hakkında bir fıkra anlattı</li>
+  </Chitchat.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: deep talk -->
+  <DeepTalk.label>derinlemesine konuşma</DeepTalk.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>talkedabout->communicated thoughts about</li>
+    <li>talkedabout->exchanged thoughts about</li>
+    <li>talkedabout->exchanged ideas about</li>
+    <li>talkedabout->shared views on</li>
+    <li>talkedabout->shared beliefs on</li>
+    <li>talkedabout->discussed the topic of</li>
+    <li>talkedabout->had a heartfelt conversation about</li>
+    <li>talkedabout->talked quietly about</li>
+    <li>talkedabout->talked deeply about</li>
+    <li>talkedabout->connected on the topic of</li>
+    <li>subject->[TalkTopicHeavy]</li>
+  -->
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] ve [RECIPIENT_nameDef] [subject] [talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile [subject] [talkedabout].</li>
+    <li>talkedabout->hakkında düşüncelerini paylaştı</li>
+    <li>talkedabout->hakkında düşünce alışverişinde bulundu</li>
+    <li>talkedabout->hakkında fikir alışverişinde bulundu</li>
+    <li>talkedabout->hakkında görüşlerini paylaştı</li>
+    <li>talkedabout->hakkında inançlarını paylaştı</li>
+    <li>talkedabout->konusunu tartıştı</li>
+    <li>talkedabout->hakkında samimice sohbet etti</li>
+    <li>talkedabout->hakkında sessizce konuştu</li>
+    <li>talkedabout->hakkında derinlemesine konuştu</li>
+    <li>talkedabout->konusuyla ilgili konuştu </li>
+  </DeepTalk.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: insult -->
+  <Insult.label>hakaret</Insult.label>
+  <!-- EN:
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>insulted(p=3)->insulted</li>
+    <li>insulted->openly insulted</li>
+    <li>insulted->loudly insulted</li>
+    <li>insulted->flagrantly insulted</li>
+    <li>insulted->directly insulted</li>
+    <li>insulted->viciously insulted</li>
+    <li>insulted->flagrantly disrespected</li>
+    <li>insulted->slandered</li>
+    <li>insulted->hurled invective about</li>
+    <li>insulted->derided</li>
+    <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison->[Enemy]</li>
+  -->
+  <Insult.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [target]'in [PersonalCharacteristic]'e [insulted].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [target]'i bir [insultcomparison] ile karşılaştırdı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] [target]'e [insultcomparison] dedi.</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'in [PersonFamily]</li>
+    <li>insulted(p=3)->hakaret etti</li>
+    <li>insulted->açık açık hakaret etti</li>
+    <li>insulted->yüksek sesle hakaret etti</li>
+    <li>insulted->alçakça hakaret etti</li>
+    <li>insulted->doğrudan hakaret etti</li>
+    <li>insulted->acımasızca hakaret etti</li>
+    <li>insulted->açıkça saygısızlık etti</li>
+    <li>insulted->iftira etti</li>
+    <li>insulted->hakkında küfür yağdırdı</li>
+    <li>insulted->alay etti</li>
+    <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison->[Enemy]</li>
+  </Insult.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: kind words -->
+  <KindWords.label>nazik sözler</KindWords.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
+    <li>complimented(p=3)->complimented</li>
+    <li>complimented->praised</li>
+    <li>complimented->commended</li>
+    <li>complimented->lauded</li>
+    <li>complimented->applauded</li>
+    <li>complimented->celebrated</li>
+    <li>complimented->saluted</li>
+    <li>complimented->spoke kindly of</li>
+    <li>complimented->expressed good things about</li>
+    <li>complimented->offered kinds words about</li>
+    <li>complimented->verbally appreciated</li>
+    <li>complimented->expressed appreciation for</li>
+    <li>complimented->said good things about</li>
+  -->
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'in [PersonalCharacteristic][complimented].</li>
+    <li>complimented(p=3)->iltifat etti</li>
+    <li>complimented->'i övdü</li>
+    <li>complimented->'e saygısını sundu</li>
+    <li>complimented->'i göklere çıkarttı</li>
+    <li>complimented->'i alkışladı</li>
+    <li>complimented->'i kutladı</li>
+    <li>complimented->'i saygıyla selamladı</li>
+    <li>complimented->'i hakkında nazikçe konuştu</li>
+    <li>complimented->'i hakkında iyi şeyler ifade etti</li>
+    <li>complimented->'i hakkında nazik sözler söyledi</li>
+    <li>complimented->'i sözlü olarak takdir etti</li>
+    <li>complimented->'i takdir etti</li>
+    <li>complimented->'i hakkında iyi şeyler söyledi</li>
+  </KindWords.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: slight -->
+  <Slight.label>saygısızlık</Slight.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>madefunof->made fun of</li>
+    <li>madefunof->disrespected</li>
+    <li>madefunof->subtly scorned</li>
+    <li>madefunof->subtly shamed</li>
+    <li>madefunof->spoke badly of</li>
+    <li>madefunof->spoke negatively of</li>
+    <li>madefunof->laughed at</li>
+    <li>madefunof->sniggered at</li>
+    <li>madefunof->implied negative things about</li>
+    <li>madefunof->belittled</li>
+    <li>madefunof->made a contemptuous remark about</li>
+    <li>madefunof->offered a backhanded compliment about</li>
+  -->
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]  [target]'in [PersonalCharacteristic][madefunof].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'nin [PersonFamily]'i</li>
+    <li>madefunof->'e alay etti</li>
+    <li>madefunof->'e saygısızlık etti</li>
+    <li>madefunof->'i kurnazca aşağıladı</li>
+    <li>madefunof->'i kurnazca utandırdı</li>
+    <li>madefunof->'e kötü konuştu</li>
+    <li>madefunof->'e olumsuz konuştu</li>
+    <li>madefunof->'e güldü</li>
+    <li>madefunof->'i küçümsedi</li>
+    <li>madefunof->'e olumsuz şeyler ima etti</li>
+    <li>madefunof->'i küçük gördü</li>
+    <li>madefunof->'i aşağılayarak açıklama yaptı</li>
+    <li>madefunof->'e dolaylı yoldan hakaret etti</li>
+  </Slight.logRulesInitiator.rulesStrings>
+  
+</LanguageData>
