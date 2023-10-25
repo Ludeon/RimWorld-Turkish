@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Dormant self-charging -->
+  <SelfShutdown>Hazırda bekletme (kendi kendini şarj)</SelfShutdown>
+  <!-- EN: Carry to recharger -->
+  <CarryToRecharger>Şarj cihazına taşıyın</CarryToRecharger>
+  <!-- EN: Must be carried to recharger. -->
+  <MustBeCarriedToRecharger>Şarj cihazına taşınmalıdır.</MustBeCarriedToRecharger>
+  <!-- EN: Danger -->
+  <Danger>Tehlike</Danger>
+  <!-- EN: {0} damage -->
+  <DamageType>{0} hasar</DamageType>
+  <!-- EN: Contained {0_labelPlural} -->
+  <ContainedThings>{0_labelPlural} içeriyor</ContainedThings>
+  <!-- EN: Time until next atomization -->
+  <DurationUntilNextAtomization>Bir sonraki atomizasyona kadar geçen süre</DurationUntilNextAtomization>
+  <!-- EN: Finishes in -->
+  <FinishesIn>içinde bitirir</FinishesIn>
+  <!-- EN: with -->
+  <WithLower>ile</WithLower>
+  <!-- EN: tiles -->
+  <TilesLower>karolar</TilesLower>
+  <!-- EN: 1 mech -->
+  <CaravanMech>1 makine</CaravanMech>
+  <!-- EN: {0} mechs -->
+  <CaravanMechsCount>{0} makineler</CaravanMechsCount>
+  <!-- EN: {BOSS} with {APPAREL} -->
+  <BossWithApparel>{BOSS}, {APPAREL} ile</BossWithApparel>
+
+  <!-- Job reports -->
+  <!-- EN: removing {0}. -->
+  <ReportRemovingMechlink>{0} kaldırılıyor.</ReportRemovingMechlink>
+
+  <!-- Areas -->
+  <!-- EN: Pollution clear -->
+  <PollutionClear>kirlilikten arındırma</PollutionClear>
+
+  <!-- Mechanitor -->
+  <!-- EN: Overseer -->
+  <Overseer>gözetmen</Overseer>
+  <!-- EN: None (not under control) -->
+  <OverseerNone>Yok (kontrol altında değil)</OverseerNone>
+  <!-- EN: May go feral at any moment -->
+  <MayGoFeral>Her an vahşileşebilir</MayGoFeral>
+  <!-- EN: Bandwidth -->
+  <Bandwidth>Bant genişliği</Bandwidth>
+  <!-- EN: bandwidth -->
+  <BandwidthLower>Bant genişliği</BandwidthLower>
+  <!-- EN: A mechanitor can only oversee a mech if there is enough bandwidth to do so. Each mech consumes a different amount of bandwidth.\n\nGain more bandwidth by constructing band nodes and tuning the mechanitor to them, or by equipping special mechanitor apparel. -->
+  <BandwidthGizmoTip>Bir mekanitör, ancak bunu yapmak için yeterli bant genişliği varsa bir makineyi denetleyebilir. Her makine farklı miktarda bant genişliği tüketir.\n\nBant düğümleri kurarak ve tamirciyi bunlara göre ayarlayarak veya özel mekanitör kıyafetleri donatarak daha fazla bant genişliği elde edin.</BandwidthGizmoTip>
+  <!-- EN: Control group -->
+  <ControlGroup>Kontrol grubu</ControlGroup>
+  <!-- EN: Current mode -->
+  <CurrentMechWorkMode>Mevcut mod</CurrentMechWorkMode>
+  <!-- EN: Assigned mechs -->
+  <AssignedMechs>atanan makineler</AssignedMechs>
+  <!-- EN: Tuned to -->
+  <BandNodeTunedTo>Uyarlanmış</BandNodeTunedTo>
+  <!-- EN: Tune to -->
+  <BandNodeTuneTo>Uyarlanmış</BandNodeTuneTo>
+  <!-- EN: Tuning to -->
+  <BandNodeTuningTo>Uyarlanmış</BandNodeTuningTo>
+  <!-- EN: Retune -->
+  <BandNodeRetuneTo>yeniden ayarla</BandNodeRetuneTo>
+  <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
+  <BandNodeTuningDesc>Bu bant düğümüne bir makinatörü ayarlayın. Ayarlamanın tamamlanması {0} alacaktır.</BandNodeTuningDesc>
+  <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
+  <BandNodeRetuningDesc>Bu bant düğümünü başka bir makinatörü yeniden ayarlayın. Yeniden ayarlamanın tamamlanması {0} alacaktır.</BandNodeRetuningDesc>
+  <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
+  <DropThingBandwidthApparel>{0}'in kaldırılması, {1_labelShort}'un {2} olan bant genişliğini {3} olarak değiştirecek. Bu, aşağıdaki makinelerin artık kontrol altında olmayacağı anlamına gelecek</DropThingBandwidthApparel>
+  <!-- EN: no mechs -->
+  <NoMechs>mekanik yok</NoMechs>
+  <!-- EN: Group -->
+  <Group>Grup</Group>
+  <!-- EN: Groups -->
+  <Groups>Gruplar</Groups>
+  <!-- EN: Loading mech gestation resources -->
+  <LoadingMechGestator>Mekanik gebelik kaynakları yükleniyor</LoadingMechGestator>
+  <!-- EN: Initiating mech gestation cycle -->
+  <InitMechGestationCycle>Mekanik gebelik döngüsünü başlatma</InitMechGestationCycle>
+  <!-- EN: Initiating mech birth -->
+  <InitMechBirth>Mekanik doğumu başlatma</InitMechBirth>
+  <!-- EN: Mech energy -->
+  <MechEnergy>mekanik enerji</MechEnergy>
+  <!-- EN: Energy -->
+  <Energy>enerji</Energy>
+  <!-- EN: energy -->
+  <EnergyLower>enerji</EnergyLower>
+  <!-- EN: Bandwidth usage -->
+  <BandwidthUsage>Bant Genişliği Kullanımı</BandwidthUsage>
+  <!-- EN: Mech gestation bandwidth -->
+  <MechGestationBandwidthUsed>Mekanik gebelik bant genişliği</MechGestationBandwidthUsed>
+  <!-- EN: Cannot summon {0} threat -->
+  <CannotSummon>{0} tehdidi çağırılamıyor</CannotSummon>
+  <!-- EN: {0} threat ready to summon -->
+  <ReadyToSummonThreat>{0} tehdidi çağırmaya hazır</ReadyToSummonThreat>
+  <!-- EN: Summon {0} threat -->
+  <Summon>{0} tehdidini çağır</Summon>
+  <!-- EN: No reachable {0} -->
+  <NoReachableBossgroupCaller>Ulaşılabilir {0} yok</NoReachableBossgroupCaller>
+  <!-- EN: No reservable {0} -->
+  <NoReservableBossgroupCaller>Ayrılabilir {0} yok</NoReservableBossgroupCaller>
+  <!-- EN: No powered {0} -->
+  <NoPoweredBossgroupCaller>Güç yok {0}</NoPoweredBossgroupCaller>
+  <!-- EN: already used -->
+  <AlreadyUsed>zaten kullanılmış</AlreadyUsed>
+  <!-- EN: Gestating -->
+  <Gestating>gebelik</Gestating>
+  <!-- EN: Escorting {TARGET_labelShort}. -->
+  <Escorting>{TARGET_labelShort} eşlik ediyor.</Escorting>
+  <!-- EN: Worker -->
+  <Worker>İşçi</Worker>
+  <!-- EN: Waiting for -->
+  <WaitingFor>için bekliyor</WaitingFor>
+  <!-- EN: Uncontrolled -->
+  <Uncontrolled>kontrol edilemeyen</Uncontrolled>
+  <!-- EN: incoming {0} -->
+  <BossgroupIncoming>geliyor:{0}</BossgroupIncoming>
+
+  <!-- Sanguophage -->
+  <!-- EN: hemogen -->
+  <Hemogen>hemojen</Hemogen>
+  <!-- EN: Hemogen is a biological energy source derived from compounds in human blood. Baseliner humans produce it endogenously and consume it over time in their own internal balance. Some human xenotypes use it as a kind of fuel for specific abilities, while others must consume it to survive at all. -->
+  <HemogenDesc>Hemojen, insan kanındaki bileşiklerden elde edilen biyolojik bir enerji kaynağıdır. Baseliner insanlar onu endojen olarak üretir ve zamanla kendi iç dengelerinde tüketir. Bazı insan ksenotipleri onu belirli yetenekler için bir tür yakıt olarak kullanırken, diğerleri hayatta kalmak için onu tüketmek zorundadır.</HemogenDesc>
+  <!-- EN: deathrest capacity -->
+  <DeathrestCapacity>ölüm uykusu kapasitesi</DeathrestCapacity>
+  <!-- EN: This determines how many deathrest buildings a person can connect to while deathresting. Each deathrest building confers a specific benefit, so it's better to be able to connect to more of them.\n\nDeathrest capacity can be increased using deathrest capacity serums. These serums can be purchased from traders. -->
+  <DeathrestCapacityDesc>Bu, bir kişinin ölüm uykusu sırasında kaç tane ölüm uykusu binasına bağlanabileceğini belirler. Her bir ölüm uykusu binası belirli bir fayda sağlar, bu nedenle daha fazlasına bağlanabilmek daha iyidir.\n\nÖlüm uykusu kapasitesi, ölüm uykusu kapasite serumları kullanılarak artırılabilir. Bu serumlar tüccarlardan satın alınabilir.</DeathrestCapacityDesc>
+  <!-- EN: {PAWN_nameDef} is connected to {CURRENT} / {MAX} (max) deathrest buildings. -->
+  <PawnIsConnectedToBuildings>{PAWN_nameDef}, {CURRENT} / {MAX} (maks) ölüm uykusu binalarına bağlı.</PawnIsConnectedToBuildings>
+  <!-- EN: wake now -->
+  <Wake>şimdi uyandır</Wake>
+  <!-- EN: Wake up from deathrest.\n\n{PAWN_nameDef} has been in deathrest for {DURATION}. -->
+  <WakeDesc>Ölüm uykusundan uyanın.\n\n{PAWN_nameDef}, {DURATION} süredir ölüm uykusundaydı.</WakeDesc>
+  <!-- EN: {PAWN_nameDef} needs to deathrest for at least {TOTAL}. Waking {PAWN_objective} early will make {PAWN_objective} ill, and {PAWN_pronoun} will not benefit from any deathrest buildings. -->
+  <WakeExtraDesc_Exhaustion>{PAWN_nameDef} için en az {TOTAL} ölüm uykusu gerekiyor. Onu erken uyandırmak onu hasta edecek ve herhangi bir ölüm uykusu binasından faydalanamayacak.</WakeExtraDesc_Exhaustion>
+  <!-- EN: {PAWN_nameDef} can now wake safely. -->
+  <WakeExtraDesc_Safe>{PAWN_nameDef} artık güvenle uyanabilir.</WakeExtraDesc_Safe>
+  <!-- EN: Cannot wake. Need at least {0} hemogen. -->
+  <CannotWakeNotEnoughHemogen>Uyanamaz. En az {0} hemojen gerekir.</CannotWakeNotEnoughHemogen>
+  <!-- EN: Auto-wake -->
+  <AutoWake>Otomatik uyandırma</AutoWake>
+  <!-- EN: When on, {PAWN_nameDef} will automatically wake once {PAWN_possessive} deathrest is complete.\n\nWhile off, {PAWN_pronoun} will continue deathresting until you wake {PAWN_objective} manually. -->
+  <AutoWakeDesc>Açık olduğunda, {PAWN_nameDef} ölüm uykusu tamamlandığında otomatik olarak uyanır.\n\nKapalıyken, siz onu manuel olarak uyandırana kadar ölüm uykusuna devam eder.</AutoWakeDesc>
+  <!-- EN: {PAWN_nameDef} is deathresting. -->
+  <IsDeathresting>{PAWN_nameDef} ölüm uykusunda.</IsDeathresting>
+  <!-- EN: Cannot deathrest -->
+  <CannotDeathrest>ölüm uykusu olamaz</CannotDeathrest>
+  <!-- EN: Start deathrest -->
+  <StartDeathrest>Ölüm uykusu başlat</StartDeathrest>
+  <!-- EN: Safely completing deathrest takes {MINDURATION}, but {PAWN_nameDef} has only been deathresting for {CURDURATION}.\n\nWaking {PAWN_nameDef} now would interrupt {PAWN_possessive} deathrest, throwing {PAWN_possessive} metabolism out of balance and making {PAWN_objective} sick for days to come.\n\nAre you sure you wish to wake {PAWN_objective}? -->
+  <ConfirmExitDeathrestUnderMinDays>Ölüm uykusunu yerini güvenli bir şekilde tamamlamak {MINDURATION} alır, ancak {PAWN_nameDef} yalnızca {CURDURATION} için ölüm uykusundaydı.\n\n{PAWN_nameDef}'i şimdi uyandırmak ölüm uykusunu kesintiye uğratarak metabolizmasını bozar ve önümüzdeki günlerde onu hasta eder.\ n\nOnu uyandırmak istediğinizden emin misiniz?</ConfirmExitDeathrestUnderMinDays>
+  <!-- EN: deathresting -->
+  <Deathresting>ölüm uykusunda</Deathresting>
+  <!-- EN: complete -->
+  <Complete>tamamla</Complete>
+  <!-- EN: can wake safely now. -->
+  <CanWakeSafely>artık güvenle uyanabilir.</CanWakeSafely>
+  <!-- EN: Disabled by gene -->
+  <DisabledByGene>gen tarafından devre dışı bırakıldı</DisabledByGene>
+  <!-- EN: {PAWN_nameDef} is in critical condition. -->
+  <WakeDisabledCriticalCondition>{PAWN_nameDef} kritik durumda.</WakeDisabledCriticalCondition>
+  <!-- EN: Drain rate -->
+  <DrainRate>Drenaj oranı</DrainRate>
+  <!-- EN: Regeneration rate -->
+  <RegenerationRate>rejenerasyon oranı</RegenerationRate>
+  <!-- EN: {PAWN_nameDef} should deathrest in {DURATION} to avoid exhaustion. -->
+  <NextDeathrestNeed>{PAWN_nameDef}, tükenmeyi önlemek için {DURATION} içinde ölüme uykusu yapmalıdır.</NextDeathrestNeed>
+  <!-- EN: {PAWN_nameDef} should deathrest soon to avoid exhaustion. -->
+  <PawnShouldDeathrestNow>{PAWN_nameDef}, tükenmeyi önlemek için yakında ölüme uykusu yapmalıdır.</PawnShouldDeathrestNow>
+  <!-- EN: This determines whether {PAWN_nameDef} will automatically ingest hemogen packs when {PAWN_possessive} hemogen is below {MIN}.\n\nAutomatic ingestion is currently {ONOFF}. -->
+  <AutoTakeHemogenDesc>Bu, {PAWN_nameDef}'in hemojeni {MIN} değerinin altında olduğunda hemojen paketlerini otomatik olarak alıp almayacağını belirler.\n\nOtomatik besleme şu anda {ONOFF} durumda.</AutoTakeHemogenDesc>
+  <!-- EN: Consume hemogen below -->
+  <ConsumeHemogenBelow>Aşağıda tüketilen hemojen</ConsumeHemogenBelow>
+  <!-- EN: Never consume hemogen. -->
+  <NeverConsumeHemogen>Asla hemojen tüketmeyin.</NeverConsumeHemogen>
+  <!-- EN: Will kill -->
+  <WillKill>Öldürecek</WillKill>
+  <!-- EN: Will cause major blood loss -->
+  <WillCauseSeriousBloodloss>Büyük kan kaybına neden olacak</WillCauseSeriousBloodloss>
+  <!-- EN: too small -->
+  <TooSmall>çok küçük</TooSmall>
+
+  <!-- Deathrest buildings -->
+  <!-- EN: Bound to -->
+  <BoundTo>Bağlı olma</BoundTo>
+  <!-- EN: Will bind permanently on first use. -->
+  <WillBindOnFirstUse>İlk kullanımda kalıcı olarak bağlanır.</WillBindOnFirstUse>
+  <!-- EN: Time active this deathrest -->
+  <TimeActiveThisDeathrest>Bu ölüm uykusunda zaman aktif</TimeActiveThisDeathrest>
+  <!-- EN: Minimum is {0} to apply -->
+  <MinimumNeededToApply>Başvuru için minimum {0}</MinimumNeededToApply>
+  <!-- EN: Cannot deathrest -->
+  <CannotAssignBedCannotDeathrest>kein Todesschlaf-Gen</CannotAssignBedCannotDeathrest>
+  <!-- EN: Already bound to {0_nameDef} -->
+  <CannotAssignAlreadyBound>ölüm uykusu olamaz</CannotAssignAlreadyBound>
+  <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
+  <CannotAssignBedCannotBindToMoreBuildings>yalnızca 1 {bak: {BUILDING_label}'e eklenebilir; reddetme; 3} bağlanacak</CannotAssignBedCannotBindToMoreBuildings>
+
+  <!-- Aptitudes -->
+  <!-- EN: aptitude -->
+  <Aptitude>beceri</Aptitude>
+  <!-- EN: aptitudes -->
+  <Aptitudes>beceriler</Aptitudes>
+  <!-- EN: aptitudes -->
+  <AptitudePlural>beceriler</AptitudePlural>
+  <!-- EN: Aptitude makes an individual perform at a higher or lower level than their learned skill.\n\nFor example, an aptitude of +1 for a skill means that a person with level 5 in that skill will perform as though they were at level 6.\n\nThe total value cannot exceed level 20 or fall below level 1. -->
+  <AptitudesDesc>Yetenek, bireyin öğrenilen beceriden daha yüksek veya daha düşük bir düzeyde performans göstermesini sağlar.\n\nÖrneğin, bir beceri için +1'lik bir yetenek, o beceride 5. seviyeye sahip bir kişinin 6. seviyedeymiş gibi performans göstereceği anlamına gelir. \n\nToplam değer, seviye 20'yi geçemez veya seviye 1'in altına düşemez.</AptitudesDesc>
+  <!-- EN: total -->
+  <Total>toplam</Total>
+  
+  <!-- Human pregnancy -->
+  <!-- EN: Father -->
+  <FatherTip>baba</FatherTip>
+  <!-- EN: Genetic mother -->
+  <MotherTip>genetik anne</MotherTip>
+  <!-- EN: an unoccupied bed -->
+  <RitualTargetChildBirth>boş bir yatak</RitualTargetChildBirth>
+  <!-- EN: No appropriate bed for giving birth. -->
+  <NoAppropriateBedChildBirth>Doğum yapmak için uygun yatak yok.</NoAppropriateBedChildBirth>
+  <!-- EN: No doctor around. -->
+  <NoDoctorChildBirth>Etrafta doktor yok.</NoDoctorChildBirth>
+  <!-- EN: Can't use this bed. -->
+  <CantUseThisBed>Bu yatağı kullanamazsınız.</CantUseThisBed>
+  <!-- EN: Not in labor. -->
+  <NotInLabor>doğum sancısında değil</NotInLabor>
+  <!-- EN: labor -->
+  <Labor>doğum sancısı</Labor>
+  <!-- EN: dilation -->
+  <LaborDilation>dilatasyon</LaborDilation>
+  <!-- EN: normal -->
+  <PregnancyApproach_Normal>normal</PregnancyApproach_Normal>
+  <!-- EN: avoid pregnancy -->
+  <PregnancyApproach_AvoidPregnancy>hamilelikten kaçınma</PregnancyApproach_AvoidPregnancy>
+  <!-- EN: try for baby -->
+  <PregnancyApproach_TryForBaby>bebek için deneme</PregnancyApproach_TryForBaby>
+  <!-- EN: pregnancy chance -->
+  <PregnancyChance>hamilelik şansı</PregnancyChance>
+  <!-- EN: Pregnancy approach -->
+  <PregnancyApproach>gebelik yaklaşımı</PregnancyApproach>
+  <!-- EN: Click to change pregnancy approach. -->
+  <ClickToChangePregnancyApproach>Gebelik yaklaşımını değiştirmek için tıklayınız.</ClickToChangePregnancyApproach>
+  <!-- EN: Pregnancy is not possible -->
+  <PregnancyNotPossible>Hamilelik mümkün değil</PregnancyNotPossible>
+  <!-- EN: The chance of a healthy birth at this quality level was {0_percentage}. -->
+  <BirthRitualHealthyBabyChance>Bu kalite düzeyinde sağlıklı doğum şansı {0_percentage} idi.</BirthRitualHealthyBabyChance>
+  <!-- EN: Giving birth. -->
+  <GivingBirth>Bir bebek doğurun.</GivingBirth>
+
+  <!-- Shield comp -->
+  <!-- EN: Shield energy -->
+  <ShieldEnergy>Kalkan enerjisi</ShieldEnergy>
+  <!-- EN: Time to recovery -->
+  <ShieldTimeToRecovery>toparlanma zamanı</ShieldTimeToRecovery>
+
+  <!-- Genes -->
+  <!-- EN: genes -->
+  <Genes>genler</Genes>
+  <!-- EN: The genes associated with this xenotype. -->
+  <GenesDesc>Bu zenotip ile ilişkili genler.</GenesDesc>
+  <!-- EN: suppressed -->
+  <Suppressed>bastırılmış</Suppressed>
+  <!-- EN: active -->
+  <Active>aktif</Active>
+  <!-- EN: This trait has been suppressed by a conflicting forced genetic trait or gene. It will not be active until all conflicts are removed -->
+  <SuppressedDesc>Bu özellik, çelişen bir zorunlu genetik özellik veya gen tarafından bastırılmıştır. Tüm çakışmalar kaldırılana kadar aktif olmayacak</SuppressedDesc>
+  <!-- EN: trait -->
+  <Trait>kişisel özellik</Trait>
+  <!-- EN: gene -->
+  <Gene>gen</Gene>
+  <!-- EN: Added by gene -->
+  <AddedByGene>gen tarafından eklendi</AddedByGene>
+  <!-- EN: Eject all -->
+  <EjectAll>Tümünü çıkar</EjectAll>
+  <!-- EN: Drop all contained genepacks onto the ground. -->
+  <EjectAllDesc>İçerideki tüm gen paketlerini yere bırakın.</EjectAllDesc>
+  <!-- EN: Genepacks stored -->
+  <GenepacksStored>gen paketleri depolandı</GenepacksStored>
+  <!-- EN: Auto-load -->
+  <GenepackAutoLoad>Otomatik yükleme</GenepackAutoLoad>
+  <!-- EN: If active, haulers will automatically store this genepack in a gene bank. -->
+  <GenepackAutoLoadDesc>Eğer aktifse, nakliyeciler bu gen paketini otomatik olarak bir gen bankasında saklayacak.</GenepackAutoLoadDesc>
+  <!-- EN: Forced traits -->
+  <ForcedTraits>Zorunlu özellikler</ForcedTraits>
+  <!-- EN: Suppressed traits -->
+  <SuppressedTraits>Bastırılmış özellikler</SuppressedTraits>
+  <!-- EN: These traits will be added. All conflicting traits will become suppressed. -->
+  <ForcedTraitsDesc>Bu özellikler eklenecektir. Tüm çelişen özellikler bastırılacaktır.</ForcedTraitsDesc>
+  <!-- EN: Complexity -->
+  <Complexity>komplekslik</Complexity>
+  <!-- EN: How much complexity this adds to the process of gene assembly. -->
+  <ComplexityDesc>Bunun gen toplama sürecine ne kadar komplekslik kattığı.</ComplexityDesc>
+  <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
+  <MaxComplexityDesc>Gen birleştiricinin yanına gen işlemcileri kurularak maksimum komplekslik artırılabilir.</MaxComplexityDesc>
+  <!-- EN: Total complexity -->
+  <ComplexityTotal>toplam komplekslik</ComplexityTotal>
+  <!-- EN: The total complexity of all the genes in use. -->
+  <ComplexityTotalDesc>Kullanılan tüm genlerin toplam kompleksliği.</ComplexityTotalDesc>
+  <!-- EN: Metabolic efficiency -->
+  <Metabolism>Metabolik verimlilik</Metabolism>
+  <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismDesc>Bir araya getirildiğinde bu genlerin toplam metabolik verimliliği. Yüksek verimlilik, bir kişinin daha az yiyeceğe ihtiyacı olduğu anlamına gelir; düşük verimlilik, daha fazla yemeleri gerektiği anlamına gelir.</MetabolismDesc>
+  <!-- EN: Metabolic efficiency -->
+  <MetabolismTotal>Metabolik verimlilik</MetabolismTotal>
+  <!-- EN: The total metabolic efficiency of all genes in the genome. High efficiency means a person needs less food; low efficiency means they must eat more. -->
+  <MetabolismTotalDesc>Genomdaki tüm genlerin toplam metabolik etkinliği. Yüksek verimlilik, bir kişinin daha az yiyeceğe ihtiyacı olduğu anlamına gelir; düşük verimlilik, daha fazla yemeleri gerektiği anlamına gelir.</MetabolismTotalDesc>
+  <!-- EN: Number of genes -->
+  <NumberOfGenes>gen sayısı</NumberOfGenes>
+  <!-- EN: Gene price factors -->
+  <GenePriceFactors>gen fiyat faktörleri</GenePriceFactors>
+  <!-- EN: any -->
+  <AnyLower>hiç</AnyLower>
+  <!-- EN: Archite total -->
+  <ArchitesTotal>toplam arkit</ArchitesTotal>
+  <!-- EN: Archite capsules -->
+  <ArchitesRequired>arkit kapsül</ArchitesRequired>
+  <!-- EN: Archites are archotech mechanites - microscopic devices which can operate directly on cells and molecules, created by superintelligent archotechs. They are capable of unexplainable feats, and some genes only function when supported by the otherworldly machinery of the archotechs. Humans cannot create archites - only find them when an archotech happens to produce some for its own unknowable reason. -->
+  <ArchitesRequiredDesc>Arkitler, arkoteknoloji mekaniğidir - süperzeki arkotekler tarafından yaratılan, doğrudan hücreler ve moleküller üzerinde çalışabilen mikroskobik cihazlar. Açıklanamayan yeteneklere sahiptirler ve bazı genler yalnızca arkoteklerin diğer dünyaya ait makineleri tarafından desteklendiğinde işlev görür. İnsanlar arkit yaratamazlar - onları ancak bir arkotek kendi bilinmeyen nedeni için bir arkotek ürettiğinde bulur.</ArchitesRequiredDesc>
+  <!-- EN: Cancel xenogerm -->
+  <CancelXenogerm>zenogermi iptal et</CancelXenogerm>
+  <!-- EN: Stop all work on the current xenogerm. -->
+  <CancelXenogermDesc>Mevcut zenogerm üzerindeki tüm çalışmaları durdurun.</CancelXenogermDesc>
+  <!-- EN: Allow all genepacks -->
+  <AllowAllGenepacks>Tüm gen paketlerine izin ver</AllowAllGenepacks> 
+  <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
+  <AllowAllGenepacksDesc>Kolonistlerin herhangi bir gen paketini bu kapta otomatik olarak saklamasına izin verilip verilmediği. Burada hangi spesifik gen paketlerinin saklanması gerektiğini belirtmek istiyorsanız bunu kapatın.</AllowAllGenepacksDesc> 
+  <!-- EN: The genepacks currently inside this container. -->
+  <ContainedGenepacksDesc>Şu anda bu konteynerin içindeki gen paketleri.</ContainedGenepacksDesc> 
+  <!-- EN: The genepacks designated to be loaded into this container. -->
+  <GenepacksToLoadDesc>Bu konteynere yüklenmek üzere belirlenen gen paketleri.</GenepacksToLoadDesc> 
+  <!-- EN: Unstored genepacks that are not designated to be loaded into this container. -->
+  <GenepacksIgnoredDesc>Bu konteynere yüklenmek üzere belirlenmemiş depolanmamış gen paketleri.</GenepacksIgnoredDesc> 
+  <!-- EN: Genepacks to load -->
+  <GenepacksToLoad>Yüklenecek gen paketleri</GenepacksToLoad> 
+  <!-- EN: Genepacks to ignore -->
+  <GenepacksToIgnore>Göz ardı edilecek gen paketleri</GenepacksToIgnore> 
+  <!-- EN: Eject this genepack from the container. -->
+  <EjectGenepackDesc>Bu gen paketini konteynerden çıkarın.</EjectGenepackDesc> 
+  <!-- EN: Do you really want to eject {0}? It will be immediately ejected onto the ground nearby. -->
+  <ConfirmRemoveGenepack>{0} öğesini gerçekten çıkarmak istiyor musunuz? Hemen yakındaki yere fırlatılacaktır.</ConfirmRemoveGenepack> 
+  <!-- EN: Missing required research -->
+  <MissingRequiredResearch>Gerekli araştırma eksik</MissingRequiredResearch>
+  <!-- EN: No genepacks available in nearby gene banks. -->
+  <NoGenepacksAvailable>Yakındaki gen bankalarında gen paketi yok.</NoGenepacksAvailable> 
+  <!-- EN: Allow this genepack to be loaded into this container. -->
+  <AddToLoadingListDesc>Bu gen paketinin bu konteynere yüklenmesine izin verin.</AddToLoadingListDesc> 
+  <!-- EN: Remove this genepack from the loading list. -->
+  <RemoveFromLoadingListDesc>Bu gen paketini yükleme listesinden kaldırın.</RemoveFromLoadingListDesc> 
+  <!-- EN: Recombine -->
+  <Recombine>yeniden kombinle</Recombine>
+  <!-- EN: Create a new implantable xenogerm using data from genepacks in your gene library. -->
+  <RecombineDesc>Gen kitaplığınızdaki gen paketlerinden gelen verileri kullanarak yeni bir implante edilebilir zenogerm oluşturun.</RecombineDesc>
+  <!-- EN: Genes -->
+  <ContainedGenesDesc>gebler</ContainedGenesDesc>
+  <!-- EN: Order implantation -->
+  <ImplantXenogerm>İmplantasyon siparişi verin</ImplantXenogerm>
+  <!-- EN: Implant this into a person to partially override their genetic code.\n\nThis is a surgical operation, so it requires a doctor, medical bed and {MEDICINEAMOUNT} medicine. -->
+  <ImplantXenogermDesc>Genetik kodunu kısmen geçersiz kılmak için bunu bir kişiye implante edin.\n\nBu bir cerrahi operasyondur, bu nedenle bir doktor, tıbbi yatak ve {MEDICINEAMOUNT} ilaç gerektirir.</ImplantXenogermDesc>
+  <!-- EN: Implanting a xenogerm will put {PAWN_nameDef} in a coma as the xenogerm integrates itself. On average, this lasts for {COMADURATION}. The length of the coma is dependent on the doctor's medical skill and the quality of your medical facilities. -->
+  <ImplantXenogermWarningDesc>Bir zenogerm yerleştirmek, zenogerm kendini entegre ederken {PAWN_nameDef}'i komaya sokar. Ortalama olarak, bu {COMADURATION} sürer. Koma süresinin uzunluğu, doktorun tıbbi becerisine ve tıbbi tesislerinizin kalitesine bağlıdır.</ImplantXenogermWarningDesc>
+  <!-- EN: Additionally, implanting a xenogerm will overwrite existing xenogenes. {PAWN_nameDef}'s current xenotype is '{XENOTYPE}'. {PAWN_pronoun} has the following xenogenes:\n{XENOGENES} -->
+  <ImplantXenogermWarningOverwriteXenogenes>Ek olarak, bir zenogenin implante edilmesi, mevcut zenogenlerin üzerine yazacaktır. {PAWN_nameDef}'in mevcut zenotipi '{XENOTYPE}'. Aşağıdaki zenogenlere sahip:\n{XENOGENES}</ImplantXenogermWarningOverwriteXenogenes>
+  <!-- EN: After implantation, {PAWN_nameDef} will have a metabolism value of {MET} and a food consumption multiplier of {CONSUMPTION}. -->
+  <ImplantXenogermWarningNewMetabolism>İmplantasyondan sonra {PAWN_nameDef}, {MET} metabolizma değerine ve {CONSUMPTION} gıda tüketim çarpanına sahip olacaktır.</ImplantXenogermWarningNewMetabolism>
+  <!-- EN: Would you like to continue? -->
+  <WouldYouLikeToContinue>Devam etmek ister misin?</WouldYouLikeToContinue>
+  <!-- EN: Cancel implanting -->
+  <CancelImplanting>İmplantasyonu iptal et</CancelImplanting>
+  <!-- EN: Cancel implanting this xenogerm into {PAWN_nameDef}. -->
+  <CancelImplantingDesc>Bu zenogermi {PAWN_nameDef} içine yerleştirmeyi iptal edin.</CancelImplantingDesc>
+  <!-- EN: Xenotype -->
+  <Xenotype>zenotip</Xenotype>
+  <!-- EN: unique -->
+  <Unique>eşsiz</Unique>
+  <!-- EN: A unique human variant with a set of xenogenes that do not fall into any known xenotype. -->
+  <UniqueXenotypeDesc>Bilinen herhangi bir zenotipe girmeyen bir dizi ksenojene sahip benzersiz bir insan varyantı.</UniqueXenotypeDesc>
+  <!-- EN: Factor for genetic metabolism -->
+  <FactorForMetabolism>Genetik metabolizma için faktör</FactorForMetabolism>
+  <!-- EN: Progress -->
+  <Progress>İlerleme</Progress>
+  <!-- EN: In sunlight -->
+  <InSunlight>güneş ışığında</InSunlight>
+  <!-- EN: {0_labelShort} is exposed to the sky. -->
+  <ThingIsSkyExposed>{0_labelShort} ışığa maruz kalıyor.</ThingIsSkyExposed>
+  <!-- EN: Insert person -->
+  <InsertPerson>Kişi ekle</InsertPerson>
+  <!-- EN: Insert a person into the gene extractor. Their genetic material will be extracted and used to create a genepack containing a random selection of their genes.\n\nGene extraction is painful and will leave the subject weak and drowsy for a number of days. The process is lethal for those whose genes are currently regrowing. -->
+  <InsertPersonGeneExtractorDesc>Gen çıkarıcıya bir kişi yerleştirin. Genetik materyalleri çıkarılacak ve genlerinin rastgele bir seçimini içeren bir gen paketi oluşturmak için kullanılacaktır.\n\nGen ekstraksiyonu ağrılıdır ve konuyu birkaç gün boyunca zayıf ve uykulu bırakacaktır. Bu süreç, genleri şu anda yeniden büyümekte olanlar için öldürücüdür.</InsertPersonGeneExtractorDesc>
+  <!-- EN: Warning: {PAWN_nameDef}'s genes are regrowing. Extracting {PAWN_possessive} genes before they are regrown will kill {PAWN_objective}.\n\nAre you sure you wish to continue? -->
+  <ConfirmExtractXenogermWillKill>Uyarı: {PAWN_nameDef} genleri yeniden büyüyor. Genlerini yeniden büyümeden önce çıkarmak onu öldürecek.\n\nDevam etmek istediğinizden emin misiniz?</ConfirmExtractXenogermWillKill>
+  <!-- EN: Gene extraction complete for {PAWN_nameDef}. Extracted -->
+  <GeneExtractionComplete>{PAWN_nameDef} için gen çıkarma işlemi tamamlandı. çıkarılan</GeneExtractionComplete>
+  <!-- EN: Insert xenogerm -->
+  <InsertXenogerm>zenogerm ekle</InsertXenogerm>
+  <!-- EN: Insert a xenogerm to apply during growth. -->
+  <InsertXenogermDesc>Büyüme sırasında uygulanacak bir ksengerm yerleştirin.</InsertXenogermDesc>
+  <!-- EN: Waiting for {PAWN_nameDef}. -->
+  <WaitingForPawn>{PAWN_nameDef} bekleniyor.</WaitingForPawn>
+  <!-- EN: Extracting genes from {PAWN_nameDef}. -->
+  <ExtractingXenogermFrom>{PAWN_nameDef}'den genler ayıklanıyor.</ExtractingXenogermFrom>
+  <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
+  <ExtractionPausedNoPower>Çıkarma duraklatıldı: Güç yok</ExtractionPausedNoPower>
+  <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
+  <LastIngestedDurationAgo>En son {CHEMICAL_label} {DURATION} önce kullanıldı.</LastIngestedDurationAgo>
+  <!-- EN: {NAME} xenogerm -->
+  <NamedXenogerm>{NAME} zenogerm</NamedXenogerm>
+  <!-- EN: Inserted {0} -->
+  <InsertedThing>{0} eklendi</InsertedThing>
+  <!-- EN: Assembly paused -->
+  <AssemblyPaused>kombinleme durduruldu</AssemblyPaused>
+  <!-- EN: Required gene bank unpowered -->
+  <GenebankUnpowered>Gerekli gen bankası güçsüz</GenebankUnpowered>
+  <!-- EN: deathless -->
+  <Deathless>ölümsüz</Deathless>
+  <!-- EN: {PAWN_nameDef} needs to ingest {0} on a regular basis to survive. After {DEFICIENCYDURATION} without {0}, {PAWN_pronoun} will suffer from {0} deficiency. After {COMADURATION}, {PAWN_pronoun} will fall into a coma. After {DEATHDURATION}, {PAWN_pronoun} will die. -->
+  <GeneDefChemicalNeedDurationDesc>{PAWN_nameDef}, hayatta kalabilmek için düzenli olarak {0} yutmalıdır. {0} eksikliğinden {DEFICIENCYDURATION} sonra, {0} eksikliğinden muzdarip olacaktır. {COMADURATION} sonrasında komaya girecek. {DEATHDURATION} sonra ölecek.</GeneDefChemicalNeedDurationDesc>
+  <!-- EN: {CHEMICAL_label} dependency -->
+  <ChemicalDependency>{CHEMICAL_label} bağımlılığı</ChemicalDependency>
+  <!-- EN: Xenogerm -->
+  <Xenogerm>zenogerm</Xenogerm>
+  <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece ölüm uykusuna devam edecek.</PawnWillKeepDeathrestingLethalInjuries>
+  <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece komada kalacak.</PawnWillKeepRegeneratingLethalInjuries>
+  <!-- EN: Deathrest stopped -->
+  <DeathrestPaused>ölüm uykusu durdu</DeathrestPaused>
+  <!-- EN: Lethal injuries -->
+  <LethalInjuries>ölümcül yaralanmalar</LethalInjuries>
+  <!-- EN: deathrest -->
+  <Deathrest>ölüm uykusu</Deathrest>
+  <!-- EN: Buildings -->
+  <Buildings>binalar</Buildings>
+  <!-- EN: capacity -->
+  <Capacity>kapasite</Capacity>
+  <!-- EN: Non-{GENE} romance chance -->
+  <MissingGeneRomanceChance>{GENE} olmayan kişilerde kur yapma şansı</MissingGeneRomanceChance>
+  <!-- EN: Not in gene bank -->
+  <NotInGeneBank>gen bankasında yok</NotInGeneBank>
+
+  <!-- Child birth -->
+  <!-- EN: Gather to help a mother give birth. A doctor can help deliver the baby. -->
+  <ChildBirthAlwaysHealthy_Desc>Bir annenin doğum yapmasına yardım etmek için toplanın. Bir doktor bebeği doğurmaya yardımcı olabilir.</ChildBirthAlwaysHealthy_Desc>
+  <!-- EN: until the baby is born -->
+  <UntilBabyIsBorn>bebek doğana kadar</UntilBabyIsBorn>
+
+  <!-- EN: Children want to learn from different activities at different times. -->
+  <LearningDesireTooltip>Çocuklar farklı zamanlarda farklı etkinliklerden öğrenmek isterler.</LearningDesireTooltip>
+  <!-- EN: {0_nameDef}'s current learning desire: -->
+  <LearningDesireTooltip_CurrentDesire>{0_nameDef}'in şu anki öğrenme arzusu:</LearningDesireTooltip_CurrentDesire>
+  <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
+  <DevelopmentHealthGizmoTooltip>Gelişim sağlığı, bir çocuğun son doğum günlerinden bu yana öğrenme ihtiyacının ortalamasıdır.\n\nGelişme sağlığı daha yüksek olan çocuklar, büyüme anlarında daha fazla seçeneğe sahip olacak ve beceriler için daha fazla tutku kazanacak.</DevelopmentHealthGizmoTooltip>
+
+  <!-- EN: Must not be placed close to another {0_label} -->
+  <MustNotBePlacedCloseToAnother>Başka bir {0_label} yakınına yerleştirilmemelidir</MustNotBePlacedCloseToAnother>
+  <!-- EN: Next terrain pollution in -->
+  <PollutingTerrainProgress>Bir sonraki arazi kirliliği:</PollutingTerrainProgress>
+  <!-- EN: Poisoned {0} -->
+  <PoisonedTerrain>Zehirlendi {0}</PoisonedTerrain>
+  <!-- EN: Assign to control group {0} -->
+  <AssignMechToControlGroup>{0} kontrol grubuna ata</AssignMechToControlGroup>
+  <!-- EN: Fall per day -->
+  <CurrentMechEnergyFallPerDay>günlük düşen</CurrentMechEnergyFallPerDay>
+  <!-- EN: Cannot assign to control group {0} -->
+  <CannotAssignMechToControlGroup>{0} kontrol grubuna atanamıyor</CannotAssignMechToControlGroup>
+  <!-- EN: Already assigned -->
+  <AssignMechAlreadyAssigned>Zaten atanmış</AssignMechAlreadyAssigned>
+
+  <!-- Lactation -->
+  <!-- EN: Consuming an extra {0} nutrition per day to produce milk (milk production speed is {1_percentage} because of the current food level). -->
+  <LactatingAddedNutritionPerDay>Süt üretmek için günde fazladan {0} besin tüketmeli (mevcut gıda seviyesi nedeniyle süt üretim hızı {1_percentage}).</LactatingAddedNutritionPerDay>
+  <!-- EN: Lactation is paused because milk fullness is 100% -->
+  <LactatingStoppedBecauseFull>Süt doluluğu %100 olduğu için emzirmeye ara verilmiştir.</LactatingStoppedBecauseFull>
+  <!-- EN: Lactation is paused due to starvation. -->
+  <LactatingStoppedBecauseHungry>Açlık nedeniyle emzirme durdurulur.</LactatingStoppedBecauseHungry>
+
+  <!-- Mech gestating -->
+  <!-- EN: Current gestation cycle -->
+  <CurrentGestationCycle>Mevcut gebelik döngüsü</CurrentGestationCycle>
+  <!-- EN: Gestation cycles remaining -->
+  <RemainingGestationCycles>Kalan gebelik döngüleri</RemainingGestationCycles>
+  <!-- EN: Gestation cycles -->
+  <GestationCycles>gebelik döngüsü</GestationCycles>
+  <!-- EN: Gestating {0} -->
+  <GestatingMech>gebelik {0}</GestatingMech>
+  <!-- EN: Gestated {0} -->
+  <GestatedMech>{0} gebe</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to complete -->
+  <GestatedMechRequiresMechanitor>Tamamlanması için {PAWN_nameDef} gerekir</GestatedMechRequiresMechanitor>
+  <!-- EN: Gestation complete -->
+  <GestationComplete>gebelik tamamlandı</GestationComplete>
+  <!-- EN: Resurrecting {0} -->
+  <ResurrectingMech>{0} diriltiliyor</ResurrectingMech>
+  <!-- EN: Resurrected {0} -->
+  <ResurrectedMech>{0} diriltildi</ResurrectedMech>
+
+  <!-- Carrier -->
+  <!-- EN: Release {0} -->
+  <MechCarrierRelease>{0} sürümü</MechCarrierRelease>
+  <!-- EN: Release a swarm of up to {0} {1}. Each {2} costs {3} {4} to build. If the parent is destroyed then all the linked {1} will die. {1} cannot be recharged and will die once their power source runs out. -->
+  <MechCarrierDesc>{0} {1}'e kadar bir sürü bırakın. Her {2}'nin inşası  {3} {4}'a mal olur. Ebeveyn yok edilirse, bağlantılı {1}'nin tümü ölür. {1} yeniden şarj edilemez ve güç kaynakları bittiğinde ölür.</MechCarrierDesc>
+  <!-- EN: Not enough resources -->
+  <MechCarrierNotEnoughResources>Yeterli kaynak yok</MechCarrierNotEnoughResources>
+  <!-- EN: Autofill -->
+  <MechCarrierAutofillResources>otomatik doldurma:</MechCarrierAutofillResources>
+  <!-- EN: Click to set the desired autofill amount. -->
+  <MechCarrierClickToSetAutofillAmount>İstenen otomatik doldurma miktarını ayarlamak için tıklayın.</MechCarrierClickToSetAutofillAmount>
+  <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
+  <MechCarrierAutofillDesc>Bu otomatik doldurma miktarı, kolonistlerinizin bu {0}'e otomatik olarak yerleştireceği maksimum kaynak miktarını belirler. Kaynaklar, {1} oluşturmak için kullanılabilir.</MechCarrierAutofillDesc>
+
+  <!-- Mech power cell -->
+  <!-- EN: Power cell -->
+  <MechPowerCell>Güç hücresi</MechPowerCell>
+  <!-- EN: War urchins have a one-time power source. When the power cell runs out, the mechanoid dies. -->
+  <MechPowerCellTip>Savaş kestanelerinin tek seferlik bir güç kaynağı vardır. Güç hücresi bittiğinde, mekanoid ölür.</MechPowerCellTip>
+  
+
+  <!-- Bossgroup -->
+  <!-- EN: available in {0}. -->
+  <BossgroupAvailableIn>{0} içinde mevcuttur.</BossgroupAvailableIn>
+  <!-- EN: requires mechanitor -->
+  <RequiresMechanitor>mekanitör gerektirir</RequiresMechanitor>
+
+  <!-- Abilities -->
+  <!-- EN: {0_labelShort} is not hemogenic. -->
+  <AbilityDisabledNoHemogenGene>{0_labelShort} hemojenik değil.</AbilityDisabledNoHemogenGene>
+  <!-- EN: {0_labelShort} does not have enough hemogen. -->
+  <AbilityDisabledNoHemogen>{0_labelShort} yeterli hemojene sahip değil.</AbilityDisabledNoHemogen>
+  <!-- EN: children cannot do this. -->
+  <AbilityStartRitualDisabledChild>çocuklar bunu yapamaz.</AbilityStartRitualDisabledChild>
+  <!-- EN: need a {0}. -->
+  <AbilityStartRitualNoMembersOfIdeo>{0} gerekir.</AbilityStartRitualNoMembersOfIdeo>
+  <!-- EN: Hemogen cost -->
+  <AbilityHemogenCost>hemojen maliyeti</AbilityHemogenCost>
+  <!-- EN: Base hemogen gain -->
+  <AbilityHemogenGain>Temel hemojen kazancı</AbilityHemogenGain>
+  <!-- EN: Smokepop charged -->
+  <AbilityMechSmokepopCharged>duman podu hazır</AbilityMechSmokepopCharged>
+  <!-- EN: Smokepop recharged in {0} -->
+  <AbilityMechSmokepopRecharging>duman podu şarj edililiyor (*DateTime){yer: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}(/DateTime)</AbilityMechSmokepopRecharging>
+  <!-- EN: Firefoam pop charged -->
+  <AbilityMechFirefoampopCharged>Ateş köpüğü şarj edildi</AbilityMechFirefoampopCharged>
+  <!-- EN: Firefoam pop recharged in {0} -->
+  <AbilityMechFirefoampopRecharging>Ateş köpüğü şarj edildi (*DateTime){replace: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}(/DateTime)</AbilityMechFirefoampopRecharging>
+
+  <!-- EN: Polluted {0} -->
+  <PollutedTerrain>kirlilik {0}</PollutedTerrain>
+
+  <!-- Growth vat -->
+  <!-- EN: Biostarvation -->
+  <Biostarvation>biyoaçlık</Biostarvation>
+  <!-- EN: One or more growth vats are experiencing biostarvation from lack of nutrition or power.\n\nIf biostarvation reaches 100%, the contained people will die. -->
+  <BiostarvationExplanation>Bir veya daha fazla büyüme teknesi, beslenme veya güç eksikliğinden biyolojik açlık yaşıyor.\n\nBiyo açlık %100'e ulaşırsa, kontrol altındaki insanlar ölecek.</BiostarvationExplanation>
+  <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
+  <InsertPersonGrowthVatDesc>Küvöze bir kişi yerleştirin. Normalden 20 kat daha hızlı yaşlanacaklar.</InsertPersonGrowthVatDesc>
+  <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
+  <InsertEmbryoGrowthVatDesc>Küvöze bir embriyo yükleyin. 18 gün boyunca hamile kaldıktan sonra, küvözden tamamen şekillenmiş bir bebek, umarım sağlıklı bir şekilde doğar.</InsertEmbryoGrowthVatDesc>
+  <!-- EN: Insert embryo -->
+  <ImplantEmbryo>Embriyo ekle</ImplantEmbryo>
+  <!-- EN: Cannot insert embryo -->
+  <CannotInsertEmbryo>embriyo eklenemiyor</CannotInsertEmbryo>
+  <!-- EN: Already contains embryo. -->
+  <EmbryoAlreadyInside>Zaten embriyo içerir.</EmbryoAlreadyInside>
+  <!-- EN: No embryos -->
+  <ImplantNoEmbryos>embriyo yok</ImplantNoEmbryos>
+  <!-- EN: Time until birth -->
+  <EmbryoTimeUntilBirth>Doğuma kadar geçen süre</EmbryoTimeUntilBirth>
+  <!-- EN: Birth quality -->
+  <EmbryoBirthQuality>doğum kalitesi</EmbryoBirthQuality>
+  <!-- EN: Embryo selected -->
+  <EmbryoSelected>Embriyo seçildi</EmbryoSelected>
+  <!-- EN: Person selected -->
+  <PersonSelected>Kişi seçildi</PersonSelected>
+  <!-- EN: No non-biostarving people of acceptable age. To enter the growth vat, the person must be below {0} years old and not currently biostarving. -->
+  <NoPawnsCanEnterGrowthVat>Kabul edilebilir yaşta biyolojik açlıktan ölmeyen insan yok. Küvöze girmek için, kişinin {0} yaşından küçük olması ve şu anda biyolojik açlıktan ölmemiş olması gerekir.</NoPawnsCanEnterGrowthVat>
+  <!-- EN: Aging speed -->
+  <AgingSpeed>yaşlanma hızı</AgingSpeed>
+
+  <!-- Mech charger -->
+  <!-- EN: Waste -->
+  <WasteLevel>atık</WasteLevel>
+
+  <!-- Dissolution -->
+  <!-- EN: indoors -->
+  <DissolutionRateIndoors>içeride</DissolutionRateIndoors>
+  <!-- EN: raining -->
+  <DissolutionRain>yağmurda</DissolutionRain>
+  <!-- EN: One wastepack dissolves every {0} -->
+  <DissolvesEvery>Her {0}'te bir atık paketi çözülüyor</DissolvesEvery>
+  <!-- EN: Frozen (won't dissolve). -->
+  <DissolutionFrozen>Donmuş (çözülmez).</DissolutionFrozen>
+
+  <!-- EN: {0} cells / day -->
+  <CellsPerDay>{0} hücre / gün</CellsPerDay>
+
+  <!-- EN: {0} cannot wear clothing for {1} -->
+  <WrongDevelopmentalStageForClothing>{0}, {1} kıyafetini giyemez</WrongDevelopmentalStageForClothing> 
+
+  <!-- Subcore scanner -->
+  <!-- EN: Start scanner -->
+  <SubcoreScannerStart>Tarayıcıyı başlat</SubcoreScannerStart>
+  <!-- EN: Produces -->
+  <SubcoreScannerProduces>üretim</SubcoreScannerProduces>
+  <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
+  <SubcoreScannerStartDesc>{0}, {1} gerekli bileşenlerle dolduğunda, bir kolonist seçin ve tarayıcıyı başlatmak için {0} üzerine veya yere düşen bir kişiye sağ tıklayın.</SubcoreScannerStartDesc>
+  <!-- EN: Completes in -->
+  <SubcoreScannerCompletesIn>içinde tamamlar in</SubcoreScannerCompletesIn>
+  <!-- EN: Waiting for occupant -->
+  <SubcoreScannerWaitingForOccupant>mahkumlar için bekliyor</SubcoreScannerWaitingForOccupant>
+  <!-- EN: Waiting for ingredients -->
+  <SubcoreScannerWaitingForIngredients>Malzemeler için bekliyorum</SubcoreScannerWaitingForIngredients>
+  <!-- EN: The following ingredients must be loaded first -->
+  <SubcoreScannerWaitingForIngredientsDesc>İlk önce aşağıdaki bileşenlerin yüklenmesi gerekir</SubcoreScannerWaitingForIngredientsDesc>
+  <!-- EN: Has {0} -->
+  <SubcoreScannerPawnHasSickness>{0} var</SubcoreScannerPawnHasSickness>
+  <!-- EN: Babies are not allowed -->
+  <SubcoreScannerBabyNotAllowed>Bebeklere izin verilmez</SubcoreScannerBabyNotAllowed>
+  <!-- EN: Insert a person into the {0}. -->
+  <InsertPersonSubcoreScannerDesc>{0} içine bir kişi ekleyin.</InsertPersonSubcoreScannerDesc>
+
+  <!-- EN: Duration (hours) -->
+  <DurationHours>Dauer</DurationHours>
+
+  <!-- Age -->
+  <!-- EN: adult -->
+  <Adult>yetişkin</Adult>
+  <!-- EN: adults -->
+  <Adults>yetişkinler</Adults>
+  <!-- EN: child -->
+  <Child>çocuk</Child>
+  <!-- EN: children -->
+  <Children>çocuklar</Children>
+  <!-- EN: baby -->
+  <Baby>Bebek</Baby>
+  <!-- EN: babies -->
+  <Babies>Bebekler</Babies>
+  <!-- EN: feral child -->
+  <FeralChild>vahşi çocuk</FeralChild>
+  <!-- EN: Wearable by -->
+  <WearableBy>giyilebilir</WearableBy>
+
+  <!-- EN: Xenogerm implantation -->
+  <Reward_ReimplantXenogerm_Label>zenogerm implantasyonu</Reward_ReimplantXenogerm_Label>
+  <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
+  <Reward_ReimplantXenogerm_Desc>Grubun bir üyesi kendi zenogermlerini seçtiğiniz bir koloniste yeniden yerleştirecek ve böylece kolonistinizi onlardan biri haline getirecektir. Kolonistiniz, hizipinizin bir parçası ve kontrolünüz altında kalacak.</Reward_ReimplantXenogerm_Desc>
+
+  <!-- Mech resurrection -->
+  <!-- EN: Mech resurrection charges -->
+  <MechResurrectionCharges>Mekanik diriliş ücretleri</MechResurrectionCharges>
+
+  <!-- Mechs -->
+  <!-- EN: Mech stun pulse on death -->
+  <MechStunPulseWarning>mekanik şok nabzı</MechStunPulseWarning>
+  <!-- EN: {PAWN_nameDef} is in self-shutdown from low energy. -->
+  <IsLowEnergySelfShutdown>{PAWN_nameDef}, düşük enerji nedeniyle kendi kendine kapanıyor.</IsLowEnergySelfShutdown>
+  
+  <!-- Pollution -->
+  <!-- EN: Toggle pollution overlay. This displays which areas of terrain are polluted.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most plants cannot live on polluted terrain. -->
+  <ShowPollutionOverlayToggleButton>Kirlilik kaplamasını aç/kapat. Bu, arazinin hangi alanlarının kirli olduğunu gösterir.\n\nKirli araziye maruz kalmak ölüme yol açabilecek toksik birikime neden olur. Çoğu bitki kirli arazide yaşayamaz.</ShowPollutionOverlayToggleButton>
+  <!-- EN: None -->
+  <TilePollutionNone>Hiçbiri</TilePollutionNone>
+  <!-- EN: Light -->
+  <TilePollutionLight>hafif</TilePollutionLight>
+  <!-- EN: Moderate -->
+  <TilePollutionModerate>orta</TilePollutionModerate>
+  <!-- EN: Extreme -->
+  <TilePollutionExtreme>Extrem</TilePollutionExtreme>
+  <!-- EN: Pollution -->
+  <TilePollution>Kirlilik</TilePollution>
+  <!-- EN: Nearby pollution -->
+  <TilePollutionNearby>Yakındaki kirlilik</TilePollutionNearby>
+  <!-- EN: The sum of pollution levels of all tiles within a {0} tile radius. As the distance from this tile increases, the pollution contribution decreases:\n\n{1}\n\nThe higher the nearby pollution the greater the chance of acidic smog occurring. -->
+  <NearbyPollutionTip>{0} karo yarıçapındaki tüm karoların kirlilik düzeylerinin toplamı. Bu karoya olan mesafe arttıkça, kirlilik katkısı azalır:\n\n{1}\n\nYakındaki kirlilik ne kadar yüksek olursa, asidik duman oluşma olasılığı da o kadar artar.</NearbyPollutionTip>
+  <!-- EN: This tile will have acidic smog every {0} days on average. -->
+  <NoxiousHazeInterval>Bu karo ortalama olarak her {0} günde bir asidik dumana sahip olacaktır.</NoxiousHazeInterval>
+  <!-- EN: This tile will never have acidic smog. -->
+  <NoxiousHazeNeverOccurring>Bu karo asla asidik dumana sahip olmayacak.</NoxiousHazeNeverOccurring>
+  <!-- EN: tiles away -->
+  <NearbyPollutionTilesAway>fayans uzaklığı</NearbyPollutionTilesAway>
+  <!-- EN: pollution -->
+  <PollutionLower>kirlilik</PollutionLower>
+  <!-- EN: Cannot absorb pollution: Buildings too close -->
+  <CannotAbsorbPollution>Kirliliği absorbe edemez: Binalar çok yakın</CannotAbsorbPollution>
+  <!-- EN: Can absorb pollution from nearby terrain -->
+  <CanAbsorbPollution>Yakındaki araziden gelen kirliliği absorbe edebilir</CanAbsorbPollution>
+  <!-- EN: Absorbing pollution: Next in {0} -->
+  <AbsorbingPollutionNext>Kirliliği absorbe etme: {replace: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}</AbsorbingPollutionNext>
+  <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
+  <TerrainPollutionTip>Bu karodaki arazi ne kadar kirli.\n\nKirli araziye maruz kalmak ölüme yol açabilecek toksik birikime neden olur. Çoğu ürün kirli arazide yaşayamaz.</TerrainPollutionTip>
+
+  <!-- Research -->
+  <!-- EN: Requires study of -->
+  <StudyRequirementTip>incelenmesini gerektirir</StudyRequirementTip>
+
+  <!-- Insect -->
+  <!-- EN: Trigger radius -->
+  <TriggerRadius>Tetikleme yarıçapı</TriggerRadius>
+  <!-- EN: Opening -->
+  <DormantCompOpening>Açılış</DormantCompOpening>
+  
+  <!-- Fertility -->
+  <!-- EN: ova extracted recently -->
+  <SurgeryDisableReasonOvumExtracted>yakın zamanda çıkarılan yumurta</SurgeryDisableReasonOvumExtracted>
+  <!-- EN: Fertilize -->
+  <Fertilize>dölleme</Fertilize>
+  <!-- EN: Fertilize {0_label} -->
+  <FertilizeThing>{0_label}'ı gübreleyin</FertilizeThing>
+  <!-- EN: Cannot fertilize -->
+  <FertilizeCannotFloatOption>Döllenemez</FertilizeCannotFloatOption>
+  <!-- EN: Choose a man to fertilize this ovum to create an embryo. The embryo can then be implanted in a mother to start a pregnancy, or in a growth vat. The biological parents of the resulting child will be the woman who provided the ovum and man who fertilized it. -->
+  <FertilizeGizmoDescription>Bir embriyo oluşturmak için bu yumurtayı döllemek için bir adam seçin. Embriyo daha sonra hamileliği başlatmak için bir anneye veya bir büyüme kabına implante edilebilir. Ortaya çıkan çocuğun biyolojik ebeveynleri, yumurtayı sağlayan kadın ve onu dölleyen erkek olacaktır.</FertilizeGizmoDescription>
+  <!-- EN: Cancel fertilization by {0} -->
+  <FertilizeCancel>Döllenmeyi {0} tarihine kadar iptal et</FertilizeCancel>
+  <!-- EN: sterile -->
+  <CannotSterile>kısır</CannotSterile>
+  <!-- EN: pregnant -->
+  <CannotPregnant>hamile</CannotPregnant>
+  <!-- EN: must be {0} -->
+  <CannotMustBeAge>{0} olmalı</CannotMustBeAge>
+  <!-- EN: already having embryo implanted -->
+  <CannotImplantingOtherEmbryo>zaten embriyo implante edilmiş</CannotImplantingOtherEmbryo>
+  <!-- EN: {0} ({1}) -->
+  <DisabledOption>{0} ({1})</DisabledOption>
+  <!-- EN: No men can fertilize this ovum. -->
+  <FertilizeDisabledNoMales>Bu yumurtayı hiçbir erkek dölleyemez.</FertilizeDisabledNoMales>
+  
+  <!-- EN: Implant embryo -->
+  <ImplantLabel>embriyo implantı</ImplantLabel>
+  <!-- EN: Implant this embryo in a surrogate mother to begin a pregnancy. -->
+  <ImplantDescription>Hamileliği başlatmak için bu embriyoyu taşıyıcı anneye implante edin.</ImplantDescription>
+  <!-- EN: Insert in growth vat -->
+  <InsertGrowthVatLabel>Küvöze yerleştirin</InsertGrowthVatLabel>
+
+  <!-- EN: Cannot implant -->
+  <ImplantCannotFloatOption>İmplant edilemez</ImplantCannotFloatOption>
+  <!-- EN: No woman can be a surrogate mother. -->
+  <ImplantDisabledNoWomen>Hiçbir kadın taşıyıcı anne olamaz.</ImplantDisabledNoWomen>
+  <!-- EN: No available growth vats. -->
+  <ImplantDisabledNoVats>Kullanılabilir küvöz yok.</ImplantDisabledNoVats>
+  <!-- EN: Implant {0} -->
+  <ImplantSurgeryLabel>{0} implant</ImplantSurgeryLabel>
+  <!-- EN: The implantation success chance for the {0} in {1} is {2}.\n\nThe implantation success chance is dependent on the fertility of the surrogate mother. It will be lower if the mother is too old or too young. -->
+  <ImplantSurgeryConfirm>{0}'nin {1}'deki implantasyon başarısı şansı {2}'dir.\n\nAmeliyat başarısı şansı, taşıyıcı annenin doğurganlığına bağlıdır. Anne çok yaşlı veya çok gençse daha düşük olacaktır.</ImplantSurgeryConfirm>
+  <!-- EN: Ejecting the {0} from the growth vat right now will destroy it before a baby is formed.\n\nWould you like to continue? -->
+  <ImplantEmbryoCancelVat>{0} ürününü küvözden hemen çıkarmak, bebek oluşmadan önce onu yok edecek.\n\nDevam etmek ister misiniz?</ImplantEmbryoCancelVat>
+  <!-- EN: Implanting the {0} in {1} was unsuccessful. -->
+  <ImplantFailedMessage>{0} öğesinin {1} içine yerleştirilmesi başarısız oldu.</ImplantFailedMessage>
+  <!-- EN: Cancel embryo insertion -->
+  <ImplantEmbryoCancel>Embriyo yerleştirmeyi iptal et</ImplantEmbryoCancel>
+  <!-- EN: The {0} was ejected from a growth vat and destroyed. -->
+  <EmbryoEjectedFromGrowthVat>{0}, bir küvözden çıkarıldı ve imha edildi.</EmbryoEjectedFromGrowthVat>
+  <!-- EN: The {0} was destroyed in a growth vat due to biostarvation. -->
+  <EmbryoEjectedFromGrowthVatBiostarvation>{0}, biyolojik açlık nedeniyle bir küvözde yok oldu.</EmbryoEjectedFromGrowthVatBiostarvation>
+
+  <!-- EN: {0} has successfully become pregnant from embryo implantation! -->
+  <IvfPregnancyLetterText>{0} embriyo implantasyonundan başarıyla hamile kaldı!</IvfPregnancyLetterText>
+  <!-- EN: The baby will have the genetic makeup of {0} and {1}. -->
+  <IvfPregnancyLetterParents>Bebek, {0} ve {1}'nin genetik yapısına sahip olacaktır.</IvfPregnancyLetterParents>
+
+  <!-- Projectile interceptor -->
+  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
+  <ProjectileInterceptorTip>Gelen mermileri veya şarapnelleri durdurmaya çalışacak düşük açılı yansıtılmış bir kalkan. Bir EMP tarafından vurulursa anında kapanır.</ProjectileInterceptorTip>
+
+  <!-- Remote mech shield -->
+  <!-- EN: A remote shield projected by a mechanitor. It will attempt to stop incoming projectiles or shrapnel, but does nothing against melee attacks or heat. It prevents the wearer from firing out, and shuts down instantly if hit by EMP -->
+  <RemoteMechShieldTip>Bir mekanitör tarafından yansıtılan uzak bir kalkan. Gelen mermileri veya şarapnelleri durdurmaya çalışacak, ancak yakın dövüş saldırılarına veya ısıya karşı hiçbir şey yapmıyor. Kullanıcının ateş etmesini önler ve EMP tarafından vurulursa anında kapanır</RemoteMechShieldTip>
+
+  <!-- Thoughtdef fallbacks -->
+  <!-- EN: my child is happy -->
+  <MyChildIsHappy>çocuğum mutlu</MyChildIsHappy>
+  <!-- EN: my child is sad -->
+  <MyChildIsSad>çocuğum üzgün</MyChildIsSad> 
+
+</LanguageData>
