@@ -11,6 +11,7 @@
     * Direkt repo üstüne yazdırılınca en küçük değişiklik olsa bile aynı dosya üzerinde başka birisi çalışıyorsa başkalarının çevirdikleri kayboluyor. [Bkz: Yorumlara bakınız](https://github.com/Ludeon/RimWorld-Turkish/commit/f3c73a008d2083b61a4aef5a646a72bb0c225b65#comments)
 
 **-YAMA NASIL YAPILIR
+  
   -Öncelikle oyun güncellenince sol üst köşede "çeviri dosyalarını temizle" seçeneğine tıklamanız gerekiyor.Daha sonra oyun hatalı kısımları düzeltecektir."En" yazan kısımlara dokunmuyoruz,"todo" şeklinde olan alt satırda işlem yapıyoruz."todo" yazısını silip yukarıdaki satırı çevirip buraya yazıyoruz.Dikkat etmeniz gereken kısım kod satırlarını bozmamak kontrollü bir şekilde çeviri yapmak. 
 
   -Bir diğer önemli kısım ise (https://github.com/Ludeon/RimWorld-de)  alman grubumun dosyalarını indirip yenilenen dosyalarda nasıl kodlama yaptıklarına bakmanız gerekiyor.Genre yani cinsiyet belirten kısımları bizi ilgilendirmiyor o kısımları almıyoruz."Alt, & ,color" gibi kodlama kısımlarını alıyoruz.
