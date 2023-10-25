@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>scraped_present->glancing</li>
+    <li>scraped_present->bouncing</li>
+    <li>scraped_present->grazing</li>
+    <li>scraped_present->caroming</li>
+    <li>scraped_present->skipping</li>
+    <li>scraped_present->skating</li>
+    <li>scraped_past->glanced</li>
+    <li>scraped_past->bounced</li>
+    <li>scraped_past->grazed</li>
+    <li>scraped_past->caromed</li>
+    <li>scraped_past->skipped</li>
+    <li>scraped_past->skated</li>
+  -->
+  <Combat_DeflectIncludes.rulePack.rulesStrings>
+    <li>scraped_present->sektiriyor</li>
+    <li>scraped_present->sıçratıyor</li>
+    <li>scraped_present->sıyrılıyor</li>
+    <li>scraped_present->karambol yapıyor</li>
+    <li>scraped_present->atlatıyor</li>
+    <li>scraped_present->kayıyor</li>
+    <li>scraped_past->sektirdi</li>
+    <li>scraped_past->sıçrattı</li>
+    <li>scraped_past->sıyrıldı</li>
+    <li>scraped_past->karambol yaptı</li>
+    <li>scraped_past->atlatdı</li>
+    <li>scraped_past->kaydı</li>
+  </Combat_DeflectIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] [tried] to [damaged_inf] [RECIPIENT_definite] with [implement]</li>
+    <li>action->[INITIATOR_definite] [tried] to use [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action->[INITIATOR_definite] swung [INITIATOR_possessive] [WEAPON_label] at [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] [towardsat] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [verb_genericattack] with [implement]</li>
+    <li>towardsat->towards</li>
+    <li>towardsat->at</li>
+    <li>verb_genericattack->swung</li>
+    <li>verb_genericattack->flailed</li>
+    <li>verb_genericattack->thrashed</li>
+    <li>tried->tried</li>
+    <li>tried->attempted</li>
+  -->
+  <Combat_FailIncludes.rulePack.rulesStrings>
+    <li>action->[INITIATOR_definite], [RECIPIENT_definite] [damaged_inf]ya [tried]</li>
+    <li>action->[INITIATOR_definite], [implement] ile RECIPIENT_definite]'i [damaged_inf] [tried]</li>
+    <li>action->[INITIATOR_definite], [RECIPIENT_definite] [damaged_inf]k için [implement] kullanmaya [tried]</li>
+    <li>action->[INITIATOR_definite],[RECIPIENT_definite]'e [WEAPON_label] savurdu</li>
+    <li>action(p=0.3)->[INITIATOR_definite],[implement] ile [RECIPIENT_definite]'e [verb_genericattack]</li>
+    <li>action(p=0.3)->[INITIATOR_definite],[RECIPIENT_definite]'i [verb_genericattack]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [implement] with [verb_genericattack]</li>
+    <li>verb_genericattack->savurdu</li>
+    <li>verb_genericattack->dövdü</li>
+    <li>verb_genericattack->vurdu</li>
+    <li>tried->çalıştı</li>
+    <li>tried->kalkıştı</li>
+  </Combat_FailIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>result(p=1)->[damaged_present] [RECIPIENT_possessive] [targetlist]</li>
+    <li>result(p=0.2)->[damaged_present] [RECIPIENT_possessive] [targetlist] and [flavortext_consequence]</li>
+    <li>result(p=0.1)->[damaged_present] [RECIPIENT_possessive] [targetlist] [strikeAdv]</li>
+    <li>strikeAdv->painfully</li>
+    <li>strikeAdv->horribly</li>
+    <li>strikeAdv->savagely</li>
+    <li>strikeAdv->viciously</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->leaving a horrific wound</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->making [RECIPIENT_objective] [wince] [painevent]</li>
+    <li>flavortext_consequence(p=0.2)->throwing [RECIPIENT_objective] off balance</li>
+  -->
+  <Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+    <li>result(p=1)->[targetlist]'ini [damaged_present]</li>
+    <li>result(p=0.2)->[targetlist]'ini ve [flavortext_consequence] [damaged_present]</li>
+    <li>result(p=0.1)->[targetlist]'ini [strikeAdv] [damaged_present]</li>
+    <li>strikeAdv->acı vererek</li>
+    <li>strikeAdv->korkunç bir şekilde</li>
+    <li>strikeAdv->vahşice</li>
+    <li>strikeAdv->acımasızca</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->leaving a disgusting wound</li>
+    <li>flavortext_consequence->korkunç bir yara bırakarak</li>
+    <li>flavortext_consequence(recipient_flesh!=Mechanoid)->[wince] [painevent]'ını yapıyor</li>
+    <li>flavortext_consequence(p=0.2)->dengesini bozarak</li>
+  </Combat_MeleeDamageIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->a [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->a [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->[INITIATOR_possessive] [WEAPON_label]'s [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[INITIATOR_possessive] [TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] and [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], and [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], and [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->wounding</li>
+    <li>damaged_present(deflected!=True)->injuring</li>
+    <li>destroyed(p=0.5)->destroyed</li>
+    <li>destroyed(p=0.5)->demolished</li>
+    <li>destroyed(p=0.5)->ruined</li>
+    <li>destroyed(p=0.5)->wrecked</li>
+    <li>wince(recipient_flesh==Normal)->wince</li>
+    <li>wince(recipient_flesh==Normal)->grimace</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->groan</li>
+    <li>wince(recipient_flesh!=Mechanoid)->scream</li>
+    <li>wince(recipient_flesh!=Mechanoid)->shout</li>
+    <li>wince->recoil</li>
+    <li>wince->stumble</li>
+    <li>painstate->in</li>
+    <li>painstate->with</li>
+    <li>painstate->from the</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] pain</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->[painstate] agony</li>
+    <li>painevent(recipient_flesh==Normal)->with misery</li>
+    <li>painevent->from the injury</li>
+    <li>painevent->from the wound</li>
+    <li>to->to</li>
+    <li>to->into</li>
+  -->
+  <Combat_MeleeIncludes.rulePack.rulesStrings>
+    <li>r_logentry->[action], [result].</li>
+    <li>r_logentry(priority=-10)->[action].</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=2)->"[WEAPON_label]" [TOOL_label]leri</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=1)->bir "[WEAPON_label]" [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==weapon,p=0.5)->bir [WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==bodypart,p=2)->[TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=2)->"[WEAPON_label]" [TOOL_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[WEAPON_label]</li>
+    <li>implement(IMPLEMENTOWNER_type==hediff,p=1)->[[TOOL_label]</li>
+    <li>targetlist(recipient_part_count==1)->[recipient_part0_label]</li>
+    <li>targetlist(recipient_part_count==2)->[recipient_part0_label] ve [recipient_part1_label]</li>
+    <li>targetlist(recipient_part_count==3)->[recipient_part0_label], [recipient_part1_label], ve [recipient_part2_label]</li>
+    <li>targetlist->[recipient_part0_label], [recipient_part1_label], [recipient_part2_label], ve [recipient_part3_label]</li>
+    <li>damaged_present(deflected!=True)->yaralanıyor</li>
+    <li>damaged_present(deflected!=True)->sakatlanıyor</li>
+    <li>destroyed(p=0.5)->yok ediyor</li>
+    <li>destroyed(p=0.5)->yıkıyor</li>
+    <li>destroyed(p=0.5)->mahvediyor</li>
+    <li>destroyed(p=0.5)->altüst ediyor</li>
+    <li>wince(recipient_flesh==Normal)->çekinme</li>
+    <li>wince(recipient_flesh==Normal)->yüz buruşturma</li>
+    <li>wince(recipient_flesh==Normal)->cringe</li>
+    <li>wince(recipient_flesh==Normal)->inilti</li>
+    <li>wince(recipient_flesh!=Mechanoid)->çığlık</li>
+    <li>wince(recipient_flesh!=Mechanoid)->haykırış</li>
+    <li>wince->irkilme</li>
+    <li>wince->tökezleme</li>
+    <li>painstate->içinde</li>
+    <li>painstate->yla</li>
+    <li>painstate->dan</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->pain[painstate]</li>
+    <li>painevent(recipient_flesh!=Mechanoid)->ıstırap[painstate]</li>
+    <li>painevent(recipient_flesh==Normal)->sefalet ile</li>
+    <li>painevent->yaralanmadan</li>
+    <li>painevent->yaradan</li>
+  </Combat_MeleeIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->wielding</li>
+    <li>wielding(p=3)->using</li>
+    <li>wielding(p=2)->handling</li>
+    <li>wielding->brandishing</li>
+    <li>wielding->manipulating</li>
+    <li>using(p=4)->using</li>
+    <li>using->driving</li>
+    <li>using->thrusting</li>
+    <li>using->utilizing</li>
+    <li>using->moving</li>
+    <li>skillAdv(INITIATOR_skill<=3)->incompetently</li>
+    <li>skillAdv(INITIATOR_skill<=3)->ineptly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->wildly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->randomly</li>
+    <li>skillAdv(INITIATOR_skill<=3)->flailingly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->awkwardly</li>
+    <li>skillAdv(INITIATOR_skill<=4)->clumsily</li>
+    <li>skillAdv(INITIATOR_skill<=5)->fearfully</li>
+    <li>skillAdv(INITIATOR_skill<=5)->falteringly</li>
+    <li>skillAdv(INITIATOR_skill<=5)->foolishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->hesitantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->reluctantly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->slowly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->tentatively</li>
+    <li>skillAdv(INITIATOR_skill<=6)->inexpertly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->amateurishly</li>
+    <li>skillAdv(INITIATOR_skill<=6)->timidly</li>
+    <li>skillAdv(INITIATOR_skill<=8)->enthusiastically</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->proficiently</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill<=10)->competently</li>
+    <li>skillAdv(INITIATOR_skill>=8)->professionally</li>
+    <li>skillAdv(INITIATOR_skill>=8)->deftly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->aptly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->cleverly</li>
+    <li>skillAdv(INITIATOR_skill>=8)->dexterously</li>
+    <li>skillAdv(INITIATOR_skill>=8)->skillfully</li>
+    <li>skillAdv(INITIATOR_skill>=10)->adeptly</li>
+    <li>skillAdv(INITIATOR_skill>=10)->slickly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->expertly</li>
+    <li>skillAdv(INITIATOR_skill>=12)->precisely</li>
+    <li>skillAdv(INITIATOR_skill>=14)->masterfully</li>
+    <li>skillAdv(INITIATOR_skill>=16)->artistically</li>
+    <li>skillAdv(INITIATOR_skill>=16)->gracefully</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->mechanically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotically</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->directly</li>
+  -->
+  <Combat_SkillIncludes.rulePack.rulesStrings>
+    <li>skillDescMelee->[wielding] [INITIATOR_possessive] [WEAPON_label] [skillAdv]</li>
+    <li>skillDescMelee->[using] [implement] [skillAdv]</li>
+    <li>wielding(p=4)->savuruyor</li>
+    <li>wielding(p=3)->kullanıyor</li>
+    <li>wielding(p=2)->taşıyor</li>
+    <li>wielding->sağa sola sallıyor</li>
+    <li>wielding->idare ediyor</li>
+    <li>using(p=4)->kullanıyor</li>
+    <li>using->sürüyor</li>
+    <li>using->batırıyor</li>
+    <li>using->taşıyor</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->beceriksizce</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->yersizce</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->yabanice</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->gelişigüzel</li>
+    <li>skillAdv(INITIATOR_skill&lt;=3)->yalpalayarak</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->hantalca</li>
+    <li>skillAdv(INITIATOR_skill&lt;=4)->sakarca</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->korkakca</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->sendeleyerek</li>
+    <li>skillAdv(INITIATOR_skill&lt;=5)->tereddütle</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->isteksizce</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->kararsızca</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->tecrübesizce</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->amatörce</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->çekinerek</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->yetkin bir şekilde</li>
+    <li>skillAdv(INITIATOR_skill&lt;=6)->profesyonelce</li>
+    <li>skillAdv(INITIATOR_skill&lt;=8)->marifetlice</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->eğilimlice</li>
+    <li>skillAdv(INITIATOR_skill>=6,INITIATOR_skill&lt;=10)->akıllıca</li>
+    <li>skillAdv(INITIATOR_skill>=8)->eğilimlice</li>
+    <li>skillAdv(INITIATOR_skill>=8)->akıllıca</li>
+    <li>skillAdv(INITIATOR_skill>=8)->maharetlice</li>
+    <li>skillAdv(INITIATOR_skill>=8)->uzmanca</li>
+    <li>skillAdv(INITIATOR_skill>=8)->kurnazca</li>
+    <li>skillAdv(INITIATOR_skill>=8)->ehilce</li>
+    <li>skillAdv(INITIATOR_skill>=10)->titizce</li>
+    <li>skillAdv(INITIATOR_skill>=10)->ustaca</li>
+    <li>skillAdv(INITIATOR_skill>=12)->sanatsalca</li>
+    <li>skillAdv(INITIATOR_skill>=12)->incelikle</li>
+    <li>skillAdv(INITIATOR_skill>=14)->mahirlikle</li>
+    <li>skillAdv(INITIATOR_skill>=16)->dahice</li>
+    <li>skillAdv(INITIATOR_skill>=16)->büyükustalıkla</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->makine gibi</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->robotik gibi</li>
+    <li>skillAdv(initiator_flesh==Mechanoid)->düpedüz</li>
+  </Combat_SkillIncludes.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] and [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], and [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], and [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] and [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], and [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], and [recipient_part_damaged3_label]</li>
+  -->
+  <Combat_WoundIncludes.rulePack.rulesStrings>
+    <li>destroyed_targets(recipient_part_destroyed_count==1)->[recipient_part_destroyed0_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==2)->[recipient_part_destroyed0_label] ve [recipient_part_destroyed1_label]</li>
+    <li>destroyed_targets(recipient_part_destroyed_count==3)->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], ve [recipient_part_destroyed2_label]</li>
+    <li>destroyed_targets->[recipient_part_destroyed0_label], [recipient_part_destroyed1_label], [recipient_part_destroyed2_label], ve [recipient_part_destroyed3_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==1)->[recipient_part_damaged0_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==2)->[recipient_part_damaged0_label] ve [recipient_part_damaged1_label]</li>
+    <li>damaged_targets(recipient_part_damaged_count==3)->[recipient_part_damaged0_label], [recipient_part_damaged1_label], ve [recipient_part_damaged2_label]</li>
+    <li>damaged_targets->[recipient_part_damaged0_label], [recipient_part_damaged1_label], [recipient_part_damaged2_label], ve [recipient_part_damaged3_label]</li>
+  </Combat_WoundIncludes.rulePack.rulesStrings>
+  
+</LanguageData>

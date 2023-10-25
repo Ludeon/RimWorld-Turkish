@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[INITIATOR_definite] [damaged_past] [atMaybe] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] with [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [skillAdvMaybe] [damaged_past] [atMaybe] [RECIPIENT_definite] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite] [skillAdvMaybe] used [implement] to [damaged_inf] [RECIPIENT_definite] [deflected_result].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>atMaybe-></li>
+    <li>atMaybe->at</li>
+    <li>deflected_result->, but the [TOOL_label] [deflected] off [harmlessly_opt]</li>
+    <li>deflected_result->, [deflecting] off [RECIPIENT_possessive] armor [harmlessly_opt]</li>
+    <li>harmlessly_opt(p=4)-></li>
+    <li>harmlessly_opt->[harmlessly]</li>
+    <li>harmlessly->harmlessly</li>
+    <li>harmlessly->uselessly</li>
+    <li>deflected->deflected</li>
+    <li>deflected->scraped</li>
+    <li>deflected->slid</li>
+    <li>deflected->grazed</li>
+    <li>deflected->bounced</li>
+    <li>deflected->glanced</li>
+    <li>deflecting->deflecting</li>
+    <li>deflecting->scraping</li>
+    <li>deflecting->sliding</li>
+    <li>deflecting->grazing</li>
+    <li>deflecting->bouncing</li>
+    <li>deflecting->glancing</li>
+  -->
+  <Combat_Deflect.rulePack.rulesStrings>
+    <li>r_logentry(p=0.5)->[INITIATOR_definite], [RECIPIENT_definite]'e [recipient_part0_label] içinde  [deflected_result]</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite]'e [implement] ile [damaged_past] [deflected_result]</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite]'e [damaged_past] [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [RECIPIENT_definite]'e [skillDescMelee], [RECIPIENT_definite]'e [recipient_part0_label]'de [damaged_past] [deflected_result]</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite], [RECIPIENT_definite]'e  [implement]den [damaged_inf] ile vurdu [deflected_result].</li>
+    <li>r_logentry(p=0.1)->[INITIATOR_definite],[RECIPIENT_definite]'e  [damaged_inf] [skillAdvMaybe] [implement] kullandı [deflected_result].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>deflected_result->, ama [TOOL_label]  [harmlessly_opt] [deflected].</li>
+    <li>deflected_result->, zırhından [harmlessly_opt] [deflecting]</li>
+    <li>harmlessly_opt(p=4)-></li>
+    <li>harmlessly_opt->[harmlessly]</li>
+    <li>harmlessly->zararsız bir şekilde</li>
+    <li>harmlessly->beyhude bir şekilde</li>
+    <li>deflected->saptı</li>
+    <li>deflected->sıyrıldı</li>
+    <li>deflected->kayıp gitti</li>
+    <li>deflected->sıyırıp geçdi</li>
+    <li>deflected->sekip gitti</li>
+    <li>deflecting->sapıyor</li>
+    <li>deflecting->sıyrılıyor</li>
+    <li>deflecting->kayıp gidiyor</li>
+    <li>deflecting->sıyırıp geçiyor</li>
+    <li>deflecting->sekip gidiyor</li>
+  </Combat_Deflect.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf] from [implement].</li>
+    <li>r_logentry(p=0.5)->[RECIPIENT_definite] [skillAdvMaybe] dodged [INITIATOR_definite]'s [damaged_inf].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>result->but [RECIPIENT_definite] leapt out of the way</li>
+    <li>result->but was deceived by [RECIPIENT_definite]'s feint</li>
+    <li>result->but the attack was cleverly avoided</li>
+  -->
+  <Combat_Dodge.rulePack.rulesStrings>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite], [INITIATOR_definite]'in saldırısını [implement] ile [skillAdvMaybe] savuşturdu.</li>
+    <li>r_logentry(p=0.2)->[RECIPIENT_definite], [INITIATOR_definite]'in saldırısını [skillAdvMaybe] savuşturdu. </li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>result->ama [RECIPIENT_definite] kenara fırladı.</li>
+    <li>result->ama [RECIPIENT_definite]'nin hilesiyle kandırıldı</li>
+    <li>result->ama [RECIPIENT_definite] saldırıyı akıllıca önledi.</li>
+  </Combat_Dodge.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label] [strikeAdv].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [strikeAdv] [damaged_past] [RECIPIENT_definite] in the [recipient_part0_label].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] [destroyed_suffix].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [destroyed_past] [RECIPIENT_definite]'s [destroyed_targets] with [implement].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite] [skillAdv] [damaged_past] [RECIPIENT_definite] with [implement].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->[damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>result(p=1)->[destroyed_present] [RECIPIENT_possessive] [destroyed_targets] and [damaged_present] [RECIPIENT_possessive] [damaged_targets]</li>
+    <li>action(p=1.0)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite] with [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] [damaged_past] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [damaged_past] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], hit [RECIPIENT_definite] with a [damaged_inf] from [implement]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] used [implement] to [damaged_inf] [RECIPIENT_definite]</li>
+    <li>action(p=0.3)->[INITIATOR_definite] used [implement] [skillAdv] to [damaged_inf] [RECIPIENT_definite]</li>
+  -->
+  <Combat_Hit.rulePack.rulesStrings>
+    <li>r_logentry(p=1.0)->[INITIATOR_definite], [recipient_part0_label] bölümünde [RECIPIENT_definite]'e [damaged_past].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [RECIPIENT_definite]'e [recipient_part0_label] [strikeAdv] [damaged_past].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [RECIPIENT_definite]'e [recipient_part0_label] içinde [damaged_past], [flavortext_consequence].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [skillDescMelee], [RECIPIENT_definite]'e [recipient_part0_label] içinde [damaged_past].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite], [skillDescMelee], [RECIPIENT_definite]'e [recipient_part0_label] içinde [strikeAdv] [damaged_past] .</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [RECIPIENT_definite]'nin [destroyed_targets] [destroyed_past].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [RECIPIENT_definite]'nin [destroyed_targets] [destroyed_suffix] [destroyed_past].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite], [implement] ile [RECIPIENT_definite]'nin [destroyed_targets] [destroyed_past].</li>
+    <li>r_logentry(p=1,recipient_part_count==0)->[INITIATOR_definite], [implement] ile [RECIPIENT_definite]'e [damaged_past].</li>
+    <li>r_logentry(p=0.4,recipient_part_count==0)->[INITIATOR_definite], [implement] ile [RECIPIENT_definite]'e [skillAdv] [damaged_past].</li>
+    <li>result(p=1,recipient_part_damaged_count==0)->onun [destroyed_targets] [destroyed_present]</li>
+    <li>result(p=1,recipient_part_destroyed_count==0)->onun [damaged_targets] [damaged_present]</li>
+    <li>result(p=1)->onun [destroyed_targets] [destroyed_present] ve onun [damaged_targets] [damaged_present]</li>
+    <li>action(p=1.0)->[INITIATOR_definite], [implement] [RECIPIENT_definite]'e [damaged_past]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite] [damaged_past]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee],[RECIPIENT_definite] [damaged_past]</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite]'e [implement] tarafından bir [damaged_inf] ile vurdu</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [skillDescMelee], [RECIPIENT_definite]'e [implement] tarafından bir [damaged_inf] ile  vurdu</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite]'i [damaged_inf] için [implement] kullandı</li>
+    <li>action(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite]'i [damaged_inf] için [skillAdv] [implement] kullandı</li>
+  </Combat_Hit.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] avoided [INITIATOR_definite]'s [WEAPON_label] [damaged_inf].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] missed [RECIPIENT_definite] with a [damaged_inf] from [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite] with [implement].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] [failtype] while trying to [damaged_inf] [RECIPIENT_definite].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite] tried [skillAdvMaybe] to [damaged_inf] [RECIPIENT_definite], but [failtype].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>failtype(p=5)->missed</li>
+    <li>failtype->stumbled</li>
+    <li>failtype->tripped</li>
+    <li>failtype->flailed</li>
+    <li>failtype->floundered</li>
+    <li>result(p=4)->but missed</li>
+    <li>result->but hit only air</li>
+    <li>result->but the swing went wide</li>
+    <li>result->but stumbled at the last second</li>
+    <li>result(initiator_flesh!=Mechanoid)->but hesitated at the last second</li>
+  -->
+  <Combat_Miss.rulePack.rulesStrings>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite], [INITIATOR_definite]'nin saldırısını önledi.</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite], [RECIPIENT_label]'i [implement] saldırısıyla ıskaladı.</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_definite], [RECIPIENT_definite]'e [implement] ile saldırmaya çalışırken [failtype].</li>
+    <li>r_logentry(p=0.3)->[INITIATOR_label] [skillAdvMaybe] [RECIPIENT_definite]'e saldırmaya çalıştı,ama [failtype].</li>
+    <li>r_logentry(p=0.3)->[RECIPIENT_definite] [failtype].</li>
+    <li>skillAdvMaybe-></li>
+    <li>skillAdvMaybe->[skillAdv]</li>
+    <li>failtype(p=5)->kaçırdı</li>
+    <li>failtype->tökezledi</li>
+    <li>failtype->ayağı taşa takıldı</li>
+    <li>failtype->bocaladı</li>
+    <li>result(p=4)->ama ıskaladı</li>
+    <li>result->ama havayı vurdu</li>
+    <li>result->ama açıktan alarak gitti</li>
+    <li>result->but stumbled at the last second</li>
+    <li>result(initiator_flesh!=Mechanoid)->ama son saniyede tereddüt etti</li>
+  </Combat_Miss.rulePack.rulesStrings>
+  
+</LanguageData>

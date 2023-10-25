@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->die</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->perish</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->expire</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->shut down</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->stop functioning</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->lose power</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->died</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->perished</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->expired</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->shut down</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->stopped functioning</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->lost power</li>
+  -->
+  <Transition_Died.rulePack.rulesStrings>
+    <li>die(SUBJECT_flesh!=Mechanoid,p=2)->ölme</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->yok olma</li>
+    <li>die(SUBJECT_flesh!=Mechanoid)->sona erme</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->kapanma</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->çalışmayı durdur</li>
+    <li>die(SUBJECT_flesh==Mechanoid)->güç kaybetme</li>
+    <li>died(SUBJECT_flesh!=Mechanoid,p=2)->öldü</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->telef oldu</li>
+    <li>died(SUBJECT_flesh!=Mechanoid)->süresi doldu</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->kapandı</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->çalışmayı durdurdu</li>
+    <li>died(SUBJECT_flesh==Mechanoid)->kayıp güç</li>
+  </Transition_Died.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>die(p=3)->explode [flavor]</li>
+    <li>die(p=3)->explode [flavorsuffix]</li>
+    <li>die->detonate [flavor]</li>
+    <li>die->detonate [flavorsuffix]</li>
+    <li>die->burst [flavor]</li>
+    <li>die->burst [flavorsuffix]</li>
+    <li>died(p=3)->exploded [flavor]</li>
+    <li>died->detonated [flavor]</li>
+    <li>died->burst [flavor]</li>
+    <li>flavor(p=0.2)->in a chemical [fireball]</li>
+    <li>flavor->in a [Color] [fireball]</li>
+    <li>flavor->in a [AdjectiveLarge] [fireball]</li>
+    <li>flavor(p=4)->in a [fireball]</li>
+    <li>flavor(p=4)-></li>
+    <li>flavorsuffix->, scattering [pieces] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, scattering [Gore] [everywhere]</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, leaving a small pile of [Gore]</li>
+    <li>flavorsuffix->, leaving a small crater</li>
+    <li>flavorsuffix(p=4)-></li>
+    <li>fireball(p=3)->fireball</li>
+    <li>fireball->flameball</li>
+    <li>fireball->shockwave</li>
+    <li>fireball->conflagration</li>
+    <li>pieces->pieces</li>
+    <li>pieces->fragments</li>
+    <li>everywhere->everywhere</li>
+    <li>everywhere->far and wide</li>
+  -->
+  <Transition_DiedExplosive.rulePack.rulesStrings>
+    <li>die(p=3)->[flavor] patlama</li>
+    <li>die(p=3)->[flavorsuffix] patlama</li>
+    <li>die->[flavor] infilak</li>
+    <li>die->[flavorsuffix] infilak</li>
+    <li>die->[flavor] patlama</li>
+    <li>die->[flavorsuffix] patlama</li>
+    <li>died(p=3)->[flavor] patladı</li>
+    <li>died->[flavor] infilak etti</li>
+    <li>died->[flavor] patladı</li>
+    <li>flavor(p=0.2)->kimyasal [fireball] içinde</li>
+    <li>flavor->[Color] [fireball] içinde</li>
+    <li>flavor->[AdjectiveLarge] [fireball] içinde</li>
+    <li>flavor(p=4)->[fireball] içinde</li>
+    <li>flavor(p=4)-></li>
+    <li>flavorsuffix->, [everywhere] [pieces] saçarak</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid,p=2)->, [everywhere] [Gore] saçarak</li>
+    <li>flavorsuffix(SUBJECT_flesh!=Mechanoid)->, küçük bir yığın [Gore] bırakarak</li>
+    <li>flavorsuffix->, küçük bir krater bırakarak</li>
+    <li>flavorsuffix(p=4)-></li>
+    <li>fireball(p=3)->ateş topu</li>
+    <li>fireball->alev topu</li>
+    <li>fireball->şok dalgası</li>
+    <li>fireball->yangın felaketi</li>
+    <li>pieces->parçalar</li>
+    <li>pieces->parçacıklar</li>
+    <li>everywhere->heryerde</li>
+    <li>everywhere->uzak ve geniş</li>
+  </Transition_DiedExplosive.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [die].</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [die].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNoun] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [duetoa] [CULPRITHEDIFF_labelNounPretty] [flavorsuffix].</li>
+    <li>r_logentry->[SUBJECT_definite] [died].</li>
+    <li>r_logentry->[SUBJECT_definite] [died] [flavorsuffix].</li>
+  -->
+  <Transition_DiedInclude.rulePack.rulesStrings>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNoun], [SUBJECT_definite] [die]masına sebep oldu.</li>
+    <li>r_logentry(p=1.5)->[CULPRITHEDIFF_labelNounPretty], [SUBJECT_definite] [die]masına sebeb oldu.</li>
+    <li>r_logentry(p=1.5,SUBJECT_flesh!=Mechanoid)->[CULPRITHEDIFF_labelNoun],[SUBJECT_definite]'in  hayatına mal oldu.</li>
+    <li>r_logentry(p=1.5)->[SUBJECT_definite]  [CULPRITHEDIFF_labelNounPretty] [flavorsuffix] [died].</li>
+    <li>r_logentry(p=1.5)->[SUBJECT_definite] [died].</li>
+    <li>r_logentry->[SUBJECT_definite] [flavorsuffix] [died].</li>
+  </Transition_DiedInclude.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] caused [SUBJECT_definite] to [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] caused [SUBJECT_definite] to [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun] made [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty] made [SUBJECT_definite] [collapsemeta].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNoun].</li>
+    <li>r_logentry->[SUBJECT_definite] [collapsedmeta] [duetoa] [CULPRITHEDIFF_labelNounPretty].</li>
+    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
+    <li>collapse->collapse</li>
+    <li>collapse->drop</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->crumple</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->crash</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->lock up</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->lose main power</li>
+    <li>collapsed->collapsed</li>
+    <li>collapsed->dropped</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->crumpled</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->crashed</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->locked up</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->lost main power</li>
+    <li>helplessly->helplessly</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->unconscious</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->weakly</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->feebly</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->uncontrollably</li>
+    <li>collapsemeta->[collapse]</li>
+    <li>collapsemeta(p=0.5)->[collapse] [helplessly]</li>
+    <li>collapsedmeta->[collapsed]</li>
+    <li>collapsedmeta(p=0.5)->[collapsed] [helplessly]</li>
+  -->
+  <Transition_Downed.rulePack.rulesStrings>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun], [SUBJECT_definite]'in  [collapsemeta].</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty],[SUBJECT_definite]'in  [collapsemeta]</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNoun], [SUBJECT_definite]'in [collapsemeta]'a sebep oldu.</li>
+    <li>r_logentry->[CULPRITHEDIFF_labelNounPretty], [SUBJECT_definite]'in [collapsemeta]'a sebep oldu.</li>
+    <li>r_logentry->[SUBJECT_definite], [CULPRITHEDIFF_labelNoun] [duetoa] [collapsedmeta].</li>
+    <li>r_logentry->[SUBJECT_definite], [CULPRITHEDIFF_labelNounPretty] [duetoa] [collapsedmeta].</li>
+    <li>r_logentry(p=0.1)->[SUBJECT_definite] [collapsedmeta].</li>
+    <li>collapse->çöküyor</li>
+    <li>collapse->droplanıyor</li>
+    <li>collapse(SUBJECT_flesh!=Mechanoid)->buruşturuluyor</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->kafası kıyak oluyor</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->kilitleniyor</li>
+    <li>collapse(SUBJECT_flesh==Mechanoid)->ana gücü kaybediyor</li>
+    <li>collapsed->collapsed</li>
+    <li>collapsed->dropped</li>
+    <li>collapsed(SUBJECT_flesh!=Mechanoid)->buruşturulmuş</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->kafası kıyak oldu</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->kilitlendi</li>
+    <li>collapsed(SUBJECT_flesh==Mechanoid)->ana güç kaybı oldu</li>
+    <li>helplessly->Çaresizce</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->bilinçsizce</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->zayıfca</li>
+    <li>helplessly(SUBJECT_flesh!=Mechanoid)->kuvvetsizce</li>
+    <li>helplessly(SUBJECT_flesh==Mechanoid)->kontrol edilemez bir biçimde</li>
+    <li>collapsemeta->[collapse]</li>
+    <li>collapsemeta(p=0.5)->[helplessly] [collapse]</li>
+    <li>collapsedmeta->[collapsed]</li>
+    <li>collapsedmeta(p=0.5)->[helplessly] [collapsed]</li>
+  </Transition_Downed.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>duetoa->due to</li>
+    <li>duetoa(p=0.5)->because of</li>
+    <li>duetoa(p=0.5)->thanks to</li>
+  -->
+  <Transition_Include.rulePack.rulesStrings>
+    <li>duetoa->Nedeniyle</li>
+    <li>duetoa(p=0.5)->nedeniyle</li>
+    <li>duetoa(p=0.5)->sayesinde</li>
+  </Transition_Include.rulePack.rulesStrings>
+  
+</LanguageData>
