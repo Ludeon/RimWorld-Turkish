@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>terminalHackedMessage->Terminal hacked. {COUNT} / [terminalCount] complete.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] incapable of hacking.</li>
+    <li>passengersIncapableOfHackingDialogText->The shuttle for the quest '[resolvedQuestName]' has no passenger capable of hacking. You must send at least one person capable of hacking to investigate the ancient complex.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->passenger</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->passengers</li>
+  -->
+  <AncientComplex_Mission.questContentRules.rulesStrings>
+    <li>terminalHackedMessage->Terminal hacklendi. {COUNT} / [terminalCount] tamamlandı.</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] bilgisayar hackleme yapamaz.</li>
+    <li>passengersIncapableOfHackingDialogText->'[resolvedQuestName]' görevi için mekiği hackleme yeteneğine sahip bir yolcusu yok. Antik kompleksi araştırmak için hackleme yeteneğine sahip en az bir kişi göndermelisiniz.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->mesajcı</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->mesajcılar</li>
+  </AncientComplex_Mission.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>complex->complex</li>
+    <li>complex->compound</li>
+    <li>complex->installation</li>
+    <li>complex->structure</li>
+    <li>complex->construction</li>
+    <li>investigation->investigation</li>
+    <li>investigation->examination</li>
+    <li>investigation->mission</li>
+    <li>investigation->excavation</li>
+    <li>investigation->hacking</li>
+  -->
+  <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+    <li>complex->kompleks</li>
+    <li>complex->bileşim</li>
+    <li>complex->Kurulum</li>
+    <li>complex->yapı</li>
+    <li>complex->inşaat</li>
+    <li>investigation->soruşturma</li>
+    <li>investigation->muayene</li>
+    <li>investigation->misyon</li>
+    <li>investigation->kazı</li>
+    <li>investigation->hackleme</li>
+  </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has discovered an ancient complex a long distance away. [asker_pronoun] believes it contains information about the relic known as [relic_name].\n\n[asker_nameDef] can't spare people to look into it, but hopes you can help by supplying exactly [colonistCount] [colonistsSingularOrPlural] to carry out the investigation.\n\nThe complex contains unknown threats and is also being sought by [asker_nameDef]'s enemies, [enemyFaction_name].\n\n[asker_pronoun] will send a shuttle to pick up your colonists, bring them to the complex, and take them home afterward. They will be fed and tended to en-route.\n\nOnce you have landed, you must hack all terminals in the complex within [timeoutTicks_duration].</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->colonist</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
+  -->
+  <AncientComplex_Mission.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_faction_name] grubunun [asker_nameDef] [asker_faction_leaderTitle], çok uzakta eski bir kompleks keşfetti. [relic_name] olarak bilinen kalıntı hakkında bilgi içerdiğine inanıyor.\n\n[asker_nameDef], insanların onu incelemesine izin veremez, ancak soruşturmayı yürütmek için tam olarak, [colonistCount] [colonistsSingularOrPlural] sağlayarak yardımcı olabileceğinizi umuyor. .\n\nKompleks bilinmeyen tehditler içeriyor ve aynı zamanda [asker_nameDef]'in düşmanı [enemyFaction_name] tarafından inceleniyor.\n\nKolonistlerinizi almak, onları komplekse getirmek ve daha sonra eve götürmek için bir mekik gönderecek. Yol boyunca beslenecek ve yönlendirilecekler.\n\nİndikten sonra, kompleksteki tüm terminalleri [timeoutTicks_duration] içinde hacklemelisiniz.</li>
+    <li>colonistsSingularOrPlural(colonistCount==1)->kolonist</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->kolonistler</li>
+  </AncientComplex_Mission.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[missionAdj] [complex] [investigation]</li>
+    <li>missionAdj->hidden</li>
+    <li>missionAdj->covert</li>
+    <li>missionAdj->secret</li>
+  -->
+  <AncientComplex_Mission.questNameRules.rulesStrings>
+    <li>questName->[missionAdj] [complex] [investigation]</li>
+    <li>missionAdj->saklı</li>
+    <li>missionAdj->sığınak</li>
+    <li>missionAdj->gizli</li>
+  </AncientComplex_Mission.questNameRules.rulesStrings>
+  
+</LanguageData>
