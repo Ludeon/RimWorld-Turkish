@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>wastepacksLetterLabel->Wastepacks arrived</li>
+    <li>wastepacksLetterText->The toxic wastepacks have been delivered.</li>
+  -->
+  <PollutionDump.questContentRules.rulesStrings>
+    <li>wastepacksLetterLabel->Atık paketleri geldi</li>
+    <li>wastepacksLetterText->Toksik atık paketleri geldi.</li>
+  </PollutionDump.questContentRules.rulesStrings>
+  <!-- EN:
+    <li>questDescription(askerIsNull==True)->A machine persona in an orbiting ship has a special request. She wishes to offload an excess of toxic wastepacks and hopes that you will store them responsibly.\n\nIf you accept, she will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name] has a special request. [asker_pronoun] has produced an abundance of toxic wastepacks that [asker_pronoun] does not wish to store.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has a special request. Someone has dumped an abundance of toxic wastepacks near one of [asker_possessive] settlements and [asker_pronoun] is unable to safely store them.\n\nIf you accept, [asker_nameDef] will deliver [wastepackCount] toxic wastepacks by transport pod.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
+  -->
+  <PollutionDump.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==True)->Yörüngedeki bir gemideki bir makine personelinin özel bir isteği vardır. Fazla miktarda toksik atık paketini boşaltmak istiyor ve sizin bunları sorumlu bir şekilde depolayacağınızı umuyor.\n\nKabul ederseniz, [wastepackCount] toksik atık paketlerini taşıma poduyla teslim edecek.\n\nDondurulmazsa, toksik atık paketleri zamanla eriyecek yakındaki araziyi kirletecek.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_faction_name] grubunun [asker_royalTitleInCurrentFaction]'in özel bir isteği var. Saklamak istemediği çok sayıda zehirli atık paketi üretti.\n\nKabul ederseniz, [asker_nameDef], [wastepackCount] toksik atık paketlerini taşıma kapsülüyle teslim edecek.\n\nDondurulmazsa, toksikatık paketleri zamanla eriyecek ve yakındaki araziyi kirletecek.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_faction_name]'nin [asker_nameFull]'in özel bir isteği var. Birisi onun yerleşim yerlerinden birinin yakınına çok sayıda toksik atık paketi attı ve bunları güvenli bir şekilde depolayamıyor.\n\nKabul ederseniz, [asker_nameDef], [wastepackCount] toksik atık paketlerini taşıma bölmesiyle teslim edecek.\n\nDondurulmadığı takdirde zehirli atık paketleri zamanla çözülerek yakındaki araziyi kirletecek.</li>
+  </PollutionDump.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[waste] [dump]</li>
+    <li>questName(askerIsNull==False)->[asker_faction_pawnSingular] [waste] [dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->[asker_nameDef]'s [waste] [dump]</li>
+    <li>waste->waste</li>
+    <li>waste->pollution</li>
+    <li>waste->toxin</li>
+    <li>waste->wastepack</li>
+    <li>dump->dump</li>
+    <li>dump->drop</li>
+    <li>dump->clearance</li>
+    <li>dump->problem</li>
+  -->
+  <PollutionDump.questNameRules.rulesStrings>
+    <li>questName->[waste][dump]</li>
+    <li>questName(p=0.7,askerIsNull==False,asker_royalInCurrentFaction==True)->[asker_faction_pawnSingular] [waste][dump]</li>
+    <li>questName(p=0.3,askerIsNull==False,asker_royalInCurrentFaction==True)->[asker_faction_pawnSingular] [waste][dump]</li>
+    <li>questName(askerIsNull==False,asker_royalInCurrentFaction==False)->{replace: [asker_nameDef]in; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [waste][dump]</li>
+    <li>waste->atık</li>
+    <li>waste->kirli</li>
+    <li>waste->toksik</li>
+    <li>waste->toksin</li>
+    <li>waste->atık paketi</li>
+    <li>dumpFem->çöpü</li>
+    <li>dumpFem->dropu</li>
+    <li>dumpNeu->problemi</li>
+    <li>dumpFem->temizleme</li>
+    <li>dump-></li>
+    <li>dump(p=0.33)-></li>
+  </PollutionDump.questNameRules.rulesStrings>
+  
+</LanguageData>
