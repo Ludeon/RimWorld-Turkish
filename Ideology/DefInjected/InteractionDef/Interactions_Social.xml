@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: failed conversion -->
+  <Convert_Failure.label>başarısız dönüşüm</Convert_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef], but failed.</li>
+  -->
+  <Convert_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'i dönüştürmeye çalıştı ancak başarısız oldu.</li>
+  </Convert_Failure.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: successful conversion -->
+  <Convert_Success.label>başarılı dönüşüm</Convert_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] and succeeded.</li>
+  -->
+  <Convert_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'i dönüştürmeyi denedi ve başarılı oldu.</li>
+  </Convert_Success.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: convert ideoligion attempt -->
+  <ConvertIdeoAttempt.label>ideolojiyi dönüştürme girişimi</ConvertIdeoAttempt.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to convert [RECIPIENT_nameDef] to [INITIATOR_possessive] own ideoligion.</li>
+  -->
+  <ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'i kendi ideolojisine dönüştürmeye çalıştı.</li>
+  </ConvertIdeoAttempt.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: failed counsel -->
+  <Counsel_Failure.label>başarısız nasihat</Counsel_Failure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] tried to counsel [RECIPIENT_nameDef], but botched the attempt and made things worse.</li>
+  -->
+  <Counsel_Failure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'e tavsiyede bulunmaya çalıştı, ancak girişimi boşa çıkardı ve işleri daha da kötüleştirdi.</li>
+  </Counsel_Failure.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: successful counsel -->
+  <Counsel_Success.label>başarılı nasihat</Counsel_Success.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] counseled [RECIPIENT_nameDef] on [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] helped [RECIPIENT_nameDef] think through [problems].</li>
+    <li>r_logentry->[INITIATOR_nameDef] gave [RECIPIENT_nameDef] advice on overcoming negativity.</li>
+    <li>problems->[RECIPIENT_possessive] problems</li>
+    <li>problems->[RECIPIENT_possessive] troubles</li>
+    <li>problems->[RECIPIENT_possessive] painful feelings</li>
+    <li>problems->recent difficulties</li>
+  -->
+  <Counsel_Success.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [reCIPIENT_nameDef]'e [problems] konusunda danışmanlık yaptı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'in [problems] üzerinde düşünmesine yardımcı oldu.</li>
+    <li>r_logentry->[INITIATOR_nameDef], olumsuzluğun üstesinden gelmek için [RECIPIENT_nameDef] tavsiyesi verdi.</li>
+    <li>problems->pronlemleri</li>
+    <li>problems->dertleri</li>
+    <li>problems->acı verici duyguları</li>
+    <li>problems->son zorlukları</li>
+  </Counsel_Success.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: preached health -->
+  <PreachHealth.label>sağlık vaazı</PreachHealth.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>
+    <li>preaching_topic->reasons to live</li>
+    <li>preaching_topic->higher ideoligious goals</li>
+    <li>preaching_topic->[RECIPIENT_possessive] purpose of existence</li>
+  -->
+  <PreachHealth.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [preaching_topic] hakkında vaaz vererek [RECIPIENT_nameDef]'in sağlığını güçlendirdi.</li>
+    <li>preaching_topic->yaşamak için sebepler</li>
+    <li>preaching_topic->daha yüksek ideolojik hedefler</li>
+    <li>preaching_topic->varoluş amacı</li>
+  </PreachHealth.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: reassurance -->
+  <Reassure.label>güvence</Reassure.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] reinforced [RECIPIENT_nameDef]'s beliefs.</li>
+  -->
+  <Reassure.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'in inançlarını güçlendirdi.</li>
+  </Reassure.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: accuse -->
+  <Trial_Accuse.label>suçlama</Trial_Accuse.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] presented some evidence.</li>
+    <li>r_logentry->[INITIATOR_nameDef] appealed to the emotions of the spectators.</li>
+    <li>r_logentry->[INITIATOR_nameDef] accused [RECIPIENT_nameDef] of [wrongdoing].</li>
+    <li>wrongdoing->sabotaging the colony</li>
+    <li>wrongdoing->being lazy</li>
+    <li>wrongdoing->eating too much</li>
+    <li>wrongdoing->stealing</li>
+    <li>wrongdoing->being a horrible person</li>
+    <li>wrongdoing->disrespecting sacred ideas</li>
+    <li>wrongdoing->disrespecting respected figures</li>
+    <li>wrongdoing->heresy</li>
+    <li>wrongdoing->murder</li>
+    <li>wrongdoing->blasphemy</li>
+    <li>wrongdoing->treason</li>
+    <li>wrongdoing->hateful thinking</li>
+    <li>wrongdoing->disloyalty</li>
+  -->
+  <Trial_Accuse.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] bazı kanıtlar sundu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] seyircilerin duygularına hitap etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'i [wrongdoing] suçladı.</li>
+    <li>wrongdoing->koloniyi sabote etmekle</li>
+    <li>wrongdoing->tembel olmakla</li>
+    <li>wrongdoing->çok yemekle</li>
+    <li>wrongdoing->çalmakla</li>
+    <li>wrongdoing->korkunç bir insan olmakla</li>
+    <li>wrongdoing->kutsal fikirlere saygısızlıkla</li>
+    <li>wrongdoing->saygı duyulan kişilere saygısızlıkla</li>
+    <li>wrongdoing->sapkınlıkla</li>
+    <li>wrongdoing->katillikle</li>
+    <li>wrongdoing->küfürle</li>
+    <li>wrongdoing->ihanetle</li>
+    <li>wrongdoing->nefret dolu düşünceyle</li>
+    <li>wrongdoing->sadakatsizlikle</li>
+  </Trial_Accuse.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: defend -->
+  <Trial_Defend.label>savunma</Trial_Defend.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] deflected the accusation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] presented another interpretation.</li>
+    <li>r_logentry->[INITIATOR_nameDef] pleaded to jury.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called for mercy.</li>
+    <li>r_logentry->[INITIATOR_nameDef] stalled the proceedings.</li>
+    <li>r_logentry->[INITIATOR_nameDef] dismissed the allegations.</li>
+    <li>r_logentry->[INITIATOR_nameDef] called the trial a sham.</li>
+  -->
+  <Trial_Defend.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef] suçlamayı saptırdı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] başka bir yorum sundu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] jüriye yalvardı.</li>
+    <li>r_logentry->[INITIATOR_nameDef] merhamet istedi.</li>
+    <li>r_logentry->[INITIATOR_nameDef] işlemleri durdurdu.</li>
+    <li>r_logentry->[INITIATOR_nameDef] iddiaları reddetti.</li>
+    <li>r_logentry->[INITIATOR_nameDef], suçlamayı sahte olarak nitelendirdi.</li>
+  </Trial_Defend.logRulesInitiator.rulesStrings>
+  
+  <!-- EN: work drive -->
+  <WorkDrive.label>iş sürüşü</WorkDrive.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] called upon [RECIPIENT_nameDef] to work extra hard for the good of the colony.</li>
+  -->
+  <WorkDrive.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'i koloninin iyiliği için daha fazla çalışmaya çağırdı.</li>
+  </WorkDrive.logRulesInitiator.rulesStrings>
+  
+</LanguageData>
