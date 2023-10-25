@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Animal calm -->
+  <AnimalCalm.label>Hayvan sakinliği</AnimalCalm.label>
+  <!-- EN: Use unique methods of connecting with animals to calm a maddened beast. -->
+  <AnimalCalm.description>Çıldırmış bir canavarı sakinleştirmek için hayvanlarla benzersiz yöntemler kullanın.</AnimalCalm.description>
+  <!-- EN: {INITIATOR_labelShort} successfully calmed {RECIPIENT_labelShort}. -->
+  <AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>{INITIATOR_labelShort}, {RECIPIENT_labelShort}'u başarıyla sakinleştirdi.</AnimalCalm.comps.CompAbilityEffect_StopManhunter.successMessage>
+  
+  <!-- EN: berserk trance -->
+  <BerserkTrance.label>berserk trans</BerserkTrance.label>
+  <!-- EN: The caster fills themself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours. -->
+  <BerserkTrance.description>Caster, ideolojik şikayetler üzerine kendini öfkeyle doldurur. Bu, vücudu normal sınırları aşarak güçlendirir, ancak aynı zamanda kontrolü kaybetmek ve yakındaki her düşmana durdurulamaz bir öfkeyle saldırmak anlamına gelir. Çılgın hali 3 saat sürecek.</BerserkTrance.description>
+  
+  <!-- EN: combat command -->
+  <CombatCommand.label>savaş komutu</CombatCommand.label>
+  <!-- EN: Create an aura that boosts the combat skills of everyone nearby. The effect lasts 24 hours and remains attached to the leader for the duration. -->
+  <CombatCommand.description>Yakındaki herkesin dövüş becerilerini artıran bir aura yaratın. Etkisi 24 saat sürer ve süre boyunca lidere bağlı kalır.</CombatCommand.description>
+  
+  <!-- EN: conversion ritual -->
+  <ConversionRitual.label>dönüşüm ritüeli</ConversionRitual.label>
+  <!-- EN: Try to persuade someone to adopt your beliefs. If it goes well, they will lose some certainty in their ideoligion and may convert. If it backfires, they will gain certainty in their old beliefs.\n\nTo start this ritual at a specific place, select a ritual spot or matching altar/ideogram. -->
+  <ConversionRitual.description>Birini inançlarınızı benimsemeye ikna etmeye çalışın. Eğer işler yolunda giderse, ideolojilerinde bir miktar kesinlik kaybederler ve dönüşebilirler. Ters teperse, eski inançlarında kesinlik kazanacaklar.\n\nBu ritüeli belirli bir yerde başlatmak için bir ritüel noktası veya uygun sunak/ideogram seçin.</ConversionRitual.description>
+  
+  <!-- EN: convert -->
+  <Convert.label>dönüştürme</Convert.label>
+  <!-- EN: Attempt to convert someone to the speaker's ideoligion. This will reduce the target's certainty in their own beliefs. The certainty reduction depends on the speaker's negotiation ability. -->
+  <Convert.description>Birini konuşmacının ideolojisine dönüştürmeye çalışmak. Bu, hedefin kendi inançlarına olan güvenini azaltacaktır. Kesinlik azaltma, konuşmacının müzakere yeteneğine bağlıdır.</Convert.description>
+  <!-- EN: {INITIATOR_labelShort} failed to convert {RECIPIENT_labelShort}. {RECIPIENT_labelShort} was upset by the attempt, but {RECIPIENT_possessive} certainty fell from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. -->
+  <Convert.comps.CompAbilityEffect_Convert.failMessage>{INITIATOR_labelShort}, {RECIPIENT_labelShort}'u dönüştüremedi. {RECIPIENT_labelShort} bu girişimden rahatsız oldu, ancak kesinliği {CERTAINTYBEFORE} değerinden {CERTAINTYAFTER} değerine düştü.</Convert.comps.CompAbilityEffect_Convert.failMessage>
+  <!-- EN: {INITIATOR_labelShort} has converted {RECIPIENT_labelShort} to {IDEO}. -->
+  <Convert.comps.CompAbilityEffect_Convert.successMessage>{INITIATOR_labelShort}, {RECIPIENT_labelShort}'u {IDEO}'ya dönüştürdü.</Convert.comps.CompAbilityEffect_Convert.successMessage>
+  
+  <!-- EN: Counsel -->
+  <Counsel.label>nasihat</Counsel.label>
+  <!-- EN: Offer counsel to a person to cancel the effect of a sad memory. The chance of success depends on the speaker's social skills and their relationship with the listener. -->
+  <Counsel.description>Üzücü bir anının etkisini ortadan kaldırmak için bir kişiye öğüt verin. Başarı şansı, konuşmacının sosyal becerilerine ve dinleyiciyle olan ilişkilerine bağlıdır.</Counsel.description>
+  <!-- EN: {INITIATOR_labelShort} botched the attempt to counsel {RECIPIENT_labelShort}. {RECIPIENT_labelShort} has become upset. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.failMessage>{INITIATOR_labelShort}, {RECIPIENT_labelShort} ile ilgili danışmanlık yapma girişimini boşa çıkardı. {RECIPIENT_labelShort} sinirlendi.</Counsel.comps.CompAbilityEffect_Counsel.failMessage>
+  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, canceling the mood impact of {2}. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessage>{INITIATOR_labelShort}, {RECIPIENT_labelShort}'a başarılı bir şekilde danışmanlık yaparak {2}'nin ruh hali etkisini iptal etti.</Counsel.comps.CompAbilityEffect_Counsel.successMessage>
+  <!-- EN: {INITIATOR_labelShort} successfully counselled {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} mood by {MOODBONUS}. -->
+  <Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>{INITIATOR_labelShort}, {RECIPIENT_labelShort}'a başarılı bir şekilde danışmanlık yaparak ruh halini {MOODBONUS} artırdı.</Counsel.comps.CompAbilityEffect_Counsel.successMessageNoNegativeThought>
+  
+  <!-- EN: farming command -->
+  <FarmingCommand.label>çiftçilik komutu</FarmingCommand.label>
+  <!-- EN: Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <FarmingCommand.description>Yakındaki herkes için çiftçilik yeteneklerini artırarak çiftçilik teknikleri hakkında rehberlik sunun. Etki, 24 saat boyunca casterı bağlı kalır.</FarmingCommand.description>
+  
+  <!-- EN: Immunity drive -->
+  <ImmunityDrive.label>bağışıklık sürücü</ImmunityDrive.label>
+  <!-- EN: Offer moral support that energizes the body, boosting someone's immunity gain for one day. -->
+  <ImmunityDrive.description>Vücuda enerji veren, birinin bir günlüğüne bağışıklık kazanmasını artıran ahlaki destek sunun.</ImmunityDrive.description>
+  
+  <!-- EN: leader speech -->
+  <LeaderSpeech.label>lider konuşması</LeaderSpeech.label>
+  <!-- EN: Initiate a leader speech. If it goes well, listeners will gain improved mood, respect for the speaker, and possibly new inspirations. If it goes poorly, social damage will occur. -->
+  <LeaderSpeech.description>Bir lider konuşması başlatın. İyi giderse, dinleyiciler daha iyi bir ruh hali, konuşmacıya saygı ve muhtemelen yeni ilhamlar kazanacaklar. Kötü giderse, sosyal hasar meydana gelir.</LeaderSpeech.description>
+  
+  <!-- EN: marksman command -->
+  <MarksmanCommand.label>nişancı komutu</MarksmanCommand.label>
+  <!-- EN: Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <MarksmanCommand.description>Ateş edin ve yakındaki herkesin atış becerilerini artırın. Etki, 24 saat boyunca castera bağlı kalır.</MarksmanCommand.description>
+  
+  <!-- EN: mining command -->
+  <MiningCommand.label>madencilik komutu</MiningCommand.label>
+  <!-- EN: Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <MiningCommand.description>Yakındaki herkes için madencilik hızını artırarak madencilik teknikleri hakkında rehberlik sunun. Etki, 24 saat boyunca castera bağlı kalır.</MiningCommand.description>
+  
+  <!-- EN: preach health -->
+  <PreachHealth.label>sağlık vaazı</PreachHealth.label>
+  <!-- EN: Preach moral strength to a sick or wounded person through the concepts of your ideology. This will improve their rate of wound healing and immunity gain. -->
+  <PreachHealth.description>İdeolojinizin kavramları aracılığıyla hasta veya yaralı bir kişiye ahlaki gücü vaaz edin. Bu, yara iyileşme oranlarını ve bağışıklık kazanmalarını artıracaktır.</PreachHealth.description>
+  
+  <!-- EN: production command -->
+  <ProductionCommand.label>üretim komutu</ProductionCommand.label>
+  <!-- EN: Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <ProductionCommand.description>Yakınınızdaki herkes için inşaat teknikleri, inşaat ve işçilik becerilerini artırma konusunda rehberlik sunun. Etki, 24 saat boyunca castera bağlı kalır.</ProductionCommand.description>
+  
+  <!-- EN: reassure -->
+  <Reassure.label>güvence verme</Reassure.label>
+  <!-- EN: Increase someone's certainty in their own beliefs. The regained certainty is based on the speaker's negotiation ability. -->
+  <Reassure.description>Birinin kendi inançlarındaki kesinliğini artırın. Yeniden kazanılan kesinlik, konuşmacının müzakere yeteneğine dayanır.</Reassure.description>
+  <!-- EN: {INITIATOR_labelShort} has reassured {RECIPIENT_labelShort}, increasing {RECIPIENT_possessive} certainty in {IDEO} from {BEFORECERTAINTY} to {AFTERCERTAINTY}. -->
+  <Reassure.comps.CompAbilityEffect_Reassure.successMessage>{INITIATOR_labelShort}, {RECIPIENT_labelShort}'a güvence vererek {IDEO} konusundaki kesinliğini {BEFORECERTAINTY}'den {AFTERCERTAINTY}'ye yükseltti.</Reassure.comps.CompAbilityEffect_Reassure.successMessage>
+  
+  <!-- EN: research command -->
+  <ResearchCommand.label>araştırma komutu</ResearchCommand.label>
+  <!-- EN: Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours. -->
+  <ResearchCommand.description>Yakındaki herkesin araştırma hızını artırarak öneriler ve zihinsel destek sağlayın. Etki, 24 saat boyunca castera bağlı kalır.</ResearchCommand.description>
+  
+  <!-- EN: trial -->
+  <Trial.label>yargılama</Trial.label>
+  <!-- EN: Charge someone with a terrible wrongdoing and initiate a trial where they will be either convicted or exonerated. If the target is convicted, they can be freely imprisoned, executed or banished without penalty. The chance of conviction depends on the social abilities of the accuser and accused. -->
+  <Trial.description>Birini korkunç bir suçla suçlayın ve suçlu bulunacağı ya da aklanacağı bir yargılama başlatın. Hedef mahkum edilirse, özgürce hapsedilebilir, idam edilebilir veya cezasız olarak sürgün edilebilirler. Mahkumiyet şansı, suçlayanın ve suçlananın sosyal yeteneklerine bağlıdır.</Trial.description>
+  
+  <!-- EN: work drive -->
+  <WorkDrive.label>iş sürüşü</WorkDrive.label>
+  <!-- EN: Call on a person to work harder for some time. -->
+  <WorkDrive.description>Bir kişiyi bir süre daha çok çalışması için çağırın.</WorkDrive.description>
+  
+</LanguageData>

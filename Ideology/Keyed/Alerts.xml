@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Need slave beds -->
+  <NeedSlaveBeds>Köle yataklarına ihtiyaç var</NeedSlaveBeds>
+  <!-- EN: You have more slaves than you have slave beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a colonist or prisoner bed to a slave bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
+  <NeedSlaveBedsDesc>Köle yataklarınızdan daha fazla köleniz var. Birisinin uyuyacak yeri olmayacak.\n\nYa daha fazla yatak yapın ya da bir sömürgeci ya da mahkum yatağını köle yatağına değiştirin.\n\nKaynak yoksa, uyku noktaları ücretsizdir ve anında yerleştirilebilir.</NeedSlaveBedsDesc>
+
+  <!-- EN: Slave unsuppressed -->
+  <SlavesUnsuppressedLabel>köle bastırılmamış</SlavesUnsuppressedLabel>
+  <!-- EN: {0_nameDef}'s suppression level is dangerously low. There is a good chance {0_pronoun} will rebel.\n\nMake sure there is a colonist assigned to warden work. Wardens will suppress slaves periodically to stop them from rebelling. -->
+  <SlavesUnsuppressedDesc>{0_nameDef}'in bastırma seviyesi tehlikeli derecede düşük. İsyan etme ihtimali yüksek.\n\nMuhafızlık görevine atanmış bir sömürgeci olduğundan emin olun. Muhafızlar, isyan etmelerini önlemek için köleleri periyodik olarak bastırır.</SlavesUnsuppressedDesc>
+  <!-- EN: Slave unattended -->
+  <SlaveUnattendedLabel>gözetimsiz köle</SlaveUnattendedLabel>
+  <!-- EN: Slaves unattended -->
+  <SlaveUnattendedMultipleLabel>gözetimsiz köleler</SlaveUnattendedMultipleLabel>
+  <!-- EN: Some slaves are alone on a map with no able-bodied colonists around.\n\nSlaves left unattended like this are very likely to rebel within days or hours. -->
+  <SlavesUnattendedDesc>Bazı köleler, etrafta sağlıklı kolonistlerin olmadığı bir haritada yalnızdır.\n\nBu şekilde başıboş bırakılan kölelerin günler veya saatler içinde isyan etmesi çok muhtemeldir.</SlavesUnattendedDesc>
+
+  <!-- EN: {0} opportunity -->
+  <RitualOpportunity>{0} fırsat</RitualOpportunity>
+  <!-- EN: {0} opportunity for {1} -->
+  <RitualOpportunityFor>{0} için {1} fırsatı</RitualOpportunityFor>
+  <!-- EN: Expires in {0}, on {1}. -->
+  <RitualExpiresIn>{0} içinde, {1} tarihinde sona eriyor.</RitualExpiresIn>
+  <!-- EN: To begin the ritual, select a {FOCUS} and click the 'Begin {RITUAL_label}' command. -->
+  <RitualSingleTargetDesc>Ritüele başlamak için bir {FOCUS} seçin ve '{RITUAL_label} Başlat' komutunu tıklayın.</RitualSingleTargetDesc>
+  <!-- EN: To begin the ritual, select one of the following and click the 'Begin {RITUAL_label}' command -->
+  <RitualMultiTargetDesc>Ritüele başlamak için aşağıdakilerden birini seçin ve 'Başla {RITUAL_label}' komutunu tıklayın</RitualMultiTargetDesc>
+  <!-- EN: To begin the ritual, select a focus object and click the 'Begin {RITUAL_label}' command. The following are valid focus objects:\n{1} -->
+  <RitualTargetsExplanation>Ritüele başlamak için bir odak nesnesi seçin ve 'Başla {RITUAL_label}' komutunu tıklayın. Aşağıdakiler geçerli odak nesneleridir:\n{1}</RitualTargetsExplanation>
+  <!-- EN: Click to jump to targets -->
+  <RitualJumpToTargets>Hedeflere atlamak için tıklayın</RitualJumpToTargets>
+  <!-- EN: In order to perform {0} you need to fill these roles -->
+  <RitualUnfilledRoles>{0}'ı gerçekleştirmek için bu rolleri doldurmanız gerekir</RitualUnfilledRoles>
+
+  <!-- EN: {0} desired -->
+  <IdeoBuildingMissing>{0} istenen</IdeoBuildingMissing>
+  <!-- EN: {IDEO_name} requires that you have a {0} in your colony as long as {2} or higher.\n\n{0} is a variant of {BASEBUILDING_label}.{BUILDINGINFO}\n\nThis requirement is only active if {IDEO_name} is your faction's primary ideoligion, or there are {MINBELIEVERS} believers in your faction.{4}\n\nIf the requirement isn't met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingMissingDesc>{IDEO_name}, koloninizde {2} veya daha yüksek olduğu sürece bir {0} bulunmasını gerektirir.\n\n{0}, {BASEBUILDING_label}'in bir türevidir.{BUILDINGINFO}\n\nBu gereksinim yalnızca şu durumlarda etkindir: {IDEO_name}, ulusunuzun birincil ideolojisidir veya hizibinize {MINBELIEVERS} inanan var.{4}\n\nGereksinim karşılanmazsa, bu inananlar mutsuz olacak:\n{3}</IdeoBuildingMissingDesc>
+  <!-- EN:  You can find it by opening the '{TABNAME}' tab of the architect menu. -->
+  <IdeoBuildingArchitectTabDesc> Mimar menüsünün '{TABNAME}' sekmesini açarak bulabilirsiniz.</IdeoBuildingArchitectTabDesc>
+  <!-- EN:  It can be created at:\n{0}. -->
+  <IdeoBuildingCanBeCraftedAt>Şurada oluşturulabilir:\n{0}.</IdeoBuildingCanBeCraftedAt>
+  <!-- EN: In order to dignify {0}, these room requirements must be met -->
+  <IdeoBuildingRoomRequirementsDesc>{0} onurunu yaşatmak için bu oda gereksinimlerinin karşılanması gerekir</IdeoBuildingRoomRequirementsDesc>
+  <!-- EN: expectations are -->
+  <IdeoBuildingExpectations>beklentiler</IdeoBuildingExpectations>
+
+  <!-- EN: {0} disrespected -->
+  <IdeoBuildingDisrespected>{0} saygısızlığa uğradı</IdeoBuildingDisrespected>
+  <!-- EN: {0} requires that {1} be in a dignified room. These room requirements must be met:\n{2}\n\nIf the {1}'s room requirements are not met, these believers will become unhappy:\n{3} -->
+  <IdeoBuildingDisrespectedDesc>{0}, {1} öğesinin saygın bir odada olmasını gerektirir. Şu oda gereksinimleri karşılanmalıdır:\n{2}\n\n{1}'nin oda gereksinimleri karşılanmazsa, bu inananlar mutsuz olacaktır:\n{3}</IdeoBuildingDisrespectedDesc>
+  
+  <!-- EN: Raids arriving in {0} -->
+  <QuestPartRaidsDelay>{0} bölgesine gelen baskınlar</QuestPartRaidsDelay>
+  <!-- EN: Raids will start arriving in {0}.\n\nThe raiders will target the spacedrone and attempt to destroy it. Protect the spacedrone so your colonists can hack its computer and retrieve the data. -->
+  <QuestPartRaidsDelayDesc>Baskınlar {0} içinde gelmeye başlayacak.\n\nAkıncılar uzay aracını hedef alacak ve onu yok etmeye çalışacak. Kolonistlerinizin bilgisayarını hackleyebilmesi ve verileri alabilmesi için uzay aracını koruyun.</QuestPartRaidsDelayDesc>
+
+  <!-- EN: {0} role unfilled -->
+  <IdeoRoleEmpty>{0} rol doldurulmadı</IdeoRoleEmpty>
+  <!-- EN: {0} roles unfilled -->
+  <IdeoRolesEmpty>{0} roller doldurulmadı</IdeoRolesEmpty>
+  <!-- EN: These roles are not filled:\n{0}\n\nYou can assign someone a role on their Social tab. You can also select a ritual spot or an altar and click 'Begin role change'. \n\nIf these roles remain empty, the following people will be unhappy -->
+  <IdeoRolesEmptyDesc>Bu roller doldurulmaz:\n{0}\n\nBirine Sosyal sekmesinde bir rol atayabilirsiniz. Ayrıca bir ritüel noktası veya bir sunak seçebilir ve 'Rol değişikliğine başla' seçeneğine tıklayabilirsiniz. \n\nBu roller boş kalırsa aşağıdaki kişiler mutsuz olur</IdeoRolesEmptyDesc>
+
+  <!-- EN: Security threats activated in {0} -->
+  <AncientAltarThreatsWaking>{0} içinde güvenlik tehditleri etkinleştirildi</AncientAltarThreatsWaking>
+  <!-- EN: Security threats will activate in {0}. They will attack any who may threaten the relic. -->
+  <AncientAltarThreatsWakingDesc>Güvenlik tehditleri {0} içinde etkinleştirilecek. Kalıntıyı tehdit edebilecek herkese saldıracaklar.</AncientAltarThreatsWakingDesc>
+
+  <!-- EN: Ritual opportunity soon -->
+  <AlertRitualComing>Yakında ritüel fırsatı</AlertRitualComing>
+  <!-- EN: A ritual opportunity is coming soon for following rituals -->
+  <AlertRitualComingDesc>Ritüelleri takip etmek için yakında bir ritüel fırsatı geliyor</AlertRitualComingDesc>
+  <!-- EN: Opportunities expire after {0} days, and reoccur on the same day each year. -->
+  <AlertRitualComingExtra>Fırsatlar {0} gün sonra sona erer ve her yıl aynı gün tekrarlanır.</AlertRitualComingExtra>
+  <!-- EN: {0} on {1}, {2} before opportunity arises -->
+  <AlertRitualComingEntry>{1} üzerinde {0}, {2} sola</AlertRitualComingEntry>
+
+  <!-- EN: Age reversal demanded -->
+  <AlertAgeReversalDemandNear>Yaşın tersine çevrilmesi talep edildi</AlertAgeReversalDemandNear>
+  <!-- EN: Because of their beliefs, some of your colonists demand regular age reversal treatments in a biosculpter pod. If they don't get the treatments, they will be displeased.\n\nThe following people demand age reversal treatment -->
+  <AlertAgeReversalDemandDesc>İnançları nedeniyle, kolonicilerinizden bazıları bir biyo-heykel podunda düzenli yaş tersine çevirme tedavileri talep ediyor. Tedavileri almazlarsa, memnun olmayacaklar.\n\nAşağıdaki kişiler yaş düzeltme tedavisi talep ediyor</AlertAgeReversalDemandDesc>
+  <!-- EN: {PAWN} joined {FACTION} recently, and wants to begin age reversal treatments in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Recruit>{PAWN}, {FACTION}'a kısa süre önce katıldı ve {DURATION} içinde yaş değiştirme tedavilerine başlamak istiyor.</AlertAgeReversalDemandDesc_Recruit>
+  <!-- EN: {PAWN} wants their next treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Next>{PAWN}, {DURATION} içinde bir sonraki tedavisini istiyor.</AlertAgeReversalDemandDesc_Next>
+  <!-- EN: {PAWN} wants their first treatment in {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Initial>{PAWN}, {DURATION} içinde ilk tedavisini istiyor.</AlertAgeReversalDemandDesc_Initial>
+  <!-- EN: {PAWN}'s treatment is overdue by {DURATION}. -->
+  <AlertAgeReversalDemandDesc_Overdue>{PAWN}'nin tedavisi {DURATION} tarihine kadar gecikti.</AlertAgeReversalDemandDesc_Overdue>
+
+  <!-- EN: {PAWN_nameDef}'s belief in {IDEO_name} prevents {PAWN_objective} from eating the meat of {ANIMALS}. -->
+  <AlertRoyalTitleNoVeneratedAnimalMeat>{PAWN_nameDef}'in {IDEO_name}'ye olan inancı, onun {ANIMALS}'ın etini yemesini engelliyor.</AlertRoyalTitleNoVeneratedAnimalMeat>
+
+  <!-- EN: Dryad caste not set -->
+  <AlertGauranlenTreeWithoutDryadTypeLabel>orman perisi kastı belirlenmedi</AlertGauranlenTreeWithoutDryadTypeLabel>
+  <!-- EN: One or more Gauranlen trees do not have their dryad caste set.\n\nSelect the tree and click the '{0}' button to set produced dryad caste. -->
+  <AlertGauranlenTreeWithoutDryadTypeDesc>Bir veya daha fazla Gauranlen ağacının kendi orman kurusu kastı seti yok.\n\nAğacı seçin ve üretilen kuru ot kastını ayarlamak için '{0}' düğmesini tıklayın.</AlertGauranlenTreeWithoutDryadTypeDesc>
+  <!-- EN: Connector not assigned to plant cutting -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingLabel>Bağlayıcı tesis kesimine atanmamış</AlertConnectedPawnNotAssignedToPlantCuttingLabel>
+  <!-- EN: You have Gauranlen trees which are set to be pruned, but their connectors are not assigned to plant cutting.\n\nYou should assign plant cutting work to the following people -->
+  <AlertConnectedPawnNotAssignedToPlantCuttingDesc>Budanmaya ayarlanmış Gauranlen ağaçlarınız var, ancak bunların bağlayıcıları bitki kesimine atanmamış.\n\nAşağıdaki kişilere bitki kesme işini atamanız gerekir.</AlertConnectedPawnNotAssignedToPlantCuttingDesc>
+
+  <!-- EN: Fuel node explodes in {0} -->
+  <AlertFuelNodeIgniting>Yakıt düğümü {0} içinde patladı</AlertFuelNodeIgniting>
+  <!-- EN: A fuel node has ignited! It will melt down and explode very soon.\n\nGet away and be ready to fight or escape the fires. -->
+  <AlertFuelNodeIgnitingDesc>Bir yakıt düğümü ateşlendi! Çok yakında eriyecek ve patlayacak.\n\nUzaklaşın ve savaşmaya veya yangınlardan kaçmaya hazır olun.</AlertFuelNodeIgnitingDesc>
+
+  <!-- EN: Insects arriving in {0} -->
+  <AlertInfestationArriving>{0} bölgesine gelen böcekler</AlertInfestationArriving>
+  <!-- EN: Giant insects have sensed your activity and are burrowing up from underground to attack. Infestations are about to begin. -->
+  <AlertInfestationArrivingDesc>Dev böcekler faaliyetinizi algıladı ve saldırmak için yeraltından kazıyorlar. Enfestasyonlar başlamak üzere.</AlertInfestationArrivingDesc>
+
+  <!-- EN: {0_pawnsPlural} waking in {1} -->
+  <AlertHostilesWakingUp>{1} içinde uyanan {0_pawnsPlural}</AlertHostilesWakingUp>
+  <!-- EN: One or more {0_pawnsPlural} are waking up.\n\nThey will attack if they find you. -->
+  <AlertHostilesWakingUpDesc>Bir veya daha fazla {0_pawnsPlural} uyanıyor.\ve sizi bulurlarsa saldıracaklar.</AlertHostilesWakingUpDesc>
+
+  <!-- EN: Cryptosleep caskets opening in {0} -->
+  <AlertCasketOpening>{0} yılında kriptolu uyku kapsülleri açılıyor</AlertCasketOpening>
+  <!-- EN: Cryptosleep caskets containing unknown threats are opening soon. -->
+  <AlertCasketOpeningDesc>Bilinmeyen tehditler içeren kripto uyku kapsülleri yakında açılıyor.</AlertCasketOpeningDesc>
+
+  <!-- EN: Slave rebellion likely -->
+  <AlertSlaveRebellionLikely>muhtemel köle isyanı</AlertSlaveRebellionLikely>
+  <!-- EN: There are {REBELLIOUSCOUNT} slaves that are likely to initiate a rebellion. -->
+  <AlertSlaveRebellionLikelyRebelliousCount>İsyan başlatması muhtemel {REBELLIOUSCOUNT} köle var.</AlertSlaveRebellionLikelyRebelliousCount>
+  <!-- EN: A slave rebellion is expected to happen roughly once every {COMBINEDTIME}. Note that each slave's rebellion chance is independent, so if any one of them rebels they can take others with them.\n\n{REBEL_labelShort} is the most rebellious slave and is expected to initiate a rebellion roughly once every {INDIVIDUALTIME}. The following factors are affecting how often they will rebel: -->
+  <AlertSlaveRebellionLikelyMostRebellious>Bir köle isyanının kabaca her {COMBINEDTIME} kez gerçekleşmesi bekleniyor. Her kölenin isyan şansının bağımsız olduğuna dikkat edin, bu nedenle herhangi biri isyan ederse diğerlerini de yanlarında götürebilirler.\n\n{REBEL_labelShort} en asi köledir ve kabaca her {INDIVIDUALTIME} kez bir isyan başlatması beklenir. Aşağıdaki faktörler ne sıklıkla isyan edeceklerini etkiler:</AlertSlaveRebellionLikelyMostRebellious>
+  
+</LanguageData>

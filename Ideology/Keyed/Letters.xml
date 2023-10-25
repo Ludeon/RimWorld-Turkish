@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Convert ideo attempt -->
+  <!-- EN: Conversion -->
+  <LetterLabelConvertIdeoAttempt_Success>dönüştürme</LetterLabelConvertIdeoAttempt_Success>
+  <!-- EN: {INITIATOR_nameDef} has successfully turned {RECIPIENT_nameDef} away from {OLDIDEO_name} and towards {IDEO_name}. -->
+  <LetterConvertIdeoAttempt_Success>{INITIATOR_nameDef}, {RECIPIENT_nameDef}'i {OLDIDEO_name}'den {IDEO_name}'ye başarıyla çevirdi.</LetterConvertIdeoAttempt_Success>
+
+  <!-- Slave rebellion -->
+  <!-- EN: Grand slave rebellion -->
+  <LetterLabelGrandSlaveRebellion>Büyük köle isyanı</LetterLabelGrandSlaveRebellion>
+  <!-- EN: A grand slave rebellion has begun! All of your slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{0} -->
+  <LetterGrandSlaveRebellion>Büyük bir köle isyanı başladı! Bütün kölelerin sana karşı savaşmak için ayaklanıyor. Silah arayacaklar ve kolonistlerinizi ortadan kaldırmaya çalışacaklar.\n\nBu köleler işin içinde:\n\n{0}</LetterGrandSlaveRebellion>
+  <!-- EN: Local slave rebellion -->
+  <LetterLabelLocalSlaveRebellion>Yerel köle isyanı</LetterLabelLocalSlaveRebellion>
+  <!-- EN: A local slave rebellion has begun! {0_nameDef} and some nearby slaves are rising up to fight back against you. They will seek weapons and try to eliminate your colonists.\n\nThese slaves are involved:\n\n{1} -->
+  <LetterLocalSlaveRebellion>Yerel bir köle isyanı başladı! {0_nameDef} ve yakındaki bazı köleler size karşı savaşmak için ayaklanıyor. Silah arayacaklar ve sömürgecilerinizi ortadan kaldırmaya çalışacaklar.\n\nBu köleler işin içinde:\n\n{1}</LetterLocalSlaveRebellion> 
+  <!-- EN: Slave rebellion -->
+  <LetterLabelSingleSlaveRebellion>köle isyanı</LetterLabelSingleSlaveRebellion>
+  <!-- EN: {0_nameDef} is rebelling! {0_pronoun} will seek weapons and try to eliminate your colonists. -->
+  <LetterSingleSlaveRebellion>{0_nameDef} isyan ediyor! Silah arayacak ve kolonistlerinizi ortadan kaldırmaya çalışacak.</LetterSingleSlaveRebellion>
+
+  <!-- Slave escape -->
+  <!-- EN: Grand slave escape -->
+  <LetterLabelGrandSlaveEscape>Büyük köle kaçışı</LetterLabelGrandSlaveEscape>
+  <!-- EN: A grand slave escape has begun! All of your slaves are making a break for it.\n\nThese slaves are involved:\n\n{0} -->
+  <LetterGrandSlaveEscape>Büyük bir köle kaçışı başladı! Tüm köleleriniz bunun için bir mola veriyor.\n\nBu köleler işin içinde:\n\n{0}</LetterGrandSlaveEscape>
+  <!-- EN: Local slave escape -->
+  <LetterLabelLocalSlaveEscape>Yerel köle kaçışı</LetterLabelLocalSlaveEscape>
+  <!-- EN: A local slave escape has begun! {0_nameDef} and some nearby slaves are making a break for it.\n\nThese slaves are involved:\n\n{1} -->
+  <LetterLocalSlaveEscape>Yerel bir köle kaçışı başladı! {0_nameDef} ve yakındaki bazı köleler bunun için bir mola veriyor.\n\nBu köleler işin içinde:\n\n{1}</LetterLocalSlaveEscape>
+  <!-- EN: Slave escape -->
+  <LetterLabelSingleSlaveEscape>köle kaçışı</LetterLabelSingleSlaveEscape>
+  <!-- EN: {0_nameDef} is attempting to escape! -->
+  <LetterSingleSlaveEscape>{0_nameDef} kaçmaya çalışıyor!</LetterSingleSlaveEscape>
+
+  <!-- EN: Slaves are more likely to rebel when their suppression level is low. -->
+  <SlaveRebellionSuppressionExplanation>Kölelerin, bastırma seviyeleri düşük olduğunda isyan etme olasılıkları daha yüksektir.</SlaveRebellionSuppressionExplanation>
+  
+  <!-- Ideo role -->
+  <!-- EN: {0} role activated -->
+  <LetterLabelRoleActive>{0} rolü etkinleştirildi</LetterLabelRoleActive>
+  <!-- EN: The number of {0}s in your colony has reached {1}. You can now assign the role of {ROLE_labelDef} to one of your colonists.\n\nTo assign a role, use the person's Social tab, or select a ritual spot or altar and press the 'Begin role change' button. -->
+  <LetterLabelRoleActiveDesc>Koloninizdeki {0} sayısı {1}'ye ulaştı. Artık kolonistlerinizden birine {ROLE_labelDef} rolünü atayabilirsiniz.\n\nBir rol atamak için bir kolonist seçin, onların 'Sosyal' sekmesine gidin ve 'Rol seç' düğmesine basın.</LetterLabelRoleActiveDesc>
+
+  <!-- EN: {0} role deactivated -->
+  <LetterLabelRoleInactive>{0} rolü devre dışı bırakıldı</LetterLabelRoleInactive>
+  <!-- EN: Number of {0}s in your colony fell to {1}. {ROLE_labelDef} role is no longer active. This role will become available once again when the number of {0}s reaches {2}. -->
+  <LetterLabelRoleInactiveDesc>Koloninizdeki {0} sayısı {1}'ye düştü. {ROLE_labelDef} rolü artık etkin değil. Bu rol, {0}'ün sayısı {2}'ye ulaştığında tekrar kullanılabilir hale gelecektir.</LetterLabelRoleInactiveDesc>
+
+  <!-- EN: {PAWN_labelShort}'s {ROLE_labelIndef} role lost -->
+  <LetterLabelRoleLost>{PAWN_labelShort}'un {ROLE_labelIndef} rolü kayboldu</LetterLabelRoleLost>
+  <!-- EN: {PAWN_labelShort} no longer holds the role of {ROLE_labelIndef}. Reason: -->
+  <LetterRoleLostDesc>{PAWN_labelShort} artık {ROLE_labelIndef} rolünü üstlenmiyor. Sebep:</LetterRoleLostDesc>
+  <!-- EN: {PAWN_pronoun} was unassigned. -->
+  <LetterRoleLostReasonUnassignedDesc>{PAWN_pronoun} ataması kaldırıldı.</LetterRoleLostReasonUnassignedDesc>
+  <!-- EN: Role became inactive due to low {0} count. -->
+  <LetterRoleLostReasonLowBelieversDesc>Düşük {0} sayısı nedeniyle rol devre dışı bırakıldı.</LetterRoleLostReasonLowBelieversDesc>
+  <!-- EN: {PAWN_labelShort} has lost {PAWN_possessive} position as {ROLE_labelDef} because {PAWN_pronoun} abandoned the {OLDIDEO_name}. -->
+  <LetterRoleLostLetterIdeoChangedPostfix>{PAWN_labelShort}, {OLDIDEO_name}'den ayrıldığı için {ROLE_labelDef} konumunu kaybetti.</LetterRoleLostLetterIdeoChangedPostfix>
+  <!-- EN: {0} skipped. -->
+  <LetterObligationRoleInactive>{0} atlandı.</LetterObligationRoleInactive>
+  <!-- EN: {0} is the date of the {1}, but since {ROLE_labelDef} role is inactive, the {2}s will skip the {1}. -->
+  <LetterObligationRoleInactiveDateDesc>{0}, {1}'nin tarihidir, ancak {ROLE_labelDef} rolü etkin olmadığından, {2}'ler {1}'yi atlayacaktır.</LetterObligationRoleInactiveDateDesc>
+  
+  <!-- Ideo misc -->
+  <!-- EN: {PAWN_pronoun}'s speech converted following people to {IDEO} -->
+  <LetterSpeechConvertedListeners>{PAWN_pronoun} adlı kişinin konuşması, izleyen kişileri {IDEO}'ya dönüştürdü</LetterSpeechConvertedListeners>
+
+  <!-- EN: {0} rituals activated -->
+  <LetterTitleObligationsActivated>{0} ritüel etkinleştirildi</LetterTitleObligationsActivated>
+  <!-- EN: {0} rituals deactivated -->
+  <LetterTitleObligationsDeactivated>{0} ritüel devre dışı bırakıldı</LetterTitleObligationsDeactivated>
+  <!-- EN: There are now less than {1} {IDEO_memberNamePlural} in your faction. Therefore, the {IDEO_memberNamePlural} will not demand that the rituals of {IDEO} be carried out until there are at least {1} of them in your faction. -->
+  <LetterTitleObligationsDeactivatedTooFewBelievers>Artık ulusunuzda {1}'den az {IDEO_memberNamePlural} var. Bu nedenle, {IDEO_memberNamePlural}, ulusunuzda en az {1} tane bulunana kadar {IDEO} ritüellerinin yapılmasını talep etmeyecektir.</LetterTitleObligationsDeactivatedTooFewBelievers>
+  <!-- EN: Since there are now {1} {IDEO_memberNamePlural} in your faction, they will demand that the rituals of {IDEO} be carried out. -->
+  <LetterTitleObligationsActivatedEnoughBelievers>Artık ulusunuzda {1} {IDEO_memberNamePlural} olduğundan, {IDEO} ayinlerinin yapılmasını talep edecekler.</LetterTitleObligationsActivatedEnoughBelievers>
+  <!-- EN: Since {IDEO} is now the primary ideoligion of your faction, {IDEO_memberNamePlural} will demand that the rituals of {IDEO} be carried out. -->
+  <LetterTitleObligationsActivatedIdeoBecameMajor>{IDEO} artık fraksiyonunuzun birincil ideolojisi olduğundan, {IDEO_memberNamePlural}, {IDEO} ayinlerinin yapılmasını talep edecektir.</LetterTitleObligationsActivatedIdeoBecameMajor>
+
+  <!-- EN: Bond(s) removed -->
+  <LetterBondRemoved>Tahvil kaldırıldı</LetterBondRemoved>
+  <!-- EN: {PAWN_nameDef} has converted to {IDEO}. Since {IDEO} disapproves of bonding with animals, {PAWN_pronoun} has renounced {PAWN_possessive} bonds with the following animals:\n\n{BONDS} -->
+  <LetterBondRemovedDesc>{PAWN_nameDef}, {IDEO}'ya dönüştü. {IDEO} hayvanlarla bağ kurmayı onaylamadığından, {PAWN_pronoun} şu hayvanlarla {PAWN_possessive} bağlarından vazgeçmiştir:\n\n{BONDS}</LetterBondRemovedDesc>
+
+  <!-- Slave will -->
+  <!-- EN: Enslaved -->
+  <LetterLabelEnslavementSuccess>köleleştirme</LetterLabelEnslavementSuccess>
+  <!-- EN: {0_nameDef} successfully enslaved {1_nameDef}. -->
+  <LetterEnslavementSuccess>{0_nameDef}, {1_nameDef}'i başarıyla köleleştirdi.</LetterEnslavementSuccess>
+
+  <!-- Primary ideo changed -->
+  <!-- EN: Primary ideoligion changed -->
+  <LetterLabelNewPrimaryIdeo>Birincil ideoloji değişti</LetterLabelNewPrimaryIdeo>
+  <!-- EN: Your faction's primary ideoligion has changed from {OLDIDEO_name} to {NEWIDEO_name}.\n\nThis happened because {NEWIDEO_name} is now more common among your {FACTION_pawnsPlural} than any other ideoligion.\n\nYour primary ideoligion affects relationships with other factions, based on how closely your beliefs align with theirs. -->
+  <LetterNewPrimaryIdeo>Ulusunuzun birincil ideolojisi {OLDIDEO_name} iken {NEWIDEO_name} olarak değiştirildi.\n\nBunun nedeni {NEWIDEO_name}'nin {FACTION_pawnsPlural} arasında diğer tüm ideolojilerden daha yaygın olması.\n\nBirincil ideolojiniz diğer gruplarla olan ilişkileri etkiliyor, inançlarınızın onlarınkiyle ne kadar uyumlu olduğuna bağlı.</LetterNewPrimaryIdeo>
+
+  <!-- Charity incidents -->
+  <!-- EN: This is a charity incident. If you turn {0} away, believers with charitable beliefs will be unhappy. -->
+  <JoinerCharityInfo>Bu bir hayır işidir. {0}'i geri çevirirseniz, hayırsever inançlara sahip inananlar mutsuz olacaktır.</JoinerCharityInfo>
+  <!-- EN: This is a charity incident. If {0} dies without being tended (and after {1}), believers with charitable beliefs will be unhappy. If {0} is tended or recruited, believers will be happy. -->
+  <AfflictedJoinerChartityInfo>Bu bir hayır işidir. {0} bakılmadan ölürse (ve {1}'den sonra), hayırsever inançlara sahip inananlar mutsuz olacaktır. {0} yönlendirilirse veya işe alınırsa, inananlar mutlu olacaktır.</AfflictedJoinerChartityInfo>
+  <!-- EN: The following believers have charitable beliefs -->
+  <PawnsHaveCharitableBeliefs>Aşağıdaki inananlar hayırsever inançlara sahiptir</PawnsHaveCharitableBeliefs>
+
+  <!-- Change ideo mental state -->
+  <!-- EN: {PAWN_pronoun} decided that {PAWN_possessive} belief in {OLDIDEO_name} no longer made any sense.\n\n{PAWN_pronoun} now believes in {NEWIDEO_name}. -->
+  <LetterIdeoChangeConverted>{PAWN_pronoun}, {OLDIDEO_name}'ye olan inancının artık bir anlam ifade etmediğine karar verdi.\n\n{PAWN_pronoun} artık {NEWIDEO_name}'ye inanıyor.</LetterIdeoChangeConverted>
+  <!-- EN: {PAWN_nameDef}'s certainty with {PAWN_possessive} belief in {OLDIDEO_name} has been reduced to {NEWCERTAINTY}. -->
+  <LetterIdeoChangeNotConverted>{PAWN_nameDef}'in {OLDIDEO_name}'ye olan inancıyla kesinliği {NEWCERTAINTY}'a düşürüldü.</LetterIdeoChangeNotConverted>
+  <!-- EN: To come to terms with {PAWN_possessive} beliefs, {PAWN_nameDef} is now hiding in {PAWN_possessive} room. -->
+  <LetterIdeoChangedWanderOwnRoom>{PAWN_nameDef}, inançlarıyla uzlaşmak için şimdi odasında saklanıyor.</LetterIdeoChangedWanderOwnRoom>
+  <!-- EN: {PAWN_nameDef} is now wandering in shock while grappling with {PAWN_possessive} beliefs. -->
+  <LetterIdeoChangedSadWander>{PAWN_nameDef} şimdi inançlarıyla boğuşurken şok içinde dolaşıyor.</LetterIdeoChangedSadWander>
+
+  <!-- Change ideo divorces -->
+  <!-- EN: Divorce -->
+  <LetterIdeoChangedDivorce>Boşanma</LetterIdeoChangedDivorce>
+  <!-- EN: {PAWN_nameDef}'s new beliefs forbid {PAWN_possessive} current number of spouses.\n\n{PAWN_nameDef} has decided to divorce these people:\n{1} -->
+  <LetterIdeoChangedDivorcedPawns>{PAWN_nameDef}'in yeni inançları şu anki eş sayısını yasaklıyor.\n\n{PAWN_nameDef} şu insanlardan boşanmaya karar verdi:\n{1}</LetterIdeoChangedDivorcedPawns>
+
+  <!-- Surprise reinforcement -->
+  <!-- EN: Surprise reinforcements! -->
+  <LetterLabelSurpriseReinforcements>Sürpriz takviyeler!</LetterLabelSurpriseReinforcements>
+  <!-- EN: Surprise reinforcements from {1} have arrived! They are moving to help {0} from {1}. -->
+  <LetterSurpriseReinforcements>{1}'den sürpriz takviyeler geldi! {1}'den {0}'e yardım etmek için hareket ediyorlar.</LetterSurpriseReinforcements>
+
+  <!-- Style change -->
+  <!-- EN: Look change desired -->
+  <LetterWantLookChange>İstenen değişikliği görün</LetterWantLookChange>
+  <!-- EN: {PAWN_nameDef} wishes to change {PAWN_possessive} look, as it no longer matches what {PAWN_pronoun} believes.\n\n{PAWN_pronoun} will automatically use an available styling station and choose a look. If you want to customize {PAWN_possessive} look, select {PAWN_objective} and right-click the styling station. -->
+  <LetterWantLookChangeDesc>{PAWN_nameDef}, artık inandığı ile eşleşmediği için görünüşünü değiştirmek istiyor.\n\nOtomatik olarak mevcut bir stil istasyonunu kullanacak ve bir görünüm seçecek. Görünümünü özelleştirmek istiyorsanız, onu seçin ve stil istasyonuna sağ tıklayın.</LetterWantLookChangeDesc>
+
+  <!-- Spacedrone incoming -->
+  <!-- EN: Spacedrone incoming -->
+  <LetterLabelSpacedroneIncoming>uzay dronu geliyor</LetterLabelSpacedroneIncoming>
+  <!-- EN: A spacedrone is landing nearby. -->
+  <LetterTextSpacedroneIncoming>Yakınlarda bir uzay dronu iniyor.</LetterTextSpacedroneIncoming>
+  <!-- EN: A raid from {0} has arrived to destroy the {1} that was forced to land nearby. -->
+  <LetterTextRaidSpacedrone>Yakınına inmek zorunda kalan {1}'i yok etmek için {0} tarafından bir baskın geldi.</LetterTextRaidSpacedrone>
+
+  <!-- Hacked -->
+  <!-- EN: You've finished hacking the {0} and learned more about the ancient {1} relic. -->
+  <LetterTextSpacedroneHacked>{0}'i hacklemeyi bitirdiniz ve eski {1} kalıntısı hakkında daha fazla şey öğrendiniz.</LetterTextSpacedroneHacked>
+
+  <!-- Relic destroyed -->
+  <!-- EN: Relic destroyed -->
+  <LetterLabelRelicDestroyed>kalıntı yok edildi</LetterLabelRelicDestroyed>
+  <!-- EN: {0} has been destroyed!\n\nThe following people will suffer a mood reduction:\n{1} -->
+  <LetterTextRelicDestroyed>{0} yok edildi!\in\Şu kişilerde ruh hali düşüşü yaşanacak:\n{1}</LetterTextRelicDestroyed>
+  
+  <!-- Relic lost -->
+  <!-- EN: Relic lost -->
+  <LetterLabelRelicLost>kalıntı kayıp</LetterLabelRelicLost>
+  <!-- EN: {0} has been lost!\n\nThe following people will suffer a mood reduction:\n{1} -->
+  <LetterTextRelicLost>{0} kayboldu!\in\Şu kişilerde ruh hali düşüşü yaşanacak:\n{1}</LetterTextRelicLost>
+
+  <!-- Caravan destroyed -->
+  <!-- EN: All non-slave members of {0} have died. The remaining slaves have walked away. The caravan has disabanded. -->
+  <LetterOnlySlaveCaravanColonistsLeft>{0} öğesinin bağımlı olmayan tüm üyeleri öldü. Kalan köleler uzaklaştı. Kervan dağıldı.</LetterOnlySlaveCaravanColonistsLeft>
+
+  <!-- Hacker lost -->
+  <!-- EN: Last hacker lost -->
+  <LetterLabelLastHackerLost>Son hacker kayboldu</LetterLabelLastHackerLost>
+  <!-- EN: The last hacker capable of unlocking the secrets of the ancient complex has been lost. Call reinforcements capable of hacking, or abandon the quest. -->
+  <LetterTextLastHackerLost>Antik kompleksin sırlarını çözebilecek son bilgisayar korsanı kayboldu. Hackleme yeteneğine sahip destek kuvvetlerini çağırın veya görevi terk edin.</LetterTextLastHackerLost>
+
+  <!-- Relic hunt -->
+  <!-- EN: Relic found -->
+  <LetterLabelRelicFound>kalıntı bulundu</LetterLabelRelicFound>
+  <!-- EN: You've finally learned the location of the relic {0}! -->
+  <LetterTextRelicFoundLocation>Sonunda {0} kalıntısının yerini öğrendiniz!</LetterTextRelicFoundLocation>
+  <!-- EN: The relic is housed in an ancient structure. It is protected by a security system with multiple independent units. You may choose to defeat the security forces one unit at a time before taking the relic, or try to grab it and flee before they can harm you.\n\nAfter {0}, all security systems will be alerted. -->
+  <LetterTextRelicFoundSecurityThreats>Kalıntı eski bir yapıda yer almaktadır. Birden fazla bağımsız birimi olan bir güvenlik sistemi ile korunmaktadır. Kalıntıyı almadan önce güvenlik güçlerini birer birer yenmeyi veya onu ele geçirmeyi ve onlar size zarar vermeden kaçmayı seçebilirsiniz.\n\n{0} tarihinden sonra tüm güvenlik sistemleri uyarılacaktır.</LetterTextRelicFoundSecurityThreats>
+
+  <!-- Relics collection -->
+  <!-- EN: Relics collected -->
+  <LetterLabelRelicsCollected>Toplanan kalıntılar</LetterLabelRelicsCollected>
+  <!-- EN: All relics belonging to {0} have been collected. The following people will be delighted -->
+  <LetterTextRelicsCollected>{0}'e ait tüm kalıntılar toplandı. Aşağıdaki insanlar memnun olacak</LetterTextRelicsCollected>
+  <!-- EN: You have collected all the known relics of this world. The following people will be delighted -->
+  <LetterTextRelicsCollectedClassic>Bu dünyanın bilinen tüm kalıntılarını topladınız. Aşağıdaki insanlar memnun olacak</LetterTextRelicsCollectedClassic>
+
+  <!-- Gauranlen tree connection -->
+  <!-- EN: {TREE_label} connection -->
+  <LetterLabelPawnConnected>{TREE_label} bağlantısı</LetterLabelPawnConnected>
+  <!-- EN: {CONNECTOR_nameDef} has connected with {TREE_definite}.\n\n{TREE_definite} will produce small animals called dryads by growing them in pods at its base. These dryads can specialize into different castes. You can choose which caste of dryads you want the tree to produce.\n\nThe stronger the connection between tree and human, the more dryads {TREE_definite} can sustain. {CONNECTOR_nameDef} can strengthen the connection by pruning {TREE_definite}. Maintaining a higher connection strength requires more frequent pruning. -->
+  <LetterTextPawnConnected>{CONNECTOR_nameDef}, {TREE_definite} ile bağlantı kurdu.\n\n{TREE_definite}, tabanında baklalar halinde yetiştirerek dryad adı verilen küçük hayvanlar üretecek. Bu orman kuruları farklı kastlarda uzmanlaşabilir. Ağacın hangi orman kurusu kastını üretmesini istediğinizi seçebilirsiniz.\n\nAğaç ile insan arasındaki bağlantı ne kadar güçlüyse, {TREE_definite} orman kurusu o kadar fazla dayanabilir. {CONNECTOR_nameDef}, {TREE_definite} öğesini budayarak bağlantıyı güçlendirebilir. Daha yüksek bir bağlantı gücünün korunması daha sık budama gerektirir.</LetterTextPawnConnected>
+  <!-- EN: Connected {TREE_label} destroyed -->
+  <LetterLabelConnectedTreeDestroyed>Bağlı {TREE_label} yok edildi</LetterLabelConnectedTreeDestroyed>
+  <!-- EN: A {TREE_label} connected to {CONNECTEDPAWN_nameDef} has been destroyed, killing the dryad queen housed inside.\n\nWithout a queen, the dryad brood-mind has collapsed. All dryads from that tree have died. -->
+  <LetterTextConnectedTreeDestroyed>{CONNECTEDPAWN_nameDef} ile bağlantılı bir {TREE_label} yok edildi ve içeride bulunan orman perisi öldü.\n\nBir kraliçe olmadan, orman perisi damızlık çöktü. O ağaçtaki tüm kuraklıklar öldü.</LetterTextConnectedTreeDestroyed>
+
+  <!-- Archonexus victory -->
+  <!-- EN: Quest '{0}' available -->
+  <LetterLabelArchonexusWealthReached>'{0}' görevi mevcut</LetterLabelArchonexusWealthReached>
+  <!-- EN: You have reached the wealth requirement for the quest '{0}'. You can now accept the quest. -->
+  <LetterTextArchonexusWealthReached>'{0}' görevi için servet gereksinimine ulaştınız. Artık görevi kabul edebilirsiniz.</LetterTextArchonexusWealthReached>
+  <!-- EN: {0_labelShort} studied -->
+  <LetterLabelArchonexusStructureResearched>{0_labelShort} çalıştı</LetterLabelArchonexusStructureResearched>
+  <!-- EN: You have completed your study of the {0_labelShort}.\n\nYou can't say that you understand it in any complete way, but you have detected patterns in its behavior and the way it seems to express information.\n\nWith this knowledge, you will be able to interpret the next piece of the archonexus map. -->
+  <LetterTextArchonexusStructureResearched>{0_labelShort} çalışmanızı tamamladınız.\n\nBunu tam olarak anladığınızı söyleyemezsiniz, ancak davranışında ve bilgileri ifade etme biçimindeki kalıpları tespit ettiniz.\n\nBununla bilgi, archonexus haritasının bir sonraki parçasını yorumlayabileceksiniz.</LetterTextArchonexusStructureResearched>
+  <!-- EN: Archotech structures abandoned -->
+  <LetterLabelArchotechStructuresAbandoned>Arkoteknik yapılar terk edildi</LetterLabelArchotechStructuresAbandoned>
+  <!-- EN: You have abandoned the archotech structures at {0_definite}.\n\nDistant observers say they saw a great flash emanating from this location not long after you left. -->
+  <LetterTextArchotechStructuresAbandoned>{0_definite}'deki arkoteknik yapıları terk ettiniz.\n\nUzaktaki gözlemciler, siz ayrıldıktan kısa bir süre sonra bu konumdan büyük bir parıltının çıktığını gördüklerini söylüyorlar.</LetterTextArchotechStructuresAbandoned>
+
+  <!-- Reforming ideo -->
+  <!-- EN: Reform ideoligion -->
+  <LetterLabelReformIdeo>reform ideoloji</LetterLabelReformIdeo>
+  <!-- EN: You have enough development points to reform {0}!\n\nReforming allows you to do one of the following:\n\n- Add a meme\n- Remove a meme\n- Change structure\n- Change style\n\nYou can also make unlimited changes to precepts, deities, narrative text, and other symbols.\n\nTo reform the ideoligion, open it in the ideoligions tab. -->
+  <LetterTextReformIdeo>{0}'i yeniden biçimlendirmek için yeterli geliştirme noktanız var!\n\nDüzeltme, aşağıdakilerden birini yapmanıza olanak tanır:\n\n- Bir meme ekleyin\n- Bir meme kaldırın\n- Yapıyı değiştirin\n- Stili değiştirin\n \nAyrıca ilkelerde, tanrılarda, anlatı metninde ve diğer sembollerde sınırsız değişiklik yapabilirsiniz.\n\nİdeoligi reforme etmek için onu ideolojiler sekmesinde açın.</LetterTextReformIdeo>
+
+</LanguageData>
