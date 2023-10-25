@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] needs extra hands to help [dutyDescription].\n\n[asker_pronoun] is asking you to lend [asker_objective] [colonistCountToLend] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>disease->flu</li>
+    <li>disease->plague</li>
+    <li>disease->malaria</li>
+    <li>disease->infection</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] needs people to help [dutyRoyalDescription].\n\n[asker_pronoun] is asking you to lend [colonistCountToLend] to serve [asker_objective] for [lendForDays] days.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->1 colonist[minAgeOrOlder]</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] colonists[minAgeOrOlder]</li>
+    <li>willSendShuttle->[asker_pronoun] will send a shuttle to pick up the [colonists].</li>
+    <li>colonists(colonistsToLendCount==1)->colonist</li>
+    <li>colonists(colonistsToLendCount>1)->colonists</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] years old or older</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+    <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
+  -->
+  <PawnLend.questDescriptionRules.rulesStrings>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_leaderTitle] [asker_faction_name] grubunun [asker_nameFull]'unun [dutyDescription] için fazladan ellere ihtiyacı var.\n\n. Sizden [lendForDays] gün boyunca ona [colonistCountToLend] ödünç vermenizi istiyor.\n\n[willSendShuttle]</li>
+    <li>disease->grip</li>
+    <li>disease->veba</li>
+    <li>disease->sıtma</li>
+    <li>disease->enfeksiyon</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun [asker_royalTitleInCurrentFaction] olan [asker_nameFull]'nin [dutyRoyalDescription] için insanlara ihtiyacı var.\n\n. Sizden kendisine [lendForDays] gün boyunca hizmet etmesi için [colonistCountToLend]  ödünç vermenizi istiyor.\n\n[willSendShuttle]</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->[minAgeOrOlder] 1 kolonist</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[minAgeOrOlder] [colonistsToLendCount] kolonistler</li>
+    <li>willSendShuttle->[colonists]'i alması için bir mekik gönderecek.</li>
+    <li>colonists(colonistsToLendCount==1)->kolonist</li>
+    <li>colonists(colonistsToLendCount>1)->kolonistler</li>
+    <li>minAgeOrOlder(minAge==0)-></li>
+    <li>minAgeOrOlder(minAge>0)-> [minAge] yaşında veya daha büyük</li>
+  </PawnLend.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[worker] Outsourcing</li>
+    <li>questName->Contract [worker]s</li>
+    <li>questName->Temporary Workers</li>
+    <li>questName->[worker] Lending</li>
+    <li>questName->[worker]s for [asker_faction_name]</li>
+    <li>questName->Provisional [worker]s</li>
+    <li>questName->Requesting [worker]s</li>
+    <li>worker->Colonist</li>
+    <li>worker->Worker</li>
+    <li>worker->Laborer</li>
+    <li>worker->Helper</li>
+  -->
+  <PawnLend.questNameRules.rulesStrings>
+    <li>questName->[worker] Dış kaynak kullanımı</li>
+    <li>questName->Sözleşmeli [worker]</li>
+    <li>questName->Geçici işçiler</li>
+    <li>questName->[worker] ödünç verme</li>
+    <li>questName->[asker_faction_name] için [worker]</li>
+    <li>questName->duruma bağlı [worker]</li>
+    <li>questName->[worker] talebi</li>
+    <li>worker->Kolonist</li>
+    <li>worker->İşçi</li>
+    <li>worker->amele</li>
+    <li>worker->yardımcı</li>
+  </PawnLend.questNameRules.rulesStrings>
+  <!-- EN: <rulesStrings><li>dutyDescription->gather the harvest</li><li>dutyDescription->fortify a settlement</li><li>dutyDescription->set up a settlement</li><li>dutyDescription->watch for raiders</li><li>dutyDescription->set up a hospital</li><li>dutyDescription->contain an outbreak of [disease]</li></rulesStrings> -->
+  <PawnLend.DutyRulesAny.slateRef>
+    <rulesStrings>
+      <li>dutyDescription->hasadı toplamasına</li>
+      <li>dutyDescription->bir yerleşimi güçlendirmesine</li>
+      <li>dutyDescription->bir yerleşim yeri inşa etmesine</li>
+      <li>dutyDescription->akıncılara göz kulak olmasına</li>
+      <li>dutyDescription->revir kurmasına</li>
+      <li>dutyDescription->[disease] salgınına</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesAny.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_nameFull] of [asker_faction_name] to [dutyDescription]. -->
+  <PawnLend.LetterTextReturnAfterHelping.slateRef>{PAWNS}, [asker_faction_name] üyesi [asker_nameFull]'un [dutyDescription] yardım etmesine yardımcı olduktan sonra geri döndü.</PawnLend.LetterTextReturnAfterHelping.slateRef>
+  <!-- EN: <rulesStrings><li>dutyRoyalDescription->prepare a ceremony</li><li>dutyRoyalDescription->negotiate with a tribe</li><li>dutyRoyalDescription->explore a swamp</li><li>dutyRoyalDescription->translate a book</li><li>dutyRoyalDescription->set up a training ground</li><li>dutyRoyalDescription->harvest crops</li></rulesStrings> -->
+  <PawnLend.DutyRulesRoyal.slateRef>
+    <rulesStrings>
+      <li>dutyRoyalDescription->tören hazırlamasına</li>
+      <li>dutyRoyalDescription->bir kabile ile müzakere etmesine</li>
+      <li>dutyRoyalDescription->bataklığı keşfetmesine</li>
+      <li>dutyRoyalDescription->kitap çevirmesine</li>
+      <li>dutyRoyalDescription->bir eğitim alanı kurmasına</li>
+      <li>dutyRoyalDescription->mahsulleri hasat etmesine</li>
+    </rulesStrings>
+  </PawnLend.DutyRulesRoyal.slateRef>
+  <!-- EN: {PAWNS} [pawnListHaveConjugation] returned after helping [asker_royalTitleInCurrentFaction] [asker_nameFull] of [asker_faction_name] to [dutyRoyalDescription]. -->
+  <PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>{PAWNS}, [asker_faction_name] üyesi [asker_royalTitleInCurrentFaction] [asker_nameFull]'un [dutyRoyalDescription] yardımcı olduktan sonra geri döndü.</PawnLend.LetterTextReturnAfterRoyalCourt.slateRef>
+  <!-- EN: Shuttle arrived -->
+  <PawnLend.LetterLabelShuttleArrived.slateRef>mekik geldi</PawnLend.LetterLabelShuttleArrived.slateRef>
+  <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
+  <PawnLend.LetterTextShuttleArrived.slateRef>Mekik, kolonistlerinizden [colonistsToLendCount] almak için geldi.</PawnLend.LetterTextShuttleArrived.slateRef>
+  <!-- EN: Shuttle destroyed -->
+  <PawnLend.LetterLabelShuttleDestroyed.slateRef>Mekik imha edildi</PawnLend.LetterLabelShuttleDestroyed.slateRef>
+  <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>Kolonistlerinizi alması gereken mekik imha edildi.</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <!-- EN: Colonists returned -->
+  <PawnLend.LetterLabelColonistsReturned.slateRef>kolonistler geri döndü</PawnLend.LetterLabelColonistsReturned.slateRef>
+  <!-- EN: $returnLetterText -->
+  <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>$returnLetterText</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

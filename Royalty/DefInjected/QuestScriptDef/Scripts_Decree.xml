@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must build a monument. It is [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nYou must keep the monument safe for [keepMonumentTicks_duration] after completion, otherwise [asker_nameDef] will be unhappy.</li>
+  -->
+  <Decree_BuildMonument.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nBir anıt inşa etmelisin. Boyut olarak [monumentSize] ve şu kaynakları gerektirecek (toplam değer [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\n[decreeThreatInfo]\n\nTamamlandıktan sonra anıtı [keepMonumentTicks_duration] için güvende tutmalısınız, aksi halde [asker_nameDef] mutsuz olacaktır.</li>
+  </Decree_BuildMonument.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->monument decree</li>
+  -->
+  <Decree_BuildMonument.questNameRules.rulesStrings>
+    <li>questName->anıt kararnamesi</li>
+  </Decree_BuildMonument.questNameRules.rulesStrings>
+  <!-- EN: New monument marker arrived -->
+  <Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>Yeni anıt işaretleyici geldi</Decree_BuildMonument.LetterLabelNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Since the monument marker has been destroyed, a new one has been sent. -->
+  <Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>Anıt işaretleyici yıkıldığı için yenisi gönderildi.</Decree_BuildMonument.LetterTextNewMonumentMarkerArrived.slateRef>
+  <!-- EN: Monument completed -->
+  <Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>Anıt tamamlandı</Decree_BuildMonument.LetterLabelMonumentCompleted.slateRef>
+  <!-- EN: You have completed construction of the monument.\n\nYou must keep it safe for [keepMonumentTicks_duration], otherwise [asker_nameDef] will be displeased. -->
+  <Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>Anıtın yapımını tamamladınız.\n\nOnu [keepMonumentTicks_duration] için güvende tutmalısınız, aksi takdirde [asker_nameDef] hoşnutsuz olacaktır.</Decree_BuildMonument.LetterTextMonumentCompleted.slateRef>
+  <!-- EN: Monument destroyed -->
+  <Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>anıt yıkıldı</Decree_BuildMonument.LetterLabelMonumentDestroyed.slateRef>
+  <!-- EN: [asker_nameDef] is offended that you allowed the monument to be ruined so soon after completion.\n\n[asker_pronoun] will be unhappy about this. -->
+  <Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>[asker_nameDef], tamamlanmasından hemen sonra anıtın yıkılmasına izin verdiğiniz için gücendi.\n\nBundan dolayı mutsuz olacak.</Decree_BuildMonument.LetterTextMonumentDestroyed.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>{0} sürece için anıtı yok etmeyin</Decree_BuildMonument.DontDestroyMonumentForDays.slateRef>
+  <!-- EN: Do not destroy the monument for {0} -->
+  <Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>{0} sürece için anıtı yok etmeyin</Decree_BuildMonument.DontDestroyMonumentForDaysTip.slateRef>
+  <!-- EN: Keep monument {0} -->
+  <Decree_BuildMonument.KeepMonument.slateRef>{0} sürece koruyun</Decree_BuildMonument.KeepMonument.slateRef>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must harvest [plantToHarvest_label] x[harvestItemCount].\n\nYou may need to plant and grow the [plantToHarvest_label] first.\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\n[plantToHarvest_label] x[harvestItemCount] hasat etmelisiniz.\n\nÖnce [plantToHarvest_label] ekip büyütmeniz gerekebilir.\n\n[decreeThreatInfo]</li>
+  </Decree_HarvestCrop.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[plantToHarvest_label] harvest decree</li>
+  -->
+  <Decree_HarvestCrop.questNameRules.rulesStrings>
+    <li>questName->[plantToHarvest_label] hasat kararı</li>
+  </Decree_HarvestCrop.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must hunt or slaughter [animalToHuntWithCount].\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[countToHunt] [animalToHunt_labelPlural]</li>
+  -->
+  <Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\n[animalToHuntWithCount] avlamalı veya katletmelisin.\n\n[decreeThreatInfo]</li>
+    <li>animalToHuntWithCount(countToHunt==1)->[animalToHunt_indefinite]</li>
+    <li>animalToHuntWithCount(countToHunt!=1)->[animalToHunt_labelPlural] [countToHunt]</li>
+  </Decree_HuntAnimal.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[animalToHunt_label] hunting decree</li>
+  -->
+  <Decree_HuntAnimal.questNameRules.rulesStrings>
+    <li>questName->[animalToHunt_label] avlanma kararı</li>
+  </Decree_HuntAnimal.questNameRules.rulesStrings>
+  
+  <!-- EN:
+    <li>questDescription->[decreeIntro]\n\nYou must produce:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  -->
+  <Decree_ProduceItem.questDescriptionRules.rulesStrings>
+    <li>questDescription->[decreeIntro]\n\nŞunları üretmelisiniz:\n\n - [thingToProduceLabel]\n\n[decreeThreatInfo]</li>
+  </Decree_ProduceItem.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->[defToProduce_label] production decree</li>
+  -->
+  <Decree_ProduceItem.questNameRules.rulesStrings>
+    <li>questName->[defToProduce_label] üretim kararı</li>
+  </Decree_ProduceItem.questNameRules.rulesStrings>
+  
+</LanguageData>

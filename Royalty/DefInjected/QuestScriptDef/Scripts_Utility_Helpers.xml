@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>helpersParagraph(helpersCount==0)-></li>
+    <li>helpersParagraph(helpersCount==1)->\n\nA [helperKind_label] will be placed under your control. You will have to feed and house [helpers0_objective], but [helpers0_pronoun] may die in battle without consequence.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] will be placed under your control. You will have to feed and house them, but they may die in battle without consequence.\n\n</li>
+    <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] [helpersHasHave] been sent to assist you.</li>
+    <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
+    <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
+    <li>helpersHasHave(helpersCount==1)->has</li>
+    <li>helpersHasHave(helpersCount>=2)->have</li>
+    <li>helpersIsAre(helpersCount==1)->is</li>
+    <li>helpersIsAre(helpersCount>=2)->are</li>
+  -->
+  <Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+    <li>helpersParagraph(helpersCount==0)-></li>
+    <li>helpersParagraph(helpersCount==1)->\n\nKontrolünüz altına bir [helperKind_label] yerleştirilecektir. Onu beslemeniz ve barındırmanız gerekecek, ancak savaşta işe yaramaz bir şekilde ölebilir.\n\n</li>
+    <li>helpersParagraph(helpersCount>=2)->\n\n[helpersCount] [helperKind_labelPlural] sizin kontrolünüz altına alınacaktır. Onları beslemeniz ve barındırmanız gerekecek, ancak savaşta işe yaramaz bir şekilde ölebilirler.\n\n</li>
+    <li>helpersArrivalLetterEnd(helpersCount==0)-></li>
+    <li>helpersArrivalLetterEnd(helpersCount>=1)->\n\n[helpersCount] [helpersLabelSingOrPlural] size yardımcı olmak için gönderildi.</li>
+    <li>helpersLabelSingOrPlural(helpersCount==1)->[helperKind_label]</li>
+    <li>helpersLabelSingOrPlural(helpersCount>=2)->[helperKind_labelPlural]</li>
+  </Util_MaybeGenerateHelpers.questDescriptionRules.rulesStrings>
+  <!-- EN: [helpersLabelSingOrPlural] arrived -->
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>[helpersLabelSingOrPlural] geldi</Util_MaybeGenerateHelpers.LetterLabelHelpersArrived.value.slateRef>
+  <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] [helpersHasHave] arrived to aid you with the quest '[resolvedQuestName]'. -->
+  <Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>[asker_nameDef] tarafından gönderilen [helpersLabelSingOrPlural], '[resolvedQuestName]' görevinde size yardımcı olmak için geldi.</Util_MaybeGenerateHelpers.LetterTextHelpersArrived.value.slateRef>
+  <!-- EN: the [helpersLabelSingOrPlural] -->
+  <Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>[helpersLabelSingOrPlural]</Util_MaybeGenerateHelpers.ArrivingPawnsLabelDefinite.value.slateRef>
+  <!-- EN: [helpersLabelSingOrPlural] leaving -->
+  <Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>[helpersLabelSingOrPlural] ayrılıyor</Util_MaybeGenerateHelpers.LetterLabelHelpersLeaving.slateRef>
+  <!-- EN: The [helpersLabelSingOrPlural] sent by [asker_nameDef] to aid you [helpersHasHave] spent too much time with you, and [helpersIsAre] now leaving. -->
+  <Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>[asker_nameDef] tarafından size yardımcı olmak için gönderilen [helpersLabelSingOrPlural] sizinle çok fazla zaman geçirdi ve şimdi ayrılıyor.</Util_MaybeGenerateHelpers.LetterTextHelpersLeaving.slateRef>
+  
+</LanguageData>
