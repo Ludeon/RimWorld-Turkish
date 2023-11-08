@@ -22,16 +22,7 @@
 
 ## Translators - Çevirmenler
 
-* [@Meriç Alemdar](https://github.com/alemdarwilson)
-* [@AtFreezingPoint](https://github.com/AtFreezingPoint)
-* [Altay Bey Instagram](https://www.instagram.com/altay.bey/)
-* [@LadySmith](https://github.com/LadySmith)
-* [@SangalHan](https://github.com/SangalHan)
-* [@Hüseyin Cem Aras](https://github.com/hcemaras)
-* [@Ilgın Yılmaz](https://github.com/Bruniikendov)
-* [@Emin Muhammed Şahin](https://github.com/ColdWind53)
-* [@ajexthedev](https://github.com/ajexthedev)
-* [@TinyTemim](https://github.com/TinyTemim)
+
 * [@ennear](https://github.com/ennear)
 * [@asdev990](https://github.com/asdev990)
 
