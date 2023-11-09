@@ -21,10 +21,10 @@
   -Son olarak var olan dosyaları kontrol edip daha ince ve titiz kodlama ( Oyunun çeviri kodlaması almanca-ing gibi diller için uygun olduğundan bizim gibi sondan eklemeli yani-de da gibi ekler aldığından kodlamada bu kadar ince işçilik isteyen yerler mevcut) ve yerelleştirme (örn:glitterworld bazı yerlerde bu şekilde kalması gerekirken bazı yerlerde "ışıltı dünyası" şekinde olması gerekiyor) yapabilirsiniz.
 
 ## Translators - Çevirmenler
--Lütfen hiç katkınız yokken buraya isimlerinizi yazmayınız.Eski çeviri ile alası yok şu anki çevirinin hepsini kendim çevirip düzenledim emeğime haksızlık yapmayın...
+
 
 * [@ennear](https://github.com/ennear)
-* [@asdev990](https://github.com/asdev990)
+
 
 
 :star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya kendiniz katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda çevirilmeyi bekleyen çevirileri ve düzenlemeleri proje sayfamızdan kontrol edebilirsiniz.
