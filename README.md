@@ -23,7 +23,7 @@
 ## Translators - Çevirmenler
 
 
-* [@asdev990]((https://github.com/asdev990)
+* [@asdev990](https://github.com/asdev990)
 
 
 
