@@ -23,7 +23,7 @@
 ## Translators - Çevirmenler
 
 
-* [@ennear](https://github.com/ennear)
+* [@asdev990]((https://github.com/asdev990))
 
 
 
