@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
   <!-- EN:
@@ -18,10 +18,17 @@
     <li>questName->[gameCondition_label] for Pay</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
-    <li>questName->[asker_nameDef]'nin [gameCondition_label]'i</li>
+    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [gameCondition_label]</li>
     <li>questName->[asker_nameDef] için [gameCondition_indefinite]</li>
-    <li>questName->ücretli [gameCondition_label]</li>
-    <li>questName->ödemesi için [gameCondition_label]</li>
+    <li>questName(gameCondition==VolcanicWinter)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==ToxicFallout)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==HeatWave)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==ColdSnap)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==PsychicSuppression)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==WeatherController)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==EMIField)->Ücretli [gameCondition_label]</li>
+    <li>questName(gameCondition==PsychicDrone)->Ücretli [gameCondition_label]</li>
+    <li>questName->[gameCondition_label] için ödeme</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -33,11 +40,11 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Yörüngedeki bir araştırma gemisi, yeni bir tür böcek feromonunu test etmek istiyor. Kabul ederseniz, [map_definite]'de feromonu serperler ve (*Threat)[hivesCount] kovanı istilasına(/Threat) neden olur .[helpersParagraph]</li>
+    <li>questDescription(askerIsNull==true)->Yörüngedeki bir araştırma gemisi, yeni bir tür böcek feromonunu test etmek istiyor. Kabul ederseniz, [map_definite]'de feromonu serperler ve (*Threat)bir [hivesCount] kovanı istilasına(/Threat) neden olur .[helpersParagraph]</li>
     <li>infestationArrivalLetterText(askerIsNull==true)->Kovanlar, yörüngedeki bir araştırma gemisinden gelen bir feromon taraması tarafından çekildi.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]  grubunun [asker_nameFull] [asker_faction_leaderTitle],[map_definite] yakınındaki sitelerde tekrarlanan istilalarla karşı karşıya. İstilaları sana çekmek istiyor. Bu, (*Threat)[HivesCount]  kovanı istilasına(/Threat)  neden olur.[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]  grubunun [asker_nameFull] [asker_faction_leaderTitle],[map_definite] yakınındaki sitelerde tekrarlanan istilalarla karşı karşıya. İstilaları sana çekmek istiyor. Bu, (*Threat)bir [hivesCount]  kovanı istilasına(/Threat)  neden olur.[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_factionLeader==True)->Kovanlar başlangıçta  [asker_faction_name] grubunun [asker_nameFull]'e ait yakındaki siteleri istila ediyordu.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], tekrarlanan istilalar nedeniyle [map_definite] yakınına inmekte sorun yaşıyor. Uğraşmanız için böcekleri size çekmek istiyor. Bu,  (*Threat) [HivesCount] kovan istilasına (/Threat) neden olur.[helpersParagraph]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], tekrarlanan istilalar nedeniyle [map_definite] yakınına inmekte sorun yaşıyor. Uğraşmanız için böcekleri size çekmek istiyor. Bu,  (*Threat)bir  [hivesCount] kovan istilasına (/Threat) neden olur.[helpersParagraph]</li>
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->İstila, [asker_faction_name]'nin bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull] tarafından size çekildi.</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -52,9 +59,9 @@
   -->
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
     <li>questName->podlar ve [insects]</li>
-    <li>questName->[asker_nameDef] [insects]</li>
+    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [insects]'i</li>
     <li>questName->[itemPodsTotalMarketValue_money]-[insects]</li>
-    <li>questName(asker_royalInCurrentFaction==True)->[insects]'in bütük gösterisi</li>
+    <li>questName(asker_royalInCurrentFaction==True)->[insects]'in büyük gösterisi</li>
     <li>questName(p=0.3)->pod sürüsü</li>
     <li>insects->haşaratlar</li>
     <li>insects->böcekler</li>
@@ -163,7 +170,7 @@
     <li>questName->[site/site_label] for Pay</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
-    <li>questName->[asker_nameDef]'nin [site/site_label]'i</li>
+    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [site/site_label]'i</li>
     <li>questName->[asker_nameDef] için [site/site_label]</li>
     <li>questName->ödeme [site/site_label]</li>
     <li>questName->ödeme için [site/site_label]</li>
