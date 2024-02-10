@@ -184,19 +184,19 @@
 
   <!-- Deathrest buildings -->
   <!-- EN: Bound to -->
-  <BoundTo>Bağlı olma</BoundTo>
+  <BoundTo>Bağlı</BoundTo>
   <!-- EN: Will bind permanently on first use. -->
   <WillBindOnFirstUse>İlk kullanımda kalıcı olarak bağlanır.</WillBindOnFirstUse>
   <!-- EN: Time active this deathrest -->
   <TimeActiveThisDeathrest>Bu ölüm uykusunda zaman aktif</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
-  <MinimumNeededToApply>Başvuru için minimum {0}</MinimumNeededToApply>
+  <MinimumNeededToApply>Uygulamak için minimum {0}</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
-  <CannotAssignBedCannotDeathrest>kein Todesschlaf-Gen</CannotAssignBedCannotDeathrest>
+  <CannotAssignBedCannotDeathrest>Ölüm uykusuna dalamaz</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
-  <CannotAssignAlreadyBound>ölüm uykusu olamaz</CannotAssignAlreadyBound>
+  <CannotAssignAlreadyBound>Zaten bağlı: {0_nameDef}</CannotAssignAlreadyBound>
   <!-- EN: Cannot bind to more {BUILDING_labelPlural} -->
-  <CannotAssignBedCannotBindToMoreBuildings>yalnızca 1 {bak: {BUILDING_label}'e eklenebilir; reddetme; 3} bağlanacak</CannotAssignBedCannotBindToMoreBuildings>
+  <CannotAssignBedCannotBindToMoreBuildings>Daha fazla bağlanamıyor: {BUILDING_labelPlural}</CannotAssignBedCannotBindToMoreBuildings>
 
   <!-- Aptitudes -->
   <!-- EN: aptitude -->
@@ -400,7 +400,7 @@
   <!-- EN: Extracting genes from {PAWN_nameDef}. -->
   <ExtractingXenogermFrom>{PAWN_nameDef}'den genler ayıklanıyor.</ExtractingXenogermFrom>
   <!-- EN: Extraction paused: No power (interrupt in {TIME}) -->
-  <ExtractionPausedNoPower>Çıkarma duraklatıldı: Güç yok</ExtractionPausedNoPower>
+  <ExtractionPausedNoPower>Çıkarma duraklatıldı: Güç yok ({TIME} içinde sekteye uğrayacak)</ExtractionPausedNoPower>
   <!-- EN: Last ingested {CHEMICAL_label} {DURATION} ago. -->
   <LastIngestedDurationAgo>En son {CHEMICAL_label} {DURATION} önce kullanıldı.</LastIngestedDurationAgo>
   <!-- EN: {NAME} xenogerm -->
@@ -535,13 +535,13 @@
   <!-- EN: Base hemogen gain -->
   <AbilityHemogenGain>Temel hemojen kazancı</AbilityHemogenGain>
   <!-- EN: Smokepop charged -->
-  <AbilityMechSmokepopCharged>duman podu hazır</AbilityMechSmokepopCharged>
+  <AbilityMechSmokepopCharged>Sis bombası hazır</AbilityMechSmokepopCharged>
   <!-- EN: Smokepop recharged in {0} -->
-  <AbilityMechSmokepopRecharging>duman podu şarj edililiyor (*DateTime){yer: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}(/DateTime)</AbilityMechSmokepopRecharging>
+  <AbilityMechSmokepopRecharging>Sis bombası {0} hazır olacak</AbilityMechSmokepopRecharging>
   <!-- EN: Firefoam pop charged -->
-  <AbilityMechFirefoampopCharged>Ateş köpüğü şarj edildi</AbilityMechFirefoampopCharged>
+  <AbilityMechFirefoampopCharged>Ateş köpüğü hazır</AbilityMechFirefoampopCharged>
   <!-- EN: Firefoam pop recharged in {0} -->
-  <AbilityMechFirefoampopRecharging>Ateş köpüğü şarj edildi (*DateTime){replace: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}(/DateTime)</AbilityMechFirefoampopRecharging>
+  <AbilityMechFirefoampopRecharging>Ateş köpüğü {0} hazır olacak</AbilityMechFirefoampopRecharging>
 
   <!-- EN: Polluted {0} -->
   <PollutedTerrain>kirlilik {0}</PollutedTerrain>
@@ -554,7 +554,7 @@
   <!-- EN: Insert a person into the growth vat. They will age 20 times as fast as normal. -->
   <InsertPersonGrowthVatDesc>Küvöze bir kişi yerleştirin. Normalden 20 kat daha hızlı yaşlanacaklar.</InsertPersonGrowthVatDesc>
   <!-- EN: Implant an embryo into the growth vat. After gestating for {0} a fully formed baby will be produced by the vat, hopefully in good health. -->
-  <InsertEmbryoGrowthVatDesc>Küvöze bir embriyo yükleyin. 18 gün boyunca hamile kaldıktan sonra, küvözden tamamen şekillenmiş bir bebek, umarım sağlıklı bir şekilde doğar.</InsertEmbryoGrowthVatDesc>
+  <InsertEmbryoGrowthVatDesc>Küvöze bir embriyo yükleyin. {0} boyunca hamile kaldıktan sonra küvözden tamamen şekillenmiş bir bebek, umarım sağlıklı bir şekilde doğacak.</InsertEmbryoGrowthVatDesc>
   <!-- EN: Insert embryo -->
   <ImplantEmbryo>Embriyo ekle</ImplantEmbryo>
   <!-- EN: Cannot insert embryo -->
@@ -680,13 +680,13 @@
   <!-- EN: pollution -->
   <PollutionLower>kirlilik</PollutionLower>
   <!-- EN: Cannot absorb pollution: Buildings too close -->
-  <CannotAbsorbPollution>Kirliliği absorbe edemez: Binalar çok yakın</CannotAbsorbPollution>
+  <CannotAbsorbPollution>Kirliliği ememez: Binalar çok yakın</CannotAbsorbPollution>
   <!-- EN: Can absorb pollution from nearby terrain -->
-  <CanAbsorbPollution>Yakındaki araziden gelen kirliliği absorbe edebilir</CanAbsorbPollution>
+  <CanAbsorbPollution>Yakındaki araziden gelen kirliliği emilebilir</CanAbsorbPollution>
   <!-- EN: Absorbing pollution: Next in {0} -->
-  <AbsorbingPollutionNext>Kirliliği absorbe etme: {replace: {0}; "Tage"-"Tagen"; "Jahre"-"Jahren"}</AbsorbingPollutionNext>
+  <AbsorbingPollutionNext>Kirlilik emiliyor: {0} içinde sonraki</AbsorbingPollutionNext>
   <!-- EN: How polluted the terrain is on this tile.\n\nExposure to polluted terrain causes toxic buildup which can lead to death. Most crops cannot live on polluted terrain. -->
-  <TerrainPollutionTip>Bu karodaki arazi ne kadar kirli.\n\nKirli araziye maruz kalmak ölüme yol açabilecek toksik birikime neden olur. Çoğu ürün kirli arazide yaşayamaz.</TerrainPollutionTip>
+  <TerrainPollutionTip>Bu karodaki arazi ne kadar kirli.\n\nKirli araziye maruz kalmak ölüme yol açabilecek toksik birikime neden olur. Bitkilerin çoğu kirli bir arazide yaşamını sürdüremez.</TerrainPollutionTip>
 
   <!-- Research -->
   <!-- EN: Requires study of -->
