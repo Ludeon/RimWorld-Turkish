@@ -24,6 +24,7 @@
 * [@ajexthedev](https://github.com/ajexthedev)
 * [@TinyTemim](https://github.com/TinyTemim)
 * [@ennear](https://github.com/ennear)
+* [@Tufancan Demirkılıç](https://github.com/hollmmes)
 
 
 
