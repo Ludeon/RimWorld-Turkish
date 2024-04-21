@@ -7,8 +7,8 @@
 
    * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.
    * Wiki kısmından anasayfaya tıklatıp "Katkıda bulunmak için" kısmını okuyun.
-   * Çeviriyi güncellemek ve çeviri raporunu oluşturmak için okuyun: #388
-   * Çeviride dikkat etmeniz gereken konular için: #387
+   * Çeviriyi güncellemek ve çeviri raporunu oluşturmak için okuyun: [#388](https://github.com/Ludeon/RimWorld-Turkish/issues/388)
+   * Çeviride dikkat etmeniz gereken konular için: [#387](https://github.com/Ludeon/RimWorld-Turkish/issues/387)
 
 ## Translators - Çevirmenler
 
