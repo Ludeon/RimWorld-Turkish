@@ -3,13 +3,12 @@
 * RimWorld için resmi Türkçe Dil çevirisi.
 * Official Turkish language translation for RimWorld.
 
-# Current status
-* Lütfen katkılarınızı, **forkladığınız projeyi pull request açarak** gönderin. 
-    * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.
-    * Pull request ile çıkan conflictleri çözmek kolay. 
-    * Wiki kısmından anasayfaya tıklatıp "Katkıda bulunmak için" kısmını okuyunuz.
-    * Direkt repo üstüne yazdırılınca en küçük değişiklik olsa bile aynı dosya üzerinde başka birisi çalışıyorsa başkalarının çevirdikleri kayboluyor. [Bkz: Yorumlara bakınız](https://github.com/Ludeon/RimWorld-Turkish/commit/f3c73a008d2083b61a4aef5a646a72bb0c225b65#comments)
+# Çeviriye başlarken
 
+   * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.
+   * Wiki kısmından anasayfaya tıklatıp "Katkıda bulunmak için" kısmını okuyun.
+   * Çeviriyi güncellemek ve çeviri raporunu oluşturmak için okuyun: #388
+   * Çeviride dikkat etmeniz gereken konular için: #387
 
 ## Translators - Çevirmenler
 
