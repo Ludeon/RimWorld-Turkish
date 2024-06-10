@@ -3,7 +3,7 @@
 
   <ActivityMultipleDangerous>Tehlikeli aktivite seviyesi</ActivityMultipleDangerous>
   <!-- EN: Dangerous activity levels -->
-  <ActivityDangerousDesc>Bu varlıklar tehlikeli yüksek aktivite seviyelerinde</ActivityDangerousDesc>
+  <ActivityDangerousDesc>Bu varlıkların aktivite seviyeleri tehlikeli derecede yüksek</ActivityDangerousDesc>
   <!-- EN: These entities are at dangerously high activity levels -->
   <ActivityDangerousDescAppended>Bir varlık %100 aktiviteye ulaştığında tehlikeli hale gelecek.\n\nBu varlıkları bastırmak için muhafızınızı gönderin veya varlığın aktivite panelini kullanarak otomatik bastırmayı etkinleştirin.</ActivityDangerousDescAppended>
   <!-- EN: When an entity reaches 100% activity, it will become dangerous.
@@ -20,29 +20,47 @@
   You can have a basic and an advanced research project selected at the same time.
   (Click to open the research menu.) -->
 
-  <CreepJoinerTimeout>Visitor ignored</CreepJoinerTimeout>
-  <CreepJoinerTimeoutDesc>The following visitors feel ignored and are becoming increasingly upset</CreepJoinerTimeoutDesc>
-  <CreepJoinerTimeoutDescAppended>Select a colonist and right-click on the visitor.\n\nAct quickly... they don't like being ignored.</CreepJoinerTimeoutDescAppended>
+  <CreepJoinerTimeout>Ziyaretçi görmezden gelindi</CreepJoinerTimeout>
+  <!-- EN: Visitor ignored -->
+  <CreepJoinerTimeoutDesc>Şu ziyaretçiler görmezden gelinmiş hissediyor ve giderek huzursuzlanıyor</CreepJoinerTimeoutDesc>
+  <!-- EN: The following visitors feel ignored and are becoming increasingly upset -->
+  <CreepJoinerTimeoutDescAppended>Bir kolonist seç ve ziyaretçiye sağ tıkla\n\nÇabuk ol... görmezden gelinmeyi istemez</CreepJoinerTimeoutDescAppended>
+  <!-- EN: Select a colonist and right-click on the visitor.
+  Act quickly... they don't like being ignored. -->
 
-  <Alert_UndercaveUnstable>Undercave unstable</Alert_UndercaveUnstable>
-  <Alert_UndercaveUnstableDesc>The undercave has become unstable and will collapse soon.\n\nGet your colonists out before it's too late.</Alert_UndercaveUnstableDesc>
+  <Alert_UndercaveUnstable>Yeraltı mağarası dengesiz</Alert_UndercaveUnstable>
+  <!-- EN: Undercave unstable -->
+  <Alert_UndercaveUnstableDesc>Yeraltı mağarası dengesiz hale geldi ve yakında çökecek.\n\nÇok geç olmadan kolonistlerini çıkar.</Alert_UndercaveUnstableDesc>
+  <!-- EN: The undercave has become unstable and will collapse soon.
+  Get your colonists out before it's too late. -->
 
-  <Alert_CultistPsychicRitual>Cultist psychic ritual</Alert_CultistPsychicRitual>
-  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire.</Alert_CultistPsychicRitualDesc>
+  <Alert_CultistPsychicRitual>Tarikarçı psişik ayini</Alert_CultistPsychicRitual>
+  <!-- EN: Cultist psychic ritual -->
+  <Alert_CultistPsychicRitualDesc>{INVOKER_kindDef} {INVOKER_nameDef} {RITUAL_definite} ayinine başladı. Eğer engellemezsen hazin sonuçları olabilir.</Alert_CultistPsychicRitualDesc>
+  <!-- EN: {INVOKER_kindDef} {INVOKER_nameDef} has started to perform {RITUAL_definite} ritual. If you don't interrupt {INVOKER_objective}, the consequences could be dire. -->
 
-  <AlertMeatHunger>Ghoul starvation</AlertMeatHunger>
-  <AlertMeatHungerDesc>These ghouls hunger for raw meat</AlertMeatHungerDesc>
-  <AlertMeatHungerDescAppended>They may attack if they're not fed soon. Get them some meat.</AlertMeatHungerDescAppended>
-  
-  <AlertEmergingPitGate>Pit gate opening</AlertEmergingPitGate>
-  <AlertEmergingPitGateDesc>The ground is collapsing in on itself. A pit gate will soon form.</AlertEmergingPitGateDesc>
+  <AlertMeatHunger>Hortlak açlığı</AlertMeatHunger>
+  <!-- EN: Ghoul starvation -->
+  <AlertMeatHungerDesc>Şu hortlaklar çiğ et istiyor</AlertMeatHungerDesc>
+  <!-- EN: These ghouls hunger for raw meat -->
+  <AlertMeatHungerDescAppended>Yakın zamanda beslenmezlerse saldırabilirler.Et tedarik et.</AlertMeatHungerDescAppended>
+  <!-- EN: They may attack if they're not fed soon. Get them some meat. -->
+  <AlertEmergingPitGate>Çukur geçit açılıyor</AlertEmergingPitGate>
+  <!-- EN: Pit gate opening -->
+  <AlertEmergingPitGateDesc>Yer içine çöküyor. Yakında bir çukur geçit oluşacak.</AlertEmergingPitGateDesc>
+  <!-- EN: The ground is collapsing in on itself. A pit gate will soon form. -->
 
-  <Alert_InsufficientContainment>Insufficient containment</Alert_InsufficientContainment>
-  <Alert_InsufficientContainmentDesc>The following entities are being held in rooms that do not meet their minimum containment strength</Alert_InsufficientContainmentDesc>
-  <Alert_InsufficientContainmentDescAppended>They will escape soon. Build stronger walls, doors, or other containment devices to hold them.</Alert_InsufficientContainmentDescAppended>
+  <Alert_InsufficientContainment>Yetersiz muhafaza</Alert_InsufficientContainment>
+  <!-- EN: Insufficient containment -->
+  <Alert_InsufficientContainmentDesc>Şu varlıklar minimum muhafaza gereksinimlerini karşılamayan odalarda tutuluyor.</Alert_InsufficientContainmentDesc>
+  <!-- EN: The following entities are being held in rooms that do not meet their minimum containment strength -->
+  <Alert_InsufficientContainmentDescAppended>Yakında kaçacaklar. Onları tutmak için daha güçlü duvarlar, kapılar ve diğer muhafaza araçları inşa et.</Alert_InsufficientContainmentDescAppended>
+  <!-- EN: They will escape soon. Build stronger walls, doors, or other containment devices to hold them. -->
 
-  <AlertHoldingPlatform>Holding platforms needed</AlertHoldingPlatform>
-  <AlertHoldingPlatformDesc>Build holding platforms or place holding spots to contain and study captured entities.</AlertHoldingPlatformDesc>
+  <AlertHoldingPlatform>Zincirleme platformu gerekli</AlertHoldingPlatform>
+  <!-- EN: Holding platforms needed -->
+  <AlertHoldingPlatformDesc>Yakalanan varlıkları muhafaza etmek ve incelemek için zincirleme platformları inşa et veya zincirleme noktaları yerleştir.</AlertHoldingPlatformDesc>
+  <!-- EN: Build holding platforms or place holding spots to contain and study captured entities. -->
 
   <AlertCubeWithdrawal>Cube withdrawal</AlertCubeWithdrawal>
   <AlertCubeWithdrawalDesc>The following people are suffering from cube withdrawal</AlertCubeWithdrawalDesc>
