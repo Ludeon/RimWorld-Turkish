@@ -2,32 +2,54 @@
 <LanguageData>
 
   <!-- Inhumanization -->
-  <ReHumanizedLabel>Rehumanized</ReHumanizedLabel>
-  <ReHumanizedText>{0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed.</ReHumanizedText>
-  <WarningFromLabel>Warning from {0_nameDef}</WarningFromLabel>
+  <ReHumanizedLabel>Yeniden insanlaştı</ReHumanizedLabel>
+  <!-- EN Rehumanized -->
+  <ReHumanizedText>{0_nameDef}, insanlığa karşı yeniden {0_possessive} bağ kazandı. {0_nameDef}'in 'insanlıktan çıkmış' sağlık durumu silindi.</ReHumanizedText>
+  <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
+  <WarningFromLabel>{0_nameDef}'den uyarı</WarningFromLabel>
+  <!-- EN: Warning from {0_nameDef} -->
 
   <!-- Hate chanters -->
-  <HateChantersLabel>Cultist hate chanters</HateChantersLabel>
-  <HateChantersText>Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped.</HateChantersText>
-  <HateChantersAttackingLabel>Cultists attacking</HateChantersAttackingLabel>
-  <HateChantersAttackingText>The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend.</HateChantersAttackingText>
+  <HateChantersLabel>Tarikat nefreti ilahicileri</HateChantersLabel>
+  <!-- EN: Cultist hate chanters -->
+  <HateChantersText>Tarikat nefreti ilahicileri geldi. Bir nefret ilahisi ayini yaparak kolonistlerini psişik cinnete sürükleyip delirtmek niyetindeler. Tarikatçılar durdurulmadığı sürece ilahinin sesi giderek artacak.</HateChantersText>
+  <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
+  <HateChantersAttackingLabel>Tarikatçılar saldırıyor</HateChantersAttackingLabel>
+  <!-- EN: Cultists attacking -->
+  <HateChantersAttackingText>Tarikatçılar nefret ilahilerini sonlandırdı ve transa geçmiş hallerinden çıkıyorlar.\n\nSavunmaya hazırlan.</HateChantersAttackingText>
+  <!-- EN: The cultists have ended their hate chant and begun to come out of their ritual trance.
+  Prepare to defend. -->
 
   <!-- Psychic rituals -->
-  <PsychicRitualCompleteLabel>{0} complete</PsychicRitualCompleteLabel>
+  <PsychicRitualCompleteLabel>{0} tamamlandı</PsychicRitualCompleteLabel>
+  <!-- EN: {0} complete -->
 
-  <VoidProvocationCompletedText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities.</VoidProvocationCompletedText>
-  <VoidProvocationSucceeded>Prepare for what comes next.</VoidProvocationSucceeded>
-  <VoidProvocationFailed>Unfortunately, your call has been left unanswered.</VoidProvocationFailed>
-  <VoidProvocationDarkPsychicShock>In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma.</VoidProvocationDarkPsychicShock>
-  <PhilophagyCompleteText>{INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}.</PhilophagyCompleteText>
-  <PawnGainedXPInSkill>{0_nameDef} gained {1} XP in {2_label}</PawnGainedXPInSkill>
-  <PawnLostXPInSkill>{0_nameDef} lost {1} XP in {2_label}</PawnLostXPInSkill>
-  <PhilophagySkillLevelGained>rising from skill level {0} to {1}.</PhilophagySkillLevelGained>
-  <PhilophagySkillLevelLost>falling from skill level {0} to {1}.</PhilophagySkillLevelLost>
-  <PhilophagySkillLevelRemains>remaining at skill level {0}.</PhilophagySkillLevelRemains>
-  <PhilophagyDamagedTarget>The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</PhilophagyDamagedTarget>
+  <VoidProvocationCompletedText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve varlıkları çekecek bir psişik titreşim saldı.</VoidProvocationCompletedText>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
+  <VoidProvocationSucceeded>Gelmekte olana hazırlan.</VoidProvocationSucceeded>
+  <!-- EN: Prepare for what comes next. -->
+  <VoidProvocationFailed>Maalesef, çağrın cevapsız kaldı.</VoidProvocationFailed>
+  <!-- EN: Unfortunately, your call has been left unanswered. -->
+  <VoidProvocationDarkPsychicShock>{INVOKER_nameDef}, ayin esnasında bir anlığına insan algısının sınırlarını aşan korkunçlukta bir şey gördü. Psişik karanlık {INVOKER_objective}'i şok etti ve kısa süreli bir komaya soktu.</VoidProvocationDarkPsychicShock>
+  <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
+  <PhilophagyCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve {TARGET_nameDef}'in yetenekleri ile anılarını soğurdu.</PhilophagyCompleteText>
+  <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
+  <PawnGainedXPInSkill>{0_nameDef}, {2_label}'de {1} XP kazandı.</PawnGainedXPInSkill>
+  <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
+  <PawnLostXPInSkill>{0_nameDef}, {2_label}'de {1} XP kaybetti.</PawnLostXPInSkill>
+  <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
+  <PhilophagySkillLevelGained>{0} yetenek seviyesinden {1} seviyesine çıkıyor.</PhilophagySkillLevelGained>
+  <!-- EN: rising from skill level {0} to {1}. -->
+  <PhilophagySkillLevelLost>{0} yetenek seviyesinden {1} seviyesine düşüyor.</PhilophagySkillLevelLost>
+  <!-- EN: falling from skill level {0} to {1}. -->
+  <PhilophagySkillLevelRemains>{0} yetenek seviyesinde kalıyor.</PhilophagySkillLevelRemains>
+  <!-- EN: remaining at skill level {0}. -->
+  <PhilophagyDamagedTarget>Süreç {TARGET_nameDef}'in beynine hasar vererek {TARGET_objective}'i komaya soktu.</PhilophagyDamagedTarget>
+  <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
 
-  <ImbueDeathRefuralCompleteText>{0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills.</ImbueDeathRefuralCompleteText>
+  <ImbueDeathRefuralCompleteText>{0_nameDef} ölüme karşı bir direnç ile doldu. Şimdi {0_pronoun}, öldükten sonra kendini diriltebilir.\n\n Süreç {0_nameDef}'in zihnini köreltti ve {0_possessive} yeteneğinde {1} XP kaybına neden oldu.</ImbueDeathRefuralCompleteText>
+  <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.
+  The process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
 
   <SummonAnimalsSuccessText>{0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly.</SummonAnimalsSuccessText>
   <SummonAnimalsFailureText>{0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival!</SummonAnimalsFailureText>
