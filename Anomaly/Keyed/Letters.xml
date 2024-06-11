@@ -47,46 +47,71 @@
   <PhilophagyDamagedTarget>Süreç {TARGET_nameDef}'in beynine hasar vererek {TARGET_objective}'i komaya soktu.</PhilophagyDamagedTarget>
   <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
 
-  <ImbueDeathRefuralCompleteText>{0_nameDef} ölüme karşı bir direnç ile doldu. Şimdi {0_pronoun}, öldükten sonra kendini diriltebilir.\n\n Süreç {0_nameDef}'in zihnini köreltti ve {0_possessive} yeteneğinde {1} XP kaybına neden oldu.</ImbueDeathRefuralCompleteText>
+  <ImbueDeathRefuralCompleteText>{0_nameDef} ölümü reddetti. Şimdi {0_pronoun}, öldükten sonra kendini diriltebilir.\n\n Süreç {0_nameDef}'in zihnini köreltti ve {0_possessive} yeteneğinde {1} XP kaybına neden oldu.</ImbueDeathRefuralCompleteText>
   <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.
   The process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
 
-  <SummonAnimalsSuccessText>{0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly.</SummonAnimalsSuccessText>
-  <SummonAnimalsFailureText>{0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival!</SummonAnimalsFailureText>
+  <SummonAnimalsSuccessText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Yakın zamanda bir hayvan sürüsü bekle.</SummonAnimalsSuccessText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
+  <SummonAnimalsFailureText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı ancak bir şeyler ters gitti. Ayin, insan avcısı hayvanları çekti. Gelecek olanlar için hazırlan!</SummonAnimalsFailureText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
   
-  <SummonShamblersCompleteText>{0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival.</SummonShamblersCompleteText>
+  <SummonShamblersCompleteText>{0_nameDef}, {RITUAL_definite} ayinini başarıyla tamamladı. Gelecek olanlar için hazırlan.</SummonShamblersCompleteText>
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
 
-  <AttackingFromMultipleDirections>They are attacking from multiple directions.</AttackingFromMultipleDirections> 
+  <AttackingFromMultipleDirections>Farklı yönlerden saldırıyorlar.</AttackingFromMultipleDirections>
+  <!-- EN: They are attacking from multiple directions. -->
 
-  <ChronophagyCompleteText>{0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects:</ChronophagyCompleteText>
-  <ChronophagyTargetAged>{0_nameDef} aged {1} years</ChronophagyTargetAged>
-  <ChronophagyInvokerRejuvenated>{0_nameDef} became {1} years younger</ChronophagyInvokerRejuvenated>
-  <ChronophagyTargetDiedOfOldAge>{0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age.</ChronophagyTargetDiedOfOldAge>
-  <ChronophagyTargetOldAgeDiseases>While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions</ChronophagyTargetOldAgeDiseases>
-  <ChronophagyInvokerCuredDiseases>Additionally, the process has cured {0_nameDef} of the following ailments:</ChronophagyInvokerCuredDiseases>
-  <ChronophagyCurrentAge>and is now {0} years old</ChronophagyCurrentAge>
+  <ChronophagyCompleteText>{0_nameDef}, {RITUAL_definite} ayinini başarıyla tamamladı. Ayin, şu etkilere sahip:</ChronophagyCompleteText>
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
+  <ChronophagyTargetAged>{0_nameDef} {1} yıl yaşlandı</ChronophagyTargetAged>
+  <!-- EN: {0_nameDef} aged {1} years -->
+  <ChronophagyInvokerRejuvenated>{0_nameDef} {1} yıl gençleşti</ChronophagyInvokerRejuvenated>
+  <!-- EN: {0_nameDef} became {1} years younger -->
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef}, chronophagy ayinin yaşlandırma yükünü kaldıramadı ve yaşlılıktan öldü.</ChronophagyTargetDiedOfOldAge>
+  <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
+  <ChronophagyTargetOldAgeDiseases>{0_nameDef} chronophagy ayinini atlattı ancak şu durumları edindi:</ChronophagyTargetOldAgeDiseases>
+  <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
+  <ChronophagyInvokerCuredDiseases>Ayrıca, bu süreçte {0_nameDef} şu hastalıklardan arındı:</ChronophagyInvokerCuredDiseases>
+  <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
+  <ChronophagyCurrentAge>ve şu an {0} yaşında</ChronophagyCurrentAge>
+  <!-- EN: and is now {0} years old -->
 
-  <PleasurePulseCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower.</PleasurePulseCompleteText>
+  <PleasurePulseCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Sonraki {1} için herkes {RITUAL_definite} etkisiyle daha mutlu olacak fakat daha yavaş çalışacak.</PleasurePulseCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
 
-  <NeurosisPulseCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable.</NeurosisPulseCompleteText>
+  <NeurosisPulseCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Sonraki {1} için titreşimi duyan herkes daha hızlı çalışacak ancak daha gergin olacak.</NeurosisPulseCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
 
-  <BloodRainCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk.</BloodRainCompleteText>
+  <BloodRainCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Gökten büyük kızıl damlacıklar düşmeye başlayacak. Herkesi içeride tut ve cinnet geçirmelerini engelle.</BloodRainCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
 
-  <BrainwipeCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories.</BrainwipeCompleteText>
-  <BrainwipeTargetComa>{TARGET_pronoun} will remain in a coma for {1}.</BrainwipeTargetComa>
-  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} is no longer unwaveringly loyal.</BrainwipeUnwaveringlyLoyal>
-  <BrainwipeRehumanized>{TARGET_nameDef} has been re-humanized.</BrainwipeRehumanized>
+  <BrainwipeCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve {TARGET_nameDef}'in hafızasını kaotik şekilde sildi.</BrainwipeCompleteText>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
+  <BrainwipeTargetComa>{TARGET_pronoun} {1} süresince komada kalacak.</BrainwipeTargetComa>
+  <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} artık sarsılmaz şekilde sadık değil.</BrainwipeUnwaveringlyLoyal>
+  <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
+  <BrainwipeRehumanized>{TARGET_nameDef} yeniden insanlaştı.</BrainwipeRehumanized>
+  <!-- EN: {TARGET_nameDef} has been re-humanized. -->
 
-  <PsychophagyCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence.</PsychophagyCompleteText>
-  <PsychophagyTargetSurvived>{TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</PsychophagyTargetSurvived>
+  <PsychophagyCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve {TARGET_nameDef}'in psişik mevcudiyetini tüketti.</PsychophagyCompleteText>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
+  <PsychophagyTargetSurvived>{TARGET_nameDef} artık psişik anlamda sağır. Süreç {TARGET_nameDef}'in beynine hasar verdi ve komaya soktu.</PsychophagyTargetSurvived>
+  <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
   
-  <PsychicRitualTargetBrainLiquified>The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}.</PsychicRitualTargetBrainLiquified>
+  <PsychicRitualTargetBrainLiquified>Süreç {TARGET_nameDef}'in beynini eritti ve {TARGET_objective} öldü.</PsychicRitualTargetBrainLiquified>
+  <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
 
-  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground!</SummonFleshbeastsPlayerCompleteText>
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Yerin altından etten canavarlar çıkıyor!</SummonFleshbeastsPlayerCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
 
-  <GhoulInfusionCompleteText>{INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile.</GhoulInfusionCompleteText>
+  <GhoulInfusionCompleteText>{INVOKER_nameDef}, {TARGET_nameDef}'e biyoferrit enjekte etmeyi bitirdi. İşlem, {TARGET_nameDef}'in zihnini çarpıtıp bedenini mutasyona uğratarak korkunç bir gûl yarattı. {INVOKER_nameDef} ile {TARGET_nameDef} psişik olarak birbine bağlı ve {INVOKER_objective} {TARGET_nameDef}'i kontrol ediyor.\n\nGûllar çiğ etle beslenir. Eğer acıkırlarsa saldırganlaşabilirler.</GhoulInfusionCompleteText>
+  <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}. 
+  Ghouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
   
-  <AttackersMayCastRitualMultipleTimes>They might perform the ritual multiple times. You need to go stop them.</AttackersMayCastRitualMultipleTimes>
+  <AttackersMayCastRitualMultipleTimes>Ayini birkaç kere yapabilirler. Onları durdurman lazım.</AttackersMayCastRitualMultipleTimes>
+  <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
 
   <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma.</SkipAbductionPlayerCompleteText>
 
