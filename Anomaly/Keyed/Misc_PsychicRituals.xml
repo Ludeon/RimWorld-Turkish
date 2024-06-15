@@ -1,123 +1,216 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <PsychicRitual>psychic ritual</PsychicRitual>
-  <CastPsychicRitual>Begin psychic ritual</CastPsychicRitual>
-  <CastPsychicRitualDesc>Select a psychic ritual to perform</CastPsychicRitualDesc>
-  <CannotCastPsychicRitual>{0_labelShort} cannot perform {1} psychic ritual because {2}.</CannotCastPsychicRitual>
-  <PsychicRitualBegun>The {0} psychic ritual has begun.</PsychicRitualBegun>
-  <PsychicRitualCompleted>The {0} psychic ritual has been completed.</PsychicRitualCompleted>
-  <PsychicRitualAttending>attending {RITUALNAME} psychic ritual</PsychicRitualAttending>
-  <ParticipatingInPsychicRitual>{0_labelShort} is participating in the {1} psychic ritual.</ParticipatingInPsychicRitual>
-  <AbilityDisabledInPsychicRitual>{0_labelShort} is participating in the {1} psychic ritual.</AbilityDisabledInPsychicRitual>
-  <PsychicRitual_LocationTargetting>choose a location</PsychicRitual_LocationTargetting>
-  <PsychicRitualExpectedQualityLabel>total quality</PsychicRitualExpectedQualityLabel>
-  <PsychicRitualQualityFactorLabel>quality factors</PsychicRitualQualityFactorLabel>
-  <PsychicRitualExpectedDurationLabel>duration</PsychicRitualExpectedDurationLabel>
-  <PsychicRitualRequiredOffering>required offering</PsychicRitualRequiredOffering>
-  <CausedByPsychicRitual>Caused by psychic ritual</CausedByPsychicRitual>
-  <PsychicRitualCooldownLabel>Cooldown</PsychicRitualCooldownLabel>
+  <PsychicRitual>psişik ayin</PsychicRitual>
+  <!-- EN: psychic ritual -->
+  <CastPsychicRitual>Psişik ayine başla</CastPsychicRitual>
+  <!-- EN: Begin psychic ritual -->
+  <CastPsychicRitualDesc>Yapılacak psişik ayini seç</CastPsychicRitualDesc>
+  <!-- EN: Select a psychic ritual to perform -->
+  <CannotCastPsychicRitual>{0_labelShort}, {2} sebebiyle {1} ayinini yapamıyor.</CannotCastPsychicRitual>
+  <!-- EN: {0_labelShort} cannot perform {1} psychic ritual because {2}. -->
+  <PsychicRitualBegun>{0} psişik ayini başladı.</PsychicRitualBegun>
+  <!-- EN: The {0} psychic ritual has begun. -->
+  <PsychicRitualCompleted>{0} psişik ayini tamamlandı.</PsychicRitualCompleted>
+  <!-- EN: The {0} psychic ritual has been completed. -->
+  <PsychicRitualAttending>{RITUALNAME} ayinine katılıyor</PsychicRitualAttending>
+  <!-- EN: attending {RITUALNAME} psychic ritual -->
+  <ParticipatingInPsychicRitual>{0_labelShort}, {1} ayinine katılıyor.</ParticipatingInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <AbilityDisabledInPsychicRitual>{0_labelShort}, {1} ayinine katılıyor.</AbilityDisabledInPsychicRitual>
+  <!-- EN: {0_labelShort} is participating in the {1} psychic ritual. -->
+  <PsychicRitual_LocationTargetting>bir yer seç</PsychicRitual_LocationTargetting>
+  <!-- EN: choose a location -->
+  <PsychicRitualExpectedQualityLabel>toplam kalite</PsychicRitualExpectedQualityLabel>
+  <!-- EN: total quality -->
+  <PsychicRitualQualityFactorLabel>kalite etmenleri</PsychicRitualQualityFactorLabel>
+  <!-- EN: quality factors -->
+  <PsychicRitualExpectedDurationLabel>süre</PsychicRitualExpectedDurationLabel>
+  <!-- EN: duration -->
+  <PsychicRitualRequiredOffering>gereken adak</PsychicRitualRequiredOffering>
+  <!-- EN: required offering -->
+  <CausedByPsychicRitual>Psişik ayin sebebiyle</CausedByPsychicRitual>
+  <!-- EN: Caused by psychic ritual -->
+  <PsychicRitualCooldownLabel>Bekleme süresi</PsychicRitualCooldownLabel>
+  <!-- EN: Cooldown -->
 
-  <PsychicRitualSpotObstructed>Psychic ritual area obstructed.</PsychicRitualSpotObstructed>
-  <PsychicRitualOnCooldown>psychic ritual on cooldown. It will be available in {0}.</PsychicRitualOnCooldown>
-  <PsychicRitualCanBeCastAgain>The {0} psychic ritual can be performed again.</PsychicRitualCanBeCastAgain>
-  <NoBasicResearchForPsychicRitual>No basic anomaly research project selected.</NoBasicResearchForPsychicRitual>
-  <CantCastOnPocketMap>Must perform {0} psychic ritual on the surface.</CantCastOnPocketMap>
+  <PsychicRitualSpotObstructed>Psişik ayin alanı engellenmiş</PsychicRitualSpotObstructed>
+  <!-- EN: Psychic ritual area obstructed. -->
+  <PsychicRitualOnCooldown>psişik ayin bekleme süresinde. {0} sonra yapılabilir olacak.</PsychicRitualOnCooldown>
+  <!-- EN psychic ritual on cooldown. It will be available in {0}. -->
+  <PsychicRitualCanBeCastAgain>{0} ayini yeniden yapılabilir.</PsychicRitualCanBeCastAgain>
+  <!-- EN: The {0} psychic ritual can be performed again. -->
+  <NoBasicResearchForPsychicRitual>Temel bir anomali araştırma projesi seçilmedi.</NoBasicResearchForPsychicRitual>
+  <!-- EN: No basic anomaly research project selected. -->
+  <CantCastOnPocketMap>{0} ayini yüzeyde yapılmalı.</CantCastOnPocketMap>
+  <!-- EN: Must perform {0} psychic ritual on the surface. -->
 
-  <PsychicRitualFactionWarning>Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name})</PsychicRitualFactionWarning>
+  <PsychicRitualFactionWarning>Uyarı: {PAWN_nameDef} üzerinde bir ayin yapmak onun fraksiyonunu ({FACTION_name}) kızdıracak.</PsychicRitualFactionWarning>
+  <!-- EN: Warning: Performing a ritual on {PAWN_nameDef} will anger {PAWN_possessive} faction ({FACTION_name}) -->
 
-  <PsychicRitualWakingPawnWarning>{0} is currently asleep and will wake up when the psychic ritual begins.</PsychicRitualWakingPawnWarning>
-  <PsychicRitualUndraftPawnWarning>{0} is currently drafted and will be un-drafted when the psychic ritual begins.</PsychicRitualUndraftPawnWarning>
-  <PsychicRitualWakingPawnsWarning>{0} are currently asleep and will wake up when the psychic ritual begins.</PsychicRitualWakingPawnsWarning>
-  <PsychicRitualUndraftPawnsWarning>{0} are currently drafted and will be un-drafted when the psychic ritual begins.</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualWakingPawnWarning>{0} şu anda uykuda ve ayin başladığında uyanacak.</PsychicRitualWakingPawnWarning>
+  <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnWarning>{0} şu anda görevlendirilmiş ve ayin başladığında görevlendirme bitecek.</PsychicRitualUndraftPawnWarning>
+  <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
+  <PsychicRitualWakingPawnsWarning>{0} şu anda uykuda ve psişik ayin başladığında uyanacaklar.</PsychicRitualWakingPawnsWarning>
+  <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
+  <PsychicRitualUndraftPawnsWarning>{0} şu anda görevlendirilmişler ve ayin başladığında görevlendirmeleri bitecek.</PsychicRitualUndraftPawnsWarning>
+  <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
 
-  <PsychicRitualLeft>{0_labelShort} left the {1} psychic ritual.</PsychicRitualLeft>
-  <PsychicRitualLeftBecause>{0_labelShort} left the {1} psychic ritual because {2}.</PsychicRitualLeftBecause>
-  <PsychicRitualCanceled>The {0} psychic ritual has been canceled.</PsychicRitualCanceled>
-  <PsychicRitualCanceledBecause>The {0} psychic ritual has been canceled because {1}.</PsychicRitualCanceledBecause>
+  <PsychicRitualLeft>{0_labelShort}, {1} ayinini terk etti.</PsychicRitualLeft>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
+  <PsychicRitualLeftBecause>{0_labelShort}, {2} sebebiyle {1} ayinini terk etti.</PsychicRitualLeftBecause>
+  <!-- EN: {0_labelShort} left the {1} psychic ritual because {2}. -->
+  <PsychicRitualCanceled>{0} ayini iptal edildi.</PsychicRitualCanceled>
+  <!-- EN: The {0} psychic ritual has been canceled. -->
+  <PsychicRitualCanceledBecause>{0} ayini {1} sebebiyle iptal edildi. </PsychicRitualCanceledBecause>
+  <!-- EN: The {0} psychic ritual has been canceled because {1}. -->
 
-  <PsychicRitualOfferingsInsufficient>{0} is needed but only {1} is available</PsychicRitualOfferingsInsufficient>
-  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} is unreachable by {INVOKER_labelShort}</PsychicRitualTargetUnreachableByInvoker>
+  <PsychicRitualOfferingsInsufficient>{0} gerekli ancak yalnızca {1} erişilebilir</PsychicRitualOfferingsInsufficient>
+  <!-- EN: {0} is needed but only {1} is available -->
+  <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} {INVOKER_labelShort} tarafından erişilemez</PsychicRitualTargetUnreachableByInvoker>
+  <!-- EN: {TARGET_labelShort} is unreachable by {INVOKER_labelShort} -->
 
-  <CommandLeavePsychicRitual>leave the {0} psychic ritual</CommandLeavePsychicRitual>
-  <CommandLeavePsychicRitualDesc>stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant.</CommandLeavePsychicRitualDesc>
+  <CommandLeavePsychicRitual>{0} ayinini terket</CommandLeavePsychicRitual>
+  <!-- EN: leave the {0} psychic ritual -->
+  <CommandLeavePsychicRitualDesc>{0} ayinine katılmayı bırak. Ayin, en az bir katılımcı olduğu sürece devam edecek.</CommandLeavePsychicRitualDesc>
+  <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
 
-  <CommandCancelPsychicRitual>cancel the {0} psychic ritual</CommandCancelPsychicRitual>
-  <CommandCancelPsychicRitualDesc>end the {0} psychic ritual immediately. You can restart the psychic ritual later.</CommandCancelPsychicRitualDesc>
-  <CommandCancelPsychicRitualConfirm>Are you sure you want to cancel the {0} psychic ritual?</CommandCancelPsychicRitualConfirm>
+  <CommandCancelPsychicRitual>{0} ayinini iptal et</CommandCancelPsychicRitual>
+  <!-- EN: cancel the {0} psychic ritual -->
+  <CommandCancelPsychicRitualDesc>{0} ayinini hemen bitir. Ayini daha sonra tekrar başlatabilirsin.</CommandCancelPsychicRitualDesc>
+  <!-- EN: end the {0} psychic ritual immediately. You can restart the psychic ritual later. -->
+  <CommandCancelPsychicRitualConfirm>{0} ayinini iptal etmek istediğine emin misin?</CommandCancelPsychicRitualConfirm>
+  <!-- EN: Are you sure you want to cancel the {0} psychic ritual? -->
 
-  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} vanished</PsychicRitualLeaveReason_Vanished>
-  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} is incapacitated</PsychicRitualLeaveReason_Incapped>
-  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} is dead</PsychicRitualLeaveReason_Killed>
-  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort} is not part of {FACTION_name}</PsychicRitualLeaveReason_WrongFaction>
-  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} is no longer on the map</PsychicRitualLeaveReason_ExitedMap>
-  <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort} had better things to do</PsychicRitualLeaveReason_LeftVoluntarily>
-  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} is drafted</PsychicRitualLeaveReason_Drafted>
-  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} is in a mental state</PsychicRitualLeaveReason_InMentalState>
-  <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} is bleeding</PsychicRitualLeaveReason_Bleeding>
-  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} is on fire</PsychicRitualLeaveReason_Burning>
-  <PsychicRitualLeaveReason_ExtremeTemperature>the temperature near the target is not safe for {PAWN_labelShort}</PsychicRitualLeaveReason_ExtremeTemperature>
-  <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort} cannot participate from inside {BUILDING}</PsychicRitualLeaveReason_InsideBuilding>
-  <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} is humanlike</PsychicRitualLeaveReason_Humanlike>
-  <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} is not humanlike</PsychicRitualLeaveReason_NonHumanlike>
-  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} is a prisoner</PsychicRitualLeaveReason_Prisoner>
-  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} is a slave</PsychicRitualLeaveReason_Slave>
-  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} is free</PsychicRitualLeaveReason_Freeman>
-  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} is a {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
-  <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} cannot reach the target location</PsychicRitualLeaveReason_CannotReachTarget>
-  <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} is asleep</PsychicRitualLeaveReason_Sleeping>
-  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} is not a human</PsychicRitualLeaveReason_Mutant>
-  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}'s belief in {IDEO_name} prevents participation</PsychicRitualLeaveReason_IdeoUnwilling> 
-  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} is not psychically sensitive</PsychicRitualLeaveReason_NoPsychicSensitivity>
-  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} is a temporary faction member</PsychicRitualLeaveReason_TemporaryFactionMember>
-  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} has other duties to attend to</PsychicRitualLeaveReason_PawnBusyWithLord>
-  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} has other duties to attend to</PsychicRitualLeaveReason_ForcedByQuest>
+  <PsychicRitualLeaveReason_Vanished>{PAWN_labelShort} yok oldu</PsychicRitualLeaveReason_Vanished>
+  <!-- EN: {PAWN_labelShort} vanished -->
+  <PsychicRitualLeaveReason_Incapped>{PAWN_labelShort} hareket edemez</PsychicRitualLeaveReason_Incapped>
+  <!-- EN: {PAWN_labelShort} is incapacitated -->
+  <PsychicRitualLeaveReason_Killed>{PAWN_labelShort} öldü</PsychicRitualLeaveReason_Killed>
+  <!-- EN: {PAWN_labelShort} is dead -->
+  <PsychicRitualLeaveReason_WrongFaction>{PAWN_labelShort}, {FACTION_name} fraksiyonuna ait değil</PsychicRitualLeaveReason_WrongFaction>
+  <!-- EN: {PAWN_labelShort} is not part of {FACTION_name} -->
+  <PsychicRitualLeaveReason_ExitedMap>{PAWN_labelShort} artık haritada değil</PsychicRitualLeaveReason_ExitedMap>
+  <!-- EN: {PAWN_labelShort} is no longer on the map -->
+  <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort} yapacak daha iyi işleri vardı</PsychicRitualLeaveReason_LeftVoluntarily>
+  <!-- EN: {PAWN_labelShort} had better things to do -->
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} görevlendirilmiş</PsychicRitualLeaveReason_Drafted>
+  <!-- EN: {PAWN_labelShort} is drafted -->
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} ruhsal bunalımda</PsychicRitualLeaveReason_InMentalState>
+  <!-- EN: {PAWN_labelShort} is in a mental state -->
+  <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} kanıyor</PsychicRitualLeaveReason_Bleeding>
+  <!-- EN: {PAWN_labelShort} is bleeding -->
+  <PsychicRitualLeaveReason_Burning>{PAWN_labelShort} yanıyor</PsychicRitualLeaveReason_Burning>
+  <!-- EN: {PAWN_labelShort} is on fire -->
+  <PsychicRitualLeaveReason_ExtremeTemperature>Hedef civarındaki sıcaklık {PAWN_labelShort} için güvenli değil</PsychicRitualLeaveReason_ExtremeTemperature>
+  <!-- EN: the temperature near the target is not safe for {PAWN_labelShort} -->
+  <PsychicRitualLeaveReason_InsideBuilding>{PAWN_labelShort}, {BUILDING} içinden katılamaz</PsychicRitualLeaveReason_InsideBuilding>
+  <!-- EN: {PAWN_labelShort} cannot participate from inside {BUILDING} -->
+  <PsychicRitualLeaveReason_Humanlike>{PAWN_labelShort} insansı</PsychicRitualLeaveReason_Humanlike>
+  <!-- EN: {PAWN_labelShort} is humanlike -->
+  <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} insansı değil</PsychicRitualLeaveReason_NonHumanlike>
+  <!-- EN: {PAWN_labelShort} is not humanlike -->
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} bir mahkum</PsychicRitualLeaveReason_Prisoner>
+  <!-- EN: {PAWN_labelShort} is a prisoner -->
+  <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} bir köle</PsychicRitualLeaveReason_Slave>
+  <!-- EN: {PAWN_labelShort} is a slave -->
+  <PsychicRitualLeaveReason_Freeman>{PAWN_labelShort} özgür birisi</PsychicRitualLeaveReason_Freeman>
+  <!-- EN: {PAWN_labelShort} is free -->
+  <PsychicRitualLeaveReason_DevelopmentalStage>{PAWN_labelShort} bir {STAGE}</PsychicRitualLeaveReason_DevelopmentalStage>
+  <!-- EN: {PAWN_labelShort} is a {STAGE} -->
+  <PsychicRitualLeaveReason_CannotReachTarget>{PAWN_labelShort} hedef noktaya ulaşamıyor</PsychicRitualLeaveReason_CannotReachTarget>
+  <!-- EN: {PAWN_labelShort} cannot reach the target location -->
+  <PsychicRitualLeaveReason_Sleeping>{PAWN_labelShort} uykuda</PsychicRitualLeaveReason_Sleeping>
+  <!-- EN: {PAWN_labelShort} is asleep -->
+  <PsychicRitualLeaveReason_Mutant>{PAWN_labelShort} bir insan değil</PsychicRitualLeaveReason_Mutant>
+  <!-- EN: {PAWN_labelShort} is not a human -->
+  <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}, inancı olan {IDEO_name} gereği katılamıyor</PsychicRitualLeaveReason_IdeoUnwilling>
+  <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} psişik açıdan hassas değil</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
+  <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} geçici bir üye</PsychicRitualLeaveReason_TemporaryFactionMember>
+  <!-- EN: {PAWN_labelShort} is a temporary faction member -->
+  <PsychicRitualLeaveReason_PawnBusyWithLord>{PAWN_labelShort} yapacak başka işleri var</PsychicRitualLeaveReason_PawnBusyWithLord>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
+  <PsychicRitualLeaveReason_ForcedByQuest>{PAWN_labelShort} yapacak başka işleri var</PsychicRitualLeaveReason_ForcedByQuest>
+  <!-- EN: {PAWN_labelShort} has other duties to attend to -->
 
   <!-- PsychicRitualToils-->
-  <PsychicRitualToil_Goto_JobReport_Moving>moving into position</PsychicRitualToil_Goto_JobReport_Moving>
-  <PsychicRitualToil_Goto_JobReport_Waiting>waiting for everyone to get into position</PsychicRitualToil_Goto_JobReport_Waiting>
+  <PsychicRitualToil_Goto_JobReport_Moving>yerine geçiyor</PsychicRitualToil_Goto_JobReport_Moving>
+  <!-- EN: moving into position -->
+  <PsychicRitualToil_Goto_JobReport_Waiting>herkesin yerine geçmesini bekliyor</PsychicRitualToil_Goto_JobReport_Waiting>
+  <!-- EN: waiting for everyone to get into position -->
 
-  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} was unable to find enough {1}</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
-  <PsychicRitualToil_GatherOfferings_JobReport>gathering offering</PsychicRitualToil_GatherOfferings_JobReport>
+  <PsychicRitualToil_GatherOfferings_OfferingUnavailable>{PAWN_labelShort} yeteri kadar {1} bulamadı</PsychicRitualToil_GatherOfferings_OfferingUnavailable>
+  <!-- EN: {PAWN_labelShort} was unable to find enough {1} -->
+  <PsychicRitualToil_GatherOfferings_JobReport>adakları topluyor</PsychicRitualToil_GatherOfferings_JobReport>
+  <!-- EN: gathering offering -->
 
-  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>leading psychic ritual</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
-  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>channeling power to psychic ritual</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
-  <PsychicRitualToil_InvokeHorax_JobReport_Target>psychic ritual target</PsychicRitualToil_InvokeHorax_JobReport_Target>
-  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0} doesn't have enough {1}</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
-  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} is out of position</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
-  <PsychicRitualToil_InvokeHorax_JobReport_Defender>defending psychic ritual</PsychicRitualToil_InvokeHorax_JobReport_Defender> 
+  <PsychicRitualToil_InvokeHorax_JobReport_Invoker>ayine öncülük ediyor</PsychicRitualToil_InvokeHorax_JobReport_Invoker>
+  <!-- EN: leading psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Chanter>gücü ayine odaklıyor</PsychicRitualToil_InvokeHorax_JobReport_Chanter>
+  <!-- EN: channeling power to psychic ritual -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Target>ayin hedefi</PsychicRitualToil_InvokeHorax_JobReport_Target>
+  <!-- EN: psychic ritual target -->
+  <PsychicRitualToil_InvokeHorax_MissingRequiredOffering>{0} yeteri kadar {1} sahip değil</PsychicRitualToil_InvokeHorax_MissingRequiredOffering>
+  <!-- EN: {0} doesn't have enough {1}-->
+  <PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>{PAWN_labelShort} yerinde değil</PsychicRitualToil_InvokeHorax_PawnIsOutOfPosition>
+  <!-- EN: {PAWN_labelShort} is out of position -->
+  <PsychicRitualToil_InvokeHorax_JobReport_Defender>ayini savunuyor</PsychicRitualToil_InvokeHorax_JobReport_Defender>
+  <!-- EN: defending psychic ritual -->
 
-  <PsychicRitualToil_GatherForInvocation_Report>waiting on</PsychicRitualToil_GatherForInvocation_Report>
-  <PsychicRitualToil_InvokeHorax_Report>invoking the void</PsychicRitualToil_InvokeHorax_Report>
+  <PsychicRitualToil_GatherForInvocation_Report>bekliyor</PsychicRitualToil_GatherForInvocation_Report>
+  <!-- EN: waiting on -->
+  <PsychicRitualToil_InvokeHorax_Report>boşluğa yakarıyor</PsychicRitualToil_InvokeHorax_Report>
+  <!-- EN: invoking the void -->
 
-  <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} was destroyed</PsychicRitualDef_TargetDestroyed>
+  <PsychicRitualDef_TargetDestroyed>{TARGET_labelShort} yok edildi</PsychicRitualDef_TargetDestroyed>
+  <!-- EN: {TARGET_labelShort} was destroyed -->
 
-  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>the area around the target site must be clear of obstructions</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort}'s psychic sensitivity</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>How in-tune {PAWN_labelShort} is with psychic phenomena.</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>These objects help focus the psychic power of the ritual.</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>Ideoligion offset</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>How affected the psychic ritual is by ideoligious beliefs.</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+  <PsychicRitualDef_InvocationCircle_AreaMustBeClear>Hedef çevresindeki alan engellerden arındırılmış olmalı</PsychicRitualDef_InvocationCircle_AreaMustBeClear>
+  <!-- EN: the area around the target site must be clear of obstructions -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>{PAWN_labelShort} psişik hassasiyeti</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity>
+  <!-- EN: {PAWN_labelShort}'s psychic sensitivity -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>{PAWN_labelShort} ile psişik fenomenin ne kadar ahenkli olduğu</PsychicRitualDef_InvocationCircle_QualityFactor_PsychicSensitivity_Tooltip>
+  <!-- EN: How in-tune {PAWN_labelShort} is with psychic phenomena. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Şu objeler ayinin psişik gücünün odaklanmasına yardımcı olur</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
+  <!-- EN: These objects help focus the psychic power of the ritual. -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>İdeoloji çarpanı</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <!-- EN: Ideoligion offset -->
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>Ayinin ideolojik bağlılıklar tarafından ne kadar etkilendiği</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+  <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
 
   <!-- PsychicRitualDef_InvokationCircle messages -->
-  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0} has begun performing the {1} psychic ritual.</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
-  <PsychicRitualAreaObstructed>psychic ritual area is obstructed</PsychicRitualAreaObstructed>
+  <PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>{0}, {1} ayinini yapmaya başladı.</PsychicRitualDef_InvocationCircle_PsychicRitualBegunMessage>
+  <!-- EN: {0} has begun performing the {1} psychic ritual. -->
+  <PsychicRitualAreaObstructed>ayin alanı engellenmiş</PsychicRitualAreaObstructed>
+  <!-- EN: psychic ritual area is obstructed -->
 
   <!-- Animal summoning -->
-  <NotEnoughAnimals>Not enough animals in this biome.</NotEnoughAnimals>
+  <NotEnoughAnimals>Bu biyomda yeterli hayvan yok.</NotEnoughAnimals>
+  <!-- EN: Not enough animals in this biome. -->
 
   <!-- Shambler summoning -->
-  <NoNearbyShamblers>No nearby shamblers.</NoNearbyShamblers>
+  <NoNearbyShamblers>Yakınlarda hortlak yok</NoNearbyShamblers>
+  <!-- EN: No nearby shamblers. -->
 
   <!-- Pit gate summoning -->
-  <PitGateAlreadyExists>There is already a pit gate on the map.</PitGateAlreadyExists>
+  <PitGateAlreadyExists>Haritada hali hazırda bir çukur geçit var</PitGateAlreadyExists>
+  <!-- EN: There is already a pit gate on the map. -->
   
   <!-- Chronophagy -->
-  <InvokerTooYoung>The invoker must be at least {0} years old.</InvokerTooYoung>
-  <PsychicRitualTargetTooYoung>The target must be at least {0} years old.</PsychicRitualTargetTooYoung>
-  <CronophagyAgeChange>{INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old.</CronophagyAgeChange>
+  <InvokerTooYoung>Yakarıcı en az {0} yaşında olmalı.</InvokerTooYoung>
+  <!-- EN: The invoker must be at least {0} years old. -->
+  <PsychicRitualTargetTooYoung>Hedef en az {0} yaşında olmalı.</PsychicRitualTargetTooYoung>
+  <!-- EN: The target must be at least {0} years old. -->
+  <CronophagyAgeChange>{INVOKER_labelShort} {1} yaşında olacak ve {TARGET_labelShort} {3} yaşında olacak.</CronophagyAgeChange>
+  <!-- EN: {INVOKER_labelShort} will become {1} years old, and {TARGET_labelShort} will become {3} years old. -->
   
   <!-- Philophagy -->
-  <PhilophagyTransferReport>{INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}.</PhilophagyTransferReport>
-  <NoSkillsToTransfer>{TARGET_labelShort} has no skills to transfer.</NoSkillsToTransfer>
+  <PhilophagyTransferReport>{INVOKER_labelShort}, {TARGET_labelShort}'dan {1} {SKILL_label} XP çalacak.</PhilophagyTransferReport>
+  <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
+  <NoSkillsToTransfer>{TARGET_labelShort} aktaracak bir yeteneğe sahip değil.</NoSkillsToTransfer>
+  <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
+
 </LanguageData>

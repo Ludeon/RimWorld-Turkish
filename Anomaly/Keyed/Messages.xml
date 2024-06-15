@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- Entities -->
-  <MessageActivityRisingDamage>{0_definite}'nin aktivitesi, hasar alması sebebiyle artıyor.</MessageActivityRisingDamage>
+  <MessageActivityRisingDamage>{0_definite} etkinliği, hasar alması sebebiyle artıyor.</MessageActivityRisingDamage>
   <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
   <EntityDiedOnHoldingPlatform>{0_definite} bir zincirleme platformunda öldü.</EntityDiedOnHoldingPlatform>
   <!-- EN: {0_definite} has died on a holding platform. -->
@@ -18,51 +18,75 @@
   <!-- Self-resurrection -->
   <SelfResurrectText>{0_nameDef}, emir verilmesi halinde ölüm reddi ile kendini diriltebilir.</SelfResurrectText>
   <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <MessageUsingSelfResurrection>{0_nameDef} is using death refusal to self-resurrect.</MessageUsingSelfResurrection>
+  <MessageUsingSelfResurrection>{0_nameDef} kendini diriltmek için ölüm reddini kullanıyor.</MessageUsingSelfResurrection>
+  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
 
   <!-- Pit Gate -->
-  <MessagePitGateCollapsed>The pit gate has collapsed.</MessagePitGateCollapsed>
-  <MessagePitBurrowCollapsed>A pit burrow has collapsed.</MessagePitBurrowCollapsed>
+  <MessagePitGateCollapsed>Çukur geçit çöktü.</MessagePitGateCollapsed>
+  <!-- EN: The pit gate has collapsed. -->
+  <MessagePitBurrowCollapsed>Bir oyuk çöktü.</MessagePitBurrowCollapsed>
+  <!-- EN: A pit burrow has collapsed. -->
 
   <!-- Fleshsack -->
-  <FleshmassContainedMessage>The flesh sack contained something</FleshmassContainedMessage>
+  <FleshmassContainedMessage>Et kese bir şeyi muhafaza ediyor.</FleshmassContainedMessage>
+  <!-- EN: The flesh sack contained something -->
 
   <!-- Psychic rituals -->
-  <MessagePsychicRitualAssault>{0_pawnsPluralDef} are attacking!</MessagePsychicRitualAssault>
-  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} are beginning the psychic ritual</MessageAIPsychicRitualBegan>
+  <MessagePsychicRitualAssault>{0_pawnsPluralDef} saldırıyor!</MessagePsychicRitualAssault>
+  <!-- EN: {0_pawnsPluralDef} are attacking! -->
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} psişik ayin yapmaya başlıyor</MessageAIPsychicRitualBegan>
+  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
   
   <!-- Biomutation lance -->
-  <MessageBiomutationLanceInvalidTargetRace>Cannot target: {0_nameDef} is not an animal or human.</MessageBiomutationLanceInvalidTargetRace>
-  <MessageBiomutationLanceTargetTooBig>Cannot target: {0_nameDef} is too large.</MessageBiomutationLanceTargetTooBig>
+  <MessageBiomutationLanceInvalidTargetRace>Hedef alınamaz: {0_nameDef} bir hayvan ya da insan değil.</MessageBiomutationLanceInvalidTargetRace>
+  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
+  <MessageBiomutationLanceTargetTooBig>Hedef alınamaz: {0_nameDef} çok büyük.</MessageBiomutationLanceTargetTooBig>
+  <!-- EN: Cannot target: {0_nameDef} is too large. -->
 
   <!-- Containment -->
-  <MessageNoRoomWithMinimumContainmentStrength>Warning: No rooms have the minimum containment strength for {0}. It will escape soon.</MessageNoRoomWithMinimumContainmentStrength>
-  <MessageTargetBelowMinimumContainmentStrength>Warning: {0} is below minimum containment strength for {1}. It will escape soon.</MessageTargetBelowMinimumContainmentStrength>
-  <MessageHolderReserved>Can't transfer to {0} reserved by someone else.</MessageHolderReserved>
-  <MessageEntityExecuted>{EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}.</MessageEntityExecuted>
-  <MessageOccupiedHoldingPlatformReinstalled>Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformReinstalled>
-  <MessageOccupiedHoldingPlatformUninstalled>Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformUninstalled>
-  <MessageOccupiedHoldingPlatformDeconstructed>Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first.</MessageOccupiedHoldingPlatformDeconstructed>
+  <MessageNoRoomWithMinimumContainmentStrength>Uyarı: Hiçbir oda {0} için gereken minimum muhafaza gücüne sahip değil. Yakında kaçacak.</MessageNoRoomWithMinimumContainmentStrength>
+  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It will escape soon. -->
+  <MessageTargetBelowMinimumContainmentStrength>Uyarı: {0}, {1} için gereken minimum muhafaza gücünün altında. Yakında kaçacak.</MessageTargetBelowMinimumContainmentStrength>
+  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It will escape soon. -->
+  <MessageHolderReserved>{0} noktasına nakledilemiyor, başkası için ayrıldı.</MessageHolderReserved>
+  <!-- EN: Can't transfer to {0} reserved by someone else. -->
+  <MessageEntityExecuted>{VICTIM_kindIndef}, {EXECUTIONER_labelShort} tarafından infaz edildi.</MessageEntityExecuted>
+  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
+  <MessageOccupiedHoldingPlatformReinstalled>Uyarı: Dolu bir zincirleme platformunu taşımak bağlı olan varlığı serbest bırakır. Önce varlığı başka bir platforma naklet.</MessageOccupiedHoldingPlatformReinstalled>
+  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformUninstalled>Uyarı: Dolu bir zincirleme platformunu kaldırmak bağlı olan varlığı serbest bırakır. Önce varlığı başka bir platforma naklet.</MessageOccupiedHoldingPlatformUninstalled>
+  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
+  <MessageOccupiedHoldingPlatformDeconstructed>Uyarı: Dolu bir zincirleme platformunu yıkmak bağlı olan varlığı serbest bırakır. Önce varlığı başka bir platforma naklet.</MessageOccupiedHoldingPlatformDeconstructed>
+  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
   
   <!-- Duplicator obelisk -->
-  <MessageHostileDuplicate>A hostile duplicate of {0_nameDef} has appeared.</MessageHostileDuplicate>
+  <MessageHostileDuplicate>Düşman bir {0_nameDef} klonu ortaya çıktı.</MessageHostileDuplicate>
+  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
   
   <!-- Proximity detector -->
-  <MessageProximityDetectorTriggered>A proximity detector has detected an invisible creature.</MessageProximityDetectorTriggered>
+  <MessageProximityDetectorTriggered>Bir yakınlık sensörü görünmez bir yaratık algıladı.</MessageProximityDetectorTriggered>
+  <!-- EN: A proximity detector has detected an invisible creature. -->
   
   <!-- Unnatural darkness --> 
-  <MessagePawnAttackedInDarkness>Something in the darkness has attacked {0_nameDef}.</MessagePawnAttackedInDarkness>
+  <MessagePawnAttackedInDarkness>{0_nameDef} karanlıkta bir şey tarafından saldırıya uğradı.</MessagePawnAttackedInDarkness>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
   
   <!-- Revenant -->
-  <MessageRevenantForcedVisibility>A hidden revenant has been revealed!</MessageRevenantForcedVisibility>
-  <MessageRevenantHeard>{PAWN_nameDef} can hear the revenant {1} nearby!</MessageRevenantHeard>
+  <MessageRevenantForcedVisibility>Gizli bir karabasan açığa çıktı.</MessageRevenantForcedVisibility>
+  <!-- EN: A hidden revenant has been revealed! -->
+  <MessageRevenantHeard>{PAWN_nameDef} yakınlarda {1} karabasanı duyuyor!</MessageRevenantHeard>
+  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
   
   <!-- Abilities -->
-  <MessageCannotUseOnNonBleeder>{ABILITY_label} cannot be used on non-bleeding creatures.</MessageCannotUseOnNonBleeder>
+  <MessageCannotUseOnNonBleeder>{ABILITY_label} kanaması olmayan yaratıklar üzerinde kullanılamaz.</MessageCannotUseOnNonBleeder>
+  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
   
-  <MessageFingerspikeDisturbed>{WAKER_nameDef} has disturbed a fingerspike.</MessageFingerspikeDisturbed>
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} has disturbed several fingerspikes.</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} bir parmaksıdikeni rahatsız etti.</MessageFingerspikeDisturbed>
+  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} birden çok parmaksıdikeni rahatsız etti.</MessageFingerspikeDisturbedPlural>
+  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
 
-  <DeathPallResurrectedMessage>The death pall has resurrected {0_indefinite}.</DeathPallResurrectedMessage>
+  <DeathPallResurrectedMessage>Ölüm örtüsü {0_indefinite} diriltti.</DeathPallResurrectedMessage>
+  <!-- EN: The death pall has resurrected {0_indefinite}. -->
   
 </LanguageData>

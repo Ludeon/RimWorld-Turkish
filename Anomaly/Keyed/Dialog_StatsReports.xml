@@ -3,7 +3,7 @@
 
   <KnowledgeFromStudy>Araştırmadan bilgi edinimi</KnowledgeFromStudy>
   <!-- EN: Knowledge gain from study -->
-  <KnowledgeFromStudyDesc>Bu varlık incelendiğinde edinilecek olan anomali bilgisinin türü ve miktarı. Daha karmaşık varlıklar daha ileri seviye anomali araştırma projelerinin kilidini açabilir.</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudyDesc>Bu varlık incelendiğinde edinilecek olan anomali bilgisinin türü ve miktarı. Daha karmaşık varlıklar, daha ileri seviye anomali araştırma projelerinin kilidini açabilir.</KnowledgeFromStudyDesc>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
   <Stat_Knowledge>{0} {1}</Stat_Knowledge>
   <StudyFrequency>İnceleme aralığı</StudyFrequency>
@@ -20,9 +20,9 @@
 
   <Stat_ContainmentStrength_AverageLighting>Ortalama ışıklandırma</Stat_ContainmentStrength_AverageLighting>
   <!-- EN: Average lighting -->
-  <Stat_ContainmentStrength_AverageWallHp>Ortalama duvar sağlamlığı</Stat_ContainmentStrength_AverageWallHp>
+  <Stat_ContainmentStrength_AverageWallHp>Ortalama duvar HPsi</Stat_ContainmentStrength_AverageWallHp>
   <!-- EN: Average wall HP -->
-  <Stat_ContainmentStrength_AverageDoorHp>Ortalama kapı sağlamlığı</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_AverageDoorHp>Ortalama kapı HPsi</Stat_ContainmentStrength_AverageDoorHp>
   <!-- EN: Average door HP -->
   <Stat_ContainmentStrength_OtherHoldingPlatforms>Çoklu ({0}) zincirleme platformu</Stat_ContainmentStrength_OtherHoldingPlatforms>
   <!-- EN: Multiple ({0}) holding platforms -->
@@ -30,7 +30,7 @@
   <!-- EN: Map-wide offset-->
   <Stat_ContainmentStrength_DoorForcedOpen>kapı açık</Stat_ContainmentStrength_DoorForcedOpen>
   <!-- EN: door open -->
-  <Stat_ContainmentStrength_NotFullyRoofed>Üstü açık</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_NotFullyRoofed>Tamamen çatılı değil</Stat_ContainmentStrength_NotFullyRoofed>
   <!-- EN: Not fully roofed -->
   <Stat_ContainmentStrength_Flooring>Zemin kaplama</Stat_ContainmentStrength_Flooring>
   <!-- EN: Flooring -->
@@ -61,7 +61,7 @@
 
   <StatsReport_ContainmentStrengthOffset>Varlık çarpanı</StatsReport_ContainmentStrengthOffset>
   <!-- EN: Containment offset -->
-  <StatsReport_ContainmentStrengthOffset_Desc></StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset_Desc>Daha iyi muhafaza edilen varlıklar kaçmaya daha az meyillidir ve incelendiklerinde daha çok bilgi sağlarlar.</StatsReport_ContainmentStrengthOffset_Desc>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
 
   <StatsReport_SerumDuration>Süre</StatsReport_SerumDuration>
@@ -73,7 +73,7 @@
   <!-- EN: Occupied-->
   <MeditationFocusPerBuilding>Yakındaki {BUILDING_label} başına {2} ({0} / {1})</MeditationFocusPerBuilding>
   <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
-  <MeditationFocusPerBuildingAbstract>{BUILDING_label} başına {1} ({0}'e kadar)</MeditationFocusPerBuildingAbstract>
+  <MeditationFocusPerBuildingAbstract>{BUILDING_label} başına {1} (en fazla {0})</MeditationFocusPerBuildingAbstract>
   <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
 
 </LanguageData>
