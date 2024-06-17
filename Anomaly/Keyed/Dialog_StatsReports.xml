@@ -1,79 +1,82 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
-  <KnowledgeFromStudy>Araştırmadan bilgi edinimi</KnowledgeFromStudy>
   <!-- EN: Knowledge gain from study -->
-  <KnowledgeFromStudyDesc>Bu varlık incelendiğinde edinilecek olan anomali bilgisinin türü ve miktarı. Daha karmaşık varlıklar, daha ileri seviye anomali araştırma projelerinin kilidini açabilir.</KnowledgeFromStudyDesc>
+  <KnowledgeFromStudy>Araştırmadan bilgi edinimi</KnowledgeFromStudy>
   <!-- EN: The type and amount of anomaly knowledge that can be obtained when this entity is studied. More sophisticated entities can unlock more advanced anomaly research projects. -->
+  <KnowledgeFromStudyDesc>Bu varlık incelendiğinde edinilecek olan anomali bilgisinin türü ve miktarı. Daha karmaşık varlıklar, daha ileri seviye anomali araştırma projelerinin kilidini açabilir.</KnowledgeFromStudyDesc>
+  <!-- EN: {0} {1} -->
   <Stat_Knowledge>{0} {1}</Stat_Knowledge>
-  <StudyFrequency>İnceleme aralığı</StudyFrequency>
   <!-- EN: Study interval -->
-  <StudyFrequencyDesc>Bu varlığı incelemenin uygun olduğu periyotlar arası süre.</StudyFrequencyDesc>
+  <StudyFrequency>İnceleme aralığı</StudyFrequency>
   <!-- EN: The duration between available study periods for this entity. -->
+  <StudyFrequencyDesc>Bu varlığı incelemenin uygun olduğu periyotlar arası süre.</StudyFrequencyDesc>
   
-  <Stat_Hediff_Regeneration_Name>İyileşme</Stat_Hediff_Regeneration_Name>
   <!-- EN: Healing -->
-  <Stat_Hediff_Regeneration_Desc>Günlük iyileşme miktarı</Stat_Hediff_Regeneration_Desc>
+  <Stat_Hediff_Regeneration_Name>İyileşme</Stat_Hediff_Regeneration_Name>
   <!-- EN: A flat amount of healing per day. -->
+  <Stat_Hediff_Regeneration_Desc>Günlük iyileşme miktarı</Stat_Hediff_Regeneration_Desc>
+  <!-- EN: {0} hp/day -->
   <Stat_Hediff_Regeneration_Stat>Günde {0} HP</Stat_Hediff_Regeneration_Stat>
-  <!-- EN: {0} hp/day-->
 
-  <Stat_ContainmentStrength_AverageLighting>Ortalama ışıklandırma</Stat_ContainmentStrength_AverageLighting>
   <!-- EN: Average lighting -->
-  <Stat_ContainmentStrength_AverageWallHp>Ortalama duvar HPsi</Stat_ContainmentStrength_AverageWallHp>
+  <Stat_ContainmentStrength_AverageLighting>Ortalama ışıklandırma</Stat_ContainmentStrength_AverageLighting>
   <!-- EN: Average wall HP -->
-  <Stat_ContainmentStrength_AverageDoorHp>Ortalama kapı HPsi</Stat_ContainmentStrength_AverageDoorHp>
+  <Stat_ContainmentStrength_AverageWallHp>Ortalama duvar HPsi</Stat_ContainmentStrength_AverageWallHp>
   <!-- EN: Average door HP -->
-  <Stat_ContainmentStrength_OtherHoldingPlatforms>Çoklu ({0}) zincirleme platformu</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <Stat_ContainmentStrength_AverageDoorHp>Ortalama kapı HPsi</Stat_ContainmentStrength_AverageDoorHp>
   <!-- EN: Multiple ({0}) holding platforms -->
+  <Stat_ContainmentStrength_OtherHoldingPlatforms>Çoklu ({0}) zincirleme platformu</Stat_ContainmentStrength_OtherHoldingPlatforms>
+  <!-- EN: Map-wide offset -->
   <Stat_ContainmentStrength_MapwideOffset>Harita çapında çarpan</Stat_ContainmentStrength_MapwideOffset>
-  <!-- EN: Map-wide offset-->
-  <Stat_ContainmentStrength_DoorForcedOpen>kapı açık</Stat_ContainmentStrength_DoorForcedOpen>
   <!-- EN: door open -->
-  <Stat_ContainmentStrength_NotFullyRoofed>Tamamen çatılı değil</Stat_ContainmentStrength_NotFullyRoofed>
+  <Stat_ContainmentStrength_DoorForcedOpen>kapı açık</Stat_ContainmentStrength_DoorForcedOpen>
   <!-- EN: Not fully roofed -->
-  <Stat_ContainmentStrength_Flooring>Zemin kaplama</Stat_ContainmentStrength_Flooring>
+  <Stat_ContainmentStrength_NotFullyRoofed>Tamamen çatılı değil</Stat_ContainmentStrength_NotFullyRoofed>
   <!-- EN: Flooring -->
-  <Stat_ContainmentStrength_Platform>Yapı</Stat_ContainmentStrength_Platform>
+  <Stat_ContainmentStrength_Flooring>Zemin kaplama</Stat_ContainmentStrength_Flooring>
   <!-- EN: Building -->
+  <Stat_ContainmentStrength_Platform>Yapı</Stat_ContainmentStrength_Platform>
 
-  <StatsReport_BioferriteGeneration>Biyoferrit üretimi</StatsReport_BioferriteGeneration>
   <!-- EN: Bioferrite generation -->
+  <StatsReport_BioferriteGeneration>Biyoferrit üretimi</StatsReport_BioferriteGeneration>
+  <!-- EN: How much bioferrite this entity generates per day when connected to a bioferrite harvester. -->
   <StatsReport_BioferriteGeneration_Desc>Bu varlığın ürettiği günlük biyoferrit miktarı. Bir zincirleme platformunda tutsak edildikten sonra, yanına bir biyoferrit hasat makinesi inşa edilerek biyoferrit toplanabilir.</StatsReport_BioferriteGeneration_Desc>
-  <!-- EN: How much bioferrite this entity generates per day. When captured on a holding platform, bioferrite can be gathered from it by building a bioferrite harvester. -->
-  <StatsReport_BioferriteDensityMultiplier>Biyoferrit yoğunluğu için çarpan</StatsReport_BioferriteDensityMultiplier>
   <!-- EN: Multiplier for bioferrite density -->
-  
-  <StatsReport_Offering>Adak</StatsReport_Offering>
+  <StatsReport_BioferriteDensityMultiplier>Biyoferrit yoğunluğu için çarpan</StatsReport_BioferriteDensityMultiplier>
+  <!-- EN: Multiplier for bioferrite extracted recently -->
+  <StatsReport_BioferriteExtractedMultiplier>Son zamanlarda elde edilen biyoferrit için çarpan</StatsReport_BioferriteExtractedMultiplier>
+
   <!-- EN: Offering -->
-  <StatsReport_Offering_Desc>Psişik ayini yapabilmek için gereken malzemeler.</StatsReport_Offering_Desc>
+  <StatsReport_Offering>Adak</StatsReport_Offering>
   <!-- EN: The ingredients required to perform the psychic ritual. -->
+  <StatsReport_Offering_Desc>Psişik ayini yapabilmek için gereken malzemeler.</StatsReport_Offering_Desc>
 
-  <StatsReport_RitualDuration>Ayin süresi</StatsReport_RitualDuration>
   <!-- EN: Ritual duration -->
-  <StatsReport_RitualDuration_Desc>Bu ayini yapabilmek için gereken süre.</StatsReport_RitualDuration_Desc>
+  <StatsReport_RitualDuration>Ayin süresi</StatsReport_RitualDuration>
   <!-- EN: The time it takes to perform this ritual. -->
+  <StatsReport_RitualDuration_Desc>Bu ayini yapabilmek için gereken süre.</StatsReport_RitualDuration_Desc>
 
-  <StatsReport_RitualCooldown>Bekleme süresi</StatsReport_RitualCooldown>
   <!-- EN: Cooldown -->
-  <StatsReport_RitualCooldown_Desc>Bir ayin yapıldıktan sonra, ortamın psişik enerjisini bir süreliğine bozar. Bu sürede ayin yeniden yapılamaz.</StatsReport_RitualCooldown_Desc>
+  <StatsReport_RitualCooldown>Bekleme süresi</StatsReport_RitualCooldown>
   <!-- EN: After a ritual is performed, it disrupts ambient psychic energy for a period of time. During this time, the ritual can't be performed again. -->
+  <StatsReport_RitualCooldown_Desc>Bir ayin yapıldıktan sonra, ortamın psişik enerjisini bir süreliğine bozar. Bu sürede ayin yeniden yapılamaz.</StatsReport_RitualCooldown_Desc>
 
-  <StatsReport_ContainmentStrengthOffset>Varlık çarpanı</StatsReport_ContainmentStrengthOffset>
   <!-- EN: Containment offset -->
-  <StatsReport_ContainmentStrengthOffset_Desc>Daha iyi muhafaza edilen varlıklar kaçmaya daha az meyillidir ve incelendiklerinde daha çok bilgi sağlarlar.</StatsReport_ContainmentStrengthOffset_Desc>
+  <StatsReport_ContainmentStrengthOffset>Varlık çarpanı</StatsReport_ContainmentStrengthOffset>
   <!-- EN: How much this affects the ability of a holding platform to constrain an entity. Entities that are better contained are less likely to escape and provide more knowledge when studied. -->
+  <StatsReport_ContainmentStrengthOffset_Desc>Daha iyi muhafaza edilen varlıklar kaçmaya daha az meyillidir ve incelendiklerinde daha çok bilgi sağlarlar.</StatsReport_ContainmentStrengthOffset_Desc>
 
-  <StatsReport_SerumDuration>Süre</StatsReport_SerumDuration>
   <!-- EN: Duration -->
-  <StatsReport_SerumDuration_Desc>Bir serumun etkili olduğu süre.</StatsReport_SerumDuration_Desc>
+  <StatsReport_SerumDuration>Süre</StatsReport_SerumDuration>
   <!-- EN: How long the effects of a serum last. -->
+  <StatsReport_SerumDuration_Desc>Bir serumun etkili olduğu süre.</StatsReport_SerumDuration_Desc>
   
+  <!-- EN: Occupied -->
   <StatsReport_Occupied>Meşgul</StatsReport_Occupied>
-  <!-- EN: Occupied-->
-  <MeditationFocusPerBuilding>Yakındaki {BUILDING_label} başına {2} ({0} / {1})</MeditationFocusPerBuilding>
   <!-- EN: {2} per nearby {BUILDING_label} ({0} / {1}) -->
-  <MeditationFocusPerBuildingAbstract>{BUILDING_label} başına {1} (en fazla {0})</MeditationFocusPerBuildingAbstract>
+  <MeditationFocusPerBuilding>Yakındaki {BUILDING_label} başına {2} ({0} / {1})</MeditationFocusPerBuilding>
   <!-- EN: {1} per nearby {BUILDING_label} (up to {0}) -->
+  <MeditationFocusPerBuildingAbstract>{BUILDING_label} başına {1} (en fazla {0})</MeditationFocusPerBuildingAbstract>
 
 </LanguageData>
