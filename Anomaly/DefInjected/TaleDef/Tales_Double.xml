@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: healed me -->
-  <HealedMe.label>TODO</HealedMe.label>
+  <HealedMe.label>beni iyileştirdi</HealedMe.label>
   
   <!-- EN: mutated my arm -->
-  <MutatedMyArm.label>TODO</MutatedMyArm.label>
+  <MutatedMyArm.label>kolumu mutasyona uğrattı</MutatedMyArm.label>
   
   <!-- EN: studied an entity -->
-  <StudiedEntity.label>TODO</StudiedEntity.label>
+  <StudiedEntity.label>bir varlığı inceledi</StudiedEntity.label>
   <!-- EN:
     <li>tale_noun->[STUDIER_nameDef] studying [ENTITY_nameIndef]</li>
     <li>image->[STUDIER_nameFull] carefully examining [ENTITY_nameDef] [circumstance_group]</li>
@@ -23,6 +23,19 @@
     <li>desc_sentence->[ENTITY_nameDef] is only just held in the place by the ceaseless work of electro-inhibitors.</li>
     <li>desc_sentence->[ENTITY_nameDef] does not appear to react to [STUDIER_nameDef]'s efforts.</li>
   -->
-  <StudiedEntity.rulePack.rulesStrings>TODO</StudiedEntity.rulePack.rulesStrings>
+  <StudiedEntity.rulePack.rulesStrings>
+    <li>tale_noun->[STUDIER_nameDef], [ENTITY_nameIndef] inceliyor</li>
+    <li>image->[STUDIER_nameFull] [ENTITY_nameDef] varlığını dikkatlice inceliyor, [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] [ENTITY_nameDef] varlığının sırlarını çözmek için deneyler yürütüyor, [circumstance_group]</li>
+    <li>image->[STUDIER_nameFull] [ENTITY_nameDef] varlığının doğasını kavramak için çabalıyor, [circumstance_group]</li>
+    <li>circumstance_phrase->gözlerinde zor gizlediği bir iğrenme ile</li>
+    <li>circumstance_phrase->bir not defterini karalarken</li>
+    <li>circumstance_phrase->antik bir kitaba danışırken</li>
+    <li>desc_sentence->Biyoferrit hasat makinelerinin devamlı işleyişi arka planda görülebilir.</li>
+    <li>desc_sentence->Kolonistin [ENTITY_nameDef] varlığına olan hayranlığı bariz.</li>
+    <li>desc_sentence->[STUDIER_nameDef], [ENTITY_nameDef] incelemesine tamamen kendini kaptırmış, onun sırlarını öğrenmek için çabalıyor.</li>
+    <li>desc_sentence->[ENTITY_nameDef], yalnızca elektro-inhibitörlerin olağanüstü çabasıyla yerinde tutuluyor.</li>
+    <li>desc_sentence->[ENTITY_nameDef], [STUDIER_nameDef]'in çabalarına yanıt vermiyor.</li>
+  </StudiedEntity.rulePack.rulesStrings>
   
 </LanguageData>
