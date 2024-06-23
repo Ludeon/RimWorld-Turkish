@@ -112,7 +112,117 @@
     <li>cubeEmotion->charmed</li>
     <li>cubeEmotion->aggravated</li>
   -->
-  <ArtDescription_CubeSculpture.rulePack.rulesStrings>TODO</ArtDescription_CubeSculpture.rulePack.rulesStrings>
+  <ArtDescription_CubeSculpture.rulePack.rulesStrings>
+    <li>r_art_description->Bu küp [cubeWork] [aCube] [cubeDepicts]. [cube_style_group]</li>
+    <li>cube_style_group(p=2)->[cubeDescSentence]. [cubeExtraSentence].</li>
+    <li>cube_style_group(p=3)->[cubeDescSentence].</li>
+    <li>cube_style_group-></li>
+    <li>cubeDescSentence(p=3)->[cubeLocation], [aPawn] [worshipsTheCube]</li>
+    <li>cubeDescSentence(p=3)->[cubeLocation], [pawnsPlural] [worshippingTheCube]</li>
+    <li>cubeDescSentence->Küp [cubeWork]nın daveti ile onu izleyenker [worshippingTheCube]</li>
+    <li>cubeDescSentence->Bu küp [cubeWork]nın merkezindeki figürler [worshippingTheCube]</li>
+    <li>cubeWork->çalışması</li>
+    <li>cubeWork->heykeli</li>
+    <li>cubeWork->sanat eseri</li>
+    <li>cubeWork->parçası</li>
+    <li>aCube->soyut bir küpü</li>
+    <li>aCube->mükemmel bir küpü</li>
+    <li>aCube->eğri bir küpü</li>
+    <li>aCube->stilize edilmiş bir küpü</li>
+    <li>aCube->çarpıcı bir küpü</li>
+    <li>aCube->kabataslak bir küpü</li>
+    <li>aCube->çarpık bir küpü</li>
+    <li>aCube->korkutucu bir küpü</li>
+    <li>aCube->karanlık bir küpü</li>
+    <li>cubeLocation->merkeze yakın bir yerde</li>
+    <li>cubeLocation->küpün her bir yüzünde</li>
+    <li>cubeLocation->yüzeylerin merkezinde</li>
+    <li>cubeLocation->ana figürün tepesinde</li>
+    <li>cubeLocation->ana figürün altında</li>
+    <li>cubeLocation->ana figürün arkasında</li>
+    <li>cubeLocation->kenarlara yakın</li>
+    <li>cubeLocation->kenarları boyunca</li>
+    <li>cubeLocation->kenarları boyunca</li>
+    <li>cubeDepicts->tasvir ediyor</li>
+    <li>cubeDepicts->gösteriyor</li>
+    <li>cubeDepicts->sergiliyor</li>
+    <li>cubeDepicts->betimliyor</li>
+    <li>aPawn->sanatçının kendi portresi</li>
+    <li>aPawn->bir thrumbo</li>
+    <li>aPawn->çok fazla gözü olan zayıf bir insan figürü</li>
+    <li>aPawn->kolonistlerinden biri</li>
+    <li>aPawn->bir neandertal</li>
+    <li>aPawn->bir glitterworld lideri</li>
+    <li>aPawn->herhangi bir figür</li>
+    <li>aPawn->bir kabile şamanı</li>
+    <li>aPawn->kapüşonlu bir vampir</li>
+    <li>aPawn->bir orta çağ prensesi</li>
+    <li>aPawn->uzak bir [Community] lideri</li>
+    <li>aPawn->[Weapon] taşıyan bir kadın</li>
+    <li>aPawn->cübbeli bir tören alayı</li>
+    <li>pawnsPlural->kolonistlerin</li>
+    <li>pawnsPlural->bir yağmacı grubu</li>
+    <li>pawnsPlural->bir kabile cemaati</li>
+    <li>pawnsPlural->bir mekanoid sürüsü</li>
+    <li>pawnsPlural->bir korsan çetesi</li>
+    <li>pawnsPlural->köylü çiftçiler</li>
+    <li>pawnsPlural->bir [AnimalGroup] [Animal]</li>
+    <li>pawnsPlural->yakınlardaki [Community]'den bir grup</li>
+    <li>pawnsPlural->[Quantity_adjphrase] insanlar</li>
+    <li>worshippingTheCube->küpe tapınıyor</li>
+    <li>worshippingTheCube->küpün önünde eğiliyor</li>
+    <li>worshippingTheCube->küpün önünde diz çöküyor</li>
+    <li>worshippingTheCube->küpü tavaf ediyor</li>
+    <li>worshippingTheCube->küpe methiyeler düzüyor</li>
+    <li>worshippingTheCube->küpe beslediği hayranlıkla titriyor</li>
+    <li>worshippingTheCube->küpe yalvarıyor</li>
+    <li>worshippingTheCube->küpün karşısında ağlıyor</li>
+    <li>worshippingTheCube->küp ile oynuyor</li>
+    <li>worshippingTheCube->küp ile dostluk ediyor</li>
+    <li>worshippingTheCube->küpü gözlemliyor</li>
+    <li>worshippingTheCube->küpü takıntı haline getiriyor</li>
+    <li>worshippingTheCube->küpe kurban oluyor</li>
+    <li>worshippingTheCube->küpe adaklar adıyor</li>
+    <li>worshippingTheCube->küpe sövüp sayıyor</li>
+    <li>worshippingTheCube->küpe saygı duyuyor</li>
+    <li>worshippingTheCube->küpü gömüyor</li>
+    <li>worshippingTheCube->küpü kaideye yerleştiriyor</li>
+    <li>worshippingTheCube->küpü kopyalıyor</li>
+    <li>worshippingTheCube->küpü bir başka dünyaya götürüyor</li>
+    <li>worshipsTheCube->küpe tapınmakta</li>
+    <li>worshipsTheCube->küpün önünde eğilmekte</li>
+    <li>worshipsTheCube->küpün önünde diz çökmekte</li>
+    <li>worshipsTheCube->küpü tavaf etmekte</li>
+    <li>worshipsTheCube->küpe methiyeler düzmekte</li>
+    <li>worshipsTheCube->küpe beslediği hayranlıkla titremekte</li>
+    <li>worshipsTheCube->küpe yalvarmakta</li>
+    <li>worshipsTheCube->küpün karşısında ağlamakta</li>
+    <li>worshipsTheCube->küp ile oynamakta</li>
+    <li>worshipsTheCube->küp ile dostluk etmekte</li>
+    <li>worshipsTheCube->küpü gözlemlemekte</li>
+    <li>worshipsTheCube->küpü takıntı haline getirmekte</li>
+    <li>worshipsTheCube->küpe kurban olmakta</li>
+    <li>worshipsTheCube->küpe adaklar adamakta</li>
+    <li>worshipsTheCube->küpe sövüp saymakta</li>
+    <li>worshipsTheCube->küpe saldırmakta</li>
+    <li>worshipsTheCube->küpü gömmekte</li>
+    <li>worshipsTheCube->küpü kaideye yerleştirmekte</li>
+    <li>worshipsTheCube->küpü kopyalamakta</li>
+    <li>worshipsTheCube->küpü bir başka dünyaya götürmekte</li>
+    <li>cubeExtraSentence->Küp bundan [cubeEmotion] gibi</li>
+    <li>cubeExtraSentence->[pawnsPlural] aynısını yapmak üzere yaklaşıyor</li>
+    <li>cubeExtraSentence->[aPawn] aynısını yapmak üzere yaklaşıyor</li>
+    <li>cubeExtraSentence->[aPawn] manzaraya kederle bakıyor</li>
+    <li>cubeExtraSentence->[pawnsPlural] küpü çalmaya çalışıyor</li>
+    <li>cubeExtraSentence->Küp hafifçe parıldıyor gibi</li>
+    <li>cubeEmotion->rahatsız olmamış</li>
+    <li>cubeEmotion->memnun olmuş</li>
+    <li>cubeEmotion->mutsuz olmuş</li>
+    <li>cubeEmotion->etkilenmemiş</li>
+    <li>cubeEmotion->öfkelenmiş</li>
+    <li>cubeEmotion->etkilenmiş</li>
+    <li>cubeEmotion->tahrik olmuş</li>
+  </ArtDescription_CubeSculpture.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_art_description->This [voidStrange] sculpture [voidVerbphrase]. [voidDesc]</li>
@@ -148,6 +258,39 @@
     <li>voidDesc->An abstracted shape resembling an animal appears to rip off one of its own limbs.</li>
     <li>voidDesc->Hundreds of tiny abstract figure-like objects swarm over a large distorted globe.</li>
   -->
-  <ArtDescription_VoidSculpture.rulePack.rulesStrings>TODO</ArtDescription_VoidSculpture.rulePack.rulesStrings>
+  <ArtDescription_VoidSculpture.rulePack.rulesStrings>
+    <li>r_art_description->This [voidStrange] heykel [voidVerbphrase]. [voidDesc]</li>
+    <li>voidStrange->tuhaf</li>
+    <li>voidStrange->rahatsız edici</li>
+    <li>voidStrange->huzursuz edici</li>
+    <li>voidStrange->ürkütücü</li>
+    <li>voidStrange->çarpık</li>
+    <li>voidStrange->şekilsiz</li>
+    <li>voidStrange->canavarca</li>
+    <li>voidStrange->ucube</li>
+    <li>voidVerbphrase->rahatsız edici bir şekilde kıvrılıyor</li>
+    <li>voidVerbphrase->sanki izleyiciye zarar vermeye çalışıyormuş gibi bükülüyor</li>
+    <li>voidVerbphrase->izleyicinin bakışları altında değişiyor gibi görünüyor</li>
+    <li>voidVerbphrase->öfke duygusu yayıyor</li>
+    <li>voidVerbphrase->depresyon ve üzüntü duygusu yayıyor</li>
+    <li>voidVerbphrase->korku ve kendinden şüphe etme duygularını tetikliyor</li>
+    <li>voidVerbphrase->farklı yönlerde rastgele genişliyor</li>
+    <li>voidVerbphrase->sen ona doğrudan bakana kadar titriyor gibi görünüyor</li>
+    <li>voidVerbphrase->neredeyse nefes alıyormuş gibi görünüyor</li>
+    <li>voidVerbphrase->hiçbir canlıya benzemiyor</li>
+    <li>voidVerbphrase->acı çekmenin bir metaforu gibi görünüyor</li>
+    <li>voidDesc->Düzinelerce parmaksı uzantılar merkezdeki figürü acı verici şekilde kavrıyor.</li>
+    <li>voidDesc->Maddeden oluşan küreler, birbirlerini ezerek ve sıkarak uzatılmış şekillere dönüştürüyor.</li>
+    <li>voidDesc->Bıçak benzeri parçalar, korku içinde çığlık atan bir yüzü andıracak şekilde bükülüyor.</li>
+    <li>voidDesc->Kol benzeri çıkıntılar, kendilerini yok etmeye çalışıyormuş gibi birbirlerini sıkıyor.</li>
+    <li>voidDesc->Yüzeyden çıkan iğneler, yakınında hareket eden herkesi delip geçmeye hazır görünüyor.</li>
+    <li>voidDesc->Yüzey kıvrılıyor ve dalgalanıyor, organik gibi duran bir dokudan makine benzeri kenarlara ve bıçaklara evriliyor.</li>
+    <li>voidDesc->Kendini büyük bir kuvvetle parçalara ayırmış gibi görünüyor, ama yine de bir arada durmayı başarıyor.</li>
+    <li>voidDesc->El benzeri bir uzantı, uzanıp saldırmaya hazırmış gibi bekliyor.</li>
+    <li>voidDesc->Bir çift figür, kıvrık ve tırtıklı parmaklarla birbirini delip işkence ediyormuş gibi görünüyor.</li>
+    <li>voidDesc->Çığlık atan bir yüzün ağzından karmaşık bir şekil ortaya çıkıyor.</li>
+    <li>voidDesc->Kendi uzuvlarından birini koparmaya çalışan bir hayvanı anımsatan soyut bir şekil beliriyor.</li>
+    <li>voidDesc->Yüzlerce küçük soyut figürümsü nesne, büyük bir bozulmuş küre üzerinde yığılıyor.</li>
+  </ArtDescription_VoidSculpture.rulePack.rulesStrings>
   
 </LanguageData>

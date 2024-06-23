@@ -15,6 +15,19 @@
     <li>firedat(p=0.3)->opened fire at</li>
     <li>verb_fired->fired</li>
   -->
-  <Combat_RangedFlamethrower.rulePack.rulesStrings>TODO</Combat_RangedFlamethrower.rulePack.rulesStrings>
+  <Combat_RangedFlamethrower.rulePack.rulesStrings>
+    <li>r_logentry->[INITIATOR_definite] kullandığı [WEAPON_label] ile [RECIPIENT_definite]e [firedat].</li>
+    <li>r_logentry->[INITIATOR_definite] kullandığı [WEAPON_label] ile [RECIPIENT_definite]e [fired].</li>
+    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite]e [firedat].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] kullandığı [WEAPON_label]i [fired].</li>
+    <li>fired(p=2)->[verb_fired]</li>
+    <li>fired->[skillAdv] [verb_fired]</li>
+    <li>firedat->ateş etti</li>
+    <li>firedat->[skillAdv] ateş etti</li>
+    <li>firedat(p=0.5)->nişan aldı ve ateş etti</li>
+    <li>firedat(p=0.5)->[skillAdv] nişan aldı ve ateş etti</li>
+    <li>firedat(p=0.3)->ateş açtı</li>
+    <li>verb_fired->ateşledi</li>
+  </Combat_RangedFlamethrower.rulePack.rulesStrings>
   
 </LanguageData>

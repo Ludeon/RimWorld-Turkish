@@ -273,6 +273,277 @@
     <li>excellentDesc->frighteningly descriptive - many sections are almost poetic in their style</li>
     <li>excellentDesc->full of scintillating ideas that explode in the mind</li>
   -->
-  <Description_Tome.rulePack.rulesStrings>TODO</Description_Tome.rulePack.rulesStrings>
+  <Description_Tome.rulePack.rulesStrings>
+    <li>desc->[inThisBook], [author] [experiencesWithMonsters]. [specificHorrorStory] [writingQualitySentence].</li>
+    <li>inThisBook->In this [writingQualityAdjective] [bookTypeSingle]</li>
+    <li>inThisBook->In these [writingQualityAdjective] [bookTypePlural]</li>
+    <li>bookTypeSingle->muhasebe</li>
+    <li>bookTypeSingle->almanak</li>
+    <li>bookTypeSingle->analiz</li>
+    <li>bookTypeSingle->makale</li>
+    <li>bookTypeSingle->kitap</li>
+    <li>bookTypeSingle->yorum</li>
+    <li>bookTypeSingle->kompozisyon</li>
+    <li>bookTypeSingle->sonuç</li>
+    <li>bookTypeSingle->kritik</li>
+    <li>bookTypeSingle->şeytani</li>
+    <li>bookTypeSingle->tetkik</li>
+    <li>bookTypeSingle->bitirme tezi</li>
+    <li>bookTypeSingle->editöryel</li>
+    <li>bookTypeSingle->deneme</li>
+    <li>bookTypeSingle->gizem</li>
+    <li>bookTypeSingle->buluş</li>
+    <li>bookTypeSingle->kara büyü</li>
+    <li>bookTypeSingle->anket</li>
+    <li>bookTypeSingle->soruşturma</li>
+    <li>bookTypeSingle->manifesto</li>
+    <li>bookTypeSingle->el yazmaları</li>
+    <li>bookTypeSingle->eser</li>
+    <li>bookTypeSingle->kağıt</li>
+    <li>bookTypeSingle->parça</li>
+    <li>bookTypeSingle->araştırma parçası</li>
+    <li>bookTypeSingle->kayıt</li>
+    <li>bookTypeSingle->rapor</li>
+    <li>bookTypeSingle->inceleme</li>
+    <li>bookTypeSingle->gözlem</li>
+    <li>bookTypeSingle->ahit</li>
+    <li>bookTypeSingle->ifade</li>
+    <li>bookTypeSingle->metin</li>
+    <li>bookTypeSingle->tez</li>
+    <li>bookTypeSingle->risale</li>
+    <li>bookTypeSingle->ilmi eser</li>
+    <li>bookTypeSingle->değerlendirme</li>
+    <li>bookTypeSingle->cilt</li>
+    <li>bookTypeSingle->çalışma</li>
+    <li>bookTypePlural->yazılar</li>
+    <li>bookTypePlural->kronikler</li>
+    <li>bookTypePlural->ağıtlar</li>
+    <li>bookTypePlural->anallar</li>
+    <li>bookTypePlural->ifşaat</li>
+    <li>author(p=3)->yazar</li>
+    <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
+    <li>author->[anAuthorDesc] araştırmacı</li>
+    <li>author->[anAuthorDesc] spiritüalist</li>
+    <li>author->[anAuthorDesc] okültist</li>
+    <li>author->[anAuthorDesc] tarikatçı</li>
+    <li>author->[anAuthorDesc] tarikat üyesi</li>
+    <li>author->[anAuthorDesc] tarikat firarisi</li>
+    <li>author->[anAuthorDesc] antikacı</li>
+    <li>author->[anAuthorDesc] mezar soyguncusu</li>
+    <li>author->[anAuthorDesc] hiçlik araştırmacısı</li>
+    <li>author->[anAuthorDesc] gezgin</li>
+    <li>author->[anAuthorDesc] şüpheci</li>
+    <li>author->[anAuthorDesc] alim</li>
+    <li>author->[anAuthorDesc] avcı</li>
+    <li>author->[anAuthorDesc] soruşturmacı</li>
+    <li>author->[anAuthorDesc] ermiş</li>
+    <li>author->[anAuthorDesc] mümin</li>
+    <li>author->[anAuthorDesc] müjdeci</li>
+    <li>author->[anAuthorDesc] varis</li>
+    <li>author->[anAuthorDesc] soylu</li>
+    <li>author->[anAuthorDesc] çevirmen</li>
+    <li>author->[anAuthorDesc] keşiş</li>
+    <li>author->[anAuthorDesc] klon</li>
+    <li>author->[anAuthorDesc] yazar</li>
+    <li>author->[anAuthorDesc] agent</li>
+    <li>author->[anAuthorDesc] kahraman</li>
+    <li>author->[anAuthorDesc] müellif</li>
+    <li>anAuthorDesc(p=2)->bir</li>
+    <li>anAuthorDesc->genç bir</li>
+    <li>anAuthorDesc->yaşlı bir</li>
+    <li>anAuthorDesc->korkmuş bir</li>
+    <li>anAuthorDesc->kederli bir</li>
+    <li>anAuthorDesc->yaşlıca bir</li>
+    <li>anAuthorDesc->bilge bir</li>
+    <li>anAuthorDesc->inatçı bir</li>
+    <li>anAuthorDesc->ahmak bir</li>
+    <li>anAuthorDesc->masum bir</li>
+    <li>anAuthorDesc->rahatsız bir</li>
+    <li>anAuthorDesc->kadim bir</li>
+    <li>anAuthorDesc->zalim bir</li>
+    <li>anAuthorDesc->arketipik bir</li>
+    <li>anAuthorDesc->sıkıcı bir</li>
+    <li>anAuthorDesc->deli bir</li>
+    <li>anAuthorDesc->ahlaksız bir</li>
+    <li>anAuthorDesc->ahlaklı bir</li>
+    <li>anAuthorDesc->amoral bir</li>
+    <li>anAuthorDesc->ruhani bir</li>
+    <li>tellsAStoryOf->hikayeye döküyor</li>
+    <li>tellsAStoryOf->ortaya çıkarıyor</li>
+    <li>tellsAStoryOf->tartışıyor</li>
+    <li>tellsAStoryOf->tasvir ediyor</li>
+    <li>tellsAStoryOf->detaylandırıyor</li>
+    <li>tellsAStoryOf->ayrıntılarıyla anlatıyor</li>
+    <li>tellsAStoryOf->detaylarıyla anlatıyor</li>
+    <li>tellsAStoryOf->aktarıyor</li>
+    <li>tellsAStoryOf->sayıp döküyor </li>
+    <li>tellsAStoryOf->raporluyor</li>
+    <li>tellsAStoryOf->kaydediyor </li>
+    <li>tellsAStoryOf->betimliyor</li>
+    <li>tellsAStoryOf->açıklıyor</li>
+    <li>experiencesWithMonsters->[entities] ile deneyimlerini [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Uzaklardaki bir [TerrainFeature] altında merkezi olan, gizli bir tarikata dair keşiflerini [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Altın bir küp avını [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Arkist bir tarikatın başkölesinin rehberlik ettiği derin meditasyonları [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Horax adındaki bir şeyin psişik etkisi altında dağılan hayatını [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Araştırmacıların bir bir delirdiği, uzaklardaki arkeolojik bir kazıyı [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Nasıl olduysa, kanasusamışlığın karanlık tanrısına hizmet eden bir tarikata dönüşen kabileyi [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Alevlerin altında, paslı bıçaklarla sakatlama ayinleri yapan bir kabileyi tasvir etmeye çalışıyor.</li>
+    <li>experiencesWithMonsters->Kendisinin asla bilemeyeceği ölümcül gerçeklerden bahseden bir öğrencisi olan öğretmeni [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Ölü karısını diriltmek için antik arkoteknolojik araçları kullanmaya çalışan bir bilim adamını [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Onları zifiri karanlığa boğmaya çalışan gökyüzünden ve kan yağmurlarından kurtulan bir grup yabancı kaşifi [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Korkunç, etsi yaratıklarla dolu antik bir oyuğu araştıran bir grubu [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Bir kabile şamanının, geceleri köyüne saldıran ölü [Animal] sürüsünü durdurma çabalarını [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Başrolünde tüm insanlığı etkisi altına alan antik bir öfke tanrısının ve onu taştan, ufak bir hapse mühürleyen kahramanların olduğu kabile mitini [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->Yakaladığı bir [entity] üzerindeki gaddar deneylerini [tellsAStoryOf].</li>
+    <li>experiencesWithMonsters->[vision], tekrar eden görülerini [tellsAStoryOf].</li>
+    <li>vision->Karanlık figürlerin zihnine erişip anılarını çaldığı</li>
+    <li>vision->Kendisi tarafından kovalandığı ve ne kadar uzaklaşırsa uzaklaşsın kaçamadığı</li>
+    <li>vision->Bir [entity] tarafından parçalara ayrıldığı</li>
+    <li>experiencesWithMonsters->[objective] [findings] [tellsAStoryOf].</li>
+    <li>findings->ile deneylerini</li>
+    <li>findings->üzerine araştırmalarını</li>
+    <li>objective->[ritual_incident] hadisesini takiben [maybeAdjectiveEvil]ayinler</li>
+    <li>objective->[entity_incident] hadisesini takiben karanlık bilimler</li>
+    <li>ritual_incident->Bir anda zuhur eden bir [targetHuman] gözlemlemesi</li>
+    <li>targetHuman->[anAuthorDesc] kadın</li>
+    <li>targetHuman->[anAuthorDesc] erkek</li>
+    <li>ritual_incident->Üç gün boyunca gökten yağan kanın arkadaşlarını cinnete sürüklemesi</li>
+    <li>ritual_incident->[entity_incident]</li>
+    <li>entity_incident->Bir [entity] saldırısında bir [BodyPart] kaybetmesi</li>
+    <li>entity_incident->Gözüne bir [entity] takılması</li>
+    <li>specificHorrorStory->Bir noktada yazar, kurbanların kırık camlarla kendilerini sakatlamak zorunda bırakıldığı karanlık ritüelleri anlatıyor.</li>
+    <li>specificHorrorStory->Bir noktada, kahramanımız bir ritüele rastlar. Burada kanlı figürlerin ürkütücü dualar okuyup kendilerini obsidyen parçalarıyla sakatlamasına tanık olur.</li>
+    <li>specificHorrorStory->Kitap, 'siyah okyanus' adlı bir şeyi tasvir etmeye çalışıldığı birçok resim içeriyor. Bu, korkutucu ancak baştan çıkarıcı bir psişik süperakılın hüküm sürdüğü psişik bir düzlemin metaforu gibi görünüyor.</li>
+    <li>specificHorrorStory->Kitap, gerçekliğin çok boyutlu doğasına sürekli göndermeler yapıyor - gördüğümüzden daha fazla boyut olduğu fikri. Bu nedenle bir nesne veya varlık yanı başınızda olabilir ancak algılama dışında kalabilir.</li>
+    <li>specificHorrorStory->Kitap, hiperzeki bir varlık olan 'Horax'ı uzunca tasvir etmeye çalışıyor. Bu varlık, gerçekliğin bitişiğindeki bir düzlemde bulunuyor.</li>
+    <li>specificHorrorStory->Bir bölüm, karanlık psişik etki mekanizmalarını açıklıyor. Buna göre başka bir düzlemdeki bir varlık, insanları kendi duygusal frekansına senkronize ederek onların düşüncelerini istemsizce etkileyebilir.</li>
+    <li>specificHorrorStory->Bir bölüm, farklı arkotek hiperzeki varlıkları ve onların psişik ve duygusal yayılımlarının doğasını açıklıyor. Buna göre, bu varlıklardan bazıları tarafsız hatta iyi niyetli kabul edilirken, diğerleri saf öfkeden beslenen varlıklardır.</li>
+    <li>specificHorrorStory->Zihninin, daha büyük bir zekânın karanlık psişik etkisi tarafından zorla yeniden şekillendirildiği hissini betimliyor.</li>
+    <li>specificHorrorStory->Yazar bir bölümde intihara teşebbüs ediyor, ancak kibar bir [PersonJob] tarafından bulunup kurtarılıyors.</li>
+    <li>specificHorrorStory->Kitap, sayfalar boyunca kıvrılan şekilsiz, simsiyah uzantıları olan iğrenç ve öteki dünyalardan bir varlığı tasvir eden rahatsız edici illüstrasyonlarla süslenmiş. Bu illüstrasyonlar, aynı ölçüde dehşet ve büyülenme hissi uyandırıyor.</li>
+    <li>specificHorrorStory->Hikaye boyunca paralel boyutlar kavramı tekrarlanıyor. Karakterler, algı perdesinin hemen ötesinde var olan varlıklarla karşılaşıyorlar. Bu varlıklar, bizim gerçekliğimizle kesişen ancak görüş kabiliyetimizin ötesinde gizlenen bir dünyada yaşıyorlar.</li>
+    <li>specificHorrorStory->Kitap, 'Horax' adlı bir makine süperakılın kendisini gizli bir boyuttan 'hiçlik' adı verilen bir yere kaydırdığı ürkütücü bir hikayeyi içerir.</li>
+    <li>specificHorrorStory->Bir bölüm, uzak bir süperakılın psişik olarak insan bilişini manipüle edebileceği bir teoriyi açıklıyor. Buna göre, kişiye ait düşünceleri kendi zihin yapısına uygun hale getirebilir.</li>
+    <li>specificHorrorStory->Kahraman, hiçlikten gelen ürkütücü bir psişik güç tarafından zihninin zorla yeniden şekillendirildiğini hissettiğini anlatıyor.</li>
+    <li>entities->İblisler</li>
+    <li>entities->Yürüyen cesetler</li>
+    <li>entities->Acı arayan canavarlar</li>
+    <li>entities->Kemikleri meydanda yaratıklar</li>
+    <li>entities->Yürüyen [Animal] cesetleri</li>
+    <li>entities->Metalden ve bıçaklardan yapılmış insansı figürler</li>
+    <li>entities->Acı yayan, uçan küreler</li>
+    <li>entities->Zihinleri çürüten güzel, altından küreler</li>
+    <li>entities->Kanlı etten canavarlar</li>
+    <li>entities->Göz önünde saklanan karanlık şekiller</li>
+    <li>entities->Ruhlar çalan avcılar</li>
+    <li>entity->iblis</li>
+    <li>entity->yürüyen ceset</li>
+    <li>entity->acı arayan canavar</li>
+    <li>entity->kemikleri meydanda yaratık</li>
+    <li>entity->yürüyen bir [Animal] cesedi </li>
+    <li>entity->metalden ve bıçaklardan yapılmış insansı figür</li>
+    <li>entity->acı yayan, uçan küre</li>
+    <li>entity->zihinleri çürüten güzel, altından küre</li>
+    <li>entity->kanlı etten canavar</li>
+    <li>entity->göz önünde saklanan karanlık şekil</li>
+    <li>entity->ruhlar çalan avcı</li>
+    <li>maybeAdjectiveEvil(p=2)-></li>
+    <li>maybeAdjectiveEvil->[adjectiveEvil] </li>
+    <li>adjectiveEvil->ölümcül</li>
+    <li>adjectiveEvil->antik</li>
+    <li>adjectiveEvil->kanlı</li>
+    <li>adjectiveEvil->çarpık</li>
+    <li>adjectiveEvil->güçlü</li>
+    <li>adjectiveEvil->alçakça</li>
+    <li>adjectiveEvil->hayali</li>
+    <li>adjectiveEvil->semavi</li>
+    <li>adjectiveEvil->uğursuz</li>
+    <li>adjectiveEvil->saklı</li>
+    <li>adjectiveEvil->sürreal</li>
+    <li>adjectiveEvil->esrarengiz</li>
+    <li>adjectiveEvil->aldatıcı</li>
+    <li>adjectiveEvil->şifreli</li>
+    <li>adjectiveEvil->şeytani</li>
+    <li>adjectiveEvil->sapkın</li>
+    <li>writingQualityAdjective(quality==0)->ayrılmış</li>
+    <li>writingQualityAdjective(quality==0)->abuk subuk</li>
+    <li>writingQualityAdjective(quality==0)->anlamsız</li>
+    <li>writingQualityAdjective(quality==0)->berbat</li>
+    <li>writingQualityAdjective(quality==0)->çocuksu</li>
+    <li>writingQualityAdjective(quality==1)->takatsiz</li>
+    <li>writingQualityAdjective(quality==1)->kabaca çizilmiş</li>
+    <li>writingQualityAdjective(quality==1)->sıkıcı</li>
+    <li>writingQualityAdjective(quality==1)->tutarsız</li>
+    <li>writingQualityAdjective(quality==1)->saçma sapan</li>
+    <li>writingQualityAdjective(quality==2)->karmakarışık</li>
+    <li>writingQualityAdjective(quality==2)->yavan</li>
+    <li>writingQualityAdjective(quality==2)->vasat</li>
+    <li>writingQualityAdjective(quality==2)->alelade</li>
+    <li>writingQualityAdjective(quality==2)->sıradan</li>
+    <li>writingQualityAdjective(quality==2)->idare eder</li>
+    <li>writingQualityAdjective(quality==3)->monoton</li>
+    <li>writingQualityAdjective(quality==3)->iyi yazılmış</li>
+    <li>writingQualityAdjective(quality==3)->iyi kurgulanmış</li>
+    <li>writingQualityAdjective(quality==3)->düşünceli</li>
+    <li>writingQualityAdjective(quality==3)->okunaklı</li>
+    <li>writingQualityAdjective(quality==3)->bayağı</li>
+    <li>writingQualityAdjective(quality==4)->eğlenceli</li>
+    <li>writingQualityAdjective(quality==4)->akıcı</li>
+    <li>writingQualityAdjective(quality==4)->duygusal açıdan etkileyici</li>
+    <li>writingQualityAdjective(quality==4)->keskin biçimli</li>
+    <li>writingQualityAdjective(quality==4)->ikna edici</li>
+    <li>writingQualityAdjective(quality==4)->saygı duyulası</li>
+    <li>writingQualityAdjective(quality==5)->sağlam</li>
+    <li>writingQualityAdjective(quality==5)->tamamlanmış</li>
+    <li>writingQualityAdjective(quality==5)->orijinal</li>
+    <li>writingQualityAdjective(quality==5)->kaliteli</li>
+    <li>writingQualityAdjective(quality==5)->birinci sınıf</li>
+    <li>writingQualityAdjective(quality==5)->yaratıcı</li>
+    <li>writingQualityAdjective(quality==6)->zekice</li>
+    <li>writingQualityAdjective(quality==6)->korkutucu derecede aydınlatıcı</li>
+    <li>writingQualityAdjective(quality==6)->eşsiz</li>
+    <li>writingQualityAdjective(quality==6)->birinci ayar</li>
+    <li>writingQualityAdjective(quality==6)->ustaca</li>
+    <li>writingQualityAdjective(quality==6)->enfes</li>
+    <li>writingQualitySentence(quality[greater_than]4)->Kitap [excellentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Kitap [decentDesc]</li>
+    <li>writingQualitySentence(quality[less_than]2)->Kitap [awfulDesc]</li>
+    <li>awfulDesc->okunaksız</li>
+    <li>awfulDesc->titrek ellerle yazılmış</li>
+    <li>awfulDesc->kurumuş likörle lekeli</li>
+    <li>awfulDesc->neredeyse tutarsız</li>
+    <li>awfulDesc->kendini tekrar ediyor ve çoğu bölüm yüzeysel</li>
+    <li>awfulDesc->çoğu bölümde okunamayacak kadar silik</li>
+    <li>awfulDesc->birçok sayfasını kaybetmiş</li>
+    <li>awfulDesc->tamamen düzensiz ve konudan konuya atlıyor</li>
+    <li>awfulDesc->kayıp bir dilde yazılmış</li>
+    <li>awfulDesc->anlaşılmaz bir jargonla dolu</li>
+    <li>awfulDesc->çocukça</li>
+    <li>awfulDesc->ister istemez gerçeklik ile fantaziyi karıştırıyor</li>
+    <li>awfulDesc->monoton</li>
+    <li>awfulDesc->cerahat ve kan dolu</li>
+    <li>awfulDesc->genel ölçüde iki [entity] arasındaki aşk ile ilgili</li>
+    <li>decentDesc->sağlam ancak editöryel sıkıntıları var</li>
+    <li>decentDesc->bazı bölümlerde aydınlatıcı, ancak diğer kısımları gereksiz</li>
+    <li>decentDesc->zekice, ancak yalnızca sapkın bir açıdan bakıyor</li>
+    <li>decentDesc->çok detaylı ama yorumlamaları eksik</li>
+    <li>decentDesc->bazı sayfalarını kaybetmiş</li>
+    <li>decentDesc->kullanışlı, fakat yazarın kişisel çıkarlarına hizmet ediyor</li>
+    <li>decentDesc->yazarın çarpıtmaları ve ön yargıları haricinde faydalı bilgilerle dolu</li>
+    <li>decentDesc->usta işi</li>
+    <li>decentDesc->çok faydalı olmasa da eğlenceli</li>
+    <li>decentDesc->ilginç fikirlerle dolu but okuması zor</li>
+    <li>decentDesc->ikinci sınıf bir üsluba sahip birinci sınıf bir entelektüel tarafından yazılmış</li>
+    <li>decentDesc->tümüyle yozlaşmış ama düzgün</li>
+    <li>decentDesc->içerik bakımından ürkütücü, anlatım bakımından sıkıcı</li>
+    <li>excellentDesc->edebiyatın doruk noktası</li>
+    <li>excellentDesc->çok aydınlatıcı</li>
+    <li>excellentDesc->son derece iyi yazılmış</li>
+    <li>excellentDesc->iyi ve profesyonelce düzenlenmiş</li>
+    <li>excellentDesc->çoğu alanda neredeyse şiirsel bir akıcılıkta</li>
+    <li>excellentDesc->korkutucu ölçüde betimleyici - çoğu kısım neredeyse kendi çapında şiirsel</li>
+    <li>excellentDesc->ufuk açan fikirlerle dolu</li>
+  </Description_Tome.rulePack.rulesStrings>
   
 </LanguageData>

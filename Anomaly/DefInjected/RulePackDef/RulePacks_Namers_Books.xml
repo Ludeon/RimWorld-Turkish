@@ -189,6 +189,193 @@
     <li>suffixEvil->nix</li>
     <li>suffixEvil->vix</li>
   -->
-  <Namer_Tome.rulePack.rulesStrings>TODO</Namer_Tome.rulePack.rulesStrings>
+  <Namer_Tome.rulePack.rulesStrings>
+    <li>title->[nounEvilUncountable] [bookEvil]</li>
+    <li>title->[nounEvilCountable] [bookEvil]</li>
+    <li>title->[nounEvilCountable] Gerçek [bookEvil]</li>
+    <li>title->[placeEvil] [inThe] [nounEvilCountable] [bookEvil]</li>
+    <li>title->[ANYPAWN_nameIndef]'in [bookEvil]</li>
+    <li>title->[placeEvil] [inThe] [nounEvilUncountable] [bookEvil]</li>
+    <li>title->[ANYPAWN_nameIndef]'den [nounEvilAny] [bookEvil]</li>
+    <li>title->[adjectiveEvil] [nounEvilAny] [bookEvil]</li>
+    <li>title->[ANYPAWN_nameIndef]'in Gerçek [bookEvil]</li>
+    <li>title->[bookCompound]</li>
+    <li>title->[ANYPAWN_nameIndef]'in [bookCompound]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilCountable] [bookEvil]</li>
+    <li>title(p=0.5)->[firstHalfEvil][connector][nounEvilUncountable] [bookEvil]</li>
+    <li>title(p=0.5)->[nounEvilCountable] Günlüğü</li>
+    <li>title(p=0.5)->[nounEvilUncountable] Günlüğü</li>
+    <li>bookCompound(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookCompound->[firstHalfEvil][connector][suffixEvil]</li>
+    <li>connector->'</li>
+    <li>connector->-</li>
+    <li>maybeThe-></li>
+    <li>maybeThe->The</li>
+    <li>bookEvil(p=2)->Kitapçığı</li>
+    <li>bookEvil(p=2)->[firstHalfEvil][suffixEvil]</li>
+    <li>bookEvil->Kitabı</li>
+    <li>bookEvil->Ansiklopedisi</li>
+    <li>bookEvil->Yazıtları</li>
+    <li>bookEvil->Kayıtları</li>
+    <li>bookEvil->Sırları</li>
+    <li>bookEvil->Kronikleri</li>
+    <li>bookEvil->Şifreleri</li>
+    <li>bookEvil->Fısıltıları</li>
+    <li>bookEvil->Delilleri</li>
+    <li>bookEvil->Ağıtları</li>
+    <li>bookEvil->Kara Büyü Kitapları</li>
+    <li>bookEvil->Almanakları</li>
+    <li>bookEvil->El Yazmaları</li>
+    <li>bookEvil->Analları</li>
+    <li>bookEvil->Efsunları</li>
+    <li>bookEvil->Vahiyleri</li>
+    <li>bookEvil->Manifestoları</li>
+    <li>bookEvil->Ahitleri</li>
+    <li>bookEvil->Parçaları</li>
+    <li>bookEvil->Kabukları</li>
+    <li>inThe->İçindeki</li>
+    <li>inThe->İçerisindeki</li>
+    <li>inThe->Altındaki</li>
+    <li>inThe->Dibindeki</li>
+    <li>inThe->Yanındaki</li>
+    <li>inThe->Üzerindeki</li>
+    <li>inThe->Ötesindeki</li>
+    <li>adjectiveEvil(p=3)->Hiçlik</li>
+    <li>adjectiveEvil->Altından</li>
+    <li>adjectiveEvil->Olağandışı</li>
+    <li>adjectiveEvil->Karanlık</li>
+    <li>adjectiveEvil->Siyah</li>
+    <li>adjectiveEvil->Derin</li>
+    <li>adjectiveEvil->Antik</li>
+    <li>adjectiveEvil->Yozlaşmış</li>
+    <li>adjectiveEvil->Kan</li>
+    <li>adjectiveEvil->Kaos</li>
+    <li>adjectiveEvil->Cehennemi</li>
+    <li>adjectiveEvil->Esrarengiz</li>
+    <li>adjectiveEvil->Hayali</li>
+    <li>adjectiveEvil->Şifreli</li>
+    <li>adjectiveEvil->Fısıldayan</li>
+    <li>adjectiveEvil->Unutulmuş</li>
+    <li>adjectiveEvil->Örtülü</li>
+    <li>adjectiveEvil->Yasaklı</li>
+    <li>adjectiveEvil->Yeraltı</li>
+    <li>adjectiveEvil->Yılan</li>
+    <li>nounEvilAny->[nounEvilCountable]</li>
+    <li>nounEvilAny->[nounEvilUncountable]</li>
+    <li>nounEvilUncountable->Etyığınının</li>
+    <li>nounEvilUncountable->Biyoferritin</li>
+    <li>nounEvilUncountable->Ölüyaşamın</li>
+    <li>nounEvilUncountable->Arkotek'in</li>
+    <li>nounEvilUncountable->Nekrotek'in</li>
+    <li>nounEvilUncountable->Horax'ın</li>
+    <li>nounEvilUncountable->Kanın</li>
+    <li>nounEvilUncountable->Ölümsüzlüğün</li>
+    <li>nounEvilUncountable->Gücün</li>
+    <li>nounEvilUncountable->Fısıltıların</li>
+    <li>nounEvilUncountable->İlmin</li>
+    <li>nounEvilUncountable->Korkunun</li>
+    <li>nounEvilUncountable->Mantarların</li>
+    <li>nounEvilUncountable->Kokuşmuşluğun</li>
+    <li>nounEvilUncountable->Ayinlerin</li>
+    <li>nounEvilUncountable->Cinayetin</li>
+    <li>nounEvilUncountable->Karanlığın</li>
+    <li>nounEvilUncountable->Deliliğin</li>
+    <li>nounEvilUncountable->Kaosun</li>
+    <li>nounEvilUncountable->Çaresizliğin</li>
+    <li>nounEvilUncountable->Izdırabın</li>
+    <li>nounEvilUncountable->Kabusların</li>
+    <li>nounEvilUncountable->Yozlaşmanın</li>
+    <li>nounEvilUncountable->Kıyametin</li>
+    <li>nounEvilUncountable->Dehşetin</li>
+    <li>nounEvilUncountable->Kötülüğün</li>
+    <li>nounEvilUncountable->Gölgelerin</li>
+    <li>nounEvilUncountable->Hiçliğin</li>
+    <li>nounEvilUncountable->Altının</li>
+    <li>nounEvilCountable->Gûlların</li>
+    <li>nounEvilCountable->Dikenazmanlarının</li>
+    <li>nounEvilCountable->Noktolların</li>
+    <li>nounEvilCountable->Hortlakların</li>
+    <li>nounEvilCountable->Etcanavarların</li>
+    <li>nounEvilCountable->Nosyokürelerin</li>
+    <li>nounEvilCountable->Cesetlerin</li>
+    <li>nounEvilCountable->Küplerin</li>
+    <li>nounEvilCountable->Karabasanların</li>
+    <li>nounEvilCountable->Metaldehşetlerin</li>
+    <li>nounEvilCountable->Alıkoyucuların</li>
+    <li>nounEvilCountable->Klonlayıcıların</li>
+    <li>nounEvilCountable->Dönüştürücülerin</li>
+    <li>nounEvilCountable->Alametlerin</li>
+    <li>nounEvilCountable->Banşilerin</li>
+    <li>nounEvilCountable->Kimeraların</li>
+    <li>nounEvilCountable->Yok Edicilerin</li>
+    <li>nounEvilCountable->Kabukların</li>
+    <li>nounEvilCountable->Heykellerin</li>
+    <li>nounEvilCountable->Serumların</li>
+    <li>nounEvilCountable->Tarikatların</li>
+    <li>nounEvilCountable->Tarikatçıların</li>
+    <li>nounEvilCountable->Keçilerin</li>
+    <li>nounEvilCountable->Gölgelerin</li>
+    <li>nounEvilCountable->Pusucuların</li>
+    <li>nounEvilCountable->Ayinlerlerin</li>
+    <li>nounEvilCountable->Büyülerin</li>
+    <li>nounEvilCountable->Yılanların</li>
+    <li>nounEvilCountable->Ziyafetçilerin</li>
+    <li>placeEvil->Okyanusun</li>
+    <li>placeEvil->Hiçliğin</li>
+    <li>placeEvil->Uçurumun</li>
+    <li>placeEvil->Derinlerin</li>
+    <li>placeEvil->Gölgelerin</li>
+    <li>placeEvil->Mezarların</li>
+    <li>placeEvil->Karanlıkların</li>
+    <li>placeEvil->Dağın</li>
+    <li>placeEvil->Salonun</li>
+    <li>placeEvil->Yeraltı Mezarlarının</li>
+    <li>placeEvil->Kutsal Yerlerin</li>
+    <li>placeEvil->Koruların</li>
+    <li>placeEvil->Dünyanın</li>
+    <li>placeEvil->Yıldızların</li>
+    <li>placeEvil->Okyanusların</li>
+    <li>placeEvil->Derinlerin</li>
+    <li>placeEvil->Alt Evrenin</li>
+    <li>placeEvil->Yeraltı Mağaralarının</li>
+    <li>firstHalfEvil->Vibro</li>
+    <li>firstHalfEvil->Kelno</li>
+    <li>firstHalfEvil->Nekro</li>
+    <li>firstHalfEvil->Krono</li>
+    <li>firstHalfEvil->Drago</li>
+    <li>firstHalfEvil->Krimi</li>
+    <li>firstHalfEvil->Vadi</li>
+    <li>firstHalfEvil->Horror</li>
+    <li>firstHalfEvil->Nosyo</li>
+    <li>firstHalfEvil->Xeno</li>
+    <li>firstHalfEvil->Psiko</li>
+    <li>firstHalfEvil->Voro</li>
+    <li>firstHalfEvil->Tirano</li>
+    <li>firstHalfEvil->İnverno</li>
+    <li>firstHalfEvil->Fobo</li>
+    <li>firstHalfEvil->Leva</li>
+    <li>suffixEvil->nomikon</li>
+    <li>suffixEvil->doron</li>
+    <li>suffixEvil->nax</li>
+    <li>suffixEvil->novikon</li>
+    <li>suffixEvil->vokon</li>
+    <li>suffixEvil->mansi</li>
+    <li>suffixEvil->gorgon</li>
+    <li>suffixEvil->mort</li>
+    <li>suffixEvil->cypher</li>
+    <li>suffixEvil->vex</li>
+    <li>suffixEvil->vortex</li>
+    <li>suffixEvil->nox</li>
+    <li>suffixEvil->cybex</li>
+    <li>suffixEvil->voron</li>
+    <li>suffixEvil->karnix</li>
+    <li>suffixEvil->nemex</li>
+    <li>suffixEvil->vexor</li>
+    <li>suffixEvil->tronix</li>
+    <li>suffixEvil->kriptex</li>
+    <li>suffixEvil->kaonix</li>
+    <li>suffixEvil->nix</li>
+    <li>suffixEvil->vix</li>
+  </Namer_Tome.rulePack.rulesStrings>
   
 </LanguageData>
