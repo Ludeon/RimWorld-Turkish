@@ -1,33 +1,65 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- ITab_Entity -->
-  <HoldingPlatformEscapeMTBDays>Escape interval</HoldingPlatformEscapeMTBDays>
-  <HoldingPlatformEscapeMTBDaysDesc>The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold.</HoldingPlatformEscapeMTBDaysDesc>
-  <TabEntity>Entity</TabEntity>
-  <StudyInterval>Study interval</StudyInterval>
-  <StudyIntervalDesc>How often this entity can be studied.</StudyIntervalDesc>
-  <EntityStudyMode_MaintainOnly>Maintain only</EntityStudyMode_MaintainOnly>
-  <EntityStudyMode_MaintainOnlyDesc>Wardens will not perform special actions on this entity, but other interactions are still available.</EntityStudyMode_MaintainOnlyDesc>
-  <EntityStudyMode_Study>Study</EntityStudyMode_Study>
-  <EntityStudyMode_StudyDesc>Researchers will study the entity.</EntityStudyMode_StudyDesc>
-  <EntityStudyMode_Release>Release</EntityStudyMode_Release>
-  <EntityStudyMode_ReleaseDesc>A warden will release the entity from the holding platform. Entities may be hostile when released.</EntityStudyMode_ReleaseDesc>
-  <EntityStudyMode_Execute>Execute</EntityStudyMode_Execute>
-  <EntityStudyMode_ExecuteDesc>A warden will execute the restrained entity.</EntityStudyMode_ExecuteDesc>
-  <CantBeExecuted>Can't be executed.</CantBeExecuted>
-  <StudyKnowledgeGain>Knowledge gain</StudyKnowledgeGain>
-  <StudyKnowledgeGainDesc>Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge.</StudyKnowledgeGainDesc>
-  <MedicineQualityDescriptionEntity>What type of medicine can be given to this entity.</MedicineQualityDescriptionEntity>
+  <!-- EN: Escape interval -->
+  <HoldingPlatformEscapeMTBDays>Firar aralığı</HoldingPlatformEscapeMTBDays>
+  <!-- EN: The average time between escapes. This is affected by containment strength, the type of entity, the entity’s movement capability, and the duration of the entity's imprisonment. Some entities are also suppressed by cold. -->
+  <HoldingPlatformEscapeMTBDaysDesc>Firarlar arasındaki ortalama süre. Muhafaza gücü, varlığın türü, hareket kapasitesi ve tutsaklık süresi bunu etkiler. Ayrıca soğuk, bazı varlıkları baskılar.</HoldingPlatformEscapeMTBDaysDesc>
+  <!-- EN: Entity -->
+  <TabEntity>Varlık</TabEntity>
+  <!-- EN: Study interval -->
+  <StudyInterval>İnceleme aralığı</StudyInterval>
+  <!-- EN: How often this entity can be studied. -->
+  <StudyIntervalDesc>Bu varlığın ne kadar sık incelenebileceği.</StudyIntervalDesc>
+  <!-- EN: Maintain only -->
+  <EntityStudyMode_MaintainOnly>Yalnızca elde tut</EntityStudyMode_MaintainOnly>
+  <!-- EN: Wardens will not perform special actions on this entity, but other interactions are still available. -->
+  <EntityStudyMode_MaintainOnlyDesc>Gardiyanlar bu varlık üzerinde belirli bir işlem yapmayacaklar, ancak diğer etkileşimler mümkün.</EntityStudyMode_MaintainOnlyDesc>
+  <!-- EN: Study -->
+  <EntityStudyMode_Study>İnceleme</EntityStudyMode_Study>
+  <!-- EN: Researchers will study the entity. -->
+  <EntityStudyMode_StudyDesc>Araştırmacılar varlığı inceleyecekler.</EntityStudyMode_StudyDesc>
+  <!-- EN: Release -->
+  <EntityStudyMode_Release>Serbest bırak</EntityStudyMode_Release>
+  <!-- EN: A warden will release the entity from the holding platform. Entities may be hostile when released. -->
+  <EntityStudyMode_ReleaseDesc>Bir gardiyan varlığı zincirleme platformundan serbest bırakacak. Varlıklar serbest bırakıldığında düşman olabilir.</EntityStudyMode_ReleaseDesc>
+  <!-- EN: Execute -->
+  <EntityStudyMode_Execute>İnfaz et</EntityStudyMode_Execute>
+  <!-- EN: A warden will execute the restrained entity. -->
+  <EntityStudyMode_ExecuteDesc>Bir gardiyan tutsak varlığı infaz edecek.</EntityStudyMode_ExecuteDesc>
+  <!-- EN: Extract bioferrite -->
+  <EntityStudyMode_Extract>biyoferrit çıkar</EntityStudyMode_Extract>
+  <!-- EN: Doctors will extract bioferrite from the captured entity whenever possible. This extraction method is simple, but inefficient. Can’t be done if the entity is attached to a bioferrite harvester. -->
+  <EntityStudyMode_ExtractDesc>Doktorlar, yakalanan varlıktan mümkün oldukça biyoferrit çıkaracaklar. Bu çıkarma yöntemi basit ancak verimsiz. Eğer varlık bir biyoferrit çıkarıcıya bağlıysa yapılamaz.</EntityStudyMode_ExtractDesc>
+  <!-- EN: Requires bioferrite extraction. -->
+  <RequiresBioferriteExtraction>Biyoferrit çıkarımı gerektirir.</RequiresBioferriteExtraction>
+  <!-- EN: Blocked by bioferrite harvester. -->
+  <BioferriteHarvesterAttached>Biyoferrit çıkarıcı tarafından engellendi.</BioferriteHarvesterAttached>
+  <!-- EN: Can't be executed. -->
+  <CantBeExecuted>İnfaz edilemez.</CantBeExecuted>
+  <!-- EN: Knowledge gain -->
+  <StudyKnowledgeGain>Bilgi edinimi</StudyKnowledgeGain>
+  <!-- EN: Amount of knowledge gained per study interval. Better containment helps the researcher focus on study instead of safety, yielding more knowledge. -->
+  <StudyKnowledgeGainDesc>İnceleme periyodu başına edinilen bilgi miktarı. Daha iyi muhafaza etmek, araştırmacıya güvenlikten ziyade daha fazla bilgi edinebilme açısından yardımcı olur.</StudyKnowledgeGainDesc>
+  <!-- EN: What type of medicine can be given to this entity. -->
+  <MedicineQualityDescriptionEntity>Bu varlığa verilebilecek ilacın türü.</MedicineQualityDescriptionEntity>
 
-  <FactorForElectroharvester>Electroharvester</FactorForElectroharvester>
-  <FactorForDaysInCaptivity>Long captivity</FactorForDaysInCaptivity>
-  <FactorForColdCaptivity>Cold containment bonus</FactorForColdCaptivity>
-  <IncapableOfEscaping>Incapable of escaping</IncapableOfEscaping>
-  <EntityDowned>Entity downed</EntityDowned>
-  <FactorContainmentStrength>Containment strength</FactorContainmentStrength>
-  <FactorElectroharvester>Electroharvester</FactorElectroharvester>
-  <FactorActivity>Activity</FactorActivity>
+  <!-- EN: Electroharvester -->
+  <FactorForElectroharvester>Elektrohasat makinesi</FactorForElectroharvester>
+  <!-- EN: Long captivity -->
+  <FactorForDaysInCaptivity>Uzun mahkumiyet</FactorForDaysInCaptivity>
+  <!-- EN: Cold containment bonus -->
+  <FactorForColdCaptivity>Soğuk muhafaza bonusu</FactorForColdCaptivity>
+  <!-- EN: Incapable of escaping -->
+  <IncapableOfEscaping>Kaçamaz</IncapableOfEscaping>
+  <!-- EN: Entity downed -->
+  <EntityDowned>Varlık düştü</EntityDowned>
+  <!-- EN: Containment strength -->
+  <FactorContainmentStrength>Muhafaza gücü</FactorContainmentStrength>
+  <!-- EN: Electroharvester -->
+  <FactorElectroharvester>Elektrohasat makinesi</FactorElectroharvester>
+  <!-- EN: Activity -->
+  <FactorActivity>Etkinlik</FactorActivity>
 
 </LanguageData>

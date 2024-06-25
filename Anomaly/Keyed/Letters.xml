@@ -1,174 +1,294 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- Inhumanization -->
-  <ReHumanizedLabel>Rehumanized</ReHumanizedLabel>
-  <ReHumanizedText>{0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed.</ReHumanizedText>
-  <WarningFromLabel>Warning from {0_nameDef}</WarningFromLabel>
+  <!-- EN: Rehumanized -->
+  <ReHumanizedLabel>Yeniden insanlaştı</ReHumanizedLabel>
+  <!-- EN: {0_nameDef} has regained {0_possessive} connection to humanity. {0_nameDef}'s 'inhumanized' health condition has been removed. -->
+  <ReHumanizedText>{0_nameDef}, insanlık ile yeniden bağ kurdu. {0_nameDef} için 'insanlıktan çıkmış' sağlık durumu silindi.</ReHumanizedText>
+  <!-- EN: Warning from {0_nameDef} -->
+  <WarningFromLabel>{0_nameDef} kişisinden uyarı</WarningFromLabel>
 
   <!-- Hate chanters -->
-  <HateChantersLabel>Cultist hate chanters</HateChantersLabel>
-  <HateChantersText>Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped.</HateChantersText>
-  <HateChantersAttackingLabel>Cultists attacking</HateChantersAttackingLabel>
-  <HateChantersAttackingText>The cultists have ended their hate chant and begun to come out of their ritual trance.\n\nPrepare to defend.</HateChantersAttackingText>
+  <!-- EN: Cultist hate chanters -->
+  <HateChantersLabel>Tarikatçı nefret ilahicileri</HateChantersLabel>
+  <!-- EN: Cultist hate chanters have arrived. They intend to perform a hate chant ritual to force psychic rage into your colonists and drive them mad. The chant will grow louder and louder until the cultists are stopped. -->
+  <HateChantersText>Tarikatçı nefret ilahicileri geldi. Bir nefret ilahisi ayini yaparak kolonistlerini psişik öfkeye sürükleyip delirtmek niyetindeler. Tarikatçılar durdurulmadığı sürece ilahinin sesi giderek artacak.</HateChantersText>
+  <!-- EN: Cultists attacking -->
+  <HateChantersAttackingLabel>Tarikatçılar saldırıyor</HateChantersAttackingLabel>
+  <!-- EN: The cultists have ended their hate chant and have begun to come out of their ritual trance.\n\nPrepare to defend. -->
+  <HateChantersAttackingText>Tarikatçılar nefret ilahilerini sonlandırdı ve trans hallerinden çıkıyorlar.\n\nSavunmaya hazırlan.</HateChantersAttackingText>
 
   <!-- Psychic rituals -->
-  <PsychicRitualCompleteLabel>{0} complete</PsychicRitualCompleteLabel>
+  <!-- EN: {0} complete -->
+  <PsychicRitualCompleteLabel>{0} tamamlandı</PsychicRitualCompleteLabel>
 
-  <VoidProvocationCompletedText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities.</VoidProvocationCompletedText>
-  <VoidProvocationSucceeded>Prepare for what comes next.</VoidProvocationSucceeded>
-  <VoidProvocationFailed>Unfortunately, your call has been left unanswered.</VoidProvocationFailed>
-  <VoidProvocationDarkPsychicShock>In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma.</VoidProvocationDarkPsychicShock>
-  <PhilophagyCompleteText>{INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}.</PhilophagyCompleteText>
-  <PawnGainedXPInSkill>{0_nameDef} gained {1} XP in {2_label}</PawnGainedXPInSkill>
-  <PawnLostXPInSkill>{0_nameDef} lost {1} XP in {2_label}</PawnLostXPInSkill>
-  <PhilophagySkillLevelGained>rising from skill level {0} to {1}.</PhilophagySkillLevelGained>
-  <PhilophagySkillLevelLost>falling from skill level {0} to {1}.</PhilophagySkillLevelLost>
-  <PhilophagySkillLevelRemains>remaining at skill level {0}.</PhilophagySkillLevelRemains>
-  <PhilophagyDamagedTarget>The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</PhilophagyDamagedTarget>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, sending out a psychic pulse that will attract entities. -->
+  <VoidProvocationCompletedText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve varlıkları çekecek bir psişik titreşim saldı.</VoidProvocationCompletedText>
+  <!-- EN: Prepare for what comes next. -->
+  <VoidProvocationSucceeded>Gelmekte olana hazırlan.</VoidProvocationSucceeded>
+  <!-- EN: Unfortunately, your call has been left unanswered. -->
+  <VoidProvocationFailed>Maalesef, çağrın cevapsız kaldı.</VoidProvocationFailed>
+  <!-- EN: In the process, {INVOKER_nameDef} glimpsed something horrifying beyond human understanding. The psychic darkness shocked {INVOKER_objective} into a short-term coma. -->
+  <VoidProvocationDarkPsychicShock>{INVOKER_nameDef}, ayin esnasında bir anlığına insan algısının sınırlarını aşan korkunçlukta bir şey gördü. Psişik karanlık onu şok etti ve kısa süreli bir komaya soktu.</VoidProvocationDarkPsychicShock>
+  <!-- EN: {INVOKER_nameDef} has completed {RITUAL_definite} ritual, absorbing skills and memories of {TARGET_nameDef}. -->
+  <PhilophagyCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve {TARGET_nameDef} kişisinin yetenekleri ile anılarını soğurdu.</PhilophagyCompleteText>
+  <!-- EN: {0_nameDef} gained {1} XP in {2_label} -->
+  <PawnGainedXPInSkill>{0_nameDef}, {2_label} yeteneğinde {1} XP kazandı.</PawnGainedXPInSkill>
+  <!-- EN: {0_nameDef} lost {1} XP in {2_label} -->
+  <PawnLostXPInSkill>{0_nameDef}, {2_label} yeteneğinde {1} XP kaybetti.</PawnLostXPInSkill>
+  <!-- EN: rising from skill level {0} to {1}. -->
+  <PhilophagySkillLevelGained>{0} yetenek seviyesinden {1} seviyesine çıkıyor.</PhilophagySkillLevelGained>
+  <!-- EN: falling from skill level {0} to {1}. -->
+  <PhilophagySkillLevelLost>{0} yetenek seviyesinden {1} seviyesine düşüyor.</PhilophagySkillLevelLost>
+  <!-- EN: remaining at skill level {0}. -->
+  <PhilophagySkillLevelRemains>{0} yetenek seviyesinde kalıyor.</PhilophagySkillLevelRemains>
+  <!-- EN: The process damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
+  <PhilophagyDamagedTarget>Süreç {TARGET_nameDef} kişisinin beynine hasar vererek onu komaya soktu.</PhilophagyDamagedTarget>
 
-  <ImbueDeathRefuralCompleteText>{0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills.</ImbueDeathRefuralCompleteText>
+  <!-- EN: {0_nameDef} has been imbued with death refusal. {0_pronoun} can now self-resurrect after dying.\n\nThe process has atrophied {0_nameDef}'s brain, causing {0_objective} to lose a total of {1} XP in {0_possessive} skills. -->
+  <ImbueDeathRefuralCompleteText>{0_nameDef} ölüm reddi ile aşılandı. Şimdi o, öldükten sonra kendini diriltebilir.\n\n Süreç onun zihnini köreltti ve yeteneklerinde toplam {1} XP kaybına neden oldu.</ImbueDeathRefuralCompleteText>
 
-  <SummonAnimalsSuccessText>{0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly.</SummonAnimalsSuccessText>
-  <SummonAnimalsFailureText>{0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival!</SummonAnimalsFailureText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual. Expect a herd of animals shortly. -->
+  <SummonAnimalsSuccessText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Yakın zamanda bir hayvan sürüsü bekle.</SummonAnimalsSuccessText>
+  <!-- EN: {0_nameDef} has completed {RITUAL_definite} ritual but something has gone terribly wrong! The ritual has attracted scaria-infected manhunting animals. Prepare for their arrival! -->
+  <SummonAnimalsFailureText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı ancak bir şeyler ters gitti. Ayin, insan avcısı hayvanları çekti. Onlar için hazırlan!</SummonAnimalsFailureText>
   
-  <SummonShamblersCompleteText>{0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival.</SummonShamblersCompleteText>
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. Prepare for their arrival. -->
+  <SummonShamblersCompleteText>{0_nameDef}, {RITUAL_definite} ayinini başarıyla tamamladı. Onlar için hazırlan.</SummonShamblersCompleteText>
 
-  <AttackingFromMultipleDirections>They are attacking from multiple directions.</AttackingFromMultipleDirections> 
+  <!-- EN: They are attacking from multiple directions. -->
+  <AttackingFromMultipleDirections>Farklı yönlerden saldırıyorlar.</AttackingFromMultipleDirections> 
 
-  <ChronophagyCompleteText>{0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects:</ChronophagyCompleteText>
-  <ChronophagyTargetAged>{0_nameDef} aged {1} years</ChronophagyTargetAged>
-  <ChronophagyInvokerRejuvenated>{0_nameDef} became {1} years younger</ChronophagyInvokerRejuvenated>
-  <ChronophagyTargetDiedOfOldAge>{0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age.</ChronophagyTargetDiedOfOldAge>
-  <ChronophagyTargetOldAgeDiseases>While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions</ChronophagyTargetOldAgeDiseases>
-  <ChronophagyInvokerCuredDiseases>Additionally, the process has cured {0_nameDef} of the following ailments:</ChronophagyInvokerCuredDiseases>
-  <ChronophagyCurrentAge>and is now {0} years old</ChronophagyCurrentAge>
+  <!-- EN: {0_nameDef} has successfully completed {RITUAL_definite} ritual. The ritual had the following effects: -->
+  <ChronophagyCompleteText>{0_nameDef}, {RITUAL_definite} ayinini başarıyla tamamladı. Ayin, şu etkilere sahip:</ChronophagyCompleteText>
+  <!-- EN: {0_nameDef} aged {1} years -->
+  <ChronophagyTargetAged>{0_nameDef} {1} yıl yaşlandı</ChronophagyTargetAged>
+  <!-- EN: {0_nameDef} became {1} years younger -->
+  <ChronophagyInvokerRejuvenated>{0_nameDef} {1} yıl gençleşti</ChronophagyInvokerRejuvenated>
+  <!-- EN: {0_nameDef} could not take the strain of the aging from the chronophagy ritual and died due to old age. -->
+  <ChronophagyTargetDiedOfOldAge>{0_nameDef}, kronofaj ayinin yaşlandırma yükünü kaldıramadı ve yaşlılıktan öldü.</ChronophagyTargetDiedOfOldAge>
+  <!-- EN: While {0_nameDef} survived the chronophagy ritual, {0_pronoun} developed the following conditions -->
+  <ChronophagyTargetOldAgeDiseases>{0_nameDef} kronofaj ayinini atlattı ancak şu durumları edindi:</ChronophagyTargetOldAgeDiseases>
+  <!-- EN: Additionally, the process has cured {0_nameDef} of the following ailments: -->
+  <ChronophagyInvokerCuredDiseases>Ayrıca, bu süreçte {0_nameDef} şu hastalıklardan arındı:</ChronophagyInvokerCuredDiseases>
+  <!-- EN: and is now {0} years old -->
+  <ChronophagyCurrentAge>ve şu an {0} yaşında</ChronophagyCurrentAge>
 
-  <PleasurePulseCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower.</PleasurePulseCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone impacted by {RITUAL_definite} will be happier but work slower. -->
+  <PleasurePulseCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Sonraki {1} için herkes {RITUAL_definite} etkisiyle daha mutlu olacak fakat daha yavaş çalışacak.</PleasurePulseCompleteText>
 
-  <NeurosisPulseCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable.</NeurosisPulseCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. For the next {1}, everyone who heard the pulse will work faster but be more irritable. -->
+  <NeurosisPulseCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Sonraki {1} için, titreşimi duyan herkes daha hızlı çalışacak ancak daha gergin olacak.</NeurosisPulseCompleteText>
 
-  <BloodRainCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk.</BloodRainCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Thick red droplets have begun to fall from the sky. Keep everyone indoors to prevent them from being driven berserk. -->
+  <BloodRainCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Gökten büyük kızıl damlacıklar düşmeye başlayacak. Herkesi içeride tut ve cinnet geçirmelerini engelle.</BloodRainCompleteText>
 
-  <BrainwipeCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories.</BrainwipeCompleteText>
-  <BrainwipeTargetComa>{TARGET_pronoun} will remain in a coma for {1}.</BrainwipeTargetComa>
-  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} is no longer unwaveringly loyal.</BrainwipeUnwaveringlyLoyal>
-  <BrainwipeRehumanized>{TARGET_nameDef} has been re-humanized.</BrainwipeRehumanized>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual, chaotically erasing {TARGET_nameDef}'s memories. -->
+  <BrainwipeCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve {TARGET_nameDef} kişisinin hafızasını kaotik şekilde sildi.</BrainwipeCompleteText>
+  <!-- EN: {TARGET_pronoun} will remain in a coma for {1}. -->
+  <BrainwipeTargetComa>O {1} süresince komada kalacak.</BrainwipeTargetComa>
+  <!-- EN: {TARGET_nameDef} is no longer unwaveringly loyal. -->
+  <BrainwipeUnwaveringlyLoyal>{TARGET_nameDef} artık sarsılmaz şekilde sadık değil.</BrainwipeUnwaveringlyLoyal>
+  <!-- EN: {TARGET_nameDef} has been re-humanized. -->
+  <BrainwipeRehumanized>{TARGET_nameDef} yeniden insanlaştı.</BrainwipeRehumanized>
 
-  <PsychophagyCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence.</PsychophagyCompleteText>
-  <PsychophagyTargetSurvived>{TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma.</PsychophagyTargetSurvived>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual and has consumed {TARGET_nameDef}'s psychic presence. -->
+  <PsychophagyCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı ve {TARGET_nameDef} kişisinin psişik mevcudiyetini tüketti.</PsychophagyCompleteText>
+  <!-- EN: {TARGET_nameDef} is now psychically deaf. The process has damaged {TARGET_nameDef}'s brain, putting {TARGET_objective} into a coma. -->
+  <PsychophagyTargetSurvived>{TARGET_nameDef} artık psişik anlamda sağır. Süreç {TARGET_nameDef} kişisinin beynine hasar verdi ve komaya soktu.</PsychophagyTargetSurvived>
   
-  <PsychicRitualTargetBrainLiquified>The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}.</PsychicRitualTargetBrainLiquified>
+  <!-- EN: The process has liquified {TARGET_nameDef}'s brain, killing {TARGET_objective}. -->
+  <PsychicRitualTargetBrainLiquified>Süreç {TARGET_nameDef} kişisinin beynini eritti ve o öldü.</PsychicRitualTargetBrainLiquified>
 
-  <SummonFleshbeastsPlayerCompleteText>{0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground!</SummonFleshbeastsPlayerCompleteText>
+  <!-- EN: {0_nameDef} has finished performing {RITUAL_definite} ritual. Fleshbeasts are emerging from the ground! -->
+  <SummonFleshbeastsPlayerCompleteText>{0_nameDef}, {RITUAL_definite} ayinini tamamladı. Yerin altından etcanavarlar çıkıyor!</SummonFleshbeastsPlayerCompleteText>
 
-  <GhoulInfusionCompleteText>{INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile.</GhoulInfusionCompleteText>
+  <!-- EN: {INVOKER_nameDef} has finished infusing {TARGET_nameDef} with bioferrite. The ritual has twisted {TARGET_nameDef}'s mind and mutated {TARGET_possessive} body, creating a terrifying creature known as a ghoul. {INVOKER_nameDef} shares a psychic link with {TARGET_nameDef}, allowing {INVOKER_objective} to control {TARGET_nameDef}.\n\nGhouls eat raw meat to survive. If they go hungry, they can turn hostile. -->
+  <GhoulInfusionCompleteText>{INVOKER_nameDef}, {TARGET_nameDef} kişisine biyoferrit enjekte etmeyi bitirdi. İşlem, onun zihnini saptırıp bedenini mutasyona uğratarak korkunç bir gûl yarattı. {INVOKER_nameDef} ile {TARGET_nameDef} psişik olarak birbine bağlı ve o gûlü kontrol ediyor.\n\nGûllar çiğ etle beslenir. Eğer acıkırlarsa saldırganlaşabilirler.</GhoulInfusionCompleteText>
   
-  <AttackersMayCastRitualMultipleTimes>They might perform the ritual multiple times. You need to go stop them.</AttackersMayCastRitualMultipleTimes>
+  <!-- EN: They might perform the ritual multiple times. You need to go stop them. -->
+  <AttackersMayCastRitualMultipleTimes>Ayini birkaç kere yapabilirler. Onları durdurman lazım.</AttackersMayCastRitualMultipleTimes>
 
-  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma.</SkipAbductionPlayerCompleteText>
+  <!-- EN: {INVOKER_nameDef} has finished performing {RITUAL_definite} ritual. By manipulating space and time, {INVOKER_nameDef} has abducted {TARGET_nameDef} of the {FACTION_name} faction. The terrifying nature of the ritual has put {TARGET_nameDef} into a short-term coma. -->
+  <SkipAbductionPlayerCompleteText>{INVOKER_nameDef}, {RITUAL_definite} ayinini tamamladı. {FACTION_name} fraksiyonundan {TARGET_nameDef}, uzay-zamanın bükülmesi ile {INVOKER_nameDef} tarafından kaçırıldı. Ayinin dehşet verici doğası sebebiyle {TARGET_nameDef} kısa süreli komaya girdi.</SkipAbductionPlayerCompleteText>
 
-  <FleshmassResponseLabel>Fleshmass response</FleshmassResponseLabel> 
-  <FleshmassResponseText>The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself.</FleshmassResponseText> 
+  <!-- EN: Fleshmass response -->
+  <FleshmassResponseLabel>Etyığını tepkisi</FleshmassResponseLabel> 
+  <!-- EN: The death of fleshmass has triggered a violent response! The fleshmass shudders as it births new fleshbeasts to defend itself. -->
+  <FleshmassResponseText>Etyığınının ölümü vahşi bir tepkiye neden oldu! Etyığını kendini korumak için titreyerek etcanavarlar doğuruyor.</FleshmassResponseText> 
 
   <!-- Void awakening -->
-  <VoidAwakeningStageOneStructuresActivatedLabel>Dimming sky</VoidAwakeningStageOneStructuresActivatedLabel>
-  <VoidAwakeningStageTwoStructuresActivatedLabel>Structures activated</VoidAwakeningStageTwoStructuresActivatedLabel>
-  <VoidAwakeningStageOneStructuresActivatedText>As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon.</VoidAwakeningStageOneStructuresActivatedText>
-  <VoidAwakeningStageTwoStructuresActivatedText>All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready.</VoidAwakeningStageTwoStructuresActivatedText> 
-  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} teleported</VoidAwakeningFinalStructuresActivatedLabel> 
-  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power. This metal hell is a connecting channel to an inhuman hyperintelligence.</VoidAwakeningFinalStructuresActivatedText> 
-  <VoidAwakeningShamblerArrivalLabel>Shambler assault</VoidAwakeningShamblerArrivalLabel>
-  <VoidAwakeningShamblerArrivalText>A horde of shamblers have been attracted by the void structures. Get ready!</VoidAwakeningShamblerArrivalText>
-  <VoidAwakeningFleshbeastBurrowLabel>Fleshbeast tunneling</VoidAwakeningFleshbeastBurrowLabel>
-  <VoidAwakeningFleshbeastBurrowText>The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready!</VoidAwakeningFleshbeastBurrowText>
-  <VoidAwakeningMetalhorrorArrivalLabel>Metalhorror attack</VoidAwakeningMetalhorrorArrivalLabel>
-  <VoidAwakeningMetalhorrorArrivalText>Metalhorrors are appearing near the void monolith. Get ready!</VoidAwakeningMetalhorrorArrivalText>
-  <VoidAwakeningEntityArrivalLabel>Entity attack</VoidAwakeningEntityArrivalLabel> 
-  <VoidAwakeningEntityArrivalText>The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready!</VoidAwakeningEntityArrivalText>
-  <VoidAwakeningBreadcrumbLetterLabel>Embrace the void</VoidAwakeningBreadcrumbLetterLabel>
-  <VoidAwakeningBreadcrumbLetterText>While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities.</VoidAwakeningBreadcrumbLetterText>
+  <!-- EN: Dimming sky -->
+  <VoidAwakeningStageOneStructuresActivatedLabel>Kararan gökyüzü</VoidAwakeningStageOneStructuresActivatedLabel>
+  <!-- EN: Structures activated -->
+  <VoidAwakeningStageTwoStructuresActivatedLabel>Yapılar aktive oldu</VoidAwakeningStageTwoStructuresActivatedLabel>
+  <!-- EN: As the second structure is activated, the darkness begins to intensify. An unnatural darkness will soon descend. Make sure your colony is prepared. Stockpile resources, build lights, craft disruptor flares, and reinforce defenses. Only those in the light will be safe.\n\nMore twisted structures will appear soon. -->
+  <VoidAwakeningStageOneStructuresActivatedText>İkinci yapının aktive olmasıyla karanlık yoğunlaşmaya başladı. Yakında anormal bir karanlık çökecek. Kaynak istifle, etrafı ışıklandır ve işaret fişekleri üret.\n\nYakında başka çarpık yapılar ortaya çıkacak.</VoidAwakeningStageOneStructuresActivatedText>
+  <!-- EN: All void structures have been activated. The space around the void monolith has begun to shimmer. Get ready. -->
+  <VoidAwakeningStageTwoStructuresActivatedText>Hiçlik ile bağlantılı bütün yapılar aktive edildi. Hiçliğin etrafındaki alan parıldamaya başladı. Hazırlan.</VoidAwakeningStageTwoStructuresActivatedText> 
+  <!-- EN: {STUDIER_nameDef} teleported -->
+  <VoidAwakeningFinalStructuresActivatedLabel>{STUDIER_nameDef} ışınlandı</VoidAwakeningFinalStructuresActivatedLabel> 
+  <!-- EN: {STUDIER_nameDef} has activated the monolith and been ripped from our spacetime into another place.\n\n{STUDIER_pronoun} finds {STUDIER_objective}self in a room of jagged metallic spikes. Every surface is slick with dark fluid and the air vibrates with power.\n\nThis metal hell is a connecting channel to an inhuman hyperintelligence. -->
+  <VoidAwakeningFinalStructuresActivatedText>{STUDIER_nameDef} monoliti aktive etti ve bizim uzay-zamanımızdan koptu.\n\nO, kendini metalik sivri dikenler kaplı bir odada buldu. Bütün yüzeyler karanlık sıvı ile kaplı ve hava güç ile titreşiyor. Bu metal cehennem, insanüstü bir üst akıla giden yol.</VoidAwakeningFinalStructuresActivatedText> 
+  <!-- EN: Shambler assault -->
+  <VoidAwakeningShamblerArrivalLabel>Hortlak saldırısı</VoidAwakeningShamblerArrivalLabel>
+  <!-- EN: A horde of shamblers have been attracted by the void structures. Get ready! -->
+  <VoidAwakeningShamblerArrivalText>Bir hortlak sürüsü hiçlik yapıları tarafından buraya çekildi. Hazırlan!</VoidAwakeningShamblerArrivalText>
+  <!-- EN: Fleshbeast tunneling -->
+  <VoidAwakeningFleshbeastBurrowLabel>Etcanavarlar tünel açıyor</VoidAwakeningFleshbeastBurrowLabel>
+  <!-- EN: The monolith has generated a powerful psychic pulse, attracting nearby entities.\n\nBeneath the ground, you can hear meaty shrieks and scratching claws. Fleshbeasts are tunneling towards you. Get ready! -->
+  <VoidAwakeningFleshbeastBurrowText>Monolit güçlü bir psişik titreşim yayarak yakınlardaki varlıkları çekti.\n\nYerin altından gelen etsi ciyaklamaları ve eşeleyen pençeleri duyuyorsun. Etcanavarlar sana doğru kazıyor. Hazırlan!</VoidAwakeningFleshbeastBurrowText>
+  <!-- EN: Metalhorror attack -->
+  <VoidAwakeningMetalhorrorArrivalLabel>Metaldehşet saldırısı</VoidAwakeningMetalhorrorArrivalLabel>
+  <!-- EN: Metalhorrors are appearing near the void monolith. Get ready! -->
+  <VoidAwakeningMetalhorrorArrivalText>Hiçlik monolitinin yanında metaldehşetler ortaya çıkıyor. Hazırlan!</VoidAwakeningMetalhorrorArrivalText>
+  <!-- EN: Entity attack -->
+  <VoidAwakeningEntityArrivalLabel>Varlık saldırısı</VoidAwakeningEntityArrivalLabel> 
+  <!-- EN: The activated void structure has generated a twisted psychic pulse, attracting nearby entities. Get ready! -->
+  <VoidAwakeningEntityArrivalText>Etkinleştirilen hiçlik yapısı sapkın bir titreşim yayarak yakınlardaki varlıkları çekti. Hazırlan!</VoidAwakeningEntityArrivalText>
+  <!-- EN: Embrace the void -->
+  <VoidAwakeningBreadcrumbLetterLabel>Hiçliği özümse</VoidAwakeningBreadcrumbLetterLabel>
+  <!-- EN: While interacting with the void structure, {PAWN_nameDef} saw a vision of the void. For a moment {PAWN_pronoun} swam the black ocean of infinite depth and felt its endless inhuman power.\n\n{PAWN_nameDef} thinks there may be a way to control that power by embracing the void. If you were to permanently open the conduit to the void, rather than shutting it down, it could offer untold possibilities. -->
+  <VoidAwakeningBreadcrumbLetterText>{PAWN_nameDef}, yapı ile etkileşimdeyken hiçliğin bir imgesini gördü. O, bir anlığına dipsiz kara okyanusta yüzdü ve onun sonsuz kudretteki zalim gücünü hissetti.\n\n{PAWN_nameDef}, hiçliği özümseyerek o sınırsız gücünü kullanmanın bir yolu olabileceğini düşünüyor. Eğer hiçliğe giden yolu kapatmak yerine temelli açarsan, tarifsiz ihtimaller arz edebilir.</VoidAwakeningBreadcrumbLetterText>
 
   <!-- Void node -->
-  <VoidNodeReturnedLabel>{PAWN_nameDef} returns</VoidNodeReturnedLabel>
-  <VoidNodeReturnedMessage>{PAWN_nameDef} has reappeared.</VoidNodeReturnedMessage>
-  <EmbracedVoidText>{PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent.</EmbracedVoidText>
-  <DisruptedLinkText>{PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide.</DisruptedLinkText>
-  <RewardFleshcraftingAbility>fleshcrafting</RewardFleshcraftingAbility>
-  <RewardSlaughterAbility>slaughter</RewardSlaughterAbility>
-  <RewardShamblerControlAbility>shambler control</RewardShamblerControlAbility>
+  <!-- EN: {PAWN_nameDef} returns -->
+  <VoidNodeReturnedLabel>{PAWN_nameDef} döndü</VoidNodeReturnedLabel>
+  <!-- EN: {PAWN_nameDef} has reappeared. -->
+  <VoidNodeReturnedMessage>{PAWN_nameDef} yeniden ortaya çıktı.</VoidNodeReturnedMessage>
+  <!-- EN: {PAWN_nameDef} has reappeared.\n\n{PAWN_pronoun} looks withered by the inhuman thought-patterns of the void. All traces of humanity have left {PAWN_possessive} eyes.\n\n{PAWN_nameDef}'s mind and body are now permanently linked to the dark void of inhuman rage. Powered by this new connection, {PAWN_nameDef} no longer feels tethered to mortal needs like comfort or sleep. {PAWN_pronoun} has gained the ability to induce terror in others using the power of the void.\n\nThe monolith is awakened. It hums louder with {PAWN_nameDef}'s reappearance, a reminder that its connection to the void has been opened and made permanent. -->
+  <EmbracedVoidText>{PAWN_nameDef} yeniden ortaya çıktı.\n\nGözlerinden insanlığa dair bütün izler silinmiş.\n\nArtık onun zihni ve bedeni sonsuza dek hiçliğin sapkın dışı öfkesine ait. Bu bağdan aldığı güçle {PAWN_nameDef} artık uyumak gibi hayati ihtiyaçlar taşımıyor. O, hiçliğin verdiği güç ile diğerlerinin yüreğine korku salıyor.\n\nMonolit uyandı. {PAWN_nameDef} tekrar zuhur ettiğinden beri daha güçlü uğulduyor ve hiçlikle olan bağın daimi kılındığını gözler önüne seriyor.</EmbracedVoidText>
+  <!-- EN: {PAWN_nameDef} has reappeared. {PAWN_pronoun} is weary from {PAWN_possessive} efforts, but otherwise healthy.\n\nBy closing the channel to the void, {PAWN_nameDef} has stopped any more unnatural phenomena from entering our world. Hostile entities in the area have all fallen to the ground, lifeless.\n\nTales of {PAWN_possessive} heroism are sure to spread far and wide. -->
+  <DisruptedLinkText>{PAWN_nameDef} yeniden ortaya çıktı. Harcadığı efor yüzünden bitkin halde ancak bunun dışında sağlıklı.\n\n{PAWN_nameDef}, hiçliğe açılan geçidi kapatarak daha fazla doğadışı fenomenlerin dünyamıza girmesini engelledi. Bölgedeki bütün düşman varlıkların cansız bedenleri yere düştü.\n\nMuhakkak onun kahramanlığına dair hikayeler uzak diyarlara dilden dile yayılacak.</DisruptedLinkText>
+  <!-- EN: fleshcrafting -->
+  <RewardFleshcraftingAbility>et zannati</RewardFleshcraftingAbility>
+  <!-- EN: slaughter -->
+  <RewardSlaughterAbility>katlet</RewardSlaughterAbility>
+  <!-- EN: shambler control -->
+  <RewardShamblerControlAbility>hortlak kontrolü</RewardShamblerControlAbility>
 
   <!-- Duplicate sickness -->
-  <DuplicateSicknessLabel>Duplicate sickness</DuplicateSicknessLabel>
-  <DuplicateSicknessText>Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies.</DuplicateSicknessText>
+  <!-- EN: Duplicate sickness -->
+  <DuplicateSicknessLabel>Klon hastalığı</DuplicateSicknessLabel>
+  <!-- EN: Both {0_nameDef} and {0_possessive} duplicate are feeling unwell. Their condition seems to be related to the duplication process and is worsening. The psychic connection that binds them is causing them to slowly lose consciousness. The condition won't get better until one of them dies. -->
+  <DuplicateSicknessText>Hem {0_nameDef} hem de klonu iyi hissetmiyor. Görünün o ki sorun klonlama sürecinden kaynaklı ve giderek kötüye gidiyor. Onları bağlayan psişik bağ, bilinçlerini yavaşça kaybetmelerine sebep oluyor. İkisinden biri ölmediği sürece durum iyiye gitmeyecek.</DuplicateSicknessText>
 
   <!-- Frenzied animals -->
-  <FrenziedAnimalsLabel>Frenzied animals</FrenziedAnimalsLabel>
-  <FrenziedAnimalsText>A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them.</FrenziedAnimalsText>
+  <!-- EN: Frenzied animals -->
+  <FrenziedAnimalsLabel>Çıldırmış hayvanlar</FrenziedAnimalsLabel>
+  <!-- EN: A pack of man-hunting {0} have entered the area! They've been attracted by your ritual. They will roam the region hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out or fight them. -->
+  <FrenziedAnimalsText>Ayinin sebebiyle insan avlayan bir {0} sürüsü bölgeye girdi. İnsansıları avlamak için çevrede dolaşacaklar.\n\nKapıdan geçen birini görmedikçe kapılara saldırmazlar. İçeride kalırsan güvende olursun. Ayrıca, kapalı taretlere saldırmayacaklarından onları korumak için gücü kesebilirsin.\n\n{0} bölgeyi bir iki gün içinde terk edecek. Saklanıp gitmelerini bekleyebilir ya da saldırabilirsin.</FrenziedAnimalsText>
 
   <!-- Ghouls -->
-  <GhoulBetrayalLabel>Ghoul betrayal</GhoulBetrayalLabel>
-  <GhoulBetrayalText>{PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat!</GhoulBetrayalText>
+  <!-- EN: Ghoul betrayal -->
+  <GhoulBetrayalLabel>Gûl ihaneti</GhoulBetrayalLabel>
+  <!-- EN: {PAWN_nameDef} has been driven mad by {PAWN_possessive} ravenous hunger for raw meat! -->
+  <GhoulBetrayalText>{PAWN_nameDef} çiğ ete aç olduğundan çıldırdı.</GhoulBetrayalText>
   
   <!-- Distress signal -->
-  <DistressSignalLabel>Distress signal</DistressSignalLabel>
-  <DistressSignalText>You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead.</DistressSignalText>
-  <DistressSignalAmbushLabel>Ambush</DistressSignalAmbushLabel>
-  <DistressSignalAmbushText>Fleshbeasts are emerging from a nearby pit burrow!</DistressSignalAmbushText>
+  <!-- EN: Distress signal -->
+  <DistressSignalLabel>Yardım çağrısı</DistressSignalLabel>
+  <!-- EN: You've intercepted a distress signal from a nearby camp of {FACTION_name}.\n\nThe frantic voice begs for immediate assistance defending against a threat. They offer everything at their camp in return for help, including shards of powerful archotechnology.\n\nAs the voice tries to explain the nature of the threat, the signal goes dead. -->
+  <DistressSignalText>{FACTION_name} fraksiyonuna ait yakınlardaki bir camptan yardım çağrısı aldın. Telaşlı ses bir tehdide karşı acil yardımın için yalvarıyor. Yardımına karşılık güçlü arkoteknoloji kabukları dahil kamplarındaki her şeyi teklif ediyorlar.\n\nSes, tehdidi tarif etmeye çalışırken sinyal kesiliyor.</DistressSignalText>
+  <!-- EN: Ambush -->
+  <DistressSignalAmbushLabel>Pusu</DistressSignalAmbushLabel>
+  <!-- EN: Fleshbeasts are emerging from a nearby pit burrow! -->
+  <DistressSignalAmbushText>Etcanavarlar yakınlardaki bir oyuktan yüzeye çıkıyor!</DistressSignalAmbushText>
 
   <!-- Chimeras -->
-  <ChimeraAssaultLabel>Chimeras approach</ChimeraAssaultLabel>
-  <ChimeraAssaultText>A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked.</ChimeraAssaultText>
+  <!-- EN: Chimeras approach -->
+  <ChimeraAssaultLabel>Kimeralar yaklaşıyor</ChimeraAssaultLabel>
+  <!-- EN: A group of twisted animal-like chimera monsters have appeared nearby.\n\nThe misshapen beasts will watch your colony, waiting for an opportunity to attack. They are skittish and may retaliate if provoked. -->
+  <ChimeraAssaultText>Bir grup sapkın hayvansı kimera canavarları yakınlarda görüldü.\n\nBu biçimsiz yaratıklar kolonini izleyip saldırmak için fırsat kollayacak.Saldırgan görünüyorlar ve kışkırtılırlarsa karşılık verebilirler.</ChimeraAssaultText>
 
   <!-- Unnatural darkness -->
-  <DarknessLiftingEarlyLetterLabel>Darkness lifting</DarknessLiftingEarlyLetterLabel>
-  <DarknessLiftingEarlyLetterText>The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air.</DarknessLiftingEarlyLetterText>
-  <PawnAttackedInDarknessLabel>{0_nameDef} attacked</PawnAttackedInDarknessLabel>
-  <PawnAttackedInDarknessText>Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light.</PawnAttackedInDarknessText>
-  <NoctolAttackLetterLabel>Noctol attack</NoctolAttackLetterLabel>
-  <NoctolAttackLetterText>The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon.</NoctolAttackLetterText>
-  <DarknessWarningLetterLabel>Darkness soon</DarknessWarningLetterLabel>
-  <DarknessWarningLetterText>The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas.</DarknessWarningLetterText>
-  <DarknessWaveringLetterLabel>Darkness wavering</DarknessWaveringLetterLabel>
-  <DarknessWaveringLetterText>With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness.</DarknessWaveringLetterText>
+  <!-- EN: Darkness lifting -->
+  <DarknessLiftingEarlyLetterLabel>Karanlık dağılıyor</DarknessLiftingEarlyLetterLabel>
+  <!-- EN: The last of the nightmarish pillars has collapsed. The unnatural darkness has begun to dissipate. Colonists breathe a sigh of relief in the clear air. -->
+  <DarknessLiftingEarlyLetterText>Bir kâbusu andıran sütunların sonuncusu da yıkıldı. Olağandışı karanlık dağılmaya başladı. Kolonistler temiz havada rahat bir nefes alıyor.</DarknessLiftingEarlyLetterText>
+  <!-- EN: {0_nameDef} attacked -->
+  <PawnAttackedInDarknessLabel>{0_nameDef} saldırıya uğradı</PawnAttackedInDarknessLabel>
+  <!-- EN: Something in the darkness has attacked {0_nameDef}!\n\nThese attacks will continue until {0_pronoun} is safely in the light. -->
+  <PawnAttackedInDarknessText>{0_nameDef}, karanlıkta bir şeyin saldırısına uğradı!O aydınlıkta güvende olana kadar bu saldırılar devam edecek.</PawnAttackedInDarknessText>
+  <!-- EN: Noctol attack -->
+  <NoctolAttackLetterLabel>Noktol saldırısı</NoctolAttackLetterLabel>
+  <!-- EN: The darkness has begun to stir. Inhuman chittering sounds emerge from somewhere within the inky black.\n\nBlack, insect-like noctols will attack from the darkness soon. -->
+  <NoctolAttackLetterText>Karanlık hareketlenmeye başladı. Zifiri karanlıktan, böceksi sesler duyuluyor.\n\nSiyah, böceksi noktollar yakında karanlığın içinden saldıracak.</NoctolAttackLetterText>
+  <!-- EN: Darkness soon -->
+  <DarknessWarningLetterLabel>Karanlık yaklaşıyor</DarknessWarningLetterLabel>
+  <!-- EN: The darkness is almost here. Only those in direct light from lamps, torches, or flares will be safe.\n\nTo keep colonists in the light, you can restrict their movement in the SCHEDULE tab by assigning allowed areas. -->
+  <DarknessWarningLetterText>Karanlık neredeyse geldi. Sadece lambalar, meşaleler ve işaret fişeklerinin ışığında olanlar güvende olacak.\n\nKolonistlerini aydınlıkta tutmak için PROGRAM sekmesinden onlara izinli alanlar atayarak hareketlerini kısıtlayabilirsin.</DarknessWarningLetterText>
+  <!-- EN: Darkness wavering -->
+  <DarknessWaveringLetterLabel>Karanlık çekiliyor</DarknessWaveringLetterLabel>
+  <!-- EN: With the destruction of the noctolith, a faint crack appears in the darkness, before being filled with more of the sooty black.\n\nDestroy the remaining noctoliths to end the unnatural darkness. -->
+  <DarknessWaveringLetterText>Noktolitin yıkılmasıyla karanlıkta zayıf bir çatlak görülüyor.\n\nGedik yeniden karanlıkta dolmadan önce kalan noktolitleri yıkarak bu olağandışı karanlığı sonlandır.</DarknessWaveringLetterText>
 
   <!-- Shambler Swarms -->
-  <LetterLabelShamblerSwarmArrived>Shamblers approach</LetterLabelShamblerSwarmArrived>
-  <LetterLabelShamblerArrived>Shambler approaches</LetterLabelShamblerArrived>
-  <LetterShamblerSwarmArrived>A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge.</LetterShamblerSwarmArrived>
-  <LetterShamblerArrived>A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge.</LetterShamblerArrived>
-  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label} shamblers</LetterLabelShamblerAnimalsArrived>
-  <LetterShamblerAnimalsArrived>A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge.</LetterShamblerAnimalsArrived>
+  <!-- EN: Shamblers approach -->
+  <LetterLabelShamblerSwarmArrived>Hortlaklar yaklaşıyor</LetterLabelShamblerSwarmArrived>
+  <!-- EN: Shambler approaches -->
+  <LetterLabelShamblerArrived>Hortlak yaklaşıyor</LetterLabelShamblerArrived>
+  <!-- EN: A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
+  <LetterShamblerSwarmArrived>{0} tane sarsak, çürüyen ceset yaklaşıyor. Gaddar bir güç bu cansız bedenleri diriltip cinayete sürüklemiş.\n\nŞimdi onlar, bölgede dolaşacaklar. Eğer bir insan görürlerse saldıracaklar. Aksi halde birkaç gün içerisinde ayrılacaklar.\n\nEğer birini yakalayabilirsen, anomali bilgisi edinmek için inceleyebilirsin.</LetterShamblerSwarmArrived>
+  <!-- EN: A shambling, rotting corpse is approaching. Some inhuman force has reanimated this lifeless body and set it to murder.\n\nIt will now wander through the area. If it sees a human, it will attack. If not, it will leave in a few days.\n\nIf you can capture it, you can study it for anomaly knowledge. -->
+  <LetterShamblerArrived>Bir sarsak, çürüyen ceset yaklaşıyor. Gaddar bir güç bu cansız bedeni diriltip cinayete sürüklemiş.\n\nŞimdi on, bölgede dolaşacak. Eğer bir insan görürse saldıracak. Aksi halde birkaç gün içerisinde ayrılacak.\n\nEğer yakalayabilirsen, anomali bilgisi edinmek için inceleyebilirsin.</LetterShamblerArrived>
+  <!-- EN: {ANIMALKIND_label} shamblers -->
+  <LetterLabelShamblerAnimalsArrived>{ANIMALKIND_label} hortlaklar</LetterLabelShamblerAnimalsArrived>
+  <!-- EN: A group of shambling, rotting {ANIMALKIND_label} corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for anomaly knowledge. -->
+  <LetterShamblerAnimalsArrived>Bir grup sarsak, çürüyen {ANIMALKIND_label} cesedi yaklaşıyor. Gaddar bir güç bu cansız bedenleri diriltip cinayete sürüklemiş.\n\nŞimdi onlar, bölgede dolaşacaklar. Eğer bir insan görürlerse saldıracaklar. Aksi halde birkaç gün içerisinde ayrılacaklar.\n\nEğer birini yakalayabilirsen, anomali bilgisi edinmek için inceleyebilirsin.</LetterShamblerAnimalsArrived>
 
   <!-- Ghoul pod crash -->
-  <GhoulPodCrashLabel>Transport pod crash</GhoulPodCrashLabel>
-  <GhoulPodCrashText>A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes.</GhoulPodCrashText>
-  <GhoulPodCrashStartingPawnText>A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes.</GhoulPodCrashStartingPawnText>
+  <!-- EN: Transport pod crash -->
+  <GhoulPodCrashLabel>Taşıma kapsülü kazası</GhoulPodCrashLabel>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
+  <GhoulPodCrashText>Aç ve saldırgan bir gûl taşıyan kapsül yakınlara düştü.\n\nGûl şu an şokta ancak yakında iyileşecek ve gördüğüne saldıracak. İncelenmek için yakalanıp zincirleme platformunda tutulabilir.\n\nUyanmadan önce onu yakala veya öldür.</GhoulPodCrashText>
+  <!-- EN: A transport pod carrying a ravenous hostile ghoul has landed nearby. On closer inspection, it appears to be {PAWN_nameDef}, a previous member of your crew.\n\nThe ghoul is currently in shock, but it will soon recover and attack anyone it sees. It can be captured to a holding platform for further study.\n\nCapture or kill it before it wakes. -->
+  <GhoulPodCrashStartingPawnText>Aç ve saldırgan bir gûl taşıyan kapsül yakınlara düştü. Dikkatlı bakınca onun eski kolonistin {PAWN_nameDef} olduğunu görüyorsun.\n\nGûl şu an şokta ancak yakında iyileşecek ve gördüğüne saldıracak. İncelenmek için yakalanıp zincirleme platformunda tutulabilir.\n\nUyanmadan önce onu yakala veya öldür.</GhoulPodCrashStartingPawnText>
 
   <!-- Entity codex -->
-  <LetterLabelEntityDiscovery>New research available</LetterLabelEntityDiscovery>
-  <LetterTextEntityDiscoveryResearch>Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects</LetterTextEntityDiscoveryResearch>
+  <!-- EN: New research available -->
+  <LetterLabelEntityDiscovery>Yeni araştırma mevcut</LetterLabelEntityDiscovery>
+  <!-- EN: Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following Anomaly projects -->
+  <LetterTextEntityDiscoveryResearch>{ENTITY_definite} keşfin yeni ufuklar açtı. Artık şu anomali projelerini araştırabilirsin</LetterTextEntityDiscoveryResearch>
 
   <!-- Nociosphere -->
-  <NociosphereDefeatedLabel>Nociosphere defeated</NociosphereDefeatedLabel>
-  <NociosphereDefeatedText>The nociosphere has been destroyed, leaving behind a number of valuable resources.</NociosphereDefeatedText>
-  <NociosphereBecomingUnstableLabel>Nociosphere destabilising</NociosphereBecomingUnstableLabel> 
-  <NociosphereBecomingUnstableText>The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed.</NociosphereBecomingUnstableText> 
-  <NociosphereBecomingUnstableTextExtraSendable>Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart.</NociosphereBecomingUnstableTextExtraSendable>
-  <NociosphereBecomingUnstableTextExtraNotSendable>Study the nociosphere to find a way to dispose of it.</NociosphereBecomingUnstableTextExtraNotSendable>
-  <NociosphereUnstableLabel>Nociosphere unstable</NociosphereUnstableLabel>
-  <NociosphereUnstableText>The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken.</NociosphereUnstableText>
-  <NociosphereUnstableTextExtraSendable>Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart.</NociosphereUnstableTextExtraSendable> 
-  <NociosphereUnstableTextExtraNotSendable>Prepare for the nociosphere’s onslaught.</NociosphereUnstableTextExtraNotSendable>
+  <!-- EN: Nociosphere defeated -->
+  <NociosphereDefeatedLabel>Nosyoküre yenildi</NociosphereDefeatedLabel>
+  <!-- EN: The nociosphere has been destroyed, leaving behind a number of valuable resources. -->
+  <NociosphereDefeatedText>Nosyoküre yok edildi ve geride birkaç değerli kaynak bıraktı.</NociosphereDefeatedText>
+  <!-- EN: Nociosphere destabilising -->
+  <NociosphereBecomingUnstableLabel>Nosyoküre dengesizleşiyor</NociosphereBecomingUnstableLabel> 
+  <!-- EN: The nociosphere’s energy pattern has begun to shift and adapt. Within 10 days, it will no longer respond to suppression.\n\nThe nociosphere will activate if not suppressed. -->
+  <NociosphereBecomingUnstableText>Nosyokürenin enerji yapısı değilşmeye ve adapte olmaya başladı. 10 gün içerisinde baskılanamaz hale gelecek.\n\nEğer baskılanmazsa nosyoküre aktive olacak.</NociosphereBecomingUnstableText> 
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereBecomingUnstableTextExtraSendable>Nosyoküreyi büyük bir düşman gücüne saldırtarak ondan kurtul. Saldırısı bittiğinde geri dönmemek üzere ayrılacak.</NociosphereBecomingUnstableTextExtraSendable>
+  <!-- EN: Study the nociosphere to find a way to dispose of it. -->
+  <NociosphereBecomingUnstableTextExtraNotSendable>Nosyoküreden kurtulma yolunu bulmak için onu incele.</NociosphereBecomingUnstableTextExtraNotSendable>
+  <!-- EN: Nociosphere unstable -->
+  <NociosphereUnstableLabel>Nosyoküre dengesiz</NociosphereUnstableLabel>
+  <!-- EN: The nociosphere has become unstable and is no longer responding to suppression. When its activity reaches 100%, it will awaken. -->
+  <NociosphereUnstableText>Nosyoküre dengesizleşti ve artık baskılanamıyor. Etkinliği %100'e ulaştığında uyanacak.</NociosphereUnstableText>
+  <!-- EN: Dispose of the nociosphere by sending it to attack a large hostile force. Once its onslaught is complete, it will permanently depart. -->
+  <NociosphereUnstableTextExtraSendable>Nosyoküreyi büyük bir düşman gücüne saldırtarak ondan kurtul. Saldırısı bittiğinde geri dönmemek üzere ayrılacak.</NociosphereUnstableTextExtraSendable> 
+  <!-- EN: Prepare for the nociosphere’s onslaught. -->
+  <NociosphereUnstableTextExtraNotSendable>Nosyokürenin saldırısına hazırlan.</NociosphereUnstableTextExtraNotSendable>
 
-  <UnnaturalCorpseArrivalLabel>Strange corpse</UnnaturalCorpseArrivalLabel>
-  <UnnaturalCorpseArrivalText>An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it.</UnnaturalCorpseArrivalText>
+  <!-- EN: Strange corpse -->
+  <UnnaturalCorpseArrivalLabel>Acayip ceset</UnnaturalCorpseArrivalLabel>
+  <!-- EN: An unnatural human corpse has appeared, as if out of thin air.\n\nOn further inspection, the corpse looks identical to {PAWN_nameDef}. Its skin feels waxy and warm to the touch.\n\nStudy the corpse to learn more about it. -->
+  <UnnaturalCorpseArrivalText>Bir anda olağandışı bir insan cesedi belirdi\n\nDikkatli bakınca cesedin {PAWN_nameDef} ile aynı olduğunu gördün. Cildi mumsu ve sıcak.\n\nDaha fazla bilgi edinmek için cesedi incele.</UnnaturalCorpseArrivalText>
 
-  <GoldenCubeArrivalLabel>Golden cube</GoldenCubeArrivalLabel>
-  <GoldenCubeArrivalText>A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it.</GoldenCubeArrivalText>
+  <!-- EN: Golden cube -->
+  <GoldenCubeArrivalLabel>Altın küp</GoldenCubeArrivalLabel>
+  <!-- EN: A strange cube has landed nearby. It shines like gold but is impossible to scratch. It's light and warm to the touch. The way light plays across its surface is captivating.\n\n{PAWN_nameDef} feels inexplicably drawn to the cube.\n\nStudy the cube to learn more about it. -->
+  <GoldenCubeArrivalText>Acayip bir küp yakınlara düştü. Altın gibi parlıyor ancak çizik atmak bile imkansız. Hafif ve sıcak. Yüzeyinde ışığın oynadığı oyunlar büyüleyici.\n\n{PAWN_nameDef} açıklanamaz bir şekilde kübe ilgi duyuyor. Daha fazla bilgi edinmek için küpü incele.</GoldenCubeArrivalText>
 
-  <VoidCuriosityLabel>Void curiosity</VoidCuriosityLabel>
-  <VoidCuriosityText_Researched>{PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual.</VoidCuriosityText_Researched>
-  <VoidCuriosityText_NotResearched>{PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual.</VoidCuriosityText_NotResearched>
+  <!-- EN: Void curiosity -->
+  <VoidCuriosityLabel>Hiçlik merağı</VoidCuriosityLabel>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual. -->
+  <VoidCuriosityText_Researched>{PAWN_nameDef} hiçliğe odaklanmaya başladı ve hiçliği kışkırtma ayini yaparak onu incelemek istiyor.\n\nVarlıkları keşfetmek ve yakalamak için hiçliği kışkırtma ayini yap. Yakalanan varlıklar anomali araştırma projelerini tamamlamak için incelenebilir veya biyoferrit üretmeleri için biyoferrit çıkarıcıya bağlanabilir.\n\nHiçliği kışkırtma ayini yapmak için bir psişik ayin noktası yerleştir.</VoidCuriosityText_Researched>
+  <!-- EN: {PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete Anomaly research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual. -->
+  <VoidCuriosityText_NotResearched>{PAWN_nameDef} hiçliğe odaklanmaya başladı ve hiçliği kışkırtma ayini yaparak onu incelemek istiyor.\n\nVarlıkları keşfetmek ve yakalamak için hiçliği kışkırtma ayini yap. Yakalanan varlıklar anomali araştırma projelerini tamamlamak için incelenebilir veya biyoferrit üretmeleri için biyoferrit çıkarıcıya bağlanabilir.\n\nHiçliği kışkırtma ayini yapmak için önce hiçlik kışkırtmayı araştır, sonra bir psişik ayin noktası yerleştir.</VoidCuriosityText_NotResearched>
 
 </LanguageData>
