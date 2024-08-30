@@ -19,7 +19,7 @@
   <!-- EN: Affects all in world sounds, e.g. chopping trees, building walls. -->
   <GameVolumeTooltip>Dünyadaki tüm sesleri etkiler, örn. ağaç kesmek, duvar yapmak.</GameVolumeTooltip>
   <!-- EN: Affects music. -->
-  <MusicVolumeTooltip>ortam müziği</MusicVolumeTooltip>
+  <MusicVolumeTooltip>Ortam müziği</MusicVolumeTooltip>
   <!-- EN: Affects all ambient sounds, e.g. wind, insects. -->
   <AmbientVolumeTooltip>Tüm ortam seslerini etkiler, örn. rüzgar, böcekler.</AmbientVolumeTooltip>
   <!-- EN: Affects all interface sounds, e.g. button clicks, messages. -->
@@ -30,6 +30,8 @@
   <!-- Gameplay -->
   <!-- EN: Screen-edge mouse scroll -->
   <EdgeScreenScroll>Ekran kenarında fare kaydırma</EdgeScreenScroll>
+  <!-- EN: Zoom to mouse -->
+  <ZoomToMouse>Fare imlecini yakınlaştır</ZoomToMouse>
   <!-- EN: Pause on load -->
   <PauseOnLoad>Yüklendiğinde durdur</PauseOnLoad>
   <!-- EN: Pause on urgent letter -->
@@ -39,7 +41,7 @@
   <!-- EN: Disable game-specific cursor -->
   <CustomCursor>Özel imleç</CustomCursor>
   <!-- EN: Hide hats on UI -->
-  <HatsShownOnlyOnMap>Şapkalar sadece haritada görünür</HatsShownOnlyOnMap>
+  <HatsShownOnlyOnMap>Kullanıcı arayüzünde şapkaları gizle</HatsShownOnlyOnMap>
   <!-- EN: UI scale -->
   <UIScale>Kullanıcı arayüzü ölçeği</UIScale>
   <!-- EN: Keyboard configuration -->
@@ -59,15 +61,17 @@
   <!-- EN: Run in background -->
   <RunInBackground>Arkaplanda çalıştır</RunInBackground>
   <!-- EN: Development mode -->
-  <DevelopmentMode>Geliştirici Modu</DevelopmentMode>
+  <DevelopmentMode>Geliştirici modu</DevelopmentMode>
   <!-- EN: Auto-reset mods config on crash -->
   <ResetModsConfigOnCrash>Çökme durumunda modları sıfırla</ResetModsConfigOnCrash>
-  <!-- EN: Simulate not owning Royalty -->
-  <SimulateNotOwningRoyalty>Royalty DLC'siz simüle et</SimulateNotOwningRoyalty>
-  <!-- EN: Simulate not owning Ideology -->
-  <SimulateNotOwningIdeology>İdeolojiye sahip olmamayı simüle edin</SimulateNotOwningIdeology>
-  <!-- EN: Simulate not owning Biotech -->
-  <SimulateNotOwningBiotech>Biotech'e sahip olmamayı simüle edin</SimulateNotOwningBiotech>
+  <!-- EN: Quick start has no cryptosleep sickness -->
+  <DisableQuickStartCryptoSickness>Hızlı başlangıçta kripto uyku hastalığı yok</DisableQuickStartCryptoSickness>
+  <!-- EN: Start game with dev palette on -->
+  <StartDevPaletteOn>Oyunu geliştirici paleti açıkken başlatın</StartDevPaletteOn>
+  <!-- EN: Open log on warnings -->
+  <OpenLogOnWarnings>Uyarılar üzerine açık günlük</OpenLogOnWarnings>
+  <!-- EN: Close log by pressing cancel -->
+  <CloseLogWindowOnEscape>İptal tuşuna basarak günlüğü kapatın</CloseLogWindowOnEscape>
   <!-- EN: Verbose logging -->
   <LogVerbose>Ayrıntılı günlük kaydı</LogVerbose>
   <!-- EN: Save data folder -->
@@ -79,9 +83,9 @@
   <!-- EN: Log file location -->
   <LogFileLocation>Günlük dosyası konumu</LogFileLocation>
   <!-- EN: Open -->
-  <OpenFolder>aç</OpenFolder>
+  <OpenFolder>Aç</OpenFolder>
   <!-- EN: Show -->
-  <ShowFolder>göster</ShowFolder>
+  <ShowFolder>Göster</ShowFolder>
   <!-- EN: Preferred "Name in Game" characters -->
   <NamesYouWantToSee>Tercih edilen oyuncu tarafından oluşturulmuş karakterler. Şu karakterlerin oyun sırasında rastgele görünme olasılığı daha yüksektir:</NamesYouWantToSee>
   <!-- EN: These characters will be more likely to appear randomly during play. -->
@@ -102,10 +106,14 @@
   <TemperatureMode>Sıcaklık birimi</TemperatureMode>
   <!-- EN: Show realtime clock -->
   <ShowRealtimeClock>Gerçek zamanlı saati göster</ShowRealtimeClock>
+  <!-- EN: Use 12 hour clock -->
+  <TwelveHourClockMode>12'li saat sistemini kullan</TwelveHourClockMode>
   <!-- EN: Disable tiny font -->
   <DisableTinyText>Küçük yazı tiplerini devre dışı bırak</DisableTinyText>
   <!-- EN: Maximum number of colonies: {0} -->
   <MaxNumberOfPlayerSettlements>Maksimum koloni sayısı: {0}</MaxNumberOfPlayerSettlements>
+  <!-- EN: Autosaves count: {0} -->
+  <AutosavesCount>Oto-kayıt sayısı : {0}</AutosavesCount>
   <!-- EN: Map mouse drag sensitivity -->
   <MapDragSensitivity>Fareyle harita kaydırma hassasiyeti</MapDragSensitivity>
   <!-- EN: Plant wind sway -->

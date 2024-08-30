@@ -22,7 +22,7 @@
   <!-- EN: Not allowed -->
   <NotAllowed>İzinli değil</NotAllowed>
   
-  <!-- EN: Fire at {1_label} -->
+  <!-- EN: Fire at {1_labelShort} -->
   <FireAt>{1_label}'e ateş et</FireAt>
 
   <!-- EN: out of range -->
@@ -51,9 +51,9 @@
   <!-- EN: Man {1_labelShort} -->
   <OrderManThing>Adam {1_labelShort}</OrderManThing>
   
-  <!-- EN: Melee attack {1_label} -->
+  <!-- EN: Melee attack {1_labelShort} -->
   <MeleeAttack>{1_label}'e yakından saldır</MeleeAttack>
-  <!-- EN: Melee attack {1_label} to death -->
+  <!-- EN: Melee attack {1_labelShort} to death -->
   <MeleeAttackToDeath>{1_label}'i öldür</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>yol yok</NoPath>
@@ -96,7 +96,7 @@
   <PrisonerInteractedTooRecently>çok yakın zamanda etkileşime girdi</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>kullanılabilir yiyecek yok</NoUsableFood>
-  <!-- EN: no food -->
+  <!-- EN: not enough food -->
   <NoFood>yiyecek yok</NoFood>
   <!-- EN: no food matching restrictions -->
   <NoFoodMatchingRestrictions>yiyecek eşleştirme kısıtlaması yok</NoFoodMatchingRestrictions>
@@ -158,6 +158,8 @@
   <IncapableOfDeconstruction>yıkım yapamaz</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
   <IncapableOfMining>kazım yapamaz</IncapableOfMining>
+  <!-- EN: tree marked for extraction -->
+  <TreeMarkedForExtraction>ağaç çıkarma için belirlendi</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>fraksiyonu kızdırır</AngersFaction>
   <!-- EN: no body part -->
@@ -192,38 +194,47 @@
   <CannotGoNoPath>Buraya gidemez: yol yok</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Buraya git</GoHere>
+
+  <!-- EN: Clean {0} -->
+  <CleanRoom>{0_definite} odasını temizle</CleanRoom>
   
   <!-- EN: Arrest {0} -->
   <Arrest>{0}'i tutukla</Arrest>
-  <!-- EN: Try to arrest {1_label} ({2} chance) -->
+  <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
   <TryToArrest>{1_label}'i ({2} şansla) tutuklamaya çalış</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Tutuklayamaz</CannotArrest>
   <!-- EN: {0} chance of arrest -->
   <ArrestChance>{0} tutuklama şansı</ArrestChance>
 
-  <!-- EN: Capture {1_label} -->
+  <!-- EN: Capture {1_labelShort} -->
   <Capture>{1_label}'i esir al</Capture>
+  <!-- EN: capture {0_labelShort} -->
+  <CaptureLower>{0_labelShort}'i esir al</CaptureLower>
   <!-- EN: Cannot capture -->
   <CannotCapture>Esir alınamaz</CannotCapture>
   <!-- EN: unwaveringly loyal -->
-  <Unrecruitable>sarsılmaz sadık</Unrecruitable>
+  <Unrecruitable>tereddütsüz sadık</Unrecruitable>
+  <!-- EN: not recruitable -->
+  <UnrecruitableNoFaction>koloniye katılamaz</UnrecruitableNoFaction> 
+  <!-- EN: Transfer {0_label} -->
+  <TransferEntity>{0_definite}'i aktar</TransferEntity> 
 
-  <!-- EN: Rescue {1_label} -->
+  <!-- EN: Rescue {1_labelShort} -->
   <Rescue>{1_label}'i kurtar</Rescue>
-  <!-- EN: Put {1_label} somewhere safe -->
+  <!-- EN: Put {1_labelShort} somewhere safe -->
   <PutSomewhereSafe>{1_label} öğesini güvenli bir yere koyun</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
   <TakingToBed>{0_labelShort} yatağına götürülüyor.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Kurtaramaz</CannotRescue>
 
-  <!-- EN: Carry {1_label} to cryptosleep casket -->
+  <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>{1_label}'i kriptouyku kapsülüne taşı</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
   <CannotCarryToCryptosleepCasket>Kriptouyku kapsülüne taşıyamaz</CannotCarryToCryptosleepCasket>
 
-  <!-- EN: Carry {0_label} to shuttle -->
+  <!-- EN: Carry {0_labelShort} to shuttle -->
   <CarryToShuttle>{0_label}'i mekiğe taşı</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
@@ -236,10 +247,16 @@
   <CryptosleepCasketOccupied>Zaten dolu</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
   <NoPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, ayırtılmamış mahkum işaretli yatak yok.</NoPrisonerBed>
+  <!-- EN: No prisoner bed available. -->
+  <NoPrisonerBedShort>Mahkum yatağı yok.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
   <NoNonPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, mahkumlara ayırtılmamış yatak yok.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>Güvenli sıcaklıkta bulunan ulaşılabilir, ayırtılmamış hayvan yatağı yok.</NoAnimalBed>
+  <!-- EN: No reachable, unforbidden, un-reserved {0} -->
+  <NoItemReservedOrReachable>Ulaşılabilir, yasaklanmamış, ayırtılmamış {0} yok</NoItemReservedOrReachable>
+  <!-- EN: No unforbidden, un-reserved {0} -->
+  <NoItemReserved>Yasaklanmamış, ayırtılmamış {0} yok</NoItemReserved>
   <!-- EN: Reserved by someone else. -->
   <Reserved>Başka biri tarafından ayırtılmış.</Reserved>
   <!-- EN: Reserved by {1_labelShort} -->
@@ -335,23 +352,25 @@
   <!-- EN: overweight -->
   <OverweightLower>fazla ağırlık</OverweightLower>
 
-  <!-- EN: Cannot carry {1_label} and leave the area -->
+  <!-- EN: Cannot carry {1_labelShort} and leave the area -->
   <CannotCarryToExit>{1_label}'i alamaz ve alandan ayrılamaz</CannotCarryToExit>
-  <!-- EN: Carry {1_label} and leave the area -->
+  <!-- EN: Carry {1_labelShort} and leave the area -->
   <CarryToExit>{1_label}'i al ve alandan ayrıl</CarryToExit>
-  <!-- EN: Capture {1_label} and leave the area -->
+  <!-- EN: Capture {1_labelShort} and leave the area -->
   <CarryToExitAndCapture>{1_label}'i ele geçir ve alandan ayrıl</CarryToExitAndCapture>
   
-  <!-- EN: Strip {1_label} -->
+  <!-- EN: Strip {1_labelShort} -->
   <Strip>{1_label}'i soy</Strip>
-  <!-- EN: Cannot strip {1_label} -->
+  <!-- EN: Cannot strip {1_labelShort} -->
   <CannotStrip>{1_label}'i soyamaz</CannotStrip>
-  <!-- EN: Cannot drop {1_label} -->
+  <!-- EN: Cannot drop {1_labelShort} -->
   <CannotDrop>{1_label}'i bırakamaz</CannotDrop>
-  <!-- EN: Carry {0_label} -->
+  <!-- EN: Carry {0_labelShort} -->
   <Carry>Taşı {0_label}</Carry>
-  <!-- EN: Cannot carry {0_label} -->
+  <!-- EN: Cannot carry {0_labelShort} -->
   <CannotCarry>{0_label} taşınamaz</CannotCarry>
+  <!-- EN: hostile -->
+  <CarriedPawnHostile>düşmanca</CarriedPawnHostile>
   <!-- EN: temporary faction member -->
   <QuestRelated>geçici fraksiyon üyesi</QuestRelated>
   <!-- EN: Cannot change outfits on temporary faction members -->
@@ -367,7 +386,7 @@
   <!-- EN: Self-destruct here -->
   <SelfDestructHere>Burada kendini imha et</SelfDestructHere>
   
-  <!-- EN: Drop {1_label} -->
+  <!-- EN: Drop {1_labelShort} -->
   <Drop>{1_label}'i bırak</Drop>
 
   <!-- EN: Rest until healed -->
@@ -383,8 +402,12 @@
   
   <!-- EN: Trade with {0} -->
   <TradeWith>{0} ile ticaret yap</TradeWith>
+  <!-- EN: Dismiss trader -->
+  <DismissTrader>Tüccarı kov</DismissTrader>
   <!-- EN: Cannot trade -->
   <CannotTrade>Ticaret yapamaz</CannotTrade>
+  <!-- EN: Trader dismissed -->
+  <TraderDismissed>Tüccar kovuldu</TraderDismissed>
 
   <!-- EN: Open {0_label} -->
   <Open>{0_label}'i aç</Open>
@@ -409,6 +432,19 @@
   <OfferGifts>Hediye teklif et</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>{0} ile ticaret yap</TradeWithSettlement>
+  
+  <!-- EN: Enter {0} -->
+  <EnterPortal>{0}'e gir</EnterPortal>
+  <!-- EN: Entering {0} -->
+  <EnteringPortal>{0}'e giriliyor</EnteringPortal>
+  <!-- EN: Enter {0} -->
+  <CommandEnterPortal>{0}'e gir</CommandEnterPortal>
+  <!-- EN: Select people and items to enter the {0}. -->
+  <CommandEnterPortalDesc>{0}'e girmek için kişileri ve öğeleri seçin.</CommandEnterPortalDesc>
+  <!-- EN: Cancel entering -->
+  <CommandCancelEnterPortal>Girişi iptal et</CommandCancelEnterPortal>
+  <!-- EN: Cancel loading people or items into this. -->
+  <CommandCancelEnterPortalDesc>Buraya insan veya eşya yüklenmesini iptal edin.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -553,6 +589,11 @@
 
   <!-- EN: Cannot enter -->
   <CannotEnter>Girilemez</CannotEnter>
+  
+  <!-- EN: Cannot enter {0} -->
+  <CannotEnterPortal>{0} girilemiyor</CannotEnterPortal>
+  <!-- EN: closed -->
+  <PortalClosed>kapanmış</PortalClosed>
 
   <!-- Romance partner -->
   <!-- EN: Cannot romance {0} -->
@@ -562,6 +603,27 @@
 
   <!-- Feeding -->
   <!-- EN: disliked food -->
-  <WarningFoodDisliked>Sevmediğim yiyecek</WarningFoodDisliked>
+  <WarningFoodDisliked>sevmediğim yiyecek</WarningFoodDisliked>
+  <!-- EN: Unsuitable food -->
+  <FoodNotSuitable>Uygunsuz yiyecek</FoodNotSuitable>
 
+  <!-- EN: Unsuitable drug -->
+  <DrugNotSuitable>Uygunsuz uyuşturucu</DrugNotSuitable>
+  
+  <!-- Books -->
+  <!-- EN: Assign reading... -->
+  <AssignReading>Okumaya ata...</AssignReading>
+  <!-- EN: Read {0} -->
+  <AssignReadNow>{0} kitabını oku</AssignReadNow>
+  <!-- EN: Cannot read {0} -->
+  <AssignCannotReadNow>{0} okunamıyor</AssignCannotReadNow>
+
+  <!-- EN: Prioritize extinguishing fires -->
+  <ExtinguishFiresNearby>Yangınları söndürmeye öncelik verin</ExtinguishFiresNearby>
+
+  <!-- Analysis -->
+  <!-- EN: already analyzed -->
+  <AlreadyAnalyzed>zaten analiz edildi</AlreadyAnalyzed>
+  <!-- EN: no reachable, un-reserved research bench available -->
+  <NoResearchBench>ulaşılabilir ve rezerve edilmemiş bir araştırma tezgahı mevcut değil</NoResearchBench>
 </LanguageData>

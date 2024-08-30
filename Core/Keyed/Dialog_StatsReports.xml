@@ -18,6 +18,8 @@
   <StatsReport_RelevantHediffs>İlgili sağlık koşulları</StatsReport_RelevantHediffs>
   <!-- EN: Life stage -->
   <StatsReport_LifeStage>Yaşam evresi</StatsReport_LifeStage>
+  <!-- EN: Shambler crawling -->
+  <StatsReport_ShamblerCrawling>Hortlak sürünüyor</StatsReport_ShamblerCrawling>
   <!-- EN: Material -->
   <StatsReport_Material>Malzeme</StatsReport_Material>
   <!-- EN: Character quality -->
@@ -42,10 +44,12 @@
   <StatsReport_ShootingExampleDistances>Artan mesafelerde vurma şansı</StatsReport_ShootingExampleDistances>
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Nihai değer</StatsReport_FinalValue>
+  <!-- EN: Max value -->
+  <StatsReport_MaxValue>Maksimum değer</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>{0} için çarpan</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
-  <StatsReport_MarketValueFromStuffsAndWork>Malzemeler ve işgücü</StatsReport_MarketValueFromStuffsAndWork>
+  <StatsReport_MarketValueFromStuffsAndWork>Malzemeler ve iş gücü</StatsReport_MarketValueFromStuffsAndWork>
   <!-- EN: Quality multiplier -->
   <StatsReport_QualityMultiplier>Kalite çarpanı</StatsReport_QualityMultiplier>
   <!-- EN: Quality offset -->
@@ -77,7 +81,7 @@
   <!-- EN: Damaged -->
   <StatsReport_HasHediffExplanation>Hasarlı</StatsReport_HasHediffExplanation>
   <!-- EN: DPS = Melee damage * Melee hit chance / Cooldown in seconds -->
-  <StatsReport_MeleeDPSExplanation>DPS = Yakın dövüş hasarı * Yakın dövüş isabet şansı / bekleme süresi</StatsReport_MeleeDPSExplanation>
+  <StatsReport_MeleeDPSExplanation>DPS = Yakın dövüş hasarı * Yakın dövüş isabet şansı / Bekleme süresi</StatsReport_MeleeDPSExplanation>
   <!-- EN: Melee damage -->
   <StatsReport_MeleeDamage>Yakın dövüş hasarı</StatsReport_MeleeDamage>
   <!-- EN: Cooldown -->
@@ -119,7 +123,7 @@
   <!-- EN: recreation type -->
   <StatsReport_JoyKind>eğlence türü</StatsReport_JoyKind>
   <!-- EN: work to uninstall -->
-  <StatsReport_WorkToUninstall>kaldırmak çabası</StatsReport_WorkToUninstall>
+  <StatsReport_WorkToUninstall>kaldırma çabası</StatsReport_WorkToUninstall>
   <!-- EN: Fence -->
   <StatsReport_Fence>Çit</StatsReport_Fence>
   <!-- EN: Multiplier for growth {0} -->
@@ -158,6 +162,8 @@
   <!-- EN: Satisfies user's title requirements -->
   <StatsReport_SatisfiesTitle>Kullanıcının ünvan gereksinimlerini karşılar</StatsReport_SatisfiesTitle>
 
+  <!-- EN: Age -->
+  <Stat_Age_Label>Yaş</Stat_Age_Label>
   <!-- EN: Different sources of recreation satisfy different recreation types. Colonists become bored of doing the same recreation type repeatedly, so it is important to provide a variety of recreation sources with different recreation types. -->
   <Stat_RecreationType_Desc>Farklı eğlence kaynakları, farklı eğlence türlerini tatmin eder. Kolonistler aynı şeyi tekrarlamaktan sıkılır, bu yüzden farklı eğlence türlerine sahip çeşitli eğlence kaynakları sağlamak önemlidir.</Stat_RecreationType_Desc>
   <!-- EN: All recreation types -->
@@ -200,6 +206,10 @@
   <Stat_Thing_Apparel_CountsAsClothingNudity_Name>Giyim (çıplaklık için)</Stat_Thing_Apparel_CountsAsClothingNudity_Name>
   <!-- EN: Whether nudists will consider this item to be a piece of clothing. If not, nudists will never be bothered by wearing this. -->
   <Stat_Thing_Apparel_CountsAsClothingNudity_Desc>Çıplaklar bu öğeyi bir giysi parçası olarak görüp görmeyecekler. Aksi takdirde, çıplaklar bunu giymekten asla rahatsız olmazlar.</Stat_Thing_Apparel_CountsAsClothingNudity_Desc>
+  <!-- EN: Gender -->
+  <Stat_Thing_Apparel_Gender>Cinsiyet</Stat_Thing_Apparel_Gender>
+  <!-- EN: Certain apparel is generally preferred by one gender. Anyone else may be unhappy wearing it. -->
+  <Stat_Thing_Apparel_Gender_Desc>Belirli kıyafetler genellikle bir cinsiyet tarafından tercih edilir. Başka biri onu giymekten mutsuz olabilir.</Stat_Thing_Apparel_Gender_Desc>
   <!-- EN: Which body parts this covers.\n\nArmor does not protect body parts that it does not cover. -->
   <Stat_Thing_Apparel_Covers_Desc>Bu vücudun hangi parçalarını kapsar.\n\nZırh kapsamadığı gövde parçalarını korumaz.</Stat_Thing_Apparel_Covers_Desc>
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
@@ -294,6 +304,8 @@
   <Stat_Hediff_Pain_Desc>Bu durumun neden olduğu ağrı miktarı.</Stat_Hediff_Pain_Desc>
   <!-- EN: The offset in efficiency applied to body parts affected by this. -->
   <Stat_Hediff_PartEfficiency_Desc>Bundan etkilenen vücut parçalarının verimliliğine etki eden bir dengeleme.</Stat_Hediff_PartEfficiency_Desc>
+  <!-- EN: How efficiently this functions compared to a natural body part. -->
+  <Stat_Hediff_PartEfficiencyAbsolute_Desc>Bu organın doğal bir vücut parçasına kıyasla ne kadar verimli çalıştığı.</Stat_Hediff_PartEfficiencyAbsolute_Desc>
   <!-- EN: The mental abilities this affects. -->
   <Stat_Hediff_Affects_Desc>Bunun etkilediği zihinsel yetenekler.</Stat_Hediff_Affects_Desc>
   <!-- EN: Hunger rate offset -->
@@ -302,7 +314,7 @@
   <Stat_Hediff_HungerRateFactor_Desc>Tüketilmesi gereken yiyecek oranına etki eden bir çarpan.</Stat_Hediff_HungerRateFactor_Desc>
   <!-- EN: An offset on the rate at which the food need depletes. -->
   <Stat_Hediff_HungerRateOffset_Desc>Tüketilmesi gereken yiyecek oranına etki eden bir dengeleme.</Stat_Hediff_HungerRateOffset_Desc>
-  <!-- EN: Rest fall rate -->
+  <!-- EN: Sleep fall rate -->
   <Stat_Hediff_TirednessOffset_Name>Yorgunluktan bayılma oranı</Stat_Hediff_TirednessOffset_Name>
   <!-- EN: An offset applied to the rate at which the creature's sleep need falls. -->
   <Stat_Hediff_TirednessOffset_Desc>Dinlenme ihtiyacındaki azalma oranına etki eden bir dengeleme.</Stat_Hediff_TirednessOffset_Desc>
@@ -363,19 +375,27 @@
   <!-- EN: The rate at which a plant is growing.\n\nGrowth rate is affected by things like soil fertility, temperature, light, and environmental conditions. -->
   <Stat_Thing_Plant_GrowthRate_Desc>Bir bitkinin büyüme hızı.\ve Büyüme hızı, toprak verimliliği, sıcaklık, ışık ve çevre koşulları gibi şeylerden etkilenir.</Stat_Thing_Plant_GrowthRate_Desc>
   <!-- EN: Age -->
-  <Stat_Thing_Plant_Age>yaş</Stat_Thing_Plant_Age>
+  <Stat_Thing_Plant_Age>Yaş</Stat_Thing_Plant_Age>
   <!-- EN: How long this has been alive. -->
   <Stat_Thing_Plant_AgeDesc>Bu ne zamandır hayatta.</Stat_Thing_Plant_AgeDesc>
   <!-- EN: Lifespan -->
   <Stat_Thing_Plant_Lifespan>Ömür</Stat_Thing_Plant_Lifespan>
   <!-- EN: Paintable -->
-  <Stat_Building_Paintable>boyanabilir</Stat_Building_Paintable>
+  <Stat_Building_Paintable>Boyanabilir</Stat_Building_Paintable>
   <!-- EN: Whether this can be painted using dye. -->
   <Stat_Building_PaintableDesc>Bunun boya kullanılarak boyanıp boyanamayacağı.</Stat_Building_PaintableDesc>
   <!-- EN: Paint color -->
   <Stat_Building_PaintColor>Boya rengi</Stat_Building_PaintColor>
   <!-- EN: The color this building was painted. -->
   <Stat_Building_PaintColorDesc>Bu binanın boyandığı renk.</Stat_Building_PaintColorDesc>
+  <!-- EN: Resources to make -->
+  <Stat_Building_ResourcesToMake>Yapmak için gerekli kaynaklar</Stat_Building_ResourcesToMake>
+  <!-- EN: The resources required to construct this. -->
+  <Stat_Building_ResourcesToMakeDesc>Bunu inşa etmek için gereken kaynaklar.</Stat_Building_ResourcesToMakeDesc>
+  <!-- EN: The weapon mounted on this creature. -->
+  <Stat_Thing_TurretDesc>Bu yaratığın üzerine monte edilmiş silah.</Stat_Thing_TurretDesc>
+  <!-- EN: The ingredients needed to make this. -->
+  <Stat_Thing_Ingredients>Bunu yapmak için gereken malzemeler.</Stat_Thing_Ingredients>
 
   <!-- Drugs -->
   <!-- EN: The active chemical in this.\n\nIn some cases, the same chemical is present in multiple different drugs. These different drugs will satisfy the same addiction in different ways. -->
@@ -526,5 +546,9 @@
   <Stat_Source_OfficialExpansionReport>Bu içerik resmi genişletmeden geldi.</Stat_Source_OfficialExpansionReport>
   <!-- EN: This content came from the mod -->
   <Stat_Source_ModReport>Bu içerik moddan geldi</Stat_Source_ModReport>
-  
+
+  <!-- EN: Contained book beauty -->
+  <ContainedBookBeauty>Kitabın içerdiği güzellik</ContainedBookBeauty>
+  <!-- EN: {0} hits -->
+  <Stat_TrapDamageHitCount>{0} vuruş</Stat_TrapDamageHitCount>
 </LanguageData>

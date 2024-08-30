@@ -109,11 +109,6 @@
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Patlatma için geri sayımı başlatın.</CommandDetonateDesc>
 
-  <!-- EN: Rename -->
-  <CommandRenameZoneLabel>Yeniden isimlendir</CommandRenameZoneLabel>
-  <!-- EN: Rename this zone. -->
-  <CommandRenameZoneDesc>Bölgeyi yeniden isimlendir</CommandRenameZoneDesc>
-
   <!-- EN: Hide -->
   <CommandHideZoneLabel>Gizle</CommandHideZoneLabel>
   <!-- EN: Unhide -->
@@ -242,10 +237,16 @@
   <CommandSunLampMakeGrowingZoneLabel>Tarım alanı oluştur</CommandSunLampMakeGrowingZoneLabel>
 
   <!-- Trap -->
-  <!-- EN: Auto Rearm -->
-  <CommandAutoRearm>Tekrar kur</CommandAutoRearm>
+  <!-- EN: Auto rearm -->
+  <CommandAutoRearm>Otomatik yeniden kurma</CommandAutoRearm>
   <!-- EN: If this is on, this trap will automatically be replaced after it springs. -->
-  <CommandAutoRearmDesc>Bu talimat aktifse, tuzaklar kullanıldıktan sonra otomatik olarak yeniden kurulacaklar.</CommandAutoRearmDesc>
+  <CommandAutoRearmDesc>Bu talimat aktifse, tuzaklar kullanıldıktan sonra otomatik olarak değiştirilecektir.</CommandAutoRearmDesc>
+  
+  <!-- Firefoam popper -->
+  <!-- EN: Auto rebuild -->
+  <CommandAutoRebuild_Building>Otomatik yeniden inşa et</CommandAutoRebuild_Building>
+  <!-- EN: If this is on, {BUILDING_definite} will automatically be replaced after it detonates. -->
+  <CommandAutoRebuild_BuildingDesc>Bu talimat aktifse, {BUILDING_definite} patladıktan sonra otomatik olarak değiştirilecektir.</CommandAutoRebuild_BuildingDesc>
   
   <!-- Animal control -->
   <!-- EN: Animals attack -->
@@ -316,7 +317,17 @@
   <CommandReformCaravanDesc>Yeniden toparlanan kervan. Kolonistler şu anki bölgelerini terk edip yeni talimatlar bekleyecekler.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
   <CommandReformCaravanFailHostilePawns>Bu bölgede hala bazı düşmanlar var.</CommandReformCaravanFailHostilePawns>
-  
+
+  <!-- Send caravan -->
+  <!-- EN: Send caravan -->
+  <CommandSendCaravan>Kervan gönder</CommandSendCaravan>
+  <!-- EN: Send caravan... -->
+  <CommandSendCaravanMultiple>Kervan gönder...</CommandSendCaravanMultiple>
+  <!-- EN: Send a caravan to this destination from a selected colony which can reach this location. -->
+  <CommandSendCaravanDesc>Seçili bir koloniden bu lokasyona ulaşabilen bir kervan gönderin.</CommandSendCaravanDesc>
+  <!-- EN: Your settlements have no path to this location. -->
+  <CommandSendCaravanCantReach>Yerleşim yerlerinizin bu konuma giden bir yolu yok.</CommandSendCaravanCantReach>
+
   <!-- Split caravan -->
   <!-- EN: Split -->
   <CommandSplitCaravan>Ayır</CommandSplitCaravan>
@@ -631,6 +642,8 @@
   <UnlinkStorageSettingsDesc>Ayarlarının bağımsız olarak ayarlanabilmesi için bunun diğer binaların depolama ayarlarından bağlantısını kaldırın.</UnlinkStorageSettingsDesc>
   <!-- EN: Linked storage settings -->
   <LinkedStorageSettings>Bağlı depolama ayarları</LinkedStorageSettings>
+  <!-- EN: 1 building -->
+  <OneBuilding>1 bina</OneBuilding>
   <!-- EN: {0} buildings -->
   <NumBuildings>{0} binalar</NumBuildings>
   <!-- EN: Stores -->
@@ -642,5 +655,15 @@
 
   <!-- EN: {0_labelShort} is unconscious. -->
   <CommandDisabledUnconscious>{0_labelShort} bilinçsiz.</CommandDisabledUnconscious>
+
+  <!-- Study -->
+  <!-- EN: Toggle study -->
+  <CommandToggleStudy>Çalışmayı etkinleştir/devre dışı bırak</CommandToggleStudy>
+  <!-- EN: Determines whether or not wardens will automatically study this. Forbidden things will never be studied. -->
+  <CommandToggleStudyDesc>Gardiyanların bunu otomatik olarak çalışıp çalışmayacağını belirler. Yasaklanmış şeylere asla çalışılmayacaktır.</CommandToggleStudyDesc>
+
+  <!-- Limited use count action -->
+  <!-- EN: No uses left. -->
+  <CommandNoUsesLeft>Kalan kullanım yok.</CommandNoUsesLeft>
   
 </LanguageData>
