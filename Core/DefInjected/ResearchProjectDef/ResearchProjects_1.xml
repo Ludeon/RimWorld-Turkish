@@ -4,106 +4,414 @@
   <!-- EN: beer brewing -->
   <Brewing.label>bira demleme</Brewing.label>
   <!-- EN: Build a brewery and fermenting vats to transform hops into tasty, tasty beer. -->
-  <Brewing.description>Şerbetçiotunu lezzetli bir biraya dönüştürmek için bira fabrikası ve fermantasyon fıçıları inşa et.</Brewing.description>
+  <Brewing.description>Şerbetçiotlarını lezzetli mi lezzetli biraya dönüştürmek için bir bira fabrikası ve fermantasyon fıçıları inşa et.</Brewing.description>
+  <!-- EN:
+    <li>subject->brewing</li>
+    <li>subject_story->brewed a unique stout that became famous across the system</li>
+    <li>subject_story->retired to run a public house on an animal world</li>
+    <li>subject_story->specialized in climate-controlled fermentation techniques</li>
+    <li>subject_gerund->constructing breweries</li>
+    <li>subject_gerund->brewing beer</li>
+  -->
+  <Brewing.generalRules.rulesStrings>
+    <li>subject->demleme</li>
+    <li>subject_story->sistem genelinde ünlenen benzersiz bir stout demledi</li>
+    <li>subject_story->hayvanlar dünyasında bir meyhane işletmek için emekli oldu</li>
+    <li>subject_story->iklim kontrollü fermantasyon teknikleri konusunda uzmanlaşmış</li>
+    <li>subject_gerund->bira fabrikaları inşa ediyor</li>
+    <li>subject_gerund->bira demliyor</li>
+  </Brewing.generalRules.rulesStrings>
   
-  <!-- EN: carpet making -->
+  <!-- EN: carpet-making -->
   <CarpetMaking.label>halı dokuma</CarpetMaking.label>
   <!-- EN: Weave beautiful carpets from cloth. -->
   <CarpetMaking.description>Kumaştan güzel halılar doku.</CarpetMaking.description>
+  <!-- EN:
+    <li>subject->carpet-making</li>
+    <li>subject_story->learned to weave carpets from hair, for a distant Emperor</li>
+    <li>subject_story->left behind an unparalleled collection of carpets and tapestries</li>
+    <li>subject_story->settled on a medieval moon, where the carpetweaving craft was truly appreciated</li>
+    <li>subject_gerund->weaving carpets</li>
+  -->
+  <CarpetMaking.generalRules.rulesStrings>
+    <li>subject->halı dokuma</li>
+    <li>subject_story->uzak bir imparator için saçtan halı dokumayı öğrendi.</li>
+    <li>subject_story->arkasında eşsiz bir halı ve duvar halısı koleksiyonu bıraktı</li>
+    <li>subject_story->halı dokuma zanaatının gerçekten takdir edildiği bir ortaçağ gezegenine yerleşti</li>
+    <li>subject_gerund->halı dokuyor</li>
+  </CarpetMaking.generalRules.rulesStrings>
   
   <!-- EN: cocoa -->
   <Cocoa.label>kakao</Cocoa.label>
-  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation, and it's valuable on the market too. -->
+  <!-- EN: Sow cocoa trees to create your own delicious chocolate. Eating chocolate fulfills the need for recreation and it's a valuable trade good too. -->
   <Cocoa.description>Kendi lezzetli çikolatanı üretmek için kakao ağaçları dik. Çikolata yemek eğlence ihtiyacını karşılar ve markette de satılabilir.</Cocoa.description>
+  <!-- EN:
+    <li>subject->cocoa</li>
+    <li>subject->chocolate</li>
+    <li>subject_story->became obsessed with chocolate and had to be restrained</li>
+    <li>subject_story->studied the fermentation process of cocoa for a thesis</li>
+    <li>subject_story->set up the best chocolate shop in the sector</li>
+    <li>subject_gerund->producing chocolate</li>
+    <li>subject_gerund->cultivating cocoa</li>
+  -->
+  <Cocoa.generalRules.rulesStrings>
+    <li>subject->kakao</li>
+    <li>subject->çikolata</li>
+    <li>subject_story->çikolataya takıntılı hale geldi ve kısıtlanması gerekti</li>
+    <li>subject_story->bir tez için kakaonun fermantasyon sürecini inceledi</li>
+    <li>subject_story->sektördeki en iyi çikolata dükkanını kurdu</li>
+    <li>subject_gerund->çikolata üretiyor</li>
+    <li>subject_gerund->kakao yetiştiriyor</li>
+  </Cocoa.generalRules.rulesStrings>
   
   <!-- EN: complex clothing -->
   <ComplexClothing.label>kompleks giyim</ComplexClothing.label>
   <!-- EN: Tailor complicated garments like pants, dusters, and cowboy hats. -->
   <ComplexClothing.description>Pantolon, kovboy ceketi ve kovboy şapkası gibi kompleks giysiler dik.</ComplexClothing.description>
+  <!-- EN:
+    <li>subject->complex tailoring</li>
+    <li>subject_story->tailored hard-wearing clothes for urbworld cityfolk</li>
+    <li>subject_story->would relax by sewing and telling stories to the village children</li>
+    <li>subject_story->learned to craft clothing to be worn at [ANYPAWN_possessive] troupe's grand performances</li>
+    <li>subject_gerund->tailoring complex clothes</li>
+  -->
+  <ComplexClothing.generalRules.rulesStrings>
+    <li>subject->kompleks terzilik</li>
+    <li>subject_story->urbworld şehi̇rli̇leri̇ i̇çi̇n özel olarak dayanıklı kıyafetler tasarladı</li>
+    <li>subject_story->dikiş dikerek ve köy çocuklarına hikayeler anlatarak dinlenirdi</li>
+    <li>subject_story->topluluklarının büyük gösterilerinde giyilmek üzere kıyafet yapmayı öğrendi</li>
+    <li>subject_gerund->kompleks kıyafetler dikiyor</li>
+  </ComplexClothing.generalRules.rulesStrings>
   
   <!-- EN: complex furniture -->
   <ComplexFurniture.label>kompleks mobilyalar</ComplexFurniture.label>
-  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiard tables, and poker tables, vents, sarcophagi, and more. -->
+  <!-- EN: Build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiards tables, and poker tables, vents, sarcophagi, and more. -->
   <ComplexFurniture.description>Yatak, sehpa, yemek sandalyesi, koltuk, alet dolabı, şifonyer, bilardo masası, poker masası, havalandırma, lahit gibi kompleks mobilyalar yap.</ComplexFurniture.description>
+  <!-- EN:
+    <li>subject->carpentry</li>
+    <li>subject_story->studied woodcarving under a master carpenter</li>
+    <li>subject_story->built a town of log-cabins singlehandedly</li>
+    <li>subject_story->established a factory, selling high-quality furniture to passing traders</li>
+    <li>subject_gerund->building complex furniture</li>
+  -->
+  <ComplexFurniture.generalRules.rulesStrings>
+    <li>subject->marangozluk</li>
+    <li>subject_story->usta bir marangozun yanında ahşap oymacılığı eğitimi aldı</li>
+    <li>subject_story->tek başına kütük kabinlerden oluşan bir kasaba inşa etti</li>
+    <li>subject_story->yoldan geçen tüccarlara yüksek kaliteli mobilya satan bir fabrika kurdu</li>
+    <li>subject_gerund->kompleks mobi̇lya yapıyor</li>
+  </ComplexFurniture.generalRules.rulesStrings>
   
   <!-- EN: devilstrand -->
   <Devilstrand.label>şeytanipliği</Devilstrand.label>
   <!-- EN: Plant devilstrand, a slow-growing mushroom that yields an exceptionally tough, heat-resistant plant fiber. -->
   <Devilstrand.description>Şeytanipliği ek, son derece sert, ısıya dayanıklı, bitki lifi veren yavaş büyüyen bir mantar.</Devilstrand.description>
+  <!-- EN:
+    <li>subject->devilstrand cultivation</li>
+    <li>subject_story->used devilstrand as a natural firebreak</li>
+    <li>subject_story->established the techniques for cultivating devilstrand easily</li>
+    <li>subject_story->became obsessed with mushrooms and became the self-declared Princess of [ANYPAWN_possessive] kingdom</li>
+    <li>subject_gerund->cultivating devilstrand</li>
+  -->
+  <Devilstrand.generalRules.rulesStrings>
+    <li>subject->şeytanipliği yetiştiriciliği</li>
+    <li>subject_story->şeytanipliğini doğal yangın önleyici olarak kullandı</li>
+    <li>subject_story->şeytanipliğini kolayca yetiştirmek için teknikler oluşturdu</li>
+    <li>subject_story->mantarlara takıntılı hale geldi ve krallıklarının kendi kendini ilan eden prensesi oldu</li>
+    <li>subject_gerund->şeytanipliği yetiştiriyor</li>
+  </Devilstrand.generalRules.rulesStrings>
   
   <!-- EN: drug production -->
   <DrugProduction.label>uyuşturucu üretimi</DrugProduction.label>
   <!-- EN: Build a drug lab for basic drug synthesis. Further research is required to make specific drugs. -->
   <DrugProduction.description>Basit uyuşturucu sentezi için uyuşturucu laboratuarı inşa et. Daha ileri araştırmalar belirli uyuşturucuları yapmak için gereklidir.</DrugProduction.description>
+  <!-- EN:
+    <li>subject->drug production</li>
+    <li>subject->drug synthesis</li>
+    <li>subject_story->worked in an asteroid lab on the edge of populated space</li>
+    <li>subject_story->learned how to craft drugs from recycled chemicals, leading to many years spent in prison</li>
+    <li>subject_story->worked as a chemist, but slipped into peddling illegal drugs on the side</li>
+    <li>subject_gerund->building drug labs</li>
+    <li>subject_gerund->producing drugs</li>
+  -->
+  <DrugProduction.generalRules.rulesStrings>
+    <li>subject->uyuşturucu üretimi</li>
+    <li>subject->uyuşturucu sentezi</li>
+    <li>subject_story->nüfusun yoğun olduğu uzayın kenarındaki bir asteroit laboratuvarında çalıştı</li>
+    <li>subject_story->geri dönüştürülmüş kimyasallardan nasıl uyuşturucu üretileceğini öğrendi, bu da yıllarca hapiste kalmasına neden oldu</li>
+    <li>subject_story->kimyager olarak çalıştı, ama bir yandan da yasadışı uyuşturucu satmaya başladı.</li>
+    <li>subject_gerund->uyuşturucu laboratuvarları kuruyor</li>
+    <li>subject_gerund->uyuşturucu üretiyor</li>
+  </DrugProduction.generalRules.rulesStrings>
   
   <!-- EN: go-juice production -->
-  <GoJuiceProduction.label>go-juice</GoJuiceProduction.label>
+  <GoJuiceProduction.label>go-juice üretimi</GoJuiceProduction.label>
   <!-- EN: Produce go-juice, a synthetic combat-performance-enhancing drug which improves shooting, melee, and movement ability, and dulls pain. -->
   <GoJuiceProduction.description>Go-Juice üret, ateş etme, yakın dövüş, hareket kabiliyeti geliştiren ve ağrıyı hafifleten sentetik bir dövüş performansı arttırıcı uyuşturucu.</GoJuiceProduction.description>
+  <!-- EN:
+    <li>subject->go-juice production</li>
+    <li>subject_story->was expelled for taking go-juice during team sports matches</li>
+    <li>subject_story->found go-juice massively increased productivity in mines and lumberyards</li>
+    <li>subject_story->never went on a mission without go-juice or juggernaut in a pocket</li>
+    <li>subject_gerund->synthesizing go-juice</li>
+  -->
+  <GoJuiceProduction.generalRules.rulesStrings>
+    <li>subject->go-juice üretimi</li>
+    <li>subject_story->takım sporu maçları sırasında go-juice aldığı için ihraç edildi</li>
+    <li>subject_story->go-juice'in madenlerde ve kereste depolarında verimliliği büyük ölçüde artırdığını tespit etti</li>
+    <li>subject_story->cebinde go-juice veya juggernaut olmadan asla göreve gitmedi</li>
+    <li>subject_gerund->go-juice sentezliyor</li>
+  </GoJuiceProduction.generalRules.rulesStrings>
   
   <!-- EN: greatbow -->
   <Greatbow.label>uzun yay</Greatbow.label>
   <!-- EN: Craft greatbows for killing enemies at great range. -->
   <Greatbow.description>Düşmanlarını uzun menzillerden öldürmek için uzun yay üret.</Greatbow.description>
+  <!-- EN:
+    <li>subject->greatbows</li>
+    <li>subject_story->fired an arrow right through the iron helmet of a feudal king</li>
+    <li>subject_story->hunted muffalos for their fur on a feral world</li>
+    <li>subject_story->lived alone in the greenwood, a hail of arrows greeting anyone who approached within a mile of its edge</li>
+    <li>subject_gerund->crafting greatbows</li>
+  -->
+  <Greatbow.generalRules.rulesStrings>
+    <li>subject->uzun yaylar</li>
+    <li>subject_story->feodal bir kralın demir miğferine doğru bir ok fırlattı</li>
+    <li>subject_story->vahşi bir dünyada kürkleri için muffaloları avladı</li>
+    <li>subject_story->yeşil ormanda tek başına yaşıyordu, etrafına bir mil yaklaşan herkesi bir ok yağmuru karşılıyordu</li>
+    <li>subject_gerund->uzun yaylar üretiyor</li>
+  </Greatbow.generalRules.rulesStrings>
   
   <!-- EN: long blades -->
   <LongBlades.label>uzun kılıçlar</LongBlades.label>
   <!-- EN: Craft longswords and spears. -->
   <LongBlades.description>Uzun kılıçlar ve mızraklar üret.</LongBlades.description>
+  <!-- EN:
+    <li>subject->medieval weaponry</li>
+    <li>subject_story->rode with the Betaduke's Fifth Light Cavalry as they conquered the sector</li>
+    <li>subject_story->was enslaved as a weaponsmith beneath the arena on an iron age planet</li>
+    <li>subject_story->trained the hoplites on a warworld to use their weapons' reach</li>
+    <li>subject_gerund->smithing medieval weapons</li>
+  -->
+  <LongBlades.generalRules.rulesStrings>
+    <li>subject->ortaçağ silahları</li>
+    <li>subject_story->Betaduke'un Beşinci Hafif Süvarileri ile birlikte bölgeyi fethetti</li>
+    <li>subject_story->bir demir çağı gezegeninde arenanın altında silah ustası olarak köleleştirildi</li>
+    <li>subject_story->bir savaş dünyasındaki hoplitleri silahlarının erişimini kullanmaları için eğitti</li>
+    <li>subject_gerund->ortaçağ silahları dövüyor</li>
+  </LongBlades.generalRules.rulesStrings>
   
   <!-- EN: passive cooler -->
   <PassiveCooler.label>pasif soğutucu</PassiveCooler.label>
   <!-- EN: Make passive coolers, to cool indoor spaces without using electricity. -->
-  <PassiveCooler.description>Pasif soğutucu yap, içeriyi elektrik kullanmadan soğutmak için.</PassiveCooler.description>
+  <PassiveCooler.description>Elektrik kullanmadan kapalı alanları soğutmak için pasif soğutucular yap.</PassiveCooler.description>
+  <!-- EN:
+    <li>subject->evaporation</li>
+    <li>subject->passive coolers</li>
+    <li>subject_story->moved to a sweltering tropical world and developed unique techniques for staying cool</li>
+    <li>subject_story->researched primitive techniques for cooling areas in the comfort of a coreworld's libraries</li>
+    <li>subject_story->noticed, on the shores of an oceanic planet, that it was cooler where the sea spray settled</li>
+    <li>subject_gerund->building passive coolers</li>
+  -->
+  <PassiveCooler.generalRules.rulesStrings>
+    <li>subject->buharlaşma</li>
+    <li>subject->pasif soğutucular</li>
+    <li>subject_story->bunaltıcı tropik bir dünyaya taşındı ve serin kalmak için benzersiz teknikler geliştirdi</li>
+    <li>subject_story->coreworld kütüphanelerinin konforlu alanlarını soğutmak için ilkel teknikleri araştırdı</li>
+    <li>subject_story->okyanus gezegeninin kıyılarında, deniz püskürmesinin olduğu yerlerin daha soğuk olduğunu fark etti</li>
+    <li>subject_gerund->pasif soğutucular inşa ediyor</li>
+  </PassiveCooler.generalRules.rulesStrings>
   
   <!-- EN: pemmican -->
   <Pemmican.label>kurutulmuş et</Pemmican.label>
   <!-- EN: Make pemmican, a preserved mixture of meat and plant matter that doesn't go bad for a long time. Great for traveling. -->
   <Pemmican.description>Kurutulmuş et yap, uzun süre bozulmayan, et ve bitki içeren bir konserve karışım. Seyahat için harika bir seçim.</Pemmican.description>
+  <!-- EN:
+    <li>subject->pemmican production</li>
+    <li>subject_story->mastered pemmican production during a long pilgrimage to the planet's Spire</li>
+    <li>subject_story->survived solely on pemmican when a passenger liner crashed on a glassworld</li>
+    <li>subject_story->taught pemmican production to feral tribes</li>
+    <li>subject_gerund->making pemmican</li>
+  -->
+  <Pemmican.generalRules.rulesStrings>
+    <li>subject->kurutulmuş et üretimi</li>
+    <li>subject_story->gezegenin Spire'ına yaptığı uzun bir hac yolculuğu sırasında kurutulmuş et üretiminde ustalaştı</li>
+    <li>subject_story->bir yolcu gemisindeyken camdan bir dünyaya düştüğünde sadece kurutulmuş et ile hayatta kaldı</li>
+    <li>subject_story->yabani kabilelere kurutulmuş et üretimini öğretti</li>
+    <li>subject_gerund->kurutulmuş et üretiyor</li>
+  </Pemmican.generalRules.rulesStrings>
   
   <!-- EN: penoxycyline production -->
   <PenoxycylineProduction.label>penoksilin</PenoxycylineProduction.label>
   <!-- EN: Produce penoxycyline, a disease prevention drug which blocks plague, malaria, and more before they start. -->
   <PenoxycylineProduction.description>Penoksilin üret, veba, sıtma ve daha fazlasını başlamadan önce engelleyen hastalık önleyen bir ilaç.</PenoxycylineProduction.description>
+  <!-- EN:
+    <li>subject->penoxycyline production</li>
+    <li>subject_story->lectured to the United Planets about preventative medicine</li>
+    <li>subject_story->was driven out of Dawn Falls as a quack, for selling a medicine that "doesn't do anything"</li>
+    <li>subject_story->prevented an outbreak of malaria from spreading through careful penoxycyline dosage</li>
+    <li>subject_gerund->synthesizing penoxycyline</li>
+  -->
+  <PenoxycylineProduction.generalRules.rulesStrings>
+    <li>subject->penoksilin üretimi</li>
+    <li>subject_story->Birleşik Gezegenler'e önleyici ilaçlar hakkında ders verdi</li>
+    <li>subject_story->"hiçbir işe yaramayan" bir ilaç sattığı için Dawn Falls'tan şarlatan olarak kovuldu</li>
+    <li>subject_story->dikkatli penoksilin dozajı sayesinde sıtma salgınının yayılmasını önledi</li>
+    <li>subject_gerund->penoksilin sentezliyor</li>
+  </PenoxycylineProduction.generalRules.rulesStrings>
   
   <!-- EN: plate armor -->
   <PlateArmor.label>plaka zırhı</PlateArmor.label>
   <!-- EN: Smith suits of plate armor from metal or wood. This heavy armor noticeably slows movement, but protects very effectively. -->
   <PlateArmor.description>Metal veya odundan plaka zırh üret. Bu ağır zırh hareketi fark edilir boyutta yavaşlatır ama çok etkili bir şekilde korur.</PlateArmor.description>
+  <!-- EN:
+    <li>subject->plate armor</li>
+    <li>subject_story->crafted armor from scrap, when the authorities surrounded [ANYPAWN_possessive] family's shack</li>
+    <li>subject_story->became known as the Green Smith, when moss grew on the wooden armor</li>
+    <li>subject_story->started the first armorworker's collective on an urbworld</li>
+    <li>subject_gerund->smithing plate armor</li>
+  -->
+  <PlateArmor.generalRules.rulesStrings>
+    <li>subject->plaka zırhı</li>
+    <li>subject_story->yetkililer ailelerinin barakasını kuşattığı sırada hurdadan zırh üretmiş</li>
+    <li>subject_story->ahşap zırhının üzerinde yosun büyüdüğünde Yeşil Demirci olarak tanındı</li>
+    <li>subject_story->bir urbworld'de ilk zırh işçileri kolektifini kurdu.</li>
+    <li>subject_gerund->plaka zırhı dövüyor</li>
+  </PlateArmor.generalRules.rulesStrings>
   
   <!-- EN: psychite refining -->
-  <PsychiteRefining.label>psikotik arıtımı</PsychiteRefining.label>
+  <PsychiteRefining.label>psikoid arıtımı</PsychiteRefining.label>
   <!-- EN: Refine psychoid leaves into flake and yayo, different forms of the euphoric psychite drug. -->
-  <PsychiteRefining.description>Psikoit yapraklarını flake yada yayo olacak şekilde arıt, anlamsız coşkulandıran psikotik uyuşturucusunun farklı formları.</PsychiteRefining.description>
+  <PsychiteRefining.description>Psikoid yapraklarını flake yada yayo olacak şekilde arıt, anlamsız coşkulandıran psikoid uyuşturucusunun farklı formları.</PsychiteRefining.description>
+  <!-- EN:
+    <li>subject->psychite production</li>
+    <li>subject_story->used [ANYPAWN_possessive] university job as cover for [ANYPAWN_possessive] drug-dealing</li>
+    <li>subject_story->started a commune where low-dose flake was mixed into the food</li>
+    <li>subject_story->campaigned for the legalisation of yayo on a nearby urbworld</li>
+    <li>subject_gerund->refining psychite</li>
+  -->
+  <PsychiteRefining.generalRules.rulesStrings>
+    <li>subject->psikoid üretimi</li>
+    <li>subject_story->üniversitedeki işini uyuşturucu ticareti için bir kılıf olarak kullandı</li>
+    <li>subject_story->düşük dozda flake'in yiyeceklere karıştırıldığı bir komün kurdu</li>
+    <li>subject_story->yakınlardaki bir urbworld'de yayo'nun yasallaşması için kampanya yürüttü</li>
+    <li>subject_gerund->psikoid arıtıyor</li>
+  </PsychiteRefining.generalRules.rulesStrings>
   
   <!-- EN: psychoid brewing -->
-  <PsychoidBrewing.label>psikoit demleme</PsychoidBrewing.label>
+  <PsychoidBrewing.label>psikoid demleme</PsychoidBrewing.label>
   <!-- EN: Prepare psychoid leaves into a mildly euphoria-inducing and addictive tea at the campfire or cooking stove. -->
-  <PsychoidBrewing.description>Psikoit yapraklarını kamp ateşinde veya pişirme ocağında hafif coşkuya neden olan ve bağımlılık yapan bir çaya dönüştür.</PsychoidBrewing.description>
+  <PsychoidBrewing.description>Psikoid yapraklarını kamp ateşinde veya pişirme ocağında hafif coşkuya neden olan ve bağımlılık yapan bir çaya dönüştür.</PsychoidBrewing.description>
+  <!-- EN:
+    <li>subject->psychoid</li>
+    <li>subject_story->joined a short-lived psychoid commune on a cult world</li>
+    <li>subject_story->experimented with psychoid to help traumatized soldiers</li>
+    <li>subject_story->legalized psychoid for mass production across several coreworlds, when [ANYPAWN_pronoun] had the power to do so</li>
+    <li>subject_gerund->brewing psychoid</li>
+  -->
+  <PsychoidBrewing.generalRules.rulesStrings>
+    <li>subject->psikoid</li>
+    <li>subject_story->kült bir dünyada kısa ömürlü bir psikoid komününe katıldı</li>
+    <li>subject_story->travma geçiren askerlere yardım etmek için psikoid deneyi yaptı</li>
+    <li>subject_story->bunu yapabilecek güce sahip olduğunda, birkaç çekirdek dünyada seri üretim için psikoidi yasallaştırdı</li>
+    <li>subject_gerund->psikoid demliyor</li>
+  </PsychoidBrewing.generalRules.rulesStrings>
   
   <!-- EN: recurve bow -->
   <RecurveBow.label>olimpik yay</RecurveBow.label>
   <!-- EN: Build the recurve bow, an effective and inexpensive ranged weapon. -->
   <RecurveBow.description>Olimpik yay yap, ucuz ve etkili menzilli bir silah.</RecurveBow.description>
+  <!-- EN:
+    <li>subject->bowyery</li>
+    <li>subject->bow-making</li>
+    <li>subject_story->tracked a rabid boomalope for four days before killing it with a single arrow</li>
+    <li>subject_story->settled near a yew forest to secure the perfect materials for bows</li>
+    <li>subject_story->raised the colony children as hunter-gatherers, with every one a master archer</li>
+    <li>subject_gerund->crafting bows</li>
+  -->
+  <RecurveBow.generalRules.rulesStrings>
+    <li>subject->okçuluk</li>
+    <li>subject->yay yapımı</li>
+    <li>subject_story->kuduz bir bumalop'u tek bir okla öldürmeden önce dört gün boyunca takip etti</li>
+    <li>subject_story->yaylar için mükemmel malzemeler elde etmek amacıyla porsuk ormanının yakınına yerleşti</li>
+    <li>subject_story->koloninin çocuklarını avcı-toplayıcı olarak yetiştirdi, her biri usta bir okçu oldu</li>
+    <li>subject_gerund->yay üretiyor</li>
+  </RecurveBow.generalRules.rulesStrings>
   
   <!-- EN: smithing -->
   <Smithing.label>demircilik</Smithing.label>
   <!-- EN: Build smithies for crafting metal weapons like knives, gladii, and maces. Work metal into clean, beautiful floor tiles. -->
   <Smithing.description>Bıçak, topuz, gladius gibi metal silahları üretmek için demirci inşa et. Metali güzel, temiz fayanslara işle.</Smithing.description>
+  <!-- EN:
+    <li>subject->blacksmithing</li>
+    <li>subject_story->settled in a medieval hamlet and mastered simple metal crafting</li>
+    <li>subject_story->built glitterworld smithies for the Renaissance reenactment guilds</li>
+    <li>subject_gerund->smithing</li>
+  -->
+  <Smithing.generalRules.rulesStrings>
+    <li>subject->demircilik</li>
+    <li>subject_story->bir ortaçağ mezrasına yerleşti ve basit metal işçiliğinde ustalaştı</li>
+    <li>subject_story->Rönesans canlandırma loncaları için glitterworld demirhaneleri inşa etti</li>
+    <li>subject_gerund->dövüyor</li>
+  </Smithing.generalRules.rulesStrings>
   
   <!-- EN: stonecutting -->
   <Stonecutting.label>taş kesme</Stonecutting.label>
   <!-- EN: Cut rock chunks into stone blocks for use in construction. Build beautiful stone tile floors or ugly concrete walkways. -->
   <Stonecutting.description>İnşaatta kullanmak için taş yığınlarını keserek taş blok elde et. Güzel taş fayanslar yada çirkin beton yollar inşa et.</Stonecutting.description>
+  <!-- EN:
+    <li>subject->masonry</li>
+    <li>subject_story->was the first in a line of temple designers, all sharing the same name</li>
+    <li>subject_story->developed unique techniques for cutting the hardest rock with basic tools</li>
+    <li>subject_story->tiled the entirety of the viceroy's palace on a medieval world</li>
+    <li>subject_gerund->stonecutting</li>
+    <li>subject_gerund->cutting stones</li>
+  -->
+  <Stonecutting.generalRules.rulesStrings>
+    <li>subject->duvarcılık</li>
+    <li>subject_story->aynı adı paylaşan tapınak tasarımcılarının ilkiydi</li>
+    <li>subject_story->basit aletlerle en sert kayaları kesmek için benzersiz teknikler geliştirdi</li>
+    <li>subject_story->genel valinin sarayının tamamını ortaçağ dünyasına göre döşedi</li>
+    <li>subject_gerund->taş kesiyor</li>
+    <li>subject_gerund->taşları kesiyor</li>
+  </Stonecutting.generalRules.rulesStrings>
   
   <!-- EN: tree sowing -->
   <TreeSowing.label>ağaç ekimi</TreeSowing.label>
   <!-- EN: Sow the local biome's natural trees in your fields. -->
   <TreeSowing.description>Tarlalarına yerel biyomun doğal ağaçlarını dik.</TreeSowing.description>
+  <!-- EN:
+    <li>subject->tree sowing</li>
+    <li>subject_story->propagated trees across a long-dead planetoid, trying to bring life back</li>
+    <li>subject_story->published a paper about maintaining natural ecosystems</li>
+    <li>subject_story->worked in a tree nursery on an animal world</li>
+    <li>subject_gerund->sowing trees</li>
+  -->
+  <TreeSowing.generalRules.rulesStrings>
+    <li>subject->ağaç ekimi</li>
+    <li>subject_story->uzun süredir ölü olan bir gezegende ağaçları çoğaltarak yaşamı geri getirmeye çalışıyordu</li>
+    <li>subject_story->doğal ekosistemlerin korunması hakkında bir makale yayınladı</li>
+    <li>subject_story->hayvanlar dünyasında bir ağaç fidanlığında çalıştı</li>
+    <li>subject_gerund->ağaçlar ekiyor</li>
+  </TreeSowing.generalRules.rulesStrings>
   
   <!-- EN: wake-up production -->
   <WakeUpProduction.label>wake-up</WakeUpProduction.label>
   <!-- EN: Synthesize wake-up, a work performance-enhancing drug which replaces the need for sleep. -->
   <WakeUpProduction.description>Wake-Up sentezle, uyku ihtiyacının yerini alan, iş performansını artıran bir uyuşturucu.</WakeUpProduction.description>
+  <!-- EN:
+    <li>subject->wake-up production</li>
+    <li>subject_story->tried to overcome caffeine addiction by taking wake-up</li>
+    <li>subject_story->treated narcoleptics and sleepwalkers with carefully timed wake-up doses</li>
+    <li>subject_story->moved everyone to the dark side of an asteroid and used wake-up to maintain their biorhythms</li>
+    <li>subject_gerund->synthesizing wake-up</li>
+  -->
+  <WakeUpProduction.generalRules.rulesStrings>
+    <li>subject->wake-up üretimi</li>
+    <li>subject_story->wake-up alarak kafein bağımlılığının üstesinden gelmeye çalıştı</li>
+    <li>subject_story->narkoleptikleri ve uyurgezerleri dikkatlice zamanlanmış wake-up dozlarıyla tedavi etti</li>
+    <li>subject_story->herkesi bir asteroidin karanlık tarafına taşıdı ve biyoritimlerini korumak için wake-up kullandı</li>
+    <li>subject_gerund->wake-up sentezliyor</li>
+  </WakeUpProduction.generalRules.rulesStrings>
   
 </LanguageData>

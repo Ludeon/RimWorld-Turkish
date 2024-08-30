@@ -2,62 +2,232 @@
 <LanguageData>
   
   <!-- EN: advanced fabrication -->
-  <AdvancedFabrication.label>gelişmiş imalat</AdvancedFabrication.label>
+  <AdvancedFabrication.label>gelişmiş fabrikasyon</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
   <AdvancedFabrication.description>Bileşenlerden ve diğer malzemelerden gelişmiş bileşenler imal et.</AdvancedFabrication.description>
+  <!-- EN:
+    <li>subject->advanced component fabrication</li>
+    <li>subject_story->traded advanced components to desperate rimworlders</li>
+    <li>subject_story->learned the secrets of fabricating advanced components and died without revealing them</li>
+    <li>subject_story->balked at the extreme cost of crafting advanced components and chose a simpler lifestyle</li>
+    <li>subject_gerund->fabricating advanced components</li>
+  -->
+  <AdvancedFabrication.generalRules.rulesStrings>
+    <li>subject->gelişmiş bileşen üretimi</li>
+    <li>subject_story->gelişmiş bileşenleri çaresiz rimworld'lülere sattı</li>
+    <li>subject_story->gelişmiş bileşenler üretmenin sırlarını öğrendi ve bunları açıklamadan öldü</li>
+    <li>subject_story->gelişmiş bileşenler üretmenin aşırı maliyetinden çekindi ve daha basit bir yaşam tarzını seçti</li>
+    <li>subject_gerund->gelişmiş bileşen üretiyor</li>
+  </AdvancedFabrication.generalRules.rulesStrings>
   
   <!-- EN: bionic replacements -->
-  <Bionics.label>biyonik</Bionics.label>
+  <Bionics.label>biyonik protezler</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
   <Bionics.description>Kaybedilmiş uzuvların ve gözlerin yerini doldurmak için yüksek teknoloji biyonik vücut parçaları üret. Nakil için yetenekli bir doktor gerekir.</Bionics.description>
+  <!-- EN:
+    <li>subject->bionic prosthesis</li>
+    <li>subject_story->worked primarily with disfigured soldiers, crafting bespoke bionic facial elements so they could return to their loved ones</li>
+    <li>subject_story->studied slowed vids of human motion to better craft bionic prosthetics</li>
+    <li>subject_story->was volunteered to have the various prototype bionics  implanted, ending up as more machine than man</li>
+    <li>subject_gerund->constructing bionic prosthetics</li>
+    <li>subject_gerund->utilizing bionic body parts</li>
+  -->
+  <Bionics.generalRules.rulesStrings>
+    <li>subject->biyonik protezler</li>
+    <li>subject_story->öncesinde şekli bozulmuş askerlerle çalıştı ve sevdiklerine geri dönebilmeleri için özel olarak tasarlanmış biyonik yüz öğeleri üretti</li>
+    <li>subject_story->biyonik protezleri daha iyi üretmek için insan hareketinin yavaşlatılmış videolarını inceledi</li>
+    <li>subject_story->çeşitli prototip biyonik protezlerin implante edilmesi için gönüllü oldu ve insandan çok makineye dönüştü</li>
+    <li>subject_gerund->biyonik protez yapıyor</li>
+    <li>subject_gerund->biyonik vücut parçalarını kullanıyor</li>
+  </Bionics.generalRules.rulesStrings>
   
   <!-- EN: pulse-charged munitions -->
   <ChargedShot.label>şoklayan mühimmatlar</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
   <ChargedShot.description>Fazladan hasar için şoklayan cephane kullanan silahlar üret. Gelişmiş bileşen gerektirdiklerini unutma.</ChargedShot.description>
+  <!-- EN:
+    <li>subject->pulse munitions</li>
+    <li>subject_story->studied glitterworld monorails and modified the tech for weapons</li>
+    <li>subject_story->killed a mechanical crawler by kiting it with a charge lance</li>
+    <li>subject_story->learned how to imbue rifle ammunition with retained charge, heavily increasing its lethality</li>
+    <li>subject_gerund->constructing pulse munitions</li>
+    <li>subject_gerund->utilising pulse munitions</li>
+  -->
+  <ChargedShot.generalRules.rulesStrings>
+    <li>subject->şoklayan mühimmatlar</li>
+    <li>subject_story->glitterworld monoraylarını inceledi ve silahlar için teknolojiyi değiştirdi</li>
+    <li>subject_story->mekanik bir tarayıcıyı şarj mızrağıyla vurarak öldürdü</li>
+    <li>subject_story->tüfek mühimmatının içine, öldürücülüğünü büyük ölçüde artıracak şekilde tutucu yük yerleştirmeyi öğrendi</li>
+    <li>subject_gerund->şoklayan mühimmatlar yapıyor</li>
+    <li>subject_gerund->şoklayan mühimmatlar kullanıyor</li>
+  </ChargedShot.generalRules.rulesStrings>
   
   <!-- EN: cryptosleep casket -->
   <Cryptosleep.label>kriptouyku kapsülü</Cryptosleep.label>
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
   <Cryptosleep.description>Kriptouyku kapsülü inşa et, içindeki canlılar belirsiz bir süre geçiçi ölüm yaşar.</Cryptosleep.description>
+  <!-- EN:
+    <li>subject->cryptosleep</li>
+    <li>subject_story->intended to test a prototype cryptosleep casket and woke a generation later, alone</li>
+    <li>subject_story->sentenced the system's worst criminal to indefinite cryptosleep rather than death</li>
+    <li>subject_story->used a cryptosleep capsule to suspend the terminally ill, so they could see their children once they'd grown up</li>
+    <li>subject_gerund->constructing cryptosleep caskets</li>
+    <li>subject_gerund->inducing cryptosleep</li>
+  -->
+  <Cryptosleep.generalRules.rulesStrings>
+    <li>subject->kriptouyku</li>
+    <li>subject_story->bir prototip kriptouyku kapsülünü test etmeyi amaçladı ve bir nesil sonra tek başına uyandı</li>
+    <li>subject_story->sistemin en kötü suçlusunu ölüm yerine süresiz kriptouykusuna mahkum etti</li>
+    <li>subject_story->ölümcül hastaları askıya almak için bir kriptosleep kapsülü kullandı, böylece büyüdüklerinde çocuklarını görebildiler</li>
+    <li>subject_gerund->kriptouyku kapsülleri inşa ediyor</li>
+    <li>subject_gerund->kriptouykuyu çalıştırıyor</li>
+  </Cryptosleep.generalRules.rulesStrings>
   
   <!-- EN: fabrication -->
-  <Fabrication.label>imalat</Fabrication.label>
+  <Fabrication.label>fabrikasyon</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
-  <Fabrication.description>İmalat tezgahı inşa et, bileşen imalatından güç zırhı yapımına kadar yüksek teknolojili projelerin yapımına olanak tanır.</Fabrication.description>
+  <Fabrication.description>Fabrikasyon tezgahı inşa et, bileşen imalatından güç zırhı yapımına kadar yüksek teknolojili projelerin yapımına olanak tanır.</Fabrication.description>
   <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
-  <Fabrication.discoveredLetterText>Artık imalat tezgahı yapabilecek araştırmaya sahipsin - ama işe başlamak için biraz gelişmiş bileşene ihtiyacın olacak. Gelişmiş bileşenleri birkaç farklı yolla elde edebilirsin:\n\n  -Tüm sivil yerleşim yerleri gelişmiş bileşen satar. Biraz satın almak için bir kervan gönder.\n  -Bazı ziyaretçi tüccarlar gelişmiş bileşen satar. Onları davet et yada bekle.\n  -Bazı görevlerin ödülü gelişmiş bileşendir.</Fabrication.discoveredLetterText>
+  <Fabrication.discoveredLetterText>Artık fabrikasyon tezgahı yapabilecek araştırmaya sahipsin - ama işe başlamak için biraz gelişmiş bileşene ihtiyacın olacak. Gelişmiş bileşenleri birkaç farklı yolla elde edebilirsin:\n\n  -Tüm sivil yerleşim yerleri gelişmiş bileşen satar. Biraz satın almak için bir kervan gönder.\n  -Bazı ziyaretçi tüccarlar gelişmiş bileşen satar. Onları davet et yada bekle.\n  -Bazı görevlerin ödülü gelişmiş bileşendir.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
-  <Fabrication.discoveredLetterTitle>Bilgi: Gelişmiş bileşen alıyor</Fabrication.discoveredLetterTitle>
+  <Fabrication.discoveredLetterTitle>Bilgi: Gelişmiş bileşenler edinme</Fabrication.discoveredLetterTitle>
+  <!-- EN:
+    <li>subject->high-tech fabrication benches</li>
+    <li>subject_story->spent many years crafting advanced components, to make fabrication benches to make more advanced components</li>
+    <li>subject_story->traded everything to build a single fabrication bench</li>
+    <li>subject_story->constructed technological marvels which the feral villagers worshipped as magical</li>
+    <li>subject_gerund->constructing high-tech projects</li>
+    <li>subject_gerund->building high-tech fabrication stations</li>
+  -->
+  <Fabrication.generalRules.rulesStrings>
+    <li>subject->yüksek teknoloji fabrikasyon tezgahları</li>
+    <li>subject_story->daha gelişmiş bileşenler üretmek amacıyla fabrikasyon tezgahları yapmak için uzun yıllar harcadı</li>
+    <li>subject_story->tek bir fabrikasyon tezgahı inşa etmek için her şeyini takas etti</li>
+    <li>subject_story->vahşi köylülerin büyülü olarak taptıkları teknolojik harikalar inşa etti</li>
+    <li>subject_gerund->yüksek teknoloji̇li̇ projeler yapıyor</li>
+    <li>subject_gerund->yüksek teknolojili fabrikasyon istasyonları kuruyor</li>
+  </Fabrication.generalRules.rulesStrings>
   
   <!-- EN: multi-analyzer -->
   <MultiAnalyzer.label>çoklu analizör</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
   <MultiAnalyzer.description>Çoklu analizör inşa et, araştırma hızını arttırır ve yüksek seviyeli araştırma projelerine imkan verir.</MultiAnalyzer.description>
+  <!-- EN:
+    <li>subject->multi-analysis</li>
+    <li>subject_story->automated a research laboratory</li>
+    <li>subject_story->unlocked the trans-spectrum secrets of the universe</li>
+    <li>subject_story->helped identify new stable isotopes</li>
+    <li>subject_gerund->constructing multi-analyzers</li>
+  -->
+  <MultiAnalyzer.generalRules.rulesStrings>
+    <li>subject->çoklu analiz</li>
+    <li>subject_story->bir araştırma laboratuvarını otomatikleştirdi</li>
+    <li>subject_story->evrenin trans-spektrum sırlarını çözdü</li>
+    <li>subject_story->yeni kararlı izotopların tanımlanmasında yardımcı oldu</li>
+    <li>subject_gerund->çoklu analizörler inşa ediyor</li>
+  </MultiAnalyzer.generalRules.rulesStrings>
   
   <!-- EN: marine armor -->
-  <PoweredArmor.label>denizci zırhı</PoweredArmor.label>
+  <PoweredArmor.label>deniz zırhı</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>Denizci zırhı üret, yüksek teknolojili şok birlikleri tarafından kullanılan güçlendirilmiş bir zırh. Gelişmiş bileşen gerektirdiklerini unutma.</PoweredArmor.description>
+  <PoweredArmor.description>Yüksek teknolojili şok birlikleri tarafından kullanılan genel kullanımlı bir zırh giysisi olan deniz zırhı yapın. Bu zırhların gelişmiş bileşenler gerektirdiğini unutmayın.</PoweredArmor.description>
+  <!-- EN:
+    <li>subject->marine armor</li>
+    <li>subject_story->was employed by the shock troops to maintain their armor</li>
+    <li>subject_story->tested the armor by walking, unarmed, through a hostile feral village without receiving a scratch</li>
+    <li>subject_story->intended the armor as protection against the planet's hostile weather, but it worked well against the pirates too</li>
+    <li>subject_gerund->constructing shock troop armor</li>
+    <li>subject_gerund->constructing marine armor</li>
+    <li>subject_gerund->constructing general-use advanced armor</li>
+  -->
+  <PoweredArmor.generalRules.rulesStrings>
+    <li>subject->deniz zırhı</li>
+    <li>subject_story->şok birlikleri tarafından zırhlarını korumak için işe alındı</li>
+    <li>subject_story->zırhı, düşman bir vahşi köyde tek bir çizik bile almadan silahsız bir şekilde yürüyerek test etti</li>
+    <li>subject_story->zırhı gezegenin düşmanca havasına karşı koruma olarak tasarlamıştı, ancak korsanlara karşı da işe yaradı</li>
+    <li>subject_gerund->şok bi̇rli̇ği̇ zırhı yapıyor</li>
+    <li>subject_gerund->deniz zırhı yapıyor</li>
+    <li>subject_gerund->genel kullanım amaçlı gelişmiş zırh yapıyor</li>
+  </PoweredArmor.generalRules.rulesStrings>
   
   <!-- EN: recon armor -->
   <ReconArmor.label>keşif zırhı</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
   <ReconArmor.description>Keşif zırhı üret, korumaya ihtiyaç duyan keşif birlikleri tarafından kullanılan hafif güçlendirilmiş bir zırh. Gelişmiş bileşen gerektirdiklerini unutma.</ReconArmor.description>
+  <!-- EN:
+    <li>subject->recon armor</li>
+    <li>subject_story->led the rebel scouts against the Imperial forces, until captured</li>
+    <li>subject_story->crafted powered armor light and resilient enough for the hammer-users to close with the enemy</li>
+    <li>subject_story->intended recon armor more for hunters than soldiers. It sold well, regardless</li>
+    <li>subject_gerund->crafting recon armor</li>
+    <li>subject_gerund->reducing armor weight</li>
+  -->
+  <ReconArmor.generalRules.rulesStrings>
+    <li>subject->keşif zırhı</li>
+    <li>subject_story->İmparatorluk güçlerine karşı isyancı gözcülere liderlik etti, ta ki yakalanana kadar</li>
+    <li>subject_story->çekiç kullananların düşmanla yakınlaşmasına yetecek kadar hafif ve esnek bir zırh üretti</li>
+    <li>subject_story->keşif zırhını askerlerden çok avcılar için tasarlamıştı. Ne olursa olsun iyi sattı.</li>
+    <li>subject_gerund->keşi̇f zırhı üretiyor</li>
+    <li>subject_gerund->zırh ağırlığını azaltıyor</li>
+  </ReconArmor.generalRules.rulesStrings>
   
   <!-- EN: rocketswarm launcher -->
   <RocketswarmLauncher.label>roketatar fırlatıcı</RocketswarmLauncher.label>
   <!-- EN: Produce rocketswarm launchers, single-burst turrets which can devastate a wide area at a key moment in battle. -->
   <RocketswarmLauncher.description>Savaşta önemli bir anda geniş bir alanı harap edebilen roketatarlar, tek atışlı taretler üretin.</RocketswarmLauncher.description>
+  <!-- EN:
+    <li>subject->rocket turrets</li>
+    <li>subject_story->testified about the use of rocketswarm launchers against civilian targets</li>
+    <li>subject_story->constructed last-ditch defenses, including traps and launchers, in case the settlement was ever threatened</li>
+    <li>subject_story->started by constructing primitive rockets to reach space, but the high failure rate led to them being repurposed as weapons</li>
+    <li>subject_gerund->constructing rocket turrets</li>
+  -->
+  <RocketswarmLauncher.generalRules.rulesStrings>
+    <li>subject->roket taretleri</li>
+    <li>subject_story->roketatarların sivil hedeflere karşı kullanımı hakkında ifade verdi</li>
+    <li>subject_story->yerleşim yerinin tehdit edilmesi ihtimaline karşı tuzaklar ve fırlatıcılar da dahil olmak üzere son çare savunmaları inşa etti</li>
+    <li>subject_story->uzaya ulaşmak için ilkel roketler inşa ederek başladı, ancak yüksek başarısızlık oranı bunların silah olarak yeniden kullanılmasına yol açtı</li>
+    <li>subject_gerund->roket taretleri inşa ediyor</li>
+  </RocketswarmLauncher.generalRules.rulesStrings>
   
   <!-- EN: uranium slug turret -->
-  <SniperTurret.label>uranyum tareti</SniperTurret.label>
+  <SniperTurret.label>uranyum mermi tareti</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
-  <SniperTurret.description>Zırh delici uranyum mermi atan taret üret. Plastik çeliği kağıt gibi yırtan uranyum mermiler atar ama yakın mesafede etkisi düşer.</SniperTurret.description>
+  <SniperTurret.description>Zırh delici uranyum mermi atan taret üret. Plaçeliği kağıt gibi yırtan uranyum mermiler atar ama yakın mesafede etkisi düşer.</SniperTurret.description>
+  <!-- EN:
+    <li>subject->sniper turrets</li>
+    <li>subject_story->led the clean-up after the war, collecting spent radioactive uranium slugs from the front line</li>
+    <li>subject_story->saw a turret shoot straight through an assault mechanoid and needed to understand how</li>
+    <li>subject_story->researched the effects of ammunition density on armor</li>
+    <li>subject_gerund->constructing sniper turrets</li>
+  -->
+  <SniperTurret.generalRules.rulesStrings>
+    <li>subject->keskin nişancı taretleri</li>
+    <li>subject_story->savaştan sonra cepheden kullanılmış radyoaktif uranyum mermilerini toplayarak temizliğe öncülük etti</li>
+    <li>subject_story->bir taretinin saldırı mekanoidini doğrudan vurduğunu gördü ve bunun nasıl olduğunu anlaması gerekiyordu</li>
+    <li>subject_story->mühimmat yoğunluğunun zırh üzerindeki etkilerini araştırdı</li>
+    <li>subject_gerund->keskin nişancı taretleri kuruyor</li>
+  </SniperTurret.generalRules.rulesStrings>
   
   <!-- EN: vitals monitor -->
   <VitalsMonitor.label>hasta monitörü</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
   <VitalsMonitor.description>Tıbbi müdahalelerden daha iyi sonuç almak için hastane yatağının yanına bir hasta monitörü inşa et.</VitalsMonitor.description>
+  <!-- EN:
+    <li>subject->vital signs monitoring</li>
+    <li>subject_story->struggled in an overcrowded hospital and vowed to work for change</li>
+    <li>subject_story->nursed a glassworld survivor back to health</li>
+    <li>subject_story->monitored the isolation ward remotely, sending mechanoids in for treatments</li>
+    <li>subject_gerund->monitoring vital signs</li>
+    <li>subject_gerund->constructing vital signs monitors</li>
+  -->
+  <VitalsMonitor.generalRules.rulesStrings>
+    <li>subject->hayati̇ beli̇rti̇leri̇ i̇zleme</li>
+    <li>subject_story->aşırı kalabalık bir hastanede mücadele etti ve değişim için çalışmaya yemin etti</li>
+    <li>subject_story->cam dünyadan kurtulan bir kişiyi sağlığına kavuşturdu</li>
+    <li>subject_story->izolasyon koğuşunu uzaktan izledi, mekanoidleri tedavi için gönderdi</li>
+    <li>subject_gerund->hayati belirtileri izliyor</li>
+    <li>subject_gerund->hayati belirti moni̇törleri̇ yapıyor</li>
+  </VitalsMonitor.generalRules.rulesStrings>
   
 </LanguageData>
