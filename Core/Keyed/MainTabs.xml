@@ -27,7 +27,7 @@
   <!-- EN: Will not do -->
   <Priority0>Yapamayacak</Priority0>
   <!-- EN: Top priority -->
-  <Priority1>Öncelikli</Priority1>
+  <Priority1>En yüksek öncelikli</Priority1>
   <!-- EN: High priority -->
   <Priority2>Yüksek öncelikli</Priority2>
   <!-- EN: Normal priority -->
@@ -44,24 +44,26 @@
   <WorkDisabledByQuest>Görev tarafından devre dışı bırakıldı: {0}</WorkDisabledByQuest>
   
   <!-- Assign tab -->
-  <!-- EN: Manage outfits -->
-  <ManageOutfits>Kıyafetleri yönet</ManageOutfits>
   <!-- EN: Unchangeable -->
   <Unchangeable>Değiştirilemez</Unchangeable>
   <!-- EN: Clr. forced -->
-  <ClearForcedApparel>Mecburi kıyafet</ClearForcedApparel>
+  <ClearForcedApparel>Zorunlu giydirme</ClearForcedApparel>
   <!-- EN: forced -->
-  <ApparelForcedLower>Zorunlu</ApparelForcedLower>
+  <ApparelForcedLower>zorunlu</ApparelForcedLower>
   <!-- EN: locked -->
-  <ApparelLockedLower>Sınırlanmış</ApparelLockedLower>
+  <ApparelLockedLower>kilitli</ApparelLockedLower>
   <!-- EN: Forced apparel -->
-  <ForcedApparel>Zoraki kıyafet</ForcedApparel>
-  <!-- EN: Edit... -->
-  <AssignTabEdit>Düzeltme</AssignTabEdit>
+  <ForcedApparel>Zorunlu giyim</ForcedApparel>
+  <!-- EN: Edit -->
+  <AssignTabEdit>Düzeltme...</AssignTabEdit>
+  <!-- EN: Manage apparel policies -->
+  <ManageApparelPolicies>Giyim politikalarını yönet</ManageApparelPolicies>
   <!-- EN: Manage drug policies -->
   <ManageDrugPolicies>Uyuşturucu politikalarını yönet</ManageDrugPolicies>
-  <!-- EN: Manage food restrictions -->
-  <ManageFoodRestrictions>Gıda politikalarını yönet</ManageFoodRestrictions>
+  <!-- EN: Manage food policies -->
+  <ManageFoodPolicies>Yemek politikalarını yönet</ManageFoodPolicies>
+  <!-- EN: Manage reading policies -->
+  <ManageReadingPolicies>Okuma politikalarını yönet</ManageReadingPolicies>
   
   <!-- Restrictions tab -->
   <!-- EN: Copy -->
@@ -81,7 +83,7 @@
   <!-- EN: Sterilize animal. -->
   <SterilizeAnimal>Hayvanı kısırlaştır.</SterilizeAnimal>
   <!-- EN: Animal sterile. -->
-  <AnimalAlreadySterile>hayvan kısırlaştırıldı</AnimalAlreadySterile>
+  <AnimalAlreadySterile>Hayvan kısırlaştırıldı.</AnimalAlreadySterile>
   
   <!-- Wildlife tab -->
   <!-- EN: This creature is a predator. When hungry, it will hunt smaller creatures - possibly including people. -->
@@ -97,9 +99,9 @@
   <!-- EN: hostile -->
   <HostileLower>hasım</HostileLower>
   <!-- EN: ally -->
-  <AllyLower>Müttefik</AllyLower>
+  <AllyLower>müttefik</AllyLower>
   <!-- EN: defeated -->
-  <DefeatedLower>Mağlup</DefeatedLower>
+  <DefeatedLower>mağlup</DefeatedLower>
   <!-- EN: Enemy of {0} -->
   <HostileTo>{0}'a düşman</HostileTo>
   <!-- EN: Enemy of:  -->
@@ -123,7 +125,7 @@
   <!-- EN: Rival -->
   <Rival>Rakip</Rival>
   <!-- EN: Acquaintance -->
-  <Acquaintance>tanıdık</Acquaintance>
+  <Acquaintance>Tanıdık</Acquaintance>
   
   <!-- History tab - subtabs -->
   <!-- EN: Graph -->
@@ -187,31 +189,39 @@
   <!-- EN: Research -->
   <Research>Araştırma</Research>
   <!-- EN: Study -->
-  <Study>çalış</Study>
+  <Study>Çalış</Study>
   <!-- EN: Study {0} -->
   <StudyThing>{0} çalış</StudyThing>
   <!-- EN: Unresearched -->
-  <Unresearched>Araştırılmayan</Unresearched>
+  <Unresearched>Araştırılmamış</Unresearched>
   <!-- EN: Finished -->
-  <Finished>Bitirilen</Finished>
+  <Finished>Bitirilmiş</Finished>
   <!-- EN: In Progress -->
-  <InProgress>Devam eden</InProgress>
+  <InProgress>Devam Ediyor</InProgress>
   <!-- EN: Locked -->
   <Locked>Kilitli</Locked>
-  <!-- EN: Research prerequisites -->
-  <ResearchPrerequisites>Araştırma önkoşulları</ResearchPrerequisites>
+  <!-- EN: Prerequisites -->
+  <Prerequisites>Ön koşulları</Prerequisites>
   <!-- EN: Techprints required {0} / {1} -->
   <ResearchTechprintRequirement>Gereken teknik baskılar {0} / {1}</ResearchTechprintRequirement>
   <!-- EN: Insufficient techprints applied ({0} / {1}) -->
   <InsufficientTechprintsApplied>Yetersiz teknik baskı uygulandı ({0} / {1})</InsufficientTechprintsApplied>
   <!-- EN: Prerequisite(s) not completed -->
-  <PrerequisitesNotCompleted>Önkoşul(lar) tamamlanmadı</PrerequisitesNotCompleted>
+  <PrerequisitesNotCompleted>Ön koşul(lar) tamamlanmadı</PrerequisitesNotCompleted>
+  <!-- EN: No project active. -->
+  <NoProjectSelected>Aktif proje yok</NoProjectSelected>
+  <!-- EN: Active projects -->
+  <ActiveProjectPlural>Aktif projeler</ActiveProjectPlural>
+  <!-- EN: Active project -->
+  <ActiveProject>Aktif proje</ActiveProject>
+  <!-- EN: Stop research -->
+  <StopResearch>Araştırmayı durdur</StopResearch>
   <!-- EN: Missing required research facilities -->
   <MissingRequiredResearchFacilities>Eksik gerekli araştırma tesisleri</MissingRequiredResearchFacilities>
   <!-- EN: Required research bench -->
-  <RequiredResearchBench>Araştırma Tezgahı gerekli</RequiredResearchBench>
+  <RequiredResearchBench>Araştırma tezgahı gerekli</RequiredResearchBench>
   <!-- EN: Required research bench facilities -->
-  <RequiredResearchBenchFacilities>Araştırma Tezgahı Tesisi gerekli</RequiredResearchBenchFacilities>
+  <RequiredResearchBenchFacilities>Araştırma tezgahı tesisi gerekli</RequiredResearchBenchFacilities>
   <!-- EN: Project base cost {0} becomes {1} for you because of your tech level. -->
   <ResearchCostComparison>{0} proje taban maliyeti, teknoloji seviyeniz nedeniyle sizin için {1} olur.</ResearchCostComparison>
   <!-- EN: Techprints are available from these factions via trade and quests: -->
@@ -220,6 +230,10 @@
   <TechLevelTooLow>İhtilaf teknoloji seviyeniz {0}, ancak bu projenin teknoloji seviyesi {1}. Araştırma hızı {2} ile çarpılacak.</TechLevelTooLow>
   <!-- EN: Unlocked with -->
   <UnlockedWith>ile kilidi açıldı</UnlockedWith>
+  <!-- EN: Research one or more of this project's prerequisites to discover it. -->
+  <UnknownResearchDescription>Bunu keşfetmek için projenin ön koşullarından bir veya birkaçını araştırın.</UnknownResearchDescription>
+  <!-- EN: unknown -->
+  <UnknownResearch>bilinmiyor</UnknownResearch>
 
   <!-- Factions tab -->
   <!-- EN: Factions -->
@@ -347,10 +361,23 @@
 
   <!-- Health tab -->
   <!-- EN: Creates need -->
-  <CreatesNeed>İhtiyaç oluşturur</CreatesNeed>
+  <CreatesNeed>İhtiyaç oluştur</CreatesNeed>
+  <!-- EN: Change defaults... -->
+  <ChangeDefaults>Varsayılan değerleri değiştir...</ChangeDefaults>
 
   <!-- Misc -->
   <!-- EN: Click to edit -->
   <ClickToEdit>Düzenlemek için tıklayın</ClickToEdit>
-
+  <!-- EN: Assign -->
+  <AssignButton>Ata</AssignButton>
+  <!-- EN: Unassign -->
+  <UnassignButton>Atamayı kaldır</UnassignButton>
+  
+  <!-- Books -->
+  <!-- EN: Mental break chance -->
+  <BookMentalBreakChance>Mental kriz olasılığı</BookMentalBreakChance>
+  
+  <!-- EN: Recreation gain multiplier -->
+  <BookJoyFactor>Dinlenme kazanç çarpanı</BookJoyFactor>
+  
 </LanguageData>

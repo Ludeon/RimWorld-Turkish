@@ -13,6 +13,9 @@
   <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
   <MessageRaidersStealing>{1}'den {0} ellerinden geleni çalmaya ve ayrılmaya karar verdiler.</MessageRaidersStealing>
 
+  <!-- EN: The mechanoids sense no more targets and are moving on. -->
+  <MechanoidsMovingOn>Mekanoidler artık hedef algılamıyor ve hareket ediyorlar.</MechanoidsMovingOn>
+
   <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
   <MessageCaravanDetectedRaidArrived>{1}'den {0} geldi ve saldırıyor! Daha fazlası yolda ve {2} içinde gelecek.</MessageCaravanDetectedRaidArrived>
 
@@ -29,11 +32,13 @@
   <MessageFriendlyFightersLeaving>{1}'den {0} ayrılıyorlar.</MessageFriendlyFightersLeaving>
 
   <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>{1}'den {0} yaralılarını alıyor ve gidiyorlar.</MessageVisitorsTakingWounded>
+  <MessageVisitorsTakingWounded>{0}, {1} konumunda yaralılarını alıyor ve gidiyorlar.</MessageVisitorsTakingWounded>
   <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
-  <MessageVisitorsTrappedLeaving>{1}'den {0} tuzağa düştüler ve kaçmaya çalışıyorlar.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsTrappedLeaving>{0}, {1} konumunda tuzağa düştüler ve kaçmaya çalışıyorlar.</MessageVisitorsTrappedLeaving>
   <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>{1}'den {0} tehlikeli sıcaklık nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousTemperature>
+  <MessageVisitorsDangerousTemperature>{0}, {1} konumundan tehlikeli sıcaklık nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousTemperature>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
+  <MessageVisitorsAnomalousWeather>{0}, {1} konumundan tehlikeli hava koşulları nedeniyle haritayı terk ediyor.</MessageVisitorsAnomalousWeather>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{1_nameFull} tarafından giyilen {0} bozuldu.</MessageWornApparelDeterioratedAway>
@@ -47,7 +52,7 @@
   <MessageShipHasLeftCommsRange>{0} haberleşme menzilinden ayrıldı.</MessageShipHasLeftCommsRange>
 
   <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
-  <MessageNeedBeaconToTradeWithShip>Ticaret yapabilmen için ticaret feneri gerekli.</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedBeaconToTradeWithShip>Ticaret yapabilmen için yörüngesel ticaret feneri gerekli.</MessageNeedBeaconToTradeWithShip>
   <!-- EN: Caller must have the title of {0_label} or higher. -->
   <MessageNeedRoyalTitleToCallWithShip>Arayanın adı {0_label} veya daha yüksek olmalıdır.</MessageNeedRoyalTitleToCallWithShip>
 
@@ -79,9 +84,9 @@
   <MessageInsectsHostileOnTaming>Uyarı: {PAWN_labelShort} düşmancadır ve sömürgeciniz onu evcilleştirmeye çalışırken saldıracaktır.</MessageInsectsHostileOnTaming>
   
   <!-- EN: New recruit -->
-  <LetterLabelMessageRecruitSuccess>Yeni alım</LetterLabelMessageRecruitSuccess>
+  <LetterLabelMessageRecruitSuccess>Koloniye yeni alım</LetterLabelMessageRecruitSuccess>
   <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITER_nameFull} {RECRUITEE_nameFull}'i başarıyla koloniye aldı. ({2} şansla).</MessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull} {RECRUITEE_nameFull}'i başarıyla koloniye kattı. ({2} şansla).</MessageRecruitSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
   <MessageTameSuccess>{1} {RECRUITER_labelShort} tarafından evcilleştirildi. ({2} şansla).</MessageTameSuccess>
   <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
@@ -124,7 +129,11 @@
   <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
   <MessageMustDesignateDeconstructibleMechCluster>Yapısını bozmadan önce bir mekanik kümeyi yenmelisiniz.</MessageMustDesignateDeconstructibleMechCluster>
   <!-- EN: Must designate rough stone surfaces. -->
-  <MessageMustDesignateSmoothableSurface>Pürüzlü taş zeminleri belirtmelisin.</MessageMustDesignateSmoothableSurface>
+  <MessageMustDesignateSmoothableSurface>Pürüzlü taş alanları belirtmelisin.</MessageMustDesignateSmoothableSurface>
+  <!-- EN: Must designate rough stone terrain. -->
+  <MessageMustDesignateSmoothableFloor>Pürüzlü taş zeminleri belirtmelisin.</MessageMustDesignateSmoothableFloor>
+  <!-- EN: Must designate rough stone wall. -->
+  <MessageMustDesignateSmoothableWall>Pürüzlü taş duvarları belirtmelisin.</MessageMustDesignateSmoothableWall>
   <!-- EN: Nothing can remove thick roofs. -->
   <MessageNothingCanRemoveThickRoofs>Kalın çatıları kaldıramazsın.</MessageNothingCanRemoveThickRoofs>
   <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
@@ -186,7 +195,7 @@
   <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
   <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}, nöral ısının normal sınırını aştı.</MessageWentOverPsychicEntropyLimit>
 
-  <!-- EN: No handler can tame {ANIMAL_kindBase} (requires level {1} in {2}, best handler {HANDLER_labelShort} has {4}). -->
+  <!-- EN: No handler capable of taming {ANIMAL_kindBase} (requires level {1} in {2}, best capable handler {HANDLER_labelShort} has {4}). -->
   <MessageNoHandlerSkilledEnough>Hiç bir bakıcın {ANIMAL_kindBase}'ı evcilleştiremiyor .(gerekli seviye {2} {1}, senin en iyi bakıcın{HANDLER_labelShort} has {4}).</MessageNoHandlerSkilledEnough>
   
   <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
@@ -202,7 +211,9 @@
   
   <!-- EN: The trade caravan from {0} is leaving. -->
   <MessageTraderCaravanLeaving>{0}'dan gelen ticari kervan gidiyor.</MessageTraderCaravanLeaving>
-  
+  <!-- EN: The trade caravan from {0} has been dismissed. -->
+  <MessageTraderCaravanDismissed>{0}'dan gelen ticari kervanı kovuldu.</MessageTraderCaravanDismissed>
+
   <!-- EN: {1_labelShort} is dead. -->
   <MessageCantSelectDeadPawn>{1_labelShort} öldü.</MessageCantSelectDeadPawn>
   <!-- EN: {1_labelShort} is off the map. -->
@@ -346,6 +357,8 @@
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Bazı öğeler veya kişiler kullanılamaz hale geldiğinden ({2_labelShort}) {1} öğeniz taşıma bölmelerini yüklemeyi tamamlayamıyor.</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoPortal>{1} öğeniz {0} girişini tamamlayamadı çünkü bazı öğeler veya kişiler kullanılamaz hale geldi ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Seçilen hedef geçersiz.</MessageTransportPodsDestinationIsInvalid>
@@ -563,6 +576,10 @@
   <MessageBillValidationPawnUnavailable>{0} can no longer work on "{1}" at {2}. The restriction has been removed.</MessageBillValidationPawnUnavailable>
   <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
   <MessageBillValidationIncludeZoneDeleted>{1}s "{0}" artık silinen '{2}' depolama alanındaki malları sayamaz.</MessageBillValidationIncludeZoneDeleted>
+  <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
+  <MessageBillValidationIncludeBuildingDeleted>{1}'in "{0}" öğesi artık silinen {2} binasındaki öğeleri sayamaz.</MessageBillValidationIncludeBuildingDeleted>
+  <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
+  <MessageBillValidationIncludeStorageGroupDeleted>{1}'in "{0}" öğesi artık silinen depolama grubu {2}'deki öğeleri sayamaz.</MessageBillValidationIncludeStorageGroupDeleted>
   <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
   <MessageBillValidationIncludeZoneUnavailable>{1} "{0}", artık kullanılamayan '{2}' depolama alanındaki malları sayamaz.</MessageBillValidationIncludeZoneUnavailable>
   <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
@@ -593,7 +610,7 @@
   <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
   <MessagePrisonerResistanceBroken>Mahkum {PRISONER_labelShort}'in direnci {WARDEN_labelShort} tarafından kaldırıldı.</MessagePrisonerResistanceBroken>
   <!-- EN: Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Koloniye alım denemeleri başlayacak.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Koloniye katma denemeleri başlayacak.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
   <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
   <MessageModWithPackageIdAlreadyEnabled>{0} paket kimliğine sahip başka bir mod zaten etkin. Bunu etkinleştirmeye çalışmadan önce {1} öğesini devre dışı bırakın.</MessageModWithPackageIdAlreadyEnabled>
@@ -660,6 +677,12 @@
   <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
   <MessageBedDestroyed>{1_nameDef}'e atanan {0} yok edildi.</MessageBedDestroyed>
 
+  <!-- Lord jobs -->
+  <!-- EN: You need {0_indefinite}. -->
+  <MessageLordJobNeedsAtLeastOneRolePawn>{0_indefinite}'e ihtiyacınız var.</MessageLordJobNeedsAtLeastOneRolePawn>
+  <!-- EN: You need at least {1} {0}. -->
+  <MessageLordJobNeedsAtLeastNumRolePawn>En azından {1} {0}'e ihtiyacınız var.</MessageLordJobNeedsAtLeastNumRolePawn>
+
   <!-- Rituals -->
   <!-- EN: spectate -->
   <Spectate>izle</Spectate>
@@ -675,10 +698,6 @@
   <MessageRitualNeedsAtLeastOnePerson>En az bir katılımcıya ihtiyacınız var.</MessageRitualNeedsAtLeastOnePerson>
   <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>En az bir izleyiciye ihtiyacınız var.</MessageRitualNeedsAtLeastOneSpectator>
-  <!-- EN: You need a {0}. -->
-  <MessageRitualNeedsAtLeastOneRolePawn>Bir {0}'e ihtiyacınız var.</MessageRitualNeedsAtLeastOneRolePawn>
-  <!-- EN: You need at least {1} {0}. -->
-  <MessageRitualNeedsAtLeastNumRolePawn>En az {1} {0} gerekir.</MessageRitualNeedsAtLeastNumRolePawn>
   <!-- EN: {0_labelShort} is downed. -->
   <MessageRitualPawnDowned>{0_labelShort} kapatıldı.</MessageRitualPawnDowned>
   <!-- EN: {0_labelShort} is currently escaping. -->
@@ -723,6 +742,8 @@
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort}, gardiyanlık yeteneğine sahip olmalıdır.</MessageRitualRoleMustBeCapableOfWardening>
   <!-- EN: {0} must be capable of {1}. -->
   <MessageRitualRoleMustBeCapableOfGeneric>{0}, {1} yeteneğine sahip olmalıdır.</MessageRitualRoleMustBeCapableOfGeneric>
+  <!-- EN: {0} must be capable of violence. -->
+  <MessageRitualRoleMustBeCapableOfViolence>{0} şiddet uygulayabilmelidir.</MessageRitualRoleMustBeCapableOfViolence>
   <!-- EN: prisoners cannot {0}. -->
   <MessageRitualRoleMustNotBePrisonerToSpectate>mahkumlar {0} yapamaz.</MessageRitualRoleMustNotBePrisonerToSpectate>
   <!-- EN: only {0} can {1}. -->
@@ -731,6 +752,8 @@
   <MessageRitualRoleMustHaveIdeoToDoRole>{1} rolünü yalnızca {0} doldurabilir.</MessageRitualRoleMustHaveIdeoToDoRole>
   <!-- EN: must be colonist for the {0} role. -->
   <MessageRitualRoleMustBeColonist>{0} rolü için kolonist olmalıdır.</MessageRitualRoleMustBeColonist>
+  <!-- EN: must not be a prisoner for the {0} role. -->
+  <MessageRitualRoleMustBeFree>{0} rolü için mahkum olmamalıdır.</MessageRitualRoleMustBeFree>
   <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
   <MessageRitualWontAttendExtremeTemperature>{0_labelShort}, tören alanındaki aşırı sıcaklık nedeniyle katılmayacak.</MessageRitualWontAttendExtremeTemperature>
   <!-- EN: must be colonist and not enslaved for the {0} role. -->
@@ -751,6 +774,8 @@
   <MessageRitualRoleCannotBeChild>{0} çocuk olamaz.</MessageRitualRoleCannotBeChild>
   <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeBaby>{0} bebek olamaz.</MessageRitualRoleCannotBeBaby>
+  <!-- EN: {0} is busy. -->
+  <MessageRitualRoleBusy>{0} meşgul.</MessageRitualRoleBusy>
 
   <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Devam etmek için bir yer seçmelisiniz.</MessagePlayerMustSelectTile>
@@ -782,11 +807,21 @@
 
   <!-- EN: Storage settings linked for {0} buildings. -->
   <SettingsLinkedFor>{0} bina için depolama ayarları bağlandı.</SettingsLinkedFor>
+  <!-- EN: Storage settings linked for 1 building. -->
+  <SettingsLinkedForSingular>1 bina için depolama ayarları bağlandı</SettingsLinkedForSingular>
   <!-- EN: Storage settings unlinked for {0} buildings. -->
   <SettingsUnlinkedFor>{0} bina için depolama ayarlarının bağlantısı kaldırıldı.</SettingsUnlinkedFor>
+  <!-- EN: Storage settings unlinked for 1 building. -->
+  <SettingsUnlinkedForSingular>1 bina için depolama ayarlarının bağlantısı kaldırıldı.</SettingsUnlinkedForSingular>
   <!-- EN: Storage settings copied to clipboard. -->
   <StorageSettingsCopiedToClipboard>Depolama ayarları panoya kopyalandı.</StorageSettingsCopiedToClipboard>
   <!-- EN: Storage settings pasted from clipboard. -->
   <StorageSettingsPastedFromClipboard>Panodan yapıştırılan depolama ayarları.</StorageSettingsPastedFromClipboard>
+  
+  <!-- EN: {0_label} requires adjacent walls to function. -->
+  <MessageBuildingRequiresAdjacentWalls>{0_label} işlevini yerine getirebilmesi için bitişik duvarlara ihtiyaç duyar.</MessageBuildingRequiresAdjacentWalls>
+
+  <!-- EN: Cannot skip: Refugee -->
+  <MessageLodgersCantFarskip>Atlanamaz: Mülteci</MessageLodgersCantFarskip>
 
 </LanguageData>

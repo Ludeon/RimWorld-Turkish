@@ -48,8 +48,14 @@
   <TabFormingCaravan>Kervan</TabFormingCaravan>
   <!-- EN: Contents -->
   <TabTransporterContents>İçerikler</TabTransporterContents>
+  <!-- EN: Travel -->
+  <TabMapPortalContents>Seyahat</TabMapPortalContents>
   <!-- EN: Contents -->
   <TabCasketContents>İçerikler</TabCasketContents>
+  <!-- EN: Details -->
+  <TabBookContents>Ayrıntılar</TabBookContents>
+  <!-- EN: Study -->
+  <TabStudyNotesContents>Çalışma</TabStudyNotesContents>
   <!-- EN: Auto-cut -->
   <TabWindTurbineAutoCut>Oto-kes</TabWindTurbineAutoCut>
   
@@ -82,6 +88,8 @@
   <PasteBillTip>Yapıştır</PasteBillTip>
   <!-- EN: can't add more -->
   <PasteBillTip_LimitReached>Daha fazla eklenemiyor</PasteBillTip_LimitReached>
+  <!-- EN: Finishes in -->
+  <FinishesIn>Bitirir</FinishesIn>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance -->
@@ -104,9 +112,9 @@
   <NotWhileAsleep>Uyurken olmaz</NotWhileAsleep>
   <!-- EN: Breaking out now -->
   <CurrentlyPrisonBreaking>Firar ediyor</CurrentlyPrisonBreaking>
-  <!-- EN: Multiplier for door count -->
+  <!-- EN: Door count -->
   <FactorForDoorCount>Kapı sayısı çarpanı</FactorForDoorCount>
-  <!-- EN: Multiplier for movement -->
+  <!-- EN: Movement -->
   <FactorForMovement>Hareket çarpanı</FactorForMovement>
   <!-- EN: Slave price -->
   <SlavePrice>Köle değeri</SlavePrice>
@@ -119,7 +127,7 @@
   <!-- EN: Gets medicine -->
   <GetsMedicine>Tedavi</GetsMedicine>
   <!-- EN: Try to recruit -->
-  <ShouldTryToRecruit>Koloniye almayı dene</ShouldTryToRecruit>
+  <ShouldTryToRecruit>Koloniye katmayı dene</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
   <ConsideredGuilty>Suçlu sayılması ({0} içinde sona eriyor)</ConsideredGuilty>
   <!-- EN: Considered guilty -->
@@ -127,17 +135,17 @@
   <!-- EN: Last resistance reduction -->
   <LastRecruitment>Son direnç azaltma</LastRecruitment>
   <!-- EN: How much {0_nameDef}'s resistance was reduced by {1} when {0_pronoun} was last recruited. -->
-  <LastRecruitmentDescription>{0_nameDef}'in direnci {1}, en son işe alındığında  ne kadar azaldı.</LastRecruitmentDescription>
+  <LastRecruitmentDescription>{0_nameDef}'in direnci {1}, en son koloniye katıldığında alındığında ne kadar azaldı.</LastRecruitmentDescription>
   <!-- EN: Opinion of recruiter -->
-  <OpinionOfRecruiter>İşverenin görüşü</OpinionOfRecruiter>
+  <OpinionOfRecruiter>Gardiyanın görüşü</OpinionOfRecruiter>
   <!-- EN: Recruiter negotiation ability -->
-  <RecruiterNegotiationAbility>İşveren müzakere yeteneği</RecruiterNegotiationAbility>
+  <RecruiterNegotiationAbility>Gardiyanın müzakere yeteneği</RecruiterNegotiationAbility>
   <!-- EN: Unwavering loyalty -->
-  <NonRecruitable>sarsılmaz sadakat</NonRecruitable>
+  <NonRecruitable>Tereddütsüz sadakat</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
-  <NonRecruitableTip>Bu mahkûm, evlerine o kadar sarsılmaz bir şekilde sadık ki, işe alınmayı tamamen reddediyorlar.</NonRecruitableTip>
-  <!-- EN: Their loyalty extends to their beliefs and they cannot be converted. -->
-  <NonRecruitableTipCannotConvert>Sadakatleri inançlarına kadar uzanır ve dönüştürülemezler.</NonRecruitableTipCannotConvert>
+  <NonRecruitableTip>Bu mahkûm, evlerine o kadar tereddütsüz bir şekilde sadık koloniye katılmayı tamamen reddediyor.</NonRecruitableTip>
+  <!-- EN: What type of medicine can be given to this prisoner. -->
+  <MedicineQualityDescriptionPrisoner>Bu mahkuma sağlanabilecek ilacın türü.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -213,13 +221,19 @@
   <PainFactor>Acı</PainFactor>
   <!-- EN: Prevents infection -->
   <PreventsInfection>Enfeksiyonu önleme</PreventsInfection>
-  <!-- EN: Self-tend -->
-  <SelfTend>Kendi kendine tedavi</SelfTend>
+  <!-- EN: Allow self-tend -->
+  <AllowSelfTend>Kendi kendine tedavi</AllowSelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>Kendi kendine tedavi etkinken {0} otomatik olarak kendilerini normal verimlilikte {1} seviyesinde tedavi edebilirler.</SelfTendTip>
+  <AllowSelfTendTip>Kendi kendine tedavi etkinken {0} otomatik olarak kendilerini normal verimlilikte {1} seviyesinde tedavi edebilirler.</AllowSelfTendTip>
   <!-- EN: death in {0} -->
-  <DeathIn>{0}} içinde ölecek</DeathIn>
-  
+  <DeathIn>{0} içinde ölecek</DeathIn>
+  <!-- EN: Allow medicine -->
+  <AllowMedicine>İlaç</AllowMedicine>
+  <!-- EN: What type of medicine can be given to this person. -->
+  <MedicineQualityDescription>Bu kişiye verilebilecek ilaç türü.</MedicineQualityDescription>
+  <!-- EN: What type of food can be given to this person. -->
+  <FoodRestrictionDescription>Bu kişiye verilebilecek yemek türü.</FoodRestrictionDescription>
+
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
   <None>Yok</None>
@@ -268,7 +282,7 @@
   <Lent>{FACTION_name} adlı fraksiyona ödünç verildi, {1} içinde dönecek.</Lent>
   <!-- EN: Missing -->
   <Missing>Kayıp</Missing>
-  <!-- EN: Slave -->
+  <!-- EN: slave -->
   <Slave>köle</Slave>
   <!-- EN: Faction leader -->
   <FactionLeader>Fraksiyon lideri</FactionLeader>
@@ -422,5 +436,17 @@
 
   <!-- EN: Auto-cut blocking plants -->
   <WindTurbineAutoCut_EnabledCheckbox>Rüzgar türbinini engelleyen otomatik kesilen bitkiler</WindTurbineAutoCut_EnabledCheckbox>
+  
+  <!-- Study tab  -->
+  <!-- EN: Study progress -->
+  <StudyNotesTab_StudyProgress>Çalışma ilerlemesi</StudyNotesTab_StudyProgress>
+  <!-- EN: Ongoing -->
+  <StudyNotesTab_StudyProgressOngoing>Devam ediyor</StudyNotesTab_StudyProgressOngoing>
+  <!-- EN: Completed -->
+  <StudyNotesTab_StudyProgressCompleted>Bitirilmiş</StudyNotesTab_StudyProgressCompleted>
+  <!-- EN: Toggle study -->
+  <StudyNotesTab_ToggleStudy>Çalışmayı etkinleştir/devre dışı bırak</StudyNotesTab_ToggleStudy>
+  <!-- EN: No discoveries yet -->
+  <StudyNotesTab_NoDiscoveries>Henüz bir keşif yok</StudyNotesTab_NoDiscoveries>
 
 </LanguageData>

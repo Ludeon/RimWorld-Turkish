@@ -4,17 +4,17 @@
   <!-- EN: Cancel -->
   <DesignatorCancel>İptal et</DesignatorCancel>
   <!-- EN: Cancel designated building, mining, hauling, harvesting, and all other designations. -->
-  <DesignatorCancelDesc>İnşayı, taşımayı, hasadı, kazımı ve diğer tüm komutları iptal et.</DesignatorCancelDesc>
+  <DesignatorCancelDesc>İnşayı, kazımı, taşımayı, hasadı ve diğer tüm komutları iptal et.</DesignatorCancelDesc>
 
   <!-- EN: Cut plants -->
   <DesignatorCutPlants>Bitki kes</DesignatorCutPlants>
   <!-- EN: Marks plants to be cut and destroyed. The plant will be completely removed, and any food or resource yield will be harvested. -->
-  <DesignatorCutPlantsDesc>Bitkileri kesilmesi ve yok edilmesi için işaretle. Varsa bitkiden kaynak elde edilir.</DesignatorCutPlantsDesc>
+  <DesignatorCutPlantsDesc>Bitkileri kesilmesi ve yok edilmesi için işaretle. Bitki tamamen kaldırılacak ve varsa bitkiden yiyecek veya kaynak elde edilecek.</DesignatorCutPlantsDesc>
 
   <!-- EN: Deconstruct -->
   <DesignatorDeconstruct>Yık</DesignatorDeconstruct>
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
-  <DesignatorDeconstructDesc>Binaları yıkma emri ver ve kaynakların bir kısmını geri al.</DesignatorDeconstructDesc>
+  <DesignatorDeconstructDesc>Binaları yıkma komutu ver ve kaynakların bir kısmını geri al.</DesignatorDeconstructDesc>
 
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Kaldır</DesignatorUninstall>
@@ -22,14 +22,14 @@
   <DesignatorUninstallDesc>Yapıları satmak veya başka bir yere kurmak için kaldır.</DesignatorUninstallDesc>
 
   <!-- EN: Extract tree -->
-  <DesignatorExtractTree>ağaç ayıkla</DesignatorExtractTree>
+  <DesignatorExtractTree>Ağaç çıkar</DesignatorExtractTree>
   <!-- EN: Extract this tree while keeping it alive so it can be replanted somewhere else. -->
   <DesignatorExtractTreeDesc>Bu ağacı canlıyken çıkarın ki başka bir yere dikilebilsin.</DesignatorExtractTreeDesc>
 
   <!-- EN: Harvest -->
   <DesignatorHarvest>Hasat et</DesignatorHarvest>
   <!-- EN: Marks plants to be harvested for their food or other products. -->
-  <DesignatorHarvestDesc>Bitkileri yiyecek ve diğer kaynakları için hasat etmek için işaretle.</DesignatorHarvestDesc>
+  <DesignatorHarvestDesc>Yiyecek veya diğer kaynakları için hasat edilecek bitkileri işaretle.</DesignatorHarvestDesc>
 
   <!-- EN: Chop wood -->
   <DesignatorHarvestWood>Ağaç kes</DesignatorHarvestWood>
@@ -39,7 +39,7 @@
   <!-- EN: Haul things -->
   <DesignatorHaulThings>Taşı</DesignatorHaulThings>
   <!-- EN: Mark rock chunks and other items to be hauled to dumping areas. Not needed for things like food or corpses, which are always haulable. -->
-  <DesignatorHaulThingsDesc>Kaya yığınlarını ve diğer eşyaları çöplüğe taşımak için işaretle. Her zaman taşınabilir olduğundan yiyecek ve ceset gibi şeyler için gerekmez.</DesignatorHaulThingsDesc>
+  <DesignatorHaulThingsDesc>Kaya yığınlarını ve diğer nesneleri çöplük alanına taşımak için işaretle. Her zaman taşınabilir olduğundan yiyecek ve ceset gibi şeyler için gerekmez.</DesignatorHaulThingsDesc>
   <!-- EN: Can only designate haulable but non-always-hauled things (like rock chunks). -->
   <MustHaulHaulables>Sadece her zaman taşınması mümkün olmayan şeyleri işaretler (kaya yığınları gibi).</MustHaulHaulables>
 
@@ -51,17 +51,30 @@
   <!-- EN: Mine -->
   <DesignatorMine>Kaz</DesignatorMine>
   <!-- EN: Designate areas of rock to be mined out. -->
-  <DesignatorMineDesc>Kazılacak alanı işaretle.</DesignatorMineDesc>
+  <DesignatorMineDesc>Kazılacak kaya alanlarını işaretle.</DesignatorMineDesc>
+
+  <!-- EN: Mine vein -->
+  <DesignatorMineVein>Maden damarını kaz</DesignatorMineVein>
+  <!-- EN: Designate an area of rock to be mined. Colonists will continue to mine until all connected rock of the same type has been mined. -->
+  <DesignatorMineVeinDesc>Kazılacak bir kaya alanı işaretle. Kolonistler aynı türden tüm bitişik kayalar çıkarılana kadar kazmaya devam edecek.</DesignatorMineVeinDesc>
 
   <!-- EN: Smooth surface -->
-  <DesignatorSmoothSurface>Zemini düzleştir</DesignatorSmoothSurface>
+  <DesignatorSmoothSurface>Düzleştir</DesignatorSmoothSurface>
   <!-- EN: Designate rough stone terrain and walls to be smoothed. -->
   <DesignatorSmoothSurfaceDesc>Sert taş zeminleri ve duvarları düzleştirmek için işaretle.</DesignatorSmoothSurfaceDesc>
+  <!-- EN: Smooth walls -->
+  <DesignatorSmoothWalls>Duvarı düzleştir</DesignatorSmoothWalls>
+  <!-- EN: Designate rough stone walls to be smoothed. -->
+  <DesignatorSmoothWallsDesc>Sert taş duvarları düzleştirmek için işaretle.</DesignatorSmoothWallsDesc>
+  <!-- EN: Smooth terrain -->
+  <DesignatorSmoothFloors>Zemini düzleştir</DesignatorSmoothFloors>
+  <!-- EN: Designate rough stone terrain to be smoothed. -->
+  <DesignatorSmoothFloorsDesc>Sert taş zeminleri düzleştirmek için işaretle.</DesignatorSmoothFloorsDesc>
 
   <!-- EN: Plan -->
   <DesignatorPlan>Plan yap</DesignatorPlan>
   <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
-  <DesignatorPlanDesc>Alanı planlamaya ata. Bu sadece gelecekteki yapacağın şeyleri planlamak dışında hiç bir işe yaramaz.</DesignatorPlanDesc>
+  <DesignatorPlanDesc>Alan planması ata. Bu sadece gelecekteki yapacağın şeyleri planlamak dışında hiçbir işe yaramaz.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
   <DesignatorPlanRemove>Planları kaldır</DesignatorPlanRemove>
@@ -71,7 +84,7 @@
   <!-- EN: Forbid -->
   <DesignatorForbid>Yasakla</DesignatorForbid>
   <!-- EN: Mark items as forbidden. Colonists will not be able to interact with the designated items. -->
-  <DesignatorForbidDesc>Eşyaları yasak olarak işaretle. Kolonistler artık bu eşyalarla etkileşime giremezler.</DesignatorForbidDesc>
+  <DesignatorForbidDesc>Eşyaları yasaklı olarak işaretle. Kolonistler artık bu eşyalarla etkileşime giremezler.</DesignatorForbidDesc>
 
   <!-- EN: Allow -->
   <DesignatorUnforbid>İzin ver</DesignatorUnforbid>
@@ -85,7 +98,7 @@
   <!-- EN: Clear home area -->
   <DesignatorAreaHomeClear>Ev alanını kaldır</DesignatorAreaHomeClear>
   <!-- EN: Removes a home area. Colonists will no longer clean, repair, or extinguish fires here. -->
-  <DesignatorAreaHomeClearDesc>Bir ev alanının bir bölümünü yada hepsini kaldır. Artık kolonistler burada temizlik, yangın söndürme yada tamirat yapmayacaklar.</DesignatorAreaHomeClearDesc>
+  <DesignatorAreaHomeClearDesc>Bir ev alanının bir bölümünü yada hepsini kaldır. Artık kolonistler burada temizlik, tamirat ya da yangın söndürme yapmayacak.</DesignatorAreaHomeClearDesc>
 
   <!-- EN: Build roof area -->
   <DesignatorAreaBuildRoofExpand>Çatı inşa et</DesignatorAreaBuildRoofExpand>
@@ -103,45 +116,45 @@
   <DesignatorAreaIgnoreRoofExpandDesc>Kolonistler bu alandaki çatıları yok sayarlar.</DesignatorAreaIgnoreRoofExpandDesc>
 
   <!-- EN: Snow removal area -->
-  <DesignatorAreaSnowClearExpand>Kar temizlenecek alanı genişlet</DesignatorAreaSnowClearExpand>
+  <DesignatorAreaSnowClearExpand>Kar temizleme alanı</DesignatorAreaSnowClearExpand>
   <!-- EN: Create an area which colonists will try to keep clear of snow. -->
-  <DesignatorAreaSnowClearExpandDesc>Kolonistler bu bölgenin kardan korunması için karları temizlerler.</DesignatorAreaSnowClearExpandDesc>
+  <DesignatorAreaSnowClearExpandDesc>Kolonistlerin kardan koruyacakları bir alan oluştur.</DesignatorAreaSnowClearExpandDesc>
   <!-- EN: Clear snow removal area -->
-  <DesignatorAreaSnowClearClear>Kar temizlenecek alanı kaldır</DesignatorAreaSnowClearClear>
+  <DesignatorAreaSnowClearClear>Kar temizleme alanını kaldır</DesignatorAreaSnowClearClear>
   <!-- EN: Removes a snow removal area. Colonists will no longer try to keep this area clear of snow. -->
-  <DesignatorAreaSnowClearClearDesc>Kar temizlenecek alanın bir bölümünü yada hepsini kaldır. Artık kolonistler bu bölgeyi kardan korumaya çalışmayacaklar.</DesignatorAreaSnowClearClearDesc>
+  <DesignatorAreaSnowClearClearDesc>Kar temizleme alanının bir bölümünü ya da hepsini kaldır. Artık kolonistler bu bölgeyi kardan korumaya çalışmayacaklar.</DesignatorAreaSnowClearClearDesc>
 
   <!-- EN: Expand allowed area -->
   <DesignatorExpandAreaAllowed>İzinli alanı genişlet</DesignatorExpandAreaAllowed>
   <!-- EN: Expand an allowed area.\n\nAllowed areas are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorExpandAreaAllowedDesc>İzinli alanı genişlet.\n\nİzinli alan, kolonistlere atayabileceğin tanımlanmış alanlardır. Kolonistler izinli alanlarının dışındaki işleri kabul etmezler ve dışındaki eşyaları kullanamazlar.</DesignatorExpandAreaAllowedDesc>
+  <DesignatorExpandAreaAllowedDesc>Bir izinli alanı genişlet.\n\nİzinli alan, kolonistlere atayabileceğin tanımlanmış alanlardır. Kolonistler izinli alanlarının dışındaki işleri kabul etmeyecek ve ihtiyaçlarını karşılamayacak.</DesignatorExpandAreaAllowedDesc>
   <!-- EN: Clear allowed area -->
   <DesignatorClearAreaAllowed>İzinli alanı kaldır</DesignatorClearAreaAllowed>
   <!-- EN: Clear cells from an allowed area.\n\nAllowed area are defined areas you can assign to colonists. Colonists will not accept work or fulfill their needs outside their allowed area. -->
-  <DesignatorClearAreaAllowedDesc>İzinli alanın bir bölümünü yada hepsini kaldır.</DesignatorClearAreaAllowedDesc>
+  <DesignatorClearAreaAllowedDesc>Bir izinli alanın bir bölümünü ya da hepsini kaldır.</DesignatorClearAreaAllowedDesc>
   <!-- EN: Manage areas... -->
   <ManageAreas>Alanları yönet...</ManageAreas>
   <!-- EN: Manage auto-slaughter... -->
   <ManageAutoSlaughter>Otomatik kesimi ayarla</ManageAutoSlaughter>
 
   <!-- EN: Create a zone where your colonists will try to grow a certain kind of plant. -->
-  <DesignatorGrowingZoneDesc>Kolonistlerinin bir şeyler ekeceği bir tarla oluştur.</DesignatorGrowingZoneDesc>
+  <DesignatorGrowingZoneDesc>Kolonistlerin belirli bir bitki türünü ekeceği bir tarla oluştur.</DesignatorGrowingZoneDesc>
 
   <!-- EN: Create a stockpile where your colonists will store resources.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageResourcesDesc>Kolonistlerinin kaynakları depolayacağı bir stok oluştur.\nAyrıca bu araçla herhangi bir stoğu da genişletebilirsin.</DesignatorZoneCreateStorageResourcesDesc>
+  <DesignatorZoneCreateStorageResourcesDesc>Kolonistlerinin kaynakları depolayacağı bir stok oluştur.\nAyrıca bu araçla mevcut bir stoğu da genişletebilirsin.</DesignatorZoneCreateStorageResourcesDesc>
 
   <!-- EN: Create a stockpile where your colonists will store junk.\nThis tool can also expand any existing stockpile. -->
-  <DesignatorZoneCreateStorageDumpingDesc>Kolonistlerinin hurdaları, çöpleri depolayacağı bir çöplük oluştur.\nAyrıca bu araçla herhangi bir çöplüğü de genişletebilirsin.</DesignatorZoneCreateStorageDumpingDesc>
+  <DesignatorZoneCreateStorageDumpingDesc>Kolonistlerinin hurdaları, çöpleri depolayacağı bir çöplük oluştur.\nAyrıca bu araçla mevcut bir çöplüğü de genişletebilirsin.</DesignatorZoneCreateStorageDumpingDesc>
 
   <!-- EN: Shrink zones -->
-  <DesignatorZoneDelete>Alan daralt</DesignatorZoneDelete>
+  <DesignatorZoneDelete>Alanları daralt</DesignatorZoneDelete>
   <!-- EN: Shrink zone -->
-  <DesignatorZoneDeleteSingular>Alan daralt</DesignatorZoneDeleteSingular>
+  <DesignatorZoneDeleteSingular>Alanı daralt</DesignatorZoneDeleteSingular>
   <!-- EN: Remove zones, like stockpile zones or growing zones. -->
   <DesignatorZoneDeleteDesc>Bir alanı kaldırır, stok yada tarla gibi.</DesignatorZoneDeleteDesc>
 
   <!-- EN: Expand zone -->
-  <DesignatorZoneExpand>Alan genişlet</DesignatorZoneExpand>
+  <DesignatorZoneExpand>Alanı genişlet</DesignatorZoneExpand>
   
   <!-- EN: Claim -->
   <DesignatorClaim>Sahiplen</DesignatorClaim>
@@ -161,12 +174,12 @@
   <!-- EN: Strip -->
   <DesignatorStrip>Soy</DesignatorStrip>
   <!-- EN: Strip apparel from corpses and the wounded. -->
-  <DesignatorStripDesc>Cesetleri yada yaralıları soyarak kıyafetlerini al.</DesignatorStripDesc>
+  <DesignatorStripDesc>Cesetleri ya da yaralıları soyarak kıyafetlerini al.</DesignatorStripDesc>
 
   <!-- EN: Open -->
   <DesignatorOpen>Aç</DesignatorOpen>
   <!-- EN: Open containers. -->
-  <DesignatorOpenDesc>Bir konteyner aç.</DesignatorOpenDesc>
+  <DesignatorOpenDesc>Konteynerleri aç.</DesignatorOpenDesc>
   
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Katlet</DesignatorSlaughter>
@@ -189,11 +202,11 @@
   <DesignatorStudyDesc>Hakkında daha fazla bilgi edinmek için bu nesneyi inceleyin.</DesignatorStudyDesc>
 
   <!-- EN: Paint building... -->
-  <DesignatorPaintBuilding>Bina boyuyor...</DesignatorPaintBuilding>
+  <DesignatorPaintBuilding>Binayı boya...</DesignatorPaintBuilding>
   <!-- EN: Designate walls and buildings to be painted using dye from tinctoria plants, which you can grow. Only certain buildings can be painted. -->
   <DesignatorPaintBuildingDesc>Yetiştirebileceğiniz tinctoria bitkilerinden boya kullanarak boyanacak duvarları ve binaları belirleyin. Sadece belirli binalar boyanabilir.</DesignatorPaintBuildingDesc>
   <!-- EN: Paint floor... -->
-  <DesignatorPaintFloor>Zemin boyuyor...</DesignatorPaintFloor>
+  <DesignatorPaintFloor>Zemini boya...</DesignatorPaintFloor>
   <!-- EN: Designate floors to be painted using dye from tinctoria plants, which you can grow. Only certain floors can be painted. -->
   <DesignatorPaintFloorDesc>Yetiştirebileceğiniz tinctoria bitkilerinden boya kullanarak boyanacak zeminleri belirleyin. Sadece belirli zeminler boyanabilir.</DesignatorPaintFloorDesc>
 
@@ -206,14 +219,14 @@
   <!-- EN: Remove paint from floors. -->
   <DesignatorRemoveFloorPaintDesc>Boyayı zeminlerden çıkarın.</DesignatorRemoveFloorPaintDesc> 
   <!-- EN: Paint -->
-  <Paint>boya</Paint>
+  <Paint>Boya</Paint>
   <!-- EN: Color -->
-  <Color>renk</Color>
+  <Color>Renk</Color>
 
   <!-- EN: Color picker -->
   <DesignatorEyedropper>Renk seçici</DesignatorEyedropper>
   <!-- EN: Grab existing color -->
-  <GrabExistingColor>Mevcut rengi yakala</GrabExistingColor>
+  <GrabExistingColor>Mevcut rengi al</GrabExistingColor>
   <!-- EN: Grab a color from an existing building. -->
   <DesignatorEyeDropperDesc_Paint>Mevcut bir binadan bir renk alın.</DesignatorEyeDropperDesc_Paint>
   <!-- EN: Grab a color from an existing carpet. -->
@@ -223,9 +236,9 @@
   <!-- EN: Select colored carpet. -->
   <SelectColoredFloor>Renkli halı seçin.</SelectColoredFloor>
   <!-- EN: Grab -->
-  <Grab>Yakala</Grab>
+  <Grab>Al</Grab>
   <!-- EN: Grabbed color -->
-  <GrabbedColor>yakalanan renk</GrabbedColor>
+  <GrabbedColor>Alınan renk</GrabbedColor>
 
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
@@ -241,9 +254,9 @@
   <!-- EN: Interaction spot is out of bounds. -->
   <InteractionSpotOutOfBounds>Etkileşim noktası sınırların dışında.</InteractionSpotOutOfBounds>
   <!-- EN: Interaction spot will be blocked by {1_labelShort}. -->
-  <InteractionSpotWillBeBlocked>Etkileşim noktası {1_labelShort} tarafından engellecek.</InteractionSpotWillBeBlocked>
+  <InteractionSpotWillBeBlocked>Etkileşim noktası {1_labelShort} tarafından engellenecek.</InteractionSpotWillBeBlocked>
   <!-- EN: {0} would block {1}'s interaction spot. -->
-  <WouldBlockInteractionSpot>{0} {1}'in etkileşim noktasını engelledi.</WouldBlockInteractionSpot>
+  <WouldBlockInteractionSpot>{0} {1}'in etkileşim noktasını engelleyecek.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Bu arazi zaten {0}.</TerrainIsAlready>
   <!-- EN: The surface is already marked for smoothing. -->
@@ -259,17 +272,17 @@
   <!-- EN: {0_label} (when made of {2_label}) requires terrain that supports: {1_label} -->
   <TerrainCannotSupport_TerrainAffordanceFromStuff>{0_label} ({2_label} ile yapıldığından) şunları destekleyen bir arazi gerektiriyor: {1_label}</TerrainCannotSupport_TerrainAffordanceFromStuff>
   <!-- EN: Space already occupied. -->
-  <SpaceAlreadyOccupied>Alan dolu.</SpaceAlreadyOccupied>
+  <SpaceAlreadyOccupied>Alan zaten dolu.</SpaceAlreadyOccupied>
   <!-- EN: Space being smoothed. -->
-  <SpaceBeingSmoothed>Alan düzleştiriliyor.</SpaceBeingSmoothed>
+  <SpaceBeingSmoothed>Alan zaten düzeltilmiş.</SpaceBeingSmoothed>
   <!-- EN: Must target a removable floor. -->
   <TerrainMustBeRemovable>Kaldırılabilir bir zemin hedeflenmelidir.</TerrainMustBeRemovable>
   <!-- EN: The waterwheel must be on moving water. -->
   <MustBeOnMovingWater>Su değirmeni hareketli su üzerinde olmalıdır.</MustBeOnMovingWater>
   <!-- EN: Interaction spot will overlap with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotWillOverlap>Etkileşim noktası {1_labelShort} etkileşim noktasıyla çakışacak.</InteractionSpotWillOverlap>
+  <InteractionSpotWillOverlap>Etkileşim noktası, {1_labelShort} etkileşim noktasıyla çakışacak.</InteractionSpotWillOverlap>
   <!-- EN: Interaction spot overlaps with the interaction spot of {1_labelShort}. -->
-  <InteractionSpotOverlaps>Etkileşim noktası {1_labelShort} etkileşim noktasıyla çakışıyor.</InteractionSpotOverlaps>
+  <InteractionSpotOverlaps>Etkileşim noktası, {1_labelShort} etkileşim noktasıyla çakışıyor.</InteractionSpotOverlaps>
   <!-- EN: Cannot place monument over: {0}. -->
   <CannotPlaceMonumentOver>Şunun üzerine anıt yerleştirilemez: {0}.</CannotPlaceMonumentOver>
   <!-- EN: Cannot build on: {0}. -->
@@ -279,11 +292,11 @@
   <!-- EN: Monument cannot be placed adjacent to: {0}. -->
   <MonumentAdjacentToBuilding>Şunun yanına anıt yerleştirilemez: {0}.</MonumentAdjacentToBuilding>
   <!-- EN: Cannot be planted here -->
-  <CannotBePlantedHere>buraya dikilemez</CannotBePlantedHere>
+  <CannotBePlantedHere>Buraya dikilemez</CannotBePlantedHere>
   
   <!-- Mouse attachments -->
   <!-- EN: Expand {0} or\nCreate new {1} -->
-  <ExpandOrCreateZone>{0} alanını genişlet yada\n Yeni bir {1} oluştur.</ExpandOrCreateZone>
+  <ExpandOrCreateZone>{0} alanını genişlet ya da\n Yeni bir {1} oluştur.</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Yeni bir {0} oluştur.</CreateNewZone>
   
@@ -300,5 +313,10 @@
   <NoColonistWithAllSkillsForConstructing>Hiçbir {0} gereken tüm becerilere sahip değil.</NoColonistWithAllSkillsForConstructing>
   <!-- EN: All of your {0} who have this skill are not assigned to {1}. -->
   <AllColonistsWithSkillHaveDisabledConstructingTip>Bu beceriye sahip hiçbir {0}, {1}'e atanmamış.</AllColonistsWithSkillHaveDisabledConstructingTip>
+
+  <!-- EN: Extract skull -->
+  <DesignatorExtractSkull>Kafatasını çıkar</DesignatorExtractSkull>
+  <!-- EN: Extract the skull from a corpse. -->
+  <DesignatorExtractSkullDesc>Bir cesetten kafatasını çıkar.</DesignatorExtractSkullDesc>
 
 </LanguageData>

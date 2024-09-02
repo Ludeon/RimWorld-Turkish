@@ -19,15 +19,22 @@
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
   <CarryingCapacity.description>Bu canlının ellerinde, ağzında yada diğer organlarında/ekipmanlarında taşıyabileceği madde miktarı.\n\nBu, uzun dünyalar arası kargo taşıma yeteneğini ile aynı şey değildir.</CarryingCapacity.description>
   
-  <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>maksimum rahat edilebilen sıcaklık</ComfyTemperatureMax.label>
+  <!-- EN: max comfortable temperature -->
+  <ComfyTemperatureMax.label>maks rahat edilebilen sıcaklık</ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
   <ComfyTemperatureMax.description>Sıcaklık bunun üstüne çıkarsa karakterler mutsuz olurlar.\n\nSıcaklık bunun çok üstüne çıkarsa, güneş çarpması yaşarlar ve sonunda ölürler.</ComfyTemperatureMax.description>
   
-  <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>minimum rahat edilebilen sıcaklık</ComfyTemperatureMin.label>
+  <!-- EN: min comfortable temperature -->
+  <ComfyTemperatureMin.label>min rahat edilebilen sıcaklık</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
   <ComfyTemperatureMin.description>Sıcaklık bunun altına düşerse karakterler mutsuz olurlar.\n\nSıcaklık bunun çok altına düşerse, hipotermi ve donma yaşarlar ve sonunda ölürler.</ComfyTemperatureMin.description>
+  
+  <!-- EN: crawl speed -->
+  <CrawlSpeed.label>sürünme hızı</CrawlSpeed.label>
+  <!-- EN: Speed of crawling in cells per second. -->
+  <CrawlSpeed.description>Saniye başına kare cinsinden sürünme hızı.</CrawlSpeed.description>
+  <!-- EN: {0} c/s -->
+  <CrawlSpeed.formatString>k/s</CrawlSpeed.formatString>
   
   <!-- EN: eating speed -->
   <EatingSpeed.label>yeme hızı</EatingSpeed.label>
@@ -59,6 +66,11 @@
   <!-- EN: The multiplier applied to a person's injury healing rate. -->
   <InjuryHealingFactor.description>Bir kişinin yara iyileşme oranına uygulanan çarpan.</InjuryHealingFactor.description>
   
+  <!-- EN: recreation fall rate -->
+  <JoyFallRateFactor.label>dinlenme düşme oranı</JoyFallRateFactor.label>
+  <!-- EN: A multiplier on the speed that a person's recreation need falls. -->
+  <JoyFallRateFactor.description>Bir kişinin dinlenme ihtiyacının düşme hızına ilişkin bir çarpan.</JoyFallRateFactor.description>
+  
   <!-- EN: leather amount -->
   <LeatherAmount.label>deri miktarı</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
@@ -78,15 +90,6 @@
   <MeatAmount.label>et miktarı</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. This value is reduced if the creature is not slaughtered cleanly, or if it is wounded when killed. -->
   <MeatAmount.description>Bu canlının kesildiğinde vereceği et miktarı.</MeatAmount.description>
-  
-  <!-- EN: meditation psyfocus gain -->
-  <MeditationFocusGain.label>meditasyon psy odak kazancı</MeditationFocusGain.label>
-  <!-- EN: The amount of psyfocus a person gains per day of meditation, ignoring bonuses from focus objects. -->
-  <MeditationFocusGain.description>Bir kişinin meditasyon günü başına kazandığı psy odak miktarı, odak nesnelerinden gelen bonuslar hariç.</MeditationFocusGain.description>
-  <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatString>{0} / gün</MeditationFocusGain.formatString>
-  <!-- EN: {0} / day -->
-  <MeditationFocusGain.formatStringUnfinalized>{0} / gün</MeditationFocusGain.formatStringUnfinalized>
   
   <!-- EN: mental break threshold -->
   <MentalBreakThreshold.label>ruhsal çöküş eşiği</MentalBreakThreshold.label>
@@ -110,18 +113,6 @@
   <!-- EN: The pain level at which this creature is downed from pain. -->
   <PainShockThreshold.description>Bu canlının şok geçirdiği acı seviyesi.</PainShockThreshold.description>
   
-  <!-- EN: neural heat limit -->
-  <PsychicEntropyMax.label>sinirsel ısı sınırı</PsychicEntropyMax.label>
-  <!-- EN: The maximum amount of neural heat individual can tolerate safely. -->
-  <PsychicEntropyMax.description>Bireyin güvenli bir şekilde tolere edebileceği maksimum sinirsel ısı miktarı.</PsychicEntropyMax.description>
-  
-  <!-- EN: neural heat recovery rate -->
-  <PsychicEntropyRecoveryRate.label>sinirsel ısı geri kazanım oranı</PsychicEntropyRecoveryRate.label>
-  <!-- EN: The rate at which this person reduces neural heat. -->
-  <PsychicEntropyRecoveryRate.description>Bu kişinin sinirsel ısı geri kazanma oranı.</PsychicEntropyRecoveryRate.description>
-  <!-- EN: {0}/s -->
-  <PsychicEntropyRecoveryRate.formatString>{0}/s</PsychicEntropyRecoveryRate.formatString>
-  
   <!-- EN: psychic sensitivity -->
   <PsychicSensitivity.label>psişik hassaslık</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
@@ -139,8 +130,8 @@
   
   <!-- EN: toxic environment resistance -->
   <ToxicEnvironmentResistance.label>toksik çevre direnci</ToxicEnvironmentResistance.label>
-  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against tox gas, rot stink, toxic fallout, and polluted terrain, but not against direct attacks with venom or injected poison. When this value is higher, exposure to pollution produces proportionally less toxic buildup in the body. -->
-  <ToxicEnvironmentResistance.description>Bu canlının çevresel toksinlerin etkilerine karşı ne kadar dirençli olduğu. Bu, zehirli gaz, çürük koku, toksik serpinti ve kirli araziye karşı koruma sağlar, ancak zehir veya enjekte edilen zehirle doğrudan saldırılara karşı koruma sağlamaz. Bu değer daha yüksek olduğunda, kirliliğe maruz kalma vücutta orantılı olarak daha az toksik birikim üretir.</ToxicEnvironmentResistance.description>
+  <!-- EN: How resistant this creature is to the effects of environmental toxins. This protects against toxic fallout and rot stink exposure, but not against direct attacks with venom or injected poison. -->
+  <ToxicEnvironmentResistance.description>Bu canlının çevresel toksinlerin etkilerine karşı ne kadar dirençli olduğu. Bu, toksik serpinti, çürüme kokusuna maruz kalmaya karşı korur, ancak zehir veya enjekte edilen zehirle doğrudan saldırılara karşı korumaz.</ToxicEnvironmentResistance.description>
   
   <!-- EN: toxic resistance -->
   <ToxicResistance.label>toksik direnç</ToxicResistance.label>

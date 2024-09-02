@@ -16,6 +16,16 @@
   <!-- EN: Average armor penetration of all attacks in melee combat.\n\nThis stat includes currently used weapon. -->
   <MeleeArmorPenetration.description>Yakın dövüşte yapılan tüm saldırıların ortalama zırh delmesi.\n\nBu nitelik kullanılan silahıda içerir.</MeleeArmorPenetration.description>
   
+  <!-- EN: melee cooldown -->
+  <MeleeCooldownFactor.label>yakın dövüş bekleme süresi</MeleeCooldownFactor.label>
+  <!-- EN: A multiplier on the time this creature takes to recover after making a melee attack. -->
+  <MeleeCooldownFactor.description>Bu yaratığın bir yakın dövüş saldırısı yaptıktan sonra iyileşmek için harcadığı süreye bir çarpan.</MeleeCooldownFactor.description>
+  
+  <!-- EN: melee damage factor -->
+  <MeleeDamageFactor.label>yakın dövüş hasar faktörü</MeleeDamageFactor.label>
+  <!-- EN: A multiplier on the amount of melee damage inflicted by this person. -->
+  <MeleeDamageFactor.description>Bu kişinin verdiği yakın dövüş hasarının çarpanı.</MeleeDamageFactor.description>
+  
   <!-- EN: melee dodge chance -->
   <MeleeDodgeChance.label>yakın dövüş sıyrılma şansı</MeleeDodgeChance.label>
   <!-- EN: Chance to dodge a melee attack that would've otherwise hit.\n\nCharacters will not dodge while aiming or firing a ranged weapon. -->
@@ -43,6 +53,11 @@
   <!-- EN: Chance to spring a trap the character is unaware of. -->
   <PawnTrapSpringChance.description>Tuzağın farkında olmayan bir canlının, tuzağın üzerinden geçtiğinde tuzağı tetikleme şansı.</PawnTrapSpringChance.description>
   
+  <!-- EN: ranged cooldown multiplier -->
+  <RangedCooldownFactor.label>menzilli bekleme süresi çarpanı</RangedCooldownFactor.label>
+  <!-- EN: A multiplier on the cooldown between bursts when using a ranged weapon. -->
+  <RangedCooldownFactor.description>Menzilli bir silah kullanırken patlamalar arasındaki bekleme süresinde bir çarpan.</RangedCooldownFactor.description>
+  
   <!-- EN: accuracy factor (long) -->
   <ShootingAccuracyFactor_Long.label>doğruluk faktörü (long)</ShootingAccuracyFactor_Long.label>
   <!-- EN: A multiplier on accuracy at a distance of 40 cells or more. -->
@@ -69,5 +84,10 @@
   <ShootingAccuracyPawn.description>Atış yapılan uzaklıktan hücre başına ıska atmama şansı.\n\nİsabet şansı birçok faktörden etkilenir. Her atışın isabet şansı nişancıyı seçip fareyi hedefe doğrultularak görülebilir.</ShootingAccuracyPawn.description>
   <!-- EN: shooting accuracy (people) -->
   <ShootingAccuracyPawn.labelForFullStatList>atış isabeti (insan)</ShootingAccuracyPawn.labelForFullStatList>
+  
+  <!-- EN: stagger time multiplier -->
+  <StaggerDurationFactor.label>kademeli zaman çarpanı</StaggerDurationFactor.label>
+  <!-- EN: A multiplier on the duration of the stagger-slowdown that occurs when damage is taken. -->
+  <StaggerDurationFactor.description>Hasar alındığında meydana gelen sendeleme-yavaşlama süresinin çarpanı.</StaggerDurationFactor.description>
   
 </LanguageData>

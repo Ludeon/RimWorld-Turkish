@@ -1,6 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: acid burn -->
+  <AcidBurn.label>asit yanığı</AcidBurn.label>
+  <!-- EN: An acid burn. -->
+  <AcidBurn.description>Bir asit yanığı.</AcidBurn.description>
+  <!-- EN: acid burn scar -->
+  <AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>asit yanığı izi</AcidBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Dissolved off -->
+  <AcidBurn.injuryProps.destroyedLabel>Çözünmüş</AcidBurn.injuryProps.destroyedLabel>
+  <!-- EN: an acid burn -->
+  <AcidBurn.labelNoun>bir asit yanığı</AcidBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <AcidBurn.labelNounPretty>({1}) vücut parçasındaki asit yanığı</AcidBurn.labelNounPretty>
+  
   <!-- EN: bite -->
   <Bite.label>ısırık</Bite.label>
   <!-- EN: A bite wound. -->
@@ -34,7 +47,6 @@
   <Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>iyileşmiş</Bruise.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: Destroyed -->
   <Bruise.injuryProps.destroyedLabel>Mahvolmuş</Bruise.injuryProps.destroyedLabel>
-  <Bruise.injuryProps.destroyedOutLabel>Yok edilmiş</Bruise.injuryProps.destroyedOutLabel>
   <!-- EN: a bruise -->
   <Bruise.labelNoun>bir çürük</Bruise.labelNoun>
   <!-- EN: {0} in the {1} -->
@@ -135,6 +147,30 @@
   <!-- EN: {0} in the {1} -->
   <Cut.labelNounPretty>kesilmiş ({1}) vücut parçası</Cut.labelNounPretty>
   
+  <!-- EN: decayed organ -->
+  <Decayed.label>çürümüş organ</Decayed.label>
+  <!-- EN: This organ has completely decayed. -->
+  <Decayed.description>Bu organ tamamen çürümüş.</Decayed.description>
+  <!-- EN: a decayed organ -->
+  <Decayed.labelNoun>çürümüş bir organ</Decayed.labelNoun>
+  <!-- EN: decayed {1} -->
+  <Decayed.labelNounPretty>çürümüş {1}</Decayed.labelNounPretty>
+  
+  <!-- EN: electrical burn -->
+  <ElectricalBurn.label>elektrik yanığı</ElectricalBurn.label>
+  <!-- EN: An electical burn. -->
+  <ElectricalBurn.description>Bir elektrik yanığı.</ElectricalBurn.description>
+  <!-- EN: electrical burn scar -->
+  <ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>elektrik yanığı izi</ElectricalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Burned off -->
+  <ElectricalBurn.injuryProps.destroyedLabel>Yanmış</ElectricalBurn.injuryProps.destroyedLabel>
+  <!-- EN: Burned out -->
+  <ElectricalBurn.injuryProps.destroyedOutLabel>Erimiş</ElectricalBurn.injuryProps.destroyedOutLabel>
+  <!-- EN: an electrical burn -->
+  <ElectricalBurn.labelNoun>bir elektrik yanığı</ElectricalBurn.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <ElectricalBurn.labelNounPretty>({1}) vücut parçasındaki elektrik yanığı</ElectricalBurn.labelNounPretty>
+  
   <!-- EN: cut -->
   <ExecutionCut.label>kesik</ExecutionCut.label>
   <!-- EN: A cut made during execution. -->
@@ -189,9 +225,9 @@
   <!-- EN: {0} in the {1} -->
   <Gunshot.labelNounPretty>({1}) vücut parçasındaki kurşun yarası</Gunshot.labelNounPretty>
   
-  <!-- EN: misc -->
+  <!-- EN: wound -->
   <Misc.label>çeşitli</Misc.label>
-  <!-- EN: Miscellanous injuries. -->
+  <!-- EN: Miscellaneous injuries. -->
   <Misc.description>Çeşitli yaralanmalar.</Misc.description>
   <!-- EN: set -->
   <Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>tedavi edilmiş</Misc.comps.HediffComp_TendDuration.labelSolidTendedWell>
@@ -292,8 +328,6 @@
   <SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>dikişli</SurgicalCut.comps.HediffComp_TendDuration.labelTendedWellInner>
   <!-- EN: surgical scar -->
   <SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>ameliyat izi</SurgicalCut.comps.HediffComp_GetsPermanent.permanentLabel>
-  <SurgicalCut.injuryProps.destroyedLabel>Yarılmış</SurgicalCut.injuryProps.destroyedLabel>
-  <SurgicalCut.injuryProps.destroyedOutLabel>Kesilmiş</SurgicalCut.injuryProps.destroyedOutLabel>
   <!-- EN: a surgical cut -->
   <SurgicalCut.labelNoun>bir cerrahi kesik</SurgicalCut.labelNoun>
   <!-- EN: {0} in the {1} -->
