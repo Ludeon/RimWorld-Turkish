@@ -196,7 +196,7 @@
   <!-- EN: first name -->
   <FirstName>ilk isim</FirstName>
   <!-- EN: nickname -->
-  <NickName>nickname</NickName>
+  <NickName>takma isim</NickName>
   <!-- EN: last name -->
   <LastName>soyad</LastName>
   <!-- EN: suggested -->
@@ -309,7 +309,7 @@
   <!-- EN: Minimum skills: -->
   <MinimumSkills>Minimum beceri:</MinimumSkills>
   <!-- EN: Requires -->
-  <BillRequires>{0} {1} gerektirir</BillRequires>
+  <BillRequires>Gerektirir:</BillRequires>
   <!-- EN: nutrition -->
   <BillNutrition>beslenme</BillNutrition>
   <!-- EN: Note: Small-volume ingredients like gold require {0}x as much. -->
@@ -319,14 +319,14 @@
   <!-- EN: ingredients -->
   <UsableIngredients>malzemeler</UsableIngredients>
   <!-- EN: To {0} -->
-  <BillRepeatTargetCountShort>{0} 'a kadar</BillRepeatTargetCountShort>
+  <BillRepeatTargetCountShort>{0}'a kadar</BillRepeatTargetCountShort>
 
   <!-- EN: Pause when satisfied -->
   <PauseWhenSatisfied>Koşul karşılandığında duraklat</PauseWhenSatisfied>
   <!-- EN: Unpause at -->
   <UnpauseWhenYouHave>Duraklatmayı iptal et</UnpauseWhenYouHave>
   <!-- EN: paused -->
-  <Paused>Duraklatıldı</Paused>
+  <Paused>duraklatıldı</Paused>
   <!-- EN: Unpause -->
   <Unpause>Devam ettir</Unpause>
 
@@ -733,7 +733,7 @@
   <!-- EN: Items -->
   <ItemsTab>Eşyalar</ItemsTab>
   <!-- EN: Travel supplies -->
-  <TravelSupplies>Seyehat erzakalrı</TravelSupplies>
+  <TravelSupplies>Seyahat erzakları</TravelSupplies>
   <!-- EN: You must assign at least one non-downed colonist. -->
   <CaravanMustHaveAtLeastOneColonist>En az bir adet sağlıklı kolonist atamalısın.</CaravanMustHaveAtLeastOneColonist>
   <!-- EN: The chosen exit location ({0}) is inaccessible. -->
@@ -1147,7 +1147,7 @@
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
-  <ConfirmCleanupTranslationFiles>{0} dili için tüm çeviri dosyalarını temizlemek istediğinden emin misin?\n\nBu olacak:\n - Eksik keyed çevirileri, def-injected çeviriler ve yedeklemeler için yer tutucular ekle\n - Orijinal çevrilmemiş metinleri güncelle ve ekleme yap\n - Anahtarlı ve def-enjekte edilmiş tüm çevirileri uygun XML dosyalarına taşı\n - Tüm XML dosyalarına otomatik biçimlendirme uygula\n - Geri uyumlu def adlarını güncelle\n - Varolan tüm XML yorumlarını kaldır (liste enjeksiyonları dahil tüm liste)\n\nXML olmayan dosyalar kaldırılmaz veya değiştirilmez.\n\nTüm verileri yeniden yüklemek için bu aracı çalıştırmadan önce dil dosyalarını değiştirip sonra oyunu yeniden başlatmayı unutma.\n\nBu aracı kullanmadan önce tüm çevirileri yedeklediğinden emin ol.</ConfirmCleanupTranslationFiles>
+  <ConfirmCleanupTranslationFiles>{0} dili için tüm çeviri dosyalarını temizleyip yenilemek istediğinden emin misin?\n\nBunlar olacak:\n - Eksik keyed, def-injected ve backstory çevirileri için yer tutucular eklenecek\n - Orijinal çevrilmemiş metinler güncellenecek ve ekleme yapılacak\n - Keyed ve def-injected tüm çeviriler uygun XML dosyalarına taşınacak\n - Tüm XML dosyalarına otomatik biçimlendirme uygulanacak\n - Geri uyumlu def adları güncellenecek\n - Var olan tüm XML yorum satırları kaldırılacak (liste enjeksiyonları dahil tüm liste)\n\nXML olmayan dosyalar kaldırılmaz veya değiştirilmez.\n\nTüm verileri yeniden yüklemek için bu aracı çalıştırmadan önce dil dosyalarını değiştirip sonra oyunu yeniden başlatmayı unutma.\n\nBu aracı kullanmadan önce tüm çevirileri yedeklediğinden emin ol.</ConfirmCleanupTranslationFiles>
   <!-- EN: Yes, I have a backup -->
   <ConfirmCleanupTranslationFiles_Confirm>Evet, bir yedeğim var</ConfirmCleanupTranslationFiles_Confirm>
 
@@ -1419,8 +1419,5 @@
   <MapSearchResultSingular>1 sonuç bulundu</MapSearchResultSingular>
   <!-- EN: Searching -->
   <Searching>Aranıyor</Searching>
-
-  <!-- UNUSED -->
-  <MedGroupColonist>Kolonistler</MedGroupColonist>
 
 </LanguageData>
