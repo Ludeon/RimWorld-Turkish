@@ -64,9 +64,9 @@
   <!-- EN: Retune -->
   <BandNodeRetuneTo>yeniden ayarla</BandNodeRetuneTo>
   <!-- EN: Tune this band node to a mechanitor. Tuning will take {0} to complete. -->
-  <BandNodeTuningDesc>Bu bant düğümüne bir makinatörü ayarlayın. Ayarlamanın tamamlanması {0} alacaktır.</BandNodeTuningDesc>
+  <BandNodeTuningDesc>Bu bant düğümüne bir makinetörü ayarlayın. Ayarlamanın tamamlanması {0} alacaktır.</BandNodeTuningDesc>
   <!-- EN: Retune this band node to another mechanitor. Retuning will take {0} to complete. -->
-  <BandNodeRetuningDesc>Bu bant düğümünü başka bir makinatörü yeniden ayarlayın. Yeniden ayarlamanın tamamlanması {0} alacaktır.</BandNodeRetuningDesc>
+  <BandNodeRetuningDesc>Bu bant düğümünü başka bir makinetörü yeniden ayarlayın. Yeniden ayarlamanın tamamlanması {0} alacaktır.</BandNodeRetuningDesc>
   <!-- EN: Removing {0} will change {1_labelShort}'s bandwidth from {2} to {3}. This will mean the following mechs will no longer be under control -->
   <DropThingBandwidthApparel>{0}'in kaldırılması, {1_labelShort}'un {2} olan bant genişliğini {3} olarak değiştirecek. Bu, aşağıdaki makinelerin artık kontrol altında olmayacağı anlamına gelecek</DropThingBandwidthApparel>
   <!-- EN: no mechs -->
@@ -190,7 +190,7 @@
   <!-- EN: Time active this deathrest -->
   <TimeActiveThisDeathrest>Bu ölüm uykusunda zaman aktif</TimeActiveThisDeathrest>
   <!-- EN: Minimum is {0} to apply -->
-  <MinimumNeededToApply>Uygulamak için minimum {0}</MinimumNeededToApply>
+  <MinimumNeededToApply>Uygulamak için asgari {0}</MinimumNeededToApply>
   <!-- EN: Cannot deathrest -->
   <CannotAssignBedCannotDeathrest>Ölüm uykusuna dalamaz</CannotAssignBedCannotDeathrest>
   <!-- EN: Already bound to {0_nameDef} -->
@@ -292,7 +292,7 @@
   <!-- EN: How much complexity this adds to the process of gene assembly. -->
   <ComplexityDesc>Bunun gen toplama sürecine ne kadar komplekslik kattığı.</ComplexityDesc>
   <!-- EN: Maximum complexity can be increased by building gene processors near the gene assembler. -->
-  <MaxComplexityDesc>Gen birleştiricinin yanına gen işlemcileri kurularak maksimum komplekslik artırılabilir.</MaxComplexityDesc>
+  <MaxComplexityDesc>Gen birleştiricinin yanına gen işlemcileri kurularak azami komplekslik artırılabilir.</MaxComplexityDesc>
   <!-- EN: Total complexity -->
   <ComplexityTotal>toplam komplekslik</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
@@ -324,7 +324,7 @@
   <!-- EN: Allow all genepacks -->
   <AllowAllGenepacks>Tüm gen paketlerine izin ver</AllowAllGenepacks> 
   <!-- EN: Whether or not colonists are allowed to automatically store any genepack into this container. Turn this off if you want to specify which specific genepacks should be stored here. -->
-  <AllowAllGenepacksDesc>Kolonistlerin herhangi bir gen paketini bu kapta otomatik olarak saklamasına izin verilip verilmediği. Burada hangi spesifik gen paketlerinin saklanması gerektiğini belirtmek istiyorsanız bunu kapatın.</AllowAllGenepacksDesc> 
+  <AllowAllGenepacksDesc>kolonicilerin herhangi bir gen paketini bu kapta otomatik olarak saklamasına izin verilip verilmediği. Burada hangi spesifik gen paketlerinin saklanması gerektiğini belirtmek istiyorsanız bunu kapatın.</AllowAllGenepacksDesc> 
   <!-- EN: The genepacks currently inside this container. -->
   <ContainedGenepacksDesc>Şu anda bu konteynerin içindeki gen paketleri.</ContainedGenepacksDesc> 
   <!-- EN: The genepacks designated to be loaded into this container. -->
@@ -420,13 +420,13 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>zenogerm</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece ölüm uykusuna devam edecek.</PawnWillKeepDeathrestingLethalInjuries>
+  <PawnWillKeepDeathrestingLethâlinjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece ölüm uykusuna devam edecek.</PawnWillKeepDeathrestingLethâlinjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece komada kalacak.</PawnWillKeepRegeneratingLethalInjuries>
+  <PawnWillKeepRegeneratingLethâlinjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece komada kalacak.</PawnWillKeepRegeneratingLethâlinjuries>
   <!-- EN: Deathrest stopped -->
   <DeathrestPaused>ölüm uykusu durdu</DeathrestPaused>
   <!-- EN: Lethal injuries -->
-  <LethalInjuries>ölümcül yaralanmalar</LethalInjuries>
+  <Lethâlinjuries>ölümcül yaralanmalar</Lethâlinjuries>
   <!-- EN: deathrest -->
   <Deathrest>ölüm uykusu</Deathrest>
   <!-- EN: Buildings -->
@@ -506,7 +506,7 @@
   <!-- EN: Click to set the desired autofill amount. -->
   <MechCarrierClickToSetAutofillAmount>İstenen otomatik doldurma miktarını ayarlamak için tıklayın.</MechCarrierClickToSetAutofillAmount>
   <!-- EN: This autofill amount determines the maximum amount of resources your colonists will automatically place in this {0}. Resources can be used to create {1}. -->
-  <MechCarrierAutofillDesc>Bu otomatik doldurma miktarı, kolonistlerinizin bu {0}'e otomatik olarak yerleştireceği maksimum kaynak miktarını belirler. Kaynaklar, {1} oluşturmak için kullanılabilir.</MechCarrierAutofillDesc>
+  <MechCarrierAutofillDesc>Bu otomatik doldurma miktarı, kolonicilerinizin bu {0}'e otomatik olarak yerleştireceği azami kaynak miktarını belirler. Kaynaklar, {1} oluşturmak için kullanılabilir.</MechCarrierAutofillDesc>
 
   <!-- Mech power cell -->
   <!-- EN: Power cell -->
@@ -602,11 +602,11 @@
   <!-- EN: Produces -->
   <SubcoreScannerProduces>üretim</SubcoreScannerProduces>
   <!-- EN: Once the {0} is filled with the required ingredients, {1}, select a colonist and right-click on the {0} or on a downed person to start the scanner. -->
-  <SubcoreScannerStartDesc>{0}, {1} gerekli bileşenlerle dolduğunda, bir kolonist seçin ve tarayıcıyı başlatmak için {0} üzerine veya yere düşen bir kişiye sağ tıklayın.</SubcoreScannerStartDesc>
+  <SubcoreScannerStartDesc>{0}, {1} gerekli bileşenlerle dolduğunda, bir kolonici seçin ve tarayıcıyı başlatmak için {0} üzerine veya yere düşen bir kişiye sağ tıklayın.</SubcoreScannerStartDesc>
   <!-- EN: Completes in -->
   <SubcoreScannerCompletesIn>içinde tamamlar in</SubcoreScannerCompletesIn>
   <!-- EN: Waiting for occupant -->
-  <SubcoreScannerWaitingForOccupant>mahkumlar için bekliyor</SubcoreScannerWaitingForOccupant>
+  <SubcoreScannerWaitingForOccupant>mahkûmlar için bekliyor</SubcoreScannerWaitingForOccupant>
   <!-- EN: Waiting for ingredients -->
   <SubcoreScannerWaitingForIngredients>Malzemeler için bekliyorum</SubcoreScannerWaitingForIngredients>
   <!-- EN: The following ingredients must be loaded first -->
@@ -642,7 +642,7 @@
   <!-- EN: Xenogerm implantation -->
   <Reward_ReimplantXenogerm_Label>zenogerm implantasyonu</Reward_ReimplantXenogerm_Label>
   <!-- EN: One member of the group will reimplant their xenogerm into a colonist of your choice, thus turning your colonist into one of them. Your colonist will remain part of your faction and under your control. -->
-  <Reward_ReimplantXenogerm_Desc>Grubun bir üyesi kendi zenogermlerini seçtiğiniz bir koloniste yeniden yerleştirecek ve böylece kolonistinizi onlardan biri haline getirecektir. Kolonistiniz, hizipinizin bir parçası ve kontrolünüz altında kalacak.</Reward_ReimplantXenogerm_Desc>
+  <Reward_ReimplantXenogerm_Desc>Grubun bir üyesi kendi zenogermlerini seçtiğiniz bir kolonicie yeniden yerleştirecek ve böylece koloniciinizi onlardan biri hâline getirecektir. koloniciiniz, hizipinizin bir parçası ve kontrolünüz altında kalacak.</Reward_ReimplantXenogerm_Desc>
 
   <!-- Mech resurrection -->
   <!-- EN: Mech resurrection charges -->

@@ -71,7 +71,7 @@
     <li>lodgersDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>joinerEnding(priority=1)-></li>
-    <li>joinerEnding->[lodgersDef]'i kendi kolonistlerinizi yönettiğiniz gibi yönetebileceksiniz.[specialNeedsExplanation]</li>
+    <li>joinerEnding->[lodgersDef]'i kendi kolonicilerinizi yönettiğiniz gibi yönetebileceksiniz.[specialNeedsExplanation]</li>
     <li>specialNeedsExplanation(asker_royalInCurrentFaction==True,priority=1)-> [lodgersLabelPlural]'ın sahip olabileceği özel kraliyet ihtiyaçlarını karşılamanız gerekecek.</li>
     <li>specialNeedsExplanation-></li>
     <li>theirHisHer(lodgersCount==1)->onun</li>
@@ -82,7 +82,7 @@
     <li>lodgersWasWere(lodgersCount>=2)-></li>
     <li>appreciateAppreciates(lodgersCount==1)->takdir eden</li>
     <li>appreciateAppreciates(lodgersCount>=2)->takdir edenler</li>
-    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] kaliteli bir şekilde ağırlamalısınız. Ortalama ruh halini %50'nin üzerinde tutarsanız [asker_faction_name] ile iyi niyet kazanırsınız.</li>
+    <li>goodwillForMood(goodwillRewardForMood==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] [appreciateAppreciates] kaliteli bir şekilde ağırlamalısınız. Ortalama ruh hâlini %50'nin üzerinde tutarsanız [asker_faction_name] ile iyi niyet kazanırsınız.</li>
     <li>goodwillForMood-></li>
     <li>questDescription(askerIsNull==true,lodgersCount==1)->[lodgers0_nameFull] adlı bir [lodgers0_title], [shuttleDelayTicks_duration] için [map_definite]'de onu korumanızı istiyor. [allLodgerInfo][threatsInfo1][commonDescEnding]\n\n[joinerEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef] kısa süre önce [wrongAct] yakalandı. İntikam almak isteyen [enemyFaction_pawnsPlural], sizinle olduğu sürece onun için gelecek. [enemyGroupsParagraph]</li>
@@ -106,7 +106,7 @@
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==false,priority=1)->[asker_faction_name] üyesi [asker_nameFull] [asker_faction_leaderTitle], kısa süre önce [asker_faction_pawnsPlural] [lodgersCount] 'ı bir düşman hapishanesinden kurtardı. Onları [shuttleDelayTicks_duration] içinde almak için bir mekik gönderene kadar onları [map_definite]'de korumanızı istiyor. [allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid,priority=1)->[asker_faction_name] üyesi [asker_nameFull] [asker_faction_leaderTitle], kısa süre önce  [asker_faction_pawnsPlural] [lodgersCount]'ı [enemyFaction_name] hapishanesinden kurtardı. [asker_nameDef], onları almak için bir mekik gönderene kadar [shuttleDelayTicks_duration] boyunca [map_definite]'de korumanızı istiyor. [asker_faction_pawnsPlural], [enemyFaction_name]'nin [secretInfo] hakkındaki sırları bilir, bu yüzden avlanır.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==Raids,enemyFaction==Mechanoid,priority=1)->[asker_faction_name] üyesi [asker_nameFull] [asker_faction_leaderTitle], kısa süre önce  [asker_faction_pawnsPlural] [lodgersCount]'ı bir kripto uyku kapsülünden kurtardı. [asker_nameDef], onları almak için bir mekik gönderene kadar [shuttleDelayTicks_duration] boyunca [map_definite]'de korumanızı istiyor. [asker_faction_pawnsPlural], mekanoidler tarafından kovalanacak.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==MechClusters,priority=1)->[asker_faction_name]'den [asker_nameFull] [asker_faction_leaderTitle], kısa süre önce  [asker_faction_pawnsPlural] [lodgersCount]'ı mekanik bir kovanın içinden kurtardı. [asker_nameDef], onları almak için bir mekik gönderene kadar [shuttleDelayTicks_duration] boyunca [map_definite]'de korumanızı istiyor. Mekanoidler eski mahkumlarını takip ediyor.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,generateThreats==true,threatType==MechClusters,priority=1)->[asker_faction_name]'den [asker_nameFull] [asker_faction_leaderTitle], kısa süre önce  [asker_faction_pawnsPlural] [lodgersCount]'ı mekanik bir kovanın içinden kurtardı. [asker_nameDef], onları almak için bir mekik gönderene kadar [shuttleDelayTicks_duration] boyunca [map_definite]'de korumanızı istiyor. Mekanoidler eski mahkûmlarını takip ediyor.\n\n[threatDescriptionParagraph][allLodgerInfo][goodwillForMood][commonDescEnding]\n\n[joinerEnding]</li>
     <li>secretInfo->askeri yetenekleri</li>
     <li>secretInfo->ahlaki ihlalleri</li>
     <li>secretInfo->silah araştırması</li>

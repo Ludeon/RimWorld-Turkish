@@ -25,11 +25,11 @@
     <li>disease->sıtma</li>
     <li>disease->enfeksiyon</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun [asker_royalTitleInCurrentFaction] olan [asker_nameFull]'nin [dutyRoyalDescription] için insanlara ihtiyacı var.\n\n. Sizden kendisine [lendForDays] gün boyunca hizmet etmesi için [colonistCountToLend]  ödünç vermenizi istiyor.\n\n[willSendShuttle]</li>
-    <li>colonistCountToLend(colonistsToLendCount==1)->[minAgeOrOlder] 1 kolonist</li>
-    <li>colonistCountToLend(colonistsToLendCount>1)->[minAgeOrOlder] [colonistsToLendCount] kolonistler</li>
+    <li>colonistCountToLend(colonistsToLendCount==1)->[minAgeOrOlder] 1 kolonici</li>
+    <li>colonistCountToLend(colonistsToLendCount>1)->[minAgeOrOlder] [colonistsToLendCount] koloniciler</li>
     <li>willSendShuttle->[colonists]'i alması için bir mekik gönderecek.</li>
-    <li>colonists(colonistsToLendCount==1)->kolonist</li>
-    <li>colonists(colonistsToLendCount>1)->kolonistler</li>
+    <li>colonists(colonistsToLendCount==1)->kolonici</li>
+    <li>colonists(colonistsToLendCount>1)->koloniciler</li>
     <li>minAgeOrOlder(minAge==0)-></li>
     <li>minAgeOrOlder(minAge>0)-> [minAge] yaşında veya daha büyük</li>
   </PawnLend.questDescriptionRules.rulesStrings>
@@ -54,7 +54,7 @@
     <li>questName->[asker_faction_name] için [worker]</li>
     <li>questName->duruma bağlı [worker]</li>
     <li>questName->[worker] talebi</li>
-    <li>worker->Kolonist</li>
+    <li>worker->kolonici</li>
     <li>worker->İşçi</li>
     <li>worker->amele</li>
     <li>worker->yardımcı</li>
@@ -88,13 +88,13 @@
   <!-- EN: Shuttle arrived -->
   <PawnLend.LetterLabelShuttleArrived.slateRef>mekik geldi</PawnLend.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect [colonistsToLendCount] of your colonists. -->
-  <PawnLend.LetterTextShuttleArrived.slateRef>Mekik, kolonistlerinizden [colonistsToLendCount] almak için geldi.</PawnLend.LetterTextShuttleArrived.slateRef>
+  <PawnLend.LetterTextShuttleArrived.slateRef>Mekik, kolonicilerinizden [colonistsToLendCount] almak için geldi.</PawnLend.LetterTextShuttleArrived.slateRef>
   <!-- EN: Shuttle destroyed -->
   <PawnLend.LetterLabelShuttleDestroyed.slateRef>Mekik imha edildi</PawnLend.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect colonists has been destroyed. -->
-  <PawnLend.LetterTextShuttleDestroyed.slateRef>Kolonistlerinizi alması gereken mekik imha edildi.</PawnLend.LetterTextShuttleDestroyed.slateRef>
+  <PawnLend.LetterTextShuttleDestroyed.slateRef>kolonicilerinizi alması gereken mekik imha edildi.</PawnLend.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Colonists returned -->
-  <PawnLend.LetterLabelColonistsReturned.slateRef>kolonistler geri döndü</PawnLend.LetterLabelColonistsReturned.slateRef>
+  <PawnLend.LetterLabelColonistsReturned.slateRef>koloniciler geri döndü</PawnLend.LetterLabelColonistsReturned.slateRef>
   <!-- EN: $returnLetterText -->
   <PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>$returnLetterText</PawnLend.root.nodes.ColonistsReturned.node.nodes.Letter.text.slateRef>
   

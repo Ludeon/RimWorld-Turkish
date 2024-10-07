@@ -13,7 +13,7 @@
   -->
   <Beggars.questContentRules.rulesStrings>
     <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] ihanete uğramış</li>
-    <li>letterTextBeggarsBetrayed->İhsan edeninizi arayan [groupLabelSingleOrPlural] ihanete uğradı. Hayırsever inançlara sahip kolonistler mutsuz olacak.</li>
+    <li>letterTextBeggarsBetrayed->İhsan edeninizi arayan [groupLabelSingleOrPlural] ihanete uğradı. Hayırsever inançlara sahip koloniciler mutsuz olacak.</li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->gezgin</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->gezginler</li>
   </Beggars.questContentRules.rulesStrings>
@@ -67,7 +67,7 @@
     <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] herhangi bir fraksiyonun parçası değil. Dilerseniz diplomatik sonuçlar olmadan onu öldürmeyi, tutuklamayı, satmayı veya hasat etmeyi seçebilirsiniz.</li>
     <li>approachInfo(beggarCount==1)->[beggars0_nameDef] adlı fakir bir [groupLabelSingle] yardım aramak için yaklaşıyor</li>
     <li>approachInfo(beggarCount>=2)->Bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
-    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Bir çocuğun da dahil olduğu bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Bir çocuğun da dâhil olduğu bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
     <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Aralarında bazı çocukların da bulunduğu bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] [beggingForInfo] yalvarıyor</li>
     <li>requestInfo(beggarCount>=2)->[groupLabelPlural] [beggingForInfo] yalvarıyor</li>
@@ -86,8 +86,8 @@
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ev diyebilecekleri yeni bir yer ararken güvenli bir şekilde seyahat edebilmeleri için [requestedThing_label] istiyorlar</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Korkunç bir saldırıda evlerini kaybettikten sonra üzüntülerini boğmalarına yardım etmek için [requestedThing_label] istiyorlar</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Bir kaçış düzenlemeden önce köle tacirlerini sarhoş ederek arkadaşlarını köle tacirlerinden kurtarmak için [requestedThing_label]'i kullanmayı umuyorlar.</li>
-    <li>interactionInfo(beggarCount==1)->Bir kolonist seçip sağ tıklayarak [beggars0_nameDef]'e eşya verebilirsiniz.</li>
-    <li>interactionInfo(beggarCount>=2)->Bir kolonist seçip [beggars0_nameDef]'e sağ tıklayarak [groupLabelPlural]'ye eşya verebilirsiniz.</li>
+    <li>interactionInfo(beggarCount==1)->Bir kolonici seçip sağ tıklayarak [beggars0_nameDef]'e eşya verebilirsiniz.</li>
+    <li>interactionInfo(beggarCount>=2)->Bir kolonici seçip [beggars0_nameDef]'e sağ tıklayarak [groupLabelPlural]'ye eşya verebilirsiniz.</li>
     <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef], [visitDurationTicks_duration]'dan sonra gidecek</li>
     <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural], [visitDurationTicks_duration]'dan sonra  gidecek</li>
   </Beggars.questDescriptionRules.rulesStrings>

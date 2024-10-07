@@ -89,8 +89,8 @@
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->bir (*Threat)insanavcısı [animalKind_label](/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->(*Threat)[animalCount] insanavcısı [animalKind_labelPlural](/Threat) yığını</li>
+    <li>manhuntingBeastIndef(animalCount==1)->bir (*Threat)insan avcısı [animalKind_label](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->(*Threat)[animalCount] insan avcısı [animalKind_labelPlural](/Threat) yığını</li>
     <li>endSection->[animalKindLabelCorrect] [helpersParagraph], siz kabul ettikten sonra [map_definite]'ye [manhuntersDelayTicks_duration]'da ulaşacaktır.</li>
     <li>questDescription(askerIsNull==true,animalCount==1)->Bir tüccar arıyor. (*Threat) Vahşi bir [animalKind_label](/Threat) onu avlıyor! Canavarı ondan uzaklaştırmak için yardımını istiyor.[endSection]</li>
     <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] yakındaki bir tüccarı avlamak için arıyor.</li>

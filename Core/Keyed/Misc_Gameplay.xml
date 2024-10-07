@@ -11,11 +11,11 @@
   <!-- EN: Contained resources -->
   <ContainedResources>İçerdiği kaynaklar</ContainedResources>
   <!-- EN: For prisoner use -->
-  <ForPrisonerUse>Mahkumlar için</ForPrisonerUse>
+  <ForPrisonerUse>mahkûmlar için</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>Hapishane hücresindeki mahkumlar için</InPrisonCell>
+  <InPrisonCell>Hapishane hücresindeki mahkûmlar için</InPrisonCell>
   <!-- EN: For colonist use -->
-  <ForColonistUse>Kolonistler için</ForColonistUse>
+  <ForColonistUse>koloniciler için</ForColonistUse>
   <!-- EN: Medical -->
   <MedicalBed>Hastane yatağı</MedicalBed>
   <!-- EN: Owner -->
@@ -23,7 +23,7 @@
   <!-- EN: Owners -->
   <Owners>Sahipleri</Owners>
   <!-- EN: Assigned colonist -->
-  <AssignedColonist>Atanan kolonist</AssignedColonist>
+  <AssignedColonist>Atanan kolonici</AssignedColonist>
   <!-- EN: Uncomfortable room temperature -->
   <BedUncomfortableTemperature>Rahatsız oda sıcaklığı</BedUncomfortableTemperature>
   <!-- EN: Unsafe room temperature -->
@@ -103,13 +103,13 @@
   <!-- EN: Rename animal -->
   <RenameAnimal>Hayvanı yeniden isimlendir</RenameAnimal>
   <!-- EN: Rename colonist -->
-  <RenameColonist>Kolonisti yeniden isimlendir</RenameColonist>
+  <RenameColonist>kolonicii yeniden isimlendir</RenameColonist>
   <!-- EN: Renounce title -->
   <RenounceTitle>Unvandan vazgeç</RenounceTitle>
   <!-- EN: Execute -->
   <Execute>İnfaz et</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Suçlu kolonisti idam edin\n\nBunu açarsanız, bir gardiyan bu kişiyi idam etmeye devam edecek.</ExecuteColonist>
+  <ExecuteColonist>Suçlu kolonicii idam edin\n\nBunu açarsanız, bir gardiyan bu kişiyi idam etmeye devam edecek.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
   <MessageColonistMarkedForExecution>{0_labelShort} artık idam edilmek üzere işaretlendi. Bir sonraki müsait gardiyan {0_objective} idamı yürütecek.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
@@ -173,7 +173,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarlayın</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarlayın\nMaksimum mesafe: {1} birim</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarlayın\nazami mesafe: {1} birim</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Hedef yakıt seviyesi: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -217,9 +217,9 @@
   <!-- EN: {0} animals -->
   <CaravanAnimalsCount>{0} hayvanlar</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>1 mahkum</CaravanPrisoner>
+  <CaravanPrisoner>1 mahkûm</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{0} mahkumlar</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{0} mahkûmlar</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
   <CaravanPawnsInMentalState>{0} zihinsel çöküşte</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
@@ -297,7 +297,7 @@
   <!-- EN: loading in progress -->
   <TransportPodInGroupHasSomethingLeftToLoad>gereken yükleniyor</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
-  <TransportPodDestinationBeyondMaximumRange>Maksimum aralığın ötesinde</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodDestinationBeyondMaximumRange>azami aralığın ötesinde</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Yeterli yakıt yok</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -347,7 +347,7 @@
   <!-- EN: {0} of {1} -->
   <Relationship>{0}/{1}</Relationship>
   <!-- EN: Prisoner -->
-  <Prisoner>Mahkum</Prisoner>
+  <Prisoner>mahkûm</Prisoner>
   <!-- EN: Refugee -->
   <Refugee>Mülteci</Refugee>
   <!-- EN: Terrain movement difficulty -->
@@ -399,7 +399,7 @@
   <!-- EN: {0} trainability -->
   <CreatureTrainability>{0} eğitilebilirlik</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>Taslak hazırlanırken ustayı takip et</CreatureFollowDrafted>
+  <CreatureFollowDrafted>Terbiyeci çatışma modundayken onu takip et</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
   <CreatureFollowFieldwork>Saha çalışması yaparken ustayı takip edin</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
@@ -447,13 +447,13 @@
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
   <GiveGiftViaTransportPodsTradeRequestWarning>Uyarı: Taşıma bölmelerini kullanarak ticaret isteklerini tamamlayamazsınız.\nMalları gönderirseniz, yerleşim onları hediye olarak kabul eder, ancak sizi ödüllendirmezler.\n\nTicaret için yerleşime kervanla yaklaşın!\n\nYüklenen malları fraksiyona hediye etmek istediğinizden emin misiniz?</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
-  <PrisonerLower>mahkum</PrisonerLower>
+  <PrisonerLower>mahkûm</PrisonerLower>
   <!-- EN: prisoners -->
-  <PrisonersLower>mahkumlar</PrisonersLower>
+  <PrisonersLower>mahkûmlar</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
   <ClickToViewInQuestsTab>Bu görevi, görevler sekmesinde görüntülemek için tıklayın</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
-  <Mood>Ruh hali</Mood>
+  <Mood>Ruh hâli</Mood>
   <!-- EN: Quest -->
   <Quest>Görev</Quest>
   <!-- EN: Brings raids every {0} -->
@@ -669,7 +669,7 @@
   <!-- EN: level {0} -->
   <TextMote_SkillUp>seviye {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
-  <lowMood>düşük ruh hali</lowMood>
+  <lowMood>düşük ruh hâli</lowMood>
   <!-- EN: low opinion -->
   <lowOpinion>düşük görüş</lowOpinion>
 
@@ -695,7 +695,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>Daralt</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>Maksimum {0} alana izin verildi.</MaxAreasReached>
+  <MaxAreasReached>azami {0} alana izin verildi.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -713,9 +713,9 @@
   <!-- EN: Animal pens can be created by building a pen marker inside an enclosed area. Your handlers will bring animals to an appropriate pen. Pens can be enclosed with fences, barricades, walls, and doors. -->
   <UnpennedTooltip>Hayvan ahırları, kapalı bir alana bir ahır işaretçisi yerleştirilerek oluşturulabilir. Bakıcılarınız hayvanları uygun bir ahıra getirecektir. Ahırlar çitler, barikatlar, duvarlar ve kapılarla kapatılabilir.</UnpennedTooltip>
   <!-- EN: Roped by -->
-  <RopedByPawn>Tarafından halatlandı</RopedByPawn>
+  <RopedByPawn>Tarafından hâlâtlandı</RopedByPawn>
   <!-- EN: Roped to -->
-  <RopedToThing>Halatla götürülüyor</RopedToThing>
+  <RopedToThing>hâlâtla götürülüyor</RopedToThing>
   <!-- EN: Roped to spot. -->
   <RopedToSpot>Yere bağlandı</RopedToSpot>
   <!-- EN: Pen size -->
@@ -779,7 +779,7 @@
   <!-- EN: Relationship -->
   <Relationship_Label>İlişki</Relationship_Label>
   <!-- EN: Colonists -->
-  <CaravanColonists_Label>Kolonistler</CaravanColonists_Label>
+  <CaravanColonists_Label>koloniciler</CaravanColonists_Label>
   <!-- EN: Status -->
   <CaravanStatus_Label>Statü</CaravanStatus_Label>
   <!-- EN: Time to destination -->
@@ -794,7 +794,7 @@
   <!-- EN: incapable of violence -->
   <IsIncapableOfViolenceShort>şiddet uygulamaktan aciz</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_labelShort} görevlendirilmemiş.</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} çatışma modunda değil.</IsNotDrafted>
   <!-- EN: {PAWN_nameDef} cannot use ranged weapons due to {PAWN_possessive} {APPAREL_label}. -->
   <ApparelPreventsShooting>{PAWN_nameDef}, {PAWN_possessive} {APPAREL_label} nedeniyle menzilli silahları kullanamaz.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
@@ -818,7 +818,7 @@
   <!-- EN: Installed -->
   <GunInstalled>Kurulmuş</GunInstalled>
   <!-- EN: Minimum range -->
-  <MinimumRange>En az mesafe</MinimumRange>
+  <MinimumRange>Asgari mesafe</MinimumRange>
   <!-- EN: Can fire in -->
   <CanFireIn>Ateş edebilir</CanFireIn>
   <!-- EN: Cannot fire -->
@@ -834,9 +834,9 @@
   <!-- EN: Order activation -->
   <OrderActivation>Diğer etkinleştirmeler</OrderActivation>
   <!-- EN: Order a colonist to activate {THING_definite}. -->
-  <OrderActivationDesc>{THING_definite} özelliğini etkinleştirmek için bir kolonist seçin.</OrderActivationDesc>
+  <OrderActivationDesc>{THING_definite} özelliğini etkinleştirmek için bir kolonici seçin.</OrderActivationDesc>
   <!-- EN: Send a colonist to activate this. -->
-  <MustBeActivatedByColonist>Bir kolonist tarafından etkinleştirilmelidir.</MustBeActivatedByColonist>
+  <MustBeActivatedByColonist>Bir kolonici tarafından etkinleştirilmelidir.</MustBeActivatedByColonist>
   <!-- EN: No nearby fire -->
   <NoNearbyFire>Yakınlarda ateş yok</NoNearbyFire>
   <!-- EN: No nearby fire. No fuel was used. -->
@@ -1026,7 +1026,7 @@
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>Bu kişinin çekilmediği zaman yakındaki düşmanlara nasıl tepki vereceğini değiştirin.</HostilityReponseTip>
+  <HostilityReponseTip>Bu kişinin çatışma modunda olmadığı zaman yakındaki düşmanlara nasıl tepki vereceğini değiştirin.</HostilityReponseTip>
   <!-- EN: Current mode -->
   <HostilityResponseCurrentMode>Geçerli mod</HostilityResponseCurrentMode>
 
@@ -1162,11 +1162,11 @@
   <!-- EN: Growing zone -->
   <GrowingZone>Tarım alanı</GrowingZone>
   <!-- EN: Stockpile zone -->
-  <Stockpile>Depo alanı</Stockpile>
+  <Stockpile>Depolama alanı</Stockpile>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Çöplük alanı</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
-  <CorpseStockpile>Ceset depo alanı</CorpseStockpile>
+  <CorpseStockpile>Ceset depolama alanı</CorpseStockpile>
   <!-- EN: Priority -->
   <Priority>Öncelikli</Priority>
   <!-- EN: Clear all -->
@@ -1212,9 +1212,9 @@
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Odanın durumunu gösterir.\n\nFarenin işaret ettiği yere odanın istatistiklerini görüntüler.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>Kolonist barını aç/kapa.\n\nYukardaki kolonistlerin simgelerini açar veya kapar.</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>kolonici barını aç/kapa.\n\nYukardaki kolonicilerin simgelerini açar veya kapar.</ShowColonistBarToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
-  <ShowColonistBarToggleButtonController>Kolonist çubuğunu aç/kapat.\n\nEkranın üst kısmında tüm kolonistler için simgeleri ve temel durumu görüntüler.\n\nSol tetik düğmesine basarak ve onları sürükleyerek kolonist çubuğundaki kolonistleri yeniden sıralayabilirsiniz.</ShowColonistBarToggleButtonController>
+  <ShowColonistBarToggleButtonController>kolonici çubuğunu aç/kapat.\n\nEkranın üst kısmında tüm koloniciler için simgeleri ve temel durumu görüntüler.\n\nSol tetik düğmesine basarak ve onları sürükleyerek kolonici çubuğundaki kolonicileri yeniden sıralayabilirsiniz.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
   <AutoHomeAreaToggleButton>Ev bögesi genişletmeyi otomatik olarak ayarla. Manuel ayarlamak için bölgeler bölümüne göz atabilirsin.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
@@ -1320,7 +1320,7 @@
   <!-- EN: Contains -->
   <CasketContains>İçindeki</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>Dikkat!\n\n{PAWN_nameDef} senin son serbest duran kolonistin! Eğer içine girmesine izin verirsen, devamında onu kullanamazsın. Devam etmek istediğine emin misin?</CasketWarning>
+  <CasketWarning>Dikkat!\n\n{PAWN_nameDef} senin son serbest duran koloniciin! Eğer içine girmesine izin verirsen, devamında onu kullanamazsın. Devam etmek istediğine emin misin?</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
@@ -1332,7 +1332,7 @@
   <!-- EN: requires -->
   <ShipReportMissingPartRequires>gereklilikler</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
-  <ShipReportNoFullPods>Kripto-uyku kapsülü boş</ShipReportNoFullPods>
+  <ShipReportNoFullPods>Kripto-uyku tabutları boş</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
   <ShipReportHibernating>Hazırda bekletme bileşeni</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
@@ -1364,7 +1364,7 @@
   <!-- EN: Not installed -->
   <NotInstalled>Yüklenmemiş</NotInstalled>
   <!-- EN: Extracted tree will die in {time} unless replanted. -->
-  <MinifiedTreeWillDieIn>Çıkarılan ağaç, yeniden dikilmediği takdirde {time} içinde ölecek.</MinifiedTreeWillDieIn>
+  <MinifiedTreeWillDieIn>Sökülmüş ağaç, yeniden dikilmediği takdirde {time} içinde ölecek.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <!-- EN: Title -->
@@ -1408,7 +1408,7 @@
   <!-- EN: Game Over -->
   <GameOver>Oyun Bitti</GameOver>
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>Herkes öldü veya gitti. Koloni tarihin tozlu sayfalarında kayboldu, hikaye burada bitti.\n\nBelki birileri bu yerin yıkıntılarında değerlendirecek bir şeyler bulur.</GameOverEveryoneDead>
+  <GameOverEveryoneDead>Herkes öldü veya gitti. Koloni tarihin tozlu sayfalarında kayboldu, hikâye burada bitti.\n\nBelki birileri bu yerin yıkıntılarında değerlendirecek bir şeyler bulur.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
   <GameOverPlanetkillerImpact>Felaket! Işık hızında bir gezegen öldürücü, bir trilyondan fazla hidrojen bombası etkisiyle yer yüzüne çarptı. Tüm gezegen, tüfekle patlatılmış bir su balonu gibi kozmos'a aktı.\n\n{0}'in bir kısmı, şimdi uzayda küçük astreoit parçaları gibi dolanıyor. Kalanı kilometrelerce uzağa yayılan sarsılmalar ve radyoaktif dalgalar yüzünden erimiş gitmiş bir hiçe dönüştü.\n\nBu felaket karşısında hayatta kalamadınız.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
@@ -1416,9 +1416,9 @@
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
   <GameOverShipLaunchedEnding>Makinistleriniz artık gemiyi güvenli bir yere doğru yönlendirmeye çalışacaklar. Bu şekilde müreffeh bir gezegen bulabilir ya da başka bir yıldıza yüzlerce yıl sürecek bir yolculuk yapabilirsiniz. Gatta bir kaç bin yıl boyunca bir astreotte bulunan buzların altında saklanmaya bile karar verebilir, birisinin burada yeni bir yaşanılır glitter dünyası inşa etmesini bekleyebilirsiniz.\n\nNe olacağını ancak uyandığınızda öğrenebilirsiniz.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
-  <GameOverColonistsEscaped>Bu kolonistler kaçtı:\n\n{0}</GameOverColonistsEscaped>
+  <GameOverColonistsEscaped>Bu koloniciler kaçtı:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
-  <GameOverColonistsLeft>Bu kolonistler geride kaldı:\n\n{0}</GameOverColonistsLeft>
+  <GameOverColonistsLeft>Bu koloniciler geride kaldı:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
   <GameOverInMemoryOf>Anısına:\n</GameOverInMemoryOf>
   <!-- EN: Keep watching -->
@@ -1430,7 +1430,7 @@
   <!-- EN: Create new wanderers (must wait {0}h) -->
   <GameOverCreateNewWanderersWait>Yeni gezginler oluştur (beklemeniz gereken süre {0}h)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
-  <GameOverCreateNewWanderersText>Herkes öldü veya gitti. Belki birileri bu yerin yıkıntılarında değerlendirecek bir şeyler bulur.\n\nKoloninize gelen yeni gezginleri seçin ve hikayeye devam edin.</GameOverCreateNewWanderersText>
+  <GameOverCreateNewWanderersText>Herkes öldü veya gitti. Belki birileri bu yerin yıkıntılarında değerlendirecek bir şeyler bulur.\n\nKoloninize gelen yeni gezginleri seçin ve hikâyeye devam edin.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Ana menü</GameOverMainMenu>
   <!-- EN: No colony -->
@@ -1448,7 +1448,7 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Bir binaya bağlı değil</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>Bina başına maksimum bağlantı</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Bina başına azami bağlantı</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
   <FacilityFrontBlocked>Binanın önü kapalı.</FacilityFrontBlocked>
 
@@ -1476,13 +1476,13 @@
   <!-- EN: unreachable for {1_labelShort} -->
   <MarriageSpotUnreachable>{1_labelShort} için ulaşılamaz</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
-  <MarriageSpotInPrisonCell>mahkum hücresinde</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>mahkûm hücresinde</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
   <NotEnjoyableOutsideTemperature>hava sıcaklığı rahatsız edici</NotEnjoyableOutsideTemperature>
 
   <!-- Colonist bar -->
   <!-- EN: Medical rest -->
-  <ActivityIconMedicalRest>Tıbbi yatış hali</ActivityIconMedicalRest>
+  <ActivityIconMedicalRest>Tıbbi yatış hâli</ActivityIconMedicalRest>
   <!-- EN: Sleeping -->
   <ActivityIconSleeping>Uyuyor</ActivityIconSleeping>
   <!-- EN: Fleeing -->
@@ -1776,11 +1776,11 @@
   <!-- EN: A slave. The human property of others. -->
   <RitualBeginSlaveDesc>Köle. Başkalarının insan malı</RitualBeginSlaveDesc>
   <!-- EN: {0_labelShort} is sleeping. If included in the ritual, {0_pronoun} will wake up to participate. -->
-  <RitualBeginSleepingDesc>{0_labelShort} uyuyor. Ayine dahil edilirse {0_pronoun} uyanıp katılmak için kalkar.</RitualBeginSleepingDesc>
+  <RitualBeginSleepingDesc>{0_labelShort} uyuyor. Ayine dâhil edilirse {0_pronoun} uyanıp katılmak için kalkar.</RitualBeginSleepingDesc>
   <!-- EN: Some of the selected participants are sleeping. They will wake up once you start the ritual. -->
   <RitualBeginSleepingWarning>Seçilen katılımcılardan bazıları uyuyor. Ayine başladığınızda uyanacaklar.</RitualBeginSleepingWarning>
   <!-- EN: This position is best done by a colonist holding the social role of {0}.\n\nIf someone without this role fills this position, you won't get the following bonus(es) -->
-  <RitualRoleRequiresSocialRole>Bu pozisyon en iyi {0} sosyal rolüne sahip bir kolonist tarafından yapılır.\n\nBu role sahip olmayan biri bu pozisyonu doldurursa, aşağıdaki bonusları alamazsınız.</RitualRoleRequiresSocialRole>
+  <RitualRoleRequiresSocialRole>Bu pozisyon en iyi {0} sosyal rolüne sahip bir kolonici tarafından yapılır.\n\nBu role sahip olmayan biri bu pozisyonu doldurursa, aşağıdaki bonusları alamazsınız.</RitualRoleRequiresSocialRole>
   <!-- EN: No substitute available for the role of {0}. -->
   <RitualRoleCantSubstitute>{0} rolü için ikame yok</RitualRoleCantSubstitute>
   <!-- EN: {0} progress -->
@@ -1802,9 +1802,9 @@
   <!-- EN: {0_labelShort} is incapable of {1}. -->
   <AbilityDisabledNoCapacity>{0_labelShort}, {1} yapamaz</AbilityDisabledNoCapacity>
   <!-- EN: Everyone participating in the ritual gains {0} mood for {1} days. -->
-  <RitualOutcomeExtraDesc_Mood>Ayine katılan herkes {1} gün boyunca {0} ruh hali kazanır.</RitualOutcomeExtraDesc_Mood>
+  <RitualOutcomeExtraDesc_Mood>Ayine katılan herkes {1} gün boyunca {0} ruh hâli kazanır.</RitualOutcomeExtraDesc_Mood>
   <!-- EN: This ritual has no quality offsets, so the best outcome is always expected -->
-  <RitualOutcomeNoQuality>Bu ritüelin kalite dengesi yoktur, bu nedenle her zaman en iyi sonuç beklenir</RitualOutcomeNoQuality>
+  <RitualOutcomeNoQuality>Bu ritüelin kalite ön değeri yoktur, bu nedenle her zaman en iyi sonuç beklenir</RitualOutcomeNoQuality>
 
   <!-- EN: Begin -->
   <Begin>Başla</Begin>
@@ -1878,7 +1878,7 @@
 
   <!-- Abilities -->
   <!-- EN: must be drafted. -->
-  <AbilityDisabledUndrafted>taslağı hazırlanmalıdır.</AbilityDisabledUndrafted>
+  <AbilityDisabledUndrafted>çatışma modunda olmalı</AbilityDisabledUndrafted>
   <!-- EN: ability on cooldown. It will be available in {0}. -->
   <AbilityOnCooldown>yetenek beklme süresinde. {0} içinde kullanılabilir.</AbilityOnCooldown>
   <!-- EN: ability out of charges. -->
@@ -1971,7 +1971,7 @@
   <BookBlind>{PAWN_nameDef} kör</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>maksimum seviye {0}</BookMaxLevel>
+  <BookMaxLevel>azami seviye {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>{0} okuması: {1} tamamlandı ({2} saatte tamamlandı)</ReadingReportHeader>

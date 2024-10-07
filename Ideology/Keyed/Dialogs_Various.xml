@@ -41,7 +41,7 @@
   <NotEnoughMemesFluidIdeo>{0} meme'yi seçin.</NotEnoughMemesFluidIdeo>
 
   <!-- EN: {0} will re-randomize any precepts you have edited.\n\nDo you wish to continue? -->
-  <ChangesRandomizePrecepts>{0}, düzenlediğiniz tüm ilkeleri yeniden rastgele hale getirecek.\in\Devam etmek istiyor musunuz?</ChangesRandomizePrecepts>
+  <ChangesRandomizePrecepts>{0}, düzenlediğiniz tüm ilkeleri yeniden rastgele hâle getirecek.\in\Devam etmek istiyor musunuz?</ChangesRandomizePrecepts>
   <!-- EN: The following precepts are incompatible with this new meme selection and will be removed:\n\n{0}\n\nDo you wish to continue? -->
   <ChangesRemovePrecepts>Aşağıdaki kurallar bu yeni meme seçimiyle uyumlu değil ve kaldırılacak:\n\n{0}\n\nDevam etmek istiyor musunuz?</ChangesRemovePrecepts>
   
@@ -146,7 +146,7 @@
   <!-- EN: Change any of the following -->
   <ReformIdeoChangeAny>Aşağıdakilerden herhangi birini değiştirin</ReformIdeoChangeAny>
   <!-- EN: The relic {0} will not be venerated by your colonists after reforming this ideoligion. Since the quest '{0}' is searching for this relic, it will be deactivated. -->
-  <ReformIdeoRelicHuntQuestEnd>{0} kalıntısı, bu ideoligi reformdan geçirdikten sonra kolonistler tarafından saygı görmeyecek. '{0}' görevi bu kalıntıyı aradığı için devre dışı bırakılacaktır.</ReformIdeoRelicHuntQuestEnd>
+  <ReformIdeoRelicHuntQuestEnd>{0} kalıntısı, bu ideoligi reformdan geçirdikten sonra koloniciler tarafından saygı görmeyecek. '{0}' görevi bu kalıntıyı aradığı için devre dışı bırakılacaktır.</ReformIdeoRelicHuntQuestEnd>
   <!-- EN: The ritual {0} is in progress and will be cancelled. -->
   <ReformIdeoCancelRituals>{0} ritüeli devam ediyor ve iptal edilecek.</ReformIdeoCancelRituals>
   <!-- EN: Do you wish to continue? -->
@@ -156,7 +156,7 @@
   <!-- EN: Slave -->
   <CannotAssignBedToSlave>Köle</CannotAssignBedToSlave>
   <!-- EN: Colonist -->
-  <CannotAssignBedToColonist>Kolonist</CannotAssignBedToColonist>
+  <CannotAssignBedToColonist>kolonici</CannotAssignBedToColonist>
   <!-- EN: Any slave -->
   <AnySlave>herhangi bir köle</AnySlave>
   <!-- EN: {0_nameDef} refuses to sell people into slavery according to {0_possessive} beliefs. -->
@@ -173,9 +173,9 @@
   <ExectueNeutralFactionSlave>{PAWN_labelShort}'un infazı, {FACTION_name} ile ilişkileri olumsuz etkiler.</ExectueNeutralFactionSlave>
 
   <!-- EN: You must assign at least one non-slave colonist who can walk. -->
-  <CaravanMustHaveAtLeastOneNonSlaveColonist>Yürüyebilen, en az bir köle olmayan kolonist atamanız gerekir.</CaravanMustHaveAtLeastOneNonSlaveColonist>
+  <CaravanMustHaveAtLeastOneNonSlaveColonist>Yürüyebilen, en az bir köle olmayan kolonici atamanız gerekir.</CaravanMustHaveAtLeastOneNonSlaveColonist>
   <!-- EN: You must leave at least non-slave colonist who can walk. -->
-  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>En azından yürüyebilen köle olmayan kolonist bırakmalısınız.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
+  <SourceCaravanMustHaveAtLeastOneNonSlaveColonist>En azından yürüyebilen köle olmayan kolonici bırakmalısınız.</SourceCaravanMustHaveAtLeastOneNonSlaveColonist>
 
   <!-- Style -->
   <!-- EN: Style -->
@@ -249,7 +249,7 @@
 
   <!-- Medical settings -->
   <!-- EN: Enslaved colonist -->
-  <MedGroupEnslavedColonist>köleleştirilmiş Kolonist</MedGroupEnslavedColonist>
+  <MedGroupEnslavedColonist>köleleştirilmiş kolonici</MedGroupEnslavedColonist>
 
   <!-- Dryad upgrades -->
   <!-- EN: Choose dryad caste -->
@@ -265,7 +265,7 @@
   <!-- EN: Already selected -->
   <AlreadySelected>Zaten seçili</AlreadySelected>
   <!-- EN: Here you can choose which caste of dryads this {TREE_label} will create.\n\nDryads will emerge from pods that grow at the tree's base. The maximum number of dryads is based on the connection strength between {TREE_definite} and the connected person. -->
-  <ChooseProductionModeInitialDesc>Burada, bu {TREE_label}''nin hangi orman kurusu kastını oluşturacağını seçebilirsiniz.\n\nKuru meyveler, ağacın tabanında büyüyen baklalardan çıkacaktır. Maksimum orman kurusu sayısı, {TREE_definite} ile bağlanan kişi arasındaki bağlantının gücüne bağlıdır.</ChooseProductionModeInitialDesc>
+  <ChooseProductionModeInitialDesc>Burada, bu {TREE_label}''nin hangi orman kurusu kastını oluşturacağını seçebilirsiniz.\n\nKuru meyveler, ağacın tabanında büyüyen baklalardan çıkacaktır. azami orman kurusu sayısı, {TREE_definite} ile bağlanan kişi arasındaki bağlantının gücüne bağlıdır.</ChooseProductionModeInitialDesc>
 
   <!-- Archonexus -->
   <!-- EN: Choose who to convert to your ideoligion -->
@@ -281,7 +281,7 @@
   <!-- EN: Choose up to {0} people. -->
   <ChoosePeopleDesc>En fazla {0} kişi seçin.</ChoosePeopleDesc>
   <!-- EN: If you only select slaves, you will play them as colonists in the next colony. -->
-  <ChooseOnlySlavesInfo>Yalnızca köleleri seçerseniz, onları bir sonraki kolonide sömürgeci olarak oynarsınız.</ChooseOnlySlavesInfo>
+  <ChooseOnlySlavesInfo>Yalnızca köleleri seçerseniz, onları bir sonraki kolonide kolonici olarak oynarsınız.</ChooseOnlySlavesInfo>
   <!-- EN: Confirm decisions -->
   <ConfirmDecisionsTitle>Kararları onaylayın</ConfirmDecisionsTitle>
   <!-- EN: The hibernating starship reported by the AI (*Name)Charlon Whitestone(/Name) will fly away by the time the new colony is established. It will no longer be possible to escape the planet by traveling to this ship. -->
@@ -291,7 +291,7 @@
   <!-- EN: {0} out of a possible {1} items were selected to be brought to the new colony. -->
   <ArchonexusItemsNotChosen>olası {1} öğeden {0} tanesi yeni koloniye getirilmek üzere seçildi.</ArchonexusItemsNotChosen>
   <!-- EN: The colony's purchasers will only allow you to take one relic. Any other relics will be left behind (even if equipped by a colonist), including: -->
-  <RemoveEquippedRelicsDescription>Koloniyi satın alanlar sadece bir kalıntı almanıza izin verecek. Aşağıdakiler dahil olmak üzere diğer kalıntılar (bir sömürgeci tarafından donatılsa bile) geride bırakılacaktır:</RemoveEquippedRelicsDescription>
+  <RemoveEquippedRelicsDescription>Koloniyi satın alanlar sadece bir kalıntı almanıza izin verecek. Aşağıdakiler dâhil olmak üzere diğer kalıntılar (bir kolonici tarafından donatılsa bile) geride bırakılacaktır:</RemoveEquippedRelicsDescription>
   <!-- EN: Would you like to proceed? Past this point, there's no going back. -->
   <WantToProceed>Devam etmek ister misiniz? Bu noktadan sonra geri dönüş yok.</WantToProceed>
   <!-- EN: Convert -->

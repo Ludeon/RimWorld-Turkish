@@ -7,9 +7,9 @@
   <!-- EN: Allow -->
   <CommandAllow>İzin ver</CommandAllow>
   <!-- EN: Forbidden: Your colonists are not allowed to interact with this. Click to allow. -->
-  <CommandForbiddenDesc>Yasakla: Kolonistlerinizin bununla etkileşime girmesine izin verilmez. İzin vermek için tıklayın.</CommandForbiddenDesc>
+  <CommandForbiddenDesc>Yasakla: kolonicilerinizin bununla etkileşime girmesine izin verilmez. İzin vermek için tıklayın.</CommandForbiddenDesc>
   <!-- EN: Allowed: Your colonists are allowed to interact with this. Click to forbid. -->
-  <CommandNotForbiddenDesc>İzin ver: Kolonistlerinizin bununla etkileşime girmesine izin verilir. Yasaklamak için tıklayın.</CommandNotForbiddenDesc>
+  <CommandNotForbiddenDesc>İzin ver: kolonicilerinizin bununla etkileşime girmesine izin verilir. Yasaklamak için tıklayın.</CommandNotForbiddenDesc>
 
   <!-- Power -->
   <!-- EN: Toggle power -->
@@ -20,7 +20,7 @@
   <!-- EN: Designate toggle power -->
   <CommandDesignateTogglePowerLabel>Geçiş gücünü belirleyin</CommandDesignateTogglePowerLabel>
   <!-- EN: Designate this thing to have power toggled. A colonist will come soon to flick the switch. -->
-  <CommandDesignateTogglePowerDesc>Bu öğenin gücünün değiştirilmesini sağlayın. Yakında bir kolonist güç anahtarına basacak.</CommandDesignateTogglePowerDesc>
+  <CommandDesignateTogglePowerDesc>Bu öğenin gücünün değiştirilmesini sağlayın. Yakında bir kolonici güç anahtarına basacak.</CommandDesignateTogglePowerDesc>
   
   <!-- EN: Reconnect -->
   <CommandTryReconnectLabel>Yeniden bağla</CommandTryReconnectLabel>
@@ -30,17 +30,17 @@
   <!-- EN: Gather spot -->
   <CommandGatherSpotToggleLabel>Toplanma Noktası</CommandGatherSpotToggleLabel>
   <!-- EN: Active - colonists will gather around this object. -->
-  <CommandGatherSpotToggleDescActive>Aktif kolonistler bu nesnenin etrafında toplanacaklar.</CommandGatherSpotToggleDescActive>
+  <CommandGatherSpotToggleDescActive>Aktif koloniciler bu nesnenin etrafında toplanacaklar.</CommandGatherSpotToggleDescActive>
   <!-- EN: Inactive - colonists will not gather around this object. -->
-  <CommandGatherSpotToggleDescInactive>Pasif kolonistler bu nesnenin etrafında toplanmazlar.</CommandGatherSpotToggleDescInactive>
+  <CommandGatherSpotToggleDescInactive>Pasif koloniciler bu nesnenin etrafında toplanmazlar.</CommandGatherSpotToggleDescInactive>
   
   <!-- Drafting -->
   <!-- EN: Draft -->
-  <CommandDraftLabel>Görevlendirme</CommandDraftLabel>
+  <CommandDraftLabel>Çatışma Modu</CommandDraftLabel>
   <!-- EN: Undraft -->
   <CommandUndraftLabel>Normal Mod</CommandUndraftLabel>
   <!-- EN: Toggle military draft.\n\nDrafted people take orders and fight. They will not work, eat, or rest. -->
-  <CommandToggleDraftDesc>Görevlendirmeyi Aç/Kapat.\n\Görevlendirilmiş insanlar emir alır ve savaşırlar. Çalışmayacak, yemek yemeyecek veya dinlenmeyecekler. Sadece talimatları yerine getirecekler.</CommandToggleDraftDesc>
+  <CommandToggleDraftDesc>Çatışma modunu aç/kapat.\n\nÇatışma modundaki insanlar emir alır ve savaşırlar. Çalışmayacak, yemek yemeyecek veya dinlenmeyecekler. Sadece talimatları yerine getirecekler.</CommandToggleDraftDesc>
   <!-- EN: {1_labelShort} cannot walk. -->
   <IsIncapped>{1_labelShort} yürüyemiyor.</IsIncapped>
   <!-- EN: {0_labelShort} is participating in {1}. -->
@@ -71,13 +71,13 @@
   <!-- EN: Assign this bed to be owned by a specific {0}. -->
   <CommandBedSetOwnerDesc>Bu yatağı belirli bir {0} ait olacak şekilde atayın.</CommandBedSetOwnerDesc>
   <!-- EN: Assign this throne to be owned by a specific colonist. -->
-  <CommandThroneSetOwnerDesc>Bu tahtı belirli bir koloniste ait olarak atayın.</CommandThroneSetOwnerDesc>
+  <CommandThroneSetOwnerDesc>Bu tahtı belirli bir kolonicie ait olarak atayın.</CommandThroneSetOwnerDesc>
   <!-- EN: Assign this meditation spot to be owned by a specific colonist. -->
-  <CommandMeditationSpotSetOwnerDesc>Bu meditasyon noktasını belirli bir sömürgeciye ait olacak şekilde atayın.</CommandMeditationSpotSetOwnerDesc>
+  <CommandMeditationSpotSetOwnerDesc>Bu meditasyon noktasını belirli bir koloniciye ait olacak şekilde atayın.</CommandMeditationSpotSetOwnerDesc>
   <!-- EN: Assign colonist -->
-  <CommandGraveAssignColonistLabel>Kolonist ata</CommandGraveAssignColonistLabel>
+  <CommandGraveAssignColonistLabel>kolonici ata</CommandGraveAssignColonistLabel>
   <!-- EN: Assign this grave to be owned by a specific colonist. -->
-  <CommandGraveAssignColonistDesc>Bu mezarı belirli bir koloniste atayın.</CommandGraveAssignColonistDesc>
+  <CommandGraveAssignColonistDesc>Bu mezarı belirli bir kolonicie atayın.</CommandGraveAssignColonistDesc>
   <!-- EN: Assign -->
   <BuildingAssign>Ata</BuildingAssign>
   <!-- EN: Reassign -->
@@ -85,23 +85,23 @@
   <!-- EN: Unassign -->
   <BuildingUnassign>Atamayı temizle</BuildingUnassign>
   <!-- EN: For prisoners -->
-  <CommandBedSetForPrisonersLabel>Mahkumlar için</CommandBedSetForPrisonersLabel>
+  <CommandBedSetForPrisonersLabel>mahkûmlar için</CommandBedSetForPrisonersLabel>
   <!-- EN: Whether beds in this room should be used by prisoners. -->
-  <CommandBedSetForPrisonersDesc>Bu odadaki yatakların mahkumlar tarafından kullanılması gerekip gerekmediğini belirleyin.</CommandBedSetForPrisonersDesc>
+  <CommandBedSetForPrisonersDesc>Bu odadaki yatakların mahkûmlar tarafından kullanılması gerekip gerekmediğini belirleyin.</CommandBedSetForPrisonersDesc>
   <!-- EN: Only beds in enclosed spaces can be set for prisoners. -->
-  <CommandBedSetForPrisonersFailOutdoors>Mahkumlar için sadece kapalı alanlardaki yataklar ayarlanabilir.</CommandBedSetForPrisonersFailOutdoors>
+  <CommandBedSetForPrisonersFailOutdoors>mahkûmlar için sadece kapalı alanlardaki yataklar ayarlanabilir.</CommandBedSetForPrisonersFailOutdoors>
   <!-- EN: Medical -->
   <CommandBedSetAsMedicalLabel>Tıbbi yatak</CommandBedSetAsMedicalLabel>
   <!-- EN: Whether this bed is for medical use. -->
   <CommandBedSetAsMedicalDesc>Bu yatağın tıbbi kullanım için olup olmadığını belirleyin.</CommandBedSetAsMedicalDesc>
   <!-- EN: Turning on prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOnPrisonerBedWarning>Mahkum modunun açılması tüm odayı etkiler (mahkumlar ve kolonistler aynı odada uyuyamazlar).\n\nBu insanlar yataklarının sahipliğini kaybedecek:</TurningOnPrisonerBedWarning>
+  <TurningOnPrisonerBedWarning>mahkûm modunun açılması tüm odayı etkiler (mahkûmlar ve koloniciler aynı odada uyuyamazlar).\n\nBu insanlar yataklarının sahipliğini kaybedecek:</TurningOnPrisonerBedWarning>
   <!-- EN: Turning off prisoner mode affects the whole room (since prisoners and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <TurningOffPrisonerBedWarning>Mahkum modunun kapatılması tüm odayı etkiler (mahkumlar ve kolonistler aynı odada uyuyamadıkları için).\n\nBu insanlar yataklarının sahipliğini kaybedecek:</TurningOffPrisonerBedWarning>
+  <TurningOffPrisonerBedWarning>mahkûm modunun kapatılması tüm odayı etkiler (mahkûmlar ve koloniciler aynı odada uyuyamadıkları için).\n\nBu insanlar yataklarının sahipliğini kaybedecek:</TurningOffPrisonerBedWarning>
   <!-- EN: Are you sure you want to do this? -->
   <AreYouSure>Bunu yapmak istediğinizden emin misiniz?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
-  <ChangingOwnerTypeBedWarning>Değişen yatak kullanımı tüm odayı etkiler (mahkumlar, köleler ve sömürgeciler aynı odada uyuyamazlar).\n\nBu insanlar yataklarının sahipliğini kaybeder:</ChangingOwnerTypeBedWarning>
+  <ChangingOwnerTypeBedWarning>Değişen yatak kullanımı tüm odayı etkiler (mahkûmlar, köleler ve koloniciler aynı odada uyuyamazlar).\n\nBu insanlar yataklarının sahipliğini kaybeder:</ChangingOwnerTypeBedWarning>
 
 
   <!-- EN: Detonate -->
@@ -134,12 +134,12 @@
   <!-- EN: Allow sowing -->
   <CommandAllowSow>Ekim yapmaya izin ver</CommandAllowSow>
   <!-- EN: When disabled, colonists will never sow new plants in this zone. They will still harvest. -->
-  <CommandAllowSowDesc>Ekime izin verilmezse, kolonistler bu tarladaki ekinleri hasat ettikten sonra yeni ekim yapmayacaklar.</CommandAllowSowDesc>
+  <CommandAllowSowDesc>Ekime izin verilmezse, koloniciler bu tarladaki ekinleri hasat ettikten sonra yeni ekim yapmayacaklar.</CommandAllowSowDesc>
 
   <!-- EN: Allow cutting -->
   <CommandAllowCut>Kesmeye izin ver </CommandAllowCut>
   <!-- EN: When disabled, colonists will never cut plants in this zone. They will still sow new plants in spaces that are already empty, and harvest plants matching the growing zone plant type. -->
-  <CommandAllowCutDesc>Devre dışı bırakıldığında, koloniciler bu bölgedeki bitkileri asla kesmezler. Halihazırda boş olan alanlara yeni bitkiler ekecek ve hasat edecekler.</CommandAllowCutDesc>
+  <CommandAllowCutDesc>Devre dışı bırakıldığında, koloniciler bu bölgedeki bitkileri asla kesmezler. hâlihazırda boş olan alanlara yeni bitkiler ekecek ve hasat edecekler.</CommandAllowCutDesc>
   
   <!-- EN: Select {0_label} -->
   <CommandSelectStoredThing>seç {0_label}</CommandSelectStoredThing>
@@ -164,7 +164,7 @@
   <!-- EN: Target beyond maximum range. -->
   <MessageTargetBeyondMaximumRange>Hedef menzilden uzak.</MessageTargetBeyondMaximumRange>
   <!-- EN: Target below minimum range. -->
-  <MessageTargetBelowMinimumRange>Hedef minimum menzilden daha yakın.</MessageTargetBelowMinimumRange>
+  <MessageTargetBelowMinimumRange>Hedef asgari menzilden daha yakın.</MessageTargetBelowMinimumRange>
   <!-- EN: Warning: The mortar won't fire because it's set to "Hold fire". -->
   <MessageTurretWontFireBecauseHoldFire>Uyarı: Havan topu "ateş kes" modu ayarlandığından dolayı ateşlenemez.</MessageTurretWontFireBecauseHoldFire>
   
@@ -194,11 +194,11 @@
   <!-- EN: Passage forbidden -->
   <CommandToggleDoorForbid>Geçişi yasakla</CommandToggleDoorForbid>
   <!-- EN: When a door is forbidden, colonists and allies will not go through it. This doesn't affect how enemies or animals interact with the door. -->
-  <CommandToggleDoorForbidDesc>Bir kapı yasaklandığında, kolonistler ve müttefikler kapıdan geçmeyeceklerdir. Bu, düşmanların veya hayvanların kapı ile etkileşimini etkilemez.</CommandToggleDoorForbidDesc>
+  <CommandToggleDoorForbidDesc>Bir kapı yasaklandığında, koloniciler ve müttefikler kapıdan geçmeyeceklerdir. Bu, düşmanların veya hayvanların kapı ile etkileşimini etkilemez.</CommandToggleDoorForbidDesc>
   <!-- EN: Hold open -->
   <CommandToggleDoorHoldOpen>Açık tut</CommandToggleDoorHoldOpen>
   <!-- EN: When active, your colonists will not close the door after passing through. -->
-  <CommandToggleDoorHoldOpenDesc>Açık tutulduklarında, kolonistleriniz geçtikten sonra kapıyı kapatmayacaklardır.</CommandToggleDoorHoldOpenDesc>
+  <CommandToggleDoorHoldOpenDesc>Açık tutulduklarında, kolonicileriniz geçtikten sonra kapıyı kapatmayacaklardır.</CommandToggleDoorHoldOpenDesc>
 
   <!-- Temperature control -->
   <!-- EN: Reset -->
@@ -226,9 +226,9 @@
   
   <!-- Trade beacon -->
   <!-- EN: Create a stockpile around this building exactly matching the shape of the beacon's launch radius. -->
-  <CommandMakeBeaconStockpileDesc>İşaret fenerinin etrafında depo alanı oluşturun.</CommandMakeBeaconStockpileDesc>
+  <CommandMakeBeaconStockpileDesc>İşaret fenerinin etrafında depolama alanı oluşturun.</CommandMakeBeaconStockpileDesc>
   <!-- EN: Create stockpile -->
-  <CommandMakeBeaconStockpileLabel>Depo alanı oluşturun</CommandMakeBeaconStockpileLabel>
+  <CommandMakeBeaconStockpileLabel>Depolama alanı oluşturun</CommandMakeBeaconStockpileLabel>
 
   <!-- Sun lamp -->
   <!-- EN: Create a growing zone around this building exactly matching the shape of the lamp's light radius. -->
@@ -260,13 +260,13 @@
   <!-- EN: Attack -->
   <CommandSquadAttack>Saldır</CommandSquadAttack>
   <!-- EN: Order selected colonists to attack designated target. -->
-  <CommandSquadAttackDesc>Seçilen kolonistlere belirlenen hedefe saldırma emri verin.</CommandSquadAttackDesc>
+  <CommandSquadAttackDesc>Seçilen kolonicilere belirlenen hedefe saldırma emri verin.</CommandSquadAttackDesc>
   
   <!-- Melee attack -->
   <!-- EN: Melee attack -->
   <CommandMeleeAttack>Yakın saldırı</CommandMeleeAttack>
   <!-- EN: Order selected colonists to attack designated target using only fists and melee weapons. -->
-  <CommandMeleeAttackDesc>Seçilen kolonistlere sadece yumruk ve yakın dövüş silahlarını kullanarak belirlenen hedefe saldırma emri verin.</CommandMeleeAttackDesc>
+  <CommandMeleeAttackDesc>Seçilen kolonicilere sadece yumruk ve yakın dövüş silahlarını kullanarak belirlenen hedefe saldırma emri verin.</CommandMeleeAttackDesc>
 
   <!-- Hold fire -->
   <!-- EN: Hold fire -->
@@ -306,7 +306,7 @@
   <!-- EN: Form caravan -->
   <CommandFormCaravan>Kervan oluştur</CommandFormCaravan>
   <!-- EN: Form a group of colonists able to travel to new areas. The colonists will gather all the assigned supplies and accompanying animals, leave their current area, and await further orders. -->
-  <CommandFormCaravanDesc>Yeni bölgelere seyahat edecek olan bir kolonist kervanı oluşturun. Kervana atanan kolonistler, belirlenen malzemeleri ve hayvanları alarak bulundukları bölgeyi terk ederek verilen emirleri yerine getirecek ve yeni emirler bekleyecekler.</CommandFormCaravanDesc>
+  <CommandFormCaravanDesc>Yeni bölgelere seyahat edecek olan bir kolonici kervanı oluşturun. Kervana atanan koloniciler, belirlenen malzemeleri ve hayvanları alarak bulundukları bölgeyi terk ederek verilen emirleri yerine getirecek ve yeni emirler bekleyecekler.</CommandFormCaravanDesc>
   <!-- EN: This spot will be used as a meeting point for the caravan. All goods and animals will be brought here before leaving. -->
   <CommandFormCaravanDescAtSpot>Bu nokta kervan için bir buluşma noktası olarak kullanılacaktır. Tüm mallar ve hayvanlar ayrılmadan önce buraya getirilecektir.</CommandFormCaravanDescAtSpot>
   
@@ -314,9 +314,9 @@
   <!-- EN: Reform caravan -->
   <CommandReformCaravan>Kervanı yenile</CommandReformCaravan>
   <!-- EN: Reform a group of colonists. The colonists will leave their current area and await further orders. -->
-  <CommandReformCaravanDesc>Yeniden toparlanan kervan. Kolonistler şu anki bölgelerini terk edip yeni talimatlar bekleyecekler.</CommandReformCaravanDesc>
+  <CommandReformCaravanDesc>Yeniden toparlanan kervan. koloniciler şu anki bölgelerini terk edip yeni talimatlar bekleyecekler.</CommandReformCaravanDesc>
   <!-- EN: There are still some enemies in this area. -->
-  <CommandReformCaravanFailHostilePawns>Bu bölgede hala bazı düşmanlar var.</CommandReformCaravanFailHostilePawns>
+  <CommandReformCaravanFailHostilePawns>Bu bölgede hâlâ bazı düşmanlar var.</CommandReformCaravanFailHostilePawns>
 
   <!-- Send caravan -->
   <!-- EN: Send caravan -->
@@ -348,11 +348,11 @@
   <!-- EN: Settle -->
   <CommandSettle>Yerleş</CommandSettle>
   <!-- EN: Settle in this area. Your colonists will enter this area and you will be able to start building a new home. -->
-  <CommandSettleDesc>Bu alana yerleşin. Kolonistleriniz bu alana girecek ve yeni bir ev inşa etmeye başlayabileceksiniz.</CommandSettleDesc>
+  <CommandSettleDesc>Bu alana yerleşin. kolonicileriniz bu alana girecek ve yeni bir ev inşa etmeye başlayabileceksiniz.</CommandSettleDesc>
   <!-- EN: Your faction can only have one base. -->
   <CommandSettleFailAlreadyHaveBase>Koloniniz sadece bir bölgeye yerleşebilir.</CommandSettleFailAlreadyHaveBase>
   <!-- EN: Reached maximum number of colonies. -->
-  <CommandSettleFailReachedMaximumNumberOfBases>Maksimum yerleşke sayısına ulaştınız.</CommandSettleFailReachedMaximumNumberOfBases>
+  <CommandSettleFailReachedMaximumNumberOfBases>azami yerleşke sayısına ulaştınız.</CommandSettleFailReachedMaximumNumberOfBases>
   <!-- EN: There isn't anybody there to claim the area. -->
   <CommandSettleFailNoColonists>Bu bölgeye yerleşebilecek birileri yok.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
@@ -364,7 +364,7 @@
   <!-- EN: Abandon this area. The area will become inaccessible and you will not be able to return here ever again. After abandoning your home, you will be able to order one of your caravans to settle in a new area. -->
   <CommandAbandonHomeDesc>Bu alanı terk edin. Alan erişilemez olacak ve buraya bir daha geri dönmek mümkün olmayacaktır. Evinizi terk ettikten sonra, kervanlarınızdan birine yeni bir alana yerleşmek için talimat verebilirsiniz.</CommandAbandonHomeDesc>
   <!-- EN: All of your colonists are there. -->
-  <CommandAbandonHomeFailAllColonistsThere>Tüm kolonistleriniz burada.</CommandAbandonHomeFailAllColonistsThere>
+  <CommandAbandonHomeFailAllColonistsThere>Tüm kolonicileriniz burada.</CommandAbandonHomeFailAllColonistsThere>
   
   <!-- Cancel forming caravan -->
   <!-- EN: Cancel forming caravan -->
@@ -398,7 +398,7 @@
   <!-- EN: There isn't any conscious and capable negotiator. -->
   <CommandTradeFailNoNegotiator>Bilinçli ve yetenekli bir müzakereciniz bulunmuyor.</CommandTradeFailNoNegotiator>
   <!-- EN: None of your people have the required faction permission: {0} -->
-  <CommandTradeFailNeedPermit>Hiç bir kolonistinizin diğer fraksiyonla ticaret yapmaya izni yok:{0}</CommandTradeFailNeedPermit>
+  <CommandTradeFailNeedPermit>Hiç bir koloniciinizin diğer fraksiyonla ticaret yapmaya izni yok:{0}</CommandTradeFailNeedPermit>
 
   <!-- Offer gifts -->
   <!-- EN: Offer gifts -->
@@ -428,7 +428,7 @@
   <!-- EN: Set target fuel level -->
   <CommandSetTargetFuelLevel>Yakıt seviyesini ayarlayın</CommandSetTargetFuelLevel>
   <!-- EN: Set the target fuel level. Colonists will attempt to fill this up to the target fuel level. -->
-  <CommandSetTargetFuelLevelDesc>Hedef yakıt seviyesini ayarlayın. Kolonistler, sürekli hedef yakıt seviyesine kadar doldurmaya çalışacaklar.</CommandSetTargetFuelLevelDesc>
+  <CommandSetTargetFuelLevelDesc>Hedef yakıt seviyesini ayarlayın. koloniciler, sürekli hedef yakıt seviyesine kadar doldurmaya çalışacaklar.</CommandSetTargetFuelLevelDesc>
 
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
@@ -504,7 +504,7 @@
   <!-- EN: Designate open/close -->
   <CommandDesignateOpenCloseVentLabel>Fırlatmayı açma/kapama görevi</CommandDesignateOpenCloseVentLabel>
   <!-- EN: Designate this vent to be opened or closed. A colonist will come soon to perform the task. -->
-  <CommandDesignateOpenCloseVentDesc>Bu fırlatmayı açık kapatmayı ayarlayın. Yakında bir kolonist, fırlatma görevini yerine getirmek için gelecek..</CommandDesignateOpenCloseVentDesc>
+  <CommandDesignateOpenCloseVentDesc>Bu fırlatmayı açık kapatmayı ayarlayın. Yakında bir kolonici, fırlatma görevini yerine getirmek için gelecek..</CommandDesignateOpenCloseVentDesc>
   
   <!-- Remove waypoint -->
   <!-- EN: Remove -->

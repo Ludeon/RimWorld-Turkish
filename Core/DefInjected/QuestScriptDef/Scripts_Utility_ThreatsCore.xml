@@ -1,28 +1,53 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: <rulesStrings><li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li><li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li><li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li><li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li><li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li><li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li><li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li><li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li><li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li><li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li><li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li><li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li><li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li><li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li><li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li><li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li><li>root->there's a [label]</li></rulesStrings> -->
+  <!-- EN: 
+    <rulesStrings>
+      <li>root(priority=1,sitePart==ClimateAdjuster)->there's (*Threat)a climate adjuster machine(/Threat) there shifting the regional temperature by [temperatureOffset]</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->there's (*Threat)a psychic droner machine(/Threat) there tuned to the [affectedGender] gender</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->there's (*Threat)a psychic suppressor machine(/Threat) there tuned to the [affectedGender] gender</li>
+      <li>root(priority=1,sitePart==WeatherController)->there's (*Threat)a weather controller machine(/Threat) there forcing weather in the whole region to [weather_label]</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->there's (*Threat)a smoke spewer machine(/Threat) there belching smoke over the whole region</li>
+      <li>root(priority=1,sitePart==SunBlocker)->there's (*Threat)a sun blocker machine(/Threat) there shadowing the whole region</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->there's (*Threat)an EMI dynamo machine(/Threat) there which can disable electrical devices across the region</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->there's (*Threat)a toxic spewer machine(/Threat) there blanketing the whole region in poison</li>
+      <li>root(priority=1,sitePart==RaidSource)->there's a military staging area guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat) that will launch raids on you every [mtbDays]</li>
+      <li>root(priority=1,sitePart==Outpost)->there's an enemy outpost at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
+      <li>root(priority=1,sitePart==BanditCamp)->there's a bandit camp at the site guarded by (*Threat)[enemiesCount] [enemiesLabel](/Threat)</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)a manhunting [kindLabel](/Threat) is wandering nearby</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] manhunting [kindLabel](/Threat) are wandering nearby</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)a mechanoid(/Threat) is sleeping nearby</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mechanoids(/Threat) are sleeping nearby</li>
+      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) defend the site</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)an enemy force(/Threat) is waiting to ambush anyone who comes near</li>
+      <li>root(priority=1,sitePart==MechCluster)->there's (*Threat)a cluster of hostile mechanoid structures(/Threat)</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->there may be an (*Threat)unknown threat(/Threat)</li>
+      <li>root->there's a [label]</li>
+    </rulesStrings> -->
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
-      <li>root(priority=1,sitePart==ClimateAdjuster)->orada(*Threat)iklim ayarlayıcı makine (/Threat) var, bölgesel sıcaklığı [temperatureOffset] kadar değiştiriyor</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->orada [affectedGender] cinsiyetine ayarlanmış (*Threat)bir psişik droner makinesi(/Threat) var</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->orada [affectedGender] cinsiyete ayarlanmış(*Threat)bir psişik baskılayıcı makine(/Threat) var</li>
-      <li>root(priority=1,sitePart==WeatherController)->orada (*Threat)bir hava durumu kontrol makinesi(/Threat) var, tüm bölgedeki hava durumunu [weather_label]'e zorluyor</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->orada (*Threat)bir duman püskürtme makinesi(/Threat) var ve tüm bölgede duman püskürtüyor</li>
-      <li>root(priority=1,sitePart==SunBlocker)->orada (*Threat)tüm bölgeyi gölgeleyen bir güneş kapatıcı makine(/Threat) var</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->orada (*Threat)bölgedeki elektrikli cihazları devre dışı bırakabilen bir EMI dinamo makinesi(/Threat) var</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->orada (*Threat)tüm bölgeyi zehirleyen zehirli bir sprey makinesi(/Threat) var</li>
-      <li>root(priority=1,sitePart==RaidSource)->orada (*Threat)[enemiesCount] rakipleri ([enemiesLabel])(/Threat) tarafından korunan bir askeri üs var. Her [mtbDays] de bir koloninize baskın yapacak</li>
-      <li>root(priority=1,sitePart==Outpost)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bölgede bir düşman karakolu var</li>
-      <li>root(priority=1,sitePart==BanditCamp)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bölgede bir haydut kampı var</li>
-      <li>root(priority=1,sitePart==Manhunters)->orada (*Threat)bir insan avcısı [kindLabel](/Threat) yakınlarda dolaşıyor</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids)->(*Threat)mekanoidler(/Threat) yakınlarda uyuyor</li>
-      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) bölgeyi savun</li>
-      <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)bir düşman kuvveti(/Threat) yaklaşan herkesi pusuya düşürmek için bekliyor</li>
-      <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)bir düşman kuvveti(/Threat) yaklaşan herkesi pusuya düşürmek için bekliyor</li>
-      <li>root(priority=1,sitePart==MechCluster)->orada (*Threat)düşmancıl mekanoid yapısı var(/Threat)</li>
-      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->önceden (*Threat)bilinmeyen bir tehdit(/Threat) gizleniyor olabilir</li>
-      <li>root->bir [label]'dir</li>
+      <li>root(priority=1,sitePart==ClimateAdjuster)->orada (*Threat)bir iklim ayarlayıcı makine(/Threat) var ve bölgenin derecesini [temperatureOffset] derece kaydırıyor</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->orada (*Threat)bir psişik vızıltıcı makine(/Threat) var ve [affectedGender] bireyleri etkiliyor</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->orada (*Threat)bir psişik baskılayıcı makine(/Threat) var ve [affectedGender] bireyleri etkiliyor</li>
+      <li>root(priority=1,sitePart==WeatherController)->orada (*Threat)bir hava durumu kontrolörü makine(/Threat) ve bütün bölgedeki hava durumunu [weather_label] olmaya zorluyor</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->orada (*Threat)bir duman püskürtücü makine(/Threat) var ve bütün bölgenin üzerine duman salıyor</li>
+      <li>root(priority=1,sitePart==SunBlocker)->orada (*Threat)bir güneş engelleyici makine(/Threat) var ve bütün bölgeyi karartıyor</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->orada (*Threat)bir EMI dinamo makinesi(/Threat) var ve bölgedeki elektrikli cihazların çalışmasını engelliyor</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->orada (*Threat)bir toksik püskürtücü makine(/Threat) var ve bütün bölgeyi zehirli bir örtüyle kaplıyor</li>
+      <li>root(priority=1,sitePart==RaidSource)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir askeri toplanma alanı var ve her [mtbDays] bir sana baskınlar düzenleyecekler</li>
+      <li>root(priority=1,sitePart==Outpost)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir düşman karakolu var</li>
+      <li>root(priority=1,sitePart==BanditCamp)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir haydut kampı var</li>
+      <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)insan avcısı bir [kindLabel](/Threat) yakınlarda dolanıyor</li>
+      <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] insan avcısı [kindLabel](/Threat) yakınlarda dolanıyor</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)bir mekanoid(/Threat) yakınlarda uyuyor</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mekanoid(/Threat) yakınlarda uyuyor</li>
+      <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) yerleşkeyi koruyor</li>
+      <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)bir düşman kuvveti(/Threat) yakına gelenleri pusuya düşürmek üzere bekliyor</li>
+      <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)bir düşman kuvveti(/Threat) yakına gelenleri pusuya düşürmek üzere bekliyor</li>
+      <li>root(priority=1,sitePart==MechCluster)->(*Threat)bir düşman mekanoid yapıları kümesi(/Threat) var</li>
+      <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->(*Threat)bilinmeyen bir tehdir(/Threat) olabilir</li>
+      <li>root->bir [label] var</li>
     </rulesStrings>
   </Util_GenerateSite.root.singleSitePartRules.slateRef>
   
@@ -30,14 +55,14 @@
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription->mekanik  bir küme [map_definite] noktasına inecek:\n\n[allThreats]</li>
+    <li>threatDescription->[map_definite] noktasına inecek mek kümede bulunanlar:\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>threatDescription->[enemyFaction_pawnsPlural] from [enemyFaction_name] will attack you. Their group is composed of:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   -->
   <Util_Raid.questDescriptionRules.rulesStrings>
-    <li>threatDescription->[enemyFaction_name]'den [enemyFaction_pawnsPlural] size saldıracak. Grupları şunlardan oluşur:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
+    <li>threatDescription->[enemyFaction_name] fraksiyonundan [enemyFaction_pawnsPlural] sana saldıracak. Grupta bulunanlar:\n\n[raidPawnKinds]\n\n[raidArrivalModeInfo]</li>
   </Util_Raid.questDescriptionRules.rulesStrings>
   
   <!-- EN:
@@ -51,14 +76,14 @@
     <li>numGroupsOf(raidCount>=4)->[raidCount] groups of</li>
   -->
   <Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
-    <li>pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural] grubu şunlardan oluşur: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
-    <li>pawnKindsParagraph(raidCount==2)->[enemyFaction_pawnsPlural]'ın ilk grubu şunlardan oluşur: \n\n[raid0/raidPawnKinds]\n\nİkinci benzer büyüklükteki grup kısa bir süre sonra onları takip edecek.</li>
-    <li>pawnKindsParagraph(raidCount==3)->[enemyFaction_pawnsPlural]'ın ilk grubu şunlardan oluşur: \n\n[raid0/raidPawnKinds]\n\nBir süre sonra benzer büyüklükte iki grup onları takip edecek.</li>
-    <li>pawnKindsParagraph(raidCount>=4)->[enemyFaction_pawnsPlural]'ın ilk grubu şunlardan oluşur: \n\n[raid0/raidPawnKinds]\n\n[raidCountMinusOne] benzer büyüklükteki gruplar kısa bir süre sonra onları takip edecek.</li>
+    <li>pawnKindsParagraph(raidCount==1)->[enemyFaction_pawnsPlural] grubunda bulunanlar: \n\n[raid0/raidPawnKinds]\n\n[raid0/raidArrivalModeInfo]</li>
+    <li>pawnKindsParagraph(raidCount==2)->ilk [enemyFaction_pawnsPlural] grubunda bulunanlar: \n\n[raid0/raidPawnKinds]\n\nBenzer büyüklükteki ikinci bir grup, kısa bir süre sonra onları takip edecek.</li>
+    <li>pawnKindsParagraph(raidCount==3)->ilk [enemyFaction_pawnsPlural] grubunda bulunanlar: \n\n[raid0/raidPawnKinds]\n\nBenzer büyüklükteki iki grup, kısa bir süre sonra onları takip edecek.</li>
+    <li>pawnKindsParagraph(raidCount>=4)->ilk [enemyFaction_pawnsPlural] grubunda bulunanlar: \n\n[raid0/raidPawnKinds]\n\nBenzer büyüklükteki [raidCountMinusOne] grup, kısa bir süre sonra onları takip edecek.</li>
     <li>numGroupsOf(raidCount==1)->[enemyFaction_pawnsPlural]</li>
-    <li>numGroupsOf(raidCount==2)->2 [enemyFaction_pawnsPlural] gruptan</li>
-    <li>numGroupsOf(raidCount==3)->3 [enemyFaction_pawnsPlural] gruptan</li>
-    <li>numGroupsOf(raidCount>=4)->[raidCount] [enemyFaction_pawnsPlural] gruptan</li>
+    <li>numGroupsOf(raidCount==2)->2 [enemyFaction_pawnsPlural] grubu</li>
+    <li>numGroupsOf(raidCount==3)->3 [enemyFaction_pawnsPlural] grubu</li>
+    <li>numGroupsOf(raidCount>=4)->[raidCount] [enemyFaction_pawnsPlural] grubu</li>
   </Util_RaidDelayRepeatable.questDescriptionRules.rulesStrings>
   
 </LanguageData>

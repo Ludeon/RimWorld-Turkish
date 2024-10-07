@@ -2,7 +2,7 @@
 <LanguageData>
 
   <!-- EN: Call {0} -->
-  <CallOnRadio>{0} çağır</CallOnRadio>
+  <CallOnRadio>Ara: {0}</CallOnRadio>
   <!-- EN: Cannot use: {0} -->
   <CannotUseReason>Kullanılamaz: {0}</CannotUseReason>
   <!-- EN: Cannot use: EMP -->
@@ -14,16 +14,16 @@
   <!-- EN: Cannot use: Reserved -->
   <CannotUseReserved>Kullanılamaz: Ayırtılmış</CannotUseReserved>
   <!-- EN: Cannot use: Full -->
-  <CannotUseFull>Kullanılamaz: dolu</CannotUseFull>
+  <CannotUseFull>Kullanılamaz: Dolu</CannotUseFull>
   <!-- EN: leader {1_labelShort} is unavailable -->
   <LeaderUnavailable>lider {1_labelShort} müsait değil</LeaderUnavailable>
   <!-- EN: leader is unavailable -->
   <LeaderUnavailableNoLeader>lider müsait değil</LeaderUnavailableNoLeader>
   <!-- EN: Not allowed -->
-  <NotAllowed>İzinli değil</NotAllowed>
+  <NotAllowed>Yasaklı</NotAllowed>
   
   <!-- EN: Fire at {1_labelShort} -->
-  <FireAt>{1_label}'e ateş et</FireAt>
+  <FireAt>Ateş et: {1_label}</FireAt>
 
   <!-- EN: out of range -->
   <OutOfRange>menzil dışında</OutOfRange>
@@ -36,9 +36,9 @@
   <!-- EN: incapable of violence -->
   <IncapableOfViolenceLower>şiddet uygulayamaz</IncapableOfViolenceLower>
   <!-- EN: {0_labelShort} is incapable of shooting -->
-  <IsIncapableOfShootingLower>{0_labelShort} ateş etmekten aciz</IsIncapableOfShootingLower>
+  <IsIncapableOfShootingLower>{0_labelShort} ateş edemez</IsIncapableOfShootingLower>
   <!-- EN: {1_labelShort} is not drafted -->
-  <IsNotDraftedLower>{1_labelShort} savaş modunda değil</IsNotDraftedLower>
+  <IsNotDraftedLower>{1_labelShort} çatışma modunda değil</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>kontrol edemediğin karakterlere emir veremezsin</CannotOrderNonControlledLower>
   <!-- EN: cannot attack self -->
@@ -46,15 +46,15 @@
   <!-- EN: cannot attack faction ally -->
   <CannotAttackSameFactionMember>fraksiyon müttefiğine saldıramaz</CannotAttackSameFactionMember>
   <!-- EN: Incapable of firefighting. -->
-  <IncapableOfFirefighting>Yangına müdahale edemez.</IncapableOfFirefighting>
+  <IncapableOfFirefighting>Yangına müdahâle edemez.</IncapableOfFirefighting>
 
   <!-- EN: Man {1_labelShort} -->
-  <OrderManThing>Adam {1_labelShort}</OrderManThing>
+  <OrderManThing>Adam ata: {1_labelShort}</OrderManThing>
   
   <!-- EN: Melee attack {1_labelShort} -->
-  <MeleeAttack>{1_label}'e yakından saldır</MeleeAttack>
+  <MeleeAttack>Yakından saldır: {1_label}</MeleeAttack>
   <!-- EN: Melee attack {1_labelShort} to death -->
-  <MeleeAttackToDeath>{1_label}'i öldür</MeleeAttackToDeath>
+  <MeleeAttackToDeath>Ölene kadar yakından saldır: {1_label}</MeleeAttackToDeath>
   <!-- EN: no path -->
   <NoPath>yol yok</NoPath>
   <!-- EN: burying -->
@@ -71,7 +71,7 @@
   <!-- EN: burning -->
   <BurningLower>yanıyor</BurningLower>
   <!-- EN: no empty, accessible spot configured to store it -->
-  <NoEmptyPlaceLower>depolamak için yapılandırılmış boş, erişilebilir bir nokta yok</NoEmptyPlaceLower>
+  <NoEmptyPlaceLower>depolanabileceği boş, erişilebilir bir nokta yok</NoEmptyPlaceLower>
   <!-- EN: no stack available to merge into -->
   <NoMergeTarget>birleştirilebilecek yığın yok</NoMergeTarget>
   <!-- EN: already filled enough -->
@@ -81,61 +81,61 @@
   <!-- EN: No medicine for restriction '{CATEGORY}'. -->
   <NoMedicineMatchingCategory>'{CATEGORY}' kısıtlaması için ilaç yok.</NoMedicineMatchingCategory>
   <!-- EN: under required skill {0} -->
-  <UnderRequiredSkill>gerekli {0} beceri seviyesi altında</UnderRequiredSkill>
+  <UnderRequiredSkill>gerekli beceri seviyesinin ({0}) altında</UnderRequiredSkill>
   <!-- EN: under allowed skill {0} -->
-  <UnderAllowedSkill>izinli {0} beceri seviyesi altında</UnderAllowedSkill>
+  <UnderAllowedSkill>izinli beceri seviyesinin ({0}) altında</UnderAllowedSkill>
   <!-- EN: above allowed skill {0} -->
-  <AboveAllowedSkill>izinli {0} beceri seviyesi üstünde}</AboveAllowedSkill>
+  <AboveAllowedSkill>izinli beceri seviyesinin ({0}) üstünde</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
-  <NoReachableOutsideCell>ulaşılamaz dış hücre</NoReachableOutsideCell>
+  <NoReachableOutsideCell>erişilebilir dış hücre yok</NoReachableOutsideCell>
   <!-- EN: missing required skill level -->
-  <MissingRequiredSkillLevel>eksik beceri seviyesi</MissingRequiredSkillLevel>
+  <MissingRequiredSkillLevel>gerekli beceri seviyesi eksik</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
-  <AnimalInteractedTooRecently>hayvan çok yakın zamanda etkileşime girmiş</AnimalInteractedTooRecently>
+  <AnimalInteractedTooRecently>hayvanla çok yakın zamanda etkileşime girilmiş</AnimalInteractedTooRecently>
   <!-- EN: interacted with too recently -->
   <PrisonerInteractedTooRecently>çok yakın zamanda etkileşime girdi</PrisonerInteractedTooRecently>
   <!-- EN: no usable food -->
   <NoUsableFood>kullanılabilir yiyecek yok</NoUsableFood>
   <!-- EN: not enough food -->
-  <NoFood>yiyecek yok</NoFood>
+  <NoFood>yeterli yiyecek yok</NoFood>
   <!-- EN: no food matching restrictions -->
-  <NoFoodMatchingRestrictions>yiyecek eşleştirme kısıtlaması yok</NoFoodMatchingRestrictions>
+  <NoFoodMatchingRestrictions>kısıtlamalara uygun yiyecek yok</NoFoodMatchingRestrictions>
   <!-- EN: No {0_label} -->
-  <NoIngredient>hayır {0_label}</NoIngredient>
+  <NoIngredient>{0_label} yok</NoIngredient>
   <!-- EN: below requirements of {0} -->
-  <FoodBelowTitleRequirements>{0} şartlarının altında</FoodBelowTitleRequirements>
+  <FoodBelowTitleRequirements>{0} talebinin altında</FoodBelowTitleRequirements>
   <!-- EN: animals skill too low - need {0} -->
-  <AnimalsSkillTooLow>hayvancılık becerisi çok düşük - {0} gerekli</AnimalsSkillTooLow>
+  <AnimalsSkillTooLow>hayvancılık becerisi çok düşük - gereken {0}</AnimalsSkillTooLow>
   <!-- EN: animal downed -->
-  <CantInteractAnimalDowned>hayvan düştü</CantInteractAnimalDowned>
+  <CantInteractAnimalDowned>hayvan etkisiz hâlde</CantInteractAnimalDowned>
   <!-- EN: animal sleeping -->
   <CantInteractAnimalAsleep>hayvan uyuyor</CantInteractAnimalAsleep>
   <!-- EN: animal busy -->
   <CantInteractAnimalBusy>hayvan meşgul</CantInteractAnimalBusy>
   <!-- EN: no allowed reachable pens -->
-  <CantRopeAnimalNoUsableReachablePens>izin verilmiş erişilebilir ahır yok</CantRopeAnimalNoUsableReachablePens>
+  <CantRopeAnimalNoUsableReachablePens>erişilebilir izinli ağıl yok</CantRopeAnimalNoUsableReachablePens>
   <!-- EN: no enclosed pens -->
-  <CantRopeAnimalNoEnclosedPens>kapalı ahır yok</CantRopeAnimalNoEnclosedPens>
+  <CantRopeAnimalNoEnclosedPens>kapalı ağıl yok</CantRopeAnimalNoEnclosedPens>
   <!-- EN: no allowed pens -->
-  <CantRopeAnimalNoAllowedPens>izin verilmiş ahır yok</CantRopeAnimalNoAllowedPens>
+  <CantRopeAnimalNoAllowedPens>izinli ağıl yok</CantRopeAnimalNoAllowedPens>
   <!-- EN: no reachable pens -->
-  <CantRopeAnimalNoReachablePens>erişilebilir ahır yok</CantRopeAnimalNoReachablePens>
+  <CantRopeAnimalNoReachablePens>erişilebilir ağıl yok</CantRopeAnimalNoReachablePens>
   <!-- EN: can't touch -->
   <CantRopeAnimalCantTouch>dokunulamaz</CantRopeAnimalCantTouch>
   <!-- EN: no space in pen -->
-  <CantRopeAnimalNoSpace>ahırda boş yer yok</CantRopeAnimalNoSpace>
+  <CantRopeAnimalNoSpace>ağılda boş yer yok</CantRopeAnimalNoSpace>
   <!-- EN: {0_labelShort} is in {1} state -->
-  <CantRopeAnimalMentalState>{0_labelShort}, {1} durumunda</CantRopeAnimalMentalState>
+  <CantRopeAnimalMentalState>{0_labelShort}, {1} hâlinde</CantRopeAnimalMentalState>
   <!-- EN: already in best pen -->
-  <CantRopeAnimalAlreadyInBestPen>zaten en iyi ahırda</CantRopeAnimalAlreadyInBestPen>
+  <CantRopeAnimalAlreadyInBestPen>zaten en iyi ağılda</CantRopeAnimalAlreadyInBestPen>
   <!-- EN: {0} skill too low -->
   <SkillTooLowForConstruction>{0} becerisi çok düşük</SkillTooLowForConstruction>
   <!-- EN: need components -->
-  <NoComponentsToRepair>bileşenlere gerekli</NoComponentsToRepair>
+  <NoComponentsToRepair>bileşen gerekli</NoComponentsToRepair>
   <!-- EN: need {0} -->
   <NoFuelToRefuel>{0} gerekli</NoFuelToRefuel>
   <!-- EN: need wort -->
-  <NoWort>arpa mayası gerekli</NoWort>
+  <NoWort>bira şerbeti gerekli</NoWort>
   <!-- EN: available food is in storage of higher priority -->
   <TheOnlyAvailableFoodIsInStorageOfHigherPriority>mevcut yiyecekler daha yüksek öncelikli depoda</TheOnlyAvailableFoodIsInStorageOfHigherPriority>
   <!-- EN: no suitable food -->
@@ -143,13 +143,13 @@
   <!-- EN: self-tend disabled -->
   <SelfTendDisabled>kendi kendine tedavi devre dışı</SelfTendDisabled>
   <!-- EN: reserved for prisoners -->
-  <ReservedForPrisoners>mahkumlar için ayırtılmış</ReservedForPrisoners>
+  <ReservedForPrisoners>mahkûmlar için ayırtılmış</ReservedForPrisoners>
   <!-- EN: cannot reach -->
   <CannotReach>ulaşamaz</CannotReach>
   <!-- EN: not ready for surgery -->
-  <NotSurgeryReady>ameliyata hazırlıklı değil</NotSurgeryReady>
+  <NotSurgeryReady>ameliyata hazır değil</NotSurgeryReady>
   <!-- EN: skill incapable -->
-  <SkillDisabled>beceriksiz</SkillDisabled>
+  <SkillDisabled>kabiliyetsiz</SkillDisabled>
   <!-- EN: too bright -->
   <CantSowCavePlantBecauseOfLight>çok parlak</CantSowCavePlantBecauseOfLight>
   <!-- EN: unroofed -->
@@ -157,100 +157,100 @@
   <!-- EN: incapable of deconstruction -->
   <IncapableOfDeconstruction>yıkım yapamaz</IncapableOfDeconstruction>
   <!-- EN: incapable of mining -->
-  <IncapableOfMining>kazım yapamaz</IncapableOfMining>
+  <IncapableOfMining>kazı yapamaz</IncapableOfMining>
   <!-- EN: tree marked for extraction -->
-  <TreeMarkedForExtraction>ağaç çıkarma için belirlendi</TreeMarkedForExtraction>
+  <TreeMarkedForExtraction>ağaç sökülmek için işaretlendi</TreeMarkedForExtraction>
   <!-- EN: angers faction -->
   <AngersFaction>fraksiyonu kızdırır</AngersFaction>
   <!-- EN: no body part -->
   <InstallImplantNoBodyPart>vücut parçası yok</InstallImplantNoBodyPart>
   <!-- EN: not a colonist -->
-  <InstallImplantNotAllowedForNonColonists>kolonist değil</InstallImplantNotAllowedForNonColonists>
+  <InstallImplantNotAllowedForNonColonists>kolonici değil</InstallImplantNotAllowedForNonColonists>
   <!-- EN: already installed -->
   <InstallImplantAlreadyInstalled>zaten nakledilmiş</InstallImplantAlreadyInstalled>
   <!-- EN: requires an existing {0} -->
   <InstallImplantHediffRequired>mevcut bir {0} gerektirir</InstallImplantHediffRequired>
   <!-- EN: max level -->
-  <InstallImplantAlreadyMaxLevel>maks seviye</InstallImplantAlreadyMaxLevel>
+  <InstallImplantAlreadyMaxLevel>azami seviye</InstallImplantAlreadyMaxLevel>
   <!-- EN: requires min level {0} -->
-  <InstallImplantMinLevel>minimum seviye {0} gerektirir</InstallImplantMinLevel>
+  <InstallImplantMinLevel>asgari {0} seviyesini gerektirir</InstallImplantMinLevel>
   <!-- EN: psychically deaf -->
   <InstallImplantPsychicallyDeaf>psişik olarak sağır</InstallImplantPsychicallyDeaf>
   <!-- EN: Upgrade {0} to level {1} -->
-  <UpgradeImplant>{0}'ı {1} seviyesine yükselt</UpgradeImplant>
+  <UpgradeImplant>{1} seviyesine yükselt: {0}</UpgradeImplant>
   <!-- EN: violation of faction ally -->
   <SurgeryViolationFellowFactionMember>müttefik fraksiyon ihlali</SurgeryViolationFellowFactionMember>
   <!-- EN: being carried by {0_labelShort} -->
   <BeingCarriedBy>{0_labelShort} tarafından taşınıyor</BeingCarriedBy>
   <!-- EN: full -->
-  <ContainerFull>full</ContainerFull>
+  <ContainerFull>dolu</ContainerFull>
   <!-- EN: already assigned -->
   <AlreadyAssigned>zaten atanmış</AlreadyAssigned>
   
   <!-- EN: Consume {1_labelShort} -->
-  <ConsumeThing>{1_labelShort}'i tüket</ConsumeThing>
+  <ConsumeThing>Tüket: {1_labelShort}</ConsumeThing>
   
   <!-- EN: Cannot go here: No path -->
-  <CannotGoNoPath>Buraya gidemez: yol yok</CannotGoNoPath>
+  <CannotGoNoPath>Buraya gidemez: Yol yok</CannotGoNoPath>
   <!-- EN: Go here -->
   <GoHere>Buraya git</GoHere>
 
   <!-- EN: Clean {0} -->
-  <CleanRoom>{0_definite} odasını temizle</CleanRoom>
+  <CleanRoom>Temizle: {0}</CleanRoom>
   
   <!-- EN: Arrest {0} -->
-  <Arrest>{0}'i tutukla</Arrest>
+  <Arrest>Tutukla: {0}</Arrest>
   <!-- EN: Try to arrest {1_labelShort} ({2} chance) -->
-  <TryToArrest>{1_label}'i ({2} şansla) tutuklamaya çalış</TryToArrest>
+  <TryToArrest>{1_label} kişisini tutuklamaya çalış ({2} ihtimal)</TryToArrest>
   <!-- EN: Cannot arrest -->
   <CannotArrest>Tutuklayamaz</CannotArrest>
   <!-- EN: {0} chance of arrest -->
-  <ArrestChance>{0} tutuklama şansı</ArrestChance>
+  <ArrestChance>Tutuklama ihtimali {0}</ArrestChance>
 
   <!-- EN: Capture {1_labelShort} -->
-  <Capture>{1_label}'i esir al</Capture>
+  <Capture>Esir al: {1_label}</Capture>
   <!-- EN: capture {0_labelShort} -->
-  <CaptureLower>{0_labelShort}'i esir al</CaptureLower>
+  <CaptureLower>esir al: {0_labelShort}</CaptureLower>
   <!-- EN: Cannot capture -->
-  <CannotCapture>Esir alınamaz</CannotCapture>
+  <CannotCapture>Esir alamaz</CannotCapture>
   <!-- EN: unwaveringly loyal -->
-  <Unrecruitable>tereddütsüz sadık</Unrecruitable>
+  <Unrecruitable>sarsılmaz sadakat</Unrecruitable>
   <!-- EN: not recruitable -->
   <UnrecruitableNoFaction>koloniye katılamaz</UnrecruitableNoFaction> 
   <!-- EN: Transfer {0_label} -->
-  <TransferEntity>{0_definite}'i aktar</TransferEntity> 
+  <TransferEntity>Aktar: {0_definite}</TransferEntity> 
 
   <!-- EN: Rescue {1_labelShort} -->
-  <Rescue>{1_label}'i kurtar</Rescue>
+  <Rescue>Kurtar: {1_label}</Rescue>
   <!-- EN: Put {1_labelShort} somewhere safe -->
-  <PutSomewhereSafe>{1_label} öğesini güvenli bir yere koyun</PutSomewhereSafe>
+  <PutSomewhereSafe>{1_label} kişisini güvenli bir yere koy</PutSomewhereSafe>
   <!-- EN: Taking {0_labelShort} to bed. -->
-  <TakingToBed>{0_labelShort} yatağına götürülüyor.</TakingToBed>
+  <TakingToBed>{0_labelShort} kişisini yatağa götürüyor.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Kurtaramaz</CannotRescue>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
-  <CarryToCryptosleepCasket>{1_label}'i kriptouyku kapsülüne taşı</CarryToCryptosleepCasket>
+  <CarryToCryptosleepCasket>Kripto-uyku tabutuna taşı: {1_label}</CarryToCryptosleepCasket>
   <!-- EN: Cannot carry to cryptosleep casket -->
-  <CannotCarryToCryptosleepCasket>Kriptouyku kapsülüne taşıyamaz</CannotCarryToCryptosleepCasket>
+  <CannotCarryToCryptosleepCasket>Kripto-uyku tabutuna taşıyamaz</CannotCarryToCryptosleepCasket>
 
   <!-- EN: Carry {0_labelShort} to shuttle -->
-  <CarryToShuttle>{0_label}'i mekiğe taşı</CarryToShuttle>
+  <CarryToShuttle>Mekiğe taşı: {0_label}</CarryToShuttle>
 
   <!-- EN: No available cryptosleep casket. -->
-  <NoCryptosleepCasket>Kullanılabilir kriptouyku kapsülü yok.</NoCryptosleepCasket>
+  <NoCryptosleepCasket>Kullanılabilir kripto-uyku tabutu yok.</NoCryptosleepCasket>
   <!-- EN: Temporary faction members not allowed. -->
   <CryptosleepCasketGuestsNotAllowed>Geçici fraksiyon üyelerine izin verilmez.</CryptosleepCasketGuestsNotAllowed>
   <!-- EN: Hosted prisoners not allowed. -->
-  <CryptosleepCasketGuestPrisonersNotAllowed>Mahkumlara izin verilmez.</CryptosleepCasketGuestPrisonersNotAllowed>
+  <CryptosleepCasketGuestPrisonersNotAllowed>mahkûmlara izin verilmez.</CryptosleepCasketGuestPrisonersNotAllowed>
   <!-- EN: Already occupied -->
   <CryptosleepCasketOccupied>Zaten dolu</CryptosleepCasketOccupied>
   <!-- EN: No reachable, un-reserved, enclosed prisoner-marked bed in safe temperature. -->
-  <NoPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, ayırtılmamış mahkum işaretli yatak yok.</NoPrisonerBed>
+  <NoPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, ayırtılmamış mahkûm işaretli yatak yok.</NoPrisonerBed>
   <!-- EN: No prisoner bed available. -->
-  <NoPrisonerBedShort>Mahkum yatağı yok.</NoPrisonerBedShort>
+  <NoPrisonerBedShort>mahkûm yatağı yok.</NoPrisonerBedShort>
   <!-- EN: No reachable, un-reserved non-prisoner bed in safe temperature. -->
-  <NoNonPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, mahkumlara ayırtılmamış yatak yok.</NoNonPrisonerBed>
+  <NoNonPrisonerBed>Güvenli sıcaklıkta bulunan ulaşılabilir, mahkûmlara ayırtılmamış yatak yok.</NoNonPrisonerBed>
   <!-- EN: No reachable, un-reserved animal bed in safe temperature. -->
   <NoAnimalBed>Güvenli sıcaklıkta bulunan ulaşılabilir, ayırtılmamış hayvan yatağı yok.</NoAnimalBed>
   <!-- EN: No reachable, unforbidden, un-reserved {0} -->
@@ -448,17 +448,17 @@
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
-  <EnterCryptosleepCasket>Kriptouyku kapsülüne gir</EnterCryptosleepCasket>
+  <EnterCryptosleepCasket>Kripto-uyku tabutuna gir</EnterCryptosleepCasket>
   <!-- EN: Open cryptosleep casket -->
-  <OpenCryptosleepCasket>Kriptouyku kapsülünü aç</OpenCryptosleepCasket>
+  <OpenCryptosleepCasket>Kripto-uyku tabutunu aç</OpenCryptosleepCasket>
   <!-- EN: Get in shuttle -->
   <EnterShuttle>Mekiğe bin</EnterShuttle>
 
   <!-- e.g. Cannot VERB OBJECT, Cannot repair wall, Cannot haul metal, etc. -->
   <!-- EN: Cannot {0} {1} -->
-  <CannotGenericWork>Şunu yapamaz: {1} {0}</CannotGenericWork>
+  <CannotGenericWork>Yapamaz: {1} {0}</CannotGenericWork>
   <!-- EN: Cannot {0} -->
-  <CannotGenericWorkCustom>Şunu yapamaz: {0}</CannotGenericWorkCustom>
+  <CannotGenericWorkCustom>Yapamaz: {0}</CannotGenericWorkCustom>
 
   <!-- EN: Cannot prioritize: Incapable of {0} -->
   <CannotMissingHealthActivities>Öncelik veremez: {0} yapamaz</CannotMissingHealthActivities>
@@ -550,7 +550,7 @@
 
   <!-- Rescue quest -->
   <!-- EN: Free prisoner -->
-  <FreePrisoner>Serbest mahkum</FreePrisoner>
+  <FreePrisoner>Serbest mahkûm</FreePrisoner>
   <!-- EN: Offer help -->
   <OfferHelp>Yardım teklif et</OfferHelp>
 
@@ -625,5 +625,5 @@
   <!-- EN: already analyzed -->
   <AlreadyAnalyzed>zaten analiz edildi</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
-  <NoResearchBench>ulaşılabilir ve rezerve edilmemiş bir araştırma tezgahı mevcut değil</NoResearchBench>
+  <NoResearchBench>ulaşılabilir ve rezerve edilmemiş bir araştırma masası mevcut değil</NoResearchBench>
 </LanguageData>

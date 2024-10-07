@@ -66,9 +66,9 @@
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
     <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçli abasiadan muzdarip ve yatakta tutulması gerekiyor.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürüğü hastası ve günlük tedavi gerektirecek. Hastalık, yüksek kaliteli bakım ve ilaçla yavaşlatılabilir, ancak genellikle doğrudan tedavi edilemez. Hastalık şiddetli hale gelirse [lodgersLabelSingOrPluralDef] ölecektir, bu nedenle gerekli tıbbi malzemeye sahip olduğunuzdan emin olun.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürüğü hastası ve günlük tedavi gerektirecek. Hastalık, yüksek kaliteli bakım ve ilaçla yavaşlatılabilir, ancak genellikle doğrudan tedavi edilemez. Hastalık şiddetli hâle gelirse [lodgersLabelSingOrPluralDef] ölecektir, bu nedenle gerekli tıbbi malzemeye sahip olduğunuzdan emin olun.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]'in ruh halini [lodgersMoodThreshold_percent] üzerinde tutmalısınız.</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]'in ruh hâlini [lodgersMoodThreshold_percent] üzerinde tutmalısınız.</li>
     <li>workInfo-></li>
     <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] herhangi bir iş yapmaz.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
@@ -82,7 +82,7 @@
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)bir mekanik küme(/Threat) [threatSize]x boyutunda yakınlarda konuşlandırılacak.</li>
     <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)iki mekanik küme(/Threat) [threatSize]x boyutunda yakınlarda konuşlandırılacak.</li>
     <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] yakın zamanda [mechViolation] ve yörüngede dönen bir mekanoid sürüsü tarafından hedef alındı.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->Mahkumlar son zamanlarda [mechViolation] ve yörüngede dönen bir mekanoid sürüsü tarafından hedef alındı.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->mahkûmlar son zamanlarda [mechViolation] ve yörüngede dönen bir mekanoid sürüsü tarafından hedef alındı.</li>
     <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] yakın zamanda [mechViolation] ve mekanik bir kovan tarafından hedef alındı.</li>
     <li>threatsInfoMechRaidsMultiHuman->Son zamanlarda [mechViolation] ve mekanik bir kovan tarafından hedef alındılar.</li>
     <li>mechViolation->bir şekilde bir makine kişisini kızdırdı</li>

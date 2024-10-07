@@ -11,7 +11,7 @@
   <!-- EN: Training -->
   <TabTraining>Eğitim</TabTraining>
   <!-- EN: Prisoner -->
-  <TabPrisoner>Mahkum</TabPrisoner>
+  <TabPrisoner>mahkûm</TabPrisoner>
   <!-- EN: Guest -->
   <TabGuest>Misafir</TabGuest>
   <!-- EN: Gear -->
@@ -63,9 +63,9 @@
   <!-- EN: Add bill -->
   <AddBill>Sipariş ekle</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>{0} siparişi aşağıdaki becerileri gerektirir. Kolonistlerinizin hiçbiri bu yeteneklere sahip değil, bu yüzden kimse bu siparişi tamamlayamayacak.</RecipeRequiresSkills>
+  <RecipeRequiresSkills>{0} siparişi aşağıdaki becerileri gerektirir. kolonicilerinizin hiçbiri bu yeteneklere sahip değil, bu yüzden kimse bu siparişi tamamlayamayacak.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
-  <MinimumSkill>En az seviye</MinimumSkill>
+  <MinimumSkill>Asgari seviye</MinimumSkill>
   <!-- EN: SUSPENDED -->
   <SuspendedCaps>ASKIYA ALINDI</SuspendedCaps>
   <!-- EN: Worker: {1_labelShort} -->
@@ -95,17 +95,17 @@
   <!-- EN: Resistance -->
   <RecruitmentResistance>Kalan direnç</RecruitmentResistance>
   <!-- EN: How much doubt this prisoner has about joining your faction. When this reaches zero, they can be recruited. -->
-  <RecruitmentResistanceDesc>Bu mahkumun sizin fraksiyonunuza katılması konusunda olağan kararsızlığı. Bu sıfıra ulaştığında, koloniye alınabilirler.</RecruitmentResistanceDesc>
+  <RecruitmentResistanceDesc>Bu mahkûmun sizin fraksiyonunuza katılması konusunda olağan kararsızlığı. Bu sıfıra ulaştığında, koloniye alınabilirler.</RecruitmentResistanceDesc>
   <!-- EN: {0} base resistance -->
   <RecruitmentResistanceFromPawnKind>Taban direnç: {0}</RecruitmentResistanceFromPawnKind>
   <!-- EN: Relations gain on release -->
   <PrisonerReleasePotentialRelationGains>Serbest bırakmada ilişki kazancı</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction goodwill you will get from the prisoner's faction if you release them. This is affected by the prisoner's identity, health, and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>Fraksiyon ilişkilerini geliştirmek için mahkumu serbest bırakabilirsiniz. Bu mahkumun bırakıldığındaki sağlığı ve zihinsel durumundan etkilenebilir.</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>Fraksiyon ilişkilerini geliştirmek için mahkûmu serbest bırakabilirsiniz. Bu mahkûmun bırakıldığındaki sağlığı ve zihinsel durumundan etkilenebilir.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
   <PrisonBreakMTBDays>Hapishaneden kaçış deneme süresi</PrisonBreakMTBDays>
   <!-- EN: The average days awake between prison breaks. This is affected by mood, mobility, the number of prison doors, and time since the last prison break.\n\nNote that this does not include time spent asleep. -->
-  <PrisonBreakMTBDaysDescription>Hapishane kaçış girişimleri arasında geçen ortalama gün sayısı. Ruh halinden, özgür hissetmeden ve son hapishaneye atılıştan bu yana geçen süreden etkilenir.\n\nBu sayı, uslu durulan göz ardı eder, bu nedenle gerçek ortalama hapishane kaçış denemesi aralığı genellikle daha uzun olur.</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>Hapishane kaçış girişimleri arasında geçen ortalama gün sayısı. Ruh hâlinden, özgür hissetmeden ve son hapishaneye atılıştan bu yana geçen süreden etkilenir.\n\nBu sayı, uslu durulan göz ardı eder, bu nedenle gerçek ortalama hapishane kaçış denemesi aralığı genellikle daha uzun olur.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
   <Never>Asla</Never>
   <!-- EN: Not while asleep -->
@@ -141,11 +141,11 @@
   <!-- EN: Recruiter negotiation ability -->
   <RecruiterNegotiationAbility>Gardiyanın müzakere yeteneği</RecruiterNegotiationAbility>
   <!-- EN: Unwavering loyalty -->
-  <NonRecruitable>Tereddütsüz sadakat</NonRecruitable>
+  <NonRecruitable>Sarsılmaz sadakat</NonRecruitable>
   <!-- EN: This prisoner is so unwaveringly loyal to their home that they refuse to be recruited entirely. -->
-  <NonRecruitableTip>Bu mahkûm, evlerine o kadar tereddütsüz bir şekilde sadık koloniye katılmayı tamamen reddediyor.</NonRecruitableTip>
+  <NonRecruitableTip>Bu mahkûm, evine o kadar sarsılmaz bir şekilde sadık ki koloniye katılmayı tamamen reddediyor.</NonRecruitableTip>
   <!-- EN: What type of medicine can be given to this prisoner. -->
-  <MedicineQualityDescriptionPrisoner>Bu mahkuma sağlanabilecek ilacın türü.</MedicineQualityDescriptionPrisoner>
+  <MedicineQualityDescriptionPrisoner>Bu mahkûma sağlanabilecek ilacın türü.</MedicineQualityDescriptionPrisoner>
 
 
 
@@ -178,7 +178,7 @@
   <!-- EN: untended injury -->
   <UntendedInjury>Tedavi edilmemiş yaralanma</UntendedInjury>
   <!-- EN: no health conditions -->
-  <NoHealthConditions>Sağlık problemi yok</NoHealthConditions>
+  <NoHealthConditions>Sağlık sorunu yok</NoHealthConditions>
   <!-- EN: Whole body -->
   <WholeBody>Tüm vücut</WholeBody>
   <!-- EN: Data processing -->
@@ -435,7 +435,7 @@
   <AutocutUnenclosedPenTip>kümes artık kapalı değil, bu nedenle otomatik kesme gerçekleşmeyecek.</AutocutUnenclosedPenTip>
 
   <!-- EN: Auto-cut blocking plants -->
-  <WindTurbineAutoCut_EnabledCheckbox>Rüzgar türbinini engelleyen otomatik kesilen bitkiler</WindTurbineAutoCut_EnabledCheckbox>
+  <WindTurbineAutoCut_EnabledCheckbox>rüzgâr türbinini engelleyen otomatik kesilen bitkiler</WindTurbineAutoCut_EnabledCheckbox>
   
   <!-- Study tab  -->
   <!-- EN: Study progress -->
