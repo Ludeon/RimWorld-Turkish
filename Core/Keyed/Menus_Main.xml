@@ -21,15 +21,15 @@
   <!-- EN: Mods -->
   <Mods>Modlar</Mods>
   <!-- EN: Save translation report -->
-  <SaveTranslationReport>Çeviri raporunu kaydet</SaveTranslationReport>
+  <SaveTranslationReport>Çeviri raporu oluştur</SaveTranslationReport>
   <!-- EN: Generating translation report -->
-  <GeneratingTranslationReport>Çeviri raporu oluştur</GeneratingTranslationReport>
+  <GeneratingTranslationReport>Çeviri raporu oluşturuluyor</GeneratingTranslationReport>
   <!-- EN: Cleanup translation files -->
-  <CleanupTranslationFiles>Çeviri dosyalarını temizle</CleanupTranslationFiles>
+  <CleanupTranslationFiles>Çeviri dosyalarını yenile</CleanupTranslationFiles>
   <!-- EN: Update translations files (TKey's) -->
   <TranslationFilesTKeyUpdate>Çeviri dosyalarını güncelle</TranslationFilesTKeyUpdate>
   <!-- EN: Cleaning translation files -->
-  <CleaningTranslationFiles>Çeviri dosyaları temizleniyor</CleaningTranslationFiles>
+  <CleaningTranslationFiles>Çeviri dosyaları yenileniyor</CleaningTranslationFiles>
   <!-- EN: Dev quicktest -->
   <DevQuickTest>Geliştirici hızlı test</DevQuickTest>
   <!-- EN: Credits -->
@@ -151,7 +151,7 @@
   <!-- EN: Are you sure you want to disable the core mod? The game won't work at all unless you have another mod that replaces all the core functionality.\n\nRemember, other mods can override defs in the core mod by using the same defName. -->
   <ConfirmDisableCoreMod>Çekirdek modu devre dışı bırakmak istediğinizden emin misiniz? Tüm temel işlevlerin yerini alan başka bir modunuz olmadığı sürece oyun hiç çalışmayacaktır.\n\nUnutmayın, diğer modlar aynı defName kullanarak çekirdek moddaki tanımları geçersiz kılabilir.</ConfirmDisableCoreMod>
   <!-- EN: Are you sure you want to delete all the content for {0}? -->
-  <ConfirmDeleteMod>{0} İçin tüm içeriği silmek istediğinizden emin misiniz?</ConfirmDeleteMod>
+  <ConfirmDeleteMod>{0} için tüm içeriği silmek istediğinizden emin misiniz?</ConfirmDeleteMod>
   <!-- EN: Auto-sort mods -->
   <ResolveModOrder>Modları otomatik sırala</ResolveModOrder>
   <!-- EN: Save and apply changes -->
@@ -175,11 +175,11 @@
   <!-- EN: Enabled -->
   <Enabled>Etkinleştirilmiş</Enabled>
   <!-- EN: Disabled -->
-  <Disabled>devre dışı</Disabled>
+  <Disabled>Devre dışı bırakılmış</Disabled>
   <!-- EN: Enable -->
-  <Enable>Etkinleştirilmiş</Enable>
+  <Enable>Etkinleştir</Enable>
   <!-- EN: Disable -->
-  <Disable>devre dışı</Disable>
+  <Disable>Devre dışı bırak</Disable>
   <!-- EN: Get mods from... -->
   <GetMods>Modları şuradan alın...</GetMods>
   <!-- EN: Unsubscribe from... -->
@@ -197,13 +197,13 @@
   <!-- EN: Shared mods -->
   <SharedModsList>Paylaşılan modlar</SharedModsList>
   <!-- EN: Website -->
-  <ModWebsite>Website</ModWebsite>
+  <ModWebsite>Web sitesi</ModWebsite>
   <!-- EN: Open folder -->
   <ModFolder>Dosyayı aç</ModFolder>
   <!-- EN: Mod options -->
   <ModOptions>Mod seçenekleri</ModOptions>
   <!-- EN: Workshop -->
-  <FromWorkshop>Workshop</FromWorkshop>
+  <FromWorkshop>Atölye</FromWorkshop>
   <!-- EN: Forum -->
   <FromForum>Forum</FromForum>
   <!-- EN: Advanced... -->
@@ -215,21 +215,21 @@
   <!-- EN: All incompatible mods -->
   <AllIncompatibleMods>Tüm uyumsuz modlar</AllIncompatibleMods>
   <!-- EN: Workshop page -->
-  <WorkshopPage>Atölye Sayfası</WorkshopPage>
+  <WorkshopPage>Atölye sayfası</WorkshopPage>
   <!-- EN: Upload to Steam Workshop -->
   <UploadToSteamWorkshop>Steam atölyesine yükle</UploadToSteamWorkshop>
   <!-- EN: Update on Steam Workshop -->
   <UpdateOnSteamWorkshop>Steam atölyesindeki dosyayı güncelle</UpdateOnSteamWorkshop>
   <!-- EN: Upload already in progress. -->
-  <UploadAlreadyInProgress>Zaten yükleniyor</UploadAlreadyInProgress>
+  <UploadAlreadyInProgress>Zaten yükleniyor.</UploadAlreadyInProgress>
   <!-- EN: Workshop submission failed.\n\nReason: {0} -->
-  <WorkshopSubmissionFailed>Yükleme Tamamlanamadı\n\nSebep: {0}</WorkshopSubmissionFailed>
+  <WorkshopSubmissionFailed>Atölye yüklemesi tamamlanamadı.\n\nSebep: {0}</WorkshopSubmissionFailed>
   <!-- EN: Successfully uploaded {0}. -->
-  <WorkshopUploadSucceeded>Başarıyla Yüklendi {0}.</WorkshopUploadSucceeded>
+  <WorkshopUploadSucceeded>{0} başarıyla yüklendi.</WorkshopUploadSucceeded>
   <!-- EN: Downloading -->
-  <Downloading>Indiriliyor</Downloading>
+  <Downloading>İndiriliyor</Downloading>
   <!-- EN: Workshop ID -->
-  <WorkshopId>Workshop ID</WorkshopId>
+  <WorkshopId>Atölye ID</WorkshopId>
   <!-- EN: Display fulfilled requirements -->
   <ModDisplayFulfilledRequirements>Karşılanan gereksinimleri görüntüle</ModDisplayFulfilledRequirements>
   <!-- EN: Click to select. -->
@@ -269,29 +269,29 @@
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
   <ModNotMadeForThisVersion_Newer>Bu mod Rimworld'ün daha yeni bir versiyonu için yapılmıştır, muhtemelen düzgün çalışmayacaktır.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod needs properly formatted supported version information in About.xml. Like this: &lt;supportedVersions>&lt;li>{0}&lt;/li>&lt;/supportedVersions> - &lt;targetVersion> is deprecated. Check log for further information.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod, About.xml'de desteklenen sürümlerin doğru biçimlendirilmiş bir listesini gerektirir. Bunun gibi: {0}. Etiketin geçerliliği sona ermiştir. Daha fazla bilgi için günlük dosyasını kontrol edin.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n&lt;packageId>AuthorName.ModName&lt;/packageId>\n&lt;packageId>AuthorName.ModName.Specific&lt;/packageId></MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Modun About.xml'de benzersiz ve doğru biçimlendirilmiş bir paket kimliğine ihtiyacı var. Aşağıdaki gereksinimleri karşılaması gerekir:\n\n - Yalnızca alfanümerik karakterler ve noktalar.\n - Boşluk yok.\n - En az bir nokta.\n - Bir satırda tekrarlanan nokta yok veya bir kimlik ile başlayan veya biten bir kimlik yok nokta.\n - 60 karakter veya daha az.\n - "Ludeon" kelimesini içeremez.\n\nÖrneğin:\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>This mod has issues in LoadFolders.xml, that you need to resolve before uploading:</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>Bu modun LoadFolders.xml dosyasında yüklemeden önce çözmeniz gereken sorunlar var:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
-  <ModLoadFolderDoesntExist>Folder {0} specified for version {1} doesn't exist.</ModLoadFolderDoesntExist>
+  <ModLoadFolderDoesntExist>{1} sürümü için belirtilen {0} klasörü mevcut değil.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>Hatalı biçimli sürüm dizesi '{0}'. Doğru biçim Büyük.Küçük'dür (örn. 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
-  <ModLoadFolderListEmpty>The list of load folders for version {0} is empty.</ModLoadFolderListEmpty>
+  <ModLoadFolderListEmpty>{0} sürümü için yükleme klasörlerinin listesi boş.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>Version {0} lists the same folder more than once: {1}.</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>Sürüm {0} aynı klasörü birden fazla listeliyor: {1}.</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
-  <ModLoadFolderOutOfOrder>Invalid version order: {0} should come before {1}.</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrder>Geçersiz sürüm sırası: {0}, {1}'den önce gelmelidir.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>Invalid version order: 'default' should be defined first.</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>Geçersiz sürüm sırası: 'default' ilk olarak tanımlanmalıdır.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>Yükleme klasörlerinde 'varsayılan' kullanılması kullanımdan kaldırılmıştır. Lütfen v...-Tags etiketlerini kullanarak her sürüm için klasör tanımlayın.</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>Yükleme klasörlerinde 'default' kullanılması kullanımdan kaldırılmıştır. Lütfen v...-Tags etiketlerini kullanarak her sürüm için klasör tanımlayın.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>Sürüm {0} yükleme klasörlerinde tanımlanmış, ancak modun About.xml dosyasının 'supportedVersions' bölümünde listelenmiyor.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
-  <DragToReorder>Drag to reorder</DragToReorder>
+  <DragToReorder>Yeniden sıralamak için sürükleyin</DragToReorder>
 
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
@@ -319,7 +319,7 @@
   <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>Tüm alanlar doldurulmalıdır.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>Bunu Steam Atölyesi'ne yüklemek istediğinizden emin misiniz?\n\nSteam Workshop hizmet şartlarını kabul etmelisiniz. Tam şartları burada bulabilirsiniz:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
   <ConfirmContentAuthor>Yalnızca kendi oluşturduğunuz içeriği yüklemelisiniz.\n\nBu içeriği kendiniz mi oluşturdunuz?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
@@ -623,7 +623,7 @@
   <!-- EN: Backstory -->
   <Backstory>Geçmişi</Backstory>
   <!-- EN: Incapable of -->
-  <IncapableOf>Yapamayacakları;</IncapableOf>
+  <IncapableOf>Yapamayacakları</IncapableOf>
   <!-- EN: Abilities -->
   <Abilities>Beceriler</Abilities>
   <!-- EN: Caused by -->

@@ -5,10 +5,9 @@
 
 # Çeviriye başlarken
 
-   * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.
+   * Önce projeyi **forklayın** (sağ üstte), sonra forkladığınız projede yaptığınız değişiklikleri **Contribute** butonunu kullanarak **Open pull request** ile gönderin.  
+   * Çeviri yapmadan önce **mutlaka** [Discord topluluğumuza](https://discord.gg/yjnA2rm5UX) katılın. Discord sunucumuz üzerinden **Çevirmen Olmak İstiyorum** tuşuna basarak açılan kanallardan çeviri yaparken hangi programların kullanılması gerektiğini, projenin nasıl forklanacağını, çeviri dosyalarının nasıl güncelleneceğini, çeviri yaparken düzen için uymanız gereken kuralları ve bazı tam olarak Türkçe karşılığı olmayan sözcüklerin özel çevirilerine ayrıntılı olarak ulaşabilirsiniz. Çeviri yapmaya başlamadan önce **mutlaka** Discord sunucumuz üzerinden **Çevirmen** rolünü alarak **aktif-çeviriler** kanalından yapacağınız çeviriyi bildirin. Bu sayede birden fazla kişi aynı dosyalar üzerinde çeviri yapmaz ve boşuna uğraşmaktan kurtulmuş olur. Ayrıca çeviri yapmadan önce yapacağınız çevirinin **aktif-çeviriler** kanalında aktif olarak yapılıp yapılmadığını kontrol edin. Ek olarak topluluğumuza katılarak çeviri hatalarını ilgili kanaldan raporlayabilirsiniz. Ayrıntılı bilgiler için Discord topluluğumuza katılın ve gerekli yönergeleri okuyun. [Discord sunucumuza katılmak için tıklayın.](https://discord.gg/yjnA2rm5UX)
    * Wiki kısmından anasayfaya tıklatıp "Katkıda bulunmak için" kısmını okuyun.
-   * Çeviriyi güncellemek ve çeviri raporunu oluşturmak için okuyun: [#388](https://github.com/Ludeon/RimWorld-Turkish/issues/388)
-   * Çeviride dikkat etmeniz gereken konular için: [#387](https://github.com/Ludeon/RimWorld-Turkish/issues/387)
 
 ## Translators - Çevirmenler
 
@@ -28,7 +27,7 @@
 * [@Deniz "deniztheraven" Gümüş](https://github.com/denizubu)
 
 
-:star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya kendiniz katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hâli hazırda çevirilmeyi bekleyen çevirileri ve düzenlemeleri proje sayfamızdan kontrol edebilirsiniz.
+:star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya [Discord sunucumuza](https://discord.gg/yjnA2rm5UX) katılarak **hata-raporu** kanalına gönderi atabilirsiniz. Ayrıca direk kendiniz de katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda çevirilmeyi bekleyen çevirileri ve düzenlemeleri proje sayfamızdan kontrol edebilirsiniz.
 [Proje sayfasına bir göz atın.](https://github.com/Ludeon/RimWorld-Turkish/projects)
 
 

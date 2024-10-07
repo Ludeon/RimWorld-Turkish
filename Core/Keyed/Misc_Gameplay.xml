@@ -401,7 +401,7 @@
   <!-- EN: Follow master while drafted -->
   <CreatureFollowDrafted>Terbiyeci çatışma modundayken onu takip et</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>Saha çalışması yaparken ustayı takip edin</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>Çalışma yaparken ustayı takip et</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
   <ProximitySingleGoodwillChange>{1} ile {0}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
@@ -441,7 +441,7 @@
   <!-- EN: {0} x{1} -->
   <FilthLabel>{0} x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{0}/{1} x {2}</FilthLabelWithSource>
+  <FilthLabelWithSource>{0}/{1} x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
   <Required>Gerekli</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
@@ -1578,7 +1578,7 @@
   <!-- EN: Soldier -->
   <OutfitSoldier>Asker</OutfitSoldier>
   <!-- EN: Nudist -->
-  <OutfitNudist>Nudist</OutfitNudist>
+  <OutfitNudist>Çıplak</OutfitNudist>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1733,7 +1733,7 @@
 
   <!-- Rituals -->
   <!-- EN: ritual -->
-  <Ritual>ritual</Ritual>
+  <Ritual>ritüel</Ritual>
 
   <!-- EN: Takes place at -->
   <RitualTakesPlaceAt>konumunda gerçekleşir</RitualTakesPlaceAt>
@@ -1886,7 +1886,7 @@
   <!-- EN: ability already queued. -->
   <AbilityAlreadyQueued>yetenek zaten sıraya alındı.</AbilityAlreadyQueued>
   <!-- EN: Ability ready for {PAWN_nameDef}: {0} -->
-  <AbilityReadyLabel>Yetenek hazır: {0}</AbilityReadyLabel>
+  <AbilityReadyLabel>{PAWN_nameDef} için yetenek hazır: {0}</AbilityReadyLabel>
   <!-- EN: Abilities ready for {PAWN_nameDef}: {0} -->
   <AbilitiesReadyLabel>{PAWN_nameDef} için hazır yetenekler: {0}</AbilitiesReadyLabel>
   <!-- EN: {0_nameDef} is ready to use {1}. -->
@@ -2028,8 +2028,5 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>çatı tarafından engellendi</BlockedByRoof>
-  
-  <!-- UNUSED -->
-  <HealingCureHediff>{0_nameDef} için {1} tedavi edildi.</HealingCureHediff>
 
 </LanguageData>
