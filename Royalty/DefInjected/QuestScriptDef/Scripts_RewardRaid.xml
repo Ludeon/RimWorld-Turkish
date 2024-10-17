@@ -10,7 +10,7 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]'den [asker_nameFull] [asker_faction_leaderTitle], karavanlarından birini kurtarmanıza yardım etmenizi istiyor. Kervan, [map_definite] yakınında (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) [enemyFaction_name] tarafından  tarafından avlanıyor. [asker_nameDef], [enemyFaction_pawnsPlural]'ı, onları kervandan uzağa ve size doğru çekmesi için işaret vermenizi istiyor.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]'den [asker_nameFull] [asker_faction_leaderTitle], kervanlarından birini kurtarmanıza yardım etmenizi istiyor. Kervan, [map_definite] yakınında (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) [enemyFaction_name] tarafından  tarafından avlanıyor. [asker_nameDef], [enemyFaction_pawnsPlural]'ı, onları kervandan uzağa ve size doğru çekmesi için işaret vermenizi istiyor.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], sizden bir istekte bulunuyor. [asker_nameDef], onlara bir meydan okuma mesajı göndermenizi, onları saldırıya çekmenizi ve tehdidi kendiniz ortadan kaldırmanızı istiyor.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>

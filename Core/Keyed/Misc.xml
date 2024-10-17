@@ -4,20 +4,20 @@
   <!-- EN: Autosaving -->
   <Autosaving>Otomatik kaydediliyor</Autosaving>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart.\n\nSome time later, you land on this unknown rimworld.\n\nAs pieces of the shredded starship fall around you, you start making plans to survive. -->
-  <GameStartDialog>Üçünüz kript-uyku lahitlerinizde siren ve dağılan metal seslerine uyandınız. Gemi parçalanmadan önce, zar zor kaçış kapsüllerine ulaşıyorsunuz.\n\nBir süre sonra, bilinmeyen RimWorld'e iniş yapıyorsunuz.\n\n Parçalanmış uzay gemisinin parçaları etrafınıza düşerken, nasıl hayatta kalacağınıza karar veriyorsunuz.</GameStartDialog>
+  <GameStartDialog>Siren sesleri ve metal gıcırtıları, üçünüzü kripto-uyku lahitlerinizdeyken uyandırdı. Gemi parçalanmadan önce zar zor kaçış kapsüllerine ulaşmayı başardınız. Bir süre sonra, bilinmeyen bu kenardünyaya iniş yaptınız.\n\nDağılan yıldız gemisinin parçaları etrafınıza düşerken hayatta kalmak için planlar yapmaya başlıyorsunuz.</GameStartDialog>
   <!-- EN: Colony -->
   <Colony>Koloni</Colony>
   <!-- EN: You can only change language from the options screen on the main menu. -->
-  <ChangeLanguageFromMainMenu>Dili yalnızca ana menüdeki seçenekler ekranından değiştirebilirsiniz.</ChangeLanguageFromMainMenu>
+  <ChangeLanguageFromMainMenu>Dili yalnızca ana menüdeki ayarlar ekranından değiştirebilirsin.</ChangeLanguageFromMainMenu>
   <!-- EN: and -->
   <AndLower>ve</AndLower>
   <!-- EN: disabled -->
-  <DisabledLower>engelli</DisabledLower>
+  <DisabledLower>devre dışı</DisabledLower>
 
   <!-- EN: Version {0} -->
-  <VersionIndicator>Versiyon {0}</VersionIndicator>
+  <VersionIndicator>Sürüm {0}</VersionIndicator>
   <!-- EN: Game version -->
-  <GameVersionIndicator>Oyun versiyonu</GameVersionIndicator>
+  <GameVersionIndicator>Oyun sürümü</GameVersionIndicator>
   <!-- EN: development build -->
   <DevelopmentBuildLower>geliştirme sürümü</DevelopmentBuildLower>
   <!-- EN: Compiled {0} -->
@@ -29,7 +29,7 @@
   <!-- EN: {0} and {1} -->
   <ToCommaListAnd>{0} ve {1}</ToCommaListAnd>
   <!-- EN: {0} or {1} -->
-  <ToCommaListOr>{0} veya {1}}</ToCommaListOr>
+  <ToCommaListOr>{0} veya {1}</ToCommaListOr>
   
   <!-- General-use words -->
   <!-- EN: Yes -->
@@ -45,13 +45,13 @@
   <!-- EN: Sex -->
   <Sex>Cinsiyet</Sex>
   <!-- EN: min -->
-  <min>min</min>
+  <min>asgari</min>
   <!-- EN: max -->
-  <max>maks</max>
+  <max>azami</max>
   <!-- EN: chance -->
-  <chance>şans</chance>
+  <chance>ihtimal</chance>
   <!-- EN: context -->
-  <context>durum</context>
+  <context>bağlam</context>
   <!-- EN: multiplier -->
   <multiplier>çarpan</multiplier>
   <!-- EN: damage -->
@@ -59,19 +59,19 @@
   <!-- EN: radius -->
   <radius>yarıçap</radius>
   <!-- EN: expired -->
-  <expired>süresi doldu</expired>
+  <expired>süresi dolmuş</expired>
   <!-- EN: duration (days) -->
   <durationDays>süre (gün)</durationDays>
   <!-- EN: interval (days) -->
   <intervalDays>aralık (gün)</intervalDays>
   <!-- EN: delay (days) -->
-  <delayDays>gecikme (gün)</delayDays> <!-- text_todo -->
+  <delayDays>gecikme (gün)</delayDays>
   <!-- EN: repeat -->
   <repeat>tekrar et</repeat>
   <!-- EN: default -->
   <default>varsayılan</default>
   <!-- EN: distance -->
-  <distance>uzaklık</distance>
+  <distance>mesafe</distance>
   <!-- EN: YES -->
   <YesUppercase>EVET</YesUppercase>
   <!-- EN: NO -->
@@ -95,43 +95,40 @@
   <!-- EN: Factors -->
   <Factors>Faktörler</Factors>
   <!-- EN: Uses -->
-  <Uses>Kullanıcılar</Uses>
+  <Uses>Kullanımlar</Uses>
   <!-- EN: Translation -->
   <Translation>Tercüme</Translation>
   <!-- EN: min(days) -->
-  <minDays>min(gün)</minDays>
+  <minDays>asgari(gün)</minDays>
   <!-- EN: max(days) -->
-  <maxDays>maks(gün)</maxDays>
+  <maxDays>azami(gün)</maxDays>
   <!-- EN: Processing -->
   <Processing>İşleniyor</Processing>
   <!-- EN: Inspect -->
-  <Inspect>İncelemek</Inspect> 
+  <Inspect>İncele</Inspect> 
 
   <!-- Content generation-->
   
   <!-- EN: {0} meat -->
   <MeatLabel>{0} et</MeatLabel>
   <!-- EN: Raw butchered flesh. Can be cooked into meals, or eaten raw. -->
-  <MeatDesc>Çiğ, yeni kesilmiş et. Yemekler için pişirilebilir veya çiğ yenebilir.</MeatDesc>
+  <MeatDesc>Çiğ, kesilmiş et. pişirilerek yemek yapılabilir veya çiğ yenebilir.</MeatDesc>
   <!-- EN: Raw butchered flesh. If necessary, can be cooked into meals, or even eaten raw. Extremely unappetizing. -->
-  <MeatInsectDesc>Çiğ böcek eti. Gerekirse, yemekler için pişirilebilir, hatta çiğ yenebilir. Son derece iştah açıcı.</MeatInsectDesc>
+  <MeatInsectDesc>Çiğ, kesilmiş böcek eti. Gerekirse pişirilerek yemek yapılabilir hatta çiğ yenebilir. Son derece iştah kaçırıcı.</MeatInsectDesc>
   <!-- EN: Raw butchered flesh. Can be cooked into meals or eaten raw, although most humans dislike the idea. -->
-  <MeatHumanDesc>Çiğ insan eti. Çoğu insan bu fikri sevmese de yemekler için pişirilebilir veya çiğ yenilebilir.</MeatHumanDesc>
+  <MeatHumanDesc>Çiğ, kesilmiş insan eti. Pişirilerek yemek yapılabilir veya çiğ yenebilir ancak çoğu insan bu fikirden hoşlanmaz.</MeatHumanDesc>
 
   <!-- EN: techprint ({PROJECT_label}) -->
   <TechprintLabel>teknobaskı ({PROJECT_label})</TechprintLabel>
-  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.
-\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.
-\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.
-\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
-  <TechprintDesc>Bu, '{PROJECT_label}' araştırma projesi için bir teknobaskıdır.\n\nFiziksel teknik formlar, diyagramlı kağıt artıkları, gelişmiş bağımsız eğitim makinelerine kadar değişebilir. Biçimden bağımsız olarak, aynı rolü oynarlar. Araştırmacılarınıza bir fikrin mümkün olduğuna dair güven ve daha yerleşik toplumlarda kullanılan tasarımlar hakkında kabaca bir fikir veriyorlar.\n\nAraştırmacıların, belirli bir teknolojiye nereden başlayacaklarını bilmek için teknisyenler tarafından sunulan temel bilgiye ihtiyaç duyuyorlar. Araştırmacılar, ancak yeterli teknolojiler uygulandıktan sonra, kendi durumunuzda teknolojiyi nasıl kullanacağınıza dair ince ayrıntıları öğrenebilir.\n\nTeknik bir projeyi memnun bir projeye uygulamak kalan araştırma ilerlemesinin yarısını karşılar. Buna ek olarak, araştırmacılar, teknik uygulamaları uygularken, zaten tamamlanmış teknolojilerde bile entelektüel becerilerini her zaman artırırlar.</TechprintDesc>
+  <!-- EN: This is a techprint for the research project '{PROJECT_label}'.\nThe physical form of techprints can range from scraps of paper with diagrams, all the way to advanced self-contained teaching machines. Regardless of form, they play the same role. They give your researchers the confidence that an idea is possible, and a rough idea of the designs used in more established societies.\nYour researchers need the foundational knowledge offered by techprints to know where to start on a given technology. Only after enough techprints have been applied can your researchers work out the fine details of how to make use of the technology in your particular situation.\nApplying techprints to a satisfied project fulfills half the remaining research progress. In addition, researchers always gain a boost to their intellectual skills when applying techprints, even on already-completed technologies. -->
+  <TechprintDesc>Bu, '{PROJECT_label}' araştırma projesi için bir teknobaskıdır.\nTeknobaskıların fiziksel formları, diyagramlı kağıt parçalarından gelişmiş müstakil eğitim makinelerine kadar değişkenlik gösterirler. Biçimden bağımsız olarak aynı işe yararlar. Araştırmacılarınıza bir fikrin mümkün olduğuna dair güven ve daha yerleşik toplumlarda kullanılan tasarımlar hakkında kabaca bir fikir verirler.\nAraştırmacıların, belirli bir teknolojiye nereden başlayacaklarını bilmek için teknobaskıların sunduğu temel bilgilere ihtiyaç duyarlar. Ancak yeterli teknobaskılar uygulandıktan sonra teknolojinin nasıl durumunuza özgü biçimde kullanılacağına dair ince ayrıntıları öğrenebilirler.\nHâlihazırda teknobaskı uygulanmış bir projeye teknobaskılar uygulamak, kalan araştırma sürecinin yarısını tamamlar. Ayrıca, araştırmacılar teknobaskılar uygularken, hâlihazırda tamamlanmış teknolojiler olsa bile, daima entelektüel becerilerine takviye alırlar.</TechprintDesc>
   <!-- EN: Unlocks -->
   <Unlocks>Kilidini açar</Unlocks>
 
   <!-- EN: {0} corpse -->
   <CorpseLabel>{0} ceset</CorpseLabel>
   <!-- EN: Dead body of a {0}. -->
-  <CorpseDesc>{0} cesedi.</CorpseDesc>
+  <CorpseDesc>Bir {0} cesedi.</CorpseDesc>
   <!-- EN: {1_label} (dead) -->
   <DeadLabel>{1_label} (öldü)</DeadLabel>
 
@@ -140,13 +137,13 @@
   <!-- EN: Rough, natural {0} ground. -->
   <RoughStoneTerrainDesc>Kaba, doğal {0} zemin.</RoughStoneTerrainDesc>
   <!-- EN: rough-hewn {0} -->
-  <RoughHewnStoneTerrainLabel>kabaca kesilmiş {0}</RoughHewnStoneTerrainLabel>
+  <RoughHewnStoneTerrainLabel>kabaca yontulmuş {0}</RoughHewnStoneTerrainLabel>
   <!-- EN: Roughly cut natural {0} floor. -->
-  <RoughHewnStoneTerrainDesc>Kabaca doğal {0} zemin kesin.</RoughHewnStoneTerrainDesc>
+  <RoughHewnStoneTerrainDesc>Kabaca kesilmiş, doğal {0} zemin.</RoughHewnStoneTerrainDesc>
   <!-- EN: smooth {0} -->
-  <SmoothStoneTerrainLabel>düzgün {0}</SmoothStoneTerrainLabel>
+  <SmoothStoneTerrainLabel>düz {0}</SmoothStoneTerrainLabel>
   <!-- EN: Smoothed natural {0} floor. -->
-  <SmoothStoneTerrainDesc>Düzgünleştirilmiş {0} zemin.</SmoothStoneTerrainDesc>
+  <SmoothStoneTerrainDesc>Düzleştirilmiş {0} zemin.</SmoothStoneTerrainDesc>
 
   <!-- EN:  (blueprint) -->
   <BlueprintLabelExtra> (tasarım)</BlueprintLabelExtra>
@@ -154,13 +151,13 @@
   <FrameLabelExtra> (yapılar)</FrameLabelExtra>
 
   <!-- EN: Unaffiliated -->
-  <FactionUnaffiliated>Bağlı olmayan</FactionUnaffiliated>
+  <FactionUnaffiliated>Bağımsız</FactionUnaffiliated>
 
   <!-- EN: Continue anyway? -->
-  <StillWishContinue>Her halükarda devam et?</StillWishContinue>
+  <StillWishContinue>Yine de devam edecek misin?</StillWishContinue>
   
   <!-- EN: ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah -->
-  <BabyTalk>ba,bah,boo,buh,ga,gah,goo,nyah,na,nah,noo,woo,wah,wuh,ma,mah</BabyTalk>
+  <BabyTalk>ba-ba, bu-bu, ga-ga, gu, ya, na-na, nu, vu-vu, va, ma-ma</BabyTalk>
 
   <!-- For things made of stuff, e.g. "Stone bed" -->
   <!-- 0 is the stuffAdjective property under stuffProps and 1 is the label -->
@@ -168,9 +165,9 @@
   <ThingMadeOfStuffLabel>{0} {1}</ThingMadeOfStuffLabel>
 
   <!-- EN: {PAWN_labelShort}'s {1} -->
-  <SomeonesRoom>{PAWN_labelShort} adlı kullanıcının {1}</SomeonesRoom>
+  <SomeonesRoom>{PAWN_labelShort} kişisine ait {1}</SomeonesRoom>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort}'s {2} -->
-  <CouplesRoom>{PAWN1_labelShort} ve {PAWN2_labelShort} adlı kullanıcının {2}</CouplesRoom>
+  <CouplesRoom>{PAWN1_labelShort} ve {PAWN2_labelShort} ikilisine ait {2}</CouplesRoom>
   
   <!-- EN: Important for this type of room. -->
   <StatRelatesToCurrentRoom>Bu oda tipi için önemlidir.</StatRelatesToCurrentRoom>
@@ -183,7 +180,7 @@
 
   <!-- History events -->
   <!-- EN: Colonist died -->
-  <ColonistDied>kolonici öldü</ColonistDied>
+  <ColonistDied>Kolonici öldü</ColonistDied>
   
   <!-- Rotation -->
   <!-- EN: North -->
@@ -196,17 +193,17 @@
   <East>Doğu</East>
 
   <!-- EN: applying techprint ({0}) -->
-  <ApplyingTechprint>Teknobaskı uygulamak ({0})</ApplyingTechprint>
+  <ApplyingTechprint>Teknobaskı uygulanıyor ({0})</ApplyingTechprint>
 
   <!-- Apparel Looks -->
   <!-- EN: variant of -->
-  <VariantOf>varyantıdır</VariantOf>
+  <VariantOf>varyantıdır:</VariantOf>
   
   <!-- Familial relationships -->
   <!-- EN: born to {0} -->
-  <BornOfParents>{0} doğumlu</BornOfParents>
+  <BornOfParents>{0} ailesinden</BornOfParents>
   <!-- EN: unknown parents -->
-  <ParentsUnknown>bilinmeyen ebeveynler</ParentsUnknown>
+  <ParentsUnknown>ebeveynler bilinmiyor</ParentsUnknown>
   
   <!-- Legal status -->
   <!-- EN: colonist -->
