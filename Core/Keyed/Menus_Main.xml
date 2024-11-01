@@ -245,17 +245,17 @@
   <!-- EN: ID -->
   <ModPackageId>ID</ModPackageId>
   <!-- EN: This must be loaded before: {0}. -->
-  <ModMustLoadBefore>Şundan önce yüklenmeli: {0}.</ModMustLoadBefore>
+  <ModMustLoadBefore>Şunlardan önce yüklenmeli: {0}.</ModMustLoadBefore>
   <!-- EN: This must be loaded after: {0}. -->
-  <ModMustLoadAfter>Şundan sonra yüklenmeli: {0}.</ModMustLoadAfter>
+  <ModMustLoadAfter>Şunlardan sonra yüklenmeli: {0}.</ModMustLoadAfter>
   <!-- EN: Depends on: {0} -->
-  <ModDependsOn>Şuna bağlı: {0}</ModDependsOn>
+  <ModDependsOn>Şunlara bağlı: {0}</ModDependsOn>
   <!-- EN: Incompatible with: {0} -->
-  <ModIncompatibleWith>Şununla uyumsuz: {0}.</ModIncompatibleWith>
+  <ModIncompatibleWith>Şunlarla uyumsuz: {0}.</ModIncompatibleWith>
   <!-- EN: This mod is incompatible with: {0}. -->
   <ModIncompatibleWithTip>Bu mod {0} ile uyumsuz.</ModIncompatibleWithTip>
   <!-- EN: This mod is loading in the wrong order relative to another mod. Use the 'auto-sort' button, or re-order the mods manually. -->
-  <ModOrderingWarning>Bu mod, başka bir moda göre yanlış sırada yüklenmekte. 'otomatik sırala' butonunu kullanarak veya manuel olarak modları yeniden sırala.</ModOrderingWarning>
+  <ModOrderingWarning>Bu mod, başka bir moda göre yanlış sırada yüklenmekte. 'Otomatik sırala' butonunu kullanarak veya manuel olarak modları yeniden sırala.</ModOrderingWarning>
   <!-- EN: Another active mod uses the same ID: {0}. -->
   <ModWithSameIdAlreadyActive>Başka bir etkin mod aynı kimliği kullanıyor: {0}</ModWithSameIdAlreadyActive>
   <!-- EN: There is a cyclic mod dependency starting with {0}. -->
@@ -265,39 +265,39 @@
   <!-- EN: This mod was not made for this version of RimWorld, and will probably not work correctly. -->
   <ModNotMadeForThisVersion>Bu mod, RimWorld'ün bu sürümü için yapılmamış ve muhtemelen düzgün çalışmayacak.</ModNotMadeForThisVersion>
   <!-- EN: This mod is not made for this version of RimWorld. -->
-  <ModNotMadeForThisVersionShort>Bu mod, Rimworld'ün bu sürümü için yapılmamış.</ModNotMadeForThisVersionShort>
+  <ModNotMadeForThisVersionShort>Bu mod, RimWorld'ün bu sürümü için yapılmamış.</ModNotMadeForThisVersionShort>
   <!-- EN: This mod was made for a newer version of RimWorld than this, and will probably not work correctly. -->
-  <ModNotMadeForThisVersion_Newer>Bu mod, Rimworld'ün daha yeni bir sürümü için yapılmış ve muhtemelen düzgün çalışmayacak.</ModNotMadeForThisVersion_Newer>
+  <ModNotMadeForThisVersion_Newer>Bu mod, RimWorld'ün daha yeni bir sürümü için yapılmış ve muhtemelen düzgün çalışmayacak.</ModNotMadeForThisVersion_Newer>
   <!-- EN: Mod needs properly formatted supported version information in About.xml. Like this: <supportedVersions><li>{0}</li></supportedVersions> - <targetVersion> is deprecated. Check log for further information. -->
-  <MessageModNeedsWellFormattedTargetVersion>Mod, About.xml'de desteklenen sürümlerin doğru biçimlendirilmiş bir listesini gerektirir. Bunun gibi: {0}. Etiketin geçerliliği sona ermiştir. Daha fazla bilgi için günlük dosyasını kontrol edin.</MessageModNeedsWellFormattedTargetVersion>
+  <MessageModNeedsWellFormattedTargetVersion>Mod, About.xml dosyasında düzgün biçimlendirilmiş desteklenen sürüm bilgisine ihtiyaç duyuyor. Şu şekilde olmalı: {0}. Daha fazla bilgi için günlüğü kontrol et.</MessageModNeedsWellFormattedTargetVersion>
   <!-- EN: Mod needs a unique, properly formatted packageId in About.xml. It must must meet following requirements:\n\n  - Alphanumeric characters and dot only.\n  - No spaces.\n  - At least one dot.\n  - No repeated dots in a row, or starting or ending with a dot.\n  - 60 characters or less.\n  - Cannot contain word "Ludeon".\n\nFor example:\n<packageId>AuthorName.ModName</packageId>\n<packageId>AuthorName.ModName.Specific</packageId> -->
-  <MessageModNeedsWellFormattedPackageId>Modun About.xml'de benzersiz ve doğru biçimlendirilmiş bir paket kimliğine ihtiyacı var. Aşağıdaki gereksinimleri karşılaması gerekir:\n\n - Yalnızca alfanümerik karakterler ve noktalar.\n - Boşluk yok.\n - En az bir nokta.\n - Bir satırda tekrarlanan nokta yok veya bir kimlik ile başlayan veya biten bir kimlik yok nokta.\n - 60 karakter veya daha az.\n - "Ludeon" kelimesini içeremez.\n\nÖrneğin:\nAuthorName.ModName\nAuthorName.ModName.Specific</MessageModNeedsWellFormattedPackageId>
+  <MessageModNeedsWellFormattedPackageId>Mod, About.xml dosyasında benzersiz ve düzgün biçimlendirilmiş bir packageId gerektiriyor. Aşağıdaki gereksinimlere uymalı:\n\n  - Sadece alfanümerik karakterler ve nokta kullanılmalı.\n  - Boşluk olmamalı.\n  - En az bir nokta içermeli.\n  - Ardışık veya başta/sonda tekrar eden nokta olmamalı.\n  - En fazla 60 karakter olmalı.\n  - "Ludeon" kelimesini içermemeli.</MessageModNeedsWellFormattedPackageId>
   <!-- EN: This mod has issues in LoadFolders.xml, that you need to resolve before uploading: -->
-  <ModHadLoadFolderIssues>Bu modun LoadFolders.xml dosyasında yüklemeden önce çözmeniz gereken sorunlar var:</ModHadLoadFolderIssues>
+  <ModHadLoadFolderIssues>Bu modun, LoadFolders.xml dosyasında yüklemeden önce çözmeniz gereken sorunları var:</ModHadLoadFolderIssues>
   <!-- EN: Folder {0} specified for version {1} doesn't exist. -->
   <ModLoadFolderDoesntExist>{1} sürümü için belirtilen {0} klasörü mevcut değil.</ModLoadFolderDoesntExist>
   <!-- EN: Malformed version string '{0}'. Correct format is Major.Minor (e.g. 1.1) -->
-  <ModLoadFolderMalformedVersion>Hatalı biçimli sürüm dizesi '{0}'. Doğru biçim Büyük.Küçük'dür (örn. 1.1)</ModLoadFolderMalformedVersion>
+  <ModLoadFolderMalformedVersion>Hatalı biçimli sürüm dizesi '{0}'. Doğru biçim: Büyük.Küçük (örn. 1.1)</ModLoadFolderMalformedVersion>
   <!-- EN: The list of load folders for version {0} is empty. -->
-  <ModLoadFolderListEmpty>{0} sürümü için yükleme klasörlerinin listesi boş.</ModLoadFolderListEmpty>
+  <ModLoadFolderListEmpty>{0} sürümü için yükleme klasörleri listesi boş.</ModLoadFolderListEmpty>
   <!-- EN: Version {0} lists the same folder more than once: {1}. -->
-  <ModLoadFolderRepeatingFolder>Sürüm {0} aynı klasörü birden fazla listeliyor: {1}.</ModLoadFolderRepeatingFolder>
+  <ModLoadFolderRepeatingFolder>Sürüm {0} aynı klasörü birden fazla kez listeliyor: {1}.</ModLoadFolderRepeatingFolder>
   <!-- EN: Invalid version order: {0} should come before {1}. -->
-  <ModLoadFolderOutOfOrder>Geçersiz sürüm sırası: {0}, {1}'den önce gelmelidir.</ModLoadFolderOutOfOrder>
+  <ModLoadFolderOutOfOrder>Geçersiz sürüm sırası: {0}, {1}'den önce gelmeli.</ModLoadFolderOutOfOrder>
   <!-- EN: Invalid version order: 'default' should be defined first. -->
-  <ModLoadFolderOutOfOrderDefault>Geçersiz sürüm sırası: 'default' ilk olarak tanımlanmalıdır.</ModLoadFolderOutOfOrderDefault>
+  <ModLoadFolderOutOfOrderDefault>Geçersiz sürüm sırası: 'default' ilk olarak tanımlanmalı.</ModLoadFolderOutOfOrderDefault>
   <!-- EN: Using 'default' in load folders is deprecated. Please define folders for each version using the <v...> tags. -->
-  <ModLoadFolderDefaultDeprecated>Yükleme klasörlerinde 'default' kullanılması kullanımdan kaldırılmıştır. Lütfen v...-Tags etiketlerini kullanarak her sürüm için klasör tanımlayın.</ModLoadFolderDefaultDeprecated>
+  <ModLoadFolderDefaultDeprecated>Yükleme klasörlerinde 'default' kullanımı artık desteklenmiyor. Lütfen her sürüm için 'v...' etiketlerini kullanarak klasörleri tanımla.</ModLoadFolderDefaultDeprecated>
   <!-- EN: Version {0} is defined in load folders, but is not listed in 'supportedVersions' of mod's About.xml. -->
-  <ModLoadFolderDefinesUnsupportedGameVersion>Sürüm {0} yükleme klasörlerinde tanımlanmış, ancak modun About.xml dosyasının 'supportedVersions' bölümünde listelenmiyor.</ModLoadFolderDefinesUnsupportedGameVersion>
+  <ModLoadFolderDefinesUnsupportedGameVersion>Sürüm {0} yükleme klasörlerinde tanımlanmış ancak modun About.xml dosyasının 'supportedVersions' bölümünde listelenmiyor.</ModLoadFolderDefinesUnsupportedGameVersion>
   <!-- EN: Drag to reorder -->
-  <DragToReorder>Yeniden sıralamak için sürükleyin</DragToReorder>
+  <DragToReorder>Yeniden sıralamak için sürükle</DragToReorder>
 
   <!-- Select scenario -->
   <!-- EN: Choose scenario -->
   <ChooseScenario>Senaryo seç</ChooseScenario>
   <!-- EN: Custom -->
-  <ScenariosCustom>Standart</ScenariosCustom>
+  <ScenariosCustom>Özel</ScenariosCustom>
   <!-- EN: Steam Workshop -->
   <ScenariosSteamWorkshop>Steam Atölyesi</ScenariosSteamWorkshop>
   <!-- EN: Scenario editor -->
@@ -307,11 +307,11 @@
   
   <!-- Scenario editor -->
   <!-- EN: seed -->
-  <Seed>Çekirdek</Seed>
+  <Seed>çekirdek</Seed>
   <!-- EN: Load -->
-  <Load>Yüklek</Load>
+  <Load>Yükle</Load>
   <!-- EN: edit mode -->
-  <EditMode>Düzenleme modu</EditMode>
+  <EditMode>düzenleme modu</EditMode>
   <!-- EN: Summary -->
   <Summary>Özet</Summary>
   <!-- EN: Add part -->
@@ -319,27 +319,27 @@
   <!-- EN: All text fields must be filled. -->
   <TextFieldsMustBeFilled>Tüm alanlar doldurulmalıdır.</TextFieldsMustBeFilled>
   <!-- EN: Are you sure you want to upload this to the Steam Workshop?\n\nYou must agree to the Steam Workshop terms of service. Find the full terms here:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement -->
-  <ConfirmSteamWorkshopUpload>Bunu Steam Atölyesi'ne yüklemek istediğinizden emin misiniz?\n\nSteam Workshop hizmet şartlarını kabul etmelisiniz. Tam şartları burada bulabilirsiniz:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
+  <ConfirmSteamWorkshopUpload>Bunu Steam Atölyesi'ne yüklemek istediğinden emin misin?\n\nSteam Workshop hizmet şartlarını kabul etmelisin. Tam şartları burada bulabilirsin:\n\nhttp://steamcommunity.com/sharedfiles/workshoplegalagreement</ConfirmSteamWorkshopUpload>
   <!-- EN: Obviously you should only upload content that you created yourself.\n\nDid you create this content yourself? -->
-  <ConfirmContentAuthor>Yalnızca kendi oluşturduğunuz içeriği yüklemelisiniz.\n\nBu içeriği kendiniz mi oluşturdunuz?</ConfirmContentAuthor>
+  <ConfirmContentAuthor>Yalnızca kendi oluşturduğun içeriği yüklemelisin.\n\nBu içeriği kendin mi oluşturdun?</ConfirmContentAuthor>
   <!-- EN: Incompatible -->
   <Incompatible>Uyumsuz</Incompatible>
   <!-- EN: Tag as translation -->
   <TagAsTranslation>Çeviri olarak işaretle</TagAsTranslation>
   <!-- EN: Too many (max {0}):  -->
-  <TooMany>Çok fazla (max {0}): </TooMany>
+  <TooMany>Çok fazla (azami {0}): </TooMany>
   <!-- EN: Can be updated on Workshop, since you are the author. -->
-  <CanBeUpdatedOnWorkshop>Yaratıcı siz olduğunuz için Atölye'de güncellenebilir.</CanBeUpdatedOnWorkshop>
+  <CanBeUpdatedOnWorkshop>Yaratıcı sen olduğun için Atölye'de güncellenebilir.</CanBeUpdatedOnWorkshop>
   <!-- EN: This scenario has been edited.\n\nDo you want to save it before proceeding? -->
-  <ScenarioChangedSavePrompt>Bu senaryo düzenlendi.\n\nDevam etmeden önce kaydetmek istiyor musunuz?</ScenarioChangedSavePrompt>
+  <ScenarioChangedSavePrompt>Bu senaryo düzenlendi.\n\nDevam etmeden önce kaydetmek istiyor musun?</ScenarioChangedSavePrompt>
   
   <!-- Select storyteller -->
   <!-- EN: Choose AI Storyteller -->
-  <ChooseAIStoryteller>Yapay hikâye anlatıcısı Seçin</ChooseAIStoryteller>
+  <ChooseAIStoryteller>Hikâye anlatıcı AI Seç</ChooseAIStoryteller>
   <!-- EN: The AI Storyteller creates events like pirate raids, resource drops, or animal attacks. Their choices will affect the story of your colony. You can change these settings at any time. -->
-  <HowStorytellersWork>hikâyeci, korsan baskınları, kaynak kayıpları veya sürü hayvanların saldırıları gibi olayları başınıza bela eder. Onların seçimleri, kolonizin hikâyesini etkileyecektir. Bu ayarları istediğiniz zaman değiştirebilirsiniz.</HowStorytellersWork>
+  <HowStorytellersWork>Hikâye anlatıcı AI, korsan baskınları, düşen kaynaklar veya hayvan saldırıları gibi olayları yaratır. Onun seçimleri, koloninin hikâyesini etkileyecektir. Bu ayarları istediğin zaman değiştirebilirsin.</HowStorytellersWork>
   <!-- EN: Please choose a difficulty setting. -->
-  <MustChooseDifficulty>Lütfen bir zorluk seviyesi seçin.</MustChooseDifficulty>
+  <MustChooseDifficulty>Lütfen bir zorluk seviyesi seç.</MustChooseDifficulty>
   <!-- EN: Difficulty -->
   <Difficulty>Zorluk</Difficulty>
   <!-- EN: Commitment mode -->
@@ -349,11 +349,11 @@
   <!-- EN: Please choose commitment mode or reload anytime mode. -->
   <MustChoosePermadeath>Lütfen adanma veya yeniden yüklenebilir oyun modlarından birini seç.</MustChoosePermadeath>
   <!-- EN: You can save and load the game at any time.\n\nThis is a good choice if you're still learning the game, if it fits your personal playstyle, if you're using mods that may break your game, or if you intend to self-enforce commitment mode. -->
-  <ReloadAnytimeModeInfo>Oyunu istediğin zaman kaydedip geri yükleyebilirsin.\n\nOyunu hâlâ öğrenme aşamasındaysan, kişisel oyun tarzına uyuyorsa, oyunu bozabilecek modlar kullanıyorsan veya kendini adanma modu için zorlamak amacındaysan bu mod iyi bir seçim olacaktır.</ReloadAnytimeModeInfo>
+  <ReloadAnytimeModeInfo>Oyunu istediğin zaman kaydedip geri yükleyebilirsin.\n\nOyunu hâlâ öğrenme aşamasındaysan, oyun tarzı tercihine uyuyorsa, oyunu bozabilecek modlar kullanıyorsan veya veya adanma modunu kendin uygulamayı düşünüyorsan bu mod iyi bir seçim olacaktır.</ReloadAnytimeModeInfo>
   <!-- EN: You can only save when quitting the game.\n\nSince RimWorld is a story generator, even losing all but one person is not the end of the game - it's part of the story. The game is designed to allow recovery after losses.\n\nPlaying out these terrible situations makes a story with both tragedy and triumph. It's the way RimWorld was designed to be played.\n\nThere's a reason Luke Skywalker didn't quit and reload when his family got killed - loss and recovery is dramatic. -->
-  <PermadeathModeInfo>Sadece oyundan çıkarken oyunu kaydedebilirsin.\n\nRimWorld bir hikâye oluşturucu olduğundan bir kişi hariç herkesi kaybetmek bile oyunun sonu değil - hikâyenin bir parçasıdır. Oyun kayıplardan sonra telafiye izin verecek şekilde tasarlanmıştır.\n\nBu berbat koşullar hem trajedi hem zafer içeren bir hikâyenin oluşmasını sağlar. RimWorld böyle oynamak için tasarlanmıştır.\n\nLuke Skywalker'ın ailesi öldürüldüğünde çıkmamasının ve yeniden doldurmamasının bir sebebi var - kayıp ve kurtuluş etkileyicidir.</PermadeathModeInfo>
+  <PermadeathModeInfo>Sadece oyundan çıkarken oyunu kaydedebilirsin.\n\nRimWorld bir hikâye oluşturucudur. Tek bir kişi dışında herkesi kaybetmek bile oyunun sonu değildir; hikâyenin bir parçasıdır. Oyun, kayıplardan sonra toparlanmayı sağlayacak şekilde tasarlanmıştır.\n\nBu korkunç durumlarla başa çıkmak, trajedi ve zaferle dolu bir hikâye oluşturur. RimWorld, bu şekilde oynanmak üzere tasarlanmıştır.\n\nLuke Skywalker ailesi öldüğünde oyundan çıkıp tekrar yüklemedi; düşüp geri kalkmak dramatiktir.</PermadeathModeInfo>
   <!-- EN: Storyteller and playstyle can be changed any time. -->
-  <CanChangeStorytellerSettingsDuringPlay>hikâye anlatıcısı ve zorluk her zaman değiştirilebilir.</CanChangeStorytellerSettingsDuringPlay>
+  <CanChangeStorytellerSettingsDuringPlay>Hikâye anlatıcı ve zorluk her zaman değiştirilebilir.</CanChangeStorytellerSettingsDuringPlay>
 
   <!-- custom difficulty settings -->
   <!-- EN: Custom playstyle settings -->
@@ -366,46 +366,46 @@
   <!-- EN: Threat scale -->
   <Difficulty_ThreatScale_Label>Tehdit boyutu</Difficulty_ThreatScale_Label>
   <!-- EN: Adjust the size of threats like raids and infestations, and the difficulty of quests. -->
-  <Difficulty_ThreatScale_Info>Baskın, böcek istilası ve görev zorlukları gibi tehditlerin boyutunu ayarla.</Difficulty_ThreatScale_Info>
+  <Difficulty_ThreatScale_Info>Baskınlar, böcek istilaları ve görev zorlukları gibi tehditlerin boyutunu ayarla.</Difficulty_ThreatScale_Info>
   <!-- EN: Major threats -->
   <Difficulty_AllowBigThreats_Label>Büyük tehditler</Difficulty_AllowBigThreats_Label>
   <!-- EN: Allow major threats such as raids, infestations, manhunter packs, crashed mechanoid ships and more. -->
-  <Difficulty_AllowBigThreats_Info>Baskın, böcek istilası, insan avcısı sürüsü, kaza yapmış mekanoid gemileri ve daha fazlası gibi büyük tehditlere izin ver.</Difficulty_AllowBigThreats_Info>
+  <Difficulty_AllowBigThreats_Info>Baskınlar, böcek istilaları, insan avcısı sürüler, düşmüş mekanoid gemileri ve daha fazlası gibi büyük tehditlere izin ver.</Difficulty_AllowBigThreats_Info>
   <!-- EN: Quest threats -->
   <Difficulty_AllowViolentQuests_Label>Görev tehditleri</Difficulty_AllowViolentQuests_Label>
   <!-- EN: Allow quests to present with violent threats and challenges. If this is disabled, quests will be modified to be non-violent. -->
-  <Difficulty_AllowViolentQuests_Info>Görevlerin şiddetli tehditler ve zorluklar ile var olmasına izin ver. Eğer bu seçenek açık olmazsa, görevler tehdit içermeyen şekilde değiştirilecektir.</Difficulty_AllowViolentQuests_Info>
+  <Difficulty_AllowViolentQuests_Info>Görevlerin şiddet içeren tehditler ve mücadeleler ile var olmasına izin ver. Bu seçenek devre dışı bırakılırsa görevler tehdit içermeyecek şekilde değiştirilir.</Difficulty_AllowViolentQuests_Info>
   <!-- EN: Intro threats -->
   <Difficulty_AllowIntroThreats_Label>Başlangıç tehditleri</Difficulty_AllowIntroThreats_Label>
   <!-- EN: Enable the fixed intro threats that appear near game start. -->
-  <Difficulty_AllowIntroThreats_Info>Sabit giriş tehditlerinin oyunun başında var olmasına izin ver.</Difficulty_AllowIntroThreats_Info>
+  <Difficulty_AllowIntroThreats_Info>Oyunun başlangıcındaki sabit tehditlere izin ver.</Difficulty_AllowIntroThreats_Info>
   <!-- EN: Predators hunt humans -->
   <Difficulty_PredatorsHuntHumanlikes_Label>Yırtıcılar insanları avlar</Difficulty_PredatorsHuntHumanlikes_Label>
   <!-- EN: Allow wild predators to hunt humans. -->
-  <Difficulty_PredatorsHuntHumanlikes_Info>Vahşi yırtıcıların insanları avlamasına izin ver </Difficulty_PredatorsHuntHumanlikes_Info>
+  <Difficulty_PredatorsHuntHumanlikes_Info>Vahşi yırtıcıların insanları avlamasına izin ver.</Difficulty_PredatorsHuntHumanlikes_Info>
   <!-- EN: Extreme weather -->
   <Difficulty_AllowExtremeWeatherIncidents_Label>Ekstrem hava koşulları</Difficulty_AllowExtremeWeatherIncidents_Label>
   <!-- EN: Allow extreme weather incidents such as toxic fallout, volcanic winters and flashstorms. -->
-  <Difficulty_AllowExtremeWeatherIncidents_Info>Toksik felaket, Volkanik kış ve yıldırım fırtınaları gibi ekstrem hava koşullarına izin ver</Difficulty_AllowExtremeWeatherIncidents_Info>
+  <Difficulty_AllowExtremeWeatherIncidents_Info>Zehirli toz bulutu, volkanik kış ve yıldırım fırtınaları gibi ekstrem hava koşullarına izin ver.</Difficulty_AllowExtremeWeatherIncidents_Info>
 
   <!-- EN: Economy -->
   <DifficultyEconomySection>Ekonomi</DifficultyEconomySection>
   <!-- EN: Trade price disadvantage -->
   <Difficulty_TradePriceFactorLoss_Label>Ticari fiyat dezavantajı</Difficulty_TradePriceFactorLoss_Label>
   <!-- EN: When trading, buy prices are increased by this amount while sell prices are reduced by this amount. -->
-  <Difficulty_TradePriceFactorLoss_Info>Ticaret yaparken, alım fiyatları bu miktarda artarken satış fiyatları bu miktarda düşürülecektir.</Difficulty_TradePriceFactorLoss_Info>
+  <Difficulty_TradePriceFactorLoss_Info>Ticaret esnasında alım fiyatları bu miktarda artarken satış fiyatları bu miktarda düşürülecektir.</Difficulty_TradePriceFactorLoss_Info>
   <!-- EN: Harvest yield -->
-  <Difficulty_CropYieldFactor_Label>Hasat getirisi</Difficulty_CropYieldFactor_Label>
+  <Difficulty_CropYieldFactor_Label>Hasat verimi</Difficulty_CropYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when harvesting plants and crops. This includes harvesting plants and cutting trees. -->
-  <Difficulty_CropYieldFactor_Info>Bitki ve ekinleri hasat ederken elde edilecek materyal miktarını ayarla. Bu bitkileri hasat etmeyi ve ağaç kesmeyi de içerir.</Difficulty_CropYieldFactor_Info>
+  <Difficulty_CropYieldFactor_Info>Bitki ve ekinlerin hasatından elde edilecek malzeme miktarını ayarla. Bu, bitkileri hasat etmeyi ve ağaç kesmeyi de içerir.</Difficulty_CropYieldFactor_Info>
   <!-- EN: Mining yield -->
-  <Difficulty_MineYieldFactor_Label>Maden kazım getirisi</Difficulty_MineYieldFactor_Label>
+  <Difficulty_MineYieldFactor_Label>Kazı verimi</Difficulty_MineYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when mining. -->
-  <Difficulty_MineYieldFactor_Info>Maden kazımının vereceği materyal miktarını ayarla.</Difficulty_MineYieldFactor_Info>
+  <Difficulty_MineYieldFactor_Info>Maden kazımından elde edilecek malzeme miktarını ayarla.</Difficulty_MineYieldFactor_Info>
   <!-- EN: Butchering yield -->
-  <Difficulty_ButcherYieldFactor_Label>Hayvan kesim getirisi</Difficulty_ButcherYieldFactor_Label>
+  <Difficulty_ButcherYieldFactor_Label>Kesim verimi</Difficulty_ButcherYieldFactor_Label>
   <!-- EN: Adjust the amount of materials produced when butchering. This includes meat, leather, and yield from shredding mechanoids. -->
-  <Difficulty_ButcherYieldFactor_Info>Hayvan kesiminin ne kadar materyal getireceğinin miktarını ayarla. Bu et, deri ve parçalanmış mekanoidlerin getirisini de içerir.</Difficulty_ButcherYieldFactor_Info>
+  <Difficulty_ButcherYieldFactor_Info>Hayvan kesiminden elde edilecek malzeme miktarını ayarla. Et, deri ve parçalanmış mekanoidlerin getirisini de içerir.</Difficulty_ButcherYieldFactor_Info>
   <!-- EN: Research speed -->
   <Difficulty_ResearchSpeedFactor_Label>Araştırma hızı</Difficulty_ResearchSpeedFactor_Label>
   <!-- EN: Adjust the speed of research. -->
@@ -413,23 +413,23 @@
   <!-- EN: Quest rewards -->
   <Difficulty_QuestRewardValueFactor_Label>Görev ödülleri</Difficulty_QuestRewardValueFactor_Label>
   <!-- EN: Adjust the value of rewards given for quests.\n\nNote: Quest reward value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_QuestRewardValueFactor_Info>Görevler için verilen ödüllerin değerini ayarla.\n\nNot: Görev ödül değeri de tehdit boyutunu karşılamak için otomatik olarak ayarlanmıştır. Eğer bu ayarı değiştirirseniz, ek bir etken eklemiş olursunuz. </Difficulty_QuestRewardValueFactor_Info>
+  <Difficulty_QuestRewardValueFactor_Info>Görevler için verilen ödüllerin değerini ayarla.\n\nNot: Görev ödüllerinin değeri, tehdit boyutunu karşılayacak şekilde otomatik olarak ayarlanmıştır. Bu ayarı değiştirirsen ek bir çarpan eklemiş olursun. </Difficulty_QuestRewardValueFactor_Info>
   <!-- EN: Raid loot -->
   <Difficulty_RaidLootPointsFactor_Label>Baskın ganimeti</Difficulty_RaidLootPointsFactor_Label>
   <!-- EN: Adjust the value of loot carried by raiders.\n\nNote: Raid loot value is also automatically scaled to compensate for threat scale. If you adjust this setting, you'll be adding an additional multiplier. -->
-  <Difficulty_RaidLootPointsFactor_Info>Baskıncılar tarafından taşınacak ganimet miktarını ayarla.\n\nNot: Baskıncı ganimet değeri de tehdit boyutunu karşılamak için otomatik olarak ayarlanmıştır. Eğer bu ayarı değiştirirseniz, ek bir etken eklemiş olursunuz. </Difficulty_RaidLootPointsFactor_Info>
+  <Difficulty_RaidLootPointsFactor_Info>Yağmacılar tarafından taşınacak ganimet miktarını ayarla.\n\nNot: Baskın ganimetinin değeri, tehdit boyutunu karşılayacak şekilde otomatik olarak ayarlanmıştır. Bu ayarı değiştirirsen ek bir çarpan eklemiş olursun. </Difficulty_RaidLootPointsFactor_Info>
   <!-- EN: Turret rearm cost -->
-  <Difficulty_MaintenanceCostFactor_Label>Taret yeniden doldurma maliyeti</Difficulty_MaintenanceCostFactor_Label>
+  <Difficulty_MaintenanceCostFactor_Label>Taret yeniden silahlandırma maliyeti</Difficulty_MaintenanceCostFactor_Label>
   <!-- EN: Adjust the cost of rearming turrets. -->
-  <Difficulty_MaintenanceCostFactor_Info>Taretleri yeniden doldurma maliyetini ayarla.</Difficulty_MaintenanceCostFactor_Info>
+  <Difficulty_MaintenanceCostFactor_Info>Taretleri yeniden silahlandırma maliyetini ayarla.</Difficulty_MaintenanceCostFactor_Info>
   <!-- EN: Scaria rot chance -->
-  <Difficulty_ScariaRotChance_Label>Scaria çürüme şansı</Difficulty_ScariaRotChance_Label>
+  <Difficulty_ScariaRotChance_Label>Skarya çürüme ihtimali</Difficulty_ScariaRotChance_Label>
   <!-- EN: The probability that a corpse will immediately rot upon death, if the creature has the scaria disease.\n\nNote: The default settings are designed to exactly balance out the increase in animal count at higher difficulties, so all players get the same meat rewards. -->
-  <Difficulty_ScariaRotChance_Info>Bir canlı scaria hastalığına sahipse öldürülme anında çürüme olasılığı.\n\nNot: Varsayılan ayarlar yüksek seviyelerdeki hayvan artışını dengelemek için dizayn edilmiştir, böylece bütün oyuncular aynı et ödülünü alır.</Difficulty_ScariaRotChance_Info>
+  <Difficulty_ScariaRotChance_Info>Skarya hastalığı taşıyan bir canlının ölüm anında çürüme olasılığı.\n\nNot: Varsayılan ayarlar, yüksek zorluk seviyelerindeki hayvan nüfusu artışını dengelemek için dizayn edilmiştir. Böylece bütün oyuncular aynı et ödülünü alır.</Difficulty_ScariaRotChance_Info>
   <!-- EN: Enemy death on downed -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Düşmanın düşürüldüğünde ölümü</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Label>Düşmanın düştüğü anda ölümü</Difficulty_EnemyDeathOnDownedChanceFactor_Label>
   <!-- EN: Adjust the extra chance that an enemy will immediately die when downed. This affects the chances to take prisoners, and thus colony population growth rates. -->
-  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Bir düşmanın düşürüldüğü anda ölmesinin ekstra şansını ayarla. Bu mahkûm alma şansını böylece koloni nüfusu büyüme oranını etkiler.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
+  <Difficulty_EnemyDeathOnDownedChanceFactor_Info>Bir düşmanın düşürüldüğü anda ölme ihtimalini ayarla. Bu, esir alma ihtimalini, dolayısıyla koloninin nüfus artış hızını etkiler.</Difficulty_EnemyDeathOnDownedChanceFactor_Info>
 
   <!-- EN: General -->
   <DifficultyGeneralSection>Genel</DifficultyGeneralSection>
@@ -438,94 +438,94 @@
   <!-- EN: A permanent mood offset applied to every colonist and prisoner. Colonists have a base mood of 50%. -->
   <Difficulty_ColonistMoodOffset_Info>Her kolonici ve mahkûma uygulanan kalıcı bir ruh hâli ön değeri. kolonicilerin temel ruh hâli %50'dir.</Difficulty_ColonistMoodOffset_Info>
   <!-- EN: Food poison chance -->
-  <Difficulty_FoodPoisonChanceFactor_Label>Gıda zehirlenmesi şansı</Difficulty_FoodPoisonChanceFactor_Label>
+  <Difficulty_FoodPoisonChanceFactor_Label>Gıda zehirlenmesi ihtimali</Difficulty_FoodPoisonChanceFactor_Label>
   <!-- EN: Adjust the chance that a person will get food poisoning from eating a potentially-poisoned meal. -->
-  <Difficulty_FoodPoisonChanceFactor_Info>Bir kişinin potansiyel olarak zehirlenmiş bir yemekten gıda zehirlenmesi yaşama şansını ayarla.</Difficulty_FoodPoisonChanceFactor_Info>
+  <Difficulty_FoodPoisonChanceFactor_Info>Bir kişinin zehirli olma potansiyeli taşıyan bir yemek sebebiyle gıda zehirlenmesi yaşama ihtimalini ayarla.</Difficulty_FoodPoisonChanceFactor_Info>
   <!-- EN: Animal revenge chance -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Label>Hayvan intikam şansı</Difficulty_ManhunterChanceOnDamageFactor_Label>
+  <Difficulty_ManhunterChanceOnDamageFactor_Label>Hayvan intikam ihtimali</Difficulty_ManhunterChanceOnDamageFactor_Label>
   <!-- EN: Adjust the chance that injuring a wild animal will cause it to attack. -->
-  <Difficulty_ManhunterChanceOnDamageFactor_Info>Vahşi bir hayvanı yaralamanın vahşi hayvanı geri saldırma şansını ayarla.</Difficulty_ManhunterChanceOnDamageFactor_Info>
+  <Difficulty_ManhunterChanceOnDamageFactor_Info>Vahşi bir hayvanın yaralandığı taktirde geri saldırma ihtimalini ayarla.</Difficulty_ManhunterChanceOnDamageFactor_Info>
   <!-- EN: Friendly fire -->
   <Difficulty_FriendlyFireChanceFactor_Label>Dost ateşi</Difficulty_FriendlyFireChanceFactor_Label>
   <!-- EN: Adjust the chance of friendly fire.\n\nNote: This setting only affects direct shots which were going to hit their target. It does not prevent damage from explosions, or from shots which were going to miss their target. -->
-  <Difficulty_FriendlyFireChanceFactor_Info>Dost ateşi şansını ayarla.\n\nNot: Bu ayar yalnızca asıl hedefini vuracak olan atışları etkiler. Patlayıcılardan gelen veya asıl hedefini ıskalayacak olan atışlardan gelecek hasarı önlemez.</Difficulty_FriendlyFireChanceFactor_Info>
+  <Difficulty_FriendlyFireChanceFactor_Info>Dost ateşi ihtimalini ayarla.\n\nNot: Bu ayar, hedefini vuracak olan direkt atışları etkiler. Patlayıcılardan gelen veya hedefini ıskalayacak olan atışlardan gelecek hasarı önlemez.</Difficulty_FriendlyFireChanceFactor_Info>
   <!-- EN: Colonist instant kills -->
   <Difficulty_AllowInstantKillChance_Label>Kolonici anında ölümü</Difficulty_AllowInstantKillChance_Label>
   <!-- EN: Adjust the chance that a colonist can die instantly due to an attack. The incoming damage is adjusted so it will down the colonist instead.\n\nThis only prevents some kinds of instant kills - colonists can still be downed and bleed to death, die from fire, explosions, disease, and so on. -->
-  <Difficulty_AllowInstantKillChance_Info>Bir kolonicinin bir saldırı dolayısıyla anında ölüm şansını ayarla. Gelecek olan hasar koloniciyi düşürecek şekilde ayarlanmıştır.\n\nBu yalnızca bazı tür anında ölümleri önler - koloniciler hâlâ kan kaybından, ateşten, patlamalardan, hastalıklardan ve dahasından ölebilir.</Difficulty_AllowInstantKillChance_Info>
+  <Difficulty_AllowInstantKillChance_Info>Bir kolonicinin bir saldırı sebebiyle anında ölüm ihtimalini ayarla. Gelen hasar, öldürmek yerine koloniciyi düşürecek şekilde ayarlanmıştır.\n\nBu yalnızca bazı tür anında ölümleri önler. Koloniciler hâlâ kan kaybından, alevlerden, patlamalardan, hastalıklardan ve dahasından ölebilir.</Difficulty_AllowInstantKillChance_Info>
   <!-- EN: Infection chance -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Enfeksiyon şansı</Difficulty_PlayerPawnInfectionChanceFactor_Label>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Label>Enfeksiyon ihtimali</Difficulty_PlayerPawnInfectionChanceFactor_Label>
   <!-- EN: Adjust the chance that a wound will become infected. -->
-  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Bir yaranın enfeksiyon kapma şansını ayarla.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
+  <Difficulty_PlayerPawnInfectionChanceFactor_Info>Bir yaranın enfeksiyon kapma ihtimalini ayarla.</Difficulty_PlayerPawnInfectionChanceFactor_Info>
   <!-- EN: Disease frequency -->
   <Difficulty_DiseaseIntervalFactor_Inverted_Label>Hastalık sıklığı</Difficulty_DiseaseIntervalFactor_Inverted_Label>
   <!-- EN: Adjust the frequency of random disease events. -->
-  <Difficulty_DiseaseIntervalFactor_Inverted_Info>Rastgele hastalık etkinlikleri sıklığını ayarla.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
+  <Difficulty_DiseaseIntervalFactor_Inverted_Info>Rastgele hastalık olaylarının sıklığını ayarla.</Difficulty_DiseaseIntervalFactor_Inverted_Info>
   <!-- EN: Insect spawning rate -->
   <Difficulty_EnemyReproductionRateFactor_Label>Böcek doğum hızı</Difficulty_EnemyReproductionRateFactor_Label>
   <!-- EN: Adjust the rate at which existing insect hives spawn new insects. Lower values means more time between spawn events.\n\nThis does not affect whether infestations can occur - only the speed at which active hives produce insects. -->
-  <Difficulty_EnemyReproductionRateFactor_Info>Mevcut böcek kovanlarının yeni böcekler üretme hızını ayarlayın. Daha düşük değerler, yumurtlama olayları arasında daha fazla zaman olduğu anlamına gelir.\n\nBu, istilaların gerçekleşip gerçekleşmeyeceğini etkilemez - yalnızca aktif kovanların böcek üretme hızını değiştirir.</Difficulty_EnemyReproductionRateFactor_Info>
+  <Difficulty_EnemyReproductionRateFactor_Info>Mevcut böcek kovanlarının yeni böcekler üretme hızını ayarla. Daha düşük değerler, yumurtlama olayları arasında daha fazla zaman olduğu anlamına gelir.\n\nBu, böcek istilalarının gerçekleşip gerçekleşmeyeceğini etkilemez. Yalnızca etkin kovanların böcek üretme hızını değiştirir.</Difficulty_EnemyReproductionRateFactor_Info>
   <!-- EN: Deep drilling infestations -->
   <Difficulty_DeepDrillInfestationChanceFactor_Label>Derin sondaj istilaları</Difficulty_DeepDrillInfestationChanceFactor_Label>
   <!-- EN: Adjust the chance that deep drilling will trigger an infestation. -->
-  <Difficulty_DeepDrillInfestationChanceFactor_Info>Derin sondajın istilayı tetikleme şansını ayarlayın.</Difficulty_DeepDrillInfestationChanceFactor_Info>
+  <Difficulty_DeepDrillInfestationChanceFactor_Info>Derin sondajın böcek istilalarını tetikleme ihtimalini ayarla.</Difficulty_DeepDrillInfestationChanceFactor_Info>
   <!-- EN: Map generation ancient threats -->
-  <Difficulty_PeacefulTemples_Inverted_Label>Antik tehlike tehditleri</Difficulty_PeacefulTemples_Inverted_Label>
+  <Difficulty_PeacefulTemples_Inverted_Label>Antik tehlikeler</Difficulty_PeacefulTemples_Inverted_Label>
   <!-- EN: Ancient structures may contain dangerous threats. -->
-  <Difficulty_PeacefulTemples_Inverted_Info>Antik yapılar tehlikeli tehditler barındırabilir.</Difficulty_PeacefulTemples_Inverted_Info>
+  <Difficulty_PeacefulTemples_Inverted_Info>Antik yapılar, tehlikelere ev sahipliği yapabilir.</Difficulty_PeacefulTemples_Inverted_Info>
   <!-- EN: Map generation natural hives -->
-  <Difficulty_AllowCaveHives_Label>Doğal böcek yuvası oluşumu</Difficulty_AllowCaveHives_Label>
+  <Difficulty_AllowCaveHives_Label>Doğal böcek kovanları</Difficulty_AllowCaveHives_Label>
   <!-- EN: Dormant insect hives may spawn in natural caves.\n\nThis setting only applies to map generation and does not affect active insects that may tunnel in during play. -->
-  <Difficulty_AllowCaveHives_Info>Uyuyan böcek kovanları doğal mağaralarda ortaya çıkabilir.\n\nBu ayar yalnızca harita oluşturma için geçerlidir ve oyun sırasında tünel açabilecek aktif böcekleri etkilemez.</Difficulty_AllowCaveHives_Info>
+  <Difficulty_AllowCaveHives_Info>Uyku hâlindeki böcek kovanları, doğal mağaralarda ortaya çıkabilir.\n\nBu ayar yalnızca harita oluşturma için geçerlidir ve oyun sırasında tünel açabilecek aktif böcekleri etkilemez.</Difficulty_AllowCaveHives_Info>
   <!-- EN: Add unwavering prisoners -->
-  <Difficulty_UnwaveringPrisoners_Label>Sarsılmaz mahkûmları ekleyin</Difficulty_UnwaveringPrisoners_Label>
+  <Difficulty_UnwaveringPrisoners_Label>Sarsılmaz mahkûmları ekle</Difficulty_UnwaveringPrisoners_Label>
   <!-- EN: This option adds additional capturable prisoners to the game who cannot be recruited due to unwavering loyalty.\n\nUnwavering prisoners are added on top of normal prisoners, so turning this off won't give more recruitable prisoners - it simply removes the unwavering ones.\n\nUnwavering prisoners can still be released for diplomatic gains, sold, enslaved, harvested for organs, or otherwise made use of. In general, they offer more options and resources, and make the game a bit richer and easier. -->
-  <Difficulty_UnwaveringPrisoners_Info>Bu seçenek, oyuna, tereddütsüz sadakat nedeniyle koloniye katılamayan ek ele geçirilebilir mahkûmlar ekler.\n\Tereddütsüz mahkûmlar normal mahkûmların üzerine eklenir, bu nedenle bunu kapatmak daha fazla koloniye katılabilir mahkûm sağlamaz - sadece tereddütsüz mahkûmları kaldırır. \n\Tereddütsüz mahkûmlar diplomatik kazanımlar için serbest bırakılabilir, satılabilir, köleleştirilebilir, organları hasat edilebilir veya başka bir şekilde kullanılabilir. Genel olarak, daha fazla seçenek ve kaynak sunarlar ve oyunu biraz daha zengin ve kolay hâle getirirler.</Difficulty_UnwaveringPrisoners_Info>
+  <Difficulty_UnwaveringPrisoners_Info>Bu seçenek, oyuna sarsılmaz sadakatleri nedeniyle koloniye katılamayan mahkûmlar ekler.\n\nBu mahkûmlar, normal mahkûmların üzerine eklenir. Bu nedenle bunu kapatmak, daha fazla koloniye katılabilir mahkûm sağlamaz. Sadece sarsılmaz sadık mahkûmları oyundan kaldırır.\n\nSarsılmaz sadık mahkûmlar, diplomatik kazanımlar için serbest bırakılabilir, satılabilir, köleleştirilebilir, organları alınabilir veya başka bir şekilde kullanılabilir. Genel olarak, daha fazla seçenek ve kaynak sunarak oyunu biraz daha zengin ve kolay hâle getirirler.</Difficulty_UnwaveringPrisoners_Info>
 
   <!-- EN: Player tools -->
   <DifficultyPlayerToolsSection>Oyuncu aletleri</DifficultyPlayerToolsSection>
   <!-- EN: Player can build traps -->
-  <Difficulty_AllowTraps_Label>Oyuncu tuzak yapabilir</Difficulty_AllowTraps_Label>
+  <Difficulty_AllowTraps_Label>Oyuncu tuzaklar yapabilir</Difficulty_AllowTraps_Label>
   <!-- EN: Player can build traps like spike traps and IED traps. -->
-  <Difficulty_AllowTraps_Info>Oyuncu kazık tuzağı ve IED tuzakları gibi tuzaklar yapabilir.</Difficulty_AllowTraps_Info>
+  <Difficulty_AllowTraps_Info>Oyuncu kazık tuzakları ve EYP tuzakları gibi tuzaklar yapabilir.</Difficulty_AllowTraps_Info>
   <!-- EN: Player can build turrets -->
-  <Difficulty_AllowTurrets_Label>Oyuncu taret inşa edebilir</Difficulty_AllowTurrets_Label>
+  <Difficulty_AllowTurrets_Label>Oyuncu taretler inşa edebilir</Difficulty_AllowTurrets_Label>
   <!-- EN: Player can build static turrets like mini-turrets, autocannon turrets, and uranium slug turrets.\n\nYou can still use captured turrets even if this is disabled. -->
-  <Difficulty_AllowTurrets_Info>Oyuncu mini-taret, autocannon taret ve uranyum gülle tareti gibi sabit taretler inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen taretleri kullanabilirsin.</Difficulty_AllowTurrets_Info>
+  <Difficulty_AllowTurrets_Info>Oyuncu mini taretler, ototop taretleri ve uranyum gülle taretleri gibi sabit taretler inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen taretleri kullanabilirsin.</Difficulty_AllowTurrets_Info>
   <!-- EN: Player can build mortars -->
-  <Difficulty_AllowMortars_Label>Oyuncu havan topu inşa edebilir</Difficulty_AllowMortars_Label>
+  <Difficulty_AllowMortars_Label>Oyuncu havanlar inşa edebilir</Difficulty_AllowMortars_Label>
   <!-- EN: Player can build mortars.\n\nYou can still use captured mortars even if this is disabled. -->
-  <Difficulty_AllowMortars_Info>Oyuncu havan topu inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen havan toplarını kullanabilirsin.</Difficulty_AllowMortars_Info>
+  <Difficulty_AllowMortars_Info>Oyuncu havan topları inşa edebilir.\n\nBu seçenek devre dışı olsa bile ele geçirilen havan toplarını kullanabilirsin.</Difficulty_AllowMortars_Info>
   <!-- EN: Classic mortars -->
-  <Difficulty_ClassicMortars_Label>Klasik havan topu ayarı</Difficulty_ClassicMortars_Label>
+  <Difficulty_ClassicMortars_Label>Klasik havanlar</Difficulty_ClassicMortars_Label>
   <!-- EN: Mortars will not require reinforced barrels to construct or reload, and are balanced for this ease of access. -->
-  <Difficulty_ClassicMortars_Info>Havan topları, inşa etmek veya yeniden doldurmak için güçlendirilmiş namlulara ihtiyaç duymaz ve bu erişim kolaylığı için dengelenmiştir.</Difficulty_ClassicMortars_Info>
+  <Difficulty_ClassicMortars_Info>Havan topları, inşa etmek veya yeniden doldurmak için güçlendirilmiş namlulara ihtiyaç duymazlar ve bu erişim kolaylığı için dengelenmiştir.</Difficulty_ClassicMortars_Info>
   
   <!-- EN: Adaptation -->
-  <Difficultya daptationSection>Adaptasyon</Difficultya daptationSection>
+  <DifficultyadaptationSection>Adaptasyon</DifficultyadaptationSection>
   <!-- EN: Adaptation growth rate -->
   <Difficulty_AdaptationGrowthRateFactorOverZero_Label>Adaptasyon büyüme oranı</Difficulty_AdaptationGrowthRateFactorOverZero_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how fast the adaptation score grows over time. -->
-  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Uyarlama, hikâye anlatıcısının, siz iyi olduğunuzda oyunu daha zorlu hâle getirmesi anlamına gelir. Bir adaptasyon puanı zamanla büyür ve hasar aldığınızda düşer.\n\nBu ayar, adaptasyon puanının zaman içinde ne kadar hızlı büyüyeceğini ayarlar.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
+  <Difficulty_AdaptationGrowthRateFactorOverZero_Info>Adaptasyon, hikâye anlatıcının sen iyi giderken oyunu daha zorlu hâle getirmesi anlamına gelir. Bir adaptasyon puanı zamanla büyür ve hasar aldığında düşer.\n\nBu ayar, adaptasyon puanının zaman içinde ne kadar hızlı büyüyeceğini ayarlar.</Difficulty_AdaptationGrowthRateFactorOverZero_Info>
   <!-- EN: Adaptation impact -->
   <Difficulty_AdaptationEffectFactor_Label>Adaptasyon etkisi</Difficulty_AdaptationEffectFactor_Label>
   <!-- EN: Adaptation means the storyteller makes the game more challenging when you're doing well. An adaptation score grows over time, and is knocked down when you take damage.\n\nThis setting adjusts how much the adaptation score affects the difficulty. -->
-  <Difficulty_AdaptationEffectFactor_Info>Uyarlama, hikâye anlatıcısının, siz iyi olduğunuzda oyunu daha zorlu hâle getirmesi anlamına gelir. Bir adaptasyon puanı zamanla büyür ve hasar aldığınızda devrilir.\n\nBu ayar, adaptasyon puanının zorluğu ne kadar etkileyeceğini ayarlar.</Difficulty_AdaptationEffectFactor_Info>
+  <Difficulty_AdaptationEffectFactor_Info>Adaptasyon, hikâye anlatıcının sen iyi giderken oyunu daha zorlu hâle getirmesi anlamına gelir. Bir adaptasyon puanı zamanla büyür ve hasar aldığında düşer.\n\nBu ayar, adaptasyon puanının zorluğu ne kadar etkileyeceğini ayarlar.</Difficulty_AdaptationEffectFactor_Info>
   <!-- EN: Wealth-independent progress mode -->
   <Difficulty_FixedWealthMode_Label>Servetten bağımsız ilerleme modu</Difficulty_FixedWealthMode_Label>
   <!-- EN: Play in a wealth-independent progress mode.\n\nIn normal mode, the storyteller scales threats according to colonist count, player wealth, and a variety of other factors. Wealth-independent mode removes the wealth factor and replaces it with a fixed progress curve based on time. The time is counted from the founding of each colony.\n\nThis is only recommended for those looking for a strict skill challenge. In wealth-independent mode, it may be nearly impossible to recover from serious losses unless you found a new settlement. It's also possible to get too far ahead of the curve and find the game too easy. -->
-  <Difficulty_FixedWealthMode_Info>Zenginlikten bağımsız bir ilerleme modunda oynayın.\n\nNormal modda, hikâye anlatıcı tehditleri kolonici sayısına, oyuncu zenginliğine ve çeşitli diğer faktörlere göre ölçeklendirir. Servetten bağımsız mod, servet faktörünü kaldırır ve onun yerine zamana dayalı sabit bir ilerleme eğrisi koyar. Zaman, her koloninin kuruluşundan itibaren sayılır.\n\nBu yalnızca katı bir beceri mücadelesi arayanlar için önerilir. Servetten bağımsız modda, yeni bir anlaşma bulamadığınız sürece ciddi kayıplardan kurtulmak neredeyse imkânsız olabilir. Eğrinin çok ötesine geçmek ve oyunu çok kolay bulmak da mümkündür.</Difficulty_FixedWealthMode_Info>
+  <Difficulty_FixedWealthMode_Info>Zenginlikten bağımsız bir ilerleme modunda oyna.\n\nNormal modda hikâye anlatıcı, tehditleri kolonici sayısına, oyuncunun zenginliğine ve çeşitli diğer faktörlere göre ölçeklendirir. Servetten bağımsız mod, servet faktörünü kaldırır ve onun yerine zamana dayalı, sabit bir ilerleme eğrisi koyar. Zaman, her koloninin kuruluşundan itibaren sayılır.\n\nBu yalnızca katı bir beceri mücadelesi arayanlar için önerilir. Servetten bağımsız modda yeni bir yerleşim kurmadığın sürece ciddi kayıplardan kurtulmak neredeyse imkânsız olabilir. Eğrinin çok ötesine geçmek ve oyunu çok kolaylaştırmak da mümkündür.</Difficulty_FixedWealthMode_Info>
   <!-- EN: Years until maximum threat -->
-  <Difficulty_FixedWealthTimeFactor_Label>azami tehdide kadar yıllar</Difficulty_FixedWealthTimeFactor_Label>
+  <Difficulty_FixedWealthTimeFactor_Label>Azami tehdide kadar yıllar</Difficulty_FixedWealthTimeFactor_Label>
   <!-- EN: The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors. -->
-  <Difficulty_FixedWealthTimeFactor_Info>Zenginlikten bağımsız modun azami tehdit düzeyine ulaşmasına kadar geçen oyun yılı sayısı.\n\nhikâye anlatıcısının tehditleri kolonici sayısına ve çeşitli diğer faktörlere göre ölçeklendirmeye devam edeceğini unutmayın.</Difficulty_FixedWealthTimeFactor_Info>
+  <Difficulty_FixedWealthTimeFactor_Info>Zenginlikten bağımsız modun azami tehdit düzeyine ulaşmasına kadar geçen oyun yılı sayısı.\n\nHikâye anlatıcının tehditleri kolonici sayısına ve çeşitli diğer faktörlere göre ölçeklendirmeye devam edeceğini unutmayın.</Difficulty_FixedWealthTimeFactor_Info>
 
   <!-- EN: Ideology -->
-  <DifficultyIdeologySection>ideoloji</DifficultyIdeologySection>
+  <DifficultyIdeologySection>İdeoloji</DifficultyIdeologySection>
   <!-- EN: Low pop conversion boost -->
-  <Difficulty_LowPopConversionBoost_Label>Düşük pop dönüşüm artışı</Difficulty_LowPopConversionBoost_Label>
+  <Difficulty_LowPopConversionBoost_Label>Düşük nüfus tebdil bonusu</Difficulty_LowPopConversionBoost_Label>
   <!-- EN: With a single colonist of the player's starting ideoligion, conversion chance to their ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect. -->
-  <Difficulty_LowPopConversionBoost_Info>Oyuncunun başlangıç ideolojisinin tek bir kolonicisi ile, onun ideolojisine dönüşüm şansı bu miktarla çarpılır. Onlara karşı yapılan dönüştürme girişimlerinin etkisi bu miktara bölünür.\n\nOyuncunun başlangıç ideolojisinin iki kolonicisi ile etki yarıya iner.\n\nOyuncunun başlangıç ideolojisinin üç veya daha fazla kolonisi olduğunda bunun bir etkisi olmaz.</Difficulty_LowPopConversionBoost_Info>
+  <Difficulty_LowPopConversionBoost_Info>Başlangıç ideolojisine sahip tek bir kolonici olduğunda onun diğerlerini kendi ideolojisine iknâ etme ihtimali bu miktarla çarpılır. Bu koloniciye karşı yapılan iknâ girişimlerinin etkisi ise bu miktarla bölünür.\n\nOyuncunun başlangıç ideolojisine sahip iki kolonici olduğunda bu etkinin gücü yarıya düşer.\n\nÜç veya daha fazla kolonici olduğunda ise artık bir etkisi olmaz.</Difficulty_LowPopConversionBoost_Info>
 
   <!-- Site select -->
   <!-- EN: Select starting site -->
@@ -535,21 +535,21 @@
   <!-- EN: Select site -->
   <SelectSite>Bölge seç</SelectSite>
   <!-- EN: Please select a site. -->
-  <MustSelectStartingSite>Lütfen bölge seçin.</MustSelectStartingSite>
+  <MustSelectStartingSite>Lütfen bir bölge seç.</MustSelectStartingSite>
   <!-- EN: You cannot land on this biome: {0} -->
-  <CannotLandBiome>Bu biyom üzerine iniş yapamazsınız: {0}</CannotLandBiome>
+  <CannotLandBiome>Bu biyom üzerine iniş yapamazsın: {0}</CannotLandBiome>
   <!-- EN: Biome not implemented -->
-  <BiomeNotImplemented>Biyoma uygulanamaz</BiomeNotImplemented>
+  <BiomeNotImplemented>Biyom uygulanmadı</BiomeNotImplemented>
   <!-- EN: You cannot land on impassable mountains. -->
-  <CannotLandImpassableMountains>Aşılamaz dağlara iniş yapamazsınız.</CannotLandImpassableMountains>
+  <CannotLandImpassableMountains>Aşılamaz dağlara iniş yapamazsın.</CannotLandImpassableMountains>
   <!-- EN: {0} already have a base there. -->
-  <BaseAlreadyThere>{0} burada zaten bir üs var.</BaseAlreadyThere>
+  <BaseAlreadyThere>{0} burada zaten bir üsse sahip.</BaseAlreadyThere>
   <!-- EN: You already have a base there. -->
-  <YourBaseAlreadyThere>Burada zaten bir üssünüz var.</YourBaseAlreadyThere>
+  <YourBaseAlreadyThere>Burada zaten bir üssün var.</YourBaseAlreadyThere>
   <!-- EN: This tile is occupied. -->
-  <TileOccupied>Bu bölge dolu.</TileOccupied>
+  <TileOccupied>Bu altıgen dolu.</TileOccupied>
   <!-- EN: Settlements cannot be directly adjacent to each other. -->
-  <FactionBaseAdjacent>Yerleşim yerleri bitişik-komşu olamaz.</FactionBaseAdjacent>
+  <FactionBaseAdjacent>Yerleşim yerleri birbirlerine bitişik olamaz.</FactionBaseAdjacent>
   <!-- EN: Biome -->
   <Biome>Biyom</Biome>
   <!-- EN: Terrain -->
@@ -559,45 +559,45 @@
   <!-- EN: River -->
   <River>Nehir</River>
   <!-- EN: Elevation -->
-  <Elevation>Yükseklik</Elevation>
+  <Elevation>Rakım</Elevation>
   <!-- EN: Fertility -->
-  <Fertility>Verimlilik</Fertility>
+  <Fertility>Toprak verimi</Fertility>
   <!-- EN: fertility -->
-  <FertilityLower>doğurganlık</FertilityLower>
+  <FertilityLower>toprak verimi</FertilityLower>
   <!-- EN: Average temperature -->
   <AvgTemp>Ortalama sıcaklık</AvgTemp>
   <!-- EN: Rainfall -->
-  <Rainfall>Yağış Miktarı</Rainfall>
+  <Rainfall>Yağış miktarı</Rainfall>
   <!-- EN: Special features -->
-  <SpecialFeatures>Özel özellikler</SpecialFeatures>
+  <SpecialFeatures>Özel nitelikler</SpecialFeatures>
   <!-- EN: northern coast -->
-  <HasCoast0>Kuzey Kıyısı</HasCoast0>
+  <HasCoast0>kuzeyi sahil</HasCoast0>
   <!-- EN: eastern coast -->
-  <HasCoast1>Doğu Kıyısı</HasCoast1>
+  <HasCoast1>doğusu sahil</HasCoast1>
   <!-- EN: southern coast -->
-  <HasCoast2>Güney Kıyısı</HasCoast2>
+  <HasCoast2>güneyi sahil</HasCoast2>
   <!-- EN: western coast -->
-  <HasCoast3>Bayı Kıyısı</HasCoast3>
+  <HasCoast3>batısı sahil</HasCoast3>
   <!-- EN: caves -->
-  <HasCaves>Mağaralar</HasCaves>
+  <HasCaves>mağaralar</HasCaves>
   <!-- EN: Faction base -->
-  <FactionBase>Topluluk Üssü</FactionBase>
+  <FactionBase>Fraksiyon üssü</FactionBase>
   <!-- EN: Stone types -->
-  <StoneTypesHere>Taş Çeşitleri</StoneTypesHere>
+  <StoneTypesHere>Kaya türleri</StoneTypesHere>
   <!-- EN: Time zone -->
-  <TimeZone>Saat Dilimi</TimeZone>
+  <TimeZone>Saat dilimi</TimeZone>
   <!-- EN: Movement difficulty -->
-  <MovementDifficulty>Hareket Zorluğu</MovementDifficulty>
+  <MovementDifficulty>Hareket zorluğu</MovementDifficulty>
   <!-- EN: Animals can graze now -->
-  <AnimalsCanGrazeNow>Hayvanlar otlayabilir</AnimalsCanGrazeNow>
+  <AnimalsCanGrazeNow>Otlatmaya uygun</AnimalsCanGrazeNow>
   <!-- EN: Average disease frequency -->
   <AverageDiseaseFrequency>Ortalama hastalık sıklığı</AverageDiseaseFrequency>
   <!-- EN: per year -->
-  <PerYear>Yıl başına</PerYear>
+  <PerYear>yıl başına</PerYear>
   <!-- EN: Forageability -->
-  <Forageability>Toplayıcılığa verimli</Forageability>
+  <Forageability>Toplayıcılığa uygunluk</Forageability>
   <!-- EN: None of the selected people can do the following jobs:\n\n{0}\n\nThis can make the game more difficult than usual. Are you sure you want to continue? -->
-  <ConfirmRequiredWorkTypeDisabledForEveryone>Seçilen kişilerden hiç biri aşağıdaki işleri yapamaz:\n\n{0}\n\nBu, oyunu normalden daha zor hâle getiremez. Devam etmek istediğine emin misin?</ConfirmRequiredWorkTypeDisabledForEveryone>
+  <ConfirmRequiredWorkTypeDisabledForEveryone>Seçilen kişilerden hiçbiri aşağıdaki işleri yapamaz:\n\n{0}\n\nBu, oyunu normalden daha zor hâle getirebilir. Devam etmek istediğine emin misin?</ConfirmRequiredWorkTypeDisabledForEveryone>
   <!-- EN: temperature -->
   <TemperatureLower>sıcaklık</TemperatureLower>
   <!-- EN: light -->
@@ -605,11 +605,11 @@
 
   <!-- Character chooser -->
   <!-- EN: Create characters -->
-  <CreateCharacters>Karakter Oluştur</CreateCharacters>
+  <CreateCharacters>Karakterler oluştur</CreateCharacters>
   <!-- EN: The character's first name.\n\nThis is only displayed in certain menus. -->
   <FirstNameDesc>Karakterin adı.\n\nSadece belli menülerde karakter adı gözükür.</FirstNameDesc>
   <!-- EN: The character's short identifier.\n\nThis is displayed at all times. It can be the first or last name, or a completely separate nickname. -->
-  <ShortIdentifierDesc>Karakterin lakabı.\n\n Bu kısa isim her zaman görünecektir. Adı ve soyadıyla aynı lakabı kullanabilir veya bambaşka bir lakab koyabilirsiniz.</ShortIdentifierDesc>
+  <ShortIdentifierDesc>Karakterin lakabı.\n\nBu kısa isim her zaman görünür. Adı veya soyadı lakap yerine geçebilir veya bambaşka bir takma isim kullanılabilir.</ShortIdentifierDesc>
   <!-- EN: The character's last name.\n\nThis is only displayed in certain menus. -->
   <LastNameDesc>Karakterin soyadı.\n\nSadece belli menülerde karakter soyadı gözükür.</LastNameDesc>
   <!-- EN: Randomize -->
@@ -625,63 +625,63 @@
   <!-- EN: Incapable of -->
   <IncapableOf>Yapamayacakları</IncapableOf>
   <!-- EN: Abilities -->
-  <Abilities>Beceriler</Abilities>
+  <Abilities>Yetenekler</Abilities>
   <!-- EN: Caused by -->
-  <IncapableOfTooltipHediff>Nedeniyle: {0}</IncapableOfTooltipHediff>
+  <IncapableOfTooltipHediff>Sebep:</IncapableOfTooltipHediff>
   <!-- EN: Disabled work types: -->
   <IncapableOfTooltipWorkTypes>Yapamadığı işler:</IncapableOfTooltipWorkTypes>
   <!-- EN: Caused by backstory -->
-  <IncapableOfTooltipBackstory>Geçmişinin neden olduğu: {0}</IncapableOfTooltipBackstory>
+  <IncapableOfTooltipBackstory>Geçmişi nedeniyle</IncapableOfTooltipBackstory>
   <!-- EN: Caused by title -->
-  <IncapableOfTooltipTitle>Ünvanı nedeniyle: {0}</IncapableOfTooltipTitle>
+  <IncapableOfTooltipTitle>Ünvanı nedeniyle</IncapableOfTooltipTitle>
   <!-- EN: Caused by trait -->
-  <IncapableOfTooltipTrait>Özellikleri nedeniyle: {0}</IncapableOfTooltipTrait>
+  <IncapableOfTooltipTrait>Özellikleri nedeniyle</IncapableOfTooltipTrait>
   <!-- EN: Caused by quest status -->
-  <IncapableOfTooltipQuest>Görev durumundan kaynaklanır: {0}</IncapableOfTooltipQuest>
+  <IncapableOfTooltipQuest>Görev durumu nedeniyle</IncapableOfTooltipQuest>
   <!-- EN: Caused by role -->
-  <IncapableOfTooltipRole>Rol nedeniyle: {0}</IncapableOfTooltipRole>
+  <IncapableOfTooltipRole>Rol nedeniyle</IncapableOfTooltipRole>
   <!-- EN: Caused by gene -->
-  <IncapableOfTooltipGene>Genin neden olduğu</IncapableOfTooltipGene>
+  <IncapableOfTooltipGene>Geni nedeniyle</IncapableOfTooltipGene>
   <!-- EN: Caused by -->
-  <IncapableOfTooltipMutant>Neden olduğu</IncapableOfTooltipMutant>
+  <IncapableOfTooltipMutant>Sebep:</IncapableOfTooltipMutant>
   <!-- EN: Traits -->
-  <Traits>Kişisel özellikler</Traits>
+  <Traits>Kişilik özellikleri</Traits>
   <!-- EN: Permanent mood effect -->
   <PermanentMoodEffect>Kalıcı ruh hâli etkisi</PermanentMoodEffect>
   <!-- EN: Skills -->
-  <Skills>Yetenekler</Skills>
+  <Skills>Beceriler</Skills>
   <!-- EN: none -->
-  <NoneLower>hiç kimse</NoneLower>
+  <NoneLower>hiç</NoneLower>
   <!-- EN: Adulthood -->
-  <Adulthood>Yetişkinlikten</Adulthood>
+  <Adulthood>Yetişkinlik</Adulthood>
   <!-- EN: Childhood -->
-  <Childhood>Çocukluktan</Childhood>
+  <Childhood>Çocukluk</Childhood>
   <!-- EN: male -->
-  <Male>Erkek</Male>
+  <Male>erkek</Male>
   <!-- EN: female -->
-  <Female>Kadın</Female>
+  <Female>kadın</Female>
   <!-- EN: male and female -->
-  <MaleAndFemale>Erkek ve Kadın</MaleAndFemale>
+  <MaleAndFemale>erkek ve kadın</MaleAndFemale>
   <!-- EN: male -->
-  <MaleAnimal>Erkek</MaleAnimal>
+  <MaleAnimal>erkek</MaleAnimal>
   <!-- EN: female -->
-  <FemaleAnimal>Dişi</FemaleAnimal>
+  <FemaleAnimal>kadın</FemaleAnimal>
   <!-- EN: Pain -->
-  <Pain>Ağrı</Pain>
+  <Pain>Acı</Pain>
   <!-- EN: Health -->
   <Health>Sağlık</Health>
   <!-- EN: Relations -->
-  <Relations>İlişkiler</Relations>
+  <Relations>Yakınlar</Relations>
   <!-- EN: Possessions -->
-  <Possessions>sahip olunan eşyalar</Possessions>
+  <Possessions>Sahip oldukları</Possessions>
   <!-- EN: Team skills -->
-  <TeamSkills>Takım yetenekleri</TeamSkills>
+  <TeamSkills>Takım becerileri</TeamSkills>
   <!-- EN: Selected -->
-  <StartingPawnsSelected>Seçilmiş</StartingPawnsSelected>
+  <StartingPawnsSelected>Seçilen</StartingPawnsSelected>
   <!-- EN: Left behind -->
-  <StartingPawnsLeftBehind>Arkada Bırakılan</StartingPawnsLeftBehind>
+  <StartingPawnsLeftBehind>Geride bırakılan</StartingPawnsLeftBehind>
   <!-- EN: This person is considered guilty. Others won't be bothered if you banish, execute or arrest them.\n\nGuilt expires in -->
-  <GuiltyDesc>Bu kolonici suçlu olarak kabul edilir. Onları özgürce sürgün edebilir, idam edebilir veya tutuklayabilirsiniz; diğerleri rahatsız olmaz.\n\nSuçluluk süresi şu zaman içinde sona erer</GuiltyDesc>
+  <GuiltyDesc>Bu kişi suçlu kabul ediliyor. Onu sürgün edersen, infaz edersen veya tutuklarsan diğerleri bundan rahatsız olmaz.\n\nKalan suçluluk süresi:</GuiltyDesc>
   
   <!-- Misc -->
   <!-- EN: Start -->
@@ -689,7 +689,7 @@
   <!-- EN: Advanced -->
   <Advanced>Gelişmiş</Advanced>
   <!-- EN: Next -->
-  <Next>İlerle</Next>
+  <Next>İleri</Next>
   <!-- EN: Back -->
   <Back>Geri</Back>
   <!-- EN: Change material... -->
@@ -697,15 +697,15 @@
   <!-- EN: Gameplay -->
   <Gameplay>Oynanış</Gameplay>
   <!-- EN: Really quit? You'll lose unsaved progress. -->
-  <ConfirmQuit>Gerçekten çıkmak istiyor musunuz? Kaydedilmemiş ilerlemeleri kaybedeceksiniz.</ConfirmQuit>
+  <ConfirmQuit>Gerçekten çıkmak istiyor musun? Kaydedilmemiş ilerlemeleri kaybedeceksin.</ConfirmQuit>
   <!-- EN: Each person needs a valid name. -->
-  <EveryoneNeedsValidName>Herkesin geçerli bir ada ihtiyacı vardır.</EveryoneNeedsValidName>
+  <EveryoneNeedsValidName>Herkesin geçerli bir isme ihtiyacı vardır.</EveryoneNeedsValidName>
   <!-- EN: None of the selected people can do the following jobs -->
-  <RequiredWorkTypeDisabledForEveryone>Seçilen kişilerin hiç biri aşağıdaki işleri yapamaz.</RequiredWorkTypeDisabledForEveryone>
+  <RequiredWorkTypeDisabledForEveryone>Seçilen kişilerin hiçbiri aşağıdaki işleri yapamaz</RequiredWorkTypeDisabledForEveryone>
   <!-- EN: Quit -->
   <Quit>Çık</Quit>
   <!-- EN: Ignore -->
-  <Ignore>Görmezden Gel</Ignore>
+  <Ignore>Görmezden gel</Ignore>
   
   <!-- Progress bar -->
   <!-- EN: Generating world -->
@@ -715,29 +715,29 @@
   <!-- EN: Generating map -->
   <GeneratingMap>Harita oluşturuluyor</GeneratingMap>
   <!-- EN: Generating map for new encounter -->
-  <GeneratingMapForNewEncounter>Yeni bir hikâye için harita oluşturuluyor</GeneratingMapForNewEncounter>
+  <GeneratingMapForNewEncounter>Yeni bir karşılama için harita oluşturuluyor</GeneratingMapForNewEncounter>
 
   <!-- EN: Click for more info. -->
-  <ClickForMoreInfo>Daha fazla bilgi için tıklayın</ClickForMoreInfo>
+  <ClickForMoreInfo>Daha fazla bilgi için tıkla</ClickForMoreInfo>
   <!-- EN: No more information is available. -->
-  <NoMoreInfoAvailable>Daha fazla bilgi yok</NoMoreInfoAvailable>
+  <NoMoreInfoAvailable>Daha fazla mevcut bilgi yok.</NoMoreInfoAvailable>
 
   <!-- Factions -->
   <!-- EN: Factions -->
   <Factions>Fraksiyonlar</Factions>
   <!-- EN: max {0} basic factions allowed -->
-  <TotalFactionsAllowed>azami {0} görünür fraksiyona izin verildi.</TotalFactionsAllowed>
+  <TotalFactionsAllowed>azami {0} temel fraksiyona izin verildi</TotalFactionsAllowed>
   <!-- EN: max {0} -->
   <MaxFactionsForType>azami {0}</MaxFactionsForType>
   <!-- EN: Select the factions in the world. You can select up to {0} factions total. -->
-  <FactionSelectionDesc>Dünya daki fraksiyonları seçin. Toplamda en fazla {0} fraksiyon seçebilirsiniz.</FactionSelectionDesc>
+  <FactionSelectionDesc>Dünyadaki fraksiyonları seç. Toplamda en fazla {0} fraksiyon seçebilirsin.</FactionSelectionDesc>
   <!-- EN: Disabling {0} means less quest variety and other reduced content. -->
-  <FactionDisabledContentWarning>{0} öğesinin devre dışı bırakılması, daha az görev çeşitliliği ve diğer azaltılmış içerik anlamına gelir.</FactionDisabledContentWarning>
+  <FactionDisabledContentWarning>{0} öğesinin devre dışı bırakılması, daha az görev ve içerik çeşitliliği anlamına gelir.</FactionDisabledContentWarning>
   <!-- EN: Disabling {0} means less spontaneous threat variety. -->
-  <InsectsDisabledContentWarning>{0}'in devre dışı bırakılması, daha az doğal tehdit çeşitliliği anlamına gelir.</InsectsDisabledContentWarning>
+  <InsectsDisabledContentWarning>{0} öğesinin devre dışı bırakılması, daha az tehdit çeşitliliği anlamına gelir.</InsectsDisabledContentWarning>
   <!-- EN: Disabling {0} means less quest and spontaneous threat variety. -->
-  <MechanoidsDisabledContentWarning>{0} öğesini devre dışı bırakmak, daha az görev ve doğal tehdit çeşitliliği anlamına gelir.</MechanoidsDisabledContentWarning>
+  <MechanoidsDisabledContentWarning>{0} öğesinin devre dışı bırakılması, daha az görev ve tehdit çeşitliliği anlamına gelir.</MechanoidsDisabledContentWarning>
   <!-- EN: Without other factions, raids, trading, and quests won't occur as normal. -->
-  <FactionsDisabledWarning>Diğer fraksiyonlar olmadan, baskınlar, ticaret ve görevler normal şekilde gerçekleşmeyecek.</FactionsDisabledWarning>
+  <FactionsDisabledWarning>Diğer fraksiyonlar olmadan baskınlar, ticaret ve görevler normal şekilde gerçekleşmeyecek.</FactionsDisabledWarning>
 
 </LanguageData>

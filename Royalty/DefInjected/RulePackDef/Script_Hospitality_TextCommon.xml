@@ -65,7 +65,7 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçli abasiadan muzdarip ve yatakta tutulması gerekiyor.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçli abasiadan mustarip ve yatakta tutulması gerekiyor.</li>
     <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürüğü hastası ve günlük tedavi gerektirecek. Hastalık, yüksek kaliteli bakım ve ilaçla yavaşlatılabilir, ancak genellikle doğrudan tedavi edilemez. Hastalık şiddetli hâle gelirse [lodgersLabelSingOrPluralDef] ölecektir, bu nedenle gerekli tıbbi malzemeye sahip olduğunuzdan emin olun.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]'in ruh hâlini [lodgersMoodThreshold_percent] üzerinde tutmalısınız.</li>

@@ -40,7 +40,7 @@
   <!-- EN: {PAWN_nameDef} hypnotized -->
   <LetterLabelPawnHypnotized>{PAWN_nameDef} hipnotize oldu</LetterLabelPawnHypnotized>
   <!-- EN: {PAWN_nameDef} has been hypnotized by a revenant and is now rambling incoherently about nightmarish images and ideas.\n\nKilling the revenant will end the hypnosis.\n\nThe revenant uses psychic powers to twist the perceptions of those around it, making itself invisible. However, it can still be hunted by following the black smears that it leaves. The revenant will be revealed if hit by explosive weapons, firefoam, EMPs, fire, or disruptor flares.\n\nIf not killed, the revenant will continue to hypnotize new victims. -->
-  <LetterPawnHypnotized>{PAWN_nameDef} bir karabasan tarafından hipnotize edildi ve abuk sabuk, kâbusu andıran görüntülerden ve fikirlerden bahsediyor.\n\nKarabasanı öldürmek hipnoza bir son verecek.\n\nKarabasan, çevresindekilerin algısını çarpıtarak kendini görünmez kılmak için psişik güçlerini kullanır.Ancak, yine de yerde bıraktığı izleri takip ederek avlanabilir. Karabasan, eğer patlayıcı silahlar, yangın köpüğü, EMP, ateş ya da işaret fişeği ile vurulursa kendini açığa çıkarır.\n\nEğer öldürülmezse, yeni kurbanlar hipnotize etmeye devam edecek.</LetterPawnHypnotized>
+  <LetterPawnHypnotized>{PAWN_nameDef} bir karabasan tarafından hipnotize edildi ve abuk sabuk, kâbusu andıran görüntülerden ve fikirlerden bahsediyor.\n\nKarabasanı öldürmek hipnoza bir son verecek.\n\nKarabasan, çevresindekilerin algısını çarpıtarak kendini görünmez kılmak için psişik güçlerini kullanır.Lakin, yine de yerde bıraktığı izleri takip ederek avlanabilir. Karabasan, eğer patlayıcı silahlar, yangın köpüğü, EMP, ateş ya da işaret fişeği ile vurulursa kendini açığa çıkarır.\n\nEğer öldürülmezse, yeni kurbanlar hipnotize etmeye devam edecek.</LetterPawnHypnotized>
   <!-- EN: Revenant flesh chunk -->
   <LetterRevenantFleshChunkLabel>Karabasan parçası</LetterRevenantFleshChunkLabel>
   <!-- EN: The wounded revenant left behind a piece of itself. You can analyze this flesh chunk to learn how to track the revenant. -->
@@ -417,7 +417,7 @@
   <!-- EN: {DOCTOR_nameDef} performed an extensive surgical inspection of {PATIENT_nameDef}. -->
   <LetterSurgicallyInspectedHeader>{DOCTOR_nameDef}, {PATIENT_nameDef} üzerinde geniş çaplı bir cerrahi inceleme gerçekleştirdi.</LetterSurgicallyInspectedHeader>
   <!-- EN: {DOCTOR_pronoun} says that {DOCTOR_pronoun} found no anomalies. However, a doctor may lie if it is in their own self-interest. -->
-  <LetterSurgicallyInspectedNothing>Doktor onda bir anomaliye rastlamadığını söylüyor. Ancak, eğer kendi çıkarlarına hizmet ediyorsa doktor yalan söyleyebilir.</LetterSurgicallyInspectedNothing>
+  <LetterSurgicallyInspectedNothing>Doktor onda bir anomaliye rastlamadığını söylüyor. Lakin, eğer kendi çıkarlarına hizmet ediyorsa doktor yalan söyleyebilir.</LetterSurgicallyInspectedNothing>
   
   <!-- Death refusal -->
   <!-- EN: use -->
@@ -469,7 +469,7 @@
   <!-- EN: {CASTER_nameDef} has finished {CASTER_possessive} psychic healing on {PAWN_nameDef}. -->
   <LetterUnnaturalHealing>{CASTER_nameDef}, {PAWN_nameDef} üzerinde psişik iyileştirmeyi bitirdi.</LetterUnnaturalHealing>
   <!-- EN: However, something went terribly wrong.\n\n{PAWN_nameDef}'s arm split open as a violent growth emerged from {PAWN_possessive} body. {PAWN_possessive} arm has been replaced by a fleshy tentacle! -->
-  <LetterUnnaturalHealingTentacle>Ancak, bir şeyler çok ters gitti.\n\n{PAWN_nameDef} kişisinin kolu yarıldı ve içinden vahşi bir ur çıktı. Kolu etsi bir dokunaca dönüştü.</LetterUnnaturalHealingTentacle>
+  <LetterUnnaturalHealingTentacle>Lakin, bir şeyler çok ters gitti.\n\n{PAWN_nameDef} kişisinin kolu yarıldı ve içinden vahşi bir ur çıktı. Kolu etsi bir dokunaca dönüştü.</LetterUnnaturalHealingTentacle>
   
   <!-- Transmutation ability -->
   <!-- EN: {PAWN_nameDef} has transmuted {ORIGINAL} into {TRANSMUTED}. -->
@@ -518,7 +518,7 @@
   <!-- EN: Flesh tentacle attack -->
   <LetterLabelFleshTentacleAttack>Etdokunaç saldırısı</LetterLabelFleshTentacleAttack>
   <!-- EN: {PAWN_nameDef}'s operation was successful. However, the twisting mass of flesh that was {PAWN_possessive} tentacle has begun to attack! -->
-  <LetterFleshTentacleAttack>{PAWN_nameDef} ameliyatı başarıyla atlattı. Ancak, onun dokunacı olan çarpık et kütlesi saldırmaya başladı!</LetterFleshTentacleAttack>
+  <LetterFleshTentacleAttack>{PAWN_nameDef} ameliyatı başarıyla atlattı. Lakin, onun dokunacı olan çarpık et kütlesi saldırmaya başladı!</LetterFleshTentacleAttack>
   <!-- EN: Biosignature -->
   <Biosignature>Biyoimza</Biosignature>
   <!-- EN: Bliss lobotomy -->
@@ -582,7 +582,7 @@
   <!-- EN: Unnatural corpse study complete -->
   <UnnaturalCorpseStudyCompletedLetter>Olağandışı ceset incelemesi tamamlandı</UnnaturalCorpseStudyCompletedLetter>
   <!-- EN: Your investigation of the unnatural corpse has revealed how to safely remove the archotech shard. Doing so will stop it from psychically tormenting {VICTIM_nameDef}. However, it will also prevent further study of the corpse. -->
-  <UnnaturalCorpseStudyCompletedLetterDesc>Olağandışı ceset araştırmaların sonucu arkotek kabuğunu güvenli bir şekilde nasıl çıkaracağını öğrendin. Bunu yapmak {VICTIM_nameDef} üzerindeki psişik işkencesini durduracak. Ancak, cesedi daha fazla inceleyemeyeceksin.</UnnaturalCorpseStudyCompletedLetterDesc>
+  <UnnaturalCorpseStudyCompletedLetterDesc>Olağandışı ceset araştırmaların sonucu arkotek kabuğunu güvenli bir şekilde nasıl çıkaracağını öğrendin. Bunu yapmak {VICTIM_nameDef} üzerindeki psişik işkencesini durduracak. Lakin, cesedi daha fazla inceleyemeyeceksin.</UnnaturalCorpseStudyCompletedLetterDesc>
 
   <!-- EN: Corpse shard -->
   <UnnaturalCorpseDeactivatedLetter>Ceset kabuğu</UnnaturalCorpseDeactivatedLetter>
