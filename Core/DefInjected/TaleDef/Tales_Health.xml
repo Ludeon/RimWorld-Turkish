@@ -61,7 +61,7 @@
     <li>with_weapon_optional->[WEAPON_label] ile [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->tereddütsüzce</li>
-    <li>circumstance_phrase->soğuk kanlılıkla</li>
+    <li>circumstance_phrase->soğukkanlılıkla</li>
     <li>circumstance_phrase->tutkulu bir öfkeyle</li>
     <li>circumstance_phrase->hızlı ve efektif hareketlerle</li>
     <li>circumstance_phrase->duygusuzca</li>
@@ -263,12 +263,12 @@
   -->
   <IllnessRevealed.rulePack.rulesStrings>
     <li>tale_noun->[PAWN_nameDef] kişisinin [ILLNESS_label] hastalığına yakalanması</li>
-    <li>image->[PAWN_nameFull], [circumstance_group] bir tarlada sendeliyor.</li>
+    <li>image->[PAWN_nameFull], [circumstance_group] bir tarlada sendeliyor</li>
     <li>image->[PAWN_nameFull], [circumstance_group] yerde yatıyor</li>
     <li>image->[PAWN_nameFull], [circumstance_group] yatakta uzanıyor</li>
     <li>image->[PAWN_nameFull], [circumstance_group] hastane yatağında yatıyor</li>
     <li>image->[PAWN_nameFull], [circumstance_group] koltukta uzanıyor</li>
-    <li>image->[PAWN_nameFull], [circumstance_group] bir ateşin yanına çömeliyor.</li>
+    <li>image->[PAWN_nameFull], [circumstance_group] bir ateşin yanına çömeliyor</li>
     <li>circumstance_phrase->kontrolsüzce terlerken</li>
     <li>circumstance_phrase->kontrolsüzce titriyorken</li>
     <li>circumstance_phrase->hem terlerken hem de titrerken</li>
@@ -317,32 +317,32 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledCapacity.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef]'i [wound_name_present]</li>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef]'i bir [WEAPON_label] ile [wound_name_present]</li>
-    <li>image->[KILLER_nameFull] [VICTIM_nameFull]'nin [CAPACITY_label] kapasitesini [with_weapon_optional] [cap_removal]</li>
-    <li>image->[KILLER_nameFull] [VICTIM_nameFull]'nin [CAPACITY_label]'ını [with_weapon_optional] yok ederek [wound_name_present].</li>
+    <li>tale_noun->[VICTIM_nameDef] kişisinin [KILLER_nameDef] tarafından [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] kişisinin [KILLER_nameDef] tarafından bir [WEAPON_label] ile [wound_name_past]</li>
+    <li>image->[KILLER_nameFull], [VICTIM_nameFull] adlı kurbanını [wound_name_present]</li>
+    <li>image->[KILLER_nameFull], [VICTIM_nameFull] adlı kurbanını [with_weapon_optional] [wound_name_present]</li>
     <li>cap_removal->yok etti</li>
     <li>cap_removal->ortadan kaldırdı</li>
     <li>cap_removal->sonlandırdı</li>
-    <li>wound_name_past->katletti</li>
-    <li>wound_name_past->infaz etti</li>
-    <li>wound_name_past->suikast yaptı</li>
-    <li>wound_name_past->ortadan kaldırdı</li>
+    <li>wound_name_past->katledilmesi</li>
+    <li>wound_name_past->infaz edilmesi</li>
+    <li>wound_name_past->suikaste uğraması</li>
+    <li>wound_name_past->ortadan kaldırılması</li>
     <li>wound_name_present->katlediyor</li>
     <li>wound_name_present->infaz ediyor</li>
-    <li>wound_name_present->suikast yapıyor</li>
+    <li>wound_name_present->suikaste uğratıyor</li>
     <li>wound_name_present->ortadan kaldırıyor</li>
-    <li>with_weapon_optional->[WEAPON_label] ile [circumstance_group]</li>
+    <li>with_weapon_optional->bir [WEAPON_label] ile [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->görünüşte pişmanlık duymadan</li>
-    <li>circumstance_phrase->soğuk kanlılıkla</li>
+    <li>circumstance_phrase->pişman görünmeden</li>
+    <li>circumstance_phrase->soğukkanlılıkla</li>
     <li>circumstance_phrase->hızlı ve efektif hareketlerle</li>
-    <li>circumstance_phrase->duygu veya ifade olmadan</li>
+    <li>circumstance_phrase->duygusuzca</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] izliyor.</li>
-    <li>desc_sentence->A [PersonJob] [side_position]'da sessizce izliyor.</li>
+    <li>desc_sentence->Bir [PersonJob], [side_position] sessizce izliyor.</li>
     <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngsty] bakıyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef]'nin gözleri kapandı</li>
-    <li>desc_sentence->[KILLER_nameDef] memnun görünüyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] gözlerini kapatıyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] tatmin olmuş görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] yaptığı şeyden rahatsız görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] durumdan memnun görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] muzaffer görünüyor.</li>
@@ -386,35 +386,35 @@
     <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
   -->
   <KilledLongRange.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef]'i aşırı uzak mesafeden [wound_name_present]</li>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef]'i [WEAPON_label] ile aşırı uzak mesafeden [wound_name_present]</li>
-    <li>tale_noun->[VICTIM_nameDef], [KILLER_nameDef] tarafından uzak bir mesafeden  [wound_name_present]</li>
-    <li>tale_noun->[VICTIM_nameDef], [KILLER_nameDef] [WEAPON_label] ile uzak mesafeden [wound_name_present]</li>
-    <li>image->[KILLER_nameFull] [VICTIM_nameFull]'e [with_weapon_optional] nişan alıyor</li>
-    <li>image->[KILLER_nameFull] [VICTIM_nameFull]'i [with_weapon_optional] [wound_name_present]</li>
-    <li>wound_name_past->öldürdü</li>
-    <li>wound_name_past->katletti</li>
-    <li>wound_name_past->yoketti</li>
-    <li>wound_name_past->ortadan kaldırdı</li>
+    <li>tale_noun->[VICTIM_nameDef] kişisinin [KILLER_nameDef] tarafından aşırı uzaktan [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] kişisinin [KILLER_nameDef] tarafından [WEAPON_label] ile aşırı uzaktan [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kurbanın [KILLER_nameDef] tarafından aşırı uzak mesafeden [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kurbanın [KILLER_nameDef] tarafından [WEAPON_label] ile aşırı uzak mesafeden [wound_name_past]</li>
+    <li>image->[KILLER_nameFull] [VICTIM_nameFull] adlı kurbanına [with_weapon_optional] nişan alıyor</li>
+    <li>image->[KILLER_nameFull] [VICTIM_nameFull] adlı kurbanını [with_weapon_optional] [wound_name_present]</li>
+    <li>wound_name_past->öldürülmesi</li>
+    <li>wound_name_past->katledilmesi</li>
+    <li>wound_name_past->canının alınması</li>
+    <li>wound_name_past->ortadan kaldırılması</li>
     <li>wound_name_present->öldürüyor</li>
     <li>wound_name_present->katlediyor</li>
-    <li>wound_name_present->yok ediyor</li>
+    <li>wound_name_present->canını alıyor</li>
     <li>wound_name_present->ortadan kaldırıyor</li>
-    <li>with_weapon_optional->[WEAPON_label] ile [circumstance_group]</li>
+    <li>with_weapon_optional->bir [WEAPON_label] ile [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->görünüşte pişmanlık duymadan</li>
-    <li>circumstance_phrase->soğuk kanlılıkla</li>
+    <li>circumstance_phrase->pişman görünmeden</li>
+    <li>circumstance_phrase->soğukkanlılıkla</li>
     <li>circumstance_phrase->uzak mesafeden</li>
-    <li>circumstance_phrase->yükseklikten</li>
-    <li>circumstance_phrase->duygu veya ifade olmadan</li>
-    <li>circumstance_phrase->korkakça, gönülsüz bir şekilde</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] izliyor</li>
-    <li>desc_sentence->A [PersonJob] [side_position]'da sessizce izliyor.</li>
+    <li>circumstance_phrase->yüksekten</li>
+    <li>circumstance_phrase->duygusuzca</li>
+    <li>circumstance_phrase->korkakça ve gönülsüzce</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] izliyor.</li>
+    <li>desc_sentence->Bir [PersonJob], [side_position] sessizce izliyor.</li>
     <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngsty] bakıyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef]'nin gözleri kapandı</li>
-    <li>desc_sentence->[VICTIM_nameDef] [Gore] ile kaplandı.</li>
-    <li>desc_sentence->[KILLER_nameDef] dişlerini gıcırdatıyor</li>
-    <li>desc_sentence->[KILLER_nameDef] memnun görünüyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] gözlerini kapatıyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] [Gore] ile kaplı.</li>
+    <li>desc_sentence->[KILLER_nameDef] dişlerini gıcırdatıyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] tatmin olmuş görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] yaptığı şeyden rahatsız görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] durumdan memnun görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] muzaffer görünüyor.</li>
@@ -461,39 +461,39 @@
     <li>desc_sentence->[KILLER_nameDef] is glowing with a heroic aura.</li>
   -->
   <KilledMajorThreat.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef] [wound_name_present]</li>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef]'i [WEAPON_label] ile [wound_name_present]</li>
-    <li>tale_noun->[VICTIM_nameDef]'in [KILLER_nameDef] tarafından [wound_name_present]</li>
-    <li>tale_noun->[VICTIM_nameDef]'in [KILLER_nameDef] tarafından [WEAPON_label] ile [wound_name_present]</li>
+    <li>tale_noun->[VICTIM_nameDef] kişisinin [KILLER_nameDef] tarafından [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] kişisinin [KILLER_nameDef] tarafından [WEAPON_label] ile [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kurbanın [KILLER_nameDef] tarafından [wound_name_past]</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kurbanın [KILLER_nameDef] tarafından [WEAPON_label] ile [wound_name_past]</li>
     <li>image->[VICTIM_nameFull]'nin [KILLER_nameFull] tarafından [with_weapon_optional]  [wound_name_past]</li>
     <li>image->[KILLER_nameFull] [VICTIM_nameFull]'i [with_weapon_optional] [wound_name_present]</li>
     <li>image->[KILLER_nameFull] [VICTIM_nameFull]'i [with_weapon_optional] vahşice [wound_name_present]</li>
     <li>image->[VICTIM_nameFull] [with_weapon_optional] [wound_name_past]</li>
-    <li>wound_name_past->katletti</li>
-    <li>wound_name_past->maplup etti</li>
-    <li>wound_name_past->üstesinden geldi</li>
+    <li>wound_name_past->katledilmesi</li>
+    <li>wound_name_past->mağlup edilmesi</li>
+    <li>wound_name_past->üstesinden gelinmesi</li>
     <li>wound_name_present->katlediyor</li>
-    <li>wound_name_present->mağlıp ediyor</li>
+    <li>wound_name_present->mağlup ediyor</li>
     <li>wound_name_present->üstesinden geliyor</li>
-    <li>with_weapon_optional->[WEAPON_label] ile [circumstance_group]</li>
+    <li>with_weapon_optional->bir [WEAPON_label] ile [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
-    <li>circumstance_phrase->soğuk kanlılıkla</li>
+    <li>circumstance_phrase->soğukkanlılıkla</li>
     <li>circumstance_phrase->hızlı ve efektif hareketlerle</li>
-    <li>circumstance_phrase->duygu veya ifade takınmadan</li>
+    <li>circumstance_phrase->duygusuzca</li>
     <li>circumstance_phrase->büyük kahramanlıkla</li>
     <li>circumstance_phrase->inanılmaz bir güçle</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] izliyor.</li>
-    <li>desc_sentence->A [PersonJob] [side_position]'da sessizce izliyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngsty] baktı.</li>
-    <li>desc_sentence->[VICTIM_nameDef]'nin gözleri kapandı</li>
-    <li>desc_sentence->[VICTIM_nameDef] [Gore] ile kaplandı.</li>
+    <li>desc_sentence->Bir [PersonJob], [side_position] sessizce izliyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] [AdjectiveAngsty] bakıyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] gözlerini kapatıyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] [Gore] ile kaplı.</li>
     <li>desc_sentence->[VICTIM_nameDef] ve [KILLER_nameDef] [Gore] içinde yüzüyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef]'nin cesedi kule gibi [KILLER_nameDef]'nin üstünde yükseliyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef]'nin devasa cesedi bir duvarı kaplar.</li>
-    <li>desc_sentence->[VICTIM_nameDef]'nin gözleri [Color] parlıyor</li>
+    <li>desc_sentence->[KILLER_nameDef] [VICTIM_nameDef] adlı kurbanının cesedi üstünde yükseliyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] bir duvarı kaplayacak boyutta bir cesede dönüşüyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] adlı kurbanının gözlerinde [Color] bir parıltı var.</li>
     <li>desc_sentence->[KILLER_nameDef] [Gore] ile kaplı.</li>
-    <li>desc_sentence->[KILLER_nameDef] dişlerini gıcırdatıyor</li>
-    <li>desc_sentence->[KILLER_nameDef] memnun görünüyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] dişlerini gıcırdatıyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] durumdan memnun görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] muzaffer görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] [AdjectiveBadass] bakıyor.</li>
     <li>desc_sentence->[KILLER_nameDef] kahramanca bir aura ile parlıyor.</li>
@@ -559,7 +559,7 @@
     <li>with_weapon_optional->[WEAPON_label] ile [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->görünüşte pişmanlık duymadan</li>
-    <li>circumstance_phrase->soğuk kanlılıkla</li>
+    <li>circumstance_phrase->soğukkanlılıkla</li>
     <li>circumstance_phrase->hızlı ve efektif hareketlerle</li>
     <li>circumstance_phrase->duygu ve ifade göstermeden</li>
     <li>circumstance_phrase->korkakça ve isteksizce</li>
@@ -739,7 +739,7 @@
     <li>with_weapon_optional->[WEAPON_label] ile [circumstance_group]</li>
     <li>with_weapon_optional->[circumstance_group]</li>
     <li>circumstance_phrase->görünüşte pişmanlık duymadan</li>
-    <li>circumstance_phrase->soğuk kanlılıkla</li>
+    <li>circumstance_phrase->soğukkanlılıkla</li>
     <li>circumstance_phrase->tutkulu bir öfkeyle</li>
     <li>circumstance_phrase->hızlı ve efektif hareketlerle</li>
     <li>circumstance_phrase->duygu ve ifade göstermeden</li>

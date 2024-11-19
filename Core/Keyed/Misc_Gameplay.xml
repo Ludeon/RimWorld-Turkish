@@ -121,7 +121,7 @@
   <!-- EN: {PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}. -->
   <RenounceTitleWillLosePermitPoints>{PAWN_nameDef}, {FACTION_name} fraksiyonundan aldığı harcanmamış {POINTS} ruhsat puanını kaybedecek.</RenounceTitleWillLosePermitPoints>
   <!-- EN: {PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts. -->
-  <RenounceTitleWillKeepPsylinkLevels>O, tüm psikobağ seviyelerini ve psikobecerilerini koruyacak.</RenounceTitleWillKeepPsylinkLevels>
+  <RenounceTitleWillKeepPsylinkLevels>O, tüm psi-bağlantı seviyelerini ve psi-yetilerini koruyacak.</RenounceTitleWillKeepPsylinkLevels>
   <!-- EN: unknown -->
   <UnknownLower>bilinmeyen</UnknownLower>
   <!-- EN: On -->
@@ -505,7 +505,7 @@
   <!-- EN: radius {0} -->
   <ConditionCauserRadius>yarıçap {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>düşük psiko-odak</LowPsyfocus>
+  <LowPsyfocus>düşük psi-odak</LowPsyfocus>
   <!-- EN: {0} left -->
   <DurationLeft>{0} kaldı</DurationLeft>
   <!-- EN: Any of -->
@@ -549,7 +549,7 @@
   <!-- EN: Ingredients -->
   <ThoughtFoodEatenIngredients>İçindekiler</ThoughtFoodEatenIngredients>
   <!-- EN: Shield pack -->
-  <ShieldInbuilt>Kalkan paketi</ShieldInbuilt>
+  <ShieldInbuilt>Kalkan çantası</ShieldInbuilt>
   <!-- EN: Punctured - will explode soon. -->
   <PuncturedWillExplode>Delinmiş, yakında patlayacak.</PuncturedWillExplode>
   <!-- EN: Click to open research window -->
@@ -1216,7 +1216,7 @@
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by pressing the left trigger button and dragging them. -->
   <ShowColonistBarToggleButtonController>Kolonici barını aç/kapat.\n\nTüm kolonicilerin ekranın üst kısmındaki ikonlarını ve temel durumlarını gösterir.\n\nLT butonuna basılı tutup sürükleyerek ikonların kolonici barındaki yerlerini değiştirebilirsin.</ShowColonistBarToggleButtonController>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>Yeni yapıların etrafını ev alanına dahil etmeyi aç/kapat.</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>Yeni yapıların etrafını ev alanına dâhil etmeyi aç/kapat.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
   <AutoRebuildButton>Ev alanındaki tahrip olmuş yapıların otomatik olarak tamir edilmesini aç/kapat.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
@@ -1350,13 +1350,13 @@
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>Neurotrainer ({0})</SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>Nöroeğitmen ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>{0} öğrenmek için beceri nörotrainer'ı kullanın</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>{0} öğrenmek için nöroeğitmeni kullan</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>Belirli bir beceriyi eğiten tek kullanımlık süper doz mekanizmalar.\n\nDoz gözün yörüngesinden uygulanır. Beynin içine alındıktan sonra, mekanizmalar belirli bir alandaki becerileri hızla geliştirir ve kendilerini gerektiğinde sinir dokusuna dönüştürür.</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>Belirli bir gücü öğreten, tek kullanımlık süper doz mekanitler.\n\nDoz, göz çevresinden uygulanır. Bir kez beyne salındığında mekanitler, belirli bir becerinin bilgisini oluşturur ve gerektiğinde kendilerini sinir dokuya dönüştürür.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}, {2} seviyesinden {3} seviyesine gitmek için {1} nörotrainer kullandı.</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}, nöroeğitmen kullanarak {2} seviyesinden {3} seviyesine geçti.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
@@ -1384,7 +1384,7 @@
   <!-- EN: quality -->
   <quality>kalite</quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>Bir nesnenin kalitesi onun ne kadar iyi yapıldığıdır.</QualityDescription>
+  <QualityDescription>Bir nesnenin kalitesi, onun ne kadar iyi yapıldığıdır.</QualityDescription>
   <!-- EN: Quality: {0} -->
   <QualityIs>Kalite: {0}</QualityIs>
 
@@ -1604,13 +1604,13 @@
   <!-- EN: Fall rate: {0} / s ({1}s until zero) -->
   <PawnTooltipPsychicEntropyStats>Düşüş hızı: {0} / sn (sıfırlanmasına {1}sn)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>Bir psişik gücün kullanılmasının ardından sinirsel ısı artar. Normal sınırı aşmak, günlerce süren bir psişik çöküntüye neden olabilir.\n\nSinirsel ısı, zaman içerisinde doğal biçimde boşalır. Bu süreç, eltex kıyafetler giyerek veya acı çekerek hızlandırılabilir.</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>Bir psişik gücün kullanılmasının ardından sinirsel ısı artar. Normal sınırı aşmak, günlerce süren bir psişik çöküntüye neden olabilir.\n\nSinirsel ısı, zaman içerisinde doğal biçimde boşalır. Bu süreç, elteks kıyafetler giyerek veya acı çekerek hızlandırılabilir.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
   <PawnTooltipPsychicEntropyPainFocus>Ağrı artışı\n\nAğrı, zihni odaklar ve sinirsel ısının boşalma hızını artırır.\n\nAğrı düzeyi: {0}\nBonus: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
   <PawnTooltipPsychicEntropyLimit>Sinirsel ısı kısıtlayıcıyı aç/kapat.\n\nIsı sınırını aşmak, günlerce süren bir psişik çöküntüye neden olabilir. Kalıcı bir hasara sebep olmaz.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>Psiko-odak: {0}</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>Psi-odak: {0}</PawnTooltipPsyfocus>
   
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
@@ -1646,9 +1646,9 @@
   <!-- EN: Visitors' help -->
   <Reward_VisitorsHelp_Label>Ziyaretçilerin yardımı</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>Yeni psikobağ seviyesi</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>Yeni psi-bağlantı seviyesi</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>{PAWNNAME} psikobağ kazanıyor</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME} psi-bağlantı kazanıyor</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
   <Reward_ShuttleLoot_Label>Mekik ganimeti</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->

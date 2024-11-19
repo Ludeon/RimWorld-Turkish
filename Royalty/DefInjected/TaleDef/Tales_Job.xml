@@ -15,15 +15,15 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen attentively.</li>
   -->
   <AttendedConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef], [ORGANIZER_nameDef]'in konserine katılıyor</li>
-    <li>tale_noun->[ATTENDER_nameDef], [ORGANIZER_nameDef]'in performansını dinliyor</li>
-    <li>image->[ATTENDER_nameFull] [circumstance_group] sessizce dinliyor, </li>
-    <li>image->[ATTENDER_nameFull], [circumstance_group] [ORGANIZER_nameFull]'un performansının keyfini çıkarıyor</li>
-    <li>image->[ATTENDER_nameFull] [circumstance_group] müziğe doğru sallanıyor</li>
-    <li>image->[ATTENDER_nameFull] [circumstance_group] sesinde emilir</li>
-    <li>circumstance_phrase->alkışlarken</li>
+    <li>tale_noun->[ATTENDER_nameDef] kişisinin [ORGANIZER_nameDef] adlı sanatçının konserine katılması</li>
+    <li>tale_noun->[ATTENDER_nameDef] kişisinin [ORGANIZER_nameDef] adlı sanatçının performansını dinlemesi</li>
+    <li>image->[ATTENDER_nameFull], [circumstance_group] sessizce dinliyor.</li>
+    <li>image->[ATTENDER_nameFull], [circumstance_group] [ORGANIZER_nameFull] adlı sanatçının performansının keyfini çıkarıyor.</li>
+    <li>image->[ATTENDER_nameFull], [circumstance_group] müzikle uyumlu biçimde sallanıyor.</li>
+    <li>image->[ATTENDER_nameFull], [circumstance_group] kendini ritme bırakıyor.</li>
+    <li>circumstance_phrase->alkışlayarak</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] dans ediyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] dikkatle dinler.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] dikkatle dinliyor.</li>
   </AttendedConcert.rulePack.rulesStrings>
   
   <!-- EN: held concert -->
@@ -39,14 +39,14 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s listen nearby.</li>
   -->
   <HeldConcert.rulePack.rulesStrings>
-    <li>tale_noun->[ORGANIZER_nameDef] bir konser veriyor</li>
-    <li>image->[ORGANIZER_nameFull] [circumstance_group] imza şarkılarını çalıyor</li>
-    <li>image->[ORGANIZER_nameFull] kalabalığı birlikte şarkı söylemeye davet ediyor</li>
-    <li>image->[ORGANIZER_nameFull] ilham verici bir şarkı çalıyor</li>
-    <li>image->[ORGANIZER_nameFull] [circumstance_group] zor bir parçayı icra ediyor</li>
-    <li>circumstance_phrase->yoğun bir ifadeyle</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] yakınlarda dinler.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] yakınlarda dinler.</li>
+    <li>tale_noun->[ORGANIZER_nameDef] adlı sanatçının bir konser vermesi</li>
+    <li>image->[ORGANIZER_nameFull] [circumstance_group] imza şarkılarını çalıyor.</li>
+    <li>image->[ORGANIZER_nameFull] kalabalığı birlikte şarkı söylemeye davet ediyor.</li>
+    <li>image->[ORGANIZER_nameFull] ilham verici bir şarkı çalıyor.</li>
+    <li>image->[ORGANIZER_nameFull] [circumstance_group] zor bir parçayı icra ediyor.</li>
+    <li>circumstance_phrase->hissederek</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] yakınlarda dinliyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] yakınlarda dinliyor.</li>
   </HeldConcert.rulePack.rulesStrings>
   
 </LanguageData>
