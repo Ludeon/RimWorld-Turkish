@@ -551,7 +551,7 @@
   <!-- EN: How often an animal will nuzzle friendly colonists, on average.\n\nNuzzling is a behavior shared by many animal species, where the animal presses its nose or muzzle against a friend as a sign of affection.\nMost humans find this cute and it will leave them in a good mood for a period of time. -->
   <NuzzleIntervalExplanation>Bir hayvanın dost kolonicilere ortalama ne kadar sıklıkta sırnaşacağı.\n\nSırnaşma birçok hayvan türünde görülen ortak bir davranıştır. Hayvanın dostça burnunu sürtmesi bir şefkat göstergesidir.\nÇoğu insan bunu sevimli bir hareket olarak görür ve bir süreliğine ruh hâlleri iyileşir.</NuzzleIntervalExplanation>
   <!-- EN: Revenge chance on harm -->
-  <HarmedRevengeChance>Zarar gördüğünde saldırma ihtimali</HarmedRevengeChance>
+  <HarmedRevengeChance>Zarar gördüğünde karşılık verme ihtimali</HarmedRevengeChance>
   <!-- EN: The chance this creature will attack when harmed.\n\nThis chance increases up to three times if the attacker is closer.\n\nThis chance is applied each time damage is taken. This means that slower-firing, higher-damage weapons are less likely to trigger it while hunting. -->
   <HarmedRevengeChanceExplanation>Bu canlının zarar gördüğü zaman saldırma ihtimali.\n\nAvcının yakın olma durumuna göre bu ihtimal üç kata kadar artar.\n\nBu ihtimal her hasar alındığında uygulanır. Bu nedenle daha yavaş atış hızına sahip yüksek hasarlı silahların bunu tetikleme olasılığı daha düşüktür.</HarmedRevengeChanceExplanation>
   <!-- EN: Revenge chance on tame fail -->
@@ -835,7 +835,7 @@
   <!-- EN: Movement speed -->
   <CaravanMovementSpeed>Hareket hızı</CaravanMovementSpeed>
   <!-- EN: tiles/day -->
-  <TilesPerDay>kare/gün</TilesPerDay>
+  <TilesPerDay>altıgen/gün</TilesPerDay>
   <!-- EN: None - too heavy -->
   <TilesPerDayImmobile>Yok - çok ağır</TilesPerDayImmobile>
   <!-- EN: None -->
@@ -1143,7 +1143,7 @@
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
-  <ConfirmSettleNearFactionBase>Bu konum, başka bir fraksiyonun üssüne {0} kare mesafede olduğundan sınır ihlali yaptığını düşünecekler ve bu fraksiyonla ilişkin her {1} günde bir kötüleşecek.</ConfirmSettleNearFactionBase>
+  <ConfirmSettleNearFactionBase>Bu konum, başka bir fraksiyonun üssüne {0} altıgen mesafede olduğundan sınır ihlâli yaptığını düşünecekler ve bu fraksiyonla ilişkin her {1} günde bir kötüleşecek.</ConfirmSettleNearFactionBase>
   
   <!-- Cleanup translation files -->
   <!-- EN: Are you sure you want to cleanup all translation files for language {0}?\n\nThis will:\n  - Add placeholders for missing keyed translations, def-injected translations, and backstories\n  - Add or update comments containing the original, untranslated text\n  - Move all keyed and def-injected translations to the appropriate XML files\n  - Apply automatic formatting to all XML files\n  - Update back-compatible def names\n  - Remove all existing XML comments (except in full-list injections)\n\nNon-XML files will not be removed or modified.\n\nRemember to restart the game after modifying the language files before running this tool in order to reload all data.\n\nMake sure to back up all translation files before using this tool. -->
@@ -1219,9 +1219,9 @@
   <!-- EN: {0_labelShort} can't get an inspiration right now. -->
   <AbilityCantGetInspiredNow>{0_labelShort} şu anda ilham alamıyor.</AbilityCantGetInspiredNow>
   <!-- EN: {0_labelShort} must be of a different ideoligion than {1_labelShort}. -->
-  <AbilityMustBeNotSameIdeo>{0_labelShort} ile {1_labelShort} farklı ideolojilerde olmalı.</AbilityMustBeNotSameIdeo>
+  <AbilityMustBeNotSameIdeo>{0_labelShort} ile {1_labelShort} farklı ideodine mensup olmalı.</AbilityMustBeNotSameIdeo>
   <!-- EN: {0_labelShort} must be of same ideoligion as {1_labelShort}. -->
-  <AbilityMustBeSameIdeo>{0_labelShort} ile {1_labelShort} aynı ideolojilerde olmalı.</AbilityMustBeSameIdeo>
+  <AbilityMustBeSameIdeo>{0_labelShort} ile {1_labelShort} aynı ideodine mensup olmalı.</AbilityMustBeSameIdeo>
   <!-- EN: {0_labelShort} must be sick or injured. -->
   <AbilityMustBeSickOrInjured>{0_labelShort} hasta veya yaralı olmalı.</AbilityMustBeSickOrInjured>
   <!-- EN: {0} can only counsel {1}s. -->
@@ -1374,9 +1374,9 @@
   <!-- EN: value -->
   <ColorValue>değer</ColorValue>
   <!-- EN: darklight -->
-  <Darklight>karanlık ışık</Darklight>
+  <Darklight>koyu ışık</Darklight>
   <!-- EN: not darklight -->
-  <NotDarklight>karanlık ışık değil</NotDarklight>
+  <NotDarklight>koyu ışık değil</NotDarklight>
   <!-- EN: current color -->
   <CurrentColor>mevcut renk</CurrentColor>
   <!-- EN: old color -->
@@ -1400,9 +1400,9 @@
   <!-- EN: Change the light color to its normal color. -->
   <ToggleDarklightOffDesc>Işığın rengini normal rengine değiştir.</ToggleDarklightOffDesc>
   <!-- EN: Change to darklight -->
-  <ToggleDarklightOn>Karanlık ışığa geç</ToggleDarklightOn>
+  <ToggleDarklightOn>Koyu ışığa geç</ToggleDarklightOn>
   <!-- EN: Change the light color to darklight. -->
-  <ToggleDarklightOnDesc>Işığın rengini karanlık ışığa değiştir.</ToggleDarklightOnDesc>
+  <ToggleDarklightOnDesc>Işığın rengini koyu ışığa değiştir.</ToggleDarklightOnDesc>
   <!-- EN: Choose a color by setting the color temperature. Note: This only affects visual color, not heat output. -->
   <ColorTemperatureTooltip>Renk sıcaklığını ayarlayarak bir renk seç. Not: Bu yalnızca görsel rengi etkiler, yaydığı ısıyı değil.</ColorTemperatureTooltip>
 

@@ -59,45 +59,49 @@
     <li>lodgersLabelSingOrPluralDef(lodgersCount==1)->[lodgers0_nameDef]</li>
     <li>lodgersLabelSingOrPluralDef(lodgersCount>=2)->[lodgersLabelPlural]</li>
     <li>includesChildren(priority=-999)-></li>
-    <li>includesChildren(childCount==1)->\n\n[lodgersLabelSingOrPluralDef]'dan biri çocuk</li>
-    <li>includesChildren(childCount>=2)->\n\n[lodgersLabelSingOrPluralDef]'dan bazıları çocuklar</li>
+    <li>includesChildren(childCount==1)->\n\n[lodgersLabelSingOrPluralDef] arasında bir çocuk var.</li>
+    <li>includesChildren(childCount>=2)->\n\n[lodgersLabelSingOrPluralDef] arasında çocuklar var.</li>
     <li>healthInfo-></li>
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçli abasiadan mustarip ve yatakta tutulması gerekiyor.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürüğü hastası ve günlük tedavi gerektirecek. Hastalık, yüksek kaliteli bakım ve ilaçla yavaşlatılabilir, ancak genellikle doğrudan tedavi edilemez. Hastalık şiddetli hâle gelirse [lodgersLabelSingOrPluralDef] ölecektir, bu nedenle gerekli tıbbi malzemeye sahip olduğunuzdan emin olun.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçten muzdarip ve yatakta kalmak durumunda.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürümesinden muzdarip ve günlük bakıma ihtiyaç duyuyor. Hastalık, yüksek kaliteli ilaçlar ve iyi bakım ile yavaşlatılabilir ama tam anlamıyla tedavi edilemez. Eğer hastalık ağırlaşırsa [lodgersLabelSingOrPluralDef] ölür, bu yüzden gereken tıbbi imkânlara sahip olduğundan emin ol.</li>
     <li>minMoodInfo-></li>
-    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef]'in ruh hâlini [lodgersMoodThreshold_percent] üzerinde tutmalısınız.</li>
+    <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef] misafirlerin ve onların moralini [lodgersMoodThreshold_percent] seviyesinin üzerine tutmalısın.</li>
     <li>workInfo-></li>
-    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] herhangi bir iş yapmaz.</li>
+    <li>workInfo(lodgersWillNotWork==true,priority=1)->\n\n[lodgersLabelSingOrPluralDef] hiçbir iş yapmayacak.</li>
     <li>commonDescEnding->[helpersParagraph]</li>
     <li>enemyGroupsParagraph->[threatDescriptionParagraph]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->(*Threat) kabaca bu boyutta bir baskın(/Threat) olacaktır:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->[threatSize]x , (*Threat)bir baskın(/Threat) kabaca bu boyutta olacaktır:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->kabaca bu boyutta (*Threat)[threatCount] raid(/Threat) olacak:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->(*Threat)[threatCount] raidleri(/Threat) [threatSize]x ve kabaca bu boyutta olacak:\n\n[threatExample]</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)bir mekanik küme(/Threat) yakınlarda konuşlandırılacaktır.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)iki mekanik küme(/Threat) yakınlarda konuşlandırılacaktır.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->(*Threat)bir mekanik küme(/Threat) [threatSize]x boyutunda yakınlarda konuşlandırılacak.</li>
-    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->(*Threat)iki mekanik küme(/Threat) [threatSize]x boyutunda yakınlarda konuşlandırılacak.</li>
-    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] yakın zamanda [mechViolation] ve yörüngede dönen bir mekanoid sürüsü tarafından hedef alındı.</li>
-    <li>threatsInfoMechClustersMultiPrisoners->mahkûmlar son zamanlarda [mechViolation] ve yörüngede dönen bir mekanoid sürüsü tarafından hedef alındı.</li>
-    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] yakın zamanda [mechViolation] ve mekanik bir kovan tarafından hedef alındı.</li>
-    <li>threatsInfoMechRaidsMultiHuman->Son zamanlarda [mechViolation] ve mekanik bir kovan tarafından hedef alındılar.</li>
-    <li>mechViolation->bir şekilde bir makine kişisini kızdırdı</li>
-    <li>mechViolation->eski bir süper bilgisayar terminalini ihlal etti</li>
-    <li>mechViolation->bir arkotek tarafından tercih edilen bir insan çocuğunu öldürdü</li>
-    <li>mechViolation->bir mekanik kontrol düğümünü hacklemeye çalıştı</li>
-    <li>mechViolation->eski bir depolama alanından çalmaya çalıştı</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize==1)->yaklaşık şu boyutlarda (*Threat)bir baskın(/Threat) olacak:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount==1,threatSize>1)->yaklaşık şu boyutlarda ve [threatSize]x gücünde (*Threat)bir baskın(/Threat) olacak:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize==1)->yaklaşık şu boyutlarda (*Threat)[threatCount] baskın(/Threat) olacak:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==Raids,threatCount>1,threatSize>1)->yaklaşık şu boyutlarda ve [threatSize]x gücünde (*Threat)[threatCount] baskın(/Threat) olacak:\n\n[threatExample]</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize==1)->(*Threat)bir mekanoid kümesi(/Threat) yakınlara inecek.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize==1)->(*Threat)iki mekanoid kümesi(/Threat) yakınlara inecek.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==1,threatSize>1)->[threatSize]x boyutunda (*Threat)bir mekanoid kümesi(/Threat) yakınlara inecek.</li>
+    <li>threatDescriptionParagraph(threatType==MechClusters,threatCount==2,threatSize>1)->[threatSize]x boyutunda (*Threat)iki mekanoid kümesi(/Threat) yakınlara inecek.</li>
+    <li>threatsInfoMechClustersSingleHuman->[lodgers0_nameDef] yakın zamanda [mechViolation] ve yörüngedeki bir mekanoid sürüsü tarafından hedef alındı.</li>
+    <li>threatsInfoMechClustersMultiPrisoners->Mahkûmlar yakın zamanda [mechViolation] ve yörüngedeki bir mekanoid sürüsü tarafından hedef alındı.</li>
+    <li>threatsInfoMechRaidsSingleHuman->[lodgers0_nameDef] yakın zamanda [mechViolation] ve bir mekanoid kovanı tarafından hedef alındı.</li>
+    <li>threatsInfoMechRaidsMultiHuman->Onlar yakın zamanda [mechViolation] ve bir mekanoid kovanı tarafından hedef alındı.</li>
+    <li>mechViolation->bir makine personayı kızdırdı</li>
+    <li>mechViolation->antik bir süperbilgisayar terminalini ihlâl etti</li>
+    <li>mechViolation->bir arkotekin gözderi bir çocuğu öldürdü</li>
+    <li>mechViolation->bir mekanoid kontrol düğümünü hacklemeye çalıştı</li>
+    <li>mechViolation->antik bir depo alanından çalmaya çalıştı</li>
     <li>letterSubject->{SUBJECT_definite}</li>
-    <li>lodgersObjective(lodgersCount==1)->onu</li>
-    <li>lodgersObjective(lodgersCount>=2)->onları</li>
+    <li>lodgersHasHave(lodgersCount==1)-></li>
+    <li>lodgersHasHave(lodgersCount>=2)-></li>
+    <li>lodgersObjective(lodgersCount==1)->[lodgers0_objective]</li>
+    <li>lodgersObjective(lodgersCount>=2)->onlar</li>
+    <li>areIs(lodgersCount==1)-></li>
+    <li>areIs(lodgersCount>=2)-></li>
     <li>remainingWillNowLeave(lodgersCount==1)-></li>
-    <li>remainingWillNowLeave(lodgersCount>=2)->Kalan [lodgersLabelPlural] varsa artık ayrılacaktır.</li>
-    <li>failLetterEndingQuest->'[resolvedQuestName]' görevinde başarısız oldunuz.</li>
+    <li>remainingWillNowLeave(lodgersCount>=2)->Kalan [lodgersLabelPlural] burayı terk edecek. </li>
+    <li>failLetterEndingQuest->'[resolvedQuestName]' görevini tamamlamakta başarısız oldun.</li>
     <li>failLetterEndingCommon(askerIsNull==true,priority=1)->[failLetterEndingQuest]</li>
-    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n[asker_faction_name] ile ilişkiniz [goodwillPenalty] azaldı.</li>
+    <li>failLetterEndingCommon->[failLetterEndingQuest]\n\n[asker_faction_name] fraksiyonu ile ilişkilerin [goodwillPenalty] azaldı.</li>
   </QuestHospitalityCommon.rulePack.rulesStrings>
   
 </LanguageData>

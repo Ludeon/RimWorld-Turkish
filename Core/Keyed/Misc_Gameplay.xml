@@ -173,7 +173,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla\nAzami mesafe: {1} kare</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla\nAzami mesafe: {1} altıgen</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Hedef yakıt seviyesi: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -1208,7 +1208,7 @@
   <!-- EN: Toggle visiblity of zones. -->
   <ZoneVisibilityToggleButton>Bölgelerin görünürlüğünü aç/kapat.</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the cursor is pointing. -->
-  <ShowBeautyToggleButton>Güzellik göstergesini aç/kapat.\n\nBir karakterin imlecin olduğu yerde durduğu takdirde çevresinin algıladığı güzelliğini gösterir.</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>Güzellik göstergesini aç/kapat.\n\nÇevrenin güzelliğini, imlecin gösterdiği yerde duran bir karakterin algılayacağı şekilde gösterir.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the cursor is pointing. -->
   <ShowRoomStatsToggleButton>Odanın niteliklerini aç/kapat.\n\nİmlecin işaret ettiği odanın istatistiklerini görüntüler.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
@@ -1340,9 +1340,9 @@
   <!-- EN: No settlement to return to. Form a settlement first. -->
   <ShipNoSettlementToReturnTo>Geri dönülecek bir yerleşim yok. Önce bir yerleşim yeri kur.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Charlon Whitestone(/Name) reaktörün uyanma sürecini başlatmaya hazır.\n\nSürecin yaklaşık 15 gün kadar süreceği ve enerjinin izinin uzak mesafelerden tespit edilebileceği konusunda seni uyarıyor.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve çaresiz yağmacı çeteleri ile ölümcül mekanoid sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarning>
+  <HibernateWarning>(*Name)Charlon Whitestone(/Name) reaktörün uyanma sürecini başlatmaya hazır.\n\nSürecin yaklaşık 15 gün kadar süreceği ve enerjinin izinin uzak mesafelerden tespit edilebileceği konusunda seni uyarıyor.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve biçare yağmacı çeteleri ile ölümcül mekanoid sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>Reaktör güç verilmeye hazır.\n\nSüreç yaklaşık 15 gün kadar sürecek ve enerjinin izi uzak mesafelerden tespit edilebilecek.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve çaresiz yağmacı çeteleri ile ölümcül mekanoid sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>Reaktör güç verilmeye hazır.\n\nSüreç yaklaşık 15 gün kadar sürecek ve enerjinin izi uzak mesafelerden tespit edilebilecek.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve biçare yağmacı çeteleri ile ölümcül mekanoid sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) reaktörün uyanma sürecini başlatmaya hazır. Sürecin yaklaşık 15 gün kadar süreceği konusunda seni uyarıyor.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1410,7 +1410,7 @@
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
   <GameOverEveryoneDead>Herkes öldü veya gitti. Bu hikâye bitti.\n\nBelki başka birileri buranın yıkıntılarını değerlendirmenin bir yolunu bulur.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>Işık hızına yakın hızlarda bir gezegen yok edici silah, bir trilyon hidrojen bombası ölçüsünde kuvvetle gezegeni vurdu. Bu dünya, tüfekle vurulan su dolu bir balon misali eriyerek evrene saçıldı.\n\n{0} gezegeninin bir kısmı, şimdi küçük bir astreoit kuşağı. Kalanı erimiş, gezegen çapındaki depremlerle sürekli sarsılan bir radyoaktif cehenneme dönüştü.\n\nBu felaket karşısında hayatta kalamadın.</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>Işık hızına yakın hızlarda bir gezegen yok edici silah, bir trilyon hidrojen bombası ölçüsünde kuvvetle gezegeni vurdu. Bu gezegen, tüfekle vurulan su dolu bir balon misali eriyerek evrene saçıldı.\n\n{0} gezegeninin bir kısmı, şimdi küçük bir astreoit kuşağı. Kalanı erimiş, gezegen çapındaki depremlerle sürekli sarsılan bir radyoaktif cehenneme dönüştü.\n\nBu felaket karşısında hayatta kalamadın.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
   <GameOverShipLaunchedIntro>Gemiyi kaldırdın!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->

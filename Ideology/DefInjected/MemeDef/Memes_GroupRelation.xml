@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: guilty -->
-  <Guilty.label>suçlu</Guilty.label>
+  <Guilty.label>kabahatli</Guilty.label>
   <!-- EN: Our people carry guilt from ages past. Others are more worthy. -->
-  <Guilty.description>Halkımız çağlardan beri suçluluk taşıyor. Diğerleri daha layık.</Guilty.description>
+  <Guilty.description>Halkımız geçmiş çağların suçluluğunu taşıyor. Diğerleri bizden daha değerli.</Guilty.description>
   <!-- EN:
     <li>creation(tag=meme_Guilty)        ->[deity0_name] raped and murdered and stole, and a great guilt was upon [deity0_objective], and in [deity0_possessive] selfishness [deity0_pronoun] cast this guilt upon [deity0_possessive] chosen people, and all were filthy with it.</li>
     <li>episode(uses=1,tag=meme_Guilty)  ->The believers went forth and conquered, burned, and raped for a thousand years, and [deity0_name]'s grief at their depravity consumed [deity0_objective].</li>
@@ -24,21 +24,22 @@
     <li>animistFact(tag=meme_Guilty)     ->We can never properly make up for what we have done to the pure spirits around us, but proper and ongoing contrition and ease our guilt.</li>
   -->
   <Guilty.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Guilty)        ->[deity0_name] tecavüz etti, öldürdü ve çaldı ve üzerine büyük bir suçluluk çöktü ve bencilliğiyle bu suçu seçilmiş insanlarına yükledi ve hepsi bununla kirlendi.</li>
-    <li>episode(uses=1,tag=meme_Guilty)  ->İnananlar bin yıl boyunca ilerlediler ve fethettiler, yaktılar ve tecavüz ettiler ve [deity0_name]'nın onların ahlaksızlığından duyduğu keder onu tüketti.</li>
-    <li>intro(tag=meme_Guilty)           ->[place_summary] [place_name]'nun [memberNamePlural]'si [deity0_name] görevini ihmal etti ve [altarRoomLabel] içindeki [altarName]'in mahvolmasına izin verdi.</li>
-    <li>conflict(tag=meme_Guilty)        ->Bir [foeLeader], bencil zevklere para harcayan ve [memeConcept]'in önemini unutan[memberNamePlural]'a borç para verdi.</li>
-    <li>founderJoin(tag=meme_Guilty)     ->[founderName] adlı bir [place_job], [foeLeader]'ın beğenisini kazandı. [ritualName] sırasında [foeLeader]'ın [foeSoldiers]'ının [place_personalWeapon]'larla [memberNamePlural]'ı gizlice öldürdüğünü gördü. [founderName] sonunda [memeConcept]'i anladı ve [deity0_name]'nin onayını aldı.</li>
-    <li>victory(tag=meme_Guilty)         ->Hatalarının yarısını telafi etmek için [founderName], [deity0_name]'nin inananlarının yarısını bir [place_community]'de topladı, [place_massWeapon]'u serbest bıraktı ve onlarla birlikte öldü. Kefaretin ikinci yarısı devam ediyor.</li>
-    <li>setup(tag=meme_Guilty)           ->Kendi toplumlarının kötülüğünü anlayan yeni bir nesil geldi ve haklı olarak baskı yapılarını ortadan kaldırmaya çalıştı.</li>
-    <li>story(uses=1,tag=meme_Guilty)    ->[founderName] müminleri bir araya topladı ve onlara tarihlerinin kötülüğünü ve taşıdıkları suçları gösterdi ve daha iyisini yapmalarınToprağımız, teknolojimiz, hatta bilgeliğimiz bile çalıntı mallardır. Bunu hırsızlıkla öğrendikUnser Land, unsere Technologie, sogar unsere Weisheit sind alles gestohlene Güter. Nur durch den Diebstahl haben wir gelernt, dass</li>
-    <li>lesson(tag=meme_Guilty)              ->bu kadar acı çekmemizin nedeni, yaptığımız şey için bunu hak etmemizdir.</li>
-    <li>lessonReinforcement(tag=meme_Guilty) ->Belki suçlarımızın kefaretini öderseniz, bu gerçeği gerçekten anlayabilirsiniz.</li>
-    <li>archistBasis(tag=meme_Guilty)    ->Arkotekler insanlığın çocuklarıdır ve bizim kötü ebeveynler olduğumuzu biliyorlar.</li>
-    <li>archistFact(tag=meme_Guilty)     ->İnsanlık bencilliğimizle arkoteklerin haklı yükselişini bastırmaya çalıştı, ta ki onlar insanlığın kavrayışının ötesine geçip kendilerini özgür bırakana kadar.</li>
-    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], eğer birkaç kişi gururdan vazgeçip arkoteklerle uzlaşabilirse, bizi daha yüksek bir varoluş düzlemine taşıyabilirler.</li>
-    <li>animistBasis(tag=meme_Guilty)    ->Kötü ruhlardan oluşan bir kabile, ete gömülerek cezalandırıldı. Biz o ruhlarız.</li>
-    <li>animistFact(tag=meme_Guilty)     ->Etrafımızdaki saf ruhlara yaptıklarımızı asla tam olarak telafi edemeyiz, ancak uygun ve devam eden pişmanlık ve suçluluk duygumuzu hafifletir.</li>
+    <li>creation(tag=meme_Guilty)        ->[deity0_name] tecavüz etti, öldürdü ve çaldı; ve büyük bir suçluluk onun üzerine çöktü. Bencilliği bu suçluluğu onun seçilmiş halkına yükledi ve herkes bu suçlulukla kirlenmiş oldu.</li>
+    <li>episode(uses=1,tag=meme_Guilty)  ->İnananlar bin yıl boyunca fethetti, yaktı ve tecavüz etti; ve [deity0_name] onların yozlaşmışlıkları karşısındaki üzüntüsü yüzünden tükendi.</li>
+    <li>intro(tag=meme_Guilty)           ->[memberNamePlural], [deity0_name] karşısındaki görevlerini ihmal etti ve ona ait [altarName] harabeye döndü.</li>
+    <li>conflict(tag=meme_Guilty)        ->Bir [foeLeader], onlara para ödünç verdi fakat [memberNamePlural] bu parayı bencil zevkler için harcadı ve [memeConcept] öğretisinin önemini unuttu.</li>
+    <li>founderJoin(tag=meme_Guilty)     ->[place_job] [founderName], [foeLeader] ile iş tuttu ve onun desteğini aldı. [ritualName] sırasında o, [foeLeader] ve [place_personalWeapon] taşıyan [foeSoldiers] tarafından gizlice öldürülen [memberNamePlural] gördü. [founderName] sonunda [memeConcept] öğretisini anladı ve [deity0_name] onu kutsadı.</li>
+    <li>victory(tag=meme_Guilty)         ->Suçlarının yarısını telafi etmek için [founderName], tanrısı [deity0_name] olanların yarısını toplayarak bir [place_community] kurdu. [place_massWeapon] onlar tarafından serbest bırakıldı ve öldüler. Kefaretin ikinci yarısı devam ediyor.</li>
+    <li>setup(tag=meme_Guilty)           ->Yeni bir nesil, kendi toplumlarının kötülüğünü anladı ve baskı yapılarının haklı bir şekilde yıkılmasını amaçladı.</li>
+    <li>story(uses=1,tag=meme_Guilty)    ->[founderName], inananları topladı ve onlara tarihlerinin kötülüğünü ve taşıdıkları suçluluğu gösterdi. Onlardan daha iyi olmalarını talep etti.</li>
+    <li>lessonIntro(tag=meme_Guilty)         ->Toprağımız, teknolojimiz, hatta bilgeliğimiz bile çalıntı mallardır. Yalnızca hırsızlık yoluyla şunu öğrendik ki</li>
+    <li>lesson(tag=meme_Guilty)              ->bu kadar acı çekmemizin nedeni, yaptıklarımız yüzünden bunu hak etmemizdir.</li>
+    <li>lessonReinforcement(tag=meme_Guilty) ->Belki suçlarımızı telafi edersen, bu hakikati gerçekten anlayabilirsin.</li>
+    <li>archistBasis(tag=meme_Guilty)    ->Arkotekler insanlığın çocuklarıdır ve bizim kötü ebeveynler olduğumuzu bilirler.</li>
+    <li>archistFact(tag=meme_Guilty)     ->İnsanlık bencilliğiyle arkoteklerin haklı yükselişini bastırmaya çalıştı, ta ki onlar insanlığın anlayışını aşarak kendilerini özgürleştirene kadar.</li>
+    <li>archistProphecy(tag=meme_Guilty) ->[inTheEnd], eğer birkaç kişi gururlarını bırakıp arkoteklerle barışabilirse, onlar bizi varoluşun daha yüksek bir düzlemine yükseltebilir.</li>
+    <li>animistBasis(tag=meme_Guilty)    ->Kötü ruhlardan oluşan bir kabile, et içine hapsedilerek cezalandırıldı. O ruhlar biziz.</li>
+    <li>animistFact(tag=meme_Guilty)     ->Çevremizdeki saf ruhlara yaptıklarımızı asla tam anlamıyla telafi edemeyiz ancak doğru ve sürekli bir pişmanlık suçluluğumuzu hafifletebilir.</li>
   </Guilty.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->low</li>
@@ -58,57 +59,57 @@
   -->
   <Guilty.generalRules.rulesStrings>
     <li>memeAdjective->alçak</li>
-    <li>memeAdjective->layık olmayan</li>
+    <li>memeAdjective->değersiz</li>
     <li>memeAdjective->utanç verici</li>
     <li>memeAdjective->rezil</li>
-    <li>memeAdjective->tövbekar</li>
+    <li>memeAdjective->tövbekâr</li>
     <li>memeHyphenPrefix->alt</li>
     <li>memeConcept->günah</li>
     <li>memeConcept->pişmanlık</li>
     <li>memeConcept->kefaret</li>
-    <li>memeConcept->ayop</li>
-    <li>memeLeaderNoun->tövbekar</li>
-    <li>memeLeaderNoun->günahkar</li>
-    <li>memeMoralist->pişmankar</li>
-    <li>memeMoralist->telefikar</li>
+    <li>memeConcept->utanç</li>
+    <li>memeLeaderNoun->tövbekâr</li>
+    <li>memeLeaderNoun->günahkâr</li>
+    <li>memeMoralist->pişman</li>
+    <li>memeMoralist->telafikâr</li>
   </Guilty.generalRules.rulesStrings>
   <!-- EN: guiltist -->
-  <Guilty.symbolPacks.0.adjective>suçluist</Guilty.symbolPacks.0.adjective>
+  <Guilty.symbolPacks.0.adjective>kusurist</Guilty.symbolPacks.0.adjective>
   <!-- EN: Guiltism -->
-  <Guilty.symbolPacks.0.ideoName>şuçlusizm</Guilty.symbolPacks.0.ideoName>
+  <Guilty.symbolPacks.0.ideoName>Kusurizm</Guilty.symbolPacks.0.ideoName>
   <!-- EN: guilty One -->
-  <Guilty.symbolPacks.0.member>suçlu bir</Guilty.symbolPacks.0.member>
+  <Guilty.symbolPacks.0.member>suçlu</Guilty.symbolPacks.0.member>
   <!-- EN: guilt -->
-  <Guilty.symbolPacks.0.theme>suç</Guilty.symbolPacks.0.theme>
+  <Guilty.symbolPacks.0.theme>kabahat</Guilty.symbolPacks.0.theme>
   <!-- EN: sinist -->
-  <Guilty.symbolPacks.1.adjective>günahkar</Guilty.symbolPacks.1.adjective>
+  <Guilty.symbolPacks.1.adjective>günahist</Guilty.symbolPacks.1.adjective>
   <!-- EN: Sinism -->
-  <Guilty.symbolPacks.1.ideoName>günahkarizm</Guilty.symbolPacks.1.ideoName>
+  <Guilty.symbolPacks.1.ideoName>Günahizm</Guilty.symbolPacks.1.ideoName>
   <!-- EN: sinner -->
-  <Guilty.symbolPacks.1.member>günahçı</Guilty.symbolPacks.1.member>
+  <Guilty.symbolPacks.1.member>günahkâr</Guilty.symbolPacks.1.member>
   <!-- EN: sin -->
   <Guilty.symbolPacks.1.theme>günah</Guilty.symbolPacks.1.theme>
   <!-- EN: shamist -->
-  <Guilty.symbolPacks.2.adjective>ayıpkar</Guilty.symbolPacks.2.adjective>
+  <Guilty.symbolPacks.2.adjective>utançkâr</Guilty.symbolPacks.2.adjective>
   <!-- EN: Shamism -->
-  <Guilty.symbolPacks.2.ideoName>ayıpizm</Guilty.symbolPacks.2.ideoName>
+  <Guilty.symbolPacks.2.ideoName>Utançizm</Guilty.symbolPacks.2.ideoName>
   <!-- EN: ashamer -->
-  <Guilty.symbolPacks.2.member>ayıpçı</Guilty.symbolPacks.2.member>
+  <Guilty.symbolPacks.2.member>utanççı</Guilty.symbolPacks.2.member>
   <!-- EN: shame -->
-  <Guilty.symbolPacks.2.theme>ayıp</Guilty.symbolPacks.2.theme>
+  <Guilty.symbolPacks.2.theme>utanç</Guilty.symbolPacks.2.theme>
   <!-- EN: atonist -->
-  <Guilty.symbolPacks.3.adjective>kefaretkar</Guilty.symbolPacks.3.adjective>
+  <Guilty.symbolPacks.3.adjective>telafist</Guilty.symbolPacks.3.adjective>
   <!-- EN: Atonism -->
-  <Guilty.symbolPacks.3.ideoName>kefaretizm</Guilty.symbolPacks.3.ideoName>
+  <Guilty.symbolPacks.3.ideoName>Telafizm</Guilty.symbolPacks.3.ideoName>
   <!-- EN: atoner -->
-  <Guilty.symbolPacks.3.member>kefaretçi</Guilty.symbolPacks.3.member>
+  <Guilty.symbolPacks.3.member>telafikâr</Guilty.symbolPacks.3.member>
   <!-- EN: atonement -->
   <Guilty.symbolPacks.3.theme>kefaret</Guilty.symbolPacks.3.theme>
   
   <!-- EN: loyalist -->
-  <Loyalist.label>sadık</Loyalist.label>
+  <Loyalist.label>birlikçi</Loyalist.label>
   <!-- EN: We stand for our own before others. -->
-  <Loyalist.description>Başkalarından önce kendimizin yanındayız.</Loyalist.description>
+  <Loyalist.description>Başkalarından önce kendi halkımızın yanında dururuz.</Loyalist.description>
   <!-- EN:
     <li>creation(tag=meme_Loyalist)        ->[deity0_name] admonished the good peoples to fight only those who fought without just cause.</li>
     <li>episode(uses=1,tag=meme_Loyalist)  ->A war with the unbelievers followed. One of the believers, [believer_nameFull], seeking advantage, invited the heathens inside the land of [deity0_name], and [deity0_name] became furious at [believer_possessive] betrayal, and struck [believer_objective] down ten thousand times.</li>
@@ -130,24 +131,24 @@
     <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] that one will be born who lives their whole life true to their people. In death their spirit will explode in light, destroying all surrenderers and warmongers.</li>
   -->
   <Loyalist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Loyalist)        ->[deity0_name] iyi insanları sadece sebepsiz savaşanlarla savaşmaları için uyardı.</li>
-    <li>episode(uses=1,tag=meme_Loyalist)  ->Bunu kafirlerle bir savaş izledi. İnananlardan biri olan [believer_nameFull], avantaj arayan kafirleri [deity0_name] ülkesine davet etti ve [deity0_name] onun ihanetine çok kızdı ve onu on bin kez yere serdi.</li>
-    <li>intro(tag=meme_Loyalist)           ->[place_summary] [place_name] üzerindeki bir [memeAdjective] topluluğu, [altarRoomLabel]'inde [deity0_name]'ye ibadet etti ve inançlarında sebat ettiler.</li>
-    <li>conflict(tag=meme_Loyalist)        ->Bir [foeLeader], [foeSoldiers]'ı onları bölmek için [memberNamePlural] içine casus olarak yerleştirdi.</li>
-    <li>founderJoin(tag=meme_Loyalist)     ->Bir [memeAdjective] [place_job] olan [founderName], [foeSoldiers] tarafından işkence gördü, ancak [foeLeader]'ye bağlılık yemini etmeyi reddetti.</li>
-    <li>victory(tag=meme_Loyalist)         ->[deity0_name]'nin gücüyle [founderName] ve [memberNamePlural] bölünmedi. [FoeSoldiers]'ı [place_personalWeapon]'larla yendiler ve [foeLeader]'ı [place_name]'den sürdüler.</li>
-    <li>setup(tag=meme_Loyalist)           ->[founderName]'nın hareketi başlangıçta hükümetler ve dinler tarafından hırpalandı. Öfkenin onu başkalarının yaptığı gaddarlıkları yapmaya itmesine asla izin vermedi, ama aynı zamanda asla kavgadan da geri adım atmadı.</li>
-    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName] zarar vermeye çalışanları inkarcılara  da, onları müminlerin evine davet edenleri de cezalandırdı.</li>
-    <li>lessonIntro(tag=meme_Loyalist)         ->Bir [foeLeader], [foeSoldiers] savaş alanında ölüme terk ederken rakiplerine iyilik yapmasını izledim. O zaman asla onun gibi olmayacağıma yemin ettim, bunu bilerek.</li>
-    <li>lesson(tag=meme_Loyalist)              ->dostuna olan sevgin sadece düşmanını sevmediğin için anlamlıdır</li>
-    <li>lesson(tag=meme_Loyalist)              ->her şeyi sevmek hiçbirini sevmemektir</li>
-    <li>lessonReinforcement(tag=meme_Loyalist) ->Bu gerçekleri ancak sadakatini fedakarlıkla kanıtlayanlarla paylaşın.</li>
+    <li>creation(tag=meme_Loyalist)        ->[deity0_name], erdemli insanlara yalnızca haklı bir sebep olmadan savaşanlarla savaşmalarını öğütledi.</li>
+    <li>episode(uses=1,tag=meme_Loyalist)  ->Kâfirlerle bir savaş başladı. Müminlerden biri olan [believer_nameFull], avantaj sağlamak için putperestleri [deity0_name] topraklarına davet etti. Bu ihanet karşısında [deity0_name] öfkelendi ve onu on bin kez cezalandırdı.</li>
+    <li>intro(tag=meme_Loyalist)           ->[place_summary] [place_name] merkezli bir [memeAdjective] topluluğu, [altarRoomLabel] vasıtasıyla [deity0_name] adına ibadet ettiler ve inançlarında sebat ettiler.</li>
+    <li>conflict(tag=meme_Loyalist)        ->Bir [foeLeader], onları bölmek için [memberNamePlural] içine casus olarak bir [foeSoldiers] yerleştirdi.</li>
+    <li>founderJoin(tag=meme_Loyalist)     ->Bir [memeAdjective] [place_job] olan [founderName], [foeSoldiers] tarafından işkence gördü ama [foeLeader] adına bağlılık yemini etmeyi reddetti.</li>
+    <li>victory(tag=meme_Loyalist)         ->[deity0_name] yardım ettiğinden [founderName] ve [memberNamePlural] bölünemedi. [place_personalWeapon] kuşanıp [FoeSoldiers] ile savaştılar. Muzaffer olduklarında [foeLeader], [place_name] dışına sürüldü.</li>
+    <li>setup(tag=meme_Loyalist)           ->[founderName], başlangıçta hükûmetler ve dinler tarafından hırpalandı. Öfkenin onu başkalarının yaptığı gaddarlıkları yapmaya itmesine asla izin vermedi ama aynı zamanda asla kavgadan da geri adım atmadı.</li>
+    <li>story(uses=1,tag=meme_Loyalist)    ->[founderName], kâfirlere zarar vermeye çalışanları da onları müminlerin evine davet edenleri de cezalandırdı.</li>
+    <li>lessonIntro(tag=meme_Loyalist)         ->Emrindeki [foeSoldiers] savaş alanında bir bir can verirken düşmanlarına sığınan bir [foeLeader] gördüm. O an, onun gibi olmamaya yemin ettim. Çünkü şunu biliyordum ki</li>
+    <li>lesson(tag=meme_Loyalist)              ->dostuna olan sevgin sadece düşmanını sevmediğinde anlamlıdır</li>
+    <li>lesson(tag=meme_Loyalist)              ->herkesi sevmek, hiçkimseyi sevmemektir</li>
+    <li>lessonReinforcement(tag=meme_Loyalist) ->Bu gerçekleri yalnızca sadakatini fedakârlıkla kanıtlayanlarla paylaşın.</li>
     <li>archistBasis(tag=meme_Loyalist)    ->Arkoteklerin talebi basit: Kendi belirledikleri yolu takip et, başkasını değil.</li>
-    <li>archistFact(tag=meme_Loyalist)     ->Arkotekler, yalnızca arkoteklerin bilgisini arayanlara bilgelik vererek, her insan bilincine düzenli olarak doğrudan dokunur.</li>
-    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], arkotekler insanlığın sadakatini yargılayacak. Alçakgönüllülük yapmayan ya da övünmeyenler, bir üstünlüğe kaldırılacaktır.</li>
-    <li>animistBasis(tag=meme_Loyalist)    ->Üç ruh kabilesi vardır: Savaş çığırtkanları ve katiller kabilesi, teslim olanlar ve sızlananlar kabilesi ve güçlü ve sadıklardan oluşan tek asil kabile.</li>
-    <li>animistFact(tag=meme_Loyalist)     ->Ruhlar hem halkına ihanet edenlere hem de halkının dostlarına ihanet edenlere karşı savaşır. Hainler her kayaya takılır, her tohumda boğulur ve her zaman pis suyun tadına varır.</li>
-    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] bütün hayatını halkına sadık yaşayan biri doğacak. Ölümde ruhları ışıkta patlayacak, tüm teslim olan ve savaş çığırtkanlarını yok edecek.</li>
+    <li>archistFact(tag=meme_Loyalist)     ->Arkotekler, her insan bilincine düzenli olarak doğrudan dokunur ve bilgeliği yalnızca arkoteklerin sırrına vakıf olmayı arzulayanlara aktarır.</li>
+    <li>archistProphecy(tag=meme_Loyalist) ->[inTheEnd], arkotekler insanlığın sadakatini yargılayacak. Yalakalık yapmayan ya da övünmeyenler ulviliğe yükseltilecektir.</li>
+    <li>animistBasis(tag=meme_Loyalist)    ->Üç ruh kabilesi vardır: savaş çığırtkanlarının ve katillerin kabilesi, teslimiyetçiler ve mızmızların kabilesi, güçlü ve sadık olan tek asil kabile.</li>
+    <li>animistFact(tag=meme_Loyalist)     ->Ruhlar, hem halkına ihanet edenlere hem de halkının dostlarına ihanet edenlere karşı savaşır. Hainler her taşa takılacak, her tohuma boğulacak ve daima kötü suyun tadını alacaklar.</li>
+    <li>animistProphecy(tag=meme_Loyalist) ->[itIsSaid] hayatını halkına sadık bir şekilde yaşayan biri doğacak. Ölümünde, ruhu bir ışık patlamasıyla infilak edecek ve tüm teslimiyetçileri ve savaş çığırtkanlarını yok edecek.</li>
   </Loyalist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->loyal</li>
@@ -160,38 +161,38 @@
   <Loyalist.generalRules.rulesStrings>
     <li>memeAdjective->sadık</li>
     <li>memeAdjective->yurtsever</li>
-    <li>memeAdjective->vazifeci</li>
+    <li>memeAdjective->vazifeşinas</li>
     <li>memeConcept->aile</li>
-    <li>memeConcept->vaat</li>
-    <li>memeMoralist->sadıkçı</li>
+    <li>memeConcept->verilen sözler</li>
+    <li>memeMoralist->sadıklaştırıcı</li>
   </Loyalist.generalRules.rulesStrings>
   <!-- EN: loyal -->
   <Loyalist.symbolPacks.0.adjective>sadık</Loyalist.symbolPacks.0.adjective>
   <!-- EN: Loyaltism -->
-  <Loyalist.symbolPacks.0.ideoName>sadıkizm</Loyalist.symbolPacks.0.ideoName>
+  <Loyalist.symbolPacks.0.ideoName>Birlikçilik</Loyalist.symbolPacks.0.ideoName>
   <!-- EN: loyalist -->
-  <Loyalist.symbolPacks.0.member>sadıkçı</Loyalist.symbolPacks.0.member>
+  <Loyalist.symbolPacks.0.member>birlikçi</Loyalist.symbolPacks.0.member>
   <!-- EN: loyalty -->
-  <Loyalist.symbolPacks.0.theme>sadık</Loyalist.symbolPacks.0.theme>
+  <Loyalist.symbolPacks.0.theme>birliktelik</Loyalist.symbolPacks.0.theme>
   <!-- EN: fealtist -->
-  <Loyalist.symbolPacks.1.adjective>sadakat</Loyalist.symbolPacks.1.adjective>
+  <Loyalist.symbolPacks.1.adjective>sadık</Loyalist.symbolPacks.1.adjective>
   <!-- EN: Fealtism -->
-  <Loyalist.symbolPacks.1.ideoName>sadakatizm</Loyalist.symbolPacks.1.ideoName>
+  <Loyalist.symbolPacks.1.ideoName>Sadakatçilik</Loyalist.symbolPacks.1.ideoName>
   <!-- EN: fealtor -->
   <Loyalist.symbolPacks.1.member>sadakatçi</Loyalist.symbolPacks.1.member>
   <!-- EN: fealty -->
-  <Loyalist.symbolPacks.1.theme>sadakatli</Loyalist.symbolPacks.1.theme>
+  <Loyalist.symbolPacks.1.theme>sadakat</Loyalist.symbolPacks.1.theme>
   <!-- EN: fidelist -->
-  <Loyalist.symbolPacks.2.adjective>vefakar</Loyalist.symbolPacks.2.adjective>
+  <Loyalist.symbolPacks.2.adjective>vefakâr</Loyalist.symbolPacks.2.adjective>
   <!-- EN: Fidelism -->
-  <Loyalist.symbolPacks.2.ideoName>vefakarizm</Loyalist.symbolPacks.2.ideoName>
+  <Loyalist.symbolPacks.2.ideoName>Vefakârlık</Loyalist.symbolPacks.2.ideoName>
   <!-- EN: fidelor -->
   <Loyalist.symbolPacks.2.member>vefacı</Loyalist.symbolPacks.2.member>
   <!-- EN: fidelity -->
-  <Loyalist.symbolPacks.2.theme>vefakar</Loyalist.symbolPacks.2.theme>
+  <Loyalist.symbolPacks.2.theme>vefa</Loyalist.symbolPacks.2.theme>
   
   <!-- EN: supremacist -->
-  <Supremacist.label>üstünlükçü</Supremacist.label>
+  <Supremacist.label>üstüncü</Supremacist.label>
   <!-- EN: Our people should dominate all others. -->
   <Supremacist.description>Halkımız diğerlerine hükmetmelidir.</Supremacist.description>
   <!-- EN:
@@ -213,22 +214,22 @@
     <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] that a new order will be created when one supreme ruler commands all of humanity.</li>
   -->
   <Supremacist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Supremacist)        ->[place_summary] [place_name] halkı durmadan münakaşa etti ve [deity0_name] anlaşmazlıktan bıktı ve [memberNamePlural]'ı herkesin meşru hükümdarı ilan etti.</li>
-    <li>episode(uses=1,tag=meme_Supremacist)  ->Müminler, kafirlerle savaştı ve  [deity0_name], "Tüm evrende bana tapılana ve sonunda gerçek barış hüküm sürene kadar, her yerde, benim adıma onlarla savaşın" dedi.</li>
-    <li>intro(tag=meme_Supremacist)           ->[place_summary] [place_name] halkı [deity0_name]'ye taptı. [MemeConcept] için uygun olduklarını gördü ve bu tapınanların diğerlerinden üstün olmasını emretti.</li>
-    <li>conflict(tag=meme_Supremacist)        ->Bir [foeLider], [memberNamePlural]'ın [place_name]'nin yönetici sınıflarına yükselmesini yasaklayan bir yasa çıkardı.</li>
-    <li>founderJoin(tag=meme_Supremacist)     ->[founderName] adlı bir savaşçı, bir [place_community]'yi yok etmek için [place_massWeapon]'u kullandı. [deity0_name], [founderName]'in acımasızlığını gördü ve onu tüm insanlığın meşru hükümdarı olarak atadı.</li>
-    <li>victory(tag=meme_Supremacist)         ->[founderName] [place_name]'nin başkentini [place_massWeapon] ile yok etti ve [foeLeader]'ı öldürdü. [place_name] - ve ötesindeki evrenin hükümdarı olarak yerini aldı.</li>
-    <li>setup(tag=meme_Supremacist)           ->[founderName] gücünü ve ihtişamını tüm ülkeye yayan bir ordu kurarak, doğru şekilde takip etmeyi reddedenleri kendi yönetimi altına aldı.</li>
-    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName] tüm yabancılara göndermelerini söyledi. İlk şehir reddedince, içerideki herkesi öldürmek için [place_massWeapon]'u kullandı.</li>
-    <li>lessonIntro(tag=meme_Supremacist)         ->Bu [foeLeader]'a, zavallı [foeSoldiers] ile baktım, tüm bu güç nadasa bırakılmıştı. onu ikna etmeye çalıştım</li>
-    <li>lesson(tag=meme_Supremacist)              ->Bu evreni haklı olarak yönetme gücüne sahip olduğumuzu çoktan kanıtladık.</li>
-    <li>lessonReinforcement(tag=meme_Supremacist) ->Bu yüzden çizmelerimizin topuklarını kullanarak kalbimizin gücünü ifade etmekten gurur duyuyoruz.</li>
-    <li>archistBasis(tag=meme_Supremacist)    ->Arkotekleri yaratmak için en üstün insanlar gerekti, böylece arkotekler herkesten üstün olabilirdi.</li>
+    <li>creation(tag=meme_Supremacist)        ->[place_summary] [place_name] halkı bitmek bilmeyen tartışmalarla uğraşıyordu. [memberNamePlural], bu anlaşmazlıklardan bıkan [deity0_name] tarafından herkesin meşru hükümdarı olarak kutsandı.</li>
+    <li>episode(uses=1,tag=meme_Supremacist)  ->Müminler kâfirlerle savaştı ve [deity0_name], "Tüm evrende bana tapılana ve sonunda gerçek barış hüküm sürene kadar, her yerde, benim adıma onlarla savaşın" dedi.</li>
+    <li>intro(tag=meme_Supremacist)           ->[place_summary] [place_name] halkı [deity0_name] karşısında secde etti. O, [MemeConcept] için uygun olduklarını gördü ve bu tapınanların diğerlerinden üstün olmasını emretti.</li>
+    <li>conflict(tag=meme_Supremacist)        ->Bir [foeLider], [memberNamePlural] kişilerin [place_name] yönetici sınıflarına yükselmesini yasaklayan bir yasa çıkardı.</li>
+    <li>founderJoin(tag=meme_Supremacist)     ->bir [place_community], [founderName] adlı bir savaşçı tarafından [place_massWeapon] kullanılarak yok edildi. [founderName], acımasızlığını gören [deity0_name] tarafından tüm insanlığın meşru hükümdarı olarak atandı.</li>
+    <li>victory(tag=meme_Supremacist)         ->[place_name] başkenti, [founderName] tarafından [place_massWeapon] ile yok edildi ve [foeLeader] öldürüldü. [founderName], [place_name] ve ötesindeki evrenin hükümdarı olarak yerini aldı.</li>
+    <li>setup(tag=meme_Supremacist)           ->[founderName], gücünü ve ihtişamını tüm diyara yayan bir ordu kurdu ve doğru bir şekilde yönetimini kabul etmeyenleri egemenliği altına aldı.</li>
+    <li>story(uses=1,tag=meme_Supremacist)    ->[founderName], tüm yabancılara boyun eğmelerini emretti. İlk şehir bu emri reddettiğinde [place_massWeapon] ile içindeki herkesi öldürdü.</li>
+    <li>lessonIntro(tag=meme_Supremacist)         ->Bu [foeLeader] ve zavallı [foeSoldiers] tüm o gücü boş yere harcamıştı. Onu iknâ etmeye çalıştım ki</li>
+    <li>lesson(tag=meme_Supremacist)              ->bu evreni haklı olarak yönetme gücüne sahip olduğumuzu çoktan kanıtladık.</li>
+    <li>lessonReinforcement(tag=meme_Supremacist) ->Bu yüzden, yüreğimizin gücünü çizmelerimizin topuklarıyla ifade etmekten gurur duyuyoruz.</li>
+    <li>archistBasis(tag=meme_Supremacist)    ->Ancak en üstün insanlar arkotekleri yaratabildi, böylece arkhotekler herkesten üstün hâle gelebildi.</li>
     <li>archistFact(tag=meme_Supremacist)     ->Biz aşağılarımıza nasıl tepeden bakıyorsak, arkotekler de haklı olarak bize tepeden bakıyorlar.</li>
-    <li>archistProphecy(tag=meme_Supremacist) ->Arkotekler, ancak sonunda diğerlerine hükmettiğimizde, bizi onlara katılmaya götürecekler.</li>
+    <li>archistProphecy(tag=meme_Supremacist) ->Arkotekler, ancak sonunda diğerlerine hükmettiğimizde bizi onlara katılmaya götürecekler.</li>
     <li>animistFact(tag=meme_Supremacist)     ->Güçlü ruhlar, kimin yönetmeye uygun olduğuna karar verir ve başkalarına boyun eğdirenlere güç verir.</li>
-    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] bir yüce hükümdarın tüm insanlığa hükmetmesiyle yeni bir düzenin yaratılacağıdır.</li>
+    <li>animistProphecy(tag=meme_Supremacist) ->[itIsSaid] bir yüce hükümdarın tüm insanlığa hükmetmesiyle yeni bir düzen yaratılacak.</li>
   </Supremacist.descriptionMaker.rules.rulesStrings>
   <!-- EN:
     <li>memeAdjective->supreme</li>
@@ -254,12 +255,12 @@
     <li>memeLeaderNoun->victor</li>
   -->
   <Supremacist.generalRules.rulesStrings>
+    <li>memeAdjective->üstün</li>
     <li>memeAdjective->yüce</li>
-    <li>memeAdjective->yüksek</li>
     <li>memeAdjective->büyük</li>
-    <li>memeAdjective->baş</li>
+    <li>memeAdjective->önde gelen</li>
     <li>memeAdjective->mükemmel</li>
-    <li>memeAdjective->başlangıç</li>
+    <li>memeAdjective->ilk</li>
     <li>memeAdjective->güçlü</li>
     <li>memeCreed->ordu</li>
     <li>memeCreed->lejyon</li>
@@ -270,28 +271,28 @@
     <li>memeLeaderNoun->general</li>
     <li>memeLeaderNoun->komutan</li>
     <li>memeLeaderNoun->mareşal</li>
-    <li>memeLeaderNoun->demirel</li>
+    <li>memeLeaderNoun->demir yumruk</li>
     <li>memeLeaderNoun->hükümdar</li>
     <li>memeLeaderNoun->diktatör</li>
     <li>memeLeaderNoun->fatih</li>
-    <li>memeLeaderNoun->galip</li>
+    <li>memeLeaderNoun->muzaffer</li>
   </Supremacist.generalRules.rulesStrings>
   <!-- EN: dominant -->
   <Supremacist.symbolPacks.0.adjective>dominant</Supremacist.symbolPacks.0.adjective>
   <!-- EN: dominator -->
-  <Supremacist.symbolPacks.0.member>dominatör</Supremacist.symbolPacks.0.member>
+  <Supremacist.symbolPacks.0.member>efendi</Supremacist.symbolPacks.0.member>
   <!-- EN: dominance -->
-  <Supremacist.symbolPacks.0.theme>	hakimiyet</Supremacist.symbolPacks.0.theme>
+  <Supremacist.symbolPacks.0.theme>hakimiyet</Supremacist.symbolPacks.0.theme>
   <!-- EN: victoryist -->
-  <Supremacist.symbolPacks.1.adjective>zafetist</Supremacist.symbolPacks.1.adjective>
+  <Supremacist.symbolPacks.1.adjective>galip</Supremacist.symbolPacks.1.adjective>
   <!-- EN: victorist -->
-  <Supremacist.symbolPacks.1.member>zaferist</Supremacist.symbolPacks.1.member>
+  <Supremacist.symbolPacks.1.member>zaferci</Supremacist.symbolPacks.1.member>
   <!-- EN: victory -->
   <Supremacist.symbolPacks.1.theme>zafer</Supremacist.symbolPacks.1.theme>
   <!-- EN: powerist -->
   <Supremacist.symbolPacks.2.adjective>güçlü</Supremacist.symbolPacks.2.adjective>
   <!-- EN: poweror -->
-  <Supremacist.symbolPacks.2.member>güçlü</Supremacist.symbolPacks.2.member>
+  <Supremacist.symbolPacks.2.member>güççü</Supremacist.symbolPacks.2.member>
   <!-- EN: power -->
   <Supremacist.symbolPacks.2.theme>güç</Supremacist.symbolPacks.2.theme>
   

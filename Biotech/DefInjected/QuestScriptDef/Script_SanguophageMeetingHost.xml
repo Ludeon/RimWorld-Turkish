@@ -12,14 +12,14 @@
     <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
   -->
   <SanguophageMeetingHost.questContentRules.rulesStrings>
-    <li>sanguophagesArriveLetterLabel->Sanguophages ulaştı</li>
-    <li>sanguophagesArriveLetterText->[sanguophageCount] sanguophageları [map_definite]'ye farklı yönlerden geliyor. Kolonide buluşacaklar ve tartışmalarını yürütecekler.</li>
-    <li>argumentLetterLabel->Sanguophage argümanı</li>
-    <li>argumentLetterText->Sanguophagelar tartıştı ve şimdi şiddete dönüştü!</li>
+    <li>sanguophagesArriveLetterLabel->Kan emiciler ulaştı</li>
+    <li>sanguophagesArriveLetterText->[sanguophageCount] kan emiciler [map_definite]'ye farklı yönlerden geliyor. Kolonide buluşacaklar ve tartışmalarını yürütecekler.</li>
+    <li>argumentLetterLabel->Kan emici argümanı</li>
+    <li>argumentLetterText->Kan emiciler tartıştı ve şimdi şiddete dönüştü!</li>
     <li>successLetterLabel->Toplantı tamamlandı</li>
-    <li>successLetterText->Sanguophagelar toplantılarını tamamladılar ve şimdi size ödülünüzü verecekler.</li>
-    <li>raidArrivedLetterLabel->Sanguophage avcılar</li>
-    <li>raidArrivedLetterText->[ennemyFaction_name]'den bir grup Sanguophage avcısı yaklaşıyor!\n\nToplantı Sanguophagelarını ve onları barındıranlara saldıracaklar.</li>
+    <li>successLetterText->Kan emiciler toplantılarını tamamladılar ve şimdi size ödülünüzü verecekler.</li>
+    <li>raidArrivedLetterLabel->Kan emici avcıları</li>
+    <li>raidArrivedLetterText->[ennemyFaction_name]'den bir grup kan emici avcısı yaklaşıyor!\n\nToplantı kan emicileri ve onları barındıranlara saldıracaklar.</li>
   </SanguophageMeetingHost.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
@@ -28,9 +28,9 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef] adlı bir sanguophage, [sanguophageCountMinusOne] ve diğer [sanguophageSingOrPlural] ile izlenmeyecekleri güvenli bir yer arıyor. Liderleri [asker_nameDef], toplantıyı [map_definite] adresinde düzenlemenizi istiyor.\n\nKabul ederseniz, [sanguophageCount] sanguophageları farklı yönlerden [map_definite]'e ulaşacak. Ayrılmadan önce kendi gizli meselelerini tartışmak için birkaç saat harcayacaklar. Ayrılmadan önce size ödülünüzü vereceklerine söz veriyorlar.\n\nSanguophagelara ihanet edip onlara saldırabilirsiniz. Düşen sanguophagelar, kendi kolonicilerinizden birini bir sanguophage hâline getirmeye zorlanabilir.\n\n[sanguophageInfo]</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->[sanguophageCountMinusOne] sanguophagelar</li>
+    <li>questDescription->[asker_nameDef] adlı bir kan emici, [sanguophageCountMinusOne] ve diğer [sanguophageSingOrPlural] ile izlenmeyecekleri güvenli bir yer arıyor. Liderleri [asker_nameDef], toplantıyı [map_definite] adresinde düzenlemenizi istiyor.\n\nKabul ederseniz, [sanguophageCount] sanguophageları farklı yönlerden [map_definite]'e ulaşacak. Ayrılmadan önce kendi gizli meselelerini tartışmak için birkaç saat harcayacaklar. Ayrılmadan önce size ödülünüzü vereceklerine söz veriyorlar.\n\nKan emicilere ihanet edip onlara saldırabilirsiniz. Düşen kan emiciler, kendi kolonicilerinizden birini bir kan emici hâline getirmeye zorlanabilir.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->kan emici</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->[sanguophageCountMinusOne] kan emiciler</li>
     <li>sanguophageInfo->(*Gray)Sanguofajlar hakkında: Sanguofajlar, kan dolaşımında arkoteknoloji tarafından yaratılan arkitler tarafından desteklenen yaşlanmayan, ölümsüz süper insanlardır. Güzeller ve son derece zekiler. Herhangi bir yaralanmayı iyileştirebilirler ve asla hastalık veya zehirden mustarip olmazlar. Savaşta ölümcül dikenler fırlatabilir ve yaralı arkadaşlarını iyileştirebilirler. Bunun bedeli, sanguofajların hayatta kalabilmek için insan kanından elde edilen hemojeni tüketmesi ve uzun süreler boyunca periyodik olarak ölüm istirahati yapması gerektiğidir. Ateşle kolayca yok olurlar ve UV ışığıyla yavaşlarlar.(/Gray)</li>
   </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -57,7 +57,7 @@
   <SanguophageMeetingHost.questNameRules.rulesStrings>
     <li>questName(p=0.7)->[meetAdjective] [meetNoun]</li>
     <li>questName(p=0.5)->[meetNoun2]-[meetNoun]</li>
-    <li>meetNoun2->sanguophage</li>
+    <li>meetNoun2->kan emici</li>
     <li>meetAdjective->kanasusamış</li>
     <li>meetNoun2->kanlı</li>
     <li>meetAdjective->karanlık</li>

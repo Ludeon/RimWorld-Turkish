@@ -59,7 +59,7 @@
     <li>turnedViolent->[othersWillNotAccept] ve {PAWNSALIVECOUNT_multiple ?} size karşı şiddetle  döndü.</li>
     <li>decidedToLeave->[othersWillNotAccept] ve {PAWNSALIVECOUNT_multiple ?} ayrılmaya karar verdi.</li>
     <li>whoAskedToStay->seninle kalmak isteyen</li>
-    <li>oneOfThe->seninle kalmak isteyen çaresiz [faction_pawnsPlural]'dan biri</li>
+    <li>oneOfThe->seninle kalmak isteyen biçare [faction_pawnsPlural]'dan biri</li>
     <li>questOver->'[resolvedQuestName]' görevi bitti.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] öldü.</li>
     <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] öldü: Öfke</li>
@@ -69,7 +69,7 @@
     <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] öldü: Kalkış</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->Görev başarısız oldu</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [whoAskedToStay] çaresiz [faction_pawnSingular] öldü.\n\n[questOver]</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [whoAskedToStay] biçare [faction_pawnSingular] öldü.\n\n[questOver]</li>
     <li>letterIntroArrested->[oneOfThe] olan {SUBJECT_definite}'i tutukladınız.</li>
     <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] tutuklandı: Öfke</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
@@ -78,11 +78,11 @@
     <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] tutuklandı: Ayrılış</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Görev başarısız oldu</li>
-    <li>lodgersAllArrestedLetterText->[whoAskedToStay] çaresiz [faction_pawnSingular] {SUBJECT_definite}'ı tutukladınız.\n\n[questOver]</li>
-    <li>letterIntroViolated->{SUBJECT_definite} ameliyatla ihlal edildi.</li>
-    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] ihlal edildi: Öfke</li>
+    <li>lodgersAllArrestedLetterText->[whoAskedToStay] biçare [faction_pawnSingular] {SUBJECT_definite}'ı tutukladınız.\n\n[questOver]</li>
+    <li>letterIntroViolated->{SUBJECT_definite} ameliyatla ihlâl edildi.</li>
+    <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] ihlâl edildi: Öfke</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] ihlal edildi: İntikam</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] ihlâl edildi: İntikam</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
     <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] tutuklandı: Ayrılış</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
@@ -150,13 +150,13 @@
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef], dinlenip yeniden gruplanabilmesi için [questDurationTicks_duration] boyunca [map_definite]'de kalmanız için izin istiyor.\n\nKarşılığında, bu süre boyunca ücretsiz olarak çalışmayı ve savaşmayı [offer]. \n\n[joinInfo] daha sonra ona yardım ettiğiniz için sizi ödüllendirebilir - ancak onun gerçek niyetini bilmenin bir yolu yoktur.\n\n[travelerInfo] herhangi bir franksiyonun parçası değildir. Dilerseniz diplomatik sonuçlar olmadan onu öldürmeyi, tutuklamayı, satmayı veya hasat etmeyi seçebilirsiniz.</li>
-    <li>approachInfo(lodgerCount==1)->[asker_nameDef] adlı çaresiz bir [faction_pawnSingular] yaklaşıyor.</li>
+    <li>approachInfo(lodgerCount==1)->[asker_nameDef] adlı biçare bir [faction_pawnSingular] yaklaşıyor.</li>
     <li>approachInfo(lodgerCount==2)->[asker_nameDef] ve başka bir umutsuz [faction_pawnSingular] yaklaşıyor.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef], yanında bir çocukla yaklaşıyor.</li>
     <li>approachInfo(lodgerCount>=3)->[lodgerCount], umutsuz [faction_pawnsPlural] yaklaşıyorlar. Liderlerinin adı [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount], umutsuz [faction_pawnsPlural] ve bir çocuk da dâhil olmak üzere yaklaşıyorlar. Liderlerinin adı [asker_nameDef].</li>
     <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount], umutsuz [faction_pawnsPlural] ve bazı çocuklar da dâhil olmak üzere yaklaşıyorlar. Liderlerinin adı [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Kanatlarının altına aldığı [asker_nameDef], [lodgersCountMinusOne] çocuklarından oluşan bir grup [lodgerCount] ve çaresiz [faction_pawnsPlural] yaklaşıyor.</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Kanatlarının altına aldığı [asker_nameDef], [lodgersCountMinusOne] çocuklarından oluşan bir grup [lodgerCount] ve biçare [faction_pawnsPlural] yaklaşıyor.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] yakın zamanda bir saldırıda evini kaybettiğini iddia ediyor.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] tek başına ve arkadaşsız bir şekilde kripto uykudan uyandığını iddia ediyor.</li>
     <li>claimInfo(lodgerCount==1)->[asker_nameDef] intikamcı bir eski sevgilisi tarafından evinden kovalandığını iddia ediyor.</li>
@@ -212,10 +212,10 @@
     <li>questName(lodgerCount>=2)->[asker_nameDef]'nin [lodgerAdj] [lodgerPlural]</li>
     <li>questName(lodgerCount>=2)->[asker_nameDef]'nin [lodgerPlural]</li>
     <li>lodgerAdj->yorgun</li>
-    <li>lodgerAdj->kayup</li>
+    <li>lodgerAdj->kayıp</li>
     <li>lodgerAdj->muhtaç</li>
     <li>lodgerAdj->fakir</li>
-    <li>lodgerAdj->çaresiz</li>
+    <li>lodgerAdj->biçare</li>
     <li>lodgerAdj->üzgün</li>
     <li>lodgerAdj->tozlu</li>
     <li>lodgerAdj->Umutsuz</li>
@@ -225,13 +225,13 @@
     <li>lodgerSingle->gezgin</li>
     <li>lodgerSingle->mülteci</li>
     <li>lodgerSingle->serseri</li>
-    <li>lodgerSingle->hayatta kalan</li>
+    <li>lodgerSingle->sağ kalan</li>
     <li>lodgerSingle->göçebe</li>
     <li>lodgerSingle->başıboş</li>
     <li>lodgerPlural->gezginler</li>
     <li>lodgerPlural->mülteciler</li>
     <li>lodgerPlural->serseriler</li>
-    <li>lodgerPlural->hayatta kalanlar</li>
+    <li>lodgerPlural->sağ kalanlar</li>
     <li>lodgerPlural->göçebeler</li>
     <li>lodgerPlural->başıboşlar</li>
   </Hospitality_Refugee.questNameRules.rulesStrings>
