@@ -7,9 +7,9 @@
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], wants to perform a low-power test of one of [asker_possessive] ship's area-attack weapons. If [asker_pronoun] does, [gameConditionDescriptionFuture].\n\nSince you are a local landholder under imperial law, [asker_nameDef] needs your honorable permission to proceed.</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Yörüngedeki bir gemideki bir makine personeli, bazı gezegen deneyleri yapmak istiyor. Ancak deneyini gerçekleştirirse [gameConditionDescriptionFuture]\n\nEtik inceleme kuruluyla başının derde girmesinden endişe ediyor ve sizin onayınızı istiyor.</li>
-    <li>questDescription(asker_factionLeader==True)->İntikamcı bir makine kişiliği, [asker_faction_name]'nin [asker_faction_pawnsPlural]'ını tehdit ediyor. [asker_nameFull] [asker_faction_leaderTitle], şahsa ihlâllerinin sorumluluğunu kabul etmesi için bir mesaj göndermenizi istiyor.\n\n.Bunu yaparsanız, kişi öfkesini size çevirecektir. [gameConditionDescriptionFuture]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name]'nin bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], gemisinin alan saldırı silahlarından birinin düşük güç testini yapmak istiyor. Yaparsa, [gameConditionDescriptionFuture].\n\nİmparatorluk yasalarına göre yerel bir toprak sahibi olduğunuzdan, [asker_nameDef]'in devam etmek için onurlu izninize ihtiyacı var.</li>
+    <li>questDescription(askerIsNull==true)->Yörüngedeki bir gemide bulunan bir makine persona, gezegen üzerinde bazı deneyler yapmak istiyor. Ancak, deneyini gerçekleştirirse [gameConditionDescriptionFuture].\n\nEtik inceleme kurulu ile sorun yaşamaktan endişe ediyor ve senin onayını istiyor.</li>
+    <li>questDescription(asker_factionLeader==True)->İntikam peşindeki bir makine persona, [asker_faction_name] fraksiyonunun halkını tehdit ediyor. [asker_faction_leaderTitle] [asker_nameFull], personaya suçları üstlendiğine dair bir mesaj göndermeni istiyor.\n\nEğer bunu yaparsan, persona öfkesini sana yöneltecek. [gameConditionDescriptionFuture].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction] [asker_nameFull], gemisindeki bir alan saldırı silahını düşük güç modunda test etmek istiyor. Eğer bunu yaparsa, [gameConditionDescriptionFuture].\n\nİmparatorluk yasalarına göre yerel toprak sahibi olduğun için, [asker_nameDef] senin yüce iznine muhtaç.</li>
   </ThreatReward_GameCondition_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[asker_nameDef]'s [gameCondition_label]</li>
@@ -18,17 +18,10 @@
     <li>questName->[gameCondition_label] for Pay</li>
   -->
   <ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
-    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [gameCondition_label]</li>
+    <li>questName->[asker_nameDef] ve [gameCondition_label]</li>
     <li>questName->[asker_nameDef] için [gameCondition_indefinite]</li>
-    <li>questName(gameCondition==VolcanicWinter)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==ToxicFallout)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==HeatWave)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==ColdSnap)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==PsychicSuppression)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==WeatherController)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==EMIField)->Ücretli [gameCondition_label]</li>
-    <li>questName(gameCondition==PsychicDrone)->Ücretli [gameCondition_label]</li>
-    <li>questName->[gameCondition_label] için ödeme</li>
+    <li>questName->Ücretli [gameCondition_label]</li>
+    <li>questName->Para için [gameCondition_label]</li>
   </ThreatReward_GameCondition_ItemPod.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -40,12 +33,12 @@
     <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->The infestation was drawn to you by [asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name].</li>
   -->
   <ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Yörüngedeki bir araştırma gemisi, yeni bir tür böcek feromonunu test etmek istiyor. Kabul ederseniz, [map_definite]'de feromonu serperler ve (*Threat)bir [hivesCount] kovanı istilasına(/Threat) neden olur .[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(askerIsNull==true)->Kovanlar, yörüngedeki bir araştırma gemisinden gelen bir feromon taraması tarafından çekildi.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]  grubunun [asker_nameFull] [asker_faction_leaderTitle],[map_definite] yakınındaki sitelerde tekrarlanan istilalarla karşı karşıya. İstilaları sana çekmek istiyor. Bu, (*Threat)bir [hivesCount]  kovanı istilasına(/Threat)  neden olur.[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(asker_factionLeader==True)->Kovanlar başlangıçta  [asker_faction_name] grubunun [asker_nameFull]'e ait yakındaki siteleri istila ediyordu.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], tekrarlanan istilalar nedeniyle [map_definite] yakınına inmekte sorun yaşıyor. Uğraşmanız için böcekleri size çekmek istiyor. Bu,  (*Threat)bir  [hivesCount] kovan istilasına (/Threat) neden olur.[helpersParagraph]</li>
-    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->İstila, [asker_faction_name]'nin bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull] tarafından size çekildi.</li>
+    <li>questDescription(askerIsNull==true)->Yörüngedeki bir araştırma gemisi, yeni bir tür böcek feromonunu test etmek istiyor. Kabul edersen, [map_definite] üzerine feromonu serperek (*Threat)[hivesCount] kovanlık bir böcek istilasına(/Threat) neden olacaklar.[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(askerIsNull==true)->Kovanlar, yörüngedeki bir araştırma gemisinden serpilen feromonlar tarafından çekildi.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], [map_definite] yakınlarındaki bölgelerde tekrarlanan böcek istilaları karşı karşıya. İstilaları sana yönlendirmek istiyor. Bu, (*Threat)[hivesCount] kovanlık bir böcek istilasına(/Threat) neden olacak.[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_factionLeader==True)->Başlangıçta kovanlar, [asker_faction_name] fraksiyonundan [asker_nameFull] tarafından yönetilen alanları istila ediyordu.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_faction_name] fraksiyonundan bir [asker_royalTitleInCurrentFaction], süregelen istilalar nedeniyle [map_definite] yakınlarına inmekte sorun yaşıyor. Böcekleri halletmen için onları sana yönlendirmek istiyor. Bu,  (*Threat)[hivesCount] kovanlık bir böcek istilasına(/Threat) neden olacak.[helpersParagraph]</li>
+    <li>infestationArrivalLetterText(asker_royalInCurrentFaction==True)->Böcek istilası, [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction] [asker_nameFull] tarafından sana yönlendirildi.</li>
   </ThreatReward_Infestation_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Pods and [insects]</li>
@@ -58,11 +51,11 @@
     <li>insects->hives</li>
   -->
   <ThreatReward_Infestation_ItemPod.questNameRules.rulesStrings>
-    <li>questName->podlar ve [insects]</li>
-    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [insects]'i</li>
-    <li>questName->[itemPodsTotalMarketValue_money]-[insects]</li>
-    <li>questName(asker_royalInCurrentFaction==True)->[insects]'in büyük gösterisi</li>
-    <li>questName(p=0.3)->pod sürüsü</li>
+    <li>questName->Kozalar ve [insects]</li>
+    <li>questName->[asker_nameDef] ve [insects]</li>
+    <li>questName->[itemPodsTotalMarketValue_money] [insects]</li>
+    <li>questName(asker_royalInCurrentFaction==True)->[insects] Gösterisi</li>
+    <li>questName(p=0.3)->Böcek Sürüsü</li>
     <li>insects->haşaratlar</li>
     <li>insects->böcekler</li>
     <li>insects->kovanlar</li>
@@ -89,20 +82,20 @@
   <ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
     <li>animalKindLabelCorrect(animalCount==1)->[animalKind_label]</li>
     <li>animalKindLabelCorrect(animalCount>=2)->[animalKind_labelPlural]</li>
-    <li>manhuntingBeastIndef(animalCount==1)->bir (*Threat)insan avcısı [animalKind_label](/Threat)</li>
-    <li>manhuntingBeastIndef(animalCount>=2)->(*Threat)[animalCount] insan avcısı [animalKind_labelPlural](/Threat) yığını</li>
-    <li>endSection->[animalKindLabelCorrect] [helpersParagraph], siz kabul ettikten sonra [map_definite]'ye [manhuntersDelayTicks_duration]'da ulaşacaktır.</li>
-    <li>questDescription(askerIsNull==true,animalCount==1)->Bir tüccar arıyor. (*Threat) Vahşi bir [animalKind_label](/Threat) onu avlıyor! Canavarı ondan uzaklaştırmak için yardımını istiyor.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] yakındaki bir tüccarı avlamak için arıyor.</li>
-    <li>questDescription(askerIsNull==true,animalCount>=2)->Bir tüccar arıyor. Bir sürü (*Threat)[animalCount] vahşi [animalKind_labelPlural](/Threat) onu avlıyor! Hayvanları kendisinden uzaklaştırmak için yardımınızı istiyor.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural] yakındaki bir tüccarı avlamak için arıyor.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] kervanları [manhuntingBeastIndef] tarafından taciz ediliyor. [asker_faction_leaderTitle] [asker_nameFull] canavarları kervanlardan uzaklaştırmak için yardımınızı istiyor.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label], [asker_faction_name] kervanlarını taciz ediyordu.</li>
-    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural], [asker_faction_name] kervanlarını taciz ediyordu.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], yakın zamanda (*Threat)insanavcıları [animalKind_label](/Threat) karşı bir gözcü kaybetti. Öldürülmemek için, onurunu korumak için sana doğru çekmek istiyor.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Bu, [asker_faction_name]'nin [asker_royalTitleInCurrentFaction] olan [asker_nameFull]'un gözcüsünü öldüren [animalKind_label]'dir.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] [asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction]'dir, yakın zamanda bir keşif ekibini (*Threat)[animalCount] insanavcıları [animalKind_labelPlural](/Threat) karşı kaybetti. Şerefini korumak için, öldürülmeniz için canavarları size doğru çekmek istiyor.[endSection]</li>
-    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Bunlar, [asker_faction_name]'nin [asker_royalTitleInCurrentFaction] olan [asker_nameFull]'un keşif ekibini öldüren [animalKind_labelPlural]'dır.</li>
+    <li>manhuntingBeastIndef(animalCount==1)->(*Threat)insan avcısı [animalKind_label](/Threat)</li>
+    <li>manhuntingBeastIndef(animalCount>=2)->(*Threat)[animalCount] insan avcısı [animalKind_labelPlural](/Threat)</li>
+    <li>endSection->[helpersParagraph][animalKindLabelCorrect], sen kabul ettikten [manhuntersDelayTicks_duration] sonra [map_definite] adresine varacak.</li>
+    <li>questDescription(askerIsNull==true,animalCount==1)->Bir tüccar arıyor. (*Threat)Vahşi bir [animalKind_label](/Threat) onu avlıyor! Hayvanı ondan uzaklaştırman için yardımını istiyor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount==1)->[animalKind_label] yakınlardaki bir tüccarı avlıyordu.</li>
+    <li>questDescription(askerIsNull==true,animalCount>=2)->Bir tüccar arıyor. (*Threat)[animalCount] vahşi [animalKind_labelPlural](/Threat) onu avlıyor! Hayvanları ondan uzaklaştırman için yardımını istiyor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(askerIsNull==true,animalCount>=2)->[animalKind_labelPlural] yakınlardaki bir tüccarı avlıyordu.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonuna ait kervanlar [manhuntingBeastIndef] tarafından taciz ediliyor. [asker_faction_leaderTitle] [asker_nameFull], hayvanları kervanlardan uzaklaştırman için yardımını istiyor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount==1)->[animalKind_label], [asker_faction_name] fraksiyonunun kervanlarını taciz ediyordu.</li>
+    <li>manhunterArrivalLetterEnd(asker_factionLeader==True,animalCount>=2)->[animalKind_labelPlural], [asker_faction_name] fraksiyonunun kervanlarını taciz ediyordu.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount==1)->[asker_nameFull], [asker_royalTitleInCurrentFaction] fraksiyonundan bir [asker_faction_name], yakın zamanlarda (*Threat)insan avcısı bir [animalKind_label](/Threat) yüzünden bir gözcüsünden olmuş. Hayvanı kendine çekip öldürerek onun onurunu kurtarmanı istiyor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount==1)->Bu, [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction] [asker_nameFull] tarafından bildirilen [animalKind_label].</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,animalCount>=2)->[asker_nameFull], [asker_royalTitleInCurrentFaction] fraksiyonundan bir [asker_faction_name], yakın zamanlarda (*Threat)[animalCount] insan avcısı [animalKind_labelPlural](/Threat) yüzünden gözcü ekibiden olmuş. Hayvanları kendine çekip öldürerek onun onurunu kurtarmanı istiyor.[endSection]</li>
+    <li>manhunterArrivalLetterEnd(asker_royalInCurrentFaction==True,animalCount>=2)->Bunlar, [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction] [asker_nameFull] tarafından bildirilen [animalKind_labelPlural].</li>
   </ThreatReward_Manhunters_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(animalCount==1)->The [AdjectiveBadass] [beast]</li>
@@ -119,7 +112,7 @@
   -->
   <ThreatReward_Manhunters_ItemPod.questNameRules.rulesStrings>
     <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
-    <li>questName(animalCount==1)->Bir [AdjectiveBadass] [beast]</li>
+    <li>questName(animalCount==1)->[AdjectiveBadass] Bir [beast]</li>
     <li>questName(animalCount==1)->[AdjectiveBadass] [beast]</li>
     <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
     <li>questName(animalCount>=2)->[AdjectiveBadass] [beasts]</li>
@@ -149,18 +142,18 @@
     <li>askerEnemies(priority=-1)->his enemies</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Yakınlardan bir tüccar arıyor. [threat] onu avlıyorlar! Sizden onlara işaret vermenizi ve kaçabilmesi için onları [map_definite]'e çekmenizi istiyor.\n\nSinyali gönderirseniz, [askerEnemies] sizi taciz etmek için yakındaki bir siteyi etkinleştirecek. [site/allSitePartsDescriptions] ,bu site, siz onu yok edene kadar kalacaktır.</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] [asker_faction_leaderTitle] üyesi [asker_nameFull], yardımınızı istiyor. [askerEnemies] yerleşim yerlerini taciz ediyor. Onları [map_definite]'e doğru ve insanlarından uzağa çekmek için sinyalleri kullanarak yardımınızı istiyor.\n\nBunu yaparsanız, [askerEnemies] sizi taciz etmek için yakındaki bir siteyi etkinleştirir. [site/allSitePartsDescriptions] Bu site, siz onu yok edene kadar kalacaktır.</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], [map_definite] yakınında seyahat ediyor. [threat] tarafından takip ediliyor ve sinyalleri kullanarak onları [map_definite]'e çekmek için yardımınızı istiyor.\n\nBunu yaparsanız, [askerEnemies] sizi taciz etmek için yakındaki bir siteyi etkinleştirecek. [site/allSitePartsDescriptions] ,bu site siz onu yok edene kadar kalacaktır.</li>
-    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]'nın [site/enemyFaction_pawnsPlural]'ı </li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->mekanoid</li>
+    <li>questDescription(askerIsNull==true)->Yakınlardaki bir tüccar arıyor. [threat] onu avlıyor! Senden sinyal yollayarak kaçabilmesi için onları [map_definite] adresine çekmeni istiyor.\n\nEğer sinyal yollarsan, [askerEnemies] seni taciz etmek için yakınlardaki bir kompleksi etkinleştirecek. [site/allSitePartsDescriptions] Bu kompleks, sen gidip onu yok edene kadar etkin kalacak.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], yardımını istiyor. [askerEnemies] onun yerleşimlerini taciz ediyor. Sinyal yollayarak onları [map_definite] konumuna, onun halkından uzağa çekmeni istiyor.\n\nEğer kabul edersen, [askerEnemies] seni taciz etmek için yakınlardaki bir kompleksi etkinleştirecek. [site/allSitePartsDescriptions] Bu kompleks, sen gidip onu yok edene kadar etkin kalacak.</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction] [asker_nameFull], [map_definite] yakınlarında seyahat ediyor. [threat] tarafından takip ediliyor ve senden sinyal yollayıp onları çekmeni istiyor.\n\nEğer yaparsan, [askerEnemies] seni taciz etmek için yakınlardaki bir kompleksi etkinleştirecek. [site/allSitePartsDescriptions] Bu kompleks, sen gidip onu yok edene kadar etkin kalacak.</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name] kaynaklı [site/enemyFaction_pawnsPlural]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->mekanoidler</li>
     <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mekanoidler</li>
-    <li>threat->düşman</li>
+    <li>threat->düşmanları</li>
     <li>threat(priority=-1)->düşmanları</li>
     <li>askerEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mekanoid</li>
+    <li>askerEnemies(priority=1,site/MechCluster_exists==True)->mekanoidler</li>
     <li>askerEnemies(priority=1,site/SleepingMechanoids_exists==True)->mekanoidler</li>
-    <li>askerEnemies->düşmanı</li>
+    <li>askerEnemies->düşmanları</li>
     <li>askerEnemies(priority=-1)->düşmanları</li>
   </ThreatReward_SiteThreat_ItemPod.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -170,12 +163,12 @@
     <li>questName->[site/site_label] for Pay</li>
   -->
   <ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
-    <li>questName->{replace: [asker_nameDef]s; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} [site/site_label]'i</li>
+    <li>questName->[asker_nameDef] ve [site/site_label]</li>
     <li>questName->[asker_nameDef] için [site/site_label]</li>
-    <li>questName->ödeme [site/site_label]</li>
-    <li>questName->ödeme için [site/site_label]</li>
+    <li>questName->Ücretli [site/site_label]</li>
+    <li>questName->Para için [site/site_label]</li>
   </ThreatReward_SiteThreat_ItemPod.questNameRules.rulesStrings>
   <!-- EN: [defaultSiteAppearedLetterText]\n\nThis site was set up as a response to your insulting signals. -->
-  <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\nBu site sizin aşağılayıcı sinyallerinize cevap olarak kurulmuştur.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
+  <ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>[defaultSiteAppearedLetterText]\n\nBu kompleks, senin aşağılayıcı sinyallerine bir karşılık olarak kuruldu.</ThreatReward_SiteThreat_ItemPod.LetterTextSiteAppeared.value.slateRef>
   
 </LanguageData>

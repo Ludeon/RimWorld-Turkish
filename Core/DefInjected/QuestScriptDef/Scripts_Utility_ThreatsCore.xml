@@ -27,14 +27,14 @@
     </rulesStrings> -->
   <Util_GenerateSite.root.singleSitePartRules.slateRef>
     <rulesStrings>
-      <li>root(priority=1,sitePart==ClimateAdjuster)->orada (*Threat)bir iklim ayarlayıcı makine(/Threat) var ve bölgenin derecesini [temperatureOffset] derece kaydırıyor</li>
-      <li>root(priority=1,sitePart==PsychicDroner)->orada (*Threat)bir psişik uğultu yayan makine(/Threat) var ve [affectedGender] bireyleri etkiliyor</li>
-      <li>root(priority=1,sitePart==PsychicSuppressor)->orada (*Threat)bir psişik baskılayıcı makine(/Threat) var ve [affectedGender] bireyleri etkiliyor</li>
-      <li>root(priority=1,sitePart==WeatherController)->orada (*Threat)bir hava durumu kontrolörü makine(/Threat) ve bütün bölgedeki hava durumunu [weather_label] olmaya zorluyor</li>
-      <li>root(priority=1,sitePart==SmokeSpewer)->orada (*Threat)bir duman püskürtücü makine(/Threat) var ve bütün bölgenin üzerine duman salıyor</li>
-      <li>root(priority=1,sitePart==SunBlocker)->orada (*Threat)bir güneş engelleyici makine(/Threat) var ve bütün bölgeyi karartıyor</li>
-      <li>root(priority=1,sitePart==EMIDynamo)->orada (*Threat)bir EMI dinamo makinesi(/Threat) var ve bölgedeki elektrikli cihazların çalışmasını engelliyor</li>
-      <li>root(priority=1,sitePart==ToxicSpewer)->orada (*Threat)bir toksik püskürtücü makine(/Threat) var ve bütün bölgeyi zehirli bir örtüyle kaplıyor</li>
+      <li>root(priority=1,sitePart==ClimateAdjuster)->orada bölgenin sıcaklığını [temperatureOffset] derece kaydıran (*Threat)bir iklim ayarlayıcı makine(/Threat) var</li>
+      <li>root(priority=1,sitePart==PsychicDroner)->orada [affectedGender] bireyleri etkileyen (*Threat)bir psişik uğultu yayan makine(/Threat) var</li>
+      <li>root(priority=1,sitePart==PsychicSuppressor)->orada [affectedGender] bireyleri etkileyen (*Threat)bir psişik baskılayıcı makine(/Threat) var</li>
+      <li>root(priority=1,sitePart==WeatherController)->orada bütün bölgedeki hava durumunu [weather_label] olmaya zorlayan (*Threat)bir hava durumu kontrolörü makine(/Threat) var</li>
+      <li>root(priority=1,sitePart==SmokeSpewer)->orada bütün bölgenin üzerine duman salan (*Threat)bir duman püskürtücü makine(/Threat) var</li>
+      <li>root(priority=1,sitePart==SunBlocker)->orada bütün bölgeyi karartan (*Threat)bir güneş engelleyici makine(/Threat) var</li>
+      <li>root(priority=1,sitePart==EMIDynamo)->orada bölgedeki elektrikli cihazların çalışmasını engelleyen (*Threat)bir EMI dinamo makinesi(/Threat) var</li>
+      <li>root(priority=1,sitePart==ToxicSpewer)->orada bütün bölgeyi zehirli bir örtüyle kaplayan (*Threat)bir toksik püskürtücü makine(/Threat) var</li>
       <li>root(priority=1,sitePart==RaidSource)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir askerî toplanma alanı var ve her [mtbDays] bir sana baskınlar düzenleyecekler</li>
       <li>root(priority=1,sitePart==Outpost)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir düşman karakolu var</li>
       <li>root(priority=1,sitePart==BanditCamp)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir haydut kampı var</li>

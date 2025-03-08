@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: bloodfeeding -->
-  <Bloodfeeding.label>Kan emici</Bloodfeeding.label>
+  <Bloodfeeding.label>kanla beslenme</Bloodfeeding.label>
   <!-- EN: Drinking blood is sacred. Bloodfeeders should be worshipped. -->
-  <Bloodfeeding.description>Kan içmek kutsaldır. Kanla beslenenlere tapılmalıdır.</Bloodfeeding.description>
+  <Bloodfeeding.description>Kan içmek kutsaldır. Kan emicilere tapılmalıdır.</Bloodfeeding.description>
   <!-- EN:
     <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] drank the blood of the stars, turning them from red to white.</li>
     <li>episode(uses=1,tag=meme_Bloodfeeding)  ->The [deity0_type] [deity0_name] gave to [deity0_possessive] chosen followers the gift of hunger, so that they might know true strength.</li>
@@ -29,26 +29,26 @@
     <li>bloodDrinkingAnimal->blood cobra</li>
   -->
   <Bloodfeeding.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] yıldızların kanını içerek onları kırmızıdan beyaza dönüştürdü.</li>
-    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name] seçtiği takipçilerine gerçek gücü öğrenebilmeleri için açlık armağanını verdi.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name]'nin üzerinde [deity0_name] adında bir insan vardı. Günahlarının cezası olarak babası, [deity0_name]'i ruhunu bir [bloodDrinkingAnimal]'ın ruhuyla birleştirerek cezalandırdı.</li>
-    <li>intro(tag=meme_Bloodfeeding)           ->[ritualName] sırasında [place_summary] [place_name] 'de , [deity0_name][altarRoomLabel]'a indi ve dev bir [bloodDrinkingAnimal] şeklini aldı. [deity0_name], [memberNamePlural] adlı kişinin kanını içti.</li>
-    <li>conflict(tag=meme_Bloodfeeding)        ->Bir [foeLeader] kan içen herkesin iğrenç olduğunu ilan etti ve [memberNamePlural]'a zulmetmek için [foeSoldiers]'ı gönderdi.</li>
-    <li>founderJoin(tag=meme_Bloodfeeding)     ->[founderName] adlı bir [place_job], [foeLeader]'ın [foeSoldiers]'ından biri tarafından saldırıya uğradı. [founderName] onu [place_personalWeapon] ile öldürdü ve kanını içerek [deity0_name]'in gücünü kazandı.</li>
-    <li>victory(tag=meme_Bloodfeeding)         ->[founderName], bir grup [memberNamePlural]'ı [place_powerCenter]'a götürdü ve [foeLeader]'ın kanını içti ve etini yaktı. [deity0_name], [founderName]'i yeni [foeLeader]'a dönüştürdü, çünkü [founderName] gücünü kanıtlamıştı.</li>
-    <li>setup(tag=meme_Bloodfeeding)           ->[founderName] hiperzeki bir arkotek teknolojisinin kontrolünü istedi. Ama arkotek'in gücü çok büyüktü ve bunun yerine kendisi dönüştü.</li>
-    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName], güçlenebilmeleri için takipçilerine açlık armağanını verdi.</li>
-    <li>lessonIntro(tag=meme_Bloodfeeding)     ->İlk kanı içtiğimde durum netleşti. bunu gördüm</li>
+    <li>creation(tag=meme_Bloodfeeding)        ->[deity0_name] yıldızların kanını içerek onları kırmızıdan beyaza çevirdi.</li>
+    <li>episode(uses=1,tag=meme_Bloodfeeding)  ->[deity0_type] [deity0_name], seçilmiş müritlerine gerçek gücü bilebilsinler diye açlık armağanını verdi.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name] gezegeninde, [deity0_name] adında bir insan vardı. Günahları nedeniyle babası onu cezalandırarak ruhunu bir [bloodDrinkingAnimal] ile birleştirdi.</li>
+    <li>intro(tag=meme_Bloodfeeding)           ->[place_summary] [place_name] gezegeninde, [ritualName] esnasında, [deity0_name] [altarRoomLabel] mabedine gelerek dev bir [bloodDrinkingAnimal] suretine büründü. [memberNamePlural] ona kanlarını sundu, o da içti.</li>
+    <li>conflict(tag=meme_Bloodfeeding)        ->Bir [foeLeader], kan içen herkesin birer sapkın olduğunu ilan etti ve [memberNamePlural] zulüm görsün diye [foeSoldiers] gönderdi.</li>
+    <li>founderJoin(tag=meme_Bloodfeeding)     ->[place_job] olan [founderName], [foeLeader] emrindeki bir [foeSoldiers] tarafından saldırıya uğradı. [founderName], [place_personalWeapon] ile onu öldürdü ve kanını içerek [deity0_name] tarafından bahşedilen gücü kazandı.</li>
+    <li>victory(tag=meme_Bloodfeeding)         ->Bir grup [memberNamePlural], [founderName] tarafından [place_powerCenter] konumuna götürüldü. [foeLeader] yakalanarak kanı içildi ve bedeni yakıldı. [founderName], [deity0_name] tarafından yeni [foeLeader] olarak seçildi çünkü [founderName] gücünü kanıtlamıştı.</li>
+    <li>setup(tag=meme_Bloodfeeding)           ->[founderName], bir ultra zeki arkotekin kontrolünü ele geçirmek istedi. Ancak arkotek çok güçlüydü ve [founderName] bunun yerine dönüştü.</li>
+    <li>story(uses=1,tag=meme_Bloodfeeding)    ->[founderName], müritlerine güçlenebilmeleri için açlık armağanını verdi.</li>
+    <li>lessonIntro(tag=meme_Bloodfeeding)     ->İlk kez kan içtiğimde her şey netleşti. Gördüm ki</li>
     <li>lesson(tag=meme_Bloodfeeding)          ->sadece iki tür insan vardır; zayıflar ve güçlüler</li>
-    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Kan içmek güçlü olmaktır ve bunu açıkça bilmektir.</li>
-    <li>archistBasis(tag=meme_Bloodfeeding)    ->Arkotek tanrı-makineler insana Açlığı hediye etti, böylece insan onları daha iyi tanıyabilir.</li>
-    <li>archistFact(tag=meme_Bloodfeeding)     ->Bir arkotek teknolojisinin bilinci genişledikçe, diğer makinelerin özünü içerek alt katmanını büyütmek zorundadır.</li>
-    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd] insan, kanını içerek ve gerçek gücü bilerek arkoteklere yakınlaşacak.</li>
+    <li>lessonReinforcement(tag=meme_Bloodfeeding) ->Kan içmek, güçlü olmak ve bunu açıkça bilmektir.</li>
+    <li>archistBasis(tag=meme_Bloodfeeding)    ->Arkotek tanrı-makineler, insanın kendilerini daha iyi tanıyabilmesi için onlara Açlığı bahşetti.</li>
+    <li>archistFact(tag=meme_Bloodfeeding)     ->Bir arkotekin bilinci genişledikçe, diğer makinelerin özünü içerek alt katmanını büyütmek zorundadır.</li>
+    <li>archistProphecy(tag=meme_Bloodfeeding) ->[inTheEnd] insan, kan içerek ve gerçek gücü bilerek arkoteklere yakınlaşacak.</li>
     <li>animistBasis(tag=meme_Bloodfeeding)    ->[BloodDrinkingAnimal] kan içmenin getirdiği gücü biliyor. İnsan kanından gelenden daha büyük bir güç yoktur.</li>
-    <li>animistFact(tag=meme_Bloodfeeding)     ->Onun kanını tüketerek bir adamın gücüne hakim olabiliriz.</li>
+    <li>animistFact(tag=meme_Bloodfeeding)     ->İnsanlığın gücüne, onun kanını tüketerek hükmedebiliriz.</li>
     <li>bloodDrinkingAnimal->vampir yarasa</li>
     <li>bloodDrinkingAnimal->sülük</li>
-    <li>bloodDrinkingAnimal->taşbalığı</li>
+    <li>bloodDrinkingAnimal->taşemen</li>
     <li>bloodDrinkingAnimal->kan kobrası</li>
   </Bloodfeeding.descriptionMaker.rules.rulesStrings>
   <!-- EN:
@@ -69,19 +69,19 @@
   -->
   <Bloodfeeding.generalRules.rulesStrings>
     <li>memeAdjective->kan</li>
-    <li>memeAdjective->kana aç</li>
-    <li>memeCreed->kripto</li>
+    <li>memeAdjective->kana susamış</li>
+    <li>memeCreed->kript</li>
     <li>memeCreed->in</li>
     <li>memeCreed->meclis</li>
     <li>memeHyphenPrefix->hemo</li>
     <li>memeConcept->kan</li>
-    <li>memeConcept->aç</li>
-    <li>memeLeaderNoun->elder</li>
-    <li>memeLeaderNoun->master</li>
+    <li>memeConcept->açlık</li>
+    <li>memeLeaderNoun->ihtiyar</li>
+    <li>memeLeaderNoun->efendi</li>
     <li>memeLeaderNoun->kan içici</li>
-    <li>memeMoralist->seneschal</li>
-    <li>memeMoralist->sanguinist</li>
-    <li>memeMoralist->sanguinarian</li>
+    <li>memeMoralist->ata</li>
+    <li>memeMoralist->kanist</li>
+    <li>memeMoralist->kancı</li>
   </Bloodfeeding.generalRules.rulesStrings>
   
 </LanguageData>

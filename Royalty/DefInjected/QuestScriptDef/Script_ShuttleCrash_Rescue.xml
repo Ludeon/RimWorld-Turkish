@@ -26,20 +26,20 @@
     <li>shuttleDestroyedLetterText->The shuttle sent to collect the crashed [asker_faction_pawnsPlural] has been destroyed. The [asker_faction_pawnsPlural] will now leave on foot.\n\n[failLetterEndingCommon]</li>
   -->
   <ShuttleCrash_Rescue.questContentRules.rulesStrings>
-    <li>failLetterEndingCommon->'[resolvedQuestName]' görevinde başarısız oldunuz.</li>
-    <li>successLetterEndingCommon->'[resolvedQuestName]' görevini başarıyla tamamladınız.</li>
+    <li>failLetterEndingCommon->'[resolvedQuestName]' görevinde başarısız oldun.</li>
+    <li>successLetterEndingCommon->'[resolvedQuestName]' görevini başarıyla tamamladın.</li>
     <li>goodwillSomeCiviliansLost->[asker_faction_pawnSingular] sivilin tamamı kurtarılamadı. [goodwillNegativelyAffected]</li>
-    <li>goodwillAllCiviliansLost->[asker_faction_pawnSingular] [pawnLabelPlural]'in hiçbiri kurtarılamadı. [goodwillNegativelyAffected]</li>
-    <li>goodwillNegativelyAffected->[asker_faction_name] ile olan iyi niyetiniz, kalan her [pawnLabel] için olumsuz etkilendi.</li>
-    <li>commanderLandingDesc->[asker_nameDef], mekiğini [map_definite]'e indirmek isteyen komutan</li>
+    <li>goodwillAllCiviliansLost->[asker_faction_pawnSingular] sivilin hiçbiri kurtarılamadı. [goodwillNegativelyAffected]</li>
+    <li>goodwillNegativelyAffected->[asker_faction_name] ile arandaki iyi niyet, geride kalan her [pawnLabel] için olumsuz etkilendi.</li>
+    <li>commanderLandingDesc->[asker_nameDef], mekiğini [map_definite] civarına indirmek isteyen komutan</li>
     <li>raidArrivedLetterLabel->Baskın: [enemyFaction_name]</li>
-    <li>raidArrivedLetterText->[enemyFaction_name]'den [enemyFaction_pawnsPlural] geldi. [map_definite] noktasında gelen [asker_faction_pawnsPlural]'a saldıracaklar.\n\nKurtarma mekiği [rescueShuttleAfterRaidDelay_duration] içinde gelene kadar [asker_faction_pawnsPlural]'ı savunun.</li>
+    <li>raidArrivedLetterText->[enemyFaction_name] fraksiyonundan [enemyFaction_pawnsPlural] geldi. [map_definite] yakınlarında düşen [asker_faction_pawnsPlural] grubuna saldıracaklar.\n\n[rescueShuttleAfterRaidDelay_duration] içinde kurtarma mekiği gelene kadar onları savun.</li>
     <li>rescueShuttleArrivedLetterLabel->Kurtarma mekiği geldi</li>
-    <li>rescueShuttleArrivedLetterText->Kurtarma mekiği, düşen [pawnLabelSingleOrPlural]'ı almak için geldi. [rescueDelay_duration] içinde ayrılmadan önce bu kişilerin mekiğe bindiğinden emin olun:\n\n[civilians]</li>
+    <li>rescueShuttleArrivedLetterText->Düşen [pawnLabelSingleOrPlural] için kurtarma mekiği geldi. [rescueDelay_duration] içinde ayrılmadan önce şu kişilerin mekiğe bindiğinden emin ol:\n\n[civilians]</li>
     <li>questCompletedSuccessLetterLabel->Görev tamamlandı: [resolvedQuestName]</li>
-    <li>questCompletedSuccessLetterText->[commanderLandingDesc], kurtuldu. [map_definite] adresinde aldığı yardım için minnettar.\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedSuccessLetterText->[commanderLandingDesc] kurtuldu. [map_definite] ona yardım ettiği için minnettar.\n\n[successLetterEndingCommon]</li>
     <li>questCompletedCiviliansLostSuccessLetterLabel->Görev tamamlandı: [resolvedQuestName]</li>
-    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc], kurtuldu.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
+    <li>questCompletedCiviliansLostSuccessLetterText->[commanderLandingDesc] kurtuldu.\n\n[goodwillSomeCiviliansLost]\n\n[successLetterEndingCommon]</li>
     <li>askerLostLetterLabel->Görev başarısız oldu: [resolvedQuestName]</li>
     <li>askerLostLetterText->Mekik hareket ettiğinde [commanderLandingDesc] gemide değildi.\n\n[goodwillSomeCiviliansLost]\n\n[failLetterEndingCommon]</li>
     <li>allLostLetterLabel->Görev başarısız oldu: [resolvedQuestName]</li>
@@ -47,7 +47,7 @@
     <li>askerDiedLetterLabel->Görev başarısız oldu: [resolvedQuestName]</li>
     <li>askerDiedLetterText->[commanderLandingDesc] öldü.\n\n[failLetterEndingCommon]</li>
     <li>shuttleDestroyedLetterLabel->Görev başarısız oldu: [resolvedQuestName]</li>
-    <li>shuttleDestroyedLetterText->Düşen [asker_faction_pawnsPlural]'ı almak için gönderilen mekik yok edildi. [asker_faction_pawnsPlural] şimdi yürüyerek ayrılacak.\n\n[failLetterEndingCommon]</li>
+    <li>shuttleDestroyedLetterText->Düşen [asker_faction_pawnsPlural] için gönderilen mekik yok edildi. [asker_faction_pawnsPlural] şimdi yürüyerek ayrılacak.\n\n[failLetterEndingCommon]</li>
   </ShuttleCrash_Rescue.questContentRules.rulesStrings>
   <!-- EN:
     <li>pawnLabel->civilian</li>
@@ -73,15 +73,15 @@
   <ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
     <li>pawnLabelSingleOrPlural(civilians_count==1)->[pawnLabel]</li>
     <li>pawnLabelSingleOrPlural(civilians_count>=2)->[pawnLabelPlural]</li>
-    <li>questDescription->[asker_faction_name] mekiği hasar aldı ve inecek bir yer arıyor. Komutan [asker_nameDef], [map_definite]'e inmek istiyor.\n\n[enemyFaction_name]'den [enemyFaction_pawnsPlural], içindekileri öldürmek için mekiğin inme bölgesine saldıracak. Onları savunmalısın.\n\nMekikte [asker_nameDef],[andOtherCivilians] ve [soldierCountKinds]ler var. Komutan [andCivilians] kurtarılmalı, ancak [soldiers0_kind]'ler feda edilebilir.\n\n[rescueDelay_duration]'dan sonra, hayatta kalanları almak için bir kurtarma mekiği gelecek. Hepsini [leaveDelay_duration] içinde gemiye almanız gerekecek.</li>
+    <li>questDescription->[asker_faction_name] fraksiyonuna ait bir mekik hasar aldı ve inecek bir yer arıyor. Komutanı [asker_nameDef], [map_definite] yakınlarına inmek istiyor.\n\n[enemyFaction_name] fraksiyonundan [enemyFaction_pawnsPlural], mekiğin içindekileri öldürmek için iniş bölgesine saldıracak. Onları savunmalısın.\n\nMekikte [asker_nameDef], [andOtherCivilians] ve [soldierCountKinds] var. Komutan ve [andCivilians] kurtarılmalı ama [soldiers0_kind] feda edilebilir.\n\nHayatta kalanları almak için [rescueDelay_duration] sonra bir kurtarma mekiği gelecek. Hepsini [leaveDelay_duration] içinde mekiğe alman gerekecek.</li>
     <li>andOtherCivilians(civilians_count==1)-></li>
-    <li>andOtherCivilians(civilians_count==2)->, diğer [pawnLabel],</li>
-    <li>andOtherCivilians(civilians_count>=3)->, [civilianCountMinusOne] diğer [pawnLabelSingleOrPlural],</li>
+    <li>andOtherCivilians(civilians_count==2)->diğer [pawnLabel]</li>
+    <li>andOtherCivilians(civilians_count>=3)->[civilianCountMinusOne] diğer [pawnLabelSingleOrPlural]</li>
     <li>andCivilians(civilians_count==1)-></li>
     <li>andCivilians(civilians_count==2)->ve [pawnLabel]</li>
     <li>andCivilians(civilians_count>=3)->ve [pawnLabelPlural]</li>
     <li>soldierCountKinds(soldiers_count==1)->[soldiers_count] [soldiers0_kind]</li>
-    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]ler</li>
+    <li>soldierCountKinds(soldiers_count>1)->[soldiers_count] [soldiers0_kind]</li>
   </ShuttleCrash_Rescue.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shuttle] [crash]</li>
@@ -106,24 +106,24 @@
   -->
   <ShuttleCrash_Rescue.questNameRules.rulesStrings>
     <li>questName->[shuttle] [crash]</li>
-    <li>questName->[asker_faction_pawnSingular] [shuttle] [crash]</li>
+    <li>questName->[asker_faction_pawnSingular] taşıyan [shuttle] [crash]</li>
     <li>questName->[shuttle] [damaged]</li>
-    <li>questName->[asker_nameDef]'nin [shuttle] [damaged]</li>
+    <li>questName->[asker_nameDef] kişisine ait [shuttle] [damaged]</li>
     <li>questName->[emergency] [landing]</li>
-    <li>questName->[asker_nameDef]'nin [emergency] [landing]</li>
+    <li>questName->[asker_nameDef] tarafından [emergency] [landing]</li>
     <li>shuttle->mekik</li>
     <li>shuttle->taşıyıcı</li>
     <li>shuttle->gemi</li>
-    <li>crash->çarptı</li>
+    <li>crash->kaza yaptı</li>
     <li>crash->düştü</li>
     <li>damaged->hasar aldı</li>
-    <li>damaged->yakalandı</li>
+    <li>damaged->bozuldu</li>
     <li>damaged->arızalandı</li>
     <li>emergency->acil</li>
     <li>emergency->zorunlu</li>
-    <li>landing->inişi</li>
-    <li>landing->inmesi</li>
-    <li>landing->yanaşması</li>
+    <li>landing->iniş</li>
+    <li>landing->alçalma</li>
+    <li>landing->yanaşma</li>
   </ShuttleCrash_Rescue.questNameRules.rulesStrings>
   
 </LanguageData>

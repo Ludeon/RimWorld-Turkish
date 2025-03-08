@@ -23,23 +23,23 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameFull] adlı [joiner_age] yaşındaki [joiner_title] yardım çağrısında bulunuyor! [hidingFrom]'ndan saklanıyor. Kaçmak ve [map_definite] adresinde size katılmak istiyor.[joiner_relationInfo]\n\n[condDesc]\n\nGizli kalmaya çalışan [joiner_nameDef] size kendisi hakkında daha fazla bilgi veremeyeceğini iddia ediyor.</li>
-    <li>hidingFrom(gameCondition==ToxicFallout)->açlıktan ölmek üzere olan bir kurt sürüsü</li>
-    <li>condDesc(gameCondition==ToxicFallout)->Ancak [joiner_nameDef] kurtları yakınlardaki devasa zehirli kimyasal çöplüğü ateşe vererek öldürebilir. Bu [gameConditionDuration_duration] sürece toksik serpintiye neden olacak.</li>
-    <li>hidingFrom(gameCondition==VolcanicWinter)->bir yamyam çetesi</li>
-    <li>condDesc(gameCondition==VolcanicWinter)->Lakin, [joiner_nameDef] çeteyi yakındaki terk edilmiş devasa bir çöp yığınını ateşe vererek öldürebilir. Size katılırsa, toksik serpinti [gameConditionDuration_duration] boyunca güneşi engeller.</li>
-    <li>hidingFrom(gameCondition==EMIField)->bir grup mekanoid</li>
-    <li>condDesc(gameCondition==EMIField)->Lakin, [joiner_nameDef] yalnızca eski bir EMI dinamosunu etkinleştirerek mekanoidleri yok edebilir. Size katılırsa, [gameConditionDuration_duration] boyunca elektrikli cihazları kapatan bir EMI alanı oluşturulacaktır.</li>
-    <li>hidingFrom(gameCondition==HeatWave)->arızalı bir iklim kontrol uydusu</li>
-    <li>condDesc(gameCondition==HeatWave)->Size katılırsa, uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca yoğun bir ısı dalgası sürecek.</li>
-    <li>hidingFrom(gameCondition==ColdSnap)->arızalı bir iklim kontrol uydusu</li>
-    <li>condDesc(gameCondition==ColdSnap)->Size katılırsa, uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca yoğun bir soğuk hava dalgası devam eder.</li>
-    <li>hidingFrom(gameCondition==WeatherController)->arızalı bir hava kontrol uydusu</li>
-    <li>condDesc(gameCondition==WeatherController)->Size katılırsa, uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca hava durumu [forcedWeather_label] olacaktır.</li>
-    <li>hidingFrom(gameCondition==PsychicDrone)->son zamanlarda gücendirdiği intikamcı bir makine insanı</li>
-    <li>condDesc(gameCondition==PsychicDrone)->Size katılırsa, makine zihni [gameConditionDuration_duration] sürece [psychicDroneLevel] düzeyinde bir psişik drone ile [map_definite]'de patlatacak ve tüm [psychicDroneGender]'ların ruh hâlini azaltacaktır..</li>
-    <li>hidingFrom(gameCondition==PsychicSuppression)->yakın zamanda uyandırdığı düşmancıl bir makine insanı</li>
-    <li>condDesc(gameCondition==PsychicSuppression)->Eğer size katılırsa, kişi [gameConditionDuration_duration] boyunca psişik bastırma dalgalarıyla [map_definite]'e vuracak ve tüm [psychicSuppressorGender]'ların bilincini azaltacaktır.</li>
+    <li>questDescription->[joiner_nameFull] isimli [introduction] yardım çağrısında bulunuyor! [hidingFrom] saklanıyor. Kaçmak ve sana katılmak istiyor.[joiner_relationInfo]\n\n[condDesc]\n\nGizli kalmaktan başka çaresi olmayan [joiner_nameDef], kendisi hakkında sana daha fazla bilgi veremeyeceğini iddia ediyor.</li>
+    <li>hidingFrom(gameCondition==ToxicFallout)->Bir aç kurt sürüsünden</li>
+    <li>condDesc(gameCondition==ToxicFallout)->Ancak, [joiner_nameDef], kurtları yalnızca yakındaki büyük bir zehirli kimyasal atık alanını ateşe vererek öldürebilir. Bu, [gameConditionDuration_duration] sürecek bir toksik serpintiye yol açacak.</li>
+    <li>hidingFrom(gameCondition==VolcanicWinter)->Bir yamyam çetesiden</li>
+    <li>condDesc(gameCondition==VolcanicWinter)->Lakin, [joiner_nameDef], yalnızca yakındaki büyük bir terk edilmiş çöp yığınını ateşe vererek çeteyi öldürebilir. Eğer sana katılırsa, bir duman bulutu [gameConditionDuration_duration] boyunca güneşi engelleyecek.</li>
+    <li>hidingFrom(gameCondition==EMIField)->Bir grup mekanoidden</li>
+    <li>condDesc(gameCondition==EMIField)->Fakat, [joiner_nameDef], yalnızca antik bir EMI dinamosunu aktif ederek mekanoidleri yok edebilir. Eğer sana katılırsa, bir EMI alanı oluşacak ve [gameConditionDuration_duration] boyunca elektrikli aletlerin çalışmasını engelleyecek.</li>
+    <li>hidingFrom(gameCondition==HeatWave)->Arızalı Bir iklim kontrol uydusundan</li>
+    <li>condDesc(gameCondition==HeatWave)->Eğer sana katılırsa, yoğun bir sıcak hava dalgası uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca bölgeyi etkisi altına alacak.</li>
+    <li>hidingFrom(gameCondition==ColdSnap)->Arızalı bir iklim kontrol uydusundan</li>
+    <li>condDesc(gameCondition==ColdSnap)->Eğer sana katılırsa, yoğun bir soğuk hava dalgası uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca bölgeyi etkisi altına alacak.</li>
+    <li>hidingFrom(gameCondition==WeatherController)->Arızalı bir hava kontrol uydusundan</li>
+    <li>condDesc(gameCondition==WeatherController)->Eğer sana katılırsa, uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca hava durumu [forcedWeather_label] olacak.</li>
+    <li>hidingFrom(gameCondition==PsychicDrone)->Kısa süre önce gücendirdiği, intikam peşindeki bir makine personadan</li>
+    <li>condDesc(gameCondition==PsychicDrone)->Eğer sana katılırsa, makine zihni koloniyi [psychicDroneLevel] seviyesinde bir psişik uğultuyla [gameConditionDuration_duration] boyunca etkisi altına alacak ve tüm [psychicDroneGender] bireylerin ruh hâlini düşürecek.</li>
+    <li>hidingFrom(gameCondition==PsychicSuppression)->Kısa süre önce uyandırdığı düşmancıl bir makine personadan</li>
+    <li>condDesc(gameCondition==PsychicSuppression)->Eğer sana katılırsa, persona [gameConditionDuration_duration] boyunca tüm [psychicSuppressorGender] bireylerin bilincini azaltan psişik baskılama dalgalarıyla koloniyi vuracak.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
   </ThreatReward_GameCondition_Joiner.questDescriptionRules.rulesStrings>
@@ -49,7 +49,7 @@
     <li>questName->the [gameCondition_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef]'in [gameCondition_label]</li>
+    <li>questName->[joiner_nameDef] ile [gameCondition_label]</li>
     <li>questName->[joiner_nameDef] ve [gameCondition_label]</li>
     <li>questName->[gameCondition_label] ve [joiner_nameDef]</li>
   </ThreatReward_GameCondition_Joiner.questNameRules.rulesStrings>
@@ -60,7 +60,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameDef] adlı [joiner_age] yaşındaki [joiner_title] yakınlardan arıyor. Bir yeraltı böcek kolonisini zehirlediğini söylüyor, şimdi böcek feromonlarına bulanmış durumda ve böcekler onu avlıyor!\n\nGüvenlik için yalvarıyor ve [map_definite] adresinde size katılmayı teklif ediyor.[joiner_relationInfo]\n\nKabul ederseniz, (*Threat)[hivesCount] kovanı istilası(/Threat)  [infestationDelayTicks_duration] içinde başlayacak.\n\n[joiner_nameDef] daha fazla bilgi veremeyecek kadar hummalı.</li>
+    <li>questDescription->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. Yeraltındaki bir böcek kolonisini zehirlediğini söylüyor ama şimdi böcek feromonlarına bulanmış durumda ve böcekler onu avlıyor!\n\nGüvenlik için yalvarıyor ve sana katılmayı teklif ediyor. [joiner_relationInfo]\n\nKabul edersen, [infestationDelayTicks_duration] içinde (*Threat)[hivesCount] kovanlık bir böcek istilası(/Threat) başlayacak.\n\n[joiner_nameDef] daha fazla bilgi verebilecek kadar sakin değil.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
   </ThreatReward_Infestation_Joiner.questDescriptionRules.rulesStrings>
@@ -71,15 +71,15 @@
     <li>questName->[joiner_nameDef]'s insects</li>
   -->
   <ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef]'nin istilası</li>
-    <li>questName->[joiner_nameDef]'nin kovanları</li>
-    <li>questName->[joiner_nameDef]'nin böcekleri</li>
-    <li>questName->[joiner_nameDef]'in haşeratları</li>
+    <li>questName->[joiner_nameDef] ve böcek istilası</li>
+    <li>questName->[joiner_nameDef] ve kovanlar</li>
+    <li>questName->[joiner_nameDef] ve böcekler</li>
+    <li>questName->[joiner_nameDef] ve haşeratlar</li>
   </ThreatReward_Infestation_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASETEXT}\n            \n[joiner_nameDef] is soaked in insect pheromones and is fleeing from an infestation. The pursuing insects will arrive shortly. -->
-  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] böcek feromonlarına bulanmış ve bir istiladan kaçıyor. Takip eden böcekler birazdan gelecek.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>{BASETEXT}\n            \n[joiner_nameDef] böcek feromonlarına bulanmış ve bir böcek istilasından kaçıyor. Peşindeki böcekler birazdan gelecek.</ThreatReward_Infestation_Joiner.LetterTextJoinerArrived.value.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}: [joiner_nameDef]'in peşinde</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
+  <ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL}: [joiner_nameDef] adlı kişinin peşinde</ThreatReward_Infestation_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe insects are here for [joiner_nameDef]. -->
   <ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n                  \nBöcekler [joiner_nameDef] için buradalar.</ThreatReward_Infestation_Joiner.LetterTextChasing.value.slateRef>
   
@@ -92,10 +92,10 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription(animalCount==1)->[joiner_nameDef] adlı [joiner_age] yaşındaki [joiner_title] yakınlardan arıyor. (*Threat)bir insan avcısı [animalKind_label](/Threat) onu avladığını söylüyor!\n\nGüvenlik için yalvarıyor ve [map_definite] adresinde size katılmayı teklif ediyor.[joiner_relationInfo]\n\n[joiner_nameDef]'i kabul ederseniz, [manhuntersDelayTicks_duration]'da insan avcısı [animalKind_label] gelececektir.\n\n[joiner_nameDef] daha fazla bilgi veremeyecek kadar hummalı.</li>
-    <li>manhunterArrivalLetterEnd(animalCount==1)->[animalKind_label], [joiner_nameDef]'i takip ediyor.</li>
-    <li>questDescription(animalCount>=2)->[joiner_nameDef] adlı [joiner_age] yaşındaki [joiner_title] yakınlardan arıyor. (*Threat)bir sürü [animalCount] insan avcısı [animalKind_labelPlural](/Threat) onu avlıyor diyor!\n\nGüvenlik için yalvarır ve [map_definite] adresinde size katılmayı teklif eder.[joiner_relationInfo]\n\n[joiner_nameDef]'i kabul ederseniz, [animalKind_labelPlural] insan avcısı [manhuntersDelayTicks_duration] sürede onu takip edecek.\n\n[joiner_nameDef] daha fazla bilgi veremeyecek kadar hummalı.</li>
-    <li>manhunterArrivalLetterEnd(animalCount>=2)->[animalKind_labelPlural], [joiner_nameDef]'i takip ediyor.</li>
+    <li>questDescription(animalCount==1)->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. (*Threat)insan avcısı bir [animalKind_label](/Threat) tarafından kovalandığını söylüyor!\n\nGüvenliğini sağlaman için yalvarıyor ve sana katılmayı teklif ediyor.[joiner_relationInfo]\n\nOnu kabul edersen, [manhuntersDelayTicks_duration] içinde insan avcısı [animalKind_label] peşinden gelecek.\n\n[joiner_nameDef] daha fazla bilgi verebilecek kadar sakin değil.</li>
+    <li>manhunterArrivalLetterEnd(animalCount==1)->[joiner_nameDef] [animalKind_label] tarafından takip ediliyor.</li>
+    <li>questDescription(animalCount>=2)->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. (*Threat)insan avcısı [animalCount] [animalKind_labelPlural](/Threat) tarafından kovalandığını söylüyor!\n\nGüvenliğini sağlaman için yalvarıyor ve sana katılmayı teklif ediyor.[joiner_relationInfo]\n\nOnu kabul edersen, [manhuntersDelayTicks_duration] içinde insan avcısı [animalKind_labelPlural] peşinden gelecek.\n\n[joiner_nameDef] daha fazla bilgi verebilecek kadar sakin değil.</li>
+    <li>manhunterArrivalLetterEnd(animalCount>=2)->[joiner_nameDef] [animalKind_labelPlural] tarafından takip ediliyor.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
   </ThreatReward_Manhunters_Joiner.questDescriptionRules.rulesStrings>
@@ -108,15 +108,15 @@
     <li>questName(animalCount>=2)->the [animalKind_labelPlural] and [joiner_nameDef]</li>
   -->
   <ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
-    <li>questName(animalCount==1)->[joiner_nameDef]'nin [animalKind_label]</li>
+    <li>questName(animalCount==1)->[joiner_nameDef] ile [animalKind_label]</li>
     <li>questName(animalCount==1)->[joiner_nameDef] ve [animalKind_label]</li>
     <li>questName(animalCount==1)->[animalKind_label] ve [joiner_nameDef]</li>
-    <li>questName(animalCount>=2)->[joiner_nameDef]'nin [animalKind_labelPlural]</li>
+    <li>questName(animalCount>=2)->[joiner_nameDef] ile [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->[joiner_nameDef] ve [animalKind_labelPlural]</li>
     <li>questName(animalCount>=2)->[animalKind_labelPlural] ve [joiner_nameDef]</li>
   </ThreatReward_Manhunters_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: [joiner_nameDef]'in peşinde</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
+  <ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>{BASELABEL}: [joiner_nameDef] adlı kişinin peşinde</ThreatReward_Manhunters_Joiner.LetterLabelChasing.slateRef>
   <!-- EN: {BASETEXT}\n\n[manhunterArrivalLetterEnd] -->
   <ThreatReward_Manhunters_Joiner.LetterTextChasing.slateRef>{BASETEXT}\n\n[manhunterArrivalLetterEnd]</ThreatReward_Manhunters_Joiner.LetterTextChasing.slateRef>
   
@@ -126,7 +126,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameDef] adlı [joiner_age] yaşında bir [joiner_title] yakınlardan arıyor. [map_definite] adresinde size katılmak için yalvarıyor.[joiner_relationInfo]\n\n[joiner_nameDef]'i takip eden bir tür tehdit var, ancak ne olduğunu veya ne zaman gelebileceğini söylemek istemiyor. Ayrıca size kendisi hakkında daha fazla bilgi vermek istemiyor.</li>
+    <li>questDescription->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. Kolonine gelip sana katılmak için yalvarıyor.[joiner_relationInfo]\n\nOnu takip eden bir tür tehdit var ancak ne olduğunu veya ne zaman peşinden gelebileceğini söylemek istemiyor. Ayrıca sana kendisi hakkında daha fazla bilgi vermek istemiyor.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
   </ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
@@ -138,28 +138,28 @@
     <li>problem->Secret</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef]'nin [problem]</li>
-    <li>questName->[joiner_nameDef]'in [problem]</li>
-    <li>problem->problemi</li>
-    <li>problem->utancı</li>
-    <li>problem->sırı</li>
+    <li>questName->[problem] içindeki [joiner_nameDef]</li>
+    <li>questName->[problem] içindeki [joiner_nameDef]</li>
+    <li>problem->Problem</li>
+    <li>problem->Utanç</li>
+    <li>problem->Sır</li>
   </ThreatReward_MysteryThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL}, [joiner_nameDef] peşinde</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>{BASELABEL}, [joiner_nameDef] adlı kişinin peşinde</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingRaid.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_pronoun] was supposed to marry the child of [enemyFaction_leader_nameFull], leader of [enemyFaction_name]. [joiner_pronoun] became drunk before the ceremony and vomited on the altar - a flagrant insult towards [enemyFaction_leader_nameDef]'s whole family.\n    \n[enemyFaction_leader_nameDef] swore to seek revenge on [joiner_nameDef] and all those associated with [joiner_objective], and sent [enemyFaction_pawnsPlural] to carry out the task.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n   \n[enemyFaction_name]'nin lideri olan [enemyFaction_leader_nameFull]'un çocuğuyla evlenmesi gerekiyordu. Törenden önce sarhoş oldu ve sunakta kustu - bu [enemyFaction_leader_nameDef]'in tüm ailesine karşı açık bir hakaretti.\n \n[enemyFaction_leader_nameDef], [joiner_nameDef] ve onunla ilişkili tüm kişilerden intikam almaya yemin etti ve  görevi yerine getirmek için [enemyFaction_pawnsPlural]'i gönderdi.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n   \n[enemyFaction_name] fraksiyonunun liderinin oğlu ile evlenmesi gerekiyordu. Düğünden önce sarhoş oldu ve sunağa kustu. Bu, lider [enemyFaction_leader_nameFull] ve ailesine açıkça hakaretti.\n    \n[enemyFaction_leader_nameDef], [joiner_nameDef] ve onunla alakası olan herkesten intikam alacağına yemin etti ve peşine [enemyFaction_pawnsPlural] taktı.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingRaid.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: [joiner_nameDef]'in peşinde</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>{BASELABEL}: [joiner_nameDef] adlı kişinin peşinde</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingInfestation.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef], greedy for the pleasures and money insect jelly can bring, intended to destroy a massive insect hive using poison. [joiner_pronoun] failed, but was doused in insect threat pheromones. Insects have been hunting [joiner_objective] ever since. Now they've launched their final attack.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n    \n[joiner_nameDef], zehir kullanarak büyük bir böcek kovanını yok etmek istedi, böcek jölesinin getirebileceği zevkler ve para için açgözlüydü. Başarısız oldu, ancak böcek feromonlarına maruz kaldı. O zamandan beri böcekler onu avlıyor. Şimdi son saldırılarını başlattılar.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n    \n[joiner_nameDef], böcek jölesinin getirebileceği zevklere ve paraya tamah etti. Zehir kullanarak büyük bir böcek kovanını yok etmek istedi. Başarısız oldu ama feromonlarına bulandı. O zamandan beri böcekler onu avlıyor. Şimdi ise son saldırılarını başlattılar.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingInfestation.slateRef>
   <!-- EN: Site appeared to harass [joiner_nameDef]: [site_label] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>[joiner_nameDef]: [site_label]'i taciz ediyor gibi görünüyor</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>[joiner_nameDef]: Kompleks [joiner_nameDef] için etkinleşti</ThreatReward_MysteryThreat_Joiner.LetterLabelSiteAppeared.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] happened upon [enemyFaction_leader_nameFull], leader of [enemyFaction_name], sick on the side of the road. [joiner_nameDef] insulted [enemyFaction_leader_nameDef] by comparing [enemyFaction_leader_objective] to a [Animal].\n    \nNow [enemyFaction_leader_nameDef]'s [enemyFaction_pawnsPlural] are activating a site nearby to harass you.\n    \n[allSitePartsDescriptions] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n    \n[joiner_nameDef], yol kenarında karşılaştığı,hasta olan [enemyFaction_name] lideri [enemyFaction_leader_nameFull] ile  seyahat ediyordu. [joiner_nameDef], [enemyFaction_leader_nameDef]'i bir [Animal] ile karşılaştırarak ona hakaret etti.\n    \nŞu anda [enemyFaction_leader_nameDef]'in [enemyFaction_pawnsPlural]'ı, sizi taciz etmek için yakındaki bir siteyi etkinleştiriyor.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n    \n[enemyFaction_name] fraksiyonunun lideri [enemyFaction_leader_nameFull], yolculuk yapan [joiner_nameDef] tarafından yol kenarında hasta bir hâlde buldu. [joiner_nameDef], onu bir [Animal] ile kıyaslayarak ona hakaret etti.\n    \n[enemyFaction_leader_nameDef] tarafından yollanan [enemyFaction_pawnsPlural], seni taciz etmek için yakındaki bir kompleksi etkinleştiriyor.\n    \n[allSitePartsDescriptions]</ThreatReward_MysteryThreat_Joiner.LetterTextSiteAppeared.slateRef>
   <!-- EN: {BASELABEL}: Chasing [joiner_nameDef] -->
-  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: [joiner_nameDef]'in peşinde</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>{BASELABEL}: [joiner_nameDef] adlı kişinin peşinde</ThreatReward_MysteryThreat_Joiner.LetterLabelChasingManhunter.slateRef>
   <!-- EN: [joiner_nameDef] has admitted what [joiner_pronoun] was fleeing from.\n    \n[joiner_nameDef] was traveling when [joiner_pronoun] came upon a lost group of [animalKind_labelPlural]. [joiner_pronoun], in a bad mood, goaded the [animalKind_labelPlural]. Unexpectedly, they attacked [joiner_objective]. And they have followed [joiner_objective] a long distance.\n    \n{BASETEXT} -->
-  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n    \n[joiner_nameDef] seyahat ederken kayıp bir [animalKind_labelPlural] grubuna rastladı. Kötü bir ruh hâli içinde [animalKind_labelPlural]'ı kışkırttı. Beklenmedik bir şekilde ona saldırdılar ve onu uzun bir mesafe boyunca takip ettiler.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
+  <ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>[joiner_nameDef] neyden kaçtığını itiraf etti.\n    \n[joiner_nameDef], yolculuk yaparken kaybolmuş bir grup [animalKind_labelPlural] ile karşılaştı. Kötü bir ruh hâlinde olan [joiner_nameDef], onları kışkırttı. Beklenmedik bir şekilde ona saldırdılar. Ve uzun bir mesafe boyunca onu takip ettiler.\n    \n{BASETEXT}</ThreatReward_MysteryThreat_Joiner.LetterTextChasingManhunter.slateRef>
   
   <!-- EN:
     <li>questDescription->[introduction] named [joiner_nameDef] is calling from nearby. [joiner_pronoun] admits [joiner_pronoun] profaned a peace ritual between [raid1/enemyFaction_name] and [raid2/enemyFaction_name]. Now they are both chasing [joiner_objective]!\n\n[joiner_pronoun] begs for safety and offers to join you at [map_definite].[joiner_relationInfo]\n\nIf you accept [joiner_nameDef], both [raid1/enemyFaction_name] and [raid2/enemyFaction_name] will raid you in [raidDelayTicks_duration].\n\n[joiner_nameDef] is too frantic to offer more information.</li>
@@ -167,7 +167,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameDef] adlı [joiner_age] yaşındaki [joiner_title] yakınlardan arıyor. [raid1/enemyFaction_name] ve [raid2/enemyFaction_name] arasında bir barış ritüeline saygısızlık ettiğini itiraf ediyor. Şimdi ikisi de onu kovalıyor!\n\nGüvenlik için yalvarıyor ve [map_definite] adresinde size katılmayı teklif ediyor.[joiner_relationInfo]\n\n[joiner_nameDef]'i kabul ederseniz, hem [raid1/enemyFaction_name] hem de [raid2/enemyFaction_name], [raidDelayTicks_duration] içinde size baskın yapacak.\n\n[joiner_nameDef] daha fazla bilgi sunamayacak kadar hummalı.</li>
+    <li>questDescription->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. [raid1/enemyFaction_name] ve [raid2/enemyFaction_name] arasındaki bir barış ritüeline saygısızlık ettiğini itiraf ediyor. Şimdi her ikisi de onun peşinde!\n\nGüvenliğini sağlaman için yalvarıyor ve sana katılmayı teklif ediyor. [joiner_relationInfo].[joiner_relationInfo]\n\nEğer kabul edersen, hem [raid1/enemyFaction_name] hem de [raid2/enemyFaction_name] [raidDelayTicks_duration] içinde sana baskın düzenleyecek.\n\n[joiner_nameDef], daha fazla bilgi verebilecek kadar sakin değil.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
   </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
@@ -176,15 +176,15 @@
     <li>questName->[joiner_nameDef]'s Many Enemies</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef]'in çakça arkadaşı</li>
-    <li>questName->[joiner_nameDef]'in çokça düşmanı</li>
+    <li>questName->[joiner_nameDef] ve Birçok Arkadaşı</li>
+    <li>questName->[joiner_nameDef] ve Birçok Düşmanı</li>
   </ThreatReward_RaidMultiFaction_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL}, [../joiner_nameDef] peşinde</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>{BASELABEL}, [joiner_nameDef] adlı kişinin peşinde</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid1.value.slateRef>
   <!-- EN: {BASETEXT}\n                  \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \nD[enemyFaction_pawnsPlural], [../joiner_nameFull] için geliyor.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>{BASETEXT}\n                  \n[enemyFaction_pawnsPlural], [../joiner_nameFull] için geliyor.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid1.value.slateRef>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL}, [../joiner_nameDef] peşinde</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
+  <ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>{BASELABEL}, [joiner_nameDef] adlı kişinin peşinde</ThreatReward_RaidMultiFaction_Joiner.LetterLabelChasingRaid2.value.slateRef>
   <!-- EN: {BASETEXT}\n                        \nThe [enemyFaction_pawnsPlural] are coming for [../joiner_nameFull]. -->
   <ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>{BASETEXT}\n                        \n[enemyFaction_pawnsPlural], [../joiner_nameFull] için geliyor.</ThreatReward_RaidMultiFaction_Joiner.LetterTextChasingRaid2.value.slateRef>
   
@@ -202,15 +202,15 @@
     <li>joinersEnemies->[joiner_possessive] enemies</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameFull] adlı [joiner_age] yaşındaki [joiner_title] yakınlardan arıyor. [threat]'den saklanıyor. Saklandığı yerden kaçmak ve [map_definite] adresinde size katılmak istiyor.[joiner_relationInfo]\n\nOnu kabul ederseniz, [joinersEnemies] sizi taciz etmek için yakınlarda bir site kuracak. [site/allSitePartsDescriptions]\n\nSiz onu yok etmeye gidene kadar tehdit devam edecek.</li>
+    <li>questDescription->[joiner_nameFull] isimli [introduction] yakınlardan arıyor. [threat] tarafından kovalanıyor. Saklanacak bir yer arayışında ve sana katılmak istiyor.[joiner_relationInfo]\n\nKabul edersen, [joinersEnemies] seni taciz etmek üzere yakınlara bir kompleks kuracak. [site/allSitePartsDescriptions]\n\nSen gidip yok edene kadar tehdit orada kalacak.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
-    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]'in [site/enemyFaction_pawnsPlural]'ı</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->mekanoid</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->mekanoidler</li>
-    <li>threat->düşmanı</li>
+    <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name] kaynaklı [site/enemyFaction_pawnsPlural]</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->Mekanoidler</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->Mekanoidler</li>
+    <li>threat->Düşmanları</li>
     <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mekanoid</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mekanoidler</li>
     <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mekanoidler</li>
     <li>joinersEnemies->düşmanları</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
@@ -220,11 +220,11 @@
     <li>questName->the [site/site_label] and [joiner_nameDef]</li>
   -->
   <ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
-    <li>questName->[joiner_nameDef]'nin [site/site_definite]'i</li>
+    <li>questName->[joiner_nameDef] ile [site/site_definite]</li>
     <li>questName->[joiner_nameDef] ve [site/site_definite]</li>
     <li>questName->[site/site_definite] ve [joiner_nameDef]</li>
   </ThreatReward_SiteThreat_Joiner.questNameRules.rulesStrings>
   <!-- EN: Since you accepted [../joiner_nameDef], [../threat] have set up a nearby site to harass you.\n                    \n[allSitePartsDescriptions] -->
-  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>[../joiner_nameDef]'i kabul ettiğinizden beri, [../threat] sizi taciz etmek için yakınlarda bir site kurdu.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
+  <ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>[../joiner_nameDef] kabul edildiğinden beri [../threat] seni taciz etmek için yakınlara bir kompleks kurdu.\n                    \n[allSitePartsDescriptions]</ThreatReward_SiteThreat_Joiner.LetterTextSiteAppeared.value.slateRef>
   
 </LanguageData>

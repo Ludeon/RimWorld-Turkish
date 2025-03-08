@@ -9,11 +9,11 @@
     <li>commonMainPart->A mechanoid swarm has been attacking [asker_possessive] settlements. [asker_pronoun] wants you to signal the mechs to distract them while [asker_pronoun] clears the hive. If you do, (*Threat)a mechanoid cluster(/Threat) will land at [map_definite].[dangersDescription]\n\nThe mechanoid cluster will be initially dormant. It may have a countdown activator, or it may stay dormant forever until disturbed.[helpersParagraph]</li>
   -->
   <ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
-    <li>dangersDescription(priority=1)->\n\nKapsüller şu tehlikeleri içerir:\n\n[allThreats]</li>
+    <li>dangersDescription(priority=1)->\n\nKapsüller şu tehlikeleri içeriyor:\n\n[allThreats]</li>
     <li>dangersDescription-></li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] [asker_faction_leaderTitle] üyesi [asker_nameDef],  bir istekte bulunuyor. [commonMainPart]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] grubunun bir [asker_royalTitleInCurrentFaction] olan [asker_nameDef] bir istekte bulunuyor. [commonMainPart]</li>
-    <li>commonMainPart->Bir mekanoid sürüsü yerleşim yerlerine saldırıyor. Kovanı temizlerken mekaniklere dikkatlerini dağıtmaları için işaret vermeni istiyor. Bunu yaparsanız, (*Threat)bir mekanoid küme(/Threat) [map_definite] konumuna inecektir.[helpersParagraph]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameDef] bir istekte bulunuyor. [commonMainPart]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameDef], [asker_faction_name] fraksiyonundan bir [asker_faction_leaderTitle], senden bir istekte bulunuyor. [commonMainPart]</li>
+    <li>commonMainPart->Bir mekanoid sürüsü yerleşim yerlerine saldırıyor. O kovanı temizlerken, meklere sinyal yollayarak dikkatlerini dağıtmanı istiyor. Bunu yaparsan, (*Threat)bir mekanoid kümesi(/Threat) buraya inecek.[dangersDescription]\n\nMekanoid kümesi şu anda uyku hâlinde. Geri sayımlı aktivatörü olabilir veya rahatsız edilene kadar uykuda kalabilir.[helpersParagraph]</li>
   </ThreatReward_MechPods_MiscReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[menace] cluster</li>
@@ -34,16 +34,16 @@
     <li>questName->[menace] kümesi</li>
     <li>questName->[menace] kapsülleri</li>
     <li>questName->[nameBased]</li>
-    <li>nameBased->[asker_nameDef]'nin makineleri</li>
-    <li>nameBased->[asker_nameDef]'nin mekanoidleri</li>
-    <li>nameBased->[asker_nameDef]'nin mekanik kapsülleri</li>
-    <li>nameBased->[asker_nameDef]'nin mekanik [menace]</li>
-    <li>menace->tehdidi</li>
-    <li>menace->tehdidi</li>
-    <li>menace->belası</li>
-    <li>menace->tehlikesi</li>
-    <li>menace->terörü</li>
-    <li>menace->korkusu</li>
+    <li>nameBased->[asker_nameDef] ve Mekler</li>
+    <li>nameBased->[asker_nameDef] ve Mekanoidler</li>
+    <li>nameBased->[asker_nameDef] ve Mek Kümesi</li>
+    <li>nameBased->[asker_nameDef] ve Mek [menace]</li>
+    <li>menace->Tehdit</li>
+    <li>menace->Bela</li>
+    <li>menace->Felaket</li>
+    <li>menace->Tehlike</li>
+    <li>menace->Dehşet</li>
+    <li>menace->Korku</li>
   </ThreatReward_MechPods_MiscReward.questNameRules.rulesStrings>
   
 </LanguageData>

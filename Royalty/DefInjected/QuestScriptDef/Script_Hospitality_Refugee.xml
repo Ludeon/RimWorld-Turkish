@@ -50,46 +50,52 @@
     <li>lodgersLeavingLetterText->{FACTION_leaderNameDef} thanks you for allowing {FACTION_leaderObjective} to stay at [map_definite] for these [questDurationTicks_duration]. {FACTION_leaderPronoun} is now moving on with {FACTION_leaderPossessive} people.\n\n{FACTION_leaderNameDef} says {FACTION_leaderPronoun} won't forget what you've done.</li>
   -->
   <Hospitality_Refugee.questContentRules.rulesStrings>
+    <li>lastOrNot(lodgerCount==1)-> son</li>
+    <li>lastOrNot(lodgerCount>=2)-></li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] geldi</li>
-    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] geldi. Dinlenebilmesi ve toparlanabilmesi için [questDurationTicks_duration] boyunca sizinle kalacak.</li>
-    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? diğerleri görünüyor: sonuncu [lodgersLabel] bu konuda dehşete düştü, fakat {PAWNSALIVECOUNT_multiple ? } sana karşı eylemde  bulunmuyor.</li>
-    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? diğerleri: sonuncu [lodgersLabel] bunu kabul etmeye istekli değil</li>
-    <li>turnedViolent->[othersWillNotAccept] ve {PAWNSALIVECOUNT_multiple ?} size karşı şiddetle  döndü.</li>
-    <li>decidedToLeave->[othersWillNotAccept] ve {PAWNSALIVECOUNT_multiple ?} ayrılmaya karar verdi.</li>
-    <li>whoAskedToStay->seninle kalmak isteyen</li>
-    <li>oneOfThe->seninle kalmak isteyen biçare [faction_pawnsPlural]'dan biri</li>
-    <li>questOver->'[resolvedQuestName]' görevi bitti.</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] geldi. Dinlenmek ve toparlanmak için [questDurationTicks_duration] boyunca kalacaklar.</li>
+    <li>hasHave(lodgerCount==1)-></li>
+    <li>hasHave(lodgerCount>=2)-></li>
+    <li>appalledButNoAction->{PAWNSALIVECOUNT_multiple ? diğerleri : son [lodgersLabel]} bu durum karşısında dehşete düşmüş durumda ancak {PAWNSALIVECOUNT_multiple ? harekete geçmiyorlar : harekete geçmiyor}.</li>
+    <li>othersWillNotAccept->{PAWNSALIVECOUNT_multiple ? diğerleri : son [lodgersLabel]} bunu kabul etmeye istekli değil.</li>
+    <li>turnedViolent->[othersWillNotAccept], ve {PAWNSALIVECOUNT_multiple ? sana karşı şiddete başvuracaklar : sana karşı şiddete başvuracak}.</li>
+    <li>decidedToLeave->[othersWillNotAccept], ve {PAWNSALIVECOUNT_multiple ? gitmeye karar verdiler : gitmeye karar verdi}.</li>
+    <li>whoAskedToStay->Burada kalmak isteyen</li>
+    <li>oneOfThe->burada kalmak isteyen biçare [faction_pawnsPlural] arasından biri</li>
+    <li>questOver->'[resolvedQuestName]' görevi sona erdi.</li>
     <li>letterIntroDeath->{SUBJECT_definite}, [oneOfThe] öldü.</li>
     <li>lodgerDiedMemoryThoughtLetterLabel->[lodgersLabel] öldü: Öfke</li>
     <li>lodgerDiedMemoryThoughtLetterText->[letterIntroDeath]\n\n[appalledButNoAction]</li>
     <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] öldü: İntikam</li>
     <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
-    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] öldü: Kalkış</li>
+    <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] öldü: Terk</li>
     <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
     <li>lodgersAllDiedLetterLabel->Görev başarısız oldu</li>
-    <li>lodgersAllDiedLetterText->{SUBJECT_definite}, [whoAskedToStay] biçare [faction_pawnSingular] öldü.\n\n[questOver]</li>
-    <li>letterIntroArrested->[oneOfThe] olan {SUBJECT_definite}'i tutukladınız.</li>
-    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] tutuklandı: Öfke</li>
+    <li>lodgersAllDiedLetterText->[whoAskedToStay][lastOrNot] biçare [faction_pawnSingular] arasından {SUBJECT_definite} öldü.\n\n[questOver]</li>
+    <li>letterIntroArrested->{SUBJECT_definite} adlı kişiyi, [oneOfThe]ni tutukladın.</li>
+    <li>lodgerArrestedMemoryThoughtLetterLabel->[lodgersLabel] tutuklandı: İntikam</li>
     <li>lodgerArrestedMemoryThoughtLetterText->[letterIntroArrested]\n\n[appalledButNoAction]</li>
-    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] tutuklandı: İntikam</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] tutuklandı: Revenge</li>
     <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
-    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] tutuklandı: Ayrılış</li>
+    <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] tutuklandı: Terk</li>
     <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
     <li>lodgersAllArrestedLetterLabel->Görev başarısız oldu</li>
-    <li>lodgersAllArrestedLetterText->[whoAskedToStay] biçare [faction_pawnSingular] {SUBJECT_definite}'ı tutukladınız.\n\n[questOver]</li>
-    <li>letterIntroViolated->{SUBJECT_definite} ameliyatla ihlâl edildi.</li>
+    <li>lodgersAllArrestedLetterText->[whoAskedToStay][lastOrNot] biçare [faction_pawnSingular] arasından {SUBJECT_definite} adlı kişiyi tutkladın.\n\n[questOver]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}, [oneOfThe], zorla ameliyat edildi.</li>
     <li>lodgerViolatedMemoryThoughtLetterLabel->[lodgersLabel] ihlâl edildi: Öfke</li>
     <li>lodgerViolatedMemoryThoughtLetterText->[letterIntroViolated]\n\n[appalledButNoAction]</li>
-    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] ihlâl edildi: İntikam</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] violated: İntikam</li>
     <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
-    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] tutuklandı: Ayrılış</li>
+    <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] arrested: Terk</li>
     <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
     <li>mutinyLetterLabel->İhanet</li>
-    <li>mutinyLetterText->[whoAskedToStay] [lodgersSingularOrPluralDef] size karşı!\n\nGörünüşe göre bu ihaneti başından beri planlamış.</li>
+    <li>mutinyLetterText->[whoAskedToStay] [lodgersSingularOrPluralDef], sana ihanet ediyor!\n\nGörünen o ki bunca zamandır asıl plan kalleşlik yapmakmış.</li>
+    <li>areIs(lodgerCount==1)->nin</li>
+    <li>areIs(lodgerCount>=2)->in</li>
     <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] ayrılıyor</li>
-    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef}, bu [questDurationTicks_duration] için [map_definite]'de kalmasına izin verdiğiniz için teşekkür ederiz. Şimdi adamlarıyla birlikte yoluna devam ediyor.\n\n{FACTION_leaderNameDef}, yaptıklarını unutmayacağını söylüyor.</li>
+    <li>lodgersLeavingLetterText->{FACTION_leaderNameDef}, [questDurationTicks_duration] boyunca [map_definite] onlara ev olduğu için sana teşekkür ediyor. O artık halkıyla beraber yola koyuluyor.\n\n{FACTION_leaderNameDef} yaptığın iyiliği asla unutmayacağını söylüyor.</li>
   </Hospitality_Refugee.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -137,41 +143,41 @@
     <li>travelerInfo(lodgerCount>=2)->These [faction_pawnsPlural] are</li>
   -->
   <Hospitality_Refugee.questDescriptionRules.rulesStrings>
-    <li>offer(lodgerCount==1)->teklifler</li>
-    <li>offer(lodgerCount>=2)->teklif</li>
+    <li>offer(lodgerCount==1)->teklif ediyor</li>
+    <li>offer(lodgerCount>=2)->teklif ediyorlar</li>
     <li>lodgersPronoun(lodgerCount==1)->o</li>
     <li>lodgersPronoun(lodgerCount>=2)->onlar</li>
-    <li>lodgersPreposition(lodgerCount==1)->kendisi</li>
-    <li>lodgersPreposition(lodgerCount>=2)->kendileri</li>
-    <li>lodgersObjective(lodgerCount==1)->kendi</li>
-    <li>lodgersObjective(lodgerCount>=2)->Onlar</li>
+    <li>lodgersPreposition(lodgerCount==1)->kendini</li>
+    <li>lodgersPreposition(lodgerCount>=2)->kendilerini</li>
+    <li>lodgersObjective(lodgerCount==1)->ona</li>
+    <li>lodgersObjective(lodgerCount>=2)->onlara</li>
     <li>lodgersPossessive(lodgerCount==1)->onun</li>
     <li>lodgersPossessive(lodgerCount>=2)->onların</li>
     <li>lodgersSingularOrPluralDef(lodgerCount==1)->[asker_nameDef]</li>
     <li>lodgersSingularOrPluralDef(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef], dinlenip yeniden gruplanabilmesi için [questDurationTicks_duration] boyunca [map_definite]'de kalmanız için izin istiyor.\n\nKarşılığında, bu süre boyunca ücretsiz olarak çalışmayı ve savaşmayı [offer]. \n\n[joinInfo] daha sonra ona yardım ettiğiniz için sizi ödüllendirebilir - ancak onun gerçek niyetini bilmenin bir yolu yoktur.\n\n[travelerInfo] herhangi bir franksiyonun parçası değildir. Dilerseniz diplomatik sonuçlar olmadan onu öldürmeyi, tutuklamayı, satmayı veya hasat etmeyi seçebilirsiniz.</li>
-    <li>approachInfo(lodgerCount==1)->[asker_nameDef] adlı biçare bir [faction_pawnSingular] yaklaşıyor.</li>
-    <li>approachInfo(lodgerCount==2)->[asker_nameDef] ve başka bir umutsuz [faction_pawnSingular] yaklaşıyor.</li>
+    <li>questDescription->[approachInfo] [claimInfo] [asker_nameDef], dinlenip toparlanabilmek adına [questDurationTicks_duration] boyunca burada kalabilmek için yalvararak senden izin istiyor.\n\n[lodgersPronoun], karşılığında bu süre boyunca senin adına çalışmayı ve savaşmayı [offer].\n\n[joinInfo] [lodgersPronoun] ayrıca [lodgersObjective] yardım ettiğin için seni daha sonra ödüllendirebilir fakat [lodgersPossessive] gerçek emellerini bilmek mümkün değil.\n\n[travelerInfo] bir fraksiyona mensup değil. Dilersen, diplomatik sonuçları olmadan öldürebilir, tutuklayabilir, satabilir veya organlarını çalabilirsin.</li>
+    <li>approachInfo(lodgerCount==1)->[asker_nameDef] adında bir biçare [faction_pawnSingular] yaklaşıyor.</li>
+    <li>approachInfo(lodgerCount==2)->[asker_nameDef] ve diğer biçare [faction_pawnSingular] yaklaşıyor.</li>
     <li>approachInfo(lodgerCount==2,childCount==1,priority=1)->[asker_nameDef], yanında bir çocukla yaklaşıyor.</li>
-    <li>approachInfo(lodgerCount>=3)->[lodgerCount], umutsuz [faction_pawnsPlural] yaklaşıyorlar. Liderlerinin adı [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->[lodgerCount], umutsuz [faction_pawnsPlural] ve bir çocuk da dâhil olmak üzere yaklaşıyorlar. Liderlerinin adı [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->[lodgerCount], umutsuz [faction_pawnsPlural] ve bazı çocuklar da dâhil olmak üzere yaklaşıyorlar. Liderlerinin adı [asker_nameDef].</li>
-    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->Kanatlarının altına aldığı [asker_nameDef], [lodgersCountMinusOne] çocuklarından oluşan bir grup [lodgerCount] ve biçare [faction_pawnsPlural] yaklaşıyor.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] yakın zamanda bir saldırıda evini kaybettiğini iddia ediyor.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] tek başına ve arkadaşsız bir şekilde kripto uykudan uyandığını iddia ediyor.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef] intikamcı bir eski sevgilisi tarafından evinden kovalandığını iddia ediyor.</li>
-    <li>claimInfo(lodgerCount==1)->[asker_nameDef], bir köy lideriyle tartıştıktan sonra sürgün edildiğini iddia ediyor.</li>
-    <li>claimInfo(lodgerCount>=2)->Son bir saldırıda evlerini kaybettiklerini iddia ediyorlar.</li>
-    <li>claimInfo(lodgerCount>=2)->Organ toplama operasyonundan kurtulduklarını iddia ediyorlar.</li>
-    <li>claimInfo(lodgerCount>=2)->Köle kervanından kaçtıklarını söylüyorlar.</li>
-    <li>claimInfo(lodgerCount>=2)->Ekin hastalıklarının onları köylerinden aç bıraktığını söylüyorlar.</li>
-    <li>claimInfo(lodgerCount>=2)->Büyük bir şimşek fırtınasının evlerini yaktığını söylüyorlar.</li>
-    <li>claimInfo(lodgerCount>=2)->Kervanlarının pusuya düşürüldüğünü ve her şeyin alındığını söylüyorlar.</li>
-    <li>claimInfo(lodgerCount>=2)->Ahlaki anlaşmazlıklar nedeniyle kasabalarından sürüldüklerini söylüyorlar.</li>
-    <li>joinInfo(lodgerCount==1)->Onu mutlu edersen, sana katılmayı teklif edebilir.</li>
-    <li>joinInfo(lodgerCount>=2)->Onları mutlu ederseniz, bazıları size katılmayı teklif edebilir.</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount] kişilik biçare [faction_pawnsPlural] grubu yaklaşıyor. Liderlerinin adı [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount==1,priority=1)->Aralarında bir çocuk da olan [lodgerCount] kişilik biçare [faction_pawnsPlural] grubu yaklaşıyor. Liderlerinin adı [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,childCount>=2,priority=1)->Aralarında çocuklar da olan [lodgerCount] kişilik biçare [faction_pawnsPlural] grubu yaklaşıyor. Liderlerinin adı [asker_nameDef].</li>
+    <li>approachInfo(lodgerCount>=3,allButOneChildren==true,priority=2)->[asker_nameDef] ve kol kanat gerdiği [lodgersCountMinusOne] çocuktan oluşan [lodgerCount] kişilik biçare [faction_pawnsPlural] grubu yaklaşıyor.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef], yakın zamanda yapılan bir saldırıda evini kaybettiğini iddia ediyor.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef], kripto-uykudan yapayalnız ve arkadaşsız uyandığını iddia ediyor.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef], intikam peşindeki bir eski sevgili tarafından evinden kovalandığını iddia ediyor.</li>
+    <li>claimInfo(lodgerCount==1)->[asker_nameDef], köyün lideri ile girdiği bir tartışma sonrası sürgün edildiğini iddia ediyor.</li>
+    <li>claimInfo(lodgerCount>=2)->Yakın zamanda yapılan bir saldırıda evlerini kaybettiklerini iddia ediyorlar.</li>
+    <li>claimInfo(lodgerCount>=2)->Bir organ kaçakçılığı örgütünden kaçtıklarını iddia ediyorlar.</li>
+    <li>claimInfo(lodgerCount>=2)->Bir köle kervanından kaçtıklarını söylüyorlar.</li>
+    <li>claimInfo(lodgerCount>=2)->Köylerini vuran bitki hastalığının onları açlığa mahkûm ettiğini söylüyorlar.</li>
+    <li>claimInfo(lodgerCount>=2)->Büyük bir yıldırım fırtınasının evlerini yakıp yıktığını söylüyorlar.</li>
+    <li>claimInfo(lodgerCount>=2)->Kervanlarının pusuya düşürüldüğünü ve her şeylerinin ellerinden alındığını söylüyorlar.</li>
+    <li>claimInfo(lodgerCount>=2)->Ahlaki anlaşmazlıklar sebebiyle yerleşimlerinden sürüldüklerini söylüyorlar.</li>
+    <li>joinInfo(lodgerCount==1)->Eğer onu mutlu edersen sana katılmayı teklif edebilir.</li>
+    <li>joinInfo(lodgerCount>=2)->Onları mutlu edersen aralarından bazıları sana katılmayı teklif edebilir.</li>
     <li>travelerInfo(lodgerCount==1)->Bu [faction_pawnSingular]</li>
-    <li>travelerInfo(lodgerCount>=2)->Bunlar [faction_pawnsPlural]</li>
+    <li>travelerInfo(lodgerCount>=2)->Bu [faction_pawnsPlural]</li>
   </Hospitality_Refugee.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(lodgerCount==1)->[asker_nameDef] the [lodgerAdj]</li>
@@ -209,31 +215,31 @@
     <li>questName(lodgerCount==1)->[lodgerAdj] [asker_nameDef]</li>
     <li>questName(lodgerCount==1)->[lodgerAdj] [lodgerSingle]</li>
     <li>questName(p=2,lodgerCount>=2)->[lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef]'nin [lodgerAdj] [lodgerPlural]</li>
-    <li>questName(lodgerCount>=2)->[asker_nameDef]'nin [lodgerPlural]</li>
-    <li>lodgerAdj->yorgun</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef] ve [lodgerAdj] [lodgerPlural]</li>
+    <li>questName(lodgerCount>=2)->[asker_nameDef] ve [lodgerPlural]</li>
+    <li>lodgerAdj->bitkin</li>
     <li>lodgerAdj->kayıp</li>
     <li>lodgerAdj->muhtaç</li>
     <li>lodgerAdj->fakir</li>
     <li>lodgerAdj->biçare</li>
     <li>lodgerAdj->üzgün</li>
-    <li>lodgerAdj->tozlu</li>
-    <li>lodgerAdj->Umutsuz</li>
-    <li>lodgerAdj->bilinmeyen</li>
-    <li>lodgerAdj->kimsesiz</li>
+    <li>lodgerAdj->sefil</li>
+    <li>lodgerAdj->umutsuz</li>
+    <li>lodgerAdj->yabancı</li>
+    <li>lodgerAdj->perişan</li>
     <li>lodgerAdj->terk edilmiş</li>
     <li>lodgerSingle->gezgin</li>
     <li>lodgerSingle->mülteci</li>
-    <li>lodgerSingle->serseri</li>
+    <li>lodgerSingle->avare</li>
     <li>lodgerSingle->sağ kalan</li>
     <li>lodgerSingle->göçebe</li>
-    <li>lodgerSingle->başıboş</li>
+    <li>lodgerSingle->berduş</li>
     <li>lodgerPlural->gezginler</li>
     <li>lodgerPlural->mülteciler</li>
-    <li>lodgerPlural->serseriler</li>
+    <li>lodgerPlural->avareler</li>
     <li>lodgerPlural->sağ kalanlar</li>
     <li>lodgerPlural->göçebeler</li>
-    <li>lodgerPlural->başıboşlar</li>
+    <li>lodgerPlural->berduşlar</li>
   </Hospitality_Refugee.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -255,16 +261,16 @@
   <RefugeeBetrayal.questContentRules.rulesStrings>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
-    <li>betrayalOfferRewardLetterLabel->ihanet ödülü: [factionOpponent_nameDef]</li>
-    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef], [asker_nameDef] ve [otherMembers]'ı öldürürseniz size bir ödül sözü vermişti. Bunun yapıldığını duydu ve bırakma bölmesi aracılığıyla size aşağıdakileri gönderiyor (toplam değer [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
+    <li>betrayalOfferRewardLetterLabel->İhanet ödülü: [factionOpponent_nameDef]</li>
+    <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef], [asker_nameDef] ve [otherMembers] öldürülürse sana bir ödül vaat etmişti. Bunun yapıldığını duydu ve iniş kapsülü aracılığıyla sana şunları gönderiyor (toplam değer [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->İhanet ödülü geri çekildi</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef], [faction_name] üyelerinden birinin artık [map_definite] konumunda olmadığını öğrendi. [factionOpponent_nameDef], [faction_name]'nın tüm üyelerinin ölmesini istedi ve bu nedenle teklifini geri çekti.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef], [faction_name] üyelerinden birinin artık [map_definite] konumunda olmadığını öğrendi. [factionOpponent_nameDef], tüm [faction_name] üyelerinin ölmesini istedi ve bu nedenle teklifini geri çekti.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->ve diğer [lodgersLabel]</li>
-    <li>otherLodgers(lodgerCount>=3)->ve birkaç [lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount>=3)->ve bazı [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
-    <li>otherMembers(lodgerCount>=2)-> ve [faction_name]'nın diğer tüm üyeleri</li>
-    <li>questOver->'[resolvedQuestName]' görevi bitti.</li>
+    <li>otherMembers(lodgerCount>=2)-> ve tüm diğer [faction_name] üyeleri</li>
+    <li>questOver->'[resolvedQuestName]' görevi sona erdi.</li>
   </RefugeeBetrayal.questContentRules.rulesStrings>
   <!-- EN:
     <li>lodgersLabel->refugee</li>
@@ -287,14 +293,16 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef] grubunun bir [factionOpponent_faction_pawnSingular] olan [factionOpponent_nameDef], [asker_nameDef] ve [otherLodgers]'ın [map_definite] adresinde barındırıldığını öğrendi. [asker_nameDef] ile düşmandır ve onun öldüğünü görmek ister.\n\n[faction_name]'nın tüm üyelerini öldürürseniz size şu ödülü gönderecektir (toplam değer [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_name] fraksiyonundan bir [factionOpponent_faction_pawnSingular], [asker_nameDef] [otherLodgers][areIs] [map_definite] konumunda ağırlandığını öğrendi. [asker_nameDef] ile düşmanlar ve onun ölmesini istiyorlar.\n\nTüm [faction_name] üyelerini öldürürsen sana şu ödülleri gönderecek (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->ve diğer [lodgersLabel]</li>
-    <li>otherLodgers(lodgerCount>=3)->ve bir kaç [lodgersLabelPlural]</li>
+    <li>otherLodgers(lodgerCount>=3)->ve bazı [lodgersLabelPlural]</li>
     <li>otherMembers(lodgerCount==1)-></li>
-    <li>otherMembers(lodgerCount>=2)-> ve [faction_name]'nın diğer tüm üyeleri</li>
+    <li>otherMembers(lodgerCount>=2)->ve tüm [faction_name] üyeleri</li>
+    <li>areIs(lodgerCount==1)->nin</li>
+    <li>areIs(lodgerCount>=2)->in</li>
   </RefugeeBetrayal.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Betrayal offer: [factionOpponent_nameDef]</li>
@@ -308,20 +316,20 @@
     <li>rewardLetterText->[rewardGiver_nameDef] has contacted you. [rewardDelayTicks_duration] ago, you helped [rewardGiver_objective] in desperate circumstances.\n\nSince then, [rewardGiver_pronoun] has gotten back on [rewardGiver_possessive] feet, and now [rewardGiver_pronoun] wants to reward you properly for your help. [rewardGiver_pronoun] is sending you the following via drop pod:\n\n[listOfRewards]</li>
   -->
   <RefugeeDelayedReward.questContentRules.rulesStrings>
-    <li>rewardLetterLabel->ağırlama ödülü</li>
-    <li>rewardLetterText->[rewardGiver_nameDef] sizinle iletişime geçti.[rewardDelayTicks_duration] önce, umutsuz durumlarda ona yardım ettiniz.\n\nO zamandan beri ayağa kalktı ve şimdi yardımın için seni gerektiği gibi ödüllendirmek istiyor. Bırakma bölmesi aracılığıyla size şunları gönderiyor:\n\n[listOfRewards]</li>
+    <li>rewardLetterLabel->Misafirperverlik ödülü</li>
+    <li>rewardLetterText->[rewardGiver_nameDef] seninle iletişime geçti. [rewardDelayTicks_duration] önce, biçare zamanlarında ona yardım ettin.\n\nO zamandan beri toparlandı ve şimdi sana yardımın için layıkıyla teşekkür etmek istiyor. İniş kapsülü aracılığıyla sana şunları gönderiyor:\n\n[listOfRewards]</li>
   </RefugeeDelayedReward.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->a delayed reward for refugee quest</li>
   -->
   <RefugeeDelayedReward.questDescriptionRules.rulesStrings>
-    <li>questDescription->mülteci arayışı için gecikmiş bir ödül</li>
+    <li>questDescription->mülteci görevi için gecikmiş bir ödül</li>
   </RefugeeDelayedReward.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Refugee delayed reward</li>
   -->
   <RefugeeDelayedReward.questNameRules.rulesStrings>
-    <li>questName->Mülteci gecikmeli ödülü</li>
+    <li>questName->Gecikmeli mülteci ödülü</li>
   </RefugeeDelayedReward.questNameRules.rulesStrings>
   
 </LanguageData>

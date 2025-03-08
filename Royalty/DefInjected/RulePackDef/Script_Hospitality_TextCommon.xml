@@ -65,8 +65,8 @@
     <li>healthInfo(lodgersHaveBloodRotAndParalysis==true,priority=1)->\n\n[paralyzedInfo]\n\n[bloodRotInfo]</li>
     <li>healthInfo(lodgersAreParalyzed==true,priority=1)->\n\n[paralyzedInfo]</li>
     <li>healthInfo(lodgersHaveBloodRot==true,priority=1)->\n\n[bloodRotInfo]</li>
-    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçten muzdarip ve yatakta kalmak durumunda.</li>
-    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürümesinden muzdarip ve günlük bakıma ihtiyaç duyuyor. Hastalık, yüksek kaliteli ilaçlar ve iyi bakım ile yavaşlatılabilir ama tam anlamıyla tedavi edilemez. Eğer hastalık ağırlaşırsa [lodgersLabelSingOrPluralDef] ölür, bu yüzden gereken tıbbi imkânlara sahip olduğundan emin ol.</li>
+    <li>paralyzedInfo->[lodgersLabelSingOrPluralDef] felçten mustarip ve yatakta kalmak durumunda.</li>
+    <li>bloodRotInfo->[lodgersLabelSingOrPluralDef] kan çürümesinden mustarip ve günlük bakıma ihtiyaç duyuyor. Hastalık, yüksek kaliteli ilaçlar ve iyi bakım ile yavaşlatılabilir ama tam anlamıyla tedavi edilemez. Eğer hastalık ağırlaşırsa [lodgersLabelSingOrPluralDef] ölür, bu yüzden gereken tıbbi imkânlara sahip olduğundan emin ol.</li>
     <li>minMoodInfo-></li>
     <li>minMoodInfo(lodgersCountWithMoodThreshold>0,priority=1)->\n\n[lodgersLabelSingOrPluralDef] misafirlerin ve onların moralini [lodgersMoodThreshold_percent] seviyesinin üzerine tutmalısın.</li>
     <li>workInfo-></li>
