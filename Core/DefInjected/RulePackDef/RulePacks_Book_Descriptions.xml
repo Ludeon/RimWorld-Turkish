@@ -253,7 +253,7 @@
     <li>seekObjective->evrendeki en lezzetli [Sebze]</li>
     <li>seekObjective->parlak yeni bir [Silah]</li>
     <li>seekObjective->[protagHis]'in kayıp evcil hayvanı [Hayvan]</li>
-    <li>seekObjective->yok edilmiş bir [Mekanoid]'i yeniden inşa etmek için parçalar</li>
+    <li>seekObjective->yok edilmiş bir [Mekanoit]'i yeniden inşa etmek için parçalar</li>
     <li>seekObjective->[protagHe]'in bir rüyasında gördüğü bir [AraziÖzelliği]</li>
     <li>seekObjective->eski bir alev</li>
     <li>seekObjective->romantik tatmin</li>
@@ -1111,8 +1111,8 @@
     <li>schematic_desc_second(quality[less_than]2)->. Derslerinden yalnızca yeni başlayanlar faydalanacak</li>
     <li>schematic_desc_second(quality[less_than]2)->. Yanıltıcı bir şema, hiç şema olmamasından daha kötü olabilir</li>
     <li>schematic_desc_second(quality[less_than]2)->, şüpheli bir fayda sağlar</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, ancak temeller mevcuttur</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, ancak yine de içgörüler sağlamak için yeterli veri [contain_verb] içerir</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-> fakat temeller mevcuttur</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-> fakat yine de içgörüler sağlamak için yeterli veri [contain_verb] içerir</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Ancak bu, deneyimli uygulayıcılar için yararlılığını azaltmaz</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, yine de çoğu öğrenci için bir miktar değeri vardır</li>
     <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Yeni başlayanlar bile öğretilerinden faydalanacaktır</li>
@@ -1121,7 +1121,7 @@
     <li>schematic_desc_second(quality[greater_than]4)->, yine de gelişmiş kavramları kolaylıkla aktarıyor</li>
     <li>schematic_desc_second(quality[greater_than]4)->, yine de tüm öğrenciler için bilgelikle dolu</li>
     <li>schematic_desc_second(quality[greater_than]4)->. Buna rağmen, ne kadar deneyimli olursa olsun her öğrenci okumaktan faydalanacaktır</li>
-    <li>schematic_desc_second(quality[greater_than]4)->, ancak içerdiği bilgi zenginliğiyle karşılaştırıldığında sorunlar önemsizdir</li>
+    <li>schematic_desc_second(quality[greater_than]4)-> fakat içerdiği bilgi zenginliğiyle karşılaştırıldığında sorunlar önemsizdir</li>
     <li>schematic_desc_second(quality[greater_than]4)->. Lakin, öğrettiği dersler zamansızdır</li>
     <li>medium->Dinleyicilere [tells_verb]s [schematic_origin]</li>
     <li>medium->İçerisinde bir deste kişisel kağıt [tells_verb]s [schematic_origin]</li>
@@ -1138,7 +1138,7 @@
     <li>medium(p=4)->[schematic_origin] biliniyor ancak belgenin notlarına dâhil</li>
     <li>medium->Ekli bir günlük [schematic_origin]'i anlatır</li>
     <li>medium->Arkaik bir mekanizma [tells_verb]s [schematic_origin]</li>
-    <li>medium->Minyatür bir mekanoid hayata dönerek [schematic_origin] anlatıyor</li>
+    <li>medium->Minyatür bir mekanoit hayata dönerek [schematic_origin] anlatıyor</li>
     <li>tells_verb->söylemek</li>
     <li>tells_verb->aktarmak</li>
     <li>tells_verb->tekrar anlatmak</li>
@@ -1191,17 +1191,17 @@
     <li>calltoadventure->, [subject] üzerine odaklanan terk edilmiş bir Glitterworld kolonisi olduğunu öğrendi</li>
     <li>calltoadventure->, [feodalworld] korsanları tarafından ele geçirildiğinde bir güneş kruvazöründeydi. [Konu] uzmanı olarak, onu yüksek bir bedel karşılığında fidye karşılığında kurtardılar</li>
     <li>calltoadventure->, [ANYPAWN_pronoun]'un [konu] hakkında bilgi edindiği [deadworld]'ün ölü dünyasına doğru rotasından saptı</li>
-    <li>calltoadventure->, bozuk bir mekanoidde [konu] hakkında bir veri dosyası keşfetti ve ondan ders çıkardı</li>
+    <li>calltoadventure->, bozuk bir mekanoitde [konu] hakkında bir veri dosyası keşfetti ve ondan ders çıkardı</li>
     <li>calltoadventure->, [konu] hakkında [ANYPAWN_objective]'e ders verdiği bir pislik köstebeği yuvasına kadar takip etti</li>
     <li>calltoadventure->, [buz dünyası]'nda [konu] seven bir Yttakin klanı tarafından büyütüldü</li>
     <li>calltoadventure->, kanlı klonlayıcılar tarafından yaratıldı ve [konu]'da zevk buldu</li>
     <li>calltoadventure->, çalıntı bir kargo kapsülüyle kaçarak [savaş dünyası]'nda büyüdü. Aylarca tek okuduğu şey [subject] kılavuzuydu</li>
-    <li>calltoadventure-> [ANYPAWN_possessive] ömrünü [shellworld] kabuk dünyasının katmanları arasında seyahat ederek, arızalı bir [subject] mekanoidini kovalayarak geçirdi</li>
+    <li>calltoadventure-> [ANYPAWN_possessive] ömrünü [shellworld] kabuk dünyasının katmanları arasında seyahat ederek, arızalı bir [subject] mekanoitini kovalayarak geçirdi</li>
     <li>calltoadventure-> [subject] konusunda uzman bir tüccarın yıldız gemisine gizlice binerek [medievalworld] köylerindeki kölelikten kaçtı</li>
     <li>calltoadventure-> [rimworld]'de [subject] hakkında bilgi edinerek kenara gidip geri döndü</li>
     <li>calltoadventure-> [oceanicworld] denizlerinde yelken açtı, yaşayan okyanusların kendisinden [subject] sırları öğrendiğini iddia etti</li>
     <li>calltoadventure-> [worldname]'in asteroit kuşağında sıfır yerçekimli bir çöpçüydü ve [subject]'in sırlarını [subject]'de buldu ya [asteroid] A3 ya da [asteroid] 7DD</li>
-    <li>written_when-> [ANYPAWN_possessive] infazından önceki gece</li>
+    <li>written_when-> [ANYPAWN_possessive] idamından önceki gece</li>
     <li>written_when-> [ANYPAWN_possessive] ilk yıllarında</li>
     <li>written_when-> [worldname]'in Mavi Dönemi'nde</li>
     <li>written_when-> [ANYPAWN_possessive] doktora sonrası tezinin bir parçası olarak</li>
@@ -1312,7 +1312,7 @@
     <li>otherwordly_nonphys_desc->[author] şeması imkânsız derecede eski bir şeyin psişik izini taşıyor</li>
     <li>technical_nonphys_desc->şemanın karmaşıklığı ortalama okuyucunun ötesinde</li>
     <li>technical_nonphys_desc->notasyon alışılmadık, soyu tükenmiş bir Impid lehçesinden alınmış</li>
-    <li>technical_nonphys_desc->şemanın sayfalarında teller dolaşıyor, ancak cihaz neredeyse işlevsiz</li>
+    <li>technical_nonphys_desc->şemanın sayfalarında teller dolaşıyor fakat cihaz neredeyse işlevsiz</li>
     <li>technical_nonphys_desc->aynı mekanizma [author] tarafından üç farklı dilde açıklanıyor</li>
     <li>academic_nonphys_desc->bu şema [author] ilham eden bir cin öğretmene ithaf edilmiştir</li>
     <li>academic_nonphys_desc->bu belge, [author] ilham eden bir cin öğretmene ithaf edilmiştir</li>
@@ -2062,7 +2062,7 @@
     <li>detail(quality[less_than]4)->, yazar konuyu aceleyle geçse de</li>
     <li>detail(quality[greater_than]3)->. Konunun kapsamlı bir şekilde ele alınması</li>
     <li>detail->. Yazar [ANYPAWN_possessive] [precis_synonym] adlı eserinde bu kitabın sahte kopyalarının var olduğunu ancak bunun bunlardan biri olmadığını iddia ediyor</li>
-    <li>detail(quality[less_than]4)->, ancak belki de fikirlerini hayalî bir diyalog yoluyla iletme girişimi bir hataydı</li>
+    <li>detail(quality[less_than]4)-> fakat belki de fikirlerini hayalî bir diyalog yoluyla iletme girişimi bir hataydı</li>
     <li>detail->. Yazarın [precis_synonym]'deki retoriği, temel kavramlardan uzaklaşmaz</li>
     <li>production->[precis_synonym], bunun [worldname]'de elle basıldığını söylüyor</li>
     <li>production->[precis_synonym], [worldname] Üniversitesi'nin bunu bir metin seti hâline getirdiğini söylüyor</li>
@@ -2167,13 +2167,13 @@
     <li>exterior_quality(quality[greater_than]4)->Yayıncının sanatının bir şaheseri olan bu kitap parlıyor ve</li>
     <li>exterior_quality(quality[greater_than]4)->Deri kapağı yine de pürüzlü</li>
     <li>exterior_quality(quality[greater_than]4)->Kapak çok sade olmasına rağmen,</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Bu ders kitabı daha iyi günler gördü, ancak</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Bu ders kitabı daha iyi günler gördü fakat</li>
     <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->İkinci el bir okul kitabı olmasına rağmen,</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Bu kitap, birçok sahibi vardı, ancak</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Bu kitap, birçok sahibi vardı fakat</li>
     <li>exterior_quality(quality[less_than]2)->Bu kitabın ön yüzü çekici görünüyor ancak</li>
     <li>exterior_quality(quality[less_than]2)->Birisi kitabın ilk üçte birini yırtmış ve</li>
     <li>exterior_quality(quality[less_than]2)->Kapak güçlü kokulu bir sıvıya batırılmış ve</li>
-    <li>exterior_quality(quality[less_than]2)->İlk bakışta kitapta hiçbir sorun yok, ancak</li>
+    <li>exterior_quality(quality[less_than]2)->İlk bakışta kitapta hiçbir sorun yok fakat</li>
     <li>page_quality->sayfalar [page_condition]</li>
     <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
     <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>

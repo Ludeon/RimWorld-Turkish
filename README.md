@@ -26,7 +26,7 @@
 * [@Tufancan Demirkılıç](https://github.com/hollmmes)
 * [@M. Deniz Gümüş](https://github.com/denizubu)
 
-:star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya [Discord sunucumuza](https://discord.gg/yjnA2rm5UX) katılarak **hata-raporu** kanalına gönderi atabilirsiniz. Ayrıca direkt kendiniz de katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda aktif olarak yapılan çevirileri ve düzenlemeleri [Discord sunucumuzdaki](https://discord.gg/yjnA2rm5UX) **aktif-çeviriler** kanalından kontrol edebilirsiniz.
+:star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya [Discord sunucumuza](https://discord.gg/yjnA2rm5UX) katılarak **hata-raporu** kanalına gönderi atabilirsiniz. Ayrıca direkt kendiniz de katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hâlihazırda aktif olarak yapılan çevirileri ve düzenlemeleri [Discord sunucumuzdaki](https://discord.gg/yjnA2rm5UX) **aktif-çeviriler** kanalından kontrol edebilirsiniz.
 [Proje sayfasına bir göz atın.](https://github.com/Ludeon/RimWorld-Turkish/projects)
 
 

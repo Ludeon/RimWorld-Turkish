@@ -109,9 +109,9 @@
   <!-- EN: Execute -->
   <Execute>İnfaz et</Execute>
   <!-- EN: Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person. -->
-  <ExecuteColonist>Suçlu koloniciyi infaz et\n\nBunu açarsan bir gardiyan bu kişiyi infaz etmek üzere harekete geçecek.</ExecuteColonist>
+  <ExecuteColonist>Suçlu koloniciyi idam et\n\nBunu açarsan bir gardiyan bu kişiyi idam etmek üzere harekete geçecek.</ExecuteColonist>
   <!-- EN: {0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}. -->
-  <MessageColonistMarkedForExecution>{0_labelShort} infaz edilmek üzere işaretlendi. Bir sonraki müsait gardiyan infazı gerçekleştirecek.</MessageColonistMarkedForExecution>
+  <MessageColonistMarkedForExecution>{0_labelShort} idam edilmek üzere işaretlendi. Bir sonraki müsait gardiyan idamı gerçekleştirecek.</MessageColonistMarkedForExecution>
   <!-- EN: {0} of {1} -->
   <TitleOfFaction>{0} fraksiyonundan {1}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
@@ -173,7 +173,7 @@
   <!-- EN: Set target fuel level to {0} -->
   <SetTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla\nAzami mesafe: {1} altıgen</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>Hedef yakıt seviyesini {0} olarak ayarla\nMaks. mesafe: {1} altıgen</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
   <ConfiguredTargetFuelLevel>Hedef yakıt seviyesi: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
@@ -221,7 +221,7 @@
   <!-- EN: {0} prisoners -->
   <CaravanPrisonersCount>{0} mahkûm</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0} kişi ruhsal çöküşte</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0} kişi ruhsal çöküş yaşıyor</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
   <CaravanPawnsDowned>{0} kişi etkisiz hâlde</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
@@ -297,7 +297,7 @@
   <!-- EN: loading in progress -->
   <TransportPodInGroupHasSomethingLeftToLoad>yükleme sürüyor</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
-  <TransportPodDestinationBeyondMaximumRange>Azami menzilin ötesinde</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodDestinationBeyondMaximumRange>Maksimum menzilin ötesinde</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Yeterli yakıt yok</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -469,7 +469,7 @@
   <!-- EN: Large fire explosion if damaged. -->
   <ExplosionOnDamageWarning>Hasar alırsa büyük ateşli bir patlamaya sebep verir</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>Mekanoid kümesi</MechCluster>
+  <MechCluster>Mekanoit kümesi</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>{0} içinde doğacak</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
@@ -489,7 +489,7 @@
   <!-- EN: Sealed -->
   <DormantCompSealed>Mühürlü</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>Mekanoidler indirmeye hazır</DormantCompBeacon>
+  <DormantCompBeacon>Mekanoitler indirmeye hazır</DormantCompBeacon>
   <!-- EN: Expired -->
   <DormantCompExpired>Süresi dolmuş</DormantCompExpired>
   <!-- EN: Initiates in -->
@@ -511,7 +511,7 @@
   <!-- EN: Any of -->
   <AnyOf>Herhangi biri</AnyOf>
   <!-- EN: Requires {0} trait -->
-  <TraitRequired>{0} özelliği gerektirir</TraitRequired>
+  <TraitRequired>{0} kişisel özelliği gerektirir</TraitRequired>
   <!-- EN: Goodwill -->
   <Goodwill>İyi niyet</Goodwill>
   <!-- EN: Natural goodwill -->
@@ -695,7 +695,7 @@
   <!-- EN: Shrink -->
   <ShrinkArea>Daralt</ShrinkArea>
   <!-- EN: Maximum {0} areas allowed. -->
-  <MaxAreasReached>Azami {0} alana izin verildi.</MaxAreasReached>
+  <MaxAreasReached>Maksimum {0} alana izin verildi.</MaxAreasReached>
 
   <!-- Animal pens -->
   <!-- EN: Unenclosed -->
@@ -818,7 +818,7 @@
   <!-- EN: Installed -->
   <GunInstalled>Kurulmuş</GunInstalled>
   <!-- EN: Minimum range -->
-  <MinimumRange>Asgari mesafe</MinimumRange>
+  <MinimumRange>Minimum mesafe</MinimumRange>
   <!-- EN: Can fire in -->
   <CanFireIn>Ateş edebilmesine</CanFireIn>
   <!-- EN: Cannot fire -->
@@ -1340,9 +1340,9 @@
   <!-- EN: No settlement to return to. Form a settlement first. -->
   <ShipNoSettlementToReturnTo>Geri dönülecek bir yerleşim yok. Önce bir yerleşim yeri kur.</ShipNoSettlementToReturnTo> 
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)Charlon Whitestone(/Name) reaktörün uyanma sürecini başlatmaya hazır.\n\nSürecin yaklaşık 15 gün kadar süreceği ve enerjinin izinin uzak mesafelerden tespit edilebileceği konusunda seni uyarıyor.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve biçare yağmacı çeteleri ile ölümcül mekanoid sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarning>
+  <HibernateWarning>(*Name)Charlon Whitestone(/Name) reaktörün uyanma sürecini başlatmaya hazır.\n\nSürecin yaklaşık 15 gün kadar süreceği ve enerjinin izinin uzak mesafelerden tespit edilebileceği konusunda seni uyarıyor.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve biçare yağmacı çeteleri ile ölümcül mekanoit sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>Reaktör güç verilmeye hazır.\n\nSüreç yaklaşık 15 gün kadar sürecek ve enerjinin izi uzak mesafelerden tespit edilebilecek.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve biçare yağmacı çeteleri ile ölümcül mekanoid sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarningStandalone>
+  <HibernateWarningStandalone>Reaktör güç verilmeye hazır.\n\nSüreç yaklaşık 15 gün kadar sürecek ve enerjinin izi uzak mesafelerden tespit edilebilecek.\n\nBu tür bir enerji izi, yıldızlararası uçuş kabiliyetini gösterir ve biçare yağmacı çeteleri ile ölümcül mekanoit sürülerini çeker.\n\nDaha önce hiç görmediğin yoğunlukta saldırılara maruz kalacaksın. Önce savunmalarının hazır olduğundan emin ol.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
   <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name) reaktörün uyanma sürecini başlatmaya hazır. Sürecin yaklaşık 15 gün kadar süreceği konusunda seni uyarıyor.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
@@ -1390,7 +1390,7 @@
 
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>akıl sağlığı</Mood_MentalState>
+  <Mood_MentalState>ruh hâli</Mood_MentalState>
   <!-- EN: about to break -->
   <Mood_AboutToBreak>patlamak üzere</Mood_AboutToBreak>
   <!-- EN: on edge -->
@@ -1448,7 +1448,7 @@
   <!-- EN: Not linked to a building -->
   <FacilityNoPotentialLinks>Bir yapıya bağlı değil</FacilityNoPotentialLinks>
   <!-- EN: Max connected per building -->
-  <FacilityMaxSimultaneousConnections>Yapı başına azami bağlantı</FacilityMaxSimultaneousConnections>
+  <FacilityMaxSimultaneousConnections>Yapı başına maks. bağlantı</FacilityMaxSimultaneousConnections>
   <!-- EN: Front of building is blocked. -->
   <FacilityFrontBlocked>Yapının önü kapalı.</FacilityFrontBlocked>
 
@@ -1868,7 +1868,7 @@
   <!-- EN: blind smoke -->
   <BlindSmoke>kör duman</BlindSmoke>
   <!-- EN: tox gas -->
-  <ToxGas>toksin gazı</ToxGas>
+  <ToxGas>toksik gaz</ToxGas>
   <!-- EN: rot stink -->
   <RotStink>ufunet</RotStink>
   <!-- EN: deadlife dust -->
@@ -1895,9 +1895,9 @@
   <Charges>Yük</Charges>
 
   <!-- EN: {0_nameDef} is in a mental state. -->
-  <PawnIsInMentalState>{0_nameDef} psikolojik bir hâl içerisinde.</PawnIsInMentalState>
+  <PawnIsInMentalState>{0_nameDef} ruhsal çöküş yaşıyor.</PawnIsInMentalState>
   <!-- EN: {0_nameDef} is in an aggressive mental state. -->
-  <PawnIsInAggroMentalState>{0_nameDef} saldırgan bir psikolojik hâl içerisinde.</PawnIsInAggroMentalState>
+  <PawnIsInAggroMentalState>{0_nameDef} saldırgan bir ruh hâli içerisinde.</PawnIsInAggroMentalState>
 
   <!-- EN: Disabled work -->
   <DisabledWorkLabel>Devre dışı bırakılan işler</DisabledWorkLabel>
@@ -1969,7 +1969,7 @@
   <BookBlind>{PAWN_nameDef} kör</BookBlind>
   
   <!-- EN: max level {0} -->
-  <BookMaxLevel>azami seviye {0}</BookMaxLevel>
+  <BookMaxLevel>maks. seviye {0}</BookMaxLevel>
   
   <!-- EN: Reading {0}: {1} done (complete in {2} hours) -->
   <ReadingReportHeader>{0} okuması: {1} bitti ({2} saatte tamamlandı)</ReadingReportHeader>

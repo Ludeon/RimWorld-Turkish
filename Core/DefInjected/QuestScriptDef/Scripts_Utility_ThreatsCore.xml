@@ -40,12 +40,12 @@
       <li>root(priority=1,sitePart==BanditCamp)->orada (*Threat)[enemiesCount] [enemiesLabel](/Threat) tarafından korunan bir haydut kampı var</li>
       <li>root(priority=1,sitePart==Manhunters,count==1)->(*Threat)insan avcısı bir [kindLabel](/Threat) yakınlarda dolanıyor</li>
       <li>root(priority=1,sitePart==Manhunters,count>1)->(*Threat)[count] insan avcısı [kindLabel](/Threat) yakınlarda dolanıyor</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)bir mekanoid(/Threat) yakınlarda uyuyor</li>
-      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mekanoid(/Threat) yakınlarda uyuyor</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count==1)->(*Threat)bir mekanoit(/Threat) yakınlarda uyuyor</li>
+      <li>root(priority=1,sitePart==SleepingMechanoids,count>1)->(*Threat)[count] mekanoit(/Threat) yakınlarda uyuyor</li>
       <li>root(priority=1,sitePart==Turrets)->(*Threat)[threatsInfo](/Threat) yerleşkeyi koruyor</li>
       <li>root(priority=1,sitePart==AmbushEdge)->(*Threat)bir düşman kuvveti(/Threat) yakına gelenleri pusuya düşürmek üzere bekliyor</li>
       <li>root(priority=1,sitePart==AmbushHidden)->(*Threat)bir düşman kuvveti(/Threat) yakına gelenleri pusuya düşürmek üzere bekliyor</li>
-      <li>root(priority=1,sitePart==MechCluster)->(*Threat)bir düşman mekanoid yapıları kümesi(/Threat) var</li>
+      <li>root(priority=1,sitePart==MechCluster)->(*Threat)bir düşman mekanoit yapıları kümesi(/Threat) var</li>
       <li>root(priority=1,sitePart==PossibleUnknownThreatMarker)->(*Threat)bilinmeyen bir tehdir(/Threat) olabilir</li>
       <li>root->bir [label] var</li>
     </rulesStrings>
@@ -55,7 +55,7 @@
     <li>threatDescription->a mech cluster will land at [map_definite] containing:\n\n[allThreats]</li>
   -->
   <Util_MechCluster.questDescriptionRules.rulesStrings>
-    <li>threatDescription->[map_definite] noktasına inecek mekanoid kümesinde bulunanlar:\n\n[allThreats]</li>
+    <li>threatDescription->Kolonine inecek mekanoit kümesinde bulunanlar:\n\n[allThreats]</li>
   </Util_MechCluster.questDescriptionRules.rulesStrings>
   
   <!-- EN:

@@ -264,7 +264,7 @@
     <li>betrayalOfferRewardLetterLabel->İhanet ödülü: [factionOpponent_nameDef]</li>
     <li>betrayalOfferRewardLetterText->[factionOpponent_nameDef], [asker_nameDef] ve [otherMembers] öldürülürse sana bir ödül vaat etmişti. Bunun yapıldığını duydu ve iniş kapsülü aracılığıyla sana şunları gönderiyor (toplam değer [betrayalRewardMarketValue_money]):\n\n[betrayalRewards].\n\n[questOver]</li>
     <li>betrayalOfferFailedLetterLabel->İhanet ödülü geri çekildi</li>
-    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef], [faction_name] üyelerinden birinin artık [map_definite] konumunda olmadığını öğrendi. [factionOpponent_nameDef], tüm [faction_name] üyelerinin ölmesini istedi ve bu nedenle teklifini geri çekti.</li>
+    <li>betrayalOfferFailedLetterText->[factionOpponent_nameDef], [faction_name] üyelerinden birinin artık koloninde olmadığını öğrendi. [factionOpponent_nameDef], tüm [faction_name] üyelerinin ölmesini istedi ve bu nedenle teklifini geri çekti.</li>
     <li>otherLodgers(lodgerCount==1)-></li>
     <li>otherLodgers(lodgerCount==2)->ve diğer [lodgersLabel]</li>
     <li>otherLodgers(lodgerCount>=3)->ve bazı [lodgersLabelPlural]</li>
@@ -293,7 +293,7 @@
     <li>areIs(lodgerCount>=2)->are</li>
   -->
   <RefugeeBetrayal.questDescriptionRules.rulesStrings>
-    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_name] fraksiyonundan bir [factionOpponent_faction_pawnSingular], [asker_nameDef] [otherLodgers][areIs] [map_definite] konumunda ağırlandığını öğrendi. [asker_nameDef] ile düşmanlar ve onun ölmesini istiyorlar.\n\nTüm [faction_name] üyelerini öldürürsen sana şu ödülleri gönderecek (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
+    <li>questDescription->[factionOpponent_nameDef], [factionOpponent_faction_name] fraksiyonundan bir [factionOpponent_faction_pawnSingular], [asker_nameDef] [otherLodgers][areIs] koloninde ağırlandığını öğrendi. [asker_nameDef] ile düşmanlar ve onun ölmesini istiyorlar.\n\nTüm [faction_name] üyelerini öldürürsen sana şu ödülleri gönderecek (total value [betrayalRewardMarketValue_money]):\n\n[betrayalRewards]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount==1)->[lodgersLabel]</li>
     <li>lodgersLabelSingularOrPlural(lodgerCount>=2)->[lodgersLabelPlural]</li>
     <li>otherLodgers(lodgerCount==1)-></li>

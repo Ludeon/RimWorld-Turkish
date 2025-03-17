@@ -47,36 +47,36 @@
     <li>talkingAbout->going into detail about</li>
   -->
   <DisturbingChat.logRulesInitiator.rulesStrings>   
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef]'i [subjectDisturbing] [talkingAbout] [disturbed].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile [subjectDisturbing] hakkında [darkSpeechAdverb] [spoke].</li>
+    <li>r_logentry->[INITIATOR_nameDef], [subjectDisturbing] hakkında [talkingAbout] [RECIPIENT_nameDef] kişisini [disturbed].</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subjectDisturbing] hakkında [darkSpeechAdverb] [spoke].</li>
     <li>spoke->konuştu</li>
-    <li>spoke->mırıldandı</li>
+    <li>spoke->söylendi</li>
     <li>spoke->kekeledi</li>
     <li>spoke->sızlandı</li>
     <li>spoke->homurdandı</li>
-    <li>spoke->geveledi</li>
+    <li>spoke->mırıldandı</li>
     <li>spoke(p=5)->[rambled]</li>
     <li>subjectDisturbing->[subjectDarkStudy]</li>
     <li>subjectDisturbing->[subjectInsane]</li>
-    <li>disturbed->rahatsız</li>
-    <li>disturbed->dehşete düşmüş</li>
-    <li>disturbed->korkmuş</li>
-    <li>disturbed->mutsuz</li>
-    <li>disturbed->tedirgin</li>
-    <li>disturbed->huzursuz</li>
-    <li>disturbed->telaşlı</li>
-    <li>disturbed->yılgın</li>
-    <li>disturbed->paniğe hâlinde</li>
-    <li>disturbed->stresli</li>
-    <li>disturbed->endişeli</li>
+    <li>disturbed->rahatsız etti</li>
+    <li>disturbed->dehşete düşürdü</li>
+    <li>disturbed->korkuttu</li>
+    <li>disturbed->üzdü</li>
+    <li>disturbed->tedirgin etti</li>
+    <li>disturbed->huzursuz etti</li>
+    <li>disturbed->telaşlandırdı</li>
+    <li>disturbed->yıldırıldı</li>
+    <li>disturbed->panikletti</li>
+    <li>disturbed->strese soktu</li>
+    <li>disturbed->endişelendirdi</li>
     <li>maybeDarkSpeechAdverb-></li>
     <li>maybeDarkSpeechAdverb->[darkSpeechAdverb]</li>
-    <li>talkingAbout->tanımlıyor</li>
-    <li>talkingAbout->açıklıyor</li>
-    <li>talkingAbout->hakkında [maybeDarkSpeechAdverb] sızlanıyor</li>
-    <li>talkingAbout->hakkında [maybeDarkSpeechAdverb] konuşuyor</li>
-    <li>talkingAbout->hakkında [maybeDarkSpeechAdverb] atıp tutuyor</li>
-    <li>talkingAbout->hakkında detaylara giriyor</li>
+    <li>talkingAbout->betimlemeler yaparak</li>
+    <li>talkingAbout->açıklamalar yaparak</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb] sızlanarak</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb] konuşarak</li>
+    <li>talkingAbout->[maybeDarkSpeechAdverb] atıp tutarak</li>
+    <li>talkingAbout->detaylar vererek</li>
   </DisturbingChat.logRulesInitiator.rulesStrings>
   
   <!-- EN: inhuman rambling -->
@@ -134,45 +134,45 @@
     <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
   -->
   <InterrogateIdentity.logRulesInitiator.rulesStrings>
-    <li>askedAbout->[RECIPIENT_nameDef]'i hakkında sorguladı</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'e hakkında sordu</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i hakkındaki detaylar için zorladı</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'e hakkında sorular sordu</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i hakkında sıkıştırdı</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i ile alakalı cevaplar için sıkıştırdı</li>
-    <li>askedAbout->asked [RECIPIENT_nameDef] tricky questions about</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i ile alakalı sorularla hazırlıksız yakalamaya çalıştı</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'e bağırdı, hakkında bilgi istedi</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i hakkında soru bombardımanına tuttu</li>
-    <li>askedAbout->[RECIPIENT_nameDef] ile konusunda yüzleşti</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i konusunda usandırdı</li>
-    <li>askedAbout->[RECIPIENT_nameDef]'i konusunda soruşturdu</li>
-    <li>identityTopic->Onun önceki çalışması</li>
-    <li>identityTopic->Onun diğer fraksiyonlarla olann önceki ilişkileri</li>
-    <li>identityTopic->Onun doğumu</li>
-    <li>identityTopic->Onun yetiştirilme tarzı</li>
-    <li>identityTopic->Onun ebeveynleri</li>
-    <li>identityTopic->Onun eski arkadaşları</li>
-    <li>identityTopic->Onun romantik geçmişi</li>
-    <li>identityTopic->Onun sevdikleri ve sevmedikleri</li>
-    <li>identityTopic->Onun üzücü olaylar karşısındaki duygusal tepkileri</li>
-    <li>identityTopic->Onun yemek tercihleri</li>
-    <li>identityTopic->Onun en derin korkuları</li>
-    <li>identityTopic->Onun mutlu anıları</li>
-    <li>identityTopic->Onun kişisel pişmanlıkları</li>
-    <li>identityTopic->Onun hayalleri ve arzuları</li>
-    <li>identityTopic->Onun şu anki fraksiyonuna katılma sebepleri</li>
-    <li>identityTopic->Onun geçmişteki spesifik bir olaydaki rolü</li>
-    <li>identityTopic->Onun hobileri ve uğraşları</li>
-    <li>identityTopic->Onun ahlaki değerleri ve prensipleri</li>
-    <li>identityTopic->Onun motivasyonları</li>
-    <li>identityTopic->Onun aldığı büyük kararların arkasında yatan sebepler</li>
+    <li>askedAbout->üzerine sorgulandı</li>
+    <li>askedAbout->hakkında sorulara maruz bırakıldı</li>
+    <li>askedAbout->ile ilgili sıkıştırıldı</li>
+    <li>askedAbout->hakkında sorguya çekildi</li>
+    <li>askedAbout->üzerine darlandı</li>
+    <li>askedAbout->ile ilgili cevaplar için sıkıştırıldı</li>
+    <li>askedAbout->hakkında tuzak sorulara maruz bırakıldı</li>
+    <li>askedAbout->hakkında sorularla açık verdirilmeye çalışıldı</li>
+    <li>askedAbout->ile ilgili konuşması için azarlandı</li>
+    <li>askedAbout->hakkında soru yağmuruna tutuldu</li>
+    <li>askedAbout->ile yüzleştirildi</li>
+    <li>askedAbout->ile ilgili rahatsız edildi</li>
+    <li>askedAbout->konusunda derinlemesine sorgulandı</li>
+    <li>identityTopic->önceki çalışması</li>
+    <li>identityTopic->diğer fraksiyonlarla olann önceki ilişkileri</li>
+    <li>identityTopic->doğumu</li>
+    <li>identityTopic->yetiştirilme tarzı</li>
+    <li>identityTopic->ebeveynleri</li>
+    <li>identityTopic->eski arkadaşları</li>
+    <li>identityTopic->romantik geçmişi</li>
+    <li>identityTopic->sevdikleri ve sevmedikleri</li>
+    <li>identityTopic->üzücü olaylar karşısındaki duygusal tepkileri</li>
+    <li>identityTopic->yemek tercihleri</li>
+    <li>identityTopic->en derin korkuları</li>
+    <li>identityTopic->mutlu anıları</li>
+    <li>identityTopic->kişisel pişmanlıkları</li>
+    <li>identityTopic->hayalleri ve arzuları</li>
+    <li>identityTopic->şu anki fraksiyonuna katılma sebepleri</li>
+    <li>identityTopic->geçmişteki spesifik bir olaydaki rolü</li>
+    <li>identityTopic->hobileri ve uğraşları</li>
+    <li>identityTopic->ahlaki değerleri ve prensipleri</li>
+    <li>identityTopic->motivasyonları</li>
+    <li>identityTopic->aldığı büyük kararların arkasında yatan sebepler</li>
     <li>identityTopic->geçmişteki travmatik deneyimleri</li>
     <li>identityTopic->düşünsel süreçleri</li>
     <li>identityTopic->çocukluk deneyimleri</li>
     <li>identityTopic->okul deneyimleri</li>
     <li>identityTopic->kültürel deneyimleri</li>
-    <li>r_logentry->[INITIATOR_nameDef] [askedAbout] [identityTopic].</li>
+    <li>r_logentry->[RECIPIENT_nameDef], [INITIATOR_nameDef] tarafından [identityTopic] [askedAbout].</li>
   </InterrogateIdentity.logRulesInitiator.rulesStrings>
   
   <!-- EN: occult teaching -->
@@ -185,7 +185,7 @@
     <li>r_logentry->[INITIATOR_nameDef] taught a lesson on [subjectDarkStudy].</li>
   -->
   <OccultTeaching.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'e [subjectDarkStudy] konusundaki teorilerini açıkladı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] kişisine [subjectDarkStudy] konusundaki teorilerini açıkladı.</li>
     <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subjectDarkStudy] konusundaki düşüncelerini paylaştı.</li>
     <li>r_logentry->[INITIATOR_nameDef] [subjectDarkStudy] hakkında konuştu.</li>
     <li>r_logentry->[INITIATOR_nameDef] [subjectDarkStudy] konusunun üzerinden geçti.</li>
@@ -200,7 +200,7 @@
     <li>r_logentry->[RECIPIENT_nameDef] mumbled about [subjectInsane].</li>
   -->
   <PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef]'e [subjectDarkStudy] konusunu sordu.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] kişisine [subjectDarkStudy] konusunu sordu.</li>
     <li>r_logentry->[INITIATOR_nameDef] [subjectDarkStudy] konusunu soruşturdu.</li>
     <li>r_logentry->[RECIPIENT_nameDef] [subjectInsane] hakkında geveledi.</li>
   </PrisonerStudyAnomaly.logRulesInitiator.rulesStrings>

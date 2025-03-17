@@ -12,8 +12,12 @@
     <li>groupLabelSingleOrPlural(beggarCount>=2)->travelers</li>
   -->
   <Beggars.questContentRules.rulesStrings>
-    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] ihanete uğramış</li>
-    <li>letterTextBeggarsBetrayed->İhsan edeninizi arayan [groupLabelSingleOrPlural] ihanete uğradı. Hayırsever inançlara sahip koloniciler mutsuz olacak.</li>
+    <li>letterLabelBeggarsBetrayed->[groupLabelSingleOrPlural] ihanete uğradı</li>
+    <li>letterTextBeggarsBetrayed->Yardımı isteyen [groupLabelSingleOrPlural] ihanete uğradı. Hayırsever inançlara sahip koloniciler mutsuz olacak.</li>
+    <li>hasHave(beggarCount==1)-></li>
+    <li>hasHave(beggarCount>=2)-></li>
+    <li>wasWere(beggarCount==1)-></li>
+    <li>wasWere(beggarCount>=2)-></li>
     <li>groupLabelSingleOrPlural(beggarCount==1)->gezgin</li>
     <li>groupLabelSingleOrPlural(beggarCount>=2)->gezginler</li>
   </Beggars.questContentRules.rulesStrings>
@@ -61,35 +65,35 @@
     <li>groupLabelSingle(childCount>=1,priority=1)->çocuk</li>
     <li>travelerInfo(beggarCount==1)->Bu [groupLabelSingle]</li>
     <li>travelerInfo(beggarCount>=2)->Bu [groupLabelPlural]</li>
-    <li>beggingForInfo->için x[requestedThingCount] [requestedThing_label]</li>
-    <li>traverObjective(beggarCount==1)->onun</li>
-    <li>traverObjective(beggarCount>=2)->onların</li>
-    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] herhangi bir fraksiyonun parçası değil. Dilerseniz diplomatik sonuçlar olmadan onu öldürmeyi, tutuklamayı, satmayı veya hasat etmeyi seçebilirsiniz.</li>
-    <li>approachInfo(beggarCount==1)->[beggars0_nameDef] adlı fakir bir [groupLabelSingle] yardım aramak için yaklaşıyor</li>
-    <li>approachInfo(beggarCount>=2)->Bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
-    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Bir çocuğun da dâhil olduğu bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
-    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Aralarında bazı çocukların da bulunduğu bir grup yoksul [groupLabelPlural] yardım aramak için yaklaşıyor</li>
+    <li>beggingForInfo->[requestedThingCount] adet [requestedThing_label] için</li>
+    <li>traverObjective(beggarCount==1)->onu</li>
+    <li>traverObjective(beggarCount>=2)->onları</li>
+    <li>questDescription->[approachInfo]. [requestInfo]. [claimInfo].\n\n[interactionInfo].\n\n[moveOnInfo].\n\n[travelerInfo] herhangi bir fraksiyona mensup değil. Dilersen diplomatik sonuçlar olmadan [traverObjective] öldürmeyi, tutuklamayı, satmayı veya organlarını çalmayı seçebilirsin.</li>
+    <li>approachInfo(beggarCount==1)->[beggars0_nameDef] adlı fakir bir [groupLabelSingle] yardım bulma ümidiyle yaklaşıyor</li>
+    <li>approachInfo(beggarCount>=2)->Bir grup yoksul [groupLabelPlural] yardım bulma ümidiyle yaklaşıyor</li>
+    <li>approachInfo(beggarCount>=2,childCount==1,priority=1)->Bir çocuğun da dâhil olduğu bir grup yoksul [groupLabelPlural] yardım bulma ümidiyle yaklaşıyor</li>
+    <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Aralarında bazı çocukların da bulunduğu bir grup yoksul [groupLabelPlural] yardım bulma ümidiyle yaklaşıyor</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] [beggingForInfo] yalvarıyor</li>
-    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] [beggingForInfo] yalvarıyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef],kendisini avlayan bir korsan çetesine borcunu ödemek için gümüş istiyor.</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef] korsanlar tarafından köleleştirilen ablasının özgürlüğünü satın almak için gümüş istiyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef] yakınlarda yaralanan bir yolcuya yardım etmesi için ilaca ihtiyacı var</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef] yakınlarda yaralanan küçük kardeşine yardım etmek için ilaca ihtiyacı var</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef] yolda yaralanan sadık evcil hayvanını kurtarmak için ilac istiyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef] hasta bir arkadaşını ölümcül hastalıklara karşı aşılamak için [requestedThing_label]'e ihtiyaç duyuyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef], bir yolcu arkadaşını korkunç bir kazada kaybettikten sonra üzüntülerini bastırmak içmek istiyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef], ağrılı bir şekilde hasta olan bir amcanın acısını hafifletmesi için [requestedThing_label]'ı istiyor</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Yakın zamanda kaçırılan bir arkadaşını geri alabilmek için gümüş istiyorlar.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Mekanoidler tarafından saldırıya uğrayan bir gezgin üzerinde hayat kurtaran bir operasyona girişmek için ilaca ihtiyaçları var.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Yoğun ateşi olan yatalak bir arkadaş için bir şifalı bitki ilacı hazırlamak için ilaca ihtiyaçları var.</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Akıncılar tarafından harap edilen yakındaki bir yerleşim yerindeki arkadaşlarına yardım etmek için ilaca ihtiyaçları var.</li>
+    <li>requestInfo(beggarCount>=2)->[groupLabelPlural] [beggingForInfo] yalvarıyorlar</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef], kendisini avlayan bir korsan çetesine borcunu ödemek için gümüş istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef], korsanlar tarafından köleleştirilen ablasının özgürlüğünü satın almak için gümüş istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef], yakınlarda yaralanan bir yolcuya yardım etmek için ilaç istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef], yakınlarda yaralanan küçük kardeşine yardım etmek için ilaca ihtiyacı var</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef], yolda yaralanan sadık evcil hayvanını kurtarmak için ilaca ihtiyaç duyuyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef], sağlıksız bir arkadaşını ölümcül hastalıklara karşı aşılamak için [requestedThing_label] istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef], bir yolcu arkadaşını korkunç bir kazada kaybettikten sonra üzüntüsünü bastırmak için içmek istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef], ağrılı bir şekilde hasta olan bir amcasının acısını hafifletmesi için [requestedThing_label] istiyor</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Silver)->Yakın zamanda kaçırılan bir arkadaşını geri alabilmek için gümüş istiyorlar</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal)->Mekanoitler tarafından saldırıya uğrayan bir gezginin hayatını kurtaracak ameliyata girişmek için ilaca ihtiyaçları var</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineHerbal,allChildren==true,priority=1)->Yoğun ateşi olan yatalak bir arkadaşa şifalı bitki ilacı hazırlamak için ilaca ihtiyaçları var</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==MedicineIndustrial)->Yağmacılar tarafından harap edilen yakındaki bir yerleşim yerindeki arkadaşlarına yardım etmek için ilaca ihtiyaçları var</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Penoxycyline)->Ev diyebilecekleri yeni bir yer ararken güvenli bir şekilde seyahat edebilmeleri için [requestedThing_label] istiyorlar</li>
     <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer)->Korkunç bir saldırıda evlerini kaybettikten sonra üzüntülerini boğmalarına yardım etmek için [requestedThing_label] istiyorlar</li>
-    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Bir kaçış düzenlemeden önce köle tacirlerini sarhoş ederek arkadaşlarını köle tacirlerinden kurtarmak için [requestedThing_label]'i kullanmayı umuyorlar.</li>
-    <li>interactionInfo(beggarCount==1)->Bir kolonici seçip sağ tıklayarak [beggars0_nameDef]'e eşya verebilirsiniz.</li>
-    <li>interactionInfo(beggarCount>=2)->Bir kolonici seçip [beggars0_nameDef]'e sağ tıklayarak [groupLabelPlural]'ye eşya verebilirsiniz.</li>
-    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef], [visitDurationTicks_duration]'dan sonra gidecek</li>
-    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural], [visitDurationTicks_duration]'dan sonra  gidecek</li>
+    <li>claimInfo(beggarCount>=2,requestedThingDefName==Beer,allChildren==true,priority=1)->Bir kaçış düzenlemeden önce köle tacirlerini sarhoş ederek arkadaşlarını köle tacirlerinden kurtarmak için [requestedThing_label] bulmayı umuyorlar</li>
+    <li>interactionInfo(beggarCount==1)->Bir kolonici seçip sağ tıklayarak [beggars0_nameDef] adlı dilenciye eşya verebilirsin.</li>
+    <li>interactionInfo(beggarCount>=2)->Bir kolonici seçip [beggars0_nameDef] adlı dilenciye sağ tıklayarak eşya verebilirsin.</li>
+    <li>moveOnInfo(beggarCount==1)->[beggars0_nameDef], [visitDurationTicks_duration] sonra gidecek</li>
+    <li>moveOnInfo(beggarCount>=2)->[groupLabelPlural], [visitDurationTicks_duration] sonra  gidecek</li>
   </Beggars.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(beggarCount==1)->[beggarSingle] [seekingSingle] [alms]</li>
@@ -128,22 +132,22 @@
     <li>beggarSingle->avare</li>
     <li>beggarSingle->gezgin</li>
     <li>beggarPlural->[beggarSingle]ler</li>
-    <li>seekingSingle->arama</li>
-    <li>seekingSingle->istek</li>
-    <li>seekingSingle->için dilekler</li>
-    <li>seekingSingle->arzular</li>
-    <li>seekingSingle->ihtiyaçlar</li>
-    <li>seekingSingle->için umutlar</li>
-    <li>seekingPlural->istek</li>
-    <li>seekingPlural->için dilekler</li>
-    <li>seekingPlural->dilek</li>
-    <li>seekingPlural->için umutlar</li>
-    <li>seekingPlural->arzu</li>
-    <li>seekingPlural->ihtiyaçlar</li>
+    <li>seekingSingle->arıyor</li>
+    <li>seekingSingle->rica ediyor</li>
+    <li>seekingSingle->diliyor</li>
+    <li>seekingSingle->arzuluyor</li>
+    <li>seekingSingle->dileniyor</li>
+    <li>seekingSingle->umuyor</li>
+    <li>seekingPlural->arıyor</li>
+    <li>seekingPlural->rica ediyor</li>
+    <li>seekingPlural->diliyor</li>
+    <li>seekingPlural->umuyor</li>
+    <li>seekingPlural->arzuluyor</li>
+    <li>seekingPlural->dileniyor</li>
     <li>alms->sadaka</li>
     <li>alms->yardım</li>
-    <li>alms->hayırseverlik</li>
-    <li>alms->kaynaklar</li>
+    <li>alms->hayır</li>
+    <li>alms->kaynak</li>
   </Beggars.questNameRules.rulesStrings>
   
 </LanguageData>

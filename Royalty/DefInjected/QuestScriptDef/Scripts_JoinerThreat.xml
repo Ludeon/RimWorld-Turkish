@@ -28,8 +28,8 @@
     <li>condDesc(gameCondition==ToxicFallout)->Ancak, [joiner_nameDef], kurtları yalnızca yakındaki büyük bir zehirli kimyasal atık alanını ateşe vererek öldürebilir. Bu, [gameConditionDuration_duration] sürecek bir toksik serpintiye yol açacak.</li>
     <li>hidingFrom(gameCondition==VolcanicWinter)->Bir yamyam çetesiden</li>
     <li>condDesc(gameCondition==VolcanicWinter)->Lakin, [joiner_nameDef], yalnızca yakındaki büyük bir terk edilmiş çöp yığınını ateşe vererek çeteyi öldürebilir. Eğer sana katılırsa, bir duman bulutu [gameConditionDuration_duration] boyunca güneşi engelleyecek.</li>
-    <li>hidingFrom(gameCondition==EMIField)->Bir grup mekanoidden</li>
-    <li>condDesc(gameCondition==EMIField)->Fakat, [joiner_nameDef], yalnızca antik bir EMI dinamosunu aktif ederek mekanoidleri yok edebilir. Eğer sana katılırsa, bir EMI alanı oluşacak ve [gameConditionDuration_duration] boyunca elektrikli aletlerin çalışmasını engelleyecek.</li>
+    <li>hidingFrom(gameCondition==EMIField)->Bir grup mekanoitden</li>
+    <li>condDesc(gameCondition==EMIField)->Fakat, [joiner_nameDef], yalnızca antik bir EMI dinamosunu aktif ederek mekanoitleri yok edebilir. Eğer sana katılırsa, bir EMI alanı oluşacak ve [gameConditionDuration_duration] boyunca elektrikli aletlerin çalışmasını engelleyecek.</li>
     <li>hidingFrom(gameCondition==HeatWave)->Arızalı Bir iklim kontrol uydusundan</li>
     <li>condDesc(gameCondition==HeatWave)->Eğer sana katılırsa, yoğun bir sıcak hava dalgası uydu sıfırlanana kadar [gameConditionDuration_duration] boyunca bölgeyi etkisi altına alacak.</li>
     <li>hidingFrom(gameCondition==ColdSnap)->Arızalı bir iklim kontrol uydusundan</li>
@@ -167,7 +167,7 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. [raid1/enemyFaction_name] ve [raid2/enemyFaction_name] arasındaki bir barış ritüeline saygısızlık ettiğini itiraf ediyor. Şimdi her ikisi de onun peşinde!\n\nGüvenliğini sağlaman için yalvarıyor ve sana katılmayı teklif ediyor. [joiner_relationInfo].[joiner_relationInfo]\n\nEğer kabul edersen, hem [raid1/enemyFaction_name] hem de [raid2/enemyFaction_name] [raidDelayTicks_duration] içinde sana baskın düzenleyecek.\n\n[joiner_nameDef], daha fazla bilgi verebilecek kadar sakin değil.</li>
+    <li>questDescription->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. [raid1/enemyFaction_name] ve [raid2/enemyFaction_name] arasındaki bir barış törenine saygısızlık ettiğini itiraf ediyor. Şimdi her ikisi de onun peşinde!\n\nGüvenliğini sağlaman için yalvarıyor ve sana katılmayı teklif ediyor. [joiner_relationInfo].[joiner_relationInfo]\n\nEğer kabul edersen, hem [raid1/enemyFaction_name] hem de [raid2/enemyFaction_name] [raidDelayTicks_duration] içinde sana baskın düzenleyecek.\n\n[joiner_nameDef], daha fazla bilgi verebilecek kadar sakin değil.</li>
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
   </ThreatReward_RaidMultiFaction_Joiner.questDescriptionRules.rulesStrings>
@@ -206,12 +206,12 @@
     <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşındaki bir [joiner_title]</li>
     <li>threat(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name] kaynaklı [site/enemyFaction_pawnsPlural]</li>
-    <li>threat(priority=1,site/MechCluster_exists==True)->Mekanoidler</li>
-    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->Mekanoidler</li>
+    <li>threat(priority=1,site/MechCluster_exists==True)->Mekanoitler</li>
+    <li>threat(priority=1,site/SleepingMechanoids_exists==True)->Mekanoitler</li>
     <li>threat->Düşmanları</li>
     <li>joinersEnemies(priority=1,site/Outpost_exists==True)->[site/enemyFaction_name]</li>
-    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mekanoidler</li>
-    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mekanoidler</li>
+    <li>joinersEnemies(priority=1,site/MechCluster_exists==True)->mekanoitler</li>
+    <li>joinersEnemies(priority=1,site/SleepingMechanoids_exists==True)->mekanoitler</li>
     <li>joinersEnemies->düşmanları</li>
   </ThreatReward_SiteThreat_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:

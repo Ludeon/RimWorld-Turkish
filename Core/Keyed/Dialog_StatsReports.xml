@@ -11,7 +11,7 @@
   <!-- EN: Base value -->
   <StatsReport_BaseValue>Temel değer</StatsReport_BaseValue>
   <!-- EN: Relevant traits -->
-  <StatsReport_RelevantTraits>İlgili özellikler</StatsReport_RelevantTraits>
+  <StatsReport_RelevantTraits>İlgili kişisel özellikler</StatsReport_RelevantTraits>
   <!-- EN: Relevant gear -->
   <StatsReport_RelevantGear>İlgili teçhizat</StatsReport_RelevantGear>
   <!-- EN: Relevant health conditions -->
@@ -35,7 +35,7 @@
   <!-- EN: {0} impact -->
   <HealthOffsetScale>{0} etki</HealthOffsetScale>
   <!-- EN: {0} max -->
-  <HealthFactorMaxImpact>{0} azami</HealthFactorMaxImpact>
+  <HealthFactorMaxImpact>{0} maks.</HealthFactorMaxImpact>
   <!-- EN: if below {0} -->
   <HealthFactorAllowedDefect>şundan düşükse: {0}</HealthFactorAllowedDefect>
   <!-- EN: Post-process curve -->
@@ -45,7 +45,7 @@
   <!-- EN: Final value -->
   <StatsReport_FinalValue>Nihai değer</StatsReport_FinalValue>
   <!-- EN: Max value -->
-  <StatsReport_MaxValue>Azami değer</StatsReport_MaxValue>
+  <StatsReport_MaxValue>Maks. değer</StatsReport_MaxValue>
   <!-- EN: Multiplier for {0} -->
   <StatsReport_MultiplierFor>{0} için çarpan</StatsReport_MultiplierFor>
   <!-- EN: Materials and labor -->
@@ -55,7 +55,7 @@
   <!-- EN: Quality offset -->
   <StatsReport_QualityOffset>Kalite ön değeri</StatsReport_QualityOffset>
   <!-- EN: Max gain -->
-  <StatsReport_MaxGain>Azami kazanç</StatsReport_MaxGain>
+  <StatsReport_MaxGain>Maks. kazanç</StatsReport_MaxGain>
   <!-- EN: Multiplier for age {0} -->
   <StatsReport_AgeMultiplier>{0} yaş için çarpan</StatsReport_AgeMultiplier>
   <!-- EN: Offset for age {0} -->
@@ -175,7 +175,7 @@
   <!-- EN: Mining yield -->
   <Stat_MiningYield_Name>Madencilik verimi</Stat_MiningYield_Name>
   <!-- EN: The maximum amount of items yielded when mining this. The actual yield will be adjusted by the mining skill of the miner. -->
-  <Stat_MiningYield_Desc>Bu kazıldığında elde edilen azami nesne miktarı. Bu miktar, kazıcının madencilik becerisine göre belirlenir.</Stat_MiningYield_Desc>
+  <Stat_MiningYield_Desc>Bu kazıldığında elde edilen maksimum nesne miktarı. Bu miktar, kazıcının madencilik becerisine göre belirlenir.</Stat_MiningYield_Desc>
   <!-- EN: Source species -->
   <Stat_SourceSpecies_Name>Kaynağın türü</Stat_SourceSpecies_Name>
   <!-- EN: The species of creature from which this was taken. -->
@@ -215,7 +215,7 @@
   <!-- EN: Which apparel layers this fills.\n\nFor a given body part, only one piece of apparel can be worn in each layer. -->
   <Stat_Thing_Apparel_Layer_Desc>Bunun doldurduğu kıyafet katmanları.\n\nBelirli bir vücut parçası için her katmanda sadece bir parça kıyafet giyilebilir.</Stat_Thing_Apparel_Layer_Desc>
   <!-- EN: The minimum soil fertility that this plant requires to grow. -->
-  <Stat_Thing_Plant_FertilityRequirement_Desc>Bu bitkinin yetişmesi için gereken asgari toprak verimliliği.</Stat_Thing_Plant_FertilityRequirement_Desc>
+  <Stat_Thing_Plant_FertilityRequirement_Desc>Bu bitkinin yetişmesi için gereken minimum toprak verimliliği.</Stat_Thing_Plant_FertilityRequirement_Desc>
   <!-- EN: How sensitive this plant is to soil fertility.\n\nLow sensitivity means the plant will grow about the same speed in rich or poor soil. High sensitivity means the plant grows slow in poor soil, but faster in rich soil. -->
   <Stat_Thing_Plant_FertilitySensitivity_Desc>Bu bitkinin toprak verimliliğine olan duyarlılığı.\n\nDüşük duyarlılık, bitkinin zengin veya fakir toprakta aynı hızda büyüyeceği anlamına gelir. Yüksek duyarlılık, bitkinin fakir toprakta yavaş, zengin toprakta hızlı büyüyeceği anlamına gelir.</Stat_Thing_Plant_FertilitySensitivity_Desc>
   <!-- EN: The amount of light this plant requires to grow. -->
@@ -225,19 +225,19 @@
   <!-- EN: The amount of product this plant will yield when harvested. -->
   <Stat_Thing_Plant_HarvestYield_Desc>Bu bitkinin hasat edildiğinde vereceği ürün miktarı.</Stat_Thing_Plant_HarvestYield_Desc>
   <!-- EN: The minimum temperature this plant can survive.\n\nTemperatures below this will cause damage over time. -->
-  <Stat_Thing_Plant_MinGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği asgari sıcaklık.\n\nBunun altındaki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MinGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği minimum sıcaklık.\n\nBunun altındaki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MinGrowthTemperature_Desc>
   <!-- EN: The maximum temperature this plant can survive.\n\nTemperatures above this will cause damage over time. -->
-  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği azami sıcaklık.\n\nBunun üstündeki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
+  <Stat_Thing_Plant_MaxGrowthTemperature_Desc>Bu bitkinin hayatta kalabileceği maksimum sıcaklık.\n\nBunun üstündeki sıcaklıklar zamanla hasara neden olacaktır.</Stat_Thing_Plant_MaxGrowthTemperature_Desc>
   <!-- EN: The minimum skill needed for a farmer to to sow this plant. -->
-  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Bir çiftçinin bu bitkiyi ekebilmesi için gereken asgari beceri.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
+  <Stat_Thing_Plant_MinGrowingSkillToSow_Desc>Bir çiftçinin bu bitkiyi ekebilmesi için gereken minimum beceri.</Stat_Thing_Plant_MinGrowingSkillToSow_Desc>
   <!-- EN: The kinds of food this creature is capable of eating.\n\nCan eat: {0} -->
   <Stat_Race_Diet_Desc>Bu canlının yiyebileceği yiyecek çeşitleri.\n\nYiyebilir: {0}</Stat_Race_Diet_Desc>
   <!-- EN: The type of leather this creature will yield when butchered. -->
   <Stat_Race_LeatherType_Desc>Bu canlının kesildiğinde vereceği deri türü.</Stat_Race_LeatherType_Desc>
   <!-- EN: The chance that this creature will attack when a tamer tries to tame it and fails. -->
-  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Bu canlının evcilleştirilmeye çalışıp başarısız olunduğunda evcilleştirene saldırma şansı.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
+  <Stat_Race_Animal_TameFailedRevengeChance_Desc>Bu canlının evcilleştirilmeye çalışıp başarısız olunduğunda evcilleştirene saldırma ihtimali.</Stat_Race_Animal_TameFailedRevengeChance_Desc>
   <!-- EN: This creature's general mental aptitude for training. This is a combination of intelligence and attentiveness. It determines which kinds of tasks this creature can be trained to perform. -->
-  <Stat_Race_Trainability_Desc>Bu canlının eğitime olan genel zihinsel eğilimi. Bu, zekâ ve dikkatin bir birleşimidir. Canlının ne tür görevleri yapması için eğitilebileceğini belirler.</Stat_Race_Trainability_Desc>
+  <Stat_Race_Trainability_Desc>Bu canlının eğitime olan genel zihinsel yatkınlığı. Bu, zekâ ve dikkatin bir birleşimidir. Canlının ne tür görevleri yapması için eğitilebileceğini belirler.</Stat_Race_Trainability_Desc>
   <!-- EN: The average life expectancy of this creature. -->
   <Stat_Race_LifeExpectancy_Desc>Bu canlının ortalama yaşam süresi.</Stat_Race_LifeExpectancy_Desc>
   <!-- EN: Whether this creature is blocked by fences and barricades. -->
@@ -259,11 +259,11 @@
   <!-- EN: The fire rate of this weapon during each burst. -->
   <Stat_Thing_Weapon_BurstShotFireRate_Desc>Bu silah her ateşlendiğindeki atış hızı.</Stat_Thing_Weapon_BurstShotFireRate_Desc>
   <!-- EN: The maximum range of this weapon. -->
-  <Stat_Thing_Weapon_Range_Desc>Bu silahın azami menzili.</Stat_Thing_Weapon_Range_Desc>
+  <Stat_Thing_Weapon_Range_Desc>Bu silahın maksimum menzili.</Stat_Thing_Weapon_Range_Desc>
   <!-- EN: The radius of random spread on shots fired by this weapon.\n\nHigh values make projectiles disperse randomly around the target. -->
   <Stat_Thing_Weapon_MissRadius_Desc>Bu silahla yapılan atışlarda merminin rastgele sapma yarıçapı.\n\nYüksek değerler, mermilerin hedefin etrafında rastgele dağılmasını sağlar.</Stat_Thing_Weapon_MissRadius_Desc>
   <!-- EN: The chance that a shot will directly hit its target if not intercepted, dodged or stopped. -->
-  <Stat_Thing_Weapon_DirectHitChance_Desc>Bir atışın eğer engellenmezse, kaçılmazsa veya durdurulmazsa hedefi doğrudan vurma şansı.</Stat_Thing_Weapon_DirectHitChance_Desc>
+  <Stat_Thing_Weapon_DirectHitChance_Desc>Bir atışın eğer engellenmezse, kaçılmazsa veya durdurulmazsa hedefi doğrudan vurma ihtimali.</Stat_Thing_Weapon_DirectHitChance_Desc>
   <!-- EN: This body part's effect on the mood of the owner. -->
   <Stat_Thing_MoodChange_Desc>Bu vücut parçasının sahibinin ruh hâli üzerindeki etkisi.</Stat_Thing_MoodChange_Desc>
   <!-- EN: The main skill used while performing this recipe.\n\nIt determines the quality of the result, and is learned while performing this recipe. -->
@@ -279,7 +279,7 @@
   <!-- EN: Which stat governs the quality or amount of output.\n\nThe higher the stat of the worker is, the higher the quality or yield will be. -->
   <Stat_Recipe_EfficiencyStat_Desc>Çıktının kalitesini veya miktarını belirleyen nitelik.\n\nNitelik ne kadar yüksek olursa kalite veya verim o kadar yüksek olur.</Stat_Recipe_EfficiencyStat_Desc>
   <!-- EN: A multiplier on the chance this operation will be a success. More difficult operations have lower multipliers.\n\nThe actual chance of success of a surgery is also affected by the doctor, facilities, and medicine used. -->
-  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Bu ameliyatın başarılı olma ihtimalini etkileyen bir çarpan. Daha zor operasyonların çarpanları daha düşüktür.\n\nGerçek başarı şansı doktora, tesislere ve kullanılan ilaca göre hesaplanır.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
+  <Stat_Thing_Surgery_SuccessChanceFactor_Desc>Bu ameliyatın başarılı olma ihtimalini etkileyen bir çarpan. Daha zor operasyonların çarpanları daha düşüktür.\n\nGerçek başarı ihtimali doktora, tesislere ve kullanılan ilaca göre hesaplanır.</Stat_Thing_Surgery_SuccessChanceFactor_Desc>
   <!-- EN: Can't fail -->
   <Stat_Thing_Surgery_SuccessChanceFactor_CantFail>Başarısız olamaz</Stat_Thing_Surgery_SuccessChanceFactor_CantFail>
   <!-- EN: Performing this operation is safe for the patient. -->
@@ -341,7 +341,7 @@
   <!-- EN: {CHARGENOUN_plural} -->
   <Stat_Thing_ReloadMaxCharges_Name>{CHARGENOUN_plural}</Stat_Thing_ReloadMaxCharges_Name>
   <!-- EN: The maximum number of {CHARGENOUN_plural} this object has. -->
-  <Stat_Thing_ReloadMaxCharges_Desc>Bu nesnenin sahip olduğu azami {CHARGENOUN_plural} sayısı.</Stat_Thing_ReloadMaxCharges_Desc>
+  <Stat_Thing_ReloadMaxCharges_Desc>Bu nesnenin sahip olduğu maksimum {CHARGENOUN_plural} sayısı.</Stat_Thing_ReloadMaxCharges_Desc>
   <!-- EN: {CHARGENOUN} reload cost -->
   <Stat_Thing_ReloadRefill_Name>{CHARGENOUN} doldurma maliyeti</Stat_Thing_ReloadRefill_Name>
   <!-- EN: The amount of items required to fully reload this object.\n\nThis object can be reloaded before it is empty, but the cost is the same as if it was empty. -->
@@ -413,13 +413,13 @@
   <!-- EN: How much a user's tolerance to the chemical will fall per day. -->
   <Stat_Thing_Drug_ToleranceFallPerDay_Desc>Kullanıcının kimyasala karşı geliştirdiği toleransın günlük azalma miktarı.</Stat_Thing_Drug_ToleranceFallPerDay_Desc>
   <!-- EN: The minimum tolerance required to become newly addicted to this drug.\n\nIf a user is below this tolerance level, they can't become newly addicted from taking a dose. -->
-  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Yeni bağımlı olmak için gereken asgari tolerans.\n\nEğer kullananın toleransı bu seviyenin altındaysa bir doz alarak yeni bağımlı olamaz.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
+  <Stat_Thing_Drug_MinToleranceForAddiction_Desc>Yeni bağımlı olmak için gereken minimum tolerans.\n\nEğer kullananın toleransı bu seviyenin altındaysa bir doz alarak yeni bağımlı olamaz.</Stat_Thing_Drug_MinToleranceForAddiction_Desc>
   <!-- EN: An adult will only become addicted if they take the drug more often than this.\n\nThis is calculated from the drug's minimum tolerance to addict, the tolerance gain per dose, and the rate of tolerance decay. Some drugs don't have a safe interval. Such drugs can addict on any dose, even the first one.\n\nNote that the safe dose interval depends on a person's body size. -->
-  <Stat_Thing_Drug_SafeDoseInterval_Desc>Kullanıcı, uyuşturucuyu yalnızca bundan daha sık alırsa bağımlı olur.\n\nBu, bağımlı olmak için gereken asgari toleransa, toleransın doz başına artma miktarına ve gerileme hızına bağlıdır. Bazı uyuşturucuların güvenli aralığı yoktur. Bu tip uyuşturucular her dozda bağımlılık yapabilir, ilk seferde bile.\n\nAyrıca, güvenli doz aralığı kişinin vücut boyutuna göre değişir.</Stat_Thing_Drug_SafeDoseInterval_Desc>
+  <Stat_Thing_Drug_SafeDoseInterval_Desc>Kullanıcı, uyuşturucuyu yalnızca bundan daha sık alırsa bağımlı olur.\n\nBu, bağımlı olmak için gereken minimum toleransa, toleransın doz başına artma miktarına ve gerileme hızına bağlıdır. Bazı uyuşturucuların güvenli aralığı yoktur. Bu tip uyuşturucular her dozda bağımlılık yapabilir, ilk seferde bile.\n\nAyrıca, güvenli doz aralığı kişinin vücut boyutuna göre değişir.</Stat_Thing_Drug_SafeDoseInterval_Desc>
   <!-- EN: The chance of a random overdose when taking this drug. Random overdoses can happen on any dose, whether it's a new user's first try or an experienced addict's hundredth hit. -->
   <Stat_Thing_Drug_RandomODChance_Desc>Bu uyuşturucudan rastgele doz aşımı yaşama ihtimali. Rastgele doz aşımları her dozda yaşanabilir. Yeni bir kullanıcının ilk denemesi veya bir müptezelin yüzüncü dozu olması fark etmez.</Stat_Thing_Drug_RandomODChance_Desc>
   <!-- EN: The chance of addiction per dose of this drug.\n\nIf the drug has a minimum tolerance to addict, the tolerance must be above that level for this to apply. If there is no minimum tolerance, any dose can cause an addiction. -->
-  <Stat_Thing_Drug_Addictiveness_Desc>Bu uyuşturucunun doz başına bağımlılık yapma ihtimali.\n\nEğer uyuşturucu, bağımlı olmak için gereken asgari toleransa sahipse, toleransın bu seviyenin üzerinde olması gerekir. Aksi takdirde her doz bağımlılığa yol açabilir.</Stat_Thing_Drug_Addictiveness_Desc>
+  <Stat_Thing_Drug_Addictiveness_Desc>Bu uyuşturucunun doz başına bağımlılık yapma ihtimali.\n\nEğer uyuşturucu, bağımlı olmak için gereken minimum toleransa sahipse, toleransın bu seviyenin üzerinde olması gerekir. Aksi takdirde her doz bağımlılığa yol açabilir.</Stat_Thing_Drug_Addictiveness_Desc>
   <!-- EN: New addictions caused by this drug begin at this severity level.\n\nTaking more of the drug will increase addiction severity, while time will reduce it. -->
   <Stat_Thing_Drug_AddictionSeverityInitial_Desc>Bu uyuşturucuya olan yeni bağımlılıkların başlangıç şiddet seviyesi.\n\nDaha fazla uyuşturucu almak bu şiddeti artırırken zaman azalır.</Stat_Thing_Drug_AddictionSeverityInitial_Desc>
   <!-- EN: How long it takes to recover from an initial addiction to this drug.\n\nThis is be calculated from the new addiction severity divided by the rate of addiction recovery. An addiction which has been fed will take longer. -->

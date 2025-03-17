@@ -20,9 +20,11 @@
   <ReliquaryPilgrims.questContentRules.rulesStrings>
     <li>pilgrimsArrivedLetterLabel->[factionAdj] [pilgrimSingularOrPlural] geldi</li>
     <li>pilgrimsArrivedLetterText->[questDescription]</li>
-    <li>delayedRewardLetterText->[pawns0_nameDef], [andFollowers]'ın [venerateDate] tarihinde [relic_name]'ye saygı göstermesine izin verdiğiniz için teşekkür ederiz. Ödül olarak [pawns0_nameDef], bırakma bölmesi aracılığıyla size şunları gönderiyor (toplam değer [rewardsMarketValue_money]):\n\n[rewards].</li>
-    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural], [relic_name]'ye saygı duymayı bitirdi ve şimdi ayrılıyor.</li>
-    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] haritadan ayrıldı.</li>
+    <li>delayedRewardLetterText->[pawns0_nameDef] [andFollowers], [venerateDate] tarihinde [relic_name] kalıntısına ibadet etmelerine izin verdiğin için sana teşekkür ediyor. Ödül olarak, [pawns0_nameDef] sana aşağıdaki eşyaları kapsül yoluyla gönderiyor (toplam değer: [rewardsMarketValue_money]):\n\n[rewards].</li>
+    <li>pilgrimsLeavingMessage->[pilgrimsLabelSingularOrPlural], [relic_name] kalıntısına ibadet etmeyi tamamladı ve şimdi ayrılıyor.</li>
+    <li>pilgrimsLeftMessage->[pilgrimsLabelSingularOrPlural] haritayı terk etti.</li>
+    <li>areIs(pilgrimCount==1)-></li>
+    <li>areIs(pilgrimCount>=2)-></li>
     <li>andFollowers(pilgrimCount==1)-></li>
     <li>andFollowers(pilgrimCount==2)->ve diğer [faction_pawnSingular]</li>
     <li>andFollowers(pilgrimCount>=3)->ve diğer [faction_pawnsPlural]</li>
@@ -44,6 +46,8 @@
     <li>pilgrimsLabelPlural->[faction_pawnsPlural]</li>
     <li>pilgrimsLabelSingularOrPlural(pilgrimCount==1)->[pilgrimsLabel]</li>
     <li>pilgrimsLabelSingularOrPlural(pilgrimCount>=2)->[pilgrimsLabelPlural]</li>
+    <li>hasHave(pilgrimCount==1)-></li>
+    <li>hasHave(pilgrimCount>=2)-></li>
   </ReliquaryPilgrims.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
     <li>questDescription->[pilgrimsLabelSingularOrPlural] [hasHave] arrived to venerate the [relic_name].\n\nIf you ensure [pronounSingularOrPlural] [isAre] safe and respected while [pronounSingularOrPlural] [visitSingularOrPlural] the ancient relic, [pronounSingularOrPlural] may offer you a reward.</li>
@@ -59,15 +63,17 @@
     <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   -->
   <ReliquaryPilgrims.questDescriptionRules.rulesStrings>
-    <li>questDescription->[pilgrimsLabelSingularOrPlural], [relic_name]'ye hürmet etmek için geldi.\n\n[pronounSingularOrPlural]'ın güvenli ve saygı duyulduğundan emin olurken, [pronounSingularOrPlural] antik kalıntıyı [visitSingularOrPlural], [pronounSingularOrPlural] size bir ödül sunabilir.</li>
-    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->[pilgrimsLabelSingularOrPlural] ve bir çocuk, [relic_name]'na hürmet etmek için geldi.\n\nKadim kalıntıyı [pronounSingularOrPlural] ve [visitSingularOrPlural] kullanırken [pronounSingularOrPlural]'ın güvenli ve saygı duyulduğundan emin olursanız, [visitSingularOrPlural] ve [pronounSingularOrPlural] size ödel bırakabilir</li>
-    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Bir çocuk da dâhil olmak üzere bir grup [pilgrimsLabelSingularOrPlural] [relic_name]'na hürmet etmek için geldi.\n\n[pronounSingularOrPlural] ve [visitSingularOrPlural]  hürtmelerini sunarken antik kalıntının  güvenli ve saygın olduğundan emin olursanız,  size bir ödül teklif edebilirler.</li>
-    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==bazı çocukların da dâhil olduğu bir grup [pilgrimsLabelSingularOrPlural], [relic_name]'na hürmet etmek için geldi.\n\n[pronounSingularOrPlural] ve [visitSingularOrPlural]  hürtmelerini sunarken antik kalıntının  güvenli ve saygın olduğundan emin olursanız,  size bir ödül teklif edebilirler.</li>
-    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Bir grup çocuk [pilgrimsLabelSingularOrPlural], [relic_name]'ye hürmet etmek için geldi.\n\n[pronounSingularOrPlural] ve [visitSingularOrPlural]  hürtmelerini sunarken antik kalıntının  güvenli ve saygın olduğundan emin olursanız,  size bir ödül teklif edebilirler.</li>
+    <li>questDescription->[pilgrimsLabelSingularOrPlural], [relic_name] kalıntısına ibadet etmek için geldi.\n\n[pronounSingularOrPlural], eğer ziyaretleri boyunca güvende olmalarını ve saygıyla karşılanmalarını sağlarsan, sana bir ödül sunabilirler.</li>
+    <li>questDescription(pilgrimCount==1,childCount==1,priority=1)->Çocuk [pilgrimsLabelSingularOrPlural], [relic_name] kalıntısına ibadet etmek için geldi.\n\n[pronounSingularOrPlural], eğer ziyaretleri boyunca güvende olmalarını ve saygıyla karşılanmalarını sağlarsan, sana bir ödül sunabilirler.</li>
+    <li>questDescription(pilgrimCount>=2,childCount==1,priority=1)->Bir çocuk da dâhil olmak üzere bir grup [pilgrimsLabelSingularOrPlural], [relic_name] kalıntısına ibadet etmek için geldi.\n\n[pronounSingularOrPlural], eğer ziyaretleri boyunca güvende olmalarını ve saygıyla karşılanmalarını sağlarsan, sana bir ödül sunabilirler.</li>
+    <li>questDescription(pilgrimCount>=2,childCount>=2,allChildren==false,priority=1)->Bazı çocukların da dâhil olduğu bir grup [pilgrimsLabelSingularOrPlural], [relic_name] kalıntısına ibadet etmek için geldi.\n\n[pronounSingularOrPlural], eğer ziyaretleri boyunca güvende olmalarını ve saygıyla karşılanmalarını sağlarsan, sana bir ödül sunabilirler.</li>
+    <li>questDescription(pilgrimCount>=2,allChildren==true,priority=1)->Bir grup çocuk [pilgrimsLabelSingularOrPlural], [relic_name] kalıntısına ibadet etmek için geldi.\n\n[pronounSingularOrPlural], eğer ziyaretleri boyunca güvende olmalarını ve saygıyla karşılanmalarını sağlarsan, sana bir ödül sunabilirler.</li>
+    <li>isAre(pilgrimCount==1)-></li>
+    <li>isAre(pilgrimCount>=2)-></li>
     <li>pronounSingularOrPlural(pilgrimCount==1)->O</li>
-    <li>pronounSingularOrPlural(pilgrimCount>=2)->onlar</li>
-    <li>visitSingularOrPlural(pilgrimCount==1)->ziyaretçiler</li>
-    <li>visitSingularOrPlural(pilgrimCount>=2)->ziyaretçi</li>
+    <li>pronounSingularOrPlural(pilgrimCount>=2)->Onlar</li>
+    <li>visitSingularOrPlural(pilgrimCount==1)->visits</li>
+    <li>visitSingularOrPlural(pilgrimCount>=2)->visit</li>
   </ReliquaryPilgrims.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'s [visitAdj] [visit]</li>
@@ -90,24 +96,24 @@
     <li>visit->veneration</li>
   -->
   <ReliquaryPilgrims.questNameRules.rulesStrings>
-    <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural]'nin [visitAdj] [visit]</li>
-    <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] [visitAdj] [visit]</li>
+    <li>questName(pilgrimCount==1)->[pilgrimsLabelSingularOrPlural] ve [visitAdj] [visit]</li>
+    <li>questName(pilgrimCount>=2)->[pilgrimsLabelSingularOrPlural] ve [visitAdj] [visit]</li>
     <li>visitAdj(p=6)-></li>
     <li>visitAdj->kutsal</li>
-    <li>visitAdj->gizli</li>
-    <li>visitAdj->manevi</li>
-    <li>visitAdj->ilahi</li>
-    <li>visitAdj->aziz</li>
-    <li>visitAdj->dini</li>
-    <li>visitAdj->kutsal</li>
-    <li>visitAdj->kutsanmış</li>
-    <li>visit->ziyareti</li>
-    <li>visit->haccı</li>
-    <li>visit->misyonu</li>
-    <li>visit->seferi</li>
-    <li>visit->gezintisi</li>
-    <li>visit->turu</li>
-    <li>visit->yolculuğu</li>
+    <li>visitAdj->muazzez</li>
+    <li>visitAdj->ruhani</li>
+    <li>visitAdj->ilahî</li>
+    <li>visitAdj->mukaddes</li>
+    <li>visitAdj->dinî</li>
+    <li>visitAdj->kutlu</li>
+    <li>visitAdj->mübarek</li>
+    <li>visit->ziyaret</li>
+    <li>visit->hac</li>
+    <li>visit->görev</li>
+    <li>visit->sefer</li>
+    <li>visit->gezi</li>
+    <li>visit->tur</li>
+    <li>visit->yolculuk</li>
   </ReliquaryPilgrims.questNameRules.rulesStrings>
   
 </LanguageData>

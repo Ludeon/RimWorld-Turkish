@@ -10,10 +10,10 @@
   -->
   <AncientComplex_Mission.questContentRules.rulesStrings>
     <li>terminalHackedMessage->Terminal hacklendi. {COUNT} / [terminalCount] tamamlandı.</li>
-    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] bilgisayar hackleme yapamaz.</li>
-    <li>passengersIncapableOfHackingDialogText->'[resolvedQuestName]' görevi için mekiği hackleme yeteneğine sahip bir yolcusu yok. Antik kompleksi araştırmak için hackleme yeteneğine sahip en az bir kişi göndermelisiniz.</li>
-    <li>passengersSingularOrPlural(colonistCount==1)->mesajcı</li>
-    <li>passengersSingularOrPlural(colonistCount>=2)->mesajcılar</li>
+    <li>passengersIncapableOfHackingDialogLabel->[passengersSingularOrPlural] bilgisayar korsanlığı yapamıyor.</li>
+    <li>passengersIncapableOfHackingDialogText->'[resolvedQuestName]' görevi için gelen mekikte bilgisayar korsanlığı yapabilecek kimse yok. Eski kompleksi araştırmak için en az bir hackleme yeteneğine sahip kişiyi göndermelisin.</li>
+    <li>passengersSingularOrPlural(colonistCount==1)->yolcu</li>
+    <li>passengersSingularOrPlural(colonistCount>=2)->yolcular</li>
   </AncientComplex_Mission.questContentRules.rulesStrings>
   <!-- EN:
     <li>complex->complex</li>
@@ -29,13 +29,13 @@
   -->
   <AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
     <li>complex->kompleks</li>
-    <li>complex->bileşim</li>
-    <li>complex->Kurulum</li>
+    <li>complex->yerleşke</li>
+    <li>complex->tesis</li>
     <li>complex->yapı</li>
-    <li>complex->inşaat</li>
+    <li>complex->bina</li>
     <li>investigation->soruşturma</li>
-    <li>investigation->muayene</li>
-    <li>investigation->misyon</li>
+    <li>investigation->inceleme</li>
+    <li>investigation->görev</li>
     <li>investigation->kazı</li>
     <li>investigation->hackleme</li>
   </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
@@ -45,7 +45,7 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_faction_name] grubunun [asker_nameDef] [asker_faction_leaderTitle], çok uzakta eski bir kompleks keşfetti. [relic_name] olarak bilinen kalıntı hakkında bilgi içerdiğine inanıyor.\n\n[asker_nameDef], insanların onu incelemesine izin veremez, ancak soruşturmayı yürütmek için tam olarak, [colonistCount] [colonistsSingularOrPlural] sağlayarak yardımcı olabileceğinizi umuyor. .\n\nKompleks bilinmeyen tehditler içeriyor ve aynı zamanda [asker_nameDef]'in düşmanı [enemyFaction_name] tarafından inceleniyor.\n\nkolonicilerinizi almak, onları komplekse getirmek ve daha sonra eve götürmek için bir mekik gönderecek. Yol boyunca beslenecek ve yönlendirilecekler.\n\nİndikten sonra, kompleksteki tüm terminalleri [timeoutTicks_duration] içinde hacklemelisiniz.</li>
+    <li>questDescription->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameDef], uzak bir noktada eski bir kompleks keşfetti. Burada [relic_name] olarak bilinen kalıntıya dair bilgiler olduğuna inanıyor.\n\n[asker_nameDef], burayı araştırmaya ayıracak adam bulamıyor ama senin tam olarak [colonistCount] [colonistsSingularOrPlural] ile yardım edebileceğini umuyor.\n\nKompleks bilinmeyen tehditler barındırıyor ve aynı zamanda [asker_nameDef] ile düşman olan [enemyFaction_name] tarafından da aranıyor.\n\nKolonicilerini almak, onları komplekse götürmek ve ardından geri getirmek için bir mekik gönderecek. Yolculuk boyunca yiyecek ve tıbbi bakım sağlanacak.\n\nİniş yaptıktan sonra, [timeoutTicks_duration] içinde kompleksteki tüm terminalleri hacklemen gerekiyor.</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->kolonici</li>
     <li>colonistsSingularOrPlural(colonistCount>=2)->koloniciler</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
@@ -58,7 +58,7 @@
   <AncientComplex_Mission.questNameRules.rulesStrings>
     <li>questName->[missionAdj] [complex] [investigation]</li>
     <li>missionAdj->saklı</li>
-    <li>missionAdj->sığınak</li>
+    <li>missionAdj->örtülü</li>
     <li>missionAdj->gizli</li>
   </AncientComplex_Mission.questNameRules.rulesStrings>
   

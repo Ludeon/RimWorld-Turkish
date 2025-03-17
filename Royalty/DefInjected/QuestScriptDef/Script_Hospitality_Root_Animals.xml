@@ -52,16 +52,16 @@
     <li>letterSubject(priority=1)->{SUBJECT_definite} the [lodgersLabel]</li>
   -->
   <Hospitality_Animals.questDescriptionRules.rulesStrings>
-    <li>threatsInfoMechClustersSingleAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabel] yörüngede dolaşan bir mekanoid sürüsü tarafından hedef alındı.</li>
-    <li>threatsInfoMechClustersMultiAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabelPlural] yörüngede dolaşan bir mekanoid sürüsü tarafından hedef alındı.</li>
-    <li>threatsInfoMechRaidsSingleAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabel] bir mekanoid kovanı tarafından hedef alındı.</li>
-    <li>threatsInfoMechRaidsMultiAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabelPlural] bir mekanoid kovanı tarafından hedef alındı.</li>
-    <li>questDescription(askerIsNull==true,lodgersCount==1)->Bir hayvan kurtarma örgütü, [lodgers0_nameDef] adındaki bir [lodgersLabel] ile [map_definite] konumuda [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo1][commonDescEnding]</li>
+    <li>threatsInfoMechClustersSingleAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabel] yörüngede dolaşan bir mekanoit sürüsü tarafından hedef alındı.</li>
+    <li>threatsInfoMechClustersMultiAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabelPlural] yörüngede dolaşan bir mekanoit sürüsü tarafından hedef alındı.</li>
+    <li>threatsInfoMechRaidsSingleAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabel] bir mekanoit kovanı tarafından hedef alındı.</li>
+    <li>threatsInfoMechRaidsMultiAnimal->Bilinmeyen sebeplerden ötürü, [lodgersLabelPlural] bir mekanoit kovanı tarafından hedef alındı.</li>
+    <li>questDescription(askerIsNull==true,lodgersCount==1)->Bir hayvan kurtarma örgütü, [lodgers0_nameDef] adındaki bir [lodgersLabel] ile koloninde [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo1][commonDescEnding]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef], hayvan kurtarma aktivistleri tarafından [enemyFaction_name] fraksiyonunun düzenlediği bir kesim seremonisiden kaçırıldı. Şimdi [enemyFaction_pawnsPlural] intikam almaya geliyor. Eğer kabul edersen, [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo1(generateThreats==false)-></li>
-    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Bir hayvan kurtarma örgütü, [lodgersCount] [lodgersLabelPlural] ile [map_definite] konumuda [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo2][commonDescEnding]</li>
+    <li>questDescription(askerIsNull==true,lodgersCount>=2)->Bir hayvan kurtarma örgütü, [lodgersCount] [lodgersLabelPlural] ile koloninde [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo2][commonDescEnding]</li>
     <li>victim->çocuğun</li>
     <li>victim->kadının</li>
     <li>victim->erkeğin</li>
@@ -76,17 +76,17 @@
     <li>threatsInfo3(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo3(generateThreats==false)-></li>
-    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_name] fraksiyonundan [asker_faction_leaderTitle], bir istekte bulunuyor. [lodgersCount] [lodgersLabelPlural] ile [map_definite] konumunda [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo4][commonDescEnding]</li>
+    <li>questDescription(asker_factionLeader==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_name] fraksiyonundan [asker_faction_leaderTitle], bir istekte bulunuyor. [lodgersCount] [lodgersLabelPlural] ile koloninde [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo4][commonDescEnding]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgersLabelPlural], önemli bir ticari vaatin parçası olduğundan [asker_nameDef] için önemli. [enemyFaction_name], provokasyon yapıp çatışma çıkartmak için onların peşinden [enemyFaction_pawnsPlural] yolluyor. Eğer kabul edersen, [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo4(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction], bir istekte bulunuyor. En sevdiği evcil hayvanı [lodgersLabel] [lodgers0_nameDef] ile [map_definite] konumunda [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo5][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount==1,priority=1)->[asker_nameFull], [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction], bir istekte bulunuyor. En sevdiği evcil hayvanı [lodgersLabel] [lodgers0_nameDef] ile koloninde [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [healthInfo][threatsInfo5][commonDescEnding]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\n[lodgers0_nameDef], çocuğuna düğün hediyesi olduğundan [asker_nameDef] için önemli. [enemyFaction_name], evliliği engellemek için onun peşinden [enemyFaction_pawnsPlural] yolluyor. Eğer kabul edersen, [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersSingleAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo5(generateThreats==false)-></li>
-    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction], bir istekte bulunuyor. [lodgersCount] [lodgersLabelPlural] ile [map_definite] konumunda [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [lodgersLabelPlural], en sevdiği evcil hayvanları olduğundan [asker_nameDef] için önemli ve onların kraliyet sarayının dışındaki dünyayı görmelerini istiyor. [healthInfo][threatsInfo6][commonDescEnding]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True,lodgersCount>=2,priority=1)->[asker_nameFull], [asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction], bir istekte bulunuyor. [lodgersCount] [lodgersLabelPlural] ile koloninde [shuttleDelayTicks_duration] boyunca ilgilenmeni istiyor. [lodgersLabelPlural], en sevdiği evcil hayvanları olduğundan [asker_nameDef] için önemli ve onların kraliyet sarayının dışındaki dünyayı görmelerini istiyor. [healthInfo][threatsInfo6][commonDescEnding]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction!=Mechanoid)->\n\nMaalesef, [lodgersLabelPlural] [asker_nameDef] üzülsün diye [enemyFaction_name] tarafından hedef tahtasına konmuş vaziyette. Eğer kabul edersen, [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==Raids,enemyFaction==Mechanoid)->\n\n[threatsInfoMechRaidsMultiAnimal] [enemyGroupsParagraph]</li>
     <li>threatsInfo6(generateThreats==true,threatType==MechClusters)->\n\n[threatsInfoMechClustersMultiAnimal] [enemyGroupsParagraph]</li>

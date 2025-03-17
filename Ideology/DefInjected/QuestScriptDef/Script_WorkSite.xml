@@ -7,9 +7,9 @@
     <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
   -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->Yakınlarda [faction_name] tarafından kontrol edilen bir [siteLabel] tespit ettiniz.\n\nDilerseniz, ganimet ([loot]) toplamak için kampa baskın yapabilirsiniz. [raidConsequences]\n\nKamp toplanacak ve {replace: [timeout_duration]; "Tage"-"Tagen"; "Jahre"-"Jahren"} içinde yoluna devam edecek.</li>
-    <li>raidConsequences(faction_temporary==false)->Bunu yaparsanız, [faction_name] düşman olur.</li>
-    <li>raidConsequences(faction_temporary==true)->[faction_name] sadece küçük, bağımsız bir grup olduğundan, daha geniş diplomatik sonuçlar olmadan onlara saldırabilirsiniz.</li>
+    <li>questDescription->Yakınlarda [faction_name] tarafından kontrol edilen bir [siteLabel] tespit ettin.\n\nEğer istersen, ganimet toplamak için kampa baskın düzenleyebilirsin ([loot]). [raidConsequences]\n\nKamp, [timeout_duration] içinde toparlanıp taşınacak.</li>
+    <li>raidConsequences(faction_temporary==false)->Eğer bunu yaparsan, [faction_name] sana düşman olacak.</li>
+    <li>raidConsequences(faction_temporary==true)->[faction_name] yalnızca küçük, bağımsız bir grup olduğundan, onlara saldırmanın daha geniş diplomatik sonuçları olmayacak.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[site_label] [detected]</li>
@@ -25,14 +25,14 @@
   -->
   <OpportunitySite_WorkSite.questNameRules.rulesStrings>
     <li>questName->[site_label] [detected]</li>
-    <li>detected->saptandı</li>
+    <li>detected->tespit edildi</li>
     <li>detected->keşfedildi</li>
     <li>detected->yakında</li>
     <li>detected->bulundu</li>
     <li>detected->tanımlandı</li>
     <li>detected->algılandı</li>
     <li>detected->gözlemlendi</li>
-    <li>detected->açıklığa kavuştu</li>
+    <li>detected->ortaya çıktı</li>
     <li>detected->açığa çıktı</li>
   </OpportunitySite_WorkSite.questNameRules.rulesStrings>
   
