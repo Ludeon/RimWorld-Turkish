@@ -29,6 +29,8 @@
   <DeleteCustom>Özeli sil</DeleteCustom>
   <!-- EN: Create new -->
   <CreateNew>Yeni oluştur</CreateNew>
+  <!-- EN: Create fluid -->
+  <CreateFluid>Akışkan oluştur</CreateFluid>
   <!-- EN: Load existing -->
   <LoadExisting>Mevcut yükle</LoadExisting>
   <!-- EN: Create custom ideoligion -->
@@ -49,8 +51,6 @@
   <Appearance>Görünüm</Appearance>
   <!-- EN: Done -->
   <DoneButton>Tamamla</DoneButton>
-  <!-- EN: Caused by -->
-  <CausedBy>Şu sebeple</CausedBy>
   <!-- EN: Belief in -->
   <BeliefInIdeo>Şuna iman</BeliefInIdeo>
   <!-- EN: Information about {0} -->
@@ -99,6 +99,10 @@
   <SetIdeoColor>İdeo rengini seç</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Favori rengini seç</SetFavoriteColor>
+  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <FavoriteColorPickerTip>{PAWN_nameDef}, en çok bu rengi seviyor. Kıyafetinin %60 oranından fazla bu renkte veya ideodininin renginde olması onu biraz daha mutlu edecek.</FavoriteColorPickerTip>
+  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <IdeoColorPickerTip>Bu, {PAWN_nameDef} kişisinin mensup olduğu ideodinin rengi. Kıyafetinin %60 oranından fazla bu renkte veya favori renginde olması onu biraz daha mutlu edecek.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Fraksiyonunun ideodinini yapılandır</ConfigureIdeoligion>
   <!-- EN: Not enough dye. -->
@@ -197,8 +201,14 @@
   <RitualTargetConnectedGauranlenTree>Zaten {PAWN_nameDef} ile bağlı</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
   <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ile olan rabıta yakın zamanda koptu. {1} içinde tekrar bağlanılabilir.</RitualTargetConnectionTornGauranlenTree>
-  <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
-  <RitualTargeWoodInfo>Her katılımcı için {0} oduna ihtiyacın var (toplam {2}). {1} odunun var.</RitualTargeWoodInfo>
+  <!-- EN: You need {0} wood for each participant ({1} total). -->
+  <RitualTargetWoodInfo>Her katılımcı için {0} odun lazım (toplam {1}).</RitualTargetWoodInfo>
+  <!-- EN: A participant cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppend>Bir katılımcı yeterli miktarda oduna erişemiyor.</RitualTargetWoodInfoAppend>
+  <!-- EN: {0} participants cannot reach enough wood. -->
+  <RitualTargetWoodInfoAppendMultiple>{0} yeterli miktarda oduna erişemiyor.</RitualTargetWoodInfoAppendMultiple>
+  <!-- EN: {PAWN_labelShort} cannot reach enough wood. -->
+  <RitualTargetWoodInfoWarning>{PAWN_labelShort} yeterli miktarda oduna erişemiyor.</RitualTargetWoodInfoWarning>
   <!-- EN: {0} must be able to reach ritual target. -->
   <RitualTargetUnreachable>{0} ritüel hedefine ulaşabilmeli.</RitualTargetUnreachable>
   <!-- EN: Accuse -->
@@ -217,9 +227,9 @@
   <!-- EN: Everyone participating in the ritual gained a one-day work focus buff ({PERCENTAGE} global work speed)! -->
   <RitualOutcomeExtraDesc_DancePartyWorkFocus>Ritüele katılan herkes bir günlük iş odaklanma tutkunu ({PERCENTAGE} küresel iş hızı) kazandı!</RitualOutcomeExtraDesc_DancePartyWorkFocus>
   <!-- EN: Thanks to a satisfying blinding ritual, {PAWN_labelShort} gained a psylink level! -->
-  <RitualOutcomeExtraDesc_BlindingPsylink>Tatmin edici bir körleştirme ritüeli sayesinde {PAWN_labelShort} psi-bağlantı seviyesi kazandı!</RitualOutcomeExtraDesc_BlindingPsylink>
-  <!-- EN: With a new psylink level {PAWN_pronoun} gained a {0} psycast. -->
-  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Yeni psi-bağlantı seviyesiyle {PAWN_pronoun}, bir {0} psi-beceri kazandı.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
+  <RitualOutcomeExtraDesc_BlindingPsylink>Tatmin edici bir körleştirme ritüeli sayesinde {PAWN_labelShort} psi-bağ seviyesi kazandı!</RitualOutcomeExtraDesc_BlindingPsylink>
+  <!-- EN: With a new pyslink level {PAWN_pronoun} gained a {0} psycast. -->
+  <RitualOutcomeExtraDesc_BlindingPsylinkAbility>Yeni psi-bağ seviyesiyle {PAWN_pronoun}, bir {0} psi-beceri kazandı.</RitualOutcomeExtraDesc_BlindingPsylinkAbility>
   <!-- EN: Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}! -->
   <RitualOutcomeExtraDesc_ConsumableInspiration>Tatmin edici bir {RITUAL} sayesinde {PAWN_labelShort}, {INSPIRATION} kazandı!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <!-- EN: Your skylanterns have attracted some friendly travelers. They will visit and leave a gift. -->
@@ -292,8 +302,6 @@
 
   <!-- EN: For slave use -->
   <ForSlaveUse>Köle kullanımı için</ForSlaveUse>
-  <!-- EN: Slave -->
-  <Slave>Köle</Slave>
   <!-- EN: If you sell someone to any faction besides their own, they become slaves. -->
   <SellingAsSlave>Birini ait olduğu fraksiyon dışında herhangi bir fraksiyona satarsan köle olur.</SellingAsSlave>
   <!-- EN: If you sell someone to their own faction, they are ransomed and not enslaved. -->
@@ -388,7 +396,7 @@
 
   <!-- EN: Relic info found -->
   <RelicInfoFound>Kutsal emanete dair bilgi bulundu</RelicInfoFound>
-  <!-- EN: inactive, requires atleast {0} {1}s (have {2}) -->
+  <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
   <InactiveRoleRequiresMoreBelievers>etkin değil, en az {0} {1} gerekli ({2} var)</InactiveRoleRequiresMoreBelievers>
   
   <!-- EN: certainty -->
@@ -644,7 +652,7 @@
   <!-- EN: One of these conditions will be healed -->
   <HealingCycleOneWillHeal>Şu sağlık durumlarından biri iyileşecek</HealingCycleOneWillHeal>
   <!-- EN: Missing required research -->
-  <MissingRequiredResearch>Gerekli araştırma eksik</MissingRequiredResearch>
+  <MissingRequiredResearch>Gereken araştırma eksik</MissingRequiredResearch>
   <!-- EN: Requires -->
   <BiosculpterRequiresIngredients>Gerektirir</BiosculpterRequiresIngredients>
   <!-- EN: On completion of the {CYCLE} cycle, the following will occur -->

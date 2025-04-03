@@ -24,8 +24,8 @@
   <PsycastNeurotrainerDescription>Belirli bir psişik gücü öğreten, tek kullanımlık süper doz mekanitler.\n\nDoz, göz çevresinden uygulanır. Bir kez beyne salındığında mekanitler, belirli bir becerinin bilgisini oluşturur ve gerektiğinde kendilerini sinir dokuya dönüştürür.\n\n{PSYCAST_label}\n\n{PSYCASTDESCRIPTION}</PsycastNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used neurotrainer to learn the {1} power. -->
   <AbilityNeurotrainerUsed>{USER_labelShort}, {1} gücünü öğrenmek için nöroeğitmen kullandı.</AbilityNeurotrainerUsed>
-  <!-- EN: Requires psylink -->
-  <PsycastNeurotrainerNoPsylink>Psi-bağlantı gerekli</PsycastNeurotrainerNoPsylink>
+  <!-- EN: requires psylink -->
+  <PsycastNeurotrainerNoPsylink>Psi-bağ gerekli</PsycastNeurotrainerNoPsylink>
   <!-- EN: {USER_labelShort} already knows {1}. -->
   <PsycastNeurotrainerAbilityAlreadyLearned>{USER_labelShort}, zaten {1} bilgisine sahip.</PsycastNeurotrainerAbilityAlreadyLearned>
 
@@ -39,8 +39,6 @@
   <NotUsable>Kullanılamaz hâlde</NotUsable>
   <!-- EN: unpowered -->
   <Unpowered>güç verilmemiş</Unpowered>
-  <!-- EN: blocked by roof -->
-  <BlockedByRoof>çatı tarafından engellendi</BlockedByRoof>
   <!-- EN: Too close to other beacon -->
   <TooCloseToOtherBeacon>Diğer fenere çok yakın</TooCloseToOtherBeacon>
   
@@ -117,15 +115,15 @@
   <!-- EN: Need {0} {1} here (have {2}) -->
   <BeginLinkingRitualNeedSubplants>Burada {0} {1} gerekiyor ({2} var)</BeginLinkingRitualNeedSubplants>
   <!-- EN: Need {0} psylink focus type -->
-  <BeginLinkingRitualNeedFocus>{0} psi-bağlantı odak türü gerekiyor</BeginLinkingRitualNeedFocus>
+  <BeginLinkingRitualNeedFocus>{0} psi-bağ odak türü gerekiyor</BeginLinkingRitualNeedFocus>
   <!-- EN: Max psylink level -->
-  <BeginLinkingRitualMaxPsylinkLevel>Maks. psi-bağlantı seviyesi</BeginLinkingRitualMaxPsylinkLevel>
+  <BeginLinkingRitualMaxPsylinkLevel>Maks. psi-bağ seviyesi</BeginLinkingRitualMaxPsylinkLevel>
   <!-- EN: Need a free, reachable spot within 3 cells for linking -->
   <BeginLinkingRitualNeedLinkSpot>Bağlanmak için en fazla 3 hücre mesafede, boşta, erişilebilir bir noktaya ihtiyacın var</BeginLinkingRitualNeedLinkSpot>
   <!-- EN: Linking ritual completed -->
   <LetterLabelLinkingRitualCompleted>Bağlanma ritüeli tamamlandı</LetterLabelLinkingRitualCompleted>
   <!-- EN: {PAWN_labelShort} has completed the linking ritual with {LINKABLE_labelShort}.\n\n{PAWN_pronoun} now has an upgraded psylink, permitting the use of new psychic powers. -->
-  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}, {LINKABLE_labelShort} ile bağlanma ritüelini tamamladı.\n\nArtık yeni psişik güçlerin kullanımını mümkün kılan bir psi-bağlantı yükseltmesine sahip.</LetterTextLinkingRitualCompleted>
+  <LetterTextLinkingRitualCompleted>{PAWN_labelShort}, {LINKABLE_labelShort} ile bağlanma ritüelini tamamladı.\n\nArtık yeni psişik güçlerin kullanımını mümkün kılan bir psi-bağ yükseltmesine sahip.</LetterTextLinkingRitualCompleted>
   <!-- EN: Additionally, {0} anima grass has been restored. -->
   <LetterTextLinkingRitualCompletedAnimaGrass>Ek olarak, {0} anima otu geri yüklendi.</LetterTextLinkingRitualCompletedAnimaGrass>
 
@@ -154,7 +152,7 @@
   <!-- EN: an anima tree -->
   <RitualTargetAnimaTreeInfo>bir ruh ağacı</RitualTargetAnimaTreeInfo>
   <!-- EN: Must be a colonist with the natural meditation focus type who is below maximum psylink level. -->
-  <RitualTargetAnimaTreeMustBeCapableOfNature>En yüksek psi-bağlantı seviyesinin altında olan ve doğal meditasyon odak tipine sahip bir kolonici olmalı.</RitualTargetAnimaTreeMustBeCapableOfNature>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>En yüksek psi-bağ seviyesinin altında olan ve doğal meditasyon odak tipine sahip bir kolonici olmalı.</RitualTargetAnimaTreeMustBeCapableOfNature>
   <!-- EN: Must not be psychically deaf. -->
   <RitualTargetAnimaTreeMustBePsychicallySensitive>Psişik açıdan sağır olmamalı.</RitualTargetAnimaTreeMustBePsychicallySensitive>
 
@@ -162,6 +160,8 @@
   <AnimaLinkingExplanationBase>Ruh bağlama töreni, daha fazla katılımcıyla daha güçlüdür. Ne kadar çok insan katılırsa ritüel o kadar az zaman alır ve daha fazla ruh otu büyür.\n\n{0} ek katılımcıyla törenin sonunda {1} ruh otu biter.</AnimaLinkingExplanationBase>
   <!-- EN: Not all required cargo is loaded yet! -->
   <ShuttleRequiredItemsNotSatisfied>Gerekli tüm kargolar henüz yüklenmedi!</ShuttleRequiredItemsNotSatisfied>
+  <!-- EN: Cannot load {0_labelShort} -->
+  <CannotLoadIntoShuttle>{0_labelShort} yüklenemiyor</CannotLoadIntoShuttle>
 
   <!-- EN: no heat to dump. -->
   <AbilityNoEntropyToDump>boşaltılacak ısı yok.</AbilityNoEntropyToDump>

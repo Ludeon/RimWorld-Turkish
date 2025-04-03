@@ -77,6 +77,8 @@
   <Groups>Gruplar</Groups>
   <!-- EN: Loading mech gestation resources -->
   <LoadingMechGestator>Mek kuluçkalama için kaynaklar yükleniyor</LoadingMechGestator>
+  <!-- EN: Time left this cycle -->
+  <GestatingInspect>Bu döngünün kalan süresi</GestatingInspect>
   <!-- EN: Initiating mech gestation cycle -->
   <InitMechGestationCycle>Mek kuluçkalama döngüsünü başlatılıyor</InitMechGestationCycle>
   <!-- EN: Initiating mech birth -->
@@ -145,7 +147,7 @@
   <AutoWakeDesc>Açık olduğunda, {PAWN_nameDef} ölüm uykusu tamamlandığında otomatik olarak uyanır.\n\nKapalıyken, sen onu manuel olarak uyandırana kadar ölüm uykusuna devam eder.</AutoWakeDesc>
   <!-- EN: {PAWN_nameDef} is deathresting. -->
   <IsDeathresting>{PAWN_nameDef} ölüm uykusunda.</IsDeathresting>
-  <!-- EN: Cannot deathrest -->
+  <!-- EN: cannot deathrest -->
   <CannotDeathrest>ölüm uykusu olamaz</CannotDeathrest>
   <!-- EN: Start deathrest -->
   <StartDeathrest>Ölüm uykusuna yat</StartDeathrest>
@@ -153,8 +155,6 @@
   <ConfirmExitDeathrestUnderMinDays>Ölüm uykusu güvenli bir şekilde tamamlamak {MINDURATION} alır ama {PAWN_nameDef} ölüm uykusuna yatalı yalnızca {CURDURATION} oldu.\n\n{PAWN_nameDef} şimdi uyandırılırsa ölüm uykusu kesintiye uğrayarak metabolizmasını bozar ve önümüzdeki günlerde onu hasta eder.\n\nOnu uyandırmak istediğine emin misin?</ConfirmExitDeathrestUnderMinDays>
   <!-- EN: deathresting -->
   <Deathresting>ölüm uykusunda</Deathresting>
-  <!-- EN: complete -->
-  <Complete>tamamla</Complete>
   <!-- EN: can wake safely now. -->
   <CanWakeSafely>artık güvenle uyanabilir.</CanWakeSafely>
   <!-- EN: Disabled by gene -->
@@ -297,7 +297,7 @@
   <ComplexityTotal>Toplam karmaşıklık</ComplexityTotal>
   <!-- EN: The total complexity of all the genes in use. -->
   <ComplexityTotalDesc>Kullanılan tüm genlerin toplam karmaşıklığı.</ComplexityTotalDesc>
-  <!-- EN: Metabolic efficiency -->
+  <!-- EN: metabolic efficiency -->
   <Metabolism>Metabolik verimlilik</Metabolism>
   <!-- EN: The total metabolic efficiency of these genes when assembled. High efficiency means a person needs less food; low efficiency means they must eat more. -->
   <MetabolismDesc>Bu genlerin birleştirildiğindeki toplam metabolik verimliliği. Yüksek verimlilik, kişinin daha az yiyeceğe ihtiyaç duymasını sağlar; düşük verimlilik ise daha fazla yemesi gerektiği anlamına gelir.</MetabolismDesc>
@@ -420,17 +420,15 @@
   <!-- EN: Xenogerm -->
   <Xenogerm>Zenogerm</Xenogerm>
   <!-- EN: {PAWN_nameDef} will continue deathresting so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepDeathrestingLethâlinjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece ölüm uykusuna devam edecek.</PawnWillKeepDeathrestingLethâlinjuries>
+  <PawnWillKeepDeathrestingLethalInjuries>{PAWN_nameDef}, ölümcül yaraları olduğu sürece ölüm uykusunda kalacak.</PawnWillKeepDeathrestingLethalInjuries>
   <!-- EN: {PAWN_nameDef} will remain in a regeneration coma so long as {PAWN_pronoun} has lethal injuries. -->
-  <PawnWillKeepRegeneratingLethâlinjuries>{PAWN_nameDef}, ölümcül yaralanmaları olduğu sürece komada kalacak.</PawnWillKeepRegeneratingLethâlinjuries>
+  <PawnWillKeepRegeneratingLethalInjuries>{PAWN_nameDef}, ölümcül yaraları olduğu sürece yenilenme komasında kalacak</PawnWillKeepRegeneratingLethalInjuries>
   <!-- EN: Deathrest stopped -->
   <DeathrestPaused>Ölüm uykusu durduruldu</DeathrestPaused>
   <!-- EN: Lethal injuries -->
-  <Lethâlinjuries>Ölümcül yaralanmalar</Lethâlinjuries>
+  <LethalInjuries>Ölümcül yaralar</LethalInjuries>
   <!-- EN: deathrest -->
   <Deathrest>ölüm uykusu</Deathrest>
-  <!-- EN: Buildings -->
-  <Buildings>Yapılar</Buildings>
   <!-- EN: capacity -->
   <Capacity>kapasite</Capacity>
   <!-- EN: Non-{GENE} romance chance -->
@@ -446,8 +444,6 @@
 
   <!-- EN: Children want to learn from different activities at different times. -->
   <LearningDesireTooltip>Çocuklar, farklı zamanlarda farklı etkinliklerden öğrenmek isterler.</LearningDesireTooltip>
-  <!-- EN: {0_nameDef}'s current learning desire: -->
-  <LearningDesireTooltip_CurrentDesire>{0_nameDef} adlı çocuğun mevcut öğrenme arzusu:</LearningDesireTooltip_CurrentDesire>
   <!-- EN: Development health is the average of a child's learning need since their last birthday.\n\nChildren with higher development health will have more options during growth moments and will gain more passions for skills. -->
   <DevelopmentHealthGizmoTooltip>Gelişim sağlığı, bir çocuğun son doğum gününden itibaren öğrenme ihtiyacının ortalamasıdır.\n\nGelişim sağlığı yüksek olan çocuklar, büyüme anlarında daha fazla seçenek elde eder ve becerilere yönelik daha fazla tutku kazanır.</DevelopmentHealthGizmoTooltip>
 
@@ -485,6 +481,8 @@
   <GestatingMech>{0} kuluçkalanıyor</GestatingMech>
   <!-- EN: Gestated {0} -->
   <GestatedMech>{0} kuluçkalandı</GestatedMech>
+  <!-- EN: Requires {PAWN_nameDef} to continue gestating -->
+  <GestatingMechRequiresMechanitor>{PAWN_nameDef} kuluçkalamayı devam ettirmeli</GestatingMechRequiresMechanitor>
   <!-- EN: Requires {PAWN_nameDef} to complete -->
   <GestatedMechRequiresMechanitor>Tamamlanması için {PAWN_nameDef} gerekli</GestatedMechRequiresMechanitor>
   <!-- EN: Gestation complete -->
@@ -770,5 +768,10 @@
   <MyChildIsHappy>çocuğum mutlu</MyChildIsHappy>
   <!-- EN: my child is sad -->
   <MyChildIsSad>çocuğum üzgün</MyChildIsSad> 
+  
+  <!-- EN: Genetic {CHEMICAL_label} dependency -->
+  <GeneticChemicalDependency_Label>Genetik {CHEMICAL_label} bağımlılığı</GeneticChemicalDependency_Label>
+  <!-- EN: I need {CHEMICAL_label} because of my genetic deficiency. It's been so long since I've had any. -->
+  <GeneticChemicalDependency_Desc>Genetik kusurlarım yüzünden {CHEMICAL_label} kullanmam lazım. En son ne zaman kullandım hatırlamıyorum.</GeneticChemicalDependency_Desc>
 
 </LanguageData>
