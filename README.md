@@ -1,6 +1,6 @@
 ![Image of Rimworld](http://rimworldwiki.com/images/thumb/8/8c/Rimworldlogo.png/600px-Rimworldlogo.png)
 
-* RimWorld için resmi Türkçe Dil çevirisi.
+* RimWorld için resmî Türkçe Dil çevirisi.
 * Official Turkish language translation for RimWorld.
 
 # Çeviriye başlarken

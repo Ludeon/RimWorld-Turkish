@@ -19,15 +19,15 @@
     <li>desc_sentence->[PAWN_pronoun] has lost [PAWN_possessive] balance.</li>
   -->
   <CollapseDodged.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin mağara çökmesinden kaçması</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin neredeyse ezilmesi</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] enkazdan uzaklaşıyor</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] mağaradan zar zor kaçıyor</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] göçükten kaçıyor</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] kayalardan ölmeden sıyrılıyor</li>
-    <li>circumstance_phrase->toz perdesinin arkasında gözden kaybolan</li>
-    <li>circumstance_phrase->altında kalan her şeyi ezen</li>
-    <li>circumstance_phrase->inanılmaz bir kuvvetle yıkılan</li>
+    <li>tale_noun->[PAWN_nameDef] mağara çökmesinden kaçıyor</li>
+    <li>tale_noun->[PAWN_nameDef] ezilme tehlikesi geçiriyor</li>
+    <li>image->[PAWN_nameFull] enkazdan uzaklaşıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] mağaradan zar zor kaçıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] göçükten kaçıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] kayalardan ölmeden sıyrılıyor, [circumstance_group]</li>
+    <li>circumstance_phrase->toz perdesinin arkasında gözden kayboluyor</li>
+    <li>circumstance_phrase->geride kalan her şeyi eziliyor</li>
+    <li>circumstance_phrase->mekân inanılmaz bir kuvvetle yıkılıyor</li>
     <li>desc_sentence->O, evhamlı şekilde terliyor.</li>
     <li>desc_sentence->O, dehşete kapılmış gibi görünüyor.</li>
     <li>desc_sentence->O, çizikler içinde ve kanıyor.</li>
@@ -60,17 +60,17 @@
     <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
   -->
   <LaunchedShip.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin gezegenden kaçması</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin bir uzay gemisiyle havalanması</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] yıldızlara doğru fırlatılıyor</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] göklere doğru hızlanıyor</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] kaçış hızına erişiyor</li>
-    <li>image->[PAWN_nameFull] [circumstance_group] roketini uçuruyor</li>
-    <li>circumstance_phrase->[TerrainFeature] önünde</li>
-    <li>circumstance_phrase->inanılmaz bir güçle</li>
-    <li>circumstance_phrase->toz dumanın içinde</li>
-    <li>circumstance_phrase->dramatik bir ateşlemeyle</li>
-    <li>circumstance_phrase->hassas bir kalkışla</li>
+    <li>tale_noun->[PAWN_nameDef] gezegenden kaçıyor</li>
+    <li>tale_noun->[PAWN_nameDef] bir uzay gemisiyle havalanıyor</li>
+    <li>image->[PAWN_nameFull] yıldızlara doğru fırlatılıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] göklere doğru hızlanıyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] kaçış hızına erişiyor, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] roketini uçuruyor, [circumstance_group]</li>
+    <li>circumstance_phrase->[TerrainFeature] giderek gözden kayboluyor</li>
+    <li>circumstance_phrase->motorlar inanılmaz bir güçle çalışıyor</li>
+    <li>circumstance_phrase->toz duman yükseliyor</li>
+    <li>circumstance_phrase->dramatik bir ateşleme anı yaşanıyor</li>
+    <li>circumstance_phrase->hassas bir kalkış gerçekleşiyor</li>
     <li>desc_sentence->Dikkatle kontrollere odaklanıyor.</li>
     <li>desc_sentence->Kendine güvenir şekilde gözlerini kapatıyor.</li>
     <li>desc_sentence->Gözleri kapalı bir şekilde huzurla yatıyor.</li>
@@ -119,28 +119,28 @@
     <li>target->[RESPONDER_nameDef]</li>
   -->
   <SocialFight.rulePack.rulesStrings>
-    <li>tale_noun->[INITIATOR_nameDef] ile [RESPONDER_nameDef] kişilerinin [fight_name_present]</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de ona hakaret ediyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de ona sataşıyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de onu tehdit ediyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de onun gözünü korkutuyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de ona saldırıyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de ona ağır şekilde saldırıyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de ona yumruk atıyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de ona tekme atıyor</li>
-    <li>image->[circumstance_group] [INITIATOR_nameFull] de onun üstüne atlıyor</li>
-    <li>fight_name_present->birbirlerine saldırması</li>
-    <li>fight_name_present->kavga etmesi</li>
-    <li>fight_name_present->dövüşmesi</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] ona hakaret ederken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] ona sataşırken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] onu tehdit ederken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] onun gözünü korkuturken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] ona saldırırken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] ona ağır şekilde saldırırken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] ona yumruk atarken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] onu tekmelerken</li>
-    <li>circumstance_phrase->[RESPONDER_nameDef] onun üstüne atlarken</li>
+    <li>tale_noun->[INITIATOR_nameDef] ile [RESPONDER_nameDef] [fight_name_present]</li>
+    <li>image->[INITIATOR_nameFull] hakaret ederken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] sataşırken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] tehditler savururken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] gözünü korkuturken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] saldırırken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] ağır şekilde saldırırken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] yumruk savururken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] tekme savururken [circumstance_group]</li>
+    <li>image->[INITIATOR_nameFull] üstüne atlarken [circumstance_group]</li>
+    <li>fight_name_present->birbirlerine saldırıyor</li>
+    <li>fight_name_present->kavga ediyor</li>
+    <li>fight_name_present->dövüşüyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de ona hakaret ediyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de ona sataşıyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de onu tehdit ediyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de onun gözünü korkutuyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de ona saldırıyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de ona ağır şekilde saldırıyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de ona yumruk atıyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de onu tekmeliyor</li>
+    <li>circumstance_phrase->[RESPONDER_nameDef] de onun üstüne atlıyor</li>
     <li>desc_sentence->[target] pişmanlık duymuyor gibi görünüyor.</li>
     <li>desc_sentence->[target] öfke içinde.</li>
     <li>desc_sentence->[target] herhangi bir duygu belirtisi göstermiyor.</li>

@@ -20,21 +20,22 @@
     <li>destroyed_present->breaking</li>
   -->
   <DamageEvent_Ceiling.rulePack.rulesStrings>
-    <li>damage_source->[roof] [collapsed]</li>
+    <li>damage_source->nin üzerine [roof] [collapsed]</li>
     <li>roof->çatı</li>
-    <li>roof->çatı malzemesi</li>
+    <li>roof->dam</li>
     <li>roof->tavan</li>
     <li>collapsed->çöktü</li>
     <li>collapsed->düştü</li>
-    <li>collapsed->mağara</li>
-    <li>damaged_past->ezildi</li>
-    <li>damaged_past->sertçe vuruldu</li>
-    <li>damaged_past->zedelendi</li>
-    <li>damaged_past->yırtıldı</li>
-    <li>destroyed_past->parçalandı</li>
-    <li>destroyed_past->yokedildi</li>
-    <li>destroyed_past->ortadan kalktı</li>
-    <li>destroyed_past->kırıldı</li>
+    <li>collapsed->göçtü</li>
+    <li>damaged_present->ezildi</li>
+    <li>damaged_present->hasar aldı</li>
+    <li>damaged_present->berelendi</li>
+    <li>damaged_present->yaralandı</li>
+    <li>destroyed_present->parçalandı</li>
+    <li>destroyed_present->dağıldı</li>
+    <li>destroyed_present->mahvoldu</li>
+    <li>destroyed_present->yok oldu</li>
+    <li>destroyed_present->kırıldı</li>
   </DamageEvent_Ceiling.rulePack.rulesStrings>
   
   <!-- EN:
@@ -55,19 +56,21 @@
     <li>destroyed_present->cremating</li>
   -->
   <DamageEvent_Fire.rulePack.rulesStrings>
-    <li>damage_source->[fire] yaktı</li>
+    <li>damage_source->yi [fire] yaktı</li>
     <li>fire(p=3)->ateş</li>
-    <li>fire->sıcaklık</li>
-    <li>fire->bir kıvılcım</li>
-    <li>fire->bir cehennem sıcaklığı</li>
-    <li>damaged_past->yaktı</li>
-    <li>damaged_past->kavurdu</li>
-    <li>damaged_past->dağladı</li>
-    <li>damaged_past->ütüledi</li>
-    <li>destroyed_past->kömürleşti</li>
-    <li>destroyed_past->kavruldu</li>
-    <li>destroyed_past->pişirdi</li>
-    <li>destroyed_past->ölüyü yaktı</li>
+    <li>fire(p=3)->ateş</li>
+    <li>fire(p=3)->ateş</li>
+    <li>fire->ısı</li>
+    <li>fire->yangın</li>
+    <li>fire->alev</li>
+    <li>damaged_present->kavruldu</li>
+    <li>damaged_present->kızardı</li>
+    <li>damaged_present->yandı</li>
+    <li>damaged_present->pişti</li>
+    <li>destroyed_present->kömürleşti</li>
+    <li>destroyed_present->kül oldu</li>
+    <li>destroyed_present->yanıp yok oldu</li>
+    <li>destroyed_present->eridi</li>
   </DamageEvent_Fire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -77,10 +80,10 @@
     <li>r_logentry(p=0.1)->[damage_source] [RECIPIENT_nameDef].</li>
   -->
   <DamageEvent_Include.rulePack.rulesStrings>
-    <li>r_logentry-> [damage_source] , [destroyed_targets]'ini [destroyed_present].</li>
-    <li>r_logentry->[damage_source] , [destroyed_targets]'ini [destroyed_present] ve  [damaged_targets]'ini [damaged_present].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[damage_source] ve [damaged_targets] [destroyed_past].</li>
-    <li>r_logentry(p=0.1)->[damage_source].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] adlı kişi[damage_source] ve [destroyed_targets] [destroyed_present].</li>
+    <li>r_logentry->[RECIPIENT_nameDef] adlı kişi[damage_source], [destroyed_targets] [destroyed_present] ve [damaged_targets] [damaged_present].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_nameDef] adlı kişi[damage_source] ve [damaged_targets] [damaged_present].</li>
+    <li>r_logentry(p=0.1)->[RECIPIENT_nameDef] adlı kişi[damage_source].</li>
   </DamageEvent_Include.rulePack.rulesStrings>
   
   <!-- EN:
@@ -99,17 +102,19 @@
     <li>light(p=0.2)->incandescence</li>
   -->
   <DamageEvent_PowerBeam.rulePack.rulesStrings>
-    <li>damage_source->[RECIPIENT_nameDef]'in üzerine [sky] açıldı.</li>
-    <li>damage_source->İnanılmaz bir [power] ışını [RECIPIENT_nameDef]'ye [damaged_past]</li>
-    <li>damage_source->Bir [light] sütunu [RECIPIENT_nameDef]'ye [damaged_past]</li>
+    <li>damage_source->nin üzerine [sky] açıldı</li>
+    <li>damage_source->ye inanılmaz [power] sahip bir ışın vurdu</li>
+    <li>damage_source->ye bir [light] sütunu vurdu</li>
     <li>sky->gökyüzü</li>
     <li>sky->bulutlar</li>
-    <li>sky->cennetler</li>
-    <li>power->güç</li>
-    <li>power->enerji</li>
+    <li>sky->gökler</li>
+    <li>power->güce</li>
+    <li>power->enerjiye</li>
+    <li>power->ısıya</li>
     <li>light->ışık</li>
     <li>light->alev</li>
-    <li>light(p=0.2)->akkor sütun</li>
+    <li>light->ateş</li>
+    <li>light(p=0.2)->parıltı</li>
   </DamageEvent_PowerBeam.rulePack.rulesStrings>
   
   <!-- EN:
@@ -124,15 +129,15 @@
     <li>enveloped->surrounded</li>
   -->
   <DamageEvent_Tornado.rulePack.rulesStrings>
-    <li>damage_source->[spiraling] kasırgası [enveloped]</li>
-    <li>destroyed_present(p=3)->yırtılıyor</li>
-    <li>spiraling->sarmal</li>
-    <li>spiraling->girdap</li>
-    <li>spiraling->tropik</li>
+    <li>damage_source->yi [spiraling] bir hortum [enveloped]</li>
+    <li>destroyed_present(p=3)->tearing off</li>
+    <li>spiraling->dönen</li>
+    <li>spiraling->dönen</li>
+    <li>spiraling->dönen</li>
     <li>spiraling(p=10)-></li>
-    <li>enveloped(p=8)->içine çekildi</li>
-    <li>enveloped->içine çekilde</li>
-    <li>enveloped->etrafını sardı</li>
+    <li>enveloped(p=8)->kuşattı</li>
+    <li>enveloped->yuttu</li>
+    <li>enveloped->sardı</li>
   </DamageEvent_Tornado.rulePack.rulesStrings>
   
   <!-- EN:
@@ -154,22 +159,22 @@
     <li>destroyed_present->exploding</li>
   -->
   <DamageEvent_TrapSpike.rulePack.rulesStrings>
-    <li>damage_source->[spiketrap] saplandı</li>
-    <li>damage_source->[spiketrap] isabet etti</li>
-    <li>damage_source->[spiketrap] yakalandı</li>
-    <li>spiketrap(p=3)->bir dikenli tuzak</li>
+    <li>damage_source->ye [spiketrap] battı</li>
+    <li>damage_source->ye [spiketrap] vurdu</li>
+    <li>damage_source->ye [spiketrap] denk geldi</li>
     <li>spiketrap(p=3)->dikenli tuzak</li>
-    <li>spiketrap->dikenli bir tuzak</li>
+    <li>spiketrap(p=3)->dikenli tuzak</li>
+    <li>spiketrap->dikenler</li>
     <li>spiketrap->keskin bir tuzak</li>
     <li>spiketrap->dikenli bir tuzak</li>
-    <li>damaged_past->deldi</li>
-    <li>damaged_past->saplandı</li>
-    <li>damaged_past->nüfuz etti</li>
-    <li>damaged_past->içine girdi</li>
-    <li>destroyed_past->parçalara ayırdı</li>
-    <li>destroyed_past->parçaladı</li>
-    <li>destroyed_past->iç organlarına girdi</li>
-    <li>destroyed_past->patlattı</li>
+    <li>damaged_present->delindi</li>
+    <li>damaged_present->delindi</li>
+    <li>damaged_present->delindi</li>
+    <li>damaged_present->delindi</li>
+    <li>destroyed_present->yırtıldı</li>
+    <li>destroyed_present->parçalandı</li>
+    <li>destroyed_present->kevgire döndü</li>
+    <li>destroyed_present->elek oldu</li>
   </DamageEvent_TrapSpike.rulePack.rulesStrings>
   
 </LanguageData>

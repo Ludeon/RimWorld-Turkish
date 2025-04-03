@@ -52,29 +52,29 @@
     <li>maybe_adjective->[Color]</li>
   -->
   <NamerArtCommon.rulePack.rulesStrings>
-    <li>r_art_name(p=4)->[Artwork] [Trans] [ConceptAny]</li>
-    <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [Artwork]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Animal]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
-    <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
+    <li>r_art_name(p=4)->[ConceptAny] [Artwork]</li>
+    <li>r_art_name(p=4)->[maybe_adjective] [Artwork]</li>
+    <li>r_art_name->[maybe_adjective] [ConceptAny]</li>
+    <li>r_art_name->[maybe_adjective] [TerrainFeature]</li>
+    <li>r_art_name->[maybe_adjective] [Vegetable]</li>
+    <li>r_art_name->[maybe_adjective] [Game]</li>
+    <li>r_art_name->[maybe_adjective] [Animal]</li>
+    <li>r_art_name->[maybe_adjective] [Gore]</li>
+    <li>r_art_name->[maybe_adjective] [NaturalObject]</li>
+    <li>r_art_name->[maybe_adjective] [PersonFamily]</li>
+    <li>r_art_name->[maybe_adjective] [Enemy]</li>
     <li>r_art_name(p=2)->[Artwork] No. [art_name_numeric]</li>
     <li>r_art_name->No. [art_name_numeric]</li>
     <li>r_art_name->[art_name_numeric]</li>
     <li>r_art_name->[Artwork] [art_name_numeric]</li>
     <li>r_art_name->[ConceptAny] No. [art_name_numeric]</li>
-    <li>r_art_name->[art_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=6)->[ANYPAWN_nameIndef]'s [Artwork]</li>
-    <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic]</li>
-    <li>r_art_name(p=3)->[PersonalCharacteristic] of [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
-    <li>r_art_name(p=3)->[maybe_a] [Artwork] [Trans] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name->[art_name_numeric] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=6)->[ANYPAWN_nameIndef] ve [Artwork]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] [Color]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [PersonalCharacteristic]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [PersonalCharacteristic]</li>
+    <li>r_art_name(p=3)->[ConceptAny] [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[Artwork] [ANYPAWN_nameIndef]</li>
     <li>art_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
     <li>art_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
@@ -88,7 +88,7 @@
     <li>maybe_letter->[Letter]</li>
     <li>maybe_letter->[Letter][Letter]</li>
     <li>maybe_a(p=3)-></li>
-    <li>maybe_a->bir</li>
+    <li>maybe_a->a</li>
     <li>maybe_adjective(p=5)-></li>
     <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
     <li>maybe_adjective->[AdjectiveBadass]</li>
@@ -115,13 +115,13 @@
     <li>r_art_name->[AdjectiveBadass] [AnimalBadass]</li>
     <li>r_art_name->[ColorBadass] [AnimalBadass]</li>
     <li>r_art_name->[ConceptBadass] [ColorBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]''in [ConceptBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]''in [AnimalBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'in [PersonBadass]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'in [PersonAlly]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'in [PersonFamily]</li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'e [ConceptBadass] </li>
-    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] [ColorBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [ConceptBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [AnimalBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [PersonBadass]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [PersonAlly]</li>
+    <li>r_art_name(p=3)->[ANYPAWN_nameIndef] ve [PersonFamily]</li>
+    <li>r_art_name(p=3)->[ConceptBadass] ve [ANYPAWN_nameIndef]</li>
+    <li>r_art_name(p=3)->[ColorBadass] [ANYPAWN_nameIndef]</li>
   </NamerArtWeapon.rulePack.rulesStrings>
   
 </LanguageData>

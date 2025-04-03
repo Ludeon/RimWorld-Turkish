@@ -27,7 +27,7 @@
   -->
   <NamerFactionMechanoid.rulePack.rulesStrings>
     <li>r_name->[msyl][msyl] [mechhive]</li>
-    <li>mechhive->meka</li>
+    <li>mechhive->mekkovanı</li>
     <li>msyl->nyar</li>
     <li>msyl->alg</li>
     <li>msyl->xan</li>
@@ -71,8 +71,8 @@
     <li>r_name(p=3)->[nearnameinitial]</li>
     <li>r_name->[nearnameinitial] [political_union_outlander]</li>
     <li>r_name->[nearnameinitial] [political_adjective] [political_union_outlander]</li>
-    <li>r_name->[political_union_outlander] of [nearnameinitial]</li>
-    <li>r_name->[political_adjective] [nearnameinitial]'da [political_union_outlander]</li>
+    <li>r_name->[nearnameinitial] [political_union_outlander]</li>
+    <li>r_name->[political_adjective] [nearnameinitial] [political_union_outlander]</li>
     <li>nearnameinitial(p=3)->[PlaceOutlander]</li>
     <li>nearnameinitial->[Direction] [PlaceOutlander]</li>
   </NamerFactionOutlander.rulePack.rulesStrings>
@@ -113,31 +113,31 @@
     <li>r_name->[ConceptBadass] [groupname]</li>
   -->
   <NamerFactionPirate.rulePack.rulesStrings>
-    <li>r_name->[AnimalBadass]lar</li>
-    <li>r_name->[AnimalBadass] adam</li>
-    <li>r_name->[ConceptBadass]'nin [AnimalBadass]</li>
-    <li>r_name->[ConceptBadass]'nin [PersonBadass]</li>
-    <li>r_name->[PersonBadass]</li>
-    <li>r_name->[Enemy]</li>
-    <li>r_name->[Weapon] adam</li>
-    <li>r_name->[Weapon]</li>
-    <li>r_name->[Weapon] [AnimalBadass]</li>
-    <li>r_name->[Weapon] [Enemy]</li>
-    <li>r_name->[ColorBadass] [Weapon]s</li>
-    <li>r_name->[ColorBadass] [AnimalBadass]</li>
-    <li>r_name->[ColorBadass] [PersonBadass]</li>
-    <li>r_name->[ColorBadass] [Enemy]</li>
+    <li>r_name->[AnimalBadass] Korsanlar</li>
+    <li>r_name->[AnimalBadass] Adamlar</li>
+    <li>r_name->[ConceptBadass] Getirenler</li>
+    <li>r_name->[PersonBadass] Korsanlar</li>
+    <li>r_name->[PersonBadass] Adamlar</li>
+    <li>r_name->[Enemy] Korsanlar</li>
+    <li>r_name->[Weapon] Adamlar</li>
+    <li>r_name->[Weapon] Kuşananlar</li>
+    <li>r_name->[Weapon] Korsanlar</li>
+    <li>r_name->[Enemy] Grubu</li>
+    <li>r_name->[ColorBadass] Korsanlar</li>
+    <li>r_name->[ColorBadass] Adamlar</li>
+    <li>r_name->[ColorBadass] Tayfa</li>
+    <li>r_name->[ColorBadass] [Enemy] Grubu</li>
     <li>r_name->[PersonBadass] [groupname]</li>
-    <li>r_name->[Enemy] [Enemy]</li>
+    <li>r_name->[Enemy] [Enemy] Grubu</li>
     <li>r_name->[AdjectiveBadass] [groupname]</li>
-    <li>r_name->[AdjectiveBadass] [AnimalBadass]</li>
-    <li>r_name->[AdjectiveBadass] [Enemy]</li>
-    <li>r_name->[AdjectiveBadass] [PersonBadass]</li>
-    <li>r_name->[ConceptBadass]'nin [PersonAlly]</li>
-    <li>r_name(p=0.4)->[Gore] yiyenler</li>
-    <li>r_name->[NamePerson]'nin [Enemy]</li>
-    <li>r_name->[NamePerson]'nin [AnimalBadass]</li>
-    <li>r_name->[NamePerson]'nin [Weapon]</li>
+    <li>r_name->[AdjectiveBadass] [AnimalBadass] Grubu</li>
+    <li>r_name->[AdjectiveBadass] [Enemy] Grubu</li>
+    <li>r_name->[AdjectiveBadass] [PersonBadass] Tayfa</li>
+    <li>r_name->[AdjectiveBadass] [PersonAlly] Tayfa</li>
+    <li>r_name(p=0.4)->[Gore] yiyiciler</li>
+    <li>r_name->[NamePerson] ve [Enemy] Tayfa</li>
+    <li>r_name->[NamePerson] ve [AnimalBadass] Korsanlar</li>
+    <li>r_name->[NamePerson] ve [Weapon] Kuşananlar</li>
     <li>r_name->[Weapon] [groupname]</li>
     <li>r_name->[ConceptBadass] [groupname]</li>
   </NamerFactionPirate.rulePack.rulesStrings>
@@ -160,23 +160,23 @@
     <li>r_name->[WordTribal] [political_union_tribal]</li>
     <li>r_name->[WordTribal] [political_union_tribal]</li>
     <li>r_name->[Color] [TerrainFeature] [political_union_tribal]</li>
-    <li>r_name->[WordTribal]'nin [political_union_tribal]'i</li>
+    <li>r_name->[WordTribal] [political_union_tribal]</li>
     <li>r_name->[Color] [Animal] [WordTribal]</li>
-    <li>r_name->[TerrainFeature]'nin [political_union_tribal]'i</li>
+    <li>r_name->[TerrainFeature] [political_union_tribal]</li>
   </NamerFactionTribal.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->Colony</li>
   -->
   <NamerInitialSettlementColony.rulePack.rulesStrings>
-    <li>r_name->koloni</li>
+    <li>r_name->Koloni</li>
   </NamerInitialSettlementColony.rulePack.rulesStrings>
   
   <!-- EN:
     <li>r_name->Village</li>
   -->
   <NamerInitialSettlementTribe.rulePack.rulesStrings>
-    <li>r_name->kasaba</li>
+    <li>r_name->Kasaba</li>
   </NamerInitialSettlementTribe.rulePack.rulesStrings>
   
   <!-- EN:
@@ -249,16 +249,16 @@
     <li>topicalnoun->[BodyPart]</li>
     <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
     <li>townname_combo->[topicalnoun] [Community]</li>
-    <li>townname_combo->[topicalnoun]'nin [TerrainFeature]</li>
-    <li>townname_combo->[topicalnoun]'nin [Community]</li>
-    <li>townname_combo(p=2)->[concept_positive]'nin [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun] [TerrainFeature]</li>
+    <li>townname_combo->[topicalnoun] [Community]</li>
+    <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive] [TerrainFeature]</li>
     <li>townname_combo(p=2)->[concept_positive] [Community]</li>
-    <li>townname_combo(p=3)->[Character]'nin [TerrainFeature]</li>
-    <li>townname_combo(p=3)->[Character]'nin [Community]</li>
-    <li>townname_near->[TerrainFeature]'da [nearnameinitial]</li>
-    <li>townname_near->[TerrainFeature] tarafında [nearnameinitial]</li>
-    <li>townname_near->[TerrainFeature] üzerinde [nearnameinitial]</li>
+    <li>townname_combo(p=3)->[Character] [TerrainFeature]</li>
+    <li>townname_combo(p=3)->[Character] [Community]</li>
+    <li>townname_near->[TerrainFeature] [nearnameinitial]</li>
+    <li>townname_near->[TerrainFeature] [nearnameinitial]</li>
+    <li>townname_near->[TerrainFeature] [nearnameinitial]</li>
     <li>nearnameinitial->[townname_wordgen]</li>
     <li>nearnameinitial->[Community]</li>
     <li>townname_wordgen(p=2)->[SylE][SylE]</li>
@@ -267,29 +267,29 @@
     <li>townname_wordgen(p=2)->[SylE][SylE][townend]</li>
     <li>townname_wordgen->[TerrainFeature][townend]</li>
     <li>townname_wordgen->[topicalnoun][townend]</li>
-    <li>townend->köy</li>
-    <li>townend->kasaba</li>
-    <li>townend->ağaçlı tepe</li>
-    <li>townend->dere</li>
-    <li>townend->başsız çivi</li>
+    <li>townend->ville</li>
+    <li>townend->town</li>
+    <li>townend->hurst</li>
+    <li>townend->bourne</li>
+    <li>townend->brad</li>
     <li>townend->dale</li>
-    <li>townend->vadi</li>
+    <li>townend->hope</li>
     <li>townend->ing</li>
-    <li>townend->burun</li>
-    <li>townend->katkısız</li>
-    <li>townend->şal</li>
-    <li>townend->fitil</li>
+    <li>townend->ness</li>
+    <li>townend->mere</li>
+    <li>townend->shaw</li>
+    <li>townend->wick</li>
     <li>townend->ton</li>
     <li>townend->ston</li>
     <li>townend->os</li>
     <li>townend->den</li>
     <li>townend->tas</li>
-    <li>townend->ağaç</li>
-    <li>townend->arazi</li>
+    <li>townend->wood</li>
+    <li>townend->land</li>
     <li>townend->worth</li>
     <li>townend->roon</li>
     <li>townend->ron</li>
-    <li>townend->kuyu</li>
+    <li>townend->well</li>
   </NamerSettlementOutlander.rulePack.rulesStrings>
   
   <!-- EN:
@@ -338,14 +338,14 @@
     <li>r_name(p=4)->[townname_combo]</li>
     <li>r_name->[townname_wordgen]</li>
     <li>townname_combo->[AnimalBadass] [geography]</li>
-    <li>townname_combo->[AnimalBadass]'nin [geography]</li>
+    <li>townname_combo->[AnimalBadass] [geography]</li>
     <li>townname_combo->[ConceptBadass] [geography]</li>
-    <li>townname_combo->[ConceptBadass]'nin [geography]</li>
+    <li>townname_combo->[ConceptBadass] [geography]</li>
     <li>townname_combo->[PersonBadass] [geography]</li>
-    <li>townname_combo->[PersonBadass]'nin [geography]</li>
-    <li>townname_combo->[Enemy]'nin [geography]</li>
+    <li>townname_combo->[PersonBadass] [geography]</li>
     <li>townname_combo->[Enemy] [geography]</li>
-    <li>townname_combo->[Weapon]'nin [geography]</li>
+    <li>townname_combo->[Enemy] [geography]</li>
+    <li>townname_combo->[Weapon] [geography]</li>
     <li>townname_combo->[Weapon] [geography]</li>
     <li>townname_combo->[ColorBadass] [geography]</li>
     <li>geography(p=2)->[TerrainFeature]</li>

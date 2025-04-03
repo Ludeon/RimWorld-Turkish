@@ -196,7 +196,7 @@
   <!-- EN: Already connected to {PAWN_nameDef} -->
   <RitualTargetConnectedGauranlenTree>Zaten {PAWN_nameDef} ile bağlı</RitualTargetConnectedGauranlenTree>
   <!-- EN: {TREE_definite} has had its connection torn recently. It can connect again in {1}. -->
-  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ile olan bağ yakın zamanda koptu. {1} içinde tekrar bağlanılabilir.</RitualTargetConnectionTornGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} ile olan rabıta yakın zamanda koptu. {1} içinde tekrar bağlanılabilir.</RitualTargetConnectionTornGauranlenTree>
   <!-- EN: You need {0} wood for each participant ({2} total). You have {1} wood. -->
   <RitualTargeWoodInfo>Her katılımcı için {0} oduna ihtiyacın var (toplam {2}). {1} odunun var.</RitualTargeWoodInfo>
   <!-- EN: {0} must be able to reach ritual target. -->
@@ -204,13 +204,13 @@
   <!-- EN: Accuse -->
   <Accuse>İsnat et</Accuse>
   <!-- EN: {PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified. -->
-  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}, ideodini deri kazımaya inanmıyor ve derisinin kazınmasından hoşlanmayacaktır.</RitualScarificationWarnNonScarificationIdeo>
+  <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort}, ideodinî deri kazımaya inanmıyor ve derisinin kazınmasından hoşlanmayacaktır.</RitualScarificationWarnNonScarificationIdeo>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being scarified. -->
   <RitualScarificationWarnWimp>{PAWN_labelShort} bir pısırık ve derisinin kazınmasından hoşlanmayacaktır.</RitualScarificationWarnWimp>
   <!-- EN: {PAWN_labelShort} is a wimp and will not like being blinded. -->
   <RitualBlindingWarnWimp>{PAWN_labelShort} bir pısırık ve körleştirilmekten hoşlanmayacaktır.</RitualBlindingWarnWimp>
   <!-- EN: Scarification is expected for {IDEOMEMBERPLURAL} as long as there are fewer than {0} scarified {IDEOMEMBERPLURAL}. -->
-  <RitualScarificationTriggerExtraDesc>{0} kişiden daha az derisi kazınmış {IDEOMEMBERPLURAL} olduğu sürece {IDEOMEMBERPLURAL} için deri kazıma bekleniyor.</RitualScarificationTriggerExtraDesc>
+  <RitualScarificationTriggerExtraDesc>{0} kişiden daha az burhanlı {IDEOMEMBERPLURAL} olduğu sürece {IDEOMEMBERPLURAL} için burhan bekleniyor.</RitualScarificationTriggerExtraDesc>
   <!-- EN: Blinding is expected for each current and joining {IDEOMEMBER} colonist. -->
   <RitualBlindingTriggerExtraDesc>Her mevcut ve katılan {IDEOMEMBER} kolonici için körleştirme bekleniyor.</RitualBlindingTriggerExtraDesc>
   
@@ -450,19 +450,19 @@
   <!-- EN: The person this {TREE_label} is connected to. If the connected person dies, this {TREE_label} will be unable to connect to another for {DURATION}. -->
   <ConnectedPawnDesc>Bu {TREE_label} ağacının bağlı olduğu kişi. Bağlı kişi ölürse bu {TREE_label}, {DURATION} boyunca başka birine bağlanamayacak.</ConnectedPawnDesc>
   <!-- EN: Connection torn. Can connect in {0}. -->
-  <ConnectionTorn>Bağ kopmuş. {0} içinde bağlanabilir.</ConnectionTorn>
+  <ConnectionTorn>Rabıta kopmuş. {0} içinde bağlanabilir.</ConnectionTorn>
   <!-- EN: {PAWN_nameDef} is too far away -->
   <ConnectedPawnAway>{PAWN_nameDef} çok uzakta</ConnectedPawnAway>
   <!-- EN: Planting {PLANT_definite} near artificial buildings will cause its connection strength to decay over time. Connection strength determines the maximum number of dryads {PLANT_definite} can support at once.\n\nAre you sure you wish to plant here? -->
-  <TreeBlockedByNearbyBuildingsDesc>Yapay yapıların yakınına {PLANT_definite} ekilmesi, zamanla bağ gücünün zayıflamasına neden olur. Bağ gücü, {PLANT_definite} tarafından tek seferde beslenebilecek maksimum ağaç perisi sayısını belirler.\n\nBuraya dikmek istediğinden emin misin?</TreeBlockedByNearbyBuildingsDesc>
+  <TreeBlockedByNearbyBuildingsDesc>Yapay yapıların yakınına {PLANT_definite} ekilmesi, zamanla rabıta gücünün zayıflamasına neden olur. Rabıta gücü, {PLANT_definite} tarafından tek seferde beslenebilecek maksimum ağaç perisi sayısını belirler.\n\nBuraya dikmek istediğinden emin misin?</TreeBlockedByNearbyBuildingsDesc>
   <!-- EN: Changing {TREE_definite}'s dryad caste takes time and energy.\n\nAfter the connected person interacts with the tree, all dryads will spend {DURATION} days inside cocoons while they morph to the selected caste.\n\nExisting cocoons will cancel their transformation so they can morph to the current caste. -->
   <GauranlenModeChangeDescFull>{TREE_definite} tarafından yetiştirilen ağaç perisi sınıfını değiştirmek zaman ve enerji gerektirir.\n\nBağlı kişi ağaçla etkileşime girdikten sonra tüm ağaç perileri seçilen sınıfa dönüşürken kozaların içinde {DURATION} gün geçirir.\n\nMevcut kozalar, mevcut sınıfa dönüşebilmek için dönüşümlerini iptal edecek.</GauranlenModeChangeDescFull>
   <!-- EN: Change the type of dryads created by {TREE_definite}. -->
   <ChangeModeDesc>{TREE_definite} tarafından oluşturulan ağaç perisi sınıfını değiştir.</ChangeModeDesc>
   <!-- EN: Connection strength fall -->
-  <ConnectionStrengthFall>Bağ gücü düşüşü</ConnectionStrengthFall>
+  <ConnectionStrengthFall>Rabıta gücü düşüşü</ConnectionStrengthFall>
   <!-- EN: Connection strength -->
-  <ConnectionStrength>Bağlantı gücü</ConnectionStrength>
+  <ConnectionStrength>Rabıta gücü</ConnectionStrength>
   <!-- EN: {0} strength -->
   <ConnectionStrengthDisplay>{0} gücü</ConnectionStrengthDisplay>
   <!-- EN: Determines how many dryads this tree can support. -->
@@ -472,15 +472,15 @@
   <!-- EN: The maximum number of dryads this tree can support. -->
   <MaximumDryadsDesc>Bu ağacın destekleyebileceği maksimum ağaç perisi sayısı.</MaximumDryadsDesc>
   <!-- EN: Max dryads based on connection strength -->
-  <MaxDryadsBasedOnConnectionStrength>Bağ gücüne dayalı maks. ağaç perisi.</MaxDryadsBasedOnConnectionStrength>
+  <MaxDryadsBasedOnConnectionStrength>Rabıta gücüne dayalı maks. ağaç perisi.</MaxDryadsBasedOnConnectionStrength>
   <!-- EN: Pruning connection strength gain -->
-  <PruningConnectionStrength>Budama bağ gücü getirisi</PruningConnectionStrength>
+  <PruningConnectionStrength>Budama rabıta gücü getirisi</PruningConnectionStrength>
   <!-- EN: Hours per day to maintain -->
   <PruningHoursToMaintain>Budama için gereken günlük saat</PruningHoursToMaintain>
   <!-- EN: Desired -->
   <DesiredConnectionStrength>İstenilen</DesiredConnectionStrength>
   <!-- EN: {CONNECTEDPAWN_nameDef} will prune {TREE_definite} often enough to keep connection strength above this level.\n\nHigher connection strength allows supporting more dryads, but also falls faster and thus takes more frequent pruning to maintain.\n\nYou can click on the bar to adjust the desired target connection strength.\n\nConnection strength fall per day: {FALL}\n\nConnection strength is affected by nearby buildings. -->
-  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}, bağ gücünü bu seviyenin üzerinde tutmaya yetecek sıklıkta {TREE_definite} budama yapacak.\n\nDaha yüksek bağlantı gücü, daha fazla ağaç perisini desteklemeye olanak tanır ancak daha hızlı düşer ve bu nedenle sürdürmek için daha sık budama gerektirir.\n\nİstenen hedef bağ gücünü ayarlamak için çubuğa tıklayabilirsin.\n\nGünlük bağ gücü düşüşü: {FALL}\n\nBağ gücü yakındaki yapılardan etkilenir.</DesiredConnectionStrengthDesc>
+  <DesiredConnectionStrengthDesc>{CONNECTEDPAWN_nameDef}, rabıta gücünü bu seviyenin üzerinde tutmaya yetecek sıklıkta {TREE_definite} budama yapacak.\n\nDaha yüksek rabıta gücü, daha fazla ağaç perisini desteklemeye olanak tanır ancak daha hızlı düşer ve bu nedenle sürdürmek için daha sık budama gerektirir.\n\nİstenen hedef rabıta gücünü ayarlamak için çubuğa tıklayabilirsin.\n\nGünlük rabıta gücü düşüşü: {FALL}\n\nBağ gücü yakındaki yapılardan etkilenir.</DesiredConnectionStrengthDesc>
   <!-- EN: Waiting for {CONNECTEDPAWN_nameDef} to change dryad caste. -->
   <WaitingForConnectorToChangeCaste>ağaç perisi sınıfını değiştirmek için {CONNECTEDPAWN_nameDef} bekleniyor.</WaitingForConnectorToChangeCaste>
   <!-- EN: Dryad caste -->
@@ -502,17 +502,17 @@
   <!-- EN: {ANIMAL_nameDef} is connected to {MASTER_nameDef} through {ANIMAL_possessive} Gauranlen tree. {ANIMAL_possessive} master cannot be changed. -->
   <DryadCannotChangeMaster>{ANIMAL_nameDef}, Gauranlen ağacı aracılığıyla {MASTER_nameDef} kişisine bağlı. Efendisi değiştirilemez.</DryadCannotChangeMaster>
   <!-- EN: Connection strength too low to create Gauranlen pod. -->
-  <ConnectionStrengthTooWeakForGaumakerPod>Bağ gücü, Gauranlen kozası oluşturmak için çok düşük.</ConnectionStrengthTooWeakForGaumakerPod>
+  <ConnectionStrengthTooWeakForGaumakerPod>Rabıta gücü, Gauranlen kozası oluşturmak için çok düşük.</ConnectionStrengthTooWeakForGaumakerPod>
   <!-- EN: Unconnected -->
   <Unconnected>Bağlanmamış</Unconnected>
   <!-- EN: Dryads -->
   <DryadPlural>Ağaç perileri</DryadPlural>
   <!-- EN: Connection strength affected by -->
-  <ConnectionStrengthAffectedBy>Bağ gücü şunlardan etkilenir</ConnectionStrengthAffectedBy>
+  <ConnectionStrengthAffectedBy>Rabıta gücü şunlardan etkilenir</ConnectionStrengthAffectedBy>
   <!-- EN: Currently affected by -->
   <CurrentlyAffectedBy>Şu anda şunlardan etkileniyor</CurrentlyAffectedBy>
   <!-- EN: {0} connection strength needed to support a dryad. -->
-  <NotEnoughConnectionStrengthForSingleDryad>Bir ağaç perisini besleyebilmek için {0} bağlantı gücü gerekli.</NotEnoughConnectionStrengthForSingleDryad>
+  <NotEnoughConnectionStrengthForSingleDryad>Bir ağaç perisini besleyebilmek için {0} rabıta gücü gerekli.</NotEnoughConnectionStrengthForSingleDryad>
   <!-- EN: Cannot assign allowed area -->
   <CannotAssignAllowedAreaToDryad>İzinli alan atanamıyor</CannotAssignAllowedAreaToDryad>
 

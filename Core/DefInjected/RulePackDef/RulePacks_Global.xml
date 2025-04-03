@@ -131,23 +131,27 @@
     <li>PersonalCharacteristic(p=0.15)->sexual experience</li>
   -->
   <GlobalUtility.rulePack.rulesStrings>
+    <li>Trans->of</li>
+    <li>Trans->for</li>
+    <li>Trans->by</li>
+    <li>Trans->with</li>
     <li>Character(p=6)->[PersonJob]</li>
     <li>Character(p=4)->[Animal]</li>
     <li>Character(p=3)->[Enemy]</li>
     <li>Character->[Mechanoid]</li>
-    <li>Quantity_adjphrase->2</li>
-    <li>Quantity_adjphrase->3</li>
-    <li>Quantity_adjphrase->4</li>
-    <li>Quantity_adjphrase->5</li>
-    <li>Quantity_adjphrase->6</li>
-    <li>Quantity_adjphrase->7</li>
-    <li>Quantity_adjphrase->8</li>
-    <li>Quantity_adjphrase->9</li>
-    <li>Quantity_adjphrase->10</li>
+    <li>Quantity_adjphrase->iki</li>
+    <li>Quantity_adjphrase->üç</li>
+    <li>Quantity_adjphrase->dört</li>
+    <li>Quantity_adjphrase->beş</li>
+    <li>Quantity_adjphrase->altı</li>
+    <li>Quantity_adjphrase->yedi</li>
+    <li>Quantity_adjphrase->sekiz</li>
+    <li>Quantity_adjphrase->dokuz</li>
+    <li>Quantity_adjphrase->on</li>
     <li>Quantity_adjphrase->birçok</li>
-    <li>Quantity_adjphrase->bir grup</li>
-    <li>Quantity_adjphrase->geniş bir grup</li>
-    <li>Quantity_adjphrase->düzinelerle</li>
+    <li>Quantity_adjphrase->bir grub</li>
+    <li>Quantity_adjphrase->büyük bir grub</li>
+    <li>Quantity_adjphrase->düzinelerce</li>
     <li>Quantity_adjphrase->yüzlerce</li>
     <li>Quantity_adjphrase->bin</li>
     <li>Quantity_adjphrase->binlerce</li>
@@ -155,7 +159,7 @@
     <li>Shape->kare</li>
     <li>Shape->dikdörtgen</li>
     <li>Shape->koni</li>
-    <li>Shape->hat</li>
+    <li>Shape->çizgi</li>
     <li>Shape->kalp</li>
     <li>Shape->yıldız</li>
     <li>Shape->daire</li>
@@ -167,13 +171,13 @@
     <li>ConceptAny->[ConceptPositive]</li>
     <li>ConceptAny->[ConceptBadass]</li>
     <li>ConceptAny->[ConceptAngsty]</li>
-    <li>PersonalCharacteristic(p=0.15)->genital</li>
-    <li>PersonalCharacteristic(p=0.15)->kasık kılı</li>
-    <li>PersonalCharacteristic(p=0.15)->vücut kılı</li>
+    <li>PersonalCharacteristic(p=0.15)->cinsel organları</li>
+    <li>PersonalCharacteristic(p=0.15)->kasık kılları</li>
+    <li>PersonalCharacteristic(p=0.15)->vücut kılları</li>
     <li>PersonalCharacteristic(p=0.15)->tuvalet alışkanlıkları</li>
-    <li>PersonalCharacteristic(p=0.15)->cinsel hünerleri</li>
-    <li>PersonalCharacteristic(p=0.15)->cinsel tercihler</li>
-    <li>PersonalCharacteristic(p=0.15)->cinsel deneyim</li>
+    <li>PersonalCharacteristic(p=0.15)->cinsel yeterliliği</li>
+    <li>PersonalCharacteristic(p=0.15)->cinsel tercihleri</li>
+    <li>PersonalCharacteristic(p=0.15)->cinsel deneyimi</li>
   </GlobalUtility.rulePack.rulesStrings>
   
   <!-- EN:
@@ -227,39 +231,39 @@
     <li>TalkTopicAny->[TalkTopicLight]</li>
     <li>TalkTopicAny->[TalkTopicHeavy]</li>
     <li>TalkTopicHeavy->[talktopicheavyfile]</li>
-    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile] ve [talktopicheavyfile] arasındaki bap</li>
-    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile] ve [talktopicheavyfile] arasındaki bağlantı</li>
-    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile] ve [talktopicheavyfile] arasındaki ilişki</li>
+    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile] ile [talktopicheavyfile] arasındaki bağlantı</li>
+    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile] ile [talktopicheavyfile] arasındaki alaka</li>
+    <li>TalkTopicHeavy(p=0.08)->[talktopicheavyfile] and [talktopicheavyfile] arasındaki ilişki</li>
     <li>TalkTopicLight(p=25)->[talktopiclightfile]</li>
     <li>TalkTopicLight->[Vegetable]</li>
-    <li>TalkTopicLight->[Vegetable] yiyor</li>
-    <li>TalkTopicLight->[Vegetable] ile yemek pişiriyor</li>
+    <li>TalkTopicLight->[Vegetable] yeme</li>
+    <li>TalkTopicLight->[Vegetable] ile yemek yapma</li>
     <li>TalkTopicLight->[Game]</li>
-    <li>TalkTopicLight->[Game] oynuyor</li>
-    <li>TalkTopicLight->[Game] alıştırma yapıyor</li>
-    <li>TalkTopicLight->[Game] öğreniyor</li>
+    <li>TalkTopicLight->[Game] oynama</li>
+    <li>TalkTopicLight->[Game] pratiği yapma</li>
+    <li>TalkTopicLight->[Game] öğrenme</li>
     <li>TalkTopicLight->[Animal]</li>
-    <li>TalkTopicLight->[Animal] eğitiyor</li>
-    <li>TalkTopicLight->[Animal] evcilleştiriyor</li>
-    <li>TalkTopicLight->[Animal] ile dövüşüyor</li>
-    <li>TalkTopicLight->çılgın [Animal]</li>
+    <li>TalkTopicLight->[Animal] eğitme</li>
+    <li>TalkTopicLight->[Animal] evcilleştirme</li>
+    <li>TalkTopicLight->[Animal] ile dövüşme</li>
+    <li>TalkTopicLight->[Animal] avlama</li>
     <li>TalkTopicLight->[Weapon]</li>
-    <li>TalkTopicLight->[Weapon] kullanıyor</li>
-    <li>TalkTopicLight->[Weapon] ile pratik yapıyor</li>
+    <li>TalkTopicLight->[Weapon] kullanma</li>
+    <li>TalkTopicLight->[Weapon] talimi</li>
     <li>TalkTopicLight->[TerrainFeature]</li>
-    <li>TalkTopicLight->[NaturalObject]l</li>
-    <li>TalkTopicLight->[TreeType] ağacı</li>
+    <li>TalkTopicLight->[NaturalObject]</li>
+    <li>TalkTopicLight->[TreeType]</li>
     <li>TalkTopicLight->[PersonJob]</li>
-    <li>TalkTopicLight->arkadaşça [PersonJob]</li>
-    <li>TalkTopicLight->düşmanca [PersonJob]</li>
-    <li>TalkTopicLight->[Enemy]l</li>
-    <li>TalkTopicLight->[Enemy] ile dövüşüyor</li>
+    <li>TalkTopicLight->dostane [PersonJob]</li>
+    <li>TalkTopicLight->hasım [PersonJob]</li>
+    <li>TalkTopicLight->[Enemy]</li>
+    <li>TalkTopicLight->[Enemy] ile savaşma</li>
     <li>TalkTopicLight->[Apparel]</li>
-    <li>TalkTopicLight->[Apparel]l giyiyor</li>
-    <li>TalkTopicLight->[Apparel] yapıyor</li>
-    <li>talktopicheavyfile(p=0.15)->cinsellik</li>
-    <li>talktopicheavyfile(p=0.15)->baştan çıkarıyor</li>
-    <li>talktopicheavyfile(p=0.15)->hayvansal cinsellik</li>
+    <li>TalkTopicLight->[Apparel] giyme</li>
+    <li>TalkTopicLight->[Apparel] dikme</li>
+    <li>talktopicheavyfile(p=0.15)->seks</li>
+    <li>talktopicheavyfile(p=0.15)->baştan çıkarma</li>
+    <li>talktopicheavyfile(p=0.15)->hayvanların cinselliği</li>
     <li>talktopicheavyfile(p=0.15)->cinsel fetişler</li>
   </TalkTopicsUtility.rulePack.rulesStrings>
   
