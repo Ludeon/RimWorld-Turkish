@@ -4,85 +4,87 @@
   <!-- EN: band node -->
   <BandNode.label>bant düğümü</BandNode.label>
   <!-- EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 1 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
-  <BandNode.description>Bir mekanoid bant sinyal yükselticisi. Bant düğümleri belirli bir mekanitöre ayarlanmalıdır. Bu, o mekanitörün toplam bant genişliğine 1 bant genişliği ekleyerek daha fazla mekanoidi kontrol etmelerini sağlar.\n\nBir bant düğümü oluşturulduktan sonra, hızla bir mekanitöre ayarlanabilir. Ancak, bir bant düğümünü farklı bir mekanitöre yeniden ayarlamak önemli ölçüde daha uzun sürer.</BandNode.description>
+  <BandNode.description>Bir mekanitör bant sinyali güçlendiricisi. Bant düğümleri belirli bir mekanitöre uyarlanmalıdır. Bu, o mekanitörün toplam bant genişliğine 1 bant genişliği ekleyerek daha fazla mekanoit kontrol etmesini sağlar.\n\nBir bant düğümü inşa edildikten sonra hızla bir mekanitöre uyarlanabilir. Ancak, bant düğümünü farklı bir mekanitöre yeniden ayarlamak önemli ölçüde daha uzun sürer.</BandNode.description>
   
   <!-- EN: mechband antenna -->
-  <BurnoutMechlinkBooster.label>mekband anten</BurnoutMechlinkBooster.label>
+  <BurnoutMechlinkBooster.label>mekbant anteni</BurnoutMechlinkBooster.label>
   <!-- EN: A mech-band signaling device. When activated, it puts out a powerful mech signal pulse, which will attract an ultra-heavy feral mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the transmitter, so this building can only be used once. -->
-  <BurnoutMechlinkBooster.description>Bir mekanik bant sinyal cihazı. Etkinleştirildiğinde, eşlikçileriyle saldırmak için ultra ağır bir vahşi mekanoidi çekecek güçlü bir mekanik sinyal darbesi yayar. Onu yenebilirseniz, cesedinden özel teknolojiler toplayabilirsiniz. Sinyal darbesi vericiyi yakar, bu yüzden bu bina sadece bir kez kullanılabilir.</BurnoutMechlinkBooster.description>
+  <BurnoutMechlinkBooster.description>Bir mekanoit-bant sinyal cihazı. Etkinleştirildiğinde, güçlü bir mekanoit sinyal titreşimi yayarak aşırı ağır bir vahşi mekanoitin yanında muhafızlarıyla birlikte saldırmasını sağlar. Onu yenebilirsen, cesedinden özel teknolojiler toplayabilirsin. Titreşim vericiyi yakarak kullanılamaz hâle getirir, bu nedenle bu yapı yalnızca bir kez kullanılabilir.</BurnoutMechlinkBooster.description>
   <!-- EN: Summon warqueen threat -->
-  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Savaş kraliçesi tehdidini çağır</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
+  <BurnoutMechlinkBooster.comps.CompUsable.useLabel>Savaş kraliçesi çağır</BurnoutMechlinkBooster.comps.CompUsable.useLabel>
   
   <!-- EN: gene assembler -->
-  <GeneAssembler.label>gen montajcı</GeneAssembler.label>
+  <GeneAssembler.label>gen birleştirici</GeneAssembler.label>
   <!-- EN: A workbench for creating implantable xenogerms from genepacks stored in nearby gene banks. Genepacks are not consumed in this process and can be reused. -->
-  <GeneAssembler.description>Yakındaki gen bankalarında depolanan gen paketlerinden implante edilebilir zenogermler oluşturmak için bir tezgah. Gen paketleri bu süreçte tüketilmez ve yeniden kullanılabilir.</GeneAssembler.description>
+  <GeneAssembler.description>Yakındaki gen bankalarında depolanan gen paketlerinden nakledilebilir zenogenler oluşturmak için kullanılan bir tezgâh. Gen paketleri bu işlem sırasında tüketilmez ve yeniden kullanılabilir.</GeneAssembler.description>
   
   <!-- EN: gene bank -->
   <GeneBank.label>gen bankası</GeneBank.label>
   <!-- EN: This building can store genepacks and make them usable to create new xenogerms, when placed near a gene assembler. Large gene libraries require many gene banks.\n\nWhen powered, gene banks prevent genepacks from deteriorating and will slowly repair deterioration. -->
-  <GeneBank.description>Bu bina, gen paketlerini depolayabilir ve bir gen toplayıcının yanına yerleştirildiğinde onları yeni ksengermler oluşturmak için kullanılabilir hale getirebilir. Büyük gen kütüphaneleri birçok gen bankasına ihtiyaç duyar.\n\nGen bankaları çalıştırıldığında gen paketlerinin bozulmasını önler ve bozulmayı yavaş yavaş onarır.</GeneBank.description>
+  <GeneBank.description>Bu yapı, gen paketlerini depolayabilir ve bir gen birleştiricinin yakınına yerleştirildiğinde yeni zenogenler oluşturmak için onları kullanılabilir hâle getirir. Büyük gen kütüphaneleri, çok sayıda gen bankasına ihtiyaç duyar.\n\nGüç verildiğinde, gen bankaları gen paketlerinin bozulmasını önler ve zamanla mevcut bozulmaları onarır.</GeneBank.description>
   
   <!-- EN: gene extractor -->
-  <GeneExtractor.label>gen çıkarıcı</GeneExtractor.label>
+  <GeneExtractor.label>gen özütleyici</GeneExtractor.label>
   <!-- EN: An automated surgery machine that can extract a person's genes and create a genepack from them. The extracted genes will be randomly selected from the person's xenogenes and germline genes. You can force someone into the machine, but they won't like it.\n\nExtracting a person's genes while their genes are currently regrowing will kill them. Otherwise, gene extraction causes no lasting harm.\n\nGenes that require archite capsules are too complex to be extracted. -->
-  <GeneExtractor.description>Bir kişinin genlerini çıkarabilen ve onlardan bir gen paketi oluşturabilen otomatik bir ameliyat makinesi. Çıkarılan genler, kişinin zenogenleri ve germline genlerinden rastgele seçilecektir. Birini makineye girmeye zorlayabilirsiniz, ancak bundan hoşlanmayacaktır.\n\nBir kişinin genlerini şu anda çıkarılırken yeniden çıkarmak, onları öldürür. Aksi takdirde, gen çıkarma kalıcı bir zarara neden olmaz.\n\nArşit kapsülleri gerektiren genler, çıkarılamayacak kadar karmaşıktır.</GeneExtractor.description>
+  <GeneExtractor.description>Bir kişinin genlerini özütleyerek gen paketi oluşturabilen otomatik bir cerrahi makine. Özütlenen genler, kişinin zenogenleri ve kalıtsal genleri arasından rastgele seçilir. Birini makineye zorla sokabilirsin ama bundan hoşlanmayacaktır.\n\nGenleri hâlihazırda yeniden büyüyen bir kişiden gen özütlemek, onun ölümüne neden olur. Aksi takdirde, gen özütleme işlemi kalıcı bir zarar vermez.\n\nArkit kapsülleri gerektiren genler, çok karmaşık oldukları için çıkarılamaz.</GeneExtractor.description>
   
   <!-- EN: gene processor -->
   <GeneProcessor.label>gen işlemcisi</GeneProcessor.label>
   <!-- EN: A genetic analysis and processing system. Placed near a gene assembler, it increases the maximum genetic complexity of the xenogerms you can assemble. Building multiple gene processors will increase the genetic complexity limit further. -->
-  <GeneProcessor.description>Genetik analiz ve işleme sistemi. Bir gen toplayıcının yanına yerleştirildiğinde, bir araya getirebileceğiniz yabancı germlerin maksimum genetik karmaşıklığını artırır. Birden fazla gen işlemcisi oluşturmak, genetik karmaşıklık sınırını daha da artıracaktır.</GeneProcessor.description>
+  <GeneProcessor.description>Genetik analiz ve işleme sistemi. Bir gen toplayıcının yanına yerleştirildiğinde, bir araya getirebileceğin yabancı germlerin maksimum genetik karmaşıklığını artırır. Birden fazla gen işlemcisi oluşturmak, genetik karmaşıklık sınırını daha da artıracaktır.</GeneProcessor.description>
+  <!-- EN: Gene complexity increase -->
+  <GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>Gen karmaşıklık artışı</GeneProcessor.comps.CompInspectStringGeneProcessor.inspectString>
   
   <!-- EN: growth vat -->
-  <GrowthVat.label>küvöz</GrowthVat.label>
+  <GrowthVat.label>büyüme küvözü</GrowthVat.label>
   <!-- EN: A vat of fluid which can gestate an embryo or accelerate a child's growth.\n\nWhile growing or gestating, the vat must be fed with a constant supply of nutrition to provide the feedstock for growth. Gestating an embryo takes twice the nutrition of accelerating a child's growth.\n\nEmbryos are gestated for 9 days before a baby is formed. There is a risk of health complications.\n\nChild growth can only be accelerated up to age 18, but not beyond. While growing, a child's skills will slowly increase. Children raised in growth vats will have lower skills and gain fewer passions than normal.\n\nThe device uses chemical injections, electrical stimulation, and simple mechanite treatments to push the body to grow. Growth vats are often used to quickly manufacture engineered workers or warriors. -->
-  <GrowthVat.description>Bir embriyoyu hamile bırakabilen veya bir çocuğun büyümesini hızlandırabilen bir küvöz.\n\nBüyürken veya hamilelik sırasında, küvöz, büyüme için hammadde sağlamak için sürekli bir besin kaynağı ile beslenmelidir. Embriyo gebelik, çocuğun büyümesini hızlandırmanın iki katı beslenme gerektirir.\n\nEmbriyolar, bebek oluşmadan önce 9 gün süreyle gebelikte tutulur. Sağlık komplikasyonları riski vardır.\n\nÇocuk büyümesi ancak 18 yaşına kadar hızlandırılabilir, ancak daha ilerisi olamaz. Büyürken, bir çocuğun becerileri yavaş yavaş artacaktır.küvözde büyüyen çocuklar normalden daha düşük becerilere ve daha az tutkuya sahip olacaklar.\n\nCihaz, vücudu büyümeye zorlamak için kimyasal enjeksiyonlar, elektrik uyarımı ve basit mekanik tedaviler kullanır.Küvözler genellikle hızlı bir şekilde mühendislik işçileri veya savaşçılar üretmek için kullanılır.</GrowthVat.description>
+  <GrowthVat.description>Bir sıvı tankı; bir embriyoyu olgunlaştırabilir veya bir çocuğun büyümesini hızlandırabilir.\n\nBüyüme veya olgunlaşma sürecinde büyümeye kaynak sağlamak için küvöze sürekli besin takviyesi yapılmalıdır. Bir embriyoyu olgunlaştırmak, bir çocuğun büyümesini hızlandırmaktan iki kat daha fazla besin gerektirir.\n\nEmbriyolar 9 gün boyunca olgunlaştırılır ve ardından bir bebek oluşur ancak sağlık komplikasyonları riski vardır.\n\nÇocuk büyümesi en fazla 18 yaşına kadar hızlandırılabilir ancak daha ileri götürülemez. Büyüme sürecinde, çocuğun becerileri yavaşça gelişir. Lakin büyüme küvözlerinde yetiştirilen çocuklar, normalden daha düşük becerilere ve daha az tutkuya sahip olur.\n\nBu cihaz kimyasal enjeksiyonlar, elektriksel uyarımlar ve basit mekanit tedavileri kullanarak vücudu büyümeye zorlar. Büyüme küvözleri, genellikle hızlı bir şekilde özel işçiler veya savaşçılar üretmek için kullanılır.</GrowthVat.description>
   
   <!-- EN: mechband dish -->
-  <MechbandDish.label>mekband çanak</MechbandDish.label>
-  <!-- EN: A mech-band signaling device more powerful than the normal mechlink antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
-  <MechbandDish.description>Normal mekanik bağlantı anteninden daha güçlü bir mekanik bant sinyal cihazı. Etkinleştirildiğinde, eskortlarıyla saldırmak için bir mekanoid komutanını çekecek ultra güçlü bir mekanik sinyal darbesi yayar. Onu yenebilirseniz, cesedinden özel teknolojiler toplayabilirsiniz. Sinyal darbesi çanağı yakar, bu yüzden bu bina sadece bir kez kullanılabilir.</MechbandDish.description>
+  <MechbandDish.label>mekbant çanağı</MechbandDish.label>
+  <!-- EN: A mech-band signaling device more powerful than the normal mechband antenna. When activated, it puts out an ultra-powerful mech signal pulse, which will attract a mechanoid commander to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the dish, so this building can only be used once. -->
+  <MechbandDish.description>Normal bir mekbant anteninden daha güçlü bir mekanoit-bant sinyal cihazı. Etkinleştirildiğinde, aşırı güçlü bir mekanoit sinyal titreşimi yayarak aşırı ağır bir vahşi mekanoitin yanında muhafızlarıyla birlikte saldırmasını sağlar. Onu yenebilirsen, cesedinden özel teknolojiler toplayabilirsin. Titreşim çanağı yakarak kullanılamaz hâle getirir, bu nedenle bu yapı yalnızca bir kez kullanılabilir.</MechbandDish.description>
   <!-- EN: Summon apocriton threat -->
-  <MechbandDish.comps.CompUsable.useLabel>Bir Apokrit çağırın</MechbandDish.comps.CompUsable.useLabel>
+  <MechbandDish.comps.CompUsable.useLabel>Apokrit çağır</MechbandDish.comps.CompUsable.useLabel>
   
   <!-- EN: mech booster -->
   <MechBooster.label>mek güçlendirici</MechBooster.label>
   <!-- EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. -->
-  <MechBooster.description>Uzak bir enerji ve hesaplama geliştirme cihazı. Etki yarıçapındaki herhangi bir dost mekanoid hareket edecek ve daha hızlı çalışacaktır.</MechBooster.description>
+  <MechBooster.description>Uzaktan enerji ve hesaplama güçlendirme cihazı. Etki yarıçapı içindeki dost mekanoitler daha hızlı hareket eder ve daha verimli çalışır.</MechBooster.description>
   
   <!-- EN: pollution pump -->
-  <PollutionPump.label>kirlilik pompası</PollutionPump.label>
+  <PollutionPump.label>atık pompası</PollutionPump.label>
   <!-- EN: A groundwater-filtering pump which slowly cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. -->
-  <PollutionPump.description>Toksik araziyi yavaşça temizleyen bir yeraltı suyu filtreleme pompası. Çıkarılan toksik, taşınması gereken toksik atık paketlerine dönüştürülür.</PollutionPump.description>
+  <PollutionPump.description>Yeraltı suyunu filtreleyen bir pompa; kirli araziyi yavaşça temizler. Çekilen kirlilik, taşınması gereken zehirli atık paketleri hâlinde toplanır.</PollutionPump.description>
   
   <!-- EN: blood torch -->
   <SanguphageMeetingTorch.label>kan meşalesi</SanguphageMeetingTorch.label>
   <!-- EN: A specially-treated wooden torch that produces a red light over a large area. Sanguophages gather around torches like these during their ceremonial meetings. The sanguine glow is particularly pleasing to individuals with the bloodfeeder gene. It can be automatically refueled with wood, and produces a small amount of heat. -->
-  <SanguphageMeetingTorch.description>Geniş bir alanda kırmızı ışık veren özel olarak işlenmiş ahşap bir el feneri. Sanguofajlar tören toplantıları sırasında bunun gibi meşalelerin etrafında toplanırlar. Sanguine parıltısı, özellikle kan besleyici geni olan bireyler için sevindiricidir. Odunla otomatik olarak yakıt ikmali yapılabilir ve az miktarda ısı üretir.</SanguphageMeetingTorch.description>
+  <SanguphageMeetingTorch.description>Özel işlem görmüş ahşaptan yapılmış, geniş bir alana kırmızı ışık yayan bir meşale. Sanguofajlar, törensel toplantıları sırasında bu tür meşalelerin etrafında toplanır. Kan rengi parıltı, özellikle kan emici genine sahip bireyler için hoş bir görünüme sahiptir. Otomatik olarak odunla yeniden yakıt ikmali yapılabilir ve az miktarda ısı üretir.</SanguphageMeetingTorch.description>
   
   <!-- EN: crashed shuttle -->
-  <ShuttleCrashed_Exitable.label>düşen mekik</ShuttleCrashed_Exitable.label>
+  <ShuttleCrashed_Exitable.label>düşmüş mekik</ShuttleCrashed_Exitable.label>
   <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
-  <ShuttleCrashed_Exitable.description>Yüzey ve yörünge arasında veya bir gezegen sisteminin uyduları arasında geçiş için tasarlanmış bir boşluk teknolojisi mekiği.</ShuttleCrashed_Exitable.description>
+  <ShuttleCrashed_Exitable.description>Gezegen yüzeyi ile yörünge arasında veya bir gezegen sistemindeki uydular arasında ulaşım sağlamak için tasarlanmış bir uzay mekiği.</ShuttleCrashed_Exitable.description>
   
   <!-- EN: crashed mechanitor ship -->
-  <ShuttleCrashed_Exitable_Mechanitor.label>düşen mekanitör gemisi</ShuttleCrashed_Exitable_Mechanitor.label>
+  <ShuttleCrashed_Exitable_Mechanitor.label>düşmüş mekanitör gemisi</ShuttleCrashed_Exitable_Mechanitor.label>
   <!-- EN: A short-range ship used by a mechanitor to transport mechs for low-orbit or planetary travel. -->
-  <ShuttleCrashed_Exitable_Mechanitor.description>Bir mekanitör tarafından düşük yörüngeli veya gezegensel seyahat için mekanik taşımak için kullanılan kısa menzilli bir gemi.</ShuttleCrashed_Exitable_Mechanitor.description>
+  <ShuttleCrashed_Exitable_Mechanitor.description>Bir mekanitörün mekanoitlerini alçak yörünge veya gezegen içi seyahatlerde taşımak üzere kullanılan kısa menzilli bir gemi.</ShuttleCrashed_Exitable_Mechanitor.description>
   
   <!-- EN: toxifier generator -->
-  <ToxifierGenerator.label>Toksifer jeneratör</ToxifierGenerator.label>
+  <ToxifierGenerator.label>toksik jeneratör</ToxifierGenerator.label>
   <!-- EN: This electrical generator very slowly pollutes the terrain in a radius around it while producing energy. If all terrain in the radius is polluted, the generator will shut down. -->
-  <ToxifierGenerator.description>Bu elektrik jeneratörü, enerji üretirken etrafındaki bir yarıçap içindeki araziyi çok yavaş bir şekilde kirletir. Yarıçaptaki tüm arazi kirliyse, jeneratör kapanacaktır.</ToxifierGenerator.description>
+  <ToxifierGenerator.description>Bu elektrik jeneratörü, enerji üretirken etrafındaki araziyi yavaşça kirletir. Eğer etki yarıçapındaki tüm arazi kirlenirse, jeneratör çalışmayı durdurur.</ToxifierGenerator.description>
   
   <!-- EN: IED tox trap -->
-  <TrapIED_ToxGas.label>IED toksin tuzağı</TrapIED_ToxGas.label>
+  <TrapIED_ToxGas.label>EYP toksin tuzağı</TrapIED_ToxGas.label>
   <!-- EN: A pair of tox gas shells connected to a trigger which detonates on touch or bullet impact. Since it is hidden in the surrounding terrain, it cannot be placed adjacent to other traps. Animals can sense these when calm. -->
-  <TrapIED_ToxGas.description>Dokunma veya mermi çarpmasıyla patlayan bir tetiğe bağlı bir çift zehirli gaz mermisi. Çevredeki arazide gizlendiği için diğer tuzakların yanına yerleştirilemez. Hayvanlar sakin olduklarında bunları hissedebilirler.</TrapIED_ToxGas.description>
+  <TrapIED_ToxGas.description>Temas veya mermi darbesiyle aktifleşen bir tetikleyiciye bağlı bir çift zehirli havan mermisi. Arazinin altına gizlendiği için diğer tuzaklara bitişik şekilde yerleştirilemez. Hayvanlar sakinken bunu sezer.</TrapIED_ToxGas.description>
   
   <!-- EN: wastepack atomizer -->
-  <WastepackAtomizer.label>atık paketi atomizer</WastepackAtomizer.label>
+  <WastepackAtomizer.label>atık paketi ayrıştırıcı</WastepackAtomizer.label>
   <!-- EN: A glittertech device that deconstructs toxic wastepacks into inert gases using advanced molecular processes. The process requires considerable amounts of power. -->
-  <WastepackAtomizer.description>Gelişmiş moleküler işlemler kullanarak toksik atık paketlerini inert gazlara dönüştüren bir parıltı teknolojisi cihazı. İşlem önemli miktarda güç gerektirir.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>Gelişmiş moleküler işlemler kullanarak zehirli atık paketlerini etkisiz gazlara ayrıştıran bir ışıltıteknoloji cihazı. Bu işlem yüksek miktarda enerji gerektirir.</WastepackAtomizer.description>
   
 </LanguageData>

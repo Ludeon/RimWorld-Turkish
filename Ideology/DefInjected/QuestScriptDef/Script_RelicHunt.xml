@@ -7,9 +7,9 @@
     <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
   -->
   <RelicHunt.questDescriptionRules.rulesStrings>
-    <li>questDescription(classicMode==True)->Yakında değerli bir kalıntının olduğunu öğrendiniz.\n\n[relic_name], birçok insanın saygı duyduğu [relicGlobalCount] antik nesnelerinden biridir. Eğer onu toplayabilirseniz, kolonistlerinizi mutlu etmek ve zengin hacıları çekmek için bir kutsal emanet inşa edebilirsiniz.</li>
-    <li>questDescription(classicMode==False)->Yakınlarda bir [ideo_name] kalıntısının olduğunu öğrendiniz.\n\n[relic_name], tüm [ideo_memberNamePlural] tarafından saygı duyulan eski bir nesnedir. Onu toplayabilirseniz, [ideo_memberNamePlural]'ı mutlu etmek, zengin hacıları çekmek ve [ideo_name]'ye daha fazla insan getirmek için harika bir kutsal emanet inşa edebilirsiniz.</li>
-    <li>questDescriptionPartBeforeDiscovery->İlk önce, [relic_name] öğesini bulmanız gerekir. Bu konuda bilgi toplama fırsatlarını izleyin.</li>
+    <li>questDescription(classicMode==True)->Yakınlarda değerli bir kalıntının bulunduğunu öğrendin.\n\n[relic_name], birçok kişi tarafından kutsal sayılan [relicGlobalCount] antik nesneden biri. Eğer onu ele geçirebilirsen, bir kalıntı muhafazası inşa ederek kolonistlerini mutlu edebilir ve varlıklı hacıları kendine çekebilirsin.</li>
+    <li>questDescription(classicMode==False)->[ideo_name] ideodinine ait bir kalıntının yakınlarda olduğunu öğrendin.\n\n[relic_name], tüm [ideo_memberNamePlural] tarafından kutsal sayılan antik bir nesne. Eğer onu ele geçirebilirsen, büyük bir röliker inşa ederek [ideo_memberNamePlural] mutlu edebilir, varlıklı hacıları kendine çekebilir ve [ideo_name] ideodinine daha fazla insan kazandırabilirsin.</li>
+    <li>questDescriptionPartBeforeDiscovery->Öncelikle, [relic_name] kalıntısını bulmalısın. Onun hakkında bilgi toplama fırsatlarını kolla.</li>
   </RelicHunt.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->The [hunt] for the [item]</li>
@@ -26,18 +26,18 @@
     <li>itemAdj->venerated</li>
   -->
   <RelicHunt.questNameRules.rulesStrings>
-    <li>questName->[item] için [hunt]</li>
-    <li>questName->[ideo_name]'nin [item]'i</li>
-    <li>questName->The [itemAdj] [item]</li>
-    <li>hunt->av</li>
-    <li>hunt->arama</li>
-    <li>hunt->görev</li>
+    <li>questName->[item] [hunt]</li>
+    <li>questName->[itemAdj] [item]</li>
+    <li>questName(classicMode==False)->[ideo_name] [item]</li>
+    <li>hunt->avı</li>
+    <li>hunt->arayışı</li>
+    <li>hunt->görevi</li>
     <li>item(p=4)->[relic_name]</li>
+    <li>item->kutsal emanet</li>
     <li>item->kalıntı</li>
-    <li>item->eser</li>
-    <li>itemAdj->antik</li>
-    <li>itemAdj->saygı duyulan</li>
-    <li>itemAdj->hürmet edilen</li>
+    <li>itemAdj->kadim</li>
+    <li>itemAdj->saygıdeğer</li>
+    <li>itemAdj->saygın</li>
   </RelicHunt.questNameRules.rulesStrings>
   
 </LanguageData>

@@ -1,6 +1,6 @@
 ![Image of Rimworld](http://rimworldwiki.com/images/thumb/8/8c/Rimworldlogo.png/600px-Rimworldlogo.png)
 
-* RimWorld için resmi Türkçe Dil çevirisi.
+* RimWorld için resmî Türkçe Dil çevirisi.
 * Official Turkish language translation for RimWorld.
 
 # Çeviriye başlarken
@@ -24,11 +24,10 @@
 * [@ennear](https://github.com/ennear)
 * [@ulutasern](https://github.com/ernxwsdm)
 * [@Tufancan Demirkılıç](https://github.com/hollmmes)
-* [@Deniz "deniztheraven" Gümüş](https://github.com/denizubu)
+* [@M. Deniz Gümüş](https://github.com/denizubu)
 
-
-:star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya [Discord sunucumuza](https://discord.gg/yjnA2rm5UX) katılarak **hata-raporu** kanalına gönderi atabilirsiniz. Ayrıca direkt kendiniz de katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hali hazırda aktif olarak yapılan çevirileri ve düzenlemeleri [Discord sunucumuzdaki](https://discord.gg/yjnA2rm5UX) **aktif-çeviriler** kanalından kontrol edebilirsiniz.
-
+:star: Çeviri hataları için [Issue tracker](https://github.com/Ludeon/RimWorld-Turkish/issues)'a not bırakabilir veya [Discord sunucumuza](https://discord.gg/yjnA2rm5UX) katılarak **hata-raporu** kanalına gönderi atabilirsiniz. Ayrıca direkt kendiniz de katkıda bulunabilirsiniz. Katkıda bulunmak istiyorsanız hâlihazırda aktif olarak yapılan çevirileri ve düzenlemeleri [Discord sunucumuzdaki](https://discord.gg/yjnA2rm5UX) **aktif-çeviriler** kanalından kontrol edebilirsiniz.
+[Proje sayfasına bir göz atın.](https://github.com/Ludeon/RimWorld-Turkish/projects)
 
 ## See this page for license info:
 

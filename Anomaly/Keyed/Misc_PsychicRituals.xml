@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
   <!-- EN: psychic ritual -->
@@ -51,11 +51,11 @@
   <!-- EN: {0} is currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnWarning>{0} şu anda uykuda ve ayin başladığında uyanacak.</PsychicRitualWakingPawnWarning>
   <!-- EN: {0} is currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnWarning>{0} şu anda görevlendirilmiş ve ayin başladığında görevlendirme bitecek.</PsychicRitualUndraftPawnWarning>
+  <PsychicRitualUndraftPawnWarning>{0} şu anda çatışma modunda ve ayin başladığında çatışma modundan çıkacak.</PsychicRitualUndraftPawnWarning>
   <!-- EN: {0} are currently asleep and will wake up when the psychic ritual begins. -->
   <PsychicRitualWakingPawnsWarning>{0} şu anda uykuda ve psişik ayin başladığında uyanacaklar.</PsychicRitualWakingPawnsWarning>
   <!-- EN: {0} are currently drafted and will be un-drafted when the psychic ritual begins. -->
-  <PsychicRitualUndraftPawnsWarning>{0} şu anda görevlendirilmişler ve ayin başladığında görevlendirmeleri bitecek.</PsychicRitualUndraftPawnsWarning>
+  <PsychicRitualUndraftPawnsWarning>{0} şu anda çatışma modundalar ve ayin başladığında çatışma modundan çıkacaklar.</PsychicRitualUndraftPawnsWarning>
 
   <!-- EN: {0_labelShort} left the {1} psychic ritual. -->
   <PsychicRitualLeft>{0_labelShort}, {1} ayinini terk etti.</PsychicRitualLeft>
@@ -72,7 +72,7 @@
   <PsychicRitualTargetUnreachableByInvoker>{TARGET_labelShort} {INVOKER_labelShort} tarafından erişilemez</PsychicRitualTargetUnreachableByInvoker>
 
   <!-- EN: leave the {0} psychic ritual -->
-  <CommandLeavePsychicRitual>{0} ayinini terket</CommandLeavePsychicRitual>
+  <CommandLeavePsychicRitual>{0} ayinini terk et</CommandLeavePsychicRitual>
   <!-- EN: stop participating in the {0} psychic ritual. The psychic ritual will continue as long as it has at least one participant. -->
   <CommandLeavePsychicRitualDesc>{0} ayinine katılmayı bırak. Ayin, en az bir katılımcı olduğu sürece devam edecek.</CommandLeavePsychicRitualDesc>
 
@@ -96,9 +96,9 @@
   <!-- EN: {PAWN_labelShort} had better things to do -->
   <PsychicRitualLeaveReason_LeftVoluntarily>{PAWN_labelShort} yapacak daha iyi işleri vardı</PsychicRitualLeaveReason_LeftVoluntarily>
   <!-- EN: {PAWN_labelShort} is drafted -->
-  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} görevlendirilmiş</PsychicRitualLeaveReason_Drafted>
+  <PsychicRitualLeaveReason_Drafted>{PAWN_labelShort} çıkacak</PsychicRitualLeaveReason_Drafted>
   <!-- EN: {PAWN_labelShort} is in a mental state -->
-  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} ruhsal bunalımda</PsychicRitualLeaveReason_InMentalState>
+  <PsychicRitualLeaveReason_InMentalState>{PAWN_labelShort} ruhsal çöküş yaşıyor.</PsychicRitualLeaveReason_InMentalState>
   <!-- EN: {PAWN_labelShort} is bleeding -->
   <PsychicRitualLeaveReason_Bleeding>{PAWN_labelShort} kanıyor</PsychicRitualLeaveReason_Bleeding>
   <!-- EN: {PAWN_labelShort} is on fire -->
@@ -112,7 +112,7 @@
   <!-- EN: {PAWN_labelShort} is not humanlike -->
   <PsychicRitualLeaveReason_NonHumanlike>{PAWN_labelShort} insansı değil</PsychicRitualLeaveReason_NonHumanlike>
   <!-- EN: {PAWN_labelShort} is a prisoner -->
-  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} bir mahkum</PsychicRitualLeaveReason_Prisoner>
+  <PsychicRitualLeaveReason_Prisoner>{PAWN_labelShort} bir mahkûm</PsychicRitualLeaveReason_Prisoner>
   <!-- EN: {PAWN_labelShort} is a slave -->
   <PsychicRitualLeaveReason_Slave>{PAWN_labelShort} bir köle</PsychicRitualLeaveReason_Slave>
   <!-- EN: {PAWN_labelShort} is free -->
@@ -128,7 +128,7 @@
   <!-- EN: {PAWN_labelShort}'s belief in {IDEO_name} prevents participation -->
   <PsychicRitualLeaveReason_IdeoUnwilling>{PAWN_labelShort}, inancı olan {IDEO_name} gereği katılamıyor</PsychicRitualLeaveReason_IdeoUnwilling> 
   <!-- EN: {PAWN_labelShort} is not psychically sensitive -->
-  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} psişik açıdan hassas değil</PsychicRitualLeaveReason_NoPsychicSensitivity>
+  <PsychicRitualLeaveReason_NoPsychicSensitivity>{PAWN_labelShort} psişik açıdan duyarlı değil</PsychicRitualLeaveReason_NoPsychicSensitivity>
   <!-- EN: {PAWN_labelShort} is a temporary faction member -->
   <PsychicRitualLeaveReason_TemporaryFactionMember>{PAWN_labelShort} geçici bir üye</PsychicRitualLeaveReason_TemporaryFactionMember>
   <!-- EN: {PAWN_labelShort} has other duties to attend to -->
@@ -179,9 +179,9 @@
   <!-- EN: These objects help focus the psychic power of the ritual. -->
   <PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>Şu objeler ayinin psişik gücünün odaklanmasına yardımcı olur</PsychicRitualDef_InvocationCircle_QualityFactor_Increase_Tooltip>
   <!-- EN: Ideoligion offset -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>İdeoloji çarpanı</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>İdeodin ön değeri</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion>
   <!-- EN: How affected the psychic ritual is by ideoligious beliefs. -->
-  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>Ayinin ideolojik bağlılıklar tarafından ne kadar etkilendiği</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
+  <PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>Ayinin ideodinî bağlılıklar tarafından ne kadar etkilendiği</PsychicRitualDef_InvocationCircle_QualityFactor_Ideoligion_Tooltip>
 
   <!-- PsychicRitualDef_InvokationCircle messages -->
   <!-- EN: {0} has begun performing the {1} psychic ritual. -->
@@ -199,7 +199,7 @@
 
   <!-- Pit gate summoning -->
   <!-- EN: There is already a pit gate on the map. -->
-  <PitGateAlreadyExists>Haritada hali hazırda bir çukur geçit var</PitGateAlreadyExists>
+  <PitGateAlreadyExists>Haritada hâli hazırda bir çukur geçit var</PitGateAlreadyExists>
   
   <!-- Chronophagy -->
   <!-- EN: The invoker must be at least {0} years old. -->
@@ -211,7 +211,7 @@
   
   <!-- Philophagy -->
   <!-- EN: {INVOKER_labelShort} will steal {1} {SKILL_label} XP from {TARGET_labelShort}. -->
-  <PhilophagyTransferReport>{INVOKER_labelShort}, {TARGET_labelShort}'dan {1} {SKILL_label} XP çalacak.</PhilophagyTransferReport>
+  <PhilophagyTransferReport>{INVOKER_labelShort}, {TARGET_labelShort}'dan {1} {SKILL_label} deneyim puanı çalacak.</PhilophagyTransferReport>
   <!-- EN: {TARGET_labelShort} has no skills to transfer. -->
   <NoSkillsToTransfer>{TARGET_labelShort} aktaracak bir yeteneğe sahip değil.</NoSkillsToTransfer>
 </LanguageData>

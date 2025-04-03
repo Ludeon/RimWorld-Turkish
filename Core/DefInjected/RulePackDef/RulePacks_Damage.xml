@@ -15,17 +15,17 @@
     <li>destroyed_past->detonated</li>
   -->
   <Damage_Bomb.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->tahrip oldu</li>
-    <li>damaged_past(p=2)->patladı</li>
-    <li>damaged_past->yaralandı</li>
-    <li>damaged_past->hasar gördü</li>
-    <li>damaged_past->incindi</li>
-    <li>damaged_past->acıdı</li>
-    <li>destroyed->tuzla buz oldu</li>
-    <li>destroyed->ezildi</li>
-    <li>destroyed->yok oldu</li>
-    <li>destroyed->ortadan kaldırdı</li>
-    <li>destroyed->infilak etti</li>
+    <li>damaged_past(p=2)->tahrip etti</li>
+    <li>damaged_past(p=2)->patlattı</li>
+    <li>damaged_past->yaraladı</li>
+    <li>damaged_past->hasar verdi</li>
+    <li>damaged_past->yara açtı</li>
+    <li>damaged_past->zarar verdi</li>
+    <li>destroyed_past->parçaladı</li>
+    <li>destroyed_past->dağıttı</li>
+    <li>destroyed_past->mahvetti</li>
+    <li>destroyed_past->yok etti</li>
+    <li>destroyed_past->infilak etti</li>
   </Damage_Bomb.rulePack.rulesStrings>
   
   <!-- EN:
@@ -35,9 +35,9 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_EMP.rulePack.rulesStrings>
-    <li>damaged_past->elektrikle çarpıldı</li>
-    <li>damaged_past->şoklandı</li>
-    <li>damaged_past->perişan oldu</li>
+    <li>damaged_past->elektrik verdi</li>
+    <li>damaged_past->şokladı</li>
+    <li>damaged_past->çarptı</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_EMP.rulePack.rulesStrings>
   
@@ -50,9 +50,9 @@
   -->
   <Damage_Extinguish.rulePack.rulesStrings>
     <li>damaged_past->söndürdü</li>
-    <li>damaged_past->değiştirdi</li>
+    <li>damaged_past->söndürdü</li>
     <li>damaged_past->köpükledi</li>
-    <li>damaged_past->su döktü</li>
+    <li>damaged_past->suyla söndürdü</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Extinguish.rulePack.rulesStrings>
   
@@ -91,32 +91,38 @@
     <li>destroyed_present->detonating</li>
   -->
   <Damage_Flame.rulePack.rulesStrings>
-    <li>damaged_past(p=2)->tahrip oldu</li>
-    <li>damaged_past(p=2)->şoklandı</li>
-    <li>damaged_past(p=2)->yandı</li>
-    <li>damaged_past(p=2)->Kabardı</li>
-    <li>damaged_past(p=2)->tutuştu</li>
-    <li>damaged_past(p=2)->kurudu</li>
-    <li>damaged_past->yaralandı</li>
-    <li>damaged_past->hasar gördü</li>
-    <li>damaged_past->incindi</li>
-    <li>damaged_present(p=2)->tahrip oluyor</li>
-    <li>damaged_present(p=2)->şoklanıyor</li>
+    <li>damaged_past(p=2)->tahrip etti</li>
+    <li>damaged_past(p=2)->kavurdu</li>
+    <li>damaged_past(p=2)->yaktı</li>
+    <li>damaged_past(p=2)->ateşe verdi</li>
+    <li>damaged_past(p=2)->alazladı</li>
+    <li>damaged_past(p=2)->dağladı</li>
+    <li>damaged_past->yaraladı</li>
+    <li>damaged_past->hasar verdi</li>
+    <li>damaged_past->yara açtı</li>
+    <li>damaged_past->zarar verdi</li>
+    <li>damaged_present(p=2)->patlıyor</li>
+    <li>damaged_present(p=2)->kavruluyor</li>
     <li>damaged_present(p=2)->yanıyor</li>
-    <li>damaged_present(p=2)->kabarıyor</li>
-    <li>damaged_present(p=2)->tutuşuyor</li>
-    <li>damaged_present(p=2)->kuruyor</li>
+    <li>damaged_present(p=2)->su topluyor</li>
+    <li>damaged_present(p=2)->alev alıyor</li>
+    <li>damaged_present(p=2)->dağlanıyor</li>
     <li>damaged_present->yaralanıyor</li>
-    <li>damaged_present->hasar görüyor</li>
-    <li>damaged_present->inciniyor</li>
-    <li>destroyed_past->yanıp kül oldu.</li>
+    <li>damaged_present->hasar alıyor</li>
+    <li>damaged_present->yara alıyor</li>
+    <li>damaged_present->zarar görüyor</li>
+    <li>destroyed_past->eridi</li>
+    <li>destroyed_past->kül oldu</li>
     <li>destroyed_past->kömürleşti</li>
+    <li>destroyed_past->mahvoldu</li>
     <li>destroyed_past->yok oldu</li>
-    <li>destroyed_past->patladı</li>
-    <li>destroyed_present->yanıp kül oluyor</li>
+    <li>destroyed_past->infilak etti</li>
+    <li>destroyed_present->eriyor</li>
+    <li>destroyed_present->yanıyor</li>
     <li>destroyed_present->kömürleşiyor</li>
+    <li>destroyed_present->mahvoluyor</li>
     <li>destroyed_present->yok oluyor</li>
-    <li>destroyed_present->patlıyor</li>
+    <li>destroyed_present->infilak ediyor</li>
   </Damage_Flame.rulePack.rulesStrings>
   
   <!-- EN:
@@ -126,9 +132,9 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Smoke.rulePack.rulesStrings>
-    <li>damaged_past->dumanlandı</li>
-    <li>damaged_past->buğulandı</li>
-    <li>damaged_past->bulanıklaştı</li>
+    <li>damaged_past->dumanladı</li>
+    <li>damaged_past->buğuladı</li>
+    <li>damaged_past->sisledi</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Smoke.rulePack.rulesStrings>
   
@@ -140,10 +146,10 @@
     <li>destroyed_past->damaged_past</li>
   -->
   <Damage_Stun.rulePack.rulesStrings>
-    <li>damaged_past->sersemledi</li>
-    <li>damaged_past->şaşırdı</li>
-    <li>damaged_past->durdu</li>
-    <li>damaged_past->başı döndü</li>
+    <li>damaged_past->sersemletti</li>
+    <li>damaged_past->şaşırttı</li>
+    <li>damaged_past->durdurdu</li>
+    <li>damaged_past->başını döndürdü</li>
     <li>destroyed_past->damaged_past</li>
   </Damage_Stun.rulePack.rulesStrings>
   

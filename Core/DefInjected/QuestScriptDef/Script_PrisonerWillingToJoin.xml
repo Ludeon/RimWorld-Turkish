@@ -9,10 +9,10 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->[siteFaction_name] tarafından tutulan bir mahkum, bir radyo çalıp sizi aramayı başardı!\n\n[prisoner_nameDef], [underArmedGuard] tarafından [map_definite] yakınlarındaki bir kampta tutuluyor. Onu kurtarırsanız  koloninize katılacak. [prisoner_age] yaşında bir [prisoner_title].O, [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo] diyor\n\nBu fırsatı kaçırırsanız [prisoner_nameDef]'ten bir daha haber alamayabilirsiniz.</li>
+    <li>questDescription->[siteFaction_name] tarafından alıkonulan bir mahkûm, bir radyo çalıp seni aramayı başardı!\n\n[prisoner_nameDef], [map_definite] yakınlarındaki bir kampta[underArmedGuard] tutuluyor. Onu kurtarırsan kolonine katılacak. O, [prisoner_age] yaşında bir [prisoner_title]. O, [allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo] diyor.\n\nBu fırsatı kaçırırsan [prisoner_nameDef] bir daha sana ulaşamayabilir.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
-    <li>underArmedGuard(allowViolentQuests==true,priority=1)->silahlı koruma altında</li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)-> silahlı koruma altında</li>
     <li>underArmedGuard-></li>
   </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -24,12 +24,12 @@
     <li>questName->Breaking [prisoner_nameDef] Out</li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
-    <li>questName->[prisoner_nameDef]'in kurtuluşu</li>
-    <li>questName->[prisoner_nameDef]'in kurtarılması</li>
-    <li>questName->[prisoner_nameDef]'in Kaçışı</li>
-    <li>questName->[prisoner_nameDef] kurtuluyor</li>
-    <li>questName->[prisoner_nameDef] kurtarılıyor</li>
-    <li>questName->[prisoner_nameDef] kaçırılıyor</li>
+    <li>questName->[prisoner_nameDef] Kişisinin Kurtuluşu</li>
+    <li>questName->[prisoner_nameDef] Kişisinin Kurtarılması</li>
+    <li>questName->[prisoner_nameDef] Kişisinin Kaçışı</li>
+    <li>questName->Kurtarma: [prisoner_nameDef]</li>
+    <li>questName->Kurtarılma: [prisoner_nameDef]</li>
+    <li>questName->Kaçırma: [prisoner_nameDef]</li>
   </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   
 </LanguageData>

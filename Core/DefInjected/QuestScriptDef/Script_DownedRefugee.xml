@@ -8,8 +8,8 @@
     <li>pawnInvolvedInQuestInfo-></li>
   -->
   <OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[refugee_nameDef] sizinle iletişim kuruyor ve yardım istiyor.O yaralı ve hareket edemez durumda.\n\n[refugee_nameDef], [refugee_age] yaşında bir [refugee_title].Onu kurtarırsanız size katılacağına söz veriyor.\n\n[refugee_nameDef] şunu söylüyor: [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] üyesi [asker_nameDef] [asker_faction_leaderTitle],arkadaşının seyahat ederken yaralandığını söylüyor. Kurban, [refugee_age] yaşında olan  [refugee_nameIndef] [refugee_title].\n\n[asker_nameDef]'in [refugee_nameDef]'i kurtarmak için çağıracak kimsesi yok ancak [refugee_nameDef]'in konumuna gelip onu kurtarabilirsen onun sana katılacağını söylüyor.\n\n[asker_nameDef] şunu söylüyor: [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+    <li>questDescription(askerIsNull==true)->[refugee_nameDef] seninle iletişime geçti ve yardım istiyor. O, yaralı ve hareket edemez durumda.\n\n[refugee_nameDef], [refugee_age] yaşında bir [refugee_title]. Onu kurtarırsan kolonine katılacağına söz veriyor.\n\n[refugee_nameDef] [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo] diyor.</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameDef], arkadaşının seyahat ederken yaralandığını söylüyor. Kurban, [refugee_age] yaşındaki [refugee_title] [refugee_nameIndef].\n\n[asker_nameDef], [refugee_nameDef] için çağıracak kimsesinin olmadığını söylüyor ancak gidip onu kurtarabilirsen onun sana katılacağını söylüyor.\n\n[asker_nameDef] [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo] diyor.</li>
     <li>pawnInvolvedInQuestInfo(priority=1)->[refugee_pawnInvolvedInQuestInfo]</li>
     <li>pawnInvolvedInQuestInfo-></li>
   </OpportunitySite_DownedRefugee.questDescriptionRules.rulesStrings>
@@ -20,14 +20,14 @@
     <li>questName->[refugee_nameDef]'s Salvation</li>
   -->
   <OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
-    <li>questName->Kurtar: [refugee_nameDef]</li>
+    <li>questName->Kurtarma: [refugee_nameDef]</li>
     <li>questName->Kurtarılma: [refugee_nameDef]</li>
-    <li>questName->[refugee_nameDef]'in kurtarılması</li>
-    <li>questName->[refugee_nameDef]'in kurtuluşu</li>
+    <li>questName->[refugee_nameDef] Kişisinin Kurtarılması</li>
+    <li>questName->[refugee_nameDef] Kişisinin Kurtuluşu</li>
   </OpportunitySite_DownedRefugee.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
   <OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>Görev süresi doldu: [resolvedQuestName]</OpportunitySite_DownedRefugee.LetterLabelQuestExpired.slateRef>
   <!-- EN: [refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>[refugee_nameDef]'in sinyali kayboldu ve  artık kurtarılamaz. [resolvedQuestName] görevinin süresi doldu.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>Gelen sinyal kayboldu ve [refugee_nameDef] artık kurtarılamaz. [resolvedQuestName] görevinin süresi doldu.</OpportunitySite_DownedRefugee.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

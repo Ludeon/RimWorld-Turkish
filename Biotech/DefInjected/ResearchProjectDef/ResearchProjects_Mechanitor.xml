@@ -2,28 +2,108 @@
 <LanguageData>
   
   <!-- EN: basic mechtech -->
-  <BasicMechtech.label>basit mektek</BasicMechtech.label>
+  <BasicMechtech.label>basit mekatek</BasicMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control basic-tier mechanoids. -->
-  <BasicMechtech.description>mekanitörün temel seviye mekanoidleri oluşturması ve kontrol etmesi için gereken teknoloji.</BasicMechtech.description>
+  <BasicMechtech.description>Mekanitörünün temel seviye mekanoitleri oluşturması ve kontrol etmesi için gerekli teknoloji.</BasicMechtech.description>
+  <!-- EN:
+    <li>subject->mechanoids</li>
+    <li>subject_story->authored a children's book covering the basic types of mechanoid</li>
+    <li>subject_story->was implanted with a prototype mechlink</li>
+    <li>subject_story->replicated basic biomech techniques independently</li>
+    <li>subject_story->was mining an ancient exostrider wreck and found a mechlink preserved in the wreckage</li>
+    <li>subject_gerund->creating basic mechanoids</li>
+  -->
+  <BasicMechtech.generalRules.rulesStrings>
+    <li>subject->mekanoitler</li>
+    <li>subject_story->temel mekanoit türlerini anlatan bir çocuk kitabı yazdı</li>
+    <li>subject_story->bir mekabağ prototipi taktı</li>
+    <li>subject_story->bağımsız çalışarak temel biyomek tekniklerini kopyaladı</li>
+    <li>subject_story->antik bir dışgezgin kalıntısını kazarken muhafaza olmuş bir mekabağ buldu</li>
+    <li>subject_gerund->temel mekanoitler yapma</li>
+  </BasicMechtech.generalRules.rulesStrings>
   
   <!-- EN: high mechtech -->
-  <HighMechtech.label>yüksek-mektek</HighMechtech.label>
+  <HighMechtech.label>yüksek mekatek</HighMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control high-tier mechanoids.\n\nYou can get powerfocus chips by using a mechanitor to summon a war queen threat. -->
-  <HighMechtech.description>mekanitörün yüksek seviye mekanoidler yaratması ve kontrol etmesi için gereken teknoloji.\n\nBir savaş kraliçesi tehdidi çağırmak için bir mekanitör kullanarak güç odaklama çipleri alabilirsiniz.</HighMechtech.description>
+  <HighMechtech.description>Mekanitörünün ileri seviye mekanoitleri oluşturması ve kontrol etmesi için gerekli teknoloji.\n\nBir mekanitör aracılığıyla savaş kraliçesi tehdidini çağırarak güçodak çipleri elde edebilirsin.</HighMechtech.description>
+  <!-- EN:
+    <li>subject->high tier mechanoids</li>
+    <li>subject_story->survived a War Queen assault on an Imperial world</li>
+    <li>subject_story->bought a Powerfocus chip from a trader who didn't understand its worth</li>
+    <li>subject_story->interrogated mechanitors captured in planetary raids</li>
+    <li>subject_story->built prototype mechanoid micro-organs for an offworld client</li>
+    <li>subject_gerund->creating high-tier mechanoids</li>
+  -->
+  <HighMechtech.generalRules.rulesStrings>
+    <li>subject->üst düzey mekanoitler</li>
+    <li>subject_story->bir İmparatorluk gezegeninde Savaş Kraliçesi saldırısından sağ kurtuldu</li>
+    <li>subject_story->elindekinin değerini bilmeyen bir tüccardan güçodak çipi satın aldı</li>
+    <li>subject_story->gezegen baskınlarında ele geçirilen mekanitörleri sorguladı</li>
+    <li>subject_story->dışdünyalı bir müşteri için mekanoit mikro organlarının prototiplerini yaptı</li>
+    <li>subject_gerund->üst düzey mekanoitler yapma</li>
+  </HighMechtech.generalRules.rulesStrings>
   
   <!-- EN: standard mechtech -->
-  <StandardMechtech.label>standart-mektek</StandardMechtech.label>
+  <StandardMechtech.label>standart mekatek</StandardMechtech.label>
   <!-- EN: The technology needed for your mechanitor to create and control standard-tier mechanoids.\n\nYou can get signal chips by using a mechanitor to summon a diabolus threat. -->
-  <StandardMechtech.description>mekanitörün standart seviye mekanoidler oluşturması ve kontrol etmesi için gereken teknoloji.\n\ndiyabolus tehdidi çağırmak için bir mekanitör kullanarak sinyal çipleri alabilirsiniz.</StandardMechtech.description>
+  <StandardMechtech.description>Mekanitörünün standart seviye mekanoitleri oluşturması ve kontrol etmesi için gerekli teknoloji.\n\nBir mekanitör aracılığıyla şeytan tehdidini çağırarak sinyal çipleri elde edebilirsin.</StandardMechtech.description>
+  <!-- EN:
+    <li>subject->mechanoids</li>
+    <li>subject_story->acquired a signal chip in shady circumstances</li>
+    <li>subject_story->found an intact signal chip in a diabolus wreck</li>
+    <li>subject_story->survived a mechanoid hive assault</li>
+    <li>subject_story->collated reports of mechanoid attacks, looking for commonalities</li>
+    <li>subject_gerund->creating standard mechanoids</li>
+  -->
+  <StandardMechtech.generalRules.rulesStrings>
+    <li>subject->mekanoitler</li>
+    <li>subject_story->zorlu şartlar altında bir sinyal çipi edindi</li>
+    <li>subject_story->bir şeytan kalıntısında parçalanmamış sinyal çipi buldu</li>
+    <li>subject_story->bir mekonait kovanı saldırısından sağ çıktı</li>
+    <li>subject_story->mekanoit saldırılarına dair raporları toplayarak ortak noktalar aradı</li>
+    <li>subject_gerund->standart mekanoitler yapma</li>
+  </StandardMechtech.generalRules.rulesStrings>
   
   <!-- EN: ultra mechtech -->
-  <UltraMechtech.label>ultra-mektek</UltraMechtech.label>
+  <UltraMechtech.label>ultra mekatek</UltraMechtech.label>
   <!-- EN: The advanced technology needed for your mechanitor to create and control ultra-tier mechanoids, including large mechs and ultra-tier mechanitor gear.\n\nYou can get nano structuring chips by using a mechanitor to summon an apocriton threat. -->
-  <UltraMechtech.description>mekanitörün, büyük makineler ve ultra katmanlı mekanik donanımlar dahil olmak üzere ultra katmanlı mekanoidleri oluşturması ve kontrol etmesi için gereken ileri teknoloji.\n\nBir apokrit tehdidini çağırmak için bir mekanitör kullanarak nano yapılandırma çipleri alabilirsiniz.</UltraMechtech.description>
+  <UltraMechtech.description>Mekanitörünün ultra seviye mekanitör teçhizatları ve büyük mekanoitler dahil olmak üzere ultra seviye mekanoitleri oluşturması ve kontrol etmesi için gerekli teknoloji.\n\nBir mekanitör aracılığıyla şeytan tehdidini çağırarak yapılandırma çipleri elde edebilirsin.</UltraMechtech.description>
+  <!-- EN:
+    <li>subject->ultra-tier mechanoids</li>
+    <li>subject_story->found a powered-down apocriton in the wreckage of a deadworld</li>
+    <li>subject_story->observed an apocriton resurrecting mechs from a safe distance</li>
+    <li>subject_story->tapped into the deep psychic hatred that the apocritons feel towards humanity</li>
+    <li>subject_story->found an ascension diary next to an inert archonexus</li>
+    <li>subject_gerund->creating ultra-tier mechanoids</li>
+  -->
+  <UltraMechtech.generalRules.rulesStrings>
+    <li>subject->ultra seviye mekanoitler</li>
+    <li>subject_story->bir ölüdünyanın kalıntıları arasında gücü tükenmiş bir apokriton buldu</li>
+    <li>subject_story->bir apokritonun güvenli mesafeden mekanoitleri diriltmesini gözlemledi</li>
+    <li>subject_story->apokritonların insanlığa karşı duyduğu derin psişik nefretten istifade etti</li>
+    <li>subject_story->hareketsiz bir arkoneksusun yanında yükseliş günlüğü buldu</li>
+    <li>subject_gerund->ultra seviye mekanoitler yapma</li>
+  </UltraMechtech.generalRules.rulesStrings>
   
   <!-- EN: wastepack atomizer -->
-  <WastepackAtomizer.label>atık paketi atomizer</WastepackAtomizer.label>
+  <WastepackAtomizer.label>atık paketi ayrıştırıcı</WastepackAtomizer.label>
   <!-- EN: Build wastepack atomizers which can safely dispose of toxic wastepacks by decomposing them at the molecular level. -->
-  <WastepackAtomizer.description>Toksik atık paketlerini moleküler düzeyde ayrıştırarak güvenli bir şekilde bertaraf edebilen atık paketi atomizörleri oluşturun.</WastepackAtomizer.description>
+  <WastepackAtomizer.description>Atık paketlerini moleküler düzeyde ayrıştırarak güvenli bir şekilde bertaraf edebilen atık paketi ayrıştırıcılar inşa et.</WastepackAtomizer.description>
+  <!-- EN:
+    <li>subject->toxic waste atomization</li>
+    <li>subject_story->studied safe atomic waste disposal</li>
+    <li>subject_story->recruited disposable teams for solar waste disposal missions</li>
+    <li>subject_story->devised the theory for atomic destabilisation from first principles</li>
+    <li>subject_story->observed a toxicworld from orbit</li>
+    <li>subject_gerund->constructing wastepack atomizers</li>
+  -->
+  <WastepackAtomizer.generalRules.rulesStrings>
+    <li>subject->toksik atık ayrıştırma</li>
+    <li>subject_story->güvenli atomik atık boşaltımı üzerine çalıştı</li>
+    <li>subject_story->güneş atığı imha görevleri için tek kullanımlık ekipler topladı</li>
+    <li>subject_story->atomik destabilizasyon teorisini temel prensiplerinden kurdu</li>
+    <li>subject_story->yörüngeden bir toksikdünyayı gözlemledi</li>
+    <li>subject_gerund->toksik atık ayrıştırıcılar inşa etme</li>
+  </WastepackAtomizer.generalRules.rulesStrings>
   
 </LanguageData>

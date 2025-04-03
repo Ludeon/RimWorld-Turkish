@@ -11,11 +11,11 @@
   -->
   <PollutionRetaliation.questContentRules.rulesStrings>
     <li>retaliationLetterLabel->atık paketi misillemesi</li>
-    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] atık paketi misillemesi</li>
-    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]'in atık paketi misillemesi</li>
-    <li>retaliationLetterText(senderIsNull==True)->Harita dışına zehirli atık atmanız gözden kaçmadı. Öfkeli komşular, yerleşim yerinizi zehirli atık paketleriyle dolu nakliye kapsülleriyle bombalayarak misilleme yapıyor.\n\nDondurulmazsa zehirli atık paketleri zamanla çözülecek ve yakındaki araziyi kirletecek.</li>
-    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name] grubundan [sender_faction_leaderTitle] [sender_nameFull], zehirli atıkların harita dışına pervasızca atılmasının kendi grubuna zarar verdiğini iddia ediyor. Misilleme olarak, sizi zehirli atık paketleriyle bombalamak için nakliye kapsüllerini kullanıyor.\n\nDondurulmazlarsa, zehirli atık paketleri zamanla çözülecek ve yakındaki araziyi kirletecek.</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name] grubundan [sender_faction_leaderTitle] [sender_nameFull], zehirli atıkların harita dışına pervasızca atılmasının kendi grubuna zarar verdiğini iddia ediyor ve misilleme yapmanın onurlu olduğuna inanıyor. Sizi zehirli atık paketleriyle bombardıman etmek için nakliye kapsüllerini kullanıyor.\n\nDondurulmazsa zehirli atık paketleri zamanla çözülecek ve yakındaki araziyi kirletecek.</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] tarafından atık paketi misillemesi</li>
+    <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef] tarafından atık paketi misillemesi</li>
+    <li>retaliationLetterText(senderIsNull==True)->Harita dışına zehirli atık boşaltman gözden kaçmadı. Öfkeli komşuların, yerleşimini zehirli atık paketleri dolu taşıma kapsülleriyle bombardımana tutuyor.\n\nDondurulmadıkları takdirde, zehirli atık paketleri zamanla çözünecek ve çevredeki araziyi kirletecektir.</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name] fraksiyonundan [sender_faction_leaderTitle] [sender_nameFull], zehirli atıkların harita dışına pervasızca atılmasının kendi grubuna zarar verdiğini iddia ediyor. Misilleme olarak, seni zehirli atık paketleri dolu taşıma kapsülleriyle bombardımana tutuyor.\n\nDondurulmadıkları takdirde, zehirli atık paketleri zamanla çözünecek ve çevredeki araziyi kirletecektir.</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name] fraksiyonundan [sender_faction_leaderTitle] [sender_nameFull], zehirli atıkların harita dışına pervasızca atılmasının kendi grubuna zarar verdiğini iddia ediyor ve misilleme yapmanın onurlu olduğuna inanıyor. Seni zehirli atık paketleri dolu taşıma kapsülleriyle bombardımana tutuyor.\n\nDondurulmadıkları takdirde, zehirli atık paketleri zamanla çözünecek ve çevredeki araziyi kirletecektir.</li>
   </PollutionRetaliation.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->pollutionretaliation</li>

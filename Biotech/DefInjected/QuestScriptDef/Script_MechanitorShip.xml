@@ -10,18 +10,18 @@
     <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
   -->
   <MechanitorShip.questContentRules.rulesStrings>
-    <li>mechanitorShuttleCrashedLetterLabel->Mekanitör gemi</li>
-    <li>mechanitorShuttleCrashedLetterText->Vahşi mekanoidler içeren bir mekanitör gemisi yakınlarda düştü. Mekanoidler, düşen gemiden çıkacak ve savaşmaya hazırlanacak.</li>
-    <li>assaultBeginLetterLabel->mekanoid saldırı</li>
-    <li>assaultBeginLetterText->Vahşi mekanoidler koloniye saldırmak için geliyor!</li>
-    <li>mechlinkAvailableLetterLabel->{yer: [mechanitor_nameDef]; "s&lt;/color>s"-"s&lt;/color>'"; "ß&lt;/color>s"-"ß&lt;/color>'"; "z&lt;/color>s"-"z&lt;/color>'"; "x&lt;/color>s"-"x&lt;/color>'"; "ce&lt;/color>s"-"ce&lt;/color>'"} Mekanik bağlantı mevcut</li>
-    <li>mechlinkAvailableLetterText->Düşen gemi eski bir Mekanitör cesedini içeriyordu.\n\nBir kolonici seçip cesete sağ tıklayarak mekanik bağlantısını çıkarın.</li>
+    <li>mechanitorShuttleCrashedLetterLabel->Mekanitör gemisi</li>
+    <li>mechanitorShuttleCrashedLetterText->Vahşi mekanoitler taşıyan bir mekanitör gemisi yakınlara düştü. Mekanoitler gemi enkazından çıkarak çatışmaya hazırlanacaklar.</li>
+    <li>assaultBeginLetterLabel->Mekanoit saldırısı</li>
+    <li>assaultBeginLetterText->Vahşi mekanoitler kolonine saldırmak üzere harekete geçiyor!</li>
+    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef] mekabağını düşürdü</li>
+    <li>mechlinkAvailableLetterText->Düşen gemi, antik bir mekanitörün cesedini taşıyordu.\n\nBir kolonistini seçip cesede sağ tıklayarak mekabağını çıkar.</li>
   </MechanitorShip.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
   -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Yörüngedeki bir mekanoid geminin yerini ortaya çıkaran eski bir transponderin şifresini çözdünüz. Gemi ağır hasarlı ama yakına inmesi için sinyal verebilirsiniz.\n\nGemide uzun zaman önce ölmüş bir tamircinin kalıntıları var. Mekanikçiler, iş ve savaş için mekanoidler oluşturabilir ve kontrol edebilir. Ölen tamircinin mekanik bağlantısını çıkararak, kendi kolonilerinizden birini bir tamirciye dönüştürebilirsiniz.\n\nDikkat edin - gemi ayrıca düşman mekanoidler içeriyor. Mekanoid grubu şunlardan oluşur:\n\n[mechList]</li>
+    <li>questDescription->Antik bir vericiyi deşifre ettin; bu sayede yörüngede bulunan bir mekanoit gemisinin yerini ortaya çıkardın. Gemi ağır hasar almış durumda fakat ona sinyal göndererek yakınlara iniş yapmasını sağlayabilirsin.\n\nGemide, çok uzun zaman önce ölmüş bir mekanitörün kalıntıları bulunuyor. Mekanitörler, iş ve savaş için mekanoitleri yaratabilir ve kontrol edebilirler. Ölmüş mekanitörün mekabağını çıkararak kendi kolonistlerinden birini mekanitöre dönüştürebilirsin.\n\nDikkat et! Gemide aynı zamanda düşmancıl mekanoitler de mevcut. Mekanoit grubu şunlardan oluşuyor:\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[shipAdjective] [shipNoun]</li>
@@ -38,23 +38,16 @@
   -->
   <MechanitorShip.questNameRules.rulesStrings>
     <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->mekanitör</li>
-    <li>shipAdjective->şef</li>
-    <li>shipAdjective->mekanoid</li>
-    <li>shipNoun2-></li>
-    <li>shipNoun2-></li>
-    <li>shipNoun2-></li>
+    <li>shipAdjective->şefin</li>
+    <li>shipAdjective->mekanitörün</li>
+    <li>shipAdjective->mekanoit</li>
     <li>shipNoun->gemisi</li>
     <li>shipNoun->mekiği</li>
-    <li>shipNoun->gemisi</li>
+    <li>shipNoun->uçağı</li>
     <li>shipNoun->enkazı</li>
-    <li>suffix-></li>
-    <li>suffix-></li>
+    <li>shipNoun->kalıntısı</li>
+    <li>shipNoun->aracı</li>
   </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>

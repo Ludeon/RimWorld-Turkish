@@ -9,10 +9,10 @@
     <li>threatsInfo-></li>
   -->
   <EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
-    <li>questDescription->[intro][asker_faction_name] [asker_faction_leaderTitle], istek üzerine kendi alanının herhangi bir yerine geleneksel bir ziyaret gerçekleştirecektir. Onu davet edin, [shuttleDelayTicks_duration] için kraliyet ihtiyaçlarını karşılayın ve hepiniz mekiği İmparatorluk filosuna götürün. Daha sonra İmparatorluk sarayına katılabilir veya yıldızlar arasında yeni bir hayata kaçabilirsiniz.\n\nKont unvanını kazanmak, [asker_faction_royalFavorLabel]'i [asker_faction_name] ile kazanmak için görevleri tamamlamak anlamına gelir.Sonunda Kont unvanını elde etmek yıllar alabilir.\n\nZiyaret sırasında ruh halini [lodgersMoodThreshold_percent] üzerinde tutmalısınız. Bu, gösterişli bir yatak odası gibi kraliyet ayrıcalıkları sağlamak anlamına gelir.[threatsInfo]\n\n[asker_faction_leaderTitle] dört kişisel muhafızını getirecek ve onları sizin emrinize verecek.Bu muhafızları barındırmalısınız,[asker_faction_leaderTitle] öldürüldüklerinde veya mutsuz olduklarında şikayet etmeyecektir.\n\nZiyaretçileri [map_definite] adresinde tutmalı ve başka hiçbir yere göndermemelisiniz.Bu görevde başarısız olursanız veya göç ederseniz, daha sonra bir şansınız daha olacak.</li>
-    <li>intro(sameQuestsCount==0)->Bu gezegenden kaçmanın bir yolunu öğrendin!!\n\n</li>
-    <li>intro(sameQuestsCount>=1)->Kraliyet'e yükselişte size bir şans daha verildi.\n\n</li>
-    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nDiğerleri [asker_faction_leaderTitle]'ı öldürme fırsatını yakalayacak ve büyük bir şiddetle saldıracak. Savunmaya hazır olun.</li>
+    <li>questDescription->[intro][asker_faction_name] fraksiyonundan bir [asker_faction_leaderTitle], bölgesindeki herhangi bir kontu talep üzerine geleneksel bir ziyaretle onurlandıracak. Onu davet et. [shuttleDelayTicks_duration] boyunca soylu ihtiyaçlarını karşılarsan onunla birlikte İmparatorluk Filosu'na gitmek üzere mekiğe binebilirsin. Daha sonra İmparatorluk sarayına katılabilir veya yıldızlar arasında yeni bir hayata kaçabilirsin.\n\nKont ünvanını kazanmak, [asker_faction_name] fraksiyonundan [asker_faction_royalFavorLabel] kazanmak için görevleri tamamlamayı gerektirir. Bu ünvana ulaşmak yıllar alabilir.\n\nZiyareti sırasında onun ruh hâlini [lodgersMoodThreshold_percent] üzerinde tutman gerekecek. Bu, gösterişli bir yatak odası gibi kraliyet sınıfının ayrıcalıklarını sağlamayı içerir. [threatsInfo]\n\n[asker_faction_leaderTitle], dört kişilik kişisel muhafız ekibini beraberinde getirecek ve bunları senin komutana bırakacak. Bu muhafızlara barınma sağlaman gerekecek ancak [asker_faction_leaderTitle], ölmeleri veya mutsuz olmaları durumunda şikâyet etmeyecektir.\n\nMisafirleri koloninde tutmalı ve başka bir yere göndermemelisin. Bu görevi tamamlayamaz veya göç edersen, daha sonra tekrar deneme şansı bulacaksın.</li>
+    <li>intro(sameQuestsCount==0)->Bu gezegenden kaçmanın bir yolunu öğrendin!\n\n</li>
+    <li>intro(sameQuestsCount>=1)->Sana kraliyete yükselmek için bir kez daha şans verildi.\n\n</li>
+    <li>threatsInfo(allowViolentQuests==true,priority=1)->\n\nDiğerleri, [asker_faction_leaderTitle] öldürme fırsatını değerlendirmeye çalışacak ve büyük bir şiddetle saldıracaklar. Savunmaya hazır ol.</li>
     <li>threatsInfo-></li>
   </EndGame_RoyalAscent.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -27,69 +27,69 @@
   -->
   <EndGame_RoyalAscent.questNameRules.rulesStrings>
     <li>questName(sameQuestsCount==0)->Kraliyet Yükselişi</li>
-    <li>questName(sameQuestsCount>=1)->Kraliyet[titleEnd]</li>
-    <li>titleEnd->terfi etme</li>
-    <li>titleEnd->Yükseliş</li>
-    <li>titleEnd->Ziyaretçi</li>
-    <li>titleEnd->Misafir</li>
-    <li>titleEnd->Host</li>
-    <li>titleEnd->Zafer</li>
+    <li>questName(sameQuestsCount>=1)->Kraliyet [titleEnd]</li>
+    <li>titleEnd->Tırmanışı</li>
+    <li>titleEnd->Yükselişi</li>
+    <li>titleEnd->Konuğu</li>
+    <li>titleEnd->Misafiri</li>
+    <li>titleEnd->Ağırlama</li>
+    <li>titleEnd->Zaferi</li>
   </EndGame_RoyalAscent.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>Görev başarısız oldu: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelFactionBecameHostile.slateRef>
   <!-- EN: [faction_name] became hostile to you.  -->
-  <EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>[faction_name] size düşman oldu.</EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>
+  <EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>[faction_name] sana düşman oldu.</EndGame_RoyalAscent.LetterTextFactionBecameHostile.slateRef>
   <!-- EN: asker.NoLongerFactionLeader -->
   <EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>asker.NoLongerFactionLeader</EndGame_RoyalAscent.root.nodes.ReplaceLostLeaderReferences.inSignal.slateRef>
   <!-- EN: [asker_faction_leaderTitle] arrived -->
   <EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>[asker_faction_leaderTitle] geldi</EndGame_RoyalAscent.LetterLabelAskerArrived.value.slateRef>
   <!-- EN: The [asker_faction_leaderTitle] of [asker_faction_name], has arrived.\n\nProtect him and satisfy his royal needs until the shuttle arrives in [shuttleDelayTicks_duration].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_name]'nin [asker_faction_leaderTitle]'ı geldi.\n\nMekik [shuttleDelayTicks_duration] içinde gelene kadar onu koruyun ve kraliyet ihtiyaçlarını karşılayın.\n\nHepiniz mekikte [asker_faction_leaderTitle]'a eşlik edebilir ve yeni bir hayata başlamak için İmparatorluk filosuna gidebilirsiniz.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
+  <EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>[asker_faction_name] fraksiyonundan bir [asker_faction_leaderTitle] geldi.\n\nMekik gelene kadar [shuttleDelayTicks_duration] boyunca onu koru ve soylu ihtiyaçlarını karşıla.\n\nTüm halkın mekikte ona eşlik edebilir ve yeni bir hayata başlamak için İmparatorluk Filosu'na gidebilir.</EndGame_RoyalAscent.LetterTextAskerArrived.value.slateRef>
   <!-- EN: Guest died: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>Konuk öldü: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestDied.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has died. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>Korumakla yükümlü olduğunuz {SUBJECT_definite} öldü. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestDied.slateRef>Korumakla yükümlü olduğun {SUBJECT_definite} öldü. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestDied.slateRef>
   <!-- EN: Should depart on shuttle -->
-  <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>Mekik ile haraket etmelisin</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
+  <EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>Mekikle ayrılmalı</EndGame_RoyalAscent.InspectStringDepartShuttle.slateRef>
   <!-- EN: Shuttle arrived -->
   <EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>Mekik geldi</EndGame_RoyalAscent.LetterLabelShuttleArrived.slateRef>
   <!-- EN: The shuttle has arrived to collect the [asker_faction_leaderTitle].\n\nAll of you can accompany the [asker_faction_leaderTitle] on the shuttle and travel to the Imperial flotilla to begin a new life. -->
-  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>Mekik [asker_faction_leaderTitle]'ı almak için geldi.\n\n. Hepiniz mekikte [asker_faction_leaderTitle]'a eşlik edebilir ve yeni bir hayata başlamak için İmparatorluk filosuna gidebilirsiniz.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>[asker_faction_leaderTitle] için gönderilen mekik geldi.\n\nHerkes mekikte ona eşlik edebilir ve yeni bir hayata başlamak için İmparatorluk Filosu'na doğru yola çıkabilir.</EndGame_RoyalAscent.LetterTextShuttleArrived.slateRef>
   <!-- EN: The high stellarch will now welcome you into the Imperial flotilla as an honored noble party.\n\nYou might stay in the Imperial court and jockey for political power. Perhaps you'll avoid the drama and focus on enjoying ultratech luxuries. Or, you might even buy a ship and set a course for your long-lost home.\n\nThe choice is up to you. -->
-  <EndGame_RoyalAscent.EndGameEndingText.slateRef>Yüksek stellarç şimdi sizi onurlu bir asil parti olarak İmparatorluk filosuna davet edecek.\n\nİmparatorluk sarayında kalabilir ve siyasi güç için jokey olabilirsiniz. Belki de dramadan kaçınacak ve ultra teknolojik lükslerin keyfini çıkarmaya odaklanacaksınız. Veya bir gemi satın alıp uzun süredir kayıp olan evinize bir rota bile belirleyebilirsiniz.\n\nSeçim size kalmış.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
+  <EndGame_RoyalAscent.EndGameEndingText.slateRef>Yüce Yıldız Lordu seni şimdi İmparatorluk filosuna onurlu bir soylu grubu olarak kabul edecek.\n\nİmparatorluk sarayında kalarak siyasi güç için mücadele edebilirsin. Belki de dramadan uzak durup ultratek lükslerin tadını çıkarmayı tercih edersin. Ya da bir gemi satın alıp uzun zamandır kayıp olan yuvana doğru bir rota çizebilirsin.\n\nSeçim senin.</EndGame_RoyalAscent.EndGameEndingText.slateRef>
   <!-- EN: You've escaped on the Imperial shuttle! -->
-  <EndGame_RoyalAscent.EndGameIntroText.slateRef>İmparatorluk mekiğini kullanarak kaçtınız!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
+  <EndGame_RoyalAscent.EndGameIntroText.slateRef>İmparatorluk mekiği ile kaçtın!</EndGame_RoyalAscent.EndGameIntroText.slateRef>
   <!-- EN: {SUBJECT_bestRoyalTitle} unhappy -->
   <EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>{SUBJECT_bestRoyalTitle} mutsuz</EndGame_RoyalAscent.LetterLabelSubjectUnhappy.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect and keep happy, has been below the minimum mood of [lodgersMoodThreshold] too long. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>Korumak ve mutlu etmekle yükümlü olduğunuz {SUBJECT_definite}, çok uzun süredir minimum [lodgersMoodThreshold] ruh halinin altında kaldı. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
+  <EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>Korumak ve mutlu etmekle yükümlü olduğun {SUBJECT_definite}, çok uzun süredir minimum ruh hâlinin ([lodgersMoodThreshold]) altında kaldı. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextSubjectUnhappy.slateRef>
   <!-- EN: Guest captured: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>Konuk yakalandı: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>Konuk ele geçirildi: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestCaptured.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has been arrested. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>Korumakla yükümlü olduğunuz {SUBJECT_definite}, tutuklandı. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>Korumakla yükümlü olduğun {SUBJECT_definite} tutuklandı. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestCaptured.slateRef>
   <!-- EN: Unauthorized surgery: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>İzinsiz ameliyat: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
+  <EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>Yetkisiz ameliyat: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelUnauthorizedSurgery.slateRef>
   <!-- EN: Unauthorized, violating surgery has been performed on {SUBJECT_definite}, who you were charged to protect. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Korumakla görevlendirildiğiniz {SUBJECT_definite} üzerinde yetkisiz, ihlal edici bir ameliyat gerçekleştirildi. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
+  <EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>Korumakla yükümlü olduğun {SUBJECT_definite} üzerinde yetkisiz, ihlâl edici bir ameliyat gerçekleştirildi. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextUnauthorizedSurgery.slateRef>
   <!-- EN: Xenogerm absorbed: {SUBJECT_definite} -->
   <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>Zenogerm emildi: {SUBJECT_definite}</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has had {SUBJECT_possessive} xenogerm forcibly absorbed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>Korumakla görevlendirildiğiniz {SUBJECT_definite}, zenogermini zorla emdi. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
+  <EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>Korumakla yükümlü olduğun {SUBJECT_definite}, zorla zenogerminin emilmesine maruz kaldı. [failLetterEndingCommon]</EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>misafir kayıp: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>Konuk kayboldu: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelGuestLost.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has left the assigned settlement. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>Korumakla yükümlü olduğunuz {SUBJECT_definite}, atanan yerleşimden ayrıldı. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
+  <EndGame_RoyalAscent.LetterTextGuestLost.slateRef>Korumakla yükümlü olduğun {SUBJECT_definite}, atanan yerleşim yerinden ayrıldı. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextGuestLost.slateRef>
   <!-- EN: Shuttle destroyed -->
   <EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>Mekik yok edildi</EndGame_RoyalAscent.LetterLabelShuttleDestroyed.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has been destroyed. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>[asker_faction_leaderTitle]'ı almak için gönderilen mekik yok edildi. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>[asker_faction_leaderTitle] için gönderilen mekik yok edildi. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleDestroyed.slateRef>
   <!-- EN: Guest lost: {SUBJECT_definite} -->
-  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>Misafir kayboldu: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
+  <EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>Konuk kayboldu: {SUBJECT_definite}</EndGame_RoyalAscent.LetterLabelLodgerRanWild.slateRef>
   <!-- EN: {SUBJECT_definite}, who you were charged to protect, has run wild. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>Korumakla görevlendirildiğiniz {SUBJECT_definite} çılgına döndü. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
+  <EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>Korumakla yükümlü olduğun {SUBJECT_definite} vahşileşti. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextLodgerRanWild.slateRef>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>Görev başarısız oldu: [resolvedQuestName]</EndGame_RoyalAscent.LetterLabelShuttleSentUnsatisfied.slateRef>
   <!-- EN: The shuttle sent to collect the [asker_faction_leaderTitle] has departed without [asker_objective]. [asker_pronoun] will now leave on foot. [failLetterEndingCommon] -->
-  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>[asker_faction_leaderTitle]'ı almak için gönderilen mekik onsuz yola çıktı. Artık yaya olarak gidecek. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
+  <EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>[asker_faction_leaderTitle] için gönderilen mekik onsuz yola çıktı. Artık yaya olarak gidecek. [failLetterEndingCommon]</EndGame_RoyalAscent.LetterTextShuttleSentUnsatisfied.slateRef>
   
 </LanguageData>

@@ -2,13 +2,13 @@
 <LanguageData>
 
   <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
-  <FactionGreetingHostile>{0} mikrofona bazı hakaretler savurur ve bağlantıyı keser.</FactionGreetingHostile>
+  <FactionGreetingHostile>{0} mikrofona bazı hakaretler savurup ve bağlantıyı kesiyor.</FactionGreetingHostile>
   <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
-  <FactionGreetingHostileAppreciative>{0}, iyi niyet göstergesi olarak {0_possessive} yerleşim yerlerinden birine hediye getirmeni veya {0_possessive} fraksiyonunun zarar görmemiş mahkumlarını serbest bırakmanı istiyor. O zamana kadar, {0_pronoun} konuşmayacak.\n\nBir hakaretten sonra {0_pronoun} bağlantıyı kesti.</FactionGreetingHostileAppreciative>
+  <FactionGreetingHostileAppreciative>{0}, iyi niyet göstergesi olarak onun yerleşimlerinden birine hediye getirmeni veya onun fraksiyonunun zarar görmemiş mahkûmlarını serbest bırakmanı istiyor. O zamana kadar konuşmaya niyeti yok.\n\nBir hakaretten sonra bağlantıyı kesti.</FactionGreetingHostileAppreciative>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
   <FactionGreetingWary>{0} ile {NEGOTIATOR_labelShort} selamlaşıyor ve ne istediğini soruyor.</FactionGreetingWary>
   <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>{0} ile {NEGOTIATOR_labelShort} birbirlerini sıcakça karşılıyor ve {LEADER_pronoun}'un yardımcı olmak için neler yapabileceğini soruyor.</FactionGreetingWarm>
+  <FactionGreetingWarm>{0}, {NEGOTIATOR_labelShort} kişisini samimiyetle karşılıyor ve yardımcı olmak için neler yapabileceğini soruyor.</FactionGreetingWarm>
 
   <!-- EN: won't do {0} -->
   <WorkTypeDisablesOption>{0} yapmayacak</WorkTypeDisablesOption>
@@ -29,7 +29,7 @@
   <!-- EN: {0} silver for {1} goodwill -->
   <SilverForGoodwill>{1} iyi niyet için {0} gümüş</SilverForGoodwill>
   <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
-  <SilverGiftSent>{0} sana teşekkür ediyor.\n\n(İyi niyet {1} tarafından iyileştirildi)</SilverGiftSent>
+  <SilverGiftSent>{0} sana teşekkür ediyor.\n\n(İyi niyet {1} arttı)</SilverGiftSent>
 
   <!-- Trade caravan request -->
   <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
@@ -37,13 +37,13 @@
   <!-- EN: {0} asks what kind of trade caravan you want. -->
   <ChooseTraderKind>{0} ne tür bir ticaret kervanı istediğini soruyor.</ChooseTraderKind>
   <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
-  <TraderSent>{0} ticaret kervanı göndermeyi kabul etti. Birkaç gün içinde gelecek.</TraderSent>
+  <TraderSent>{0} ticaret kervanı göndermeyi kabul etti. Kervan birkaç gün içinde varacak.</TraderSent>
   <!-- EN: wait {0} -->
   <WaitTime>{0} bekle</WaitTime>
   
   <!-- AI core request -->
   <!-- EN: Request the location of a {0} (cost: {1} silver) -->
-  <RequestAICoreInformation>Bir {0} konum iste (maliyet: {1} gümüş)</RequestAICoreInformation>
+  <RequestAICoreInformation>Bir {0} için konum bilgisi al (maliyet: {1} gümüş)</RequestAICoreInformation>
   <!-- EN: {0} sends the requested information and wishes you good luck. -->
   <RequestAICoreInformationResult>{0} istenen bilgileri gönderdi ve sana iyi şanslar diledi.</RequestAICoreInformationResult>
   <!-- EN: no more locations known -->
@@ -51,18 +51,18 @@
   
   <!-- Military aid request -->
   <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
-  <RequestMilitaryAid>Acil askeri yardım iste (maliyet: {0} iyi niyet)</RequestMilitaryAid>
+  <RequestMilitaryAid>Acil askerî yardım iste (maliyet: {0} iyi niyet)</RequestMilitaryAid>
   <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
-  <MilitaryAidConfirmMutualEnemy>{0} düşmanları olmayan fraksiyonlarla olan savaşına yardım etmeyecek. Buna şu anda seni tehdit edenler ({1}) de dahildir. Yine de yardım isteyecek misin?</MilitaryAidConfirmMutualEnemy>
+  <MilitaryAidConfirmMutualEnemy>{0} düşman olmadıkları fraksiyonlarla olan savaşına yardım etmeyecek. Buna, şu anda seni tehdit edenler ({1}) de dâhil. Yine de yardım isteyecek misin?</MilitaryAidConfirmMutualEnemy>
   <!-- EN: Yes, call them anyway. -->
   <CallConfirm>Evet, yine de iste.</CallConfirm>
   <!-- EN: No, never mind. -->
   <CallCancel>Hayır, unut gitsin.</CallCancel>
   <!-- EN: {0} agrees to send fighters to help you. -->
-  <MilitaryAidSent>{0} sana yardım etmek için savaşçı göndermeyi kabul ediyor.</MilitaryAidSent>
+  <MilitaryAidSent>{0} sana yardım etmeleri için savaşçılar göndermeyi kabul ediyor.</MilitaryAidSent>
   <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
-  <CantSendMilitaryAidInTime>{0} özür diliyor ve zamanında varamayacaklarını söylüyor.\n\n(Bu fraksiyonun teknoloji seviyesi taşıma kapsülleri için çok düşük)</CantSendMilitaryAidInTime>
+  <CantSendMilitaryAidInTime>{0} özür diliyor ve zamanında varamayacaklarını söylüyor.\n\n(Bu fraksiyonun teknoloji seviyesi, taşıma kapsülleri için çok düşük)</CantSendMilitaryAidInTime>
   <!-- EN: hostile visitors present -->
-  <HostileVisitorsPresent>hazır düşman ziyaretçiler</HostileVisitorsPresent>
+  <HostileVisitorsPresent>düşman ziyaretçiler mevcut</HostileVisitorsPresent>
 
 </LanguageData>

@@ -13,9 +13,9 @@
     <li>r_art_description->[physical_description_root] [context_sentence]</li>
     <li>circumstance_group->[circumstance_phrase]</li>
     <li>desc_sentence_group->[desc_sentence] [style_group]</li>
-    <li>context_sentence->Bu [depiction], [DATE] tarihindeki [tale_noun]'a atıfta bulunuyor.</li>
-    <li>context_sentence->Bu [depiction], [DATE] tarihindeki [tale_noun] ile ilgilidir.</li>
-    <li>context_sentence->Bu [depiction] [DATE] tarihinde [tale_noun] hikayesini anlatır..</li>
+    <li>context_sentence->Bu [depiction], [DATE] tarihindeki [tale_noun] olayına atıfta bulunuyor.</li>
+    <li>context_sentence->Bu [depiction], [DATE] tarihindeki [tale_noun] olayı ile ilgili.</li>
+    <li>context_sentence->Bu [depiction], [DATE] tarihindeki [tale_noun] olayını anlatıyor.</li>
   </ArtDescriptionRoot_HasTale.rulePack.rulesStrings>
   
   <!-- EN:
@@ -207,166 +207,166 @@
     <li>style_group->[artextra_clause].</li>
     <li>style_group-></li>
     <li>artconjunction(p=6)-></li>
-    <li>artconjunction->ilginç bir konstrat olarak,</li>
-    <li>artconjunction->işin yuvarlanması,</li>
+    <li>artconjunction->ilginç bir kontrast olarak,</li>
+    <li>artconjunction->nihayetinde,</li>
     <li>artconjunction->buna ek olarak,</li>
     <li>artconjunction->çarpıcı biçimde,</li>
-    <li>artconjunction->kışkırtıcı bir şekilde,</li>
-    <li>artconjunction->bu tür işler için alışılmadık şekilde,</li>
+    <li>artconjunction->kışkırtıcı biçimde,</li>
+    <li>artconjunction->bu tür işler için alışılmadık biçimde,</li>
     <li>artconjunction->çok az kişi bunu beklese de,</li>
     <li>artconjunction->bunun yanı sıra,</li>
-    <li>artextra_clause->görüntü [subimageplural] ile sınırlanmıştır</li>
-    <li>artextra_clause->görüntünün kenarında [subimageplural] vardır</li>
-    <li>artextra_clause->[subimagesingle] [side_position] var</li>
-    <li>artextra_clause->denekler [subimageany]'nin önündedir</li>
-    <li>artextra_clause->görüntünün alt kısmına [subimageany] hakimdir</li>
-    <li>artextra_clause->sahne bir [Community] ortasında geçiyor</li>
-    <li>artextra_clause->sahne bir [Community] eteklerinde geçiyor</li>
-    <li>artextra_clause->sahne, bir [TerrainFeature] yakınına inşa edilmiş bir [Community] içinde geçiyor</li>
-    <li>artextra_clause->a [Character] [idles] [side_position]</li>
-    <li>artextra_clause->a [PAWN_adj] [Character] [idles] [side_position]</li>
-    <li>artextra_clause->[Quantity_adjphrase] [Character]'ler [side_position] görünür</li>
-    <li>artextra_clause->[Quantity_adjphrase] [PAWN_adj] [Character]'ler [side_position] görünür</li>
-    <li>artextra_clause->a [Animal] [idles] [side_position]</li>
-    <li>artextra_clause->gözlerinizi kısarsanız, görüntünün [composition] kompozisyonu [subimageany] taslağını ortaya çıkarır</li>
-    <li>artextra_clause->[PAWN_adj]  [PersonJob] , [emotional_expression]gülümseyen kafası her şeyi izliyor</li>
-    <li>artextra_clause->[PAWN_adj] sırasında [PersonJob], [emotional_expression] her şeyi izler</li>
-    <li>artextra_clause->[PAWN_adj] [PersonJob]'un başı her şeyi izler</li>
-    <li>artextra_clause->tüm görüntü, [subimageplural] öğesinin dikkatli bir şekilde düzenlenmesiyle tasvir edilmiştir.</li>
+    <li>artextra_clause->görüntü [subimageplural] ile çevreli</li>
+    <li>artextra_clause->görüntünün kenarında [subimageplural] var</li>
+    <li>artextra_clause->[side_position] [subimagesingle] var</li>
+    <li>artextra_clause->öznelerin arkasında [subimageany] var</li>
+    <li>artextra_clause->görüntünün alt kısmına [subimageany] hakim</li>
+    <li>artextra_clause->sahne bir [Community] ortasında yer alıyor</li>
+    <li>artextra_clause->sahne bir [Community] dışında yer alıyor</li>
+    <li>artextra_clause->sahne, bir [TerrainFeature] yakınına inşa edilmiş bir [Community] içinde yer alıyor</li>
+    <li>artextra_clause->bir [Character] [side_position] [idles]</li>
+    <li>artextra_clause->[PAWN_adj] bir [Character] [side_position] [idles]</li>
+    <li>artextra_clause->[side_position] [Quantity_adjphrase] [Character] görünüyor</li>
+    <li>artextra_clause->[side_position] [Quantity_adjphrase] [PAWN_adj] [Character] görünüyor</li>
+    <li>artextra_clause->bir [Animal] [side_position] [idles]</li>
+    <li>artextra_clause->gözlerini kısarsan görüntünün [composition] kompozisyonu [subimageany] şeklini ortaya çıkarıyor</li>
+    <li>artextra_clause->[emotional_expression] bir [PAWN_adj] [PersonJob] kafası her şeyi izliyor</li>
+    <li>artextra_clause->bir [PAWN_adj] [PersonJob] kafası [emotional_expression] biçimde her şeyi izliyor</li>
+    <li>artextra_clause->bir [PAWN_adj] [PersonJob] kafası her şeyi izliyor</li>
+    <li>artextra_clause->tüm görüntü, [subimageplural] öğesinin dikkatli bir şekilde düzenlenmesiyle tasvir edilmiş</li>
     <li>subimageany->[subimagesingle]</li>
     <li>subimageany->[subimageplural]</li>
-    <li>subimagesingle(p=4)->bir  [Character]</li>
-    <li>subimagesingle->bir  [TerrainFeature]</li>
-    <li>subimagesingle->bir  [Community]</li>
-    <li>subimagesingle->bir  [TreeType] tree</li>
-    <li>subimagesingle->bir  [Vegetable]</li>
-    <li>subimagesingle->bir  of [Animal]'nin [AnimalGroup]</li>
-    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Vegetable]s</li>
-    <li>subimageplural->[Quantity_adjphrase] [Shape]s</li>
+    <li>subimagesingle(p=4)->bir [Character]</li>
+    <li>subimagesingle->bir [TerrainFeature]</li>
+    <li>subimagesingle->bir [Community]</li>
+    <li>subimagesingle->bir [TreeType]</li>
+    <li>subimagesingle->bir [Vegetable]</li>
+    <li>subimagesingle->bir [AnimalGroup] [Animal]</li>
+    <li>subimageplural(p=3)->[Quantity_adjphrase] [Character]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Vegetable]</li>
+    <li>subimageplural->[Quantity_adjphrase] [Shape]</li>
     <li>pawn_adj->ölü</li>
     <li>pawn_adj->ölen</li>
     <li>pawn_adj->yaralı</li>
     <li>pawn_adj->uyuyan</li>
-    <li>pawn_adj->ayakta</li>
+    <li>pawn_adj->ayakta duran</li>
     <li>pawn_adj->oturan</li>
     <li>pawn_adj->çılgın</li>
     <li>pawn_adj->genç</li>
     <li>pawn_adj->yaşlı</li>
-    <li>pawn_adj->[Gore]-covered</li>
-    <li>pawn_adj->filthy</li>
-    <li>pawn_adj->[Apparel]-giyme</li>
-    <li>pawn_adj->[Weapon]-	kullanma</li>
-    <li>pawn_adj->[Vegetable]-yiyor</li>
+    <li>pawn_adj->[Gore] içinde</li>
+    <li>pawn_adj->kirli</li>
+    <li>pawn_adj->[Apparel] giyen</li>
+    <li>pawn_adj->[Weapon] kuşanan</li>
+    <li>pawn_adj->[Vegetable] yiyen</li>
     <li>emotional_expression->gülümseyen</li>
-    <li>emotional_expression->çatık</li>
-    <li>emotional_expression->çatık kaşlı</li>
+    <li>emotional_expression->somurtan</li>
+    <li>emotional_expression->kaşlarını çatan</li>
     <li>emotional_expression->gülen</li>
     <li>emotional_expression->dik dik bakan</li>
     <li>emotional_expression->ağlayan</li>
-    <li>emotional_expression->çığlık çığlığa</li>
-    <li>emotional_expression->çok memnun</li>
-    <li>idles->oturur</li>
-    <li>idles->standlar</li>
-    <li>idles->bekler</li>
-    <li>idles->gülümsemeleri</li>
-    <li>idles->yalanları</li>
-    <li>idles->pozları</li>
+    <li>emotional_expression->çığlık atan</li>
+    <li>emotional_expression->eğlenen</li>
+    <li>idles->oturuyor</li>
+    <li>idles->ayakta duruyor</li>
+    <li>idles->bekliyor</li>
+    <li>idles->gülümsüyor</li>
+    <li>idles->uzanıyor</li>
+    <li>idles->poz veriyor</li>
     <li>idles->görünüyor</li>
-    <li>idles->gösterilir</li>
-    <li>idles->içinde kaybolur</li>
-    <li>idles->yüzer</li>
-    <li>side_position->bir tarafa kapalı</li>
+    <li>idles->gösteriliyor</li>
+    <li>idles->kayboluyor</li>
+    <li>idles->uçuyor</li>
+    <li>side_position->bir tarafta</li>
     <li>side_position->arka planda</li>
-    <li>side_position->mesafede</li>
+    <li>side_position->uzaklarda</li>
     <li>side_position->görüntünün alt kısmında</li>
     <li>side_position->görüntünün üst kısmında</li>
     <li>side_position->ana sahnenin solunda</li>
     <li>side_position->ana sahnenin sağında</li>
-    <li>side_position->görüntünün kenarına yakın</li>
-    <li>side_position->ana konuya yakın</li>
-    <li>side_position->ana konudan uzak</li>
-    <li>side_position->ana konunun altında</li>
+    <li>side_position->görüntünün kenarında</li>
+    <li>side_position->öznenin yakınında</li>
+    <li>side_position->özneden uzakta</li>
+    <li>side_position->öznenin altında</li>
     <li>side_position->odak noktasının arkasında</li>
-    <li>style_clause(p=4)->iş [ConceptAny] [symbolizes]</li>
-    <li>artextra_clause->[subimagesingle] [side_position] [symbolizes] [ConceptAny]</li>
-    <li>style_clause->iş [ConceptAny] fikriyle aşılanmıştır ve [artstyle_adj] tarzında yapılmıştır</li>
-    <li>style_clause->iş [artstyle_adj] stilinde yürütülür</li>
-    <li>style_clause->merkezi sahnenin [artstyle_adj] stili, arka planın [artstyle_adj] tasviriyle çelişiyor</li>
-    <li>style_clause->işin bir [artstyle_adj] hissi ve [composition] yapısı var</li>
+    <li>style_clause(p=4)->çalışma [ConceptAny] kavramını [symbolizes]</li>
+    <li>artextra_clause->[side_position] [subimagesingle], [ConceptAny] kavramını [symbolizes]</li>
+    <li>style_clause->çalışma [ConceptAny] kavramıyla dolup taşıyor ve [artstyle_adj] stilde yapılmış</li>
+    <li>style_clause->çalışma [artstyle_adj] stilde yapılmış</li>
+    <li>style_clause->ana sahnenin [artstyle_adj] tarzı, arka planın [artstyle_adj] stiliyle çelişiyor</li>
+    <li>style_clause->çalışmanın [artstyle_adj] bir havası ve [composition] bir yapısı var</li>
     <li>style_clause->genel kompozisyon [composition]</li>
-    <li>style_clause->stil, [artstyle_adj] öğeleriyle [artstyle_adj]'dir</li>
-    <li>style_clause->görüntü bir şekilde hem [ConceptAny] hem de [ConceptAny]'yi ifade ediyor</li>
-    <li>style_clause->görüntü [ConceptAny] ile [ConceptAny] arasında kontrast oluşturuyor</li>
-    <li>style_clause->görüntünün [composition] yapısı [artstyle_adj] stiliyle neredeyse çatışıyor</li>
-    <li>style_clause->iş [Renk] ve [Renk] tonlarında gölgeli</li>
-    <li>style_clause->görüntüdeki hemen hemen her şekil [composition] gibi görünüyor</li>
-    <li>symbolizes->sembolize</li>
+    <li>style_clause->stil, [artstyle_adj] öğeler içeren [artstyle_adj] bir tarzda</li>
+    <li>style_clause->görüntü bir şekilde hem [ConceptAny] hem de [ConceptAny] kavramlarını ifade ediyor</li>
+    <li>style_clause->görüntü [ConceptAny] ile [ConceptAny] kavramları ile bir kontrast oluşturuyor</li>
+    <li>style_clause->görüntünün [composition] yapısı, [artstyle_adj] stiliyle neredeyse çatışıyor</li>
+    <li>style_clause->çalışma [Renk] ve [Renk] tonlarda gölgelendirilmiş</li>
+    <li>style_clause->görüntüdeki hemen hemen her şekil [composition] görünüyor</li>
+    <li>symbolizes->sembolize ediyor</li>
     <li>symbolizes->sembolize ediyor gibi görünüyor</li>
-    <li>symbolizes->temsil etmek</li>
+    <li>symbolizes->temsil ediyor</li>
     <li>symbolizes->temsil ediyor gibi görünüyor</li>
     <li>symbolizes->ifade ediyor gibi görünüyor</li>
-    <li>symbolizes->izleyiciyi hatırlatır</li>
-    <li>symbolizes->duygularını aktarır</li>
-    <li>symbolizes->izleyicinin düşünmesini sağlar</li>
-    <li>symbolizes->sanatçının temsil eder</li>
-    <li>symbolizes->kavramını öneriyor</li>
-    <li>depicts->tasvir eder</li>
-    <li>depicts->gösteriler</li>
-    <li>depicts->betimleme</li>
-    <li>depicts->benzemek</li>
-    <li>depicts->resimlendirmek</li>
-    <li>depicts->temsil eder</li>
-    <li>depicts->gibi şekillendirilmiş</li>
-    <li>depiction->depiction</li>
+    <li>symbolizes->hatırlatıyor</li>
+    <li>symbolizes->hissettiriyor</li>
+    <li>symbolizes->düşündürtüyor</li>
+    <li>symbolizes->sanatçının bakışından yansıtıyor</li>
+    <li>symbolizes->çağrıştırıyor</li>
+    <li>depicts->tasvir ediyor</li>
+    <li>depicts->gösteriyor</li>
+    <li>depicts->betimliyor</li>
+    <li>depicts->benzetiyor</li>
+    <li>depicts->resmediyor</li>
+    <li>depicts->temsil ediyor</li>
+    <li>depicts->şekillendiriyor</li>
+    <li>depiction->tasvir</li>
     <li>depiction->görüntü</li>
-    <li>depiction->resmetme</li>
-    <li>depiction->Temsil</li>
+    <li>depiction->portre</li>
+    <li>depiction->temsil</li>
     <li>depiction->illüstrasyon</li>
     <li>depiction->çizim</li>
     <li>composition->üçgensel</li>
-    <li>composition->dikdörtgen</li>
-    <li>composition->kare</li>
+    <li>composition->dikdörtgensel</li>
+    <li>composition->karesel</li>
     <li>composition->dengesiz</li>
     <li>composition->dengeli</li>
     <li>composition->dinamik</li>
     <li>composition->statik</li>
     <li>composition->dikey</li>
     <li>composition->yatay</li>
-    <li>composition->odaklanmış</li>
-    <li>artstyle_adj->sahte</li>
+    <li>composition->odaklı</li>
+    <li>artstyle_adj->sıradan</li>
     <li>artstyle_adj->basit</li>
     <li>artstyle_adj->karmaşık ve gerçekçi</li>
-    <li>artstyle_adj->Gerçeküstücülük</li>
+    <li>artstyle_adj->sürreal</li>
     <li>artstyle_adj->klasik</li>
     <li>artstyle_adj->modern</li>
     <li>artstyle_adj->sembolik</li>
-    <li>artstyle_adj->amatörce cazibeli</li>
-    <li>artstyle_adj->detay odaklı</li>
-    <li>artstyle_adj->bloklu</li>
-    <li>artstyle_adj->Kübizm </li>
-    <li>artstyle_adj->İzlenimcilik </li>
-    <li>artstyle_adj->Dışavurumculuk </li>
+    <li>artstyle_adj->amatörce fakat ilgi çekici</li>
+    <li>artstyle_adj->detaylara odaklı</li>
+    <li>artstyle_adj->bloksu</li>
+    <li>artstyle_adj->kübist</li>
+    <li>artstyle_adj->izlenimci</li>
+    <li>artstyle_adj->dışavurumcu</li>
     <li>artstyle_adj->fotoğrafik</li>
-    <li>artstyle_adj->Barok </li>
-    <li>artstyle_adj->Dadaizm </li>
-    <li>artstyle_adj->Glitch sanatı</li>
-    <li>artstyle_adj->Pixel Art</li>
-    <li>artstyle_adj->Fovizm</li>
-    <li>artstyle_adj->folksi</li>
-    <li>artstyle_adj->Figüratif</li>
-    <li>artstyle_adj->sinüs</li>
+    <li>artstyle_adj->barok</li>
+    <li>artstyle_adj->dadaist</li>
+    <li>artstyle_adj->glitch</li>
+    <li>artstyle_adj->piksel</li>
+    <li>artstyle_adj->fovist</li>
+    <li>artstyle_adj->geleneksel</li>
+    <li>artstyle_adj->figüratif</li>
+    <li>artstyle_adj->eğri</li>
     <li>artstyle_adj->geometrik</li>
-    <li>artstyle_adj->Soyutlama</li>
-    <li>artstyle_adj->Hiperrealizm</li>
-    <li>artstyle_adj->Pop Sanatı</li>
+    <li>artstyle_adj->soyut</li>
+    <li>artstyle_adj->aşırı gerçekçi</li>
+    <li>artstyle_adj->pop</li>
     <li>artstyle_adj->minimalist</li>
     <li>artstyle_adj->neoklasik</li>
-    <li>artstyle_adj->cel gölgeli</li>
-    <li>artstyle_adj->Post-Empresyonizm</li>
+    <li>artstyle_adj->çizgi gölgelendirme</li>
+    <li>artstyle_adj->post izlenimci</li>
     <li>artstyle_adj->pürist</li>
-    <li>artstyle_adj->Rokoko</li>
-    <li>artstyle_adj->Romanesk</li>
+    <li>artstyle_adj->rokoko</li>
+    <li>artstyle_adj->romanesk</li>
     <li>artstyle_adj->romantik</li>
     <li>artstyle_adj->grafiti benzeri</li>
     <li>artstyle_adj->erotik</li>

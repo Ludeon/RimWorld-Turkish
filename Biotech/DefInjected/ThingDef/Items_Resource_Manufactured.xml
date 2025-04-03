@@ -2,71 +2,101 @@
 <LanguageData>
   
   <!-- EN: tox shell -->
-  <Bullet_Shell_Tox.label>toksik kabuk</Bullet_Shell_Tox.label>
+  <Bullet_Shell_Tox.label>toksik havan mermisi</Bullet_Shell_Tox.label>
   
   <!-- EN: deathrest capacity serum -->
   <DeathrestCapacitySerum.label>ölüm uykusu kapasite serumu</DeathrestCapacitySerum.label>
   <!-- EN: A serum that permanently increases the number of deathrest buildings a person can connect to during deathrest.\n\nThe serum can only be ingested by individuals with the deathrest gene. -->
-  <DeathrestCapacitySerum.description>Ölüm uykusu sırasında bir kişinin bağlanabileceği ölüm uykusu binalarının sayısını kalıcı olarak artıran bir serum.\n\nSerum sadece ölüm uykusu genine sahip kişiler tarafından alınabilir.</DeathrestCapacitySerum.description>
+  <DeathrestCapacitySerum.description>Bir kişinin ölüm uykusu sırasında bağlanabileceği ölüm uykusu yapılarının sayısını kalıcı olarak artıran bir serumdur.\n\nBu serum yalnızca ölüm uykusu genine sahip bireyler tarafından tüketilebilir.</DeathrestCapacitySerum.description>
   <!-- EN: Ingest {0_label} -->
-  <DeathrestCapacitySerum.comps.CompUsable.useLabel>{0_label} kullanın</DeathrestCapacitySerum.comps.CompUsable.useLabel>
+  <DeathrestCapacitySerum.comps.CompUsable.useLabel>{0_label} kullan</DeathrestCapacitySerum.comps.CompUsable.useLabel>
   
   <!-- EN: nano structuring chip -->
   <NanostructuringChip.label>nano yapılandırma çipi</NanostructuringChip.label>
   <!-- EN: A molecular-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <NanostructuringChip.description>Moleküler yeniden yapılandırıcı mekanik bir mikro-organ. Belirli gelişmiş mekanoidler ve ekipman üretmek gereklidir.\n\nBir tamirci, daha yüksek mechtech araştırmalarının kilidini açmaya yardımcı olmak için bu çipi inceleyebilir.</NanostructuringChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <NanostructuringChip.comps.CompStudiable.completedLetterText>{STUDIER_labelShort}, {PARENT_label} üzerinde çalışarak {RESEARCH} araştırma projeleri için gereken bilgileri edindi.\n\nAraştırmacılarınız artık teknolojiyi gerçekten nasıl kullanacaklarını araştırmaya başlamak için araştırma tezgahlarını kullanabilir.</NanostructuringChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <NanostructuringChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} incelendi: {RESEARCH} kilidi açıldı</NanostructuringChip.comps.CompStudiable.completedLetterTitle>
+  <NanostructuringChip.description>Moleküler yeniden yapılandırma işlevine sahip bir mekanoit mikro organı. Belirli gelişmiş mekanoitlerin ve ekipmanların üretimi için gereklidir.\n\nBir mekanitör, bu çipi inceleyerek mekatek araştırmalarında daha üst kademelere erişimi açabilir.</NanostructuringChip.description>
+  <!-- EN: Analyze the nano structuring chip. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>Çipin nano yapısını analiz et.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analiz et...</NanostructuringChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the nano structuring chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>{PAWN_labelShort}, çipin nano yapısını inceleyerek {RESEARCH} araştırma projesi için gereken kavrayışı edindi.\n\nAraştırmacıların artık bu teknolojiyi fiilen nasıl kullanacaklarını araştırmaya başlamak için araştırma masalarını kullanabilir.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Nano structuring chip studied: {RESEARCH} unlocked -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Çipin nano yapısı incelendi: {RESEARCH} açıldı</NanostructuringChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Bunu kimin analiz edeceğini seç</NanostructuringChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>Bir kolonist tarafından analiz edilebilir.</NanostructuringChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze nano structuring chip -->
+  <NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>Çipin nano yapısını analiz et</NanostructuringChip.comps.CompAnalyzableUnlockResearch.jobString>
   
   <!-- EN: powerfocus chip -->
-  <PowerfocusChip.label>güç odak çipi</PowerfocusChip.label>
+  <PowerfocusChip.label>güçodak çipi</PowerfocusChip.label>
   <!-- EN: An energy-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <PowerfocusChip.description>Enerji odaklı mekanik bir mikro-organ. Belirli gelişmiş tipte mekanoidler ve ekipman üretmek gereklidir.\n\nBir mekanitör, daha yüksek mektech araştırmalarının kilidini açmaya yardımcı olmak için bu çipi inceleyebilir.</PowerfocusChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <PowerfocusChip.comps.CompStudiable.completedLetterText>{STUDIER_labelShort}, {PARENT_label} üzerinde çalışarak {RESEARCH} araştırma projeleri için gereken bilgileri edindi.\n\nAraştırmacılarınız artık teknolojiyi gerçekten nasıl kullanacaklarını araştırmaya başlamak için araştırma tezgahlarını kullanabilir.</PowerfocusChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <PowerfocusChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} incelendi: {RESEARCH} kilidi açıldı</PowerfocusChip.comps.CompStudiable.completedLetterTitle>
+  <PowerfocusChip.description>Enerji odaklı bir mekanoit mikro organı. Belirli gelişmiş tipte mekanoitlerin ve ekipmanların üretimi için gereklidir.\n\nBir mekanitör, bu çipi inceleyerek mekatek araştırmalarında daha üst kademelere erişimi açabilir.</PowerfocusChip.description>
+  <!-- EN: Analyze the powerfocus chip. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>Güçodak çipini analiz et.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analiz et...</PowerfocusChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the powerfocus chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>{PAWN_labelShort}, güçodak çipini inceleyerek {RESEARCH} araştırma projesi için gereken kavrayışı edindi.\n\nAraştırmacıların artık bu teknolojiyi fiilen nasıl kullanacaklarını araştırmaya başlamak için araştırma masalarını kullanabilir.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Powerfocus chip studied: {RESEARCH} unlocked -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Güçodak çipi incelendi: {RESEARCH} açıldı</PowerfocusChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Bunu kimin analiz edeceğini seç</PowerfocusChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>Bir kolonist tarafından analiz edilebilir.</PowerfocusChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze powerfocus chip -->
+  <PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>Güçodak çipini analiz et</PowerfocusChip.comps.CompAnalyzableUnlockResearch.jobString>
   
   <!-- EN: tox shell -->
-  <Shell_Toxic.label>toksik kabuk</Shell_Toxic.label>
+  <Shell_Toxic.label>toksik havan mermisi</Shell_Toxic.label>
   <!-- EN: An artillery shell containing reagents that, when combined, generate deadly tox gas. When fired, it will stick into the ground and release tox gas for some time before expiring.\n\nTox gas burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup that can be lethal. -->
-  <Shell_Toxic.description>Birleştirildiğinde ölümcül zehirli gaz oluşturan reaktifler içeren bir top mermisi. Ateşlendiğinde toprağa yapışacak ve süresi dolmadan önce bir süre zehirli gaz salacaktır.\n\nZehirli gaz ciğerleri ve gözleri yakarak geçici bir nefes darlığına ve görüşte azalmaya neden olur. Zehirli gaza sürekli maruz kalmak, ölümcül olabilen toksik birikime neden olur.</Shell_Toxic.description>
+  <Shell_Toxic.description>Birleştiğinde ölümcül toksik gaz üreten reaktif maddeler içeren bir havan mermisi. Atıldığında, yere saplanır ve bir süre boyunca toksik gaz yayar, ardından etkisini yitirir.\n\nToksik gaz akciğerleri ve gözleri tahriş eder, geçici nefes darlığına ve görme kaybına neden olur. Uzun süre maruz kalmak, ölümcül olabilen toksik birikime yol açar.</Shell_Toxic.description>
   
   <!-- EN: tox shell -->
-  <Shell_Toxic_Releasing.label>toksik kabuk</Shell_Toxic_Releasing.label>
+  <Shell_Toxic_Releasing.label>toksik havan mermisi</Shell_Toxic_Releasing.label>
   
   <!-- EN: tox shell -->
-  <Shell_Toxic_Releasing_Water.label>toksik kabuk</Shell_Toxic_Releasing_Water.label>
+  <Shell_Toxic_Releasing_Water.label>toksik havan mermisi</Shell_Toxic_Releasing_Water.label>
   
   <!-- EN: signal chip -->
   <SignalChip.label>sinyal çipi</SignalChip.label>
   <!-- EN: A mechanoid-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. -->
-  <SignalChip.description>Bir mekanoid-bant senkronizasyon mikro-organı. Belirli gelişmiş tipte mekanoidler ve ekipman üretmek gereklidir.\n\nBir mekanitör, daha yüksek mektech araştırmalarının kilidini açmaya yardımcı olmak için bu çipi inceleyebilir.</SignalChip.description>
-  <!-- EN: By studying the {PARENT_label}, {STUDIER_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
-  <SignalChip.comps.CompStudiable.completedLetterText>{STUDIER_labelShort}, {PARENT_label} üzerinde çalışarak {RESEARCH} araştırma projeleri için gereken bilgileri edindi.\n\nAraştırmacılarınız artık teknolojiyi gerçekten nasıl kullanacaklarını araştırmaya başlamak için araştırma tezgahlarını kullanabilir.</SignalChip.comps.CompStudiable.completedLetterText>
-  <!-- EN: {PARENT_label} studied: {RESEARCH} unlocked -->
-  <SignalChip.comps.CompStudiable.completedLetterTitle>{PARENT_label} incelendi: {RESEARCH} kilidi açıldı</SignalChip.comps.CompStudiable.completedLetterTitle>
+  <SignalChip.description>Bir mekanoit-bant senkronizasyon mikro-organı. Belirli gelişmiş tipte mekanoitler ve ekipman üretmek gereklidir.\n\nBir mekanitör, daha yüksek mektech araştırmalarının kilidini açmaya yardımcı olmak için bu çipi inceleyebilir.</SignalChip.description>
+  <!-- EN: Analyze the signal chip. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>Sinyal çipini analiz et.</SignalChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Analyze... -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Analiz et...</SignalChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: By studying the signal chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>{PAWN_labelShort}, sinyal çipini inceleyerek {RESEARCH} araştırma projesi için gereken kavrayışı edindi.\n\nAraştırmacıların artık bu teknolojiyi fiilen nasıl kullanacaklarını araştırmaya başlamak için araştırma masalarını kullanabilir</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: Signal chip studied: {RESEARCH} unlocked -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Sinyal çipi incelendi: {RESEARCH} açıldı</SignalChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Choose who should analyze this -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Bunu kimin analiz edeceğini seç</SignalChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Can be analyzed by a colonist. -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>Bir kolonist tarafından analiz edilebilir</SignalChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Analyze signal chip -->
+  <SignalChip.comps.CompAnalyzableUnlockResearch.jobString>Sinyal çipini analiz et</SignalChip.comps.CompAnalyzableUnlockResearch.jobString>
   
   <!-- EN: basic subcore -->
   <SubcoreBasic.label>temel alt çekirdek</SubcoreBasic.label>
   <!-- EN: The simplest possible mechanoid brain, this is a tiny psychodynamic substrate unit housing a dull subpersona. Since this is only a basic-tier subcore, it can only drive the simplest of mechanoids.\n\nLike all mechanoid subcores, it contains a subpersona with a psychic presence, albeit a very faint one. -->
-  <SubcoreBasic.description>Mümkün olan en basit mekanik beyin, bu donuk bir alt kişi barındıran küçük bir psikodinamik alt tabaka birimidir. Bu yalnızca temel düzeyde bir alt çekirdek olduğundan, yalnızca en basit mekanikleri çalıştırabilir.\n\nTüm mekanik alt çekirdekler gibi, çok zayıf da olsa psişik bir varlığı olan bir alt kişi içerir.</SubcoreBasic.description>
+  <SubcoreBasic.description>En basit mekanoit beyni. Bu, donuk bir alt kişiliğe sahip küçük bir psikodinamik alt taban ünitesidir. Temel seviye bir alt çekirdek olduğundan, yalnızca en basit mekanoitleri çalıştırabilir.\n\nTüm mekanoit alt çekirdekleri gibi bu da -çok hafif olsa da- psişik varlığa sahip bir alt kişilik içerir.</SubcoreBasic.description>
   
   <!-- EN: high subcore -->
   <SubcoreHigh.label>yüksek alt çekirdek</SubcoreHigh.label>
   <!-- EN: A high-tier mechanoid brain, this is a psychodynamic substrate unit which supports a sophisticated subpersona. This particular subcore is of the strongest tier, and can power complex ultra-heavy mechanoids.\n\nThe subpersona inside this core approaches a live human in its complexity, though it is of a very different nature. Like any such mind, it has a noticeable psychic presence.\n\nThis subcore could only have been produced by rich pattern transfer from another sophisticated mind. The only way to do this without huge facilities is to ripscan a living person's brain, killing them in the process. -->
-  <SubcoreHigh.description>Üst düzey mekanik bir beyin olan bu, karmaşık bir alt kişiyi destekleyen psikodinamik bir alt yapı birimidir. Bu özel alt çekirdek en güçlü katmana sahiptir ve karmaşık ultra-ağır mekanoidlere güç sağlayabilir.\n\nBu çekirdeğin içindeki alt kişi, çok farklı bir yapıya sahip olmasına rağmen, karmaşıklığı içinde canlı bir insana yaklaşır. Bu tür herhangi bir zihin gibi, dikkat çekici bir psişik mevcudiyeti vardır.\n\nBu alt çekirdek, ancak başka bir sofistike zihinden zengin kalıp aktarımıyla üretilebilirdi. Bunu büyük tesisler olmadan yapmanın tek yolu, yaşayan bir kişinin beynini ayrıştırıp bu süreçte onları öldürmektir.</SubcoreHigh.description>
+  <SubcoreHigh.description>Yüksek seviye bir mekanoit beyni. Bu, sofistike bir alt kişiliği destekleyen psikodinamik alt taban ünitesidir. Bu özel alt çekirdek, en güçlü kademede olup karmaşık ultra ağır mekanoitleri çalıştırabilir.\n\nÇekirdek içindeki alt kişilik, karmaşıklık bakımından canlı bir insana yaklaşır fakat doğası tamamen farklıdır. Herhangi bir zihinde olduğu gibi belirgin bir psişik varlık sergiler.\n\nBu alt çekirdek ancak başka bir sofistike zihinden kapsamlı desen transferi ile üretilebilirdi. Devasa tesisler olmaksızın bunu yapmanın tek yolu, bir canlı insan beynine yırtan tarama uygulamak ve bu süreçte onu öldürmektir.</SubcoreHigh.description>
   
   <!-- EN: standard subcore -->
   <SubcoreRegular.label>standart alt çekirdek</SubcoreRegular.label>
   <!-- EN: A standard-tier mechanoid brain, this is a psychodynamic substrate unit supporting a thinking subpersona. This particular subcore is strong enough to drive standard-tier mechanoids.\n\nMechanoids are more than robots, and this is more than a silicon computer. Its thinking, psychically-present subpersona makes it more adaptable than silicon systems. However, this also means it can only be produced by analog pattern transfer from another thinking mind. -->
-  <SubcoreRegular.description>Standart katmanlı bir mekanik beyin olan bu, düşünen bir alt kişiyi destekleyen psikodinamik bir alt tabaka birimidir. Bu özel alt çekirdek, standart seviye mekanoidleri çalıştıracak kadar güçlüdür.\n\nMekanoidler robotlardan daha fazlasıdır ve bu bir silikon bilgisayardan daha fazlasıdır. Düşüncesi, psişik olarak mevcut alt kişiliği, onu silikon sistemlerden daha uyumlu hale getirir. Ancak bu aynı zamanda yalnızca başka bir düşünen zihinden analog kalıp aktarımı ile üretilebileceği anlamına gelir.</SubcoreRegular.description>
+  <SubcoreRegular.description>Standart seviye bir mekanoit beyni. Bu, düşünen bir alt kişiliği destekleyen psikodinamik alt taban ünitesidir. Bu özel alt çekirdek, standart seviye mekanoitleri çalıştıracak kadar güçlüdür.\n\nMekanoitler, robotlardan fazlasıdır ve bu da bir silikon bilgisayardan fazlasıdır. Düşünebilen, psişik varlığı olan alt kişiliği, onu silikon sistemlerden daha uyarlanabilir kılar. Lakin, bu aynı zamanda yalnızca başka bir düşünen zihinden analog desen transferiyle üretilebileceği anlamına gelir.</SubcoreRegular.description>
   
   <!-- EN: toxic wastepack -->
-  <Wastepack.label>toksik atık paketi</Wastepack.label>
+  <Wastepack.label>zehirli atık paketi</Wastepack.label>
   <!-- EN: A compacted package of toxic waste that will slowly dissolve if not frozen. The surface is heat-sealed for safe transport. Wastepacks will pollute the surrounding terrain if they dissolve, deteriorate, or are otherwise destroyed.\n\nToxic wastepacks are flammable. If burned or damaged, they will release tox gas. -->
-  <Wastepack.description>Dondurulmadığı takdirde yavaş yavaş çözülecek olan sıkıştırılmış toksik atık paketi. Yüzey, güvenli taşıma için ısıyla kapatılmıştır. Atık paketleri çözülürse, bozulursa veya başka bir şekilde yok edilirse çevredeki araziyi kirletir.\n\ntoksik atık paketleri yanıcıdır. Yanar veya hasar görürse zehirli gaz çıkarırlar.</Wastepack.description>
+  <Wastepack.description>Dondurulmadığı takdirde yavaşça çözünecek olan sıkıştırılmış bir zehirli atık paketi. Yüzeyi, güvenli taşıma için ısıyla mühürlenmiştir. Atık paketleri çözünür, bozulur ya da başka şekilde zarar görürlerse çevredeki araziyi kirletecektir.\n\nZehirli atık paketleri yanıcıdır. Yakıldığında veya zarar gördüğünde toksik gaz salarlar.</Wastepack.description>
   
 </LanguageData>

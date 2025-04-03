@@ -34,26 +34,36 @@
     <li>fromof->of</li>
   -->
   <Combat_ExplosionImpact.rulePack.rulesStrings>
-    <li>prefix->[INITIATOR_definite]'nin atışından gelen [blast]</li>
-    <li>prefix->[INITIATOR_definite]'nin [WEAPON_label]'ından gelen [blast]</li>
-    <li>prefix->[INITIATOR_definite]'nin atışının [blast]'sı</li>
-    <li>prefix->[INITIATOR_definite]'nin [WEAPON_label]'ının [blast]'sı</li>
-    <li>r_logentry->[prefix] [RECIPIENT_definite]'i [injured].</li>
-    <li>r_logentry->[prefix] [RECIPIENT_definite]'nin [destroyed_targets]'ini [destroyed_past].</li>
-    <li>r_logentry->[prefix] [RECIPIENT_definite]'nin [destroyed_targets]'ini [strikeAdv]  [destroyed_past].</li>
-    <li>r_logentry->[prefix] [RECIPIENT_definite]'nin [destroyed_targets]'ini [destroyed_past] ve [damaged_targets]'i [damaged_past].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [RECIPIENT_definite]'nin [destroyed_targets]'ini [damaged_past] .</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [RECIPIENT_definite]'nin [destroyed_targets]'ini [strikeAdv] [damaged_past].</li>
-    <li>r_logentry->[RECIPIENT_definite],[INITIATOR_definite] tarafından [damaged_past].</li>
-    <li>r_logentry->[RECIPIENT_definite], [INITIATOR_definite] tarafından [strikeAdv] [damaged_past].</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [projectile] [fromof] [blast]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [WEAPON_label] [fromof] [blast]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [projectile] [fromof] [blast]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [WEAPON_label] [fromof] [blast]</li>
+    <li>prefix->[INITIATOR_definite] kaynaklı [blast]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [projectile] sebepli [blast]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [WEAPON_label] sebepli [blast]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [projectile]</li>
+    <li>prefix->[INITIATOR_definite] kişisine ait [WEAPON_label]</li>
+    <li>r_logentry->[prefix] [RECIPIENT_definite] adlı hedefi [injured].</li>
+    <li>r_logentry->[prefix] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_past].</li>
+    <li>r_logentry->[prefix] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [strikeAdv] [destroyed_past].</li>
+    <li>r_logentry->[prefix] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [strikeAdv] [destroyed_past].</li>
+    <li>r_logentry->[prefix] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_past] ve [damaged_targets] [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [RECIPIENT_definite] adlı hedefin [damaged_targets] [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [RECIPIENT_definite] adlı hedefin [damaged_targets] [strikeAdv] [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[prefix] [RECIPIENT_definite] adlı hedefin [damaged_targets] [strikeAdv] [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] [INITIATOR_definite] tarafından [damaged_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] [INITIATOR_definite] tarafından [strikeAdv] [damaged_past].</li>
     <li>r_logentry->[RECIPIENT_definite] [damaged_past].</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite] bir patlamaya yakalandı.</li>
     <li>r_logentry(p=0.001)->[RECIPIENT_definite] bir patlamayla vuruldu.</li>
     <li>blast->patlama</li>
-    <li>blast->büyük patlama</li>
+    <li>blast->patlama</li>
     <li>blast->şok dalgası</li>
-    <li>blast->detonation</li>
+    <li>blast->infilak</li>
+    <li>blast->deşarj</li>
     <li>blast->darbe</li>
+    <li>fromof->kaynaklı</li>
+    <li>fromof->kaynaklı</li>
   </Combat_ExplosionImpact.rulePack.rulesStrings>
   
   <!-- EN:
@@ -61,7 +71,6 @@
     <li>projectile->[WEAPON_projectile_label]</li>
   -->
   <Combat_RangedBase.rulePack.rulesStrings>
-    <!-- Nominativ, unbestimmt -->
     <li>projectile(WEAPON_missing==True, p=3)->[PROJECTILE_label]</li>
     <li>projectile->[WEAPON_projectile_label]</li>
   </Combat_RangedBase.rulePack.rulesStrings>
@@ -124,60 +133,61 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDamage.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'in [destroyed_targets]'ını [destroyed_past].</li>
-    <li>r_logentry->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'in [destroyed_targets]'ını [destroyed_suffix] [destroyed_past].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]'nin atışı asıl hedefi ıskaladı ve [RECIPIENT_definite]'in [destroyed_targets]'ını  [destroyed_past].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]'nin atışı asıl hedefi ıskaladı, [RECIPIENT_definite]'in [destroyed_targets]'ını [destroyed_present].</li>
-    <li>r_logentry->[RECIPIENT_definite]'in [destroyed_targets]'i, [INITIATOR_definite]'nin atışıyla [destroyed_past].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'nin [damaged_targets]'ını [damaged_past].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'nin atışı asıl hedefi ıskaladı ve [RECIPIENT_definite]'nin [damaged_targets]'ini [damaged_past].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite]'nin atışı asıl hedefi ıskaladı,  [RECIPIENT_definite]'nin [damaged_targets]'ini [damaged_present].</li>
-    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite]'in [damaged_targets]'ı, [INITIATOR_definite]'in atışıyla [damaged_past].</li>
-    <li>r_logentry(p=3)->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'nin [destroyed_targets]'ini [destroyed_past] ve [damaged_targets]'ini [damaged_past].</li>
-    <li>r_logentry(p=6)->[INITIATOR_definite]'nin atışı asıl hedefi ıskaladı,[RECIPIENT_definite]'in [destroyed_targets]'ını [damaged_present] ve [destroyed_targets]'ını [damaged_present].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite], bir atışla [RECIPIENT_definite]'i vurdu.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'e isabet etti.</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] asıl hedefi ıskaladı ve [RECIPIENT_definite]'i bir atışla vurdu.</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]'nin atışı asıl hedefi ıskaladı ve [RECIPIENT_definite]'i vurdu.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] ısıl hedefe yönelik [RECIPIENT_definite]'i  bir atışla vurdu.</li>
-    <li>weapon_projectile_label(p=0.05)-></li>
-    <li>destroyed_past->kırıldı</li>
-    <li>destroyed_past->ezildi</li>
-    <li>destroyed_past->aşındırıldı</li>
-    <li>destroyed_past->mahfedildi</li>
+    <li>r_logentry->[INITIATOR_definite] tarafından atılan [projectile] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_past].</li>
+    <li>r_logentry->[INITIATOR_definite] tarafından atılan [projectile] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_past] ve [destroyed_suffix].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_past].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed], [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_present].</li>
+    <li>r_logentry->[RECIPIENT_definite] adlı hedefin [destroyed_targets] [INITIATOR_definite] tarafından atılan [projectile] yüzünden [destroyed_past].</li>
+    <li>r_logentry->[RECIPIENT_definite] adlı hedefin [destroyed_targets] [INITIATOR_definite] tarafından atılan [projectile] yüzünden [destroyed_past] ve [destroyed_suffix].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[INITIATOR_definite]'s [projectile] [damaged_past] [RECIPIENT_definite]'s [damaged_targets].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite] adlı hedefin [damaged_past].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0,p=2)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed], [RECIPIENT_definite] adlı hedefin [damaged_targets] [damaged_present].</li>
+    <li>r_logentry(recipient_part_destroyed_count==0)->[RECIPIENT_definite] adlı hedefin [damaged_targets] [INITIATOR_definite] tarafından atılan [projectile] yüzünden [damaged_past].</li>
+    <li>r_logentry(p=3)->[INITIATOR_definite] tarafından atılan [projectile] [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_past] ve [damaged_targets] [damaged_past].</li>
+    <li>r_logentry(p=6)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed], [RECIPIENT_definite] adlı hedefin [destroyed_targets] [destroyed_present] ve [damaged_targets] [damaged_present].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefi [projectile] ile vurdu.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] tarafından atılan [projectile] [RECIPIENT_definite] adlı hedefe isabet etti.</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite] adlı hedefi [projectile] ile vurdu.</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite] adlı hedefi vurdu.</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefi [ORIGINALTARGET_definite] için atılan [projectile] ile vurdu.</li>
+    <li>projectile(p=0.05)->atış</li>
     <li>destroyed_past->parçalandı</li>
-    <li>destroyed_past->delik açıldı</li>
+    <li>destroyed_past->ezildi</li>
+    <li>destroyed_past->mahvoldu</li>
+    <li>destroyed_past->yok oldu</li>
     <li>destroyed_past->delindi</li>
-    <li>destroyed_present->kırılıyor</li>
-    <li>destroyed_present->eziliyor</li>
-    <li>destroyed_present->aşındırılıyor</li>
-    <li>destroyed_present->mahfediliyor</li>
-    <li>destroyed_present->parçalanıyor</li>
-    <li>destroyed_present->delik açılıyor</li>
-    <li>destroyed_present->deliniyor</li>
-    <li>destroyed_suffix->parçalarına</li>
-    <li>destroyed_suffix->parçacıklarına</li>
-    <li>destroyed_suffix-></li>
-    <li>destroyed_suffix->parçacıklarına</li>
-    <li>destroyed_suffix(p=0.5)->delik deşikçe</li>
-    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->kıyılmış şekilde</li>
+    <li>destroyed_past->kevgire döndü</li>
+    <li>destroyed_past->elek oldu</li>
+    <li>destroyed_present->parçaladı</li>
+    <li>destroyed_present->ezdi</li>
+    <li>destroyed_present->mahvetti</li>
+    <li>destroyed_present->yok etti</li>
+    <li>destroyed_present->deldi</li>
+    <li>destroyed_present->kevgire çevirdi</li>
+    <li>destroyed_present->elek etti</li>
+    <li>destroyed_suffix->parçalarına ayırdı</li>
+    <li>destroyed_suffix->hücrelerine ayırdı</li>
+    <li>destroyed_suffix->duman etti</li>
+    <li>destroyed_suffix->paramparça etti</li>
+    <li>destroyed_suffix(p=0.5)->et yığınına çevirdi</li>
+    <li>destroyed_suffix(recipient_flesh!=Mechanoid,p=0.2)->kıyma etti</li>
     <li>damaged_past->yaralandı</li>
-    <li>damaged_past->yaralandı</li>
-    <li>damaged_past->parçalandı</li>
-    <li>damaged_past->hasar aldı</li>
+    <li>damaged_past->yara aldı</li>
+    <li>damaged_past->delindi</li>
+    <li>damaged_past->zarar gördü</li>
     <li>damaged_past->vuruldu</li>
-    <li>damaged_present->yaralanıyor</li>
-    <li>damaged_present->yaralanıyor</li>
-    <li>damaged_present->parçalanıyor</li>
-    <li>damaged_present->hasar alıyor</li>
-    <li>damaged_present->vuruluyor</li>
-    <li>damaged_suffix->çirkin bir şekilde</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->görünür kan ile</li>
-    <li>damaged_suffix(recipient_flesh!=Mechanoid)->görünen eti ile</li>
+    <li>damaged_present->yaraladı</li>
+    <li>damaged_present->yaraladı</li>
+    <li>damaged_present->deldi</li>
+    <li>damaged_present->zarar verdi</li>
+    <li>damaged_present->vurdu</li>
+    <li>damaged_suffix->kana buladı</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->kana buladı</li>
+    <li>damaged_suffix(recipient_flesh!=Mechanoid)->kana buladı</li>
     <li>to-></li>
     <li>to-></li>
-    <li>missed-></li>
-    <li>missed-></li>
+    <li>missed->ıskaladı</li>
+    <li>missed->ucu ucuna kaçırdı</li>
   </Combat_RangedDamage.rulePack.rulesStrings>
   
   <!-- EN:
@@ -206,29 +216,29 @@
     <li>missed->narrowly missed</li>
   -->
   <Combat_RangedDeflect.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'in [damaged_target] [deflected_result] [damaged_past].</li>
-    <li>r_logentry(p=2)->[INITIATOR_definite]'nin atışı [missed] [ORIGINALTARGET_definite] ve [RECIPIENT_definite]'i [damaged_target_possessive_opt] [deflected_result] [damaged_past].</li>
-    <li>r_logentry->Ahme [damaged_target_possessive_opt] [INITIATOR_definite]'nin atışıyla [deflected_result] [damaged_past].</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite], [RECIPIENT_definite]'e[damaged_target_possessive_opt]  [damaged_past] bir atış yaptı.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite]'nin atışı [RECIPIENT_definite]'e [damaged_target_possessive_opt] [deflected_result] vurdu..</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite] [ORIGINALTARGET_definite]'i [missed] ve [RECIPIENT_definite]'e [damaged_target_possessive_opt]'u [deflected_result] bir atışla vurdu.</li>
-    <li>r_logentry(p=0.4)->[INITIATOR_definite]'nin atışı [ORIGINALTARGET_definite] [missed] ve [RECIPIENT_definite]'e [damaged_target_possessive_opt] [deflected_result] vurdu.</li>
-    <li>r_logentry(p=0.2)->[INITIATOR_definite] [ORIGINALTARGET_definite] yönelik atışla  [RECIPIENT_definite]'e [damaged_target_possessive_opt] [deflected_result] vurdu.</li>
-    <li>weapon_projectile_label(p=0.05)-></li>
+    <li>r_logentry->[INITIATOR_definite] tarafından atılan [projectile] yüzünden [RECIPIENT_definite][damaged_target_possessive_opt] [damaged_past] [deflected_result].</li>
+    <li>r_logentry(p=2)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite][damaged_target_possessive_opt] [damaged_past] [deflected_result].</li>
+    <li>r_logentry->[RECIPIENT_definite][damaged_target_possessive_opt] [INITIATOR_definite] tarafından atılan [projectile] yüzünden [damaged_past] [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] [RECIPIENT_definite][damaged_target_possessive_opt] bir [projectile] ile vurdu [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] tarafından atılan [projectile] [RECIPIENT_definite][damaged_target_possessive_opt] vurdu [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite][damaged_target_possessive_opt] bir ile [projectile] vurdu [deflected_result].</li>
+    <li>r_logentry(p=0.4)->[INITIATOR_definite] tarafından atılan [projectile] [ORIGINALTARGET_definite] adlı hedefi [missed] ve [RECIPIENT_definite][damaged_target_possessive_opt] vurdu [deflected_result].</li>
+    <li>r_logentry(p=0.2)->[INITIATOR_definite] [RECIPIENT_definite][damaged_target_possessive_opt] [ORIGINALTARGET_definite] için atılan [projectile] ile vurdu [deflected_result].</li>
+    <li>projectile(p=0.05)->atış</li>
     <li>damaged_target_possessive_opt-></li>
-    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)->'nin [recipient_part_damaged0_label]</li>
-    <li>deflected_result-> [adverb_deflected]</li>
+    <li>damaged_target_possessive_opt(recipient_part_damaged0_outside==True)-> adlı hedefin [recipient_part_damaged0_label]</li>
+    <li>deflected_result->[adverb_deflected]</li>
     <li>deflected_result->, [deflected_consequence]</li>
     <li>adverb_deflected_opt(p=4)-></li>
-    <li>adverb_deflected_opt->[adverb_deflected]</li>
-    <li>adverb_deflected->zararı dokunmayan bir şekilde</li>
-    <li>adverb_deflected->işe yaramaz bir şekilde</li>
-    <li>deflected_consequence->ama [adverb_deflected_opt] [scraped_past]</li>
-    <li>deflected_consequence->zırhından [adverb_deflected_opt] [scraped_present]</li>
+    <li>adverb_deflected_opt->ama [adverb_deflected]</li>
+    <li>adverb_deflected->zarar veremedi</li>
+    <li>adverb_deflected->işe yaramadı</li>
+    <li>deflected_consequence->ama [scraped_past] ve [adverb_deflected_opt] </li>
+    <li>deflected_consequence->ama zırhından [scraped_present] ve [adverb_deflected_opt]</li>
     <li>scraped_past->sekti</li>
-    <li>scraped_present->sekiyor</li>
+    <li>scraped_present->sekti</li>
     <li>missed->ıskaladı</li>
-    <li>missed->kıl payı ıskaladı</li>
+    <li>missed->ucu ucuna kaçırdı</li>
   </Combat_RangedDeflect.rulePack.rulesStrings>
   
   <!-- EN:
@@ -261,33 +271,33 @@
     <li>verb_shot(p=0.2)->discharged</li>
   -->
   <Combat_RangedFire.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite], [RECIPIENT_definite]'i [WEAPON_label]'ı ile [verb_shot].</li>
-    <li>r_logentry->[INITIATOR_definite], [RECIPIENT_definite]'e [WEAPON_label]'dan [shot].</li>
-    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite] [shotat].</li>
-    <li>r_logentry->[INITIATOR_definite], [RECIPIENT_definite]'e [shot_a].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a]</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [WEAPON_label] [shot].</li>
+    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefe kuşandığı [WEAPON_label] ile [shotat].</li>
+    <li>r_logentry->[INITIATOR_definite] kuşandığı [WEAPON_label] ile [RECIPIENT_definite] adlı hedefe [shot].</li>
+    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefe [shotat].</li>
+    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefe [shot_a].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [shot_a].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] kuşandığı [WEAPON_label] ile [shot].</li>
     <li>shot_a(p=2)->[verb_shot]</li>
     <li>shot_a->[skillAdv] [verb_shot]</li>
     <li>shot(p=2)->[verb_shot]</li>
     <li>shot->[skillAdv] [verb_shot]</li>
-    <li>shotat-></li>
-    <li>shotat->[skillAdv] vurdu</li>
-    <li>shotat(p=0.5)->vurmaya çalıştı.</li>
-    <li>shotat(p=0.3)->kurşun sıktı.</li>
-    <li>shotat(p=0.2)->[skillAdv] kurşun sıktı</li>
+    <li>shotat->[verb_shot]</li>
+    <li>shotat->[skillAdv] [verb_shot]</li>
+    <li>shotat(p=0.5)->ateş etmeye çalıştı</li>
+    <li>shotat(p=0.3)->atış yaptı</li>
+    <li>shotat(p=0.2)->[skillAdv] atış yaptı</li>
     <li>shotat->ateş etti</li>
     <li>shotat->[skillAdv] ateş etti</li>
     <li>shotat(p=0.5)->nişan aldı ve ateş etti</li>
     <li>shotat(p=0.5)->[skillAdv] nişan aldı ve ateş etti</li>
-    <li>shotat(p=0.3)->ateş etti</li>
+    <li>shotat(p=0.3)->ateş açtı</li>
     <li>aburst-></li>
     <li>aburst(BURST==True,p=3)-></li>
     <li>burst-></li>
     <li>burst(BURST==True,p=3)-></li>
-    <li>verb_shot->vurdu</li>
-    <li>verb_shot->ateş etti</li>
-    <li>verb_shot(p=0.2)->ateş etti</li>
+    <li>verb_shot->[projectile] attı</li>
+    <li>verb_shot->[projectile] sıktı</li>
+    <li>verb_shot(p=0.2)->[projectile] boşalttı</li>
   </Combat_RangedFire.rulePack.rulesStrings>
   
   <!-- EN:
@@ -316,20 +326,29 @@
     <li>adjective_threw(initiator_flesh!=Mechanoid)->wary</li>
   -->
   <Combat_RangedFire_Thrown.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite], [RECIPIENT_definite]'e atışını [threw] </li>
-    <li>r_logentry->[INITIATOR_definite], [RECIPIENT_definite]'e [adverb] bir şekilde atışını [threw].</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_label], berbat bir atış yaptı</li>
-    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_label] dikkatsiz bir şekilde atışını yaptı.</li>
-    <li>adverb(p=2)-></li>
-    <li>adverb->[adverb_threw]</li>
-    <li>threw->yaptı</li>
-    <li>adverb_threw->dikkatli</li>
-    <li>adverb_threw->hızlı</li>
-    <li>adverb_threw->kusursuz</li>
-    <li>adverb_threw->kasıtlı</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->tereddütlü</li>
-    <li>adverb_threw->hassas</li>
-    <li>adverb_threw(initiator_flesh!=Mechanoid)->dikkatlice</li>
+    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefe [threw].</li>
+    <li>r_logentry->[INITIATOR_definite] [RECIPIENT_definite] adlı hedefe [threw_a].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw].</li>
+    <li>r_logentry(RECIPIENT_missing==True)->[INITIATOR_definite] [threw_a].</li>
+    <li>threw_a->[adverb_threw] [projectile] [verb_threw]</li>
+    <li>threw_a(p=2)->[projectile] [verb_threw]</li>
+    <li>threw(p=2)->[projectile] [verb_threw]</li>
+    <li>threw->[adverb_threw] [projectile] [verb_threw]</li>
+    <li>verb_threw->attı</li>
+    <li>verb_threw->fırlattı</li>
+    <li>verb_threw->yolladı</li>
+    <li>adverb_threw->dikkatlice</li>
+    <li>adverb_threw->hızlıca</li>
+    <li>adverb_threw->isabetli biçimde</li>
+    <li>adverb_threw->kasten</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->ihtiyatlı biçimde</li>
+    <li>adverb_threw->isabetli biçimde</li>
+    <li>adverb_threw(initiator_flesh!=Mechanoid)->temkinli biçimde</li>
+    <li>adjective_threw->dikkatli</li>
+    <li>adjective_threw->hızlı</li>
+    <li>adjective_threw->kasti</li>
+    <li>adjective_threw->isabetli</li>
+    <li>adjective_threw(initiator_flesh!=Mechanoid)->temkinli</li>
   </Combat_RangedFire_Thrown.rulePack.rulesStrings>
   
   <!-- EN:
@@ -377,38 +396,48 @@
     <li>ducked->hid</li>
   -->
   <Combat_RangedMiss.rulePack.rulesStrings>
-    <li>r_logentry->[INITIATOR_definite]'nin atışı [missed].</li>
-    <li>r_logentry->[INITIATOR_definite] [ORIGINALTARGET_definite] missed .</li>
-    <li>r_logentry->[ORIGINALTARGET_label] [avoidance] - [INITIATOR_definite]'s atışı [missing].</li>
+    <li>r_logentry->[INITIATOR_definite] tarafından atılan [projectile] [missed].</li>
+    <li>r_logentry->[INITIATOR_definite] [ORIGINALTARGET_definite] adlı hedefi [missed].</li>
+    <li>r_logentry->[ORIGINALTARGET_definite] [avoidance], [INITIATOR_definite] tarafından atılan [projectile] [missing].</li>
     <li>missed(p=4)->ıskaladı</li>
-    <li>missed(p=2)->küçük bir farkla ıskaladı</li>
-    <li>missed(p=2)->büyük bir farkla ıskaladı</li>
-    <li>missed->genişten gitti</li>
-    <li>missed->hedefin üzerinde iyi uçtu</li>
-    <li>missed->karavanaya gitti</li>
-    <li>missed->toprağa çakıldı</li>
-    <li>missed->yere bir delik açtı</li>
-    <li>missed(p=0.2)->[ORIGINALTARGET_definite] birkaç milimetre ile ıskaladı</li>
-    <li>missed->[ORIGINALTARGET_definite] birkaç inç ıskaladı</li>
-    <li>missed->[ORIGINALTARGET_definite] birkaç metre ıskaladı</li>
-    <li>missed->rotadan çıktı</li>
+    <li>missed(p=2)->az farkla ıskaladı</li>
+    <li>missed(p=2)->epey bir farkla ıskaladı</li>
+    <li>missed->uzağa gitti</li>
+    <li>missed->dağa taşa gitti</li>
+    <li>missed->yükseğe gitti</li>
+    <li>missed->yere saplandı</li>
+    <li>missed->yerden sekip kayboldu</li>
+    <li>missed->yerden sekti</li>
+    <li>missed(p=0.2)->milimetrelerle ıskaladı</li>
+    <li>missed->santimetrelerle ıskaladı</li>
+    <li>missed->metrelerle ıskaladı</li>
+    <li>missed->rotadan şaştı</li>
     <li>missing->ıskaladı</li>
-    <li>missing->küçük bir farkla ıskaladı</li>
-    <li>missing->büyük bir farkla ıskaladı</li>
-    <li>missing->genişten gitti</li>
-    <li>missing->hedefin üzerinde iyi uçtu</li>
-    <li>missing->karavanaya gitti</li>
-    <li>missing->toprağa çakıldı</li>
-    <li>missing->yere bir delik açtı</li>
-    <li>missing(p=0.2)->[ORIGINALTARGET_definite] birkaç milimetre ile ıskaladı</li>
-    <li>missing->[ORIGINALTARGET_definite] birkaç inç ıskaladı</li>
-    <li>missing->[ORIGINALTARGET_definite] birkaç metre ıskaladı</li>
-    <li>missing->rotadan çıktı</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->son saniyede kenara atladı</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->kaçmaya çalışırken tökezledi</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True)->kendini yere attı</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite] arkasına çömeldi</li>
-    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite] arkasına atladı</li>
+    <li>missing->az farkla ıskaladı</li>
+    <li>missing->epey bir farkla ıskaladı</li>
+    <li>missing->uzağa gitti</li>
+    <li>missing->dağa taşa gitti</li>
+    <li>missing->yükseğe gitti</li>
+    <li>missing->yere saplandı</li>
+    <li>missing->yerden sekip kayboldu</li>
+    <li>missing->yerden sekti</li>
+    <li>missing(p=0.2)->milimetrelerle ıskaladı</li>
+    <li>missing->santimetrelerle ıskaladı</li>
+    <li>missing->metrelerle ıskaladı</li>
+    <li>missing->rotadan şaştı</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=2)->son [moment] kenara [moved]</li>
+    <li>avoidance(ORIGINALTARGET_mobile==True,p=0.3)->[COVER_definite] ardına [ducked]</li>
+    <li>moved->çekildi</li>
+    <li>moved->kaydı</li>
+    <li>moved->kaçtı</li>
+    <li>moved->atıldı</li>
+    <li>moment->anda</li>
+    <li>moment->saniyede</li>
+    <li>moment->anda</li>
+    <li>ducked->çöktü</li>
+    <li>ducked->çömeldi</li>
+    <li>ducked->eğildi</li>
+    <li>ducked->saklandı</li>
   </Combat_RangedMiss.rulePack.rulesStrings>
   
 </LanguageData>

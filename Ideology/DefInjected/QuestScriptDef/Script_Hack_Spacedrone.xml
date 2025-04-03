@@ -9,11 +9,11 @@
     <li>droneDetectionMethod(enemyFactionNeolithic==false)->detect the drone's energy signature</li>
   -->
   <Hack_Spacedrone.questDescriptionRules.rulesStrings>
-    <li>questDescription->[relic_name] hakkında bilgi içerebilecek yörüngede dönen bir uzay dronu tespit ettiniz. Onu [map_definite]'e inmeye zorlayacak kodunuz var.\n\nBilgi almak için drone'nun bilgisayarını hackleyin. Bilgisayar korsanlığı yapmak zaman alır, ancak entelektüel becerileri güçlü olanlar süreci hızlandırabilir.[raidsDescription]\n\nİndikten sonra, uzay insansız hava aracı [destroyDelayTicks_duration] içinde kendi kendini imha edecektir.</li>
-    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_name] öğesinden [enemyFaction_pawnsPlural], [droneDetectionMethod] olacaktır. Var olduğu sürece, onu yok etmek ve içerdiğini düşündükleri serveti çalmak için yaklaşık olarak her [raidIntervalAvg_duration] saldırganlar gönderirler. Onlar gelmeden önce savunmaları hazırlamak için biraz zamanınız olacak.</li>
+    <li>questDescription->Yörüngede [relic_name] hakkında bilgi içerebilecek bir uzay dronu tespit ettin. Onu kolonine inmeye zorlayacak koda sahipsin.\n\nBilgiyi almak için dronun bilgisayarına sızmalısın. Bu işlem zaman alır fakat yüksek entelektüel beceriye sahip olanlar süreci hızlandırabilir.[raidsDescription]\n\nİnişten sonra uzay dronu [destroyDelayTicks_duration] içinde kendini imha edecek.</li>
+    <li>raidsDescription(allowViolence==true)->\n\n[enemyFaction_name] fraksiyonundan [enemyFaction_pawnsPlural], [droneDetectionMethod]. Dron burada olduğu sürece, onu yok etmek ve muhafaza ettiğini düşündükleri zenginliği çalmak için yaklaşık her [raidIntervalAvg_duration] içerisinde bir baskın düzenleyecekler. Onlar gelmeden önce dronun etrafına savunma kurmak için bir miktar zamanın olacak.</li>
     <li>raidsDescription(allowViolence==false)-></li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==true)->dronu iniş sırasında tespit edin</li>
-    <li>droneDetectionMethod(enemyFactionNeolithic==false)->drone'nun enerji imzasını tespit edin</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==true)->dronu iniş sırasında tespit etti</li>
+    <li>droneDetectionMethod(enemyFactionNeolithic==false)->dronun enerji imzasını tespit etti</li>
   </Hack_Spacedrone.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[droneAdj] [drone] hack</li>
@@ -30,15 +30,15 @@
     <li>data->info</li>
   -->
   <Hack_Spacedrone.questNameRules.rulesStrings>
-    <li>questName->[droneAdj] [drone] hack</li>
-    <li>questName->[drone] [data] hack</li>
-    <li>droneAdj->orbital</li>
+    <li>questName->[droneAdj] [drone] hackleme</li>
+    <li>questName->[drone] [data] hackleme</li>
+    <li>droneAdj->yörüngesel</li>
     <li>droneAdj->veri</li>
     <li>droneAdj->antik</li>
-    <li>drone->drone</li>
+    <li>drone->dron</li>
     <li>drone->uzay aracı</li>
-    <li>drone->uzay drone</li>
-    <li>drone->kripto drone</li>
+    <li>drone->uzay dronu</li>
+    <li>drone->kripto dron</li>
     <li>data->veri</li>
     <li>data->istihbarat</li>
     <li>data->bilgi</li>

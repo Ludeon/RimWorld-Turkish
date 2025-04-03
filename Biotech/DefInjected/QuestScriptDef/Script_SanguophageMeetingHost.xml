@@ -4,22 +4,20 @@
   <!-- EN:
     <li>sanguophagesArriveLetterLabel->Sanguophages arrived</li>
     <li>sanguophagesArriveLetterText->The [sanguophageCount] sanguophages are arriving at [map_definite] from different directions. They will meet and carry out their discussion in the colony.</li>
-    <li>argumentLetterLabel->Sanguophage argument</li>
-    <li>argumentLetterText->The sanguophages got into an argument and it has now escalated to violence!</li>
     <li>successLetterLabel->Meeting complete</li>
     <li>successLetterText->The sanguophages have completed their meeting and will now give you your reward.</li>
     <li>raidArrivedLetterLabel->Sanguophage hunters</li>
     <li>raidArrivedLetterText->A group of sanguophage hunters from [enemyFaction_name] are approaching!\n\nThey will attack the meeting sanguophages as well as those who hosted them.</li>
   -->
   <SanguophageMeetingHost.questContentRules.rulesStrings>
-    <li>sanguophagesArriveLetterLabel->Sanguophages ulaştı</li>
-    <li>sanguophagesArriveLetterText->[sanguophageCount] sanguophageları [map_definite]'ye farklı yönlerden geliyor. Kolonide buluşacaklar ve tartışmalarını yürütecekler.</li>
-    <li>argumentLetterLabel->Sanguophage argümanı</li>
-    <li>argumentLetterText->Sanguophagelar tartıştı ve şimdi şiddete dönüştü!</li>
-    <li>successLetterLabel->Toplantı tamamlandı</li>
-    <li>successLetterText->Sanguophagelar toplantılarını tamamladılar ve şimdi size ödülünüzü verecekler.</li>
-    <li>raidArrivedLetterLabel->Sanguophage avcılar</li>
-    <li>raidArrivedLetterText->[ennemyFaction_name]'den bir grup Sanguophage avcısı yaklaşıyor!\n\nToplantı Sanguophagelarını ve onları barındıranlara saldıracaklar.</li>
+    <li>sanguophagesArriveLetterLabel->Sanguofajlar geldi</li>
+    <li>sanguophagesArriveLetterText->[sanguophageCount] sanguofaj farklı yönlerden kolonine yaklaşıyor. Burada buluşup kendi aralarında tartışacaklar.</li>
+    <li>argumentLetterLabel->Sanguofaj tartışması</li>
+    <li>argumentLetterText->Sanguofajlar arasında bir tartışma çıktı ve şimdi şiddete başvuruyorlar!!</li>
+    <li>successLetterLabel->Buluşma sona erdi</li>
+    <li>successLetterText->Sanguofajlar toplantılarını tamamladı ve şimdi sana ödülünü verecekler.</li>
+    <li>raidArrivedLetterLabel->Sanguofaj avcıları</li>
+    <li>raidArrivedLetterText->[enemyFaction_name] fraksiyonundan bir grup sanguofaj avcısı yaklaşıyor!\n\nToplantıdaki sanguofajlara ve onlara ev sahipliği yapanlara saldıracaklar.</li>
   </SanguophageMeetingHost.questContentRules.rulesStrings>
   <!-- EN:
     <li>questDescription->A sanguophage named [asker_nameDef] is looking for a safe place to meet with [sanguophageCountMinusOne] other [sanguophageSingOrPlural] where they won't be tracked. Their leader [asker_nameDef] is asking for you to host the meeting at [map_definite].\n\nIf you accept, [sanguophageCount] sanguophages will arrive at [map_definite] from different directions. They will spend several hours discussing their own secret issues before departing. They promise to give you your reward before they leave.\n\nYou may betray the sanguophages and attack them. Downed sanguophages can be forced to turn one of your own colonists into a sanguophage.\n\n[sanguophageInfo]</li>
@@ -28,10 +26,10 @@
     <li>sanguophageInfo->(*Gray)About sanguophages: Sanguophages are ageless, deathless super-humans powered by archotech-created archites in the bloodstream. They are beautiful and extremely intelligent. They can heal any injury, and never suffer from disease or poison. In combat, they can launch deadly spines and heal injured friends. The price is that sanguophages must consume hemogen derived from human blood to survive, and they must periodically deathrest for long periods. They're easily destroyed by fire, and slowed down by UV light.(/Gray)</li>
   -->
   <SanguophageMeetingHost.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_nameDef] adlı bir sanguophage, [sanguophageCountMinusOne] ve diğer [sanguophageSingOrPlural] ile izlenmeyecekleri güvenli bir yer arıyor. Liderleri [asker_nameDef], toplantıyı [map_definite] adresinde düzenlemenizi istiyor.\n\nKabul ederseniz, [sanguophageCount] sanguophageları farklı yönlerden [map_definite]'e ulaşacak. Ayrılmadan önce kendi gizli meselelerini tartışmak için birkaç saat harcayacaklar. Ayrılmadan önce size ödülünüzü vereceklerine söz veriyorlar.\n\nSanguophagelara ihanet edip onlara saldırabilirsiniz. Düşen sanguophagelar, kendi kolonistlerinizden birini bir sanguophage haline getirmeye zorlanabilir.\n\n[sanguophageInfo]</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguophage</li>
-    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->[sanguophageCountMinusOne] sanguophagelar</li>
-    <li>sanguophageInfo->(*Gray)Sanguofajlar hakkında: Sanguofajlar, kan dolaşımında arkoteknoloji tarafından yaratılan arkitler tarafından desteklenen yaşlanmayan, ölümsüz süper insanlardır. Güzeller ve son derece zekiler. Herhangi bir yaralanmayı iyileştirebilirler ve asla hastalık veya zehirden muzdarip olmazlar. Savaşta ölümcül dikenler fırlatabilir ve yaralı arkadaşlarını iyileştirebilirler. Bunun bedeli, sanguofajların hayatta kalabilmek için insan kanından elde edilen hemojeni tüketmesi ve uzun süreler boyunca periyodik olarak ölüm istirahati yapması gerektiğidir. Ateşle kolayca yok olurlar ve UV ışığıyla yavaşlarlar.(/Gray)</li>
+    <li>questDescription->[asker_nameDef] adındaki bir sanguofaj, diğer [sanguophageCountMinusOne] [sanguophageSingOrPlural] ile buluşmak için takip edilmeyecekleri güvenli bir yer arıyor. Liderleri [asker_nameDef] senden onları koloninde ağırlamanı istiyor.\n\nEğer kabul edersen, [sanguophageCount] sanguofaj farklı yönlerden kolonine gelecek. Ayrılmadan önce birkaç saat boyunca kendi özel meselelerini tartışacaklar. Gitmeden önce seni ödüllendireceklerinin sözünü veriyorlar.\n\nSanguofajlara ihanet ederek onlara saldırabilirsin. Ele geçirilen sanguofajlar kolonistlerinden birini sanguofaja dönüştürmeye zorlanabilir.\n\n[sanguophageInfo]</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne==1)->sanguofaj</li>
+    <li>sanguophageSingOrPlural(sanguophageCountMinusOne>=2)->sanguofajlar</li>
+    <li>sanguophageInfo->(*Gray)Sanguofajlar hakkında: Sanguofajlar, arkotek tarafından oluşturulan arkitlerden güç alan, yaşlanmayan, ölmez süper insanlardır. Güzel ve son derece zekidirler. Herhangi bir yaralanmayı iyileştirebilirler ve asla hastalık ya da zehirlenmeye yakalanmazlar. Savaş sırasında, ölümcül dikenler fırlatabilir ve yaralı dostlarını iyileştirebilirler. Bedeli ise, hayatta kalabilmek için insan kanından elde edilen hemojen tüketmeleri ve belirli aralıklarla uzun süreli ölüm uykusuna yatmalarıdır. Ateşe karşı kolayca yok olurlar ve UV ışığı onları yavaşlatır.(/Gray)</li>
   </SanguophageMeetingHost.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[meetAdjective] [meetNoun]</li>
@@ -55,25 +53,25 @@
     <li>meetNoun->parley</li>
   -->
   <SanguophageMeetingHost.questNameRules.rulesStrings>
-    <li>questName(p=0.7)->[meetAdjective] [meetNoun]</li>
-    <li>questName(p=0.5)->[meetNoun2]-[meetNoun]</li>
-    <li>meetNoun2->sanguophage</li>
-    <li>meetAdjective->kanasusamış</li>
-    <li>meetNoun2->kanlı</li>
+    <li>questName->[meetAdjective] [meetNoun]</li>
+    <li>meetAdjective->sanguofaj</li>
+    <li>meetAdjective->kana susamış</li>
+    <li>meetAdjective->kan</li>
+    <li>meetAdjective->gölge</li>
     <li>meetAdjective->karanlık</li>
-    <li>meetNoun2->gölge</li>
-    <li>meetAdjective->kıpkırmızı</li>
+    <li>meetAdjective->kızıl</li>
     <li>meetAdjective->kırmızı</li>
-    <li>meetAdjective->kabuklu</li>
+    <li>meetAdjective->yara</li>
     <li>meetAdjective->hemik</li>
-    <li>meetNoun->toplantısı</li>
-    <li>meetNoun->mitingi</li>
-    <li>meetNoun->oturumu</li>
-    <li>meetNoun->kurulu</li>
-    <li>meetNoun->konferansı</li>
-    <li>meetNoun->müzakeresi</li>
-    <li>meetNoun->kongresi</li>
-    <li>meetNoun->kongresi</li>
+    <li>meetAdjective->kanlı</li>
+    <li>meetNoun->buluşma</li>
+    <li>meetNoun->ağırlama</li>
+    <li>meetNoun->toplanma</li>
+    <li>meetNoun->birleşme</li>
+    <li>meetNoun->meclis</li>
+    <li>meetNoun->oturum</li>
+    <li>meetNoun->kongre</li>
+    <li>meetNoun->görüşme</li>
   </SanguophageMeetingHost.questNameRules.rulesStrings>
   
 </LanguageData>

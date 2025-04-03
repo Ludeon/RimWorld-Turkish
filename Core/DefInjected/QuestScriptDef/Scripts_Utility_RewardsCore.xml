@@ -7,8 +7,8 @@
     <li>joinerFactionInfo-></li>
   -->
   <Util_JoinerDropIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_age] yaşındaki [joiner_nameDef] adlı bir [joiner_title], bir kargo kapsülü ile ulaşacak.[joinerFactionInfo][joiner_relationInfo]</li>
-    <li>joinerFactionInfo(priority=1)-> [joiner_factionName] üyesidir.</li>
+    <li>rewardDescription->[joiner_age] yaşındaki bir [joiner_title] olan [joiner_nameDef], bir taşıma kapsülü ile gelecek.[joinerFactionInfo][joiner_relationInfo]</li>
+    <li>joinerFactionInfo(priority=1)-> O, [joiner_factionName] üyesi.</li>
     <li>joinerFactionInfo-></li>
   </Util_JoinerDropIn.questDescriptionRules.rulesStrings>
   
@@ -16,14 +16,14 @@
     <li>rewardDescription->a [joiner_age]-year-old [joiner_title] named [joiner_nameDef] will arrive and join you. [joiner_relationInfo]</li>
   -->
   <Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->[joiner_nameDef] adlı bir [joiner_age] yaşındaki [joiner_title] gelecek ve size katılacak. [joiner_relationInfo]</li>
+    <li>rewardDescription->[joiner_age] yaşındaki bir [joiner_title] olan [joiner_nameDef] gelip sana katılacak. [joiner_relationInfo]</li>
   </Util_JoinerWalkIn.questDescriptionRules.rulesStrings>
   
   <!-- EN:
     <li>rewardDescription->transport pods with the following resources will arrive (total value [itemPodsTotalMarketValue_money]):\n\n[itemPodsContents]</li>
   -->
   <Util_SendItemPods.questDescriptionRules.rulesStrings>
-    <li>rewardDescription->aşağıdaki kaynaklara sahip taşıma kapsülleri gelecek (toplam değer [itemPodsTotalMarketValue_money]):\n\n[itemPodsContents]</li>
+    <li>rewardDescription->şu kaynakları taşıyan taşıma kapsülleri gelecek ([itemPodsTotalMarketValue_money] ederinde):\n\n[itemPodsContents]</li>
   </Util_SendItemPods.questDescriptionRules.rulesStrings>
   
 </LanguageData>

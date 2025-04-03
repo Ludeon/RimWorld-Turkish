@@ -7,7 +7,7 @@
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] soldier</li>
   -->
   <Mission_BanditCamp.questDescriptionRules.rulesStrings>
-    <li>questDescription->[enemiesLabel] bir kamp kurdu ve [asker_faction_name] kervanlarını taciz ediyor. [asker_nameDef],[enemiesCount] [enemiesLabel] tarafından korunan kampa hava saldırısı planlıyor. Saldırıyı gerçekleştirmek için [soldiers] sağlamanızı istiyor.\n\nSavaşçılarınızı alması, saldırı alanına getirmesi ve sonrasında eve götürmesi için bir mekik gönderecek. Yolda beslenirler ve tıbbi bakıma alınırlar.\n\nSaldırı başladığında, [timeoutTicks_duration] içinde tüm düşmanları ve kuleleri yenmelisiniz.</li>
+    <li>questDescription->[enemiesLabel] bir kamp kurdu ve [asker_faction_name] kervanlarını taciz ediyor. [asker_nameDef], [enemiesCount] [enemiesLabel] tarafından korunan kampa hava saldırısı yapmayı planlıyor. Senden saldırıyı gerçekleştirecek [soldiers] sağlamanı istiyor.\n\nSavaşçılarını alması, saldırı alanına taşıması ve sonrasında eve geri getirmesi için bir mekik gönderecek. Yolda beslenecekler ve tıbbi bakımları yapılacak.\n\nSaldırı başladığında, [timeoutTicks_duration] içinde tüm düşmanları ve taretleri etkisiz hâle getirmelisin.</li>
     <li>soldiers(requiredPawnCount>1)->[requiredPawnCount] askerleri</li>
     <li>soldiers(requiredPawnCount==1)->[requiredPawnCount] askeri</li>
   </Mission_BanditCamp.questDescriptionRules.rulesStrings>
@@ -30,14 +30,14 @@
   -->
   <Mission_BanditCamp.questNameRules.rulesStrings>
     <li>questName->[questNameInner]</li>
-    <li>questName->[asker_nameDef]'nin [questNameInner]</li>
+    <li>questName->[asker_nameDef] ile [questNameInner]</li>
     <li>questNameInner->[aerial] [attack]</li>
     <li>questNameInner->[target] [attack]</li>
     <li>questNameInner->[attack] [work]</li>
-    <li>target->kamp</li>
-    <li>target->üs</li>
-    <li>target->hisar</li>
-    <li>aerial->hava</li>
+    <li>target->kampa</li>
+    <li>target->üsse</li>
+    <li>target->hisara</li>
+    <li>aerial->havadan</li>
     <li>attack->saldırı</li>
     <li>attack->taarruz</li>
     <li>work->işi</li>

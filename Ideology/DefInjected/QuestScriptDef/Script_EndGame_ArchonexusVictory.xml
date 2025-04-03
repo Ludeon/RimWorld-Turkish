@@ -28,11 +28,13 @@
     <li>descriptionIntro(factionless==true)->A group of wild people are</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->[descriptionIntro] topraklarını genişletmek istiyor ve tüm zenginlikleri ve teknolojileri ile [playerSettlements]'ı devralmak istiyor. Toplam servetinizi [requiredWealth_money]'e yükseltebilirseniz, onlar [settlementsSingularOrPlural]'ı alacaklar.\n\nTicarette, size eski bir arkotech bağlantı noktasının yerini gösteren bir haritanın bir bölümünü sunuyorlar. Archonexus'un, bir arkotech süper zekasının fiziksel dünyayı etkilediği bir kanal olduğu düşünülmektedir. Gücüne başvurabilirseniz, bundan sonra olacaklar fiziksel gerçekliğin ötesine geçebilir.\n\nHaritanın yalnızca bir parçası var. Diğer kısımlar diğer gruplar tarafından tutulur.\n\nTekliflerini kabul ederseniz, [factionPawnsPlural] tüm öğeler, insanlar ve kayıtlı araştırma dahil olmak üzere [playerSettlements]'a sahip olacaktır. Yeni bir koloni başlatmak için insanlarınızdan [colonistsAllowed] ve hayvanlarınızdan [animalsAllowed] gezegende istediğiniz herhangi bir yere getirecekler.\n\nDaha sonra, haritanın son iki bölümü için başkalarıyla ticaret yapabilirsiniz.</li>
+    <li>questDescription->[descriptionIntro], topraklarını genişletmek istiyor ve [playerSettlements] [itsTheir] tüm zenginliği ve teknolojisiyle beraber devralmaya ilgi duyuyor. Eğer toplam servetini [requiredWealth_money] seviyesine çıkarabilirsen, [settlementsSingularOrPlural] alacaklar.\n\nKarşılığında, eski bir arkotek bağlantı noktasının yerini gösteren haritanın bir parçasını sana sunuyorlar. Arkoneksus, bir arkotek süperzekânın fiziksel dünyayı etkilemek için kullandığı bir kanal olarak düşünülüyor. Eğer onun gücünü uyandırabilirsen, sonrasında olacaklar fiziksel gerçekliğin ötesine geçebilir.\n\n[onlyHaveHas] haritanın yalnızca bir parçasına sahip. Diğer parçalar, farklı fraksiyonların elinde bulunuyor.\n\nEğer tekliflerini kabul edersen, [playerSettlements] içindeki tüm eşyalar, insanlar ve kaydedilmiş araştırmalar ile birlikte [factionPawnsPlural] tarafından ele geçirilecek. Lakin, [colonistsAllowed] kolonici ve [animalsAllowed] hayvanını gezegende dilediğin bir noktaya götürmene izin verecekler.\n\nSonrasında, haritanın kalan iki parçasını diğerleriyle takas yaparak elde edebilirsin.</li>
     <li>itsTheir(playerSettlementsCount==1)->onun</li>
     <li>itsTheir(playerSettlementsCount>=2)->onların</li>
-    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->yerleşke</li>
-    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->yerleşkeler</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount==1)->yerleşimi</li>
+    <li>settlementsSingularOrPlural(playerSettlementsCount>=2)->yerleşimleri</li>
+    <li>onlyHaveHas(factionless==false)->[civilOutlander_name]</li>
+    <li>onlyHaveHas(factionless==true)->Grup</li>
     <li>factionPawnsPlural(factionless==false)->[civilOutlander_pawnsPlural]</li>
     <li>factionPawnsPlural(factionless==true)->vahşi insanlar</li>
     <li>descriptionIntro(factionless==false)->[civilOutlander_name]</li>
@@ -42,7 +44,7 @@
     <li>questName->the archonexus</li>
   -->
   <EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
-    <li>questName->archonexus</li>
+    <li>questName->arkoneksus</li>
   </EndGame_ArchonexusVictory_FirstCycle.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -58,22 +60,22 @@
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
-    <li>questDescription->İlk archonexus harita parçasının güvenli bir şekilde kaydedilmesiyle, yolculuğunuzun bir sonraki adımına hazırlanırsınız.\n\n[cycle1Faction] size bu dünyayı yok eden felaketi anlattı. İnsanlar yüzyıllar önce burada harika bir düşünme makinesi inşa ettiler. Halkın aleyhine döndü ve büyük bir savaş oldu. Makine aşıldığında ve hareketsiz kaldığında yalnızca birkaçı kaldı.\n\nArchonexus haritasının üç bölümü var ve bunlardan birini elinizde tutuyorsunuz. [otherMapPartHolders] ayrıca her biri haritanın parçalarını tutar. Zengin yeni bir koloni ve onun kayıtlı araştırmalarının tümü için kendi parçalarını sizinle takas edecekler.[descriptionStudyRequirement]\n\nİnşa etme zamanı.</li>
+    <li>questDescription->İlk arkoneksus harita parçasını güvenli bir şekilde kaydettikten sonra, yolculuğunun bir sonraki adımına hazırlanıyorsun.\n\n[cycle1Faction], bu dünyayı yok eden felaketten bahsetti. İnsanlar burada yüzyıllar önce büyük bir düşünen makine inşa etti. Lakin, bu makine insanlara düşman oldu ve büyük bir savaş başladı. Makine, üstün bir varlığa dönüşüp hareketsiz hâle geçtiğinde geriye yalnızca birkaç kişi kalmıştı.\n\nArkoneksus haritası üç parçadan oluşuyor ve bunlardan biri senin elinde. [otherMapPartHolders] de haritanın diğer parçalarına sahip. Onlar, kendi parçalarını zengin ve yeni bir koloni ile tüm kaydedilmiş araştırmaları karşılığında seninle takas edecekler. [descriptionStudyRequirement]\n\nArtık inşa etmeye başlama vakti.</li>
     <li>cycle1Faction(factionless==false)->[civilOutlander_leader_nameDef]</li>
     <li>cycle1Faction(factionless==true)->[wildPeople]</li>
     <li>otherMapPartHolders(factionless==false)->[roughOutlander_name] ve [roughTribe_name]</li>
-    <li>otherMapPartHolders(factionless==true)->diğer [wildPeople]</li>
+    <li>otherMapPartHolders(factionless==true)->Diğer [wildPeople]</li>
     <li>takeoverPawnsPlural(factionless==false)->[roughOutlander_pawnsPlural]</li>
     <li>takeoverPawnsPlural(factionless==true)->[wildPeople]</li>
-    <li>wildPeople->vahşi insan</li>
-    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nBir sonraki harita kısmı çok garip bir şekilde kodlanmış. Bunu yorumlamak için öncelikle buradaki yapıyı inceleyerek arkoteknoloji hakkında daha fazla bilgi edinmelisiniz.</li>
+    <li>wildPeople->Vahşi insanlar</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nBir sonraki harita parçası son derece garip bir şekilde şifrelenmiş. Onu yorumlayabilmek için önce buradaki yapıyı inceleyerek arkoteknoloji hakkında daha fazla şey öğrenmelisin.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
   </EndGame_ArchonexusVictory_SecondCycle.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->the archonexus</li>
   -->
   <EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
-    <li>questName->archonexus</li>
+    <li>questName->arkoneksus</li>
   </EndGame_ArchonexusVictory_SecondCycle.questNameRules.rulesStrings>
   
   <!-- EN:
@@ -91,17 +93,17 @@
     <li>descriptionThreats(threatsEnabled==false)-></li>
   -->
   <EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
-    <li>questAcceptedLetterLabel->Archonexus keşfedildi</li>
+    <li>questAcceptedLetterLabel->arkoneksus keşfedildi</li>
     <li>questAcceptedLetterText->[questDescriptionBeforeAccepted]</li>
-    <li>questDescriptionBeforeAccepted->Archonexus haritasının iki parçasına sahipsiniz. [factionName], atalarının felaketten kurtulduğu zamandan kalma haritanın son parçasına sahip. Kaydedilmiş araştırması ile birlikte zengin yeni bir koloni için sizinle takas edecekler.[descriptionStudyRequirement]\n\nİnşa etme zamanı.</li>
-    <li>questDescriptionAfterAccepted->[descriptionIntro] size archonexus haritasının son bölümünü verdi. Archotech bilgi kodlama bilginizi kullanarak haritanın kodunu çözdünüz ve archonexus'un yerini tam olarak belirlediniz.\n\nMüttefikleriniz geri dönmenizi beklemiyor, bu yüzden oraya gittikten sonra [playerSettlements]'ı devralacaklar.\ n\n[descriptionThreats]Artık geriye kalan tek şey archonexus'a ulaşmak, makine tanrısının gücünü çağırmak ve hikayelerin gerçek olup olmadığını öğrenmek.</li>
+    <li>questDescriptionBeforeAccepted->Arkoneksus haritasının iki parçasına sahipsin. [factionName], atalarının felaketten sağ çıktığı zamandan beri aktarılan son parçaya sahip. Onlar, bu parçayı zengin bir yeni koloni ve tüm kaydedilmiş araştırmaları karşılığında seninle takas edecekler. [descriptionStudyRequirement]\n\nArtık inşa etmeye başlama vakti.</li>
+    <li>questDescriptionAfterAccepted->[descriptionIntro] sana arkoneksus haritasının son parçasını verdi. Arkotek bilgi şifreleme konusundaki bilgin sayesinde haritayı çözdün ve arkoneksusun yerini tam olarak belirledin.\n\nMüttefiklerin geri dönmeni beklemiyor, bu yüzden oraya gittikten sonra [playerSettlements] kontrolünü ele alacaklar.\n\n[descriptionThreats]Artık geriye sadece arkoneksusa ulaşmak, makine tanrısının gücünü uyandırmak ve anlatılan hikâyelerin gerçek olup olmadığını öğrenmek kaldı.</li>
     <li>factionName(factionless==false)->[roughTribe_name]</li>
-    <li>factionName(factionless==true)->vahşi insanlar</li>
-    <li>descriptionIntro(factionless==false)->[roughTribe_name]'nin lideri [roughTribe_leader_nameDef]</li>
-    <li>descriptionIntro(factionless==true)->Vahşi insanlar var</li>
-    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nDaha önce olduğu gibi, harita kısmı kodlanmıştır. Bunu çözmek için önce arkoteknik yapıyı incelemelisiniz.</li>
+    <li>factionName(factionless==true)->Vahşi insanlar</li>
+    <li>descriptionIntro(factionless==false)->[roughTribe_name] lideri [roughTribe_leader_nameDef]</li>
+    <li>descriptionIntro(factionless==true)->Vahşi insanlar</li>
+    <li>descriptionStudyRequirement(studyRequirement==true)->\n\nDaha önce olduğu gibi, harita parçası şifrelenmiş. Onu çözebilmek için önce arkotek yapıyı incelemelisin.</li>
     <li>descriptionStudyRequirement(studyRequirement==false)-></li>
-    <li>descriptionThreats(threatsEnabled==true)->Archonexus muhtemelen mekanik savunmacılara sahip olacak, bu yüzden hazırlıklı olun.\n\n</li>
+    <li>descriptionThreats(threatsEnabled==true)->Arkoneksusun muhtemelen mekanoit muhafızları olacak, bu yüzden hazırlıklı git.\n\n</li>
     <li>descriptionThreats(threatsEnabled==false)-></li>
   </EndGame_ArchonexusVictory_ThirdCycle.questContentRules.rulesStrings>
   <!-- EN:
@@ -114,7 +116,7 @@
     <li>questName->the archonexus</li>
   -->
   <EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
-    <li>questName->archonexus</li>
+    <li>questName->arkoneksus</li>
   </EndGame_ArchonexusVictory_ThirdCycle.questNameRules.rulesStrings>
   
 </LanguageData>

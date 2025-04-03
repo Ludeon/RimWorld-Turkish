@@ -7,8 +7,8 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] olan [joiner_nameDef]  yakınlardan arıyor. [enemyFaction_name]'den [enemyFaction_pawnsPlural] tarafından kovalanıyor!\n\nGüvenlik için yalvarıyor ve [map_definite] adresinde size katılmayı teklif ediyor.[joiner_relationInfo]\n\nKabul ederseniz, peşindeki [enemyFaction_pawnsPluralDef] ile savaşmanız gerekecek. [enemyFaction_pawnsPlural] grubu şunlardan oluşur:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef] daha fazla bilgi veremeyecek kadar hummalı.</li>
-    <li>introduction(childCount==1,priority=1)->Bir [joiner_age] yaşında çocuk</li>
+    <li>questDescription->[joiner_nameDef] isimli [introduction] yakınlardan arıyor. O, [enemyFaction_name] fraksiyonundan [enemyFaction_pawnsPlural] tarafından kovalanıyor!\n\nGüvenliğini sağlaman için yalvarıyor ve kolonine katılmayı teklif ediyor.[joiner_relationInfo]\n\nKabul edersen peşindeki [enemyFaction_pawnsPluralDef] ile savaşman gerekecek. [enemyFaction_pawnsPlural] grubundakiler:\n\n[raid/raidPawnKinds]\n\n[joiner_nameDef], daha fazla bilgi veremeyecek kadar telaşlı.</li>
+    <li>introduction(childCount==1,priority=1)->[joiner_age] yaşında bir çocuk</li>
     <li>introduction->[joiner_age] yaşında bir [joiner_title]</li>
   </ThreatReward_Raid_Joiner.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -27,23 +27,23 @@
     <li>runnerIndef(childCount==1,priority=1)->a child</li>
   -->
   <ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
-    <li>questName->[runnerIndef]'i kurtarmak</li>
-    <li>questName->[runnerIndef]'ın kurtuluşu</li>
-    <li>questName->[runnerIndef]'e yardım et</li>
-    <li>questName->[runnerIndef]'i kabul et </li>
-    <li>questName->[enemyFaction_pawnsPlural] [runnerIndef]'i avlıyor</li>
-    <li>questName->kaçan [runnerIndef]</li>
-    <li>questName->[runnerIndef] bir yuva arıyor</li>
-    <li>questName->[runnerIndef] [enemyFaction_pawnsPlural] tarafından kovalandı</li>
+    <li>questName->Kurtarma: [runnerIndef]</li>
+    <li>questName->Kurtuluş: [runnerIndef]</li>
+    <li>questName->Yardım: [runnerIndef]</li>
+    <li>questName->Kabul: [runnerIndef]</li>
+    <li>questName->[enemyFaction_pawnsPlural] Peşinde: [runnerIndef]</li>
+    <li>questName->Kaçan [runnerIndef]</li>
+    <li>questName->[runnerIndef] Bir Yuva Arıyor</li>
+    <li>questName->[enemyFaction_pawnsPlural] Kovalıyor: [runnerIndef]</li>
     <li>questName->[runnerIndef] ve [enemyFaction_pawnsPlural]</li>
     <li>runnerIndef->[joiner_titleIndef]</li>
     <li>runnerIndef->[joiner_nameIndef]</li>
-    <li>runnerIndef->bir mülteci</li>
+    <li>runnerIndef->Bir Mülteci</li>
     <li>runnerIndef(childCount==1,priority=1)->bir çocuk</li>
   </ThreatReward_Raid_Joiner.questNameRules.rulesStrings>
   <!-- EN: {BASELABEL} chasing [../joiner_nameDef] -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>{BASELABEL} peşinde: [../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterLabel.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>{BASELABEL} peşinde: [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef>
   <!-- EN: {BASETEXT}\n              \nThe [enemyFaction_pawnsPlural] have come to get [../joiner_nameDef]. -->
-  <ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>{BASETEXT}\n              \n[enemyFaction_pawnsPlural] almaya geldi: [../joiner_nameDef]</ThreatReward_Raid_Joiner.root.nodes.Delay-0.node.parms.customLetterText.value.slateRef>
+  <ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>{BASETEXT}\n              \n[enemyFaction_pawnsPlural] almaya geldi: [../joiner_nameDef]</ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef>
   
 </LanguageData>

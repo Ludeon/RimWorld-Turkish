@@ -7,7 +7,7 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Yakındaki bir yerleşim yeri olan [settlement_label] özel bir ticaret talebine sahip. Satın almak istiyorlar:\n\n [requestedThingCount]x [requestedThing_label] [qualityInfo](değer [requestedThingMarketValue_money])\n\nTicaret yapmak istiyorsanız, istenen öğelerle bir karavan gönderin. Tahmini seyahat süresi [estimatedTravelTime_duration].</li>
+    <li>questDescription->Yakındaki bir yerleşim yeri olan [settlement_label], özel bir ticari talebe sahip. Satın almak istedikleri:\n\n [requestedThingCount] adet [qualityInfo] [requestedThing_label]([requestedThingMarketValue_money] ederinde)\n\nBu ticareti yapmak istiyorsan, talep edilen öğeleri bir kervanla gönder. Tahmini seyahat süresi [estimatedTravelTime_duration].</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->normal kalitede veya daha iyi</li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
@@ -26,26 +26,26 @@
     <li>trade->Offer</li>
   -->
   <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->[settlement_label] için karavan</li>
-    <li>questName->[settlement_label] ile ticaret</li>
-    <li>questName->[settlement_label]'e satış</li>
+    <li>questName->[settlement_label] için Kervan</li>
+    <li>questName->[settlement_label] ile Ticaret</li>
+    <li>questName->[settlement_label] Yerleşimine Satış</li>
     <li>questName->[settlement_label] için Malzemeler</li>
-    <li>questName->[special] [trade]</li>
+    <li>questName->[special] Bir [trade]</li>
     <li>special->Özel</li>
     <li>special->Eşsiz</li>
-    <li>special->Geleneksel olmayan</li>
+    <li>special->Olağan dışı</li>
     <li>trade->Ticaret</li>
-    <li>trade->Değişim</li>
-    <li>trade->Satış</li>
+    <li>trade->Takas</li>
+    <li>trade->Anlaşma</li>
     <li>trade->Teklif</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
   <TradeRequest.LetterLabelQuestFailed.slateRef>Görev başarısız oldu: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>Fraksiyon [faction_name] size düşman oldu.</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name] fraksiyonu sana düşman oldu.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>Takas teklifini yerine getirdiği için [asker_faction_royalFavorLabel]'i kimler almalı?</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>Kimler ticareti yaptığı için [asker_faction_royalFavorLabel] almalı?</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>
