@@ -75,11 +75,11 @@
     <li>approachInfo(beggarCount>=2,childCount>=2,allChildren==false,priority=1)->Aralarında bazı çocukların da bulunduğu bir grup yoksul [groupLabelPlural] yardım bulma ümidiyle yaklaşıyor</li>
     <li>requestInfo(beggarCount==1)->[beggars0_nameDef] [beggingForInfo] yalvarıyor</li>
     <li>requestInfo(beggarCount>=2)->[groupLabelPlural] [beggingForInfo] yalvarıyorlar</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef], kendisini avlayan bir korsan çetesine borcunu ödemek için gümüş istiyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef], korsanlar tarafından köleleştirilen ablasının özgürlüğünü satın almak için gümüş istiyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef], yakınlarda yaralanan bir yolcuya yardım etmek için ilaç istiyor</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef], yakınlarda yaralanan küçük kardeşine yardım etmek için ilaca ihtiyacı var</li>
-    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef], yolda yaralanan sadık evcil hayvanını kurtarmak için ilaca ihtiyaç duyuyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver)->[beggars0_nameDef], gümüşü kendisini avlayan bir korsan çetesine borcunu ödemek için istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==Silver,childCount==1,priority=1)->[beggars0_nameDef], gümüşü korsanlar tarafından köleleştirilen ablasının özgürlüğünü satın almak için istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal)->[beggars0_nameDef], ilacı yakınlarda yaralanan bir yolcuya yardım etmek için istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineHerbal,childCount==1,priority=1)->[beggars0_nameDef], ilacı yakınlarda yaralanan küçük kardeşine yardım etmek için istiyor</li>
+    <li>claimInfo(beggarCount==1,requestedThingDefName==MedicineIndustrial)->[beggars0_nameDef], ilacı yolda yaralanan sadık evcil hayvanını kurtarmak için istiyor</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Penoxycyline)->[beggars0_nameDef], sağlıksız bir arkadaşını ölümcül hastalıklara karşı aşılamak için [requestedThing_label] istiyor</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer)->[beggars0_nameDef], bir yolcu arkadaşını korkunç bir kazada kaybettikten sonra üzüntüsünü bastırmak için içmek istiyor</li>
     <li>claimInfo(beggarCount==1,requestedThingDefName==Beer,childCount==1,priority=1)->[beggars0_nameDef], ağrılı bir şekilde hasta olan bir amcasının acısını hafifletmesi için [requestedThing_label] istiyor</li>
