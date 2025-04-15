@@ -35,8 +35,8 @@
     <li>complex->bina</li>
     <li>investigation->soruşturma</li>
     <li>investigation->inceleme</li>
-    <li>investigation->görev</li>
-    <li>investigation->kazı</li>
+    <li>investigation->görevi</li>
+    <li>investigation->kazısı</li>
     <li>investigation->hackleme</li>
   </AncientComplex_Mission.questDescriptionAndNameRules.rulesStrings>
   <!-- EN:
@@ -45,9 +45,9 @@
     <li>colonistsSingularOrPlural(colonistCount>=2)->colonists</li>
   -->
   <AncientComplex_Mission.questDescriptionRules.rulesStrings>
-    <li>questDescription->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameDef], uzak bir noktada eski bir kompleks keşfetti. Burada [relic_name] olarak bilinen kalıntıya dair bilgiler olduğuna inanıyor.\n\n[asker_nameDef], burayı araştırmaya ayıracak adam bulamıyor ama senin tam olarak [colonistCount] [colonistsSingularOrPlural] ile yardım edebileceğini umuyor.\n\nKompleks bilinmeyen tehditler barındırıyor ve aynı zamanda [asker_nameDef] ile düşman olan [enemyFaction_name] tarafından da aranıyor.\n\nKolonicilerini almak, onları komplekse götürmek ve ardından geri getirmek için bir mekik gönderecek. Yolculuk boyunca yiyecek ve tıbbi bakım sağlanacak.\n\nİniş yaptıktan sonra, [timeoutTicks_duration] içinde kompleksteki tüm terminalleri hacklemen gerekiyor.</li>
+    <li>questDescription->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameDef], uzak bir noktada eski bir kompleks keşfetti. Burada [relic_name] olarak bilinen kalıntıya dair bilgiler olduğuna inanıyor.\n\n[asker_nameDef], burayı araştırmaya ayıracak adam bulamıyor ama senin tam olarak [colonistCount] [colonistsSingularOrPlural] ile yardım edebileceğini umuyor.\n\nKompleks, bilinmeyen tehditler barındırıyor ve aynı zamanda [asker_nameDef] ile düşman olan [enemyFaction_name] fraksiyonu tarafından da aranıyor.\n\nKolonicilerini almak, onları komplekse götürmek ve ardından geri getirmek için bir mekik gönderecek. Yolculuk boyunca yiyecek ve tıbbi bakım sağlanacak.\n\nİniş yaptıktan sonra, [timeoutTicks_duration] içinde kompleksteki tüm terminalleri hacklemen gerekiyor.</li>
     <li>colonistsSingularOrPlural(colonistCount==1)->kolonici</li>
-    <li>colonistsSingularOrPlural(colonistCount>=2)->koloniciler</li>
+    <li>colonistsSingularOrPlural(colonistCount>=2)->kolonici</li>
   </AncientComplex_Mission.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->[missionAdj] [complex] [investigation]</li>
