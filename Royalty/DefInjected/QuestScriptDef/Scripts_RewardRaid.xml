@@ -10,10 +10,10 @@
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
   -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], kervanlarından birini kurtarmasına yardım etmeni istiyor. Kervan, [map_definite] yakınında [enemyFaction_name] fraksiyonundan (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) tarafından kovalanıyor. [asker_nameDef], işaret vererek onları kovalayan grubu kervandan uzağa ve kendine doğru çekmeni istiyor.[endingCommon]</li>
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], kervanlarından birini kurtarmasına yardım etmeni istiyor. Kervan, [map_definite] yakınında [enemyFaction_name] fraksiyonundan (*Threat)[numGroupsOf](/Threat) tarafından kovalanıyor. [asker_nameDef], işaret vererek onları kovalayan grubu kervandan uzağa ve kendine doğru çekmeni istiyor.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_faction_name] fraksiyonundan bir [asker_faction_leaderTitle], senden bir istekte bulunuyor.\n\n[enemyFaction_name] fraksiyonundan (*Threat)[groupsOf](/Threat) onun bölgedeki kervanlarını taciz ediyor. [asker_nameDef], onlara meydan okuyan bir mesaj göndererek sana saldırmaları için kışkırtmanı ve onları ortadan kaldırmanı istiyor.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
-    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>groupsOf->[numGroupsOf]</li>
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nKabul edersen, [enemyFaction_pawnsPlural] [firstRaidDelayTicks_duration] içinde gelecek.</li>
     <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Kabul edersen, [enemyFaction_pawnsPlural] [firstRaidDelayTicks_duration] içinde gelecek.</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
