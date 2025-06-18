@@ -91,7 +91,7 @@
   <Styles>Stiller</Styles>
   <!-- EN: Chance to have precept -->
   <ChanceToHavePrecept>Öğreti edinme ihtimali</ChanceToHavePrecept>
-  <!-- EN: {PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
+  <!-- EN: {PAWN_labelShort}'s favorite color: {COLOR}\nHaving more than {PERCENTAGE} of {PAWN_possessive} apparel in this color{ORIDEO} will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye. -->
   <FavoriteColorTooltip>{PAWN_labelShort}, en çok bu rengi seviyor. Kıyafetinin {PERCENTAGE} oranından fazla bu renkte {ORIDEO} olması onu biraz daha mutlu edecek.\n\nGiysilerin renklerini boyacı çiçeğinden elde edilen boyayı kullanarak stil istasyonunda değiştirebilirsin.</FavoriteColorTooltip>
   <!-- EN: , or the color of {PAWN_possessive} ideoligion, -->
   <OrIdeoColor>veya ideodininin renginde</OrIdeoColor>
@@ -99,9 +99,9 @@
   <SetIdeoColor>İdeo rengini seç</SetIdeoColor>
   <!-- EN: Set to favorite color -->
   <SetFavoriteColor>Favori rengini seç</SetFavoriteColor>
-  <!-- EN: {PAWN_nameDef}’s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s favorite color. Having more than 60% of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier. -->
   <FavoriteColorPickerTip>{PAWN_nameDef}, en çok bu rengi seviyor. Kıyafetinin %60 oranından fazla bu renkte veya ideodininin renginde olması onu biraz daha mutlu edecek.</FavoriteColorPickerTip>
-  <!-- EN: {PAWN_nameDef}’s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
+  <!-- EN: {PAWN_nameDef}'s ideoligion color. Having more than 60% of {PAWN_possessive} apparel in this color, or {PAWN_possessive} favorite color, will make {PAWN_objective} slightly happier. -->
   <IdeoColorPickerTip>Bu, {PAWN_nameDef} kişisinin mensup olduğu ideodinin rengi. Kıyafetinin %60 oranından fazla bu renkte veya favori renginde olması onu biraz daha mutlu edecek.</IdeoColorPickerTip>
   <!-- EN: Configure your faction's ideoligion -->
   <ConfigureIdeoligion>Fraksiyonunun ideodinini yapılandır</ConfigureIdeoligion>
@@ -382,18 +382,6 @@
   <!-- EN: Slave -->
   <OutfitSlave>Köle</OutfitSlave>
 
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Hack ilerlemesi</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>hack hızı</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>hacklendi</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Terminaller hacklendi</TerminalsHacked>
-
   <!-- EN: Relic info found -->
   <RelicInfoFound>Kutsal emanete dair bilgi bulundu</RelicInfoFound>
   <!-- EN: inactive, requires at least {0} {1}s (have {2}) -->
@@ -666,5 +654,7 @@
   <ChangeStyleDesc>Bu yapının inşa edileceği stili değiştir. Bu tamamen görseldir ve oynanış üzerinde herhangi bir etkisi yoktur.</ChangeStyleDesc>
   <!-- EN: No available styles. -->
   <ChangeStyleDisabledNoCategories>Kullanılabilir stil yok.</ChangeStyleDisabledNoCategories>
+  <!-- EN: Spacedrone self-destructs in {0} -->
+  <SpacedroneSelfDestructsIn>Uzay dronu, {0} içinde kendini imha edecek</SpacedroneSelfDestructsIn>
 
 </LanguageData>

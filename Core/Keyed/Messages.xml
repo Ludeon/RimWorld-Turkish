@@ -39,6 +39,8 @@
   <MessageVisitorsDangerousTemperature>{1} fraksiyonundan {0} tehlikeli sıcaklık nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousTemperature>
   <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
   <MessageVisitorsAnomalousWeather>{1} fraksiyonundan {0} tehlikeli hava koşulları nedeniyle haritayı terk ediyor.</MessageVisitorsAnomalousWeather>
+  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
+  <MessageVisitorsDangerousConditions>{1} fraksiyonundan {0} tehlikeli koşullar nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousConditions>
 
   <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
   <MessageWornApparelDeterioratedAway>{1_nameFull} tarafından giyilen {0} tamamen bozundu.</MessageWornApparelDeterioratedAway>
@@ -79,6 +81,10 @@
   <MessageAnimalManhuntsOnTameFailed>Uyarı: {ANIMAL_kindBasePlural}, başarısız bir evcilleştirme girişiminde saldırabilir ({1} ihtimal).</MessageAnimalManhuntsOnTameFailed>
   <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
   <MessageInsectTameDesignated>{INSECT_indefinite} yalnızca böcek sempatisi kişisel özelliğine sahip olanlar tarafından evcilleştirebilir.</MessageInsectTameDesignated>
+  <!-- EN: No colonists are assigned to hunt. -->
+  <MessageNoHuntersAvailable>Avlanmaya atanmış kolonici yok.</MessageNoHuntersAvailable>
+  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
+  <MessageNoHuntersWithProperWeapon>Hiçbir avcının geçerli av silahı yok. Bir avcıyı uygun bir menzilli silahla donat.</MessageNoHuntersWithProperWeapon>
 
   <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
   <MessageInsectsHostileOnTaming>Uyarı: {PAWN_labelShort} bir düşman ve kolonicin onu evcilleştirmeye çalışırken saldıracaktır.</MessageInsectsHostileOnTaming>
@@ -108,6 +114,8 @@
   <MessageMustDesignateHarvestable>Hasat için yeterince büyümüş bitkileri seçmelisin.</MessageMustDesignateHarvestable>
   <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
   <MessageMustDesignateHarvestableWood>Odun için yeterince büyümüş ağaçları seçmelisin.</MessageMustDesignateHarvestableWood>
+  <!-- EN: Prevent cutting is enabled for this plant. -->
+  <MessageMustPlantCuttingForbidden>Kesimi engelleme bu bitki için devrede.</MessageMustPlantCuttingForbidden>
   <!-- EN: Must designate plants. -->
   <MessageMustDesignatePlants>Bitkileri seçmelisin.</MessageMustDesignatePlants>
   <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
@@ -149,9 +157,15 @@
   <!-- EN: Must designate forbidden items. -->
   <MessageMustDesignateUnforbiddable>Yasaklı nesneler seçmelisin.</MessageMustDesignateUnforbiddable>
   <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>Yakınlarda savaşabilir {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotClaimWhenPawnThreatsAreNear>Yakınlarda savaşabilir {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenPawnThreatsAreNear>
   <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>Yakınlarda savaşabilir {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotAdoptWhilePawnThreatsAreNear>Yakınlarda savaşabilir {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotClaimWhenThreatsAreNear>Yakınlarda {THREAT} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenThreatsAreNear>
+  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
+  <MessageCannotAdoptWhileThreatsAreNear>Yakınlarda {THREAT} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhileThreatsAreNear>
+  <!-- EN: Cannot remove foundation that supports a building. -->
+  <MessageCannotRemoveSupportingFoundation>Bir yapıyı destekleyen temel kaldırılamaz.</MessageCannotRemoveSupportingFoundation>
 
   <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} tutuklanmayı reddetti!</MessageRefusedArrest>
@@ -279,6 +293,8 @@
   <MessagePawnLostWhileFormingCaravan>{0} kervandan çıkarıldı.</MessagePawnLostWhileFormingCaravan>
   <!-- EN: The caravan formation process has been terminated. -->
   <MessagePawnLostWhileFormingCaravan_AllLost>Kervan kurma süreci sona erdirildi.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
+  <MessageForceSendingCaravan_AllLost>Hiçbir kolonici kervan kurabilir durumda değil. Kervan kurma süreci sona erdirildi.</MessageForceSendingCaravan_AllLost>
   <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
   <MessageCaravanFormationPaused>Kervan kurma süreci, herkes ruhsal çöküntüyü atlatırsa devam edecek.</MessageCaravanFormationPaused>
   <!-- EN: Your colonists will now continue forming a caravan. -->
@@ -340,9 +356,11 @@
   
   <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
   <MessageTransportersLoadingProcessStarted>Şimdi atanmış nesneler ve insanlar taşıma kapsüllerine yüklenecek.</MessageTransportersLoadingProcessStarted>
-  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
+  <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
   <MessageTransporterSingleLoadingProcessStarted>Şimdi atanmış nesneler ve insanlar mekiğe yüklenecek.</MessageTransporterSingleLoadingProcessStarted>
-  
+  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
+  <MessageShuttleLoadingProcessStarted>Atanan nesneler ve kişiler şimdi mekiğe yüklenecek.</MessageShuttleLoadingProcessStarted>
+
   <!-- EN: Your transport pods have arrived. -->
   <MessageTransportPodsArrived>Taşıma kapsüllerin ulaştı.</MessageTransportPodsArrived>
   <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
@@ -353,15 +371,23 @@
   <!-- EN: Transport pod loading complete. Launch when ready. -->
   <MessageFinishedLoadingTransporters>Taşıma kapsülüne yükleme işlemi tamamlandı. Hazır olduğunda fırlat.</MessageFinishedLoadingTransporters>
   <!-- EN: Shuttle is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingTransporterSingle>Mekik gerekli kargo ile yüklendi ve hazır olduğunda fırlatılabilir.</MessageFinishedLoadingTransporterSingle>
+  <MessageFinishedLoadingShuttle>Mekik, gereken kargo ile yüklendi ve hazır olduğunda fırlatılabilir.</MessageFinishedLoadingShuttle>
 
   <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
   <MessageCantLoadMoreIntoTransporters>Bazı öğeler veya kişiler ({2_labelShort}) şu an müsait olmadığından {1} taşıma kapsüllerine yüklemeyi tamamlayamıyor.</MessageCantLoadMoreIntoTransporters>
+  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
+  <MessageCantLoadMoreIntoShuttle>Bazı öğeler veya kişiler ({2_labelShort}) şu an müsait olmadığından {1} mekiğe yüklemeyi tamamlayamıyor.</MessageCantLoadMoreIntoShuttle>
   <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>{1}, {0} içine girmeyi tamamlayamadı çünkü bazı öğeler veya kişiler ({2_labelShort}) şu an müsait değil.</MessageCantLoadMoreIntoPortal>
+  <MessageCantLoadMoreIntoPortal>Bazı öğeler veya kişiler ({2_labelShort}) şu an müsait olmadığından {1} {0} içine giremiyor.</MessageCantLoadMoreIntoPortal>
   
   <!-- EN: Selected destination is invalid. -->
   <MessageTransportPodsDestinationIsInvalid>Seçilen istikamet geçersiz.</MessageTransportPodsDestinationIsInvalid>
+  <!-- EN: Destination is reserved by {0}. -->
+  <MessageTransportPodsDestinationReservedBy>İstikamet {0} tarafından reserve edilmiş.</MessageTransportPodsDestinationReservedBy>
+  <!-- EN: Destination is reserved. -->
+  <MessageTransportPodsDestinationReserved>İstikamet reserve durumda.</MessageTransportPodsDestinationReserved>
+  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} geçerli bir istikamet değil.</MessageWorldObjectIsInvalid>
   <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
   <MessageTransportPodsDestinationIsTooFar>Her kapsül fırlatıcısı, o kadar uzağa taşıma kapsülünü fırlatabilmek için en az {0} kimyakıta ihtiyaç duyuyor.</MessageTransportPodsDestinationIsTooFar>
   
@@ -784,6 +810,10 @@
   <CannotPlantThing>{0_labelShort} ekilemez</CannotPlantThing>
   <!-- EN: Need more fertile terrain. -->
   <MessageWarningNotEnoughFertility>Daha verimli arazi gerekiyor.</MessageWarningNotEnoughFertility>
+  <!-- EN: Temperature too extreme. -->
+  <CannotPlantExtremeTemp>Sıcaklık aşırı durumda.</CannotPlantExtremeTemp>
+  <!-- EN: Plants cannot grow on this terrain. -->
+  <CannotPlantMissingTerrainTag>Bitkiler bu arazide büyüyemez.</CannotPlantMissingTerrainTag>
   <!-- EN: blocked by {0_label}. -->
   <BlockedBy>{0_label} tarafından engellendi</BlockedBy>
   <!-- EN: Cannot be planted next to {0_label}. -->
@@ -792,6 +822,8 @@
   <TooCloseToOtherPlant> {0_label} ile çok yakın</TooCloseToOtherPlant>
   <!-- EN: Too close to {0}'s planting location. -->
   <TooCloseToOtherSeedPlantCell>{0_label} ürününün ekim yerine çok yakın.</TooCloseToOtherSeedPlantCell>
+  <!-- EN: Cannot be placed on {0}. -->
+  <MessageCannotBePlacedOn>{0} üzerine yerleştirilemez.</MessageCannotBePlacedOn>
 
   <!-- EN: Warning: {0} has been marked for cutting. -->
   <MessageWarningCutImportantPlant>Uyarı: {0} kesim için işaretlendi.</MessageWarningCutImportantPlant>
@@ -823,5 +855,20 @@
 
   <!-- EN: Cannot skip: Refugee -->
   <MessageLodgersCantFarskip>Atlanamaz: Mülteci</MessageLodgersCantFarskip>
+  
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
+  <MessageHackerLockedOut>{HACKER_nameDef} tarafından yürütülen hack işlemi tespit edildi. {DURATION} boyunca sistemden atıldı.</MessageHackerLockedOut>
+  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
+  <MessageHackerLockedOutPermanently>{HACKER_nameDef} tarafından yürütülen hack işlemi tespit edildi. Kalıcı olarak sistemden atıldı.</MessageHackerLockedOutPermanently>
+  <!-- EN: {0_labelShort} can be hacked again. -->
+  <MessageHackableUnlocked>{0_labelShort} yeniden hacklenebilir.</MessageHackableUnlocked>
+
+  <!-- EN: Cannot call shuttle -->
+  <CannotCallShuttle>Mekik çağrılamıyor</CannotCallShuttle>
+  <!-- EN: The shuttle has arrived. -->
+  <MessageShuttleArrived>Mekik vardı.</MessageShuttleArrived>
+
+  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
+  <MessageGroundPenetratingScannerNoBedrock>Uyarı: {THING_labelCap} bu biyomda çalışmayacak.</MessageGroundPenetratingScannerNoBedrock>
 
 </LanguageData>
