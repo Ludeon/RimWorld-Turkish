@@ -90,37 +90,15 @@
   <!-- EN: Pit gate collapsing -->
   <PitGateCollapsing>Çukur geçit çöküyor</PitGateCollapsing> 
   <!-- EN: Pit gate settling -->
-  <PitGateSettling>Çukur geçit yerleşiyor</PitGateSettling> 
-  <!-- EN: View undercave -->
-  <ViewUndercave>Yeraltı mağarasını gör</ViewUndercave> 
-  <!-- EN: View the connected undercave map. -->
-  <ViewUndercaveDesc>Bağlı yeraltı mağarasının haritasını gör</ViewUndercaveDesc>
-  <!-- EN: View surface -->
-  <ViewSurface>Yüzeyi gör</ViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <ViewSurfaceDesc>Bağlı yüzeyin haritasını gör</ViewSurfaceDesc>
+  <PitGateSettling>Çukur geçit yerleşiyor</PitGateSettling>
   <!-- EN: Pit rumbles -->
   <EmergenceWarningLabel>Çukur gümbürdüyor</EmergenceWarningLabel>
   <!-- EN: The ground shakes under your feet and the inhuman screams echoing from the pit seem to get closer. Something will emerge soon. -->
   <EmergenceWarningText>Ayaklarının altındaki yer sarsılıyor ve çukurda yankılanan, bir insana ait olamayacak çığlıklar yaklaşıyor. Bir şeyler yakında zamanda yüzeye çıkacak.</EmergenceWarningText>
 
-  <!-- Pit Burrow -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>Doldur</DesignatorFillIn>
-  <!-- EN: Fill in this pit burrow. -->
-  <DesignatorFillInDesc>Bu oyuğu doldur.</DesignatorFillInDesc>
-
     <!-- Undercave -->
-  <!-- EN: Enter pit gate -->
-  <EnterPitGate>Çukur geçide gir</EnterPitGate> 
-  <!-- EN: Climb to surface -->
-  <ExitPitGate>Yüzeye tırman</ExitPitGate>
-  <!-- EN: Fleshbeast lair -->
-  <LetterLabelGateEntered>Etcanavar ini</LetterLabelGateEntered> 
-  <!-- EN: In the depths of the pit gate, you have discovered a massive cavern system infested with fleshbeasts.\n\nThe cavern system is clogged with masses of living flesh that block your progress. Attack the fleshmass to destroy it.\n\nThe entire cavern system seems unstable. If you find what lies behind the fleshmass, you may be able to collapse the tunnels and close the pit gate. -->
-  <LetterGateEntered>Çukur geçidin derinliklerinde, etcanavarların istila ettiği devasa bir mağara sistemi keşfettin\n\nMağara sistemi, ilerlemeni engelleyen yaşayan et kütleleri ile tıkalı. Yok etmek için ona saldır.\n\nBütün mağara sistemi dengesiz. Eğer bu et yığınının arkasında neyin yattığını bulabilirsen, tünelleri yıkıp geçidi kapatmayı başarabilirsin.</LetterGateEntered> 
   <!-- EN: Squirming sounds -->
-  <LetterLabelDreadmeldWarning>Kıvranma sesleri</LetterLabelDreadmeldWarning> 
+  <LetterLabelDreadmeldWarning>Kıvranma sesleri</LetterLabelDreadmeldWarning>
   <!-- EN: As {PAWN_nameDef} draws near the fleshmass here, {PAWN_pronoun} senses a heavy writhing and throbbing from under its warm surface. Some huge living entity is hidden behind the wall of flesh. -->
   <LetterDreadmeldWarning>{PAWN_nameDef} etyığınına sokuldukça sıcak yüzeyin altında ağır zonklama ve kıvranma seziyor. Yaşayan devasa bir varlık bu etten duvarın arkasında saklı.</LetterDreadmeldWarning> 
   <!-- EN: Undercave unstable -->
@@ -274,8 +252,6 @@
   <Resisted>direnmek</Resisted>
   <!-- EN: Damaged -->
   <HealthFactor>Hasarlı</HealthFactor>
-  <!-- EN: Deactivated. -->
-  <Deactivated>Devre dışı.</Deactivated> <!-- -->
 
   <!-- EN: {PAWN_labelShort} was sent. -->
   <CommandSent>{PAWN_labelShort} yollandı.</CommandSent>
@@ -732,7 +708,7 @@
   <VoidMonolithViewResearch>Anomali araştırmasını gör</VoidMonolithViewResearch>
   <!-- EN: Current monolith level -->
   <CurrentMonolithLevel>Güncel monolit seviyesi</CurrentMonolithLevel>
-  <!-- EN: Investigate to learn more. -->
+  <!-- EN: Send a colonist to investigate this. -->
   <VoidMonolithUndiscovered>Daha fazla bilgi edinmek için incele.</VoidMonolithUndiscovered>
   <!-- EN: In order to advance the monolith to the next step, you need to discover {0} {1} tier entities. -->
   <VoidMonolithRequiredEntityCategory>Monoliti bir sonraki adıma taşımak için {1} seviye {0} varlık keşfetmelisin.</VoidMonolithRequiredEntityCategory>
@@ -779,7 +755,7 @@
   <MonolithAutoActivatingText>kolonicilerinin yüreğini korku dağları sardı. Düşmüş monolit hareketlenmeye başladı. Yavaşça bükülerek ve kendini değiştirerek yeni bir şeye dönüşüyor.\n\nBirkaç gün içinde süreç tamamlanacak. Bundan sonra olacaklara hazırlan.</MonolithAutoActivatingText>
   <!-- EN: Void monolith -->
   <MonolithAutoActivatedLabel>Hiçlik monoliti</MonolithAutoActivatedLabel>
-  <!-- EN: The monolith’s transformation is almost complete... -->
+  <!-- EN: The monolith's transformation is almost complete... -->
   <MonolithAutoActivatedText>Monolitin dönüşümü neredeyse tamamlandı...</MonolithAutoActivatedText>
 
   <!-- EN: Gray pall -->

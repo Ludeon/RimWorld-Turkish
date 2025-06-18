@@ -22,8 +22,12 @@
   <!-- EN: Not allowed -->
   <NotAllowed>Yasaklı</NotAllowed>
   
+  <!-- EN: Attack {1_labelShort} -->
+  <Attack>Saldır: {1_labelShort}</Attack>
   <!-- EN: Fire at {1_labelShort} -->
   <FireAt>Ateş et: {1_label}</FireAt>
+  <!-- EN: Remove -->
+  <Remove>Kaldır</Remove>
 
   <!-- EN: out of range -->
   <OutOfRange>menzil dışında</OutOfRange>
@@ -41,6 +45,8 @@
   <IsNotDraftedLower>{1_labelShort} çatışma modunda değil</IsNotDraftedLower>
   <!-- EN: cannot order characters you do not control -->
   <CannotOrderNonControlledLower>kontrol edemediğin karakterlere emir veremezsin</CannotOrderNonControlledLower>
+  <!-- EN: cannot attack -->
+  <CannotAttack>saldıramaz</CannotAttack>
   <!-- EN: cannot attack self -->
   <CannotAttackSelf>kendine saldıramaz</CannotAttackSelf>
   <!-- EN: cannot attack faction ally -->
@@ -88,6 +94,8 @@
   <AboveAllowedSkill>izinli beceri seviyesinin ({0}) üstünde</AboveAllowedSkill>
   <!-- EN: no reachable outside cell -->
   <NoReachableOutsideCell>erişilebilir dış hücre yok</NoReachableOutsideCell>
+  <!-- EN: cannot exit map -->
+  <CannotExitMap>harita terk edilemez</CannotExitMap>
   <!-- EN: missing required skill level -->
   <MissingRequiredSkillLevel>gerekli beceri seviyesi eksik</MissingRequiredSkillLevel>
   <!-- EN: animal interacted too recently -->
@@ -228,6 +236,8 @@
   <TakingToBed>{0_labelShort} kişisini yatağa götürüyor.</TakingToBed>
   <!-- EN: Cannot rescue -->
   <CannotRescue>Kurtaramaz</CannotRescue>
+  <!-- EN: Cannot rescue {PAWN_labelShort} -->
+  <CannotRescuePawn>{PAWN_labelShort} kurtarılamıyor</CannotRescuePawn>
 
   <!-- EN: Carry {1_labelShort} to cryptosleep casket -->
   <CarryToCryptosleepCasket>Kripto-uyku tabutuna taşı: {1_label}</CarryToCryptosleepCasket>
@@ -289,12 +299,20 @@
   
   <!-- EN: Force wear {1_labelShort} -->
   <ForceWear>Zorla giy: {1_labelShort}</ForceWear>
+  <!-- EN: Force target to wear {1_labelShort}... -->
+  <ForceTargetToWear>Hedefi {1_labelShort} giymeye zorla...</ForceTargetToWear>
   <!-- EN: Cannot wear {1_label} -->
   <CannotWear>Zorla {1_label} giyemez</CannotWear>
+  <!-- EN: Cannot force target to wear {1_label} -->
+  <CannotForceTargetToWear>Hedef {1_label} giymeye zorlanamaz</CannotForceTargetToWear>
   <!-- EN: Force equip {1_labelShort} -->
   <ForceEquipApparel>Zorla kuşan: {1_labelShort}</ForceEquipApparel>
+  <!-- EN: Force target to equip {1_labelShort}... -->
+  <ForceTargetToEquipApparel>Hedefi {1_labelShort} kuşanmaya zorla...</ForceTargetToEquipApparel>
   <!-- EN: Cannot equip {1_label} -->
   <CannotEquipApparel>Zorla {1_label} kuşanamaz</CannotEquipApparel>
+  <!-- EN: Cannot force target to equip {1_label} -->
+  <CannotForceTargetToEquipApparel>Hedef {1_label} kuşanmaya zorlanamaz</CannotForceTargetToEquipApparel>
   <!-- EN: missing body parts -->
   <CannotWearBecauseOfMissingBodyParts>vücut parçaları eksik</CannotWearBecauseOfMissingBodyParts>
   
@@ -397,6 +415,8 @@
   <NoDoctor>doktor yok</NoDoctor>
   <!-- EN: medical bed not for slaves -->
   <NotForSlaves>tıbbi yatak köleler için değil</NotForSlaves>
+  <!-- EN: Medical care disabled -->
+  <MedicalCareDisabled>Tıbbi bakım devre dışı</MedicalCareDisabled>
   <!-- EN: occupied by {0} -->
   <SomeoneElseSleeping>{0} tarafından kullanılıyor</SomeoneElseSleeping>
   
@@ -432,19 +452,6 @@
   <OfferGifts>Hediyeler sun</OfferGifts>
   <!-- EN: Trade with {0} -->
   <TradeWithSettlement>{0} ile ticaret yap</TradeWithSettlement>
-  
-  <!-- EN: Enter {0} -->
-  <EnterPortal>Gir: {0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>Giriyor: {0}</EnteringPortal>
-  <!-- EN: Enter {0} -->
-  <CommandEnterPortal>Gir: {0}</CommandEnterPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>{0} içine girecek kişileri ve öğeleri seç.</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>Girişi iptal et</CommandCancelEnterPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>Buraya insan veya öğe yüklenmesini iptal et.</CommandCancelEnterPortalDesc>
 
   <!-- Specific thing interactions -->
   <!-- EN: Enter cryptosleep casket -->
@@ -460,7 +467,7 @@
   <!-- EN: Cannot {0} -->
   <CannotGenericWorkCustom>Yapamıyor: {0}</CannotGenericWorkCustom>
 
-  <!-- EN: Cannot prioritize: Incapable of {0} -->
+  <!-- EN: Incapable of {0} -->
   <CannotMissingHealthActivities>Öncelik veremez: {0} yapamıyor</CannotMissingHealthActivities>
 
   <!-- e.g. Already GERUND OBJECT, Already repairing wall, already hauling metal, etc -->
@@ -469,27 +476,27 @@
   <!-- EN: Already {0} -->
   <CannotGenericAlreadyAmCustom>Zaten {0} başladı</CannotGenericAlreadyAmCustom>
 
-  <!-- EN: Cannot prioritize: Will never do {0} -->
+  <!-- EN: Will never do {0} -->
   <CannotPrioritizeWorkTypeDisabled>Öncelik veremez: Asla {0} yapmaz</CannotPrioritizeWorkTypeDisabled>
   <!-- EN: lacking necessary title -->
   <MissingTitleAbility>gerekli ünvanı yok</MissingTitleAbility>
 
-  <!-- EN: Cannot prioritize: Will never {0} -->
+  <!-- EN: Will never {0} -->
   <CannotPrioritizeWorkGiverDisabled>Öncelik veremez: Asla {0}</CannotPrioritizeWorkGiverDisabled>
   <!-- EN: will never {0} -->
   <WillNever>asla {0}</WillNever>
 
-  <!-- EN: Cannot prioritize: Not assigned to {0} -->
+  <!-- EN: Not assigned to {0} -->
   <CannotPrioritizeNotAssignedToWorkType>Öncelik veremiyor: {0} işine atanmadı</CannotPrioritizeNotAssignedToWorkType>
   <!-- EN: not assigned -->
   <NotAssigned>atanmadı</NotAssigned>
   <!-- EN: not assigned to {0} -->
   <NotAssignedToWorkType>{0} işine atanmadı</NotAssignedToWorkType>
 
-  <!-- EN: Cannot prioritize: Research is a long-term task -->
+  <!-- EN: Research is a long-term task -->
   <CannotPrioritizeResearch>Öncelik veremez: Araştırma uzun vadeli bir görevdir</CannotPrioritizeResearch>
 
-  <!-- EN: Cannot prioritize: {1_label} is forbidden -->
+  <!-- EN: {1_label} is forbidden -->
   <CannotPrioritizeForbidden>Öncelik veremiyor: {1_label} yasak</CannotPrioritizeForbidden>
   <!-- EN: Cannot prioritize: Forbidden -->
   <CannotPrioritizeCellForbidden>Öncelik veremiyor: Yasak</CannotPrioritizeCellForbidden>
@@ -501,7 +508,13 @@
   <!-- e.g. Prioritize GERUND OBJECT, Prioritize repairing wall, prioritize hauling metal, etc -->
   <!-- EN: Prioritize {0} {1} -->
   <PrioritizeGeneric>{0} öncelik ver</PrioritizeGeneric>
-  
+  <!-- EN: Prioritize {0} -->
+  <PrioritizeGenericSimple>{0} öncelik ver</PrioritizeGenericSimple>
+
+  <!-- EN: Launch to {LOCATION_label} -->
+  <LaunchTo>Fırlat: {LOCATION_label}</LaunchTo>
+  <!-- EN: Are you sure you want to launch? -->
+  <LaunchToConfirmation>Fırlatmak istediğine emin misin?</LaunchToConfirmation>
   <!-- EN: Drop at edge -->
   <DropAtEdge>Kenara in</DropAtEdge>
   <!-- EN: Drop in center -->
@@ -626,4 +639,21 @@
   <AlreadyAnalyzed>zaten analiz edildi</AlreadyAnalyzed>
   <!-- EN: no reachable, un-reserved research bench available -->
   <NoResearchBench>ulaşılabilir, boşta araştırma masası yok</NoResearchBench>
+
+  <!-- Hacking -->
+  <!-- EN: Hack {0} -->
+  <Hack>Hackle: {0}</Hack>
+  <!-- EN: Choose a colonist to hack this. -->
+  <HackDesc>Bunu hacklemesi için bir kolonici seç.</HackDesc>
+  <!-- EN: Cannot hack {0} -->
+  <CannotHack>{0} hacklenemiyor</CannotHack>
+  <!-- EN: Locked out -->
+  <LockedOut>Sistemden atıldı</LockedOut>
+  <!-- EN: Already hacked -->
+  <AlreadyHacked>Zaten hacklenmiş</AlreadyHacked>
+  <!-- EN: Incapable of hacking -->
+  <IncapableOfHacking>Hackleme yapamıyor</IncapableOfHacking>
+  <!-- EN: to drop supplies -->
+  <ToDropSupplies>erzağı indir</ToDropSupplies>
+
 </LanguageData>
