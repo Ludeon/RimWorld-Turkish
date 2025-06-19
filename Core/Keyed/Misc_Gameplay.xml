@@ -276,7 +276,7 @@
   <Map>Harita</Map>
   <!-- EN: {0} until enemies arrive -->
   <CaravanDetectedRaidCountdown>Düşmanların gelmesine {0}</CaravanDetectedRaidCountdown>
-  <!-- EN: Enemies have learned of your location. They will arrive in {0}. -->
+  <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
   <CaravanDetectedRaidCountdownTip>Düşman takviyeleri bu bölgeye {0} içinde ulaşacak.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
   <Room>Oda</Room>
@@ -284,14 +284,10 @@
   <BeautyHere>Buranın güzelliği</BeautyHere>
   <!-- EN: no power -->
   <NoPower>güç yok</NoPower>
-  <!-- EN: not in {0} -->
-  <NotInRoomRole>{0} içinde değil</NotInRoomRole>
   <!-- EN: Work speed -->
   <WorkSpeedPenalty>Çalışma hızı</WorkSpeedPenalty>
   <!-- EN: Disabled -->
   <DisabledCommand>Devre dışı</DisabledCommand>
-  <!-- EN: Deactivated -->
-  <Deactivated>Devre dışı.</Deactivated>
   <!-- EN: Ready for launch. -->
   <ReadyForLaunch>Fırlatmaya hazır.</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
@@ -299,13 +295,11 @@
   <!-- EN: no fueling port -->
   <NotAllInGroupConnectedToFuelingPort>yakıt girişi yok</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllLaunchablesInGroupHaveAnyFuel>yakıt yok</NotAllLaunchablesInGroupHaveAnyFuel>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>yakıt yok</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <LaunchableInGroupHasSomethingLeftToLoad>yükleme sürüyor</LaunchableInGroupHasSomethingLeftToLoad>
+  <TransportPodInGroupHasSomethingLeftToLoad>yükleme sürüyor</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
   <TransportPodDestinationBeyondMaximumRange>Maksimum menzilin ötesinde</TransportPodDestinationBeyondMaximumRange>
-  <!-- EN: No path to {LAYER_label} -->
-  <TransportPodDestinationNoPath>{LAYER_label} erişilebilir değil</TransportPodDestinationNoPath>
   <!-- EN: Not enough fuel -->
   <TransportPodNotEnoughFuel>Yeterli yakıt yok</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
@@ -350,10 +344,6 @@
   <Products>Ürünler</Products>
   <!-- EN: Requires -->
   <Requires>Gerektirir</Requires>
-  <!-- EN: Replaces -->
-  <Replaces>Yerini alır</Replaces>
-  <!-- EN: missing {0} -->
-  <MissingPartWithLabel>{0} eksik</MissingPartWithLabel> <!-- text_todo -->
   <!-- EN: {0}x any of -->
   <NumAnyOf>{0} adet herhangi biri</NumAnyOf>
   <!-- EN: {0} of {1} -->
@@ -376,14 +366,10 @@
   <RideableAnimalsPerPeople>Binilebilir hayvanlar / insanlar</RideableAnimalsPerPeople>
   <!-- EN: Multiplier from ridden animals -->
   <MultiplierFromRiddenAnimals>Binilen hayvanlardan çarpan</MultiplierFromRiddenAnimals>
-  <!-- EN: Multiplier from bonuses -->
-  <MultiplierFromMoveSpeedBonus>Bonuslardan gelen çarpan</MultiplierFromMoveSpeedBonus>
   <!-- EN: Multiplier for carried mass: {0} -->
   <MultiplierForCarriedMass>Taşınan ağırlık için çarpan: {0}</MultiplierForCarriedMass>
   <!-- EN: This animal is rideable. People in a caravan will ride the fastest available animals, improving the speed of the caravan as a whole. -->
   <RideableAnimalTip>Bu hayvan binilebilir. Bir kervandaki insanlar, mevcut en hızlı hayvanlara binerek kervanın bir bütün olarak hızını artırır.</RideableAnimalTip>
-  <!-- EN: This person provides a bonus to the caravan's speed. The speed increase is the average bonus of all of the caravan's members. -->
-  <CaravanBonusTip>Bu kişi kervanın hızına bonus sağlıyor. Hızdaki artış, tüm kervan üyelerinden gelen bonusların ortalamasıdır.</CaravanBonusTip>
   <!-- EN: This caravan can't move because it carries too much. -->
   <EncumberedCaravanTilesPerDayTip>Bu kervan hareket edemiyor çünkü çok fazla şey taşıyor.</EncumberedCaravanTilesPerDayTip>
   <!-- EN: Caravan members speed -->
@@ -484,15 +470,15 @@
   <ViewHyperlink>Görünüm: {0}</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
   <DetonationCountdown>{0} gün içinde patlayacak</DetonationCountdown>
-  <!-- EN: Large explosion if damaged. -->
+  <!-- EN: Large fire explosion if damaged. -->
   <ExplosionOnDamageWarning>Hasar alırsa büyük ateşli bir patlamaya sebep verir</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
   <MechCluster>Mekanoit kümesi</MechCluster>
   <!-- EN: Spawning in {0} -->
   <SpawningNextPawnIn>{0} içinde doğacak</SpawningNextPawnIn>
-  <!-- EN: {0} gestation completes in {1}. -->
+  <!-- EN: {0} assembly completes in {1}. -->
   <MechAssemblyCompleteIn>{0} montajı {1} içinde tamamlanacak</MechAssemblyCompleteIn>
-  <!-- EN: Will gestate -->
+  <!-- EN: Will assemble -->
   <MechAssemblyNextType>Montajlanacak</MechAssemblyNextType>
   <!-- EN: produced -->
   <ThingsProduced>üretilmiş</ThingsProduced>
@@ -580,8 +566,6 @@
   <RequiredTechprintTip>Gerektirir</RequiredTechprintTip>
   <!-- EN: size -->
   <Size>boyut</Size>
-  <!-- EN: Total planning area -->
-  <TotalPlanningArea>Toplam planlama alanı</TotalPlanningArea>
   <!-- EN: cost -->
   <Cost>fiyat</Cost>
   <!-- EN: Stunned by EMP -->
@@ -600,10 +584,8 @@
   <Investigate>İncele</Investigate> 
   <!-- EN: Activate -->
   <Activate>Etkinleştir</Activate> 
-  <!-- EN: Deactivate -->
-  <Deactivate>Devre dışı bırak</Deactivate> <!-- text_todo -->
   <!-- EN: Activation -->
-  <Activation>Etkinleştirme</Activation>
+  <Activation>Etkinleştirme</Activation> 
   <!-- EN: complete -->
   <Complete>tamamla</Complete>
   <!-- EN: Must be imprisoned. -->
@@ -628,25 +610,6 @@
   <ReportStringCrawlingToSafety>Güvenli alana doğru sürünüyor.</ReportStringCrawlingToSafety>
   <!-- EN: Crawling to bed. -->
   <ReportStringCrawlingToBed>Yatağa doğru sürünüyor.</ReportStringCrawlingToBed>
-  <!-- EN: flying -->
-  <Flying>uçuyor</Flying>
-  <!-- EN: Prevent cutting -->
-  <PreventCutting>Kesimi engelle</PreventCutting>
-  <!-- EN: When on, colonists won't cut this plant. -->
-  <PreventCuttingDesc>Açıkken, koloniciler bu bitkiyi kesmez.</PreventCuttingDesc>
-
-  <!-- EN: Resulting from trait -->
-  <ComesFromTrait>Şu özellikten kaynaklanıyor</ComesFromTrait>
-  <!-- EN: Resulting from condition -->
-  <ComesFromHediff>Şu durumdan kaynaklanıyor</ComesFromHediff>
-  <!-- EN: Adds need -->
-  <AddsNeed>Şu gereksinimi ekler</AddsNeed>
-  <!-- EN: Adds needs -->
-  <AddsNeeds>Şu gereksinimleri ekler</AddsNeeds>
-  <!-- EN: Disables need -->
-  <DisablesNeed>Şu gereksinimi engeller</DisablesNeed>
-  <!-- EN: Disables needs -->
-  <DisablesNeeds>Şu gereksinimleri engeller</DisablesNeeds>
   
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
@@ -815,8 +778,6 @@
   <!-- EN: Filth -->
   <Filth_Label>Pislik</Filth_Label>
   
-  <!-- EN: Features -->
-  <Features_Label>Özellikler</Features_Label>
   <!-- EN: Faction -->
   <Faction_Label>Fraksiyon</Faction_Label>
   <!-- EN: Relationship -->
@@ -842,8 +803,6 @@
   <ApparelPreventsShooting>{PAWN_nameDef}, kuşandığı {APPAREL_label} nedeniyle menzilli silahları kullanamaz.</ApparelPreventsShooting>
   <!-- EN: Cannot use in {0} -->
   <CannotUseReason_PocketMap>{0} için kullanılamaz</CannotUseReason_PocketMap>
-  <!-- EN: Range reduced -->
-  <WeatherMaxRangeCap>Menzil azaldı</WeatherMaxRangeCap>
 
   <!-- Snow -->
   <!-- EN: Snow -->
@@ -1106,8 +1065,6 @@
   <PowerConsumptionHigh>yüksek</PowerConsumptionHigh>
   <!-- EN: low -->
   <PowerConsumptionLow>düşük</PowerConsumptionLow>
-  <!-- EN: off -->
-  <PowerConsumptionOff>kapalı</PowerConsumptionOff>
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
@@ -1162,13 +1119,13 @@
   <GrowthRate>Büyüme hızı</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
   <FullyGrownIn>{0} büyümede tamamen büyüdü.</FullyGrownIn>
-  <!-- EN: needs light level -->
+  <!-- EN: Needs light level -->
   <PlantNeedsLightLevel>Gereken ışık seviyesi</PlantNeedsLightLevel>
-  <!-- EN: resting -->
+  <!-- EN: Resting -->
   <PlantResting>Dinleniyor</PlantResting>
-  <!-- EN: temperature growth multiplier {0}% -->
+  <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
   <OutOfIdealTemperatureRange>İdeal olmayan sıcaklık. Sıcaklık kaynaklı büyüme çarpanı: %{0}</OutOfIdealTemperatureRange>
-  <!-- EN: out of temperature growth range -->
+  <!-- EN: Non-ideal temperature. Not growing. -->
   <OutOfIdealTemperatureRangeNotGrowing>İdeal olmayan sıcaklık. Büyümüyor.</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
   <ReadyToHarvest>Hasat edilmeye hazır.</ReadyToHarvest>
@@ -1192,8 +1149,6 @@
   <Blighted>Hastalıklı</Blighted>
   <!-- EN: Dying because exposed to light -->
   <DyingBecauseExposedToLight>Işığa maruz kaldığı için ölüyor</DyingBecauseExposedToLight>
-  <!-- EN: Dying from non-ideal terrain -->
-  <DyingBecauseOfTerrain>Uygun olmayan arazi sebebiyle ölüyor</DyingBecauseOfTerrain>
   <!-- EN: Cut now -->
   <AutoCutNow>Şimdi kes</AutoCutNow>
   <!-- EN: harvesting -->
@@ -1210,12 +1165,8 @@
   <Zone>Bölge</Zone>
   <!-- EN: Growing zone -->
   <GrowingZone>Tarım alanı</GrowingZone>
-  <!-- EN: growing -->
-  <GrowingGroup>tarım</GrowingGroup>
   <!-- EN: Stockpile zone -->
   <Stockpile>Depo alanı</Stockpile>
-  <!-- EN: stockpile -->
-  <StockpileGroup>depo</StockpileGroup>
   <!-- EN: Dumping stockpile zone -->
   <DumpingStockpile>Çöplük alanı</DumpingStockpile>
   <!-- EN: Corpse stockpile zone -->
@@ -1286,10 +1237,8 @@
   <LockNorthUpToggleButton>Kameranın dönüşünü kuzey kutbu daima yukarıda olacak biçimde kilitle.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
   <UsePlanetDayNightSystemToggleButton>Gezegen görünümünde gece/gündüz aydınlatmasını aç/kapat.</UsePlanetDayNightSystemToggleButton>
-  <!-- EN: Toggle displaying expanding icons for settlements belonging to other factions. -->
-  <ShowBasesExpandingIconsToggleButton>Diğer fraksiyonlara ait yerleşimlerin genişleyen simgelerini gösterme seçeneğini aç/kapat.</ShowBasesExpandingIconsToggleButton>
-  <!-- EN: Toggle displaying expanding icons for important locations, such as your colony, quest locations, and active maps. -->
-  <ShowImportantExpandingIconsToggleButton>Önemli yerlerin genişleyen simgelerini gösterme seçeneğini aç/kapat.</ShowImportantExpandingIconsToggleButton>
+  <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
+  <ShowExpandingIconsToggleButton>Uzak nesneler için normal simgeler yerine genişleyen simgeleri aç/kapat.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
   <ShowWorldFeaturesToggleButton>Yeryüzü şekillerini adlarının görünürlüğünü aç/kapat.</ShowWorldFeaturesToggleButton>
   <!-- EN: Toggle heat overlay. This shows the air temperature in each room and outdoors.\n\nColonists will be unhappy if the temperature is too high or too low. Exposure to extreme temperatures can lead to hypothermia, frostbite, heatstroke, burns, and death. -->
@@ -1482,16 +1431,14 @@
   <GameOverKeepWatchingForNow>Şimdilik izlemeye devam et</GameOverKeepWatchingForNow>
   <!-- EN: Create new wanderers -->
   <GameOverCreateNewWanderers>Yeni gezginler oluştur</GameOverCreateNewWanderers>
+  <!-- EN: Create new wanderers (must wait {0}h) -->
+  <GameOverCreateNewWanderersWait>Yeni gezginler oluştur ({0}s beklemen gerekli)</GameOverCreateNewWanderersWait>
   <!-- EN: Everyone is dead or gone. Perhaps someone will find a use for the ruins of this place.\n\nChoose new wanderers arrive at your colony and continue the story. -->
   <GameOverCreateNewWanderersText>Herkes öldü veya gitti. Belki birileri buranın yıkıntılarını değerlendirmenin bir yolunu bulur.\n\nKolonine gelen yeni gezginleri seç ve hikâyeye devam et.</GameOverCreateNewWanderersText>
   <!-- EN: Main menu -->
   <GameOverMainMenu>Ana menü</GameOverMainMenu>
   <!-- EN: No colony -->
   <NoColony>Koloni yok</NoColony>
-  <!-- EN: cannot reach any destination -->
-  <NoWandererDestination>hiçbir istikamete ulaşılamıyor</NoWandererDestination>
-  <!-- EN: must wait {0}h -->
-  <GameOverCreateNewWanderersWait>{0}s beklemen gerekli</GameOverCreateNewWanderersWait>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
@@ -1636,8 +1583,6 @@
   <OutfitSoldier>Asker</OutfitSoldier>
   <!-- EN: Nudist -->
   <OutfitNudist>Nudist</OutfitNudist>
-  <!-- EN: Spacefarer -->
-  <OutfitSpacefarer>Uzay gezgini</OutfitSpacefarer>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
@@ -1682,9 +1627,11 @@
   <Reward_Pawn_WalkIn>{0_nameDef} adlı bir {0_age} yaşındaki {0_title}, gelip sana katılacak {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
   <Reward_Pawn_Caravan>{0_nameDef} adlı bir {0_age} yaşındaki {0_title}, sana katılacak {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
-  <!-- EN: transport pods with the following resources will arrive (total value {1}):\n\n{0} -->
+  <!-- EN: transport pods with the following resources will arrive (total value {1}):
+\n{0} -->
   <Reward_Items>şu kaynaklara sahip taşıma kapsülleri gelecek (toplam değer {1}):\n{0}</Reward_Items>
-  <!-- EN: you will receive (total value {1}):\n\n{0} -->
+  <!-- EN: you will receive (total value {1}):
+\n{0} -->
   <Reward_Items_Caravan>şunları elde edeceksin (toplam değer {1}):\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
   <Reward_Goodwill>{0_name} ile fraksiyon ilişkilerin {1} iyileşecek</Reward_Goodwill>
@@ -1697,9 +1644,9 @@
   <!-- EN: Camp loot -->
   <Reward_CampLoot_Label>Kamp ganimeti</Reward_CampLoot_Label>
   <!-- EN: It is unclear what will happen if you accept this quest -->
-  <Reward_Unknown>Bu görevi kabul edersen ne olacağı belirsiz</Reward_Unknown>
+  <Reward_Unknown>Bu görevi kabul edersen ne olacağı belirsiz</Reward_Unknown> 
   <!-- EN: Unknown -->
-  <Reward_Unknown_Label>Bilinmiyor</Reward_Unknown_Label>
+  <Reward_Unknown_Label>Bilinmiyor</Reward_Unknown_Label> 
   <!-- EN: the visitors will work and fight for you -->
   <Reward_VisitorsHelp>ziyaretçiler senin için çalışacak ve savaşacak</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
@@ -1746,12 +1693,10 @@
   <BiocodedCodedForSomeoneElse>biyokodlu</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
-  <!-- EN: Intercepts {0} every {1}. -->
+  <!-- EN: Intercepts {0} every {1} -->
   <InterceptsProjectilesEvery>{0} her {1} için engeller</InterceptsProjectilesEvery>
-  <!-- EN: Intercepts {0}. -->
+  <!-- EN: Intercepts {0} -->
   <InterceptsProjectiles>{0} engeller</InterceptsProjectiles>
-  <!-- EN: ground and aerial projectiles -->
-  <InterceptsProjectiles_BothProjectiles>Zemin seviyesinden ve havadan gelen atışlar</InterceptsProjectiles_BothProjectiles>
   <!-- EN: ground projectiles -->
   <InterceptsProjectiles_GroundProjectiles>Zemin seviyesindeki atışları</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
@@ -1888,6 +1833,8 @@
   <RitualPredictedOutcomeDescPawnStat>{PAWN_labelShort} kişisinin {1}</RitualPredictedOutcomeDescPawnStat>
   <!-- EN: Room beauty -->
   <RitualPredictedOutcomeDescRoomBeauty>Oda güzelliği</RitualPredictedOutcomeDescRoomBeauty>
+  <!-- EN: Participants -->
+  <RitualPredictedOutcomeDescParticipantCount>Katılımcılar</RitualPredictedOutcomeDescParticipantCount>
   <!-- EN: {PAWN_labelShort}'s expectations -->
   <RitualPredictedOutcomeDescPawnExpectations>{PAWN_labelShort} kişisinin beklentileri</RitualPredictedOutcomeDescPawnExpectations>
   <!-- EN: Loved one present -->
@@ -2056,8 +2003,7 @@
   <CommandPushTo>İt...</CommandPushTo>
   <!-- EN: requires {0} -->
   <RequiredCapacity>{0} gerektirir</RequiredCapacity>
-
-  <!-- Pocket Maps -->
+  
   <!-- EN: Unable to enter {0}, destination is blocked -->
   <UnableToEnterPortal>Girilemiyor: {0}. Hedef engellenmiş</UnableToEnterPortal>
 
@@ -2077,8 +2023,6 @@
   
   <!-- EN: About to explode -->
   <AboutToExplode>Patlamak üzere</AboutToExplode>
-  <!-- EN: No fuel to eject -->
-  <RefuelableNoFuelToEject>Çıkarılacak yakıt yok</RefuelableNoFuelToEject> <!-- text_todo -->
   
   <!-- EN: New Anomaly expansion available now! -->
   <MainScreen_AnomalyAvailableNow>Yeni Anomali genişleme paketi artık mevcut!</MainScreen_AnomalyAvailableNow>
@@ -2088,99 +2032,5 @@
 
   <!-- EN: blocked by roof -->
   <BlockedByRoof>çatı tarafından engellendi</BlockedByRoof>
-
-  <!-- Craters -->
-  <!-- EN: Fill in -->
-  <DesignatorFillIn>Doldur</DesignatorFillIn>
-  <!-- EN: Designate this crater to be filled in. A colonist assigned to construction will fill it in. -->
-  <DesignatorFillInDesc>Bu oyuğu doldur.</DesignatorFillInDesc>
-
-  <!-- Hacking -->
-  <!-- EN: Hack progress -->
-  <HackProgress>Hack ilerlemesi</HackProgress>
-  <!-- EN: hacking speed -->
-  <HackingSpeed>hack hızı</HackingSpeed>
-  <!-- EN: {0}'s -->
-  <HackingLastUser>{0}</HackingLastUser>
-  <!-- EN: hacked -->
-  <Hacked>hacklendi</Hacked>
-  <!-- EN: Terminals hacked -->
-  <TerminalsHacked>Terminaller hacklendi</TerminalsHacked>
-  <!-- EN: Intellectual needed -->
-  <IntellectualSkillPrerequisite>Entelektüel beceri gerekir</IntellectualSkillPrerequisite>
-  <!-- EN: Auto hack -->
-  <AutoHack>Otomatik hack</AutoHack>
-  <!-- EN: When enabled, researchers will automatically hack this. -->
-  <AutoHackDesc>Etkinken, araştırmacılar bunu otomatik olarak hackler.</AutoHackDesc>
-
-  <!-- World -->
-  <!-- EN: View {LAYER_label} -->
-  <WorldSelectLayer>Görüntüle: {LAYER_label}</WorldSelectLayer>
-  <!-- EN: Jump to location -->
-  <WorldJumpTo>Konuma atla</WorldJumpTo>
-  <!-- EN: Find a colony, caravan, or quest location on the world map. -->
-  <WorldJumpToDesc>Dünya haritasında bir koloni, kervan ya da görev yeri bul.</WorldJumpToDesc>
-  <!-- EN: Nothing to jump to. -->
-  <NothingToJumpTo>Atlayacak bir şey yok.</NothingToJumpTo>
-  <!-- EN: cannot function in {0} -->
-  <CannotFunctionOnLayer>{0} üzerinde çalışmaz</CannotFunctionOnLayer>
-  <!-- EN: New settlement -->
-  <NewSettlement>Yeni yerleşim</NewSettlement>
-  <!-- EN: Settled -->
-  <Settled>Yerleşimiş</Settled>
-  <!-- EN: Abandoned -->
-  <Abandoned>Terk edilmiş</Abandoned>
-  <!-- EN: Cannot perform {GERUND} {LAYER} -->
-  <CannotPerformPlanetLayer>{LAYER} {GERUND} yapılamaz</CannotPerformPlanetLayer>
-  <!-- EN: This will not affect you {GERUND} {LAYER}. -->
-  <ThisWillNotAffectLayer>{LAYER} {GERUND} bu seni etkilemez.</ThisWillNotAffectLayer>
-
-  <!-- Pocket maps -->
-  <!-- EN: Enter {0} -->
-  <EnterPortal>Gir: {0}</EnterPortal>
-  <!-- EN: Entering {0} -->
-  <EnteringPortal>Giriyor: {0}</EnteringPortal>
-  <!-- EN: Select people and items to enter the {0}. -->
-  <CommandEnterPortalDesc>{0} içine girecek kişileri ve öğeleri seç.</CommandEnterPortalDesc>
-  <!-- EN: Cancel entering -->
-  <CommandCancelEnterPortal>Girişi iptal et</CommandCancelEnterPortal>
-  <!-- EN: Cancel exiting -->
-  <CommandCancelExitPortal>Çıkışı iptal et</CommandCancelExitPortal>
-  <!-- EN: Cancel loading people or items into this. -->
-  <CommandCancelEnterPortalDesc>Buraya insan veya öğe yüklenmesini iptal et.</CommandCancelEnterPortalDesc>
-  <!-- EN: Exit {0} -->
-  <ExitPortal>Çık: {0}</ExitPortal>
-
-  <!-- CompProjectileInterceptor -->
-  <!-- EN: Shield energy -->
-  <ShieldEnergy>Kalkan enerjisi</ShieldEnergy>
-  <!-- EN: Shield cooldown -->
-  <ShieldTimeToRecovery>Toparlanma süresi</ShieldTimeToRecovery>
-  <!-- EN: Shield duration -->
-  <ShieldDuration>Kalkan süresi</ShieldDuration>
-  <!-- EN: On cooldown -->
-  <ShieldOnCooldown>Bekleme süresinde</ShieldOnCooldown>
-  <!-- EN: Below minimum energy -->
-  <ShieldBelowMinHitpoints>Minimum enerjinin altında</ShieldBelowMinHitpoints>
-  <!-- EN: A low-angle projected shield that will attempt to stop incoming projectiles or shrapnel. It shuts down instantly if hit by an EMP. -->
-  <ProjectileInterceptorTip>Düşük açılı bir koruma sağlayan yansıtma kalkan, gelen mermileri veya şarapnelleri durdurmaya çalışır. EMP ile vurulduğun anda devre dışı kalır.</ProjectileInterceptorTip>
-
-  <!-- EN: max {0} -->
-  <MaxOf>maks. {0}</MaxOf>
-
-  <!-- EN: Cannot use {TARGETABLE_label}: {TARGET_nameDef} already has {2}. -->
-  <CannotUseDueToHediff>{TARGETABLE_label} kullanamıyor: {TARGET_nameDef} zaten {2} sahibi.</CannotUseDueToHediff>
-
-  <!-- Scanner -->
-  <!-- EN: Blocked by roof -->
-  <CannotUseScannerRoofed>Çatı tarafından engellendi</CannotUseScannerRoofed> <!-- text_todo -->
-  <!-- EN: Does not function in this biome -->
-  <CannotUseScannerNoBedrock>Bu biyomda çalışmaz</CannotUseScannerNoBedrock> <!-- text_todo -->
-  
-  <!-- Quests -->
-  <!-- EN: Cannot accept this quest {GERUND} {LAYER}. -->
-  <CannotAcceptQuestFromLayer>{LAYER} {GERUND} bu görev kabul edilemez.</CannotAcceptQuestFromLayer>
-  <!-- EN: Cannot accept this quest without a permanent colony. -->
-  <CannotAcceptQuestNoMap>Kalıcı koloni olmadan bu görev kabul edilemez.</CannotAcceptQuestNoMap>
   
 </LanguageData>

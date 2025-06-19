@@ -16,11 +16,6 @@
   <!-- EN: Deconstruct this and reclaim part of its resources. -->
   <DesignatorDeconstructDesc>Yapıları yıkılması için işaretle ve kaynakların bir kısmını geri kazan.</DesignatorDeconstructDesc>
 
-  <!-- EN: Deconstruct conduit -->
-  <DesignatorDeconstructConduit>Güç hattını sök</DesignatorDeconstructConduit>
-  <!-- EN: Deconstruct power conduits and reclaim part of their resources. -->
-  <DesignatorDeconstructConduitDesc>Güç hattını sök ve malzemelerinin bir kısmını geri al.</DesignatorDeconstructConduitDesc>
-
   <!-- EN: Uninstall -->
   <DesignatorUninstall>Kaldır</DesignatorUninstall>
   <!-- EN: Uninstall this so it can be moved, sold, or installed somewhere else. -->
@@ -50,7 +45,7 @@
 
   <!-- EN: Hunt -->
   <DesignatorHunt>Avla</DesignatorHunt>
-  <!-- EN: Mark animals to be hunted by your hunters.\n\nOnly hunters with suitable ranged weapons will hunt. -->
+  <!-- EN: Mark animals to be hunted by your hunters. -->
   <DesignatorHuntDesc>Avcılarının avlaması için hayvanları işaretle.</DesignatorHuntDesc>
 
   <!-- EN: Mine -->
@@ -78,7 +73,7 @@
 
   <!-- EN: Plan -->
   <DesignatorPlan>Planla</DesignatorPlan>
-  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions.\n\nRight-click to hide or unhide all planning zones. -->
+  <!-- EN: Place planning designations. These don't do anything except help you plan future expansions. -->
   <DesignatorPlanDesc>Planlar yerleştir. Bu, gelecek genişlemelerini ve yapılarını planlamana yardım etmek dışında bir şey yapmaz.</DesignatorPlanDesc>
 
   <!-- EN: Remove plans -->
@@ -173,7 +168,7 @@
 
   <!-- EN: Remove bridge -->
   <DesignatorRemoveBridge>Köprüyü kaldır</DesignatorRemoveBridge>
-  <!-- EN: Deconstruct bridges to reclaim partial resources. -->
+  <!-- EN: Remove bridges to reveal the terrain underneath. -->
   <DesignatorRemoveBridgeDesc>Altındaki doğal araziyi ortaya çıkartmak için köprüleri kaldır.</DesignatorRemoveBridgeDesc>
 
   <!-- EN: Strip -->
@@ -186,11 +181,6 @@
   <!-- EN: Open containers. -->
   <DesignatorOpenDesc>Konteynerleri aç.</DesignatorOpenDesc>
   
-  <!-- EN: Eject fuel -->
-  <DesignatorEjectFuel>Yakıt al</DesignatorEjectFuel>
-  <!-- EN: Eject all contained fuel onto the ground. -->
-  <DesignatorEjectFuelDesc>İçerisindeki tüm yakıtı çıkarıp yere koy.</DesignatorEjectFuelDesc>
-
   <!-- EN: Slaughter -->
   <DesignatorSlaughter>Katlet</DesignatorSlaughter>
   <!-- EN: Slaughter a tame animal. -->
@@ -200,8 +190,6 @@
   <DesignatorTame>Evcilleştir</DesignatorTame>
   <!-- EN: Tame a wild animal. -->
   <DesignatorTameDesc>Vahşi bir hayvanı evcilleştir.</DesignatorTameDesc>
-  <!-- EN: Scaria infected animals can't be tamed. -->
-  <CantTameScaria>Skaryalı hayvanlar evcilleştirilemez.</CantTameScaria>
 
   <!-- EN: Release to wild -->
   <DesignatorReleaseAnimalToWild>Doğaya sal</DesignatorReleaseAnimalToWild>
@@ -252,16 +240,6 @@
   <!-- EN: Grabbed color -->
   <GrabbedColor>Alınan renk</GrabbedColor>
 
-  <!-- EN: Expand plan -->
-  <DesignatorExpandPlan>Planı genişlet</DesignatorExpandPlan>
-  <!-- EN: New plan -->
-  <NewPlan>Yeni plan</NewPlan>
-  
-  <!-- EN: Shrink plan -->
-  <DesignatorPlanShrinkSingular>Planı küçült</DesignatorPlanShrinkSingular>
-  <!-- EN: Remove plans. -->
-  <DesignatorPlanShrinkDesc>Planları kaldır.</DesignatorPlanShrinkDesc>
-
   <!-- Failure messages -->
   <!-- EN: Unchosen material -->
   <UnchosenStuff>Seçilmemiş malzeme</UnchosenStuff>
@@ -281,10 +259,6 @@
   <WouldBlockInteractionSpot>{1} etkileşim noktası {0} tarafından engellenecek.</WouldBlockInteractionSpot>
   <!-- EN: The terrain here is already {0}. -->
   <TerrainIsAlready>Bu arazi zaten {0}.</TerrainIsAlready>
-  <!-- EN: There is already foundation here. -->
-  <FoundationAlreadyExists>Burada zaten temel var.</FoundationAlreadyExists>
-  <!-- EN: The existing terrain here cannot be removed. -->
-  <TerrainUnremovable>Buradaki mevcuz arazi kaldırılamaz.</TerrainUnremovable>
   <!-- EN: The surface is already marked for smoothing. -->
   <SurfaceBeingSmoothed>Zemin zaten düzleştirme için işaretlenmiş.</SurfaceBeingSmoothed>
   <!-- EN: Identical thing already exists here. -->
@@ -325,11 +299,6 @@
   <ExpandOrCreateZone>{0} alanını genişlet ya da\nYeni bir {1} oluştur</ExpandOrCreateZone>
   <!-- EN: Create new {0} -->
   <CreateNewZone>Yeni bir {0} oluştur</CreateNewZone>
-  
-  <!-- EN: Expand {0} or\nCreate new plan -->
-  <ExpandOrCreatePlan>{0} genişlet veya\nYeni plan yarat</ExpandOrCreatePlan>
-  <!-- EN: Create new plan -->
-  <CreateNewPlan>Yeni plan yarat</CreateNewPlan>
   
   <!-- Desc helpers -->
   <!-- EN: Transmits power -->

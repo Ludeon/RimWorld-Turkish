@@ -102,61 +102,24 @@
   <AreYouSure>Bunu yapmak istediğine emin misin?</AreYouSure>
   <!-- EN: Changing bed use affects the whole room (since prisoners, slaves and colonists cannot sleep in the same room).\n\nThese people will lose ownership of their beds: -->
   <ChangingOwnerTypeBedWarning>Değişen yatak kullanımı tüm odayı etkiler (mahkûmlar, köleler ve koloniciler aynı odada uyuyamazlar).\n\nŞu insanlar yataklarının sahipliğini kaybedecek:</ChangingOwnerTypeBedWarning>
-  
+
+
   <!-- EN: Detonate -->
   <CommandDetonateLabel>Patlat</CommandDetonateLabel>
   <!-- EN: Start the countdown to detonation. -->
   <CommandDetonateDesc>Patlatma için geri sayımı başlat.</CommandDetonateDesc>
-  
+
   <!-- EN: Hide -->
-  <CommandHideLabel>Gizle</CommandHideLabel>
+  <CommandHideZoneLabel>Gizle</CommandHideZoneLabel>
   <!-- EN: Unhide -->
-  <CommandUnhideLabel>Göster</CommandUnhideLabel>
-  
-  <!-- EN: Toggle this plan's visibility.\n\nRight-click to hide or unhide all zones. -->
-  <CommandHidePlanDesc>Bu planın görünürlüğünü aç/kapa.\n\nTüm alanları gizlemek veya göstermek için sağ tıkla.</CommandHidePlanDesc>
-  <!-- EN: Hide/unhide this zone.\n\nRight-click to hide or unhide all zones. -->
+  <CommandUnhideZoneLabel>Gizleme</CommandUnhideZoneLabel>
+  <!-- EN: Hide/unhide this zone. -->
   <CommandHideZoneDesc>Bu bölgeyi gizle veya gizleme.</CommandHideZoneDesc>
-  
-  <!-- EN: Show all zones -->
-  <ShowAllZones>Tüm alanları göster</ShowAllZones>
-  <!-- EN: Hide all zones -->
-  <HideAllZones>Tüm alanları gizle</HideAllZones>
-  <!-- EN: Show all {0} zones -->
-  <ShowAllZoneTypes>Tüm {0} alanları göster</ShowAllZoneTypes>
-  <!-- EN: Hide all {0} zones -->
-  <HideAllZoneTypes>Tüm {0} alanları gizle</HideAllZoneTypes>
-  <!-- EN: planning -->
-  <Planning>planlama</Planning>
-  
-  <!-- EN: Change color -->
-  <CommandChangeColorPlanLabel>Renk değiştir</CommandChangeColorPlanLabel>
-  <!-- EN: Change the color of this plan. -->
-  <CommandChangeColorPlanDesc>Bu planın rengini değiştir.</CommandChangeColorPlanDesc>
-  
-  <!-- EN: Delete -->
-  <CommandDeletePlanLabel>Sil</CommandDeletePlanLabel>
-  <!-- EN: Delete this plan. -->
-  <CommandDeletePlanDesc>Bu planı sil.</CommandDeletePlanDesc>
-  
-  <!-- EN: Copy -->
-  <CommandCopyPlanLabel>Kopyala</CommandCopyPlanLabel>
-  <!-- EN: Copy this plan. -->
-  <CommandCopyPlanDesc>Bu planı kopyala.</CommandCopyPlanDesc>
-  
-  <!-- EN: Copy selection... -->
-  <CommandCopyPlanSelectionLabel>Seçimi kopyala...</CommandCopyPlanSelectionLabel>
-  <!-- EN: Copy all plans within a selected area. -->
-  <CommandCopyPlanSelectionDesc>Seçilen alandaki tüm planları kopyala.</CommandCopyPlanSelectionDesc>
-  <!-- EN: Select area to copy -->
-  <CommandCopyPlanSelectionMouse>Kopyalanacak alanı seç</CommandCopyPlanSelectionMouse> <!-- text_todo -->
-  <!-- EN: Paste selected area -->
-  <CommandCopyPlanSelectionPasteMouse>Seçilen alanı yapıştır</CommandCopyPlanSelectionPasteMouse> <!-- text_todo -->
 
   <!-- EN: Delete -->
   <CommandDeleteZoneLabel>Sil</CommandDeleteZoneLabel>
   <!-- EN: Delete this zone. -->
-  <CommandDeleteZoneDesc>Bu alanı sil</CommandDeleteZoneDesc>
+  <CommandDeleteZoneDesc>Bu bölgeyi sil</CommandDeleteZoneDesc>
 
   <!-- EN: Copy settings -->
   <CommandCopyZoneSettingsLabel>Ayarları kopyala</CommandCopyZoneSettingsLabel>
@@ -394,16 +357,6 @@
   <CommandSettleFailNoColonists>Bölgeyi sahiplenecek birileri yok.</CommandSettleFailNoColonists>
   <!-- EN: There are enemies in this area. -->
   <CommandSettleFailEnemies>Bu bölge düşman kontrolü altında.</CommandSettleFailEnemies>
-  <!-- EN: Cannot settle here. -->
-  <CommandSettleFailGeneric>Buraya yerleşilemez.</CommandSettleFailGeneric>
-
-  <!-- Camp -->
-  <!-- EN: Camp -->
-  <CommandCamp>Kamp</CommandCamp>
-  <!-- EN: Set up a temporary camp that can quickly be abandoned. -->
-  <CommandCampDesc>Çabucak terk edilebilen geçici bir kamp kur.</CommandCampDesc>
-  <!-- EN: Cannot camp here. -->
-  <CommandCampFailExistingWorldObject>Buraya kamp kurulamaz.</CommandCampFailExistingWorldObject>
   
   <!-- Abandon home -->
   <!-- EN: Abandon -->
@@ -430,20 +383,6 @@
   <CommandAddToCaravan>Kervana al</CommandAddToCaravan>
   <!-- EN: Add this person or animal to the forming caravan. -->
   <CommandAddToCaravanDesc>Bir kişiyi veya bir hayvanı kervana al.</CommandAddToCaravanDesc>
-  
-  <!-- Force caravan depart -->
-  <!-- EN: Force caravan departure -->
-  <CommandForceCaravanDepart>Kervanı zorla yola koy</CommandForceCaravanDepart>
-  <!-- EN: Force the caravan to depart immediately with only the currently-loaded items. Anyone unable to travel will be left behind. -->
-  <CommandForceCaravanDepartDesc>Kervanı hâlihazırda yüklü nesnelerle hemen ayrılmaya zorla. Yolculuk yapamayacak herkes geride bırakılacak.</CommandForceCaravanDepartDesc>
-  <!-- EN: Are you sure you want to depart? -->
-  <ConfirmForceDepartIntro>Ayrılmak istediğine emin misin?</ConfirmForceDepartIntro>
-  <!-- EN: The following items are still being loaded and will be left behind: -->
-  <ConfirmForceDepartItemsStillLoading>Şu nesneler hâlâ yükleniyor ve geride bırakılacak:</ConfirmForceDepartItemsStillLoading>
-  <!-- EN: The following people won't be a part of the caravan: -->
-  <ConfirmForceDepartPawnsNotLeaving>Şu kişiler kervanda yer almayacak:</ConfirmForceDepartPawnsNotLeaving>
-  <!-- EN: The following items are loaded onto creatures who won't be a part of the caravan and will be left behind: -->
-  <ConfirmForceDepartItemsOnPawnsNotLeaving>Şu nesneler, kervanda yer almayacak hayvanlara yüklenmiş ve geride bırakılacak:</ConfirmForceDepartItemsOnPawnsNotLeaving>
   
   <!-- Show map -->
   <!-- EN: Zoom in -->
@@ -494,41 +433,27 @@
   <!-- Refueling -->
   <!-- EN: Toggle automatic refuel -->
   <CommandToggleAllowAutoRefuel>Otomatik yakıt ikmalini aç/kapat</CommandToggleAllowAutoRefuel>
-  <!-- EN: This determines whether colonists will automatically refuel this. If enabled, colonists will fill this up to {0}.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDesc>Otomatik yakıt ikmaline izin verilip verilmeyeceğini ayarlar. Etkinken, kolonistler {0} seviyesine kadar yakıt doldurur.\n\nOtomatik ikmal şu anda {ONOFF}.</CommandToggleAllowAutoRefuelDesc>
-  <!-- EN: This determines whether colonists will automatically refuel these buildings.\n\nAutomatic refueling is currently {ONOFF}. -->
-  <CommandToggleAllowAutoRefuelDescMult>Otomatik yakıt ikmaline izin verilip verilmeyeceğini ayarlar.\n\nOtomatik ikmal şu anda {ONOFF}.</CommandToggleAllowAutoRefuelDescMult>
-
+  <!-- EN: Sets whether or not automatic refueling is allowed. -->
+  <CommandToggleAllowAutoRefuelDesc>Otomatik yakıt ikmaline izin verilip verilmeyeceğini ayarlar.</CommandToggleAllowAutoRefuelDesc>
+  
   <!-- Cancel load -->
   <!-- EN: Cancel load -->
   <CommandCancelLoad>Yüklemeyi iptal et</CommandCancelLoad>
   <!-- EN: Cancel loading this with people or items and eject everything already loaded. -->
   <CommandCancelLoadDesc>İnsanlar veya öğeleri yüklemeyi iptal et ve önceden yüklenmiş olan her şeyi geri çıkart.</CommandCancelLoadDesc>
-  <!-- EN: Unload all -->
-  <CommandUnload>Hepsini boşalt</CommandUnload>
-  <!-- EN: Eject all contents from the {0}. -->
-  <CommandUnloadDesc>{0} içindeki her şeyi çıkar.</CommandUnloadDesc>
-
+  
   <!-- Launch group -->
   <!-- EN: Launch -->
   <CommandLaunchGroup>Fırlat</CommandLaunchGroup>
   <!-- EN: Take off and fly to a destination. -->
   <CommandLaunchGroupDesc>Havalan ve bir hedefe doğru uç.</CommandLaunchGroupDesc>
-  <!-- EN: Must be loaded first. -->
-  <CommandLaunchGroupFailNotLoaded>Önce yüklenmeli.</CommandLaunchGroupFailNotLoaded>
   <!-- EN: Some transport pods in this loading group are not connected to a fueling port. -->
   <CommandLaunchGroupFailNotConnectedToFuelingPort>Bu yükleme grubundaki bazı taşıma kapsülleri bir yakıt girişine bağlı değil.</CommandLaunchGroupFailNotConnectedToFuelingPort>
-  <!-- EN: Roof blocking launch. -->
-  <CommandLaunchGroupFailUnderRoof>Bazı kapsül fırlatıcıları bir çatı altında.</CommandLaunchGroupFailUnderRoof>
-  <!-- EN: Not enough fuel to launch. -->
+  <!-- EN: Some pod launchers in this group have no fuel. -->
   <CommandLaunchGroupFailNoFuel>Bu gruptaki bazı kapsül fırlatıcılarında yakıt yok.</CommandLaunchGroupFailNoFuel>
-  <!-- EN: Over mass capacity. -->
-  <CommandLaunchGroupFailOverMassCapacity>Kütle kapasitesinin üzerinde.</CommandLaunchGroupFailOverMassCapacity>
-  <!-- EN: On cooldown. -->
-  <CommandLaunchGroupCooldown>Bekleme süresinde.</CommandLaunchGroupCooldown>
-  <!-- EN: {0} / {1} kg -->
-  <MassUsageString>{0} / {1} kg</MassUsageString>
-
+  <!-- EN: Some pod launchers are under a roof. -->
+  <CommandLaunchGroupFailUnderRoof>Bazı kapsül fırlatıcıları bir çatı altında.</CommandLaunchGroupFailUnderRoof>
+  
   <!-- Load transporter -->
   <!-- EN: Load launch group of {0} -->
   <CommandLoadTransporter>{0} fırlatma grubunu yükle</CommandLoadTransporter>
@@ -740,29 +665,5 @@
   <!-- Limited use count action -->
   <!-- EN: No uses left. -->
   <CommandNoUsesLeft>Kalan kullanım yok.</CommandNoUsesLeft>
-
-  <!-- Map Portal -->
-  <!-- EN: View {0} -->
-  <CommandViewPocketMapLabel>Görüntüle: {0}</CommandViewPocketMapLabel>
-  <!-- EN: View the connected {0} map. -->
-  <CommandViewPocketMapDesc>İlgili {0} haritasını gör.</CommandViewPocketMapDesc>
-  <!-- EN: View surface -->
-  <CommandViewSurface>Yüzeyi görüntüle</CommandViewSurface>
-  <!-- EN: View the connected surface map. -->
-  <CommandViewSurfaceDesc>İlgili yüzeyin haritasını gör.</CommandViewSurfaceDesc>
-
-  <!-- Auto-build pod -->
-  <!-- EN: Auto build transport pod -->
-  <AutoBuildTransportPod>Taşıma kapsülü oto-inşa</AutoBuildTransportPod>
-  <!-- EN: If on, your colonists will automatically build a new transport pod when possible. -->
-  <AutoBuildTransportPodDesc>Açıkken, kolonicilerin mümkün olduğu takdirde otomatik olarak yeni taşıma kapsülleri inşa eder.</AutoBuildTransportPodDesc>
-  
-  <!-- Hacking gizmo -->
-  <!-- EN: Hack... -->
-  <HackGizmo>Hackle...</HackGizmo>
-  <!-- EN: Cannot hack -->
-  <CannotChooseHacker>Hackleyemiyor</CannotChooseHacker>
-  <!-- EN: Choose hacker -->
-  <CommandChooseHacker>Hacker seç</CommandChooseHacker>
   
 </LanguageData>
