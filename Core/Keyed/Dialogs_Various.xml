@@ -23,7 +23,7 @@
   <Disable>Devre dışı bırak</Disable>
   <!-- EN: Modify -->
   <Modify>Değiştir</Modify>
-  <!-- EN: Settle here anyways? -->
+  <!-- EN: Settle here anyway? -->
   <ConfirmSettle>Yine de buraya yerleşecek misin?</ConfirmSettle>
   <!-- EN: add -->
   <Add>Ekle</Add>
@@ -249,8 +249,8 @@
   <SelectedCharactersMustInclude>Tam olarak {SUMMARY} içermeli</SelectedCharactersMustInclude>
 
   <!-- Advanced game start options -->
-  <!-- EN: Warning: You will be landing in a frozen environment. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different site or season. -->
-  <MapTemperatureDangerWarning>Uyarı: Donmuş bir ortama ineceksin. Hayatta kalmak neredeyse imkânsız. Aşırı zorluklarla karşılaşmak istemiyorsan farklı bir yer veya mevsim seç.</MapTemperatureDangerWarning>
+  <!-- EN: Warning: You will be landing in winter. It may be hard or nearly impossible to survive. If you are not intending to face an extreme challenge, choose a different season. -->
+  <MapWinterWarning>Uyarı: Gezegene kışın ineceksin. Hayatta kalmak zor hatta neredeyse imkânsız olabilir. Epey zorlu bir meydan okuma aramıyorsan, farklı bir mevsim seç.</MapWinterWarning>
   <!-- EN: The game is designed to play on medium map sizes. These sizes provide plenty of space!\n\nLarge map sizes don't just degrade performance - they actually break the game design. The AI will make stupid decisions, and game balance will be badly affected in various ways. These sizes are included for tradition and testing reasons only, please do not use them without a specific reason. -->
   <MapSizePerformanceWarning>Bu oyun orta boyutlardaki haritalarda oynanmak için tasarlanmıştır. Bu boyut bol miktarda alan sağlar!\n\nBüyük harita performansı düşürmekle kalmaz, aynı zamanda oyun tasarımını da bozar. Yapay zekâ aptalca kararlar verecek ve oyun dengesi çeşitli şekillerde kötü etkilenecek. Bu boyutlar sadece gelenek ve test nedeniyle dâhil edilmiştir. Lütfen belirli bir nedenin olmadan kullanma.</MapSizePerformanceWarning>
   <!-- EN: Map size -->
@@ -699,7 +699,9 @@
   <!-- EN: Return to trade mode. -->
   <TradeModeTip>Ticaret ekranına dön.</TradeModeTip>
   <!-- EN: {FACTION_name} is not willing to send a caravan because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
-  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} kervan göndermeye istekli değil çünkü {NEGOTIATOR_nameDef}, {TITLE} ünvanına sahip değil.</TradeCaravanRequestDeniedDueTitle>
+  <TradeCaravanRequestDeniedDueTitle>{FACTION_name} kervan göndermeye niyetli değil çünkü {NEGOTIATOR_nameDef}, {TITLE} ünvanına sahip değil.</TradeCaravanRequestDeniedDueTitle>
+  <!-- EN: {FACTION_name} is not willing to send an orbital trader because {NEGOTIATOR_nameDef} lacks the required title of {TITLE}. -->
+  <OrbitalTradeRequestDeniedDueTitle>{FACTION_name} yörüngesel tüccar göndermeye niyetli değil çünkü {NEGOTIATOR_nameDef}, {TITLE} ünvanına sahip değil.</OrbitalTradeRequestDeniedDueTitle>
 
   <!-- Sellable items -->
   <!-- EN: Things this trader will buy -->
@@ -728,6 +730,10 @@
   <Send>Gönder</Send>
   <!-- EN: Number available to send with the caravan. -->
   <FormCaravanColonyThingCountTip>Kervanla gönderilebilecek sayı.</FormCaravanColonyThingCountTip>
+  <!-- EN: Number available to transport. -->
+  <TransporterColonyThingCountTip>Taşınabilecek sayı.</TransporterColonyThingCountTip> <!-- text_todo -->
+  <!-- EN: Number available to transfer. -->
+  <TransferMapPortalColonyThingCountTip>Nakledilebilecek sayı.</TransferMapPortalColonyThingCountTip> <!-- text_todo -->
   <!-- EN: People and animals -->
   <PawnsTab>İnsanlar ve hayvanlar</PawnsTab>
   <!-- EN: Items -->
@@ -948,6 +954,8 @@
   <DuplicatePolicyTip>Seçili politikanın bir kopyasını oluştur.</DuplicatePolicyTip>
   <!-- EN: Rename this policy. -->
   <RenamePolicyTip>Bu politikayı yeniden adlandır.</RenamePolicyTip>
+  <!-- EN: Make this policy the default policy given to new colonists. -->
+  <DefaultPolicyTip>Bu politikayı yeni kolonistlere atanacak varsayılan politika yap.</DefaultPolicyTip>
   <!-- EN: Are you sure you want to delete the policy: {0}? -->
   <DeletePolicyConfirm>Bu politikayı silmek istediğinden emin misin: {0}?</DeletePolicyConfirm>
   <!-- EN: Delete -->
@@ -1059,6 +1067,8 @@
   <SchematicPolicy>Şematikler</SchematicPolicy>
   <!-- EN: Novels -->
   <NovelPolicy>Romanlar</NovelPolicy>
+  <!-- EN: Maps -->
+  <MapPolicy>Haritalar</MapPolicy>
 
   <!-- Medical settings -->
   <!-- EN: Default medicine settings -->
@@ -1138,8 +1148,10 @@
   <ConfirmBanishPawnDialog_IndividualThoughts>{1_labelShort} kovulursa şu kişiler şu düşüncelere kapılacak:</ConfirmBanishPawnDialog_IndividualThoughts>
 
   <!-- Send transport pods which are not completely loaded -->
-  <!-- EN: Pod group isn't completely loaded. {1_labelShort} is missing. Launch anyway? -->
-  <ConfirmSendNotCompletelyLoadedPods>Kapsül grubu tamamen yüklenmedi. {1_labelShort} eksik. Yine de fırlatılsın mı?</ConfirmSendNotCompletelyLoadedPods>
+  <!-- EN: The following still need to be loaded -->
+  <ConfirmSendNotCompletelyLoadedLaunchable>Aşağıdakiler hâlâ yüklenmeyi bekliyor</ConfirmSendNotCompletelyLoadedLaunchable>
+  <!-- EN: Launch anyway? -->
+  <ConfirmSendLaunchAnyway>Yine de fırlatılsın mı?</ConfirmSendLaunchAnyway>
 
   <!-- Settle near a faction base -->
   <!-- EN: Since this location is within {0} tiles of another faction base, they will feel you are encroaching on their land and relations with those factions will worsen every {1} days. -->
@@ -1413,6 +1425,10 @@
   <SearchTheMap>Mevcut haritada ara.</SearchTheMap>
   <!-- EN: Search the current map for items, buildings, people, animals, plants, and more. -->
   <SearchTheMapDesc>Mevcut haritada öğeler, yapılar, insanlar, hayvanlar, bitkiler ve daha fazlasını ara.</SearchTheMapDesc>
+  <!-- EN: Search the world -->
+  <SearchTheWorld>Dünyayı ara</SearchTheWorld>
+  <!-- EN: Search the world for specific features, landmarks, quests, or settlements. -->
+  <SearchTheWorldDesc>Dünya üzerinde belirli özellikleri, işaretleri, görevleri veya yerleşimleri ara.</SearchTheWorldDesc>
   <!-- EN: {0} results found -->
   <MapSearchResults>{0} sonuç bulundu</MapSearchResults>
   <!-- EN: 1 result found -->

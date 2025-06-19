@@ -295,6 +295,8 @@
   <LetterLabelFactionBaseDefeated>Üs yok edildi</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
   <LetterFactionBaseDefeated>Düşman yerleşimi {0} yok edildi.\n\nKervanın {1} içinde düşman saldırısına uğrayacak. Yeniden kurulup yola koyulmadığı sürece kervanana saldırmaları için askerî güçler yollamaya başlayacaklar.</LetterFactionBaseDefeated>
+  <!-- EN: The enemy settlement {0} has been destroyed. -->
+  <LetterFactionBaseDefeatedNoRaids>Düşman yerleşimi {0} yok edildi.</LetterFactionBaseDefeatedNoRaids>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
   <LetterFactionBaseDefeated_FactionDestroyed>Bu onların son yerleşimiydi, {0} fraksiyonu tamamen mağlup edildi.</LetterFactionBaseDefeated_FactionDestroyed>
 
@@ -413,8 +415,10 @@
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
   <LetterLabelRescueQuestFinished>Kurtarılan kişi katıldı</LetterLabelRescueQuestFinished>
-  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
+  <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group. -->
   <LetterRescueQuestFinished>{PAWN_nameDef} adlı kişiyi kurtardın ve o grubuna katıldı.\n\nDünya ekranından bu bölgeyi seçtikten sonra "Kervanı yenile" seçeneğine tıklayarak onu yanına alıp kervanı yeniden yola koyabilirsin.</LetterRescueQuestFinished>
+  <!-- EN: \n\nYou can now take {PAWN_objective} with you. To do so, open the World screen, select this site and choose the "Reform caravan" command. -->
+  <LetterRescueQuestFinishedCaravanExtra>\n\nŞimdi onu yanına alabilirsin. Bunu yapmak için Dünya ekranını aç, bu bölgeyi seç ve "Kervanı yenile" komutuna tıkla.</LetterRescueQuestFinishedCaravanExtra>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
@@ -431,16 +435,28 @@
   <LetterTraitDisease>{PAWN_label}, {1} hastalığına yakalandı.\n\nTıbbi yatağın ve doktorun olup olmadığını kontrol et. Tıbbi yatağın ve doktorun olduğundan emin ol. Onun düzgün tedavi edildiğinden ve yatakta mümkün olduğunca fazla zaman geçirdiğinden emin ol.</LetterTraitDisease>
 
   <!-- Quests -->
-  <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>Yeni bir görev mevcut hâle geldi. Görevin adı '{0}'.</LetterQuestBecameAvailable>
-  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>{0} içinde görevi kabul etmezsen süresi dolacak.</LetterQuestRequiresAcceptance>
-  <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>Yeni bir görev etkin hâle geldi. Görevin adı '{0}'.</LetterQuestBecameActive>
+  <!-- EN: Quest available: {0} -->
+  <LetterLabelQuestAvailableTitle>Görev mevcut: {0}</LetterLabelQuestAvailableTitle>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>Görev etkin: {0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterLabelQuestAutomaticallyAcceptedTitle>Görev etkin: {0}</LetterLabelQuestAutomaticallyAcceptedTitle>
+  <!-- EN: {DISCOVEREDFROM} a new quest. -->
+  <LetterNewQuest>{DISCOVEREDFROM} yeni bir görev keşfetti.</LetterNewQuest> <!-- text_todo -->
+  <!-- EN: A new quest is available. -->
+  <LetterNewQuestFromUnknown>Yeni bir görev mevcut.</LetterNewQuestFromUnknown>
+  <!-- EN: The quest is called '{0}'. -->
+  <LetterQuestIsNamed>Görevin adı '{0}'.</LetterQuestIsNamed>
   <!-- EN: It will expire in {0}. -->
   <LetterQuestActiveNowTime>{0} içinde süresi dolacak.</LetterQuestActiveNowTime>
+  <!-- EN: If you don't accept the quest within {0}, it will expire. -->
+  <LetterQuestRequiresAcceptance>{0} içinde görevi kabul etmezsen süresi dolacak.</LetterQuestRequiresAcceptance>
+  <!-- EN: While reading {BOOK_labelNoParenthesis}, {READER_nameDef} discovered -->
+  <QuestDiscoveredFromBook>{READER_nameDef}, {BOOK_labelNoParenthesis} okurken</QuestDiscoveredFromBook>
+  <!-- EN: While talking with the trader {TRADER_nameDef}, {NEGOTIATOR_nameDef} learned of -->
+  <QuestDiscoveredFromTrader>{NEGOTIATOR_nameDef}, tüccar {TRADER_nameDef} ile konuşurken</QuestDiscoveredFromTrader>
+  <!-- EN: To show {RECEIVER_possessive} gratitude for your charity, the beggar {RECEIVER_nameDef} shared a secret with {GIVER_nameDef}.\n\nYou have learned of -->
+  <QuestDiscoveredFromBeggar>Dilenci {RECEIVER_nameDef}, yardımına olan minnetini göstermek için {GIVER_nameDef} ile bir sır paylaştı.\n\n{GIVER_nameDef}</QuestDiscoveredFromBeggar> <!-- text_todo -->
+  <!-- EN: You have discovered -->
+  <QuestDiscoveredFromDebug>Kolonicilerin</QuestDiscoveredFromDebug>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->

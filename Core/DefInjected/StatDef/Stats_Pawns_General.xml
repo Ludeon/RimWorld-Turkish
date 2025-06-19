@@ -51,6 +51,13 @@
   <!-- EN: How much filth this creature produces.\n\nIt's best to keep filth-producing animals outdoors or on straw matting where their filth won't be a problem. -->
   <FilthRate.description>Bu canlının ne kadar pislik ürettiği.\n\nPisleten hayvanları dışarıda veya pisliklerinin sorun olmayacağı hasırlarda tutmak en iyisidir.</FilthRate.description>
   
+  <!-- EN: flight cooldown -->
+  <FlightCooldown.label>uçuş bekleme süresi</FlightCooldown.label>
+  <!-- EN: The rest time needed before this creature can fly again. -->
+  <FlightCooldown.description>Bu canlının yeniden uçabilmesi için gereken dinlenme süresi.</FlightCooldown.description>
+  <!-- EN: {0}s -->
+  <FlightCooldown.formatString>{0}s</FlightCooldown.formatString>
+  
   <!-- EN: foraged food amount -->
   <ForagedNutritionPerDay.label>toplanan yiyecek miktarı</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
@@ -85,6 +92,13 @@
   <LifespanFactor.label>ömür faktörü</LifespanFactor.label>
   <!-- EN: Lifespan factor alters the effective lifespan of a creature by shortening or lengthening the time until they develop age-related diseases. A lifespan factor over 100% delays disease onset and increases overall lifespan, while a lifespan factor under 100% speeds up disease onset and reduces lifespan. -->
   <LifespanFactor.description>Ömür faktörü, bir canlı yaşlanmaya bağlı hastalıklar geliştirene kadar geçen süreyi kısaltarak veya uzatarak etkin ömrü değiştirir. %100'ün üzerindeki bir yaşam süresi faktörü, hastalığın başlangıcını geciktirir ve genel yaşam süresini artırırken, %100'ün altındaki bir yaşam süresi faktörü, hastalığın başlangıcını hızlandırır ve yaşam süresini kısaltır.</LifespanFactor.description>
+  
+  <!-- EN: max flight time -->
+  <MaxFlightTime.label>maks. uçuş süresi</MaxFlightTime.label>
+  <!-- EN: The maximum amount of time this creature can stay in flight before landing. -->
+  <MaxFlightTime.description>Bu canlının yere inmeden önce havada geçirebileceği maksimum zaman.</MaxFlightTime.description>
+  <!-- EN: {0}s -->
+  <MaxFlightTime.formatString>{0}s</MaxFlightTime.formatString>
   
   <!-- EN: max nutrition -->
   <MaxNutrition.label>maks. beslenme</MaxNutrition.label>
@@ -163,5 +177,10 @@
   <ToxicResistance.label>toksik direnç</ToxicResistance.label>
   <!-- EN: How well this creature resists toxic buildup. -->
   <ToxicResistance.description>Bu yaratık toksik birikime ne kadar iyi direniyor.</ToxicResistance.description>
+  
+  <!-- EN: wildness -->
+  <Wildness.label>vahşilik</Wildness.label>
+  <!-- EN: Wilder creatures are naturally more difficult to tame, train, and handle. -->
+  <Wildness.description>Daha vahşi canlıları evcilleştirmek, eğitmek ve onlarla ilgilenmek doğaları gereği daha zordur.</Wildness.description>
   
 </LanguageData>
