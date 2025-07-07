@@ -2,14 +2,18 @@
 <LanguageData>
   
   <!-- EN:
-    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\n\nIf you want to make the trade, send a caravan with the requested items.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> The estimated travel time is [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->Yakındaki bir yerleşim yeri olan [settlement_label], özel bir ticari talebe sahip. Satın almak istedikleri:\n\n [requestedThingCount] adet [qualityInfo] [requestedThing_label]([requestedThingMarketValue_money] ederinde)\n\nBu ticareti yapmak istiyorsan, talep edilen öğeleri bir kervanla gönder. Tahmini seyahat süresi [estimatedTravelTime_duration].</li>
+    <li>questDescription->Yakındaki bir yerleşim yeri olan [settlement_label], özel bir ticari talepte bulunuyor. Satın almak istedikleri:\n\n  [requestedThingCount] adet [qualityInfo] [requestedThing_label]([requestedThingMarketValue_money] ederinde)\n\nBu ticareti yapmak istiyorsan, talep edilen öğeleri bir kervanla gönder.[travelTime]</li>
     <li>qualityInfo(requestedThingHasQuality==True,priority=1)->normal kalitede veya daha iyi</li>
     <li>qualityInfo-></li>
+    <li>travelTime(canCaravan==True,priority=1)-> Tahmini seyahat süresi [estimatedTravelTime_duration].</li>
+    <li>travelTime-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName->Caravan to [settlement_label]</li>
