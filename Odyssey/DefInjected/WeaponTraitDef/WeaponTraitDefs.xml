@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: aim assistance -->
+  <AimAssistance.label>nişan yardımı</AimAssistance.label>
+  <!-- EN: This weapon contains a rudimentary aim assistant computer which helps track targets, increasing accuracy at all ranges. The device can account for environmental challenges, allowing the weapon to ignore the accuracy penalty from bad weather and smoke. -->
+  <AimAssistance.description>Bu silah, hedefleri takip etmeye yardımcı olan ve tüm menzillerde isabet oranını artıran basit bir nişan yardımı bilgisayarı içerir. Cihaz, çevresel koşulları hesaba katabilir ve silahın kötü hava ve duman nedeniyle oluşan isabet cezasını görmezden gelmesini sağlar.</AimAssistance.description>
+  <!-- EN: seeking -->
+  <AimAssistance.traitAdjectives.0>arayış</AimAssistance.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <AimAssistance.traitAdjectives.1>isabetli</AimAssistance.traitAdjectives.1>
+  <!-- EN: precise -->
+  <AimAssistance.traitAdjectives.2>hassas</AimAssistance.traitAdjectives.2>
+  <!-- EN: auto-aim -->
+  <AimAssistance.traitAdjectives.3>otomatik nişan</AimAssistance.traitAdjectives.3>
+  <!-- EN: self-aim -->
+  <AimAssistance.traitAdjectives.4>kendin nişan al</AimAssistance.traitAdjectives.4>
+  
+  <!-- EN: bioferrite burner -->
+  <BioferriteBurner.label>biyoferrit yakıcı</BioferriteBurner.label>
+  <!-- EN: This weapon has a bioferrite-powered flamethrower unit. The burner generates a blast of flame from a pressurized bioferrite charge. Once used, it must be reloaded using bioferrite. -->
+  <BioferriteBurner.description>Bu silah, biyoferrit ile çalışan bir alev makinesi ünitesine sahiptir. Yakıcı, basınçlı bir biyoferrit yükünden bir alev patlaması üretir. Bir kez kullanıldığında yeniden doldurulması için biyoferrit gerekir.</BioferriteBurner.description>
+  <!-- EN: burner charge -->
+  <BioferriteBurner.abilityProps.chargeNoun>yakıcı yükü</BioferriteBurner.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <BioferriteBurner.abilityProps.cooldownGerund>bekleme süresinde</BioferriteBurner.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <BioferriteBurner.traitAdjectives.0>ateşli</BioferriteBurner.traitAdjectives.0>
+  <!-- EN: flame -->
+  <BioferriteBurner.traitAdjectives.1>alev</BioferriteBurner.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <BioferriteBurner.traitAdjectives.2>yanan</BioferriteBurner.traitAdjectives.2>
+  <!-- EN: burning -->
+  <BioferriteBurner.traitAdjectives.3>yanıcı</BioferriteBurner.traitAdjectives.3>
+  
+  <!-- EN: birdshot pellets -->
+  <BirdshotPellets.label>saçma fişeği</BirdshotPellets.label>
+  <!-- EN: This weapon fires shells containing smaller pellets than normal. It's much more accurate at close range, but less effective at long range. -->
+  <BirdshotPellets.description>Bu silah, normalden daha küçük saçmalar içeren fişekler ateşler. Yakın menzilde daha isabetli ancak uzak mesafede daha az etkilidir.</BirdshotPellets.description>
+  <!-- EN: birdshot -->
+  <BirdshotPellets.traitAdjectives.0>saçma</BirdshotPellets.traitAdjectives.0>
+  <!-- EN: nearshot -->
+  <BirdshotPellets.traitAdjectives.1>yakın atış</BirdshotPellets.traitAdjectives.1>
+  
+  <!-- EN: broadhead arrows -->
+  <BroadheadArrows.label>geniş ağızlı oklar</BroadheadArrows.label>
+  <!-- EN: This bow shoots arrows tipped with sharp blades, increasing its damage. -->
+  <BroadheadArrows.description>Bu yay, ucu keskin bıçaklarla donatılmış oklar fırlatır ve verdiği hasarı artırır.</BroadheadArrows.description>
+  <!-- EN: strong -->
+  <BroadheadArrows.traitAdjectives.0>güçlü</BroadheadArrows.traitAdjectives.0>
+  <!-- EN: broadhead -->
+  <BroadheadArrows.traitAdjectives.1>geniş ağızlı</BroadheadArrows.traitAdjectives.1>
+  
+  <!-- EN: charge capacitor -->
+  <ChargeCapacitor.label>yük kapasitörü</ChargeCapacitor.label>
+  <!-- EN: This weapon amplifies pulse-charge technology with a massive capacitor, increasing damage and armor penetration. -->
+  <ChargeCapacitor.description>Bu silah, darbeli yük teknolojisini büyük bir kapasitörle güçlendirir; hasarı ve zırh delme gücünü artırır.</ChargeCapacitor.description>
+  <!-- EN: overcharged -->
+  <ChargeCapacitor.traitAdjectives.0>aşırı yüklü</ChargeCapacitor.traitAdjectives.0>
+  
+  <!-- EN: cumbersome -->
+  <Cumbersome.label>hantal</Cumbersome.label>
+  <!-- EN: This weapon is unwieldy to use, making it slower to aim. -->
+  <Cumbersome.description>Bu silahı taşıması zordur, nişan alma sürecini yavaşlatır.</Cumbersome.description>
+  <!-- EN: cumbersome -->
+  <Cumbersome.traitAdjectives.0>hantal</Cumbersome.traitAdjectives.0>
+  <!-- EN: bulky -->
+  <Cumbersome.traitAdjectives.1>iri</Cumbersome.traitAdjectives.1>
+  <!-- EN: awkward -->
+  <Cumbersome.traitAdjectives.2>koca</Cumbersome.traitAdjectives.2>
+  
+  <!-- EN: custom grip -->
+  <CustomGrip.label>özel kabza</CustomGrip.label>
+  <!-- EN: This weapon contains a customized grip that handles recoil better, improving accuracy at short range. It looks cool too. -->
+  <CustomGrip.description>Bu silah, geri tepmeyi daha iyi kontrol eden özelleştirilmiş bir kabzaya sahiptir ve kısa menzilde isabeti artırır. Ayrıca oldukça havalı görünür.</CustomGrip.description>
+  <!-- EN: custom -->
+  <CustomGrip.traitAdjectives.0>özel</CustomGrip.traitAdjectives.0>
+  <!-- EN: customized -->
+  <CustomGrip.traitAdjectives.1>özelleştirilmiş</CustomGrip.traitAdjectives.1>
+  <!-- EN: gripped -->
+  <CustomGrip.traitAdjectives.2>kabzalı</CustomGrip.traitAdjectives.2>
+  <!-- EN: hi-grip -->
+  <CustomGrip.traitAdjectives.3>yüksek kavrayışlı</CustomGrip.traitAdjectives.3>
+  
+  <!-- EN: EMP cannon -->
+  <EMPLauncher.label>EMP topu</EMPLauncher.label>
+  <!-- EN: This weapon has an attached EMP shell launcher. The shell emits a burst of electromagnetic energy that stuns electronic targets like turrets and mechanoids. Once fired, it must be reloaded using steel. -->
+  <EMPLauncher.description>Bu silahın EMP mermisi ateşleyen bir eklentisi vardır. Mermi, taretler ve mekanoitler gibi elektronik hedefleri sersemleten bir EMP darbesi yayar. Ateşlendikten sonra çelikle yeniden doldurulmalıdır.</EMPLauncher.description>
+  <!-- EN: shell -->
+  <EMPLauncher.abilityProps.chargeNoun>mermi</EMPLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <EMPLauncher.abilityProps.cooldownGerund>bekleme süresinde</EMPLauncher.abilityProps.cooldownGerund>
+  <!-- EN: EMP -->
+  <EMPLauncher.traitAdjectives.0>EMP</EMPLauncher.traitAdjectives.0>
+  <!-- EN: disabling -->
+  <EMPLauncher.traitAdjectives.1>engelleyici</EMPLauncher.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <EMPLauncher.traitAdjectives.2>sersemletici</EMPLauncher.traitAdjectives.2>
+  
+  <!-- EN: EMP pulser -->
+  <EMPPulser.label>EMP darbeli cihaz</EMPPulser.label>
+  <!-- EN: This weapon can emit a burst of energy centered on the user. The burst will stun nearby electronic targets like mechanoids or turrets. Once used, the pulser takes some time to recharge. -->
+  <EMPPulser.description>Bu silah, kullanıcı merkezli bir EMP darbesi yayabilir. Bu darbe yakınlardaki mekanoitler veya taretler gibi elektronik hedefleri sersemletir. Kullanıldıktan sonra tekrar yüklenmesi için biraz zamana ihtiyaç duyar.</EMPPulser.description>
+  <!-- EN: charge -->
+  <EMPPulser.abilityProps.chargeNoun>yük</EMPPulser.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <EMPPulser.abilityProps.cooldownGerund>bekleme süresinde</EMPPulser.abilityProps.cooldownGerund>
+  <!-- EN: pulse -->
+  <EMPPulser.traitAdjectives.0>darbe</EMPPulser.traitAdjectives.0>
+  <!-- EN: EMP -->
+  <EMPPulser.traitAdjectives.1>EMP</EMPPulser.traitAdjectives.1>
+  
+  <!-- EN: EMP rounds -->
+  <EMPRounds.label>EMP mermileri</EMPRounds.label>
+  <!-- EN: This weapon fires rounds with embedded EMP capacitors, which will temporarily disable electronics and mechanoids. -->
+  <EMPRounds.description>Bu silah, içlerinde EMP kapasitörleri bulunan mermiler ateşler. Bu mermiler elektronik cihazları ve mekanoitleri geçici olarak devre dışı bırakır.</EMPRounds.description>
+  <!-- EN: EMP -->
+  <EMPRounds.traitAdjectives.0>EMP</EMPRounds.traitAdjectives.0>
+  <!-- EN: electric -->
+  <EMPRounds.traitAdjectives.1>elektrikli</EMPRounds.traitAdjectives.1>
+  <!-- EN: shocking -->
+  <EMPRounds.traitAdjectives.2>şoklayan</EMPRounds.traitAdjectives.2>
+  <!-- EN: sparky -->
+  <EMPRounds.traitAdjectives.3>kıvılcımlı</EMPRounds.traitAdjectives.3>
+  <!-- EN: zapping -->
+  <EMPRounds.traitAdjectives.4>çarpan</EMPRounds.traitAdjectives.4>
+  
+  <!-- EN: extended barrel -->
+  <ExtendedBarrel.label>uzatılmış namlu</ExtendedBarrel.label>
+  <!-- EN: This weapon has a longer range than normal. -->
+  <ExtendedBarrel.description>Bu silah, normalden daha uzun bir menzile sahiptir.</ExtendedBarrel.description>
+  <!-- EN: long -->
+  <ExtendedBarrel.traitAdjectives.0>uzun</ExtendedBarrel.traitAdjectives.0>
+  <!-- EN: extended -->
+  <ExtendedBarrel.traitAdjectives.1>uzatılmış</ExtendedBarrel.traitAdjectives.1>
+  
+  <!-- EN: extended magazine -->
+  <ExtendedMagazine.label>uzatılmış şarjör</ExtendedMagazine.label>
+  <!-- EN: This weapon fires 50% more shots in a single burst than normal. -->
+  <ExtendedMagazine.description>Bu silah, tek seferde normalden %50 daha fazla atış yapar.</ExtendedMagazine.description>
+  <!-- EN: high-capacity -->
+  <ExtendedMagazine.traitAdjectives.0>yüksek kapasiteli</ExtendedMagazine.traitAdjectives.0>
+  <!-- EN: extendo-clip -->
+  <ExtendedMagazine.traitAdjectives.1>uzatmalı şarjör</ExtendedMagazine.traitAdjectives.1>
+  
+  <!-- EN: frequency amplifier -->
+  <FrequencyAmplifier.label>frekans yükseltici</FrequencyAmplifier.label>
+  <!-- EN: This weapon passes the beam through a crystal amplifier, dramatically increasing the weapon's damage and range. The weapon needs to cool down between uses. -->
+  <FrequencyAmplifier.description>Bu silah, ışınını kristal bir yükselticiden geçirir ve silahın hasarını ve menzilini büyük ölçüde artırır. Kullanımlar arasında silahın soğuması gerekir.</FrequencyAmplifier.description>
+  <!-- EN: amplified -->
+  <FrequencyAmplifier.traitAdjectives.0>yükseltilmiş</FrequencyAmplifier.traitAdjectives.0>
+  
+  <!-- EN: gold inlay -->
+  <GoldInlay.label>altın kakma</GoldInlay.label>
+  <!-- EN: This weapon is inlaid with gold. Traders will pay more for it. -->
+  <GoldInlay.description>Bu silah, altın ile süslenmiştir. Tüccarlar buna daha fazla para öder.</GoldInlay.description>
+  <!-- EN: gold -->
+  <GoldInlay.traitAdjectives.0>altın</GoldInlay.traitAdjectives.0>
+  <!-- EN: golden -->
+  <GoldInlay.traitAdjectives.1>altın rengi</GoldInlay.traitAdjectives.1>
+  
+  <!-- EN: grenade launcher -->
+  <GrenadeLauncher.label>el bombası fırlatıcı</GrenadeLauncher.label>
+  <!-- EN: This weapon has an attached frag grenade launcher. Once fired, it must be reloaded using steel. -->
+  <GrenadeLauncher.description>Bu silahın parça tesirli el bombası ateşleyen bir eklentisi vardır. Ateşlendikten sonra çelikle yeniden doldurulmalıdır.</GrenadeLauncher.description>
+  <!-- EN: grenade -->
+  <GrenadeLauncher.abilityProps.chargeNoun>el bombası</GrenadeLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <GrenadeLauncher.abilityProps.cooldownGerund>bekleme süresinde</GrenadeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: explosive -->
+  <GrenadeLauncher.traitAdjectives.0>patlayıcı</GrenadeLauncher.traitAdjectives.0>
+  
+  <!-- EN: high-power rounds -->
+  <HighPowerRounds.label>yüksek güçlü mermiler</HighPowerRounds.label>
+  <!-- EN: Special ammunition makes this weapon more powerful than normal. The heavy recoil makes it less accurate. -->
+  <HighPowerRounds.description>Özel mühimmat, bu silahı normalden daha güçlü kılar. Ancak ağır geri tepme nedeniyle isabet oranı düşer.</HighPowerRounds.description>
+  <!-- EN: atlas -->
+  <HighPowerRounds.traitAdjectives.0>atlas</HighPowerRounds.traitAdjectives.0>
+  <!-- EN: hi-power -->
+  <HighPowerRounds.traitAdjectives.1>yüksek güçlü</HighPowerRounds.traitAdjectives.1>
+  <!-- EN: heavy-shot -->
+  <HighPowerRounds.traitAdjectives.2>ağır atış</HighPowerRounds.traitAdjectives.2>
+  <!-- EN: hardpunch -->
+  <HighPowerRounds.traitAdjectives.3>sert vuruş</HighPowerRounds.traitAdjectives.3>
+  <!-- EN: heavy-hit -->
+  <HighPowerRounds.traitAdjectives.4>ağır darbe</HighPowerRounds.traitAdjectives.4>
+  
+  <!-- EN: hollow-point rounds -->
+  <HollowPointRounds.label>oyuk uçlu mermi çekirdekleri</HollowPointRounds.label>
+  <!-- EN: This weapon fires bullets that expand on impact, dealing more damage than normal. -->
+  <HollowPointRounds.description>Bu silah, çarpınca genişleyen ve normalden daha fazla hasar veren mermiler ateşler.</HollowPointRounds.description>
+  <!-- EN: shredding -->
+  <HollowPointRounds.traitAdjectives.0>parçalayan</HollowPointRounds.traitAdjectives.0>
+  <!-- EN: hollowpoint -->
+  <HollowPointRounds.traitAdjectives.1>oyuk uçlu</HollowPointRounds.traitAdjectives.1>
+  <!-- EN: hardpunch -->
+  <HollowPointRounds.traitAdjectives.2>sert vuruş</HollowPointRounds.traitAdjectives.2>
+  <!-- EN: meatrip -->
+  <HollowPointRounds.traitAdjectives.3>et koparan</HollowPointRounds.traitAdjectives.3>
+  <!-- EN: grinder -->
+  <HollowPointRounds.traitAdjectives.4>öğütücü</HollowPointRounds.traitAdjectives.4>
+  
+  <!-- EN: tactical sight -->
+  <ImprovedSights.label>taktiksel nişangâh</ImprovedSights.label>
+  <!-- EN: This weapon has a custom sight, increasing its accuracy at long range. -->
+  <ImprovedSights.description>Bu silah uzun menzilde isabet oranını artıran özel bir nişangâha sahiptir.</ImprovedSights.description>
+  <!-- EN: accurate -->
+  <ImprovedSights.traitAdjectives.0>isabetli</ImprovedSights.traitAdjectives.0>
+  <!-- EN: precise -->
+  <ImprovedSights.traitAdjectives.1>hassas</ImprovedSights.traitAdjectives.1>
+  <!-- EN: sniper -->
+  <ImprovedSights.traitAdjectives.2>keskin nişancı</ImprovedSights.traitAdjectives.2>
+  
+  <!-- EN: incendiary launcher -->
+  <IncendiaryLauncher.label>yakıcı bombaatar</IncendiaryLauncher.label>
+  <!-- EN: This weapon has an attached incendiary shell launcher. The shell creates a small flame explosion that ignites everything nearby. Once fired, it must be reloaded using chemfuel. -->
+  <IncendiaryLauncher.description>Bu silahın, yanıcı mermiler ateşleyen bir eklentiye vardır. Mermi, etraftaki her şeyi tutuşturan küçük bir alev patlaması yaratır. Ateşlendikten sonra kimyakıtla yeniden doldurulmalıdır.</IncendiaryLauncher.description>
+  <!-- EN: shell -->
+  <IncendiaryLauncher.abilityProps.chargeNoun>mermi</IncendiaryLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <IncendiaryLauncher.abilityProps.cooldownGerund>bekleme süresinde</IncendiaryLauncher.abilityProps.cooldownGerund>
+  <!-- EN: fiery -->
+  <IncendiaryLauncher.traitAdjectives.0>ateşli</IncendiaryLauncher.traitAdjectives.0>
+  <!-- EN: flame -->
+  <IncendiaryLauncher.traitAdjectives.1>alev</IncendiaryLauncher.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryLauncher.traitAdjectives.2>yanan</IncendiaryLauncher.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryLauncher.traitAdjectives.3>yanıcı</IncendiaryLauncher.traitAdjectives.3>
+  
+  <!-- EN: incendiary pellets -->
+  <IncendiaryPellets.label>yakıcı saçmalar</IncendiaryPellets.label>
+  <!-- EN: This weapon fires phosphorus pellets that have a chance to ignite targets. -->
+  <IncendiaryPellets.description>Bu silah, hedefleri tutuşturma ihtimaline sahip fosfordan saçmalar ateşler.</IncendiaryPellets.description>
+  <!-- EN: red -->
+  <IncendiaryPellets.traitAdjectives.0>kırmızı</IncendiaryPellets.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryPellets.traitAdjectives.1>ateşli</IncendiaryPellets.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryPellets.traitAdjectives.2>yanan</IncendiaryPellets.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryPellets.traitAdjectives.3>yanıcı</IncendiaryPellets.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryPellets.traitAdjectives.4>sıcak</IncendiaryPellets.traitAdjectives.4>
+  <!-- EN: volcanic -->
+  <IncendiaryPellets.traitAdjectives.5>volkanik</IncendiaryPellets.traitAdjectives.5>
+  <!-- EN: promethean -->
+  <IncendiaryPellets.traitAdjectives.6>prometheusvari</IncendiaryPellets.traitAdjectives.6>
+  
+  <!-- EN: incendiary rounds -->
+  <IncendiaryRounds.label>yakıcı mermiler</IncendiaryRounds.label>
+  <!-- EN: This weapon fires ammunition that contains a flammable chemical. It has a chance to ignite targets. -->
+  <IncendiaryRounds.description>Bu silah, yanıcı bir kimyasal içeren mühimmat ateşler. Hedefleri tutuşturma ihtimali vardır.</IncendiaryRounds.description>
+  <!-- EN: red -->
+  <IncendiaryRounds.traitAdjectives.0>kırmızı</IncendiaryRounds.traitAdjectives.0>
+  <!-- EN: fiery -->
+  <IncendiaryRounds.traitAdjectives.1>ateşli</IncendiaryRounds.traitAdjectives.1>
+  <!-- EN: flaming -->
+  <IncendiaryRounds.traitAdjectives.2>yanan</IncendiaryRounds.traitAdjectives.2>
+  <!-- EN: burning -->
+  <IncendiaryRounds.traitAdjectives.3>yanıcı</IncendiaryRounds.traitAdjectives.3>
+  <!-- EN: hot -->
+  <IncendiaryRounds.traitAdjectives.4>sıcak</IncendiaryRounds.traitAdjectives.4>
+  <!-- EN: igniting -->
+  <IncendiaryRounds.traitAdjectives.5>tutuşturan</IncendiaryRounds.traitAdjectives.5>
+  <!-- EN: napalm -->
+  <IncendiaryRounds.traitAdjectives.6>napalm</IncendiaryRounds.traitAdjectives.6>
+  
+  <!-- EN: jade inlay -->
+  <JadeInlay.label>yeşim kakma</JadeInlay.label>
+  <!-- EN: This weapon is adorned with jade. Traders will pay more for it. -->
+  <JadeInlay.description>Bu silah, yeşim taşı ile süslenmiştir. Tüccarlar buna daha fazla para öder.</JadeInlay.description>
+  <!-- EN: jade -->
+  <JadeInlay.traitAdjectives.0>yeşim</JadeInlay.traitAdjectives.0>
+  
+  <!-- EN: lightweight -->
+  <Lightweight.label>hafif</Lightweight.label>
+  <!-- EN: This weapon is much lighter than normal, lowering its aiming time. -->
+  <Lightweight.description>Bu silah, normalden çok daha hafif olduğu için nişan alma süresini kısaltır.</Lightweight.description>
+  <!-- EN: light -->
+  <Lightweight.traitAdjectives.0>hafif</Lightweight.traitAdjectives.0>
+  <!-- EN: quickdraw -->
+  <Lightweight.traitAdjectives.1>hızlı çekim</Lightweight.traitAdjectives.1>
+  
+  <!-- EN: lightweight arrows -->
+  <LightweightArrows.label>hafif oklar</LightweightArrows.label>
+  <!-- EN: This bow is adept at firing lightweight arrows. They fly farther but deal less damage. -->
+  <LightweightArrows.description>Bu yay, hafif oklar atmada ustadır. Bu oklar daha uzağa gider fakat daha az hasar verir.</LightweightArrows.description>
+  <!-- EN: light -->
+  <LightweightArrows.traitAdjectives.0>hafif</LightweightArrows.traitAdjectives.0>
+  <!-- EN: longreach -->
+  <LightweightArrows.traitAdjectives.1>uzun menzilli</LightweightArrows.traitAdjectives.1>
+  
+  <!-- EN: ornamental -->
+  <Ornamental.label>süslemeli</Ornamental.label>
+  <!-- EN: This weapon was crafted for aesthetics over functionality. It deals less damage but looks great. -->
+  <Ornamental.description>Bu silah, işlevsellikten ziyade estetik için yapılmıştır. Daha az hasar verir ama çok güzel görünür.</Ornamental.description>
+  <!-- EN: beautiful -->
+  <Ornamental.traitAdjectives.0>güzel</Ornamental.traitAdjectives.0>
+  <!-- EN: elegant -->
+  <Ornamental.traitAdjectives.1>zarif</Ornamental.traitAdjectives.1>
+  <!-- EN: ornamental -->
+  <Ornamental.traitAdjectives.2>süslemeli</Ornamental.traitAdjectives.2>
+  
+  <!-- EN: heavy rounds -->
+  <OversizedRounds.label>ağır mermiler</OversizedRounds.label>
+  <!-- EN: This weapon deals more damage and has a much higher stopping power than normal. -->
+  <OversizedRounds.description>Bu silah, normalden daha fazla hasara ve çok daha yüksek durdurma gücüne sahiptir.</OversizedRounds.description>
+  <!-- EN: hammering -->
+  <OversizedRounds.traitAdjectives.0>çekiç gibi</OversizedRounds.traitAdjectives.0>
+  <!-- EN: forceful -->
+  <OversizedRounds.traitAdjectives.1>kuvvetli</OversizedRounds.traitAdjectives.1>
+  <!-- EN: oversized -->
+  <OversizedRounds.traitAdjectives.2>devasa</OversizedRounds.traitAdjectives.2>
+  <!-- EN: knockout -->
+  <OversizedRounds.traitAdjectives.3>sarsıcı</OversizedRounds.traitAdjectives.3>
+  
+  <!-- EN: paralytic arrows -->
+  <ParalyticArrows.label>felç eden oklar</ParalyticArrows.label>
+  <!-- EN: This bow shoots arrows embedded with a paralytic biotoxin, which briefly stuns targets. -->
+  <ParalyticArrows.description>Bu yay, hedefleri kısa süreliğine sersemleten felç eden biyotoksin içeren oklar atar.</ParalyticArrows.description>
+  <!-- EN: paralyzing -->
+  <ParalyticArrows.traitAdjectives.0>felç edici</ParalyticArrows.traitAdjectives.0>
+  <!-- EN: paralytic -->
+  <ParalyticArrows.traitAdjectives.1>felç eden</ParalyticArrows.traitAdjectives.1>
+  <!-- EN: stunning -->
+  <ParalyticArrows.traitAdjectives.2>sersemletici</ParalyticArrows.traitAdjectives.2>
+  
+  <!-- EN: piercing arrows -->
+  <PiercingArrows.label>delici oklar</PiercingArrows.label>
+  <!-- EN: This bow shoots bodkin-tipped arrows, making it more effective against armored targets. -->
+  <PiercingArrows.description>Bu yay, bodkin uçlu oklar fırlatır ve zırhlı hedeflere karşı daha etkilidir.</PiercingArrows.description>
+  <!-- EN: piercing -->
+  <PiercingArrows.traitAdjectives.0>delici</PiercingArrows.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingArrows.traitAdjectives.1>keskin</PiercingArrows.traitAdjectives.1>
+  <!-- EN: penetrating -->
+  <PiercingArrows.traitAdjectives.2>nüfuz eden</PiercingArrows.traitAdjectives.2>
+  <!-- EN: bodkin -->
+  <PiercingArrows.traitAdjectives.3>bodkin</PiercingArrows.traitAdjectives.3>
+  <!-- EN: anti-armor -->
+  <PiercingArrows.traitAdjectives.4>zırh delici</PiercingArrows.traitAdjectives.4>
+  
+  <!-- EN: piercing rounds -->
+  <PiercingRounds.label>delici mermiler</PiercingRounds.label>
+  <!-- EN: This weapon fires rounds designed to penetrate thick armor. -->
+  <PiercingRounds.description>Bu silah, kalın zırhları delmek için tasarlanmış mermiler ateşler.</PiercingRounds.description>
+  <!-- EN: piercing -->
+  <PiercingRounds.traitAdjectives.0>delici</PiercingRounds.traitAdjectives.0>
+  <!-- EN: sharp -->
+  <PiercingRounds.traitAdjectives.1>keskin</PiercingRounds.traitAdjectives.1>
+  <!-- EN: sabot -->
+  <PiercingRounds.traitAdjectives.2>sabot</PiercingRounds.traitAdjectives.2>
+  <!-- EN: penetrating -->
+  <PiercingRounds.traitAdjectives.3>nüfuz eden</PiercingRounds.traitAdjectives.3>
+  
+  <!-- EN: tracking scope -->
+  <PrecisionScope.label>takip dürbünü</PrecisionScope.label>
+  <!-- EN: This weapon's scope uses target recognition software to automate target tracking, making it faster to fire. -->
+  <PrecisionScope.description>Bu silahın dürbünü, hedef tanıma yazılımı ile otomatik hedef takibi sağlar ve ateş etme hızını artırır.</PrecisionScope.description>
+  <!-- EN: trackscope -->
+  <PrecisionScope.traitAdjectives.0>takip dürbünlü</PrecisionScope.traitAdjectives.0>
+  <!-- EN: fastfire -->
+  <PrecisionScope.traitAdjectives.1>seri atış</PrecisionScope.traitAdjectives.1>
+  
+  <!-- EN: pulse charger -->
+  <PulseCharger.label>darbe yükleyici</PulseCharger.label>
+  <!-- EN: This weapon is retrofitted with pulse-charge technology, imbuing bullets with unstable energy. The weapon was clearly not designed for this, dramatically lowering its accuracy. -->
+  <PulseCharger.description>Bu silah, darbeli yük teknolojisiyle modifiye edilmiştir ve mermileri dengesiz enerji ile yükler. Silah açıkça bu amaç için tasarlanmadığından isabet oranı büyük ölçüde düşer.</PulseCharger.description>
+  <!-- EN: charged-shot -->
+  <PulseCharger.traitAdjectives.0>yüklü atış</PulseCharger.traitAdjectives.0>
+  <!-- EN: charged -->
+  <PulseCharger.traitAdjectives.1>yüklü</PulseCharger.traitAdjectives.1>
+  <!-- EN: pulse-charged -->
+  <PulseCharger.traitAdjectives.2>darbe yüklü</PulseCharger.traitAdjectives.2>
+  
+  <!-- EN: quick reload -->
+  <QuickReload.label>hızlı doldurma</QuickReload.label>
+  <!-- EN: This weapon has a quick release-and-replace mechanism that makes it faster to reload. -->
+  <QuickReload.description>Bu silah, daha hızlı yeniden doldurulmasını sağlayan hızlı değişim mekanizmasına sahiptir.</QuickReload.description>
+  <!-- EN: quick -->
+  <QuickReload.traitAdjectives.0>hızlı</QuickReload.traitAdjectives.0>
+  <!-- EN: nimble -->
+  <QuickReload.traitAdjectives.1>çevik</QuickReload.traitAdjectives.1>
+  <!-- EN: quickload -->
+  <QuickReload.traitAdjectives.2>hızlı yükleme</QuickReload.traitAdjectives.2>
+  <!-- EN: quickshot -->
+  <QuickReload.traitAdjectives.3>hızlı atış</QuickReload.traitAdjectives.3>
+  <!-- EN: fastload -->
+  <QuickReload.traitAdjectives.4>seri doldurma</QuickReload.traitAdjectives.4>
+  
+  <!-- EN: rangefinder -->
+  <RangefinderScope.label>mesafe ölçerli dürbün</RangefinderScope.label>
+  <!-- EN: This weapon's scope contains an advanced rangefinder, allowing it to fire further. -->
+  <RangefinderScope.description>Bu silahın dürbünü, gelişmiş bir mesafe ölçer içerir ve daha uzağa ateş edilmesini sağlar.</RangefinderScope.description>
+  <!-- EN: eagle -->
+  <RangefinderScope.traitAdjectives.0>kartal</RangefinderScope.traitAdjectives.0>
+  <!-- EN: farsight -->
+  <RangefinderScope.traitAdjectives.1>uzak görüşlü</RangefinderScope.traitAdjectives.1>
+  
+  <!-- EN: rapid fire -->
+  <RapidFire.label>seri atış</RapidFire.label>
+  <!-- EN: This weapon contains an improved self-loading mechanism. When firing bursts of multiple rounds, the time between each round is dramatically reduced. -->
+  <RapidFire.description>Bu silah, geliştirilmiş bir otomatik doldurma mekanizmasına sahiptir. Çoklu mermi patlamalarında, atışlar arasındaki süre önemli ölçüde azalır.</RapidFire.description>
+  <!-- EN: rapid -->
+  <RapidFire.traitAdjectives.0>hızlı</RapidFire.traitAdjectives.0>
+  <!-- EN: burst -->
+  <RapidFire.traitAdjectives.1>patlama</RapidFire.traitAdjectives.1>
+  <!-- EN: rapid-fire -->
+  <RapidFire.traitAdjectives.2>seri atış</RapidFire.traitAdjectives.2>
+  
+  <!-- EN: reinforced bow limbs -->
+  <ReinforcedLimbs.label>güçlendirilmiş yay kolçakları</ReinforcedLimbs.label>
+  <!-- EN: The limbs of this bow have been strengthened, allowing it to shoot further. -->
+  <ReinforcedLimbs.description>Bu yayın kolçakları güçlendirilmiştir ve daha uzağa atış yapmasını sağlar.</ReinforcedLimbs.description>
+  <!-- EN: reinforced -->
+  <ReinforcedLimbs.traitAdjectives.0>güçlendirilmiş</ReinforcedLimbs.traitAdjectives.0>
+  
+  <!-- EN: shoddy sights -->
+  <ShoddySights.label>kalitesiz nişangâh</ShoddySights.label>
+  <!-- EN: Defects in this weapon's sights decrease its accuracy at long ranges. -->
+  <ShoddySights.description>Bu silahın nişangâhındaki kusurlar, uzun menzilde isabet oranını azaltır.</ShoddySights.description>
+  <!-- EN: inaccurate -->
+  <ShoddySights.traitAdjectives.0>isabetsiz</ShoddySights.traitAdjectives.0>
+  <!-- EN: imprecise -->
+  <ShoddySights.traitAdjectives.1>tutarsız</ShoddySights.traitAdjectives.1>
+  
+  <!-- EN: shortened barrel -->
+  <ShortenedBarrel.label>kısaltılmış namlu</ShortenedBarrel.label>
+  <!-- EN: This weapon's barrel has been sawn off, reducing its range but making it quicker to aim and fire. -->
+  <ShortenedBarrel.description>Bu silahın namlusu kesilerek kısaltılmıştır. Menzili azalsa da nişan alma ve ateş etme süresi hızlanır.</ShortenedBarrel.description>
+  <!-- EN: shortened -->
+  <ShortenedBarrel.traitAdjectives.0>kısaltılmış</ShortenedBarrel.traitAdjectives.0>
+  <!-- EN: sawn-off -->
+  <ShortenedBarrel.traitAdjectives.1>kesik namlu</ShortenedBarrel.traitAdjectives.1>
+  
+  <!-- EN: smoke launcher -->
+  <SmokeLauncher.label>duman fırlatıcı</SmokeLauncher.label>
+  <!-- EN: This weapon has an attached smoke shell launcher. The shell releases smoke that obscures incoming shots and prevents turrets from locking on. Once fired, it must be reloaded using steel. -->
+  <SmokeLauncher.description>Bu silahın, duman mermisi ateşleyen bir eklentisi vardır. Mermi, gelen atışları perdeleyen ve taretlerin nişan almasını engelleyen duman yayar. Ateşlendikten sonra çelikle yeniden doldurulmalıdır.</SmokeLauncher.description>
+  <!-- EN: shell -->
+  <SmokeLauncher.abilityProps.chargeNoun>mermi</SmokeLauncher.abilityProps.chargeNoun>
+  <!-- EN: on cooldown -->
+  <SmokeLauncher.abilityProps.cooldownGerund>bekleme süresinde</SmokeLauncher.abilityProps.cooldownGerund>
+  <!-- EN: smoke -->
+  <SmokeLauncher.traitAdjectives.0>dumanlı</SmokeLauncher.traitAdjectives.0>
+  <!-- EN: concealing -->
+  <SmokeLauncher.traitAdjectives.1>gizleyici</SmokeLauncher.traitAdjectives.1>
+  <!-- EN: clouding -->
+  <SmokeLauncher.traitAdjectives.2>bulutlu</SmokeLauncher.traitAdjectives.2>
+  
+  <!-- EN: pistol brace -->
+  <StabilizerBrace.label>tabanca desteği</StabilizerBrace.label>
+  <!-- EN: This weapon has a stabilizing brace that connects to the user's arm, increasing its accuracy. -->
+  <StabilizerBrace.description>Bu silah, kullanıcının koluna bağlanan dengeleyici bir destek içerir ve isabet oranını artırır.</StabilizerBrace.description>
+  <!-- EN: stable -->
+  <StabilizerBrace.traitAdjectives.0>dengeli</StabilizerBrace.traitAdjectives.0>
+  <!-- EN: accurate -->
+  <StabilizerBrace.traitAdjectives.1>isabetli</StabilizerBrace.traitAdjectives.1>
+  <!-- EN: precise -->
+  <StabilizerBrace.traitAdjectives.2>hassas</StabilizerBrace.traitAdjectives.2>
+  <!-- EN: braced -->
+  <StabilizerBrace.traitAdjectives.3>destekli</StabilizerBrace.traitAdjectives.3>
+  
+  <!-- EN: toxic pellets -->
+  <ToxPellets.label>toksik saçmalar</ToxPellets.label>
+  <!-- EN: This weapon fires chemical pellets which cause toxic buildup. -->
+  <ToxPellets.description>Bu silah, toksik birikime neden olan kimyasal saçmalar ateşler.</ToxPellets.description>
+  <!-- EN: green -->
+  <ToxPellets.traitAdjectives.0>yeşil</ToxPellets.traitAdjectives.0>
+  <!-- EN: toxic -->
+  <ToxPellets.traitAdjectives.1>toksik</ToxPellets.traitAdjectives.1>
+  <!-- EN: poisonous -->
+  <ToxPellets.traitAdjectives.2>zehirli</ToxPellets.traitAdjectives.2>
+  <!-- EN: poison -->
+  <ToxPellets.traitAdjectives.3>zehir</ToxPellets.traitAdjectives.3>
+  
+  <!-- EN: tox rounds -->
+  <ToxRounds.label>toksik mermiler</ToxRounds.label>
+  <!-- EN: This weapon fires rounds coated with toxic chemicals, which sicken wounded targets. -->
+  <ToxRounds.description>Bu silah, üzeri toksik kimyasallarla kaplı mermiler ateşleyerek hedefi hasta eder.</ToxRounds.description>
+  <!-- EN: green -->
+  <ToxRounds.traitAdjectives.0>yeşil</ToxRounds.traitAdjectives.0>
+  <!-- EN: poison -->
+  <ToxRounds.traitAdjectives.1>zehir</ToxRounds.traitAdjectives.1>
+  <!-- EN: venom -->
+  <ToxRounds.traitAdjectives.2>ağı</ToxRounds.traitAdjectives.2>
+  <!-- EN: venomous -->
+  <ToxRounds.traitAdjectives.3>zehirli</ToxRounds.traitAdjectives.3>
+  <!-- EN: snakebite -->
+  <ToxRounds.traitAdjectives.4>yılan ısırığı</ToxRounds.traitAdjectives.4>
+  
+  <!-- EN: ugly -->
+  <Ugly.label>çirkin</Ugly.label>
+  <!-- EN: This weapon was crafted with no respect for aesthetics. It looks like junk but gets the job done. Traders will pay less for it. -->
+  <Ugly.description>Bu silah tasarımda estetiğe hiç önem verilmeden yapılmıştır. Hurda gibi görünse de işini görür. Tüccarlar ona daha az para verir.</Ugly.description>
+  <!-- EN: monstrous -->
+  <Ugly.traitAdjectives.0>canavarca</Ugly.traitAdjectives.0>
+  <!-- EN: crude -->
+  <Ugly.traitAdjectives.1>ilkel</Ugly.traitAdjectives.1>
+  <!-- EN: ugly -->
+  <Ugly.traitAdjectives.2>çirkin</Ugly.traitAdjectives.2>
+  
+</LanguageData>

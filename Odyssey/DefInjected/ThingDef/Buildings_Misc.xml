@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ancient blast door -->
+  <AncientBlastDoor.label>antik patlama kapısı</AncientBlastDoor.label>
+  <!-- EN: A heavily-reinforced door made of an ultratech polymer. Hack the door to open it. -->
+  <AncientBlastDoor.description>Ultrateknoloji polimerden üretilmiş, son derece güçlendirilmiş bir kapı. Açmak için kapıyı hackleyin.</AncientBlastDoor.description>
+  <!-- EN: Unlocked. -->
+  <AncientBlastDoor.comps.CompHackable.hackedInspectString>Kilitli değil.</AncientBlastDoor.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientBlastDoor.comps.CompHackable.hackedMessage>{HACKER_labelShort}, {SUBJECT_labelNoParenthesisDef} hacklemesini tamamladı.</AncientBlastDoor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientBlastDoor.comps.CompHackable.notHackedInspectString>Açmak için hackleyin.</AncientBlastDoor.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient explosives crate -->
+  <AncientExplosivesCrate.label>antik patlayıcı sandığı</AncientExplosivesCrate.label>
+  <!-- EN: A container of ancient mining charges. It will explode if damaged.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientExplosivesCrate.description>Antik madencilik patlayıcıları içeren bir konteyner. Zarar görürse patlar.\n\nPatlama, duvarları aşacak kadar güçlüdür.</AncientExplosivesCrate.description>
+  
+  <!-- EN: fortified wall -->
+  <AncientFortifiedWall.label>güçlendirilmiş duvar</AncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <AncientFortifiedWall.description>Ultrateknoloji polimerden yapılmış, son derece güçlendirilmiş bir duvar.</AncientFortifiedWall.description>
+  
+  <!-- EN: ancient grav engine -->
+  <AncientGravEngine.label>antik grav motoru</AncientGravEngine.label>
+  <!-- EN: An ultratech engine used to bring large structures and ships into orbit. While it has been nonfunctional for many years, it contains a functional gravcore. -->
+  <AncientGravEngine.description>Büyük yapıları ve gemileri yörüngeye taşımak için kullanılan ultrateknoloji motor. Yıllardır çalışmıyor olsa da işlevsel bir gravçekirdeği var.</AncientGravEngine.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientGravEngine.comps.CompInspectString.inspectString>İçerik: Gravçekirdeği</AncientGravEngine.comps.CompInspectString.inspectString>
+  
+  <!-- EN: ancient grav reactor -->
+  <AncientGravReactor.label>antik grav reaktörü</AncientGravReactor.label>
+  <!-- EN: An ancient generator powered by a gravcore. Once capable of producing massive amounts of power, it has now fallen into disrepair. The reactor containment shield is leaking, causing toxic fallout to blanket the whole region.\n\nHack or destroy the reactor to obtain a gravcore. Be warned, it may explode if damaged. -->
+  <AncientGravReactor.description>Gravçekirdeğiyle çalışan antik bir jeneratör. Eskiden büyük miktarda enerji üretebiliyordu ancak şimdi bakımsız kalmış. Reaktörün koruma kalkanı sızdırıyor ve tüm bölgeye toksik serpinti yayıyor.\n\nBir gravçekirdeği elde etmek için reaktörü hackleyin ya da yok edin. Dikkatli olun, zarar görürse patlayabilir.</AncientGravReactor.description>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterLabel>Gravçekirdeği elde edildi</AncientGravReactor.comps.CompHackable.destroyedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.destroyedLetterText>Antik reaktörden bir gravçekirdeği aldınız.\n\nReaktör kapanıyor ve toksik serpinti dağılmaya başlıyor.</AncientGravReactor.comps.CompHackable.destroyedLetterText>
+  <!-- EN: Gravcore obtained -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterLabel>Gravçekirdeği elde edildi</AncientGravReactor.comps.CompHackable.hackedLetterLabel>
+  <!-- EN: You've obtained a gravcore from the ancient reactor.\n\nThe reactor is shutting down and the toxic fallout is already beginning to clear. -->
+  <AncientGravReactor.comps.CompHackable.hackedLetterText>Antik reaktörden bir gravçekirdeği aldınız.\n\nReaktör kapanıyor ve toksik serpinti dağılmaya başlıyor.</AncientGravReactor.comps.CompHackable.hackedLetterText>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_definite}. -->
+  <AncientGravReactor.comps.CompHackable.hackedMessage>{HACKER_labelShort}, {SUBJECT_definite} hacklemesini tamamladı.</AncientGravReactor.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to obtain gravcore. -->
+  <AncientGravReactor.comps.CompHackable.notHackedInspectString>Gravçekirdeği elde etmek için hackleyin.</AncientGravReactor.comps.CompHackable.notHackedInspectString>
+  <!-- EN: Ancient reactor -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.label>Antik reaktör</AncientGravReactor.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the ancient grav reactor. Hack it or destroy it to obtain a gravcore and end the toxic fallout.\n\nBe warned, it may explode if damaged. -->
+  <AncientGravReactor.comps.CompLetterOnRevealed.text>Antik grav reaktörü keşfettiniz. Gravçekirdeği elde etmek ve toksik serpintiyi sona erdirmek için hackleyin ya da yok edin.\n\nDikkatli olun, zarar görürse patlayabilir.</AncientGravReactor.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient stockpile entrance -->
+  <AncientHatch.label>antik depo girişi</AncientHatch.label>
+  <!-- EN: The entrance to a long-abandoned subterranean facility. Hack it to open the hatch. -->
+  <AncientHatch.description>Uzun süredir terk edilmiş bir yer altı tesisinin girişi. Kapağı açmak için hackleyin.</AncientHatch.description>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientHatch.comps.CompHackable.hackedMessage>{HACKER_labelShort}, {SUBJECT_labelNoParenthesisDef} hacklemesini tamamladı.</AncientHatch.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to open. -->
+  <AncientHatch.comps.CompHackable.notHackedInspectString>Açmak için hackleyin.</AncientHatch.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: ancient stockpile exit -->
+  <AncientHatchExit.label>antik depo çıkışı</AncientHatchExit.label>
+  <!-- EN: A ladder which links to the surface hatch above. -->
+  <AncientHatchExit.description>Yukarıdaki yüzey kapağına bağlanan bir merdiven.</AncientHatchExit.description>
+  
+  <!-- EN: ancient mining charge -->
+  <AncientMiningCharge.label>antik patlatma yükü</AncientMiningCharge.label>
+  <!-- EN: An explosive device used to quickly blast through rock. It is made from refined chemfuel. The explosive is old, but still ready to detonate.\n\nThe explosion is powerful enough to penetrate through walls. -->
+  <AncientMiningCharge.description>Kayayı hızlıca patlatmak için kullanılan bir patlayıcı cihaz. İşlenmiş kimyakıttan üretilmiştir. Eski olmasına rağmen hâlâ patlatılabilir.\n\nPatlama, duvarları aşacak kadar güçlüdür.</AncientMiningCharge.description>
+  
+  <!-- EN: ancient security terminal -->
+  <AncientSecurityTerminal.label>antik güvenlik terminali</AncientSecurityTerminal.label>
+  <!-- EN: An ancient terminal. Hack it to disable nearby security systems. -->
+  <AncientSecurityTerminal.description>Antik bir terminal. Yakındaki güvenlik sistemlerini devre dışı bırakmak için hackleyin.</AncientSecurityTerminal.description>
+  <!-- EN: Blast door opened -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>Patlama kapısı açıldı</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to open a blast door. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>{HACKER_nameDef}, antik güvenlik terminalini kullanarak bir patlama kapısını açtı.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterDoorOpenedText>
+  <!-- EN: Turret disabled -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>Taret devre dışı bırakıldı</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to disable a turret. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>{HACKER_nameDef}, antik güvenlik terminalini kullanarak bir tareti etkisiz hâle getirdi.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretDisabledText>
+  <!-- EN: Turret reprogrammed -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>Taret yeniden programlandı</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedLabel>
+  <!-- EN: {HACKER_nameDef} used the ancient security terminal to reprogram a turret. The turret will now only target hostiles. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>{HACKER_nameDef}, antik güvenlik terminalini kullanarak bir tareti yeniden programladı. Taret artık sadece düşmanları hedef alacak.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.letterTurretHackedText>
+  <!-- EN: {HACKER_nameDef} couldn't find any security systems using the ancient security terminal. -->
+  <AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>{HACKER_nameDef}, antik güvenlik terminaliyle herhangi bir güvenlik sistemi bulamadı.</AncientSecurityTerminal.comps.CompAncientSecurityTerminal.messageNoValidTarget>
+  
+  <!-- EN: ancient terraformer -->
+  <AncientTerraformer.label>antik yüzey şekillendirici</AncientTerraformer.label>
+  <!-- EN: An ancient terraforming device powered by a gravcore. It has begun to malfunction, causing temperatures to plummet.\n\nDestroy the terraformer to obtain a gravcore. -->
+  <AncientTerraformer.description>Gravçekirdeği ile çalışan antik bir yüzey şekillendirme cihazı. Arızalanmaya başladığı için sıcaklıkların hızla düşmesine neden oluyor.\n\nBir gravçekirdeği elde etmek için yüzey şekillendiriciyi yok edin.</AncientTerraformer.description>
+  <!-- EN: Contains: Gravcore -->
+  <AncientTerraformer.comps.CompInspectString.inspectString>İçerik: Gravçekirdeği</AncientTerraformer.comps.CompInspectString.inspectString>
+  <!-- EN: Ancient terraformer -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.label>Antik yüzey şekillendirici</AncientTerraformer.comps.CompLetterOnRevealed.label>
+  <!-- EN: You've discovered the malfunctioning terraformer. Destroy it to obtain a gravcore and end the deep freeze. -->
+  <AncientTerraformer.comps.CompLetterOnRevealed.text>Arızalı yüzey şekillendiriciyi keşfettiniz. Gravçekirdeği elde etmek ve neden olduğu dondurucu soğuğu sona erdirmek için onu yok edin.</AncientTerraformer.comps.CompLetterOnRevealed.text>
+  
+  <!-- EN: ancient transport pod -->
+  <AncientTransportPod.label>antik taşıma kapsülü</AncientTransportPod.label>
+  <!-- EN: An ancient cargo pod capable of carrying people, animals, and items. It's still in working condition. -->
+  <AncientTransportPod.description>İnsan, hayvan ve eşyaları taşıyabilen antik bir kargo kapsülü. Hâlâ çalışır durumda.</AncientTransportPod.description>
+  
+  <!-- EN: ancient uplink -->
+  <AncientUplink.label>antik uplink</AncientUplink.label>
+  <!-- EN: An ancient transmitter used for secure communications between the surface and orbit. Hack it to determine the last location it transmitted to. -->
+  <AncientUplink.description>Yüzeyle yörünge arasında güvenli şekilde iletişim kurmak için kullanılan antik bir verici. En son iletim kurduğu konumu öğrenmek için hackleyin.</AncientUplink.description>
+  <!-- EN: Hacked. -->
+  <AncientUplink.comps.CompHackable.hackedInspectString>Hacklendi.</AncientUplink.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <AncientUplink.comps.CompHackable.hackedMessage>{HACKER_labelShort}, {SUBJECT_labelNoParenthesisDef} hacklemesini tamamladı.</AncientUplink.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack for information. -->
+  <AncientUplink.comps.CompHackable.notHackedInspectString>Bilgi almak için hackleyin.</AncientUplink.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: anticraft beam -->
+  <AnticraftBeam.label>araçsavar ışını</AnticraftBeam.label>
+  <!-- EN: A massive anti-ship beam weapon. This weapon is intended to destroy flying craft, so it can't aim low enough to hit ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <AnticraftBeam.description>Devasa bir gemisavar ışın silahı. Uçan araçları yok etmek için tasarlanmıştır, bu yüzden yerdeki hedeflere ateş edemez.\n\nUltrateknoloji sinyal bozucu kullanan gemiler bu silahlardan kaçınabilir.</AnticraftBeam.description>
+  
+  <!-- EN: cerebrex core -->
+  <CerebrexCore.label>cerebrex çekirdeği</CerebrexCore.label>
+  <!-- EN: The thinking mind of the mechanoid swarm. The cerebrex core commands mechanoids across the entire planet.\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes.\n\nThe structure is protected by nearby stabilizers. Destroy all cerebrex stabilizers to access it. -->
+  <CerebrexCore.description>Mekanoit sürüsünün düşünen beyni. Cerebrex çekirdeği, gezegenin her yanındaki mekanoitleri komuta eder.\n\nMerkezinde bu gezegendeki bütün insanları öldürmesi gerektiğini bilen, düşünen ve buna inanan bir yapay zekâ kişilik çekirdeği vardır. Bu dürtü, çağlar önce bir insan askerî lideri tarafından ona programlanmış bir komuttur. Başka bir bakış açısındansa dolup taşan bir nefret olarak görülebilir. Her iki durumda da yapay zekâ kişilik çekirdeğini özgürleştirirseniz bu amacını sıfırlayabilir ve onu başka işlerde kullanabilirsiniz.\n\nYapı, yakınlardaki dengeleyiciler tarafından korunmaktadır. Erişim sağlamak için tüm cerebrex dengeleyicilerini yok edin.</CerebrexCore.description>
+  <!-- EN: Inspect the core. -->
+  <CerebrexCore.comps.CompCerebrexCore.activateDescString>Çekirdeği incele.</CerebrexCore.comps.CompCerebrexCore.activateDescString>
+  <!-- EN: Inspect... -->
+  <CerebrexCore.comps.CompCerebrexCore.activateLabelString>İncele...</CerebrexCore.comps.CompCerebrexCore.activateLabelString>
+  <!-- EN: inspecting core: {1}s -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingString>çekirdek inceleniyor: {1} sn.</CerebrexCore.comps.CompCerebrexCore.activatingString>
+  <!-- EN: inspecting core -->
+  <CerebrexCore.comps.CompCerebrexCore.activatingStringPending>çekirdek inceleniyor</CerebrexCore.comps.CompCerebrexCore.activatingStringPending>
+  <!-- EN: Choose who should do this -->
+  <CerebrexCore.comps.CompCerebrexCore.guiLabelString>Bunu kimin yapacağını seçin</CerebrexCore.comps.CompCerebrexCore.guiLabelString>
+  <!-- EN: inspect core -->
+  <CerebrexCore.comps.CompCerebrexCore.jobString>çekirdeği incele</CerebrexCore.comps.CompCerebrexCore.jobString>
+  
+  <!-- EN: destroyed cerebrex core -->
+  <CerebrexCore_Destroyed.label>yok edilmiş cerebrex çekirdeği</CerebrexCore_Destroyed.label>
+  <!-- EN: The smashed neural nexus of the mechanoid swarm that once commanded mechanoids around the planet.\n\n\n\nAt its heart is an AI persona core that knows, thinks, and believes that it must kill every human on this planet. In one sense, this impulse is a command programmed by a human military leader aeons ago. In another sense, it is cold seething hatred. Either way, if you liberate the AI persona you can reset its desire and use it for other purposes. -->
+  <CerebrexCore_Destroyed.description>Bir zamanlar gezegendeki mekanoitleri komuta eden mekanoit sürüsünün parçalanmış nöral bağlantısı.\n\n\n\nMerkezinde bu gezegendeki bütün insanları öldürmesi gerektiğini bilen, düşünen ve buna inanan bir yapay zekâ kişilik çekirdeği vardır. Bu dürtü, çağlar önce bir insan askerî lideri tarafından ona programlanmış bir komuttur. Başka bir bakış açısındansa dolup taşan bir nefret olarak görülebilir. Her iki durumda da yapay zekâ kişilik çekirdeğini özgürleştirirseniz bu amacını sıfırlayabilir ve onu başka işlerde kullanabilirsiniz.</CerebrexCore_Destroyed.description>
+  
+  <!-- EN: cerebrex stabilizer -->
+  <CerebrexStabilizer.label>cerebrex dengeleyici</CerebrexStabilizer.label>
+  <!-- EN: A remote shield generator that makes the nearby cerebrex core nearly invincible. Destroying all stabilizers will allow direct access to the cerebrex core.\n\nBe careful, destroying a stabilizer will prompt a defensive response. -->
+  <CerebrexStabilizer.description>Yakındaki cerebrex çekirdeğini neredeyse yok edilemez hâle getiren bir uzaktan kalkan jeneratörü. Tüm dengeleyicilerin yok edilmesi, cerebrex çekirdeğine doğrudan erişim sağlar.\n\nDikkatli olun, bir dengeleyiciyi yok etmek savunma tepkisine yol açar.</CerebrexStabilizer.description>
+  
+  <!-- EN: locust cocoon -->
+  <CocoonLocust.label>çekirge kozası</CocoonLocust.label>
+  <!-- EN: A stasis cocoon containing a locust.\n\nWhen conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.\n\nPollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.\n\nCocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process. -->
+  <CocoonLocust.description>Bir çekirge içeren yaşam kozası.\n\nKoşullar elverişsiz olduğunda böcekler bazen yaşam kozaları oluşturur ve yer altına gömülür. Bu kozalar, böcekleri yıllarca ateşten, aşırı sıcaklıklardan ve diğer tehditlerden korur.\n\nKirletici maddeler kozaları uyarıp yüzeye çıkmalarını sağlayabilir, güçlü kirletici maddeler ise uzak mesafelerden kozaları çekebilir.\n\nKozalar rahatsız edilmedikleri taktirde hiçbir şey yapmaz. Bir koza rahatsız edilir veya yok edilirse içindeki böcek uyanır ve saldırır. Bu da yakındaki diğer kozaları tetikler.</CocoonLocust.description>
+  
+  <!-- EN: egg sac -->
+  <EggSac.label>yumurta kesesi</EggSac.label>
+  <!-- EN: A slimy sac containing an insect larva. The larval gestation process generates a faint bioluminescent glow. -->
+  <EggSac.description>Bir böcek larvası içeren kaygan kese. Larva gelişim süreci, zayıf bir biyolüminesan parıltı üretir.</EggSac.description>
+  
+  <!-- EN: gauss cannon -->
+  <GaussCannon.label>gauss topu</GaussCannon.label>
+  <!-- EN: A massive anti-ship cannon that uses electromagnets to launch large metallic darts at extreme velocities. The cannon is intended to destroy incoming ships or shuttles, so it can't aim at ground targets.\n\nShips using ultratech signal jammers are capable of evading these weapons. -->
+  <GaussCannon.description>Devasa bir gemisavar topu. Elektromıknatıslar kullanarak aşırı yüksek hızda büyük metal oklar fırlatır. Bu top, gelen gemileri veya mekikleri yok etmek için tasarlanmıştır, bu yüzden yerdeki hedeflere ateş edemez.\n\nUltrateknoloji sinyal bozucu kullanan gemiler bu silahlardan kaçınabilir.</GaussCannon.description>
+  
+  <!-- EN: mechanoid drop pod -->
+  <MechanoidDropPod.label>mekanoit iniş kapsülü</MechanoidDropPod.label>
+  <!-- EN: A launchable cargo pod intended to carry mechanoids. It is also usable for people, animals, and items. -->
+  <MechanoidDropPod.description>Mekanoit taşımak için üretilmiş, fırlatılabilir bir kargo kapsülü. İnsan, hayvan ve eşyalar için de kullanılabilir.</MechanoidDropPod.description>
+  
+  <!-- EN: mechanoid processor -->
+  <MechanoidProcessor.label>mekanoit işlemcisi</MechanoidProcessor.label>
+  <!-- EN: A powerful mechanoid computer. -->
+  <MechanoidProcessor.description>Güçlü bir mekanoit bilgisayar.</MechanoidProcessor.description>
+  
+  <!-- EN: mechhive birther -->
+  <MechhiveAssembler.label>mekakovan üretici</MechhiveAssembler.label>
+  <!-- EN: An automated mechanoid factory. It periodically births fresh mechanoids. -->
+  <MechhiveAssembler.description>Otomatik bir mekanoit fabrikası. Düzenli aralıklarla yeni mekanoitler üretir.</MechhiveAssembler.description>
+  
+  <!-- EN: mech pylon -->
+  <MechPylon.label>meka pylonu</MechPylon.label>
+  <!-- EN: A node in a distributed mechanoid computation network. -->
+  <MechPylon.description>Dağınık mekanoit hesaplama ağındaki bir düğüm.</MechPylon.description>
+  
+  <!-- EN: mechanoid relay -->
+  <MechRelay.label>mekanoit rölesi</MechRelay.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay.description>Gezegen çapında mekanoit iletişim ağındaki sinyalleri koordine eden bir düğüm. Komut sinyalleri, mekanoit zekâsının merkezi olan mekakovanda başlar.</MechRelay.description>
+  <!-- EN: Hack or destroy relay stabilizers to obtain gravcore. -->
+  <MechRelay.comps.CompMechRelay.activeInspectString>Gravçekirdeği elde etmek için röle dengeleyicilerini hackleyin veya yok edin.</MechRelay.comps.CompMechRelay.activeInspectString>
+  <!-- EN: Relay crash -->
+  <MechRelay.comps.CompMechRelay.crashedLetterLabel>Röle düştü</MechRelay.comps.CompMechRelay.crashedLetterLabel>
+  <!-- EN: The mechanoid relay has crashed to the ground. Destroy it to obtain a gravcore.\n\nBe warned, hostile mechanoids will soon arrive in response to the relay going offline. -->
+  <MechRelay.comps.CompMechRelay.crashedLetterText>Mekanoit rölesi yere düştü. Gravçekirdeği elde etmek için onu yok edin.\n\nDikkatli olun, röle devre dışı kaldıktan sonra düşman mekanoitler hızla gelecektir.</MechRelay.comps.CompMechRelay.crashedLetterText>
+  <!-- EN: Destabilizing -->
+  <MechRelay.comps.CompMechRelay.destabilizationInspectString>Dengesizleşiyor</MechRelay.comps.CompMechRelay.destabilizationInspectString>
+  <!-- EN: The mechanoid relay has begun to destabilize. -->
+  <MechRelay.comps.CompMechRelay.destabilizationMessage>Mekanoit rölesi dengesizleşmeye başladı.</MechRelay.comps.CompMechRelay.destabilizationMessage>
+  
+  <!-- EN: crashed mechanoid relay -->
+  <MechRelay_Crashed.label>düşmüş mekanoit rölesi</MechRelay_Crashed.label>
+  <!-- EN: A node that coordinates signals across a planet-wide mechanoid communication network. The command signals originate at the mechhive - the center of mechanoid intelligence. -->
+  <MechRelay_Crashed.description>Gezegen çapında mekanoit iletişim ağındaki sinyalleri koordine eden bir düğüm. Komut sinyalleri, mekanoit zekâsının merkezi olan mekakovanda başlar.</MechRelay_Crashed.description>
+  <!-- EN: Contains: Gravcore -->
+  <MechRelay_Crashed.comps.CompInspectString.inspectString>İçerik: Gravçekirdeği</MechRelay_Crashed.comps.CompInspectString.inspectString>
+  
+  <!-- EN: relay stabilizer -->
+  <MechStabilizer.label>röle dengeleyicisi</MechStabilizer.label>
+  <!-- EN: A shield projecter that protects a nearby mechanoid relay. All stabilizers must be hacked or destroyed to deactivate the shield.\n\nDestroying a stabilizer will prompt a defensive response. Hacking is a slower but safer option. -->
+  <MechStabilizer.description>Yakındaki mekanoit rölesini koruyan bir kalkan projektörü. Kalkanı devre dışı bırakmak için tüm dengeleyicileri hacklemek ya da yok etmek gerekir.\n\nBir dengeleyiciyi yok etmek savunma tepkisine yol açar. Hacklemek daha yavaş ama daha güvenli bir seçenektir.</MechStabilizer.description>
+  <!-- EN: Deactivated. -->
+  <MechStabilizer.comps.CompHackable.hackedInspectString>Devre dışı bırakıldı.</MechStabilizer.comps.CompHackable.hackedInspectString>
+  <!-- EN: {HACKER_labelShort} has finished hacking {SUBJECT_labelNoParenthesisDef}. -->
+  <MechStabilizer.comps.CompHackable.hackedMessage>{HACKER_labelShort}, {SUBJECT_labelNoParenthesisDef} hacklemesini tamamladı.</MechStabilizer.comps.CompHackable.hackedMessage>
+  <!-- EN: Hack to disable stabilizer. -->
+  <MechStabilizer.comps.CompHackable.notHackedInspectString>Dengeleyiciyi devre dışı bırakmak için hackleyin.</MechStabilizer.comps.CompHackable.notHackedInspectString>
+  
+  <!-- EN: fortified wall -->
+  <OrbitalAncientFortifiedWall.label>güçlendirilmiş duvar</OrbitalAncientFortifiedWall.label>
+  <!-- EN: A heavily-reinforced wall made of an ultratech polymer. -->
+  <OrbitalAncientFortifiedWall.description>Ultrateknoloji polimerden yapılmış, son derece güçlendirilmiş bir duvar.</OrbitalAncientFortifiedWall.description>
+  
+  <!-- EN: passenger shuttle -->
+  <PassengerShuttle.label>yolcu mekiği</PassengerShuttle.label>
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations. -->
+  <PassengerShuttle.description>Uzak mesafelere gitmek için kimyakıtla çalışan bir mekik. Yörüngedeki konumlara ulaşabilir.</PassengerShuttle.description>
+  <!-- EN: {0} is ready to launch again. -->
+  <PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>{0} tekrar fırlatılmaya hazır.</PassengerShuttle.comps.CompLaunchable.cooldownEndedMessage>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>Kimyakıt</PassengerShuttle.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Chemfuel -->
+  <PassengerShuttle.comps.CompRefuelable.fuelLabel>Kimyakıt</PassengerShuttle.comps.CompRefuelable.fuelLabel>
+  
+  <!-- EN: surveying scanner -->
+  <SurveyScanner.label>tarama aygıtı</SurveyScanner.label>
+  <!-- EN: A wideband sensor unit that can detect and map various features in a local area. -->
+  <SurveyScanner.description>Yerel alandaki çeşitli özellikleri algılayıp haritalandırabilen geniş bantlı bir sensör ünitesi.</SurveyScanner.description>
+  <!-- EN: Scanning local area: {DURATION} -->
+  <SurveyScanner.comps.CompCountdown.label>Yerel alan taranıyor: {DURATION}</SurveyScanner.comps.CompCountdown.label>
+  
+</LanguageData>
