@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- Grav engine/substructrues -->
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
+  <ConfirmGravEngineLaunch>Başlatmak istediğinizden emin misiniz?\n\nMevcut haritanız ve gravgemi altyapısı üzerinde olmayan her şey kalıcı olarak kaybolacak. Fırlatma işlemi kalıcı hasara sebep olacağı için geri dönemezsiniz.</ConfirmGravEngineLaunch>
+  <!-- EN: Warning -->
+  <GravEngineWarning>Uyarı</GravEngineWarning>
+  <!-- EN: The following people will be left behind -->
+  <PeopleWillBeLeftBehind>Şu insanlar geride kalacak:</PeopleWillBeLeftBehind>
+  <!-- EN: The following will be left behind -->
+  <AnimalsWillBeLeftBehind>Şu hayvanlar geride kalacak:</AnimalsWillBeLeftBehind>
+  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
+  <PawnsKidnappedOnGravship>Başka bir fraksiyona ait şu insanlar ve hayvanlar sizinle birlikte gidecek. Bu durum, ilgili fraksiyonun canını sıkacak ve muhtemelen onları düşman yapacak.</PawnsKidnappedOnGravship>
+  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
+  <BuildingsWillBeLeftBehind>Şu binalar tamamen gravgemide olmadıkları için geride kalacak:</BuildingsWillBeLeftBehind>
+  <!-- EN: Some substructure has invalid placement and will be left behind -->
+  <SubstructureWillBeLeftBehind>Bazı altyapılar geçersiz konumda ve geride kalacak</SubstructureWillBeLeftBehind>
+  <!-- EN: Disconnected from grav engine -->
+  <DisconnectedSubstructure>Grav motoru ile bağlantı kesildi</DisconnectedSubstructure>
+  <!-- EN: Under rock roof -->
+  <SubstructureUnderRockRoof>Kaya çatı altında</SubstructureUnderRockRoof>
+  <!-- EN: Out of range -->
+  <SubstructureOutsideFootprint>Menzil dışında</SubstructureOutsideFootprint>
+
+  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
+  <NamePlayerGravshipMessage>{0}, yeni gravgeminiz için büyük umutlar besliyor ve ona güzel bir isim vermek istiyor. Gravgeminizin adı ne olsun?</NamePlayerGravshipMessage>
+  <!-- EN: The gravship is now known as {0}. -->
+  <PlayerGravshipGainsName>Gravgemi artık {0} olarak biliniyor.</PlayerGravshipGainsName>
+  <!-- EN: That name isn't valid. -->
+  <PlayerGravshipNameIsInvalid>Bu isim geçerli değil.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: {0} are hostile. If you land here they will attack you. -->
+  <ConfirmLandOnHostileFactionBase>{0} fraksiyonu size düşman. Buraya inerseniz saldıracaklar.</ConfirmLandOnHostileFactionBase>
+  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
+  <ConfirmLandOnNeutralFactionBase>Buraya inmek {0} fraksiyonu tarafından saldırgan bir hareket olarak görülecek. Size düşman olacak ve saldıracaklar.</ConfirmLandOnNeutralFactionBase>
+
+  <!-- EN: Land here anyway? -->
+  <ConfirmLand>Yine de buraya inmek istiyor musunuz?</ConfirmLand>
+
+  <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
+  <OrbitalWarning>Yörüngedeki konumlar tehlikelidir. Hazırlıklı olduğunuzdan emin olun:\n - Kolonicilerinizi vakumgiysisi veya başka gelişmiş zırhlarla donatın.\n - Dönüş yolculuğunuzu planlayın. Yörüngede uzun süre yaşamak son derece zorludur.</OrbitalWarning> <!-- text_todo -->
+  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
+  <OrbitalWarning_Gravship>Gravgeminizi yörüngeye hazırlayın:\n- Havageçirmez duvarlar ve kapılar kullanın.\n- Odaların iyi ısıtıldığından ve çatılarının olduğundan emin olun.\n- Oksijen pompaları inşa edin.</OrbitalWarning_Gravship> <!-- text_todo -->
+  <!-- EN: Warning -->
+  <OrbitalWarning_Warning>Uyarı</OrbitalWarning_Warning> <!-- text_todo -->
+  <!-- EN: Some exterior walls or doors are not airtight. -->
+  <OrbitalWarning_Vacuum>Bazı dış duvarlar veya kapılar havageçirmez değil.</OrbitalWarning_Vacuum> <!-- text_todo -->
+  <!-- EN: No functional heat sources. -->
+  <OrbitalWarning_NoHeatSources>Çalışır durumda hiç ısı kaynağı yok.</OrbitalWarning_NoHeatSources> <!-- text_todo -->
+  <!-- EN: Few functional heat sources -->
+  <OrbitalWarning_FewHeatSources>Çalışır durumda az sayıda ısı kaynağı var.</OrbitalWarning_FewHeatSources> <!-- text_todo -->
+  <!-- EN: No functional oxygen pumps. -->
+  <OrbitalWarning_NoOxygenPumps>Çalışır durumda hiç oksijen pompası yok.</OrbitalWarning_NoOxygenPumps> <!-- text_todo -->
+  <!-- EN: Few functional oxygen pumps -->
+  <OrbitalWarning_FewOxygenPumps>Çalışır durumda az sayıda oksijen pompası var.</OrbitalWarning_FewOxygenPumps> <!-- text_todo -->
+
+  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
+  <ConfirmShuttleNotEnoughFuelToReturn>Mekiğin bu noktadan geri dönebilecek kadar yakıtı yok. Yolda kalabilir.\n\nŞu anda {0} yakıtınız var ancak dönüş için {1} yakıta ihtiyacınız var.\n\nDevam etmek istediğinizden emin misiniz?</ConfirmShuttleNotEnoughFuelToReturn>
+  <!-- EN: Caravan is immobile due to shuttle -->
+  <CaravanMovementSpeedShuttle>Kervan, mekik yüzünden hareket edemiyor.</CaravanMovementSpeedShuttle>
+  <!-- EN: Refuel {0}x chemfuel -->
+  <RefuelShuttleCount>{0} kimyakıt ile yakıt doldur.</RefuelShuttleCount>
+  <!-- EN: Zoom range (gravship) {0} -->
+  <ZoomRangeGravshipCutscene>Yakınlaştırma menzili (gravgemi) {0}</ZoomRangeGravshipCutscene>
+
+</LanguageData>

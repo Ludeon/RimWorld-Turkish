@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>r_statue_description->This statue [statueDepicts] [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [statueAdj] statue depicting [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [carvedAdverb] [carvedVerb] statue of [SUBJECT_nameFull]. It [statueDepicts] [SUBJECT_indefinite] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A statue showing [SUBJECT_nameFull] [statueSubjectDesc]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->A [statueAdj] statue of [SUBJECT_nameFull]. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->standing upright holding a [prop] with both hands</li>
+    <li>statueSubjectDesc->standing tall and gazing nobly into the distance</li>
+    <li>statueSubjectDesc->thrusting a fist towards the sky</li>
+    <li>statueSubjectDesc->reaching upward, grasping for something unseen</li>
+    <li>statueSubjectDesc->leaning to the side as if about to topple[maybeInsult]</li>
+    <li>statueSubjectDesc->standing on one-foot[maybeInsult]</li>
+    <li>statueSubjectDesc->bowing deeply</li>
+    <li>statueSubjectDesc->bracing against the wind</li>
+    <li>statueSubjectDesc->kneeling in prayer</li>
+    <li>statueSubjectDesc->with hands raised as if in prayer</li>
+    <li>statueSubjectDesc->with hands pressed together in gratitude</li>
+    <li>statueSubjectDesc->running at top speed</li>
+    <li>statueSubjectDesc->with arms open, looking towards the sky</li>
+    <li>statueSubjectDesc->with hands resting on hips</li>
+    <li>statueSubjectDesc->with arms raised in triumph</li>
+    <li>statueSubjectDesc->holding a [prop] in one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->saluting with one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointing towards the horizon[maybeOtherHand]</li>
+    <li>statueSubjectDesc->extending a hand in welcome[maybeOtherHand]</li>
+    <li>statueSubjectDesc->pointing at the horizon with one hand[maybeOtherHand]</li>
+    <li>statueSubjectDesc->dancing seductively</li>
+    <li>statueSubjectDesc->relaxing in an alluring fashion</li>
+    <li>statueSubjectDesc->getting ready to fight</li>
+    <li>statueSubjectDesc->leaping into the air, frozen mid-jump</li>
+    <li>statueSubjectDesc->casting a fish net into unseen waters</li>
+    <li>statueSubjectDesc->eating a luxurious meal</li>
+    <li>statueSubjectDesc->mid-struggle, breaking free from chains</li>
+    <li>statueSubjectDesc->whispering a silent secret</li>
+    <li>statueSubjectDesc->gazing up at the stars, eyes filled with wonder</li>
+    <li>statueSubjectDesc->throwing an unseen spear</li>
+    <li>statueSubjectDesc->tearing a piece of paper in an act of defiance</li>
+    <li>statueSubjectDesc->wading through deep waters</li>
+    <li>statueSubjectDesc->holding a large [prop] in both hands</li>
+    <li>statueSubjectDesc->with no teeth[maybeInsult]</li>
+    <li>statueSubjectDesc->squinting into the sun[maybeInsult]</li>
+    <li>statueSubjectDesc->smelling a bouquet of flowers[maybeNoNose]</li>
+    <li>maybeOtherHand->. [otherHand]</li>
+    <li>maybeOtherHand-></li>
+    <li>otherHand->The statue's other hand holds a [prop]</li>
+    <li>otherHand->The statue's other hand rests on its hip</li>
+    <li>otherHand->The statue's other hand is making an obscene gesture</li>
+    <li>otherHand->The statue's other hand is missing[maybeInsult]</li>
+    <li>maybeNoNose->. The statue has no nose[maybeInsult]</li>
+    <li>maybeNoNose-></li>
+    <li>maybeInsult->. This is a clear insult</li>
+    <li>maybeInsult->. It is unclear if this is a slight by the artist or a simple mistake</li>
+    <li>maybeInsult->. This suggests the artist is insulting the subject</li>
+    <li>maybeInsult(p=3)-></li>
+    <li>statueFaceDesc(p=2)->The statue's face has a look of [facialLook].</li>
+    <li>statueFaceDesc(p=2)->[facialLook] can be seen in [SUBJECT_indefinite]'s face.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has a look of [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite]'s face [depicts] [facialLook].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has a wise and thoughtful countenance.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] is crying out, mouth agape in a silent scream.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] looks mournfully into the distance.</li>
+    <li>statueFaceDesc->The statue [depicts] [SUBJECT_indefinite] with a signature look of determination.</li>
+    <li>statueFaceDesc->The statue [depicts] [SUBJECT_indefinite] laughing maniacally.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] has [facialFeature].</li>
+    <li>statueFaceDesc->The statue has [facialFeature].</li>
+    <li>statueFaceDesc->Notably, the statue has [facialFeature].</li>
+    <li>facialLook->true joy</li>
+    <li>facialLook->pure terror</li>
+    <li>facialLook->pure ecstasy</li>
+    <li>facialLook->pure bliss</li>
+    <li>facialLook->shock and embarrassment</li>
+    <li>facialLook->amusement</li>
+    <li>facialLook->untold grief</li>
+    <li>facialLook->deep contemplation</li>
+    <li>facialLook->confusion</li>
+    <li>facialLook->pride and contentment</li>
+    <li>facialLook->amusement</li>
+    <li>facialLook->disgust</li>
+    <li>facialLook->defiance</li>
+    <li>facialFeature->a playful smirk</li>
+    <li>facialFeature->a furrowed brow</li>
+    <li>facialFeature->a raised eyebrow, as if questioning the artist</li>
+    <li>facialFeature->a long tongue sticking out</li>
+    <li>facialFeature->a face twisted in anguish</li>
+    <li>facialFeature->eyes that appear to twinkle</li>
+    <li>facialFeature->both eyes closed, as if in peace</li>
+    <li>facialFeature->cheeks puffed as if blowing air</li>
+    <li>facialFeature->beady eyes and snarling lips</li>
+    <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue->[style_clause].</li>
+    <li>style_group_statue->[artextra_clause_statue].</li>
+    <li>style_group_statue-></li>
+    <li>artextra_clause_statue->the pedestal of the statue is bordered by [subimageplural]</li>
+    <li>artextra_clause_statue->carved into the subject's skin are [subimageplural]</li>
+    <li>artextra_clause_statue->several smaller carvings surround the statue. Each resembles [subimagesingle]</li>
+    <li>artextra_clause_statue->the statue's legs are obscured by [subimageplural]</li>
+    <li>artextra_clause_statue->[carvedVerb] into the statue's face is an image of [subimageany]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] stands in the middle of a [Community]</li>
+    <li>artextra_clause_statue->the statue's base appears to be a [TerrainFeature]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite] appears to be rising out of a [TerrainFeature]</li>
+    <li>artextra_clause_statue->a small [Character] appears [side_position_statue]</li>
+    <li>artextra_clause_statue->a [pawn_adj] [Character] appears [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character]s appear [side_position_statue]</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [pawn_adj] [Character]s appear [side_position_statue]</li>
+    <li>artextra_clause_statue->a [Animal] is carved [side_position_statue]</li>
+    <li>artextra_clause_statue->from a distance, the [composition] composition of the statue reveals the outline of [subimageany]</li>
+    <li>artextra_clause_statue->the statue holds a [Animal] under one arm</li>
+    <li>artextra_clause_statue->the statue is holding [Quantity_adjphrase] [pawn_adj] [Character]s</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite]'s [statueBodyPart] is split open. Within you can see [subimageplural]</li>
+    <li>carvedAdverb->carefully</li>
+    <li>carvedAdverb->quickly</li>
+    <li>carvedAdverb->roughly</li>
+    <li>carvedAdverb->meticulously</li>
+    <li>carvedAdverb->meticulously</li>
+    <li>carvedVerb->carved</li>
+    <li>carvedVerb->sculpted</li>
+    <li>carvedVerb->chiseled</li>
+    <li>statueAdj->larger-than-life</li>
+    <li>statueAdj->towering</li>
+    <li>statueAdj->grand</li>
+    <li>statueAdj->large</li>
+    <li>statueAdj->lifelike</li>
+    <li>statueAdj->solemn</li>
+    <li>statueAdj->dignified</li>
+    <li>statueAdj->solemn</li>
+    <li>statueAdj->noble</li>
+    <li>statueAdj->serene</li>
+    <li>statueAdj->crumbling</li>
+    <li>statueAdj->modest</li>
+    <li>statueAdj->revealing</li>
+    <li>statueAdj->crude</li>
+    <li>statueAdj->titillating</li>
+    <li>statueAdj->provocative</li>
+    <li>statueAdj->suggestive</li>
+    <li>statueAdj->grotesque</li>
+    <li>statueAdj->frightful</li>
+    <li>statueAdj->majestic</li>
+    <li>statueDepicts->depicts</li>
+    <li>statueDepicts->shows</li>
+    <li>statueDepicts->portrays</li>
+    <li>side_position_statue->at the base</li>
+    <li>side_position_statue->on the pedestal beside [SUBJECT_indefinite]</li>
+    <li>side_position_statue->under [SUBJECT_indefinite]'s heel</li>
+    <li>side_position_statue->in [SUBJECT_indefinite]'s arms</li>
+    <li>side_position_statue->atop [SUBJECT_indefinite]'s head</li>
+    <li>side_position_statue->on [SUBJECT_indefinite]'s shoulders</li>
+    <li>side_position_statue->behind the central statue</li>
+    <li>side_position_statue->in a hollow carved into the figure's [statueBodyPart]</li>
+    <li>side_position_statue->in [SUBJECT_indefinite]'s palm</li>
+    <li>side_position_statue->bursting from [SUBJECT_indefinite]'s [statueBodyPart]</li>
+    <li>side_position_statue->emerging from [SUBJECT_indefinite]'s mouth</li>
+    <li>side_position_statue->on [SUBJECT_indefinite]'s back</li>
+    <li>statueBodyPart->chest</li>
+    <li>statueBodyPart->stomach</li>
+    <li>statueBodyPart->back</li>
+    <li>statueBodyPart->head</li>
+    <li>statueBodyPart->eye</li>
+    <li>prop->book</li>
+    <li>prop->sword</li>
+    <li>prop->spear</li>
+    <li>prop->gun</li>
+    <li>prop->psychic relic</li>
+    <li>prop->human heart</li>
+  -->
+  <ArtDescription_Statue.rulePack.rulesStrings>
+    <li>r_statue_description->Bu heykel, [statueSubjectDesc] bir [SUBJECT_nameFull] [statueDepicts]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Bu [statueAdj] heykel, [statueSubjectDesc] bir [SUBJECT_nameFull] tasviri. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Bu, [carvedAdverb] [carvedVerb] bir [SUBJECT_nameFull] heykeli. Heykel, [statueSubjectDesc] bir [SUBJECT_indefinite] [statueDepicts]. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Bu heykel, [statueSubjectDesc] bir [SUBJECT_nameFull] tasviri. [statueFaceDesc] [style_group_statue]</li>
+    <li>r_statue_description->Bu, [statueAdj] bir [SUBJECT_nameFull] heykeli. [statueFaceDesc] [style_group_statue]</li>
+    <li>statueSubjectDesc->iki eliyle bir [prop] tutarken dimdik ayakta duran</li>
+    <li>statueSubjectDesc->dik durup asilce uzaklara bakan</li>
+    <li>statueSubjectDesc->yumruğunu gökyüzüne savuran</li>
+    <li>statueSubjectDesc->yukarı doğru uzanıp görünmeyen bir şeyi kavrayan</li>
+    <li>statueSubjectDesc->sanki devrilecekmiş gibi yana eğilen[maybeInsult]</li>
+    <li>statueSubjectDesc->tek ayağının üzerinde duran[maybeInsult]</li>
+    <li>statueSubjectDesc->iyice eğilen</li>
+    <li>statueSubjectDesc->rüzgâra karşı duran</li>
+    <li>statueSubjectDesc->dua etmek için diz çöken</li>
+    <li>statueSubjectDesc->sanki dua ediyormuş gibi ellerini yukarı kaldıran</li>
+    <li>statueSubjectDesc->minnettarlık içinde ellerini birbirine bastıran</li>
+    <li>statueSubjectDesc->olabildiğince hızlı koşan</li>
+    <li>statueSubjectDesc->kolları açık, gökyüzüne bakan</li>
+    <li>statueSubjectDesc->ellerini kalçasına koymuş dinlenen</li>
+    <li>statueSubjectDesc->kollarını zaferle havaya kaldıran</li>
+    <li>statueSubjectDesc->bir elinde bir [prop] tutan[maybeOtherHand]</li>
+    <li>statueSubjectDesc->bir eliyle selam veren[maybeOtherHand]</li>
+    <li>statueSubjectDesc->ufka işaret eden[maybeOtherHand]</li>
+    <li>statueSubjectDesc->merhaba dercesine elini uzatan[maybeOtherHand]</li>
+    <li>statueSubjectDesc->bir eliyle ufka işaret eden[maybeOtherHand]</li>
+    <li>statueSubjectDesc->baştan çıkarıcı şekilde dans eden</li>
+    <li>statueSubjectDesc->çekici bir şekilde dinlenen</li>
+    <li>statueSubjectDesc->kavga etmeye hazırlanan</li>
+    <li>statueSubjectDesc->sıçramanın ortasında havada donuk kalmış</li>
+    <li>statueSubjectDesc->görünmeyen sulara balık ağı atan</li>
+    <li>statueSubjectDesc->lüks bir yemek yiyen</li>
+    <li>statueSubjectDesc->zincirlerden kurtulmak için mücadele eden</li>
+    <li>statueSubjectDesc->sessiz bir sır fısıldayan</li>
+    <li>statueSubjectDesc->gözleri hayranlıkla dolu hâlde yıldızlara bakan</li>
+    <li>statueSubjectDesc->görünmeyen bir mızrak fırlatan</li>
+    <li>statueSubjectDesc->meydan okurcasına bir parça kâğıdı yırtan</li>
+    <li>statueSubjectDesc->derin sularda yürüyen</li>
+    <li>statueSubjectDesc->iki eliyle büyük bir [prop] tutan</li>
+    <li>statueSubjectDesc->dişsiz[maybeInsult]</li>
+    <li>statueSubjectDesc->güneşe bakıp gözlerini kısan[maybeInsult]</li>
+    <li>statueSubjectDesc->bir demet çiçek koklayan[maybeNoNose]</li>
+    <li>maybeOtherHand->. [otherHand]</li>
+    <li>maybeOtherHand-></li>
+    <li>otherHand->Heykelin diğer eli bir [prop] tutuyor</li>
+    <li>otherHand->Heykelin diğer eli kalçasında duruyor</li>
+    <li>otherHand->Heykelin diğer eli kaba bir hareket yapıyor</li>
+    <li>otherHand->Heykelin diğer eli yok[maybeInsult]</li>
+    <li>maybeNoNose->. Heykelin burnu yok[maybeInsult]</li>
+    <li>maybeNoNose-></li>
+    <li>maybeInsult->. Bu, açıkça bir hakaret</li>
+    <li>maybeInsult->. Bunun, sanatçının küçümsemesi mi yoksa basit bir hata mı olduğu belli değil</li>
+    <li>maybeInsult->. Bu, sanatçının özneyi küçümsediğini ima ediyor</li>
+    <li>maybeInsult(p=3)-></li>
+    <li>statueFaceDesc(p=2)->Heykelin yüzünde [facialLook] var.</li>
+    <li>statueFaceDesc(p=2)->[SUBJECT_indefinite] heykelinin yüzünde [facialLook] var.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] heykelinin yüzünde [facialLook] var.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] heykelinin yüzü [facialLook] [depicts].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite], bilge ve düşünceli bir çehreye sahip.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite], ağzı sessiz bir çığlıkla açılmış bağırıyor.</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite], kederli bir şekilde uzaklara bakıyor.</li>
+    <li>statueFaceDesc->Heykel, yüzünde kararlı bir bakış olan bir [SUBJECT_indefinite] [depicts].</li>
+    <li>statueFaceDesc->Heykel, delice kahkaha atan bir [SUBJECT_indefinite] [depicts].</li>
+    <li>statueFaceDesc->[SUBJECT_indefinite] heykelinin yüzünde [facialFeature] var.</li>
+    <li>statueFaceDesc->Heykelin yüzünde [facialFeature] görünüyor.</li>
+    <li>statueFaceDesc->Dikkat çekici şekilde heykelin yüzünde [facialFeature] var.</li>
+    <li>facialLook->gerçek bir sevinç</li>
+    <li>facialLook->gerçek bir dehşet</li>
+    <li>facialLook->saf coşku</li>
+    <li>facialLook->saf mutluluk</li>
+    <li>facialLook->şok ve utanç</li>
+    <li>facialLook->keyif</li>
+    <li>facialLook->tarifsiz bir keder</li>
+    <li>facialLook->derin bir düşünce</li>
+    <li>facialLook->kafa karışıklığı</li>
+    <li>facialLook->gurur ve memnuniyet</li>
+    <li>facialLook->keyif</li>
+    <li>facialLook->iğrenme</li>
+    <li>facialLook->başkaldırı</li>
+    <li>facialFeature->şakacı bir sırıtış</li>
+    <li>facialFeature->çatık kaşlar</li>
+    <li>facialFeature->sanatçıyı sorguluyormuşçasına kalkmış bir kaş</li>
+    <li>facialFeature->dışarı çıkardığı uzun bir dil</li>
+    <li>facialFeature->acıyla bükülmüş bir yüz</li>
+    <li>facialFeature->parıldayan gözler</li>
+    <li>facialFeature->huzur doluymuşçasına kapanmış gözler</li>
+    <li>facialFeature->hava verircesine şişmiş yanaklar</li>
+    <li>facialFeature->boncuk gözler ve kıvrılmış dudaklar</li>
+    <li>style_group_statue->[artextra_clause_statue]. [style_clause].</li>
+    <li>style_group_statue->[style_clause]. [artextra_clause_statue].</li>
+    <li>style_group_statue->[style_clause].</li>
+    <li>style_group_statue->[artextra_clause_statue].</li>
+    <li>style_group_statue-></li>
+    <li>artextra_clause_statue->heykelin kaidesi [subimageplural] ile çevrili</li>
+    <li>artextra_clause_statue->öznenin tenine [subimageplural] oyulmuş</li>
+    <li>artextra_clause_statue->heykelin etrafında [subimagesingle] benzeri birkaç küçük oyma var</li>
+    <li>artextra_clause_statue->heykelin bacakları [subimageplural] ile gizlenmiş</li>
+    <li>artextra_clause_statue->heykelin yüzüne bir [subimageany] [carvedVerb]</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite], bir [Community] ortasında duruyor</li>
+    <li>artextra_clause_statue->heykelin tabanı bir [TerrainFeature] gibi görünüyor</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite], bir [TerrainFeature] arasından çıkıyormuş gibi görünüyor</li>
+    <li>artextra_clause_statue->küçük bir [Character], [side_position_statue] beliriyor</li>
+    <li>artextra_clause_statue->[pawn_adj] bir [Character], [side_position_statue] beliriyor</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [Character], [side_position_statue] beliriyor</li>
+    <li>artextra_clause_statue->[Quantity_adjphrase] [pawn_adj] [Character], [side_position_statue] beliriyor</li>
+    <li>artextra_clause_statue->[side_position_statue] oyulmuş bir [Animal] var</li>
+    <li>artextra_clause_statue->uzaktan bakıldığında heykelin [composition] kompozisyonu, [subimageany] ana hatlarını ortaya çıkarıyor</li>
+    <li>artextra_clause_statue->heykel, kolunun altında bir [Animal] tutuyor</li>
+    <li>artextra_clause_statue->heykel, [Quantity_adjphrase] [pawn_adj] [Character] tutuyor</li>
+    <li>artextra_clause_statue->[SUBJECT_indefinite], [statueBodyPart] bölgesinden ikiye ayrılmış. İçinde ise [subimageplural] görünüyor</li>
+    <li>carvedAdverb->özenle</li>
+    <li>carvedAdverb->hızlıca</li>
+    <li>carvedAdverb->kabaca</li>
+    <li>carvedAdverb->titizlikle</li>
+    <li>carvedAdverb->titizlikle</li>
+    <li>carvedVerb->oyulmuş</li>
+    <li>carvedVerb->şekillendirilmiş</li>
+    <li>carvedVerb->yontulmuş</li>
+    <li>statueAdj->inanılmaz büyük</li>
+    <li>statueAdj->devasa</li>
+    <li>statueAdj->kocaman</li>
+    <li>statueAdj->büyük</li>
+    <li>statueAdj->âdeta canlı</li>
+    <li>statueAdj->vakur</li>
+    <li>statueAdj->asaletli</li>
+    <li>statueAdj->vakur</li>
+    <li>statueAdj->soylu</li>
+    <li>statueAdj->sakin</li>
+    <li>statueAdj->yıkık dökük</li>
+    <li>statueAdj->mütevazı</li>
+    <li>statueAdj->açık saçık</li>
+    <li>statueAdj->kaba</li>
+    <li>statueAdj->tahrik edici</li>
+    <li>statueAdj->kışkırtıcı</li>
+    <li>statueAdj->müstehcen</li>
+    <li>statueAdj->grotesk</li>
+    <li>statueAdj->korkutucu</li>
+    <li>statueAdj->görkemli</li>
+    <li>statueDepicts->betimlemesi</li>
+    <li>statueDepicts->gösterimi</li>
+    <li>statueDepicts->tasviri</li>
+    <li>side_position_statue->tabanında</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün yanındaki kaidede</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün topuğunun altında</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün kollarında</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün kafasının üstünde</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün omuzlarında</li>
+    <li>side_position_statue->merkezdeki heykelin arkasında</li>
+    <li>side_position_statue->figürün [statueBodyPart] bölgesine oyulmuş bir boşlukta</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün avucunda</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün [statueBodyPart] bölgesinden çıkıyormuşçasına</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün ağzından çıkarmışçasına</li>
+    <li>side_position_statue->[SUBJECT_indefinite] figürünün arkasında</li>
+    <li>statueBodyPart->göğüs</li>
+    <li>statueBodyPart->karın</li>
+    <li>statueBodyPart->sırt</li>
+    <li>statueBodyPart->kafa</li>
+    <li>statueBodyPart->göz</li>
+    <li>prop->kitap</li>
+    <li>prop->kılıç</li>
+    <li>prop->mızrak</li>
+    <li>prop->silah</li>
+    <li>prop->psişik yadigâr</li>
+    <li>prop->insan kalbi</li>
+  </ArtDescription_Statue.rulePack.rulesStrings>
+  
+  <!-- EN:
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]'s statue</li>
+    <li>r_statue_name->Study of [SUBJECT_indefinite]</li>
+    <li>r_statue_name->A Study in [statueIdea]</li>
+    <li>r_statue_name->[statueAdj] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], the [statueAdj]</li>
+    <li>r_statue_name->The [statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->Figure of [statueIdea]</li>
+    <li>r_statue_name->[statueIdea] and [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite]'s [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite], the [subjectNoun]</li>
+    <li>r_statue_name->The [subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] of [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] and [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
+    <li>statueAdj->Sculpted</li>
+    <li>statueAdj->Silent</li>
+    <li>statueAdj->Eternal</li>
+    <li>statueAdj->Perfect</li>
+    <li>statueAdj->Chiseled</li>
+    <li>statueAdj->Timeless</li>
+    <li>statueAdj->Unbroken</li>
+    <li>statueAdj->Echoing</li>
+    <li>statueAdj->Ideal</li>
+    <li>statueAdj->Human</li>
+    <li>statueAdj->Flawed</li>
+    <li>statueAdj->Watchful</li>
+    <li>statueAdj->Echoing</li>
+    <li>statueAdj->Mournful</li>
+    <li>statueAdj->Frozen</li>
+    <li>statueAdj->Crumbling</li>
+    <li>subjectNoun(p=2)->[PersonJob]</li>
+    <li>subjectNoun(p=2)->[PersonFamily]</li>
+    <li>subjectNoun(p=2)->[PersonAlly]</li>
+    <li>subjectNoun(p=2)->[PersonBadass]</li>
+    <li>subjectNoun->Watcher</li>
+    <li>subjectNoun->Hero</li>
+    <li>subjectNoun->Legend</li>
+    <li>subjectNoun->Defender</li>
+    <li>subjectNoun->Sentinel</li>
+    <li>subjectNoun->Adonis</li>
+    <li>subjectNoun->Spirit</li>
+    <li>subjectNoun->Figure</li>
+    <li>subjectNoun->Image</li>
+    <li>subjectNoun->Soul</li>
+    <li>subjectNoun->Body</li>
+    <li>subjectNoun->Visage</li>
+    <li>subjectNoun->Contemplation</li>
+    <li>subjectNoun->Form</li>
+    <li>subjectNoun->Angel</li>
+    <li>subjectNoun->Statue</li>
+    <li>subjectNoun->Mirage</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea->Strength</li>
+    <li>statueIdea->Wisdom</li>
+    <li>statueIdea->Cunning</li>
+    <li>statueIdea->Heroism</li>
+    <li>statueIdea->Power</li>
+    <li>statueIdea->Memory</li>
+    <li>statueIdea->Spirit</li>
+    <li>statueIdea->Light</li>
+    <li>statueIdea->Patriotism</li>
+    <li>statueIdea->Morning Light</li>
+    <li>statueIdea->Night Sky</li>
+    <li>statueIdea->Sunrise</li>
+    <li>statueIdea->Drifting Sand</li>
+    <li>statueIdea->Everlasting Love</li>
+    <li>statueIdea->Passion</li>
+  -->
+  <NamerStatue.rulePack.rulesStrings>
+    <li>r_statue_name(p=4)->[SUBJECT_nameFull]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] heykeli</li>
+    <li>r_statue_name->[SUBJECT_indefinite] üzerine bir çalışma</li>
+    <li>r_statue_name->[statueIdea] çalışması</li>
+    <li>r_statue_name->[statueAdj] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[statueAdj] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->[statueAdj] [subjectNoun]</li>
+    <li>r_statue_name->[statueIdea] figürü</li>
+    <li>r_statue_name->[statueIdea] ve [subjectNoun]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] ve [subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] [SUBJECT_indefinite]</li>
+    <li>r_statue_name->[subjectNoun]</li>
+    <li>r_statue_name->[subjectNoun] [statueIdea]</li>
+    <li>r_statue_name->[SUBJECT_indefinite] ve [talktopicheavyfile]</li>
+    <li>statueAdj(p=5)->[AdjectiveAny]</li>
+    <li>statueAdj->Şekillendirilmiş</li>
+    <li>statueAdj->Sessiz</li>
+    <li>statueAdj->Ebedî</li>
+    <li>statueAdj->Mükemmel</li>
+    <li>statueAdj->Biçimli</li>
+    <li>statueAdj->Zamansız</li>
+    <li>statueAdj->Kırılmamış</li>
+    <li>statueAdj->Yankılanan</li>
+    <li>statueAdj->İdeal</li>
+    <li>statueAdj->İnsan</li>
+    <li>statueAdj->Kusurlu</li>
+    <li>statueAdj->Dikkatli</li>
+    <li>statueAdj->Yankılanan</li>
+    <li>statueAdj->Kederli</li>
+    <li>statueAdj->Donmuş</li>
+    <li>statueAdj->Yıkık</li>
+    <li>subjectNoun(p=2)->[PersonJob]</li>
+    <li>subjectNoun(p=2)->[PersonFamily]</li>
+    <li>subjectNoun(p=2)->[PersonAlly]</li>
+    <li>subjectNoun(p=2)->[PersonBadass]</li>
+    <li>subjectNoun->Gözcü</li>
+    <li>subjectNoun->Kahraman</li>
+    <li>subjectNoun->Efsane</li>
+    <li>subjectNoun->Savunucu</li>
+    <li>subjectNoun->Nöbetçi</li>
+    <li>subjectNoun->Adonis</li>
+    <li>subjectNoun->Ruh</li>
+    <li>subjectNoun->Figür</li>
+    <li>subjectNoun->İmge</li>
+    <li>subjectNoun->Tin</li>
+    <li>subjectNoun->Beden</li>
+    <li>subjectNoun->Çehre</li>
+    <li>subjectNoun->Tefekkür</li>
+    <li>subjectNoun->Form</li>
+    <li>subjectNoun->Melek</li>
+    <li>subjectNoun->Heykel</li>
+    <li>subjectNoun->Serap</li>
+    <li>statueIdea(p=3)->[ConceptPositive]</li>
+    <li>statueIdea(p=3)->[ConceptBadass]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea(p=3)->[ConceptAngsty]</li>
+    <li>statueIdea->Kuvvet</li>
+    <li>statueIdea->Bilgelik</li>
+    <li>statueIdea->Kurnazlık</li>
+    <li>statueIdea->Kahramanlık</li>
+    <li>statueIdea->Güç</li>
+    <li>statueIdea->Hafıza</li>
+    <li>statueIdea->Ruh</li>
+    <li>statueIdea->Işık</li>
+    <li>statueIdea->Vatanseverlik</li>
+    <li>statueIdea->Sabah Güneşi</li>
+    <li>statueIdea->Gece Göğü</li>
+    <li>statueIdea->Gün Doğumu</li>
+    <li>statueIdea->Sürüklenen Kumlar</li>
+    <li>statueIdea->Ebedî Aşk</li>
+    <li>statueIdea->Tutku</li>
+  </NamerStatue.rulePack.rulesStrings>
+  
+</LanguageData>
