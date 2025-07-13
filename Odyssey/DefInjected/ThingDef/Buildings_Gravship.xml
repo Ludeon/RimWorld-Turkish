@@ -15,6 +15,11 @@
   <!-- EN: A gravtech unit that allows grav engine lift to coordinate more efficiently with traditional thrusters. It reduces the fuel needed for gravship flight.\n\nA gravship can support two fuel optimizers. -->
   <FuelOptimizer.description>Grav motorunun yükselme işlevinin, geleneksel iticilerle daha verimli şekilde koordine olmasını sağlayan bir gravteknolojisi ünitesi. Gravgemi uçuşu için gereken yakıtı azaltır.\n\nBir gravgemi, iki yakıt optimizatörü destekleyebilir.</FuelOptimizer.description>
   
+  <!-- EN: grav anchor -->
+  <GravAnchor.label>grav çapası</GravAnchor.label>
+  <!-- EN: Prevents the local map from being destroyed during a gravship launch.\n\nGrav anchors passively reduce unstable gravitation shear in a large area, which prevents the damaging effects of a gravship launch. It can't be constructed on the gravship itself because it would prevent flight entirely. -->
+  <GravAnchor.description>Gravgeminin kalkışı esnasında yerel haritanın yok olmasını önler.\n\nGrav çapaları, geniş bir alandaki dengesiz yerçekimi kesilimini pasif olarak azaltır; bu da bir gravgeminin fırlatılmasının yol açabileceği zararlı etkileri engeller. Bu cihaz gravgeminin üzerine inşa edilemez, çünkü bu durumda tamamen uçmasını engeller.</GravAnchor.description>
+  
   <!-- EN: gravcore power cell -->
   <GravcorePowerCell.label>gravçekirdeği güç hücresi</GravcorePowerCell.label>
   <!-- EN: A power generator that passively draws a small amount of energy from gravitational waves passing through the gravship. -->
@@ -22,7 +27,7 @@
   
   <!-- EN: grav engine -->
   <GravEngine.label>grav motoru</GravEngine.label>
-  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
+  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.\n\nWhen launched, anything on substructure that's connected to the grav engine will be transported to a new map. Without a grav anchor, launching a gravship will abandon your current map.\n\nGlitterworld engineers use gravships to launch orbital platforms and build skyrippers. They require massive and hyper-specialized facilities to produce, making them a rare sight outside of glitterworlds. -->
   <GravEngine.description>Bir gravgeminin ultrateknoloji kalbi. Grav motoru, çevresindeki alan içinde yer çekimi etkisini tersine çevirip yoğunlaştırarak yükselme kuvveti oluşturur. Bu motor, havalanmayı sağlar ancak ileri yönlü itiş gücü yoktur. Gezegen gibi büyük bir yer çekimi kaynağından uzakta çalışamaz, bu yüzden gezegenler arası yolculukta işe yaramaz.\n\nBaşlatıldığında grav motoruna bağlı tüm altyapı, yeni bir haritaya taşınır. Bir gravgemiyi fırlatmak mevcut haritanızı bırakacaktır.\n\nIşıltıdünya mühendisleri, yörünge platformları fırlatmak ve semadelen inşa etmek için gravgemileri kullanır. Üretimi için devasa ve son derece özel tesisler gerektiğinden ışıltıdünya dışında nadiren görülür.</GravEngine.description>
   
   <!-- EN: grav field extender -->
@@ -53,7 +58,7 @@
   
   <!-- EN: large thruster -->
   <LargeThruster.label>büyük itici</LargeThruster.label>
-  <!-- EN: An advanced chemfuel thruster with a heat-resistant stellite liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires stellite blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
+  <!-- EN: An advanced chemfuel thruster with a heat-resistant vacstone liner. It greatly increases the range of a gravship. Thrusters require an unobstructed area free of large buildings and gravship substructure.\n\nRequires vacstone blocks, which can be obtained from orbital asteroids.\n\nA gravship can support up to six large thrusters. -->
   <LargeThruster.description>Isıya dayanıklı vactaşı astarlı, gelişmiş bir kimyakıt itici. Bir gravgeminin menzilini büyük ölçüde artırır. İticilerin, büyük binalardan ve gravgemi altyapısından arındırılmış engelsiz bir alana ihtiyacı vardır.\n\nVactaşı blokları gerektirir. Bu bloklar, yörünge asteroitlerinden elde edilebilir.\n\nBir gravgemi, en fazla altı büyük itici destekleyebilir.</LargeThruster.description>
   
   <!-- EN: minified thing -->
