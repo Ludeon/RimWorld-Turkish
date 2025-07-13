@@ -17,7 +17,7 @@
 
   <!-- EN: Launch -->
   <CommandLaunchGravship>Fırlat</CommandLaunchGravship>
-  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned. -->
+  <!-- EN: Choose a colonist to pilot the gravship. Anything on gravship substructure will be transported to a new map. Your current map will be abandoned if you don't have a grav anchor. -->
   <CommandLaunchGravshipDesc>Gravgemiyi kullanacak bir kolonici seç. Gravgeminin altyapısındaki her şey yeni bir haritaya taşınacak. Mevcut haritanız terk edilecek.</CommandLaunchGravshipDesc>
 
   <!-- EN: Allow fishing -->
@@ -26,9 +26,9 @@
   <CommandAllowFishDesc>Devre dışı bırakıldığında koloniciler bu bölgede asla balık tutmaz.</CommandAllowFishDesc>
   
   <!-- EN: Allow removing items -->
-  <CommandAllowRemovingApparel>Eşya kaldırmaya izin ver</CommandAllowRemovingApparel> <!-- text_todo -->
-  <!-- EN: When disabled, haulers won’t remove items from the outfit stand and colonists won’t equip apparel unless ordered to do so. -->
-  <CommandAllowRemovingApparelDesc>Devre dışı bırakıldığında taşıyıcılar kıyafet standından eşyaları kaldıramaz ve koloniciler ancak emir verilirse kıyafet giyer.</CommandAllowRemovingApparelDesc> <!-- text_todo -->
+  <CommandAllowRemovingApparel>Eşya kaldırmaya izin ver</CommandAllowRemovingApparel>
+  <!-- EN: When disabled, haulers won't remove items from the outfit stand and colonists won't equip apparel unless ordered to do so. -->
+  <CommandAllowRemovingApparelDesc>Devre dışı bırakıldığında taşıyıcılar kıyafet standından eşyaları kaldıramaz ve koloniciler ancak emir verilirse kıyafet giyer.</CommandAllowRemovingApparelDesc>
 
   <!-- EN: No colonist capable of piloting shuttle. Requires minimum piloting ability of 10%. -->
   <CommandShuttleNoPilot>Mevcut kolonicilerden hiçbiri mekiği kullanamaz. En az %10 pilotaj yeteneği gereklidir.</CommandShuttleNoPilot>
@@ -37,6 +37,16 @@
   <ConfirmLandGravship>İniş alanını onayla</ConfirmLandGravship>
   <!-- EN: Land your gravship in the landing zone. -->
   <ConfirmLandGravshipDesc>Gravgeminizi iniş alanına indirin.</ConfirmLandGravshipDesc>
+  <!-- EN: Abort landing -->
+  <AbortLandGravship>İnişi iptal et</AbortLandGravship>
+  <!-- EN: Cancel landing on this map, and force the gravship to land nearby on the world map. Useful if you can't find a landing spot.\n\nWarning: This increases the chance of a mishap when landing. -->
+  <AbortLandGravshipDesc>Bu haritadaki inişi iptal et ve gravgemiyi dünya haritasında rastgele bir yakın konuma inmeye zorla. İniş noktası bulamadığında işe yarayabilir.\n\nUyarı: Bu, iniş sırasında bir aksilik yaşanma ihtimalini artırır.</AbortLandGravshipDesc>
+  <!-- EN: Aborting the landing will force your gravship to land in a random nearby location on the world map. This increases the chance of a mishap when landing.\n\nAre you sure you want to continue? -->
+  <AbortLandConfirmation>İnişi iptal etmek, gravgeminin dünya haritasında rastgele bir yakın konuma inmesine neden olacaktır. Bu, iniş sırasında bir aksilik yaşanma ihtimalini artırır.\n\nDevam etmek istediğinden emin misin?</AbortLandConfirmation>
+  <!-- EN: Failed to find crash site. -->
+  <FailedToFindCrashSite>Kaza alanı bulunamadı.</FailedToFindCrashSite>
+  <!-- EN: You must designate a landing area for your gravship. -->
+  <GravshipLandingMarkerNotPlaced>Gravgemin için iniş alanı belirlemelisin.</GravshipLandingMarkerNotPlaced>
 
   <!-- EN: Refuel from cargo -->
   <CommandRefuelShuttleFromCargo>Kargodan yakıt doldur</CommandRefuelShuttleFromCargo>
@@ -62,4 +72,7 @@
   <GravshipShieldOrderActivationDesc>Bir piyona gravgemi kalkan jeneratörünü aktifleştirmesini emredin.</GravshipShieldOrderActivationDesc>
   <!-- EN: Order a pawn to deactivate the gravship shield generator. -->
   <GravshipShieldOrderDeactivationDesc>Bir piyona gravgemi kalkan jeneratörünü devre dışı bırakmasını emredin.</GravshipShieldOrderDeactivationDesc>
+
+  <!-- EN: Merging these caravans will cause the following to be lost:\n{0}\n\nAre you sure you want to continue? -->
+  <ConfirmMergeShuttles>Bu kervanları birleştirmek şunların kaybedilmesine neden olacak:\n{0}\n\nDevam etmek istediğinden emin misin?</ConfirmMergeShuttles>
 </LanguageData>

@@ -10,6 +10,8 @@
   <CannotLaunchNotEnoughFuel>yeterli yakıt yok</CannotLaunchNotEnoughFuel>
   <!-- EN: Cannot reach this destination -->
   <CannotLaunchDestination>Bu noktaya ulaşılamıyor</CannotLaunchDestination>
+  <!-- EN: Cannot land on the same tile -->
+  <CannotLandOnSameTile>Aynı noktaya inemez</CannotLandOnSameTile>
   <!-- EN: Connected substructure -->
   <ConnectedSubstructure>Bağlı altyapı</ConnectedSubstructure>
   <!-- EN: Substructure blueprints placed -->
@@ -56,16 +58,18 @@
   <GravshipBlockedBy>{0_label} tarafından engellendi</GravshipBlockedBy>
   <!-- EN: Can't place in undiscovered area -->
   <GravshipBlockedByFog>Keşfedilmemiş alana yerleştirilemez</GravshipBlockedByFog>
+  <!-- EN: Blocked by roof -->
+  <GravshipBlockedByRoof>Çatı tarafından engellendi</GravshipBlockedByRoof>
   <!-- EN: Can't place outside map bounds -->
   <GravshipOutOfBounds>Harita sınırları dışına yerleştirilemez</GravshipOutOfBounds>
   <!-- EN: Can't place close to the map edge -->
   <GravshipInNoBuildArea>Harita kenarına çok yakın yerleştirilemez</GravshipInNoBuildArea>
   <!-- EN: Can't place in blocked area -->
-  <GravshipInBlockedArea>Engellenmiş alana yerleştirilemez</GravshipInBlockedArea> <!-- text_todo -->
+  <GravshipInBlockedArea>Engellenmiş alana yerleştirilemez</GravshipInBlockedArea>
   <!-- EN: Can't place on {0_label} -->
   <GravshipBlockedByTerrain>{0_label} üzerine yerleştirilemez</GravshipBlockedByTerrain>
   <!-- EN: Must be connected to solid ground -->
-  <GravshipMustBeConnectedToLand>Sağlam bir zemine bağlı olmalı</GravshipMustBeConnectedToLand> <!-- text_todo -->
+  <GravshipMustBeConnectedToLand>Sağlam bir zemine bağlı olmalı</GravshipMustBeConnectedToLand>
   <!-- EN: Confirm landing zone to continue -->
   <ConfirmLandingToContinue>Devam etmek için iniş alanını onaylayın</ConfirmLandingToContinue>
   <!-- EN: a valid pilot console -->
@@ -89,17 +93,17 @@
   <!-- EN: Max per gravship -->
   <GravFacilityMaxSimultaneousConnections>Her gravgemi için maksimum</GravFacilityMaxSimultaneousConnections>
   <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>Gravgemiye bağlı değil</ShieldNotConnectedToGravship> <!-- text_todo -->
+  <ShieldNotConnectedToGravship>Gravgemiye bağlı değil</ShieldNotConnectedToGravship>
   <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>Gravgemi kalkışı iptal edildi</GravshipLaunchInterrupted> <!-- text_todo -->
+  <GravshipLaunchInterrupted>Gravgemi kalkışı iptal edildi</GravshipLaunchInterrupted>
   <!-- EN: Not connected to grav engine. -->
   <NotConnectedToGravEngine>Grav motoruna bağlı değil.</NotConnectedToGravEngine>
   <!-- EN: Not functional -->
-  <ThrusterNotFunctional>Çalışmıyor</ThrusterNotFunctional> <!-- text_todo -->
+  <ThrusterNotFunctional>Çalışmıyor</ThrusterNotFunctional>
   <!-- EN: not connected to grav engine -->
-  <ThrusterNotConnected>grav motoruna bağlı değil</ThrusterNotConnected> <!-- text_todo -->
+  <ThrusterNotConnected>grav motoruna bağlı değil</ThrusterNotConnected>
   <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>{0_label} tarafından engellendi</ThrusterBlockedBy> <!-- text_todo -->
+  <ThrusterBlockedBy>{0_label} tarafından engellendi</ThrusterBlockedBy>
   <!-- EN: must be outside -->
   <MustBeOutside>dışarıda olmalı</MustBeOutside>
   <!-- EN: blocked by substructure -->
@@ -144,7 +148,7 @@
   <CannotSelectOrbitReason>Keşfedilmiş yörünge konumu yok.</CannotSelectOrbitReason>
   <!-- EN: Dying from vacuum exposure -->
   <DyingBecauseExposedToVacuum>Vakuma maruz kaldığı için ölüyor</DyingBecauseExposedToVacuum>
-  <!-- EN: Stellite with traces of {RESOURCE_label} -->
+  <!-- EN: Vacstone with traces of {RESOURCE_label} -->
   <TracesOfPreciousResource>{RESOURCE_label} izlerine sahip bir vactaşı</TracesOfPreciousResource>
   <!-- EN: Requires signal jammer -->
   <TransportPodDestinationRequiresSignalJammer>Sinyal bozucu gerekli</TransportPodDestinationRequiresSignalJammer>
@@ -164,12 +168,14 @@
   <Fishing>balıkçılık</Fishing>
   <!-- EN: Cannot fish -->
   <CannotFish>Balık tutulamaz</CannotFish>
-  <!-- EN: Blocked -->
+  <!-- EN: blocked -->
   <FishingSpotBlocked>Engelli</FishingSpotBlocked>
-  <!-- EN: Frozen -->
+  <!-- EN: frozen -->
   <FishingSpotFrozen>Donmuş</FishingSpotFrozen>
-  <!-- EN: Below minimum fish population -->
+  <!-- EN: below minimum fish population -->
   <FishingSpotUnderTargetPopulation>Balık popülasyonu minimumun altında</FishingSpotUnderTargetPopulation>
+  <!-- EN: stored fish exceed fishing zone settings -->
+  <FishingSpotOverTargetResourceCount>depolanan balık, balıkçılık bölgesi ayarlarını aşıyor</FishingSpotOverTargetResourceCount>
   <!-- EN: Fishing -->
   <TabFishing>Balıkçılık</TabFishing>
   <!-- EN: Fish population -->
@@ -221,7 +227,7 @@
   <!-- EN: equip outfit -->
   <SwapOutfit>kıyafeti kuşan</SwapOutfit>
   <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>kıyafeti kuşan...</SwapOutfitGizmo> <!-- text_todo -->
+  <SwapOutfitGizmo>kıyafeti kuşan...</SwapOutfitGizmo>
   <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
   <SwapOutfitDesc>Bir koloniciye stanttaki tüm kıyafetleri kuşanmasını emredin. Kolonici, kuşanmadığı tüm kıyafetleri tekrar standa bırakacak.</SwapOutfitDesc>
   <!-- EN: cannot equip outfit -->
@@ -255,7 +261,7 @@
   <CerebrexCoreOption_Postpone>Ertele</CerebrexCoreOption_Postpone>
   <!-- EN: Stabilizers remaining -->
   <StabilizersRemaining>Kalan dengeleyiciler</StabilizersRemaining>
-  <!-- EN: Producing mechanoids. -->
+  <!-- EN: Gestating mechanoids. -->
   <ProducingMechanoids>Mekanoit üretiliyor.</ProducingMechanoids>
 
   <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
@@ -303,6 +309,10 @@
   <AnimalsAttackTarget>Hayvanları hedefe saldırt</AnimalsAttackTarget>
   <!-- EN: Direct all mastered animals to attack a specific target. -->
   <AnimalsAttackTargetDesc>Tüm sahiplenilmiş hayvanları belirli bir hedefe saldıracak şekilde yönlendirin.</AnimalsAttackTargetDesc>
+  <!-- EN: Cancel attack -->
+  <CancelAttack>Saldırıyı iptal et</CancelAttack>
+  <!-- EN: Clear this animal's current target. -->
+  <CancelAttackDesc>Bu hayvanın mevcuz hedefini sil.</CancelAttackDesc>
   <!-- EN: This animal does not have a master -->
   <NoMaster>Bu hayvanın sahibi yok</NoMaster>
   <!-- EN: This animal's master is not on this map -->
@@ -330,6 +340,6 @@
   <HatchUnlocked>Açıldı.</HatchUnlocked>
 
   <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>Atışları engelleyen kısa ömürlü bir momentum itici yüzey. Normal atışlara ve havanlara karşı etkilidir. Bir EMP ile vurulursa anında kapanır.</GravshipShieldTip> <!-- text_todo -->
+  <GravshipShieldTip>Atışları engelleyen kısa ömürlü bir momentum itici yüzey. Normal atışlara ve havanlara karşı etkilidir. Bir EMP ile vurulursa anında kapanır.</GravshipShieldTip>
 
 </LanguageData>
