@@ -2,8 +2,8 @@
 <LanguageData>
 
   <!-- Grav engine/substructrues -->
-  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. -->
-  <ConfirmGravEngineLaunch>Başlatmak istediğinden emin misin?\n\nMevcut haritan ve gravgemi altyapısı üzerinde olmayan her şey kalıcı olarak kaybolacak. Fırlatma işlemi kalıcı hasara sebep olacağı için geri dönemezsin.</ConfirmGravEngineLaunch>
+  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
+  <ConfirmGravEngineLaunch>Fırlatmak istediğinden emin misin?\n\nMevcut haritan ve gravgemi altyapısı üzerinde olmayan her şey kalıcı olarak kaybolacak. Fırlatma işlemi kalıcı hasara sebep olacağı için geri dönemezsin. Bu haritanın yok olmasını engellemek için bir grav çapası inşa et.</ConfirmGravEngineLaunch>
   <!-- EN: Warning -->
   <GravEngineWarning>Uyarı</GravEngineWarning>
   <!-- EN: The following people will be left behind -->
@@ -29,6 +29,19 @@
   <PlayerGravshipGainsName>Gravgemi artık {0} olarak biliniyor.</PlayerGravshipGainsName>
   <!-- EN: That name isn't valid. -->
   <PlayerGravshipNameIsInvalid>Bu isim geçerli değil.</PlayerGravshipNameIsInvalid>
+
+  <!-- EN: Force visitors to leave -->
+  <GravshipForceVisitorsToLeaveLabel>Ziyaretçileri kov</GravshipForceVisitorsToLeaveLabel>
+  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
+  <GravshipForceVisitorsToLeaveTooltip>Kalkıştan önce tüm ziyaretçilerin gravgemiyi terk etmesini bekle. Düşmanlar, mahkûmlar ve etkisiz hâldeki ziyaretçiler bundan etkilenmez.</GravshipForceVisitorsToLeaveTooltip>
+  <!-- EN: Board colony animals -->
+  <GravshipBoardColonyAnimalsLabel>Koloni hayvanlarını gemiye bindir</GravshipBoardColonyAnimalsLabel>
+  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyAnimalsTooltip>Tüm koloni hayvanlarına gemiye binmelerini emret. Onlar binene kadar gravgemi kalkışı yapılmaz.</GravshipBoardColonyAnimalsTooltip>
+  <!-- EN: Board colony mechanoids -->
+  <GravshipBoardColonyMechsLabel>Koloni mekanoitlerini gemiye bindir</GravshipBoardColonyMechsLabel>
+  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
+  <GravshipBoardColonyMechsTooltip>Tüm koloni mekanoitlerine gemiye binmelerini emret. Onlar binene kadar gravgemi kalkışı yapılmaz.</GravshipBoardColonyMechsTooltip>
 
   <!-- EN: {0} are hostile. If you land here they will attack you. -->
   <ConfirmLandOnHostileFactionBase>{0} fraksiyonu sana düşman. Buraya inersen saldıracaklar.</ConfirmLandOnHostileFactionBase>

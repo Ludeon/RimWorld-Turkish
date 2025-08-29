@@ -108,6 +108,14 @@
   <MustBeOutside>dışarıda olmalı</MustBeOutside>
   <!-- EN: blocked by substructure -->
   <BlockedBySubstructure>altyapı tarafından engellendi</BlockedBySubstructure>
+  <!-- EN: {PAWN_nameDef} cannot board {1} -->
+  <FailedToBoardGravship>{PAWN_nameDef} gemiye binemiyor</FailedToBoardGravship>
+  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
+  <FailedToLeaveGravship>{PAWN_nameDef} gemiden çıkamıyor</FailedToLeaveGravship>
+  <!-- EN: View range -->
+  <ViewRange>Menzili gör</ViewRange>
+  <!-- EN: View the gravship’s current range on the world map. -->
+  <ViewRangeDesc>Gravgeminin dünya haritasındaki mevcut menzilini gör.</ViewRangeDesc>
 
   <!-- Map generation -->
   <!-- EN: Landmark -->
@@ -287,8 +295,10 @@
   <!-- EN: Unique weapon -->
   <UniqueWeapon>Benzersiz silah</UniqueWeapon>
 
+  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
+  <ConfirmLoseGravship>Bir kervan oluşturursan gemini terk edersin. Devam etmek istediğinden emin misin?\n\nGemiyle ayrılmak için önce gemiyi sonra da "fırlat" seçeneğini seç.</ConfirmLoseGravship>
   <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>Bir kervan oluşturursan mekiğini bırakırsın. Devam etmek istediğinden emin misin?\n\nMekikle ile ayrılmak için önce mekiği sonra da "fırlat" seçeneğini seç.</ConfirmLoseShuttle>
+  <ConfirmLoseShuttle>Bir kervan oluşturursan mekiğini terk edersin. Devam etmek istediğinden emin misin?\n\nMekikle ayrılmak için önce mekiği sonra da "fırlat" seçeneğini seç.</ConfirmLoseShuttle>
 
   <!-- EN: Discover a quest -->
   <BookHasQuest>Bir görev keşfet</BookHasQuest>
@@ -296,14 +306,14 @@
   <DiscoveredQuest>keşfedildi</DiscoveredQuest>
 
   <!-- EN: Your orbital scanner has detected -->
-  <QuestDiscoveredFromOrbitalScanner>Yörünge tarayıcın şunu tespit etti</QuestDiscoveredFromOrbitalScanner>
+  <QuestDiscoveredFromOrbitalScanner>yörünge tarayıcın tarafından tespit edildi</QuestDiscoveredFromOrbitalScanner>
   <!-- EN: {HACKER_nameDef} hacked an uplink and discovered -->
-  <QuestDiscoveredFromUplink>{HACKER_nameDef}, bir uplink hackleyip şunu keşfetti</QuestDiscoveredFromUplink>
+  <QuestDiscoveredFromUplink>bir uplinki hackleyen {HACKER_nameDef} tarafından keşfedildi</QuestDiscoveredFromUplink>
 
   <!-- Special Trainables -->
   <!-- EN: Attack -->
   <AnimalAttackTarget>Saldırt</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target that its master can see. -->
+  <!-- EN: Command this animal to attack a specific target. -->
   <AnimalAttackTargetDesc>Bu hayvana, sahibinin görebileceği belirli bir hedefe saldırmasını emret.</AnimalAttackTargetDesc>
   <!-- EN: Animals attack target -->
   <AnimalsAttackTarget>Hayvanları hedefe saldırt</AnimalsAttackTarget>
@@ -328,14 +338,6 @@
   <!-- EN: Allow digging -->
   <DigEnabled>Kazmaya izin ver</DigEnabled>
 
-  <!-- EN: Sealing the ancient stockpile entrance is permanent. Anything or anyone left below will be lost forever.{0}\n\nAre you sure you want to continue? -->
-  <ConfirmSealHatch>Antik depo girişini mühürlemek kilitlemek. Geride kalan herkes ve her şey sonsuza dek kaybolacak.{0}\n\nDevam etmek istediğinden emin misin?</ConfirmSealHatch>
-  <!-- EN: Cannot seal -->
-  <CannotChooseSealer>Kilitlenemiyor</CannotChooseSealer>
-  <!-- EN: Sealed -->
-  <Sealed>Kilitlendi</Sealed>
-  <!-- EN: Permanently sealed. -->
-  <HatchSealed>Kalıcı olarak kilitlendi.</HatchSealed>
   <!-- EN: Unlocked. -->
   <HatchUnlocked>Açıldı.</HatchUnlocked>
 
