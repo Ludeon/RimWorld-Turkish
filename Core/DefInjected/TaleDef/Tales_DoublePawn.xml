@@ -2,9 +2,8 @@
 <LanguageData>
   
   <!-- EN: person captured -->
-  <Captured.label>kişi ele geçirildi</Captured.label>
-  <!-- EN:
-    <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
+  <Captured.label>kişi esir alındı</Captured.label>
+  <!-- EN: <li>tale_noun->[CAPTURER_nameDef] capturing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being captured by [CAPTURER_nameDef]</li>
     <li>tale_noun->the capturing of [PRISONER_nameDef]</li>
     <li>image->[CAPTURER_nameFull] capturing [PRISONER_nameFull] [circumstance_group]</li>
@@ -26,41 +25,40 @@
     <li>desc_sentence->[CAPTURER_nameDef] is holding [PRISONER_nameDef] in a joint lock.</li>
     <li>desc_sentence->[CAPTURER_nameDef] is spitting into [PRISONER_nameDef]'s face.</li>
     <li>desc_sentence->[CAPTURER_nameDef] is laughing as tears well up in [PRISONER_nameDef]'s eyes.</li>
-    <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li>
-  -->
+    <li>desc_sentence->[CAPTURER_nameDef] is kicking [PRISONER_nameDef] for no obvious reason.</li> -->
   <Captured.rulePack.rulesStrings>
-    <li>tale_noun->[PRISONER_nameDef], [CAPTURER_nameDef] tarafından esir alınıyor</li>
-    <li>tale_noun->[PRISONER_nameDef], [CAPTURER_nameDef] tarafından yakalanıyor</li>
-    <li>tale_noun->[PRISONER_nameDef] ele geçiriliyor</li>
-    <li>image->[PRISONER_nameFull] [CAPTURER_nameFull] tarafından yakalanıyor, [circumstance_group]</li>
-    <li>image->[PRISONER_nameFull] [CAPTURER_nameFull] tarafından bağlanıyor, [circumstance_group]</li>
-    <li>image->[PRISONER_nameFull] [CAPTURER_nameFull] tarafından tokatlanarak ele geçiriliyor, [circumstance_group]</li>
-    <li>circumstance_phrase->yerde kıvranıyor</li>
-    <li>circumstance_phrase->acı içinde kıvranıyor</li>
-    <li>circumstance_phrase->profesyonelce esir alınıyor</li>
-    <li>circumstance_phrase->kabaca ve amatörce esir alınıyor</li>
-    <li>circumstance_phrase->açıkça aşırı güç kullanılarak esir alınıyor</li>
-    <li>circumstance_phrase->bariz bir zevkle esir alınıyor</li>
-    <li>circumstance_phrase->üstünlük edasıyla esir alınıyor</li>
-    <li>desc_sentence->[CAPTURER_nameDef], üstünlük edasıyla [PRISONER_nameDef] kişisinin gözlerine bakıyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] yaralı ve acı çekiyor gibi görünüyor.</li>
+
+    <li>tale_noun->[CAPTURER_nameDef] adlı kişinin [PRISONER_nameDef] adlı kişiyi esir alması</li>
+    <li>tale_noun->[PRISONER_nameDef] adlı kişinin [CAPTURER_nameDef] tarafından esir alınması</li>
+    <li>tale_noun->[PRISONER_nameDef] adlı kişinin esir alınması</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişiyi esir alan [CAPTURER_nameFull]</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişinin ellerini bağlayan [CAPTURER_nameFull]</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişiyi esir alırken tokatlayan [CAPTURER_nameFull]</li>
+    <li>circumstance_phrase->esir yerde kıvranırken</li>
+    <li>circumstance_phrase->esir acıyla bükülürken</li>
+    <li>circumstance_phrase->profesyonel bir ustalıkla</li>
+    <li>circumstance_phrase->kaba ve acemice</li>
+    <li>circumstance_phrase->açıkça aşırı bir güç kullanarak</li>
+    <li>circumstance_phrase->bariz bir zevkle</li>
+    <li>circumstance_phrase->üstünlük taslayan bir gülümsemeyle</li>
+    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] adlı kişinin gözlerine üstünlük taslarcasına bakıyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef] yaralı ve acı çekiyor gibi.</li>
     <li>desc_sentence->[PRISONER_nameDef] kaderine boyun eğmiş görünüyor.</li>
     <li>desc_sentence->[PRISONER_nameDef] yenilginin öfkesiyle hırlıyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef], [CAPTURER_nameDef] tarafından üstünlük kurma çabasıyla tokatlanıyor.</li>
-    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] kişisinin kulağını büküyor.</li>
-    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] kişisini kilitli tutuyor.</li>
-    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] kişisinin suratına tükürüyor.</li>
-    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] kişisine bakarak gözlerinden yaş gelircesine gülüyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef], [CAPTURER_nameDef] tarafından durduk yere tekmeleniyor.</li>
+    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] adlı kişiyi zapt etmek için tokatlıyor.</li>
+    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] adlı kişinin kulağını büküyor.</li>
+    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] adlı kişiyi eklem kilidiyle tutuyor.</li>
+    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] adlı kişinin yüzüne tükürüyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef] adlı kişinin gözleri yaşarırken [CAPTURER_nameDef] gülüyor.</li>
+    <li>desc_sentence->[CAPTURER_nameDef], [PRISONER_nameDef] adlı kişiyi belli bir sebep yokken tekmeliyor.</li>
   </Captured.rulePack.rulesStrings>
   
   <!-- EN: defeated hostile leader -->
-  <DefeatedHostileFactionLeader.label>düşman lideri mağlup edildi</DefeatedHostileFactionLeader.label>
+  <DefeatedHostileFactionLeader.label>düşman lider yenildi</DefeatedHostileFactionLeader.label>
   
   <!-- EN: surgery performed -->
   <DidSurgery.label>ameliyat yapıldı</DidSurgery.label>
-  <!-- EN:
-    <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
+  <!-- EN: <li>tale_noun->[SURGEON_nameDef] operating on [PATIENT_nameDef]</li>
     <li>tale_noun->[SURGEON_nameDef] performing a medical operation on [PATIENT_nameDef]</li>
     <li>tale_noun->[PATIENT_nameDef]'s medical operation</li>
     <li>image->[SURGEON_nameFull] putting [PATIENT_nameFull] to sleep with anesthetic [circumstance_group]</li>
@@ -73,29 +71,28 @@
     <li>desc_sentence->[SURGEON_nameDef] is sweating profusely.</li>
     <li>desc_sentence->[SURGEON_nameDef] looks incredibly focused on the task.</li>
     <li>desc_sentence->[SURGEON_nameDef] has blood smeared on [SURGEON_possessive] face.</li>
-    <li>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</li>
-  -->
+    <li>desc_sentence->[PATIENT_nameDef] is shaking and writhing.</li> -->
   <DidSurgery.rulePack.rulesStrings>
-    <li>tale_noun->[PATIENT_nameDef] [SURGEON_nameDef] tarafından ameliyat ediliyor</li>
-    <li>tale_noun->[SURGEON_nameDef] [PATIENT_nameDef] adlı hastayı ameliyat ediyor</li>
-    <li>tale_noun->[PATIENT_nameDef] ameliyat ediliyor</li>
-    <li>image->[SURGEON_nameFull] [PATIENT_nameFull] adlı hastayı anesteziyle uyutuyor, [circumstance_group]</li>
-    <li>image->[SURGEON_nameFull] dirseklerine kadar [PATIENT_nameFull] adlı hastanın içinde, [circumstance_group]</li>
-    <li>image->[SURGEON_nameFull] [PATIENT_nameFull] adlı hastayı kesip açıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->hasta korku ile titriyor</li>
-    <li>circumstance_phrase->ayaklarına doğru kanlar boşalıyor</li>
-    <li>circumstance_phrase->etrafta ürkütücü cerrahi aletler var</li>
-    <li>circumstance_phrase->gelişigüzel aletler kullanıyor</li>
-    <li>desc_sentence->[SURGEON_nameDef] aşırı terliyor.</li>
-    <li>desc_sentence->[SURGEON_nameDef] operasyona inanılmaz derecede odaklanmış görünüyor.</li>
-    <li>desc_sentence->[SURGEON_nameDef] ameliyat yaparken suratına hastanın kanı sıçrıyor.</li>
+
+    <li>tale_noun->[SURGEON_nameDef] adlı kişinin [PATIENT_nameDef] adlı kişiyi ameliyat etmesi</li>
+    <li>tale_noun->[SURGEON_nameDef] adlı kişinin [PATIENT_nameDef] üzerinde tıbbi bir ameliyat yapması</li>
+    <li>tale_noun->[PATIENT_nameDef] adlı kişinin ameliyatı</li>
+    <li>image->[circumstance_group] [PATIENT_nameFull] adlı kişiyi anesteziyle uyutan [SURGEON_nameFull]</li>
+    <li>image->[circumstance_group] ameliyat sırasında kolları dirseğine kadar [PATIENT_nameFull] adlı kişinin içinde olan [SURGEON_nameFull]</li>
+    <li>image->[circumstance_group] ameliyat sırasında [PATIENT_nameFull] adlı kişiyi kesip açan [SURGEON_nameFull]</li>
+    <li>circumstance_phrase->hasta korkudan titrerken</li>
+    <li>circumstance_phrase->[SURGEON_nameDef] adlı kişinin ayaklarının dibinde kan gölü oluşurken</li>
+    <li>circumstance_phrase->ürkütücü görünümlü cerrahi aletlerle çevriliyken</li>
+    <li>circumstance_phrase->derme çatma ama işe yarayan aletlerle</li>
+    <li>desc_sentence->[SURGEON_nameDef] sırılsıklam terlemiş.</li>
+    <li>desc_sentence->[SURGEON_nameDef] işine son derece odaklanmış görünüyor.</li>
+    <li>desc_sentence->[SURGEON_nameDef] adlı kişinin yüzüne kan bulaşmış.</li>
     <li>desc_sentence->[PATIENT_nameDef] titriyor ve kıvranıyor.</li>
   </DidSurgery.rulePack.rulesStrings>
   
   <!-- EN: prisoner executed -->
-  <ExecutedPrisoner.label>mahkûm idam edildi</ExecutedPrisoner.label>
-  <!-- EN:
-    <li>tale_noun->[EXECUTIONER_nameDef] executing [PRISONER_nameDef]</li>
+  <ExecutedPrisoner.label>mahkûm infaz edildi</ExecutedPrisoner.label>
+  <!-- EN: <li>tale_noun->[EXECUTIONER_nameDef] executing [PRISONER_nameDef]</li>
     <li>tale_noun->[PRISONER_nameDef] being executed by [EXECUTIONER_nameDef]</li>
     <li>tale_noun->the execution of [PRISONER_nameDef]</li>
     <li>image->[EXECUTIONER_nameFull] executing [PRISONER_nameFull] [circumstance_group]</li>
@@ -121,42 +118,41 @@
     <li>desc_sentence->[PRISONER_nameDef] is shaking and writhing.</li>
     <li>desc_sentence->[PRISONER_nameDef] seems to have given up entirely.</li>
     <li>desc_sentence->[PRISONER_nameDef] has closed [PRISONER_possessive] eyes, seeming to pray to a higher power.</li>
-    <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li>
-  -->
+    <li>desc_sentence->[PRISONER_nameDef] looks defiant.</li> -->
   <ExecutedPrisoner.rulePack.rulesStrings>
-    <li>tale_noun->[EXECUTIONER_nameDef] [PRISONER_nameDef] adlı mahkûmu idam ediyor</li>
-    <li>tale_noun->[PRISONER_nameDef] [EXECUTIONER_nameDef] tarafından idam ediliyor</li>
-    <li>tale_noun->[PRISONER_nameDef] idam ediliyor</li>
-    <li>image->[PRISONER_nameFull] [EXECUTIONER_nameFull] tarafından idam ediliyor, [circumstance_group]</li>
-    <li>image->[PRISONER_nameFull] [EXECUTIONER_nameFull] tarafından ölümün kollarına teslim ediliyor, [circumstance_group]</li>
-    <li>image->[PRISONER_nameFull] [EXECUTIONER_nameFull] tarafından idama hazırlanıyor, [circumstance_group]</li>
-    <li>image->[EXECUTIONER_nameFull] onu idam etmek üzere [PRISONER_nameFull] adlı mahkûmun hücresine giriyor, [circumstance_group]</li>
-    <li>circumstance_phrase->mahkûm yerde kıvranıyor</li>
-    <li>circumstance_phrase->mahkûm acı içinde kıvranıyor</li>
-    <li>circumstance_phrase->mahkûm dehşet içinde ağlıyor</li>
-    <li>circumstance_phrase->cellat işinde profesyonel</li>
-    <li>circumstance_phrase->cellat kabaca ve amatörce davranıyor</li>
-    <li>circumstance_phrase->cellat aşırı güç kullanıyor</li>
-    <li>circumstance_phrase->cellat bariz biçimde zevk alıyor</li>
-    <li>circumstance_phrase->cellat üstünlük taslıyor</li>
-    <li>circumstance_phrase->mahkûm gözyaşları içinde</li>
-    <li>circumstance_phrase->mahkûm tamamen kayıtsız</li>
-    <li>circumstance_phrase->cellat gereksiz acı çektiriyor</li>
-    <li>circumstance_phrase->cellat başka bir şey düşünüyor</li>
-    <li>circumstance_phrase->bu çoğunluğun iyiliği için yapılıyor</li>
-    <li>desc_sentence->[EXECUTIONER_nameDef] aşırı terliyor.</li>
-    <li>desc_sentence->[EXECUTIONER_nameDef] biraz salya akıtıyor.</li>
-    <li>desc_sentence->[EXECUTIONER_nameDef] idam sırasında suratına kan sıçratıyor.</li>
+
+    <li>tale_noun->[EXECUTIONER_nameDef] adlı kişinin [PRISONER_nameDef] adlı kişiyi idam etmesi</li>
+    <li>tale_noun->[PRISONER_nameDef] adlı kişinin [EXECUTIONER_nameDef] tarafından idam edilmesi</li>
+    <li>tale_noun->[PRISONER_nameDef] adlı kişinin idamı</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişiyi idam eden [EXECUTIONER_nameFull]</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişinin canını alan [EXECUTIONER_nameFull]</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişiyi idam etmeye hazırlanan [EXECUTIONER_nameFull]</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişiyi idam etmek için hücreye giren [EXECUTIONER_nameFull]</li>
+    <li>circumstance_phrase->mahkûm yerde kıvranırken</li>
+    <li>circumstance_phrase->mahkûm acıyla bükülürken</li>
+    <li>circumstance_phrase->mahkûm dehşetle haykırırken</li>
+    <li>circumstance_phrase->profesyonel bir ustalıkla</li>
+    <li>circumstance_phrase->kaba ve acemice</li>
+    <li>circumstance_phrase->açıkça aşırı bir güç kullanarak</li>
+    <li>circumstance_phrase->bariz bir zevkle</li>
+    <li>circumstance_phrase->üstünlük taslayan bir gülümsemeyle</li>
+    <li>circumstance_phrase->gözleri yaşlı hâlde</li>
+    <li>circumstance_phrase->tam bir kayıtsızlıkla</li>
+    <li>circumstance_phrase->gereksiz acı çektirerek</li>
+    <li>circumstance_phrase->aklı başka yerdeyken</li>
+    <li>circumstance_phrase->daha büyük bir iyilik uğruna</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] sırılsıklam terlemiş.</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] hafifçe salya akıtıyor.</li>
+    <li>desc_sentence->[EXECUTIONER_nameDef] adlı kişinin yüzüne kan bulaşmış.</li>
     <li>desc_sentence->[PRISONER_nameDef] titriyor ve kıvranıyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] pes etmiş gibi görünüyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] gözleri kapalı şekilde Tanrı'ya dua ediyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] meydan okuyor gibi görünüyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef] tamamen pes etmiş görünüyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef] gözlerini kapamış, yüce bir güce dua ediyor gibi.</li>
+    <li>desc_sentence->[PRISONER_nameDef] meydan okur gibi bakıyor.</li>
   </ExecutedPrisoner.rulePack.rulesStrings>
   
   <!-- EN: animal hunted -->
   <Hunted.label>hayvan avlandı</Hunted.label>
-  <!-- EN:
-    <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
+  <!-- EN: <li>tale_noun->[HUNTER_nameDef] hunting [PREY_nameDef]</li>
     <li>tale_noun->[PREY_nameDef] being hunted by [HUNTER_nameDef]</li>
     <li>tale_noun->[HUNTER_nameDef]'s successful hunt</li>
     <li>image->[PREY_nameFull] being hunted by [HUNTER_nameFull] [circumstance_group]</li>
@@ -167,27 +163,26 @@
     <li>circumstance_phrase->as [PREY_nameDef] eats</li>
     <li>desc_sentence->[PREY_nameDef] seems totally oblivious.</li>
     <li>desc_sentence->[HUNTER_nameDef] is gripping [HUNTER_possessive] weapon tightly.</li>
-    <li>desc_sentence->[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li>
-  -->
+    <li>desc_sentence->[PREY_nameDef] is looking around as though [PREY_pronoun] senses that something is wrong.</li> -->
   <Hunted.rulePack.rulesStrings>
-    <li>tale_noun->[HUNTER_nameDef] [PREY_nameDef] avlıyor</li>
-    <li>tale_noun->[PREY_nameDef] [HUNTER_nameDef] tarafından avlanıyor</li>
-    <li>tale_noun->[HUNTER_nameDef] adlı avcının başarılı avı</li>
-    <li>image->[PREY_nameFull] [HUNTER_nameFull] tarafından avlanıyor, [circumstance_group]</li>
-    <li>image->[PREY_nameFull] [HUNTER_nameFull] tarafından takip ediliyor, [circumstance_group]</li>
-    <li>image->[HUNTER_nameFull] [PREY_nameFull] avlıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->[PREY_nameDef] o sırada dinleniyor</li>
-    <li>circumstance_phrase->[PREY_nameDef] o sırada yürüyor</li>
-    <li>circumstance_phrase->[PREY_nameDef] o sırada besleniyor</li>
-    <li>desc_sentence->[PREY_nameDef] tamamen habersiz görünüyor.</li>
-    <li>desc_sentence->[HUNTER_nameDef] silahını sıkıca tutuyor.</li>
-    <li>desc_sentence->[PREY_nameDef] bir şeylerin farklı olduğunu algılar gibi etrafa bakıyor.</li>
+
+    <li>tale_noun->[HUNTER_nameDef] adlı kişinin [PREY_nameDef] adlı hayvanı avlaması</li>
+    <li>tale_noun->[PREY_nameDef] adlı hayvanın [HUNTER_nameDef] tarafından avlanması</li>
+    <li>tale_noun->[HUNTER_nameDef] adlı kişinin başarılı avı</li>
+    <li>image->[circumstance_group] [HUNTER_nameFull] tarafından avlanan [PREY_nameFull]</li>
+    <li>image->[circumstance_group] [PREY_nameFull] adlı hayvanı uzaktan takip eden [HUNTER_nameFull]</li>
+    <li>image->[circumstance_group] [PREY_nameFull] adlı hayvanı avlayan [HUNTER_nameFull]</li>
+    <li>circumstance_phrase->[PREY_nameDef] dinlenirken</li>
+    <li>circumstance_phrase->[PREY_nameDef] yol alırken</li>
+    <li>circumstance_phrase->[PREY_nameDef] beslenirken</li>
+    <li>desc_sentence->[PREY_nameDef] olan bitenden tamamen habersiz görünüyor.</li>
+    <li>desc_sentence->[HUNTER_nameDef] silahını sıkıca kavramış.</li>
+    <li>desc_sentence->[PREY_nameDef] bir şeylerin ters gittiğini sezmiş gibi etrafına bakınıyor.</li>
   </Hunted.rulePack.rulesStrings>
   
   <!-- EN: colonist kidnapped -->
-  <KidnappedColonist.label>kolonici kaçırıldı</KidnappedColonist.label>
-  <!-- EN:
-    <li>tale_noun->[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
+  <KidnappedColonist.label>kolonist kaçırıldı</KidnappedColonist.label>
+  <!-- EN: <li>tale_noun->[KIDNAPPER_nameDef] kidnapping [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] being kidnapped by [KIDNAPPER_nameDef]</li>
     <li>tale_noun->the kidnapping of [VICTIM_nameDef]</li>
     <li>image->[KIDNAPPER_nameFull] carrying [VICTIM_nameFull] away to [KIDNAPPER_factionName] [circumstance_group]</li>
@@ -205,34 +200,33 @@
     <li>desc_sentence->[VICTIM_nameDef] looks defiant.</li>
     <li>desc_sentence->[VICTIM_nameDef] is screaming with rage and terror.</li>
     <li>desc_sentence->[VICTIM_nameDef] looks broken and exhausted.</li>
-    <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li>
-  -->
+    <li>desc_sentence->[VICTIM_nameDef] appears to be badly wounded.</li> -->
   <KidnappedColonist.rulePack.rulesStrings>
-    <li>tale_noun->[KIDNAPPER_nameDef] [VICTIM_nameDef] adlı kurbanı kaçırıyor</li>
-    <li>tale_noun->[VICTIM_nameDef] [KIDNAPPER_nameDef] tarafından kaçırılıyor</li>
-    <li>tale_noun->[VICTIM_nameDef] kaçırılıyor</li>
-    <li>image->[KIDNAPPER_nameFull] [VICTIM_nameFull] kişisini [KIDNAPPER_factionName] fraksiyonuna kaçırıyor, [circumstance_group]</li>
-    <li>image->[KIDNAPPER_factionName] fraksiyonundan [KIDNAPPER_nameFull] [VICTIM_nameFull] kişisini kaçırıyor, [circumstance_group]</li>
-    <li>image->[VICTIM_nameFull] [KIDNAPPER_nameFull] tarafından kaçırılıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->kurban acı içinde kıvranıyor</li>
-    <li>circumstance_phrase->saldırgan profesyonelce hareket ediyor</li>
-    <li>circumstance_phrase->saldırgan kabaca ve amatörce davranıyor</li>
-    <li>circumstance_phrase->saldırgan aşırı güç kullanıyor</li>
-    <li>circumstance_phrase->saldırgan bariz biçimde zevk alıyor</li>
-    <li>circumstance_phrase->saldırgan üstünlük taslıyor</li>
-    <li>circumstance_phrase->kurban kana ve pisliğe bulanmış</li>
-    <li>desc_sentence->[VICTIM_nameDef] tamamen pes etmiş gibi görünüyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] gözleri kapalı şekilde Tanrı'ya dua ediyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] meydan okuyor gibi görünüyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] çılgınca bir öfkeyle çığlık atıyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] kırgın ve bitkin görünüyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] kötü bir şekilde yaralanmış gözüküyor.</li>
+
+    <li>tale_noun->[KIDNAPPER_nameDef] adlı kişinin [VICTIM_nameDef] adlı kişiyi kaçırması</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kişinin [KIDNAPPER_nameDef] tarafından kaçırılması</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kişinin kaçırılması</li>
+    <li>image->[circumstance_group] [VICTIM_nameFull] adlı kişiyi [KIDNAPPER_factionName] hizbine götüren [KIDNAPPER_nameFull]</li>
+    <li>image->[circumstance_group] [VICTIM_nameFull] adlı kişiyi kaçıran, [KIDNAPPER_factionName] hizbinden [KIDNAPPER_nameFull]</li>
+    <li>image->[circumstance_group] [VICTIM_nameFull] adlı kişiyi kaçıran [KIDNAPPER_nameFull]</li>
+    <li>circumstance_phrase->kurban acıyla bükülürken</li>
+    <li>circumstance_phrase->profesyonel bir ustalıkla</li>
+    <li>circumstance_phrase->kaba ve acemice</li>
+    <li>circumstance_phrase->açıkça aşırı bir güç kullanarak</li>
+    <li>circumstance_phrase->bariz bir zevkle</li>
+    <li>circumstance_phrase->üstünlük taslayan bir gülümsemeyle</li>
+    <li>circumstance_phrase->kan ve pislik içindeyken</li>
+    <li>desc_sentence->[VICTIM_nameDef] tamamen pes etmiş görünüyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] gözlerini kapamış, yüce bir güce dua ediyor gibi.</li>
+    <li>desc_sentence->[VICTIM_nameDef] meydan okur gibi bakıyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] öfke ve dehşetle çığlık atıyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] yıkılmış ve bitkin görünüyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] ağır yaralı görünüyor.</li>
   </KidnappedColonist.rulePack.rulesStrings>
   
   <!-- EN: death -->
   <KilledBy.label>ölüm</KilledBy.label>
-  <!-- EN:
-    <li>tale_noun->[KILLER_nameDef] killing [VICTIM_nameDef]</li>
+  <!-- EN: <li>tale_noun->[KILLER_nameDef] killing [VICTIM_nameDef]</li>
     <li>tale_noun->[VICTIM_nameDef] being killed by [KILLER_nameDef]</li>
     <li>tale_noun->the killing of [VICTIM_nameDef] by [KILLER_nameDef]</li>
     <li>tale_noun->the killing of [VICTIM_nameDef]</li>
@@ -257,47 +251,46 @@
     <li>desc_sentence->[KILLER_nameDef] seems satisfied.</li>
     <li>desc_sentence->[KILLER_nameDef] looks distressed at what [KILLER_pronoun] is doing.</li>
     <li>desc_sentence->[KILLER_nameDef] looks pleased with the situation.</li>
-    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li>
-  -->
+    <li>desc_sentence->[KILLER_nameDef] looks triumphant.</li> -->
   <KilledBy.rulePack.rulesStrings>
-    <li>tale_noun->[KILLER_nameDef] [VICTIM_nameDef] adlı maktülü kişisini öldürüyor</li>
-    <li>tale_noun->[VICTIM_nameDef] [KILLER_nameDef] tarafından öldürülüyor</li>
-    <li>tale_noun->[VICTIM_nameDef] [KILLER_nameDef] tarafından katlediliyor</li>
-    <li>tale_noun->[VICTIM_nameDef] öldürülüyor</li>
-    <li>image->[VICTIM_nameFull] [KILLER_nameFull] tarafından öldürülüyor, [circumstance_group]</li>
-    <li>image->[VICTIM_nameFull] [KILLER_nameFull] adlı maktülü öldürüyor, [circumstance_group]</li>
-    <li>image->[KILLER_nameFull] [VICTIM_nameFull] adlı maktülün yaşamına son veriyor, [circumstance_group]</li>
-    <li>image->[VICTIM_nameFull] [KILLER_nameFull] tarafından vahşi biçimde öldürülüyor [circumstance_group]</li>
-    <li>image->[VICTIM_nameFull] öldürülüyor, [circumstance_group]</li>
-    <li>circumstance_phrase->katil pişman değil</li>
-    <li>circumstance_phrase->katil soğukkanlı</li>
-    <li>circumstance_phrase->katil öfkeyle hareket ediyor</li>
-    <li>circumstance_phrase->katil hızlı hamlelerle işini bitiriyor</li>
-    <li>circumstance_phrase->katil duygusuzca hareket ediyor</li>
-    <li>circumstance_phrase->katil bunu mecburiyetten yapıyor</li>
-    <li>circumstance_phrase->katil cinayeti korkakça ve yüreksizce işliyor</li>
-    <li>desc_sentence->Güneş, arka planda sembolik şekilde batıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] seyrediyor.</li>
-    <li>desc_sentence->[PersonJob] [side_position] sessizce izliyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] adlı kurbanın kanları etrafa saçılıyor.</li>
-    <li>desc_sentence->[VICTIM_nameDef] adlı kurbanın gözleri cansız bir şekilde bakıyor.</li>
-    <li>desc_sentence->[KILLER_nameDef] kurbanın dişlerini söküyor.</li>
-    <li>desc_sentence->[KILLER_nameDef] tatmin olmuş görünüyor.</li>
-    <li>desc_sentence->[KILLER_nameDef] yaptığından dolayı stresli gözüküyor.</li>
-    <li>desc_sentence->[KILLER_nameDef] durumdan memnun görünüyor.</li>
+
+    <li>tale_noun->[KILLER_nameDef] adlı kişinin [VICTIM_nameDef] adlı kişiyi öldürmesi</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kişinin [KILLER_nameDef] tarafından öldürülmesi</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kişinin [KILLER_nameDef] eliyle öldürülüşü</li>
+    <li>tale_noun->[VICTIM_nameDef] adlı kişinin öldürülmesi</li>
+    <li>image->[circumstance_group] [KILLER_nameFull] tarafından öldürülen [VICTIM_nameFull]</li>
+    <li>image->[circumstance_group] [VICTIM_nameFull] adlı kişiyi öldüren [KILLER_nameFull]</li>
+    <li>image->[circumstance_group] [VICTIM_nameFull] adlı kişinin hayatına son veren [KILLER_nameFull]</li>
+    <li>image->[circumstance_group] [VICTIM_nameFull] adlı kişiyi vahşice katleden [KILLER_nameFull]</li>
+    <li>image->[circumstance_group] öldürülen [VICTIM_nameFull]</li>
+    <li>circumstance_phrase->görünüşe göre hiç pişmanlık duymadan</li>
+    <li>circumstance_phrase->soğukkanlı bir ustalıkla</li>
+    <li>circumstance_phrase->tutkulu bir öfkeyle</li>
+    <li>circumstance_phrase->hızlı ve etkili hareketlerle</li>
+    <li>circumstance_phrase->hiçbir duygu ya da ifade göstermeden</li>
+    <li>circumstance_phrase->acı bir zorunluluktan</li>
+    <li>circumstance_phrase->korkakça ve gönülsüzce</li>
+    <li>desc_sentence->Olayın sembolik bir yankısı gibi, arkalarında güneş batıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] olanları izliyor.</li>
+    <li>desc_sentence->Bir [PersonJob] [side_position] sessizce izliyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] adlı kişinin cesedinin etrafında kan göleti oluşuyor.</li>
+    <li>desc_sentence->[VICTIM_nameDef] adlı kişinin gözleri gerçekçi bir cansızlıkla resmedilmiş.</li>
+    <li>desc_sentence->[KILLER_nameDef] dişlerini gösteriyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] memnun görünüyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] yaptığı şeyden ötürü sıkıntılı görünüyor.</li>
+    <li>desc_sentence->[KILLER_nameDef] durumdan hoşnut görünüyor.</li>
     <li>desc_sentence->[KILLER_nameDef] muzaffer görünüyor.</li>
   </KilledBy.rulePack.rulesStrings>
   
   <!-- EN: colonist killed -->
-  <KilledColonist.label>kolonici öldürüldü</KilledColonist.label>
+  <KilledColonist.label>kolonist öldürüldü</KilledColonist.label>
   
   <!-- EN: colony animal killed -->
   <KilledColonyAnimal.label>koloni hayvanı öldürüldü</KilledColonyAnimal.label>
   
   <!-- EN: person recruited -->
-  <Recruited.label>kişi koloniye katıldı</Recruited.label>
-  <!-- EN:
-    <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
+  <Recruited.label>kişi kazanıldı</Recruited.label>
+  <!-- EN: <li>tale_noun->[RECRUITER_nameDef] recruiting [JOINER_nameDef]</li>
     <li>tale_noun->[JOINER_nameDef] being recruited by [RECRUITER_nameDef]</li>
     <li>tale_noun->the recruitment of [JOINER_nameDef]</li>
     <li>image->[RECRUITER_nameFull] recruiting [JOINER_nameFull] [circumstance_group]</li>
@@ -311,30 +304,29 @@
     <li>desc_sentence->[JOINER_nameDef] is nodding in understanding.</li>
     <li>desc_sentence->[JOINER_nameDef] is smiling and making eye contact.</li>
     <li>desc_sentence->[JOINER_nameDef] looks relieved.</li>
-    <li>desc_sentence->[JOINER_nameDef] looks hopeful.</li>
-  -->
+    <li>desc_sentence->[JOINER_nameDef] looks hopeful.</li> -->
   <Recruited.rulePack.rulesStrings>
-    <li>tale_noun->[RECRUITER_nameDef] [JOINER_nameDef] kişisini koloniye katıyor</li>
-    <li>tale_noun->[JOINER_nameDef] [RECRUITER_nameDef] tarafından koloniye katılıyor</li>
-    <li>tale_noun->[JOINER_nameDef] koloniye katılıyor</li>
-    <li>image->[JOINER_nameFull] [RECRUITER_nameFull] tarafından koloniye alınıyor, [circumstance_group]</li>
-    <li>image->[JOINER_nameFull] [RECRUITER_nameFull] tarafından kolonici olarak karşılanıyor, [circumstance_group]</li>
-    <li>image->[RECRUITER_nameFull] [JOINER_nameFull] ile iknâ edici şekilde konuşuyor, [circumstance_group]</li>
-    <li>circumstance_phrase->iyi niyet bariz</li>
-    <li>circumstance_phrase->içten bir el sıkışıyorlar</li>
-    <li>circumstance_phrase->karşılıklı gülücükler saçılıyor</li>
-    <li>circumstance_phrase->herkes olanları izliyor</li>
-    <li>circumstance_phrase->bir hücredeler</li>
-    <li>desc_sentence->[JOINER_nameDef] anlayışla başını sallıyor.</li>
-    <li>desc_sentence->[JOINER_nameDef] göz teması kurup gülümsüyor.</li>
+
+    <li>tale_noun->[RECRUITER_nameDef] adlı kişinin [JOINER_nameDef] adlı kişiyi kazanması</li>
+    <li>tale_noun->[JOINER_nameDef] adlı kişinin [RECRUITER_nameDef] tarafından kazanılması</li>
+    <li>tale_noun->[JOINER_nameDef] adlı kişinin kazanılması</li>
+    <li>image->[circumstance_group] [JOINER_nameFull] adlı kişiyi kazanan [RECRUITER_nameFull]</li>
+    <li>image->[circumstance_group] kolonist olan [JOINER_nameFull] adlı kişiye hoş geldin diyen [RECRUITER_nameFull]</li>
+    <li>image->[circumstance_group] [JOINER_nameFull] adlı kişiyle ikna edici biçimde konuşan [RECRUITER_nameFull]</li>
+    <li>circumstance_phrase->açık bir iyi niyetle</li>
+    <li>circumstance_phrase->içten bir tokalaşmayla</li>
+    <li>circumstance_phrase->herkesin yüzünde gülümsemelerle</li>
+    <li>circumstance_phrase->bütün koloninin önünde</li>
+    <li>circumstance_phrase->bir hapishane hücresinde</li>
+    <li>desc_sentence->[JOINER_nameDef] anladığını belirtircesine başını sallıyor.</li>
+    <li>desc_sentence->[JOINER_nameDef] gülümseyerek göz teması kuruyor.</li>
     <li>desc_sentence->[JOINER_nameDef] rahatlamış görünüyor.</li>
     <li>desc_sentence->[JOINER_nameDef] umutlu görünüyor.</li>
   </Recruited.rulePack.rulesStrings>
   
   <!-- EN: prisoner sold -->
   <SoldPrisoner.label>mahkûm satıldı</SoldPrisoner.label>
-  <!-- EN:
-    <li>tale_noun->the selling of [PRISONER_nameDef] to a trader</li>
+  <!-- EN: <li>tale_noun->the selling of [PRISONER_nameDef] to a trader</li>
     <li>tale_noun->[SELLER_nameDef] selling [PRISONER_nameDef] as a slave</li>
     <li>tale_noun->[PRISONER_nameDef] being sold as a slave by [SELLER_nameDef]</li>
     <li>image->[TRADER_nameFull] buying [PRISONER_nameFull] from [SELLER_nameFull] [circumstance_group]</li>
@@ -353,35 +345,34 @@
     <li>desc_sentence->[PRISONER_nameDef] is spitting in [SELLER_nameDef]'s face.</li>
     <li>desc_sentence->[PRISONER_nameDef] is melting into the ground.</li>
     <li>desc_sentence->[SELLER_nameDef] is thrusting the chains of [PRISONER_nameDef] into [TRADER_nameDef]'s hands.</li>
-    <li>desc_sentence->An air of hopelessness pervades the situation.</li>
-  -->
+    <li>desc_sentence->An air of hopelessness pervades the situation.</li> -->
   <SoldPrisoner.rulePack.rulesStrings>
-    <li>tale_noun->[PRISONER_nameDef] bir tüccara satılıyor</li>
-    <li>tale_noun->[SELLER_nameDef] [PRISONER_nameDef] adlı mahkûmu köle olarak satıyor</li>
-    <li>tale_noun->[PRISONER_nameDef] [SELLER_nameDef] tarafından köle olarak satılıyor</li>
-    <li>image->[TRADER_nameFull] [PRISONER_nameFull] adlı mahkûmu [SELLER_nameFull] kişisinden satın alıyor, [circumstance_group]</li>
-    <li>image->[SELLER_nameFull] [PRISONER_nameFull] adlı mahkûmu [TRADER_nameFull] kişisine satıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->diğer koloniciler bu fikri onaylamıyor</li>
-    <li>circumstance_phrase->ödeme bekleniyor</li>
-    <li>circumstance_phrase->[PRISONER_nameDef] hüzünle inliyor</li>
-    <li>circumstance_phrase->[PRISONER_nameDef] hayal kırıklığına uğruyor</li>
-    <li>desc_sentence->[TRADER_nameDef] şeytani bir şekilde gülümsüyor.</li>
+
+    <li>tale_noun->[PRISONER_nameDef] adlı kişinin bir tüccara satılması</li>
+    <li>tale_noun->[SELLER_nameDef] adlı kişinin [PRISONER_nameDef] adlı kişiyi köle olarak satması</li>
+    <li>tale_noun->[PRISONER_nameDef] adlı kişinin [SELLER_nameDef] tarafından köle olarak satılması</li>
+    <li>image->[circumstance_group] [SELLER_nameFull] adlı kişiden [PRISONER_nameFull] adlı kişiyi satın alan [TRADER_nameFull]</li>
+    <li>image->[circumstance_group] [PRISONER_nameFull] adlı kişiyi [TRADER_nameFull] adlı kişiye satan [SELLER_nameFull]</li>
+    <li>circumstance_phrase->diğer kolonistler onaylamayan bakışlarla izlerken</li>
+    <li>circumstance_phrase->[SELLER_nameDef] tüccarın parasını sayarken</li>
+    <li>circumstance_phrase->[PRISONER_nameDef] acınası bir sesle inlerken</li>
+    <li>circumstance_phrase->[PRISONER_nameDef] adlı kişinin büyük üzüntüsüne rağmen</li>
+    <li>desc_sentence->[TRADER_nameDef] şeytanca gülümsüyor.</li>
     <li>desc_sentence->[SELLER_nameDef] manyakça kahkaha atıyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] isteksizce mahkûmu tüccara teslim ediyor.</li>
+    <li>desc_sentence->[SELLER_nameDef], [PRISONER_nameDef] adlı kişiyi tüccara gönülsüzce teslim ediyor.</li>
     <li>desc_sentence->[PRISONER_nameDef] yeni efendisine meydan okurcasına bakıyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] [TRADER_nameDef] tarafından zincirlerinden tutularak sürükleniyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] [SELLER_nameDef] kişisine intikam alacakmış gibi bakıyor.</li>
+    <li>desc_sentence->[TRADER_nameDef], [PRISONER_nameDef] adlı kişiyi zincirlerinden çekerek götürüyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef], intikamını planlayarak [SELLER_nameDef] adlı kişiye bakıyor.</li>
     <li>desc_sentence->[PRISONER_nameDef] ağlıyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] [SELLER_nameDef] adlı satıcının yüzüne tükürüyor.</li>
-    <li>desc_sentence->[PRISONER_nameDef] yerde çökmüş şekilde duruyor.</li>
-    <li>desc_sentence->[SELLER_nameDef] mahkûmun zincirlerinden tutup onu [TRADER_nameDef] adlı tüccara itiyor.</li>
-    <li>desc_sentence->Hava umutsuzluk kokuyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef], [SELLER_nameDef] adlı kişinin yüzüne tükürüyor.</li>
+    <li>desc_sentence->[PRISONER_nameDef] yerin dibine giriyor.</li>
+    <li>desc_sentence->[SELLER_nameDef], [PRISONER_nameDef] adlı kişinin zincirlerini [TRADER_nameDef] adlı kişinin eline tutuşturuyor.</li>
+    <li>desc_sentence->Ortama derin bir umutsuzluk hâkim.</li>
   </SoldPrisoner.rulePack.rulesStrings>
   
   <!-- EN: animal tamed -->
   <TamedAnimal.label>hayvan evcilleştirildi</TamedAnimal.label>
-  <!-- EN:
-    <li>tale_noun->the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
+  <!-- EN: <li>tale_noun->the taming of [ANIMAL_nameDef] by [TAMER_nameDef]</li>
     <li>tale_noun->[TAMER_nameDef]'s taming of [ANIMAL_nameDef]</li>
     <li>image->[TAMER_nameFull] taming [ANIMAL_nameFull] [circumstance_group]</li>
     <li>image->[TAMER_nameFull] offering a morsel of food to [ANIMAL_nameFull] [circumstance_group]</li>
@@ -395,30 +386,29 @@
     <li>desc_sentence->[ANIMAL_nameDef] appears to be in some sort of hypnotic state.</li>
     <li>desc_sentence->[ANIMAL_nameDef] looks scared but interested.</li>
     <li>desc_sentence->[ANIMAL_nameDef] appears fascinated.</li>
-    <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li>
-  -->
+    <li>desc_sentence->[TAMER_nameDef] is projecting a powerful sense of love towards [ANIMAL_nameDef].</li> -->
   <TamedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->[ANIMAL_nameDef] [TAMER_nameDef] tarafından evcilleştiriliyor</li>
-    <li>tale_noun->[TAMER_nameDef] [ANIMAL_nameDef] adlı hayvanı evcilleştiriyor</li>
-    <li>image->[TAMER_nameFull] [ANIMAL_nameFull] adlı hayvanı evcilleştiriyor, [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] [ANIMAL_nameFull] adlı hayvana bir parça yiyecek sunuyor, [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] [ANIMAL_nameFull] adlı hayvana onu ürkütmeyecek şekilde fısıldıyor, [circumstance_group]</li>
-    <li>image->[TAMER_nameFull] [ANIMAL_nameFull] adlı hayvanı sakinleştiriyor, [circumstance_group]</li>
-    <li>circumstance_phrase->büyük bir dikkat ve özen gösteriyor</li>
-    <li>circumstance_phrase->yüzünde gülümseme var</li>
-    <li>circumstance_phrase->bitkin ama mutlu</li>
+
+    <li>tale_noun->[ANIMAL_nameDef] adlı hayvanın [TAMER_nameDef] tarafından evcilleştirilmesi</li>
+    <li>tale_noun->[TAMER_nameDef] adlı kişinin [ANIMAL_nameDef] adlı hayvanı evcilleştirmesi</li>
+    <li>image->[circumstance_group] [ANIMAL_nameFull] adlı hayvanı evcilleştiren [TAMER_nameFull]</li>
+    <li>image->[circumstance_group] [ANIMAL_nameFull] adlı hayvana bir lokma yiyecek uzatan [TAMER_nameFull]</li>
+    <li>image->[circumstance_group] ürkek bir [ANIMAL_label] hayvanına fısıldayan [TAMER_nameFull]</li>
+    <li>image->[circumstance_group] vahşi bir [ANIMAL_label] hayvanını sakinleştiren [TAMER_nameFull]</li>
+    <li>circumstance_phrase->büyük bir özen ve dikkatle</li>
+    <li>circumstance_phrase->gülümseyerek</li>
+    <li>circumstance_phrase->yorgun ama mutlu hâlde</li>
     <li>desc_sentence->[ANIMAL_nameDef] saldırgan bir şekilde hırlıyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] uykulu ve sevgi sarhoşu gibi görünüyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] hipnoz olmuş gibi görünüyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] korkmuş ama ilgili görünüyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] uykulu ve aşktan sarhoş görünüyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] bir tür hipnoz hâlindeymiş gibi görünüyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] korkmuş ama meraklı görünüyor.</li>
     <li>desc_sentence->[ANIMAL_nameDef] büyülenmiş görünüyor.</li>
-    <li>desc_sentence->[TAMER_nameDef] [ANIMAL_nameDef] adlı hayvana güçlü bir sevgi gösteriyor.</li>
+    <li>desc_sentence->[TAMER_nameDef], [ANIMAL_nameDef] adlı hayvana güçlü bir sevgi yayıyor.</li>
   </TamedAnimal.rulePack.rulesStrings>
   
   <!-- EN: traded with someone -->
   <TradedWith.label>biriyle ticaret yapıldı</TradedWith.label>
-  <!-- EN:
-    <li>tale_noun->a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
+  <!-- EN: <li>tale_noun->a trade between [SELLER_nameFull] and [BUYER_nameFull]</li>
     <li>image->[BUYER_nameFull] buying goods from [SELLER_nameFull] [circumstance_group]</li>
     <li>image->[SELLER_nameFull] selling goods to [BUYER_nameFull] [circumstance_group]</li>
     <li>circumstance_phrase->with greedy intent</li>
@@ -430,28 +420,27 @@
     <li>desc_sentence->[SELLER_nameDef] and [BUYER_nameDef] agree on a price.</li>
     <li>desc_sentence->[BUYER_nameDef] pays for the item.</li>
     <li>desc_sentence->[SELLER_nameDef] is counting [SELLER_possessive] money.</li>
-    <li>desc_sentence->[BUYER_nameDef] is taking [BUYER_possessive] goods.</li>
-  -->
+    <li>desc_sentence->[BUYER_nameDef] is taking [BUYER_possessive] goods.</li> -->
   <TradedWith.rulePack.rulesStrings>
-    <li>tale_noun->[SELLER_nameFull] ile [BUYER_nameFull] ticaret yapıyor</li>
-    <li>image->[BUYER_nameFull] [SELLER_nameFull] adlı satıcıdan mal satın alıyor, [circumstance_group]</li>
-    <li>image->[SELLER_nameFull] [BUYER_nameFull] adlı alıcıya mal satıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->açgözlü bir hâli var</li>
-    <li>circumstance_phrase->bir yandan sırıtıyor</li>
-    <li>desc_sentence->[BUYER_nameDef] [SELLER_nameDef] adlı satıcının mallarını inceliyor.</li>
-    <li>desc_sentence->[SELLER_nameDef] bir malı değerlendiriyor.</li>
-    <li>desc_sentence->[SELLER_nameDef] pazarlık yapmaya başlıyor.</li>
-    <li>desc_sentence->[BUYER_nameDef] [SELLER_nameDef] ile tartışıyor.</li>
-    <li>desc_sentence->[SELLER_nameDef] ve [BUYER_nameDef] fiyatta anlaşıyor.</li>
-    <li>desc_sentence->[BUYER_nameDef] ödemesini yapıyor.</li>
-    <li>desc_sentence->[SELLER_nameDef] aldığı parayı sayıyor.</li>
-    <li>desc_sentence->[BUYER_nameDef] malları alıyor.</li>
+
+    <li>tale_noun->[SELLER_nameFull] ile [BUYER_nameFull] arasındaki bir ticaret</li>
+    <li>image->[circumstance_group] [SELLER_nameFull] adlı kişiden mal satın alan [BUYER_nameFull]</li>
+    <li>image->[circumstance_group] [BUYER_nameFull] adlı kişiye mal satan [SELLER_nameFull]</li>
+    <li>circumstance_phrase->açgözlü niyetlerle</li>
+    <li>circumstance_phrase->[SELLER_nameDef], [BUYER_shortNameDef] adlı kişiye sinsice sırıtırken</li>
+    <li>desc_sentence->[BUYER_nameDef], [SELLER_nameDef] adlı kişinin mallarını inceliyor.</li>
+    <li>desc_sentence->[SELLER_nameDef] bir eşyayı değerlendiriyor.</li>
+    <li>desc_sentence->[SELLER_nameDef] pazarlığa başlıyor.</li>
+    <li>desc_sentence->[BUYER_nameDef], [SELLER_nameDef] ile tartışıyor.</li>
+    <li>desc_sentence->[SELLER_nameDef] ile [BUYER_nameDef] bir fiyatta anlaşıyor.</li>
+    <li>desc_sentence->[BUYER_nameDef] eşyanın parasını ödüyor.</li>
+    <li>desc_sentence->[SELLER_nameDef] parasını sayıyor.</li>
+    <li>desc_sentence->[BUYER_nameDef] mallarını alıyor.</li>
   </TradedWith.rulePack.rulesStrings>
   
   <!-- EN: animal trained -->
   <TrainedAnimal.label>hayvan eğitildi</TrainedAnimal.label>
-  <!-- EN:
-    <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
+  <!-- EN: <li>tale_noun->[TRAINER_nameDef] training [ANIMAL_nameDef]</li>
     <li>tale_noun->the training of [ANIMAL_nameDef]</li>
     <li>tale_noun->the training of [ANIMAL_nameDef] by [TRAINER_nameDef]</li>
     <li>image->[TRAINER_nameFull] [train_syn] [ANIMAL_nameFull] in [TRAINABLE_label] [circumstance_group]</li>
@@ -482,41 +471,41 @@
     <li>desc_sentence->[ANIMAL_nameDef] is half [Color] and half [Color].</li>
     <li>desc_sentence->[ANIMAL_nameDef] is covered in scales.</li>
     <li>desc_sentence->[TRAINER_nameDef] is depicted with [Quantity_adjphrase] arms.</li>
-    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li>
-  -->
+    <li>desc_sentence->[TRAINER_nameDef] is morphing into [ANIMAL_definite].</li> -->
   <TrainedAnimal.rulePack.rulesStrings>
-    <li>tale_noun->[TRAINER_nameDef] [ANIMAL_nameDef] adlı hayvanı eğitiyor</li>
-    <li>tale_noun->[ANIMAL_nameDef] eğitiliyor</li>
-    <li>tale_noun->[ANIMAL_nameDef] [TRAINER_nameDef] tarafından eğitiliyor</li>
-    <li>image->[TRAINER_nameFull] [ANIMAL_nameFull] adlı hayvanı [TRAINABLE_label] üzerine [train_syn], [circumstance_group]</li>
-    <li>image->[TRAINER_nameFull] [ANIMAL_nameFull] adlı hayvana [TRAINABLE_label] öğretiyor, [circumstance_group]</li>
-    <li>image->[TRAINER_nameFull] [ANIMAL_nameFull] ile [TRAINABLE_label] talimi yapıyor, [circumstance_group]</li>
-    <li>train_syn->eğitiyor</li>
-    <li>train_syn->eğitiyor</li>
-    <li>train_syn->eğitiyor</li>
-    <li>train_syn->çalıştırıyor</li>
-    <li>train_syn->terbiye ediyor</li>
-    <li>circumstance_phrase->diğerleri onlara bakıyor</li>
-    <li>circumstance_phrase->vahşi bir [Animal] iğrenerek bakıyor</li>
-    <li>circumstance_phrase->[ANIMAL_nameDef] vahşiyken hayatın ne kadar basit olduğunu düşünüyor</li>
-    <li>circumstance_phrase->[TRAINER_nameDef] öğle yemeğinde ne olduğunu düşünüyor</li>
-    <li>circumstance_phrase->diğer koloniciler ise gerçek işlerle meşgul</li>
-    <li>desc_sentence->[TRAINER_nameDef] memnun görünüyor.</li>
+
+    <li>tale_noun->[TRAINER_nameDef] adlı kişinin [ANIMAL_nameDef] adlı hayvanı eğitmesi</li>
+    <li>tale_noun->[ANIMAL_nameDef] adlı hayvanın eğitimi</li>
+    <li>tale_noun->[ANIMAL_nameDef] adlı hayvanın [TRAINER_nameDef] tarafından eğitilmesi</li>
+    <li>image->[circumstance_group] [ANIMAL_nameFull] adlı hayvana [TRAINABLE_label] konusunda [train_syn] veren [TRAINER_nameFull]</li>
+    <li>image->[circumstance_group] [ANIMAL_nameFull] adlı hayvana [TRAINABLE_label] öğreten [TRAINER_nameFull]</li>
+    <li>image->[circumstance_group] [ANIMAL_nameFull] ile [TRAINABLE_label] çalışan [TRAINER_nameFull]</li>
+    <li>train_syn->eğitim</li>
+    <li>train_syn->talim</li>
+    <li>train_syn->ders</li>
+    <li>train_syn->telkin</li>
+    <li>train_syn->öğretim</li>
+    <li>circumstance_phrase->diğerleri izlerken</li>
+    <li>circumstance_phrase->vahşi [Animal] tiksintiyle izlerken</li>
+    <li>circumstance_phrase->[ANIMAL_nameDef] vahşi bir hayvan olduğu o basit günleri düşünürken</li>
+    <li>circumstance_phrase->[TRAINER_nameDef] öğle yemeğinde ne olduğunu düşünürken</li>
+    <li>circumstance_phrase->diğer kolonistler gerçek bir iş yaparken</li>
+    <li>desc_sentence->[TRAINER_nameDef] memnuniyetini belli ediyor.</li>
     <li>desc_sentence->[TRAINER_nameDef] gülümsüyor.</li>
     <li>desc_sentence->[TRAINER_nameDef] sıkılmış görünüyor.</li>
-    <li>desc_sentence->[TRAINER_nameDef] tehditkâr biçimde yumruk savuruyor.</li>
-    <li>desc_sentence->[TRAINER_nameDef] kaşlarını çatıyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] şaşkın gözüküyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] ağzında bir silah taşıyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] yorgunca homurdanıyor.</li>
-    <li>desc_sentence->[TRAINER_nameDef] hüsranla kafasını sallıyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] korku içinde titriyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] bir [Vegetable] gibi görünüyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] elektrikli bir ev aletiymiş gibi görünüyor.</li>
-    <li>desc_sentence->[ANIMAL_nameDef] yarı [Color] yarı [Color].</li>
-    <li>desc_sentence->[ANIMAL_nameDef] pullarla kaplanmış.</li>
-    <li>desc_sentence->[TRAINER_nameDef] [Quantity_adjphrase] silah ile tasvir edilmiş.</li>
-    <li>desc_sentence->[TRAINER_nameDef] bir [ANIMAL_ShortDefinite] gibi görünüyor.</li>
+    <li>desc_sentence->[TRAINER_nameDef] tehditkâr bir şekilde yumruğunu sallıyor.</li>
+    <li>desc_sentence->[TRAINER_nameDef] konsantre olmak için kaşlarını çatmış.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] şaşkın görünüyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] adlı hayvanın ağzında bir silah var.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] zorlanarak homurdanıyor.</li>
+    <li>desc_sentence->[TRAINER_nameDef] hayal kırıklığıyla başını sallıyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] korkudan titriyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] bir [Vegetable] hâline dönüşüyor gibi görünüyor.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] bir yığın elektrikli alet olarak tasvir edilmiş.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] yarı [Color], yarı [Color] renkte.</li>
+    <li>desc_sentence->[ANIMAL_nameDef] pullarla kaplı.</li>
+    <li>desc_sentence->[TRAINER_nameDef] [Quantity_adjphrase] kollu olarak tasvir edilmiş.</li>
+    <li>desc_sentence->[TRAINER_nameDef], [ANIMAL_definite] hâline dönüşüyor.</li>
   </TrainedAnimal.rulePack.rulesStrings>
   
 </LanguageData>

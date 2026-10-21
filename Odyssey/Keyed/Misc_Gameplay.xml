@@ -1,347 +1,195 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Gravship -->
-  <!-- EN: Gravship -->
-  <Gravship>Gravgemi</Gravship>
-  <!-- EN: no grav engine -->
+  <Gravship>Grav gemisi</Gravship>
   <CannotLaunchNoEngine>grav motoru yok</CannotLaunchNoEngine>
-  <!-- EN: not enough fuel -->
   <CannotLaunchNotEnoughFuel>yeterli yakıt yok</CannotLaunchNotEnoughFuel>
-  <!-- EN: Cannot reach this destination -->
-  <CannotLaunchDestination>Bu noktaya ulaşılamıyor</CannotLaunchDestination>
-  <!-- EN: Cannot land on the same tile -->
-  <CannotLandOnSameTile>Aynı noktaya inemez</CannotLandOnSameTile>
-  <!-- EN: Connected substructure -->
-  <ConnectedSubstructure>Bağlı altyapı</ConnectedSubstructure>
-  <!-- EN: Substructure blueprints placed -->
-  <SubstructureBlueprintsCount>Altyapı planları yerleştirildi</SubstructureBlueprintsCount>
-  <!-- EN: not connected to grav engine -->
+  <CannotLaunchDestination>Bu hedefe ulaşılamaz</CannotLaunchDestination>
+  <CannotLandOnSameTile>Aynı bölge karesine inilemez</CannotLandOnSameTile>
+  <ConnectedSubstructure>Bağlı alt yapı</ConnectedSubstructure>
+  <SubstructureBlueprintsCount>Yerleştirilen alt yapı planları</SubstructureBlueprintsCount>
   <CannotLaunchDisconnected>grav motoruna bağlı değil</CannotLaunchDisconnected>
-  <!-- EN: no substructure -->
-  <CannotLaunchNoSubstructure>altyapı yok</CannotLaunchNoSubstructure>
-  <!-- EN: no unblocked functioning thrusters -->
-  <CannotLaunchNoThrusters>engellenmemiş çalışan bir itici yok</CannotLaunchNoThrusters>
-  <!-- EN: engine cooldown: {0} -->
+  <CannotLaunchNoSubstructure>alt yapı yok</CannotLaunchNoSubstructure>
+  <CannotLaunchNoThrusters>engellenmemiş, çalışan itici yok</CannotLaunchNoThrusters>
   <CannotLaunchOnCooldown>motor bekleme süresi: {0}</CannotLaunchOnCooldown>
-  <!-- EN: Choose where to land -->
-  <ChooseWhereToLand>Nereye inileceğini seçin</ChooseWhereToLand>
-  <!-- EN: Send a colonist to inspect this. -->
-  <GravEngineNotInspected>Bunu incelemesi için bir kolonicini gönder.</GravEngineNotInspected>
-  <!-- EN: Choose who should inspect {0_definite} -->
-  <ChooseWhoShouldInspect>Kimin {0_definite} incelemesi yapacağını seçin</ChooseWhoShouldInspect>
-  <!-- EN: Cannot launch gravship -->
-  <CannotPilotGravship>Gravgemi fırlatılamıyor</CannotPilotGravship>
-  <!-- EN: Launch gravship -->
-  <PilotGravship>Gravgemiyi fırlat</PilotGravship>
-  <!-- EN: {0} {1_label} -->
+  <ChooseWhereToLand>Nereye inileceğini seç</ChooseWhereToLand>
+  <GravEngineNotInspected>Bunu incelemesi için bir kolonist gönder.</GravEngineNotInspected>
+  <ChooseWhoShouldInspect>İnceleyecek kişiyi seç: {0_definite}</ChooseWhoShouldInspect>
+  <CannotPilotGravship>Grav gemisi fırlatılamıyor</CannotPilotGravship>
+  <PilotGravship>Grav gemisini fırlat</PilotGravship>
   <FuelAmount>{0} {1_label}</FuelAmount>
-  <!-- EN: gravship name -->
-  <GravshipName>gravgemi adı</GravshipName>
-  <!-- EN: gravship range -->
-  <GravshipRange>gravgemi menzili</GravshipRange>
-  <!-- EN: stored chemfuel -->
-  <StoredChemfuel>depolanan kimyakıt</StoredChemfuel>
-  <!-- EN: thruster blocked -->
-  <ThrusterBlocked>itici engellendi</ThrusterBlocked>
-  <!-- EN: fuel consumption -->
+  <GravshipName>grav gemisi adı</GravshipName>
+  <GravshipRange>grav gemisi menzili</GravshipRange>
+  <StoredChemfuel>depolanan kimyasal yakıt</StoredChemfuel>
+  <ThrusterBlocked>itici engellenmiş</ThrusterBlocked>
   <FuelConsumption>yakıt tüketimi</FuelConsumption>
-  <!-- EN: {0} chemfuel per tile -->
-  <FuelPerTile>her kare için {0} kimyakıt</FuelPerTile>
-  <!-- EN: Heavy weapons systems: Requires signal jammer to approach -->
-  <RequiresSignalJammer>Ağır silah sistemleri: Yaklaşmak için sinyal bozucu gerekiyor</RequiresSignalJammer>
-  <!-- EN: {0} landing site -->
+  <FuelPerTile>bölge karesi başına {0} kimyasal yakıt</FuelPerTile>
+  <RequiresSignalJammer>Ağır silah sistemleri: Yaklaşmak için sinyal karıştırıcı gerekir</RequiresSignalJammer>
   <GravshipLandingSite>{0} iniş alanı</GravshipLandingSite>
-  <!-- EN: Confirm landing area -->
   <ConfirmLandingArea>İniş alanını onayla</ConfirmLandingArea>
-  <!-- EN: Blocked by {0_label} -->
-  <GravshipBlockedBy>{0_label} tarafından engellendi</GravshipBlockedBy>
-  <!-- EN: Can't place in undiscovered area -->
+  <GravshipBlockedBy>Engelleyen: {0_label}</GravshipBlockedBy>
   <GravshipBlockedByFog>Keşfedilmemiş alana yerleştirilemez</GravshipBlockedByFog>
-  <!-- EN: Blocked by roof -->
-  <GravshipBlockedByRoof>Çatı tarafından engellendi</GravshipBlockedByRoof>
-  <!-- EN: Can't place outside map bounds -->
-  <GravshipOutOfBounds>Harita sınırları dışına yerleştirilemez</GravshipOutOfBounds>
-  <!-- EN: Can't place close to the map edge -->
-  <GravshipInNoBuildArea>Harita kenarına çok yakın yerleştirilemez</GravshipInNoBuildArea>
-  <!-- EN: Can't place in blocked area -->
+  <GravshipBlockedByRoof>Çatı engelliyor</GravshipBlockedByRoof>
+  <GravshipOutOfBounds>Harita sınırlarının dışına yerleştirilemez</GravshipOutOfBounds>
+  <GravshipInNoBuildArea>Harita kenarına yakın yerleştirilemez</GravshipInNoBuildArea>
   <GravshipInBlockedArea>Engellenmiş alana yerleştirilemez</GravshipInBlockedArea>
-  <!-- EN: Can't place on {0_label} -->
-  <GravshipBlockedByTerrain>{0_label} üzerine yerleştirilemez</GravshipBlockedByTerrain>
-  <!-- EN: Must be connected to solid ground -->
-  <GravshipMustBeConnectedToLand>Sağlam bir zemine bağlı olmalı</GravshipMustBeConnectedToLand>
-  <!-- EN: Confirm landing zone to continue -->
-  <ConfirmLandingToContinue>Devam etmek için iniş alanını onayla</ConfirmLandingToContinue>
-  <!-- EN: a valid pilot console -->
+  <GravshipBlockedByTerrain>Şunun üzerine yerleştirilemez: {0_label}</GravshipBlockedByTerrain>
+  <GravshipMustBeConnectedToLand>Sağlam zemine bağlı olmalı</GravshipMustBeConnectedToLand>
+  <ConfirmLandingToContinue>Devam etmek için iniş bölgesini onayla</ConfirmLandingToContinue>
   <RitualTargetPilotConsole>geçerli bir pilot konsolu</RitualTargetPilotConsole>
-  <!-- EN: Based on the gravship's launch, there was a {0_percentage} chance of a negative outcome. -->
-  <GravshipOutcomeChanceLetterExtra>Gravgeminin kalkışına bağlı olarak %{0_percentage} olumsuz sonuç ihtimali vardı.</GravshipOutcomeChanceLetterExtra>
-  <!-- EN: The following thrusters were affected -->
+  <GravshipOutcomeChanceLetterExtra>Grav gemisinin fırlatılışına göre olumsuz bir sonuç çıkma ihtimali {0_percentage} idi.</GravshipOutcomeChanceLetterExtra>
   <ThrustersBrokeDown>Şu iticiler etkilendi</ThrustersBrokeDown>
-  <!-- EN: No path to gravship -->
-  <NoPathToGravship>Gravgemiye yol yok</NoPathToGravship>
-  <!-- EN: No path to pilot console -->
-  <NoPathToPilotConsole>Pilot konsoluna yol yok</NoPathToPilotConsole>
-  <!-- EN: Pilot console is not accessible from gravship -->
-  <PilotConsoleInaccessible>Pilot konsoluna gravgemiden erişilemiyor</PilotConsoleInaccessible>
-  <!-- EN: Launch date -->
-  <LaunchDate>Kalkış tarihi</LaunchDate>
-  <!-- EN: Warning: {0} will be blocked by {1}. -->
+  <NoPathToGravship>Grav gemisine giden yol yok</NoPathToGravship>
+  <NoPathToPilotConsole>Pilot konsoluna giden yol yok</NoPathToPilotConsole>
+  <PilotConsoleInaccessible>Pilot konsoluna grav gemisinden erişilemiyor</PilotConsoleInaccessible>
+  <LaunchDate>Fırlatma tarihi</LaunchDate>
   <WarningThrusterBlocked>Uyarı: {0}, {1} tarafından engellenecek.</WarningThrusterBlocked>
-  <!-- EN: Warning: {0} will be blocked due to being indoors. -->
-  <WarningThrusterInside>Uyarı: {0}, içeride olduğu için engellenecek.</WarningThrusterInside>
-  <!-- EN: Max per gravship -->
-  <GravFacilityMaxSimultaneousConnections>Her gravgemi için maksimum</GravFacilityMaxSimultaneousConnections>
-  <!-- EN: Not connected to gravship -->
-  <ShieldNotConnectedToGravship>Gravgemiye bağlı değil</ShieldNotConnectedToGravship>
-  <!-- EN: Gravship launch called off -->
-  <GravshipLaunchInterrupted>Gravgemi kalkışı iptal edildi</GravshipLaunchInterrupted>
-  <!-- EN: Not connected to grav engine. -->
+  <WarningThrusterInside>Uyarı: {0} kapalı alanda olduğu için engellenecek.</WarningThrusterInside>
+  <GravFacilityMaxSimultaneousConnections>Grav gemisi başına azami</GravFacilityMaxSimultaneousConnections>
+  <ShieldNotConnectedToGravship>Grav gemisine bağlı değil</ShieldNotConnectedToGravship>
+  <GravshipLaunchInterrupted>Grav gemisi fırlatması iptal edildi</GravshipLaunchInterrupted>
   <NotConnectedToGravEngine>Grav motoruna bağlı değil.</NotConnectedToGravEngine>
-  <!-- EN: Not functional -->
   <ThrusterNotFunctional>Çalışmıyor</ThrusterNotFunctional>
-  <!-- EN: not connected to grav engine -->
   <ThrusterNotConnected>grav motoruna bağlı değil</ThrusterNotConnected>
-  <!-- EN: blocked by {0_label} -->
-  <ThrusterBlockedBy>{0_label} tarafından engellendi</ThrusterBlockedBy>
-  <!-- EN: must be outside -->
+  <ThrusterBlockedBy>engelleyen: {0_label}</ThrusterBlockedBy>
   <MustBeOutside>dışarıda olmalı</MustBeOutside>
-  <!-- EN: blocked by substructure -->
-  <BlockedBySubstructure>altyapı tarafından engellendi</BlockedBySubstructure>
-  <!-- EN: {PAWN_nameDef} cannot board {1} -->
-  <FailedToBoardGravship>{PAWN_nameDef} gemiye binemiyor</FailedToBoardGravship>
-  <!-- EN: {PAWN_nameDef} cannot exit {1} -->
-  <FailedToLeaveGravship>{PAWN_nameDef} gemiden çıkamıyor</FailedToLeaveGravship>
-  <!-- EN: View range -->
-  <ViewRange>Menzili gör</ViewRange>
-  <!-- EN: View the gravship’s current range on the world map. -->
-  <ViewRangeDesc>Gravgeminin dünya haritasındaki mevcut menzilini gör.</ViewRangeDesc>
+  <BlockedBySubstructure>alt yapı engelliyor</BlockedBySubstructure>
+  <FailedToBoardGravship>{PAWN_nameDef} şuna binemiyor: {1}</FailedToBoardGravship>
+  <FailedToLeaveGravship>{PAWN_nameDef} şuradan çıkamıyor: {1}</FailedToLeaveGravship>
+  <ViewRange>Menzili göster</ViewRange>
+  <ViewRangeDesc>Grav gemisinin dünya haritasındaki mevcut menzilini göster.</ViewRangeDesc>
 
   <!-- Map generation -->
-  <!-- EN: Landmark -->
-  <Landmark>Belirgin yapı</Landmark>
-  <!-- EN: {ANIMALKIND_label} habitat -->
+  <Landmark>Yer işareti</Landmark>
   <AnimalHabitat>{ANIMALKIND_label} yaşam alanı</AnimalHabitat>
-  <!-- EN: {0} grove -->
   <PlantGrove>{0} korusu</PlantGrove>
-  <!-- EN: {0} -->
   <WildPlants>{0}</WildPlants>
-  <!-- EN: {MINERAL_label} rich -->
-  <MineralRich>{MINERAL_label} açısından zengin</MineralRich>
-  <!-- EN: This area has more {MINERAL_label} deposits than normal. -->
-  <MineralRichDescription>Bu alanda birçok büyük {MINERAL_label} yatağı var.</MineralRichDescription>
+  <MineralRich>{MINERAL_label} bakımından zengin</MineralRich>
+  <MineralRichDescription>Bu bölgede normalden daha fazla {MINERAL_label} yatağı var.</MineralRichDescription>
 
   <!-- Insect Lair -->
-  <!-- EN: Cave entrance -->
   <CaveEntranceLetter>Mağara girişi</CaveEntranceLetter>
-  <!-- EN: The gravcore energy signature is coming from a nearby cave network. The entrance is guarded by insect hives.\n\nExplore the cave network to find the gravcore. -->
-  <CaveEntranceLetterText>Gravçekirdeği enerji izi yakınlardaki bir mağara ağından geliyor. Giriş, böcek kovanları tarafından korunuyor.\n\nGravçekirdeği bulmak için mağara ağını keşfet.</CaveEntranceLetterText>
-  <!-- EN: Insect ambush -->
+  <CaveEntranceLetterText>Gravçekirdek enerji imzası yakındaki bir mağara ağından geliyor. Girişi böcek kovanları koruyor.\n\nGravçekirdeği bulmak için mağara ağını keşfet.</CaveEntranceLetterText>
   <InsectAmbushLetter>Böcek pususu</InsectAmbushLetter>
-  <!-- EN: Insects are tunneling up from underneath the ground. Be prepared! -->
-  <InsectAmbushLetterText>Böcekler yer altından yukarı doğru tünel açıyor. Hazırlıklı ol!</InsectAmbushLetterText>
-  <!-- EN: Muffled chittering -->
-  <LetterLabelInsectQueenWarning>Boğuk cıvıltılar</LetterLabelInsectQueenWarning>
-  <!-- EN: Behind a nearby wall, {PAWN_nameDef} can hear muffled pulsations accompanied by a low chittering noise. Something massive lies behind the wall. -->
-  <LetterInsectQueenWarning>{PAWN_nameDef}, yakındaki bir duvarın arkasından boğuk titreşimler ve hafif bir cıvıltı sesi duyuyor. Duvarın arkasında büyük bir şey var.</LetterInsectQueenWarning>
+  <InsectAmbushLetterText>Böcekler yerin altından tünel kazarak yukarı çıkıyor. Hazırlıklı ol!</InsectAmbushLetterText>
+  <LetterLabelInsectQueenWarning>Boğuk tıkırtılar</LetterLabelInsectQueenWarning>
+  <LetterInsectQueenWarning>{PAWN_nameDef}, yakındaki bir duvarın arkasından gelen boğuk zonklamaları ve onlara eşlik eden alçak bir tıkırtıyı duyabiliyor. Duvarın ardında devasa bir şey var.</LetterInsectQueenWarning>
   
   <!-- Overlay -->
-  <!-- EN: Toggle vacuum overlay. This displays which areas have vacuum and identifies leaks.\n\nWithout the right equipment, exposure to vacuum can be deadly. -->
-  <ShowVacuumOverlayToggleButton>Vakum katmanını aç/kapat. Bu ayar, hangi alanlarda vakum olduğunu ve sızıntıları gösterir.\n\nDoğru ekipman olmadan vakuma maruz kalmak ölümcül olabilir.</ShowVacuumOverlayToggleButton>
-  <!-- EN: vacuum -->
+  <ShowVacuumOverlayToggleButton>Vakum katmanını aç/kapat. Bu katman hangi alanlarda vakum olduğunu gösterir ve sızıntıları belirler.\n\nDoğru donanım olmadan vakuma maruz kalmak ölümcül olabilir.</ShowVacuumOverlayToggleButton>
   <Vacuum>vakum</Vacuum>
   
   <!-- World -->
-  <!-- EN: No discovered orbital locations. -->
   <CannotSelectOrbitReason>Keşfedilmiş yörünge konumu yok.</CannotSelectOrbitReason>
-  <!-- EN: Dying from vacuum exposure -->
   <DyingBecauseExposedToVacuum>Vakuma maruz kaldığı için ölüyor</DyingBecauseExposedToVacuum>
-  <!-- EN: Vacstone with traces of {RESOURCE_label} -->
-  <TracesOfPreciousResource>{RESOURCE_label} izlerine sahip bir vakumtaşı</TracesOfPreciousResource>
-  <!-- EN: Requires signal jammer -->
-  <TransportPodDestinationRequiresSignalJammer>Sinyal bozucu gerekli</TransportPodDestinationRequiresSignalJammer>
-  <!-- EN: cannot function in vacuum. -->
+  <TracesOfPreciousResource>{RESOURCE_label} izleri taşıyan vakumtaşı</TracesOfPreciousResource>
+  <TransportPodDestinationRequiresSignalJammer>Sinyal karıştırıcı gerekir</TransportPodDestinationRequiresSignalJammer>
   <CannotFunctionInVacuum>vakumda çalışamaz.</CannotFunctionInVacuum>
-  <!-- EN: Gravship -->
-  <GravshipOnTileInspectString>Gravgemi</GravshipOnTileInspectString>
+  <GravshipOnTileInspectString>Grav gemisi</GravshipOnTileInspectString>
   
   <!-- Ruins -->
-  <!-- EN: Hack to open. -->
   <HackableDoorLocked>Açmak için hackle.</HackableDoorLocked>
   
   <!-- Fishing -->
-  <!-- EN: Fish -->
   <Fish>Balık</Fish>
-  <!-- EN: fishing -->
   <Fishing>balıkçılık</Fishing>
-  <!-- EN: Cannot fish -->
-  <CannotFish>Balık tutulamaz</CannotFish>
-  <!-- EN: blocked -->
-  <FishingSpotBlocked>Engelli</FishingSpotBlocked>
-  <!-- EN: frozen -->
-  <FishingSpotFrozen>Donmuş</FishingSpotFrozen>
-  <!-- EN: below minimum fish population -->
-  <FishingSpotUnderTargetPopulation>Balık popülasyonu minimumun altında</FishingSpotUnderTargetPopulation>
-  <!-- EN: stored fish exceed fishing zone settings -->
+  <CannotFish>Balık tutulamıyor</CannotFish>
+  <FishingSpotBlocked>engellenmiş</FishingSpotBlocked>
+  <FishingSpotFrozen>donmuş</FishingSpotFrozen>
+  <FishingSpotUnderTargetPopulation>balık nüfusu asgari sınırın altında</FishingSpotUnderTargetPopulation>
   <FishingSpotOverTargetResourceCount>depolanan balık, balıkçılık bölgesi ayarlarını aşıyor</FishingSpotOverTargetResourceCount>
-  <!-- EN: Fishing -->
   <TabFishing>Balıkçılık</TabFishing>
-  <!-- EN: Fish population -->
   <FishPopulation>Balık nüfusu</FishPopulation>
-  <!-- EN: Population declining -->
   <FishPopulationDecline>Nüfus azalıyor</FishPopulationDecline>
-  <!-- EN: very low -->
   <FishPopulation_VeryLow>çok düşük</FishPopulation_VeryLow>
-  <!-- EN: low -->
   <FishPopulation_Low>düşük</FishPopulation_Low> 
-  <!-- EN: moderate -->
   <FishPopulation_Moderate>orta</FishPopulation_Moderate>
-  <!-- EN: healthy -->
   <FishPopulation_Healthy>sağlıklı</FishPopulation_Healthy>
 
   <!-- Sand -->
-  <!-- EN: Windswept sand -->
-  <Sand>Rüzgârlı kum</Sand>
-  <!-- EN: No sand -->
+  <Sand>Rüzgârla savrulan kum</Sand>
   <SandNone>Kum yok</SandNone>
-  <!-- EN: dusting -->
-  <SandDusting>hafif serpinti</SandDusting>
-  <!-- EN: thin -->
+  <SandDusting>serpinti</SandDusting>
   <SandThin>ince</SandThin>
-  <!-- EN: medium -->
   <SandMedium>orta</SandMedium>
-  <!-- EN: thick -->
   <SandThick>kalın</SandThick>
-  <!-- EN: Windswept sand -->
-  <Sand_Label>Rüzgârlı kum</Sand_Label>
-  <!-- EN: clearing sand. -->
-  <JobClearingSand>kum temizleniyor.</JobClearingSand>
-  <!-- EN: clearing sand -->
+  <Sand_Label>Rüzgârla savrulan kum</Sand_Label>
+  <JobClearingSand>kum temizliyor.</JobClearingSand>
   <ClearingSandGerund>kum temizleme</ClearingSandGerund>
 
   <!-- Stockpile -->
-  <!-- EN: medicine stockpile -->
-  <StockpileMedicine>ilaç deposu</StockpileMedicine>
-  <!-- EN: chemfuel stockpile -->
-  <StockpileChemfuel>kimyakıt deposu</StockpileChemfuel>
-  <!-- EN: component stockpile -->
-  <StockpileComponent>bileşen deposu</StockpileComponent>
-  <!-- EN: weapons stockpile -->
-  <StockpileWeapons>silah deposu</StockpileWeapons>
-  <!-- EN: drug stockpile -->
-  <StockpileDrugs>uyuşturucu deposu</StockpileDrugs>
+  <StockpileMedicine>ilaç depo alanı</StockpileMedicine>
+  <StockpileChemfuel>kimyasal yakıt depo alanı</StockpileChemfuel>
+  <StockpileComponent>bileşen depo alanı</StockpileComponent>
+  <StockpileWeapons>silah depo alanı</StockpileWeapons>
+  <StockpileDrugs>uyuşturucu depo alanı</StockpileDrugs>
   
   <!-- Outfit Stand -->
-  <!-- EN: equip outfit -->
-  <SwapOutfit>kıyafeti kuşan</SwapOutfit>
-  <!-- EN: equip outfit... -->
-  <SwapOutfitGizmo>kıyafeti kuşan...</SwapOutfitGizmo>
-  <!-- EN: Order a colonist to wear all apparel on the stand. The colonist will place any unequipped clothing back on the stand. -->
-  <SwapOutfitDesc>Bir koloniciye stanttaki tüm kıyafetleri kuşanmasını emret. Kolonici, kuşanmadığı tüm kıyafetleri tekrar standa bırakacak.</SwapOutfitDesc>
-  <!-- EN: cannot equip outfit -->
-  <CannotSwapOutfit>kıyafet kuşanılamıyor</CannotSwapOutfit>
-  <!-- EN: outfit stand is empty -->
-  <OutfitStandEmpty>kıyafet standı boş</OutfitStandEmpty>
-  <!-- EN: Remove this from the outfit stand. -->
-  <EjectApparelTooltip>Bunu kıyafet standından kaldır.</EjectApparelTooltip>
+  <SwapOutfit>kıyafeti giy</SwapOutfit>
+  <SwapOutfitGizmo>kıyafeti giy...</SwapOutfitGizmo>
+  <SwapOutfitDesc>Bir koloniste askıdaki tüm giysileri giymesini emret. Kolonist, çıkardığı giysileri askıya geri koyar.</SwapOutfitDesc>
+  <CannotSwapOutfit>kıyafet giyilemiyor</CannotSwapOutfit>
+  <OutfitStandEmpty>kıyafet askısı boş</OutfitStandEmpty>
+  <EjectApparelTooltip>Bunu kıyafet askısından al.</EjectApparelTooltip>
   
   <!-- Orbital mechanoid platform -->
-  <!-- EN: Ancient grav engine -->
   <LetterAncientGravEngineDiscoveredLabel>Antik grav motoru</LetterAncientGravEngineDiscoveredLabel>
-  <!-- EN: You've discovered an ancient grav engine. Destroy it to obtain a gravcore. -->
-  <LetterAncientGravEngineDiscovered>Antik bir grav motoru keşfettin. Bir gravçekirdeği elde etmek için onu yok et.</LetterAncientGravEngineDiscovered>
+  <LetterAncientGravEngineDiscovered>Antik bir grav motoru keşfettin. Bir gravçekirdek elde etmek için onu yok et.</LetterAncientGravEngineDiscovered>
 
-  <!-- EN: Gravship -->
-  <PlayerPawnsArriveMethod_Gravship>Gravgemi</PlayerPawnsArriveMethod_Gravship>
+  <PlayerPawnsArriveMethod_Gravship>Grav gemisi</PlayerPawnsArriveMethod_Gravship>
 
   <!-- Misc -->
-  <!-- EN: Toggle displaying expanding icons for landmarks. -->
-  <ShowExpandingLandmarksToggleButton>Sembol yapılar için genişleyen simgeleri göster/gizle.</ShowExpandingLandmarksToggleButton>
+  <ShowExpandingLandmarksToggleButton>Yer işaretleri için genişleyen simgelerin gösterilmesini aç/kapat.</ShowExpandingLandmarksToggleButton>
 
   <!-- Mechive -->
-  <!-- EN: Before {PAWN_nameDef} stands the cerebrex core - a massive brain-like neural mesh that commands mechanoids across the planet.\n\nWith its stabilizers destroyed, {PAWN_nameDef} can now access it directly... but what should {PAWN_pronoun} do with that power? -->
-  <CerebrexCoreDialog>{PAWN_nameDef}, gezegendeki tüm mekanoitleri yöneten, kocaman beyin benzeri bir sinirsel ağ olan serebreks çekirdeğinin önünde duruyor.\n\nÇekirdeğin dengeleyicileri yok edildiği için {PAWN_nameDef} artık doğrudan ona erişebiliyor... Ama bu güçle ne yapması gerek?</CerebrexCoreDialog>
-  <!-- EN: Destroy the core -->
+  <CerebrexCoreDialog>{PAWN_nameDef} karşısında serebreks çekirdeğini görüyor: gezegenin dört bir yanındaki mekanoidlere komuta eden, beyne benzer devasa bir sinir ağı.\n\nDengeleyicileri yok edildiğine göre {PAWN_nameDef} artık ona doğrudan erişebilir... Peki bu güçle ne yapmalı?</CerebrexCoreDialog>
   <CerebrexCoreOption_Destroy>Çekirdeği yok et</CerebrexCoreOption_Destroy>
-  <!-- EN: Scavenge technology -->
-  <CerebrexCoreOption_Scavenge>Teknolojiyi yağmala</CerebrexCoreOption_Scavenge>
-  <!-- EN: Postpone -->
+  <CerebrexCoreOption_Scavenge>Teknolojiyi sök</CerebrexCoreOption_Scavenge>
   <CerebrexCoreOption_Postpone>Ertele</CerebrexCoreOption_Postpone>
-  <!-- EN: Stabilizers remaining -->
   <StabilizersRemaining>Kalan dengeleyiciler</StabilizersRemaining>
-  <!-- EN: Gestating mechanoids. -->
-  <ProducingMechanoids>Mekanoit üretiliyor.</ProducingMechanoids>
+  <ProducingMechanoids>Mekanoid gestasyonu sürüyor.</ProducingMechanoids>
 
-  <!-- EN: {PAWN_nameDef} begins to tear apart the hair-thin cerebral mesh inside the cerebrex core. The mesh twists and groans, as if alive. Electricity arcs among the latticework frame - then in an instant, all goes dark and lifeless.\n\nThe mechanoid whirring stops. Here, and all across the planet, mechanoids begin to permanently deactivate, no longer under the control of the mechhive.\n\nThe mechanoid threat is over. But your story continues... -->
-  <OdysseyDestroyedCredits>{PAWN_nameDef}, serebreks çekirdeğinin içindeki incecik beyin ağı yırtmaya başlıyor. Ağ, âdeta canlıymışçasına bükülüyor ve inliyor. Kafesli çerçevesinde elektrik kıvılcımları atıyor, sonra bir anda her şey kararıyor ve cansızlaşıyor.\n\nMekanoitlerin vızıldaması duruyor. Buradaki ve tüm gezegendeki mekanoitler kalıcı olarak devre dışı kalmaya başlıyor. Artık mekakovanın kontrolünde değiller.\n\nMekanoit tehdidi sona erdi. Ama hikâyen devam ediyor...</OdysseyDestroyedCredits>
-  <!-- EN: {PAWN_nameDef} begins working to free a processing node buried within the core. The latticework frame convulses as if in agony. As {PAWN_nameDef} pulls the node free, the mesh begins to mend, repairing the damage. The core rebuilds its defences and closes.\n\nTurning the node over, {PAWN_nameDef} recoils as it sparks to life, pulsing in time with the core. In {PAWN_possessive} hand, {PAWN_nameDef} holds a weapon of untold power.\n\nThe story continues... -->
-  <OdysseyScavengedCredits>{PAWN_nameDef}, çekirdeğin içinde gömülü bir işlem düğümünü almaya çalışıyor. Kafesli çerçevesi âdeta acı içindeymiş gibi kasılıyor. {PAWN_nameDef}, düğümü çıkarırken ağ kendini onarmaya ve hasarı gidermeye başlıyor. Çekirdek, savunma sistemlerini yeniden kuruyor ve kapanıyor.\n\nDüğümü çeviren {PAWN_nameDef}, çekirdekle aynı ritimde atan ve canlanan düğümün kıvılcımlarıyla irkiliyor. {PAWN_nameDef}, elinde anlatılamaz bir gücün silahını tutuyor.\n\nHikâye devam ediyor...</OdysseyScavengedCredits>
+  <OdysseyDestroyedCredits>{PAWN_nameDef}, serebreks çekirdeğinin içindeki kıl inceliğindeki beyin ağını parçalamaya başlıyor. Ağ, canlıymış gibi kıvranıp inliyor. Kafes iskeletin üzerinde elektrik arkları çakıyor; sonra bir anda her şey kararıyor ve cansızlaşıyor.\n\nMekanoid vızıltısı kesiliyor. Burada ve gezegenin dört bir yanında mekanoidler, artık mek kovanının kontrolünde olmadıkları için kalıcı olarak devre dışı kalmaya başlıyor.\n\nMekanoid tehdidi sona erdi. Ama hikâyen sürüyor...</OdysseyDestroyedCredits>
+  <OdysseyScavengedCredits>{PAWN_nameDef}, çekirdeğin içine gömülü bir işlem düğümünü kurtarmaya koyuluyor. Kafes iskelet acı çekiyormuş gibi kasılıyor. {PAWN_nameDef} düğümü çekip çıkarırken ağ kendini onarmaya, hasarı gidermeye başlıyor. Çekirdek savunmasını yeniden kuruyor ve kapanıyor.\n\n{PAWN_nameDef} düğümü çevirip bakarken düğüm, çekirdekle aynı ritimde zonklayarak kıvılcımlar saçıp canlanıyor; {PAWN_nameDef} irkilip geri çekiliyor. {PAWN_nameDef} artık elinde akıl almaz güçte bir silah tutuyor.\n\nHikâye sürüyor...</OdysseyScavengedCredits>
 
-  <!-- EN: {0} stabilizers remaining -->
   <CoreNotInteractableStabilizersRemaining>{0} dengeleyici kaldı</CoreNotInteractableStabilizersRemaining>
-  <!-- EN: Deactivated -->
   <CoreNotInteractableDeactivated>Devre dışı</CoreNotInteractableDeactivated>
 
-  <!-- EN: Shuttle fuel -->
   <CaravanShuttleFuel>Mekik yakıtı</CaravanShuttleFuel>
 
-  <!-- EN: Passively scanning for orbital signals. -->
   <OrbitalScannerScanning>Yörünge sinyalleri için pasif tarama yapılıyor.</OrbitalScannerScanning>
-  <!-- EN: Locating orbital signal -->
-  <OrbitalScannerLocating>Yörünge sinyali bulunuyor</OrbitalScannerLocating>
+  <OrbitalScannerLocating>Yörünge sinyalinin yeri tespit ediliyor</OrbitalScannerLocating>
 
-  <!-- EN: Traits -->
   <WeaponTraits>Özellikler</WeaponTraits>
-  <!-- EN: Unique weapon -->
-  <UniqueWeapon>Benzersiz silah</UniqueWeapon>
+  <UniqueWeapon>Eşsiz silah</UniqueWeapon>
 
-  <!-- EN: Reforming a caravan will abandon your gravship. Are you sure you want to continue?\n\nTo leave with your gravship, select the gravship's pilot console, then select 'launch'. -->
-  <ConfirmLoseGravship>Bir kervan oluşturursan gemini terk edersin. Devam etmek istediğinden emin misin?\n\nGemiyle ayrılmak için önce gemiyi sonra da "fırlat" seçeneğini seç.</ConfirmLoseGravship>
-  <!-- EN: Reforming a caravan will abandon your shuttle. Are you sure you want to continue?\n\nTo leave with your shuttle, select the shuttle, then select 'launch'. -->
-  <ConfirmLoseShuttle>Bir kervan oluşturursan mekiğini terk edersin. Devam etmek istediğinden emin misin?\n\nMekikle ayrılmak için önce mekiği sonra da "fırlat" seçeneğini seç.</ConfirmLoseShuttle>
+  <ConfirmLoseGravship>Yeniden kervan oluşturursan grav gemini terk etmiş olursun. Devam etmek istediğinden emin misin?\n\nGrav geminle ayrılmak için grav gemisinin pilot konsolunu seç, ardından 'fırlat'ı seç.</ConfirmLoseGravship>
+  <ConfirmLoseShuttle>Yeniden kervan oluşturursan mekiğini terk etmiş olursun. Devam etmek istediğinden emin misin?\n\nMekiğinle ayrılmak için mekiği seç, ardından 'fırlat'ı seç.</ConfirmLoseShuttle>
 
-  <!-- EN: Discover a quest -->
   <BookHasQuest>Bir görev keşfet</BookHasQuest>
-  <!-- EN: discovered -->
   <DiscoveredQuest>keşfedildi</DiscoveredQuest>
 
-  <!-- EN: Your orbital scanner has detected -->
-  <QuestDiscoveredFromOrbitalScanner>yörünge tarayıcın tarafından tespit edildi</QuestDiscoveredFromOrbitalScanner>
-  <!-- EN: {HACKER_nameDef} hacked an uplink and discovered -->
-  <QuestDiscoveredFromUplink>bir uplinki hackleyen {HACKER_nameDef} tarafından keşfedildi</QuestDiscoveredFromUplink>
+  <QuestDiscoveredFromOrbitalScanner>Yörünge tarayıcın şunu tespit etti:</QuestDiscoveredFromOrbitalScanner>
+  <QuestDiscoveredFromUplink>{HACKER_nameDef} bir uydu bağlantısını hackleyip şunu keşfetti:</QuestDiscoveredFromUplink>
 
   <!-- Special Trainables -->
-  <!-- EN: Attack -->
-  <AnimalAttackTarget>Saldırt</AnimalAttackTarget>
-  <!-- EN: Command this animal to attack a specific target. -->
-  <AnimalAttackTargetDesc>Bu hayvana, sahibinin görebileceği belirli bir hedefe saldırmasını emret.</AnimalAttackTargetDesc>
-  <!-- EN: Animals attack target -->
-  <AnimalsAttackTarget>Hayvanları hedefe saldırt</AnimalsAttackTarget>
-  <!-- EN: Direct all mastered animals to attack a specific target. -->
-  <AnimalsAttackTargetDesc>Tüm sahiplenilmiş hayvanları belirli bir hedefe saldıracak şekilde yönlendir.</AnimalsAttackTargetDesc>
-  <!-- EN: Cancel attack -->
+  <AnimalAttackTarget>Saldır</AnimalAttackTarget>
+  <AnimalAttackTargetDesc>Bu hayvana belirli bir hedefe saldırmasını emret.</AnimalAttackTargetDesc>
+  <AnimalsAttackTarget>Hayvanlar hedefe saldırsın</AnimalsAttackTarget>
+  <AnimalsAttackTargetDesc>Sahibi olan tüm hayvanları belirli bir hedefe saldırmaya yönlendir.</AnimalsAttackTargetDesc>
   <CancelAttack>Saldırıyı iptal et</CancelAttack>
-  <!-- EN: Clear this animal's current target. -->
-  <CancelAttackDesc>Bu hayvanın mevcuz hedefini sil.</CancelAttackDesc>
-  <!-- EN: This animal does not have a master -->
+  <CancelAttackDesc>Bu hayvanın mevcut hedefini temizle.</CancelAttackDesc>
   <NoMaster>Bu hayvanın sahibi yok</NoMaster>
-  <!-- EN: This animal's master is not on this map -->
   <MasterNotSpawned>Bu hayvanın sahibi bu haritada değil</MasterNotSpawned>
-  <!-- EN: Not in range of master. -->
   <MessageNotInRangeOfMaster>Sahibinin menzilinde değil.</MessageNotInRangeOfMaster>
-  <!-- EN: {ANIMAL_nameDef} found {FOOD_label} while foraging. -->
-  <MessageAnimalForagedFood>{ANIMAL_nameDef}, yiyecek toplarken {FOOD_label} buldu.</MessageAnimalForagedFood>
-  <!-- EN: Forage trained -->
-  <ForageTrained>Yiyecek toplamayı öğrendi</ForageTrained>
-  <!-- EN: Allow foraging -->
-  <ForageEnabled>Yiyecek toplamaya izin ver</ForageEnabled>
-  <!-- EN: Allow digging -->
+  <MessageAnimalForagedFood>{ANIMAL_nameDef} yiyecek ararken şunu buldu: {FOOD_label}.</MessageAnimalForagedFood>
+  <ForageTrained>Yiyecek arama eğitimli</ForageTrained>
+  <ForageEnabled>Yiyecek aramaya izin ver</ForageEnabled>
   <DigEnabled>Kazmaya izin ver</DigEnabled>
 
-  <!-- EN: Unlocked. -->
-  <HatchUnlocked>Açıldı.</HatchUnlocked>
+  <HatchUnlocked>Kilidi açıldı.</HatchUnlocked>
 
-  <!-- EN: A short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. It shuts down instantly if hit by an EMP. -->
-  <GravshipShieldTip>Atışları engelleyen kısa ömürlü bir momentum itici yüzey. Normal atışlara ve havanlara karşı etkilidir. Bir EMP ile vurulursa anında kapanır.</GravshipShieldTip>
+  <GravshipShieldTip>Mermileri engelleyen, kısa ömürlü bir momentum itici yüzey. Normal atışlara ve havan mermilerine karşı işe yarar. EMP isabet ederse anında kapanır.</GravshipShieldTip>
 
 </LanguageData>

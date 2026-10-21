@@ -1,164 +1,87 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: Ideoligion forbids -->
   <IdeoligionForbids>İdeodin yasaklıyor</IdeoligionForbids>
-  <!-- EN: Only {0}s can build -->
-  <OnlyMembersCanBuild>Yalnızca {0} tarafından inşa edilebilir</OnlyMembersCanBuild>
-  <!-- EN: {0} is already in progress. -->
+  <OnlyMembersCanBuild>Yalnızca {0} üyeleri inşa edebilir</OnlyMembersCanBuild>
   <CantStartRitualAlreadyInProgress>{0} zaten devam ediyor.</CantStartRitualAlreadyInProgress>
-  <!-- EN: {RITUAL} cannot be performed {GERUND} {LAYER}. -->
-  <CantStartRitualLayer>{RITUAL}, {LAYER} {GERUND} yapılamaz.</CantStartRitualLayer>
-  <!-- EN: One or more participants can't join due to extreme temperature. -->
+  <CantStartRitualLayer>{RITUAL} {LAYER} {GERUND} gerçekleştirilemez.</CantStartRitualLayer>
   <CantJoinRitualInExtremeWeather>Bir veya daha fazla katılımcı aşırı sıcaklık nedeniyle katılamıyor.</CantJoinRitualInExtremeWeather>
-  <!-- EN: {0} is already participating in a ritual. -->
   <CantStartRitualTargetIsAlreadyInRitual>{0} zaten bir ritüele katılıyor.</CantStartRitualTargetIsAlreadyInRitual>
-  <!-- EN: You must assign the role of {0} in order to start this ritual. -->
   <CantStartRitualRoleNotAssigned>Bu ritüeli başlatmak için {0} rolünü atamalısın.</CantStartRitualRoleNotAssigned>
-  <!-- EN: There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion. -->
-  <CantStartRitualNoConvertee>{0} ideodinine katılacak kimse yok. Farklı ideodinden bir koloniciye, mahkûma veya köleye ihtiyacın var.</CantStartRitualNoConvertee>
-  <!-- EN: {PAWN_nameDef} cannot be {ROLE}. -->
+  <CantStartRitualNoConvertee>{0} inancına dönüştürülecek kimse yok. Farklı bir ideodine sahip bir kolonist, mahkûm veya köle gerekiyor.</CantStartRitualNoConvertee>
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef}, {ROLE} olamaz.</CantStartRitualSelectedPawnCannotBeRole>
-  <!-- EN: {PAWN_nameDef} must be a {IDEO_memberName}. -->
-  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef}, bir {IDEO_memberName} olmalı.</CantStartRitualSelectedPawnMustBeMember>
-  <!-- EN: {PAWN_nameDef} is psychically deaf. -->
-  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} psişik açıdan sağır.</CantStartRitualSelectedPawnPsychicallyDeaf>
-  <!-- EN: Not enough space for spectators. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelSpectators>Seyirciler için yeterli alan yok. {MINRADIUS} yarıçapında dairesel bir alan gerekli. Bu yarıçap içerisinde en az {1} ayakta durulabilir nokta olmalı.</CantStartNotEnoughSpaceDuelSpectators>
-  <!-- EN: Not enough space for duelists. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
-  <CantStartNotEnoughSpaceDuelDuelists>Düellocular için yeterli alan yok. {MINRADIUS} yarıçapında dairesel bir alan gerekli. Bu yarıçap içerisinde en az {1} ayakta durulabilir nokta olmalı.</CantStartNotEnoughSpaceDuelDuelists>
-  <!-- EN: Not enough space for speaker. There must be a clear circle of radius {MINRADIUS}. -->
-  <CantStartNotEnoughSpaceDuelSpeaker>Hoparlör için yeterli alan yok. {MINRADIUS} yarıçapında dairesel bir alan gerekli.</CantStartNotEnoughSpaceDuelSpeaker>
-  <!-- EN: {0_labelShort} is a slave. Slaves don't get funerals. -->
+  <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} bir {IDEO_memberName} olmalı.</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} psişik olarak sağır.</CantStartRitualSelectedPawnPsychicallyDeaf>
+  <CantStartNotEnoughSpaceDuelSpectators>İzleyiciler için yeterli alan yok. {MINRADIUS} yarıçaplı boş bir daire olmalı. Bu yarıçap içinde üzerinde durulabilecek en az {1} kare gerekiyor.</CantStartNotEnoughSpaceDuelSpectators>
+  <CantStartNotEnoughSpaceDuelDuelists>Düellocular için yeterli alan yok. {MINRADIUS} yarıçaplı boş bir daire olmalı. Bu yarıçap içinde üzerinde durulabilecek en az {1} kare gerekiyor.</CantStartNotEnoughSpaceDuelDuelists>
+  <CantStartNotEnoughSpaceDuelSpeaker>Konuşmacı için yeterli alan yok. {MINRADIUS} yarıçaplı boş bir daire olmalı.</CantStartNotEnoughSpaceDuelSpeaker>
   <CantStartFuneralForSlave>{0_labelShort} bir köle. Kölelere cenaze töreni yapılmaz.</CantStartFuneralForSlave>
-  <!-- EN: Need a slave bed that is reachable, not reserved, and in safe temperature. -->
-  <NoSlaveBed>Ulaşılabilir, rezerve edilmemiş ve güvenli sıcaklıkta bir köle yatağı gerekli.</NoSlaveBed>
-  <!-- EN: Return to slave bed -->
+  <NoSlaveBed>Ulaşılabilir, ayrılmamış ve güvenli sıcaklıkta bir köle yatağı gerekli.</NoSlaveBed>
   <ReturnToSlaveBed>Köle yatağına dön</ReturnToSlaveBed>
-  <!-- EN: not allowed for faction -->
-  <NotAllowedForFaction>fraksiyon için izin verilmez</NotAllowedForFaction>
+  <NotAllowedForFaction>hizip için izin verilmiyor</NotAllowedForFaction>
 
-  <!-- EN: Remove precept -->
-  <RemovePrecept>Öğretiyi kaldır</RemovePrecept>
-  <!-- EN: Regenerate -->
+  <RemovePrecept>İlkeyi kaldır</RemovePrecept>
   <Regenerate>Yeniden oluştur</Regenerate>
-  <!-- EN: Cannot edit -->
-  <CannotEdit>Düzenlenemiyor</CannotEdit>
-  <!-- EN: No choices available -->
-  <NoChoicesAvailable>Mevcut seçenek yok</NoChoicesAvailable>
-  <!-- EN: Required by meme {0} -->
-  <RequiredByMeme>{0} ilkesince gerekli</RequiredByMeme>
-  <!-- EN: Required -->
+  <CannotEdit>Düzenlenemez</CannotEdit>
+  <NoChoicesAvailable>Seçenek yok</NoChoicesAvailable>
+  <RequiredByMeme>{0} memi gerektiriyor</RequiredByMeme>
   <Required>Gerekli</Required>
-  <!-- EN: Style category -->
   <StyleCategory>Stil kategorisi</StyleCategory>
-  <!-- EN: Add style category -->
   <AddStyleCategory>Stil kategorisi ekle</AddStyleCategory>
-  <!-- EN: Can't add more than {0} rituals. -->
-  <MaxRitualCount>{0} adetten fazla ritüel eklenemez.</MaxRitualCount>
-  <!-- EN: Can't add more than {0} relics. -->
+  <MaxRitualCount>{0} ritüelden fazlası eklenemez.</MaxRitualCount>
   <MaxRelicCount>{0} kutsal emanetten fazlası eklenemez.</MaxRelicCount>
-  <!-- EN: can't have more than {0} specialists. -->
-  <MaxMultiRolesCount>{0} uzmandan fazlası eklenemez.</MaxMultiRolesCount>
-  <!-- EN: max {0} -->
-  <MaxPreceptCount>maks. {0}</MaxPreceptCount>
-  <!-- EN: Set gender -->
-  <SetTargetGender>Cinsiyet ayarla</SetTargetGender>
-  <!-- EN: must be {0} faction -->
-  <RoleApparelRequirementIncompatibleFaction>{0} fraksiyonu olmalı</RoleApparelRequirementIncompatibleFaction>
-  <!-- EN: tribal -->
+  <MaxMultiRolesCount>{0} uzmandan fazlası olamaz.</MaxMultiRolesCount>
+  <MaxPreceptCount>en fazla {0}</MaxPreceptCount>
+  <SetTargetGender>Cinsiyeti belirle</SetTargetGender>
+  <RoleApparelRequirementIncompatibleFaction>{0} hizbi olmalı</RoleApparelRequirementIncompatibleFaction>
   <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>kabile</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
-  <!-- EN: non-tribal -->
-  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>kabile olmayan</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
-  <!-- EN: requires any of these memes -->
-  <RoleApparelRequirementIncompatibleAnyMemeRequired>şu ilkelerden herhangi birini gerektirir</RoleApparelRequirementIncompatibleAnyMemeRequired>
-  <!-- EN: cannot be worn with assigned apparel -->
-  <BodyPartAlreadyCovered>atanmış giyim ile beraber giyilemez</BodyPartAlreadyCovered>
-  <!-- EN: People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated. -->
-  <NoteRoleApparelRequirementEffects>İnsanlar giyim ihtiyaçları karşılandığında memnun, ihlâl edildiğinde mutsuz olurlar.</NoteRoleApparelRequirementEffects>
-  <!-- EN: supercharge not ready -->
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>kabile dışı</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>şu memlerden herhangi birini gerektirir</RoleApparelRequirementIncompatibleAnyMemeRequired>
+  <BodyPartAlreadyCovered>atanmış giysilerle birlikte giyilemez</BodyPartAlreadyCovered>
+  <NoteRoleApparelRequirementEffects>İnsanlar giysi gereksinimleri karşılandığında memnun olur, ihlal edildiğinde ise mutsuz olur.</NoteRoleApparelRequirementEffects>
   <NeuralSuperchargeNotReady>süper şarj hazır değil</NeuralSuperchargeNotReady>
-  <!-- EN: already getting -->
   <NeuralSuperchargeAlreadyGetting>zaten alıyor</NeuralSuperchargeAlreadyGetting>
-  <!-- EN: Set type -->
-  <SetApparelType>Türü ayarla</SetApparelType>
+  <SetApparelType>Türü belirle</SetApparelType>
 
-  <!-- EN: change style -->
   <ChangeStyle>stili değiştir</ChangeStyle>
-  <!-- EN: {0} {DEITYNOUN} required -->
   <DeitiesRequired>{0} {DEITYNOUN} gerekli</DeitiesRequired>
-  <!-- EN: deity -->
-  <Deity>ilah</Deity>
-  <!-- EN: requires meme -->
-  <RequiresMeme>şu ilkeyi gerektirir</RequiresMeme>
-  <!-- EN: requires one of -->
+  <Deity>tanrı</Deity>
+  <RequiresMeme>mem gerektirir</RequiresMeme>
   <RequiresOneOfMemes>şunlardan birini gerektirir</RequiresOneOfMemes>
-  <!-- EN: conflicts with meme -->
-  <ConflictsWithMeme>şu ilke ile çakışıyor</ConflictsWithMeme>
-  <!-- EN: conflicts with memes -->
-  <ConflictsWithMemes>şu ilkelerle çakışıyor</ConflictsWithMemes>
-  <!-- EN: can only have one altar/ideogram -->
-  <IdeoAlreadyHasAltar>sadece bir sunağa/ideograma sahip olunabilir</IdeoAlreadyHasAltar>
-  <!-- EN: recolor apparel -->
-  <RecolorApparel>giysiyi boya</RecolorApparel>
+  <ConflictsWithMeme>şu memle çelişir</ConflictsWithMeme>
+  <ConflictsWithMemes>şu memlerle çelişir</ConflictsWithMemes>
+  <IdeoAlreadyHasAltar>yalnızca bir sunak/ideogram olabilir</IdeoAlreadyHasAltar>
+  <RecolorApparel>giysiyi yeniden boya</RecolorApparel>
 
-  <!-- EN: Install {0} -->
-  <InstallRelic>Koy: {0}</InstallRelic>
-  <!-- EN: Extract {0} -->
-  <ExtractRelic>Al: {0}</ExtractRelic>
-  <!-- EN: Extract {0} to inventory ({1}) -->
-  <ExtractRelicToInventory>Envantere al: {0} ({1})</ExtractRelicToInventory>
-  <!-- EN: No relic to install -->
-  <NoRelicToInstall>Koyacak kutsal emanet yok</NoRelicToInstall>
-  <!-- EN: Install in reliquary -->
-  <InstallInReliquary>Rölikere koy</InstallInReliquary>
-  <!-- EN: no empty accessible reliquary -->
-  <NoEmptyReliquary>boş ve erişilebilir röliker yok</NoEmptyReliquary>
+  <InstallRelic>Yerleştir: {0}</InstallRelic>
+  <ExtractRelic>Çıkar: {0}</ExtractRelic>
+  <ExtractRelicToInventory>Envantere çıkar: {0} ({1})</ExtractRelicToInventory>
+  <NoRelicToInstall>Yerleştirilecek kutsal emanet yok</NoRelicToInstall>
+  <InstallInReliquary>Emanet sandığına yerleştir</InstallInReliquary>
+  <NoEmptyReliquary>erişilebilir boş emanet sandığı yok</NoEmptyReliquary>
 
-  <!-- EN: No {MEMBERNAME} warden -->
-  <NoWardenOfIdeo>{MEMBERNAME} gardiyanın yok</NoWardenOfIdeo>
+  <NoWardenOfIdeo>{MEMBERNAME} gardiyan yok</NoWardenOfIdeo>
 
-  <!-- EN: Remove current role -->
   <RemoveCurrentRole>Mevcut rolü kaldır</RemoveCurrentRole>
 
-  <!-- EN: Enter biosculpter pod for {0} cycle ({1}) -->
-  <EnterBiosculpterPod>{0} döngüsü için biyoşekillendirici kapsüle gir ({1})</EnterBiosculpterPod>
-  <!-- EN: Biotuned to someone else. -->
-  <BiosculpterBiotunedToAnother>Başkasının biyolojisi ile uyumlanmış.</BiosculpterBiotunedToAnother>
-  <!-- EN: Must be {0} years old for age reversal. -->
-  <UnderMinBiosculpterAgeReversalAge>Gençleşme için en az {0} yaşında olmalı.</UnderMinBiosculpterAgeReversalAge>
-  <!-- EN: Carry {PAWN_labelShort} to biosculpter ({CYCLE} cycle) -->
-  <CarryToBiosculpterPod>{PAWN_labelShort} kişisini biyoşekillendirici kapsüle taşı ({CYCLE} döngüsü)</CarryToBiosculpterPod>
-  <!-- EN: Cannot carry to biosculpter pod -->
-  <CannotCarryToBiosculpterPod>Biyoşekillendirici kapsüle taşınamıyor</CannotCarryToBiosculpterPod>
-  <!-- EN: No available biosculpter pod. -->
-  <NoBiosculpterPod>Kullanılabilir biyoşekillendirici kapsül yok.</NoBiosculpterPod>
-  <!-- EN: Nutrition not loaded -->
-  <BiosculpterNutritionNotLoaded>Besin eklenmedi</BiosculpterNutritionNotLoaded>
-  <!-- EN: Occupied -->
+  <EnterBiosculpterPod>Biyoşekillendirme kapsülüne gir: {0} döngüsü ({1})</EnterBiosculpterPod>
+  <BiosculpterBiotunedToAnother>Başka birine biyoayarlı.</BiosculpterBiotunedToAnother>
+  <UnderMinBiosculpterAgeReversalAge>Yaş geriletme için {0} yaşında olmalı.</UnderMinBiosculpterAgeReversalAge>
+  <CarryToBiosculpterPod>{PAWN_labelShort} adlı kişiyi biyoşekillendiriciye taşı ({CYCLE} döngüsü)</CarryToBiosculpterPod>
+  <CannotCarryToBiosculpterPod>Biyoşekillendirme kapsülüne taşınamaz</CannotCarryToBiosculpterPod>
+  <NoBiosculpterPod>Uygun biyoşekillendirme kapsülü yok.</NoBiosculpterPod>
+  <BiosculpterNutritionNotLoaded>Besin yüklenmemiş</BiosculpterNutritionNotLoaded>
   <BiosculpterOccupied>Dolu</BiosculpterOccupied>
-  <!-- EN: Cannot enter -->
   <CannotEnter>Girilemez</CannotEnter>
-  <!-- EN: Cannot start {0} cycle -->
   <BiosculpterCannotStartCycle>{0} döngüsü başlatılamıyor</BiosculpterCannotStartCycle>
-  <!-- EN: Cannot find cycle ingredients ({INGREDIENTS}) -->
-  <BiosculpterMissingIngredients>Döngü için gerekenler bulunamıyor ({INGREDIENTS})</BiosculpterMissingIngredients>
-  <!-- EN: Nobody around can use this -->
-  <BiosculpterNoEligiblePawns>Etraftaki kimse bunu kullanamıyor</BiosculpterNoEligiblePawns>
-  <!-- EN: Biotuned to {PAWN_labelShort} and {PAWN_pronoun} isn't around -->
-  <BiosculpterNoEligiblePawnsBiotuned>Uyumlandığı kişi {PAWN_labelShort} ve o etrafta değil</BiosculpterNoEligiblePawnsBiotuned>
-  <!-- EN: Auto load nutrition -->
-  <BiosculpterAutoLoadNutritionLabel>Besini otomatik ekle</BiosculpterAutoLoadNutritionLabel>
-  <!-- EN: Automatically load the nutrition required to run a cycle -->
+  <BiosculpterMissingIngredients>Döngü malzemeleri bulunamıyor ({INGREDIENTS})</BiosculpterMissingIngredients>
+  <BiosculpterNoEligiblePawns>Etrafta bunu kullanabilecek kimse yok</BiosculpterNoEligiblePawns>
+  <BiosculpterNoEligiblePawnsBiotuned>{PAWN_labelShort} kişisine biyoayarlı ve kendisi buralarda değil</BiosculpterNoEligiblePawnsBiotuned>
+  <BiosculpterAutoLoadNutritionLabel>Besini otomatik yükle</BiosculpterAutoLoadNutritionLabel>
   <BiosculpterAutoLoadNutritionDescription>Bir döngüyü çalıştırmak için gereken besini otomatik olarak yükle</BiosculpterAutoLoadNutritionDescription>
-  <!-- EN: Auto age reversal for {PAWN_labelShort} -->
-  <BiosculpterAutoAgeReversalLabel>{PAWN_labelShort} için otomatik gençleştirme</BiosculpterAutoAgeReversalLabel>
-  <!-- EN: Automatically satisfy {PAWN_labelShort}'s desire to run a yearly age reversal treatment in this pod, in accordance with {PAWN_possessive} beliefs. {NEXTTREATMENT} -->
-  <BiosculpterAutoAgeReversalDescription>{PAWN_labelShort} kişisinin inançları doğrultusunda bu kapsülde yıllık gençleşme tedavisi yapma arzusunu otomatik olarak karşıla. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
-  <!-- EN: If enabled, {PAWN_labelShort} will automatically take {PAWN_possessive} next treatment in {TIME} if the pod is ready. -->
-  <BiosculpterAutoAgeReversalDescriptionFuture>Etkinleştirilirse, {PAWN_labelShort} kapsül hazır olduğu takdirde sıradaki tedavisini {TIME} içinde otomatik olarak alacak.</BiosculpterAutoAgeReversalDescriptionFuture>
-  <!-- EN: {PAWN_labelShort} already wants {PAWN_possessive} next treatment and will automatically begin one if this is enabled. -->
-  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} zaten sıradaki tedavisini istiyor ve bu etkinleştirilirse otomatik olarak tedaviye başlayacak.</BiosculpterAutoAgeReversalDescriptionNow>
-  <!-- EN: Collecting ingredients for biosculpter cycle -->
-  <BiosculpterJobReportCollectIngredients>Biyoşekillendirici döngüsü için malzeme topluyor</BiosculpterJobReportCollectIngredients>
+  <BiosculpterAutoAgeReversalLabel>{PAWN_labelShort} için otomatik yaş geriletme</BiosculpterAutoAgeReversalLabel>
+  <BiosculpterAutoAgeReversalDescription>{PAWN_labelShort} kişisinin, inançları gereği yıllık yaş geriletme tedavisini bu kapsülde yaptırma isteğini otomatik olarak karşıla. {NEXTTREATMENT}</BiosculpterAutoAgeReversalDescription>
+  <BiosculpterAutoAgeReversalDescriptionFuture>Etkinleştirilirse {PAWN_labelShort}, kapsül hazırsa bir sonraki tedavisini {TIME} içinde otomatik olarak alacak.</BiosculpterAutoAgeReversalDescriptionFuture>
+  <BiosculpterAutoAgeReversalDescriptionNow>{PAWN_labelShort} bir sonraki tedavisini şimdiden istiyor; bu seçenek etkinse otomatik olarak tedaviye başlayacak.</BiosculpterAutoAgeReversalDescriptionNow>
+  <BiosculpterJobReportCollectIngredients>Biyoşekillendirme döngüsü için malzeme topluyor</BiosculpterJobReportCollectIngredients>
 </LanguageData>

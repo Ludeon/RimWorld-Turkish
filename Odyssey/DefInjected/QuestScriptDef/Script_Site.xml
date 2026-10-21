@@ -1,34 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>attackReason->claim the surveying scanner was sent to spy on their secret rituals</li>
+  <!-- EN: <li>attackReason->claim the surveying scanner was sent to spy on their secret rituals</li>
     <li>attackReason->say the surveying site infringes on their territory</li>
     <li>attackReason->say they were sent to destroy the scanner as payback</li>
     <li>attackReason->claim the surveying scanner is too close to one of their hidden stashes</li>
     <li>attackReason->want to scrap the surveying equipment for parts</li>
-    <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li>
-  -->
+    <li>attackReason->claim that the surveying scanner is secretly a weapon and its activation has caused psychic disturbances</li> -->
   <SurveySite.questContentRules.rulesStrings>
-    <li>attackReason->tarama aygıtının gizli ritüellerini gözetlemek için gönderildiğini iddia ediyorlar</li>
-    <li>attackReason->tarama alanının topraklarını ihlal ettiğini söylüyorlar</li>
-    <li>attackReason->tarayıcıyı yok ederek intikam almaya gönderildiklerini söylüyorlar</li>
-    <li>attackReason->tarama aygıtının gizli yığınlarından birine çok yakın olduğunu iddia ediyorlar</li>
-    <li>attackReason->tarama ekipmanının parçalarını almak istiyorlar</li>
-    <li>attackReason->tarama aygıtının aslında gizli bir silah olduğunu ve çalıştırıldığında psişik rahatsızlıklara yol açtığını iddia ediyorlar</li>
+
+    <li>attackReason->tarama cihazının gizli ritüellerini gözetlemek için gönderildiğini iddia ediyor</li>
+    <li>attackReason->tarama alanının topraklarını ihlal ettiğini söylüyor</li>
+    <li>attackReason->misilleme olarak tarayıcıyı yok etmeye gönderildiklerini söylüyor</li>
+    <li>attackReason->tarama cihazının gizli zulalarından birine fazla yakın olduğunu iddia ediyor</li>
+    <li>attackReason->tarama ekipmanını parça için sökmek istiyor</li>
+    <li>attackReason->tarama cihazının aslında gizli bir silah olduğunu ve çalıştırılmasının psişik bozulmalara yol açtığını iddia ediyor</li>
   </SurveySite.questContentRules.rulesStrings>
-  <!-- EN:
-    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
+  <!-- EN: <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help defending surveying equipment at a remote site.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, the AI is offering a valuable gravtech device.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has heard rumors of your gravship. [asker_pronoun] wants to survey a distant region and asks that you protect [asker_possessive] surveying equipment.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li>
-  -->
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you protect [asker_possessive] surveying operation. If you do so, [asker_pronoun] will reward you handsomely.\n\nThe surveying operation will take ten to fifteen days and will require traveling to a remote destination.\n\nIn exchange for your services, [asker_nameDef] is offering a valuable gravtech device.</li> -->
   <SurveySite.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Kimliği bilinmeyen bir yapay zekâ, uzak bir bölgedeki araştırma ekipmanının savunulması için yardımını istedi.\n\nAraştırma operasyonu on ila on beş gün sürecek ve uzak bir bölgeye seyahat etmeni gerektirecek.\n\nHizmetlerin karşılığında yapay zekâ sana değerli bir gravteknolojisi cihazı teklif ediyor.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], gravgemiye sahip olduğun yönünde söylentiler duymuş. Kendisi uzak bir bölgeyi araştırmak istiyor ve sizden araştırma ekipmanını korumanı istiyor.\n\nAraştırma operasyonu on ila on beş gün sürecek ve uzak bir bölgeye seyahat etmeni gerektirecek.\n\nHizmetlerin karşılığında [asker_nameDef] sana değerli bir gravteknolojisi cihazı teklif ediyor.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name] fraksiyonundan bir [asker_royalTitleInCurrentFaction] olan [asker_nameFull], sizden araştırma operasyonunu korumanı istiyor. Bunu yaparsan kendisi seni cömertçe ödüllendirecek.\n\nAraştırma operasyonu on ila on beş gün sürecek ve uzak bir bölgeye seyahat etmeni gerektirecek.\n\nHizmetlerin karşılığında [asker_nameDef] sana değerli bir gravteknolojisi cihazı teklif ediyor.</li>
+
+    <li>questDescription(askerIsNull==true)->Kimliği belirsiz bir yapay zekâ, uzak bir bölgedeki tarama ekipmanını savunmak için yardımını istiyor.\n\nTarama çalışması on ila on beş gün sürecek ve uzak bir hedefe yolculuk gerektirecek.\n\nHizmetlerin karşılığında yapay zekâ değerli bir gravteknoloji cihazı teklif ediyor.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name] hizbinden [asker_faction_leaderTitle] [asker_nameFull], grav gemine dair söylentiler duymuş. Uzak bir bölgeyi taramak istiyor ve tarama ekipmanını korumanı rica ediyor.\n\nTarama çalışması on ila on beş gün sürecek ve uzak bir hedefe yolculuk gerektirecek.\n\nHizmetlerin karşılığında [asker_nameDef] değerli bir gravteknoloji cihazı teklif ediyor.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name] hizbinin [asker_royalTitleInCurrentFaction] unvanlı üyesi [asker_nameFull], tarama çalışmasını korumanı istiyor. Bunu yaparsan seni cömertçe ödüllendirecek.\n\nTarama çalışması on ila on beş gün sürecek ve uzak bir hedefe yolculuk gerektirecek.\n\nHizmetlerin karşılığında [asker_nameDef] değerli bir gravteknoloji cihazı teklif ediyor.</li>
   </SurveySite.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->Surveying [site]</li>
+  <!-- EN: <li>questName->Surveying [site]</li>
     <li>questName->[remote] Survey</li>
     <li>questName(p=0.5)->Defending the Scanner</li>
     <li>questName(p=0.5)->Remote Protection</li>
@@ -38,30 +35,30 @@
     <li>site->Operation</li>
     <li>remote->Remote</li>
     <li>remote->Regional</li>
-    <li>remote->Distant</li>
-  -->
+    <li>remote->Distant</li> -->
   <SurveySite.questNameRules.rulesStrings>
-    <li>questName->[site] Araştırması</li>
-    <li>questName->[remote] Araştırma</li>
-    <li>questName(p=0.5)->Tarayıcıyı Savunma</li>
-    <li>questName(p=0.5)->Uzaktan Koruma</li>
-    <li>site->Saha</li>
-    <li>site->İstasyon</li>
-    <li>site->Savunma</li>
-    <li>site->Operasyon</li>
-    <li>remote->Uzaktan</li>
+
+    <li>questName->Tarama [site]</li>
+    <li>questName->[remote] Tarama</li>
+    <li>questName(p=0.5)->Tarayıcıyı Savunmak</li>
+    <li>questName(p=0.5)->Uzak Koruma</li>
+    <li>site->Alanı</li>
+    <li>site->İstasyonu</li>
+    <li>site->Savunması</li>
+    <li>site->Operasyonu</li>
+    <li>remote->Uzak</li>
     <li>remote->Bölgesel</li>
-    <li>remote->Irak</li>
+    <li>remote->Uzaktaki</li>
   </SurveySite.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <SurveySite.LetterLabelQuestExpired.slateRef>Görev süresi doldu: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
+  <SurveySite.LetterLabelQuestExpired.slateRef>Görevin süresi doldu: [resolvedQuestName]</SurveySite.LetterLabelQuestExpired.slateRef>
   <!-- EN: The scanner has gone offline. The quest [resolvedQuestName] has expired. -->
-  <SurveySite.LetterTextQuestExpired.slateRef>Tarayıcı çevrim dışı kaldı. [resolvedQuestName] görevi sona erdi.</SurveySite.LetterTextQuestExpired.slateRef>
+  <SurveySite.LetterTextQuestExpired.slateRef>Tarayıcı devre dışı kaldı. [resolvedQuestName] görevinin süresi doldu.</SurveySite.LetterTextQuestExpired.slateRef>
   <!-- EN: {BASETEXT}\n\nThe [enemyFaction_pawnsPlural] [attackReason]. -->
   <SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>{BASETEXT}\n\n[enemyFaction_pawnsPlural] [attackReason].</SurveySite.root.nodes.Root_SurveyScanner.raidLetterText>
   <!-- EN: Quest completed -->
   <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>Görev tamamlandı</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.label.slateRef>
   <!-- EN: You have successfully completed the quest '[resolvedQuestName]'! -->
-  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>"[resolvedQuestName]" görevini başarıyla tamamladın!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
+  <SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>'[resolvedQuestName]' görevini başarıyla tamamladın!</SurveySite.root.nodes.AllSignals.node.node.nodes.Letter.text.slateRef>
   
 </LanguageData>

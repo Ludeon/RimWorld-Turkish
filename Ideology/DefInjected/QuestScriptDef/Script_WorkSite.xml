@@ -1,18 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
+  <!-- EN: <li>questDescription->You've detected a [siteLabel] nearby controlled by [faction_name].\n\nIf you wish, you can raid the camp to collect loot ([loot]). [raidConsequences]\n\nThe camp will pack up and move on in [timeout_duration].</li>
     <li>raidConsequences(faction_temporary==false)->If you do, [faction_name] will become hostile if they are not already.</li>
-    <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li>
-  -->
+    <li>raidConsequences(faction_temporary==true)->Since [faction_name] is just a small, independent group, you can attack them without any broader diplomatic consequences.</li> -->
   <OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-    <li>questDescription->Yakınlarda [faction_name] tarafından kontrol edilen bir [siteLabel] tespit ettin.\n\nEğer istersen, ganimet toplamak için kampa baskın düzenleyebilirsin ([loot]). [raidConsequences]\n\nKamp, [timeout_duration] içinde toparlanıp taşınacak.</li>
-    <li>raidConsequences(faction_temporary==false)->Eğer bunu yaparsan, [faction_name] sana düşman olacak.</li>
-    <li>raidConsequences(faction_temporary==true)->[faction_name] yalnızca küçük, bağımsız bir grup olduğundan, onlara saldırmanın daha geniş diplomatik sonuçları olmayacak.</li>
+    <li>questDescription->Yakınlarda [faction_name] kontrolünde bir [siteLabel] tespit ettin.\n\nİstersen kampa baskın yapıp ganimet ([loot]) toplayabilirsin. [raidConsequences]\n\nKamp [timeout_duration] içinde toplanıp başka yere gidecek.</li>
+    <li>raidConsequences(faction_temporary==false)->Bunu yaparsan [faction_name], zaten değilse sana düşman olacak.</li>
+    <li>raidConsequences(faction_temporary==true)->[faction_name] küçük, bağımsız bir grup olduğundan onlara daha geniş diplomatik sonuçlarla karşılaşmadan saldırabilirsin.</li>
   </OpportunitySite_WorkSite.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[site_label] [detected]</li>
+  <!-- EN: <li>questName->[site_label] [detected]</li>
     <li>detected->detected</li>
     <li>detected->discovered</li>
     <li>detected->nearby</li>
@@ -21,19 +18,18 @@
     <li>detected->noticed</li>
     <li>detected->observed</li>
     <li>detected->revealed</li>
-    <li>detected->uncovered</li>
-  -->
+    <li>detected->uncovered</li> -->
   <OpportunitySite_WorkSite.questNameRules.rulesStrings>
     <li>questName->[site_label] [detected]</li>
     <li>detected->tespit edildi</li>
     <li>detected->keşfedildi</li>
-    <li>detected->yakında</li>
+    <li>detected->yakınlarda</li>
     <li>detected->bulundu</li>
-    <li>detected->tanımlandı</li>
-    <li>detected->algılandı</li>
+    <li>detected->belirlendi</li>
+    <li>detected->fark edildi</li>
     <li>detected->gözlemlendi</li>
     <li>detected->ortaya çıktı</li>
-    <li>detected->açığa çıktı</li>
+    <li>detected->açığa çıkarıldı</li>
   </OpportunitySite_WorkSite.questNameRules.rulesStrings>
   
 </LanguageData>

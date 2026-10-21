@@ -2,9 +2,8 @@
 <LanguageData>
   
   <!-- EN: try to get to know -->
-  <BuildRapport.label>tanımaya çalışma</BuildRapport.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>
+  <BuildRapport.label>tanımaya çalış</BuildRapport.label>
+  <!-- EN: <li>r_logentry->[INITIATOR_nameDef] [toldastoryabout] [subject] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] about [subject].</li>
     <li>r_logentry->[INITIATOR_nameDef] described [subject] to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] encouraged [RECIPIENT_nameDef] to [talkabout] [subject].</li>
@@ -37,81 +36,79 @@
     <li>subject->letting go</li>
     <li>subject(p=4)->[ConceptPositive]</li>
     <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
-    <li>subject(p=8)->[TalkTopicLight]</li>
-  -->
+    <li>subject(p=8)->[TalkTopicLight]</li> -->
   <BuildRapport.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] kişisine [subject] ile ilgili [toldastoryabout]</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile [subject] hakkında konuştu.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile [subject] üzerine sohbet etti.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] kişisini [subject] hakkında [talkabout] için teşvik etti.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] kişisine [subject] hakkında [talkabout] için bir fırsat verdi.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] ile onun [PersonalCharacteristic] ile ilgili konuştu.</li>
-    <li>r_logentry->[INITIATOR_nameDef] [RECIPIENT_nameDef] kişisine onun [PersonalCharacteristic] ile ilgili sorular sordu.</li>
+
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [subject] hakkında [toldastoryabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [subject] hakkında bilgi verdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [subject] konusunu anlattı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiyi [subject] hakkında [talkabout] yüreklendirdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [subject] hakkında [talkabout] fırsat tanıdı.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişinin [PersonalCharacteristic] yönüne ilgi gösterdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [RECIPIENT_possessive] [PersonalCharacteristic] hakkında sorular sordu.</li>
     <li>toldastoryabout(p=2)->bir hikâye anlattı</li>
     <li>toldastoryabout->komik bir hikâye anlattı</li>
-    <li>toldastoryabout->samimi bir hikâye anlattı</li>
+    <li>toldastoryabout->içten bir hikâye anlattı</li>
     <li>toldastoryabout->eski bir hikâye anlattı</li>
     <li>toldastoryabout->bir aile hikâyesi anlattı</li>
     <li>toldastoryabout->bir çocukluk hikâyesi anlattı</li>
-    <li>toldastoryabout->bir anektod anlattı</li>
-    <li>talkabout->konuşması</li>
-    <li>talkabout->tartışması</li>
-    <li>talkabout->tartışmaya girmesi</li>
-    <li>talkabout->sorması</li>
-    <li>talkabout->düşünmesi</li>
-    <li>talkabout->bir ortak nokta bulması</li>
+    <li>toldastoryabout->bir anekdot aktardı</li>
+    <li>talkabout->konuşmaya</li>
+    <li>talkabout->tartışmaya</li>
+    <li>talkabout->sohbet etmeye</li>
+    <li>talkabout->soru sormaya</li>
+    <li>talkabout->düşünmeye</li>
+    <li>talkabout->ortak bir nokta bulmaya</li>
     <li>subject->koloni</li>
-    <li>subject->toplum</li>
-    <li>subject->koloniye katılma</li>
-    <li>subject->taraf değiştirme</li>
-    <li>subject->arkadaş edinme</li>
-    <li>subject->yeni insanlar tanıma</li>
-    <li>subject->fikirlerini gözden geçirme</li>
-    <li>subject->sadakatini gözden geçirme</li>
+    <li>subject->topluluk</li>
+    <li>subject->koloniye katılmak</li>
+    <li>subject->taraf değiştirmek</li>
+    <li>subject->arkadaş edinmek</li>
+    <li>subject->yeni insanlarla tanışmak</li>
+    <li>subject->[RECIPIENT_possessive] fikirlerini yeniden gözden geçirmek</li>
+    <li>subject->[RECIPIENT_possessive] sadakatini yeniden düşünmek</li>
     <li>subject->sağlık</li>
     <li>subject->gelecek</li>
-    <li>subject->serbest kalma</li>
+    <li>subject->geçmişi geride bırakmak</li>
     <li>subject(p=4)->[ConceptPositive]</li>
-    <li>subject(p=2)->[PersonalCharacteristic]</li>
+    <li>subject(p=2)->[INITIATOR_possessive] [PersonalCharacteristic]</li>
     <li>subject(p=8)->[TalkTopicLight]</li>
   </BuildRapport.logRulesInitiator.rulesStrings>
   
   <!-- EN: recruit attempt -->
-  <RecruitAttempt.label>koloniye katma girişimi</RecruitAttempt.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to join.</li>
+  <RecruitAttempt.label>kazanma girişimi</RecruitAttempt.label>
+  <!-- EN: <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] to join.</li>
     <li>r_logentry->[INITIATOR_nameDef] promised [goodthing] to [RECIPIENT_nameDef], and asked [RECIPIENT_objective] to join.</li>
     <li>goodthing(p=15)->[ConceptPositive]</li>
-    <li>goodthing->free, fresh [Vegetable]s</li>
-  -->
+    <li>goodthing->free, fresh [Vegetable]s</li> -->
   <RecruitAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[RECIPIENT_nameDef], [INITIATOR_nameDef] tarafından koloniye katılma teklifi aldı.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile konuşurken [goodthing] sözü verdi ve ondan katılmasını istedi.</li>
+
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiden katılmasını istedi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [goodthing] vaat etti ve [RECIPIENT_objective] aralarına davet etti.</li>
     <li>goodthing(p=15)->[ConceptPositive]</li>
     <li>goodthing->bedava, taze [Vegetable]</li>
   </RecruitAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: spark jailbreak -->
-  <SparkJailbreak.label>firara teşvik</SparkJailbreak.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
+  <SparkJailbreak.label>firara kışkırtma</SparkJailbreak.label>
+  <!-- EN: <li>r_logentry->[INITIATOR_nameDef] spoke about the joy of [freedom], and offered a means of escape.</li>
     <li>r_logentry->[INITIATOR_nameDef] talked about how beautiful the [TerrainFeature] is, and offered freedom.</li>
     <li>r_logentry->[INITIATOR_nameDef] demonstrated a means of escape to [RECIPIENT_nameDef], and promised [freedom].</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that security is lax, and encouraged escape.</li>
     <li>freedom->freedom</li>
     <li>freedom->opportunity</li>
     <li>freedom->home</li>
-    <li>freedom->self-determination</li>
-  -->
+    <li>freedom->self-determination</li> -->
   <SparkJailbreak.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [freedom] ile gelen mutluluktan bahsetti ve bir kaçış yolu vadetti.</li>
-    <li>r_logentry->[INITIATOR_nameDef], doğanın ne kadar güzel olduğunu anlattı ve özgürlük vadetti.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile bir kaçış yolu üzerine çalıştı ve ona [freedom] sözü verdi.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile güvenlik zaafiyetleri hakkında konuştu ve onu kaçmaya teşvik etti.</li>
+
+    <li>r_logentry->[INITIATOR_nameDef], [freedom] sevincinden söz etti ve bir kaçış yolu önerdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [TerrainFeature] manzarasının ne kadar güzel olduğundan söz etti ve özgürlük önerdi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye bir kaçış yolu gösterdi ve [freedom] vaat etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye güvenliğin gevşek olduğunu söyledi ve onu kaçmaya teşvik etti.</li>
     <li>freedom->özgürlük</li>
     <li>freedom->fırsat</li>
     <li>freedom->yuva</li>
-    <li>freedom->kendi kaderini çizme</li>
+    <li>freedom->kendi kaderini belirleme</li>
   </SparkJailbreak.logRulesInitiator.rulesStrings>
   
 </LanguageData>

@@ -1,33 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>retaliationLetterLabel->wastepack retaliation</li>
+  <!-- EN: <li>retaliationLetterLabel->wastepack retaliation</li>
     <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] wastepack retaliation</li>
     <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef]'s wastepack retaliation</li>
     <li>retaliationLetterText(senderIsNull==True)->Your off-map dumping of toxic waste has not gone unnoticed. Angered neighbors are retaliating by bombarding your settlement with transport pods full of toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
     <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] claims that your reckless off-map dumping of toxic waste has harmed [sender_possessive] faction. In retaliation, [sender_pronoun] is using transport pods to bombard you with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] claims that your reckless off-map dumping of toxic waste has harmed [sender_possessive] faction, and [sender_pronoun] believes [sender_pronoun] is honor-bound to retaliate. [sender_pronoun] is using transport pods to bombard you with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li>
-  -->
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_leaderTitle] [sender_nameFull] of [sender_faction_name] claims that your reckless off-map dumping of toxic waste has harmed [sender_possessive] faction, and [sender_pronoun] believes [sender_pronoun] is honor-bound to retaliate. [sender_pronoun] is using transport pods to bombard you with toxic wastepacks.\n\nIf not kept frozen, toxic wastepacks will dissolve over time, polluting nearby terrain.</li> -->
   <PollutionRetaliation.questContentRules.rulesStrings>
     <li>retaliationLetterLabel->atık paketi misillemesi</li>
-    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] tarafından atık paketi misillemesi</li>
+    <li>retaliationLetterLabel(senderIsNull==False)->[sender_faction_pawnSingular] atık paketi misillemesi</li>
     <li>retaliationLetterLabel(senderIsNull==False,sender_royalInCurrentFaction==False)->[sender_nameDef] tarafından atık paketi misillemesi</li>
-    <li>retaliationLetterText(senderIsNull==True)->Harita dışına zehirli atık boşaltman gözden kaçmadı. Öfkeli komşuların, yerleşimini zehirli atık paketleri dolu taşıma kapsülleriyle bombardımana tutuyor.\n\nDondurulmadıkları takdirde, zehirli atık paketleri zamanla çözünecek ve çevredeki araziyi kirletecektir.</li>
-    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name] fraksiyonundan [sender_faction_leaderTitle] [sender_nameFull], zehirli atıkların harita dışına pervasızca atılmasının kendi grubuna zarar verdiğini iddia ediyor. Misilleme olarak, seni zehirli atık paketleri dolu taşıma kapsülleriyle bombardımana tutuyor.\n\nDondurulmadıkları takdirde, zehirli atık paketleri zamanla çözünecek ve çevredeki araziyi kirletecektir.</li>
-    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name] fraksiyonundan [sender_faction_leaderTitle] [sender_nameFull], zehirli atıkların harita dışına pervasızca atılmasının kendi grubuna zarar verdiğini iddia ediyor ve misilleme yapmanın onurlu olduğuna inanıyor. Seni zehirli atık paketleri dolu taşıma kapsülleriyle bombardımana tutuyor.\n\nDondurulmadıkları takdirde, zehirli atık paketleri zamanla çözünecek ve çevredeki araziyi kirletecektir.</li>
+    <li>retaliationLetterText(senderIsNull==True)->Harita dışına zehirli atık boşaltman fark edilmeden kalmadı. Öfkeli komşular, yerleşimini zehirli atık paketleriyle dolu taşıma kapsülleriyle bombalayarak misilleme yapıyor.\n\nDondurulmuş hâlde tutulmayan zehirli atık paketleri zamanla çözünür ve yakındaki zemini kirletir.</li>
+    <li>retaliationLetterText(sender_factionLeader==True)->[sender_faction_name] hizbinin [sender_faction_leaderTitle] makamındaki [sender_nameFull], harita dışına pervasızca zehirli atık boşaltmanın hizbine zarar verdiğini iddia ediyor. Misilleme olarak seni taşıma kapsülleriyle zehirli atık paketleri yağmuruna tutuyor.\n\nDondurulmuş hâlde tutulmayan zehirli atık paketleri zamanla çözünür ve yakındaki zemini kirletir.</li>
+    <li>retaliationLetterText(sender_royalInCurrentFaction==True)->[sender_faction_name] hizbinin [sender_faction_leaderTitle] makamındaki [sender_nameFull], harita dışına pervasızca zehirli atık boşaltmanın hizbine zarar verdiğini iddia ediyor ve onuru gereği misilleme yapması gerektiğine inanıyor. Seni taşıma kapsülleriyle zehirli atık paketleri yağmuruna tutuyor.\n\nDondurulmuş hâlde tutulmayan zehirli atık paketleri zamanla çözünür ve yakındaki zemini kirletir.</li>
   </PollutionRetaliation.questContentRules.rulesStrings>
-  <!-- EN:
-    <li>questDescription->pollutionretaliation</li>
-  -->
+  <!-- EN: <li>questDescription->pollutionretaliation</li> -->
   <PollutionRetaliation.questDescriptionRules.rulesStrings>
-    <li>questDescription->pollutionretaliation</li>
+    <li>questDescription->kirlilik misillemesi</li>
   </PollutionRetaliation.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questDescription->pollutionretaliation</li>
-  -->
+  <!-- EN: <li>questDescription->pollutionretaliation</li> -->
   <PollutionRetaliation.questNameRules.rulesStrings>
-    <li>questDescription->pollutionretaliation</li>
+    <li>questDescription->kirlilik misillemesi</li>
   </PollutionRetaliation.questNameRules.rulesStrings>
   
 </LanguageData>

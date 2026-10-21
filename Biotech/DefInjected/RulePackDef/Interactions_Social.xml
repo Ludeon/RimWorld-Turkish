@@ -1,107 +1,144 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
-  <!-- EN:
-    <li>situation(p=2)->safely</li>
+
+  <!-- EN: <li>situation(p=2)->safely</li>
+
     <li>situation->at night</li>
+
     <li>situation->in the cold</li>
+
     <li>situation->while injured</li>
-    <li>situation(p=0.2)->while drunk</li>
-  -->
+
+    <li>situation(p=0.2)->while drunk</li> -->
+
   <LessonInteractionCommonSituations.rulePack.rulesStrings>
-    <li>situation(p=2)->güvenli biçimde</li>
+    <li>situation(p=2)->güvenli bir şekilde</li>
     <li>situation->geceleyin</li>
     <li>situation->soğukta</li>
     <li>situation->yaralıyken</li>
     <li>situation(p=0.2)->sarhoşken</li>
   </LessonInteractionCommonSituations.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
-  -->
+
+  <!-- EN: <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_adverb] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li>
+
+    <li>r_logentry->[INITIATOR_nameDef] [teach_verb] how to [action] [article_tool] to [RECIPIENT_nameDef].</li> -->
+
   <LessonInteractionHowTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı çocuğa nasıl [article_tool] [action] [teach_adverb] [teach_verb].</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı çocuğa nasıl [article_tool] [action] [teach_verb].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [teach_adverb] [article_tool] [action] [teach_verb].</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [article_tool] [action] [teach_verb].</li>
   </LessonInteractionHowTo.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+
+  <!-- EN: <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [teach_test] [RECIPIENT_nameDef] on [action_gerund] [article_tool] [situation].</li>
+
     <li>teach_test->quizzed</li>
+
     <li>teach_test->tested</li>
+
     <li>teach_test->grilled</li>
-    <li>teach_test->cross-examined</li>
-  -->
+
+    <li>teach_test->cross-examined</li> -->
+
   <LessonInteractionQuiz.rulePack.rulesStrings>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı çocuğa [situation] [article_tool] [action_gerund] hakkında [teach_test].</li>
-    <li>teach_test->sözlü yaptı</li>
-    <li>teach_test->test yaptı</li>
-    <li>teach_test->sınav yaptı</li>
-    <li>teach_test->sorular sordu</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiyi [situation] [article_tool] [action_gerund] konusunda [teach_test].</li>
+    <li>teach_test->sınadı</li>
+    <li>teach_test->test etti</li>
+    <li>teach_test->soru yağmuruna tuttu</li>
+    <li>teach_test->çapraz sorguya çekti</li>
   </LessonInteractionQuiz.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+
+  <!-- EN: <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [study_verb] [subject] with [RECIPIENT_nameDef].</li>
+
     <li>study_verb->covered</li>
+
     <li>study_verb->went over</li>
+
     <li>study_verb->researched</li>
-    <li>study_verb->studied</li>
-  -->
+
+    <li>study_verb->studied</li> -->
+
   <LessonInteractionStudySubjectWith.rulePack.rulesStrings>
     <li>r_logentry(p=0.25)->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [teach_adverb] [subject] konusunu [study_verb].</li>
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [subject] konusunu [study_verb].</li>
     <li>study_verb->işledi</li>
-    <li>study_verb->tekrar etti</li>
-    <li>study_verb->inceledi</li>
+    <li>study_verb->gözden geçirdi</li>
+    <li>study_verb->araştırdı</li>
     <li>study_verb->çalıştı</li>
   </LessonInteractionStudySubjectWith.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>teach_adverb->calmly</li>
+
+  <!-- EN: <li>teach_adverb->calmly</li>
+
     <li>teach_adverb->animatedly</li>
+
     <li>teach_adverb->intently</li>
+
     <li>teach_adverb->quickly</li>
+
     <li>teach_adverb->lightheartedly</li>
-    <li>teach_adverb->carefully</li>
-  -->
+
+    <li>teach_adverb->carefully</li> -->
+
   <LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
-    <li>teach_adverb->sakince</li>
-    <li>teach_adverb->canlandırma yaparak</li>
+    <li>teach_adverb->sakin sakin</li>
+    <li>teach_adverb->coşkuyla</li>
     <li>teach_adverb->dikkatle</li>
     <li>teach_adverb->hızlıca</li>
-    <li>teach_adverb->laubalice</li>
-    <li>teach_adverb->dikkatlice</li>
+    <li>teach_adverb->neşeyle</li>
+    <li>teach_adverb->özenle</li>
   </LessonInteractionTeachingAdverbs.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>teach_verb->demonstrated</li>
+
+  <!-- EN: <li>teach_verb->demonstrated</li>
+
     <li>teach_verb->explained</li>
+
     <li>teach_verb->showed</li>
-    <li>teach_verb->taught</li>
-  -->
+
+    <li>teach_verb->taught</li> -->
+
   <LessonInteractionTeachingVerbs.rulePack.rulesStrings>
-    <li>teach_verb->uygulamalı olarak gösterdi</li>
+    <li>teach_verb->uygulamalı gösterdi</li>
     <li>teach_verb->açıkladı</li>
     <li>teach_verb->gösterdi</li>
     <li>teach_verb->öğretti</li>
   </LessonInteractionTeachingVerbs.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+
+  <!-- EN: <li>r_logentry(p=0.25)->[INITIATOR_nameDef] [teach_adverb] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+
     <li>r_logentry(p=0.5)->[INITIATOR_nameDef] [talk_verb] [subject] to [RECIPIENT_nameDef].</li>
+
     <li>talk_verb->talked about</li>
+
     <li>talk_verb->gave an overview of</li>
+
     <li>talk_verb->gave a summary of</li>
-    <li>talk_verb->lectured about</li>
-  -->
+
+    <li>talk_verb->lectured about</li> -->
+
   <LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
-    <li>r_logentry(p=0.25)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı çocuğa [subject] [teach_adverb] [talk_verb].</li>
-    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı çocuğa [subject] [talk_verb].</li>
+    <li>r_logentry(p=0.25)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [teach_adverb] [subject] [talk_verb].</li>
+    <li>r_logentry(p=0.5)->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [subject] [talk_verb].</li>
     <li>talk_verb->hakkında konuştu</li>
     <li>talk_verb->hakkında genel bir bakış sundu</li>
-    <li>talk_verb->konusunu özetledi</li>
-    <li>talk_verb->hakkında ders verdi</li>
+    <li>talk_verb->hakkında bir özet verdi</li>
+    <li>talk_verb->hakkında ders anlattı</li>
   </LessonInteractionTeachSubjectTo.rulePack.rulesStrings>
+
   
+
 </LanguageData>

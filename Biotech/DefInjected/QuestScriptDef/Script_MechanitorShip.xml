@@ -1,30 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>mechanitorShuttleCrashedLetterLabel->Mechanitor ship</li>
+  <!-- EN: <li>mechanitorShuttleCrashedLetterLabel->Mechanitor ship</li>
     <li>mechanitorShuttleCrashedLetterText->A mechanitor ship containing feral mechanoids has crashed nearby. The mechanoids will exit the crashed ship and prepare to fight.</li>
     <li>assaultBeginLetterLabel->Mechanoid attack</li>
     <li>assaultBeginLetterText->The feral mechanoids are coming to assault the colony!</li>
     <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef]'s mechlink available</li>
-    <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li>
-  -->
+    <li>mechlinkAvailableLetterText->The crashed ship contained the corpse of an ancient mechanitor.\n\nExtract [mechanitor_possessive] mechlink by selecting a colonist and right-clicking the corpse.</li> -->
   <MechanitorShip.questContentRules.rulesStrings>
     <li>mechanitorShuttleCrashedLetterLabel->Mekanitör gemisi</li>
-    <li>mechanitorShuttleCrashedLetterText->Vahşi mekanoitler taşıyan bir mekanitör gemisi yakınlara düştü. Mekanoitler gemi enkazından çıkarak çatışmaya hazırlanacaklar.</li>
-    <li>assaultBeginLetterLabel->Mekanoit saldırısı</li>
-    <li>assaultBeginLetterText->Vahşi mekanoitler kolonine saldırmak üzere harekete geçiyor!</li>
-    <li>mechlinkAvailableLetterLabel->[mechanitor_nameDef] mekabağını düşürdü</li>
-    <li>mechlinkAvailableLetterText->Düşen gemi, antik bir mekanitörün cesedini taşıyordu.\n\nBir kolonistini seçip cesede sağ tıklayarak mekabağını çıkar.</li>
+    <li>mechanitorShuttleCrashedLetterText->Yabanileşmiş mekanoidler taşıyan bir mekanitör gemisi yakınlarda düştü. Mekanoidler düşen gemiden çıkıp savaşmaya hazırlanacak.</li>
+    <li>assaultBeginLetterLabel->Mekanoid saldırısı</li>
+    <li>assaultBeginLetterText->Yabanileşmiş mekanoidler koloniye saldırmak için geliyor!</li>
+    <li>mechlinkAvailableLetterLabel->Mekbağ mevcut: [mechanitor_nameDef]</li>
+    <li>mechlinkAvailableLetterText->Düşen gemide antik bir mekanitörün cesedi vardı.\n\nBir kolonist seçip cesede sağ tıklayarak mekbağını çıkarabilirsin.</li>
   </MechanitorShip.questContentRules.rulesStrings>
-  <!-- EN:
-    <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li>
-  -->
+  <!-- EN: <li>questDescription->You have decrypted an ancient transponder, revealing the location of a mechanoid ship in orbit. The ship is badly damaged but you can signal it to land nearby.\n\nThe ship contains the remains of a long-dead mechanitor. Mechanitors can create and control mechanoids for work and combat. By extracting the deceased mechanitor's mechlink, you can turn one of your own colonists into a mechanitor.\n\nBeware - the ship also contains hostile mechanoids. The mechanoid group is composed of:\n\n[mechList]</li> -->
   <MechanitorShip.questDescriptionRules.rulesStrings>
-    <li>questDescription->Antik bir vericiyi deşifre ettin; bu sayede yörüngede bulunan bir mekanoit gemisinin yerini ortaya çıkardın. Gemi ağır hasar almış durumda fakat ona sinyal göndererek yakınlara iniş yapmasını sağlayabilirsin.\n\nGemide, çok uzun zaman önce ölmüş bir mekanitörün kalıntıları bulunuyor. Mekanitörler, iş ve savaş için mekanoitleri yaratabilir ve kontrol edebilirler. Ölmüş mekanitörün mekabağını çıkararak kendi kolonistlerinden birini mekanitöre dönüştürebilirsin.\n\nDikkat et! Gemide aynı zamanda düşmancıl mekanoitler de mevcut. Mekanoit grubu şunlardan oluşuyor:\n\n[mechList]</li>
+    <li>questDescription->Antik bir transponderin şifresini çözdün ve yörüngedeki bir mekanoid gemisinin yerini ortaya çıkardın. Gemi ağır hasarlı, ama yakınlara inmesi için ona sinyal gönderebilirsin.\n\nGemide uzun zaman önce ölmüş bir mekanitörün kalıntıları bulunuyor. Mekanitörler, iş ve savaş için mekanoid üretip kontrol edebilir. Ölü mekanitörün mekbağını çıkararak kendi kolonistlerinden birini mekanitöre dönüştürebilirsin.\n\nDikkat: Gemide düşman mekanoidler de var. Mekanoid grubu şunlardan oluşuyor:\n\n[mechList]</li>
   </MechanitorShip.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[shipAdjective] [shipNoun]</li>
+  <!-- EN: <li>questName->[shipAdjective] [shipNoun]</li>
     <li>shipAdjective->mechanitor</li>
     <li>shipAdjective->the overseer's</li>
     <li>shipAdjective->ancient</li>
@@ -34,20 +29,19 @@
     <li>shipNoun->craft</li>
     <li>shipNoun->wreck</li>
     <li>shipNoun->wreckage</li>
-    <li>shipNoun->transport</li>
-  -->
+    <li>shipNoun->transport</li> -->
   <MechanitorShip.questNameRules.rulesStrings>
     <li>questName->[shipAdjective] [shipNoun]</li>
-    <li>shipAdjective->mekanitör</li>
-    <li>shipAdjective->şefin</li>
     <li>shipAdjective->mekanitörün</li>
-    <li>shipAdjective->mekanoit</li>
+    <li>shipAdjective->gözetmenin</li>
+    <li>shipAdjective->kadimlerin</li>
+    <li>shipAdjective->mekanoidlerin</li>
     <li>shipNoun->gemisi</li>
     <li>shipNoun->mekiği</li>
-    <li>shipNoun->uçağı</li>
-    <li>shipNoun->enkazı</li>
-    <li>shipNoun->kalıntısı</li>
     <li>shipNoun->aracı</li>
+    <li>shipNoun->enkazı</li>
+    <li>shipNoun->hurdası</li>
+    <li>shipNoun->nakliyesi</li>
   </MechanitorShip.questNameRules.rulesStrings>
   
 </LanguageData>

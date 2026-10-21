@@ -1,148 +1,295 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
+
   <!-- EN: fleshmass neural lump -->
-  <FleshmassNeuralLump.label>etyığını sinirsel yumru</FleshmassNeuralLump.label>
+
+  <FleshmassNeuralLump.label>et kütlesi sinir yumrusu</FleshmassNeuralLump.label>
+
   <!-- EN: A clump of fleshmass nervous tissue and fibres. You can analyze it to find a way to kill the fleshmass heart itself. -->
-  <FleshmassNeuralLump.description>Etyığınının sinirsel dokusundan ve liflerinden oluşan bir küme. Etyığını kalbi öldürmenin bir yolunu bulmak için bunu analiz edebilirsin.</FleshmassNeuralLump.description>
+
+  <FleshmassNeuralLump.description>Et kütlesine ait sinir dokusu ve liflerden oluşan bir topak. Et kütlesi kalbinin kendisini öldürmenin bir yolunu bulmak için onu analiz edebilirsin.</FleshmassNeuralLump.description>
+
   <!-- EN: Analyze the fleshmass neural sample. Once enough neural samples are collected and analyzed, you should be able to figure out a way to kill the heart. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>Etyığını sinirsel örneğini analiz et. Yeteri kadar örnek toplanıp analiz edildiğinde, kalbi nasıl öldüreceğini bulabilirsin.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>Et kütlesi sinir örneğini analiz et. Yeterince sinir örneği toplanıp analiz edildiğinde kalbi öldürmenin bir yolunu bulabilmelisin.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateDescString>
+
   <!-- EN: Analyze... -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>Analiz et</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>Analiz et...</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.activateLabelString>
+
   <!-- EN: While analyzing the fleshmass neural tissue, {PAWN_nameDef} made a breakthrough!\n\nThis biosignature responds strongly when stimulated by a specific electric pulse. If used on the fleshmass heart itself, an electric signal could cause a tachycardiac overload and kill the heart.\n\nYou can now destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef} etyığını sinirsel yumruyu analiz ederken bir keşifte bulundu!\n\nBu biyoimza, beliri bir elektrik titreşimi ile uyarıldığında tepki veriyor. Bir elektrik sinyali eğer etyığını kalbin kendisine uygulanırsa, taşikardiye sebep olup kalbi öldürebilir.\n\nArtık {BIOSIGNATURE} etyığını kalp ile direkt etkileşime girerek onu öldürebilirsin.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}, et kütlesi sinir dokusunu analiz ederken büyük bir ilerleme kaydetti!\n\nBu biyoimza, belirli bir elektrik darbesiyle uyarıldığında güçlü bir tepki veriyor. Et kütlesi kalbinin kendisi üzerinde kullanılırsa, bir elektrik sinyali taşikardik bir aşırı yüklenmeye yol açıp kalbi öldürebilir.\n\nArtık {BIOSIGNATURE} et kütlesi kalbiyle doğrudan etkileşime girerek onu yok edebilirsin.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetter>
+
   <!-- EN: Analysis complete -->
+
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>Analiz tamamlandı</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.completedLetterLabel>
+
   <!-- EN: Choose who should analyze this -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>Kimin analiz edeceğini seç</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>Bunu kimin analiz edeceğini seç</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.guiLabelString>
+
   <!-- EN: Can be analyzed by a colonist. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>Bir kolonici tarafından analiz edilebilir</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>Bir kolonist tarafından analiz edilebilir.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.inspectString>
+
   <!-- EN: Analyze neural lump -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>Sinirsel yumruyu analiz et</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>Sinir yumrusunu analiz et</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.jobString>
+
   <!-- EN: Analysis progress -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>Analiz gelişmesi</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>Analizde ilerleme</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural lump. The sample carries the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} is convinced that {PAWN_pronoun} can find a way to kill the fleshmass heart, but {PAWN_pronoun} needs to study more neural samples first. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}, etyığını sinirsel yumru analizini sonlandırdı. Örnek, {BIOSIGNATURE} biyoimzasını taşıyor.\n\n{PAWN_nameDef}, kalbi öldürmenin bir yolunu bulabileceğini düşünüyor fakat önce daha fazla sinirsel örnek incelemeli.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}, et kütlesi sinir yumrusunu analiz etmeyi bitirdi. Örnek, {BIOSIGNATURE} biyoimzasını taşıyor.\n\n{PAWN_nameDef}, et kütlesi kalbini öldürmenin bir yolunu bulabileceğine ikna olmuş durumda, ama önce daha fazla sinir örneği incelemesi gerekiyor.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.progressedLetters.0>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the fleshmass neural tissue. This tissue belongs to the previously studied biosignature {BIOSIGNATURE}, so you didn't gain any new knowledge.\n\nYou can destroy the {BIOSIGNATURE} fleshmass heart by interacting with it directly and inducing a tachycardiac overload. -->
-  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}, etyığını sinirsel doku analizini sonlandırdı. Bu doku daha önce incelenmiş {BIOSIGNATURE} biyoimzasını taşıyor, bu sebeple yeni bir bilgi edinmedin.\n\n{BIOSIGNATURE} etyığını kalp ile direkt etkileşime girip bir taşikardi tetikleyerek onu öldürebilirsin.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+
+  <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}, et kütlesi sinir dokusunu analiz etmeyi bitirdi. Bu doku daha önce incelenmiş {BIOSIGNATURE} biyoimzasına ait, bu yüzden yeni bir bilgi edinemedin.\n\n{BIOSIGNATURE} et kütlesi kalbiyle doğrudan etkileşime girip taşikardik bir aşırı yüklenme tetikleyerek onu yok edebilirsin.</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+
   <!-- EN: Analysis complete -->
+
   <FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Analiz tamamlandı</FleshmassNeuralLump.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+
   
+
   <!-- EN: golden cube -->
+
   <GoldenCube.label>altın küp</GoldenCube.label>
+
   <!-- EN: A cube that fits snugly in the hand. Golden in color, it is always invitingly warm to the touch, like a trusted pet or a hug from a good friend. Those that look closely are rewarded for their attention by the delightful way light plays across its welcoming surface.\n\nThe cube seems impervious to most damage. -->
-  <GoldenCube.description>Avuca rahatça sığan bir küp. Rengi altın sarısı. Sanki güvendiğin evcil bir hayvan gibi veya iyi bir dostun sarılması gibi, samimi bir sıcaklığı var. Onu yakından inceleyenler, davetkar yüzeyindeki hoş ışık oyunlarıyla ödüllendiriliyor.\n\nKüp, çoğu hasara karşı dayanıklı görünüyor.</GoldenCube.description>
+
+  <GoldenCube.description>Ele tam oturan bir küp. Altın renginde; dokunulduğunda her zaman davetkâr bir sıcaklık yayıyor, tıpkı güvenilen bir evcil hayvan ya da iyi bir dostun sarılması gibi. Dikkatle bakanlar, ışığın onun misafirperver yüzeyinde dans edişindeki büyüleyici güzellikle ödüllendiriliyor.\n\nKüp çoğu hasara karşı yok edilemez görünüyor.</GoldenCube.description>
+
   <!-- EN: Golden cube study progress -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>Altın küp incelemesinde gelişme</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>
+
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>Altın küp incelemesinde ilerleme</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.label>
+
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed more. It is able to psychically influence anyone who interacts with it. Those under the cube's influence will experience extreme withdrawal if they're separated from it.\n\n{PAWN_nameDef} thinks that there may be a way to deactivate the cube, but {PAWN_pronoun} will need to study it further. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef} altın küpü inceleyerek yeni bilgiler ortaya çıkardı. Küp, onunla etkileşime giren herkesi psişik olarak etkisi altına alma yetisine sahip. Küpün etkisi altındakiler, küpten mahrum kalırsa ağır semptomlar gösterecek.\n\n{PAWN_nameDef}, küpü devre dışı bırakmanın bir yolunu bulabileceğini düşünüyor fakat önce daha çok inceleme yapmalı.</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
+
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>{PAWN_nameDef} adlı kişinin altın küp üzerindeki incelemesi daha fazlasını ortaya çıkardı. Küp, onunla etkileşime giren herkesi psişik olarak etkileyebiliyor. Küpün etkisi altındakiler ondan ayrı kalırlarsa ağır bir yoksunluk yaşayacak.\n\n{PAWN_nameDef}, küpü devre dışı bırakmanın bir yolu olabileceğini düşünüyor, ama onu daha fazla incelemesi gerekecek.</GoldenCube.comps.CompStudyUnlocks.studyNotes.0.text>
+
   <!-- EN: Golden cube study complete -->
+
   <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>Altın küp incelemesi tamamlandı</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.label>
+
   <!-- EN: {PAWN_nameDef}'s investigation of the golden cube has revealed that it can be deactivated using an archotech shard. Doing so will destroy the cube, breaking its psychic hold over your colonists.\n\nHowever, the psychic whiplash from the cube's destruction will send any cube-interested people into a berserk rage. Those in caravans will abandon your colony entirely.\n\nSelect the golden cube to deactivate it. -->
-  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef} altın küpü inceleyerek küpün arkotek kabuğu ile devre dışı bırakılabileceğini ortaya çkardı. Bunu yapmak küpü yok edecek ve kolonicilerin üzerindeki psişik tahakkümünü kıracak.\n\nLakin, küpün yok oluşunun sarsıcı etkisi küp bağımlısı herkesi cinnete sürükleyecek. Kervanda olan bağımlılar kolonini kalıcı olarak terk edecek.\n\nDevre dışı bırakmak için altın küpü seç.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+
+  <GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>{PAWN_nameDef} adlı kişinin altın küp üzerindeki incelemesi, küpün bir arkotek kıymığıyla devre dışı bırakılabileceğini ortaya koydu. Bunu yapmak küpü yok edecek ve kolonistlerin üzerindeki psişik pençesini kıracak.\n\nAncak küpün yok edilmesinin yaratacağı psişik geri tepme, küpe ilgi duyan herkesi cinnet öfkesine sürükleyecek. Kervanlardakiler ise koloniyi tamamen terk edecek.\n\nDevre dışı bırakmak için altın küpü seç.</GoldenCube.comps.CompStudyUnlocks.studyNotes.1.text>
+
   <!-- EN: Destroy the golden cube, breaking its psychic hold. This will cause any cube-interested people to enter a temporary berserk rage. If they're in a caravan, they will be permanently lost.\n\nRequires 1 shard. -->
-  <GoldenCube.comps.CompGoldenCube.activateDescString>Altın küpü yok ederek psişik tahakkümünü kır. Bu, küp bağımlısı herkesi geçici bir cinnet hâline sokacak. Eğer kervandalarsa, sonsuza dek kaybedilecekler.\n\n1 kabuk gerektirir.</GoldenCube.comps.CompGoldenCube.activateDescString>
+
+  <GoldenCube.comps.CompGoldenCube.activateDescString>Altın küpü yok ederek psişik pençesini kır. Bu, küpe ilgi duyan herkesin geçici bir cinnet öfkesine kapılmasına yol açar. Bir kervandaysalar onları sonsuza dek kaybedersin.\n\n1 kıymık gerektirir.</GoldenCube.comps.CompGoldenCube.activateDescString>
+
   <!-- EN: Deactivate golden cube -->
+
   <GoldenCube.comps.CompGoldenCube.activateLabelString>Altın küpü devre dışı bırak</GoldenCube.comps.CompGoldenCube.activateLabelString>
+
   <!-- EN: deactivating {0}: {1}s -->
-  <GoldenCube.comps.CompGoldenCube.activatingString>{0} devre dışı bırakılıyor: {1}s</GoldenCube.comps.CompGoldenCube.activatingString>
+
+  <GoldenCube.comps.CompGoldenCube.activatingString>{0} devre dışı bırakılıyor: {1} sn</GoldenCube.comps.CompGoldenCube.activatingString>
+
   <!-- EN: deactivating {0} -->
+
   <GoldenCube.comps.CompGoldenCube.activatingStringPending>{0} devre dışı bırakılıyor</GoldenCube.comps.CompGoldenCube.activatingStringPending>
+
   <!-- EN: Choose who should deactivate this. -->
-  <GoldenCube.comps.CompGoldenCube.guiLabelString>Kimin devre dışı bırakacağını seç.</GoldenCube.comps.CompGoldenCube.guiLabelString>
+
+  <GoldenCube.comps.CompGoldenCube.guiLabelString>Bunu kimin devre dışı bırakacağını seç.</GoldenCube.comps.CompGoldenCube.guiLabelString>
+
   <!-- EN: deactivate -->
+
   <GoldenCube.comps.CompGoldenCube.jobString>devre dışı bırak</GoldenCube.comps.CompGoldenCube.jobString>
+
   
+
   <!-- EN: gray flesh sample -->
+
   <GrayFleshSample.label>gri et örneği</GrayFleshSample.label>
+
   <!-- EN: This strip of human flesh is stained with a dark and gritty ferrous material. Tiny threads of metallic filament run throughout, interspersed with tiny silvery beads. Its form suggests that it sloughed off someone's body during some unnatural liquification process. -->
-  <GrayFleshSample.description>Koyu ve pütürlü bir demirsi madde ile lekelenmiş insan eti parçası. Gümüşi taneler serpiştirilmiş gibi ve her yanında ufacık metalik filament iplikleri var. Bir tür olağan dışı sıvılaşma süreci sonucu birinin vücudundan düşmüş gibi duruyor.</GrayFleshSample.description>
+
+  <GrayFleshSample.description>Bu insan eti şeridi koyu ve pürüzlü, demirli bir maddeyle lekelenmiş. Baştan sona ince metalik iplikçikler uzanıyor ve aralarına minik gümüşi boncuklar serpişmiş. Biçimi, doğaüstü bir sıvılaşma süreci sırasında birinin bedeninden döküldüğünü düşündürüyor.</GrayFleshSample.description>
+
   <!-- EN: Analyze the gray flesh sample. Once enough flesh samples are collected and analyzed, the threat's biosignature will be detectable using a surgical inspection operation, allowing you to identify its host. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>Gri et örneğini analiz et. Yeteri kadar örnek toplanıp analiz edildiğinde, bu tehdidin biyoimzası cerrahi inceleme ile tespit edilebilir olacak. Bu senin, onun kime ait olduğunu tespit edebilmeni sağlayacak.</GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>Gri et örneğini analiz et. Yeterince et örneği toplanıp analiz edildiğinde, tehdidin biyoimzası cerrahi muayene ameliyatıyla tespit edilebilir hâle gelecek ve konakçısını belirlemeni sağlayacak.</GrayFleshSample.comps.CompAnalyzableBiosignature.activateDescString>
+
   <!-- EN: Analyze... -->
+
   <GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>Analiz et...</GrayFleshSample.comps.CompAnalyzableBiosignature.activateLabelString>
+
   <!-- EN: While analyzing the gray flesh sample, {PAWN_nameDef} finally isolated the biosignature {BIOSIGNATURE}!\n\nThe signature emerges from the fusing of human tissue and metallic bioferrite filaments which spider through the flesh and take control of the nervous system.\n\nYou can now use the surgical inspection operation to detect {BIOSIGNATURE} in living subjects. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}, gri et örneğini analiz ederken {BIOSIGNATURE} biyoimzasını izole etmeyi başardı.\n\nİmza, insan dokusu ve vücudu sararak sinir sisteminin kontolünü ele geçiren metalik biyoferrit filamentlerin birleşiminden oluşuyor.\n\nArtık cerrahi incelemeyi kullanarak yaşayan bireylerde {BIOSIGNATURE} tespit edebilirsin.</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}, gri et örneğini analiz ederken sonunda {BIOSIGNATURE} biyoimzasını ayırt etmeyi başardı!\n\nİmza, insan dokusunun, ete örümcek ağı gibi yayılıp sinir sistemini ele geçiren metalik biyoferrit iplikçikleriyle kaynaşmasından doğuyor.\n\nArtık canlı bireylerde {BIOSIGNATURE} imzasını tespit etmek için cerrahi muayene ameliyatını kullanabilirsin.</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetter>
+
   <!-- EN: Analysis complete -->
+
   <GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>Analiz tamamlandı</GrayFleshSample.comps.CompAnalyzableBiosignature.completedLetterLabel>
+
   <!-- EN: Choose who should analyze this -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>Kimin analiz edeceğini seç</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>Bunu kimin analiz edeceğini seç</GrayFleshSample.comps.CompAnalyzableBiosignature.guiLabelString>
+
   <!-- EN: Can be analyzed by a colonist. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>Bir kolonici tarafından analiz edilebilir</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>Bir kolonist tarafından analiz edilebilir.</GrayFleshSample.comps.CompAnalyzableBiosignature.inspectString>
+
   <!-- EN: Analyze gray flesh sample -->
+
   <GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>Gri et örneğini analiz et</GrayFleshSample.comps.CompAnalyzableBiosignature.jobString>
+
   <!-- EN: Analysis progress -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>Analiz gelişmesi</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>Analizde ilerleme</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the gray flesh sample. The sample carried the biosignature {BIOSIGNATURE}.\n\n{PAWN_nameDef} made progress in learning to identify this biosignature in living subjects, but needs more samples to complete the work. Until then, your surgical inspections will not detect {BIOSIGNATURE}.\n\nCollect and analyze more gray flesh samples. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef} gri et örneği analizini bitirdi. Örnek {BIOSIGNATURE} biyoimzasını taşıyor.\n\n{PAWN_nameDef} yaşayan bireylerde bu biyoimzayı tespit etme konusunda ilerleme kaydetti fakat daha fazla örnek incelemesi gerekli. O zamana kadar, cerrahi incelemelerle {BIOSIGNATURE} tespit edilemeyecek.\n\nDaha fazla gri et örneği topla ve analiz et.</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}, gri et örneğini analiz etmeyi bitirdi. Örnek, {BIOSIGNATURE} biyoimzasını taşıyordu.\n\n{PAWN_nameDef}, bu biyoimzayı canlı bireylerde tespit etmeyi öğrenme yolunda ilerleme kaydetti, ama işi tamamlamak için daha fazla örneğe ihtiyacı var. O zamana kadar cerrahi muayeneler {BIOSIGNATURE} imzasını tespit edemeyecek.\n\nDaha fazla gri et örneği topla ve analiz et.</GrayFleshSample.comps.CompAnalyzableBiosignature.progressedLetters.0>
+
   <!-- EN: {PAWN_nameDef} has completed {PAWN_possessive} analysis of the gray flesh sample. It carries the previously discovered biosignature {BIOSIGNATURE}.\n\nYour colonists now understand this biosignature well enough to detect it with the surgical inspection operation. -->
-  <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef} gri et örneği analizini tamamladı. Daha önce keşfedilen {BIOSIGNATURE} biyoimzasını taşıyor.\n\nkolonicilerin artık bu biyoimzayı cerrahi inceleme ile tespit edebilecek kadar iyi anlıyor.</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+
+  <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}, gri et örneğinin analizini tamamladı. Örnek, daha önce keşfedilmiş {BIOSIGNATURE} biyoimzasını taşıyor.\n\nKolonistlerin artık bu biyoimzayı cerrahi muayene ameliyatıyla tespit edecek kadar iyi tanıyor.</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+
   <!-- EN: Analysis complete -->
+
   <GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Analiz tamamlandı</GrayFleshSample.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+
   
+
   <!-- EN: twisted meat -->
+
   <Meat_Twisted.label>çarpık et</Meat_Twisted.label>
+
   <!-- EN: Pieces of twisted muscle and gristle, bloated with tumorous growths. These bizarre shreds of flesh must have come from a horrific creature. -->
-  <Meat_Twisted.description>Tümörlü büyümeyle şişmiş, çarpık kas ve kıkırdak parçaları. Bu tuhaf et parçaları korkunç bir yaratığa ait olmalı.</Meat_Twisted.description>
+
+  <Meat_Twisted.description>Tümör benzeri yumrularla şişmiş, çarpık kas ve kıkırdak parçaları. Bu tuhaf et paçavraları korkunç bir yaratıktan gelmiş olmalı.</Meat_Twisted.description>
+
   
+
   <!-- EN: monolith fragment -->
+
   <MonolithFragment.label>monolit parçası</MonolithFragment.label>
+
   <!-- EN: A broken-off fragment of the void monolith. It can be studied to learn more about void phenomena. -->
-  <MonolithFragment.description>Hiçlik monolitinden kırılıp düşmüş bir parça. Hiçliğe dair daha fazla bilgi edinmek için incelenebilir.</MonolithFragment.description>
+
+  <MonolithFragment.description>Boşluk monolitinden kopmuş bir parça. Boşluk olguları hakkında daha fazla şey öğrenmek için incelenebilir.</MonolithFragment.description>
+
   
+
   <!-- EN: revenant flesh chunk -->
-  <RevenantFleshChunk.label>karabasan parçası</RevenantFleshChunk.label>
+
+  <RevenantFleshChunk.label>hortlak eti parçası</RevenantFleshChunk.label>
+
   <!-- EN: A strip of leathery, desiccated flesh that sloughed off a revenant when it was harmed. The tissue oozes a dark, oily liquid. -->
-  <RevenantFleshChunk.description>Karabasan hasar aldığında ondan kopan derimsi, kurumuş bir et parçası. Dokudan koyu, yağlı bir sıvı sızıyor.</RevenantFleshChunk.description>
+
+  <RevenantFleshChunk.description>Bir hortlak yaralandığında ondan kopmuş, deri gibi, kurumuş bir et şeridi. Dokudan koyu, yağlı bir sıvı sızıyor.</RevenantFleshChunk.description>
+
   <!-- EN: Analyze the revenant flesh chunk. Analyzing this tissue sample will give you tools to track and reveal the revenant. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>Karabasan parçasını analiz et. Doku örneğini analiz etmek, karabasanın izini sürüp onu avlamak için gerekenleri açığa çıkaracak.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>Hortlak eti parçasını analiz et. Bu doku örneğini analiz etmek, hortlağın izini sürüp onu açığa çıkarmanı sağlayacak araçlar verecek.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateDescString>
+
   <!-- EN: Analyze... -->
+
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>Analiz et...</RevenantFleshChunk.comps.CompAnalyzableBiosignature.activateLabelString>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and its method of hiding from sight. Your colonists can now see this revenant when it is nearby.\n\nPerhaps you'll be able to find it and kill it while it sleeps. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}, {BIOSIGNATURE} biyoimzalı karabasan parçasının analizini tamamladı.\n\nBu karabasanın biyolojisi ve gizlenme yöntemi hakkında daha fazla bilgi edindi. Kolonicilerin artık karabasan yakınlardayken onu görebilecek.\n\nBelki onu bulabilir ve uykusunda öldürebilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>{PAWN_nameDef}, {BIOSIGNATURE} biyoimzalı hortlak eti parçasını analiz etmeyi bitirdi.\n\nBu hortlağın biyolojisi ve gözlerden saklanma yöntemi hakkında daha fazla şey öğrendi. Kolonistlerin artık bu hortlak yakındayken onu görebiliyor.\n\nBelki onu bulup uyurken öldürebilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetter>
+
   <!-- EN: Analysis progress -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>Analiz gelişmesi</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>Analizde ilerleme</RevenantFleshChunk.comps.CompAnalyzableBiosignature.completedLetterLabel>
+
   <!-- EN: Choose who should analyze this -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>Kimin analiz edeceğini seç</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>Bunu kimin analiz edeceğini seç</RevenantFleshChunk.comps.CompAnalyzableBiosignature.guiLabelString>
+
   <!-- EN: Can be analyzed by a colonist. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>Bir kolonici tarafından analiz edilebilir</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>Bir kolonist tarafından analiz edilebilir.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.inspectString>
+
   <!-- EN: Analyze revenant flesh chunk -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>Karabasan parçasını analiz et</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>Hortlak eti parçasını analiz et</RevenantFleshChunk.comps.CompAnalyzableBiosignature.jobString>
+
   <!-- EN: Analysis progress -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>Analiz gelişmesi</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>Analizde ilerleme</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetterLabel>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} learned more about this particular revenant's biology and how to identify fluids it leaves behind.\n\nThis revenant will now leave a much longer trail of visible smudges when it flees.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}, {BIOSIGNATURE} biyoimzalı karabasan parçasının analizini tamamladı.\n\nBu karabasanın biyolojisi ve geride bıraktığı salgılar hakkında daha fazla bilgi edindi.\n\nArtık bu karabasan kaçtığında bıraktığı izler daha iyi takip edilebilecek.\n\nBelki onu bulabilir ve uykusunda öldürebilirsin. Geride bıraktığı lekeleri takip ederek izini sürebilir ve işaret fişekleri, patlayıcılar, EMP, yangın köpüğü veya ateş yardımı ile onu açığa çıkarabilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>{PAWN_nameDef}, {BIOSIGNATURE} biyoimzalı hortlak eti parçasını analiz etmeyi bitirdi.\n\nBu hortlağın biyolojisi ve geride bıraktığı sıvıların nasıl tanınacağı hakkında daha fazla şey öğrendi.\n\nBu hortlak artık kaçarken çok daha uzun, görünür bir leke izi bırakacak.\n\nBelki onu bulup uyurken öldürebilirsin. Geride bıraktığı lekelerden izini sürebilir; bozucu işaret fişekleri, patlayıcılar, EMP, yangın köpüğü ya da ateşle onu açığa çıkarabilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.0>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with biosignature {BIOSIGNATURE}.\n\n{PAWN_pronoun} has learned more about this specific revenant's biology and the vocalizations it makes. Your colonists can now hear this revenant when it is nearby. If you go hunting the revenant and get close, you'll be notified which colonists can hear it.\n\nPerhaps you'll be able to find it and kill it while it sleeps. You can track it by smears it leaves behind, and reveal it with disruptor flares, explosives, EMP, firefoam, or fire. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}, {BIOSIGNATURE} biyoimzalı karabasan parçasının analizini tamamladı.\n\nBu karabasanın biyolojisi ve çıkardığı sesler hakkında daha fazla bilgi edindi.\n\nBu karabasan yakındayken artık kolonicilerin onu duyabilecek. Eğer onu avlamaya gidersen ve ona yaklaşırsan, hangi kolonicinin onu duyabildiğine dair bildirim alacaksın.\n\nBelki onu bulabilir ve uykusunda öldürebilirsin. Geride bıraktığı lekeleri takip ederek izini sürebilir ve işaret fişekleri, patlayıcılar, EMP, yangın köpüğü veya ateş yardımı ile onu açığa çıkarabilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>{PAWN_nameDef}, {BIOSIGNATURE} biyoimzalı hortlak eti parçasını analiz etmeyi bitirdi.\n\nBu hortlağın biyolojisi ve çıkardığı sesler hakkında daha fazla şey öğrendi. Kolonistlerin artık bu hortlak yakındayken onu duyabiliyor. Hortlağı avlamaya çıkıp ona yaklaşırsan hangi kolonistlerin onu duyabildiği sana bildirilecek.\n\nBelki onu bulup uyurken öldürebilirsin. Geride bıraktığı lekelerden izini sürebilir; bozucu işaret fişekleri, patlayıcılar, EMP, yangın köpüğü ya da ateşle onu açığa çıkarabilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.progressedLetters.1>
+
   <!-- EN: {PAWN_nameDef} has finished analyzing the revenant flesh chunk with the previously studied biosignature {BIOSIGNATURE}.\n\nYour colonists can now see this revenant when it is nearby. Perhaps you'll be able to find it and kill it while it's sleeping. -->
-  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}, daha önce incelenen {BIOSIGNATURE} biyoimzalı karabasan parçasının analizini tamamladı.\n\nBu karabasan yakındayken kolonicilerin artık onu görebilecek. Belki onu bulabilir ve uykusunda öldürebilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+
+  <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>{PAWN_nameDef}, daha önce incelenmiş {BIOSIGNATURE} biyoimzalı hortlak eti parçasını analiz etmeyi bitirdi.\n\nKolonistlerin artık bu hortlak yakındayken onu görebiliyor. Belki onu bulup uyurken öldürebilirsin.</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetter>
+
   <!-- EN: Analysis complete -->
+
   <RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>Analiz tamamlandı</RevenantFleshChunk.comps.CompAnalyzableBiosignature.repeatCompletedLetterLabel>
+
   
+
   <!-- EN: revenant spine -->
-  <RevenantSpine.label>karabasan omurgası</RevenantSpine.label>
+
+  <RevenantSpine.label>hortlak omurgası</RevenantSpine.label>
+
   <!-- EN: An articulated spine-like object from a dead revenant. It is a chaotic mesh of sharpened metal spokes, twisted into a warped cage. The material appears to be rough-cast black iron smeared in a dark, slippery fluid. Anyone who peers too closely inside its jagged form is left with a skull-splitting headache.\n\nYou can destroy the spine to permanently kill the revenant.\n\nAlternatively, you can secure it on a holding platform and wait for the revenant to re-emerge, so you can study the captured entity. -->
-  <RevenantSpine.description>Ölü karabasana ait eklemli, omurga benzeri bir nesne. Sivrilmiş metal parmaklıkların oluşturduğu eğri büğrü bir kafes. Koyu, kaygan bir sıvıyla kaplı kaba bir siyah demirden yapılmışa benziyor. Çentikli yapısına çok yakından bakanların başı çatlayacak gibi ağrıyor.\n\nKarabasanı kalıcı olarak öldürmek için omurgayı yok edebilirsin.\n\nBunun dışında, incelenmek üzere karabasanın yeniden vücut bulması için omurgayı bir zincirleme platformunda güvene alabilirsin.</RevenantSpine.description>
+
+  <RevenantSpine.description>Ölü bir hortlaktan kalan, eklemli, omurgaya benzer bir nesne. Bükülmüş bir kafes biçiminde kıvrılmış, sivriltilmiş metal parmaklıklardan oluşan kaotik bir örgü. Malzeme, koyu ve kaygan bir sıvıya bulanmış kaba dökme kara demire benziyor. Sivri hatlı gövdesinin içine fazla yakından bakan herkes kafatasını yaran bir baş ağrısıyla kalıyor.\n\nHortlağı kalıcı olarak öldürmek için omurgayı yok edebilirsin.\n\nYa da onu bir tutma platformuna bağlayıp hortlağın yeniden ortaya çıkmasını bekleyebilir, böylece esir alınan varlığı inceleyebilirsin.</RevenantSpine.description>
+
   <!-- EN: Revenant reformed -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>Karabasan vücut buldu</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
+
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>Hortlak yeniden biçimlendi</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterLabel>
+
   <!-- EN: After {PAWN_nameDef} chained the revenant spine to a holding platform, the revenant re-emerged.\n\nWhen killed, a revenant's body dissolves, leaving behind only its archotechnological spine. This cage of slick iron waits for a chance to grow a new body. -->
-  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>{PAWN_nameDef}, karabasan omurgasını bir zincirleme platformuna bağladı, karabasan yeniden ortaya çıktı.\n\nBir karabasan öldüğünde, bedeni çözünerek arkasında arkoteknolojik bir omurga bırakır. Bu kaygan demirden kafes yeni bir vücut oluşturmak için fırsat kolluyor.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+
+  <RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>{PAWN_nameDef} hortlak omurgasını bir tutma platformuna zincirledikten sonra hortlak yeniden ortaya çıktı.\n\nBir hortlak öldürüldüğünde bedeni çözülür ve geride yalnızca arkoteknolojik omurgası kalır. Kaygan demirden bu kafes, yeni bir beden büyütmek için fırsat kollar.</RevenantSpine.comps.CompHoldingPlatformTarget.capturedLetterText>
+
   <!-- EN: Smash {0_label} -->
-  <RevenantSpine.comps.CompUsable.useLabel>{0_label} ez</RevenantSpine.comps.CompUsable.useLabel>
+
+  <RevenantSpine.comps.CompUsable.useLabel>Parçala: {0_label}</RevenantSpine.comps.CompUsable.useLabel>
+
   <!-- EN: {PAWN_nameDef} smashed the revenant spine. It dissolved to reveal a shard of dark archotechnology. -->
-  <RevenantSpine.comps.CompUsable.useMessage>{PAWN_nameDef} karabasan omurgasını ezdi. Çözünerek karanlık arkoteknolojinin bir kabuğunu ortaya çıkardı.</RevenantSpine.comps.CompUsable.useMessage>
+
+  <RevenantSpine.comps.CompUsable.useMessage>{PAWN_nameDef} hortlak omurgasını parçaladı. Omurga çözülerek karanlık arkoteknolojiden bir kıymığı açığa çıkardı.</RevenantSpine.comps.CompUsable.useMessage>
+
   <!-- EN: Smash the revenant spine to prevent it reforming into a new revenant. -->
-  <RevenantSpine.comps.CompRevenantSpine.activateDescString>Yeniden karabasana dönüşmesini engellemek için karabasan omurgasını ez.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
+
+  <RevenantSpine.comps.CompRevenantSpine.activateDescString>Yeni bir hortlağa dönüşmesini önlemek için hortlak omurgasını parçala.</RevenantSpine.comps.CompRevenantSpine.activateDescString>
+
   <!-- EN: Smash... -->
-  <RevenantSpine.comps.CompRevenantSpine.activateLabelString>Ez...</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
+
+  <RevenantSpine.comps.CompRevenantSpine.activateLabelString>Parçala...</RevenantSpine.comps.CompRevenantSpine.activateLabelString>
+
   <!-- EN: smashing revenant spine -->
-  <RevenantSpine.comps.CompRevenantSpine.activatingStringPending>karabasan omurgasını eziyor</RevenantSpine.comps.CompRevenantSpine.activatingStringPending>
+
+  <RevenantSpine.comps.CompRevenantSpine.activatingStringPending>hortlak omurgası parçalanıyor</RevenantSpine.comps.CompRevenantSpine.activatingStringPending>
+
   <!-- EN: Choose who should do this -->
+
   <RevenantSpine.comps.CompRevenantSpine.guiLabelString>Bunu kimin yapacağını seç</RevenantSpine.comps.CompRevenantSpine.guiLabelString>
+
   
+
   <!-- EN: shard -->
-  <Shard.label>kabuk</Shard.label>
+
+  <Shard.label>kıymık</Shard.label>
+
   <!-- EN: A scavenged fragment of dark archotechnology. Originally created by a hyperintelligent archotech mind, this shard is packed with technology beyond human comprehension. It is capable of manipulating psychic flows, inducing archotech influences and more esoteric outcomes. While it is useless by itself, it can be built into devices that harness its power to produce exotic effects. -->
-  <Shard.description>Karanlık arkoteknolojinin bulunmuş bir parçası. Aslen süperzeki bir arkotek zihni tarafından üretilen bu kabuk, insan algısının ötesinde bir teknoloji ile dolu. Psişik akışı manipüle ederek arkotek etkisini tetikleyip olağan dışı sonuçlar üretme potansiyeline sahip. Tek başına işe yaramaz fakat onun gücünden yararlanarak olağan dışı etkiler üretebilecek cihazlarda kullanılabilir.</Shard.description>
+
+  <Shard.description>Karanlık arkoteknolojiden toplanmış bir parça. Aslen hiperzekâ sahibi arkotek bir zihin tarafından yaratılan bu kıymık, insan kavrayışının ötesinde teknolojiyle dolu. Psişik akışları manipüle edebilir, arkotek etkileri ve daha gizemli sonuçları tetikleyebilir. Tek başına işe yaramaz, ama gücünden yararlanarak egzotik etkiler yaratan cihazlara yerleştirilebilir.</Shard.description>
+
   
+
 </LanguageData>

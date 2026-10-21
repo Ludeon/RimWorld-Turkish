@@ -1,127 +1,78 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- ======================== Non-grouped ========================-->
 
-  <!-- EN: Title -->
   <ScenarioTitle>Başlık</ScenarioTitle>
-  <!-- EN: Your faction will be a {0}. -->
-  <ScenPart_PlayerFaction>Fraksiyonun {0} olacak.</ScenPart_PlayerFaction>
+  <ScenPart_PlayerFaction>Hizbin şu olacak: {0}.</ScenPart_PlayerFaction>
 
-  <!-- EN: Start with 1 person. -->
-  <ScenPart_StartWithPawn>1 kişi ile başla.</ScenPart_StartWithPawn>
-  <!-- EN: Start with {0} people. -->
-  <ScenPart_StartWithPawns>{0} kişi ile başla.</ScenPart_StartWithPawns>
-  <!-- EN: chosen from -->
-  <ScenPart_StartWithPawns_OutOf>Arasından seçilecek kişi sayısı</ScenPart_StartWithPawns_OutOf>
-  <!-- EN: random pet -->
+  <ScenPart_StartWithPawn>1 kişiyle başla.</ScenPart_StartWithPawn>
+  <ScenPart_StartWithPawns>{0} kişiyle başla.</ScenPart_StartWithPawns>
+  <ScenPart_StartWithPawns_OutOf>şu kadar kişi arasından seçilir:</ScenPart_StartWithPawns_OutOf>
   <RandomPet>rastgele evcil hayvan</RandomPet>
 
-  <!-- EN: Start with research: {0} -->
   <ScenPart_StartingResearchFinished>Şu araştırmayla başla: {0}</ScenPart_StartingResearchFinished>
-  
-  <!-- EN: Arrive in drop pods. -->
+
   <ScenPart_ArriveInDropPods>İniş kapsülleriyle gel.</ScenPart_ArriveInDropPods>
 
-  <!-- EN: The stat "{0}" will be universally multiplied by {1}. -->
-  <ScenPart_StatFactor>'{0}' niteliği evrensel olarak {1} ile çarpılacak.</ScenPart_StatFactor>
-  
-  <!-- EN: Select -->
+  <ScenPart_StatFactor>"{0}" istatistiği her yerde {1} ile çarpılacak.</ScenPart_StatFactor>
+
   <ScenPart_SelectQuestDef>Seç</ScenPart_SelectQuestDef>
 
   <!-- Pawn modifiers -->
-  <!-- EN: {0} have a {1} chance to start with {2}. -->
-  <ScenPart_PawnsHaveHediff>{0}, {1} ihtimalle şunla başlar: {2}.</ScenPart_PawnsHaveHediff>
-  <!-- EN: severity: {0} -->
+  <ScenPart_PawnsHaveHediff>{0}: {1} ihtimalle şununla başlar: {2}.</ScenPart_PawnsHaveHediff>
   <ConfigurableSeverity>şiddet: {0}</ConfigurableSeverity>
 
-  <!-- EN: {0} have a {1} chance to have their {2} set between {3} and {4}. -->
-  <ScenPart_SetNeed>{0}, {1} ihtimalle {3} ile {4} arasında bir {2} değerine sahip.</ScenPart_SetNeed>
-  <!-- EN: level: {0} -->
+  <ScenPart_SetNeed>{0}: {1} ihtimalle {2} düzeyi {3} ile {4} arasında ayarlanır.</ScenPart_SetNeed>
   <ConfigurableLevel>seviye: {0}</ConfigurableLevel>
 
-  <!-- EN: {0} have a {1} chance to start with trait: {2} -->
-  <ScenPart_PawnsHaveTrait>{0}, {1} ihtimalle şu kişisel özellikle başlar: {2}</ScenPart_PawnsHaveTrait>
-  <!-- EN: Characters and creatures explode on death ({0}, radius {1}). -->
-  <ScenPart_OnPawnDeathExplode>Karakterler ve canlılar öldüğünde patlar ({0}, yarıçap {1}).</ScenPart_OnPawnDeathExplode>
-  <!-- EN: {0} have a {1} chance to start naked. -->
-  <ScenPart_PawnsAreNaked>{0}, {1} ihtimalle çıplak başlar.</ScenPart_PawnsAreNaked>
-  
-  <!-- Pawn filters -->
-  <!-- EN: Your people will be at least {0} years old. -->
-  <ScenPart_StartingPawnAgeMin>Kolonicilerin en az {0} yaşında olacak.</ScenPart_StartingPawnAgeMin>
-  <!-- EN: Your people will be at most {0} years old. -->
-  <ScenPart_StartingPawnAgeMax>Kolonicilerin en fazla {0} yaşında olacak.</ScenPart_StartingPawnAgeMax>
-  <!-- EN: Your people will be between {0} and {1} years old. -->
-  <ScenPart_StartingPawnAgeRange>Kolonicilerin {0} ile {1} yaş arasında olacak.</ScenPart_StartingPawnAgeRange>
+  <ScenPart_PawnsHaveTrait>{0}: {1} ihtimalle şu özellikle başlar: {2}</ScenPart_PawnsHaveTrait>
+  <ScenPart_OnPawnDeathExplode>Karakterler ve yaratıklar ölünce patlar ({0}, yarıçap {1}).</ScenPart_OnPawnDeathExplode>
+  <ScenPart_PawnsAreNaked>{0}: {1} ihtimalle çıplak başlar.</ScenPart_PawnsAreNaked>
 
-  <!-- EN: Start with {0}. -->
-  <ScenPart_StartWithSpecificColonists>{0} ile başla.</ScenPart_StartWithSpecificColonists>
-  <!-- EN: {COUNT} {KINDLABEL} -->
+  <!-- Pawn filters -->
+  <ScenPart_StartingPawnAgeMin>İnsanların en az {0} yaşında olacak.</ScenPart_StartingPawnAgeMin>
+  <ScenPart_StartingPawnAgeMax>İnsanların en fazla {0} yaşında olacak.</ScenPart_StartingPawnAgeMax>
+  <ScenPart_StartingPawnAgeRange>İnsanların {0} ile {1} yaş arasında olacak.</ScenPart_StartingPawnAgeRange>
+
+  <ScenPart_StartWithSpecificColonists>Şununla başla: {0}.</ScenPart_StartWithSpecificColonists>
   <PawnCount>{COUNT} {KINDLABEL}</PawnCount>
-  
-  <!-- EN: One or more parts in this scenario could not be loaded due to missing modded content.\n\nYou can load the scenario with all its required mods, or load it anyway without the missing scenario parts. -->
-  <ScenPart_Error>Bu senaryonun bir veya daha fazla kısmı, eskik modlu içerik sebebiyle yüklenemiyor.\n\nSenaryoyu gereken bütün modları ile beraber veya eksik şekilde yükleyebilirsin.</ScenPart_Error>
+
+  <ScenPart_Error>Bu senaryodaki bir ya da daha fazla parça, eksik mod içeriği nedeniyle yüklenemedi.\n\nSenaryoyu gerekli tüm modlarla yükleyebilir ya da eksik senaryo parçaları olmadan yine de yükleyebilirsin.</ScenPart_Error>
 
   <!-- ======================== Grouped ========================-->
 
-  <!-- EN: Start with -->
-  <ScenPart_StartWith>Şunlarla başlayacaksın</ScenPart_StartWith>
-  <!-- EN: Map is scattered with -->
-  <ScenPart_MapScatteredWith>Şunlar haritaya dağılmış şekilde</ScenPart_MapScatteredWith>
-  <!-- EN: Permanent game condition(s) -->
-  <ScenPart_PermaGameCondition>Kalıcı oyun koşulları</ScenPart_PermaGameCondition>
-  <!-- EN: Incident(s) disabled -->
-  <ScenPart_DisableIncident>Devre dışı bırakılan olay(lar)</ScenPart_DisableIncident>
-  <!-- EN: Incident created -->
-  <ScenPart_CreateIncident>Yaratılan olaylar</ScenPart_CreateIncident>
-  <!-- EN: Can never build -->
-  <ScenPart_DisallowBuilding>Asla inşa yapılamaz</ScenPart_DisallowBuilding>
+  <ScenPart_StartWith>Başlangıçta olanlar</ScenPart_StartWith>
+  <ScenPart_MapScatteredWith>Haritaya saçılmış olanlar</ScenPart_MapScatteredWith>
+  <ScenPart_PermaGameCondition>Kalıcı oyun koşul(lar)ı</ScenPart_PermaGameCondition>
+  <ScenPart_DisableIncident>Devre dışı olay(lar)</ScenPart_DisableIncident>
+  <ScenPart_CreateIncident>Oluşturulan olay</ScenPart_CreateIncident>
+  <ScenPart_DisallowBuilding>Asla inşa edilemez</ScenPart_DisallowBuilding>
 
   <!-- ======================== Layers ========================-->
-  
-  <!-- EN: Tag -->
+
   <ScenPart_PlanetLayerTag>Etiket</ScenPart_PlanetLayerTag>
-  <!-- EN: Must have a unique tag -->
-  <ScenPart_PlanetLayerTag_Error>Eşsiz bir etiketi olmalı</ScenPart_PlanetLayerTag_Error>
-  
-  <!-- EN: Settings -->
+  <ScenPart_PlanetLayerTag_Error>Benzersiz bir etiketi olmalı</ScenPart_PlanetLayerTag_Error>
+
   <ScenPart_PlanetLayerSettings>Ayarlar</ScenPart_PlanetLayerSettings>
-  <!-- EN: Use settings def -->
-  <ScenPart_PlanetLayerSettings_UseDef>Ayarları kullan</ScenPart_PlanetLayerSettings_UseDef>
-  <!-- EN: Select -->
+  <ScenPart_PlanetLayerSettings_UseDef>Ayar tanımını kullan</ScenPart_PlanetLayerSettings_UseDef>
   <ScenPart_PlanetLayerSettings_SelectDef>Seç</ScenPart_PlanetLayerSettings_SelectDef>
-  <!-- EN: Position -->
   <ScenPart_PlanetLayerSettings_Position>Konum</ScenPart_PlanetLayerSettings_Position>
-  <!-- EN: Radius -->
   <ScenPart_PlanetLayerSettings_Radius>Yarıçap</ScenPart_PlanetLayerSettings_Radius>
-  <!-- EN: Use surface view angle -->
-  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>Yüzey görüntüleme açısını kullan</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
-  <!-- EN: View angle -->
-  <ScenPart_PlanetLayerSettings_ViewAngle>Görüntüleme açısı</ScenPart_PlanetLayerSettings_ViewAngle>
-  <!-- EN: Extra camera height -->
-  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>Ekstra kamera yüksekliği</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
-  <!-- EN: Subdivisions -->
-  <ScenPart_PlanetLayerSettings_Subdivisions>Altbölümler</ScenPart_PlanetLayerSettings_Subdivisions>
-  <!-- EN: Background camera offset -->
-  <ScenPart_PlanetLayerSettings_BackgroundOffset>Arka plan kamera ön değeri</ScenPart_PlanetLayerSettings_BackgroundOffset>
-  <!-- EN: Background parallax per 100 cells -->
-  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>100 hücre başına arka plan ıraklık açısı</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
-  
-  <!-- EN: Connections -->
+  <ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>Yüzey görüş açısını kullan</ScenPart_PlanetLayerSettings_UseSurfaceViewAngle>
+  <ScenPart_PlanetLayerSettings_ViewAngle>Görüş açısı</ScenPart_PlanetLayerSettings_ViewAngle>
+  <ScenPart_PlanetLayerSettings_ExtraCameraAltitude>Ek kamera yüksekliği</ScenPart_PlanetLayerSettings_ExtraCameraAltitude>
+  <ScenPart_PlanetLayerSettings_Subdivisions>Alt bölümler</ScenPart_PlanetLayerSettings_Subdivisions>
+  <ScenPart_PlanetLayerSettings_BackgroundOffset>Arka plan kamera kayması</ScenPart_PlanetLayerSettings_BackgroundOffset>
+  <ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>100 kare başına arka plan paralaksı</ScenPart_PlanetLayerSettings_BackgroundParallaxPerHundred>
+
   <ScenPart_PlanetLayerConnections>Bağlantılar</ScenPart_PlanetLayerConnections>
-  <!-- EN: Add connection -->
   <ScenPart_PlanetLayerConnections_Add>Bağlantı ekle</ScenPart_PlanetLayerConnections_Add>
-  <!-- EN: No zoom -->
   <ScenPart_PlanetLayerConnections_Zoom>Yakınlaştırma yok</ScenPart_PlanetLayerConnections_Zoom>
-  <!-- EN: Zoom in -->
   <ScenPart_PlanetLayerConnections_ZoomIn>Yakınlaştır</ScenPart_PlanetLayerConnections_ZoomIn>
-  <!-- EN: Zoom out -->
   <ScenPart_PlanetLayerConnections_ZoomOut>Uzaklaştır</ScenPart_PlanetLayerConnections_ZoomOut>
-  <!-- EN: Fuel cost -->
-  <ScenPart_PlanetLayerConnections_Fuel>Yakıt masrafı</ScenPart_PlanetLayerConnections_Fuel>
-  
-  <!-- EN: Planet layer -->
+  <ScenPart_PlanetLayerConnections_Fuel>Yakıt maliyeti</ScenPart_PlanetLayerConnections_Fuel>
+
   <ScenPart_ForcedMapPlanetLayer>Gezegen katmanı</ScenPart_ForcedMapPlanetLayer>
 
 </LanguageData>

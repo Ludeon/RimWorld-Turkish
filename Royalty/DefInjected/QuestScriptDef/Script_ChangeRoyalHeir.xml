@@ -1,45 +1,73 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
-  
-  <!-- EN:
-    <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li>
-  -->
+
+  <!-- EN: <li>questDescription->\nIn order to consecrate making [titleHeir_nameFull] the heir of [titleHolder_nameFull]'s title, you must build a monument.\n\nThe monument will be [monumentSize] in size and will require these resources (total value [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nFailing to finish the monument within 20 days is considered to profane the ritual. Your relations with [asker_factionName] will fall by 25, and the heir will not be changed.\n\nIf the monument is destroyed within [keepMonumentTicks_duration] days after completion, your relations with [asker_factionName] will fall by [goodwillChangeIfMonumentDestroyed].</li> -->
+
   <ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-    <li>questDescription->\n[titleHeir_nameFull] adlı kişinin [titleHolder_nameFull] vârisi olmasını kutsamak için bir anıt inşa etmelisin.\n\nAnıt, [monumentSize] boyutunda olacak ve şu kaynaklar gerekecek (toplam değeri: [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nAnıtın 20 gün içinde tamamlanamaması, törenin kutsallığını bozmak olarak kabul edilir. Bu durumda, [asker_factionName] ile ilişkilerin 25 puan düşer ve vâris değiştirilmez.\n\nAnıt, tamamlanmasından sonraki [keepMonumentTicks_duration] gün içinde yok edilirse, [asker_factionName] ile ilişkilerin [goodwillChangeIfMonumentDestroyed] azalır.</li>
+    <li>questDescription->\n[titleHeir_nameFull] adlı kişinin, [titleHolder_nameFull] adlı kişinin unvanına varis yapılmasını kutsamak için bir anıt inşa etmelisin.\n\nAnıtın boyutu [monumentSize] olacak ve şu kaynakları gerektirecek (toplam değer [monumentRequiredResourcesMarketValue_money]):\n\n[monumentRequiredResources]\n\nAnıtı 20 gün içinde bitirmemek ritüele saygısızlık sayılır. Bu durumda [asker_factionName] ile ilişkilerin 25 düşer ve varis değişmez.\n\nAnıt, tamamlandıktan sonraki [keepMonumentTicks_duration] gün içinde yıkılırsa [asker_factionName] ile ilişkilerin [goodwillChangeIfMonumentDestroyed] düşer.</li>
   </ChangeRoyalHeir.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[titleHeir_nameDef]'s inheritance</li>
-  -->
+
+  <!-- EN: <li>questName->[titleHeir_nameDef]'s inheritance</li> -->
+
   <ChangeRoyalHeir.questNameRules.rulesStrings>
-    <li>[titleHeir_nameDef] adlı kişinin veraseti</li>
+    <li>questName->[titleHeir_nameDef] için miras</li>
   </ChangeRoyalHeir.questNameRules.rulesStrings>
+
   <!-- EN: Time left: {0} -->
+
   <ChangeRoyalHeir.InspectStringTimeLeft.slateRef>Kalan süre: {0}</ChangeRoyalHeir.InspectStringTimeLeft.slateRef>
+
   <!-- EN: [titleHolder_nameDef]'s heir change failed -->
-  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>[titleHolder_nameDef] kişisinin vâris değişikliği başarısız oldu</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
+
+  <ChangeRoyalHeir.LetterTextAskerOffended.slateRef>Varis değişikliği başarısız oldu: [titleHolder_nameDef]</ChangeRoyalHeir.LetterTextAskerOffended.slateRef>
+
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but did not build the monument within the prescribed time.\n\nYou lost 25 goodwill with [asker_faction_name]. -->
-  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef], yeni veraseti kutsama sözü verip belirtilen süre içinde anıtı inşa etmediğin için gücendi.\n\n[asker_faction_name] ile olan ilişkilerin 25 puan azaldı.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+
+  <ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>[asker_nameDef], yeni mirası kutsayacağına söz verip anıtı belirlenen süre içinde inşa etmediğin için gücendi.\n\n[asker_faction_name] ile 25 iyi niyet kaybettin.</ChangeRoyalHeir.LetterLabelAskerOffended.slateRef>
+
   <!-- EN: Title holder died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>Ünvan sahibi öldü: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+
+  <ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>Unvan sahibi öldü: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelTitleHolderDied.slateRef>
+
   <!-- EN: {SUBJECT_definite}, whose heir was in the process of being changed, has died. -->
-  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>Vârisi değiştirilme sürecinde olan {SUBJECT_definite} öldü.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+
+  <ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>Varisi değiştirilmekte olan {SUBJECT_definite} öldü.</ChangeRoyalHeir.LetterTextTitleHolderDied.slateRef>
+
   <!-- EN: Designated heir died: {SUBJECT_definite} -->
-  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>Seçili vâris öldü: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+
+  <ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>Belirlenen varis öldü: {SUBJECT_definite}</ChangeRoyalHeir.LetterLabelDesignatedHeirDied.slateRef>
+
   <!-- EN: {SUBJECT_definite}, who was supposed to become heir to a title, has died. -->
-  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>Bir ünvanın vârisi olması gereken {SUBJECT_definite} öldü.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+
+  <ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>Bir unvanın varisi olması beklenen {SUBJECT_definite} öldü.</ChangeRoyalHeir.LetterTextDesignatedHeirDied.slateRef>
+
   <!-- EN: Monument destroyed -->
+
   <ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>Anıt yıkıldı</ChangeRoyalHeir.LetterLabelMonumentDestroyed.slateRef>
+
   <!-- EN: [asker_nameDef] is offended that you promised to consecrate the new inheritance, but allowed the monument to be ruined soon after completion.\n\nYour relations with [asker_faction_name] have fallen by [goodwillChangeIfMonumentDestroyed]. -->
-  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>[asker_nameDef], yeni veraseti kutsama sözü verip anıtın tamamlandıktan kısa bir süre sonra mahvolmasına izin verdiğin için gücendi.\n\n[asker_faction_name] ile olan ilişkilerin [goodwillChangeIfMonumentDestroyed] azaldı.</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+
+  <ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>[asker_nameDef], yeni mirası kutsayacağına söz verip tamamlanmasından kısa süre sonra anıtın harap olmasına göz yumduğun için gücendi.\n\n[asker_faction_name] ile ilişkilerin [goodwillChangeIfMonumentDestroyed] düştü.</ChangeRoyalHeir.LetterTextMonumentDestroyed.slateRef>
+
   <!-- EN: New heir: [titleHeir_nameDef] -->
-  <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>Yeni vâris: [titleHeir_nameDef]</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
+
+  <ChangeRoyalHeir.LetterLabelNewHeir.slateRef>Yeni varis: [titleHeir_nameDef]</ChangeRoyalHeir.LetterLabelNewHeir.slateRef>
+
   <!-- EN: [titleHeir_nameDef] is the new heir of [titleHolder_nameDef]. -->
-  <ChangeRoyalHeir.LetterTextNewHeir.slateRef>[titleHeir_nameDef], [titleHolder_nameDef] kişisinin yeni vârisi.</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
+
+  <ChangeRoyalHeir.LetterTextNewHeir.slateRef>[titleHeir_nameDef] artık [titleHolder_nameDef] adlı kişinin yeni varisi.</ChangeRoyalHeir.LetterTextNewHeir.slateRef>
+
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>Anıtı {0} yok etme</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
+
+  <ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>Anıtı şu süre boyunca yıkma: {0}</ChangeRoyalHeir.DontDestroyMonumentForDays.slateRef>
+
   <!-- EN: Do not destroy the monument for {0} -->
-  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>Anıtı {0} yok etme</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
+
+  <ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>Anıtı şu süre boyunca yıkma: {0}</ChangeRoyalHeir.DontDestroyMonumentForDaysTip.slateRef>
+
   <!-- EN: Keep monument {0} -->
-  <ChangeRoyalHeir.KeepMonument.slateRef>Anıtı {0} koru</ChangeRoyalHeir.KeepMonument.slateRef>
-  
+
+  <ChangeRoyalHeir.KeepMonument.slateRef>Anıtı koru {0}</ChangeRoyalHeir.KeepMonument.slateRef>
+
 </LanguageData>

@@ -1,932 +1,1857 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
-  <!-- EN:
-    <li>title(p=3)->[titleNaked]</li>
+
+  <!-- EN: <li>title(p=3)->[titleNaked]</li>
+
     <li>title->[ANYPAWN_nameIndef]'s [titleNaked]</li>
+
     <li>title->[Character]'s [story]</li>
+
     <li>title->[Character]'s [objectAny]</li>
+
     <li>title->[Character] [linkagePlace] [place]</li>
+
     <li>title->The [adjective] [Character]</li>
+
     <li>title->The [adjective] [objectAny]</li>
+
     <li>titleNaked->[ConceptAny]</li>
+
     <li>titleNaked->[adjective] [ConceptAny]</li>
+
     <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+
     <li>titleNaked->[ConceptAny] [linkagePlace] [place]</li>
+
     <li>titleNaked->[objectAny] [linkage] [ConceptAny]</li>
+
     <li>objectAny->[Game]</li>
+
     <li>objectAny->[Weapon]</li>
+
     <li>linkage->of</li>
+
     <li>linkage->by</li>
+
     <li>linkage->for</li>
+
     <li>linkage->without</li>
+
     <li>linkage->with</li>
+
     <li>linkagePlace->in the</li>
+
     <li>linkagePlace->by the</li>
+
     <li>linkagePlace->on the</li>
+
     <li>linkagePlace->Near the</li>
+
     <li>adjective->[AdjectiveAny]</li>
+
     <li>place(p=25)->[TerrainFeature]</li>
+
     <li>place->Abyss</li>
+
     <li>place->Amphitheater</li>
+
     <li>place->Aquarium</li>
+
     <li>place->Aqueduct</li>
+
     <li>place->Arena</li>
+
     <li>place->Asylum</li>
+
     <li>place->Barracks</li>
+
     <li>place->Base</li>
+
     <li>place->Bunker</li>
+
     <li>place->Cabin</li>
+
     <li>place->Camp</li>
+
     <li>place->Castle</li>
+
     <li>place->Cathedral</li>
+
     <li>place->Cavern</li>
+
     <li>place->Citadel</li>
+
     <li>place->City</li>
+
     <li>place->Coliseum</li>
+
     <li>place->Colony</li>
+
     <li>place->Depths</li>
+
     <li>place->Desert</li>
+
     <li>place->Elevator</li>
+
     <li>place->Factory</li>
+
     <li>place->Festival</li>
+
     <li>place->Fortress</li>
+
     <li>place->Glade</li>
+
     <li>place->Graveyard</li>
+
     <li>place->Greenhouse</li>
+
     <li>place->Grove</li>
+
     <li>place->Harbor</li>
+
     <li>place->Heart</li>
+
     <li>place->Hive</li>
+
     <li>place->Hospital</li>
+
     <li>place->Island</li>
+
     <li>place->Jungle</li>
+
     <li>place->Labor Camp</li>
+
     <li>place->Laboratory</li>
+
     <li>place->Labyrinth</li>
+
     <li>place->Launchpad</li>
+
     <li>place->Library</li>
+
     <li>place->Lighthouse</li>
+
     <li>place->Manor</li>
+
     <li>place->Mansion</li>
+
     <li>place->Marketplace</li>
+
     <li>place->Mine</li>
+
     <li>place->Monastery</li>
+
     <li>place->Mountain</li>
+
     <li>place->Nexus</li>
+
     <li>place->Oasis</li>
+
     <li>place->Observatory</li>
+
     <li>place->Orchard</li>
+
     <li>place->Outpost</li>
+
     <li>place->Palace</li>
+
     <li>place->Plateau</li>
+
     <li>place->Prison</li>
+
     <li>place->Refinery</li>
+
     <li>place->Resort</li>
+
     <li>place->Rift</li>
+
     <li>place->Ruins</li>
+
     <li>place->Sanctuary</li>
+
     <li>place->School</li>
+
     <li>place->Settlement</li>
+
     <li>place->Ship</li>
+
     <li>place->Soul</li>
+
     <li>place->Space Station</li>
+
     <li>place->Spaceport</li>
+
     <li>place->Spire</li>
+
     <li>place->Swamp</li>
+
     <li>place->Tavern</li>
+
     <li>place->Temple</li>
+
     <li>place->Town</li>
+
     <li>place->Tundra</li>
+
     <li>place->University</li>
+
     <li>place->Village</li>
+
     <li>place->Volcano</li>
+
     <li>place->Warehouse</li>
+
     <li>place->Wasteland</li>
+
     <li>place->Wilderness</li>
+
     <li>place->Zoo</li>
+
     <li>story->Adventure</li>
+
     <li>story->Adventures</li>
+
     <li>story->Allegory</li>
+
     <li>story->Anecdote</li>
+
     <li>story->Annals</li>
+
     <li>story->Ballad</li>
+
     <li>story->Biography</li>
+
     <li>story->Chapters</li>
+
     <li>story->Chronicle</li>
+
     <li>story->Chronicles</li>
+
     <li>story->Chronology</li>
+
     <li>story->Comedy</li>
+
     <li>story->Compendium</li>
+
     <li>story->Compilation</li>
+
     <li>story->Dialogue</li>
+
     <li>story->Diary</li>
+
     <li>story->Discourse</li>
+
     <li>story->Drama</li>
+
     <li>story->Dream</li>
+
     <li>story->Enigma</li>
+
     <li>story->Epic</li>
+
     <li>story->Epiphany</li>
+
     <li>story->Epistle</li>
+
     <li>story->Fable</li>
+
     <li>story->Fables</li>
+
     <li>story->Fairy Tale</li>
+
     <li>story->Fantasia</li>
+
     <li>story->Fantasy</li>
+
     <li>story->Fantasy</li>
+
     <li>story->Fiction</li>
+
     <li>story->Folklore</li>
+
     <li>story->History</li>
+
     <li>story->Imagination</li>
+
     <li>story->Imaginings</li>
+
     <li>story->Insight</li>
+
     <li>story->Jottings</li>
+
     <li>story->Journal</li>
+
     <li>story->Journey</li>
+
     <li>story->Legacy</li>
+
     <li>story->Legend</li>
+
     <li>story->Legends</li>
+
     <li>story->Literature</li>
+
     <li>story->Log</li>
+
     <li>story->Memoir</li>
+
     <li>story->Memoirs</li>
+
     <li>story->Memories</li>
+
     <li>story->Mind</li>
+
     <li>story->Musical</li>
+
     <li>story->Musings</li>
+
     <li>story->Myth</li>
+
     <li>story->Mythology</li>
+
     <li>story->Mythos</li>
+
     <li>story->Narration</li>
+
     <li>story->Narrative</li>
+
     <li>story->Novel</li>
+
     <li>story->Observations</li>
+
     <li>story->Ode</li>
+
     <li>story->Pages</li>
+
     <li>story->Papers</li>
+
     <li>story->Parable</li>
+
     <li>story->Prose</li>
+
     <li>story->Recollections</li>
+
     <li>story->Recount</li>
+
     <li>story->Reflection</li>
+
     <li>story->Reflections</li>
+
     <li>story->Reminiscences</li>
+
     <li>story->Revelation</li>
+
     <li>story->Rhapsody</li>
+
     <li>story->Saga</li>
+
     <li>story->Scribblings</li>
+
     <li>story->Script</li>
+
     <li>story->Sketch</li>
+
     <li>story->Sketches</li>
+
     <li>story->Story</li>
+
     <li>story->Tale</li>
+
     <li>story->Tales</li>
+
     <li>story->Testament</li>
+
     <li>story->Testimony</li>
+
     <li>story->Tragedy</li>
+
     <li>story->Tribute</li>
+
     <li>story->Verse</li>
+
     <li>story->Volume</li>
-    <li>story->Whimsy</li>
-  -->
+
+    <li>story->Whimsy</li> -->
+
   <Namer_Novel.rulePack.rulesStrings>
+
+
     <li>title(p=3)->[titleNaked]</li>
+
     <li>title->[ANYPAWN_nameIndef] ve [titleNaked]</li>
+
     <li>title->[Character] [story]</li>
+
     <li>title->[Character] ve [objectAny]</li>
+
     <li>title->[place] [linkagePlace] [Character]</li>
+
     <li>title->[adjective] [Character]</li>
+
     <li>title->[adjective] [objectAny]</li>
+
     <li>titleNaked->[ConceptAny]</li>
+
     <li>titleNaked->[adjective] [ConceptAny]</li>
+
     <li>titleNaked->[ConceptAny] [linkage] [ConceptAny]</li>
+
     <li>titleNaked->[place] [linkagePlace] [ConceptAny]</li>
+
     <li>titleNaked->[objectAny] [linkage] [ConceptAny]</li>
+
     <li>objectAny->[Game]</li>
+
     <li>objectAny->[Weapon]</li>
-    <li>linkage->adına</li>
+
     <li>linkage->ve</li>
-    <li>linkage->için</li>
-    <li>linkage->olmadan</li>
+
     <li>linkage->ile</li>
-    <li>linkagePlace->içinde</li>
-    <li>linkagePlace->kenarında</li>
-    <li>linkagePlace->üzerinde</li>
-    <li>linkagePlace->kıyısında</li>
+
+    <li>linkage->uğruna</li>
+
+    <li>linkage->olmadan</li>
+
+    <li>linkage->eşliğinde</li>
+
+    <li>linkagePlace->İçindeki</li>
+
+    <li>linkagePlace->Yanındaki</li>
+
+    <li>linkagePlace->Üstündeki</li>
+
+    <li>linkagePlace->Yakınındaki</li>
+
     <li>adjective->[AdjectiveAny]</li>
+
     <li>place(p=25)->[TerrainFeature]</li>
-    <li>place->cehennem</li>
-    <li>place->amfiteatr</li>
-    <li>place->akvaryum</li>
-    <li>place->su kemeri</li>
-    <li>place->arena</li>
-    <li>place->tımarhane</li>
-    <li>place->kışla</li>
-    <li>place->üs</li>
-    <li>place->sığınak</li>
-    <li>place->kulübe</li>
-    <li>place->kamp</li>
-    <li>place->şato</li>
-    <li>place->katedral</li>
-    <li>place->mağara</li>
-    <li>place->kale</li>
-    <li>place->şehir</li>
-    <li>place->stadyum</li>
-    <li>place->koloni</li>
-    <li>place->yeraltı</li>
-    <li>place->çöl</li>
-    <li>place->asansör</li>
-    <li>place->fabrika</li>
-    <li>place->festival</li>
-    <li>place->hisar</li>
-    <li>place->kayran</li>
-    <li>place->mezarlık</li>
-    <li>place->sera</li>
-    <li>place->koru</li>
-    <li>place->liman</li>
-    <li>place->merkez</li>
-    <li>place->kovan</li>
-    <li>place->hastane</li>
-    <li>place->ada</li>
-    <li>place->yağmur ormanı</li>
-    <li>place->çalışma kampı</li>
-    <li>place->laboratuvar</li>
-    <li>place->labirent</li>
-    <li>place->fırlatma rampası</li>
-    <li>place->kütüphane</li>
-    <li>place->deniz feneri</li>
-    <li>place->malikâne</li>
-    <li>place->konak</li>
-    <li>place->pazar</li>
-    <li>place->maden</li>
-    <li>place->manastır</li>
-    <li>place->dağ</li>
-    <li>place->neksus</li>
-    <li>place->vaha</li>
-    <li>place->rasathane</li>
-    <li>place->meyve bahçesi</li>
-    <li>place->ileri karakol</li>
-    <li>place->saray</li>
-    <li>place->plato</li>
-    <li>place->hapishane</li>
-    <li>place->rafineri</li>
-    <li>place->yazlık</li>
-    <li>place->uçurum</li>
-    <li>place->harabeler</li>
-    <li>place->mabet</li>
-    <li>place->okul</li>
-    <li>place->yerleşim</li>
-    <li>place->gemi</li>
-    <li>place->ruh</li>
-    <li>place->uzay istasyonu</li>
-    <li>place->uzay üssü</li>
-    <li>place->çan kulesi</li>
-    <li>place->bataklık</li>
-    <li>place->meyhane</li>
-    <li>place->tapınak</li>
-    <li>place->kasaba</li>
-    <li>place->tundra</li>
-    <li>place->üniversite</li>
-    <li>place->köy</li>
-    <li>place->volkan</li>
-    <li>place->depo</li>
-    <li>place->beyaban</li>
-    <li>place->yaban</li>
-    <li>place->hayvanat bahçesi</li>
-    <li>story->macerası</li>
-    <li>story->maceraları</li>
-    <li>story->alegorisi</li>
-    <li>story->anekdotu</li>
-    <li>story->yıllıkları</li>
-    <li>story->baladı</li>
-    <li>story->biyografisi</li>
-    <li>story->bölümleri</li>
-    <li>story->kroniği</li>
-    <li>story->kronikleri</li>
-    <li>story->kronolojisi</li>
-    <li>story->komedisi</li>
-    <li>story->özeti</li>
-    <li>story->derlemesi</li>
-    <li>story->diyaloğu</li>
-    <li>story->günlüğü</li>
-    <li>story->söylevi</li>
-    <li>story->draması</li>
-    <li>story->rüyası</li>
-    <li>story->şifreleri</li>
-    <li>story->destanı</li>
-    <li>story->epifanisi</li>
-    <li>story->risalesi</li>
-    <li>story->fablı</li>
-    <li>story->fablları</li>
-    <li>story->peri masalı</li>
-    <li>story->fantazyası</li>
-    <li>story->fantazisi</li>
-    <li>story->kurgusu</li>
-    <li>story->folklörü</li>
-    <li>story->tarihi</li>
-    <li>story->hayal dünyası</li>
-    <li>story->hayal ürünleri</li>
-    <li>story->görüşleri</li>
-    <li>story->bildirileri</li>
-    <li>story->jurnalleri</li>
-    <li>story->yolculuğu</li>
-    <li>story->mirası</li>
-    <li>story->efsanesi</li>
-    <li>story->efsaneleri</li>
-    <li>story->edebiyatı</li>
-    <li>story->kayıtları</li>
-    <li>story->anısı</li>
-    <li>story->anıları</li>
-    <li>story->zihni</li>
-    <li>story->müzikali</li>
-    <li>story->fikirleri</li>
-    <li>story->mitleri</li>
-    <li>story->mitolojisi</li>
-    <li>story->mitosları</li>
-    <li>story->anlatımı</li>
-    <li>story->romanı</li>
-    <li>story->gözlemleri</li>
-    <li>story->övgüleri</li>
-    <li>story->sayfaları</li>
-    <li>story->makaleleri</li>
-    <li>story->kıssaları</li>
-    <li>story->nesirleri</li>
-    <li>story->hatıratları</li>
-    <li>story->naklettikleri</li>
-    <li>story->yansıması</li>
-    <li>story->yansımaları</li>
-    <li>story->hatıraları</li>
-    <li>story->keşifleri</li>
-    <li>story->rapsodisi</li>
-    <li>story->sagası</li>
-    <li>story->karalamaları</li>
-    <li>story->senaryosu</li>
-    <li>story->çizimi</li>
-    <li>story->çizimleri</li>
-    <li>story->öyküsü</li>
-    <li>story->masalı</li>
-    <li>story->masalları</li>
-    <li>story->vasiyetnamesi</li>
-    <li>story->ifadeleri</li>
-    <li>story->trajedisi</li>
-    <li>story->sitayişi</li>
-    <li>story->dizeleri</li>
-    <li>story->ciltleri</li>
-    <li>story->mizahı</li>
+
+    <li>place->Uçurum</li>
+
+    <li>place->Amfitiyatro</li>
+
+    <li>place->Akvaryum</li>
+
+    <li>place->Su Kemeri</li>
+
+    <li>place->Arena</li>
+
+    <li>place->Tımarhane</li>
+
+    <li>place->Koğuş</li>
+
+    <li>place->Üs</li>
+
+    <li>place->Sığınak</li>
+
+    <li>place->Kulübe</li>
+
+    <li>place->Kamp</li>
+
+    <li>place->Şato</li>
+
+    <li>place->Katedral</li>
+
+    <li>place->Mağara</li>
+
+    <li>place->Hisar</li>
+
+    <li>place->Şehir</li>
+
+    <li>place->Kolezyum</li>
+
+    <li>place->Koloni</li>
+
+    <li>place->Derinlikler</li>
+
+    <li>place->Çöl</li>
+
+    <li>place->Asansör</li>
+
+    <li>place->Fabrika</li>
+
+    <li>place->Festival</li>
+
+    <li>place->Kale</li>
+
+    <li>place->Orman Açıklığı</li>
+
+    <li>place->Mezarlık</li>
+
+    <li>place->Sera</li>
+
+    <li>place->Koru</li>
+
+    <li>place->Liman</li>
+
+    <li>place->Kalp</li>
+
+    <li>place->Kovan</li>
+
+    <li>place->Hastane</li>
+
+    <li>place->Ada</li>
+
+    <li>place->Cangıl</li>
+
+    <li>place->Çalışma Kampı</li>
+
+    <li>place->Laboratuvar</li>
+
+    <li>place->Labirent</li>
+
+    <li>place->Fırlatma Rampası</li>
+
+    <li>place->Kütüphane</li>
+
+    <li>place->Deniz Feneri</li>
+
+    <li>place->Malikâne</li>
+
+    <li>place->Konak</li>
+
+    <li>place->Pazar Yeri</li>
+
+    <li>place->Maden</li>
+
+    <li>place->Manastır</li>
+
+    <li>place->Dağ</li>
+
+    <li>place->Kavşak</li>
+
+    <li>place->Vaha</li>
+
+    <li>place->Gözlemevi</li>
+
+    <li>place->Meyve Bahçesi</li>
+
+    <li>place->Karakol</li>
+
+    <li>place->Saray</li>
+
+    <li>place->Plato</li>
+
+    <li>place->Hapishane</li>
+
+    <li>place->Rafineri</li>
+
+    <li>place->Tatil Köyü</li>
+
+    <li>place->Yarık</li>
+
+    <li>place->Harabeler</li>
+
+    <li>place->Kutsal Sığınak</li>
+
+    <li>place->Okul</li>
+
+    <li>place->Yerleşim</li>
+
+    <li>place->Gemi</li>
+
+    <li>place->Ruh</li>
+
+    <li>place->Uzay İstasyonu</li>
+
+    <li>place->Uzay Limanı</li>
+
+    <li>place->Sivri Kule</li>
+
+    <li>place->Bataklık</li>
+
+    <li>place->Meyhane</li>
+
+    <li>place->Tapınak</li>
+
+    <li>place->Kasaba</li>
+
+    <li>place->Tundra</li>
+
+    <li>place->Üniversite</li>
+
+    <li>place->Köy</li>
+
+    <li>place->Yanardağ</li>
+
+    <li>place->Depo</li>
+
+    <li>place->Çorak Topraklar</li>
+
+    <li>place->Vahşi Doğa</li>
+
+    <li>place->Hayvanat Bahçesi</li>
+
+    <li>story->Macerası</li>
+
+    <li>story->Maceraları</li>
+
+    <li>story->Alegorisi</li>
+
+    <li>story->Anekdotu</li>
+
+    <li>story->Yıllıkları</li>
+
+    <li>story->Baladı</li>
+
+    <li>story->Biyografisi</li>
+
+    <li>story->Bölümleri</li>
+
+    <li>story->Vakayinamesi</li>
+
+    <li>story->Tarihçesi</li>
+
+    <li>story->Kronolojisi</li>
+
+    <li>story->Komedisi</li>
+
+    <li>story->Özeti</li>
+
+    <li>story->Derlemesi</li>
+
+    <li>story->Diyaloğu</li>
+
+    <li>story->Günlüğü</li>
+
+    <li>story->Söylevi</li>
+
+    <li>story->Draması</li>
+
+    <li>story->Rüyası</li>
+
+    <li>story->Muamması</li>
+
+    <li>story->Destanı</li>
+
+    <li>story->Aydınlanması</li>
+
+    <li>story->Mektubu</li>
+
+    <li>story->Masalı</li>
+
+    <li>story->Masalları</li>
+
+    <li>story->Peri Masalı</li>
+
+    <li>story->Fantazyası</li>
+
+    <li>story->Fantezisi</li>
+
+    <li>story->Düş Dünyası</li>
+
+    <li>story->Kurgusu</li>
+
+    <li>story->Folkloru</li>
+
+    <li>story->Tarihi</li>
+
+    <li>story->Hayal Gücü</li>
+
+    <li>story->Hayalleri</li>
+
+    <li>story->Sezgisi</li>
+
+    <li>story->Karalamaları</li>
+
+    <li>story->Defteri</li>
+
+    <li>story->Yolculuğu</li>
+
+    <li>story->Mirası</li>
+
+    <li>story->Efsanesi</li>
+
+    <li>story->Efsaneleri</li>
+
+    <li>story->Edebiyatı</li>
+
+    <li>story->Seyir Defteri</li>
+
+    <li>story->Hatıratı</li>
+
+    <li>story->Anıları</li>
+
+    <li>story->Hatıraları</li>
+
+    <li>story->Zihni</li>
+
+    <li>story->Müzikali</li>
+
+    <li>story->Düşünceleri</li>
+
+    <li>story->Miti</li>
+
+    <li>story->Mitolojisi</li>
+
+    <li>story->Mitosu</li>
+
+    <li>story->Anlatımı</li>
+
+    <li>story->Anlatısı</li>
+
+    <li>story->Romanı</li>
+
+    <li>story->Gözlemleri</li>
+
+    <li>story->Övgüsü</li>
+
+    <li>story->Sayfaları</li>
+
+    <li>story->Kâğıtları</li>
+
+    <li>story->Meseli</li>
+
+    <li>story->Düzyazısı</li>
+
+    <li>story->Anımsamaları</li>
+
+    <li>story->Hikâyesi</li>
+
+    <li>story->Yansıması</li>
+
+    <li>story->Yansımaları</li>
+
+    <li>story->Hatırlayışları</li>
+
+    <li>story->Vahyi</li>
+
+    <li>story->Rapsodisi</li>
+
+    <li>story->Sagası</li>
+
+    <li>story->Çiziktirmeleri</li>
+
+    <li>story->Senaryosu</li>
+
+    <li>story->Taslağı</li>
+
+    <li>story->Taslakları</li>
+
+    <li>story->Öyküsü</li>
+
+    <li>story->Hikâyesi</li>
+
+    <li>story->Hikâyeleri</li>
+
+    <li>story->Vasiyeti</li>
+
+    <li>story->Tanıklığı</li>
+
+    <li>story->Trajedisi</li>
+
+    <li>story->Anması</li>
+
+    <li>story->Şiiri</li>
+
+    <li>story->Cildi</li>
+
+    <li>story->Kaprisi</li>
   </Namer_Novel.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>title->The Design of [subject_primary]</li>
+
+  <!-- EN: <li>title->The Design of [subject_primary]</li>
+
     <li>title->Notes on [subject_primary]</li>
+
     <li>title->A Breakthrough in [subject_primary]</li>
+
     <li>title->A Study in [subject_primary]</li>
+
     <li>title->Novel Applications for [subject_primary]</li>
+
     <li>title->Understanding [subject_primary]</li>
+
     <li>title->Principles of [subject_primary]</li>
+
     <li>title->The Fundamentals of [subject_primary]</li>
+
     <li>title->[subject_primary]: Part [volNumeral]</li>
+
     <li>title->[subject_primary] Vol. [volNumeral]</li>
+
     <li>title->[randAdjective] [subject_primary]</li>
+
     <li>title->[randAdjective] [subject_primary] Vol. [volNumeral]</li>
+
     <li>title->[maybe_authored_title]</li>
+
     <li>title(has_subject_secondary==true)->[studiesStart] [subject_primary] in the [subject_secondary] sector</li>
+
     <li>title->[studiesStart] [subject_primary] following [lifeEvent]</li>
+
     <li>title->[studiesStart] [subject_primary]: [anecdotes]</li>
+
     <li>title->[studiesStart] [subject_primary]: a [randAdjective] [discussionNoun]</li>
+
     <li>title->The [randAdjective] [subject_primary] [referenceType]</li>
+
     <li>title->The [referenceType] of [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+
     <li>title->[studiesStart] [randAdjective] [subject_primary], Vol. [volNumeral]</li>
+
     <li>title->The [referenceType] of [studiesStart] [randAdjective] [subject_primary]</li>
+
     <li>title->The [lifeEvent] [discussionNoun] and [subject_primary]</li>
+
     <li>studiesStart->Studies in</li>
+
     <li>studiesStart->Fundamentals of</li>
+
     <li>studiesStart->Managing</li>
+
     <li>studiesStart->Histories of</li>
+
     <li>studiesStart->Working in</li>
+
     <li>studiesStart->Representation of</li>
+
     <li>studiesStart->Surviving</li>
+
     <li>studiesStart->Advances in</li>
+
     <li>studiesStart->Applications of</li>
+
     <li>studiesStart->Shaping the future of</li>
+
     <li>studiesStart->Documenting of</li>
+
     <li>referenceType->Encyclopedia</li>
+
     <li>referenceType->Dictionary</li>
+
     <li>referenceType->Almanac</li>
+
     <li>referenceType->Register</li>
+
     <li>referenceType->Annal</li>
+
     <li>referenceType->Record</li>
+
     <li>referenceType->Guidebook</li>
+
     <li>referenceType->Chronicle</li>
+
     <li>referenceType->Mentor</li>
+
     <li>referenceType->Toolbox</li>
+
     <li>anecdotes->thoughts</li>
+
     <li>anecdotes->anecdotes</li>
+
     <li>anecdotes->folk tales</li>
+
     <li>anecdotes->hearsay</li>
+
     <li>anecdotes->stories</li>
+
     <li>anecdotes->narratives</li>
+
     <li>discussionNoun->discussion</li>
+
     <li>discussionNoun->debate</li>
+
     <li>discussionNoun->discourse</li>
+
     <li>discussionNoun->dialog</li>
+
     <li>discussionNoun->dialectic</li>
+
     <li>discussionNoun->examination</li>
+
     <li>discussionNoun->consultation</li>
+
     <li>discussionNoun->controversy</li>
+
     <li>lifeEvent->injury</li>
+
     <li>lifeEvent->cloning</li>
+
     <li>lifeEvent->trauma</li>
+
     <li>lifeEvent->separation</li>
+
     <li>lifeEvent->landing</li>
+
     <li>lifeEvent->revolution</li>
+
     <li>lifeEvent->archotech invocation</li>
+
     <li>lifeEvent->Horax</li>
+
     <li>lifeEvent->childbirth</li>
+
     <li>lifeEvent->accident</li>
+
     <li>lifeEvent->fleshmelding</li>
+
     <li>lifeEvent->deathrest</li>
+
     <li>lifeEvent->uprising</li>
+
     <li>lifeEvent->chimera</li>
+
     <li>lifeEvent->reverie</li>
+
     <li>lifeEvent->ripperfall</li>
+
     <li>lifeEvent->lobotomy</li>
+
     <li>lifeEvent->archite infection</li>
+
     <li>volNumeral->I</li>
+
     <li>volNumeral->II</li>
+
     <li>volNumeral->III</li>
+
     <li>volNumeral->IV</li>
+
     <li>volNumeral->V</li>
+
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
+
     <li>titleTwoSubjects->An Intro to [subjectsTuple]</li>
+
     <li>titleTwoSubjects->Analysis of [subjectsTuple]</li>
+
     <li>maybe_authored_title->[author_gen]</li>
+
     <li>author_gen->[ANYPAWN_nameIndef]'s Studies</li>
+
     <li>author_gen->[ANYPAWN_nameIndef]'s Notes</li>
+
     <li>author_gen->[ANYPAWN_nameIndef]'s Seminars</li>
+
     <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+
     <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
+
     <li>authored_title_gen->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
+
     <li>authored_title_gen->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
+
     <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+
     <li>authored_title_gen_two->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+
     <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] and [subject_secondary]</li>
+
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] and [randTheme]</li>
+
     <li>subjectsTuple->[subject_primary] and [randTheme]</li>
+
     <li>randAdjective->Basic</li>
+
     <li>randAdjective->Best</li>
+
     <li>randAdjective->Glitterworld</li>
+
     <li>randAdjective->Medieval</li>
+
     <li>randAdjective->Archaic</li>
+
     <li>randAdjective->Lurid</li>
+
     <li>randAdjective->Twilight</li>
+
     <li>randAdjective->Deathworld</li>
+
     <li>randAdjective->Grotesque</li>
+
     <li>randAdjective->Sepulchral</li>
+
     <li>randAdjective->Holy</li>
+
     <li>randAdjective->Darkest</li>
+
     <li>randAdjective->Subworld</li>
+
     <li>randAdjective->Primitive</li>
+
     <li>randAdjective->Survival</li>
+
     <li>randAdjective->Stygian</li>
+
     <li>randAdjective->Morose</li>
+
     <li>randAdjective->Haunting</li>
+
     <li>randAdjective->Cryptic</li>
+
     <li>randAdjective->Cursed</li>
+
     <li>randTheme->engineering</li>
+
     <li>randTheme->folklore</li>
+
     <li>randTheme->science fiction</li>
+
     <li>randTheme->survival tips</li>
+
     <li>randTheme->the rim</li>
+
     <li>randTheme->autophagy</li>
+
     <li>randTheme->faith</li>
+
     <li>randTheme->rights</li>
-    <li>randTheme->ethics</li>
-  -->
+
+    <li>randTheme->ethics</li> -->
+
   <Namer_Schematic.rulePack.rulesStrings>
-    <li>title->[subject_primary] tasarımı</li>
-    <li>title->[subject_primary] üzerine notlar</li>
-    <li>title->[subject_primary] alanında bir atılım</li>
-    <li>title->[subject_primary] üzerine bir çalışma</li>
-    <li>title->Özgün [subject_primary] uygulamaları</li>
-    <li>title->[subject_primary] konusunu anlama</li>
-    <li>title->[subject_primary] ilkeleri</li>
-    <li>title->[subject_primary] konusunun temelleri</li>
-    <li>title->[subject_primary]: Bölüm [volNumeral]</li>
-    <li>title->[subject_primary] [volNumeral]. Cilt </li>
+
+
+    <li>title->[subject_primary] Tasarımı</li>
+
+    <li>title->[subject_primary] Üzerine Notlar</li>
+
+    <li>title->[subject_primary] Alanında Bir Atılım</li>
+
+    <li>title->[subject_primary] Üzerine Bir İnceleme</li>
+
+    <li>title->[subject_primary] İçin Yeni Uygulamalar</li>
+
+    <li>title->[subject_primary] Konusunu Anlamak</li>
+
+    <li>title->[subject_primary] İlkeleri</li>
+
+    <li>title->[subject_primary] Temelleri</li>
+
+    <li>title->[subject_primary]: Kısım [volNumeral]</li>
+
+    <li>title->[subject_primary] Cilt [volNumeral]</li>
+
     <li>title->[randAdjective] [subject_primary]</li>
-    <li>title->[randAdjective] [subject_primary] [volNumeral]. Cilt</li>
+
+    <li>title->[randAdjective] [subject_primary] Cilt [volNumeral]</li>
+
     <li>title->[maybe_authored_title]</li>
-    <li>title(has_subject_secondary==true)->[subject_secondary] sektöründe [subject_primary] [studiesStart]</li>
-    <li>title->[lifeEvent] sonrası [subject_primary] [studiesStart]</li>
+
+    <li>title(has_subject_secondary==true)->[subject_secondary] Sektöründe [subject_primary] [studiesStart]</li>
+
+    <li>title->[lifeEvent] Sonrası [subject_primary] [studiesStart]</li>
+
     <li>title->[subject_primary] [studiesStart]: [anecdotes]</li>
-    <li>title->[subject_primary] [studiesStart]: [randAdjective] bir [discussionNoun]</li>
-    <li>title->[randAdjective] [subject_primary]: [referenceType]</li>
-    <li>title->[randAdjective] [referenceType]: [subject_primary], [volNumeral]. Cilt</li>
-    <li>title->[randAdjective] [subject_primary] [studiesStart], [volNumeral]. Cilt</li>
-    <li>title->[subject_primary] [studiesStart]: [randAdjective] [referenceType]</li>
-    <li>title->[lifeEvent] üzerine [discussionNoun] ve [subject_primary]</li>
-    <li>studiesStart->çalışmaları</li>
-    <li>studiesStart->temelleri</li>
-    <li>studiesStart->yönetimi</li>
-    <li>studiesStart->tarihi</li>
-    <li>studiesStart->çalışmak</li>
-    <li>studiesStart->temsili</li>
-    <li>studiesStart->becerisi</li>
-    <li>studiesStart->gelişmeleri</li>
-    <li>studiesStart->uygulamaları</li>
-    <li>studiesStart->alanında geleceği şekillendirmek</li>
-    <li>studiesStart->dökümantasyonu</li>
-    <li>referenceType->ansiklopedi</li>
-    <li>referenceType->sözlük</li>
-    <li>referenceType->almanak</li>
-    <li>referenceType->sicil</li>
-    <li>referenceType->yıllık</li>
-    <li>referenceType->kayıt</li>
-    <li>referenceType->rehber</li>
-    <li>referenceType->kronik</li>
-    <li>referenceType->öğretici</li>
-    <li>referenceType->uygulama</li>
+
+    <li>title->[subject_primary] [studiesStart]: [randAdjective] Bir [discussionNoun]</li>
+
+    <li>title->[randAdjective] [subject_primary] [referenceType]</li>
+
+    <li>title->[randAdjective] [subject_primary] [referenceType], Cilt [volNumeral]</li>
+
+    <li>title->[randAdjective] [subject_primary] [studiesStart], Cilt [volNumeral]</li>
+
+    <li>title->[randAdjective] [subject_primary] [studiesStart] [referenceType]</li>
+
+    <li>title->[lifeEvent] Üzerine [discussionNoun] ve [subject_primary]</li>
+
+    <li>studiesStart->Üzerine Çalışmalar</li>
+
+    <li>studiesStart->Temelleri</li>
+
+    <li>studiesStart->Yönetimi</li>
+
+    <li>studiesStart->Tarihçesi</li>
+
+    <li>studiesStart->Alanında Çalışmak</li>
+
+    <li>studiesStart->Temsili</li>
+
+    <li>studiesStart->ile Hayatta Kalmak</li>
+
+    <li>studiesStart->Alanındaki Gelişmeler</li>
+
+    <li>studiesStart->Uygulamaları</li>
+
+    <li>studiesStart->Geleceğini Şekillendirmek</li>
+
+    <li>studiesStart->Belgelenmesi</li>
+
+    <li>referenceType->Ansiklopedisi</li>
+
+    <li>referenceType->Sözlüğü</li>
+
+    <li>referenceType->Almanağı</li>
+
+    <li>referenceType->Kütüğü</li>
+
+    <li>referenceType->Yıllığı</li>
+
+    <li>referenceType->Arşivi</li>
+
+    <li>referenceType->Rehberi</li>
+
+    <li>referenceType->Vakayinamesi</li>
+
+    <li>referenceType->Akıl Hocası</li>
+
+    <li>referenceType->Alet Çantası</li>
+
     <li>anecdotes->düşünceler</li>
+
     <li>anecdotes->anekdotlar</li>
-    <li>anecdotes->halk masalları</li>
+
+    <li>anecdotes->halk hikâyeleri</li>
+
     <li>anecdotes->söylentiler</li>
-    <li>anecdotes->hikâyeler</li>
+
+    <li>anecdotes->öyküler</li>
+
     <li>anecdotes->anlatılar</li>
+
     <li>discussionNoun->tartışma</li>
+
     <li>discussionNoun->münazara</li>
-    <li>discussionNoun->fikir alışverişi</li>
+
+    <li>discussionNoun->söylev</li>
+
     <li>discussionNoun->diyalog</li>
+
     <li>discussionNoun->diyalektik</li>
+
     <li>discussionNoun->inceleme</li>
-    <li>discussionNoun->konsültasyon</li>
-    <li>discussionNoun->münakaşa</li>
+
+    <li>discussionNoun->istişare</li>
+
+    <li>discussionNoun->polemik</li>
+
     <li>lifeEvent->yaralanma</li>
+
     <li>lifeEvent->klonlama</li>
+
     <li>lifeEvent->travma</li>
+
     <li>lifeEvent->ayrılık</li>
+
     <li>lifeEvent->iniş</li>
+
     <li>lifeEvent->devrim</li>
-    <li>lifeEvent->arkotek uyandırma</li>
+
+    <li>lifeEvent->arkotek çağrısı</li>
+
     <li>lifeEvent->Horax</li>
+
     <li>lifeEvent->doğum</li>
+
     <li>lifeEvent->kaza</li>
-    <li>lifeEvent->etin harmanlanması</li>
+
+    <li>lifeEvent->et kaynaşması</li>
+
     <li>lifeEvent->ölüm uykusu</li>
+
     <li>lifeEvent->ayaklanma</li>
-    <li>lifeEvent->Kimera</li>
-    <li>lifeEvent->hayal</li>
-    <li>lifeEvent->savaş</li>
+
+    <li>lifeEvent->kimera</li>
+
+    <li>lifeEvent->dalgınlık</li>
+
+    <li>lifeEvent->yırtıcı yağışı</li>
+
     <li>lifeEvent->lobotomi</li>
+
     <li>lifeEvent->arkit enfeksiyonu</li>
+
     <li>volNumeral->I</li>
+
     <li>volNumeral->II</li>
+
     <li>volNumeral->III</li>
+
     <li>volNumeral->IV</li>
+
     <li>volNumeral->V</li>
+
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=2)->[titleTwoSubjects]</li>
-    <li>titleTwoSubjects->[subjectsTuple] alanına giriş</li>
-    <li>titleTwoSubjects->[subjectsTuple] analizi</li>
+
+    <li>titleTwoSubjects->[subjectsTuple]: Bir Giriş</li>
+
+    <li>titleTwoSubjects->[subjectsTuple] Analizi</li>
+
     <li>maybe_authored_title->[author_gen]</li>
-    <li>author_gen->[ANYPAWN_nameIndef] Hoca'nın çalışmaları</li>
-    <li>author_gen->[ANYPAWN_nameIndef] Hoca'nın notları</li>
-    <li>author_gen->[ANYPAWN_nameIndef] Hoca'nın seminerleri</li>
+
+    <li>author_gen->[ANYPAWN_nameIndef] Çalışmaları</li>
+
+    <li>author_gen->[ANYPAWN_nameIndef] Notları</li>
+
+    <li>author_gen->[ANYPAWN_nameIndef] Seminerleri</li>
+
     <li>maybe_authored_title(length_subject_primary[less_than]20,p=2)->[authored_title_gen]</li>
+
     <li>maybe_authored_title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[authored_title_gen_two]</li>
-    <li>authored_title_gen->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] rehberi</li>
-    <li>authored_title_gen->[ANYPAWN_nameIndef] Hoca'nın kaleminden [subject_primary] alanına giriş</li>
-    <li>authored_title_gen_two->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] rehberi</li>
-    <li>authored_title_gen_two->[ANYPAWN_nameIndef] Hoca'nın kaleminden [subjectsTuple] alanlarına giriş</li>
+
+    <li>authored_title_gen->[ANYPAWN_nameIndef] Anlatıyor: [subject_primary] Rehberi</li>
+
+    <li>authored_title_gen->[ANYPAWN_nameIndef] ile [subject_primary] Konusuna Giriş</li>
+
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef] Anlatıyor: [subjectsTuple] Rehberi</li>
+
+    <li>authored_title_gen_two->[ANYPAWN_nameIndef] ile [subjectsTuple] Konusuna Giriş</li>
+
     <li>subjectsTuple(has_subject_secondary==true,p=2)->[subject_primary] ve [subject_secondary]</li>
+
     <li>subjectsTuple(has_subject_secondary==true)->[subject_secondary] ve [randTheme]</li>
+
     <li>subjectsTuple->[subject_primary] ve [randTheme]</li>
-    <li>randAdjective->temel</li>
-    <li>randAdjective->en iyi</li>
-    <li>randAdjective->Işıltıdünya'dan</li>
-    <li>randAdjective->Orta Çağ'dan</li>
-    <li>randAdjective->arkaik</li>
-    <li>randAdjective->korkunç</li>
-    <li>randAdjective->alacakaranlık</li>
-    <li>randAdjective->Ölüdünya'dan</li>
-    <li>randAdjective->grotesk</li>
-    <li>randAdjective->kasvetli</li>
-    <li>randAdjective->kutsal</li>
-    <li>randAdjective->kapkaranlık</li>
-    <li>randAdjective->Altdünya'dan</li>
-    <li>randAdjective->ilkel</li>
-    <li>randAdjective->hayata dair</li>
-    <li>randAdjective->karanlık</li>
-    <li>randAdjective->aksi</li>
-    <li>randAdjective->akıldan çıkmayan</li>
-    <li>randAdjective->şifreli</li>
-    <li>randAdjective->lanetli</li>
+
+    <li>randAdjective->Temel</li>
+
+    <li>randAdjective->En İyi</li>
+
+    <li>randAdjective->Parıltı Dünyası</li>
+
+    <li>randAdjective->Ortaçağ</li>
+
+    <li>randAdjective->Arkaik</li>
+
+    <li>randAdjective->Çarpıcı</li>
+
+    <li>randAdjective->Alacakaranlık</li>
+
+    <li>randAdjective->Ölüm Dünyası</li>
+
+    <li>randAdjective->Grotesk</li>
+
+    <li>randAdjective->Kasvetli</li>
+
+    <li>randAdjective->Kutsal</li>
+
+    <li>randAdjective->En Karanlık</li>
+
+    <li>randAdjective->Alt Dünya</li>
+
+    <li>randAdjective->İlkel</li>
+
+    <li>randAdjective->Hayatta Kalma</li>
+
+    <li>randAdjective->Zifiri</li>
+
+    <li>randAdjective->Somurtkan</li>
+
+    <li>randAdjective->Akıldan Çıkmayan</li>
+
+    <li>randAdjective->Esrarengiz</li>
+
+    <li>randAdjective->Lanetli</li>
+
     <li>randTheme->mühendislik</li>
+
     <li>randTheme->folklor</li>
-    <li>randTheme->bilim kurgu</li>
-    <li>randTheme->hayatta kalma tüyoları</li>
-    <li>randTheme->kenardünyalar</li>
+
+    <li>randTheme->bilimkurgu</li>
+
+    <li>randTheme->hayatta kalma ipuçları</li>
+
+    <li>randTheme->sınır</li>
+
     <li>randTheme->otofaji</li>
+
     <li>randTheme->inanç</li>
+
     <li>randTheme->haklar</li>
+
     <li>randTheme->etik</li>
   </Namer_Schematic.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>title->[titleBasic]</li>
+
+  <!-- EN: <li>title->[titleBasic]</li>
+
     <li>title(p=2)->[titleAuthored]</li>
+
     <li>title(p=2)->[titleAuthoredNoSubject]</li>
+
     <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+
     <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+
     <li>titleBasic(p=6)->[randNoun] and [subject_primary]</li>
+
     <li>titleBasic->Lessons in [subject_primary]</li>
+
     <li>titleBasic->Thinking About [subject_primary]</li>
+
     <li>titleBasic->A Guide to [subject_primary]</li>
+
     <li>titleBasic->Introduction to [subject_primary]</li>
+
     <li>titleBasic->A Primer on [subject_primary]</li>
+
     <li>titleBasic->Essentials of [subject_primary]</li>
+
     <li>titleBasic->Mastery in [subject_primary]</li>
+
     <li>titleBasic->The Fundamentals of [subject_primary]</li>
+
     <li>titleBasic->Navigating [subject_primary]</li>
+
     <li>titleBasic->Key Concepts in [subject_primary]</li>
+
     <li>titleBasic->The Art of [subject_primary]</li>
+
     <li>titleBasic->Masterclass: [subject_primary]</li>
+
     <li>titleBasic->Decoding [subject_primary]</li>
+
     <li>titleBasic->Advanced Techniques in [subject_primary]</li>
+
     <li>titleBasic->Unlocking [subject_primary]</li>
+
     <li>titleBasic->Practical Guide to [subject_primary]</li>
+
     <li>titleBasic->Exploring [subject_primary]</li>
+
     <li>titleBasic->Pro Tips: [subject_primary]</li>
+
     <li>titleBasic->Understanding [subject_primary]</li>
+
     <li>titleBasic->Journey Through [subject_primary]</li>
+
     <li>titleBasic->The Way of [subject_primary]</li>
+
     <li>titleBasic->Insights into [subject_primary]</li>
+
     <li>titleBasic->Unraveling [subject_primary]</li>
+
     <li>titleBasic->Secrets of [subject_primary]</li>
+
     <li>titleBasic->Mastering [subject_primary]</li>
+
     <li>titleBasic->In-depth Study of [subject_primary]</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Studies</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s [randAdjective] Studies</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Diary</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Chronicles</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Memoirs</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Journal</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Musings</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Adventures</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Reflections</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Exploration</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Testimonies</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Odyssey</li>
+
     <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]'s Journey</li>
+
     <li>titleAuthoredNoSubject->The Life of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Story of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Legacy of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Adventures of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Diaries of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Wanderings of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Musings of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Testimonies of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Chronicles of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredNoSubject->The Memoirs of [ANYPAWN_nameIndef]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] on [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Guide to [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Intro to [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Explores [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Insights on [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Manual on [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Perspectives on [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Handbook for [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Analysis of [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Approach to [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Discoveries in [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Musings on [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Study of [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Investigation into [subject_primary]</li>
+
     <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]'s Research on [subject_primary]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] on [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Guide to [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Intro to [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Explores [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Insights on [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Manual on [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Perspectives on [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Handbook for [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Analysis of [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Approach to [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Discoveries in [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Musings on [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Study of [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Investigation into [subjectsTuple]</li>
+
     <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]'s Research on [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->[subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->An Intro to [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->The Best of [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Combining [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Lessons on [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Thinking About [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->A Guide to [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Introduction to [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->A Primer on [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Essentials of [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Mastery in [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->The Fundamentals of [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Navigating [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Key Concepts in [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->The Art of [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Masterclass: [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Decoding [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Advanced Techniques in [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Unlocking [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Practical Guide to [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Exploring [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Pro Tips: [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Understanding [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Journey Through [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->The Way of [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Insights into [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Unraveling [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Secrets of [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->Mastering [subjectsTuple]</li>
+
     <li>titleBasicTwoSubjects->In-depth Study of [subjectsTuple]</li>
+
     <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] and [subject_secondary]</li>
+
     <li>subjectsTuple->[subject_secondary], [subject_primary], and [randTheme]</li>
+
     <li>subjectsTuple->[subject_primary] and [randTheme]</li>
+
     <li>randNoun->Death</li>
+
     <li>randNoun->Life</li>
+
     <li>randNoun->Love</li>
+
     <li>randNoun->Growth</li>
+
     <li>randNoun->Courage</li>
+
     <li>randNoun->Wisdom</li>
+
     <li>randNoun->Health</li>
+
     <li>randNoun->Boomalopes</li>
+
     <li>randNoun->Pirates</li>
+
     <li>randAdjective->Basic</li>
+
     <li>randAdjective->Efficient</li>
+
     <li>randAdjective->Thoughtful</li>
+
     <li>randAdjective->Spectacular</li>
+
     <li>randAdjective->Sloppy</li>
+
     <li>randAdjective->Bad</li>
+
     <li>randAdjective->Good</li>
+
     <li>randAdjective->Glitterworld</li>
+
     <li>randAdjective->Rural</li>
+
     <li>randAdjective->Medieval</li>
+
     <li>randAdjective->Inspired</li>
+
     <li>randAdjective->Healthy</li>
+
     <li>randAdjective->Nefarious</li>
+
     <li>randAdjective->Chaotic</li>
+
     <li>randAdjective->Funny</li>
+
     <li>randTheme->knowledge</li>
+
     <li>randTheme->self-improvement</li>
-    <li>randTheme->understanding</li>
-  -->
+
+    <li>randTheme->understanding</li> -->
+
   <Namer_TextBook.rulePack.rulesStrings>
+
+
     <li>title->[titleBasic]</li>
+
     <li>title(p=2)->[titleAuthored]</li>
+
     <li>title(p=2)->[titleAuthoredNoSubject]</li>
+
     <li>title(length_subject_primary[less_than]20,p=4)->[titleAuthoredOneSubject]</li>
+
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleBasicTwoSubjects]</li>
+
     <li>title(length_subject_primary[less_than]20,has_subject_secondary==true,length_subject_secondary[less_than]20,p=4)->[titleAuthoredTwoSubjects]</li>
+
     <li>titleBasic(p=6)->[randAdjective] [subject_primary]</li>
+
     <li>titleBasic(p=6)->[randNoun] ve [subject_primary]</li>
-    <li>titleBasic->[subject_primary] dersleri</li>
-    <li>titleBasic->[subject_primary] üzerine düşünceler</li>
-    <li>titleBasic->[subject_primary] rehberi</li>
-    <li>titleBasic->[subject_primary] alanına giriş</li>
-    <li>titleBasic->Temel [subject_primary] eğitimi</li>
-    <li>titleBasic->[subject_primary] esasları</li>
-    <li>titleBasic->[subject_primary] üzerine uzmanlaşma</li>
-    <li>titleBasic->[subject_primary] temelleri</li>
-    <li>titleBasic->[subject_primary] yazıları</li>
-    <li>titleBasic->Temel [subject_primary] konseptleri</li>
-    <li>titleBasic->[subject_primary] sanatı</li>
-    <li>titleBasic->Masterclass: [subject_primary]</li>
-    <li>titleBasic->[subject_primary] şifreleri</li>
-    <li>titleBasic->[subject_primary] alanında ileri teknikler</li>
-    <li>titleBasic->[subject_primary] açılımı</li>
-    <li>titleBasic->Pratik bir [subject_primary] rehberi</li>
-    <li>titleBasic->[subject_primary] keşfi</li>
-    <li>titleBasic->Uzman tüyoları: [subject_primary]</li>
-    <li>titleBasic->[subject_primary] alanını anlamak</li>
-    <li>titleBasic->[subject_primary] alanında bir yolculuk</li>
-    <li>titleBasic->[subject_primary] yolu</li>
-    <li>titleBasic->[subject_primary] alanının iç yüzü</li>
-    <li>titleBasic->[subject_primary] çözümleri</li>
-    <li>titleBasic->[subject_primary] sırları</li>
-    <li>titleBasic->[subject_primary] uzmanlığı</li>
-    <li>titleBasic->[subject_primary] alanında derinlemesine çalışmalar</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve çalışmaları</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve [randAdjective] çalışmaları</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve günlükleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve kronikleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve hatıratı</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve jurnalleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve fikirleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve maceraları</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve düşünceleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve keşifleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve ifadeleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve hayatı</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve yolculuğu</li>
-    <li>titleAuthoredNoSubject->Biyografi: [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->O'nun hikâyesi: [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->Bir efsane: [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] ve maceraları</li>
-    <li>titleAuthoredNoSubject->Bir ömürden kalanlar: [ANYPAWN_nameIndef] ve günlükleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] seyahatnamesi</li>
-    <li>titleAuthoredNoSubject->Düşün emekçisi [ANYPAWN_nameIndef] ve fikirleri</li>
-    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] dosyası ve ifadeler</li>
-    <li>titleAuthoredNoSubject->Kronikler: [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredNoSubject->Hatıratlar dizisi: [ANYPAWN_nameIndef]</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın kaleminden [subject_primary]</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] rehberi</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'dan [subject_primary] alanına giriş</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'dan [subject_primary] dersleri</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'dan [subject_primary] sırları</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] manueli</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] üzerine düşünceleri</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'dan [subject_primary] el kitabı</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'dan [subject_primary] analizi</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] yaklaşımı</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] buluşları</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] fikirleri</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] çalışmaları</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] incelemeleri</li>
-    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hoca'nın [subject_primary] araştırmaları</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın kaleminden [subjectsTuple]</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] rehberi</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'dan [subjectsTuple] alanlarına giriş</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'dan [subjectsTuple] dersleri</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'dan [subjectsTuple] sırları</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] manueli</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] üzerine düşünceleri</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'dan [subjectsTuple] el kitabı</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'dan [subjectsTuple] analizleri</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] yaklaşımı</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] buluşları</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] fikirleri</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] çalışmaları</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] incelemeleri</li>
-    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hoca'nın [subjectsTuple] araştırmaları</li>
+
+    <li>titleBasic->[subject_primary] Dersleri</li>
+
+    <li>titleBasic->[subject_primary] Üzerine Düşünmek</li>
+
+    <li>titleBasic->[subject_primary] Rehberi</li>
+
+    <li>titleBasic->[subject_primary] Konusuna Giriş</li>
+
+    <li>titleBasic->[subject_primary] El Kitabı</li>
+
+    <li>titleBasic->[subject_primary] Esasları</li>
+
+    <li>titleBasic->[subject_primary] Ustalığı</li>
+
+    <li>titleBasic->[subject_primary] Temelleri</li>
+
+    <li>titleBasic->[subject_primary] Dünyasında Yol Bulmak</li>
+
+    <li>titleBasic->[subject_primary] Alanında Temel Kavramlar</li>
+
+    <li>titleBasic->[subject_primary] Sanatı</li>
+
+    <li>titleBasic->Ustalık Sınıfı: [subject_primary]</li>
+
+    <li>titleBasic->[subject_primary] Şifrelerini Çözmek</li>
+
+    <li>titleBasic->[subject_primary] Alanında İleri Teknikler</li>
+
+    <li>titleBasic->[subject_primary] Kilidini Açmak</li>
+
+    <li>titleBasic->Pratik [subject_primary] Rehberi</li>
+
+    <li>titleBasic->[subject_primary] Keşfi</li>
+
+    <li>titleBasic->Profesyonel İpuçları: [subject_primary]</li>
+
+    <li>titleBasic->[subject_primary] Konusunu Anlamak</li>
+
+    <li>titleBasic->[subject_primary] Boyunca Bir Yolculuk</li>
+
+    <li>titleBasic->[subject_primary] Yolu</li>
+
+    <li>titleBasic->[subject_primary] Üzerine İçgörüler</li>
+
+    <li>titleBasic->[subject_primary] Gizemini Çözmek</li>
+
+    <li>titleBasic->[subject_primary] Sırları</li>
+
+    <li>titleBasic->[subject_primary] Konusunda Ustalaşmak</li>
+
+    <li>titleBasic->[subject_primary] Üzerine Derinlemesine Bir İnceleme</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Çalışmaları</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef]: [randAdjective] Çalışmalar</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Günlüğü</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Vakayinamesi</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Anıları</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Defteri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Düşünceleri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Maceraları</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Yansımaları</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Keşifleri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Tanıklıkları</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Destanı</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Yolculuğu</li>
+
+    <li>titleAuthoredNoSubject->Bir Hayat: [ANYPAWN_nameIndef]</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Öyküsü</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Mirası</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Serüvenleri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Güncesi</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Gezintileri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Tefekkürleri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] İfadeleri</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Tarihçesi</li>
+
+    <li>titleAuthoredNoSubject->[ANYPAWN_nameIndef] Hatıratı</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef]: [subject_primary] Hakkında</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Anlatıyor: [subject_primary] Rehberi</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] ile [subject_primary] Konusuna Giriş</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef], [subject_primary] Konusunu Keşfediyor</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Gözünden [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] İmzalı [subject_primary] Kılavuzu</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Perspektifinden [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Hazırladı: [subject_primary] El Kitabı</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Analiziyle [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Yaklaşımıyla [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] ve [subject_primary] Alanındaki Keşifler</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Düşünüyor: [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] İnceliyor: [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Araştırıyor: [subject_primary]</li>
+
+    <li>titleAuthoredOneSubject->[ANYPAWN_nameIndef] Kaleminden [subject_primary] Araştırması</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef]: [subjectsTuple] Hakkında</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Anlatıyor: [subjectsTuple] Rehberi</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] ile [subjectsTuple] Konusuna Giriş</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef], [subjectsTuple] Konusunu Keşfediyor</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Gözünden [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] İmzalı [subjectsTuple] Kılavuzu</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Perspektifinden [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Hazırladı: [subjectsTuple] El Kitabı</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Analiziyle [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Yaklaşımıyla [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] ve [subjectsTuple] Alanındaki Keşifler</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Düşünüyor: [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] İnceliyor: [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Araştırıyor: [subjectsTuple]</li>
+
+    <li>titleAuthoredTwoSubjects->[ANYPAWN_nameIndef] Kaleminden [subjectsTuple] Araştırması</li>
+
     <li>titleBasicTwoSubjects->[subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] tanıtımı</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] en iyileri</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] kombinasyonu</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] dersleri</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] üzerine düşünceler</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] rehberi</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] alanlarına giriş</li>
-    <li>titleBasicTwoSubjects->Temel [subjectsTuple] eğitimi</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] esasları</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] üzerine uzmanlaşma</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] temelleri</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] yazıları</li>
-    <li>titleBasicTwoSubjects->Temel [subjectsTuple] konseptleri</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] sanatı</li>
-    <li>titleBasicTwoSubjects->Masterclass: [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] şifreleri</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] alanlarında ileri teknikler</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] açılımı</li>
-    <li>titleBasicTwoSubjects->Pratik bir [subjectsTuple] rehberi</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] keşfi</li>
-    <li>titleBasicTwoSubjects->Uzman tüyoları: [subjectsTuple]</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] konularını anlamak</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] alanlarında yolculuk</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] yolu</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] alanlarının iç yüzü</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] çözümleri</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] sırları</li>
-    <li>titleBasicTwoSubjects->[subjectsTuple] uzmanlığı</li>
-    <li>titleBasicTwoSubjects->Derinlemesine [subjectsTuple] çalışmaları</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple]: Bir Giriş</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple]: En İyiler</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Bir Arada</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Dersleri</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Üzerine Düşünmek</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Rehberi</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Konusuna Giriş</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] El Kitabı</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Esasları</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Ustalığı</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Temelleri</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Dünyasında Yol Bulmak</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Alanında Temel Kavramlar</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Sanatı</li>
+
+    <li>titleBasicTwoSubjects->Ustalık Sınıfı: [subjectsTuple]</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Şifrelerini Çözmek</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Alanında İleri Teknikler</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Kilidini Açmak</li>
+
+    <li>titleBasicTwoSubjects->Pratik [subjectsTuple] Rehberi</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Keşfi</li>
+
+    <li>titleBasicTwoSubjects->Profesyonel İpuçları: [subjectsTuple]</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Konusunu Anlamak</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Boyunca Bir Yolculuk</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Yolu</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Üzerine İçgörüler</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Gizemini Çözmek</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Sırları</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Konusunda Ustalaşmak</li>
+
+    <li>titleBasicTwoSubjects->[subjectsTuple] Üzerine Derinlemesine Bir İnceleme</li>
+
     <li>subjectsTuple(has_subject_secondary==true,p=6)->[subject_primary] ve [subject_secondary]</li>
+
     <li>subjectsTuple->[subject_secondary], [subject_primary] ve [randTheme]</li>
+
     <li>subjectsTuple->[subject_primary] ve [randTheme]</li>
-    <li>randNoun->ölüm</li>
-    <li>randNoun->yaşam</li>
-    <li>randNoun->aşk</li>
-    <li>randNoun->gelişim</li>
-    <li>randNoun->cesaret</li>
-    <li>randNoun->bilgelik</li>
-    <li>randNoun->sağlık</li>
-    <li>randNoun->bumaloplar</li>
-    <li>randNoun->korsanlar</li>
-    <li>randAdjective->temel</li>
-    <li>randAdjective->verimli</li>
-    <li>randAdjective->düşünceli</li>
-    <li>randAdjective->muhteşem</li>
-    <li>randAdjective->dağınık</li>
-    <li>randAdjective->kötü</li>
-    <li>randAdjective->iyi</li>
-    <li>randAdjective->Işıltıdünya'da</li>
-    <li>randAdjective->kırsal</li>
-    <li>randAdjective->Orta Çağ'da</li>
-    <li>randAdjective->yaratıcı</li>
-    <li>randAdjective->sağlıklı</li>
-    <li>randAdjective->menfur</li>
-    <li>randAdjective->kaotik</li>
-    <li>randAdjective->komik</li>
-    <li>randTheme->ilim</li>
+
+    <li>randNoun->Ölüm</li>
+
+    <li>randNoun->Yaşam</li>
+
+    <li>randNoun->Aşk</li>
+
+    <li>randNoun->Gelişim</li>
+
+    <li>randNoun->Cesaret</li>
+
+    <li>randNoun->Bilgelik</li>
+
+    <li>randNoun->Sağlık</li>
+
+    <li>randNoun->Bumaloplar</li>
+
+    <li>randNoun->Korsanlar</li>
+
+    <li>randAdjective->Temel</li>
+
+    <li>randAdjective->Verimli</li>
+
+    <li>randAdjective->Düşünceli</li>
+
+    <li>randAdjective->Muhteşem</li>
+
+    <li>randAdjective->Özensiz</li>
+
+    <li>randAdjective->Kötü</li>
+
+    <li>randAdjective->İyi</li>
+
+    <li>randAdjective->Parıltı Dünyası</li>
+
+    <li>randAdjective->Kırsal</li>
+
+    <li>randAdjective->Ortaçağ</li>
+
+    <li>randAdjective->İlham Verici</li>
+
+    <li>randAdjective->Sağlıklı</li>
+
+    <li>randAdjective->Hain</li>
+
+    <li>randAdjective->Kaotik</li>
+
+    <li>randAdjective->Komik</li>
+
+    <li>randTheme->bilgi</li>
+
     <li>randTheme->kişisel gelişim</li>
-    <li>randTheme->anlama</li>
+
+    <li>randTheme->anlayış</li>
   </Namer_TextBook.rulePack.rulesStrings>
+
   
+
 </LanguageData>

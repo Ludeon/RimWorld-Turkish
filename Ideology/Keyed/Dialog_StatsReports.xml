@@ -1,66 +1,40 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <LanguageData>
-  <!-- EN: Multiplier for enslaved (low motivation) -->
-  <StatsReport_Slave>Köleleştirildiği için çarpan (düşük motivasyon)</StatsReport_Slave>
-  <!-- EN: Terror offset -->
-  <StatsReport_Terror>Korku ön değeri</StatsReport_Terror>
-  <!-- EN: Faction leader bonus -->
-  <StatsReport_LeaderOffset>Fraksiyon lideri bonusu</StatsReport_LeaderOffset>
-  <!-- EN: Contains corpse -->
-  <StatsReport_OccupiedCorpseCasket>Ceset içerir</StatsReport_OccupiedCorpseCasket>
+  <StatsReport_Slave>Köle çarpanı (düşük motivasyon)</StatsReport_Slave>
+  <StatsReport_Terror>Dehşet farkı</StatsReport_Terror>
+  <StatsReport_LeaderOffset>Hizip lideri bonusu</StatsReport_LeaderOffset>
+  <StatsReport_OccupiedCorpseCasket>Ceset içeriyor</StatsReport_OccupiedCorpseCasket>
 
-  <!-- EN: Conversion power bonus on map -->
-  <StatsReport_InstalledRelicConvertPowerFactor>Haritada tebliğ gücü bonusu</StatsReport_InstalledRelicConvertPowerFactor>
-  <!-- EN: Mood bonus for rituals in room -->
-  <StatsReport_RelicAtRitualMoodBonus>Odada yapılan ritüeller için ruh hâli bonusu</StatsReport_RelicAtRitualMoodBonus>
+  <StatsReport_InstalledRelicConvertPowerFactor>Haritadaki dönüştürme gücü bonusu</StatsReport_InstalledRelicConvertPowerFactor>
+  <StatsReport_RelicAtRitualMoodBonus>Odadaki ritüeller için ruh hâli bonusu</StatsReport_RelicAtRitualMoodBonus>
 
-  <!-- EN: Relic of -->
-  <Stat_Thing_RelicOf_Name>Şu ideodine ait:</Stat_Thing_RelicOf_Name>
-  <!-- EN: The ideology this relic belongs to. -->
-  <Stat_Thing_RelicOf_Desc>Bu kutsal emanetin ait olduğu ideodin.</Stat_Thing_RelicOf_Desc>
-  <!-- EN: Relic status -->
-  <Stat_Thing_RelicStatus>Kutsal emanetin durumu</Stat_Thing_RelicStatus>
-  <!-- EN: A widely sought-after item of religious or ideological significance. -->
-  <Stat_Thing_RelicStatus_Desc>Dini veya ideolojik öneme sahip, yaygın olarak aranan bir öğe.</Stat_Thing_RelicStatus_Desc>
+  <Stat_Thing_RelicOf_Name>Ait olduğu inanç</Stat_Thing_RelicOf_Name>
+  <Stat_Thing_RelicOf_Desc>Bu kutsal emanetin ait olduğu ideoloji.</Stat_Thing_RelicOf_Desc>
+  <Stat_Thing_RelicStatus>Kutsal emanet durumu</Stat_Thing_RelicStatus>
+  <Stat_Thing_RelicStatus_Desc>Dini ya da ideolojik önemi olan, herkesin peşinde olduğu bir nesne.</Stat_Thing_RelicStatus_Desc>
 
-  <!-- EN: Related to -->
-  <Stat_Thing_RelatedToIdeos_Name>Şununla ilgili</Stat_Thing_RelatedToIdeos_Name>
-  <!-- EN: The ideoligions this thing belongs to. -->
-  <Stat_Thing_RelatedToIdeos_Desc>Bu şeyin ait olduğu ideodinler.</Stat_Thing_RelatedToIdeos_Desc>
+  <Stat_Thing_RelatedToIdeos_Name>İlişkili olduğu</Stat_Thing_RelatedToIdeos_Name>
+  <Stat_Thing_RelatedToIdeos_Desc>Bu nesnenin ait olduğu ideodinler.</Stat_Thing_RelatedToIdeos_Desc>
 
-  <!-- EN: Holding relic -->
-  <StatsReports_HasRelic>Kutsal emaneti tutuyor</StatsReports_HasRelic>
+  <StatsReports_HasRelic>Kutsal emanet taşıyor</StatsReports_HasRelic>
 
-  <!-- EN: Blind bonus -->
-  <StatsReport_BlindPsychicSensitivityOffset>Kör bonusu</StatsReport_BlindPsychicSensitivityOffset>
-  <!-- EN: Sight bonus -->
+  <StatsReport_BlindPsychicSensitivityOffset>Körlük bonusu</StatsReport_BlindPsychicSensitivityOffset>
   <StatsReport_SightPsychicSensitivityOffset>Görme bonusu</StatsReport_SightPsychicSensitivityOffset>
 
-  <!-- EN: Dominating style -->
-  <Stat_Thing_StyleDominanceCategory>Dominant stil</Stat_Thing_StyleDominanceCategory>
-  <!-- EN: The style presented by this object. This style may be associated with some ideoligions. Different people respond differently to certain styles, according to their ideoligious beliefs. -->
-  <Stat_Thing_StyleDominanceCategoryDesc>Bu nesnenin sunduğu tarz. Bu tarz, bazı ideodinlerle ilişkilendirilebilir. Farklı insanlar, ideodinî inançlarına göre belirli tarzlara farklı tepkiler verir.</Stat_Thing_StyleDominanceCategoryDesc>
-  <!-- EN: Satisfies ideoligions -->
-  <Stat_Thing_IdeosSatisfied>Karşıladığı ideodinler</Stat_Thing_IdeosSatisfied>
-  <!-- EN: Style -->
+  <Stat_Thing_StyleDominanceCategory>Baskın stil</Stat_Thing_StyleDominanceCategory>
+  <Stat_Thing_StyleDominanceCategoryDesc>Bu nesnenin yansıttığı stil. Bu stil bazı ideodinlerle ilişkili olabilir. İnsanlar ideodinî inançlarına göre belirli stillere farklı tepkiler verir.</Stat_Thing_StyleDominanceCategoryDesc>
+  <Stat_Thing_IdeosSatisfied>Memnun ettiği ideodinler</Stat_Thing_IdeosSatisfied>
   <Style>Stil</Style>
 
-  <!-- EN: Darkness shooting accuracy -->
-  <Stat_Pawn_DarknessCombatShooting_Name>Karanlıkta atış isabetliliği</Stat_Pawn_DarknessCombatShooting_Name>
-  <!-- EN: An offset applied to the chance to hit a target based on the target's light level. -->
-  <Stat_Pawn_DarknessCombatShooting_Desc>Hedefin ne kadar aydınlıkta olduğuna bağlı olarak hedefi vurma ihtimaline uygulanan bir ön değer.</Stat_Pawn_DarknessCombatShooting_Desc>
-  <!-- EN: Darkness melee dodge chance -->
-  <Stat_Pawn_DarknessMeleeDodgeChance_Name>Karanlıkta yakın dövüş kaçınma ihtimali</Stat_Pawn_DarknessMeleeDodgeChance_Name>
-  <!-- EN: An offset applied to the melee dodge chance based on the local light level. -->
-  <Stat_Pawn_DarknessMeleeDodgeChance_Desc>Hedefin ne kadar aydınlıkta olduğuna bağlı olarak yakın dövüşte isabetten kaçınma ihtimaline uygulanan bir ön değer.</Stat_Pawn_DarknessMeleeDodgeChance_Desc>
-  <!-- EN: Darkness melee hit chance -->
-  <Stat_Pawn_DarknessMeleeHitChance_Name>Karanlıkta yakın dövüş isabet ihtimali</Stat_Pawn_DarknessMeleeHitChance_Name>
-  <!-- EN: An offset applied to the melee hit chance based on the target's light level. -->
-  <Stat_Pawn_DarknessMeleeHitChance_Desc>Hedefin ne kadar aydınlıkta olduğuna bağlı olarak yakın dövüşte vurma ihtimaline uygulanan bir ön değer.</Stat_Pawn_DarknessMeleeHitChance_Desc>
-  <!-- EN: The following offsets can be applied -->
-  <Stat_PawnDarkness_FollowingOffset>Aşağıdaki ön değerler uygulanabilir</Stat_PawnDarkness_FollowingOffset>
+  <Stat_Pawn_DarknessCombatShooting_Name>Karanlıkta atış isabeti</Stat_Pawn_DarknessCombatShooting_Name>
+  <Stat_Pawn_DarknessCombatShooting_Desc>Hedefin ışık seviyesine göre hedefi vurma olasılığına uygulanan fark.</Stat_Pawn_DarknessCombatShooting_Desc>
+  <Stat_Pawn_DarknessMeleeDodgeChance_Name>Karanlıkta yakın dövüşte kaçınma olasılığı</Stat_Pawn_DarknessMeleeDodgeChance_Name>
+  <Stat_Pawn_DarknessMeleeDodgeChance_Desc>Bulunulan yerin ışık seviyesine göre yakın dövüşte kaçınma olasılığına uygulanan fark.</Stat_Pawn_DarknessMeleeDodgeChance_Desc>
+  <Stat_Pawn_DarknessMeleeHitChance_Name>Karanlıkta yakın dövüşte vurma olasılığı</Stat_Pawn_DarknessMeleeHitChance_Name>
+  <Stat_Pawn_DarknessMeleeHitChance_Desc>Hedefin ışık seviyesine göre yakın dövüşte vurma olasılığına uygulanan fark.</Stat_Pawn_DarknessMeleeHitChance_Desc>
+  <Stat_PawnDarkness_FollowingOffset>Şu farklar uygulanabilir</Stat_PawnDarkness_FollowingOffset>
 
-  <!-- EN: Biosculpting speed -->
   <StatsReport_BiosculptingSpeedFactor>Biyoşekillendirme hızı</StatsReport_BiosculptingSpeedFactor>
 
   </LanguageData>

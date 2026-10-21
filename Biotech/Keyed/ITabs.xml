@@ -1,135 +1,75 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: The recipe {0} requires a mechanitor to work on it. None of your colonists are mechanitors, so nobody will do this bill. -->
-  <RecipeRequiresMechanitor>{0} siparişi, üzerinde çalışacak bir mekanitör gerektirir. Kolonicilerinin hiçbiri mekanitör değil, bu yüzden kimse bu siparişi yapmayacak.</RecipeRequiresMechanitor>
+  <RecipeRequiresMechanitor>{0} tarifi üzerinde çalışmak için bir mekanitör gerekiyor. Kolonistlerinin hiçbiri mekanitör değil, bu yüzden kimse bu siparişi yapmayacak.</RecipeRequiresMechanitor>
 
-  <!-- EN: genepacks -->
   <GenepackPlural>gen paketleri</GenepackPlural>
-  <!-- EN: Traits develop later during childhood -->
-  <TraitsDevelopLaterBaby>Kişisel özellikler daha sonra, çocuklukta gelişir</TraitsDevelopLaterBaby>
-  <!-- EN: Skills develop later during childhood -->
-  <SkillsDevelopLaterBaby>Beceriler daha sonra, çocuklukta gelişir</SkillsDevelopLaterBaby>
-  <!-- EN: Genes -->
+  <TraitsDevelopLaterBaby>Özellikler çocuklukta ileride gelişir</TraitsDevelopLaterBaby>
+  <SkillsDevelopLaterBaby>Beceriler çocuklukta ileride gelişir</SkillsDevelopLaterBaby>
   <TabGenes>Genler</TabGenes>
 
-  <!-- EN: View genes -->
-  <ViewGenes>Genleri görüntüle</ViewGenes>
-  <!-- EN: Click to view {PAWN_nameDef}'s genes. -->
+  <ViewGenes>Genleri gör</ViewGenes>
   <ViewGenesDesc>{PAWN_nameDef} adlı kişinin genlerini görmek için tıkla.</ViewGenesDesc>
 
   <!-- Feeding tab (human babies) -->
-  <!-- EN: Feeding -->
   <TabFeeding>Besleme</TabFeeding>
-  <!-- EN: Auto feed settings -->
   <AutofeedSectionHeader>Otomatik besleme ayarları</AutofeedSectionHeader>
-  <!-- EN: never -->
   <AutofeedModeNever>asla</AutofeedModeNever>
-  <!-- EN: childcare -->
   <AutofeedModeChildcare>çocuk bakımı</AutofeedModeChildcare>
-  <!-- EN: urgent -->
   <AutofeedModeUrgent>acil</AutofeedModeUrgent>
-  <!-- EN: Nobody can feed this baby. -->
-  <AutofeedNone>Bu bebeği kimse besleyemez.</AutofeedNone>
-  <!-- EN: {FEEDER_nameDef} will not automatically feed {BABY_nameDef}. -->
+  <AutofeedNone>Bu bebeği besleyebilecek kimse yok.</AutofeedNone>
   <AutofeedModeTooltipNever>{FEEDER_nameDef}, {BABY_nameDef} adlı bebeği otomatik olarak beslemeyecek.</AutofeedModeTooltipNever>
-  <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} as childcare work. -->
-  <AutofeedModeTooltipChildcare>{FEEDER_nameDef}, {BABY_nameDef} adlı bebeği çocuk bakıcısı olarak besleyecek.</AutofeedModeTooltipChildcare>
-  <!-- EN: {FEEDER_nameDef} will feed {BABY_nameDef} day or night, even if {FEEDER_nameDef} is not assigned to childcare or is incapable of childcare. -->
-  <AutofeedModeTooltipUrgent>{FEEDER_nameDef}, çocuk bakımına atanmamış veya çocuk bakımı yapamayacak durumda olsa bile {BABY_nameDef} adlı bebeği gündüz veya gece besleyecektir.</AutofeedModeTooltipUrgent>
-  <!-- EN: Consumable foods -->
-  <BabyFoodConsumables>Tüketilebilir gıdalar</BabyFoodConsumables>
+  <AutofeedModeTooltipChildcare>{FEEDER_nameDef}, {BABY_nameDef} adlı bebeği çocuk bakımı işi olarak besleyecek.</AutofeedModeTooltipChildcare>
+  <AutofeedModeTooltipUrgent>{FEEDER_nameDef}, {BABY_nameDef} adlı bebeği gece gündüz besleyecek; {FEEDER_nameDef} çocuk bakımına atanmamış ya da çocuk bakımına yetersiz olsa bile.</AutofeedModeTooltipUrgent>
+  <BabyFoodConsumables>Tüketilebilir yiyecekler</BabyFoodConsumables>
 
   <!-- Social tab (human babies) -->
-  <!-- EN: ideoligion exposure -->
-  <IdeoExposureSectionHeader>ideodine maruz kalma</IdeoExposureSectionHeader>
-  <!-- EN: {BABY_labelShort} has not been exposed to any ideoligions yet. -->
-  <IdeoExposureNoExposure>{BABY_labelShort} henüz herhangi bir ideodine maruz kalmadı.</IdeoExposureNoExposure>
-  <!-- EN: {BABY_pronoun} can be exposed to ideoligions by interacting with followers of an ideoligion. These interactions include being breastfed, carried, played with, and more. At the age of {CHILDAGE} {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to. -->
-  <IdeoExposureNoExposureDetail>Bebek, bir ideodinin müritleri ile etkileşime girerek o ideodine maruz kalabilir. Bu etkileşimler emzirmeyi, taşınmayı, oynanma ve daha fazlasını içerir. {BABY_labelShort}, {CHILDAGE} yaşına geldiğinde maruz kaldığı ideodinlerden birine katılacak.</IdeoExposureNoExposureDetail>
-  <!-- EN: {BABY_labelShort} is {PERCENT} likely to join the ideoligion {IDEO_name}. -->
-  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort}, {PERCENT} olasılıkla {IDEO_name} ideodinine katılacak.</IdeoExposurePointsTooltipJoinLikelihood>
-  <!-- EN: As {BABY_labelShort} interacts with followers of an ideoligion {BABY_pronoun} becomes more likely to join that ideoligion. {BABY_labelShort} will join one of the ideoligions {BABY_pronoun} has been exposed to at the age of {CHILDAGE}. -->
-  <IdeoExposurePointsTooltipJoinDescription>{BABY_labelShort}, bir ideodinin müritleri ile etkileşime girdikçe o ideodine katılma olasılığı artar. {BABY_labelShort}, {CHILDAGE} yaşına geldiğinde maruz kaldığı ideodinlerden birine katılacak.</IdeoExposurePointsTooltipJoinDescription>
-  <!-- EN: Ideoligion exposure is measured by exposure points. Interactions like being breastfed, carried, or played with will cause {BABY_labelShort} to gain exposure points for the ideoligions followed by those {BABY_pronoun} interacts with. -->
-  <IdeoExposurePointsTooltipExposureDescription>İdeodine maruz kalma, maruz kalma puanı ile ölçülür. Emzirme, taşınma veya oynanma gibi etkileşimler, bebeğin onunla etkileşime girenlerin inandığı ideodin için maruz kalma puanları kazanmasına neden olur.</IdeoExposurePointsTooltipExposureDescription>
-  <!-- EN: {IDEO_name} exposure points -->
-  <IdeoExposurePointsTooltipIdeoExposure>{IDEO_name} maruz kalma puanı</IdeoExposurePointsTooltipIdeoExposure>
-  <!-- EN: Total exposure points -->
-  <IdeoExposurePointsTooltipTotalExposure>Toplam maruz kalma puanı</IdeoExposurePointsTooltipTotalExposure>
+  <IdeoExposureSectionHeader>ideodin etkileşimi</IdeoExposureSectionHeader>
+  <IdeoExposureNoExposure>{BABY_labelShort} henüz hiçbir ideodinle etkileşime girmedi.</IdeoExposureNoExposure>
+  <IdeoExposureNoExposureDetail>Bebek, bir ideodinin müritleriyle etkileşime girerek o ideodinle tanışabilir. Bu etkileşimler arasında emzirilmek, kucakta taşınmak, oyun oynanmak ve daha fazlası vardır. {CHILDAGE} yaşına geldiğinde {BABY_labelShort}, tanıştığı ideodinlerden birine katılacak.</IdeoExposureNoExposureDetail>
+  <IdeoExposurePointsTooltipJoinLikelihood>{BABY_labelShort} için {IDEO_name} ideodinine katılma olasılığı: {PERCENT}.</IdeoExposurePointsTooltipJoinLikelihood>
+  <IdeoExposurePointsTooltipJoinDescription>{BABY_labelShort} bir ideodinin müritleriyle etkileşime girdikçe o ideodine katılma olasılığı artar. {BABY_labelShort}, {CHILDAGE} yaşına geldiğinde tanıştığı ideodinlerden birine katılacak.</IdeoExposurePointsTooltipJoinDescription>
+  <IdeoExposurePointsTooltipExposureDescription>İdeodin etkileşimi, etkileşim puanlarıyla ölçülür. Emzirilmek, kucakta taşınmak ya da oyun oynanmak gibi etkileşimler, {BABY_labelShort} için etkileşime girdiği kişilerin bağlı olduğu ideodinlerde etkileşim puanı kazandırır.</IdeoExposurePointsTooltipExposureDescription>
+  <IdeoExposurePointsTooltipIdeoExposure>{IDEO_name} etkileşim puanı</IdeoExposurePointsTooltipIdeoExposure>
+  <IdeoExposurePointsTooltipTotalExposure>Toplam etkileşim puanı</IdeoExposurePointsTooltipTotalExposure>
 
   <!-- Social tab (romance) -->
-  <!-- EN: Romance -->
   <TryRomanceButtonLabel>Flört et</TryRomanceButtonLabel>
-  <!-- EN: Nobody for {0_labelShort} to romance. -->
-  <TryRomanceNoOptsMessage>{0_labelShort} ile flört edecek kimse yok.</TryRomanceNoOptsMessage>
-  <!-- EN: unreachable -->
+  <TryRomanceNoOptsMessage>{0_labelShort} için flört edilecek kimse yok.</TryRomanceNoOptsMessage>
   <CantRomanceTargetUnreachable>ulaşılamaz</CantRomanceTargetUnreachable>
-  <!-- EN: sleeping -->
   <CantRomanceTargetSleeping>uyuyor</CantRomanceTargetSleeping>
-  <!-- EN: incapacitated -->
-  <CantRomanceTargetDowned>hareket edemiyor</CantRomanceTargetDowned>
-  <!-- EN: drafted -->
-  <CantRomanceTargetDrafted>çatışma modunda</CantRomanceTargetDrafted>
-  <!-- EN: mental break -->
-  <CantRomanceTargetMentalState>ruhsal çöküşte</CantRomanceTargetMentalState>
-  <!-- EN: incestuous -->
+  <CantRomanceTargetDowned>aciz durumda</CantRomanceTargetDowned>
+  <CantRomanceTargetDrafted>askere alınmış</CantRomanceTargetDrafted>
+  <CantRomanceTargetMentalState>zihinsel çöküş</CantRomanceTargetMentalState>
   <CantRomanceTargetIncest>ensest</CantRomanceTargetIncest>
-  <!-- EN: low opinion -->
   <CantRomanceTargetOpinion>düşük görüş</CantRomanceTargetOpinion>
-  <!-- EN: incompatible orientation -->
   <CantRomanceTargetSexuality>uyumsuz yönelim</CantRomanceTargetSexuality>
-  <!-- EN: prisoner -->
   <CantRomanceTargetPrisoner>mahkûm</CantRomanceTargetPrisoner>
-  <!-- EN: too young -->
   <CantRomanceTargetYoung>çok genç</CantRomanceTargetYoung>
-  <!-- EN: zero chance -->
-  <CantRomanceTargetZeroChance>sıfır ihtimal</CantRomanceTargetZeroChance>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a prisoner. -->
-  <CantRomanceInitiateMessagePrisoner>{0_labelShort}, mahkûm olduğu için flört etmeyi deneyemez.</CantRomanceInitiateMessagePrisoner>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is a slave. -->
-  <CantRomanceInitiateMessageSlave>{0_labelShort}, bir köle olduğu için flört etmeyi deneyemez.</CantRomanceInitiateMessageSlave>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} has the asexual trait. -->
-  <CantRomanceInitiateMessageAsexual>{0_labelShort}, aseksüel olduğu için flört etmeyi deneyemez.</CantRomanceInitiateMessageAsexual>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is incapacitated. -->
-  <CantRomanceInitiateMessageDowned>{0_labelShort}, hareket edemediği için flört etmeyi deneyemez.</CantRomanceInitiateMessageDowned>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is drafted. -->
-  <CantRomanceInitiateMessageDrafted>{0_labelShort}, çatışma modunda olduğu için flört etmeyi deneyemez.</CantRomanceInitiateMessageDrafted>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is in an unfit mental state. -->
-  <CantRomanceInitiateMessageMentalState>{0_labelShort}, elverişsiz bir ruh hâlinde olduğu için flört etmeyi deneyemez.</CantRomanceInitiateMessageMentalState>
-  <!-- EN: {0_labelShort} cannot try to romance because {0_pronoun} is unable to speak. -->
-  <CantRomanceInitiateMessageTalk>{0_labelShort}, konuşamadığı için flört etmeyi deneyemez.</CantRomanceInitiateMessageTalk>
-  <!-- EN: {0_labelShort} tried romancing recently and must wait {1} until trying again. -->
-  <CantRomanceInitiateMessageCooldown>{0_labelShort}, yakın zamanda flört etmeyi yapmayı denedi ve tekrar denemek için {1} beklemesi gerekiyor.</CantRomanceInitiateMessageCooldown>
-  <!-- EN: {0_labelShort}'s attempt to romance {1_labelShort} was unsuccessful. -->
-  <TryRomanceFailedMessage>{0_labelShort}, {1_labelShort} ile flört etmeyi denedi fakat girişimi başarısız oldu.</TryRomanceFailedMessage>
-  <!-- EN: Having {INITIATOR_nameDef} romance {TARGET_nameDef} could sow resentment among existing partners, lead to breakups, and cause altercations. -->
-  <RomanceExistingRelationshipWarning>{INITIATOR_nameDef} adlı kişinin {TARGET_nameDef} ile flört etmesi mevcut partnerler arasında hoşnutsuzluğa yol açabilir, ayrılıklara neden olabilir ve tartışmalara sebep olabilir.</RomanceExistingRelationshipWarning>
-  <!-- EN: Romance chance -->
-  <RomanceChance>Flört ihtimali</RomanceChance>
-  <!-- EN: already {PAWN_nameDef}'s {RELATION} -->
-  <RomanceChanceExistingRelation>zaten {PAWN_nameDef} kişisinin {RELATION}</RomanceChanceExistingRelation>
-  <!-- EN: Cannot romance -->
-  <RomanceChanceCant>Flört edemez</RomanceChanceCant>
-  <!-- EN: Relative age -->
-  <RomanceChanceAgeFactor>Göreceli yaş</RomanceChanceAgeFactor>
-  <!-- EN: Beauty -->
+  <CantRomanceTargetZeroChance>sıfır olasılık</CantRomanceTargetZeroChance>
+  <CantRomanceInitiateMessagePrisoner>{0_labelShort} flört etmeyi deneyemez çünkü mahkûm.</CantRomanceInitiateMessagePrisoner>
+  <CantRomanceInitiateMessageSlave>{0_labelShort} flört etmeyi deneyemez çünkü köle.</CantRomanceInitiateMessageSlave>
+  <CantRomanceInitiateMessageAsexual>{0_labelShort} flört etmeyi deneyemez çünkü aseksüel özelliğine sahip.</CantRomanceInitiateMessageAsexual>
+  <CantRomanceInitiateMessageDowned>{0_labelShort} flört etmeyi deneyemez çünkü aciz durumda.</CantRomanceInitiateMessageDowned>
+  <CantRomanceInitiateMessageDrafted>{0_labelShort} flört etmeyi deneyemez çünkü askere alınmış.</CantRomanceInitiateMessageDrafted>
+  <CantRomanceInitiateMessageMentalState>{0_labelShort} flört etmeyi deneyemez çünkü zihinsel durumu uygun değil.</CantRomanceInitiateMessageMentalState>
+  <CantRomanceInitiateMessageTalk>{0_labelShort} flört etmeyi deneyemez çünkü konuşamıyor.</CantRomanceInitiateMessageTalk>
+  <CantRomanceInitiateMessageCooldown>{0_labelShort} yakın zamanda flört etmeyi denedi; yeniden denemek için {1} beklemeli.</CantRomanceInitiateMessageCooldown>
+  <TryRomanceFailedMessage>{0_labelShort} adlı kişinin {1_labelShort} ile flört girişimi başarısız oldu.</TryRomanceFailedMessage>
+  <RomanceExistingRelationshipWarning>{INITIATOR_nameDef} adlı kişinin {TARGET_nameDef} ile flört etmesi, mevcut partnerler arasında kırgınlık yaratabilir, ayrılıklara ve kavgalara yol açabilir.</RomanceExistingRelationshipWarning>
+  <RomanceChance>Flört başarı olasılığı</RomanceChance>
+  <RomanceChanceExistingRelation>zaten {PAWN_nameDef} için: {RELATION}</RomanceChanceExistingRelation>
+  <RomanceChanceCant>Flört edilemez</RomanceChanceCant>
+  <RomanceChanceAgeFactor>Göreli yaş</RomanceChanceAgeFactor>
   <RomanceChanceBeautyFactor>Güzellik</RomanceChanceBeautyFactor>
-  <!-- EN: Opinion -->
   <RomanceChanceOpinionFactor>Görüş</RomanceChanceOpinionFactor>
-  <!-- EN: Opinion of partner -->
-  <RomanceChancePartnerFactor>Partnerin görüşü</RomanceChancePartnerFactor>
-  <!-- EN: {0_labelShort} was unable to romance {1_labelShort} -->
+  <RomanceChancePartnerFactor>Partner hakkındaki görüş</RomanceChancePartnerFactor>
   <RomanceFailedUnexpected>{0_labelShort}, {1_labelShort} ile flört edemedi</RomanceFailedUnexpected>
-  <!-- EN: {0_nameDef} is already in a relationship. -->
-  <RomanceWarningMonogamous>{0_nameDef} zaten bir ilişki içerisinde.</RomanceWarningMonogamous>
-  <!-- EN: {0_nameDef} already has {1} partners. -->
-  <RomanceWarningPolygamous>{0_nameDef} zaten {1} partnere sahip.</RomanceWarningPolygamous>
+  <RomanceWarningMonogamous>{0_nameDef} zaten bir ilişki içinde.</RomanceWarningMonogamous>
+  <RomanceWarningPolygamous>{0_nameDef} adlı kişinin zaten {1} partneri var.</RomanceWarningPolygamous>
 
   <!-- Guest tab (prisoners) -->
-  <!-- EN: Genes -->
-  <FactorForGenes>Genler için çarpan</FactorForGenes>
-  <!-- EN: Prison breaking is disabled by {GENE_label} gene. -->
-  <PrisonBreakingDisabledDueToGene>Firar, '{GENE_label}' geni tarafından devre dışı bırakıldı.</PrisonBreakingDisabledDueToGene>
+  <FactorForGenes>Genler</FactorForGenes>
+  <PrisonBreakingDisabledDueToGene>Firar, {GENE_label} geni nedeniyle devre dışı.</PrisonBreakingDisabledDueToGene>
 
 </LanguageData>

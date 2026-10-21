@@ -1,80 +1,46 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Grav engine/substructrues -->
-  <!-- EN: Are you sure you want to launch?\n\nYour current map, as well as anything not on gravship substructure, will be permanently lost. The launch process is destructive, meaning you won't be able to return. Build a grav anchor to prevent this map from being destroyed. -->
-  <ConfirmGravEngineLaunch>Fırlatmak istediğinden emin misin?\n\nMevcut haritan ve gravgemi altyapısı üzerinde olmayan her şey kalıcı olarak kaybolacak. Fırlatma işlemi kalıcı hasara sebep olacağı için geri dönemezsin. Bu haritanın yok olmasını engellemek için bir grav çapası inşa et.</ConfirmGravEngineLaunch>
-  <!-- EN: Warning -->
+  <ConfirmGravEngineLaunch>Fırlatmak istediğinden emin misin?\n\nMevcut haritan ve grav gemisi alt yapısı üzerinde olmayan her şey kalıcı olarak kaybolacak. Fırlatma işlemi yıkıcıdır; yani geri dönemeyeceksin. Bu haritanın yok olmasını önlemek için bir grav çapası inşa et.</ConfirmGravEngineLaunch>
   <GravEngineWarning>Uyarı</GravEngineWarning>
-  <!-- EN: The following people will be left behind -->
-  <PeopleWillBeLeftBehind>Şu insanlar geride kalacak:</PeopleWillBeLeftBehind>
-  <!-- EN: The following will be left behind -->
-  <AnimalsWillBeLeftBehind>Şu hayvanlar geride kalacak:</AnimalsWillBeLeftBehind>
-  <!-- EN: The following people and animals from another faction will be taken with you. This will upset their faction, potentially turning them hostile -->
-  <PawnsKidnappedOnGravship>Başka bir fraksiyona ait şu insanlar ve hayvanlar seninle birlikte gidecek. Bu durum, ilgili fraksiyonun canını sıkacak ve muhtemelen onları düşman yapacak.</PawnsKidnappedOnGravship>
-  <!-- EN: The following buildings are not fully on the gravship and will be left behind -->
-  <BuildingsWillBeLeftBehind>Şu binalar tamamen gravgemide olmadıkları için geride kalacak:</BuildingsWillBeLeftBehind>
-  <!-- EN: Some substructure has invalid placement and will be left behind -->
-  <SubstructureWillBeLeftBehind>Bazı altyapılar geçersiz konumda ve geride kalacak</SubstructureWillBeLeftBehind>
-  <!-- EN: Disconnected from grav engine -->
-  <DisconnectedSubstructure>Grav motoru ile bağlantı kesildi</DisconnectedSubstructure>
-  <!-- EN: Under rock roof -->
+  <PeopleWillBeLeftBehind>Şu kişiler geride kalacak</PeopleWillBeLeftBehind>
+  <AnimalsWillBeLeftBehind>Şunlar geride kalacak</AnimalsWillBeLeftBehind>
+  <PawnsKidnappedOnGravship>Başka bir hizbe ait şu insanlar ve hayvanlar seninle birlikte götürülecek. Bu, hiziplerini kızdıracak ve düşmanca davranmalarına yol açabilecek</PawnsKidnappedOnGravship>
+  <BuildingsWillBeLeftBehind>Şu yapılar tamamen grav gemisinin üzerinde değil ve geride kalacak</BuildingsWillBeLeftBehind>
+  <SubstructureWillBeLeftBehind>Alt yapının bir kısmı geçersiz yerleştirilmiş ve geride kalacak</SubstructureWillBeLeftBehind>
+  <DisconnectedSubstructure>Grav motoruyla bağlantısı yok</DisconnectedSubstructure>
   <SubstructureUnderRockRoof>Kaya çatı altında</SubstructureUnderRockRoof>
-  <!-- EN: Out of range -->
   <SubstructureOutsideFootprint>Menzil dışında</SubstructureOutsideFootprint>
 
-  <!-- EN: {0} has high hopes for your new gravship and wants to christen it with a good name. What should your gravship be called? -->
-  <NamePlayerGravshipMessage>{0}, yeni gravgemin için büyük umutlar besliyor ve ona güzel bir isim vermek istiyor. Gravgeminin adı ne olsun?</NamePlayerGravshipMessage>
-  <!-- EN: The gravship is now known as {0}. -->
-  <PlayerGravshipGainsName>Gravgemi artık {0} olarak biliniyor.</PlayerGravshipGainsName>
-  <!-- EN: That name isn't valid. -->
-  <PlayerGravshipNameIsInvalid>Bu isim geçerli değil.</PlayerGravshipNameIsInvalid>
+  <NamePlayerGravshipMessage>{0} yeni grav gemine büyük umutlar bağladı ve ona güzel bir ad koymak istiyor. Grav gemine ne ad verilsin?</NamePlayerGravshipMessage>
+  <PlayerGravshipGainsName>Grav gemisinin adı artık {0}.</PlayerGravshipGainsName>
+  <PlayerGravshipNameIsInvalid>Bu ad geçerli değil.</PlayerGravshipNameIsInvalid>
 
-  <!-- EN: Force visitors to leave -->
-  <GravshipForceVisitorsToLeaveLabel>Ziyaretçileri kov</GravshipForceVisitorsToLeaveLabel>
-  <!-- EN: Wait for all visitors to leave the gravship before launching. This won’t affect enemies, prisoners, or downed visitors. -->
-  <GravshipForceVisitorsToLeaveTooltip>Kalkıştan önce tüm ziyaretçilerin gravgemiyi terk etmesini bekle. Düşmanlar, mahkûmlar ve etkisiz hâldeki ziyaretçiler bundan etkilenmez.</GravshipForceVisitorsToLeaveTooltip>
-  <!-- EN: Board colony animals -->
-  <GravshipBoardColonyAnimalsLabel>Koloni hayvanlarını gemiye bindir</GravshipBoardColonyAnimalsLabel>
-  <!-- EN: Order all colony animals to board the gravship. The gravship won’t launch until they are aboard. -->
-  <GravshipBoardColonyAnimalsTooltip>Tüm koloni hayvanlarına gemiye binmelerini emret. Onlar binene kadar gravgemi kalkışı yapılmaz.</GravshipBoardColonyAnimalsTooltip>
-  <!-- EN: Board colony mechanoids -->
-  <GravshipBoardColonyMechsLabel>Koloni mekanoitlerini gemiye bindir</GravshipBoardColonyMechsLabel>
-  <!-- EN: Order all colony mechanoids to board the gravship. The gravship won’t launch until they are aboard. -->
-  <GravshipBoardColonyMechsTooltip>Tüm koloni mekanoitlerine gemiye binmelerini emret. Onlar binene kadar gravgemi kalkışı yapılmaz.</GravshipBoardColonyMechsTooltip>
+  <GravshipForceVisitorsToLeaveLabel>Ziyaretçileri ayrılmaya zorla</GravshipForceVisitorsToLeaveLabel>
+  <GravshipForceVisitorsToLeaveTooltip>Fırlatmadan önce tüm ziyaretçilerin grav gemisinden ayrılmasını bekle. Bu; düşmanları, mahkûmları ya da yere düşmüş ziyaretçileri etkilemez.</GravshipForceVisitorsToLeaveTooltip>
+  <GravshipBoardColonyAnimalsLabel>Koloni hayvanlarını bindir</GravshipBoardColonyAnimalsLabel>
+  <GravshipBoardColonyAnimalsTooltip>Tüm koloni hayvanlarına grav gemisine binmelerini emret. Hepsi binene kadar grav gemisi fırlatılmaz.</GravshipBoardColonyAnimalsTooltip>
+  <GravshipBoardColonyMechsLabel>Koloni mekanoidlerini bindir</GravshipBoardColonyMechsLabel>
+  <GravshipBoardColonyMechsTooltip>Tüm koloni mekanoidlerine grav gemisine binmelerini emret. Hepsi binene kadar grav gemisi fırlatılmaz.</GravshipBoardColonyMechsTooltip>
 
-  <!-- EN: {0} are hostile. If you land here they will attack you. -->
-  <ConfirmLandOnHostileFactionBase>{0} fraksiyonu sana düşman. Buraya inersen saldıracaklar.</ConfirmLandOnHostileFactionBase>
-  <!-- EN: Landing here will be seen as an aggressive act by {0}. They will become hostile and attack. -->
-  <ConfirmLandOnNeutralFactionBase>Buraya inmek {0} fraksiyonu tarafından saldırgan bir hareket olarak görülecek. Sana düşman olacak ve saldıracaklar.</ConfirmLandOnNeutralFactionBase>
+  <ConfirmLandOnHostileFactionBase>{0} hizbi düşman. Buraya inersen sana saldıracaklar.</ConfirmLandOnHostileFactionBase>
+  <ConfirmLandOnNeutralFactionBase>Buraya inmek {0} tarafından saldırgan bir hareket olarak görülecek. Düşmanlaşıp saldıracaklar.</ConfirmLandOnNeutralFactionBase>
 
-  <!-- EN: Land here anyway? -->
-  <ConfirmLand>Yine de buraya inmek istiyor musun?</ConfirmLand>
+  <ConfirmLand>Yine de buraya inilsin mi?</ConfirmLand>
 
-  <!-- EN: Orbital locations are dangerous. Make sure you're prepared:\n - Equip your colonists with vacsuits or other advanced armors.\n - Plan your return trip. Living in orbit for extended periods is extremely challenging. -->
-  <OrbitalWarning>Yörüngedeki konumlar tehlikelidir. Hazırlıklı olduğundan emin ol:\n - Kolonicilerini vakumgiysisi veya başka gelişmiş zırhlarla donat.\n - Dönüş yolculuğunu planla. Yörüngede uzun süre yaşamak son derece zorludur.</OrbitalWarning>
-  <!-- EN: Prepare your gravship for orbit:\n- Use airtight walls and doors.\n- Ensure rooms are well heated and fully roofed.\n- Construct oxygen pumps. -->
-  <OrbitalWarning_Gravship>Gravgemini yörüngeye hazırlan:\n- Havageçirmez duvarlar ve kapılar kullan.\n- Odaların iyi ısıtıldığından ve çatılarının olduğundan emin ol.\n- Oksijen pompaları inşa et.</OrbitalWarning_Gravship>
-  <!-- EN: Warning -->
+  <OrbitalWarning>Yörüngedeki konumlar tehlikelidir. Hazırlıklı olduğundan emin ol:\n - Kolonistlerini vakum giysileri ya da başka gelişmiş zırhlarla donat.\n - Dönüş yolculuğunu planla. Yörüngede uzun süre yaşamak son derece zordur.</OrbitalWarning>
+  <OrbitalWarning_Gravship>Grav gemini yörüngeye hazırla:\n- Hava geçirmez duvarlar ve kapılar kullan.\n- Odaların iyi ısıtıldığından ve tamamen çatıyla kaplı olduğundan emin ol.\n- Oksijen pompaları inşa et.</OrbitalWarning_Gravship>
   <OrbitalWarning_Warning>Uyarı</OrbitalWarning_Warning>
-  <!-- EN: Some exterior walls or doors are not airtight. -->
-  <OrbitalWarning_Vacuum>Bazı dış duvarlar veya kapılar havageçirmez değil.</OrbitalWarning_Vacuum>
-  <!-- EN: No functional heat sources. -->
-  <OrbitalWarning_NoHeatSources>Çalışır durumda hiç ısı kaynağı yok.</OrbitalWarning_NoHeatSources>
-  <!-- EN: Few functional heat sources -->
-  <OrbitalWarning_FewHeatSources>Çalışır durumda az sayıda ısı kaynağı var</OrbitalWarning_FewHeatSources>
-  <!-- EN: No functional oxygen pumps. -->
-  <OrbitalWarning_NoOxygenPumps>Çalışır durumda hiç oksijen pompası yok.</OrbitalWarning_NoOxygenPumps>
-  <!-- EN: Few functional oxygen pumps -->
-  <OrbitalWarning_FewOxygenPumps>Çalışır durumda az sayıda oksijen pompası var</OrbitalWarning_FewOxygenPumps>
+  <OrbitalWarning_Vacuum>Bazı dış duvarlar ya da kapılar hava geçirmez değil.</OrbitalWarning_Vacuum>
+  <OrbitalWarning_NoHeatSources>Çalışan ısı kaynağı yok.</OrbitalWarning_NoHeatSources>
+  <OrbitalWarning_FewHeatSources>Çalışan ısı kaynağı az</OrbitalWarning_FewHeatSources>
+  <OrbitalWarning_NoOxygenPumps>Çalışan oksijen pompası yok.</OrbitalWarning_NoOxygenPumps>
+  <OrbitalWarning_FewOxygenPumps>Çalışan oksijen pompası az</OrbitalWarning_FewOxygenPumps>
 
-  <!-- EN: The shuttle does not have enough fuel to return from this destination. It may be stranded.\n\nYou currently have {0} fuel but need {1} fuel for a return flight.\n\nAre you sure you want to continue? -->
-  <ConfirmShuttleNotEnoughFuelToReturn>Mekiğin bu noktadan geri dönebilecek kadar yakıtı yok. Yolda kalabilir.\n\nŞu anda {0} yakıtın var ancak dönüş için {1} yakıta ihtiyacın var.\n\nDevam etmek istediğinden emin misin?</ConfirmShuttleNotEnoughFuelToReturn>
-  <!-- EN: Caravan is immobile due to shuttle -->
-  <CaravanMovementSpeedShuttle>Kervan, mekik yüzünden hareket edemiyor.</CaravanMovementSpeedShuttle>
-  <!-- EN: Refuel {0}x chemfuel -->
-  <RefuelShuttleCount>{0} kimyakıt ile yakıt doldur.</RefuelShuttleCount>
-  <!-- EN: Zoom range (gravship) {0} -->
-  <ZoomRangeGravshipCutscene>Yakınlaştırma menzili (gravgemi) {0}</ZoomRangeGravshipCutscene>
+  <ConfirmShuttleNotEnoughFuelToReturn>Mekiğin bu hedeften dönmeye yetecek yakıtı yok. Orada mahsur kalabilir.\n\nŞu anda {0} yakıtın var, ama dönüş uçuşu için {1} yakıt gerekiyor.\n\nDevam etmek istediğinden emin misin?</ConfirmShuttleNotEnoughFuelToReturn>
+  <CaravanMovementSpeedShuttle>Mekik nedeniyle kervan hareket edemiyor</CaravanMovementSpeedShuttle>
+  <RefuelShuttleCount>{0} kimyasal yakıtla yakıt doldur</RefuelShuttleCount>
+  <ZoomRangeGravshipCutscene>Yakınlaştırma aralığı (grav gemisi) {0}</ZoomRangeGravshipCutscene>
 
 </LanguageData>

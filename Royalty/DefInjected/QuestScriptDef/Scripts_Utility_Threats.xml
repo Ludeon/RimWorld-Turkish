@@ -1,36 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN:
-    <li>threatDescription->[gameConditionDescriptionFuture].</li>
-  -->
+
+  <!-- EN: <li>threatDescription->[gameConditionDescriptionFuture].</li> -->
   <Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
+
     <li>threatDescription->[gameConditionDescriptionFuture].</li>
   </Util_GameConditionNegativeRandom.questDescriptionRules.rulesStrings>
-  
-  <!-- EN:
-    <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li>
-  -->
+
+  <!-- EN: <li>threatDescription->(*Threat)[hivesCount] insect hives(/Threat) will burrow up from underground.</li> -->
   <Util_Infestation.questDescriptionRules.rulesStrings>
-    <li>threatDescription->(*Threat)[hivesCount] böcek kovanı(/Threat) yeraltından kazarak yüzeye çıkacak.</li>
+
+    <li>threatDescription->yeraltından (*Threat)[hivesCount] böcek kovanı(/Threat) kazarak yüzeye çıkacak.</li>
   </Util_Infestation.questDescriptionRules.rulesStrings>
-  
-  <!-- EN:
-    <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li>
-  -->
+
+  <!-- EN: <li>threatDescription->a pack of (*Threat)[animalCount] manhunting [animalKind_labelPlural](/Threat) will arrive.</li> -->
   <Util_ManhunterPack.questDescriptionRules.rulesStrings>
-    <li>threatDescription->(*Threat)[animalCount] insan avcısı [animalKind_labelPlural](/Threat) gelecek.</li>
+
+    <li>threatDescription->(*Threat)[animalCount] insan avcısı [animalKind_label](/Threat) içeren bir sürü gelecek.</li>
   </Util_ManhunterPack.questDescriptionRules.rulesStrings>
-  
-  <!-- EN:
-    <li>threatDescription->a new site will appear nearby, where [allSitePartsDescriptions] This threat will remain until you go destroy it.</li>
+
+  <!-- EN: <li>threatDescription->a new site will appear nearby, where [allSitePartsDescriptions] This threat will remain until you go destroy it.</li>
     <li>defaultSiteAppearedLetterText->A new site has appeared nearby.\n\n[allSitePartsDescriptions]</li>
-    <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li>
-  -->
+    <li>defaultSiteAppearedLetterLabel->Site appeared: [site_label]</li> -->
   <Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
-    <li>threatDescription->yakınlarda yeni bir kompleks belirecek, burada [allSitePartsDescriptions] Bu tehdit, gidip onu yok edene kadar kalacak.</li>
-    <li>defaultSiteAppearedLetterText->Yakınlarda yeni bir kompleks belirdi.\n\n[allSitePartsDescriptions]</li>
-    <li>defaultSiteAppearedLetterLabel->Kompleks belirdi: [site_label]</li>
+
+    <li>threatDescription->yakınlarda yeni bir mevki ortaya çıkacak. Orada: [allSitePartsDescriptions] Bu tehdit, gidip onu yok edene kadar sürecek.</li>
+    <li>defaultSiteAppearedLetterText->Yakınlarda yeni bir mevki ortaya çıktı.\n\n[allSitePartsDescriptions]</li>
+    <li>defaultSiteAppearedLetterLabel->Mevki ortaya çıktı: [site_label]</li>
   </Util_SpawnSiteThreat.questDescriptionRules.rulesStrings>
-  
+
 </LanguageData>

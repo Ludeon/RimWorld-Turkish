@@ -1,14 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
-  -->
+  <!-- EN: <li>questDescription->[discoveryMethod] the location of a collection of valuable items worth [itemStashContentsValue]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li> -->
   <OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
-    <li>questDescription->[itemStashContentsValue] değerinde kıymetli eşyaların bulunduğu bir koleksiyonun yerini [discoveryMethod]. Koleksiyonda şunlar var:\n\n[itemStashContents]\n\nGörünüşe göre [allSitePartsDescriptionsExceptFirst]</li>
+
+    <li>questDescription->[discoveryMethod]: toplam değeri [itemStashContentsValue] olan değerli eşyaların bulunduğu bir zulanın yeri. Zulada şunlar var:\n\n[itemStashContents]\n\nGörünüşe göre [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash_Giver.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[stash] of [treasure]</li>
+  <!-- EN: <li>questName->[stash] of [treasure]</li>
     <li>stash->Stash</li>
     <li>stash->Cache</li>
     <li>stash->Collection</li>
@@ -17,43 +15,42 @@
     <li>treasure->Valuables</li>
     <li>treasure->Fortune</li>
     <li>treasure->Goodies</li>
-    <li>treasure->Supplies</li>
-  -->
+    <li>treasure->Supplies</li> -->
   <OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
+
     <li>questName->[treasure] [stash]</li>
-    <li>stash->Yığını</li>
     <li>stash->Zulası</li>
+    <li>stash->Saklama Yeri</li>
     <li>stash->Koleksiyonu</li>
-    <li>stash->Barakası</li>
+    <li>stash->Kulübesi</li>
     <li>treasure->Hazine</li>
-    <li>treasure->Değerli eşya</li>
+    <li>treasure->Değerli Eşya</li>
     <li>treasure->Servet</li>
-    <li>treasure->Mal</li>
-    <li>treasure->Malzeme</li>
+    <li>treasure->Ganimet</li>
+    <li>treasure->Erzak</li>
   </OpportunitySite_ItemStash_Giver.questNameRules.rulesStrings>
-  <!-- EN:
-    <li>subject->loot stashes</li>
+  <!-- EN: <li>subject->loot stashes</li>
     <li>subject->secret treasures</li>
     <li>subject->valuables</li>
     <li>questMapFeature->drawing of a treasure chest</li>
     <li>questMapFeature->supply shack</li>
     <li>questMapText->secret item stash</li>
     <li>questMapText->loot here</li>
-    <li>questMapText->hidden valuables</li>
-  -->
+    <li>questMapText->hidden valuables</li> -->
   <OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
-    <li>subject->ganimet depoları</li>
+
+    <li>subject->ganimet zulaları</li>
     <li>subject->gizli hazineler</li>
     <li>subject->değerli eşyalar</li>
     <li>questMapFeature->bir hazine sandığı çizimi</li>
-    <li>questMapFeature->malzeme barakası</li>
-    <li>questMapText->gizli eşya yığını</li>
-    <li>questMapText->burada ganimet var</li>
+    <li>questMapFeature->erzak kulübesi</li>
+    <li>questMapText->gizli eşya zulası</li>
+    <li>questMapText->ganimet burada</li>
     <li>questMapText->saklı değerli eşyalar</li>
   </OpportunitySite_ItemStash_Giver.questSubjectRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>Görev süresi doldu: [resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>Görevin süresi doldu: [resolvedQuestName]</OpportunitySite_ItemStash_Giver.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>Yakalanan haberleşme sinyalleri, eşya yığınının başka biri tarafından ele geçirildiğini belirtiyor. [resolvedQuestName] görevinin süresi doldu.</OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>Ele geçirilen iletişimlere göre eşya zulası başkaları tarafından sahiplenildi. [resolvedQuestName] görevinin süresi doldu.</OpportunitySite_ItemStash_Giver.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

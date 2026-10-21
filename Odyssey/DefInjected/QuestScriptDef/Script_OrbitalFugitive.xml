@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help dealing with an outlaw named [fugitive_nameDef]. The AI claims [fugitive_nameDef] is wanted for [reason_AI].\n\n[fugitive_nameDef] has stolen a transport pod and has fled to an abandoned orbital platform.\n\nHaving heard rumors of your gravship, the AI requests that you travel to the abandoned platform and kill [fugitive_nameDef]. In return, it will reward you with a gravtech device.\n\nThe AI warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
+  <!-- EN: <li>questDescription(askerIsNull==true)->An anonymous AI has requested your help dealing with an outlaw named [fugitive_nameDef]. The AI claims [fugitive_nameDef] is wanted for [reason_AI].\n\n[fugitive_nameDef] has stolen a transport pod and has fled to an abandoned orbital platform.\n\nHaving heard rumors of your gravship, the AI requests that you travel to the abandoned platform and kill [fugitive_nameDef]. In return, it will reward you with a gravtech device.\n\nThe AI warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
     <li>questDescription(asker_factionLeader==true)->[asker_faction_leaderTitle] [asker_nameFull] of [asker_faction_name] has sent us a message. A fugitive named [fugitive_nameDef] escaped from [asker_possessive] custody and used a transport pod to flee to an abandoned orbital platform. [fugitive_nameDef] was in custody for [reason].\n\nHaving heard rumors of your gravship, the [asker_faction_leaderTitle] asks that you travel to the abandoned platform and kill [fugitive_nameDef]. If you do so, [asker_nameDef] will reward you with a gravtech device.\n\n[asker_nameDef] warns you that [fugitive_nameDef] may be in the company of hostile orbital pirates.</li>
     <li>questDescription(asker_royalInCurrentFaction==true)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], requests that you track down and kill a dangerous fugitive known as [fugitive_nameDef]. The fugitive is wanted for [reason_royal].\n\n[fugitive_nameDef] is hiding out on an abandoned orbital platform and may be guarded by orbital pirates. If you kill the fugitive, [asker_nameDef] will reward you with a gravtech device.</li>
     <li>reason_AI->the destruction of multiple high-level subpersona cores</li>
@@ -23,34 +22,33 @@
     <li>reason->unauthorized genetic experimentation</li>
     <li>reason->inciting inter-factional conflict</li>
     <li>reason->drunkenly profaning a peace ritual</li>
-    <li>reason->the destruction of an orbital trade vessel</li>
-  -->
+    <li>reason->the destruction of an orbital trade vessel</li> -->
   <OrbitalFugitive.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->Kimliği bilinmeyen bir yapay zekâ, [fugitive_nameDef] adında bir kanun kaçağıyla ilgilenmeni istedi. Yapay zekâ, [fugitive_nameDef] adlı kişinin [reason_AI] gerekçesiyle arandığını iddia ediyor.\n\n[fugitive_nameDef] bir taşıma kapsülü çaldı ve terk edilmiş bir yörünge platformuna kaçtı.\n\nGravgemiye sahip olduğun yönündeki söylentileri duyan yapay zekâ, terk edilmiş platforma gidip [fugitive_nameDef] kişisini öldürmeni istiyor. Karşılığında seni bir gravteknolojisi cihazıyla ödüllendirecek.\n\nYapay zekâ, [fugitive_nameDef] kişisinin yanında düşman yörünge korsanlarının olabileceği konusunda seni uyarıyor.</li>
-    <li>questDescription(asker_factionLeader==true)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], bize bir mesaj gönderdi. [fugitive_nameDef] adlı bir firari, kendisinin gözetiminden kaçmış ve taşıma kapsülüyle terk edilmiş bir yörünge platformuna gitmiş. [fugitive_nameDef], [reason] gerekçesiyle gözetimde tutuluyordu.\n\nGravgemiye sahip olduğun yönündeki söylentileri duyan [asker_faction_leaderTitle], platforma gidip [fugitive_nameDef] kişisini öldürmeni istiyor. Bunu yaparsan [asker_nameDef] seni bir gravteknolojisi cihazıyla ödüllendirecek.\n\n[asker_nameDef], [fugitive_nameDef] kişisinin yanında düşman yörünge korsanlarının olabileceği konusunda seni uyarıyor.</li>
-    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name] fraksiyonundan [asker_royalTitleInCurrentFaction] [asker_nameFull], [fugitive_nameDef] adında tehlikeli bir firarinin izini sürüp onu öldürmeni istiyor. Bu firari, [reason_royal] gerekçesiyle aranıyor.\n\n[fugitive_nameDef], terk edilmiş bir yörünge platformunda saklanıyor ve yörünge korsanları tarafından korunuyor olabilir. Firariyi öldürürsen [asker_nameDef] seni bir gravteknolojisi cihazıyla ödüllendirecek.</li>
-    <li>reason_AI->birden fazla üst düzey alt kişilik çekirdeğinin yok edilmesi</li>
-    <li>reason_AI->bir yapay zekâ uydusunun yörüngeden çıkarılması</li>
-    <li>reason_AI->sayısız uzak gezegende işlediği suçlar</li>
-    <li>reason_AI->ruhsatsız yörüngesel psişik eser kaçakçılığı</li>
+
+    <li>questDescription(askerIsNull==true)->Kimliği belirsiz bir yapay zekâ, [fugitive_nameDef] adlı bir kanun kaçağıyla ilgilenmen için yardımını istiyor. Yapay zekâya göre [fugitive_nameDef] şu suçtan aranıyor: [reason_AI].\n\n[fugitive_nameDef] bir taşıma kapsülü çalıp terk edilmiş bir yörünge platformuna kaçtı.\n\nGrav gemine dair söylentileri duyan yapay zekâ, terk edilmiş platforma gidip [fugitive_nameDef] adlı kişiyi öldürmeni istiyor. Karşılığında seni bir gravteknoloji cihazıyla ödüllendirecek.\n\nYapay zekâ, [fugitive_nameDef] adlı kişinin yanında düşman yörünge korsanları olabileceği konusunda seni uyarıyor.</li>
+    <li>questDescription(asker_factionLeader==true)->[asker_faction_name] hizbinden [asker_faction_leaderTitle] [asker_nameFull] bize bir mesaj gönderdi. [fugitive_nameDef] adlı bir firari gözetiminden kaçmış ve bir taşıma kapsülüyle terk edilmiş bir yörünge platformuna sığınmış. [fugitive_nameDef] şu suçtan tutuluyordu: [reason].\n\nGrav gemine dair söylentileri duyan [asker_faction_leaderTitle], terk edilmiş platforma gidip [fugitive_nameDef] adlı kişiyi öldürmeni istiyor. Bunu yaparsan [asker_nameDef] seni bir gravteknoloji cihazıyla ödüllendirecek.\n\n[asker_nameDef], [fugitive_nameDef] adlı kişinin yanında düşman yörünge korsanları olabileceği konusunda seni uyarıyor.</li>
+    <li>questDescription(asker_royalInCurrentFaction==true)->[asker_faction_name] hizbinin [asker_royalTitleInCurrentFaction] unvanlı üyesi [asker_nameFull], [fugitive_nameDef] olarak bilinen tehlikeli bir firariyi bulup öldürmeni istiyor. Firari şu suçtan aranıyor: [reason_royal].\n\n[fugitive_nameDef] terk edilmiş bir yörünge platformunda saklanıyor ve yörünge korsanları tarafından korunuyor olabilir. Firariyi öldürürsen [asker_nameDef] seni bir gravteknoloji cihazıyla ödüllendirecek.</li>
+    <li>reason_AI->çok sayıda üst düzey alt kişilik çekirdeğini yok etmek</li>
+    <li>reason_AI->bir yapay zekâ uydusunu yörüngeden düşürmek</li>
+    <li>reason_AI->pek çok uzak gezegende işlenmiş suçlar</li>
+    <li>reason_AI->ruhsatsız yörünge psişik eser kaçakçılığı</li>
     <li>reason_AI->[reason]</li>
-    <li>reason_royal->sarhoş hâlde bir düğün konuşmasında [asker_royalTitleInCurrentFaction] kişisine hakaret etmek</li>
-    <li>reason_royal->[asker_royalTitleInCurrentFaction] kişisini öldürmeye teşebbüs etmek</li>
+    <li>reason_royal->bir düğün konuşmasında sarhoşken [asker_royalTitleInCurrentFaction] unvanlı kişiye hakaret etmek</li>
+    <li>reason_royal->[asker_royalTitleInCurrentFaction] unvanlı kişiye suikast girişimi</li>
     <li>reason_royal->bir imparatorluk mekiğinde yanlışlıkla yangın köpüğü paketi patlatmak</li>
-    <li>reason_royal->bir imparatorluk yerleşimi yakınlarında kasırga jeneratörünü uygunsuz şekilde kullanmak</li>
-    <li>reason_royal->isyan çıkarmaya çalışmak</li>
-    <li>reason_royal->ihanet</li>
+    <li>reason_royal->bir imparatorluk yerleşiminin yakınında hortum üretecini usulsüz kullanmak</li>
+    <li>reason_royal->isyan örgütlemeye çalışmak</li>
+    <li>reason_royal->vatana ihanet</li>
     <li>reason_royal->[reason]</li>
-    <li>reason->bir sangüofaj çetesiyle iş birliği yapmak</li>
+    <li>reason->bir sanguofaj tarikatıyla iş birliği yapmak</li>
     <li>reason->tehlikeli psişik eser kaçakçılığı</li>
-    <li>reason->büyük çaplı soygun ve çok sayıda şirket sabotajı</li>
-    <li>reason->yetkisiz genetik deneyler yapmak</li>
-    <li>reason->fraksiyonlar arası çatışma çıkarmak</li>
-    <li>reason->sarhoş hâlde bir barış ayinini aşağılamak</li>
-    <li>reason->bir yörünge ticaret gemisinin yok edilmesi</li>
+    <li>reason->büyük çaplı hırsızlık ve birden çok şirket sabotajı</li>
+    <li>reason->izinsiz genetik deneyler</li>
+    <li>reason->hizipler arası çatışmayı kışkırtmak</li>
+    <li>reason->sarhoşken bir barış ritüeline saygısızlık etmek</li>
+    <li>reason->bir yörünge ticaret gemisini yok etmek</li>
   </OrbitalFugitive.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->The Hunt for [fugitive_nameDef]</li>
+  <!-- EN: <li>questName->The Hunt for [fugitive_nameDef]</li>
     <li>questName->A Bounty for [fugitive_nameDef]</li>
     <li>questName->[fugitive_nameDef] the [criminal]</li>
     <li>questName->The Orbital [criminal]</li>
@@ -58,18 +56,18 @@
     <li>criminal->Fugitive</li>
     <li>criminal->Outlaw</li>
     <li>criminal->Felon</li>
-    <li>criminal->Renegade</li>
-  -->
+    <li>criminal->Renegade</li> -->
   <OrbitalFugitive.questNameRules.rulesStrings>
+
     <li>questName->[fugitive_nameDef] Avı</li>
-    <li>questName->[fugitive_nameDef] Kontratı</li>
+    <li>questName->[fugitive_nameDef] İçin Ödül</li>
     <li>questName->[criminal] [fugitive_nameDef]</li>
     <li>questName->Yörüngedeki [criminal]</li>
     <li>criminal->Suçlu</li>
     <li>criminal->Firari</li>
-    <li>criminal->Kanun kaçağı</li>
-    <li>criminal->Sabıkalı</li>
-    <li>criminal->Asi</li>
+    <li>criminal->Kanun Kaçağı</li>
+    <li>criminal->Cani</li>
+    <li>criminal->Dönek</li>
   </OrbitalFugitive.questNameRules.rulesStrings>
   
 </LanguageData>
