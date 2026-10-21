@@ -2,9 +2,8 @@
 <LanguageData>
   
   <!-- EN: raw humanlike meat eaten -->
-  <AteRawHumanlikeMeat.label>çiğ insansı eti yedi</AteRawHumanlikeMeat.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
+  <AteRawHumanlikeMeat.label>çiğ insan eti yendi</AteRawHumanlikeMeat.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
     <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group]</li>
@@ -27,42 +26,41 @@
     <li>desc_sentence->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
     <li>desc_sentence->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
     <li>desc_sentence->The meat is glistening and appears very succulent.</li>
-    <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
-  -->
+    <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li> -->
   <AteRawHumanlikeMeat.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] insan eti yiyor</li>
-    <li>image->[PAWN_nameFull] hemcins bir insansının etini [eat_gerund], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir insansının kol etini [eat_gerund], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir insansının etini [eat_gerund], [circumstance_group]</li>
-    <li>eat_gerund->yiyor</li>
-    <li>eat_gerund->yutuyor</li>
-    <li>eat_gerund->çiğniyor</li>
-    <li>eat_gerund->mideye indiriyor</li>
-    <li>eat_gerund->tüketiyor</li>
-    <li>eat_gerund->yutuyor</li>
-    <li>eat_gerund->yiyor</li>
-    <li>circumstance_phrase->kararlı görünüyor</li>
-    <li>circumstance_phrase->utanmıyor</li>
-    <li>circumstance_phrase->utanç içerisinde</li>
-    <li>circumstance_phrase->diğerleri onu izliyor</li>
-    <li>circumstance_phrase->hem de iştahla</li>
-    <li>circumstance_phrase->sanki hayatı buna bağlıymış gibi bir telaş içerisinde</li>
-    <li>desc_sentence->Ağzı yüzü kan içerisinde kalıyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin insan eti yemesi</li>
+    <li>image->[circumstance_group] bir hemcinsinin etini [eat_gerund] [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir insan kolundan et [eat_gerund] [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir insanın etini [eat_gerund] [PAWN_nameFull]</li>
+    <li>eat_gerund->yiyen</li>
+    <li>eat_gerund->mideye indiren</li>
+    <li>eat_gerund->çiğneyen</li>
+    <li>eat_gerund->hapır hupur yiyen</li>
+    <li>eat_gerund->tüketen</li>
+    <li>eat_gerund->yutan</li>
+    <li>eat_gerund->yamyamca yiyen</li>
+    <li>circumstance_phrase->kararlı bir tavırla</li>
+    <li>circumstance_phrase->en ufak bir utanç belirtisi göstermeden</li>
+    <li>circumstance_phrase->utanç dolu bir bakışla</li>
+    <li>circumstance_phrase->başkaları seyrederken</li>
+    <li>circumstance_phrase->iştahla</li>
+    <li>circumstance_phrase->sanki [PAWN_possessive] hayatı buna bağlıymış gibi çılgınca</li>
+    <li>desc_sentence->[PAWN_nameDef] adlı kişinin yüzü kan ve sıvılarla kaplı.</li>
     <li>desc_sentence->[PAWN_nameDef] parmaklarını yalıyor.</li>
-    <li>desc_sentence->Üstü başı kanla kaplı.</li>
-    <li>desc_sentence->[PAWN_nameDef] büyük bir kan havuzunun ortasında.</li>
-    <li>desc_sentence->[PAWN_nameDef] yakındaki birini karanlık bir ilgiyle süzüyor.</li>
-    <li>desc_sentence->Et parlıyor ve oldukça sulu görünüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] üstüne başına et döküyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] adlı kişinin önü baştan aşağı kan ve et parçalarıyla kaplı.</li>
+    <li>desc_sentence->[PAWN_nameDef] büyük bir kan gölünün ortasında.</li>
+    <li>desc_sentence->[PAWN_nameDef] yakındaki başka birini karanlık bir ilgiyle süzüyor.</li>
+    <li>desc_sentence->Et parlıyor ve çok sulu görünüyor.</li>
+    <li>desc_sentence->Et, [PAWN_nameDef] adlı kişinin her yanına saçılıyor.</li>
   </AteRawHumanlikeMeat.rulePack.rulesStrings>
   
   <!-- EN: humanlike corpse butchered -->
-  <ButcheredHumanlikeCorpse.label>İnsansı cesedi doğradı</ButcheredHumanlikeCorpse.label>
+  <ButcheredHumanlikeCorpse.label>insansı ceset kesildi</ButcheredHumanlikeCorpse.label>
   
   <!-- EN: art crafted -->
-  <CraftedArt.label>sanat eseri üretti</CraftedArt.label>
-  <!-- EN:
-    <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
+  <CraftedArt.label>sanat eseri yapıldı</CraftedArt.label>
+  <!-- EN: <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
     <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
     <li>image->[PAWN_nameFull] working on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
@@ -86,40 +84,39 @@
     <li>quality_sentence->[PAWN_nameDef]'s work is of [THING_quality] quality</li>
     <li>title_sentence->[PAWN_nameDef]'s title for [THING_definite] is written underneath: [THING_title]</li>
     <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
-    <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
-  -->
+    <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li> -->
   <CraftedArt.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] [THING_indefinite] yaptı</li>
-    <li>image->[PAWN_nameFull] [THING_indefinite] ortaya koyuyor, [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] [THING_indefinite] üzerinde çalışmalarını tamamlıyor, [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] [THING_indefinite] üzerinde çalışıyor, [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>image->[PAWN_nameFull] [THING_indefinite] yapıyor, [circumstance_group]. [quality_sentence]. [title_sentence]</li>
-    <li>circumstance_phrase->tamamen konsantre olmuş durumda</li>
-    <li>circumstance_phrase->yüzünde tatmin olmuş bir ifade var</li>
-    <li>circumstance_phrase->çalışma masasında</li>
-    <li>circumstance_phrase->epey yoğun çalışıyor</li>
-    <li>desc_sentence->Aletler etrafa saçılmış.</li>
-    <li>desc_sentence->İş kazalarından her yanı çizilmiş ve yaralanmış.</li>
-    <li>desc_sentence->Kan ter içerisinde.</li>
-    <li>desc_sentence->Çalışma alanı epey düzenli, aletler yerli yerinde.</li>
-    <li>desc_sentence->Daha güçlü görünmesi için abartılı bir şekilde tasvir etmiş.</li>
-    <li>desc_sentence->Eserin boyutu, önemini vurgulaması adına abartılmış.</li>
-    <li>desc_sentence->Artistik bir parıltı eklenmiş. Neredeyse meleklere özgü.</li>
-    <li>desc_sentence->[PAWN_nameDef] yeni yaratımını vurgulamak için arka plana silikleşmiş durumda.</li>
-    <li>desc_sentence->[Quantity_adjphrase] izleyici etrafını sarmış.</li>
-    <li>desc_sentence->Arkada bir kalabalık onu alkışlıyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [THING_indefinite] yaptığı zaman</li>
+    <li>image->[circumstance_group] [THING_indefinite] yapan [PAWN_nameFull]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[circumstance_group] [THING_indefinite] üzerindeki çalışmasını tamamlayan [PAWN_nameFull]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[circumstance_group] [THING_indefinite] üzerinde çalışan [PAWN_nameFull]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[circumstance_group] [THING_indefinite] üreten [PAWN_nameFull]. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->tüm dikkatini vererek</li>
+    <li>circumstance_phrase->[PAWN_possessive] yüzünde memnuniyet ifadesiyle</li>
+    <li>circumstance_phrase->[PAWN_possessive] tezgâhının başında</li>
+    <li>circumstance_phrase->büyük bir yoğunlukla</li>
+    <li>desc_sentence->Her yere aletler saçılmış.</li>
+    <li>desc_sentence->[PAWN_pronoun], iş kazalarından kalma çizik ve yara izleriyle dolu.</li>
+    <li>desc_sentence->[PAWN_pronoun] ter içinde.</li>
+    <li>desc_sentence->Çalışma alanı son derece düzenli; her alet yerli yerinde.</li>
+    <li>desc_sentence->[PAWN_pronoun], daha güçlü görünsün diye abartılı biçimde resmedilmiş.</li>
+    <li>desc_sentence->Önemini vurgulamak için [THING_definite] olduğundan büyük çizilmiş.</li>
+    <li>desc_sentence->[THING_definite] etrafına sanatsal bir ışıltı eklenmiş. Neredeyse kutsal görünüyor.</li>
+    <li>desc_sentence->Yeni eserini öne çıkarmak için [PAWN_nameDef] arka plana silikçe yerleştirilmiş.</li>
+    <li>desc_sentence->[Quantity_adjphrase] seyirci [PAWN_objective] çevrelemiş.</li>
+    <li>desc_sentence->Arka planda bir kalabalık tezahürat ediyor.</li>
     <li>quality_sentence->[THING_definite] [THING_quality] kalitede görünüyor</li>
     <li>quality_sentence->[THING_definite] [THING_quality] kalitede</li>
-    <li>quality_sentence->[PAWN_nameDef] [THING_quality] kalitede ürün çıkarıyor</li>
-    <li>title_sentence->[PAWN_nameDef] [THING_definite] eserinin başlığını altına yazıyor: [THING_title]</li>
-    <li>title_sentence->Başlık [THING_definite] üzerine süslü şekilde yazılmış: [THING_title]</li>
-    <li>title_sentence->[THING_definite] eserinin başlığı, [THING_title], arkada asılı</li>
+    <li>quality_sentence->[PAWN_nameDef] adlı kişinin işi [THING_quality] kalitede</li>
+    <li>title_sentence->[PAWN_nameDef] adlı kişinin [THING_definite] için koyduğu ad altta yazıyor: [THING_title]</li>
+    <li>title_sentence->[THING_definite] üzerinde adı işlenmiş: [THING_title]</li>
+    <li>title_sentence->[THING_definite] eserinin adı, [THING_title], arka planda asılı duruyor</li>
   </CraftedArt.rulePack.rulesStrings>
   
   <!-- EN: drunk -->
   <Drunk.label>sarhoş</Drunk.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
     <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
     <li>image->[PAWN_nameFull] staggering around drunk [circumstance_group]</li>
     <li>image->[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group]</li>
@@ -148,45 +145,44 @@
     <li>desc_sentence->There is a trail of discarded beverage containers behind [PAWN_objective].</li>
     <li>desc_sentence->There is a white substance on [PAWN_possessive] pants.</li>
     <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
-    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
-  -->
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li> -->
   <Drunk.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] zil zurna sarhoş oluyor</li>
-    <li>tale_noun->[PAWN_nameDef] küfelik oluyor</li>
-    <li>image->[PAWN_nameFull] sarhoş sarhoş sendeliyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] kafasını geriye atıp likörü kana kana içiyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] doyumsuzca likör şişeleri topluyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] dibine kadar içiyor, [circumstance_group]</li>
-    <li>circumstance_phrase->çevresi umurunda değil</li>
-    <li>circumstance_phrase->kasvetli bir sersemlik içinde</li>
-    <li>circumstance_phrase->varoluşunu sorguluyor</li>
-    <li>circumstance_phrase->gözleri yaşlı</li>
-    <li>circumstance_phrase->delirmiş gibi kıkırdıyor</li>
-    <li>circumstance_phrase->hıçkırıyor</li>
-    <li>circumstance_phrase->hâli içler acısı</li>
-    <li>circumstance_phrase->etraftakilere kızgın bakışlar atıyor</li>
-    <li>circumstance_phrase->yakındaki birine pis pis bakıyor</li>
-    <li>circumstance_phrase->soyunmaya çalışıyor</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin aşırı sarhoşluğu</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin zil zurna sarhoş olması</li>
+    <li>image->[circumstance_group] sarhoş hâlde sendeleyen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] başını geriye atıp içkiyi kafaya diken [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] açgözlülükle içki şişeleri toplayan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] durmadan içen [PAWN_nameFull]</li>
+    <li>circumstance_phrase->çevresinden tamamen habersiz</li>
+    <li>circumstance_phrase->karamsar bir sersemlik içinde</li>
+    <li>circumstance_phrase->kendi varoluşunu sorgularken</li>
+    <li>circumstance_phrase->[PAWN_possessive] gözlerinde yaşlarla</li>
+    <li>circumstance_phrase->çılgınca kıkırdarken</li>
+    <li>circumstance_phrase->hıçkırıklarla ağlarken</li>
+    <li>circumstance_phrase->acınası görünürken</li>
+    <li>circumstance_phrase->[PAWN_objective] çevreleyen insanlara öfkeyle bakarken</li>
+    <li>circumstance_phrase->yakındaki birini şehvetle süzerken</li>
+    <li>circumstance_phrase->soyunmaya çalışırken</li>
     <li>circumstance_phrase->parmağı ağzında</li>
-    <li>circumstance_phrase->kusmasına ramak kalmış</li>
-    <li>circumstance_phrase->dünya umurunda değil</li>
-    <li>circumstance_phrase->gözlerinde şehvetli bir parıltı var</li>
-    <li>circumstance_phrase->geçmişin hayaleti gözlerinin önünde</li>
-    <li>desc_sentence->Çevresindekilerden tamamen bihaber görünüyor.</li>
-    <li>desc_sentence->Yüzü şişiyor gibi.</li>
-    <li>desc_sentence->Neredeyse bilinçsiz, dili dışarıda ve salyası akıyor.</li>
-    <li>desc_sentence->Aynı anda hem mutlu hem üzgün görünüyor.</li>
-    <li>desc_sentence->Önünde lekeler var.</li>
-    <li>desc_sentence->Arkasında attığı şişelerden bir yığın var.</li>
-    <li>desc_sentence->Pantolonunda beyaz bir şey var.</li>
-    <li>desc_sentence->Görünen o ki bir ayakkabısını kaybetmiş.</li>
-    <li>desc_sentence->Saçı başı darmadağın.</li>
+    <li>circumstance_phrase->kusmamak için kendini tutarken</li>
+    <li>circumstance_phrase->dünya umurunda değilmiş gibi</li>
+    <li>circumstance_phrase->[PAWN_possessive] gözünde şehvetli bir parıltıyla</li>
+    <li>circumstance_phrase->geçmişinin hayaletlerini gözden geçirirken</li>
+    <li>desc_sentence->[PAWN_pronoun], [PAWN_objective] çevreleyen şeylerden tamamen habersiz görünüyor.</li>
+    <li>desc_sentence->[PAWN_possessive] yüzü sanki şişiyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] neredeyse baygın; [PAWN_possessive] dili dışarı sarkmış, salyası akıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] aynı anda hem mutlu hem üzgün görünüyor.</li>
+    <li>desc_sentence->[PAWN_possessive] önü lekelerle dolu.</li>
+    <li>desc_sentence->[PAWN_objective] takip eden, atılmış içecek kaplarından oluşan bir iz var.</li>
+    <li>desc_sentence->[PAWN_possessive] pantolonunda beyaz bir madde var.</li>
+    <li>desc_sentence->[PAWN_pronoun] bir ayakkabısını kaybetmiş gibi görünüyor.</li>
+    <li>desc_sentence->[PAWN_possessive] saçları darmadağın.</li>
   </Drunk.rulePack.rulesStrings>
   
   <!-- EN: research project finished -->
   <FinishedResearchProject.label>araştırma projesi tamamlandı</FinishedResearchProject.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
     <li>image->[PAWN_nameFull] working on the [PROJECT_label] research project [circumstance_group]</li>
     <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
@@ -197,27 +193,26 @@
     <li>desc_sentence->[PAWN_nameDef] is sweating.</li>
     <li>desc_sentence->The work appears to be exceptionally complex.</li>
     <li>desc_sentence->[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
-    <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
-  -->
+    <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li> -->
   <FinishedResearchProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] [PROJECT_label] araştırmalarını tamamlıyor</li>
-    <li>image->[PAWN_nameFull] [PROJECT_label] araştırma projesi üzerinde çalışıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [PROJECT_label] sırlarını çalışıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [PROJECT_label] araştırıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->işi yoğun</li>
-    <li>circumstance_phrase->masasında yalnız</li>
-    <li>circumstance_phrase->elinde kâğıtlar var</li>
-    <li>circumstance_phrase->yüzünde neşeli bir hayranlık ifadesi var</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [PROJECT_label] araştırmasını bitirmesi</li>
+    <li>image->[circumstance_group] [PROJECT_label] araştırma projesi üzerinde çalışan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] [PROJECT_label] sırlarını inceleyen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] [PROJECT_label] üzerine araştırma yapan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->büyük bir yoğunlukla</li>
+    <li>circumstance_phrase->[PAWN_possessive] tezgâhında tek başına</li>
+    <li>circumstance_phrase->elinde kâğıtlar tutarken</li>
+    <li>circumstance_phrase->neşeli bir hayranlık ifadesiyle</li>
     <li>desc_sentence->[PAWN_nameDef] terliyor.</li>
-    <li>desc_sentence->Görünen o ki işi fevkalade karmaşık.</li>
-    <li>desc_sentence->[PAWN_nameDef] tamamen bir dizi alet ve cihazla çevrelenmiş durumda.</li>
-    <li>desc_sentence->[PAWN_nameDef] keşfine hayranlıkla bakıyor.</li>
+    <li>desc_sentence->Çalışma son derece karmaşık görünüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] dört bir yandan alet ve düzeneklerle çevrili.</li>
+    <li>desc_sentence->[PAWN_nameDef] keşfine hayret dolu gözlerle bakıyor.</li>
   </FinishedResearchProject.rulePack.rulesStrings>
   
   <!-- EN: landed in pod -->
   <LandedInPod.label>kapsülle indi</LandedInPod.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
     <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
     <li>image->[PAWN_nameFull] touching down in a drop pod [circumstance_group]</li>
     <li>image->[PAWN_nameFull] striking earth in a drop pod [circumstance_group]</li>
@@ -237,36 +232,35 @@
     <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
     <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
     <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
-    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
-  -->
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li> -->
   <LandedInPod.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] bir iniş kapsülü ile iniyor</li>
-    <li>image->[PAWN_nameFull] bir iniş kapsülü ile iniyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir iniş kapsülü ile yere iniyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir iniş kapsülü ile dünyaya iniyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir iniş kapsülü kullanıyor, [circumstance_group]</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin bir iniş kapsülüyle inmesi</li>
+    <li>image->[circumstance_group] bir iniş kapsülüyle inen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir iniş kapsülüyle yere konan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir iniş kapsülüyle yere çarpan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir iniş kapsülünde yol alan [PAWN_nameFull]</li>
     <li>circumstance_phrase->bir [TerrainFeature] önünde</li>
-    <li>circumstance_phrase->epey bir güç barındırıyor</li>
-    <li>circumstance_phrase->toz ve çakıl içerisinde</li>
-    <li>circumstance_phrase->retro roketler dramatik biçimde ateşleniyor</li>
-    <li>circumstance_phrase->isabetli biçimde</li>
-    <li>desc_sentence->Kontrol paneline yoğun bir dikkatle odaklanmış durumda.</li>
-    <li>desc_sentence->Gözlerini kapamış ve korkmuş görünüyor.</li>
-    <li>desc_sentence->Bilinçsiz, dili dışarıda ve salyası akıyor.</li>
-    <li>desc_sentence->Kasvetli bir sevinçle gülümsüyor.</li>
-    <li>desc_sentence->Ne yaptığına dair herhangi bir fikri yok gibi görünüyor.</li>
-    <li>desc_sentence->Emniyet kemerini takmış, gözleri kapalı ve tamamen çaresiz.</li>
-    <li>desc_sentence->Kapsülün arkasından yükselen alev izi dalgalanıyor.</li>
-    <li>desc_sentence->Yakınlardaki bir [Animal] yukarı bakıyor, korkmuş.</li>
-    <li>desc_sentence->Bir [Animal] korkuyla kaçıyor.</li>
+    <li>circumstance_phrase->inanılmaz bir güçle</li>
+    <li>circumstance_phrase->toz ve taş bulutu içinde</li>
+    <li>circumstance_phrase->fren roketleri gösterişle ateşlenirken</li>
+    <li>circumstance_phrase->kusursuz bir inişle</li>
+    <li>desc_sentence->[PAWN_pronoun] tüm dikkatini kontrollere vermiş.</li>
+    <li>desc_sentence->[PAWN_possessive] gözleri kapalı; [PAWN_pronoun] korkmuş görünüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] baygın; [PAWN_possessive] dili dışarı sarkmış, salyası akıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] buruk bir sevinçle gülümsüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] ne yaptığından hiç haberi yok gibi.</li>
+    <li>desc_sentence->[PAWN_pronoun] kemerlerle bağlanmış, [PAWN_possessive] gözleri kapalı; tamamen çaresiz.</li>
+    <li>desc_sentence->Kapsülün arkasından alevden bir iz uzanıyor.</li>
+    <li>desc_sentence->Yakındaki bir [Animal] irkilmiş hâlde yukarı bakıyor.</li>
+    <li>desc_sentence->Bir [Animal] korkuyla çarpışmadan kaçıyor.</li>
     <li>desc_sentence->Arka planda bir [TerrainFeature] var.</li>
     <li>desc_sentence->Bir [PersonJob] uzaktan sessizce izliyor.</li>
   </LandedInPod.rulePack.rulesStrings>
   
   <!-- EN: berserk rage -->
-  <MentalStateBerserk.label>çıldırdı</MentalStateBerserk.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] going berserk</li>
+  <MentalStateBerserk.label>cinnet öfkesi</MentalStateBerserk.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] going berserk</li>
     <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
     <li>image->[PAWN_nameFull] becoming madly, violently insane [circumstance_group]</li>
     <li>image->[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group]</li>
@@ -288,38 +282,37 @@
     <li>desc_sentence->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
     <li>desc_sentence->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
     <li>desc_sentence->[PAWN_possessive] face is set in a look of twisted serenity.</li>
-    <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
-  -->
+    <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li> -->
   <MentalStateBerserk.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] çıldırıyor</li>
-    <li>image->[PAWN_nameFull] öfkeden kudurmuş hâlde çılgına dönüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] çıldırıp şiddete meylediyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] yüzünde psikopat bir ifadeyle sendeleyerek yürüyor, [circumstance_group]</li>
-    <li>circumstance_phrase->bir yandan soyunmaya çalışıyor</li>
-    <li>circumstance_phrase->görünürde bir sebep yok</li>
-    <li>circumstance_phrase->diğerleri korkuyla saklanıyor</li>
-    <li>circumstance_phrase->bir arkadaşı kaçıyor</li>
-    <li>circumstance_phrase->stres kaynaklı</li>
-    <li>circumstance_phrase->bardağı taşıran son damla da düştü</li>
-    <li>desc_sentence->Dizginlenemez bir öfkeyle titriyor.</li>
-    <li>desc_sentence->Dişleri ölümcül bir hırlamayla açığa çıkıyor.</li>
-    <li>desc_sentence->Gözleri deliliğin karanlık, boş havuzları gibi.</li>
-    <li>desc_sentence->Ağzından tükürükler saçarak çılgın bir öfkeyle haykırıyor.</li>
-    <li>desc_sentence->Üzerindeki kıyafetlerin bir kısmını kaybetmiş.</li>
-    <li>desc_sentence->Acıyla yüzünü buruşturuyor.</li>
-    <li>desc_sentence->Manyakça gülümsüyor.</li>
-    <li>desc_sentence->Yüzü hırlayan bir [Animal] gibi.</li>
-    <li>desc_sentence->Başının çevresini sembolik olarak bir grup [Animal] sarmış.</li>
-    <li>desc_sentence->Gözlerinde cinayet dolu bir parıltı var.</li>
-    <li>desc_sentence->Bütün bedeni nefretle titriyor gibi görünüyor.</li>
-    <li>desc_sentence->Yüzü, çarpık bir huzur ifadesiyle donmuş.</li>
-    <li>desc_sentence->Tek bir gözyaşı yanağından süzülüyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin cinnet geçirmesi</li>
+    <li>image->[circumstance_group] cinnet öfkesine kapılan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] çılgınca ve şiddetle aklını kaçıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yüzünde psikotik bir ifadeyle sendeleyerek ilerleyen [PAWN_nameFull]</li>
+    <li>circumstance_phrase->soyunmaya çalışırken</li>
+    <li>circumstance_phrase->görünürde hiçbir sebep yokken</li>
+    <li>circumstance_phrase->diğerleri korkuyla sinerken</li>
+    <li>circumstance_phrase->bir arkadaşı kaçarken</li>
+    <li>circumstance_phrase->stres yüzünden</li>
+    <li>circumstance_phrase->son çare olarak</li>
+    <li>desc_sentence->[PAWN_pronoun] zapt edilemez bir öfkeyle titriyor.</li>
+    <li>desc_sentence->[PAWN_possessive] dişleri ölümcül bir hırlamayla açığa çıkmış.</li>
+    <li>desc_sentence->[PAWN_possessive] gözleri, deliliğin cansız gölleri gibi.</li>
+    <li>desc_sentence->Delice bir öfkeyle çığlık atarken [PAWN_possessive] ağzından tükürükler saçılıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] giysilerinin bir kısmını kaybetmiş.</li>
+    <li>desc_sentence->[PAWN_pronoun] ıstırapla yüzünü buruşturuyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] manyakça gülümsüyor gibi.</li>
+    <li>desc_sentence->[PAWN_pronoun], hırlayan bir [Animal] yüzüyle resmedilmiş.</li>
+    <li>desc_sentence->[Animal] figürleri sembolik olarak [PAWN_possessive] başını çevreliyor.</li>
+    <li>desc_sentence->[PAWN_possessive] gözlerinde cani bir parıltı var.</li>
+    <li>desc_sentence->[PAWN_possessive] tüm bedeni nefretle titriyor gibi.</li>
+    <li>desc_sentence->[PAWN_possessive] yüzünde çarpık bir dinginlik ifadesi donup kalmış.</li>
+    <li>desc_sentence->[PAWN_possessive] yüzünden tek bir damla gözyaşı süzülüyor.</li>
   </MentalStateBerserk.rulePack.rulesStrings>
   
   <!-- EN: gave up -->
   <MentalStateGaveUp.label>pes etti</MentalStateGaveUp.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
     <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
     <li>image->[PAWN_nameFull] sobbing uncontrollably [circumstance_group]</li>
     <li>image->[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group]</li>
@@ -337,34 +330,33 @@
     <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
     <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
     <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
-    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
-  -->
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li> -->
   <MentalStateGaveUp.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] biçare pes ediyor</li>
-    <li>image->[PAWN_nameFull] sonunda pes ediyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] kontrolsüzce hıçkırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] yüzünde kırgınlıkla etrafta sendeliyor, [circumstance_group]</li>
-    <li>circumstance_phrase->bir yandan soyunmaya çalışıyor</li>
-    <li>circumstance_phrase->görünürde bir sebep yok</li>
-    <li>circumstance_phrase->diğerleri ona sempati duyuyor</li>
-    <li>circumstance_phrase->bir arkadaşı ağlıyor</li>
-    <li>circumstance_phrase->stres kaynaklı</li>
-    <li>circumstance_phrase->bardağı taşıran son damla da düştü</li>
-    <li>desc_sentence->Gözyaşları yanaklarından süzülüyor.</li>
-    <li>desc_sentence->Derin bir depresyon içerisinde gülüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yukarı bakıyor, sanki yukarından bir yardım bekliyor.</li>
-    <li>desc_sentence->Üstünü başını yırtıyor.</li>
-    <li>desc_sentence->Çevresinde ne olduğundan tamemen bihaber.</li>
-    <li>desc_sentence->Aynı anda hem mutlu hem üzgün görünüyor.</li>
-    <li>desc_sentence->Üzerinde lekeler var.</li>
-    <li>desc_sentence->Görünen o ki bir ayakkabısını kaybetmiş.</li>
-    <li>desc_sentence->Saçı başı dağınık.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin umutsuzluk içinde pes etmesi</li>
+    <li>image->[circumstance_group] sonunda strese yenik düşüp pes eden [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] hıçkıra hıçkıra ağlayan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yüzünde tamamen yıkılmış bir ifadeyle sendeleyen [PAWN_nameFull]</li>
+    <li>circumstance_phrase->soyunmaya çalışırken</li>
+    <li>circumstance_phrase->görünürde hiçbir sebep yokken</li>
+    <li>circumstance_phrase->diğerleri teselli ederken</li>
+    <li>circumstance_phrase->bir arkadaşı ağlarken</li>
+    <li>circumstance_phrase->stres yüzünden</li>
+    <li>circumstance_phrase->son çare olarak</li>
+    <li>desc_sentence->[PAWN_possessive] yüzünden yaşlar süzülüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] depresyonunun dibinde gülüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], yukarıdan yardım istercesine yukarı bakıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] kendi giysilerini yırtıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun], [PAWN_objective] çevreleyen şeylerden tamamen habersiz görünüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] aynı anda hem mutlu hem üzgün görünüyor.</li>
+    <li>desc_sentence->[PAWN_possessive] önü lekelerle dolu.</li>
+    <li>desc_sentence->[PAWN_pronoun] bir ayakkabısını kaybetmiş gibi görünüyor.</li>
+    <li>desc_sentence->[PAWN_possessive] saçları darmadağın.</li>
   </MentalStateGaveUp.rulePack.rulesStrings>
   
   <!-- EN: read a book -->
-  <ReadBook.label>kitap okudu</ReadBook.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
+  <ReadBook.label>bir kitap okudu</ReadBook.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] finishing [THING_title]</li>
     <li>image->[PAWN_nameFull] closing [THING_title] for the last time, a satisfied smile gracing [PAWN_possessive] face [circumstance_group]</li>
     <li>image->[PAWN_nameFull] turning the pages of [THING_title], absorbing the knowledge within [circumstance_group]</li>
     <li>image->[PAWN_nameFull] placing [THING_title] back on the shelf, a sense of accomplishment radiating from [PAWN_objective] [circumstance_group]</li>
@@ -375,27 +367,26 @@
     <li>desc_sentence->[PAWN_nameDef] is surrounded by [PAWN_possessive] notes on [THING_title].</li>
     <li>desc_sentence->[PAWN_nameDef]'s eyes sparkle with newfound wisdom.</li>
     <li>desc_sentence->[PAWN_nameDef] is forever changed by the teachings of [THING_title].</li>
-    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li>
-  -->
+    <li>desc_sentence->There is a sense that some secrets are yet to be uncovered.</li> -->
   <ReadBook.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] [THING_title] okumayı bitiriyor</li>
-    <li>image->[PAWN_nameFull] yüzünde tatmin olmuş bir gülümsemeyle son kez [THING_title] okuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sayfaları çevirirken [THING_title] eserinin içindeki bilgiyi özümsüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] içinde başarmışlık hissi ile [THING_title] eserini tekrar rafa kaldırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] [THING_title] içindeki derin hakikatler üzerine sessizce düşünerek oturuyor, [circumstance_group]</li>
-    <li>circumstance_phrase->bir yandan da rahatlıyor</li>
-    <li>circumstance_phrase->yanında bir bardak çay var</li>
-    <li>circumstance_phrase->okuma lambasının yumuşak ışığı altında</li>
-    <li>desc_sentence->Etrafında [THING_title] üzerine tuttuğu notlar var.</li>
-    <li>desc_sentence->Gözleri yeni edindiği bilgilerin ışığıyla parlıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [THING_title] eserinden öğrendikleri ile sonsuza dek değişti.</li>
-    <li>desc_sentence->Bazı sırların hâlâ ortaya çıkarılmayı beklediği hissi var.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [THING_title] kitabını bitirmesi</li>
+    <li>image->[circumstance_group] [THING_title] kitabını son kez kapatan, [PAWN_possessive] yüzünde memnun bir gülümseme beliren [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] [THING_title] kitabının sayfalarını çevirip içindeki bilgiyi özümseyen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] [PAWN_objective] saran bir başarı duygusuyla [THING_title] kitabını rafına geri koyan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] sessizce düşünceye dalmış, [THING_title] içindeki derin hakikatleri tartan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->en sevdiği okuma köşesinde dinlenirken</li>
+    <li>circumstance_phrase->yanında bir fincan çayla</li>
+    <li>circumstance_phrase->bir okuma lambasının yumuşak ışığı altında</li>
+    <li>desc_sentence->[PAWN_nameDef], [THING_title] üzerine aldığı notlarla çevrili.</li>
+    <li>desc_sentence->[PAWN_nameDef] adlı kişinin gözleri yeni edindiği bilgelikle parıldıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [THING_title] kitabının öğretileriyle sonsuza dek değişmiş.</li>
+    <li>desc_sentence->Henüz keşfedilmemiş sırlar olduğu hissediliyor.</li>
   </ReadBook.rulePack.rulesStrings>
   
   <!-- EN: struck mineable -->
   <StruckMineable.label>maden buldu</StruckMineable.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
     <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
     <li>circumstance_phrase->while mining</li>
     <li>circumstance_phrase->while digging</li>
@@ -408,29 +399,28 @@
     <li>desc_sentence->[PAWN_nameDef] is screaming with happiness.</li>
     <li>desc_sentence->[PAWN_nameDef] is laughing uncontrollably.</li>
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
-    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
-  -->
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li> -->
   <StruckMineable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] [THING_label] buluyor</li>
-    <li>image->[PAWN_nameFull] [THING_label] buluyor, [circumstance_group]</li>
-    <li>circumstance_phrase->o sırada madende</li>
-    <li>circumstance_phrase->kazı yaparken kazmayı vuruyor</li>
-    <li>circumstance_phrase->o sırada tünel açıyor</li>
-    <li>circumstance_phrase->şaşırmış görünüyor</li>
-    <li>circumstance_phrase->tatmin olmuş bir ifadesi var</li>
-    <li>desc_sentence->[PAWN_nameDef] kaşlarını kaldırıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] sevinçle zıplıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir arkadaşıyla el çakıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] mutlulukla bağırıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] kontrolsüzce gülüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] kan ter içerisinde.</li>
-    <li>desc_sentence->[PAWN_nameDef] iş yüzünden tere ve kire bulanmış.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [THING_label] bulması</li>
+    <li>image->[circumstance_group] [THING_label] bulan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->kazı yaparken</li>
+    <li>circumstance_phrase->toprağı kazarken</li>
+    <li>circumstance_phrase->tünel açarken</li>
+    <li>circumstance_phrase->şaşkın bir ifadeyle</li>
+    <li>circumstance_phrase->memnun bir ifadeyle</li>
+    <li>desc_sentence->[PAWN_nameDef], [PAWN_possessive] alnındaki teri siliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] sevinçten havalara zıplıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir arkadaşıyla beşlik çakıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] mutluluktan çığlık atıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] kahkahalarını tutamıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] çalışmaktan ter ve toz içinde kalmış.</li>
+    <li>desc_sentence->[PAWN_nameDef] çalışmaktan ter ve toz içinde kalmış.</li>
   </StruckMineable.rulePack.rulesStrings>
   
   <!-- EN: vomited -->
   <Vomited.label>kustu</Vomited.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
     <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
     <li>image->[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group]</li>
     <li>image->[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group]</li>
@@ -446,32 +436,31 @@
     <li>desc_sentence->[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
     <li>desc_sentence->[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
     <li>desc_sentence->[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
-    <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
-  -->
+    <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li> -->
   <Vomited.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kusuyor</li>
-    <li>image->[PAWN_nameFull] yerlere kusuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] kurumuş kusmukla kaplı ve iğrenmiş görünüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] iki büklüm ve yere doğru öğürüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] diz çökmüş yerlere kusuyor, [circumstance_group]</li>
-    <li>circumstance_phrase->acı çekiyor gibi</li>
-    <li>circumstance_phrase->utanç içerisinde</li>
-    <li>circumstance_phrase->diğerleri onu izliyor</li>
-    <li>desc_sentence->Çevresinde ne olduğundan tamemen bihaber.</li>
-    <li>desc_sentence->Yüzü şişiyor gibi.</li>
-    <li>desc_sentence->Neredeyse bilinçsiz, dili dışarıda ve salyası akıyor.</li>
-    <li>desc_sentence->Şiddetle sarsılıyor.</li>
-    <li>desc_sentence->Utanmış görünüyor.</li>
-    <li>desc_sentence->Her şeye rağmen gülmeye çalışıyor.</li>
-    <li>desc_sentence->Neredeyse sönmüş gibi görünüyor, sanki şiddetli kusmanın ardından içi tamamen boşalmış gibi.</li>
-    <li>desc_sentence->Sanatsal biçimde tasvir edilmiş bir pislik hâlesiyle çevrili.</li>
-    <li>desc_sentence->Arka planda bir [Animal] kusmuk yiyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin kusması</li>
+    <li>image->[circumstance_group] yere kusan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] üzeri kurumuş kusmukla kaplıyken tiksinmiş görünen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] iki büklüm olup yere öğüren [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] dizlerinin üzerine çökmüş, yere kusan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->acı çekiyor görünürken</li>
+    <li>circumstance_phrase->büyük bir utançla</li>
+    <li>circumstance_phrase->diğerleri seyrederken</li>
+    <li>desc_sentence->[PAWN_pronoun], [PAWN_objective] çevreleyen şeylerden tamamen habersiz görünüyor.</li>
+    <li>desc_sentence->[PAWN_possessive] yüzü sanki şişiyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] neredeyse baygın; [PAWN_possessive] dili dışarı sarkmış, salyası akıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] şiddetle kasılıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] utanmış görünüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] koşullara rağmen gülmeye çalışıyor gibi.</li>
+    <li>desc_sentence->[PAWN_pronoun], şiddetli kusmayla tamamen boşalmış gibi neredeyse sönmüş görünüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun], sanatsal biçimde resmedilmiş bir pislik halesiyle çevrili.</li>
+    <li>desc_sentence->Arka planda bir [Animal] kusmuk izinden bir şeyler yiyor.</li>
   </Vomited.rulePack.rulesStrings>
   
   <!-- EN: walked naked -->
-  <WalkedNaked.label>çıplak gezdi</WalkedNaked.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] walking around naked</li>
+  <WalkedNaked.label>çıplak dolaştı</WalkedNaked.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] walking around naked</li>
     <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action] in the nude [circumstance_group]</li>
     <li>image->[PAWN_nameFull] [nude_action], naked, [circumstance_group]</li>
@@ -493,38 +482,37 @@
     <li>desc_sentence->[PAWN_nameDef] is visibly aroused.</li>
     <li>desc_sentence->[PAWN_nameDef] is covered in unexplained moisture.</li>
     <li>desc_sentence->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
-    <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
-  -->
+    <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li> -->
   <WalkedNaked.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] çıplak geziyor</li>
-    <li>image->[PAWN_nameFull] anadan üryan [nude_action], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] çıplak hâlde [nude_action], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] çıplak [nude_action], [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] kıyafetsiz hâlde [nude_action], [circumstance_group]</li>
-    <li>nude_action->hopluyor</li>
-    <li>nude_action->gülüp oynuyor</li>
-    <li>nude_action->zıplıyor</li>
-    <li>nude_action->yürüyor</li>
-    <li>nude_action->hava atarak yürüyor</li>
-    <li>nude_action->zarif biçimde yürüyor</li>
-    <li>nude_action->parmak uçlarında yürüyor</li>
-    <li>nude_action->geziniyor</li>
-    <li>nude_action->bölgeyi araştırıyor</li>
-    <li>circumstance_phrase->ne yaptığının farkında</li>
-    <li>circumstance_phrase->utanmıyor</li>
-    <li>circumstance_phrase->diğerleri ona bakıyor</li>
-    <li>circumstance_phrase->görünür bir sebep yok</li>
-    <li>circumstance_phrase->hayvanlar şaşkın şaşkın bakıyor</li>
-    <li>desc_sentence->[PAWN_nameDef] görünür biçimde tahrik olmuş.</li>
-    <li>desc_sentence->[PAWN_nameDef] açıklanamaz biçimde ıslak.</li>
-    <li>desc_sentence->[PAWN_nameDef] görünür bir sebep yokken derin derin nefes alıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir çalının yapraklarını okşuyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin çıplak dolaşması</li>
+    <li>image->[circumstance_group] anadan doğma hâlde [nude_action] [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] çırılçıplak [nude_action] [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] çıplak hâlde [nude_action] [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] üzerinde hiç giysi olmadan [nude_action] [PAWN_nameFull]</li>
+    <li>nude_action->sekerek dolaşan</li>
+    <li>nude_action->oynaşarak koşturan</li>
+    <li>nude_action->hoplayıp zıplayan</li>
+    <li>nude_action->yürüyen</li>
+    <li>nude_action->endamını sergileyerek yürüyen</li>
+    <li>nude_action->salına salına yürüyen</li>
+    <li>nude_action->parmak uçlarında yürüyen</li>
+    <li>nude_action->gezinti yapan</li>
+    <li>nude_action->etrafı süzen</li>
+    <li>circumstance_phrase->kararlı bir tavırla</li>
+    <li>circumstance_phrase->en ufak bir utanç belirtisi göstermeden</li>
+    <li>circumstance_phrase->başkaları seyrederken</li>
+    <li>circumstance_phrase->görünürde hiçbir sebep yokken</li>
+    <li>circumstance_phrase->şaşkın hayvanlar seyrederken</li>
+    <li>desc_sentence->[PAWN_nameDef] gözle görülür biçimde tahrik olmuş.</li>
+    <li>desc_sentence->[PAWN_nameDef] nereden geldiği belirsiz bir ıslaklıkla kaplı.</li>
+    <li>desc_sentence->[PAWN_nameDef] ortada hiçbir sebep yokken soluk soluğa.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir çalıyı okşuyor.</li>
   </WalkedNaked.rulePack.rulesStrings>
   
   <!-- EN: on fire -->
-  <WasOnFire.label>yanıyor</WasOnFire.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] catching fire</li>
+  <WasOnFire.label>alev aldı</WasOnFire.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] catching fire</li>
     <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
     <li>image->[PAWN_nameFull] enveloped by flame [circumstance_group]</li>
     <li>image->[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group]</li>
@@ -541,27 +529,27 @@
     <li>desc_sentence->[PAWN_pronoun] is laughing maniacally.</li>
     <li>desc_sentence->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
     <li>desc_sentence->A plume of smoke is rising off [PAWN_objective].</li>
-    <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
-  -->
+    <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li> -->
   <WasOnFire.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] alev alıyor</li>
-    <li>image->[PAWN_nameFull] vücudunu saran ateşi telaşla söndürüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] alevler içerisinde, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] diz çökmüş, elleri başının üzerinde, bedenindeki alevleri söndürmeye çalışıyor; [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] yanarken yerde yuvarlanıyor, [circumstance_group]</li>
-    <li>circumstance_phrase->diğerleri ona bakıyor</li>
-    <li>circumstance_phrase->neredeyse çıplak</li>
-    <li>circumstance_phrase->kendini kaybetmemiş</li>
-    <li>desc_sentence->Bedeni yanmış.</li>
-    <li>desc_sentence->Gözleri panikle açılmış.</li>
-    <li>desc_sentence->Neredeyse bilinçsiz; gözlerinde yaşam ışığı yok.</li>
-    <li>desc_sentence->Ağzını açıp yardım için bağırıyor.</li>
-    <li>desc_sentence->Alevler kafasını yutmak üzere.</li>
-    <li>desc_sentence->Yüzünü sembolik bir ateş halesi sarmış.</li>
-    <li>desc_sentence->Manyak gibi gülüyor.</li>
-    <li>desc_sentence->Kendini kaybediyor gibi görünüyor.</li>
-    <li>desc_sentence->Ondan dumanlar yükseliyor.</li>
-    <li>desc_sentence->Sanatsal açıdan, bir cesedi andıracak şekilde tasvir edilmiş.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin alev alması</li>
+    <li>image->[circumstance_group] bedenini saran ateşi çılgınca söndürmeye çalışan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] alevlerin sardığı [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] diz çökmüş, elleri başında, bedenindeki alevleri söndürmeye çalışan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yanarken yerde yuvarlanan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->başkaları seyrederken</li>
+    <li>circumstance_phrase->neredeyse çıplakken</li>
+    <li>circumstance_phrase->odaklanmış bir kararlılıkla</li>
+    <li>desc_sentence->[PAWN_possessive] eti gözle görülür biçimde kömürleşiyor.</li>
+    <li>desc_sentence->[PAWN_possessive] gözleri panikle açılmış.</li>
+    <li>desc_sentence->[PAWN_pronoun] bilincini zar zor koruyor gibi; [PAWN_possessive] gözleri cansız.</li>
+    <li>desc_sentence->[PAWN_pronoun] yardım için çığlık atarken [PAWN_possessive] ağzı açık.</li>
+    <li>desc_sentence->Alevler [PAWN_possessive] başını sarmak üzere.</li>
+    <li>desc_sentence->[PAWN_possessive] yüzünü sembolik bir ateş halesi çevreliyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] manyakça gülüyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] kendini kaybediyor gibi.</li>
+    <li>desc_sentence->[PAWN_objective] saran bir duman bulutu yükseliyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] sanatsal biçimde, bir cesedi andıracak şekilde resmedilmiş.</li>
   </WasOnFire.rulePack.rulesStrings>
   
 </LanguageData>

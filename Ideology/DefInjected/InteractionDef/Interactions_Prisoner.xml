@@ -10,14 +10,14 @@
     <li>r_logentry->[INITIATOR_nameDef] explained to [RECIPIENT_nameDef] that [RECIPIENT_pronoun] must work or face punishment.</li>
   -->
   <EnslaveAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûma koloni için çalışması gerektiğini söyledi.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûma emirlere uyması ve çalışması gerektiği konusunda bilgi verdi.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûma bir ömür boyu zorunlu çalışma için hazırlanmalarını emretti.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûma çalışmasını yoksa cezalandırılacağını açıkladı.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye koloni için çalışması gerektiğini söyledi.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye emirlere uyup çalışması gerektiğini bildirdi.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye zorla çalıştırılacağı bir hayata hazırlanmasını emretti.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye ya çalışacağını ya da cezayla yüzleşeceğini açıkladı.</li>
   </EnslaveAttempt.logRulesInitiator.rulesStrings>
   
   <!-- EN: try to reduce will -->
-  <ReduceWill.label>iradeyi azaltmaya çalış</ReduceWill.label>
+  <ReduceWill.label>iradeyi kırmaya çalış</ReduceWill.label>
   <!-- EN:
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] [RECIPIENT_pronoun] [negative].</li>
     <li>r_logentry->[INITIATOR_nameDef] explained that [RECIPIENT_nameDef] [negative].</li>
@@ -62,47 +62,47 @@
     <li>givein->yield [RECIPIENT_objective]self</li>
   -->
   <ReduceWill.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûma [negative] söyledi.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûma [negative] anlattı.</li>
-    <li>r_logentry->[RECIPIENT_nameDef], [INITIATOR_nameDef] tarafından [refused] durumunda [threat] ile tehdit edildi.</li>
-    <li>r_logentry->[RECIPIENT_nameDef], [INITIATOR_nameDef] tarafından [disillusionment] konusunda bilgilendirildi.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı mahkûmdan [givein] talep etti.</li>
-    <li>negative->bir geleceğinin olmadığını</li>
-    <li>negative->kaçmanın bir yolunun olmadığını</li>
-    <li>negative->koloni dışında bir geleceğinin olmadığını</li>
-    <li>negative->kaçmasını sağlayacak şeylerin olmadığını</li>
-    <li>negative->hemen boyun eğmesi gerektiğini</li>
-    <li>negative->arzularını unutması gerektiğini</li>
-    <li>negative->koloniye itaat etmesi gerektiğini</li>
-    <li>threat->işkence</li>
-    <li>threat->ceza</li>
-    <li>threat->sakatlama</li>
-    <li>threat->açlık</li>
-    <li>threat->müebbet hapis</li>
-    <li>threat->ölüm</li>
-    <li>threat->izolasyon</li>
-    <li>threat->uzuvlarını kaybetme</li>
-    <li>threat->travmalar</li>
-    <li>threat->yaralamalar</li>
-    <li>threat->yamyamlık</li>
-    <li>threat->organ çalma</li>
-    <li>threat->uzun bir hapis hayatı</li>
-    <li>refused->kaçmaya çalışması</li>
-    <li>refused->koloniye saygısızlık etmesi</li>
-    <li>refused->çalışmaması</li>
-    <li>refused->emirleri yerine getirmemesi</li>
-    <li>refused->boyun eğmemesi</li>
-    <li>refused->itaat etmemesi</li>
-    <li>refused->arsızlık etmesi</li>
-    <li>disillusionment->durumunu kabul etmesi</li>
-    <li>disillusionment->başka bir gelecek için umutlanmaması</li>
-    <li>disillusionment->itaat etmesinin en iyi yol olduğu</li>
-    <li>disillusionment->tek başına hayatta kalamayacağı</li>
-    <li>disillusionment->boyun eğmekten başka seçeneği olmadığı</li>
-    <li>givein->pes etmesini</li>
-    <li>givein->boyun eğmesini</li>
-    <li>givein->itaat etmesini</li>
-    <li>givein->teslim olmasını</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [negative] söyledi.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişinin [negative] açıkladı.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiyi [refused] takdirde [threat] ile tehdit etti.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye [disillusionment] bildirdi.</li>
+    <li>r_logentry-&gt;[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişinin koloniye [givein] talep etti.</li>
+    <li>negative-&gt;hiçbir geleceği olmadığını</li>
+    <li>negative-&gt;kaçmanın hiçbir yolu olmadığını</li>
+    <li>negative-&gt;koloni dışında hiçbir geleceği olmadığını</li>
+    <li>negative-&gt;kaçacak imkânı olmadığını</li>
+    <li>negative-&gt;derhâl boyun eğmesi gerektiğini</li>
+    <li>negative-&gt;hayallerini unutması gerektiğini</li>
+    <li>negative-&gt;koloniye boyun eğmesi gerektiğini</li>
+    <li>threat-&gt;işkence</li>
+    <li>threat-&gt;ceza</li>
+    <li>threat-&gt;sakatlama</li>
+    <li>threat-&gt;aç bırakma</li>
+    <li>threat-&gt;ömür boyu hapis</li>
+    <li>threat-&gt;ölüm</li>
+    <li>threat-&gt;tecrit</li>
+    <li>threat-&gt;uzuvlarını kesme</li>
+    <li>threat-&gt;darp</li>
+    <li>threat-&gt;kesik yaralar</li>
+    <li>threat-&gt;yamyamlık</li>
+    <li>threat-&gt;organ toplama</li>
+    <li>threat-&gt;uzun süreli kapatılma</li>
+    <li>refused-&gt;kaçmaya çalıştığı</li>
+    <li>refused-&gt;koloniye hakaret ettiği</li>
+    <li>refused-&gt;çalışmadığı</li>
+    <li>refused-&gt;bir emri reddettiği</li>
+    <li>refused-&gt;boyun eğmeye direndiği</li>
+    <li>refused-&gt;itaat etmeyi reddettiği</li>
+    <li>refused-&gt;küstahça davrandığı</li>
+    <li>disillusionment-&gt;durumunu kabullenmesi gerektiğini</li>
+    <li>disillusionment-&gt;başka bir gelecek için hiçbir umudu olmadığını</li>
+    <li>disillusionment-&gt;boyun eğmesinin kendisi için en iyisi olacağını</li>
+    <li>disillusionment-&gt;kendi başına hayatta kalamayacağını</li>
+    <li>disillusionment-&gt;boyun eğmekten başka seçeneği olmadığını</li>
+    <li>givein-&gt;boyun eğmesini</li>
+    <li>givein-&gt;kendini teslim etmesini</li>
+    <li>givein-&gt;teslim olmasını</li>
+    <li>givein-&gt;kendini bırakmasını</li>
   </ReduceWill.logRulesInitiator.rulesStrings>
   
 </LanguageData>

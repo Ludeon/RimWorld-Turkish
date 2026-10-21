@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>desc->This [writingQualityAdjective] [bookType] [follows] a [PersonJob] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+  <!-- EN: <li>desc->This [writingQualityAdjective] [bookType] [follows] a [PersonJob] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
     <li>desc->In this [writingQualityAdjective] [bookType], the [author] [tellsAStoryOf] [ANYPAWN_possessive] [storySource]. [writingQualitySentence]. [maybe_date]</li>
     <li>follows->follows</li>
     <li>follows->covers</li>
@@ -206,218 +205,217 @@
     <li>bookType->story</li>
     <li>bookType->narrative</li>
     <li>bookType->biography</li>
-    <li>bookType->epic poem</li>
-  -->
+    <li>bookType->epic poem</li> -->
   <Description_Novel.rulePack.rulesStrings>
-    <li>desc->Bu [writingQualityAdjective] [bookType], bir [PersonJob] ve [protagHis] [storyStruggles] [follows]. [writingQualitySentence]. [maybe_date]</li>
-    <li>desc->Bu [writingQualityAdjective] [bookType], [author] [storySource] [tellsAStoryOf]. [writingQualitySentence]. [maybe_date]</li>
-    <li>follows->işleniyor</li>
-    <li>follows->anlatılıyor</li>
-    <li>follows->aktarılıyor</li>
-    <li>follows->öyküleniyor</li>
-    <li>protagHe->o</li>
-    <li>protagHis->onun</li>
-    <li>protagHim->onu</li>
-    <li>storyStruggles->[opponent] karşısında [struggles]</li>
+
+    <li>desc->Bu [writingQualityAdjective] [bookType], [storyStruggles] bir [PersonJob] karakterinin [follows]. [writingQualitySentence]. [maybe_date]</li>
+    <li>desc->Bu [writingQualityAdjective] [bookType] ile [author], kendi [storySource] [tellsAStoryOf]. [writingQualitySentence]. [maybe_date]</li>
+    <li>follows->hikâyesini anlatıyor</li>
+    <li>follows->serüvenini konu alıyor</li>
+    <li>follows->öyküsünü aktarıyor</li>
+    <li>follows->bakış açısından yazılmış</li>
+    <li>protagHe->kendi</li>
+    <li>protagHis->kendi</li>
+    <li>protagHim->kendi</li>
+    <li>storyStruggles->[opponent] ile [struggles]</li>
     <li>storyStruggles->[seekObjective] [seeks]</li>
-    <li>struggles->verdiği mücadeleyi</li>
-    <li>struggles->verdiği savaşı</li>
-    <li>struggles->sarfettiği çabaları</li>
+    <li>struggles->mücadele eden</li>
+    <li>struggles->savaşan</li>
+    <li>struggles->boğuşan</li>
     <li>opponent->adaletsizlik</li>
     <li>opponent->korku</li>
     <li>opponent->tehlikeli bir [Enemy]</li>
     <li>opponent->rakip bir [PersonJob]</li>
-    <li>opponent->anlamsız [ConceptPositive]</li>
-    <li>opponent->kötü [PersonFamily]</li>
-    <li>opponent->toplumunun sosyal normları</li>
-    <li>seeks->arayışını</li>
-    <li>seeks->aradığı evreni</li>
-    <li>seeks->bulma çabasını</li>
-    <li>seeks->bulmak için dünyayı dolaşmasını</li>
-    <li>seeks->arayışını ve çaresizliğini</li>
-    <li>seeks->bulmak için harcadığı çabayı</li>
-    <li>seeks->peşinde bütün diyarı dolaşmasını</li>
-    <li>seeks->avını</li>
-    <li>seeks->ararkenki yolculuğunu</li>
-    <li>seeks->bulmak için her şeyi yapışını</li>
-    <li>seeks->ararkenki azmini</li>
-    <li>seeks->ararken her taşın altına bakışını</li>
-    <li>seeks->bulmak için yollara düşüşünü</li>
-    <li>seeks->ararken kendini heba edişini</li>
-    <li>seeks->ararken yaşadığı zorlukları</li>
-    <li>seeks->arayışındaki sabrını</li>
-    <li>seeks->umuduyla gezmesini</li>
-    <li>seeks->görevini</li>
+    <li>opponent->[ConceptPositive] kavramının anlamsızlığı</li>
+    <li>opponent->[protagHis] kötü kalpli [PersonFamily]</li>
+    <li>opponent->[protagHis] topluluğunun sosyal normları</li>
+    <li>seeks->arayan</li>
+    <li>seeks->evrenin dört bir yanında arayan</li>
+    <li>seeks->bulmaya çalışan</li>
+    <li>seeks->hem [protagHim] içinde hem de dünyada arayan</li>
+    <li>seeks->çaresizce arayan</li>
+    <li>seeks->bulmak için çabalayan</li>
+    <li>seeks->diyar diyar arayan</li>
+    <li>seeks->iz sürerek arayan</li>
+    <li>seeks->kararlılıkla arayan</li>
+    <li>seeks->bulmak için tüm gücünü harcayan</li>
+    <li>seeks->inatla arayan</li>
+    <li>seeks->aramadık yer bırakmadan arayan</li>
+    <li>seeks->büyük bir arayış yolculuğunda arayan</li>
+    <li>seeks->etini parçalarcasına arayan</li>
+    <li>seeks->yerini bulmaya çabalayan</li>
+    <li>seeks->titizlikle arayan</li>
+    <li>seeks->dolaşıp duran ve arayan</li>
+    <li>seeks->bulmak üzere bir göreve çıkan</li>
     <li>seekObjective->gizemli bir altın küp</li>
-    <li>seekObjective->kafasının içindeki iblis</li>
-    <li>seekObjective->evrendeki en leziz [Vegetable]</li>
-    <li>seekObjective->yepyeni bir [Weapon]</li>
-    <li>seekObjective->kaybettiği evcil [Animal]</li>
-    <li>seekObjective->bir [Mechanoid] yapmak için parça</li>
-    <li>seekObjective->rüyasında gördüğü bir [TerrainFeature]</li>
-    <li>seekObjective->eski bir alev</li>
-    <li>seekObjective->romantik tatmin</li>
-    <li>seekObjective->hastalıklı böbreği yerine yeni bir böbrek</li>
-    <li>seekObjective->uçsuz buçaksız bir çölde yemek</li>
-    <li>seekObjective->evinin güveni ve sıcaklığı</li>
-    <li>seekObjective->nefretle dolu bir dünyada aşk</li>
-    <li>seekObjective->uzun süredir kayıp olan aile tarifi</li>
-    <li>seekObjective->çocukken geride bıraktığı oyuncağı</li>
-    <li>seekObjective->çalınmış aile yadigârı</li>
-    <li>seekObjective->ustasının kayıp günlüğü</li>
-    <li>seekObjective->en sevdiği seriden nadir bir koleksiyon parçası</li>
-    <li>seekObjective->piknik yapmak için en uygun yer</li>
-    <li>seekObjective->değerli bir koleksiyonun eksik parçası</li>
-    <li>seekObjective->geçmişteki hataları için af</li>
-    <li>seekObjective->eski bir ilişkiye nokta koyma</li>
-    <li>seekObjective->çocukluğundan kalma kayıp bir hazine haritası</li>
-    <li>seekObjective->vefat etmiş sevdiğinden kalan anlamlı bir hatıra</li>
-    <li>seekObjective->bir hastalığın dermanı için tarif</li>
-    <li>seekObjective->şahsi bahçesi için nadide bir çiçek</li>
-    <li>seekObjective->hiç gönderilmemiş bir mektup</li>
-    <li>seekObjective->felsefi bir soruya dair zorlayıcı bir yanıt</li>
-    <li>seekObjective->kaostan kaçıp biraz soluklanma</li>
-    <li>seekObjective->yeni şehirde eski bir dost</li>
-    <li>seekObjective->unutulmuş bir hobinin heyecanı</li>
-    <li>seekObjective->bir anlığına da olsa saf mutluluk</li>
+    <li>seekObjective->[protagHis] kafasının içindeki bir iblisi</li>
+    <li>seekObjective->evrenin en lezzetli [Vegetable] ürününü</li>
+    <li>seekObjective->parıl parıl yeni bir [Weapon]</li>
+    <li>seekObjective->[protagHis] kayıp evcil [Animal] hayvanını</li>
+    <li>seekObjective->yok edilmiş bir [Mechanoid] mekanoidini yeniden yapmak için parçalar</li>
+    <li>seekObjective->[protagHe] rüyasında gördüğü bir [TerrainFeature]</li>
+    <li>seekObjective->eski bir aşkını</li>
+    <li>seekObjective->romantik doyum</li>
+    <li>seekObjective->[protagHis] hastalıklı böbreğinin yerine yeni bir böbrek</li>
+    <li>seekObjective->uçsuz bucaksız bir çorak toprakta yiyecek</li>
+    <li>seekObjective->evin sıcaklığını ve güvenliğini</li>
+    <li>seekObjective->nefret dolu bir dünyada sevgi</li>
+    <li>seekObjective->uzun zamandır kayıp bir aile tarifini</li>
+    <li>seekObjective->çocukken geride bıraktığı bir oyuncağı</li>
+    <li>seekObjective->çalınmış bir aile yadigârını</li>
+    <li>seekObjective->bir akıl hocasının kayıp günlüğünü</li>
+    <li>seekObjective->[protagHis] en sevdiği serinin nadir bir koleksiyon parçasını</li>
+    <li>seekObjective->piknik için kusursuz bir yer</li>
+    <li>seekObjective->değerli bir koleksiyonun kayıp parçasını</li>
+    <li>seekObjective->geçmişteki bir hata için bir özür</li>
+    <li>seekObjective->geçmişteki bir ilişkiyi geride bırakmanın yolunu</li>
+    <li>seekObjective->çocukluktan kalma kayıp bir hazine haritasını</li>
+    <li>seekObjective->ölen bir sevdiğinden kalma anlamlı bir hatırayı</li>
+    <li>seekObjective->bir hastalığın tedavisi için bir reçete</li>
+    <li>seekObjective->kişisel bir bahçe için nadir bir bitki</li>
+    <li>seekObjective->yazılmış ama hiç gönderilmemiş bir mektubu</li>
+    <li>seekObjective->felsefi bir soruya dair yakalanması zor bir yanıt</li>
+    <li>seekObjective->kaostan uzak sessiz bir an</li>
+    <li>seekObjective->yeni bir şehirde eski bir dostunu</li>
+    <li>seekObjective->unutulmuş bir hobinin heyecanını</li>
+    <li>seekObjective->saf mutluluğa dair tek bir an</li>
     <li>tellsAStoryOf->hakkında bir masal anlatıyor</li>
-    <li>tellsAStoryOf->hakkında detaylar veriyor</li>
-    <li>tellsAStoryOf->hakkında bir hikâyeyi keşfediyor</li>
+    <li>tellsAStoryOf->hakkında ayrıntılara giriyor</li>
+    <li>tellsAStoryOf->hakkındaki bir öyküyü keşfediyor</li>
     <li>tellsAStoryOf->hakkında bir hikâye anlatıyor</li>
     <li>tellsAStoryOf->hakkında bir anlatı örüyor</li>
-    <li>tellsAStoryOf->hakkında bir resim çiziyor</li>
-    <li>tellsAStoryOf->konusuna derinlemesine giriyor</li>
-    <li>tellsAStoryOf->meselesini adım adım çözüyor</li>
-    <li>tellsAStoryOf->üzerine yolculuğunu gözler önüne seriyor</li>
-    <li>tellsAStoryOf->meselesinin özünü yakalıyor</li>
-    <li>tellsAStoryOf->meselesine ışık tutuyor</li>
-    <li>tellsAStoryOf->ile ilgili doneleri birbirine ustaca bağlıyor</li>
-    <li>tellsAStoryOf->ile ilgili deneyimini tasvir ediyor</li>
-    <li>tellsAStoryOf->anlatısına atılıyor</li>
-    <li>tellsAStoryOf->hakkındaki hikâyesini betimliyor</li>
-    <li>tellsAStoryOf->hakkındaki hikâyesine değiniyor</li>
-    <li>tellsAStoryOf->hakkındaki hikâyesini sunuyor</li>
-    <li>tellsAStoryOf->üzerine yolculuğunu aktarıyor</li>
-    <li>tellsAStoryOf->hakkındaki hikâyesine derinlemesine iniyor</li>
-    <li>tellsAStoryOf->hakkındaki anlatısını aydınlatıyor</li>
-    <li>tellsAStoryOf->hakkındaki destanını yakalıyor</li>
-    <li>tellsAStoryOf->hakkında canlı bir tablo çiziyor</li>
-    <li>tellsAStoryOf->hakkında bir anlatı dokusu örüyor</li>
-    <li>tellsAStoryOf->kroniğini keşfediyor</li>
+    <li>tellsAStoryOf->üzerine bir tablo çiziyor</li>
+    <li>tellsAStoryOf->üzerine derinlemesine eğiliyor</li>
+    <li>tellsAStoryOf->hakkındaki masalı çözümlüyor</li>
+    <li>tellsAStoryOf->üzerinden bir yolculuğu gözler önüne seriyor</li>
+    <li>tellsAStoryOf->üzerine özünü yakalayan bir eser sunuyor</li>
+    <li>tellsAStoryOf->üzerine ışık tutuyor</li>
+    <li>tellsAStoryOf->üzerine iplikleri bir araya örüyor</li>
+    <li>tellsAStoryOf->üzerine yaşanmışlıkları tasvir ediyor</li>
+    <li>tellsAStoryOf->üzerine bir anlatıya girişiyor</li>
+    <li>tellsAStoryOf->hakkındaki hikâyeyi betimliyor</li>
+    <li>tellsAStoryOf->hakkındaki masala değiniyor</li>
+    <li>tellsAStoryOf->hakkındaki hikâyeyi sunuyor</li>
+    <li>tellsAStoryOf->üzerinden bir yolculuğu aktarıyor</li>
+    <li>tellsAStoryOf->hakkındaki hikâyenin derinliklerine iniyor</li>
+    <li>tellsAStoryOf->hakkındaki anlatıyı aydınlatıyor</li>
+    <li>tellsAStoryOf->hakkındaki destanı yakalıyor</li>
+    <li>tellsAStoryOf->üzerine canlı bir tablo çiziyor</li>
+    <li>tellsAStoryOf->üzerine renkli bir dokuma örüyor</li>
+    <li>tellsAStoryOf->hakkındaki vakayinameyi keşfediyor</li>
     <li>author->yazar</li>
     <li>author->[authorTitle] [ANYPAWN_nameIndef]</li>
-    <li>author(p=2)->anonim [authorTitle]</li>
+    <li>author(p=2)->adı bilinmeyen [authorTitle]</li>
     <li>authorTitle->yazar</li>
+    <li>authorTitle->kâtip</li>
     <li>authorTitle->müellif</li>
-    <li>authorTitle->muharrir</li>
     <li>authorTitle->şair</li>
-    <li>authorTitle->hikâyeci</li>
+    <li>authorTitle->hikâye anlatıcısı</li>
     <li>storySource->kişisel deneyimleri</li>
     <li>storySource->gençliği</li>
     <li>storySource->çocukluğu</li>
     <li>storySource->ulusu</li>
     <li>storySource->ana gezegeni</li>
-    <li>storySource->büyükbabası</li>
+    <li>storySource->dedesi</li>
     <li>storySource->büyükannesi</li>
-    <li>storySource->savaş deneyimleri</li>
+    <li>storySource->savaştaki deneyimleri</li>
     <li>storySource->en derin korkuları</li>
-    <li>storySource->yıldızlara seyahat hayalleri</li>
+    <li>storySource->yıldızlara yolculuk etme hayalleri</li>
     <li>storySource->taze [Vegetable] sevgisi</li>
     <li>storySource->[PersonJob] olarak geçirdiği zaman</li>
-    <li>storySource->[Weapon] sevgisi</li>
-    <li>storySource->[Mechanoid] karşısında savaş deneyimleri</li>
-    <li>storySource->[Community] hayatı</li>
-    <li>storySource->devasa [BodyPart]</li>
-    <li>storySource->kayıp bir dostun anıları</li>
+    <li>storySource->en sevdiği [Weapon]</li>
+    <li>storySource->[Mechanoid] mekanoidlerine karşı savaşma deneyimi</li>
+    <li>storySource->bir [Community] içinde geçen gençliği</li>
+    <li>storySource->devasa [BodyPart] organı</li>
+    <li>storySource->kaybettiği bir dostuna dair anıları</li>
     <li>storySource->müzik tutkusu</li>
-    <li>storySource->antik harablere olan merakı</li>
-    <li>storySource->bir aile yadigârına bağlılık</li>
-    <li>storySource->gizemli bir figüre duyulan hayranlık</li>
+    <li>storySource->antik kalıntılara duyduğu merak</li>
+    <li>storySource->bir aile yadigârına olan bağlılığı</li>
+    <li>storySource->gizemli bir figüre duyduğu hayranlık</li>
     <li>storySource->ölmekte olan bir dili koruma çabaları</li>
-    <li>storySource->çığır açıcı bir icat yapma hayalleri</li>
-    <li>storySource->mitolojik bir yaratık ile arasındaki bağ</li>
-    <li>storySource->manzaraya düşkünlüğü</li>
-    <li>storySource->tanınmış bir [PersonJob] olma tutkusu</li>
-    <li>storySource->sosyal anksiyete ile mücadele</li>
-    <li>storySource->ufkun ötesinde maceralara atılma arzusu</li>
-    <li>storySource->robotik bir eşle bağ kurma</li>
+    <li>storySource->çığır açan bir şey icat etme hayalleri</li>
+    <li>storySource->efsanevi bir yaratıkla olan bağı</li>
+    <li>storySource->belirli bir manzaraya duyduğu sevgi</li>
+    <li>storySource->ünlü bir [PersonJob] olma hevesi</li>
+    <li>storySource->sosyal kaygıyla verdiği mücadele</li>
+    <li>storySource->ufkun ötesindeki maceralara duyduğu özlem</li>
+    <li>storySource->robotik bir yol arkadaşıyla kurduğu bağ</li>
     <li>storySource->geçmişteki korsanlık maceraları</li>
-    <li>storySource->gizli bir cemiyetle yakın ilişkileri</li>
-    <li>storySource->göçebe yaşadığı yıllar</li>
-    <li>storySource->zamanda yolculuğu duyduğu hayranlık</li>
+    <li>storySource->gizli bir cemiyetle olan yakın bağları</li>
+    <li>storySource->göçebe olarak geçirdiği zaman</li>
+    <li>storySource->zaman yolculuğuna duyduğu hayranlık</li>
     <li>storySource->efsanevi bir eserle olan bağı</li>
     <li>writingQualityAdjective(quality==6)->olağanüstü iyi yazılmış</li>
-    <li>writingQualityAdjective(quality==5)->zekice ve ufuk açıcı</li>
-    <li>writingQualityAdjective(quality==4)->özenli ve etkileyici</li>
+    <li>writingQualityAdjective(quality==5)->zekice ve derinlikli</li>
+    <li>writingQualityAdjective(quality==4)->düşünceli ve etkileyici</li>
     <li>writingQualityAdjective(quality==3)->iyi yazılmış</li>
     <li>writingQualityAdjective(quality==2)->vasat</li>
     <li>writingQualityAdjective(quality==1)->kötü yazılmış</li>
     <li>writingQualityAdjective(quality==0)->neredeyse anlaşılmaz</li>
-    <li>writingQualitySentence(quality[greater_than]4)->Bu [excellentDesc] [excellentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Bu [decentDesc] [decentExtra]</li>
-    <li>writingQualitySentence(quality[less_than]2)->It is [awfulDesc] [awfulExtra]</li>
-    <li>excellentDesc->heyecan verici bir hikâye</li>
-    <li>excellentDesc->insan ruhu üzerine düşünmeye sevk eden bir yolculuk</li>
-    <li>excellentDesc->hikâye dünyanın karmaşıklığı hakkında kişinin ufkunu açıyor</li>
-    <li>excellentDesc->hikâye iyi yazılmış ve hissel açıdan zengin</li>
-    <li>excellentDesc->hikâye yaratıcı ve özgün</li>
-    <li>excellentDesc->hikâye epey özgün ve oldukça iyi yazılmış</li>
-    <li>excellentDesc->hikâye kişinin empati kurabileceği bir mizahla süslenmiş</li>
-    <li>excellentExtra->. Hikâye akışı oldukça doğal</li>
-    <li>excellentExtra->. Elden bırakması çok zor</li>
-    <li>excellentExtra->. En az üç noktada okuyucunun aklını başından alıyor</li>
-    <li>excellentExtra->. Hikâyedeki şaşırtmacalar kestirilemez ama kaçınılmaz hissettiriyor</li>
-    <li>excellentExtra->. Karakterler sanki gerçek hayattan uyarlanmış gibi</li>
-    <li>decentDesc->iyi bir hikâye</li>
-    <li>decentDesc->hikâye ilgi çekici ve içine alıyor</li>
-    <li>decentDesc->hikâye ilginç bir fikrin etrafında kurgulanmış</li>
-    <li>decentDesc->hikâye zaman zaman esprili</li>
-    <li>decentDesc->hikâye bazı bölümlerde sürükleyici</li>
-    <li>decentDesc->hikâye özgün ve tuhaf</li>
-    <li>decentDesc->hikâye belli bir okuyucu türüne hitap ediyor</li>
-    <li>decentExtra-> ama olay örgüsünde bazı boşluklar var</li>
-    <li>decentExtra-> ama çoğu zaman takip etmesi zor</li>
-    <li>decentExtra-> ama devamlılık konusunda hataları var</li>
-    <li>decentExtra-> ama derin duygular açısından eksik</li>
-    <li>decentExtra-> ama karakterler basmakalıp ve karikatür gibi</li>
-    <li>decentExtra-> ama yazar zeki görünme çabasıyla kelimeleri devamlı olarak yanlış kullanıyor</li>
-    <li>decentExtra-> ama dünyası sıradan ve sıkıcı</li>
-    <li>decentExtra-> ama yazımda epey hata var</li>
-    <li>decentExtra-> ama hikâyedeki çoğu dönemeç gereksiz ve olay örgüsünü ilerletmeyi başaramıyor</li>
-    <li>awfulDesc->hikâye epey kötü yazılmış</li>
-    <li>awfulDesc->hikâye korkunç derecede kötü yazılmış</li>
-    <li>awfulDesc->hikâyeyi okuması zor </li>
-    <li>awfulDesc->hikâyeyi takip etmesi zor</li>
-    <li>awfulDesc->hikâye sanatsal açıdan noksan</li>
-    <li>awfulDesc->hikâye olay örgüsünde boşluklarla ve basit karakterlerle dolu</li>
-    <li>awfulDesc->hikâye yazarın kendini yansıttığı karakter tarafından domine edilmiş</li>
-    <li>awfulDesc->hikâye tuhaf olmasına rağmen basit</li>
-    <li>awfulDesc->hikâye olması gerekenden çok daha uzun</li>
-    <li>awfulExtra-> ve neredeyse tutarsız</li>
-    <li>awfulExtra-> ve takip etmesi inanılmaz zor</li>
-    <li>awfulExtra-> ve tutarlı bir olay örgüsü oluşturamıyor</li>
-    <li>awfulExtra-> ve anlam veya tema açısından noksan</li>
-    <li>awfulExtra-> ve hiçbir ilgi çekici düşünce sunmuyor</li>
-    <li>awfulExtra-> ve her karakter sıkıcı</li>
+    <li>writingQualitySentence(quality[greater_than]4)->Bu, [excellentDesc] bir eser[excellentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Bu, [decentDesc] bir eser[decentExtra]</li>
+    <li>writingQualitySentence(quality[less_than]2)->Bu, [awfulDesc] bir eser[awfulExtra]</li>
+    <li>excellentDesc->yürek hoplatan, heyecan dolu</li>
+    <li>excellentDesc->insan ruhunu düşünceli bir şekilde inceleyen</li>
+    <li>excellentDesc->dünyanın karmaşıklığına dair derin içgörüler sunan</li>
+    <li>excellentDesc->sıkı kurgulanmış ve duygu yüklü</li>
+    <li>excellentDesc->yaratıcı ve özgün</li>
+    <li>excellentDesc->son derece özgün ve ustaca işlenmiş</li>
+    <li>excellentDesc->insanın kendinden bir şeyler bulduğu esprilerle dolu</li>
+    <li>excellentExtra->. Her olay bir sonrakine doğal biçimde akıyor</li>
+    <li>excellentExtra->. Sürükleyici ve elden bırakması çok zor</li>
+    <li>excellentExtra->. Okuru en az üç kez hayrete düşürüyor</li>
+    <li>excellentExtra->. Olay örgüsündeki dönemeçler tahmin edilemez ama bir o kadar da kaçınılmaz hissettiriyor</li>
+    <li>excellentExtra->. Karakterler gerçek insanlar gibi</li>
+    <li>decentDesc->fena olmayan</li>
+    <li>decentDesc->ilginç ve sürükleyici</li>
+    <li>decentDesc->ilginç tek bir fikre odaklanan</li>
+    <li>decentDesc->zaman zaman epey komik</li>
+    <li>decentDesc->bazı bölümleri sürükleyici olan</li>
+    <li>decentDesc->özgün ve tuhaf</li>
+    <li>decentDesc->belli bir okur kitlesine hitap eden</li>
+    <li>decentExtra->, ama göze batan kurgu boşlukları var</li>
+    <li>decentExtra->, ama çoğu zaman takip etmesi zor</li>
+    <li>decentExtra->, ama süreklilik hatalarıyla dolu</li>
+    <li>decentExtra->, ama derin duygulardan tamamen yoksun</li>
+    <li>decentExtra->, ama karakterler basmakalıp ve karikatürize</li>
+    <li>decentExtra->, ama yazar akıllı görünmek için kelimeleri sürekli yanlış yerde kullanıyor</li>
+    <li>decentExtra->, ama dünya özgünlükten yoksun ve sıkıcı</li>
+    <li>decentExtra->, ama üslup gereğinden fazla süslü</li>
+    <li>decentExtra->, ama pek çok bölüm gereksiz ve olay örgüsünü ilerletmiyor</li>
+    <li>awfulDesc->çok kötü yazılmış</li>
+    <li>awfulDesc->berbat yazılmış</li>
+    <li>awfulDesc->okuması zor</li>
+    <li>awfulDesc->takip etmesi zor</li>
+    <li>awfulDesc->sanatsal vizyondan yoksun</li>
+    <li>awfulDesc->kurgu boşlukları ve sıradan karakterlerle dolu</li>
+    <li>awfulDesc->yazarın kendini koyduğu bir karakterin domine ettiği</li>
+    <li>awfulDesc->tuhaf ama yine de özgünlükten yoksun</li>
+    <li>awfulDesc->çok ama çok uzun</li>
+    <li>awfulExtra-> ve anlatım neredeyse anlaşılmaz</li>
+    <li>awfulExtra-> ve takip etmesi son derece zor</li>
+    <li>awfulExtra-> ve tutarlı bir olay örgüsü kuramıyor</li>
+    <li>awfulExtra-> ve hiçbir tema ya da anlam duygusu taşımıyor</li>
+    <li>awfulExtra-> ve hiçbir ilginç fikir sunmuyor</li>
+    <li>awfulExtra-> ve bütün karakterler sıkıcı</li>
     <li>awfulExtra-> ve hiçbir noktada belirgin bir ana karakter yok</li>
     <li>maybe_date-></li>
-    <li>maybe_date->Kitap [date_form] yayınlanmış.</li>
-    <li>maybe_date->Metin ilk kez [date_form] basılmış.</li>
-    <li>maybe_date->Kitabın ne zaman yazıldığı tam olarak belli değil.</li>
-    <li>date_form->yakın bir tarihte</li>
-    <li>date_form->asırlar önce</li>
+    <li>maybe_date->Kitap [date_form] yayımlandı.</li>
+    <li>maybe_date->Metin ilk kez [date_form] basıldı.</li>
+    <li>maybe_date->Kitabın tam olarak ne zaman yazıldığı belli değil.</li>
+    <li>date_form->yakın zamanda</li>
+    <li>date_form->yüzyıllar önce</li>
     <li>date_form->[date] tarihinde</li>
-    <li>date_form->[date_season] mevsiminde</li>
-    <li>bookType(p=4)->romanda</li>
-    <li>bookType(p=2)->uzun öyküde</li>
-    <li>bookType->öyküde</li>
-    <li>bookType->anlatıda</li>
-    <li>bookType->biyografide</li>
-    <li>bookType->destansı şiirde</li>
+    <li>date_form->[date_season] döneminde</li>
+    <li>bookType(p=4)->roman</li>
+    <li>bookType(p=2)->kısa roman</li>
+    <li>bookType->hikâye</li>
+    <li>bookType->anlatı</li>
+    <li>bookType->biyografi</li>
+    <li>bookType->destansı şiir</li>
   </Description_Novel.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>subject->[subject_primary]</li>
+  <!-- EN: <li>subject->[subject_primary]</li>
     <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
     <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
     <li>desc(p=2)->[maybe_medium][author_story]. [linkage][subject_primary_story]. [maybe_outro]</li>
@@ -1049,9 +1047,9 @@
     <li>date_form->recently</li>
     <li>date_form->many centuries ago</li>
     <li>date_form->on the [date]</li>
-    <li>date_form->in [date_season]</li>
-  -->
+    <li>date_form->in [date_season]</li> -->
   <Description_Schematic.rulePack.rulesStrings>
+
     <li>subject->[subject_primary]</li>
     <li>desc(p=3)->[maybe_intro][schematic_desc].</li>
     <li>desc->[maybe_intro][schematic_desc].\n\n[maybe_medium][author_story]. [linkage][subject_consequence].</li>
@@ -1072,277 +1070,277 @@
     <li>maybe_date(p=3)-></li>
     <li>maybe_date->[dates]</li>
     <li>subject_intro->[schematic_synonym], [subject] hakkında [state_adjective] bir [diagram_type] [shows_synonym_verb]</li>
-    <li>subject_intro->bu [schematic_synonym] vasıtasıyla [author], [subject] hakkındaki [theory_synonym_adj] [shows_synonym_verb]</li>
-    <li>subject_intro->bu [physical_adjective] [schematic_synonym], [subject] üzerine birkaç [schematic_synonym] [contain_verb]</li>
-    <li>subject_intro->[author], [notable_adjective] [image_types] aracılığıyla [subject] hakkındaki [theory_synonym_adj] sunuyor</li>
-    <li>subject_intro->bu [maybe_physical_adjective][schematic_synonym] [subject_primary] ile ilintili [device_synonym] [shows_synonym_verb1]</li>
-    <li>subject_intro->[schematic_synonym], [subject_primary] ve [subject_secondary] hakkında bir [state_adjective] [diagram_type] [shows_synonym_verb]</li>
-    <li>subject_intro->bu [maybe_physical_adjective][schematic_synonym] [subject_primary] ve [subject_secondary] ile ilintili [device_synonym] [shows_synonym_verb1]</li>
+    <li>subject_intro->bu [schematic_synonym] içinde [author], [subject] hakkındaki [theory_synonym_adj] [shows_synonym_verb]</li>
+    <li>subject_intro->bu [physical_adjective] [schematic_synonym], [subject] odaklı [schematic_synonym] örnekleri [contain_verb]</li>
+    <li>subject_intro->[author], [subject] hakkındaki [theory_synonym_adj] aktarmak için [notable_adjective] [image_types] kullanmış</li>
+    <li>subject_intro->bu [maybe_physical_adjective][schematic_synonym], [subject_primary] ile ilgili [device_synonym] örneklerini [shows_synonym_verb1]</li>
+    <li>subject_intro->[schematic_synonym], [subject_primary] ve [subject_secondary] hakkında [state_adjective] bir [diagram_type] [shows_synonym_verb]</li>
+    <li>subject_intro->bu [maybe_physical_adjective][schematic_synonym], [subject_primary] ve [subject_secondary] ile ilgili [device_synonym] örneklerini [shows_synonym_verb1]</li>
     <li>schematic_desc->[schematic_desc_first][schematic_desc_second]</li>
-    <li>schematic_desc_first->burada [subject_primary_gerund] için anlatılan antik teknoloji, mevcut sistemlere göre [negative_adjective]</li>
-    <li>schematic_desc_first->bu, [subject_primary_gerund] üzerine tam bir [schematic_synonym] değil; yalnızca bir parçası</li>
-    <li>schematic_desc_first->bu [schematic_synonym] bazı noktalarda [negative_adjective]</li>
-    <li>schematic_desc_first->[subject_primary_gerund] için olan bu [schematic_synonym] tamamlanmamış</li>
-    <li>schematic_desc_first->bu [subject_primary_gerund] için olan bu [schematic_synonym] epey karmaşık çünkü dipnotlar çelişkili</li>
-    <li>schematic_desc_first->yazarın [subject_primary_gerund] konusundaki anlayışı [negative_adjective]</li>
-    <li>schematic_desc_first->[schematic_synonym] bir kısımda yırtık</li>
-    <li>schematic_desc_first->alevler ve is, kâğıdı berbat etmiş</li>
-    <li>schematic_desc_first->[subject_primary_gerund] için bu [schematic_synonym] çok [negative_adjective]</li>
-    <li>schematic_desc_first->[subject_primary_gerund] konusundaki kısıtlı [other_subject] sorunu bu [schematic_synonym] için bir engel</li>
-    <li>schematic_desc_first->bu [schematic_synonym], [subject_primary_gerund] hakkındaki muğlak detaylar sebebiyle uygulanması zor durumda</li>
-    <li>schematic_desc_first->bu [negative_adjective] [schematic_synonym], bazen [subject_primary_gerund] hatalarına yol açıyor</li>
-    <li>schematic_desc_first->[subject_primary_gerund] için olan bu [schematic_synonym] estetik açıdan kusurlu</li>
-    <li>schematic_desc_first->[subject_primary_gerund] konusundaki hayal gücü eksikliği sebebiyle bu [schematic_synonym] sınırlı</li>
-    <li>schematic_desc_first->bu [schematic_container] [subject_primary_gerund] hakkında birçok çelişkili şartname içeriyor</li>
-    <li>schematic_desc_first->[other_subject] üzerine anlaşmazlıklar sebebiyle [subject_primary_gerund] için olan bu [schematic_synonym] tartışmalı</li>
-    <li>schematic_desc_first->[author] çizimleri dikkatsizce yaptığından [subject_primary_gerund] konusundaki titiz planları sekteye uğruyor</li>
-    <li>schematic_desc_first->[subject_primary_gerund] için gereken [other_subject] hakkındaki endişeler yüzünden bu [schematic_synonym] sınırlı</li>
-    <li>schematic_desc_first->[subject_primary_gerund] için olan bu [schematic_synonym] birçok kez kopyalandığı için içeriği belirsizleşmiş</li>
-    <li>schematic_desc_first->bu [schematic_synonym], [subject_primary_gerund] ve [subject_secondary_gerund] arasında gerçek bir bağlantı kurmuyor</li>
-    <li>schematic_desc_first->[subject_primary_gerund] ve [subject_secondary_gerund] pek kolay bir araya gelmiyor</li>
-    <li>schematic_desc_first->bu [schematic_container], hem [subject_primary_gerund] hem de [subject_secondary_gerund] için birçok [schematic_synonym] içeriyor</li>
-    <li>schematic_desc_first->bu [schematic_container], hem [subject_tertiary_gerund] hem de [subject_secondary_gerund] için birçok [schematic_synonym] içeriyor</li>
-    <li>schematic_desc_first->bu [schematic_container], hem [subject_primary_gerund] hem de [subject_tertiary_gerund] için birçok [schematic_synonym] içeriyor</li>
-    <li>schematic_desc_first->bu [schematic_container] [subject_primary_gerund], [subject_secondary_gerund] ve [subject_tertiary_gerund] için birçok [schematic_synonym] içeriyor</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Bu durum, konuyu öğrenmeye çalışanlar için çok rahatsız edici</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Bu durum, pek çok noktada onu işlevsiz kılıyor</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Bu durum, aktardığı dersleri geçersiz kılıyor</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Yalnızca yeni başlayanların işine yarar</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Yanlış yönlendiren bir şematik, elde hiç şematik olmamasından bile kötü olabilir</li>
-    <li>schematic_desc_second(quality[less_than]2)->. Bu durum, işe yararlılığı konusunda soru işaretleri oluşturuyor</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-> ama temel noktaları doğru</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-> ama yine de fikir vermeye yetecek kadar veri [contain_verb]</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Ancak bu, deneyimli uygulayıcılar için taşıdığı faydayı azaltmıyor</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)-> yine de çoğu öğrenci için değerli olabilir</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Yeni başlayanlar yine de bundan faydalanabilir</li>
-    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Lakin, hataları yalnızca konunun uzmanları fark edecektir</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Yine de, içeriği dönemine göre istisnai</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Yine de, ileri konseptleri kolaylıkla aktarıyor</li>
-    <li>schematic_desc_second(quality[greater_than]4)-> ama hâlâ herkes için değerli bilgilerle dolu</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Buna rağmen, deneyiminden bağımsız olarak her öğrenci bunu okuyarak faydalanabilir</li>
-    <li>schematic_desc_second(quality[greater_than]4)-> ama sorunları içerdiği bilgilere kıyasla küçük</li>
-    <li>schematic_desc_second(quality[greater_than]4)->. Lakin, öğrettiği şeyler her çağda geçerliliğini korur</li>
-    <li>medium->Dâhilî bir duyusal sistem, dinleyicilere [schematic_origin] [tells_verb]</li>
-    <li>medium->İçine sarılmış bir tomar kişisel belge, [schematic_origin] [tells_verb]</li>
-    <li>medium->Bir etiket, [schematic_origin] sınırlı biçimde [tells_verb]</li>
-    <li>medium->Eklenmiş bir bilgilendirici broşür, [schematic_origin] [tells_verb]</li>
-    <li>medium->Gevşek parşömen yaprakları, [schematic_origin] [tells_verb]</li>
-    <li>medium->İkinci bir kâğıt parçası, [schematic_origin] [tells_verb]</li>
-    <li>medium->Üzerine yazılar kazınmış taş tabletler, [schematic_origin] [tells_verb]</li>
-    <li>medium->Bir çelastik [schematic_container], [schematic_origin] içeriyor</li>
-    <li>medium->Karalanmış bir not yere düşüyor; bu not, [schematic_origin] [tells_verb]</li>
-    <li>medium->Belgenin arka yüzü, [schematic_origin] [tells_verb]</li>
-    <li>medium->Bir kayıt oynatılıyor ve [schematic_origin] [tells_verb]</li>
-    <li>medium->Belge üzerindeki notlar, [schematic_origin] [tells_verb]</li>
-    <li>medium(p=4)->[schematic_origin] belgenin notları [tells_verb]</li>
-    <li>medium->Ekli bir günlük, [schematic_origin] [tells_verb]</li>
-    <li>medium->Arkaik bir mekanizma, [schematic_origin] [tells_verb]</li>
-    <li>medium->Minyatür bir mekanoit canlanıyor ve [schematic_origin] [tells_verb]</li>
+    <li>schematic_desc_first->burada [subject_primary_gerund] için anlatılan antik teknoloji, günümüz sistemlerine kıyasla [negative_adjective]</li>
+    <li>schematic_desc_first->bu, [subject_primary_gerund] için hazırlanmış eksiksiz bir [schematic_synonym] belgesinin yalnızca bir parçası </li>
+    <li>schematic_desc_first->bu [schematic_synonym] birçok yerde [negative_adjective]</li>
+    <li>schematic_desc_first->[subject_primary_gerund] için hazırlanan [schematic_synonym] eksik</li>
+    <li>schematic_desc_first->çelişkili açıklamalar, bu [schematic_synonym] örnekleriyle [subject_primary_gerund] işini zorlaştırıyor</li>
+    <li>schematic_desc_first->yazarın [subject_primary_gerund] konusundaki [negative_adjective] bilgisi her yerden belli oluyor</li>
+    <li>schematic_desc_first->[schematic_synonym] belgesinin bir kısmı yırtılıp koparılmış</li>
+    <li>schematic_desc_first->ateş ve is kâğıdı lekelemiş</li>
+    <li>schematic_desc_first->[subject_primary_gerund] için hazırlanan [schematic_synonym] fazlasıyla [negative_adjective]</li>
+    <li>schematic_desc_first->[subject_primary_gerund] için kısıtlı [other_subject] bu [schematic_synonym] belgesini zayıflatmış</li>
+    <li>schematic_desc_first->[subject_primary_gerund] hakkındaki belirsiz ayrıntılar, bu [schematic_synonym] belgesini uygulamayı zorlaştırıyor</li>
+    <li>schematic_desc_first->bu [negative_adjective] [schematic_synonym], [subject_primary_gerund] sırasında zaman zaman hatalara yol açıyor</li>
+    <li>schematic_desc_first->[subject_primary_gerund] için hazırlanan bu [schematic_synonym] estetik açıdan başarısız</li>
+    <li>schematic_desc_first->[subject_primary_gerund] konusundaki hayal gücü eksikliği bu [schematic_synonym] belgesini sınırlamış</li>
+    <li>schematic_desc_first->bu [schematic_container], [subject_primary_gerund] için birbiriyle çelişen pek çok teknik özellik sunuyor</li>
+    <li>schematic_desc_first->[other_subject] konusundaki anlaşmazlıklar, [subject_primary_gerund] için hazırlanan bu [schematic_synonym] belgesinde belirsizlikler bırakmış</li>
+    <li>schematic_desc_first->özensiz çizimler, [author] tarafından [subject_primary_gerund] için yapılmış titiz planların değerini düşürüyor</li>
+    <li>schematic_desc_first->[subject_primary_gerund] için gereken [other_subject] konusundaki endişeler bu [schematic_synonym] belgesini sınırlamış</li>
+    <li>schematic_desc_first->[subject_primary_gerund] için hazırlanan bu [schematic_synonym] defalarca kopyalanmış ve içeriği bulanıklaşmış</li>
+    <li>schematic_desc_first->bu [schematic_synonym], [subject_primary_gerund] ile [subject_secondary_gerund] arasında gerçek bir bağlantı kurmuyor</li>
+    <li>schematic_desc_first->[subject_primary_gerund] ile [subject_secondary_gerund] kolayca bir araya getirilemiyor</li>
+    <li>schematic_desc_first->bu [schematic_container] hem [subject_primary_gerund] hem de [subject_secondary_gerund] üzerine [schematic_synonym] örnekleri içeriyor</li>
+    <li>schematic_desc_first->bu [schematic_container] hem [subject_tertiary_gerund] hem de [subject_secondary_gerund] üzerine [schematic_synonym] örnekleri içeriyor</li>
+    <li>schematic_desc_first->bu [schematic_container] hem [subject_primary_gerund] hem de [subject_tertiary_gerund] üzerine [schematic_synonym] örnekleri içeriyor</li>
+    <li>schematic_desc_first->bu [schematic_container]; [subject_primary_gerund], [subject_secondary_gerund] ve [subject_tertiary_gerund] üzerine [schematic_synonym] örnekleri içeriyor</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Bu durum, konuyu öğrenmeye çalışanlar için sinir bozucu</li>
+    <li>schematic_desc_second(quality[less_than]2)->, bu da onu çoğu amaç için değersiz kılıyor</li>
+    <li>schematic_desc_second(quality[less_than]2)->, bu da aktardığı dersleri baltalıyor</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Derslerinden yalnızca yeni başlayanlar yararlanabilir</li>
+    <li>schematic_desc_second(quality[less_than]2)->. Yanıltıcı bir şema, hiç şema olmamasından daha kötü olabilir</li>
+    <li>schematic_desc_second(quality[less_than]2)->, bu da yararını tartışmalı hâle getiriyor</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, ama temel bilgiler mevcut</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, ama yine de içgörü sağlayacak kadar veri [contain_verb]</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Yine de bu, deneyimli uygulayıcılar için yararını azaltmıyor</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->, yine de çoğu öğrenci için bir değeri var</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Yeni başlayanlar yine de öğretilerinden faydalanacaktır</li>
+    <li>schematic_desc_second(quality[less_than]5,quality[greater_than]1)->. Yine de kusurları yalnızca uzmanlar fark edecektir</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Yine de içerik, dönemine göre olağanüstü</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, yine de ileri düzey kavramları kolaylıkla aktarıyor</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, ama yine de tüm öğrenenler için bilgelikle dolu</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Buna rağmen, ne kadar deneyimli olursa olsun her öğrenci onu okumaktan fayda görecektir</li>
+    <li>schematic_desc_second(quality[greater_than]4)->, ama sorunlar, barındırdığı bilgi hazinesinin yanında önemsiz kalıyor</li>
+    <li>schematic_desc_second(quality[greater_than]4)->. Yine de öğrettiği dersler zamansız</li>
+    <li>medium->Yerleşik bir duyusal sistem, dinleyenlere [schematic_origin] [tells_verb]</li>
+    <li>medium->İçine rulo hâlinde bir tomar kişisel kâğıt sarılmış; kâğıtlar [schematic_origin] [tells_verb]</li>
+    <li>medium->Bir etiket, kısaca da olsa [schematic_origin] [tells_verb]</li>
+    <li>medium->Ekteki bilgilendirme broşürü [schematic_origin] [tells_verb]</li>
+    <li>medium->Gevşek parşömen yaprakları [schematic_origin] [tells_verb]</li>
+    <li>medium->İkinci bir kâğıt [schematic_origin] [tells_verb]</li>
+    <li>medium->Üzeri yazılı taş tabletler [schematic_origin] [tells_verb]</li>
+    <li>medium->Plasçelik bir [schematic_container] üzerine [schematic_origin] anlatan bir yazı kazınmış</li>
+    <li>medium->İçinden karalanmış bir not düşüyor; not [schematic_origin] [tells_verb]</li>
+    <li>medium->Belgenin arka yüzü [schematic_origin] daha ayrıntılı biçimde [tells_verb]</li>
+    <li>medium->Bir kayıt çalmaya başlıyor ve [schematic_origin] [tells_verb]</li>
+    <li>medium->Belgedeki notlar olmasa, [schematic_origin] öğrenmek tahmine kalırdı</li>
+    <li>medium(p=4)->[schematic_origin] anlatan bilgiler, belgenin notlarında yer alıyor</li>
+    <li>medium->Ekli bir günlük [schematic_origin] anlatıyor</li>
+    <li>medium->Arkaik bir mekanizma [schematic_origin] [tells_verb]</li>
+    <li>medium->Minyatür bir mekanoid vızıldayarak canlanıyor ve [schematic_origin] anlatıyor</li>
     <li>tells_verb->anlatıyor</li>
     <li>tells_verb->aktarıyor</li>
+    <li>tells_verb->hikâye ediyor</li>
     <li>tells_verb->bildiriyor</li>
-    <li>tells_verb->raporluyor</li>
-    <li>schematic_origin->şematiğin yapılışının [notable_adjective] hikâyesini</li>
-    <li>schematic_origin->yazarın şematiği nasıl ortaya koyduğunu</li>
-    <li>schematic_origin->şematiğin yazarının [notable_adjective] yaşamını</li>
-    <li>schematic_origin->şematiğin yazılış hikâyesini</li>
+    <li>schematic_origin->şemanın yaratılışının [notable_adjective] hikâyesini</li>
+    <li>schematic_origin->yazarın şemayı nasıl yarattığını</li>
+    <li>schematic_origin->şemanın yazarının [notable_adjective] hayatını</li>
+    <li>schematic_origin->bu şemanın yaratılışına dair bir hikâyeyi</li>
     <li>schematic_origin->bu [notable_adjective] diyagramın kökenini</li>
-    <li>schematic_origin->yazarın yaşamı hakkında [notable_adjective] bir hikâye</li>
-    <li>schematic_origin->bu [notable_adjective] belgenin neden Kenardünya'ya geldiği ve bunu kimin yazdığı hakkındaki söylentileri</li>
+    <li>schematic_origin->yazarın hayatına dair [notable_adjective] bir hikâyeyi</li>
+    <li>schematic_origin->bu [notable_adjective] belgenin neden Sınır'a düştüğüne ve onu kimin yazdığına dair bir söylentiyi</li>
     <li>author_story->[author_storyname][author_intent]</li>
     <li>author_story->[author_storyname][learning_story]</li>
     <li>author_story->[author_storyname][calltoadventure]</li>
     <li>author_storyname(p=3)->[ANYPAWN_nameFull]</li>
-    <li>author_storyname->anonim [authorTitle]</li>
-    <li>author_intent-> henüz genç yaşta [subject] hakkında bilgiye açtı ve memleketindeki herkesi bu konuda sorguladı</li>
-    <li>author_intent-> [subject] alanında atılım yaparak Kuhn[worldname] gezegeninde bilim devrimi yapma hayali kuruyordu</li>
-    <li>author_intent-> hayatını [subject] alanına adadı</li>
-    <li>author_intent-> [subject] üzerine görüşlerini [written_when] yazdığı bir [physical_adjective] kitapta paylaştı</li>
-    <li>author_intent-> [subject] üzerine çalışmaktan daha yüce bir amaç tanımıyordu ve [written_when] bu şematiği yazdı</li>
-    <li>author_intent-> annesinin [physical_adjective] çalışma odasında [subject] sırlarını tesadüfen keşfetti</li>
-    <li>author_intent-> çocukken ağır hastaydı ama zamanını [subject] üzerine çalışarak değerlendirdi</li>
-    <li>author_intent-> bütün dünyanın [subject] hakkında bilgi sahibi olmasını istedi ve [written_when] bu şematiği yazdı</li>
-    <li>author_intent-> galaksinin [subject] hakkında bilgi sahibi olmasını istedi</li>
-    <li>author_intent-> okuduğu çocuk kitapları sayesinde [subject] aşkına tutuldu</li>
-    <li>author_intent-> [subject] çalışmayı hiç sevmedi ama bunu yapmak zorundaydı</li>
-    <li>author_intent-> [subject] onun varoluş sebebi gibi hissetti</li>
-    <li>learning_story-> [subject] hakkında bilgi arayarak uzak diyarlara seyahat etti</li>
-    <li>learning_story-> her gün aynı hayatı yaşadı, [midworld] gezegenin döngüsel şehirlerinde [subject] üzerine çalıştı</li>
-    <li>learning_story-> [urbworld] gezegeninde [subject]-odaklı bir varoş okulu buldu</li>
-    <li>learning_story-> [worldname] Akademisi'nden [subject] alanında onur öğrencisi olarak mezun oldu</li>
-    <li>learning_story-> vahşi [animalworld] gezegeninde [subject] alanında kendi kendini geliştirdi</li>
-    <li>learning_story-> [ruinworld] harabelerinde, [subject] hakkında kayıp şemalardan oluşan bir hazine keşfetti</li>
-    <li>learning_story-> traversed the blackened streets of [steamworld], chasing [subject] amidst the sootfall</li>
-    <li>learning_story-> kararmış [steamworld] sokaklarında, is yağmuru altında [subject] hakkında bilgi arayarak dolaştı</li>
-    <li>learning_story-> [subject] uzmanlarına dair söylentilerin yayıldığı zehirli [toxicworld] bataklıklarında bir şekilde hayatta kalmayı başardı</li>
-    <li>learning_story-> [transcendentworld] gezegeninde iletişim trafiğini yakalayarak [subject] hakkında bilgi edindi</li>
-    <li>learning_story-> katırlarla birlikte [mineworld] gezegenin derinliklerine indi, yaşlı madencilerin [subject] hikâyelerini dinleyerek sırlarını öğrendi</li>
-    <li>learning_story-> [coreworld] gezegeninde sözleşmeli bir [subject] uzmanıydı</li>
-    <li>learning_story-> [indworld] gezegeninde fabrikaların sahibiydi; işçileri didinirken [subject] tutkusuna kendini kaptırmıştı</li>
-    <li>learning_story-> [prisonworld] gezegenindeki Hücrekent V'de hapsedilmişti, masumiyetini hep savunarak [subject] hakkında bilgi edindi</li>
-    <li>learning_story-> çöplükdünya [trashworld] gezegenin koloni-yığınlarında, ışıltıdünya sakinlerinin attığı parçaları toplayarak bu [subject] şemasını bir araya getirdi</li>
-    <li>learning_story-> [dinoworld] gezegende klonlanmış apatovorlar yetiştirdi ve etlerini [subject] bilgisi karşılığında takas etti</li>
-    <li>learning_story-> [urbworld] gezegenin gökdelenlerinde yaşadı; burada [subject] bilgisi yaygındı</li>
-    <li>learning_story-> [ruinworld] gezegenin dış ölü topraklarında büyüdü; hayatta kalmak için [subject] öğrendi</li>
-    <li>calltoadventure-> hayatının durağan olduğunu hissediyordu. Sonra bir gün, [subject] ile karşılaştı</li>
-    <li>calltoadventure-> kendi başına [subject] odaklı yeni bir koloni kurmakla görevlendirildi</li>
-    <li>calltoadventure-> kardeşi hayatını kaybetti, bu onu ailedeki [subject] uzmanı yaptı</li>
-    <li>calltoadventure-> [subject] üzerine kurulmuş bir terk edilmiş Işıltıdünya kolonisini öğrendi</li>
-    <li>calltoadventure-> bir güneş kruvazöründeyken [feudalworld] korsanları tarafından yakalandı. Bir [subject] uzmanı olarak yüksek fidyeyle el değiştirdi</li>
-    <li>calltoadventure-> rotasından saparak [deadworld] gezegenine savruldu, burada [subject] hakkında bilgi edindi</li>
-    <li>calltoadventure-> bozulmuş bir mekanoitte [subject] hakkında bir veri dosyası buldu</li>
-    <li>calltoadventure-> bir toprak köstebeğini yuvasına kadar takip etti; köstebek orada kendisine [subject] öğretti</li>
-    <li>calltoadventure-> [iceworld] gezegeninde [subject] hayranı bir Yttakin klanı tarafından büyütüldü</li>
-    <li>calltoadventure-> sanguofaj klonlayıcılar tarafından yaratıldı ve [subject] aşığı oldu</li>
-    <li>calltoadventure-> [warworld] gezegeninde büyüdü, çalıntı bir kargo kapsülüyle kaçtı. Aylarca tek okuması bir [subject] kılavuzuydu</li>
-    <li>calltoadventure-> ömrünü [shellworld] gezegenin katmanlarında bir arızalı [subject] mekanoidin peşinde dolaşarak geçirdi</li>
-    <li>calltoadventure-> [medievalworld] gezegenindeki serflikten, [subject] uzmanı bir tüccarın yıldız gemisine kaçak binerek kurtuldu</li>
-    <li>calltoadventure-> kenardünyaya seyahat etti ve geri döndü, [rimworld] gezegeninde [subject] hakkında bilgi edindi</li>
-    <li>calltoadventure-> [oceanicworld] gezegenin denizlerinde yol aldı, [subject] sırlarını canlı okyanuslardan öğrendiğini iddia etti</li>
-    <li>calltoadventure-> [worldname] gezegeninin asteroit kuşağında yerçekimsiz bir toplayıcıydı; [subject] sırlarını ya [asteroid] A3 ya da [asteroid] 7DD'de buldu</li>
-    <li>written_when-> idamından önceki gece</li>
-    <li>written_when-> genç yaşında</li>
-    <li>written_when-> [worldname] gezegeninin Mavi Dönem'inde</li>
-    <li>written_when-> doktora sonrası tezinin bir parçası olarak</li>
-    <li>written_when-> kenardünyalarda geçirdiği yıllarda</li>
-    <li>written_when-> ur-[worldname] klon tesislerinde</li>
-    <li>written_when-> [notable_adjective] ka'[worldname] ayininin son aşaması olarak</li>
-    <li>written_when-> ebeveynlerinden kalma bir mektup parçasının arkasına gelişigüzel</li>
-    <li>written_when-> ilk tasarısının üzerinden yıllar geçtikten sonra</li>
-    <li>written_when-> yaşlılığında</li>
-    <li>written_when-> uyuyamadığı akşamlar</li>
-    <li>written_when-> çocuklarıyla ilgilenmekten arta kalan zamanlarda</li>
-    <li>written_when-> cepheye giderken aceleyle</li>
-    <li>written_when-> verandada soğuk bir şeyler yudumlayarak geçirdiği boş zamanlarda</li>
-    <li>written_when-> genç yaşta, akranları oyun oynarken tek başına çalışarak</li>
+    <li>author_storyname->adı bilinmeyen [authorTitle]</li>
+    <li>author_intent-> küçük yaşlardan beri [subject] konusunda bilgiye açtı ve memleketindeki herkese sorular yağdırdı</li>
+    <li>author_intent-> [subject] alanını yeniden canlandırmayı ve Kuhn[worldname] üzerinde bilimsel bir devrime öncülük etmeyi hayal etti</li>
+    <li>author_intent-> [subject] konusunu hayatının eseri yaptı</li>
+    <li>author_intent-> [subject] hakkındaki görüşlerini [written_when] yazdığı [physical_adjective] bir kitapta paylaştı</li>
+    <li>author_intent-> [subject] çalışmaktan daha yüce bir uğraş bilmiyordu ve bu şemayı [written_when] oluşturdu</li>
+    <li>author_intent-> [subject] sırlarına annesinin [physical_adjective] çalışma odasında rastladı</li>
+    <li>author_intent-> çocukken ağır hastaydı ama bu zamanı [subject] çalışarak değerlendirdi</li>
+    <li>author_intent-> dünyanın [subject] hakkında bilgi sahibi olmasını istedi ve bu şemayı [written_when] oluşturdu</li>
+    <li>author_intent-> galaksinin [subject] hakkında bilgi sahibi olması gerektiğine inanıyordu</li>
+    <li>author_intent-> bir çocuk kitabı serisi sayesinde [subject] sevdasına kapıldı</li>
+    <li>author_intent-> [subject] çalışmayı hiç sevmedi ama buna mecburdu</li>
+    <li>author_intent-> [subject] alanının kendi çağrısı olduğunu hissetti</li>
+    <li>learning_story-> [subject] hakkında bilgelik arayarak diyar diyar dolaştı</li>
+    <li>learning_story-> [midworld] gezegeninin döngüsel şehirlerinde her gün birbirinin aynısı olan günler yaşayarak [subject] üzerine çalıştı</li>
+    <li>learning_story-> [urbworld] gezegeninde [subject] odaklı bir gecekondu okulundan yetişti</li>
+    <li>learning_story-> [worldname] Akademisi'nden [subject] alanında onur derecesiyle mezun oldu</li>
+    <li>learning_story-> vahşi dünya [animalworld] üzerinde [subject] konusunu kendi kendine öğrendi</li>
+    <li>learning_story-> [ruinworld] harabelerinde [subject] hakkında kayıp şemalardan oluşan bir hazine keşfetti</li>
+    <li>learning_story-> [steamworld] gezegeninin kararmış sokaklarında, yağan isin ortasında [subject] peşinde koştu</li>
+    <li>learning_story-> [subject] uzmanlarına dair söylentilerin yayıldığı [toxicworld] gezegeninin zehirli bataklıklarından bir şekilde sağ çıktı</li>
+    <li>learning_story-> camlaşmış dünya [glassworld] gezegeninin erimiş banliyölerini [subject] bilgisi arayarak didik didik etti</li>
+    <li>learning_story-> aşkın küre [transcendentworld] çevresinde yörüngede dolaştı ve iletişim trafiğini dinleyerek [subject] hakkında bilgi edindi</li>
+    <li>learning_story-> katırlarla birlikte [mineworld] gezegeninin derinliklerine indi; yaşlı madencilerin [subject] hikâyelerini dinleyip sırlarını öğrendi</li>
+    <li>learning_story-> merkez dünya [coreworld] üzerinde sözleşmeli bir [subject] uzmanıydı</li>
+    <li>learning_story-> sanayi dünyası [indworld] üzerindeki fabrikaların sahibiydi; işçileri köle gibi çalışırken o [subject] tutkusunun keyfini sürdü</li>
+    <li>learning_story-> [prisonworld] gezegenindeki Hücrekent V'te hapisteyken [subject] öğrendi ve masum olduğunu söyleyip durdu</li>
+    <li>learning_story-> bu [subject] şemasını çöp dünyası [trashworld] gezegeninin kovan yığınlarında, aylak parıltı dünyası vatandaşlarının attığı parçaları toplayarak bir araya getirdi</li>
+    <li>learning_story-> [dinoworld] gezegeninde klonlanmış apatovorlar yetiştirdi ve etlerini [subject] bilgisiyle takas etti</li>
+    <li>learning_story-> [subject] bilgisinin yaygın olduğu [urbworld] gezegeninin gökdelenlerinde yaşadı</li>
+    <li>learning_story-> [ruinworld] gezegeninin uzak ölü topraklarında büyüdü ve hayatta kalmak için [subject] öğrendi</li>
+    <li>calltoadventure-> hayatının durgunlaştığını hissediyordu. Sonra bir gün [subject] ile tanıştı</li>
+    <li>calltoadventure-> tek başına, [subject] odaklı yeni bir koloni kurmakla görevlendirildi</li>
+    <li>calltoadventure->, ağabeyi ya da ablası ölünce ailenin [subject] uzmanı olarak geriye kaldı</li>
+    <li>calltoadventure-> [subject] üzerine yoğunlaşmış, terk edilmiş bir parıltı dünyası kolonisini duydu</li>
+    <li>calltoadventure-> [feudalworld] korsanlarınca ele geçirilen bir güneş kruvazöründeydi. Bir [subject] uzmanı olduğu için yüksek bir fidye karşılığında serbest bırakıldı</li>
+    <li>calltoadventure-> rotasından sapıp ölü dünya [deadworld] gezegenine savruldu ve orada [subject] öğrendi</li>
+    <li>calltoadventure-> bozuk bir mekanoidin içinde [subject] hakkında bir veri dosyası buldu ve ondan öğrendi</li>
+    <li>calltoadventure-> bir köstebeği yuvasına kadar takip etti; köstebek orada ona [subject] öğretti</li>
+    <li>calltoadventure-> [iceworld] gezegeninde [subject] sever bir Yttakin klanı tarafından büyütüldü</li>
+    <li>calltoadventure-> sanguofaj klonlayıcılar tarafından yaratıldı ve [subject] ile uğraşmaktan zevk aldı</li>
+    <li>calltoadventure-> [warworld] gezegeninde büyüdü ve çalıntı bir kargo kapsülüyle kaçtı. Aylarca okuyabildiği tek şey bir [subject] kılavuzuydu</li>
+    <li>calltoadventure-> ömrünü kabuk dünya [shellworld] katmanları boyunca yukarı tırmanarak, arızalı bir [subject] mekanoidinin peşinde geçirdi</li>
+    <li>calltoadventure-> [subject] uzmanı bir tüccarın yıldız gemisine kaçak olarak binip [medievalworld] köylerindeki serflikten kurtuldu</li>
+    <li>calltoadventure-> Sınır'a gidip döndü ve [rimworld] üzerinde [subject] öğrendi</li>
+    <li>calltoadventure-> [oceanicworld] denizlerinde yelken açtı ve [subject] sırlarını canlı okyanusların kendisinden öğrendiğini iddia etti</li>
+    <li>calltoadventure-> [worldname] asteroit kuşağında sıfır yerçekiminde çöpçülük yaptı ve [subject] sırlarını ya [asteroid] A3 ya da [asteroid] 7DD üzerinde buldu</li>
+    <li>written_when->idamından önceki gece</li>
+    <li>written_when->ilk yıllarında</li>
+    <li>written_when->[worldname] gezegeninin Mavi Dönemi'nde</li>
+    <li>written_when->doktora sonrası tezinin bir parçası olarak</li>
+    <li>written_when->Sınır boyunca dolaşırken</li>
+    <li>written_when->ur-[worldname] klon tesislerinde</li>
+    <li>written_when->[notable_adjective] ka'[worldname] ritüelinin son aşaması olarak</li>
+    <li>written_when->ailesinden gelen bir mektup kâğıdı parçasının arkasına, öylesine</li>
+    <li>written_when->ilk kez tasarladıktan yıllar sonra</li>
+    <li>written_when->yaşlılığında</li>
+    <li>written_when->akşamları, uykusundan çaldığı zamanlarda</li>
+    <li>written_when->çocuklarına bakmadığı zamanlarda</li>
+    <li>written_when->cepheye giderken, aceleyle</li>
+    <li>written_when->verandasında soğuk içeceğini yudumlarken, keyifle</li>
+    <li>written_when->genç yaşta, yaşıtları oyun oynarken tek başına çalışarak</li>
     <li>subject_consequence(p=18)->[subject_primary_story]</li>
     <li>subject_consequence->[digression]</li>
-    <li>digression->Bir noktada, [digression_subject] hakkında kafa karıştırıcı bir tartışmaya dönüşüyor</li>
-    <li>digression->Şematiğin anlatısı burada yolunu kaybederek [digression_subject] konusuna sapıyor</li>
-    <li>digression->[author] buraya [digression_subject] hakkında bir dipnot bırakmış</li>
-    <li>digression->Anlatının neden [digression_subject] konusuna evrildiği belirsiz</li>
-    <li>digression->İlginçtir ki, şematik [digression_subject] hakkında bilgiler [contain_verb]</li>
-    <li>digression->Bölümlerden [digression_subject] üzerine olanı konuyla alakasız</li>
+    <li>digression->Bir noktada hikâye, [digression_subject] hakkında kafa karıştırıcı bir tartışmaya sapıyor</li>
+    <li>digression->Şemanın anlatısı burada yolunu kaybedip [digression_subject] konusuna sapıyor</li>
+    <li>digression->[author] buraya [digression_subject] hakkında bir dipnot eklemiş</li>
+    <li>digression->Hikâyenin neden [digression_subject] konusuna döndüğü belli değil</li>
+    <li>digression->Şemanın [digression_subject] hakkında bilgi [contain_verb] olması şaşırtıcı</li>
+    <li>digression->[digression_subject] ile ilgili bölüm konuyla alakasız</li>
     <li>digression_subject->aşk ve savaş</li>
-    <li>digression_subject->bitmez tükenmez küçük politik ayrımlar</li>
-    <li>digression_subject->Işıltıdünya mutfağında trendler</li>
-    <li>digression_subject->[animalworld] ve [urbworld] modaları</li>
-    <li>digression_subject->aşk artırıcıların yaygın kullanımına dair dedikodular</li>
-    <li>digression_subject->[glitterworld] filosunun yüzyıl önceki askerî konuşlanmaları</li>
-    <li>digression_subject->merkezdünya ile süper kütleli kara delikler arasındaki gizemli ilişkiler</li>
-    <li>digression_subject->[deadworld] gezegeninin akıbetine dair söylentiler</li>
-    <li>digression_subject->[dinoworld] gezegenindeki tür varyasyonları</li>
-    <li>digression_subject->[feudalworld] gezegenindeki feodalizmle olan deneyimi</li>
-    <li>digression_subject->[glassworld] gezegeninin yıkılmış şehirlerindeki mikrop eksikliği</li>
-    <li>digression_subject->[indworld] sınaidünyasının yoksullarının kısa yaşamları</li>
-    <li>digression_subject->[worldname] savaşının ardından, buhardünyalarda yüksek yıkıntılarda yaşayan toplayıcıların adaptasyonları</li>
-    <li>digression_subject->[coreworld] merkezdünyanın gökdelenlerinde neutroamin takası</li>
-    <li>aftermath->Sayfalar, yazarın hikâyesine dair başka bir şey iletmiyor</li>
-    <li>aftermath->Farklı bir el yazısıyla yazılmış bir [note], yazarın en son [deathworld] gezegenine doğru yola çıktığını söylüyor</li>
-    <li>aftermath->Bazı sayfalar buradan yırtılmış</li>
-    <li>aftermath->Yapraklar kahverengi lekelerle kaplı</li>
+    <li>digression_subject->bitmek bilmeyen, giderek önemsizleşen siyasi ayrımlar</li>
+    <li>digression_subject->parıltı dünyası mutfak akımları</li>
+    <li>digression_subject->[animalworld] ve [urbworld] moda piyasaları</li>
+    <li>digression_subject->aşk güçlendiricilerin yaygın kullanımına dair iftira dolu dedikodular</li>
+    <li>digression_subject->bir asır önceki [glitterworld] filosunun askerî konuşlanması</li>
+    <li>digression_subject->merkez dünyaların süper kütleli kara deliklerle gizemli ilişkileri</li>
+    <li>digression_subject->ölü dünya [deadworld] ve akıbetine dair söylentiler</li>
+    <li>digression_subject->dinozor gezegeni [dinoworld] üzerindeki tür varyantları</li>
+    <li>digression_subject->[ANYPAWN_possessive] [feudalworld] gezegenindeki feodalizm deneyimi</li>
+    <li>digression_subject->[glassworld] gezegeninin yıkılmış şehirlerinde mikrop bulunmaması</li>
+    <li>digression_subject->[indworld] yoksullarının kısa ömürleri</li>
+    <li>digression_subject->[worldname] savaşı sonrası kent dünyalarındaki harabe çöpçülerinin uyum biçimleri</li>
+    <li>digression_subject->[coreworld] gezegeninin zengin gökdelenlerinde nötroamin takası</li>
+    <li>aftermath->Sayfalarda [author] hakkında başka bir şey anlatılmıyor</li>
+    <li>aftermath->Farklı bir el yazısıyla yazılmış bir [note], [author] olarak bilinen kişinin en son [deathworld] gezegenine doğru giderken görüldüğünü söylüyor</li>
+    <li>aftermath->Buradan sayfalar koparılmış</li>
+    <li>aftermath->Yapraklar kahverengi lekelerle dolu</li>
     <li>aftermath->Maceralarına rağmen bu şemayı oluşturmayı başardı</li>
-    <li>aftermath->Yaşamının son yıllarını bu şemaya adadı</li>
+    <li>aftermath->Son yıllarını bu şemaya adadı</li>
     <li>aftermath->Daha sonra bu çalışmada huzur buldu. [subject_chat]</li>
-    <li>aftermath->Hikâyesi burada, [worldname] üzerindeki çalışmasının teknik bir tanımıyla sona eriyor. [subject_chat]</li>
-    <li>subject_chat->Yazarın çalışması, onu [subject] konusunda otorite kılıyor</li>
-    <li>subject_chat->Bu [subject] belgesindeki bulgulara çok az kişi itiraz eder</li>
-    <li>subject_chat->Bu belge, [subject] ile ilgilenen herkes için ilham verici olacaktır</li>
-    <li>subject_chat->Şemalar solmuş olsa da, yazarın [subject] dersleri hâlâ değerlidir</li>
+    <li>aftermath->Hikâyesi burada, [worldname] üzerindeki çalışmalarının teknik bir anlatımıyla sona eriyor. [subject_chat]</li>
+    <li>subject_chat->[author] imzalı bu çalışma, onun [subject] konusunda bir otorite olduğunu kanıtlıyor</li>
+    <li>subject_chat->Bu [subject] belgesindeki bulgulara pek az kişi itiraz ediyor</li>
+    <li>subject_chat->Bu belge, [subject] ile ilgilenen herkese ilham verecek</li>
+    <li>subject_chat->Diyagramlar solmuş olsa da [author] tarafından verilen [subject] dersleri değerli</li>
     <li>authorTitle->yazar</li>
-    <li>authorTitle->muharrir</li>
+    <li>authorTitle->kâtip</li>
     <li>authorTitle->müellif</li>
-    <li>linkage->bu ona ilham verdi ve o </li>
-    <li>linkage->bu işe yaradı ve o </li>
-    <li>linkage->bilgisini kullanarak o </li>
-    <li>linkage->bu işe yaramaz sandı ta ki o </li>
-    <li>linkage->bu yüzden o </li>
-    <li>linkage->[worldname] gezegeninde, bilgilerini kullandı ve </li>
-    <li>linkage->uzmanlaşmak için, [worldname] adlı bir yere seyahat etti ve </li>
-    <li>notable_adjective->meşhur</li>
-    <li>notable_adjective->muğlak</li>
+    <li>linkage->bu ona ilham verdi ve </li>
+    <li>linkage->bu bilgi daha sonra işine yaradı: </li>
+    <li>linkage->bu bilgiyi kullanarak </li>
+    <li>linkage->bu bilgiden şöyle yararlandı: </li>
+    <li>linkage->bu yüzden </li>
+    <li>linkage->[worldname] üzerinde içgörüsünü kullandı ve </li>
+    <li>linkage->bu konuda ustalaşmak için [worldname] gezegenine gitti ve orada </li>
+    <li>notable_adjective->ünlü</li>
+    <li>notable_adjective->az bilinen</li>
     <li>notable_adjective->ikonik</li>
     <li>notable_adjective->klasik</li>
-    <li>notable_adjective->yaygın</li>
-    <li>notable_adjective->bilindik</li>
-    <li>negative_adjective->iptidai</li>
+    <li>notable_adjective->sıradan</li>
+    <li>notable_adjective->tanıdık</li>
+    <li>negative_adjective->kaba</li>
     <li>negative_adjective->basit</li>
     <li>negative_adjective->ilkel</li>
     <li>negative_adjective->vasat</li>
-    <li>negative_adjective->kusurlu</li>
-    <li>negative_adjective->eksik</li>
+    <li>negative_adjective->hatalı</li>
+    <li>negative_adjective->yetersiz</li>
     <li>appearance(p=3)->[phys_desc]</li>
     <li>appearance->[nonphys_desc]</li>
     <li>phys_desc(quality[less_than]5,quality[greater_than]1)->[physical_yet_statement]</li>
     <li>phys_desc(quality[less_than]4)->[negative_physical_statement1]</li>
     <li>phys_desc(quality[greater_than]3)->[positive_physical_statement1]</li>
     <li>phys_desc(p=2)->[physical_yet_statement]</li>
-    <li>phys_desc(quality[less_than]3)->bu belge [stink] [badsmells]</li>
-    <li>phys_desc(quality[greater_than]4)->bu belgede [scent] [smells]</li>
+    <li>phys_desc(quality[less_than]3)->bu belge [stink] gibi [badsmells]</li>
+    <li>phys_desc(quality[greater_than]4)->bu belge [scent] [smells]</li>
     <li>nonphys_desc->[otherwordly_nonphys_desc]</li>
     <li>nonphys_desc->[technical_nonphys_desc]</li>
     <li>nonphys_desc->[academic_nonphys_desc]</li>
     <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[negative_physical_statement1] ama [positive_physical_statement2]</li>
     <li>physical_yet_statement(quality[less_than]5,quality[greater_than]1)->[positive_physical_statement1] ama [negative_physical_statement2]</li>
     <li>physical_yet_statement(quality[greater_than]4)->[positive_physical_statement1] ve [positive_physical_statement2]</li>
-    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Aynı zamanda, [negative_physical_statement2]</li>
+    <li>physical_yet_statement(quality[less_than]2)->[negative_physical_statement1]. Ayrıca [negative_physical_statement2]</li>
     <li>negative_physical_statement->[negative_physical_statement1]</li>
     <li>negative_physical_statement->[negative_physical_statement2]</li>
-    <li>negative_physical_statement1->düzensiz yırtıklar dana derisi kapağı bozmuş</li>
-    <li>negative_physical_statement1->yazarın öğrencilerinden biri ön yaprağa imzasını atmış</li>
-    <li>negative_physical_statement1->ekşi tatta bir özsu kaplamış</li>
+    <li>negative_physical_statement1->buzağı derisi kapakta tırtıklı yırtıklar var</li>
+    <li>negative_physical_statement1->ön sayfayı, [author] olarak bilinen kişinin öğrencilerinden biri imzalamış</li>
+    <li>negative_physical_statement1->üzerini ekşi tadı olan yapışkan bir sıvı kaplamış</li>
     <li>negative_physical_statement2->çürümüş kapak okuyanın ellerine yapışıyor</li>
-    <li>negative_physical_statement2->kurtçuklar ince kâğıdın altına yuva yapmış ve kitap açıldığında sinekler dışarı uçuşuyor</li>
-    <li>negative_physical_statement2->sayfalar çürümekte olan parşömene yazılmış gibi görünüyor</li>
-    <li>negative_physical_statement2->sayfalar kırmızı mürekkeple sırılsıklam</li>
+    <li>negative_physical_statement2->kâğıtların altında kurtçuklar yuva yapmış ve kitap açılınca sinekler uçuşuyor</li>
+    <li>negative_physical_statement2->sayfalar ufalanan parşömene yazılmış gibi</li>
+    <li>negative_physical_statement2->sayfalar kırmızı mürekkebe bulanmış</li>
     <li>positive_physical_statement->[positive_physical_statement1]</li>
     <li>positive_physical_statement->[positive_physical_statement2]</li>
-    <li>positive_physical_statement1->iç sayfalar tertemiz</li>
-    <li>positive_physical_statement1->sayfalar ince bir çelastik türeviden yapılmış</li>
-    <li>positive_physical_statement1->her sayfa, elmas benzeri esnek bir yapıdan oluşuyor</li>
-    <li>positive_physical_statement1->dokunulduğunda sıcak hissediliyor</li>
-    <li>positive_physical_statement2->saygın bir merkezdünya yayınevinin kalite damgasını taşıyor: [coreworld] Şemaları</li>
-    <li>positive_physical_statement2->sayfa kenarları hâlâ kesilmemiş</li>
-    <li>positive_physical_statement2->yarı değerli plastikler yüzeyinde parıldıyor</li>
-    <li>otherwordly_nonphys_desc->şemayı tutarken oda bulanıklaşıyor</li>
+    <li>positive_physical_statement1->içindeki sayfalar tertemiz</li>
+    <li>positive_physical_statement1->sayfalar ince bir plasçelik türevinden yapılmış</li>
+    <li>positive_physical_statement1->her sayfa esnek, elmas benzeri bir yapıdan oluşuyor</li>
+    <li>positive_physical_statement1->dokununca sıcak</li>
+    <li>positive_physical_statement2->saygın bir merkez dünya yayınevinin, [coreworld] Şemaları'nın kalite damgasını taşıyor</li>
+    <li>positive_physical_statement2->sayfaların kenarları hâlâ kesilmemiş</li>
+    <li>positive_physical_statement2->yüzeyinde yarı değerli plastikler parıldıyor</li>
+    <li>otherwordly_nonphys_desc->[author] tarafından çizilen şema ele alındığında oda dönmeye başlıyor</li>
     <li>otherwordly_nonphys_desc->şemaya bakmak bile okuyanın başını ağrıtıyor</li>
-    <li>otherwordly_nonphys_desc->şemaya bakarken rünler okuyanın göz ucunda hareket ediyor gibi</li>
-    <li>otherwordly_nonphys_desc->şema çevresine fısıltılar yayıyor</li>
-    <li>otherwordly_nonphys_desc->şema akıl almaz derecede kadim bir varlığın psişik izini taşıyor</li>
-    <li>technical_nonphys_desc->şemanın karmaşıklığı sıradan bir okuyucunun anlayışını aşıyor</li>
-    <li>technical_nonphys_desc->notasyon biçimi alışılmadık; yok olmuş bir İmpid lehçesinden alınmış</li>
-    <li>technical_nonphys_desc->şemanın sayfalarından kablolar geçiyor, ama cihaz neredeyse işlevsiz durumda</li>
-    <li>technical_nonphys_desc->[author], aynı mekanizmayı üç farklı dilde açıklamış</li>
-    <li>academic_nonphys_desc->bu şema, yazara ilham veren bir cin öğretmene ithaf edilmiştir</li>
-    <li>academic_nonphys_desc->bu belge, yazarı destekleyen kurumun armasıyla işaretlenmiş</li>
-    <li>badsmells->kokuyor</li>
-    <li>badsmells->kokusu taşıyor</li>
-    <li>badsmells->kokusu yayıyor</li>
-    <li>badsmells->kokusu saçıyor</li>
-    <li>badsmells->kokusuna bulanmış</li>
-    <li>stink->ceset</li>
+    <li>otherwordly_nonphys_desc->şemaya bakınca rünler göz ucunda kıpırdıyor gibi</li>
+    <li>otherwordly_nonphys_desc->[author] tarafından çizilen şemanın etrafını fısıltılar sarıyor</li>
+    <li>otherwordly_nonphys_desc->[author] tarafından çizilen şema, akıl almaz derecede kadim bir şeyin psişik izini taşıyor</li>
+    <li>technical_nonphys_desc->şemanın karmaşıklığı sıradan bir okurun kavrayabileceğinin ötesinde</li>
+    <li>technical_nonphys_desc->gösterim alışılmadık; soyu tükenmiş bir Impid lehçesinden alınmış</li>
+    <li>technical_nonphys_desc->şemanın sayfalarından teller geçiyor, ancak cihaz neredeyse işlevsiz</li>
+    <li>technical_nonphys_desc->[author] aynı mekanizmayı üç farklı dilde açıklamış</li>
+    <li>academic_nonphys_desc->bu şema, [author] için ilham kaynağı olan bir cin öğretmene ithaf edilmiş</li>
+    <li>academic_nonphys_desc->bu belgede, [author] için sponsor olan kurumun arması var</li>
+    <li>badsmells->ağır ağır kokuyor</li>
+    <li>badsmells->pis kokuyor</li>
+    <li>badsmells->hafifçe kokuyor</li>
+    <li>badsmells->iğrenç kokuyor</li>
+    <li>badsmells->kokuşuyor</li>
+    <li>stink->ceset balçığı</li>
     <li>stink->kükürt ve çürük yumurta</li>
-    <li>stink->ölüm</li>
-    <li>stink->Yttakin teri gibi</li>
-    <li>stink->Atıkçı nefesi</li>
-    <li>stink->Hussar soyunma odası</li>
-    <li>smells->kokusu var</li>
-    <li>smells->rayihası var</li>
-    <li>smells->esansı var</li>
-    <li>smells->aroması var</li>
-    <li>scent->şarap</li>
-    <li>scent->Yüksek eş feromonları</li>
-    <li>scent->tütsü</li>
+    <li>stink->yavaş, kadim bir ölüm</li>
+    <li>stink->Yttakin terine benzer bir şey</li>
+    <li>stink->atıkçı nefesi</li>
+    <li>stink->bir Hussar soyunma odası</li>
+    <li>smells->kokusuyla baş döndürüyor</li>
+    <li>smells->kokuyor</li>
+    <li>smells->esintisi taşıyor</li>
+    <li>smells->aroması taşıyor</li>
+    <li>scent->üzüm fıçısının dibi gibi küf</li>
+    <li>scent->Highmate feromonları</li>
+    <li>scent->günlük</li>
     <li>scent->sandal ağacı</li>
     <li>scent->tatlı bumfare suyu</li>
-    <li>scent->Işıltıdünya baharatları</li>
-    <li>scent->taze Gauranlen tohumu</li>
+    <li>scent->parıltı dünyası baharatı</li>
+    <li>scent->taze Gauranlen tohumları</li>
+    <li>conjunction->ve </li>
     <li>conjunction->ama </li>
-    <li>conjunction->fakat </li>
     <li>conjunction->yine de </li>
-    <li>conjunction->buna rağmen </li>
-    <li>conjunction->bunun yanında </li>
-    <li>conjunction->. Ayrıca,</li>
+    <li>conjunction->gerçi </li>
+    <li>conjunction->üstelik </li>
+    <li>conjunction->. Ek olarak,</li>
     <li>author(p=4)->yazar</li>
     <li>author(p=4)->müellif</li>
     <li>author->mucit</li>
@@ -1350,31 +1348,31 @@
     <li>author(p=2)->geliştirici</li>
     <li>author(p=4)->tasarımcı</li>
     <li>author->mühendis</li>
-    <li>author->sanatkâr</li>
-    <li>author->bilim insanı</li>
-    <li>author->mütehassıs</li>
-    <li>author->teknisyen</li>
-    <li>author->uzman</li>
     <li>author->zanaatkâr</li>
+    <li>author->dâhi</li>
+    <li>author->uzman</li>
+    <li>author->teknisyen</li>
+    <li>author->bilirkişi</li>
+    <li>author->usta</li>
     <li>anAuthorDesc(p=2)->bir</li>
     <li>anAuthorDesc->genç bir</li>
     <li>anAuthorDesc->yaşlı bir</li>
-    <li>anAuthorDesc->korkmuş bir</li>
+    <li>anAuthorDesc->dehşete düşmüş bir</li>
     <li>anAuthorDesc->kederli bir</li>
     <li>anAuthorDesc->ihtiyar bir</li>
     <li>anAuthorDesc->bilge bir</li>
-    <li>anAuthorDesc->inatçı bir</li>
-    <li>anAuthorDesc->ahmak bir</li>
+    <li>anAuthorDesc->dik kafalı bir</li>
+    <li>anAuthorDesc->aptal bir</li>
     <li>anAuthorDesc->masum bir</li>
-    <li>anAuthorDesc->kaçık bir</li>
-    <li>anAuthorDesc->tuhaf bir</li>
-    <li>anAuthorDesc->uçuk bir</li>
-    <li>anAuthorDesc->tipik bir</li>
+    <li>anAuthorDesc->rahatsız bir</li>
+    <li>anAuthorDesc->ürkütücü bir</li>
+    <li>anAuthorDesc->şaşırtıcı bir</li>
+    <li>anAuthorDesc->örnek bir</li>
     <li>anAuthorDesc->sıkıcı bir</li>
-    <li>anAuthorDesc->deli bir</li>
+    <li>anAuthorDesc->çılgın bir</li>
     <li>anAuthorDesc->ahlaksız bir</li>
     <li>anAuthorDesc->ahlaklı bir</li>
-    <li>anAuthorDesc->ahlaksız bir</li>
+    <li>anAuthorDesc->ahlak dışı bir</li>
     <li>anAuthorDesc->karanlık bir</li>
     <li>worldname->[glitterworld]</li>
     <li>worldname->[urbworld]</li>
@@ -1408,7 +1406,7 @@
     <li>animalworld->Zoutera</li>
     <li>animalworld->Thylacine</li>
     <li>animalworld->Jiai</li>
-    <li>animalworld->Steller's World</li>
+    <li>animalworld->Steller Dünyası</li>
     <li>animalworld->Aukton</li>
     <li>asteroid->Iwamura</li>
     <li>asteroid->Atura</li>
@@ -1474,7 +1472,7 @@
     <li>iceworld->Christensen</li>
     <li>iceworld->Barnes</li>
     <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
+    <li>indworld->Yeni Çin</li>
     <li>indworld->Hudders</li>
     <li>indworld->Iver</li>
     <li>indworld->Achesta</li>
@@ -1492,7 +1490,7 @@
     <li>midworld->Haihan</li>
     <li>midworld->Seolure</li>
     <li>midworld->Panga</li>
-    <li>midworld->New London CXI </li>
+    <li>midworld->Yeni Londra CXI </li>
     <li>midworld->San Delenda</li>
     <li>mineworld->Xanides</li>
     <li>mineworld->Bingham</li>
@@ -1519,10 +1517,10 @@
     <li>rimworld->La Grand</li>
     <li>rimworld->Dalles</li>
     <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Eski Boise</li>
+    <li>rimworld->Şeytan Kapısı</li>
     <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
+    <li>ruinworld->Dünya</li>
     <li>ruinworld->Ilwaba</li>
     <li>ruinworld->Xennoa</li>
     <li>ruinworld->Pichu</li>
@@ -1578,117 +1576,116 @@
     <li>warworld->Punica</li>
     <li>warworld->Cimbria XII</li>
     <li>warworld->Barkitos</li>
-    <li>schematic_container->manuel</li>
+    <li>schematic_container->kılavuz</li>
     <li>schematic_container->derleme</li>
-    <li>schematic_container->dosya</li>
     <li>schematic_container->klasör</li>
+    <li>schematic_container->dosya</li>
     <li>schematic_container->kitapçık</li>
     <li>schematic_container->ambalaj</li>
-    <li>schematic_container->tutamaç</li>
-    <li>schematic_container->tomar</li>
-    <li>schematic_container->sicil</li>
-    <li>schematic_container->paket</li>
     <li>schematic_container->kılıf</li>
-    <li>schematic_container->mahfaza</li>
-    <li>physical_adjective->pis</li>
-    <li>physical_adjective->küçük</li>
+    <li>schematic_container->deste</li>
+    <li>schematic_container->evrak dosyası</li>
+    <li>schematic_container->paket</li>
+    <li>schematic_container->kutu</li>
+    <li>schematic_container->kap</li>
+    <li>physical_adjective->kirli</li>
+    <li>physical_adjective->minicik</li>
     <li>physical_adjective->kaba</li>
-    <li>physical_adjective->kocaman</li>
-    <li>physical_adjective->şık</li>
-    <li>physical_adjective->basit</li>
+    <li>physical_adjective->devasa</li>
+    <li>physical_adjective->zarif</li>
+    <li>physical_adjective->sade</li>
     <li>physical_adjective->yeni</li>
     <li>physical_adjective->narin</li>
-    <li>physical_adjective->antik</li>
+    <li>physical_adjective->kadim</li>
     <li>physical_adjective->terk edilmiş</li>
     <li>physical_adjective->hasarlı</li>
     <li>physical_adjective->yıpranmış</li>
-    <li>physical_adjective->çarpık</li>
+    <li>physical_adjective->eğrilmiş</li>
     <li>physical_adjective->arkaik</li>
     <li>physical_adjective->yağlı</li>
     <li>physical_adjective->sıcak</li>
-    <li>physical_adjective->şekilsiz</li>
-    <li>physical_adjective->tahta</li>
+    <li>physical_adjective->biçimsiz</li>
+    <li>physical_adjective->ahşap</li>
     <li>physical_adjective->dikenli</li>
-    <li>physical_adjective->yanmış</li>
+    <li>physical_adjective->kavrulmuş</li>
     <li>physical_adjective->pürüzsüz</li>
-    <li>physical_adjective->sade</li>
+    <li>physical_adjective->rustik</li>
     <li>physical_adjective->işlevsel</li>
-    <li>physical_adjective->köhne</li>
-    <li>physical_adjective->şaşırtıcı</li>
+    <li>physical_adjective->modası geçmiş</li>
+    <li>physical_adjective->kafa karıştırıcı</li>
     <li>physical_adjective->değerli</li>
     <li>shows_synonym_verb->[shows_synonym_verb1]</li>
     <li>shows_synonym_verb->[shows_synonym_verb2]</li>
     <li>shows_synonym_verb1->betimliyor</li>
-    <li>shows_synonym_verb1->çiziyor</li>
+    <li>shows_synonym_verb1->resmediyor</li>
     <li>shows_synonym_verb1->sunuyor</li>
     <li>shows_synonym_verb1->sergiliyor</li>
-    <li>shows_synonym_verb1->ortaya koyuyor</li>
+    <li>shows_synonym_verb1->gösteriyor</li>
     <li>shows_synonym_verb2->gösteriyor</li>
-    <li>shows_synonym_verb2->çerçevesi çiziyor</li>
-    <li>shows_synonym_verb2->tanımlıyor</li>
+    <li>shows_synonym_verb2->ana hatlarıyla çiziyor</li>
+    <li>shows_synonym_verb2->tarif ediyor</li>
     <li>contain_verb->içeriyor</li>
-    <li>contain_verb->ihtiva ediyor</li>
-    <li>contain_verb->taşıyor</li>
     <li>contain_verb->barındırıyor</li>
+    <li>contain_verb->taşıyor</li>
     <li>contain_verb->saklıyor</li>
-    <li>schematic_synonym->şematik</li>
+    <li>contain_verb->kapsıyor</li>
+    <li>schematic_synonym->şema</li>
     <li>schematic_synonym->diyagram</li>
-    <li>schematic_synonym->şablon</li>
-    <li>schematic_synonym->dizayn</li>
+    <li>schematic_synonym->plan</li>
+    <li>schematic_synonym->tasarım</li>
     <li>schematic_synonym->prototip</li>
-    <li>schematic_synonym->ürün şartnamesi</li>
-    <li>schematic_synonym->komut kümesi</li>
-    <li>state_adjective->taslak aşamasında</li>
+    <li>schematic_synonym->ürün spesifikasyonu</li>
+    <li>schematic_synonym->talimat dizisi</li>
+    <li>state_adjective->taslak</li>
     <li>state_adjective->bitmiş</li>
-    <li>state_adjective->henüz bitmemiş</li>
-    <li>state_adjective->tamamlanmış</li>
+    <li>state_adjective->yarım kalmış</li>
+    <li>state_adjective->eksiksiz</li>
     <li>diagram_type->illüstrasyon</li>
     <li>diagram_type->tasvir</li>
     <li>diagram_type->diyagram</li>
-    <li>diagram_type->şablon</li>
+    <li>diagram_type->plan</li>
     <li>diagram_type->infografik</li>
     <li>diagram_type->şema</li>
-    <li>diagram_type->kesit</li>
+    <li>diagram_type->kesit çizimi</li>
     <li>diagram_type->grafik</li>
     <li>diagram_type->çizelge</li>
-    <li>theory_synonym_adj->teorisini</li>
-    <li>theory_synonym_adj->bakış açısını</li>
+    <li>theory_synonym_adj->kuramını</li>
+    <li>theory_synonym_adj->kavramını</li>
     <li>theory_synonym_adj->fikrini</li>
     <li>theory_synonym_adj->hipotezini</li>
     <li>theory_synonym_adj->düşüncesini</li>
-    <li>device_synonym->mekanizmalar</li>
-    <li>device_synonym->aletler</li>
-    <li>device_synonym->düzenekler</li>
-    <li>device_synonym->icatlar</li>
-    <li>device_synonym->zımbırtılar</li>
-    <li>device_synonym->buluşlar</li>
-    <li>device_synonym->cihazlar</li>
-    <li>device_synonym->tesisatlar</li>
-    <li>device_synonym->modüller</li>
+    <li>device_synonym->mekanizma</li>
+    <li>device_synonym->cihaz</li>
+    <li>device_synonym->düzenek</li>
+    <li>device_synonym->icat</li>
+    <li>device_synonym->alet</li>
+    <li>device_synonym->yaratım</li>
+    <li>device_synonym->aygıt</li>
+    <li>device_synonym->donanım</li>
+    <li>device_synonym->modül</li>
     <li>image_types->fotoğraflar</li>
     <li>image_types->çizimler</li>
-    <li>image_types->oymalar</li>
-    <li>image_types->resimler</li>
-    <li>image_types->şablonlar</li>
+    <li>image_types->gravürler</li>
+    <li>image_types->suluboyalar</li>
+    <li>image_types->planlar</li>
     <li>image_types->eskizler</li>
     <li>image_types->karikatürler</li>
     <li>other_subject->altyapı</li>
     <li>other_subject->personel</li>
-    <li>other_subject->iletişin</li>
-    <li>other_subject->faaliyet alanı</li>
+    <li>other_subject->iletişim</li>
+    <li>other_subject->kapsam</li>
     <li>other_subject->bütçe</li>
     <li>other_subject->kaynaklar</li>
-    <li>dates->Şematik [date_form] yayınlanmış</li>
-    <li>dates->Şematik ilk kez [date_form] basılmış</li>
-    <li>dates->Şematiğin tam olarak ne zaman yapıldığı belirsiz</li>
+    <li>dates->Şema [date_form] yayımlandı</li>
+    <li>dates->Şema ilk kez [date_form] basıldı</li>
+    <li>dates->Şemanın tam olarak ne zaman oluşturulduğu belli değil</li>
     <li>date_form->yakın zamanda</li>
-    <li>date_form->asırlar önce</li>
+    <li>date_form->yüzyıllar önce</li>
     <li>date_form->[date] tarihinde</li>
-    <li>date_form->[date_season] mevsiminde</li>
+    <li>date_form->[date_season] döneminde</li>
   </Description_Schematic.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>subject->[subject_primary]</li>
+  <!-- EN: <li>subject->[subject_primary]</li>
     <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
     <li>discussion->This [textbook] provides [useful_information] about [subject][detail]</li>
     <li>discussion->This [textbook] establishes the author's authority on the subject of [subject][detail]</li>
@@ -2040,160 +2037,160 @@
     <li>warworld->Kyrus</li>
     <li>warworld->Punica</li>
     <li>warworld->Cimbria XII</li>
-    <li>warworld->Barkitos</li>
-  -->
+    <li>warworld->Barkitos</li> -->
   <Description_SkillBook.rulePack.rulesStrings>
+
     <li>subject->[subject_primary]</li>
     <li>desc->[discussion].\n\n[anecdote]. [production].\n\n[quality_statement].</li>
-    <li>discussion->Bu [textbook], [subject] hakkında [useful_information] veriyor[detail]</li>
-    <li>discussion->Bu [textbook], yazarın [subject] hakkındaki otoritesini gözler önüne seriyor[detail]</li>
-    <li>discussion->Bu [notable_adjective] [textbook], [subject] alanında [understanding_synonym] için[detail]</li>
-    <li>discussion->Bu [textbook], [subject] alanında standart bir metin[detail]</li>
-    <li>discussion->Bu [textbook], yazarın [subject] üzerine yazdıklarının ilk nüshalarından biri[detail]</li>
-    <li>detail->. Kitabın [precis_synonym] konunun daha ustalık gerektiren yönlerine odaklanıyor</li>
-    <li>detail->. Kısaca, karmaşık bir konunun [precis_synonym]</li>
-    <li>detail->. Kitabın [precis_synonym], [ANYPAWN_label] bunu yazdığı esnada alanın en öncü çalışmalarından olduğunu iddia ediyor</li>
-    <li>detail->. Kitabın [note_location] yazılan söz diyor ki, 'Gerçek [subject] [students] [ANYPAWN_label] tarafından yazılan bu kitabı göz ardı edemez'</li>
+    <li>discussion->Bu [textbook], [subject] hakkında [useful_information] sunuyor[detail]</li>
+    <li>discussion->Bu [textbook], yazarın [subject] konusundaki otoritesini kanıtlıyor[detail]</li>
+    <li>discussion->[subject] konusunda [understanding_synonym] arayanlar bu [notable_adjective] [textbook] eserine başvuruyor[detail]</li>
+    <li>discussion->[subject] üzerine standart bir [textbook][detail]</li>
+    <li>discussion->Yazarın [subject] üzerine yazdığı [textbook] eserinin erken bir baskısı[detail]</li>
+    <li>detail->. [precis_synonym] bölümü, konunun daha fazla ustalık gerektiren yönlerine odaklanıyor</li>
+    <li>detail->. Karmaşık bir konunun özlü bir [precis_synonym] metni</li>
+    <li>detail->. [precis_synonym] metnine göre, [ANYPAWN_label] bunu yazdığında alanının en ileri eseriymiş</li>
+    <li>detail->. [note_location] üzerindeki bir alıntıda şöyle yazıyor: '[subject] alanının gerçek [students], [ANYPAWN_label] imzalı bu kitabı görmezden gelemez'</li>
     <li>students->öğrencileri</li>
-    <li>students->aşıkları</li>
-    <li>students->meraklıları</li>
-    <li>detail->. Okuyucuyu konu üzerinde adım adım ilerletiyor</li>
-    <li>detail(quality[less_than]4)->. Lakin, yazar konudan konuya biraz aceleci şekilde geçiyor</li>
-    <li>detail(quality[greater_than]3)->. Konu kapsamlı biçimde işlenmiş</li>
-    <li>detail->. Kitabın [precis_synonym], kitabın korsan kopyalarının olduğunu fakat bu basımın onlardan biri olmadığını iddia ediyor</li>
-    <li>detail(quality[less_than]4)-> ancak fikirlerini kurgusal bir diyalog aracılığıyla aktarma çabası belki de bir hataydı</li>
-    <li>detail->. Kitabın [precis_synonym] kısmında yazarın hitabeti, temel kavramların önüne geçmiyor</li>
-    <li>production->Kitabın [precis_synonym], bunun [worldname] gezegeninde elle basıldığını söylüyor</li>
-    <li>production->Kitabın [precis_synonym], [worldname] Üniversitesi'nin bu kitabı temel metin yaptığını belirtiyor</li>
-    <li>production->Kitabın [precis_synonym], bu notların aslında [ANYPAWN_label] adlı yazarın kişisel kullanımı için yazıldığını ancak yaygın şekilde paylaşıldığını söylüyor</li>
-    <li>production->Bu [textbook] faydalı bölümleri biyografik detaylar arasında gizlenmiş</li>
-    <li>production->Kitabın [note_location] el yazısıyla yazılmış bir [note], [worldname] Basımevi'nin [worldname] Ayaklanmaları sonrası kapandığını, bu nedenle sonraki baskıların nadir olduğunu söylüyor</li>
-    <li>production->Kazınmış bir [note], bu [textbook] kopyalarının çoğunun [worldname] Vakası sırasında kaybolduğunu belirtiyor</li>
-    <li>production->Kitabın [precis_synonym], arkotek bilgi yayma tekniklerini bilen okuyucuların bu [textbook] serisinden uzak durduğunu net şekilde ortaya koyuyor fakat nedenini açıklamıyor</li>
-    <li>production->Kitabın [note_location] yazılana göre, [worldname] gezegenindeki [subject] müridleri bu kitabı bastırmak ve dağıtmak için büyük servet harcamış</li>
-    <li>production->Kitabın [note_location], kitabın ilk kopyalarının [ANYPAWN_label] tarafından el yazısıyla yazıldığını açıklıyor</li>
-    <li>production->Bu [textbook] [worldname] Düşesi tarafından desteklendiği yazılı, koşulu ise kitabın ücretsiz olmasıymış</li>
-    <li>production->Bir not, [coreworld] kitapçıları birliğinin bu [textbook] ilk baskısını çıkardığını söylüyor</li>
-    <li>production->Kitabın sonunda, yayınevi kenardünyalarda hayatta kalmak için gereken tüm konuları ele alan daha büyük bir seriyi tanıtıyor</li>
-    <li>production->Dilbilgisindeki özensizlik göz önüne alındığında, yayınevlerinin editöryel konularda daha sorumlu olmaları gerekirdi</li>
+    <li>students->tutkunları</li>
+    <li>students->uygulayıcıları</li>
+    <li>detail->. Konuyu adım adım anlatıyor</li>
+    <li>detail(quality[less_than]4)->, ancak yazar konuyu aceleye getiriyor</li>
+    <li>detail(quality[greater_than]3)->. Konunun kapsamlı bir incelemesi</li>
+    <li>detail->. Yazar, [precis_synonym] metninde bu kitabın sahte kopyaları olduğunu ama bunun onlardan biri olmadığını iddia ediyor</li>
+    <li>detail(quality[less_than]4)->, gerçi fikirlerini hayalî bir diyalogla aktarma girişimi belki de bir hataydı</li>
+    <li>detail->. Yazarın [precis_synonym] metnindeki söz sanatları, temel kavramlardan dikkati dağıtmıyor</li>
+    <li>production->[precis_synonym] metnine göre bu kitap [worldname] gezegeninde elle basılmış</li>
+    <li>production->[precis_synonym] metnine göre [worldname] Üniversitesi bunu ders kitabı olarak belirlemiş</li>
+    <li>production->[precis_synonym] metnine göre bu notlar [ANYPAWN_label] tarafından kişisel kullanım için tutulmuş olsa da geniş çapta paylaşılmış</li>
+    <li>production->Bu [textbook] eserinin faydalı kısımları biyografik ayrıntıların arasına gizlenmiş</li>
+    <li>production->[note_location] üzerine el yazısıyla düşülmüş bir [note], [worldname] matbaasının [worldname] Ayaklanmaları'ndan sonra kapandığını, bu yüzden sonraki baskıların nadir olduğunu söylüyor</li>
+    <li>production->Kazınmış bir [note], bu [textbook] eserinin kopyalarının çoğunun [worldname] Olayı sırasında kaybolduğunu söylüyor</li>
+    <li>production->[precis_synonym] metni, arkotek bilgi yayma tekniklerini bilen okurların bu [textbook] serisinden uzak durduğunu açıkça belirtiyor - ama nedenini söylemiyor</li>
+    <li>production->[note_location] kısmından anlaşıldığına göre, [worldname] gezegenindeki [subject] müritleri bu kitabın kopyalarını basmak için bir servet harcamış, ardından onu geniş çapta dağıtmış</li>
+    <li>production->[note_location] kısmında, bu kitabın ilk kopyalarının bizzat [ANYPAWN_label] tarafından elle yazıldığı açıklanıyor</li>
+    <li>production->[worldname] Düşesi, ücretsiz erişilebilir olması şartıyla bu [textbook] eserine sponsor olmuş</li>
+    <li>production->Bir nota göre bu [textbook] eserinin ilk baskısı, [coreworld] kitapçılarının ortak aboneliğiyle basılmış</li>
+    <li>production->Kitabın arkasında yayıncı, Sınır'da hayatta kalmak için gereken tüm konuları ele alan daha büyük bir serinin reklamını yapıyor</li>
+    <li>production->Özensiz dilbilgisine bakılırsa, yayıncılar editörlük görevlerinde daha titiz davranabilirdi</li>
     <li>quality_statement->[exterior_quality] [page_quality]</li>
-    <li>anecdote->[ANYPAWN_nameFull] adlı yazarın doğum yılı ile kitabın yayın tarihi arasındaki büyük fark göz önüne alındığında, onun bu yayını görecek kadar yaşadığı pek olası değil</li>
-    <li>anecdote->Kitabın [note_location] biri kitabın yıkıcı bir eleştirisini yapıştırmış</li>
-    <li>anecdote->Kitabın [precis_synonym], bu kitabın [urbworld] halk kütüphane sisteminden geçtiğini belirtiyor</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [ANYPAWN_nameFull] birçok konuda usta olarak bilinirmiş</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [worldname] halkı hâlâ [ANYPAWN_nameFull] adlı yazardan ve [subject] sevgisinden söz ediyor</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, kitabın yayımlanmasından kısa süre sonra bir kuantum dolanıklık kazasında yazar [ANYPAWN_nameFull] hayatını kaybetmiş</li>
-    <li>anecdote->Kitabın [precis_synonym], [ANYPAWN_nameFull] adlı yazarın [coreworld] gezegenindeki akademide ders verdiğini ve bu kitabın derslerinden türetildiğini belirtiyor</li>
-    <li>anecdote->Kitabın [precis_synonym], [ANYPAWN_nameFull] adlı yazarın [subject] konusundaki bilgisinin öylesine meşhur olduğunu, insanların sokakta onu durdurup soru sorduğunu söylüyor</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [ANYPAWN_nameFull] yoksulluk içindeydi ve bu serinin haklarını çok ucuza satmıştı</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [ANYPAWN_nameFull] doğuştan kördü, bu yüzden kitabını hiç göremedi</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [ANYPAWN_nameFull] tarafından yazılan ders kitabının ilk taslağı kötü şöhretli şekilde elli sayfa sapma içeriyordu; ikinci baskıda bu kısımlar çıkarıldı</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [ANYPAWN_nameFull] adlı yazarın itibarı o kadar kötüydü ki bu kitabı takma adla yayımladı</li>
-    <li>anecdote->Kitabın [note_location] yazılana göre, [ANYPAWN_nameFull] çocukken öylesine tembeldi ki ailesi umutsuzluğa kapılmıştı. Bu ders kitabı, onun yeteneğinin bir kanıtı</li>
-    <li>anecdote->Kitabın [precis_synonym], [ANYPAWN_nameFull] adlı yazarın [subject] üzerine bir ders kitabı fikrini dördüncü evliliği sırasında geliştirdiğini (ve bunun da dördüncü boşanmasına yol açtığını) söylüyor</li>
-    <li>textbook->kılavuzun</li>
-    <li>textbook->manuelin</li>
-    <li>textbook->ders kitabının</li>
-    <li>textbook(p=6)->kitabın</li>
-    <li>textbook->çalışma kitabının</li>
-    <li>textbook->referans kitabının</li>
-    <li>textbook->derlemenin</li>
-    <li>textbook->rehberin</li>
-    <li>textbook->kitapçığın</li>
-    <li>textbook->müfredatın</li>
-    <li>textbook->kurs kitabının</li>
-    <li>textbook->referans kitabının</li>
-    <li>textbook->okul kitabının</li>
-    <li>textbook->ansiklopedinin</li>
-    <li>textbook->el kitabının</li>
-    <li>textbook->başucu kitabının</li>
-    <li>textbook->çalışmanın</li>
-    <li>precis_synonym->hülasası</li>
-    <li>precis_synonym->önsözü</li>
-    <li>precis_synonym->özeti</li>
-    <li>precis_synonym->özeti</li>
-    <li>precis_synonym->önsözü</li>
-    <li>precis_synonym->hülasası</li>
-    <li>note_location->ön kapağına</li>
-    <li>note_location->arka kapağına</li>
-    <li>note_location->ön kapağına</li>
-    <li>note_location->arka kapağına</li>
-    <li>note_location->ilk sayfasına</li>
-    <li>note_location->son sayfasına</li>
-    <li>note_location->kenar boşluklarına</li>
-    <li>note_location->başlık sayfasına</li>
-    <li>note_location->dipnotuna</li>
-    <li>note_location->sonnotuna</li>
-    <li>note_location->biyografi kısmına</li>
-    <li>note_location->etiketine</li>
+    <li>anecdote->[ANYPAWN_nameFull] adlı kişinin doğum yılıyla bu kitabın yayın tarihi arasındaki büyük farka bakılırsa, kitabın yayımlandığını görecek kadar yaşamamış olması muhtemel</li>
+    <li>anecdote->[note_location] üzerine birisi kitabı yerden yere vuran bir eleştiri yapıştırmış</li>
+    <li>anecdote->[precis_synonym] metnine göre bu kitap [urbworld] halk kütüphanesi sisteminden geçmiş</li>
+    <li>anecdote->[note_location] kısmına göre [ANYPAWN_nameFull], pek çok konunun ustası olarak tanınıyormuş</li>
+    <li>anecdote->[note_location] kısmına göre [worldname] halkı hâlâ [ANYPAWN_nameFull] adlı kişiden söz ediyor ve onun [subject] sevgisini anıyor</li>
+    <li>anecdote->[note_location] kısmına göre yazar [ANYPAWN_nameFull], yayından kısa süre sonra garip bir dolanıklık kazasında ölmüş</li>
+    <li>anecdote->[precis_synonym] metnine göre [ANYPAWN_nameFull], günlerini [coreworld] akademisinde ders vererek geçirmiş. Bu kitap onun derslerinden derlenmiş</li>
+    <li>anecdote->[precis_synonym] metnine göre [ANYPAWN_nameFull] adlı kişinin [subject] bilgisi o kadar ünlüymüş ki insanlar onu sokakta durdurup bu konuda sorular sorarmış</li>
+    <li>anecdote->[note_location] kısmına göre [ANYPAWN_nameFull] yoksulmuş ve bu serinin haklarını çok ucuza satmış</li>
+    <li>anecdote->[note_location] kısmına göre [ANYPAWN_nameFull] doğuştan körmüş, bu yüzden kendi kitabını hiç görmemiş</li>
+    <li>anecdote->[note_location] kısmına göre [ANYPAWN_nameFull] tarafından yazılan ilk taslak, elli sayfalık konu dışı anlatımıyla kötü bir ün kazanmış. Bu kısım ikinci baskıda çıkarılmış</li>
+    <li>anecdote->[note_location] kısmına göre [ANYPAWN_nameFull] adlı kişinin itibarı o kadar kötüymüş ki bu kitabı takma adla yayımlamış</li>
+    <li>anecdote->[note_location] kısmına göre [ANYPAWN_nameFull] çocukken o kadar tembelmiş ki ailesi umudunu kesmiş. Bu ders kitabı onun yeteneğinin bir kanıtı</li>
+    <li>anecdote->[precis_synonym] metnine göre [ANYPAWN_nameFull], [subject] üzerine bir ders kitabı fikrini dördüncü evliliği sırasında geliştirmiş. (Bu da dördüncü boşanmasına yol açmış)</li>
+    <li>textbook->başlangıç kitabı</li>
+    <li>textbook->kılavuz</li>
+    <li>textbook->ders kitabı</li>
+    <li>textbook(p=6)->kitap</li>
+    <li>textbook->alıştırma kitabı</li>
+    <li>textbook->başvuru kitabı</li>
+    <li>textbook->derleme</li>
+    <li>textbook->rehber kitap</li>
+    <li>textbook->kitapçık</li>
+    <li>textbook->müfredat kitabı</li>
+    <li>textbook->kurs kitabı</li>
+    <li>textbook->başvuru kitabı</li>
+    <li>textbook->okul kitabı</li>
+    <li>textbook->ansiklopedi</li>
+    <li>textbook->el kitabı</li>
+    <li>textbook->meslek kitabı</li>
+    <li>textbook->eser</li>
+    <li>precis_synonym->önsöz</li>
+    <li>precis_synonym->giriş</li>
+    <li>precis_synonym->özet</li>
+    <li>precis_synonym->sinopsis</li>
+    <li>precis_synonym->ana hat</li>
+    <li>precis_synonym->derleme</li>
+    <li>note_location->ön kapak</li>
+    <li>note_location->arka kapak</li>
+    <li>note_location->ön iç kapak</li>
+    <li>note_location->arka iç kapak</li>
+    <li>note_location->ilk sayfa</li>
+    <li>note_location->son sayfa</li>
+    <li>note_location->kenar boşlukları</li>
+    <li>note_location->başlık sayfası</li>
+    <li>note_location->dipnot</li>
+    <li>note_location->sonnot</li>
+    <li>note_location->yazar biyografisi</li>
+    <li>note_location->kargo etiketi</li>
     <li>note->not</li>
     <li>note->ek</li>
-    <li>note->dipnot</li>
+    <li>note->ek not</li>
     <li>note->sonsöz</li>
-    <li>note->zeyil</li>
-    <li>note->koda</li>
+    <li>note->ek bölüm</li>
+    <li>note->kapanış notu</li>
     <li>note->dipnot</li>
     <li>note->sonnot</li>
-    <li>useful_information->eğlenceli bilgiler</li>
+    <li>useful_information->faydalı bilgi kırıntıları</li>
     <li>useful_information->faydalı bilgiler</li>
-    <li>useful_information->ilginç bilgiler</li>
-    <li>useful_information->değerli bilgiler</li>
-    <li>useful_information->pratik bilgiler</li>
-    <li>useful_information->faydalı tüyolar</li>
-    <li>useful_information->bilgilendirici detaylar</li>
-    <li>understanding_synonym->bilgi arayanlar</li>
-    <li>understanding_synonym->kendini geliştirmek isteyenler</li>
-    <li>understanding_synonym->anlayış edinmeye çalışanlar</li>
-    <li>understanding_synonym->irfan edinmek isteyenler</li>
-    <li>understanding_synonym->bilgelik arayanlar</li>
-    <li>understanding_synonym->uzman olmak isteyenler</li>
-    <li>understanding_synonym->felsefi bilgi arayanlar</li>
-    <li>understanding_synonym->etik değerleri öğrenmeye çalışanlar</li>
-    <li>notable_adjective->meşhur</li>
-    <li>notable_adjective->muğlak</li>
+    <li>useful_information->ilginç gerçekler</li>
+    <li>useful_information->değerli içgörüler</li>
+    <li>useful_information->pratik içgörüler</li>
+    <li>useful_information->yararlı ipuçları</li>
+    <li>useful_information->bilgilendirici ayrıntılar</li>
+    <li>understanding_synonym->bilgi</li>
+    <li>understanding_synonym->kendini geliştirme fırsatı</li>
+    <li>understanding_synonym->anlayış</li>
+    <li>understanding_synonym->akademik birikim</li>
+    <li>understanding_synonym->derin bilgi</li>
+    <li>understanding_synonym->uzmanlık</li>
+    <li>understanding_synonym->bir felsefe</li>
+    <li>understanding_synonym->etik ilkeler</li>
+    <li>notable_adjective->ünlü</li>
+    <li>notable_adjective->az bilinen</li>
     <li>notable_adjective->ikonik</li>
     <li>notable_adjective->klasik</li>
-    <li>notable_adjective->yaygın</li>
-    <li>notable_adjective->bilindik</li>
-    <li>notable_adjective->ebedi</li>
-    <li>notable_adjective->orantısız</li>
-    <li>notable_adjective->ahenkli</li>
-    <li>notable_adjective->şık</li>
-    <li>notable_adjective->basit</li>
+    <li>notable_adjective->sıradan</li>
+    <li>notable_adjective->tanıdık</li>
+    <li>notable_adjective->zamansız</li>
+    <li>notable_adjective->dengesiz</li>
+    <li>notable_adjective->uyumlu</li>
+    <li>notable_adjective->zarif</li>
+    <li>notable_adjective->sade</li>
     <li>notable_adjective->işlevsel</li>
-    <li>notable_adjective->şehirdünya</li>
-    <li>notable_adjective->ışıltıdünya</li>
+    <li>notable_adjective->kent dünyası tarzı</li>
+    <li>notable_adjective->parıltı dünyası tarzı</li>
     <li>notable_adjective->ilkel</li>
-    <li>notable_adjective->dekoratif</li>
+    <li>notable_adjective->süslü</li>
     <li>exterior_quality(quality[greater_than]4)->Bu kitabın dışı özenle ciltlenmiş ve</li>
-    <li>exterior_quality(quality[greater_than]4)->Matbaacılık sanatının bir başyapıtı olan bu kitap parıldıyor ve</li>
-    <li>exterior_quality(quality[greater_than]4)->Deri kapağı kaba görünüyor ama</li>
-    <li>exterior_quality(quality[greater_than]4)->Kapağı çok sade olmasına rağmen</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Kitap en iyi durumunda değil fakat</li>
+    <li>exterior_quality(quality[greater_than]4)->Matbaacılık sanatının bir başyapıtı olan bu kitap pırıl pırıl ve</li>
+    <li>exterior_quality(quality[greater_than]4)->Deri kapağı kaba ama</li>
+    <li>exterior_quality(quality[greater_than]4)->Kapağı çok sade olsa da</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Bu ders kitabı daha iyi günler görmüş, ama</li>
     <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->İkinci el bir okul kitabı olmasına rağmen</li>
-    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Kitap pek çok elden geçmiş ama</li>
-    <li>exterior_quality(quality[less_than]2)->Kitabın kapağı ilgi çekici görünüyor fakat</li>
-    <li>exterior_quality(quality[less_than]2)->Birisi kitabın ilk üçte birlik kısmını yırtıp atmış ve</li>
-    <li>exterior_quality(quality[less_than]2)->Kapak yoğun kokulu bir sıvıya bulanmış ve</li>
-    <li>exterior_quality(quality[less_than]2)->İlk bakkışta sorun yok gibi fakat</li>
-    <li>page_quality->sayfalar [page_condition]</li>
+    <li>exterior_quality(quality[less_than]5,quality[greater_than]1)->Bu kitabın pek çok sahibi olmuş, ama</li>
+    <li>exterior_quality(quality[less_than]2)->Bu kitabın ön yüzü çekici görünüyor ama</li>
+    <li>exterior_quality(quality[less_than]2)->Birisi kitabın ilk üçte birini yırtıp koparmış ve</li>
+    <li>exterior_quality(quality[less_than]2)->Kapak keskin kokulu bir sıvıya bulanmış ve</li>
+    <li>exterior_quality(quality[less_than]2)->İlk bakışta kitapta bir sorun yok, ama</li>
+    <li>page_quality->sayfaları [page_condition]</li>
     <li>page_condition(quality[greater_than]4)->[page_excellent]</li>
     <li>page_condition(quality[less_than]5,quality[greater_than]1)->[page_decent]</li>
     <li>page_condition(quality[less_than]2)->[page_awful]</li>
-    <li>page_excellent->harika durumda, sanki hiç dokunulmamış gibi</li>
-    <li>page_excellent->iyi durumda</li>
-    <li>page_excellent->yeni gibi</li>
+    <li>page_excellent->harika durumda, sanki hiç dokunulmamış</li>
+    <li>page_excellent->çok iyi durumda</li>
+    <li>page_excellent->tertemiz</li>
     <li>page_excellent->parlak ve temiz</li>
     <li>page_excellent->eşsiz biçimde iyi korunmuş</li>
-    <li>page_decent->kötü durumda değil</li>
-    <li>page_decent->buruşuk ama okunaklı</li>
-    <li>page_decent->gayet okunabilir</li>
-    <li>page_decent->hafif yıpranmış ama düzgün</li>
+    <li>page_decent->makul durumda</li>
+    <li>page_decent->buruşuk olsa da okunaklı</li>
+    <li>page_decent->rahatlıkla okunabiliyor</li>
+    <li>page_decent->hafif çizikli olsa da fena değil</li>
     <li>page_awful->ufalanan parşömene yazılmış gibi</li>
-    <li>page_awful->epey hasarlı</li>
-    <li>page_awful->siyah bir maddeyle lekeli</li>
-    <li>page_awful->okunamaz durumda</li>
-    <li>page_awful->okunamaz bir el yazısıyla notlandırılmış</li>
+    <li>page_awful->ağır hasarlı</li>
+    <li>page_awful->koyu bir maddeyle lekelenmiş</li>
+    <li>page_awful->okunaksız</li>
+    <li>page_awful->okunaksız bir el yazısıyla notlarla doldurulmuş</li>
     <li>worldname->[glitterworld]</li>
     <li>worldname->[urbworld]</li>
     <li>worldname->[deadworld]</li>
@@ -2226,7 +2223,7 @@
     <li>animalworld->Zoutera</li>
     <li>animalworld->Thylacine</li>
     <li>animalworld->Jiai</li>
-    <li>animalworld->Steller's World</li>
+    <li>animalworld->Steller Dünyası</li>
     <li>animalworld->Aukton</li>
     <li>asteroid->Iwamura</li>
     <li>asteroid->Atura</li>
@@ -2292,7 +2289,7 @@
     <li>iceworld->Christensen</li>
     <li>iceworld->Barnes</li>
     <li>indworld->Irithir</li>
-    <li>indworld->New China</li>
+    <li>indworld->Yeni Çin</li>
     <li>indworld->Hudders</li>
     <li>indworld->Iver</li>
     <li>indworld->Achesta</li>
@@ -2310,7 +2307,7 @@
     <li>midworld->Haihan</li>
     <li>midworld->Seolure</li>
     <li>midworld->Panga</li>
-    <li>midworld->New London CXI </li>
+    <li>midworld->Yeni Londra CXI </li>
     <li>midworld->San Delenda</li>
     <li>mineworld->Xanides</li>
     <li>mineworld->Bingham</li>
@@ -2337,10 +2334,10 @@
     <li>rimworld->La Grand</li>
     <li>rimworld->Dalles</li>
     <li>rimworld->Twig Falls</li>
-    <li>rimworld->Old Boise</li>
-    <li>rimworld->Devil's Gate</li>
+    <li>rimworld->Eski Boise</li>
+    <li>rimworld->Şeytan Kapısı</li>
     <li>rimworld->Laramiere</li>
-    <li>ruinworld->Earth</li>
+    <li>ruinworld->Dünya</li>
     <li>ruinworld->Ilwaba</li>
     <li>ruinworld->Xennoa</li>
     <li>ruinworld->Pichu</li>

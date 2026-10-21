@@ -2,9 +2,8 @@
 <LanguageData>
   
   <!-- EN: aurora -->
-  <Aurora.label>aurora</Aurora.label>
-  <!-- EN:
-    <li>tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community]</li>
+  <Aurora.label>kutup ışıkları</Aurora.label>
+  <!-- EN: <li>tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the time polar lights shone over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] illuminated by the light of an aurora</li>
     <li>image->the sky illuminated in [Color]s and [Color]s [circumstance_phrase]</li>
@@ -21,33 +20,32 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</li>
     <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s wander peacefully.</li>
-    <li>desc_sentence->There is no [Enemy] in sight.</li>
-  -->
+    <li>desc_sentence->There is no [Enemy] in sight.</li> -->
   <Aurora.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] aurora yaşıyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] kutup ışıklarını görüyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] aurora ile aydınlanıyor</li>
-    <li>image->[Color] ve [Color] renklerle aydınlanan gökyüzü [circumstance_phrase]</li>
-    <li>image->inanılmaz [Color] ışık desenleri [circumstance_phrase]</li>
-    <li>image->[Color] ışık ağı [circumstance_phrase]</li>
-    <li>image->[Color] ve [Color] karışımı desenler [circumstance_phrase]</li>
-    <li>image->dans eden [Color] ışıklar [circumstance_group]</li>
-    <li>circumstance_phrase->bir [TerrainFeature] üzerinden aşıyor</li>
-    <li>circumstance_phrase->bir [TerrainFeature] üzerinde parlıyor</li>
-    <li>circumstance_phrase->bir [Community] üzerinde süzülüyor</li>
-    <li>circumstance_phrase->bir [TerrainFeature] ve bir [TerrainFeature] arasından akıyor</li>
-    <li>desc_sentence->Aşağıda, [PAWN_nameDef] [Game] oynuyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] hayranlıkla bakakalıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] aşağıda izliyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] kenarında oturarak gökyüzüne bakıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] huzurla geziniyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] üzerinde kutup ışıklarının belirdiği zaman</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] üzerinde kutup ışıklarının parladığı zaman</li>
+    <li>tale_noun->kutup ışıklarıyla aydınlanan, [PAWN_nameDef] adlı kişinin [Community]</li>
+    <li>image->[circumstance_phrase] [Color] ve [Color] tonlarıyla aydınlanan gökyüzü</li>
+    <li>image->[circumstance_phrase] [Color] ışınlardan oluşan muhteşem bir desen</li>
+    <li>image->[circumstance_phrase] [Color] ışıklardan oluşan bir ağ</li>
+    <li>image->[circumstance_phrase] [Color] parıltılı, süzülen [Color] yaylar</li>
+    <li>image->[circumstance_group] dans eden [Color] ışıklar</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinde</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını aydınlatarak</li>
+    <li>circumstance_phrase->bir [Community] üzerinde süzülerek</li>
+    <li>circumstance_phrase->bir [TerrainFeature] ile bir [TerrainFeature] arasına sıkışmış hâlde</li>
+    <li>desc_sentence->Aşağıda [PAWN_nameDef], [AdjectiveFriendly] bir bakışla [Game] oynuyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] izliyor; [PAWN_possessive] yüzünde hayranlık okunuyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] aşağıdan izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] yakınında oturmuş, gökyüzüne bakıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] huzur içinde dolaşıyor.</li>
     <li>desc_sentence->Görünürde hiç [Enemy] yok.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
-  <CaravanAmbushedByHumanlike.label>kervan pusuya düşürüldü</CaravanAmbushedByHumanlike.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
+  <CaravanAmbushedByHumanlike.label>kervan pusuya düştü</CaravanAmbushedByHumanlike.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moving to attack [circumstance_group]</li>
@@ -65,34 +63,33 @@
     <li>desc_sentence->[PAWN_nameDef] is practically surrounded by [Enemy]s.</li>
     <li>desc_sentence->[PAWN_nameDef] is confronted by a [Enemy].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
-    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
-  -->
+    <li>desc_sentence->In the distance, a [PersonJob] observes.</li> -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] önderliğindeki kervan pusuya düşüyor</li>
-    <li>image->[PAWN_nameFull] siper alıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir dostunu korumak için harekete geçiyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] saldırmak üzere harekete geçiyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] saldırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bağırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] koşuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] düşmanla boğuşuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] kendini savunuyor, [circumstance_group]</li>
-    <li>circumstance_phrase->[AdjectiveBadass] bir ifade takınmış</li>
-    <li>circumstance_phrase->[AdjectiveBadass] bir ifade takınmış</li>
-    <li>circumstance_phrase->silahı elinde</li>
-    <li>circumstance_phrase->ter içinde</li>
-    <li>desc_sentence->Uzaklardaki [Quantity_adjphrase] silüet [TerrainFeature] arkasından yaklaşıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] uzaklarda görünüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [Enemy] tarafından çevrelenmiş vaziyette.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir [Enemy] ile yüzleşiyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] korkuyla kaçıyor.</li>
-    <li>desc_sentence->Uzaklarda, bir [PersonJob] izliyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin kervanının pusuya düşürülmesi</li>
+    <li>image->[circumstance_group] sinen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir müttefikini korumaya koşan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] saldırmak için harekete geçen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] saldıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yüksek sesle bağıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] koşan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir rakiple boğuşan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] [PAWN_objective] hedef alan saldırılara karşı kendini savunan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->[AdjectiveBadass] bir ifadeyle</li>
+    <li>circumstance_phrase->[AdjectiveBadass] bir ifadeyle</li>
+    <li>circumstance_phrase->[PAWN_possessive] silahını kuşanmışken</li>
+    <li>circumstance_phrase->çabalamaktan ter içinde kalmışken</li>
+    <li>desc_sentence->Bir [TerrainFeature] arkasından [Quantity_adjphrase] uzak siluet yaklaşıyor.</li>
+    <li>desc_sentence->Uzakta [Quantity_adjphrase] [Enemy] görülebiliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] neredeyse dört bir yandan [Enemy] tarafından kuşatılmış.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir [Enemy] ile yüz yüze gelmiş.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] korku içinde çatışma alanından kaçıyor.</li>
+    <li>desc_sentence->Uzakta bir [PersonJob] olanları izliyor.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
-  <CaravanAmbushedByManhunter.label>kervan insan avcısı pususuna düştü</CaravanAmbushedByManhunter.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
+  <CaravanAmbushedByManhunter.label>kervan insan avcısı hayvanların pususuna düştü</CaravanAmbushedByManhunter.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moving to protect an ally [circumstance_group]</li>
     <li>image->[PAWN_nameFull] moving to attack [circumstance_group]</li>
@@ -108,32 +105,31 @@
     <li>desc_sentence->[Gore] covers the ground.</li>
     <li>desc_sentence->The ground has been trampled into a mess of [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the scene of conflict in fear.</li>
-    <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
-  -->
+    <li>desc_sentence->In the distance, a [PersonJob] observes.</li> -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] önderliğindeki kervan pusuya düşüyor</li>
-    <li>image->[PAWN_nameFull] siper alıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir dostunu korumak için harekete geçiyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] saldırmak üzere harekete geçiyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] saldırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bağırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] koşuyor, [circumstance_group]</li>
-    <li>circumstance_phrase->[AdjectiveBadass] bir ifade takınmış</li>
-    <li>circumstance_phrase->[AdjectiveBadass] bir ifade takınmış</li>
-    <li>circumstance_phrase->silahı elinde</li>
-    <li>circumstance_phrase->ter içinde</li>
-    <li>circumstance_phrase->[Gore] ile kaplı</li>
-    <li>desc_sentence->Uzaklardaki [Quantity_adjphrase] hayvan [TerrainFeature] arkasından yaklaşıyor.</li>
-    <li>desc_sentence->Yerler [Gore] kaplı.</li>
-    <li>desc_sentence->Yerde [Gore] yığını var.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] korkuyla kaçıyor.</li>
-    <li>desc_sentence->Uzaklarda, bir [PersonJob] izliyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin kervanının pusuya düşürülmesi</li>
+    <li>image->[circumstance_group] sinen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir müttefikini korumaya koşan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] saldırmak için harekete geçen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] saldıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yüksek sesle bağıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] koşan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->[AdjectiveBadass] bir ifadeyle</li>
+    <li>circumstance_phrase->[AdjectiveBadass] bir ifadeyle</li>
+    <li>circumstance_phrase->[PAWN_possessive] silahını kuşanmışken</li>
+    <li>circumstance_phrase->çabalamaktan ter içinde kalmışken</li>
+    <li>circumstance_phrase->[Gore] içinde kalmışken</li>
+    <li>desc_sentence->Bir [TerrainFeature] arkasından [Quantity_adjphrase] uzak hayvan yaklaşıyor.</li>
+    <li>desc_sentence->Yer [Gore] ile kaplı.</li>
+    <li>desc_sentence->Yer, çiğnenmekten [Gore] dolu bir bataklığa dönmüş.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] korku içinde çatışma alanından kaçıyor.</li>
+    <li>desc_sentence->Uzakta bir [PersonJob] olanları izliyor.</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
-  <CaravanDemand.label>kervan talebi</CaravanDemand.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
+  <CaravanDemand.label>kervandan talep</CaravanDemand.label>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
     <li>image->[PAWN_nameFull] shouting loudly [circumstance_group]</li>
@@ -154,37 +150,36 @@
     <li>action->watching for danger</li>
     <li>action->guarding hostages</li>
     <li>action->waiting for a decision</li>
-    <li>action->taunting [PAWN_nameDef]</li>
-  -->
+    <li>action->taunting [PAWN_nameDef]</li> -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] önderliğindeki kervanın önü kesiliyor</li>
-    <li>tale_noun->[PAWN_nameDef] önderliğindeki kervan tehdit ediliyor</li>
-    <li>image->[PAWN_nameFull] siper alıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bağırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] düşünüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sinirleniyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir [PersonJob] tarafından tehdit ediliyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] brandishing a [Weapon] [circumstance_group]</li>
-    <li>circumstance_phrase->[AdjectiveBadass] bir ifade takınıyor</li>
-    <li>circumstance_phrase->[AdjectiveAngsty] bir ifade takınıyor</li>
-    <li>circumstance_phrase->diğerleri bakıyor</li>
-    <li>circumstance_phrase->[Enemy] tetikte</li>
-    <li>desc_sentence->[PAWN_nameDef] [Enemy] tarafından çevrelenmiş vaziyette.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Enemy] yakınlarda, [action].</li>
-    <li>desc_sentence->Güneş [TerrainFeature] ardına batıyor.</li>
-    <li>desc_sentence->Güneş [TerrainFeature] üzerinden yükseliyor.</li>
-    <li>desc_sentence->Uzaklarda, bir [PersonJob] izliyor.</li>
-    <li>action->silahlarını bileyliyor</li>
-    <li>action->nöbet tutuyor</li>
-    <li>action->tutsaklara göz kulak oluyor</li>
-    <li>action->kararı bekliyor</li>
-    <li>action->tahrik ediyor</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin kervanına bir talep iletilmesi</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin kervanının tehdit edilmesi</li>
+    <li>image->[circumstance_group] sinen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yüksek sesle bağıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] düşünen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] öfkeyle bakan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir [PersonJob] tarafından tehdit edilen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir [Weapon] sallayan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->[AdjectiveBadass] bir ifadeyle</li>
+    <li>circumstance_phrase->[AdjectiveAngsty] bir ifadeyle</li>
+    <li>circumstance_phrase->diğerleri seyrederken</li>
+    <li>circumstance_phrase->birçok [Enemy] tarafından tehdit edilirken</li>
+    <li>desc_sentence->[PAWN_nameDef] neredeyse dört bir yandan [Enemy] tarafından kuşatılmış.</li>
+    <li>desc_sentence->Yakında [Quantity_adjphrase] [Enemy] [action].</li>
+    <li>desc_sentence->Güneş bir [TerrainFeature] üzerinde batıyor.</li>
+    <li>desc_sentence->Güneş bir [TerrainFeature] üzerinde doğuyor.</li>
+    <li>desc_sentence->Uzakta bir [PersonJob] olanları izliyor.</li>
+    <li>action->silahlarını keskinleştiriyor</li>
+    <li>action->tehlikeye karşı etrafı gözlüyor</li>
+    <li>action->rehinelere nöbet tutuyor</li>
+    <li>action->bir karar bekliyor</li>
+    <li>action->[PAWN_nameDef] ile alay ediyor</li>
   </CaravanDemand.rulePack.rulesStrings>
   
   <!-- EN: caravan meeting -->
   <CaravanMeeting.label>kervan buluşması</CaravanMeeting.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s caravan being met by others</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s caravan being met by others</li>
     <li>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] inspecting a [PersonJob] [circumstance_group]</li>
     <li>image->[PAWN_nameFull] calling out to a [PersonJob] [circumstance_group]</li>
@@ -206,29 +201,29 @@
     <li>event->eating a communal meal</li>
     <li>event->discussing recent events</li>
     <li>event->rekindling old friendships</li>
-    <li>event->talking hesitantly</li>
-  -->
+    <li>event->talking hesitantly</li> -->
   <CaravanMeeting.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] önderliğindeki kervan başkalarıyla karşılaşıyor</li>
-    <li>image->[PAWN_nameFull] bir [PersonJob] tarafından selamlanıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir [PersonJob] tarafından inceleniyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir [PersonJob] ile konuşuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir [PersonJob] ile yürüyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] sessizce konuşuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bağırıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] bir [PersonJob] ile [Game] oynuyor, [circumstance_group]</li>
-    <li>circumstance_phrase->[AdjectiveFriendly] bir ifade takınmış</li>
-    <li>circumstance_phrase->[AdjectiveFriendly] bir ifade takınmış</li>
-    <li>circumstance_phrase->[VerbFriendly] hareket ediyor</li>
-    <li>circumstance_phrase->diğerleri izliyor</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin kervanının başkalarıyla karşılaşması</li>
+    <li>image->[circumstance_group] bir [PersonJob] ile selamlaşan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir [PersonJob] kişisini inceleyen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir [PersonJob] kişisine seslenen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir [PersonJob] kişisine doğru yürüyen [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] sessizce konuşan [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] yüksek sesle bağıran [PAWN_nameFull]</li>
+    <li>image->[circumstance_group] bir [PersonJob] ile [Game] oynayan [PAWN_nameFull]</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] bir ifadeyle</li>
+    <li>circumstance_phrase->[AdjectiveFriendly] bir ifadeyle</li>
+    <li>circumstance_phrase->[VerbFriendly] hâlde</li>
+    <li>circumstance_phrase->diğerleri seyrederken</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] [event].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] [event].</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] grubu çevreliyor.</li>
-    <li>desc_sentence->Güneş [TerrainFeature] ardına batıyor.</li>
-    <li>desc_sentence->Güneş [TerrainFeature] üzerinden yükseliyor.</li>
-    <li>desc_sentence->Uzaklarda, bir [PersonJob] izliyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] grubu çevrelemiş.</li>
+    <li>desc_sentence->Güneş bir [TerrainFeature] üzerinde batıyor.</li>
+    <li>desc_sentence->Güneş bir [TerrainFeature] üzerinde doğuyor.</li>
+    <li>desc_sentence->Uzakta bir [PersonJob] olanları izliyor.</li>
     <li>event->parti veriyor</li>
-    <li>event->aynı kaptan yiyor</li>
+    <li>event->ortak bir yemek yiyor</li>
     <li>event->son olayları tartışıyor</li>
     <li>event->eski dostlukları canlandırıyor</li>
     <li>event->çekinerek konuşuyor</li>
@@ -236,8 +231,7 @@
   
   <!-- EN: eclipse -->
   <Eclipse.label>tutulma</Eclipse.label>
-  <!-- EN:
-    <li>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</li>
+  <!-- EN: <li>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</li>
     <li>image->an unnaturally dark sky, [circumstance_phrase]</li>
     <li>image->a crepuscular sky, [circumstance_phrase]</li>
     <li>image->a moon, ringed by a faint circle of sunlight, [circumstance_phrase]</li>
@@ -251,30 +245,29 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s watch from below.</li>
     <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature], gazing at the sky.</li>
     <li>desc_sentence->A [Community] of spectators watches the sky peacefully.</li>
-    <li>desc_sentence->There is no [Enemy] in sight.</li>
-  -->
+    <li>desc_sentence->There is no [Enemy] in sight.</li> -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] tutulmaya şahit oluyor</li>
-    <li>image->gökyüzü olağandışı karanlık, [circumstance_phrase]</li>
-    <li>image->gökyüzü alacakaranlık, [circumstance_phrase]</li>
-    <li>image->ayın etrafında soluk bir güneş ışığı çeperi var, [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal] karanlıkta boş boş dolanıyor, [circumstance_phrase]</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] üzerinde bir tutulma</li>
+    <li>image->doğal olmayan biçimde kararmış bir gökyüzü, [circumstance_phrase]</li>
+    <li>image->alacakaranlık bir gökyüzü, [circumstance_phrase]</li>
+    <li>image->soluk bir güneş ışığı halkasıyla çevrelenmiş bir ay, [circumstance_phrase]</li>
+    <li>image->karanlıkta tedirgin biçimde dolanan [Quantity_adjphrase] [Animal], [circumstance_phrase]</li>
     <li>circumstance_phrase->hava durgun ve sessiz</li>
-    <li>circumstance_phrase->yakınlardaki bir [TerrainFeature] alacakaranlığa gömülüyor</li>
-    <li>circumstance_phrase->yakınlardaki [Quantity_adjphrase] [TerrainFeature] alacakaranlığa gömülüyor</li>
-    <li>circumstance_phrase->yıldızlar görünüyor</li>
-    <li>desc_sentence->Aşağıda, [PAWN_nameDef] [Game] oynuyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] hayranlıkla bakakalıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] aşağıda izliyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] kenarında oturarak gökyüzüne bakıyor.</li>
-    <li>desc_sentence->Bir [Community] gökyüzünü huzurla izliyor.</li>
+    <li>circumstance_phrase->yakındaki bir [TerrainFeature] alacakaranlığa bürünmüş</li>
+    <li>circumstance_phrase->yakındaki [Quantity_adjphrase] [TerrainFeature] alacakaranlığa bürünmüş</li>
+    <li>circumstance_phrase->yıldızlar görünür hâlde</li>
+    <li>desc_sentence->Aşağıda [PAWN_nameDef], [AdjectiveFriendly] bir bakışla [Game] oynuyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] izliyor; [PAWN_possessive] yüzünde hayranlık okunuyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] aşağıdan izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] yakınında oturmuş, gökyüzüne bakıyor.</li>
+    <li>desc_sentence->Bir [Community] dolusu seyirci huzur içinde gökyüzünü izliyor.</li>
     <li>desc_sentence->Görünürde hiç [Enemy] yok.</li>
   </Eclipse.rulePack.rulesStrings>
   
   <!-- EN: journey offer -->
   <EndGame_ShipEscape.label>yolculuk teklifi</EndGame_ShipEscape.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
     <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
     <li>image->[PAWN_nameDef] opening a letter delivered by [delivery_method] while [circumstance_group]</li>
     <li>image->[PAWN_nameDef] using a datacrystal delivered by [delivery_method] while [circumstance_group]</li>
@@ -300,42 +293,41 @@
     <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
     <li>desc_sentence->[PAWN_nameDef] sits near a [TerrainFeature].</li>
     <li>desc_sentence->A [Community] is visible in the far distance.</li>
-    <li>desc_sentence->A spaceship is visible in the far distance.</li>
-  -->
+    <li>desc_sentence->A spaceship is visible in the far distance.</li> -->
   <EndGame_ShipEscape.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] eski bir dostun mesajını alıyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] bir fırsat yakalıyor</li>
-    <li>image->[PAWN_nameDef] [delivery_method] gelen mektupu açarken [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] [delivery_method] gelen veri kristalini kullanırken [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] [delivery_method] gelen bir parşömeni açarken [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] [transmission_source] gelen iletiyi alırken [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] [transmission_source] gelen mesajı alırken [circumstance_group]</li>
-    <li>image->[PAWN_nameDef] [transmission_source] gelen mesajı uyumlarken [circumstance_group]</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin eski bir dosttan mesaj alması</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] için bir fırsatın doğması</li>
+    <li>image->[circumstance_group] sırada [delivery_method] tarafından getirilen bir mektubu açan [PAWN_nameDef]</li>
+    <li>image->[circumstance_group] sırada [delivery_method] tarafından getirilen bir veri kristalini kullanan [PAWN_nameDef]</li>
+    <li>image->[circumstance_group] sırada [delivery_method] tarafından getirilen bir parşömeni açan [PAWN_nameDef]</li>
+    <li>image->[circumstance_group] sırada [transmission_source] üzerinden bir yayın alan [PAWN_nameDef]</li>
+    <li>image->[circumstance_group] sırada [transmission_source] üzerinden bir mesaj alan [PAWN_nameDef]</li>
+    <li>image->[circumstance_group] sırada [transmission_source] üzerinden gelen bir mesajı dinleyen [PAWN_nameDef]</li>
     <li>delivery_method->bir [Animal]</li>
     <li>delivery_method->bir [PersonJob]</li>
     <li>delivery_method->[Quantity_adjphrase] [Animal]</li>
-    <li>transmission_source->nadiren kullanılan bir frekanstan</li>
-    <li>transmission_source->antik bir vericiden</li>
-    <li>transmission_source->düşük güçlü bir sinyalden</li>
-    <li>transmission_source->uzun menzilli bir sinyalden</li>
-    <li>transmission_source->gizemli bir sinyalden</li>
-    <li>circumstance_phrase->bir [TerrainFeature] kenarında yalnız duruyor</li>
-    <li>circumstance_phrase->bir [TerrainFeature] keşfediyor</li>
-    <li>circumstance_phrase->ekinlerle ilgileniyor</li>
-    <li>circumstance_phrase->bir [Animal] oradan geçiyor</li>
-    <li>circumstance_phrase->[Game] oynuyor</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] yakınlarda habersizce dolanıyor.</li>
-    <li>desc_sentence->Okudukça, [VerbFriendly] tekrar okuyor.</li>
-    <li>desc_sentence->A spectral [PersonJob] watches from the clouds.</li>
+    <li>transmission_source->nadiren kullanılan bir frekans</li>
+    <li>transmission_source->antik bir verici</li>
+    <li>transmission_source->düşük güçlü bir sinyal</li>
+    <li>transmission_source->uzun menzilli bir sinyal</li>
+    <li>transmission_source->gizemli bir sinyal</li>
+    <li>circumstance_phrase->bir [TerrainFeature] yakınında tek başına durduğu</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını keşfettiği</li>
+    <li>circumstance_phrase->ekinlerle ilgilendiği</li>
+    <li>circumstance_phrase->bir [Animal] yanından geçtiği</li>
+    <li>circumstance_phrase->[Game] oynadığı</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] hiçbir şeyden habersiz yakınlarda dolaşıyor.</li>
+    <li>desc_sentence->[PAWN_pronoun] okurken bir yandan da [VerbFriendly].</li>
+    <li>desc_sentence->Bulutların arasından hayaletimsi bir [PersonJob] izliyor.</li>
     <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] yakınında oturuyor.</li>
-    <li>desc_sentence->Uzaklarda bir [Community] görünüyor.</li>
-    <li>desc_sentence->Uzaklarda bir uzay gemisi görünüyor.</li>
+    <li>desc_sentence->Çok uzakta bir [Community] görülebiliyor.</li>
+    <li>desc_sentence->Çok uzakta bir uzay gemisi görülebiliyor.</li>
   </EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>yıldırım fırtınası</Flashstorm.label>
-  <!-- EN:
-    <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
+  <Flashstorm.label>şimşek fırtınası</Flashstorm.label>
+  <!-- EN: <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</li>
     <li>image->[Quantity_adjphrase] lightning strikes [circumstance_phrase]</li>
     <li>image->[behavior] wall of flames [circumstance_phrase]</li>
@@ -354,35 +346,34 @@
     <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
-    <li>desc_sentence->All animal life has left the area.</li>
-  -->
+    <li>desc_sentence->All animal life has left the area.</li> -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] yıldırım fırtınası tehdidi altında</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] ölümcül yıldırım fırtınası tehdidi yaşıyor</li>
-    <li>image->[Quantity_adjphrase] yıldırım [circumstance_phrase]</li>
-    <li>image->[behavior] alev duvarı [circumstance_phrase]</li>
-    <li>image->[behavior] [Color] alev duvarı [circumstance_phrase]</li>
-    <li>image->[behavior] kül ve duman bulutu [circumstance_phrase]</li>
-    <li>image->[behavior] alev dalgası [circumstance_phrase]</li>
-    <li>behavior->bir</li>
-    <li>behavior->ilerleyen</li>
-    <li>behavior->yaklaşan</li>
-    <li>circumstance_phrase->[Community] tarafına yöneliyor</li>
-    <li>circumstance_phrase->ürkütücü bir bulutun altından</li>
-    <li>circumstance_phrase->neredeyse bir [TerrainFeature] yutuyor</li>
-    <li>circumstance_phrase->neredeyse [Quantity_adjphrase] [TerrainFeature] yutuyor</li>
-    <li>desc_sentence->[PAWN_nameDef] korkuyla izliyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yüzünde dehşet ifadesiyle bakakalıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] savunma önlemlerini koordine ediyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hazırlanmak üzere acele ediyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] için tehdit oluşturan bir şimşek fırtınası</li>
+    <li>tale_noun->ölümcül bir şimşek fırtınasının tehdit ettiği, [PAWN_nameDef] adlı kişinin [Community]</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] yıldırım çarpması</li>
+    <li>image->[circumstance_phrase] [behavior] alevden bir duvar</li>
+    <li>image->[circumstance_phrase] [behavior] [Color] alevlerden bir duvar</li>
+    <li>image->[circumstance_phrase] [behavior] kül ve duman bulutu</li>
+    <li>image->[circumstance_phrase] [behavior] alev dalgası</li>
+    <li>behavior->koca bir</li>
+    <li>behavior->ilerleyen bir</li>
+    <li>behavior->yaklaşan bir</li>
+    <li>circumstance_phrase->bir [Community] yönüne ilerleyen</li>
+    <li>circumstance_phrase->ürkütücü bir bulutun altında</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını neredeyse yutan</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [TerrainFeature] alanını neredeyse yutan</li>
+    <li>desc_sentence->[PAWN_nameDef] gözle görülür bir korkuyla izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] izliyor; [PAWN_possessive] yüzünde hayranlık okunuyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] savunma önlemlerini yönetiyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hazırlanmak için koşuşturuyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
-    <li>desc_sentence->Tüm hayvanlar bölgeyi terk ediyor.</li>
+    <li>desc_sentence->Bölgedeki tüm hayvanlar çekip gitmiş.</li>
   </Flashstorm.rulePack.rulesStrings>
   
   <!-- EN: infestation -->
   <Infestation.label>böcek istilası</Infestation.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects</li>
+  <!-- EN: <li>tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects</li>
     <li>image->a swarm of beetles [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] megaspiders [circumstance_phrase]</li>
     <li>image->an overwhelming tide of [Color] insects [circumstance_phrase]</li>
@@ -401,35 +392,34 @@
     <li>desc_sentence->The ground is coated in [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
-    <li>desc_sentence->All animal life has left the area.</li>
-  -->
+    <li>desc_sentence->All animal life has left the area.</li> -->
   <Infestation.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] dev böceklerin istilası altında</li>
-    <li>image->bir böcek sürüsü [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] mega örümcek [circumstance_phrase]</li>
-    <li>image->boğucu bir [Color] böcek dalgası [circumstance_phrase]</li>
-    <li>image->siyah zerreciklerden oluşan deniz [circumstance_phrase]</li>
-    <li>circumstance_phrase->[TerrainFeature] üzerinden ilerliyor</li>
-    <li>circumstance_phrase->[Community] etrafını sarıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] üzerine saldırıyor</li>
-    <li>circumstance_phrase->yerden yukarı taşıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Animal] katlediyor</li>
-    <li>desc_sentence->[PAWN_nameDef] direnişi örgütlüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir [Weapon] ile kendini savunuyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yerde yatıyor, yaralı.</li>
-    <li>desc_sentence->[PAWN_nameDef] kuşandığı [Weapon] ile karşılık veriyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınıyor.</li>
-    <li>desc_sentence->Yerler [Gore] kaplı.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] alanının dev böceklerce istila edilmesi</li>
+    <li>image->[circumstance_phrase] bir böcek sürüsü</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] megaörümcek</li>
+    <li>image->[circumstance_phrase] karşı konulmaz bir [Color] böcek seli</li>
+    <li>image->[circumstance_phrase] kara beneklerden oluşan yoğun bir sis</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinden ilerleyen</li>
+    <li>circumstance_phrase->bir [Community] alanını tamamen kuşatan</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] kişisine saldıran</li>
+    <li>circumstance_phrase->yerin altından fışkıran</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [Animal] katleden</li>
+    <li>desc_sentence->[PAWN_nameDef] bir direniş örgütlüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] savunmak için bir [Weapon] kuşanıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] yaralı hâlde yerde yatıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [PAWN_possessive] [Weapon] ile karşılık veriyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınmış.</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınmış.</li>
+    <li>desc_sentence->Yer [Gore] ile kaplanmış.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] bölgeden kaçıyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
-    <li>desc_sentence->Tüm hayvanlar bölgeyi terk ediyor.</li>
+    <li>desc_sentence->Bölgedeki tüm hayvanlar çekip gitmiş.</li>
   </Infestation.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
-  <ManhunterPack.label>insan avcısı sürüsü</ManhunterPack.label>
-  <!-- EN:
-    <li>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</li>
+  <ManhunterPack.label>insan avcısı hayvan sürüsü</ManhunterPack.label>
+  <!-- EN: <li>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
     <li>image->a herd of [Animal]s [circumstance_phrase]</li>
     <li>image->[Quantity_adjphrase] [Animal]s [circumstance_phrase]</li>
@@ -453,40 +443,39 @@
     <li>desc_sentence->[PAWN_nameDef] wears a [AdjectiveAngsty] expression.</li>
     <li>desc_sentence->The ground is coated in [Gore].</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s flee the area.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
-  -->
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li> -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] insan avcısı hayvanların tehdidi altında</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] çılgın hayvanların saldırısı altında</li>
-    <li>image->bir [Animal] sürüsü [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Animal] [circumstance_phrase]</li>
-    <li>image->[AdjectiveLarge] bir [Animal] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] gölgevari silüet [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] gölgevari dört ayaklı [circumstance_phrase]</li>
-    <li>circumstance_phrase->[TerrainFeature] üzerinden ilerliyor</li>
-    <li>circumstance_phrase->[Community] etrafını sarıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] üzerine saldırıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Animal] katlediyor</li>
-    <li>circumstance_phrase->[hate_emotion] ile dolup taşıyor</li>
-    <li>circumstance_phrase->[Gore] ile kaplı</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] alanını tehdit eden insan avcısı hayvanlar</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] alanına çıldırmış hayvanların saldırması</li>
+    <li>image->[circumstance_phrase] bir [Animal] sürüsü</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] [Animal]</li>
+    <li>image->[circumstance_phrase] [AdjectiveLarge] bir [Animal]</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] gölgemsi siluet</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] gölgemsi dört ayaklı</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinden ilerleyen</li>
+    <li>circumstance_phrase->bir [Community] alanını tamamen kuşatan</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] kişisine saldıran</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [Animal] katleden</li>
+    <li>circumstance_phrase->[hate_emotion] ile dolup taşan</li>
+    <li>circumstance_phrase->[Gore] içinde kalmış</li>
     <li>hate_emotion->nefret</li>
     <li>hate_emotion->öfke</li>
     <li>hate_emotion->hiddet</li>
-    <li>desc_sentence->[PAWN_nameDef] direnişi örgütlüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] bir [Weapon] ile kendini savunuyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yerde yatıyor, yaralı.</li>
-    <li>desc_sentence->[PAWN_nameDef] kuşandığı [Weapon] ile karşılık veriyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınıyor.</li>
-    <li>desc_sentence->Yerler [Gore] kaplı.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir direniş örgütlüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] savunmak için bir [Weapon] kuşanıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] yaralı hâlde yerde yatıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [PAWN_possessive] [Weapon] ile karşılık veriyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınmış.</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınmış.</li>
+    <li>desc_sentence->Yer [Gore] ile kaplanmış.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] bölgeden kaçıyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
   </ManhunterPack.rulePack.rulesStrings>
   
   <!-- EN: meteorite impact -->
-  <MeteoriteImpact.label>gök taşı</MeteoriteImpact.label>
-  <!-- EN:
-    <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
+  <MeteoriteImpact.label>göktaşı düşüşü</MeteoriteImpact.label>
+  <!-- EN: <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</li>
     <li>image->a [AdjectiveLarge] rock trailing [Color] flames [airborne_circumstance]</li>
     <li>image->a brightly-glowing spot [airborne_circumstance]</li>
@@ -508,38 +497,37 @@
     <li>desc_sentence->[Quantity_adjphrase] figures approach from a nearby [TerrainFeature].</li>
     <li>desc_sentence->[Quantity_adjphrase] figures prepare tools and equipment.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
-    <li>desc_sentence->The surroundings are muted and dull.</li>
-  -->
+    <li>desc_sentence->The surroundings are muted and dull.</li> -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] üzerine meteor düşüyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] yakınlarına meteor düşüyor</li>
-    <li>image->[AdjectiveLarge] bir kaya [Color] alevlerle [airborne_circumstance]</li>
-    <li>image->parlakça ışıldayarak [airborne_circumstance]</li>
-    <li>image->[AdjectiveLarge] [Color] bir alev topu hâlinde [airborne_circumstance]</li>
-    <li>airborne_circumstance->gökyüzünü aydınlatıyor</li>
-    <li>airborne_circumstance->yere düşüyor</li>
-    <li>airborne_circumstance->molozlar ve taşlar saçıyor</li>
-    <li>image->[AdjectiveLarge] bir yekpare kaya, [ground_circumstance]</li>
-    <li>image->[AdjectiveLarge] [Color] bir yanan taş, [ground_circumstance]</li>
-    <li>image->[Color] bir taş sütunu, [ground_circumstance]</li>
-    <li>ground_circumstance->duman ve külle kaplı</li>
-    <li>ground_circumstance->ısıdan duman çıkarıyor</li>
-    <li>ground_circumstance->erimiş molozlarla çevrili</li>
-    <li>ground_circumstance->kısmen yere gömülmüş</li>
-    <li>ground_circumstance->kraterde yatıyor</li>
-    <li>desc_sentence->[PAWN_nameDef] şaşkınlık içerisinde bakıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] heyecanla bakıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] şok olmuş biçimde bakıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] kişi yakınlardaki [TerrainFeature] tarafından yaklaşıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] kişi alet ve ekipman hazırlıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] boş boş dolanıyor.</li>
-    <li>desc_sentence->Etraf sessiz ve sakin.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] yakınına düşen bir göktaşı</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] yakınına çarpan bir göktaşı</li>
+    <li>image->[airborne_circumstance] ardında [Color] alevler bırakan [AdjectiveLarge] bir kaya</li>
+    <li>image->[airborne_circumstance] parlak biçimde ışıldayan bir nokta</li>
+    <li>image->[airborne_circumstance] [AdjectiveLarge], [Color] bir ateş topu</li>
+    <li>airborne_circumstance->gökyüzünü yararak alev alev geçen</li>
+    <li>airborne_circumstance->bir kül bulutu içinde yere düşen</li>
+    <li>airborne_circumstance->uçarken kaya ve enkaz saçan</li>
+    <li>image->[AdjectiveLarge] bir monolit, [ground_circumstance]</li>
+    <li>image->[AdjectiveLarge], [Color] ve kavrulmuş bir taş, [ground_circumstance]</li>
+    <li>image->[Color] bir kaya sütunu, [ground_circumstance]</li>
+    <li>ground_circumstance->duman ve külle çevrili</li>
+    <li>ground_circumstance->sıcaktan tütüyor</li>
+    <li>ground_circumstance->erimiş enkazla çevrili</li>
+    <li>ground_circumstance->kısmen toprağa gömülü</li>
+    <li>ground_circumstance->çatlamış bir kraterin içinde yatıyor</li>
+    <li>desc_sentence->[PAWN_nameDef] şaşkınlıkla izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] heyecanla izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] şok içinde izliyor.</li>
+    <li>desc_sentence->Yakındaki bir [TerrainFeature] yönünden [Quantity_adjphrase] siluet yaklaşıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] siluet alet ve ekipman hazırlıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] tedirgin biçimde dolanıyor.</li>
+    <li>desc_sentence->Çevre sessiz ve donuk.</li>
   </MeteoriteImpact.rulePack.rulesStrings>
   
   <!-- EN: raid -->
   <Raid.label>baskın</Raid.label>
-  <!-- EN:
-    <li>tale_noun->an raid on [PAWN_nameDef]'s [Community]</li>
+  <!-- EN: <li>tale_noun->an raid on [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->an assault on [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by [Enemy]s</li>
     <li>image->[Quantity_adjphrase] [Enemy]s [circumstance_phrase]</li>
@@ -567,44 +555,43 @@
     <li>defender_circumstance->shouting triumphantly</li>
     <li>defender_circumstance->glowing [Color]</li>
     <li>defender_circumstance->raising a fist in defiance</li>
-    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
-  -->
+    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li> -->
   <Raid.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] baskın yaşıyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] saldırı altında</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] [Enemy] saldırısı altında</li>
-    <li>image->[Quantity_adjphrase] [Enemy] [circumstance_phrase]</li>
-    <li>image->bir ordu [circumstance_phrase]</li>
-    <li>image->ezici bir güç [circumstance_phrase]</li>
-    <li>image->işgalci bir kuvvet [circumstance_phrase]</li>
-    <li>image->stilize [Color] sancaklar [circumstance_phrase]</li>
-    <li>image->devasa bir [Enemy] [circumstance_phrase]</li>
-    <li>circumstance_phrase->[TerrainFeature] üzerinden ilerliyor</li>
-    <li>circumstance_phrase->[Community] etrafını sarıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] üzerine saldırıyor</li>
-    <li>circumstance_phrase->utkuyla kükrüyor</li>
-    <li>circumstance_phrase->[Weapon] sallıyor</li>
-    <li>circumstance_phrase->[Gore] ile kaplı</li>
-    <li>desc_sentence->[PAWN_nameDef] direnişi örgütlerken [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] kuşandığı [Weapon] ile savunma yapıyor ve [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] yerde yatıyor, yaralı.</li>
-    <li>desc_sentence->[PAWN_nameDef] kuşandığı [Weapon] ile karşılık veriyor ve [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] dimdik duruyor, [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınıyor.</li>
-    <li>desc_sentence->Yerler [Gore] kaplı.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] alanına bir baskın</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] alanına bir saldırı</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] alanına [Enemy] saldırısı</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] [Enemy]</li>
+    <li>image->[circumstance_phrase] bir ordu</li>
+    <li>image->[circumstance_phrase] ezici bir kuvvet</li>
+    <li>image->[circumstance_phrase] işgalci bir kuvvet</li>
+    <li>image->[circumstance_phrase] stilize [Color] sancaklar</li>
+    <li>image->[circumstance_phrase] devasa bir [Enemy]</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinden ilerleyen</li>
+    <li>circumstance_phrase->bir [Community] alanını tamamen kuşatan</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] kişisine saldıran</li>
+    <li>circumstance_phrase->zafer narası atan</li>
+    <li>circumstance_phrase->[Weapon] sallayan</li>
+    <li>circumstance_phrase->[Gore] içinde kalmış</li>
+    <li>desc_sentence->[PAWN_nameDef], [defender_circumstance] bir direniş örgütlüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [defender_circumstance] savunmak için bir [Weapon] kuşanıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] yaralı hâlde yerde yatıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [defender_circumstance] [PAWN_possessive] [Weapon] ile karşılık veriyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir bina kadar heybetli duruyor, [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınmış.</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınmış.</li>
+    <li>desc_sentence->Yer [Gore] ile kaplanmış.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] bölgeden kaçıyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
-    <li>defender_circumstance->muzaffer biçimde bağırıyor</li>
-    <li>defender_circumstance->[Color] renkle parlıyor</li>
-    <li>defender_circumstance->yumruğunu kaldırarak meydan okuyor</li>
-    <li>defender_circumstance->kaslarını gösteriyor</li>
+    <li>defender_circumstance->zafer çığlıkları atarak</li>
+    <li>defender_circumstance->[Color] renkte parlayarak</li>
+    <li>defender_circumstance->meydan okurcasına yumruğunu kaldırarak</li>
+    <li>defender_circumstance->[PAWN_possessive] kaslarını şişirerek</li>
   </Raid.rulePack.rulesStrings>
   
   <!-- EN: ship part crash -->
-  <ShipPartCrash.label>gemi kazası</ShipPartCrash.label>
-  <!-- EN:
-    <li>tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community]</li>
+  <ShipPartCrash.label>gemi parçası düşüşü</ShipPartCrash.label>
+  <!-- EN: <li>tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->an ancient ship part landing near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->a damaged ship part landing near [PAWN_nameDef]'s [Community]</li>
     <li>image->a swarm of [Mechanoid]s [circumstance_phrase]</li>
@@ -633,45 +620,44 @@
     <li>defender_circumstance->shouting triumphantly</li>
     <li>defender_circumstance->glowing [Color]</li>
     <li>defender_circumstance->raising a fist in defiance</li>
-    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
-  -->
+    <li>defender_circumstance->flexing [PAWN_possessive] muscles</li> -->
   <ShipPartCrash.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] gemi kazası yaşıyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] yakınına gemi düşüyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] civarına gemi parçası düşüyor</li>
-    <li>image->bir [Mechanoid] sürüsü [circumstance_phrase]</li>
-    <li>image->bir [Mechanoid] ordusu [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[AdjectiveLarge] bir [Mechanoid] [circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase] [Mechanoid] silüeti [circumstance_phrase]</li>
-    <li>image->parlayan [Color] sensörleriyle [Quantity_adjphrase] [Mechanoid] [circumstance_phrase]</li>
-    <li>circumstance_phrase->[TerrainFeature] üzerinden ilerliyor</li>
-    <li>circumstance_phrase->[Community] etrafını sarıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] üzerine saldırıyor</li>
-    <li>circumstance_phrase->[Quantity_adjphrase] [Animal] katlediyor</li>
-    <li>circumstance_phrase->[Gore] ile kaplı</li>
-    <li>circumstance_phrase->kıvılcımlar saçıyor</li>
-    <li>desc_sentence->[PAWN_nameDef] direnişi örgütlerken [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] kuşandığı [Weapon] ile savunma yapıyor ve [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] yerde yatıyor, yaralı.</li>
-    <li>desc_sentence->[PAWN_nameDef] kuşandığı [Weapon] ile karşılık veriyor ve [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] dimdik duruyor, [defender_circumstance].</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınıyor.</li>
-    <li>desc_sentence->Yerler [Gore] kaplı.</li>
-    <li>desc_sentence->Yerler atık metal kaplı.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] yakınına çakılan antik bir gemi parçası</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] yakınına inen antik bir gemi parçası</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] yakınına inen hasarlı bir gemi parçası</li>
+    <li>image->[circumstance_phrase] bir [Mechanoid] sürüsü</li>
+    <li>image->[circumstance_phrase] bir [Mechanoid] ordusu</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] [Mechanoid]</li>
+    <li>image->[circumstance_phrase] [AdjectiveLarge] bir [Mechanoid]</li>
+    <li>image->[circumstance_phrase] [Quantity_adjphrase] [Mechanoid] silueti</li>
+    <li>image->[circumstance_phrase] [Color] algılayıcıları parlayan [Quantity_adjphrase] [Mechanoid]</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinden ilerleyen</li>
+    <li>circumstance_phrase->bir [Community] alanını tamamen kuşatan</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [PersonJob] kişisine saldıran</li>
+    <li>circumstance_phrase->[Quantity_adjphrase] [Animal] katleden</li>
+    <li>circumstance_phrase->[Gore] içinde kalmış</li>
+    <li>circumstance_phrase->ezik ve kıvılcımlar saçan</li>
+    <li>desc_sentence->[PAWN_nameDef], [defender_circumstance] bir direniş örgütlüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [defender_circumstance] savunmak için bir [Weapon] kuşanıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] yaralı hâlde yerde yatıyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [defender_circumstance] [PAWN_possessive] [Weapon] ile karşılık veriyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir bina kadar heybetli duruyor, [defender_circumstance].</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveBadass] bir ifade takınmış.</li>
+    <li>desc_sentence->[PAWN_nameDef] [AdjectiveAngsty] bir ifade takınmış.</li>
+    <li>desc_sentence->Yer [Gore] ile kaplanmış.</li>
+    <li>desc_sentence->Yer hurda metalle kaplanmış.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob] bölgeden kaçıyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
-    <li>defender_circumstance->muzaffer biçimde bağırıyor</li>
-    <li>defender_circumstance->[Color] renkle parlıyor</li>
-    <li>defender_circumstance->yumruğunu kaldırarak meydan okuyor</li>
-    <li>defender_circumstance->kaslarını gösteriyor</li>
+    <li>defender_circumstance->zafer çığlıkları atarak</li>
+    <li>defender_circumstance->[Color] renkte parlayarak</li>
+    <li>defender_circumstance->meydan okurcasına yumruğunu kaldırarak</li>
+    <li>defender_circumstance->[PAWN_possessive] kaslarını şişirerek</li>
   </ShipPartCrash.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
   <Tornado.label>hortum</Tornado.label>
-  <!-- EN:
-    <li>tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community]</li>
+  <!-- EN: <li>tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by tornado</li>
     <li>image->[behavior] cone of twisting air [circumstance_phrase]</li>
     <li>image->[behavior] tornado [circumstance_phrase]</li>
@@ -690,35 +676,34 @@
     <li>desc_sentence->[PAWN_nameDef] is coordinating defensive measures.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
-    <li>desc_sentence->All animal life has left the area.</li>
-  -->
+    <li>desc_sentence->All animal life has left the area.</li> -->
   <Tornado.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] hortuma kapılıyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] hortum felaketi yaşıyor</li>
-    <li>image->[behavior] hava konisi [circumstance_phrase]</li>
-    <li>image->[behavior] hortum [circumstance_phrase]</li>
-    <li>image->[behavior] tufan [circumstance_phrase]</li>
-    <li>image->[behavior] [Color] bulut [circumstance_phrase]</li>
-    <li>behavior->ilerleyen</li>
-    <li>behavior->yaklaşan</li>
-    <li>behavior->hızlı</li>
-    <li>behavior->dönen</li>
-    <li>circumstance_phrase->moloz taşıyor</li>
-    <li>circumstance_phrase->[TerrainFeature] üzerinden aşıyor</li>
-    <li>circumstance_phrase->[TerrainFeature] yutuyor</li>
-    <li>circumstance_phrase->[TerrainFeature] içine alıyor</li>
-    <li>desc_sentence->[PAWN_nameDef] korkuyla izliyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yüzünde dehşet ifadesiyle bakakalıyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] savunma önlemlerini koordine ediyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hazırlanmak üzere acele ediyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] yakınında yere inen bir hortum</li>
+    <li>tale_noun->bir hortumun tehdit ettiği, [PAWN_nameDef] adlı kişinin [Community]</li>
+    <li>image->[circumstance_phrase] [behavior] dönen hava hunisi</li>
+    <li>image->[circumstance_phrase] [behavior] hortum</li>
+    <li>image->[circumstance_phrase] [behavior] kasırga</li>
+    <li>image->[circumstance_phrase] [behavior] [Color] bulut kümesi</li>
+    <li>behavior->ilerleyen bir</li>
+    <li>behavior->yaklaşan bir</li>
+    <li>behavior->hızla ilerleyen bir</li>
+    <li>behavior->girdap gibi dönen bir</li>
+    <li>circumstance_phrase->enkazı da beraberinde sürükleyen</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinden geçen</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını gözden saklayan</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını saran</li>
+    <li>desc_sentence->[PAWN_nameDef] gözle görülür bir korkuyla izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] izliyor; [PAWN_possessive] yüzünde hayranlık okunuyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] savunma önlemlerini yönetiyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hazırlanmak için koşuşturuyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
-    <li>desc_sentence->Tüm hayvanlar bölgeyi terk ediyor.</li>
+    <li>desc_sentence->Bölgedeki tüm hayvanlar çekip gitmiş.</li>
   </Tornado.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
   <TornadoFromItem.label>hortum</TornadoFromItem.label>
-  <!-- EN:
-    <li>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</li>
+  <!-- EN: <li>tale_noun->a tornado that touched down near [COLONIST_nameDef]'s [Community]</li>
     <li>tale_noun->[COLONIST_nameDef]'s [Community] menaced by a tornado</li>
     <li>image->[behavior] cone of twisting air [circumstance_phrase]</li>
     <li>image->[behavior] tornado [circumstance_phrase]</li>
@@ -739,37 +724,36 @@
     <li>desc_sentence->[ATTACKER_nameDef] cackles with glee.</li>
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s rush to prepare.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
-    <li>desc_sentence->All animal life has left the area.</li>
-  -->
+    <li>desc_sentence->All animal life has left the area.</li> -->
   <TornadoFromItem.rulePack.rulesStrings>
-    <li>tale_noun->[COLONIST_nameDef] kişisinin yaşadığı [Community] hortuma kapılıyor</li>
-    <li>tale_noun->[COLONIST_nameDef] kişisinin yaşadığı [Community] hortum felaketi yaşıyor</li>
-    <li>image->[behavior] hava konisi [circumstance_phrase]</li>
-    <li>image->[behavior] hortum [circumstance_phrase]</li>
-    <li>image->[behavior] tufan [circumstance_phrase]</li>
-    <li>image->[behavior] [Color] bulut [circumstance_phrase]</li>
-    <li>behavior->ilerleyen</li>
-    <li>behavior->yaklaşan</li>
-    <li>behavior->hızlı</li>
-    <li>behavior->dönen</li>
-    <li>circumstance_phrase->moloz taşıyor</li>
-    <li>circumstance_phrase->[TerrainFeature] üzerinden aşıyor</li>
-    <li>circumstance_phrase->[TerrainFeature] yutuyor</li>
-    <li>circumstance_phrase->[TerrainFeature] içine alıyor</li>
-    <li>desc_sentence->[COLONIST_nameDef] korkuyla izliyor.</li>
-    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] yüzünde dehşet ifadesiyle bakakalıyor.</li>
-    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] yüzünde huşu ifadesiyle seyrediyor.</li>
-    <li>desc_sentence->[COLONIST_nameDef] savunma önlemlerini koordine ediyor.</li>
-    <li>desc_sentence->[ATTACKER_nameDef] neşeyle kıkırdıyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hazırlanmak üzere acele ediyor.</li>
+
+    <li>tale_noun->[COLONIST_nameDef] adlı kişinin [Community] yakınında yere inen bir hortum</li>
+    <li>tale_noun->bir hortumun tehdit ettiği, [COLONIST_nameDef] adlı kişinin [Community]</li>
+    <li>image->[circumstance_phrase] [behavior] dönen hava hunisi</li>
+    <li>image->[circumstance_phrase] [behavior] hortum</li>
+    <li>image->[circumstance_phrase] [behavior] kasırga</li>
+    <li>image->[circumstance_phrase] [behavior] [Color] bulut kümesi</li>
+    <li>behavior->ilerleyen bir</li>
+    <li>behavior->yaklaşan bir</li>
+    <li>behavior->hızla ilerleyen bir</li>
+    <li>behavior->girdap gibi dönen bir</li>
+    <li>circumstance_phrase->enkazı da beraberinde sürükleyen</li>
+    <li>circumstance_phrase->bir [TerrainFeature] üzerinden geçen</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını gözden saklayan</li>
+    <li>circumstance_phrase->bir [TerrainFeature] alanını saran</li>
+    <li>desc_sentence->[COLONIST_nameDef] gözle görülür bir korkuyla izliyor.</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef] izliyor; [COLONIST_possessive] yüzünde hayranlık okunuyor.</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef] izliyor; [ATTACKER_possessive] yüzünde hayranlık okunuyor.</li>
+    <li>desc_sentence->[COLONIST_nameDef] savunma önlemlerini yönetiyor.</li>
+    <li>desc_sentence->[ATTACKER_nameDef] keyifle kıkırdıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [PersonJob] hazırlanmak için koşuşturuyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] [Animal] bölgeden kaçıyor.</li>
-    <li>desc_sentence->Tüm hayvanlar bölgeyi terk ediyor.</li>
+    <li>desc_sentence->Bölgedeki tüm hayvanlar çekip gitmiş.</li>
   </TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
-  <ToxicFallout.label>toksik serpinti</ToxicFallout.label>
-  <!-- EN:
-    <li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
+  <ToxicFallout.label>zehirli serpinti</ToxicFallout.label>
+  <!-- EN: <li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</li>
     <li>image->an ominous sky, [circumstance_group]</li>
     <li>image->the air becoming thick and [circumstance_group]</li>
@@ -786,33 +770,32 @@
     <li>desc_sentence->[PAWN_nameDef] rests quietly with a layer of sweat upon [PAWN_possessive] face.</li>
     <li>desc_sentence->[Quantity_adjphrase] dead [Animal]s lay on the ground.</li>
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
-  -->
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li> -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] toksik serpinti yaşıyor</li>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] toksik havaya boğuluyor</li>
-    <li>image->gökyüzü netameli, [circumstance_group]</li>
-    <li>image->hava ağırlaşıyor, [circumstance_group]</li>
-    <li>image->zemin hafifçe parıldıyor, [circumstance_group]</li>
-    <li>image->tarlalardaki bitkiler ölü, [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] mezar var, [circumstance_group]</li>
-    <li>circumstance_phrase->görünürde yaşam belirtisi yok</li>
-    <li>circumstance_phrase->etraf hafifçe parıldayan toz tabakasıyla kaplanmış</li>
-    <li>circumstance_phrase->çevrede kemikleri andıran bir düzende var</li>
-    <li>circumstance_phrase->zehrin durulması bekleniyor</li>
-    <li>desc_sentence->[PAWN_nameDef] yerde yatıyor, bedeni garip bir açıyla çarpık vaziyette.</li>
-    <li>desc_sentence->[PAWN_nameDef] yakınlardaki bir [TerrainFeature] arkasına saklanıyor ve [AdjectiveAngsty] görünüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] şok olmuş görünüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yüzünde bir ter tabakasıyla sessizce dinleniyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] üzerine çöken serpinti</li>
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] çevresinde havanın zehirlenmesi</li>
+    <li>image->uğursuz bir gökyüzü, [circumstance_group]</li>
+    <li>image->ağırlaşan hava, [circumstance_group]</li>
+    <li>image->hafifçe ışıldayan toprak, [circumstance_group]</li>
+    <li>image->ölü bitkilerle dolu tarlalar, [circumstance_group]</li>
+    <li>image->[Quantity_adjphrase] mezar, [circumstance_group]</li>
+    <li>circumstance_phrase->görünürde hiç canlı yokken</li>
+    <li>circumstance_phrase->ışıl ışıl bir toz tabakasıyla hafifçe kaplanmış</li>
+    <li>circumstance_phrase->kemikleri andıran bir düzende dizilmiş</li>
+    <li>circumstance_phrase->zehrin dinmesini bekleyerek</li>
+    <li>desc_sentence->[PAWN_nameDef] yerde yatıyor; [PAWN_possessive] bedeni tuhaf bir açıyla bükülmüş.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] yakınında saklanmış, [AdjectiveAngsty] bir bakışla dışarıyı süzüyor.</li>
+    <li>desc_sentence->[PAWN_nameDef] şok içinde izliyor.</li>
+    <li>desc_sentence->[PAWN_nameDef], [PAWN_possessive] yüzünü ter basmış hâlde sessizce dinleniyor.</li>
     <li>desc_sentence->[Quantity_adjphrase] ölü [Animal] yerde yatıyor.</li>
-    <li>desc_sentence->Yerde yatan [Quantity_adjphrase] [Animal] ölüyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] boş boş dolanıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] can çekişen [Animal] yerde yatıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] tedirgin biçimde dolanıyor.</li>
   </ToxicFallout.rulePack.rulesStrings>
   
   <!-- EN: volcanic winter -->
   <VolcanicWinter.label>volkanik kış</VolcanicWinter.label>
-  <!-- EN:
-    <li>tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community]</li>
+  <!-- EN: <li>tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community]</li>
     <li>image->a dark and cold sky, [circumstance_group]</li>
     <li>image->the air filling with ash, [circumstance_group]</li>
     <li>image->a frost-covered barren [TerrainFeature] [circumstance_group]</li>
@@ -827,25 +810,25 @@
     <li>desc_sentence->[Quantity_adjphrase] starving [Animal]s surround the scene.</li>
     <li>desc_sentence->[Quantity_adjphrase] shivering [Animal]s surround the scene.</li>
     <li>desc_sentence->[Quantity_adjphrase] dying [Animal]s lay on the ground.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
-  -->
+    <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li> -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] kişisinin yaşadığı [Community] volkanik kış yaşıyor</li>
-    <li>image->gökyüzü karanlık ve soğuk, [circumstance_group]</li>
-    <li>image->hava külle doluyor, [circumstance_group]</li>
-    <li>image->kırağıyla kaplı bir çorak [TerrainFeature], [circumstance_group]</li>
-    <li>image->[Quantity_adjphrase] külle kaplanmış bitkilerle dolu tarla, [circumstance_group]</li>
-    <li>circumstance_phrase->görünürde yaşam belirtisi yok</li>
-    <li>circumstance_phrase->etraf ince ışık huzmeleriyle zar zor aydınlanıyor</li>
-    <li>circumstance_phrase->etraf soğuk mavi ışıkla sert biçimde aydınlanıyor</li>
-    <li>desc_sentence->[PAWN_nameDef] ateşin yanında tortop oluyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] sıcak kalmak için [Quantity_adjphrase] [Apparel] giyiyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] yakınlarda oturuyor, bu çile onu çok yormuş.</li>
-    <li>desc_sentence->[PAWN_nameDef] yakınlardaki bir [TerrainFeature] arkasına saklanıyor ve [AdjectiveAngsty] görünüyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] açlıktan ölüyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] zangır zangır titriyor.</li>
-    <li>desc_sentence->Yerde yatan [Quantity_adjphrase] [Animal] ölüyor.</li>
-    <li>desc_sentence->[Quantity_adjphrase] [Animal] boş boş dolanıyor.</li>
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin [Community] için volkanik kışın başlaması</li>
+    <li>image->karanlık ve soğuk bir gökyüzü, [circumstance_group]</li>
+    <li>image->külle dolan hava, [circumstance_group]</li>
+    <li>image->kırağıyla kaplı çorak bir [TerrainFeature], [circumstance_group]</li>
+    <li>image->külle kaplı bitkilerle dolu [Quantity_adjphrase] tarla, [circumstance_group]</li>
+    <li>circumstance_phrase->görünürde hiç canlı yokken</li>
+    <li>circumstance_phrase->ince ışık huzmeleriyle zar zor aydınlanmış</li>
+    <li>circumstance_phrase->soğuk mavi bir ışıkla keskin biçimde aydınlanmış</li>
+    <li>desc_sentence->[PAWN_nameDef] bir ateşin yanına büzülmüş.</li>
+    <li>desc_sentence->[PAWN_nameDef] ısınmak için [Quantity_adjphrase] [Apparel] giymiş.</li>
+    <li>desc_sentence->[PAWN_nameDef] yakında oturuyor; çektiği sıkıntıdan bitkin düştüğü belli.</li>
+    <li>desc_sentence->[PAWN_nameDef] bir [TerrainFeature] yakınında saklanmış, [AdjectiveAngsty] bir bakışla dışarıyı süzüyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] aç [Animal] sahneyi çevrelemiş.</li>
+    <li>desc_sentence->[Quantity_adjphrase] titreyen [Animal] sahneyi çevrelemiş.</li>
+    <li>desc_sentence->[Quantity_adjphrase] can çekişen [Animal] yerde yatıyor.</li>
+    <li>desc_sentence->[Quantity_adjphrase] [Animal] tedirgin biçimde dolanıyor.</li>
   </VolcanicWinter.rulePack.rulesStrings>
   
 </LanguageData>

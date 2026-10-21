@@ -1,43 +1,77 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
-  <!-- EN:
-    <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
-  -->
+
+  <!-- EN: <li>questDescription(askerIsNull==true)->We've intercepted messages about a collection of valuable items worth [itemStashContentsValue] not far from [map_definite]. The collection consists of:\n\n[itemStashContents]\n\nIt seems that [allSitePartsDescriptionsExceptFirst]</li>
+
+    <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li> -->
+
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->[map_definite] yakınlarında [itemStashContentsValue] değerinde değerli öğelerden oluşan bir koleksiyon hakkında mesajlar aldık. Koleksiyon şunlardan oluşur:\n\n[itemStashContents]\n\nGörünüşe göre [allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameDef], bizden çok da uzak olmayan, [itemStashContentsValue] değerindeki bir değerli eşya koleksiyonu hakkında bizi bilgilendirdi. Koleksiyonda bulunanlar:\n\n[itemStashContents]\n\n[asker_label] diyor ki [allSitePartsDescriptionsExceptFirst]</li>
+
+
+    <li>questDescription(askerIsNull==true)->[map_definite] yakınlarında, toplam değeri [itemStashContentsValue] olan değerli eşyalardan oluşan bir koleksiyonla ilgili mesajlar yakaladık. Koleksiyonun içeriği:\n\n[itemStashContents]\n\nGörünüşe göre [allSitePartsDescriptionsExceptFirst]</li>
+
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] hizbinin başındaki [asker_faction_leaderTitle] [asker_nameDef], yakınımızda toplam değeri [itemStashContentsValue] olan değerli eşyalardan oluşan bir koleksiyon bulunduğunu bize bildirdi. Koleksiyonun içeriği:\n\n[itemStashContents]\n\n[asker_label] şunu da söylüyor: [allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
+
+  <!-- EN: <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
+
     <li>questName->[stash] of [treasure]</li>
+
     <li>stash->Stash</li>
+
     <li>stash->Cache</li>
+
     <li>stash->Collection</li>
+
     <li>stash->Shack</li>
+
     <li>treasure->Treasure</li>
+
     <li>treasure->Valuables</li>
+
     <li>treasure->Fortune</li>
+
     <li>treasure->Goodies</li>
-    <li>treasure->Supplies</li>
-  -->
+
+    <li>treasure->Supplies</li> -->
+
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[asker_nameDef] ve [treasure] [stash]</li>
+
+
+    <li>questName(priority=1)->[treasure] [stash] ([asker_nameDef])</li>
+
     <li>questName->[treasure] [stash]</li>
+
     <li>stash->Zulası</li>
+
     <li>stash->Deposu</li>
+
     <li>stash->Koleksiyonu</li>
-    <li>stash->Yığını</li>
+
+    <li>stash->Kulübesi</li>
+
     <li>treasure->Hazine</li>
-    <li>treasure->Değerli Eşyalar</li>
+
+    <li>treasure->Değerli Eşya</li>
+
     <li>treasure->Servet</li>
-    <li>treasure->Mal</li>
-    <li>treasure->Malzeme</li>
+
+    <li>treasure->Ganimet</li>
+
+    <li>treasure->Erzak</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
+
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>Görev süresi doldu: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
+
+  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>Görevin süresi doldu: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
+
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Gelen telsiz mesajları, mal zulasının başka biri tarafından elde edildiğini belirtiyor. [resolvedQuestName] görevinin süresi doldu.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>Ele geçirilen iletişimlere göre eşya zulası başkaları tarafından sahiplenildi. [resolvedQuestName] görevinin süresi doldu.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+
   
+
 </LanguageData>

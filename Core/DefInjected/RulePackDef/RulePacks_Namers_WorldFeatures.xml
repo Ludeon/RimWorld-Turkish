@@ -1,489 +1,973 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
-  <!-- EN:
-    <li>r_name(p=0.2)->isle [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.2)->isle [narrative_name]</li>
+
     <li>terrain_word(p=4)->islands</li>
+
     <li>terrain_word(p=3)->isles</li>
+
     <li>terrain_word(p=3)->archipelago</li>
+
     <li>terrain_word->reef</li>
+
     <li>terrain_word->atoll</li>
+
     <li>terrain_word->rocks</li>
+
     <li>terrain_word->islets</li>
+
     <li>terrain_word->points</li>
-    <li>terrain_word->chain</li>
-  -->
+
+    <li>terrain_word->chain</li> -->
+
   <NamerArchipelago.rulePack.rulesStrings>
+
+
     <li>r_name(p=0.2)->[narrative_name] adası</li>
+
     <li>terrain_word(p=4)->adaları</li>
+
     <li>terrain_word(p=3)->adacıkları</li>
+
     <li>terrain_word(p=3)->takımadaları</li>
+
     <li>terrain_word->resifi</li>
-    <li>terrain_word->mercan adası</li>
-    <li>terrain_word->kayaları</li>
-    <li>terrain_word->zirveleri</li>
-    <li>terrain_word->sıradağları</li>
+
+    <li>terrain_word->atolü</li>
+
+    <li>terrain_word->kayalıkları</li>
+
+    <li>terrain_word->adacıkları</li>
+
+    <li>terrain_word->burunları</li>
+
+    <li>terrain_word->ada zinciri</li>
   </NamerArchipelago.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>terrain_word(p=4)->shrubland</li>
+
+  <!-- EN: <li>terrain_word(p=4)->shrubland</li>
+
     <li>terrain_word(p=4)->scrubland</li>
+
     <li>terrain_word(p=2)->plateau</li>
+
     <li>terrain_word(p=2)->scrub</li>
+
     <li>terrain_word->desert</li>
+
     <li>terrain_word->bush</li>
+
     <li>terrain_word->brush</li>
-    <li>terrain_word->barrens</li>
-  -->
+
+    <li>terrain_word->barrens</li> -->
+
   <NamerAridShrubland.rulePack.rulesStrings>
+
+
     <li>terrain_word(p=4)->çalılığı</li>
+
+    <li>terrain_word(p=4)->fundalığı</li>
+
     <li>terrain_word(p=2)->platosu</li>
-    <li>terrain_word(p=2)->ovası</li>
+
+    <li>terrain_word(p=2)->çalılıkları</li>
+
     <li>terrain_word->çölü</li>
+
+    <li>terrain_word->çalıları</li>
+
+    <li>terrain_word->fundası</li>
+
+    <li>terrain_word->çorakları</li>
   </NamerAridShrubland.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.2)->gulf of [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.2)->gulf of [narrative_name]</li>
+
     <li>terrain_word(p=6)->bay</li>
+
     <li>terrain_word->bight</li>
+
     <li>terrain_word->gulf</li>
+
     <li>terrain_word->anchorage</li>
-    <li>terrain_word->cove</li>
-  -->
+
+    <li>terrain_word->cove</li> -->
+
   <NamerBay.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[narrative_name] boğazı</li>
-    <li>terrain_word(p=6)->halici</li>
+
+
+    <li>r_name(p=0.2)->[narrative_name] körfezi</li>
+
+    <li>terrain_word(p=6)->koyu</li>
+
+    <li>terrain_word->girintisi</li>
+
     <li>terrain_word->körfezi</li>
-    <li>terrain_word->boğazı</li>
-    <li>terrain_word->koyu</li>
+
+    <li>terrain_word->demirleme yeri</li>
+
+    <li>terrain_word->koycuğu</li>
   </NamerBay.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>terrain_word(p=6)->forest</li>
+
+  <!-- EN: <li>terrain_word(p=6)->forest</li>
+
     <li>terrain_word(p=3)->taiga</li>
+
     <li>terrain_word->grove</li>
+
     <li>terrain_word->woodland</li>
+
     <li>terrain_word->woods</li>
+
     <li>terrain_word->tangle</li>
-    <li>terrain_word->thicket</li>
-  -->
+
+    <li>terrain_word->thicket</li> -->
+
   <NamerBorealForest.rulePack.rulesStrings>
+
+
     <li>terrain_word(p=6)->ormanı</li>
+
     <li>terrain_word(p=3)->taygası</li>
+
     <li>terrain_word->korusu</li>
+
+    <li>terrain_word->ormanlığı</li>
+
     <li>terrain_word->ağaçlığı</li>
+
+    <li>terrain_word->sarmaşıklığı</li>
+
+    <li>terrain_word->çalılığı</li>
   </NamerBorealForest.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
+
     <li>desert_adjective->flat</li>
+
     <li>desert_adjective->white</li>
+
     <li>desert_adjective->endless</li>
+
     <li>desert_adjective->heartless</li>
+
     <li>desert_adjective->parched</li>
+
     <li>desert_adjective->dry</li>
+
     <li>desert_adjective->long</li>
+
     <li>desert_adjective->sunburned</li>
+
     <li>desert_adjective->sunny</li>
+
     <li>desert_adjective->dazzling</li>
+
     <li>desert_adjective->hot</li>
+
     <li>desert_adjective->sweaty</li>
+
     <li>desert_adjective->sandy</li>
+
     <li>desert_adjective->rocky</li>
+
     <li>terrain_word(p=6)->desert</li>
+
     <li>terrain_word->plateau</li>
+
     <li>terrain_word->flats</li>
+
     <li>terrain_word->basin</li>
+
     <li>terrain_word->wastes</li>
+
     <li>terrain_word->wasteland</li>
-    <li>terrain_word->barrens</li>
-  -->
+
+    <li>terrain_word->barrens</li> -->
+
   <NamerDesert.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[desert_adjective] çöl</li>
+
+
+    <li>r_name(p=0.4)->[desert_adjective] [narrative_name]</li>
+
     <li>desert_adjective->düz</li>
+
     <li>desert_adjective->beyaz</li>
-    <li>desert_adjective->uçsuz</li>
-    <li>desert_adjective->zalim</li>
-    <li>desert_adjective->susuz</li>
+
+    <li>desert_adjective->sonsuz</li>
+
+    <li>desert_adjective->acımasız</li>
+
+    <li>desert_adjective->kavrulmuş</li>
+
     <li>desert_adjective->kuru</li>
+
     <li>desert_adjective->uzun</li>
-    <li>desert_adjective->kavruk</li>
+
+    <li>desert_adjective->güneşte yanmış</li>
+
     <li>desert_adjective->güneşli</li>
-    <li>desert_adjective->çarpıcı</li>
+
+    <li>desert_adjective->göz kamaştıran</li>
+
     <li>desert_adjective->sıcak</li>
-    <li>desert_adjective->terletici</li>
+
+    <li>desert_adjective->terli</li>
+
     <li>desert_adjective->kumlu</li>
+
     <li>desert_adjective->kayalık</li>
+
     <li>terrain_word(p=6)->çölü</li>
+
     <li>terrain_word->platosu</li>
+
     <li>terrain_word->düzlükleri</li>
+
     <li>terrain_word->havzası</li>
-    <li>terrain_word->beyabanı</li>
+
+    <li>terrain_word->çorakları</li>
+
+    <li>terrain_word->çorak toprakları</li>
+
+    <li>terrain_word->kıraçları</li>
   </NamerDesert.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>terrain_word(p=6)->forest</li>
+
+  <!-- EN: <li>terrain_word(p=6)->forest</li>
+
     <li>terrain_word->grove</li>
+
     <li>terrain_word->woodland</li>
-    <li>terrain_word->thicket</li>
-  -->
+
+    <li>terrain_word->thicket</li> -->
+
   <NamerForest.rulePack.rulesStrings>
+
+
     <li>terrain_word(p=6)->ormanı</li>
+
     <li>terrain_word->korusu</li>
-    <li>terrain_word->ağaçlığı</li>
+
+    <li>terrain_word->ormanlığı</li>
+
     <li>terrain_word->çalılığı</li>
   </NamerForest.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>terrain_word->sheet</li>
+
+  <!-- EN: <li>terrain_word->sheet</li>
+
     <li>terrain_word->expanse</li>
+
     <li>terrain_word(p=0.5)->reach</li>
+
     <li>terrain_word(p=0.3)->field</li>
+
     <li>terrain_word(p=0.3)->span</li>
+
     <li>terrain_word(p=0.3)->field</li>
+
     <li>terrain_word(p=0.3)->stretch</li>
-    <li>terrain_word(p=0.3)->tract</li>
-  -->
+
+    <li>terrain_word(p=0.3)->tract</li> -->
+
   <NamerIceSheet.rulePack.rulesStrings>
-    <li>terrain_word->buzulu</li>
-    <li>terrain_word(p=0.5)->buz örtüsü</li>
-    <li>terrain_word(p=0.3)->örtü buzulu</li>
+
+
+    <li>terrain_word->buz tabakası</li>
+
+    <li>terrain_word->buz düzlüğü</li>
+
+    <li>terrain_word(p=0.5)->buz uzantısı</li>
+
+    <li>terrain_word(p=0.3)->buz alanı</li>
+
+    <li>terrain_word(p=0.3)->buz sahası</li>
+
+    <li>terrain_word(p=0.3)->buz alanı</li>
+
+    <li>terrain_word(p=0.3)->buz şeridi</li>
+
+    <li>terrain_word(p=0.3)->buz arazisi</li>
   </NamerIceSheet.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.2)->isle [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.2)->isle [narrative_name]</li>
+
     <li>terrain_word(p=4)->island</li>
+
     <li>terrain_word(p=2)->isle</li>
+
     <li>terrain_word->reef</li>
+
     <li>terrain_word->atoll</li>
+
     <li>terrain_word->rock</li>
+
     <li>terrain_word->islet</li>
-    <li>terrain_word->point</li>
-  -->
+
+    <li>terrain_word->point</li> -->
+
   <NamerIsland.rulePack.rulesStrings>
+
+
     <li>r_name(p=0.2)->[narrative_name] adası</li>
+
     <li>terrain_word(p=4)->adası</li>
+
     <li>terrain_word(p=2)->adacığı</li>
-    <li>terrain_word->kayalığı</li>
-    <li>terrain_word->atolu</li>
+
+    <li>terrain_word->resifi</li>
+
+    <li>terrain_word->atolü</li>
+
     <li>terrain_word->kayası</li>
+
+    <li>terrain_word->adacığı</li>
+
+    <li>terrain_word->burnu</li>
   </NamerIsland.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name->lake [narrative_name]</li>
+
+  <!-- EN: <li>r_name->lake [narrative_name]</li>
+
     <li>terrain_word(p=6)->lake</li>
+
     <li>terrain_word->pond</li>
+
     <li>terrain_word->basin</li>
+
     <li>terrain_word->reservoir</li>
+
     <li>terrain_word(p=0.3)->puddle</li>
-    <li>terrain_word(p=0.3)->loch</li>
-  -->
+
+    <li>terrain_word(p=0.3)->loch</li> -->
+
   <NamerLake.rulePack.rulesStrings>
+
+
     <li>r_name->[narrative_name] gölü</li>
+
     <li>terrain_word(p=6)->gölü</li>
-    <li>terrain_word->denizi</li>
+
     <li>terrain_word->göleti</li>
+
     <li>terrain_word->havzası</li>
-    <li>terrain_word->barajı</li>
+
+    <li>terrain_word->rezervuarı</li>
+
+    <li>terrain_word(p=0.3)->su birikintisi</li>
+
     <li>terrain_word(p=0.3)->gölcüğü</li>
-    <li>terrain_word(p=0.3)->lagünü</li>
   </NamerLake.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.2)->mount [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.2)->mount [narrative_name]</li>
+
     <li>terrain_word(p=5)->mountains</li>
+
     <li>terrain_word(p=2)->range</li>
+
     <li>terrain_word->peaks</li>
+
     <li>terrain_word->hills</li>
-    <li>terrain_word->cliffs</li>
-  -->
+
+    <li>terrain_word->cliffs</li> -->
+
   <NamerMountainRange.rulePack.rulesStrings>
+
+
     <li>r_name(p=0.2)->[narrative_name] dağı</li>
+
     <li>terrain_word(p=5)->dağları</li>
+
     <li>terrain_word(p=2)->sıradağları</li>
-    <li>terrain_word->zirveleri</li>
+
+    <li>terrain_word->dorukları</li>
+
     <li>terrain_word->tepeleri</li>
-    <li>terrain_word->uçurumları</li>
+
+    <li>terrain_word->yarları</li>
   </NamerMountainRange.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
+
     <li>ocean_adjective->blue</li>
+
     <li>ocean_adjective->white</li>
+
     <li>ocean_adjective->gray</li>
+
     <li>ocean_adjective->clear</li>
+
     <li>ocean_adjective->windy</li>
+
     <li>ocean_adjective->stormy</li>
+
     <li>ocean_adjective->calm</li>
+
     <li>ocean_adjective->broad</li>
+
     <li>ocean_adjective->endless</li>
+
     <li>ocean_adjective->flat</li>
+
     <li>ocean_adjective->still</li>
+
     <li>ocean_adjective->wavy</li>
+
     <li>ocean_adjective->gentle</li>
+
     <li>terrain_word(p=6)->ocean</li>
+
     <li>terrain_word(p=3)->sea</li>
-    <li>terrain_word->expanse</li>
-  -->
+
+    <li>terrain_word->expanse</li> -->
+
   <NamerOcean.rulePack.rulesStrings>
-    <li>r_name(p=0.4)->[ocean_adjective] okyanus</li>
+
+
+    <li>r_name(p=0.4)->[ocean_adjective] [narrative_name]</li>
+
     <li>ocean_adjective->mavi</li>
+
     <li>ocean_adjective->beyaz</li>
+
     <li>ocean_adjective->gri</li>
+
     <li>ocean_adjective->berrak</li>
+
     <li>ocean_adjective->rüzgârlı</li>
+
     <li>ocean_adjective->fırtınalı</li>
-    <li>ocean_adjective->dingin</li>
-    <li>ocean_adjective->engin</li>
+
+    <li>ocean_adjective->sakin</li>
+
+    <li>ocean_adjective->geniş</li>
+
     <li>ocean_adjective->sonsuz</li>
-    <li>ocean_adjective->çarşaf</li>
+
+    <li>ocean_adjective->düz</li>
+
     <li>ocean_adjective->durgun</li>
+
     <li>ocean_adjective->dalgalı</li>
-    <li>ocean_adjective->nazik</li>
+
+    <li>ocean_adjective->yumuşak</li>
+
     <li>terrain_word(p=6)->okyanusu</li>
+
     <li>terrain_word(p=3)->denizi</li>
+
+    <li>terrain_word->açıkları</li>
   </NamerOcean.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.2)->point [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.2)->point [narrative_name]</li>
+
     <li>r_name(p=0.2)->cape [narrative_name]</li>
+
     <li>terrain_word(p=5)->peninsula</li>
+
     <li>terrain_word(p=2)->point</li>
+
     <li>terrain_word->cape</li>
+
     <li>terrain_word->headland</li>
-    <li>terrain_word->horn</li>
-  -->
+
+    <li>terrain_word->horn</li> -->
+
   <NamerPeninsula.rulePack.rulesStrings>
+
+
     <li>r_name(p=0.2)->[narrative_name] burnu</li>
+
+    <li>r_name(p=0.2)->[narrative_name] çıkıntısı</li>
+
     <li>terrain_word(p=5)->yarımadası</li>
+
     <li>terrain_word(p=2)->burnu</li>
+
+    <li>terrain_word->çıkıntısı</li>
+
+    <li>terrain_word->dil burnu</li>
+
     <li>terrain_word->boynuzu</li>
   </NamerPeninsula.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>terrain_word(p=6)->sea</li>
+
+  <!-- EN: <li>terrain_word(p=6)->sea</li>
+
     <li>terrain_word->lagoon</li>
-    <li>terrain_word->ocean</li>
-  -->
+
+    <li>terrain_word->ocean</li> -->
+
   <NamerSea.rulePack.rulesStrings>
-    <li>r_name(p=0.1)->[narrative_name] gölü</li>
+
+
     <li>terrain_word(p=6)->denizi</li>
-    <li>terrain_word->gölü</li>
+
+    <li>terrain_word->lagünü</li>
+
+    <li>terrain_word->okyanusu</li>
   </NamerSea.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.1)->fen [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.1)->fen [narrative_name]</li>
+
     <li>r_name(p=0.3)->[swamp_adjective] [narrative_name]</li>
+
     <li>swamp_adjective->wet</li>
+
     <li>swamp_adjective->steamy</li>
+
     <li>swamp_adjective->choking</li>
+
     <li>swamp_adjective->rotten</li>
+
     <li>swamp_adjective->rotting</li>
+
     <li>swamp_adjective->overgrown</li>
+
     <li>swamp_adjective->tangled</li>
+
     <li>swamp_adjective->viny</li>
+
     <li>swamp_adjective->thorny</li>
+
     <li>terrain_word(p=6)->swamp</li>
+
     <li>terrain_word->basin</li>
+
     <li>terrain_word->wetlands</li>
+
     <li>terrain_word->bayou</li>
+
     <li>terrain_word->bog</li>
+
     <li>terrain_word->marsh</li>
-    <li>terrain_word->fen</li>
-  -->
+
+    <li>terrain_word->fen</li> -->
+
   <NamerSwamp.rulePack.rulesStrings>
-    <li>r_name(p=0.1)->[narrative_name] bataklığı</li>
-    <li>r_name(p=0.3)->[swamp_adjective] bataklık</li>
+
+
+    <li>r_name(p=0.1)->[narrative_name] sazlığı</li>
+
+    <li>r_name(p=0.3)->[swamp_adjective] [narrative_name]</li>
+
     <li>swamp_adjective->ıslak</li>
-    <li>swamp_adjective->puslu</li>
+
+    <li>swamp_adjective->buharlı</li>
+
     <li>swamp_adjective->boğucu</li>
+
     <li>swamp_adjective->çürük</li>
+
     <li>swamp_adjective->çürüyen</li>
-    <li>swamp_adjective->sık</li>
-    <li>swamp_adjective->karmaşık</li>
-    <li>swamp_adjective->saçaklı</li>
+
+    <li>swamp_adjective->bitki basmış</li>
+
+    <li>swamp_adjective->girift</li>
+
+    <li>swamp_adjective->sarmaşıklı</li>
+
     <li>swamp_adjective->dikenli</li>
+
     <li>terrain_word(p=6)->bataklığı</li>
+
     <li>terrain_word->havzası</li>
-    <li>terrain_word->aynazı</li>
-    <li>terrain_word->batağanı</li>
+
+    <li>terrain_word->sulak alanı</li>
+
+    <li>terrain_word->durgun suyu</li>
+
+    <li>terrain_word->turbalığı</li>
+
+    <li>terrain_word->sazlığı</li>
+
+    <li>terrain_word->batağı</li>
   </NamerSwamp.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+
+  <!-- EN: <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+
     <li>rainforest_adjective->wet</li>
+
     <li>rainforest_adjective->steamy</li>
+
     <li>rainforest_adjective->choking</li>
+
     <li>rainforest_adjective->overgrown</li>
+
     <li>rainforest_adjective->tangled</li>
+
     <li>rainforest_adjective->viny</li>
+
     <li>rainforest_adjective->thorny</li>
+
     <li>terrain_word(p=6)->rainforest</li>
+
     <li>terrain_word(p=3)->jungle</li>
+
     <li>terrain_word->forest</li>
+
     <li>terrain_word->grove</li>
+
     <li>terrain_word->woodland</li>
-    <li>terrain_word->tangle</li>
-  -->
+
+    <li>terrain_word->tangle</li> -->
+
   <NamerTropicalRainforest.rulePack.rulesStrings>
-    <li>r_name(p=0.3)->[rainforest_adjective] orman</li>
+
+
+    <li>r_name(p=0.3)->[rainforest_adjective] [narrative_name]</li>
+
     <li>rainforest_adjective->ıslak</li>
-    <li>rainforest_adjective->puslu</li>
+
+    <li>rainforest_adjective->buharlı</li>
+
     <li>rainforest_adjective->boğucu</li>
-    <li>rainforest_adjective->sık</li>
-    <li>rainforest_adjective->karmaşık</li>
-    <li>rainforest_adjective->saçaklı</li>
+
+    <li>rainforest_adjective->bitki basmış</li>
+
+    <li>rainforest_adjective->girift</li>
+
+    <li>rainforest_adjective->sarmaşıklı</li>
+
     <li>rainforest_adjective->dikenli</li>
+
     <li>terrain_word(p=6)->yağmur ormanı</li>
-    <li>terrain_word(p=3)->yağmur ormanı</li>
+
+    <li>terrain_word(p=3)->cengeli</li>
+
     <li>terrain_word->ormanı</li>
-    <li>terrain_word->ormanı</li>
-    <li>terrain_word->ormanı</li>
-    <li>terrain_word->ormanı</li>
+
+    <li>terrain_word->korusu</li>
+
+    <li>terrain_word->ormanlığı</li>
+
+    <li>terrain_word->sarmaşıklığı</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>terrain_word(p=4)->plateau</li>
+
+  <!-- EN: <li>terrain_word(p=4)->plateau</li>
+
     <li>terrain_word(p=4)->barrens</li>
+
     <li>terrain_word(p=2)->taiga</li>
+
     <li>terrain_word->scrub</li>
+
     <li>terrain_word->shrubland</li>
+
     <li>terrain_word->scrubland</li>
+
     <li>terrain_word->bush</li>
+
     <li>terrain_word->brush</li>
+
     <li>terrain_word->barrens</li>
+
     <li>terrain_word->expanse</li>
+
     <li>terrain_word->prairie</li>
-    <li>terrain_word->flats</li>
-  -->
+
+    <li>terrain_word->flats</li> -->
+
   <NamerTundra.rulePack.rulesStrings>
+
+
     <li>terrain_word(p=4)->platosu</li>
+
+    <li>terrain_word(p=4)->çorakları</li>
+
     <li>terrain_word(p=2)->taygası</li>
-    <li>terrain_word->ovası</li>
-    <li>terrain_word->çayırı</li>
+
+    <li>terrain_word->çalılıkları</li>
+
+    <li>terrain_word->çalılığı</li>
+
+    <li>terrain_word->fundalığı</li>
+
+    <li>terrain_word->çalıları</li>
+
+    <li>terrain_word->fundası</li>
+
+    <li>terrain_word->çorakları</li>
+
+    <li>terrain_word->genişliği</li>
+
+    <li>terrain_word->bozkırı</li>
+
+    <li>terrain_word->düzlükleri</li>
   </NamerTundra.rulePack.rulesStrings>
+
   
-  <!-- EN:
-    <li>r_name->[narrative_name] [terrain_word]</li>
+
+  <!-- EN: <li>r_name->[narrative_name] [terrain_word]</li>
+
     <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
+
     <li>narrative_name(p=12)->[WordTribal]</li>
+
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
+
     <li>narrative_name->[Color][NaturalObject]</li>
+
     <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
+
     <li>narrative_name->[Animal]</li>
+
     <li>narrative_name->[Color]</li>
+
     <li>narrative_name->[Color][Animal]</li>
+
     <li>narrative_name->[AdjectiveNatural][Animal]</li>
+
     <li>narrative_name->[Animal][BodyPart]</li>
+
     <li>narrative_name->[Color] [Animal]</li>
+
     <li>narrative_name->[AdjectiveNatural] [Animal]</li>
+
     <li>narrative_name->[Animal] [BodyPart]</li>
+
     <li>storyname(p=50)->[subject]'s [story_result]</li>
+
     <li>storyname(p=2)->[subject]'s [BodyPart]</li>
+
     <li>storyname->[subject]'s [Gore]</li>
+
     <li>subject(p=5)->[NamePerson]</li>
+
     <li>subject->[Animal]</li>
+
     <li>subject->[WordTribal]</li>
+
     <li>subject->[PlaceOutlander]</li>
+
     <li>story_result->folly</li>
+
     <li>story_result->vice</li>
+
     <li>story_result->lunacy</li>
+
     <li>story_result->mistake</li>
+
     <li>story_result->fault</li>
+
     <li>story_result->misstep</li>
+
     <li>story_result->delusion</li>
+
     <li>story_result->joy</li>
+
     <li>story_result->delight</li>
+
     <li>story_result->wonder</li>
+
     <li>story_result->pride</li>
+
     <li>story_result->jewel</li>
+
     <li>story_result->prize</li>
+
     <li>story_result->bounty</li>
+
     <li>story_result->honor</li>
+
     <li>story_result->jackpot</li>
+
     <li>story_result->trophy</li>
+
     <li>story_result->conceit</li>
+
     <li>story_result->arrogance</li>
+
     <li>story_result->stand</li>
+
     <li>story_result->loss</li>
+
     <li>story_result->debt</li>
+
     <li>story_result->collapse</li>
+
     <li>story_result->destruction</li>
+
     <li>story_result->cataclysm</li>
+
     <li>story_result->ruin</li>
+
     <li>story_result->ruination</li>
+
     <li>story_result->undoing</li>
+
     <li>story_result->downfall</li>
+
     <li>story_result->end</li>
+
     <li>story_result->retirement</li>
+
     <li>story_result->achievement</li>
+
     <li>story_result->finale</li>
+
     <li>story_result->bluff</li>
+
     <li>story_result->ruse</li>
+
     <li>story_result->deception</li>
+
     <li>story_result->facade</li>
-    <li>story_result->fraud</li>
-  -->
+
+    <li>story_result->fraud</li> -->
+
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
+
+
     <li>r_name->[narrative_name] [terrain_word]</li>
+
     <li>r_name(p=0.05)->[storyname] [terrain_word]</li>
+
     <li>narrative_name(p=12)->[WordTribal]</li>
+
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->[Games]</li>
-    <li>narrative_name->[Concepts_Positive]</li>
+
+    <li>narrative_name->[Color][NaturalObject]</li>
+
+    <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
+
     <li>narrative_name->[Animal]</li>
-    <li>narrative_name->[Concepts_Badass]</li>
-    <li>narrative_name->[TreeTypes]</li>
-    <li>narrative_name->[Vegetables]</li>
-    <li>narrative_name->[Weapon]</li>
+
+    <li>narrative_name->[Color]</li>
+
+    <li>narrative_name->[Color][Animal]</li>
+
+    <li>narrative_name->[AdjectiveNatural][Animal]</li>
+
+    <li>narrative_name->[Animal][BodyPart]</li>
+
     <li>narrative_name->[Color] [Animal]</li>
+
     <li>narrative_name->[AdjectiveNatural] [Animal]</li>
+
     <li>narrative_name->[Animal] [BodyPart]</li>
-    <li>storyname(p=50)->[story_result]</li>
-    <li>storyname(p=2)->[subject] [BodyPart]</li>
-    <li>storyname->[Gore]</li>
+
+    <li>storyname(p=50)->[subject] [story_result]</li>
+
+    <li>storyname(p=2)->[subject] Reis'in [BodyPart] Parçası</li>
+
+    <li>storyname->[subject] Reis'in [Gore] Yığını</li>
+
     <li>subject(p=5)->[NamePerson]</li>
+
     <li>subject->[Animal]</li>
+
     <li>subject->[WordTribal]</li>
+
     <li>subject->[PlaceOutlander]</li>
-    <li>story_result->yankı</li>
-    <li>story_result->diken</li>
-    <li>story_result->gölge</li>
-    <li>story_result->fısıltı</li>
-    <li>story_result->çentik</li>
-    <li>story_result->tufan</li>
-    <li>story_result->duman</li>
-    <li>story_result->dehliz</li>
-    <li>story_result->tılsım</li>
-    <li>story_result->çığlık</li>
-    <li>story_result->ateş</li>
-    <li>story_result->kıvılcım</li>
-    <li>story_result->uğur</li>
-    <li>story_result->güneş</li>
-    <li>story_result->ruh</li>
-    <li>story_result->ışık</li>
-    <li>story_result->umut</li>
-    <li>story_result->İsyan</li>
-    <li>story_result->devrim</li>
-    <li>story_result->özgürlük</li>
-    <li>story_result->huzur</li>
-    <li>story_result->sultan</li>
-    <li>story_result->emir</li>
-    <li>story_result->elma</li>
-    <li>story_result->cadı</li>
-    <li>story_result->bulut</li>
-    <li>story_result->keşif</li>
-    <li>story_result->bucak</li>
-    <li>story_result->lanet</li>
-    <li>story_result->kayış</li>
-    <li>story_result->cumhuriyet</li>
-    <li>story_result->millet</li>
-    <li>story_result->kıyım</li>
-    <li>story_result->İhanet</li>
-    <li>story_result->İntikam</li>
-    <li>story_result->anı</li>
-    <li>story_result->hayal</li>
-    <li>story_result->neşe</li>
+
+    <li>story_result->çılgınlığı</li>
+
+    <li>story_result->günahı</li>
+
+    <li>story_result->deliliği</li>
+
+    <li>story_result->hatası</li>
+
+    <li>story_result->kabahati</li>
+
+    <li>story_result->yanlış adımı</li>
+
+    <li>story_result->sanrısı</li>
+
+    <li>story_result->sevinci</li>
+
+    <li>story_result->keyfi</li>
+
+    <li>story_result->harikası</li>
+
+    <li>story_result->gururu</li>
+
+    <li>story_result->mücevheri</li>
+
+    <li>story_result->ödülü</li>
+
+    <li>story_result->bereketi</li>
+
+    <li>story_result->onuru</li>
+
+    <li>story_result->büyük ikramiyesi</li>
+
+    <li>story_result->ganimeti</li>
+
+    <li>story_result->kibri</li>
+
+    <li>story_result->küstahlığı</li>
+
+    <li>story_result->direnişi</li>
+
+    <li>story_result->kaybı</li>
+
+    <li>story_result->borcu</li>
+
+    <li>story_result->çöküşü</li>
+
+    <li>story_result->yıkımı</li>
+
+    <li>story_result->felaketi</li>
+
+    <li>story_result->harabesi</li>
+
+    <li>story_result->perişanlığı</li>
+
+    <li>story_result->mahvı</li>
+
+    <li>story_result->düşüşü</li>
+
+    <li>story_result->sonu</li>
+
+    <li>story_result->emekliliği</li>
+
+    <li>story_result->başarısı</li>
+
+    <li>story_result->finali</li>
+
+    <li>story_result->blöfü</li>
+
+    <li>story_result->hilesi</li>
+
+    <li>story_result->aldatmacası</li>
+
+    <li>story_result->maskesi</li>
+
+    <li>story_result->sahtekârlığı</li>
   </WorldFeatureNamerCommon.rulePack.rulesStrings>
+
   
+
 </LanguageData>

@@ -1,62 +1,38 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <!-- EN: Auto-repair -->
-  <CommandAutoRepair>Oto-tamir</CommandAutoRepair>
-  <!-- EN: If active, a mechanitor will automatically repair this mechanoid. Repairing a mechanoid drains its energy. -->
-  <CommandAutoRepairDesc>Etkinse, bir mekanitör bu mekanoiti otomatik olarak onaracaktır. Bir mekanoiti onarmak, onun enerjisini tüketir.</CommandAutoRepairDesc>
+  <CommandAutoRepair>Otomatik onarım</CommandAutoRepair>
+  <CommandAutoRepairDesc>Etkinse bir mekanitör bu mekanoidi otomatik olarak onarır. Bir mekanoidi onarmak onun enerjisini tüketir.</CommandAutoRepairDesc>
 
-  <!-- EN: {0_labelShort} is deathresting. -->
   <CommandDisabledDeathresting>{0_labelShort} ölüm uykusunda.</CommandDisabledDeathresting>
 
-  <!-- EN: Cancel vatgrowth -->
-  <CommandCancelGrowth>Küvözde büyümeyi iptal et</CommandCancelGrowth>
-  <!-- EN: Cancel vatgrowth for the current occupant. The occupant will be ejected. -->
-  <CommandCancelGrowthDesc>Küvözdeki mevcut kişi için büyümeyi iptal et. Kişi küvözden çıkarılacak.</CommandCancelGrowthDesc>
+  <CommandCancelGrowth>Tankta büyütmeyi iptal et</CommandCancelGrowth>
+  <CommandCancelGrowthDesc>Mevcut içerideki kişi için tankta büyütmeyi iptal et. İçerideki kişi dışarı atılır.</CommandCancelGrowthDesc>
 
-  <!-- EN: Select overseer -->
-  <CommandSelectOverseer>Gözetmen seç</CommandSelectOverseer>
-  <!-- EN: Select the mechanitor who is the overseer of this mech. -->
-  <CommandSelectOverseerDesc>Bu mekanoitin gözetmeni olan mekanitörü seç.</CommandSelectOverseerDesc>
-  <!-- EN: No overseer. -->
+  <CommandSelectOverseer>Gözetmeni seç</CommandSelectOverseer>
+  <CommandSelectOverseerDesc>Bu mekin gözetmeni olan mekanitörü seç.</CommandSelectOverseerDesc>
   <CommandSelectOverseerDisabledDesc>Gözetmen yok.</CommandSelectOverseerDisabledDesc>
 
-  <!-- EN: Cancel extraction -->
-  <CommandCancelExtraction>Özütlemeyi iptal et</CommandCancelExtraction>
-  <!-- EN: Cancel the extraction process. The contained person will be ejected. -->
-  <CommandCancelExtractionDesc>Özütleme işlemini iptal et. İçerideki kişi dışarı çıkarılacak.</CommandCancelExtractionDesc>
+  <CommandCancelExtraction>Çıkarmayı iptal et</CommandCancelExtraction>
+  <CommandCancelExtractionDesc>Çıkarma işlemini iptal et. İçerideki kişi dışarı atılır.</CommandCancelExtractionDesc>
 
-  <!-- EN: Summon mech threat... -->
-  <CommandCallBossgroup>Mek tehdidini çağır...</CommandCallBossgroup>
-  <!-- EN: Summon an enemy leader mechanoid along with escorts.\n\nIf you defeat the leader mechanoid, it will drop a special chip which you can use to advance your own mechanoid technology.\n\nThere are three leader mechanoid types, each summoned a different way, each dropping a different type of chip. -->
-  <CommandCallBossgroupDesc>Bir düşman lider mekanoiti ve beraberindeki muhafızları çağır.\n\nEğer lider mekanoiti yenersen, kendi mekanoit teknolojini ilerletmek için kullanabileceğin özel bir çip düşürecektir.\n\nÜç farklı lider mekanoit türü vardır; her biri farklı bir şekilde çağrılır ve farklı bir çip düşürür.</CommandCallBossgroupDesc>
+  <CommandCallBossgroup>Mek tehdidi çağır...</CommandCallBossgroup>
+  <CommandCallBossgroupDesc>Eskortlarıyla birlikte düşman bir lider mekanoid çağır.\n\nLider mekanoidi yenersen, kendi mekanoid teknolojini ilerletmek için kullanabileceğin özel bir çip düşürür.\n\nÜç lider mekanoid türü vardır; her biri farklı bir yolla çağrılır ve her biri farklı türde bir çip düşürür.</CommandCallBossgroupDesc>
 
-  <!-- EN: Toggle auto load {0} -->
-  <CommandAutoLoad>Otomatik yüklemeyi aç/kapat: {0}</CommandAutoLoad>
-  <!-- EN: If active, colonists will automatically load this with {0}. -->
-  <CommandAutoLoadDesc>Etkinse, koloniciler bunu otomatik olarak {0} ile yükler.</CommandAutoLoadDesc>
+  <CommandAutoLoad>Otomatik yükleme aç/kapat: {0}</CommandAutoLoad>
+  <CommandAutoLoadDesc>Etkinse kolonistler bunu otomatik olarak {0} ile doldurur.</CommandAutoLoadDesc>
 
-  <!-- EN: Eject contents -->
   <CommandEjectContents>İçindekileri çıkar</CommandEjectContents>
-  <!-- EN: Eject all contained {0} onto the ground. -->
-  <CommandEjectContentsDesc>İçerisindeki tüm {0} yere çıkarılır.</CommandEjectContentsDesc>
+  <CommandEjectContentsDesc>İçerideki tüm {0} öğelerini yere çıkar.</CommandEjectContentsDesc>
 
-  <!-- EN: Select all mechs -->
-  <CommandSelectAllMechs>Tüm mekanoitleri seç</CommandSelectAllMechs>
-  <!-- EN: Select all mechanoids controlled by this mechanitor. -->
-  <CommandSelectAllMechsDesc>Bu mekanitör tarafından kontrol edilen tüm mekanoitleri seç.</CommandSelectAllMechsDesc>
+  <CommandSelectAllMechs>Tüm mekleri seç</CommandSelectAllMechs>
+  <CommandSelectAllMechsDesc>Bu mekanitörün kontrol ettiği tüm mekanoidleri seç.</CommandSelectAllMechsDesc>
 
-  <!-- EN: Turret enabled -->
   <CommandToggleTurret>Taret etkin</CommandToggleTurret>
-  <!-- EN: Toggle turret being able to fire at will.\n\nWhen disabled, the turret will not automatically fire. This is useful while sneaking up on enemies. -->
-  <CommandToggleTurretDesc>Tareti 'ateş serbest' moduna al.\n\nDevre dışı bırakıldığında, taret otomatik olarak ateş etmez. Bu, düşmanlara gizlice yaklaşırken faydalıdır.</CommandToggleTurretDesc>
+  <CommandToggleTurretDesc>Taretin serbestçe ateş edebilmesini aç/kapat.\n\nDevre dışıyken taret otomatik olarak ateş etmez. Düşmanlara gizlice yaklaşırken işe yarar.</CommandToggleTurretDesc>
 
-  <!-- EN: Cancel scan -->
   <CommandCancelSubcoreScan>Taramayı iptal et</CommandCancelSubcoreScan>
-  <!-- EN: Cancel the scan process. The contained person will be ejected. -->
-  <CommandCancelSubcoreScanDesc>Tarama işlemini iptal et. İçerideki kişi dışarı çıkarılacak.</CommandCancelSubcoreScanDesc>
+  <CommandCancelSubcoreScanDesc>Tarama işlemini iptal et. İçerideki kişi dışarı atılır.</CommandCancelSubcoreScanDesc>
 
-  <!-- EN: Force xenogerm implantation -->
-  <ForceXenogermImplantation>Zenogerm implantasyonuna zorla</ForceXenogermImplantation>
-  <!-- EN: Force this person to implant their xenogenes into another individual using a special injector organ. If this person's genes are currently regrowing, they will die in the process.\n\nWhen implanted, a xenogerm will overwrite the target's xenogenes. Germline genes will be unaffected. -->
-  <ForceXenogermImplantationDesc>Bu kişiyi, özel bir enjektör organ kullanarak zenogenlerini başka bir bireye aşılamaya zorla. Eğer bu kişinin genleri şu anda yeniden büyüyorsa, işlem sırasında ölecektir.\n\nAşılandığında, bir zenogerm hedefin zenogenlerinin yerini alır. Lakin, kalıtsal genler etkilenmez.</ForceXenogermImplantationDesc>
+  <ForceXenogermImplantation>Zorla ksenomaya yerleştir</ForceXenogermImplantation>
+  <ForceXenogermImplantationDesc>Bu kişiyi, özel bir enjektör organı kullanarak ksenogenlerini başka bir bireye yerleştirmeye zorla. Bu kişinin genleri şu anda yenileniyorsa bu süreçte ölür.\n\nYerleştirildiğinde ksenomaya hedefin ksenogenlerinin üzerine yazar. Soy genleri etkilenmez.</ForceXenogermImplantationDesc>
 </LanguageData>

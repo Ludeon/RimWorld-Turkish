@@ -1,25 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN:
-    <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
-    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li>
-  -->
+
+  <!-- EN: <li>questDescription(siteFaction==Pirate)->Pirates have set up an outpost near [map_definite] to harass you. [allSitePartsDescriptions]\n\nThe outpost will remain until you send a team there to attack and destroy it.</li>
+    <li>questDescription(siteFaction==Mechanoid)->A mechanoid cluster has landed not far from [map_definite]. [allSitePartsDescriptions]\n\nThe mech cluster will remain until you send a team there to attack and destroy it.</li> -->
   <ProblemCauser.questDescriptionRules.rulesStrings>
-    <li>questDescription(siteFaction==Pirate)->Korsanlar seni taciz etmek için [map_definite] yakınında bir ileri karakol kurdu. [allSitePartsDescriptions]\n\nSen saldırıp yok etmek için bir ekip gönderene kadar ileri karakol orada kalacak.</li>
-    <li>questDescription(siteFaction==Mechanoid)->[map_definite] yakınlarına bir mekanoit kümesi indi. [allSitePartsDescriptions]\n\nMek kümesi, sen saldırıp yok etmek için bir ekip gönderene kadar orada kalacak.</li>
+
+    <li>questDescription(siteFaction==Pirate)->Korsanlar seni taciz etmek için [map_definite] yakınlarına bir karakol kurdu. [allSitePartsDescriptions]\n\nKarakol, oraya saldırıp onu yok edecek bir ekip gönderene kadar yerinde kalacak.</li>
+    <li>questDescription(siteFaction==Mechanoid)->[map_definite] yakınlarına bir mekanoid kümesi indi. [allSitePartsDescriptions]\n\nMek kümesi, oraya saldırıp onu yok edecek bir ekip gönderene kadar yerinde kalacak.</li>
   </ProblemCauser.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
-    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li>
-  -->
+  <!-- EN: <li>questName(siteFaction==Pirate)->Pirates with a [problemCauserLabel]</li>
+    <li>questName(siteFaction==Mechanoid)->Mech cluster with a [problemCauserLabel]</li> -->
   <ProblemCauser.questNameRules.rulesStrings>
-    <li>questName(siteFaction==Pirate)->[problemCauserLabel] ile Korsanlar</li>
-    <li>questName(siteFaction==Mechanoid)->[problemCauserLabel] ile Mek Kümesi</li>
+
+    <li>questName(siteFaction==Pirate)->[problemCauserLabel] Sahibi Korsanlar</li>
+    <li>questName(siteFaction==Mechanoid)->[problemCauserLabel] İçeren Mek Kümesi</li>
   </ProblemCauser.questNameRules.rulesStrings>
   <!-- EN: [problemCauserLabel] destroyed -->
   <ProblemCauser.LetterLabelSuccess.slateRef>[problemCauserLabel] yok edildi</ProblemCauser.LetterLabelSuccess.slateRef>
   <!-- EN: You have destroyed the [problemCauserLabel] that was affecting [map_definite]! -->
-  <ProblemCauser.LetterTextSuccess.slateRef>[problemCauserLabel] yok edildi ve [map_definite] onun etkisinden kurtuldu!</ProblemCauser.LetterTextSuccess.slateRef>
-  
+  <ProblemCauser.LetterTextSuccess.slateRef>[map_definite] bölgesini etkileyen [problemCauserLabel] yok edildi!</ProblemCauser.LetterTextSuccess.slateRef>
+
 </LanguageData>

@@ -1,76 +1,46 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: {0} hurls some epithets into the microphone and disconnects. -->
-  <FactionGreetingHostile>{0} mikrofona bazı hakaretler savurup ve bağlantıyı kesiyor.</FactionGreetingHostile>
-  <!-- EN: {0} demands that you make a gesture of goodwill, like bringing gifts to one of {0_possessive} settlements or releasing {0_possessive} faction's prisoners unharmed. Until then, {0_pronoun} is unwilling to talk.\n\nMuttering an insult, {0_pronoun} disconnects. -->
-  <FactionGreetingHostileAppreciative>{0}, iyi niyet göstergesi olarak onun yerleşimlerinden birine hediye getirmeni veya onun fraksiyonunun zarar görmemiş mahkûmlarını serbest bırakmanı istiyor. O zamana kadar konuşmaya niyeti yok.\n\nBir hakaretten sonra bağlantıyı kesti.</FactionGreetingHostileAppreciative>
-  <!-- EN: {0} greets {NEGOTIATOR_labelShort} and asks what business you want to handle. -->
-  <FactionGreetingWary>{0} ile {NEGOTIATOR_labelShort} selamlaşıyor ve ne istediğini soruyor.</FactionGreetingWary>
-  <!-- EN: {0} greets {NEGOTIATOR_labelShort} warmly and asks what {LEADER_pronoun} can do to help you. -->
-  <FactionGreetingWarm>{0}, {NEGOTIATOR_labelShort} kişisini samimiyetle karşılıyor ve yardımcı olmak için neler yapabileceğini soruyor.</FactionGreetingWarm>
+  <FactionGreetingHostile>{0} mikrofona birkaç hakaret savurup bağlantıyı kesiyor.</FactionGreetingHostile>
+  <FactionGreetingHostileAppreciative>{0}, senden bir iyi niyet göstergesi bekliyor: yerleşimlerinden birine hediye götürmek ya da hizbinin mahkûmlarını zarar görmeden serbest bırakmak gibi. O zamana kadar konuşmaya yanaşmıyor.\n\nAğzında bir hakaret geveleyip bağlantıyı kesiyor.</FactionGreetingHostileAppreciative>
+  <FactionGreetingWary>{0}, {NEGOTIATOR_labelShort} ile selamlaşıyor ve hangi iş için aradığını soruyor.</FactionGreetingWary>
+  <FactionGreetingWarm>{0}, {NEGOTIATOR_labelShort} ile sıcak bir şekilde selamlaşıyor ve sana nasıl yardımcı olabileceğini soruyor.</FactionGreetingWarm>
 
-  <!-- EN: won't do {0} -->
-  <WorkTypeDisablesOption>{0} yapmayacak</WorkTypeDisablesOption>
-  <!-- EN: Disconnect -->
-  <Disconnect>Bağlantı kesildi</Disconnect>
+  <WorkTypeDisablesOption>{0} yapmaz</WorkTypeDisablesOption>
+  <Disconnect>Bağlantıyı kes</Disconnect>
 
   <!-- Gift offer -->
-  <!-- EN: Offer gift -->
-  <OfferGift>Hediye teklif et</OfferGift>
-  <!-- EN: must be ally -->
+  <OfferGift>Hediye sun</OfferGift>
   <MustBeAlly>müttefik olmalı</MustBeAlly>
-  <!-- EN: need {0} goodwill -->
   <NeedGoodwill>{0} iyi niyet gerekli</NeedGoodwill>
-  <!-- EN: need {0} silver near trade beacons -->
-  <NeedSilverLaunchable>Ticaret fenerlerinin yakınında {0} gümüş olması gerekiyor</NeedSilverLaunchable>
-  <!-- EN: not enough silver -->
+  <NeedSilverLaunchable>ticaret işaretlerinin yakınında {0} gümüş gerekli</NeedSilverLaunchable>
   <NotEnoughSilver>yeterli gümüş yok</NotEnoughSilver>
-  <!-- EN: {0} silver for {1} goodwill -->
-  <SilverForGoodwill>{1} iyi niyet için {0} gümüş</SilverForGoodwill>
-  <!-- EN: {0} thanks you.\n\n(Goodwill improved by {1}) -->
+  <SilverForGoodwill>{1} iyi niyet karşılığında {0} gümüş</SilverForGoodwill>
   <SilverGiftSent>{0} sana teşekkür ediyor.\n\n(İyi niyet {1} arttı)</SilverGiftSent>
 
   <!-- Trade caravan request -->
-  <!-- EN: Request a trade caravan (cost: {0} goodwill) -->
-  <RequestTrader>Ticaret kervanı talep et (maliyet: {0} iyi niyet)</RequestTrader>
-  <!-- EN: {0} asks what kind of trade caravan you want. -->
+  <RequestTrader>Ticaret kervanı iste (bedeli: {0} iyi niyet)</RequestTrader>
   <ChooseTraderKind>{0} ne tür bir ticaret kervanı istediğini soruyor.</ChooseTraderKind>
-  <!-- EN: {0} agrees to send you a trade caravan. It will arrive within a few days. -->
-  <TraderSent>{0} ticaret kervanı göndermeyi kabul etti. Kervan birkaç gün içinde varacak.</TraderSent>
-  <!-- EN: wait {0} -->
+  <TraderSent>{0} sana bir ticaret kervanı göndermeyi kabul ediyor. Kervan birkaç gün içinde gelecek.</TraderSent>
   <WaitTime>{0} bekle</WaitTime>
 
   <!-- Orbital trade request -->
-  <!-- EN: Request orbital trader (cost: {0} goodwill) -->
-  <RequestOrbitalTrader>Yörüngesel tüccar talep et (maliyet: {0} iyi niyet)</RequestOrbitalTrader>
-  <!-- EN: {0} asks what kind of orbital trader you want. -->
-  <ChooseOrbitalTraderKind>{0} ne tür bir yörüngesel tüccar istediğini soruyor.</ChooseOrbitalTraderKind>
-  <!-- EN: {0} will ask an orbital trader to visit you. It will arrive within a few hours. -->
-  <OrbitalTraderSent>{0}, bir yörüngesel tüccardan seni ziyaret etmesini isteyecek. Birkaç saat içerisinde gelir.</OrbitalTraderSent>
-  
+  <RequestOrbitalTrader>Yörünge tüccarı iste (bedeli: {0} iyi niyet)</RequestOrbitalTrader>
+  <ChooseOrbitalTraderKind>{0} ne tür bir yörünge tüccarı istediğini soruyor.</ChooseOrbitalTraderKind>
+  <OrbitalTraderSent>{0}, bir yörünge tüccarından seni ziyaret etmesini isteyecek. Tüccar birkaç saat içinde gelecek.</OrbitalTraderSent>
+
   <!-- AI core request -->
-  <!-- EN: Request the location of a {0} (cost: {1} silver) -->
-  <RequestAICoreInformation>Bir {0} için konum bilgisi al (maliyet: {1} gümüş)</RequestAICoreInformation>
-  <!-- EN: {0} sends the requested information and wishes you good luck. -->
-  <RequestAICoreInformationResult>{0} istenen bilgileri gönderdi ve sana iyi şanslar diledi.</RequestAICoreInformationResult>
-  <!-- EN: no more locations known -->
-  <NoKnownAICore>başka konum bilinmiyor</NoKnownAICore>  
-  
+  <RequestAICoreInformation>Şunun konumunu iste: {0} (bedeli: {1} gümüş)</RequestAICoreInformation>
+  <RequestAICoreInformationResult>{0} istenen bilgiyi gönderiyor ve sana bol şans diliyor.</RequestAICoreInformationResult>
+  <NoKnownAICore>bilinen başka konum yok</NoKnownAICore>
+
   <!-- Military aid request -->
-  <!-- EN: Request immediate military aid (cost: {0} goodwill) -->
-  <RequestMilitaryAid>Acil askerî yardım iste (maliyet: {0} iyi niyet)</RequestMilitaryAid>
-  <!-- EN: {0} will not help you fight other factions who are not their enemies. This includes some who are currently threatening you, {1}. Do you still want to call for aid? -->
-  <MilitaryAidConfirmMutualEnemy>{0} düşman olmadıkları fraksiyonlarla olan savaşına yardım etmeyecek. Buna, şu anda seni tehdit edenler ({1}) de dâhil. Yine de yardım isteyecek misin?</MilitaryAidConfirmMutualEnemy>
-  <!-- EN: Yes, call them anyway. -->
-  <CallConfirm>Evet, yine de iste.</CallConfirm>
-  <!-- EN: No, never mind. -->
-  <CallCancel>Hayır, unut gitsin.</CallCancel>
-  <!-- EN: {0} agrees to send fighters to help you. -->
-  <MilitaryAidSent>{0} sana yardım etmeleri için savaşçılar göndermeyi kabul ediyor.</MilitaryAidSent>
-  <!-- EN: {0} apologizes and says they won't be able to arrive in time.\n\n(This faction's technology level is too low for transport pods) -->
-  <CantSendMilitaryAidInTime>{0} özür diliyor ve zamanında varamayacaklarını söylüyor.\n\n(Bu fraksiyonun teknoloji seviyesi, taşıma kapsülleri için çok düşük)</CantSendMilitaryAidInTime>
-  <!-- EN: hostile visitors present -->
-  <HostileVisitorsPresent>düşman ziyaretçiler mevcut</HostileVisitorsPresent>
+  <RequestMilitaryAid>Acil askerî yardım iste (bedeli: {0} iyi niyet)</RequestMilitaryAid>
+  <MilitaryAidConfirmMutualEnemy>{0}, kendi düşmanı olmayan hiziplere karşı savaşmana yardım etmeyecek. Şu anda seni tehdit edenlerin bazıları da bunlara dahil: {1}. Yine de yardım çağırmak istiyor musun?</MilitaryAidConfirmMutualEnemy>
+  <CallConfirm>Evet, yine de çağır.</CallConfirm>
+  <CallCancel>Hayır, boş ver.</CallCancel>
+  <MilitaryAidSent>{0} sana yardım etmek için savaşçı göndermeyi kabul ediyor.</MilitaryAidSent>
+  <CantSendMilitaryAidInTime>{0} özür diliyor ve zamanında yetişemeyeceklerini söylüyor.\n\n(Bu hizbin teknoloji seviyesi taşıma kapsülleri için çok düşük)</CantSendMilitaryAidInTime>
+  <HostileVisitorsPresent>düşman ziyaretçiler var</HostileVisitorsPresent>
 
 </LanguageData>

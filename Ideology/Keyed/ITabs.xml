@@ -1,99 +1,57 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Character -->
-  <!-- EN: Overrides some precepts related to -->
-  <OverridesSomePrecepts>Şununla ilgili bazı öğretileri geçersiz kılar</OverridesSomePrecepts>
-  <!-- EN: Agrees with memes -->
-  <AgreeableMemes>Şu ilkeler ile uyuşuyor</AgreeableMemes>
-  <!-- EN: Conflicts with memes -->
-  <DisagreeableMemes>Şu ilkeler ile çelişiyor</DisagreeableMemes>
+  <OverridesSomePrecepts>Şunlarla ilgili bazı ilkeleri geçersiz kılar</OverridesSomePrecepts>
+  <AgreeableMemes>Uyumlu olduğu memler</AgreeableMemes>
+  <DisagreeableMemes>Çeliştiği memler</DisagreeableMemes>
 
   <!-- ITab titles -->
-  <!-- EN: Slave -->
   <TabSlave>Köle</TabSlave>
-  <!-- EN: The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health. -->
-  <SlaveReleaseRelationGainsDesc>Bir köleyi serbest bırakırsan onun ait olduğu fraksiyonun iyi niyetini kazanırsın. Bu, kölelerin fiziksel ve zihinsel sağlıklarından etkilenir.</SlaveReleaseRelationGainsDesc>
-  <!-- EN: Relations gain on release -->
-  <SlaveReleasePotentialRelationGains>Serbest bırakıldığında kazanılan ilişki</SlaveReleasePotentialRelationGains>
-  <!-- EN: Slave rebellion interval -->
-  <SlaveRebellionMTBDays>Köle isyan aralığı</SlaveRebellionMTBDays>
-  <!-- EN: The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map. -->
-  <SlaveRebellionMTBDaysDescription>Kölelerin isyan girişimleri arasındaki ortalama gün sayısı. Sadece uyanık kalınan süre sayılır. Ruh hâli, sağlık, baskılama, silahlara yakınlık ve haritadaki kolonicilerin varlığından etkilenir.</SlaveRebellionMTBDaysDescription>
+  <SlaveReleaseRelationGainsDesc>Bir köleyi serbest bırakırsan kazanacağın hizip iyi niyeti. Bu, kölenin fiziksel ve zihinsel sağlığından etkilenir.</SlaveReleaseRelationGainsDesc>
+  <SlaveReleasePotentialRelationGains>Serbest bırakınca ilişki kazancı</SlaveReleasePotentialRelationGains>
+  <SlaveRebellionMTBDays>Köle isyanı aralığı</SlaveRebellionMTBDays>
+  <SlaveRebellionMTBDaysDescription>Köle isyanı girişimleri arasındaki ortalama gün sayısı. Yalnızca uyanık geçen süre sayılır. Bastırma, ruh hâli, sağlık, silahlara yakınlık, haritadaki köle sayısı ve haritada kolonist bulunması bunu etkiler.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
-  <!-- EN: Suppression -->
-  <Suppression>Sindirilme</Suppression>
-  <!-- EN: Suppression is the psychological effect of fear and control on a slave. If suppression is low, slaves are more likely to rebel. -->
-  <SuppressionDesc>Sindirilme, korku ve kontrolün bir köle üzerindeki psikolojik etkisidir. Sindirilme düşükse kölelerin isyan etme olasılığı daha yüksektir.</SuppressionDesc>
-  <!-- EN: Suppression fall rate -->
-  <SuppressionFallRate>Sindirilme oranı düşüş hızı</SuppressionFallRate>
-  <!-- EN: Suppression falls over time depending on its current level:\n\n- {1}+ suppression: {0} per day\n- {4}-{3} suppression: {2} per day\n- {6}- suppression: {5} per day\n\nApparel and terror can also affect the suppression fall rate. This slave's fall rate calculation is -->
-  <SuppressionFallRateDesc>Sindirilme, mevcut düzeyine bağlı olarak zamanla düşer:\n\n- {1}+ sindirilme: günde {0}\n- {4}-{3} sindirilme: günde {2}\n- {6}- sindirilme: günde {5}\n\nGiyim ve korku da sindirilme oranının düşüş hızını etkileyebilir. Bu kölenin sindirilme oranının düşme hızı şu şekilde hesaplanıyor</SuppressionFallRateDesc>
-  <!-- EN: Cannot emancipate -->
-  <CannotEmancipate>Özgürleştirilemez</CannotEmancipate>
-  <!-- EN: Cannot imprison -->
+  <Suppression>Bastırma</Suppression>
+  <SuppressionDesc>Bastırma, korku ve denetimin bir köle üzerindeki psikolojik etkisidir. Bastırma düşükse kölelerin isyan etme olasılığı artar.</SuppressionDesc>
+  <SuppressionFallRate>Bastırma düşüş hızı</SuppressionFallRate>
+  <SuppressionFallRateDesc>Bastırma, mevcut seviyesine bağlı olarak zamanla düşer:\n\n- {1}+ bastırma: günde {0}\n- {4}-{3} bastırma: günde {2}\n- {6}- bastırma: günde {5}\n\nGiysiler ve dehşet de bastırma düşüş hızını etkileyebilir. Bu kölenin düşüş hızı hesabı şöyle</SuppressionFallRateDesc>
+  <CannotEmancipate>Azat edilemez</CannotEmancipate>
   <CannotImprison>Hapsedilemez</CannotImprison>
-  <!-- EN: Current suppression -->
-  <CurrentSuppression>Mevcut sindirilme</CurrentSuppression>
-  <!-- EN: Terror -->
-  <Terror>Korku</Terror>
-  <!-- EN: Terror is a way to keep slaves suppressed. It rises when the slave spends time near terrifying things like terror sculptures. A slave can only be affected by three terror sources at a time.\n\nWhile terror is high, suppression falls slower as follows -->
-  <TerrorDescription>Korku, köleleri baskı altında tutmanın bir yoludur. Köle, korku heykelleri gibi dehşet verici şeylerin yakınında zaman geçirdiğinde içinde korku uyanır. Bir köle, aynı anda yalnızca üç korku kaynağından etkilenebilir.\n\nSindirilme oranı, korku yüksekken şu şekilde daha yavaş düşer</TerrorDescription>
-  <!-- EN: Recent terrifying observations -->
+  <CurrentSuppression>Mevcut bastırma</CurrentSuppression>
+  <Terror>Dehşet</Terror>
+  <TerrorDescription>Dehşet, köleleri bastırılmış tutmanın bir yoludur. Köle, dehşet heykelleri gibi korkutucu şeylerin yakınında zaman geçirdikçe artar. Bir köle aynı anda en fazla üç dehşet kaynağından etkilenebilir.\n\nDehşet yüksekken bastırma şu şekilde daha yavaş düşer</TerrorDescription>
   <TerrorCurrentThoughts>Son korkutucu gözlemler</TerrorCurrentThoughts>
 
-  <!-- EN: Base interval -->
-  <SuppressionBaseInterval>Taban aralığı</SuppressionBaseInterval>
-  <!-- EN: Moving capacity -->
-  <SuppressionMovingCapacityFactor>Hareket yetisi</SuppressionMovingCapacityFactor>
-  <!-- EN: Suppression -->
-  <SuppressionFactor>Sindirilme</SuppressionFactor>
-  <!-- EN: Mood -->
+  <SuppressionBaseInterval>Temel aralık</SuppressionBaseInterval>
+  <SuppressionMovingCapacityFactor>Hareket kapasitesi</SuppressionMovingCapacityFactor>
+  <SuppressionFactor>Bastırma</SuppressionFactor>
   <SuppressionMoodFactor>Ruh hâli</SuppressionMoodFactor>
-  <!-- EN: Slave count -->
   <SuppressionSlaveCountFactor>Köle sayısı</SuppressionSlaveCountFactor>
-  <!-- EN: Escape route -->
   <SuppressionEscapeFactor>Kaçış yolu</SuppressionEscapeFactor>
-  <!-- EN: Weapon proximity -->
-  <SuppressionWeaponProximityFactor>Silaha olan yakınlık</SuppressionWeaponProximityFactor>
-  <!-- EN: Final interval -->
+  <SuppressionWeaponProximityFactor>Silahlara yakınlık</SuppressionWeaponProximityFactor>
   <SuppressionFinalInterval>Son aralık</SuppressionFinalInterval>
-  <!-- EN: Unattended -->
-  <SuppressionUnattendedByColonists>Başıboş</SuppressionUnattendedByColonists>
-  <!-- EN: At least one of the {0} slaves on this map is expected rebel on average every {1}. -->
-  <SuppressionRebellionAnySlave>Bu haritadaki {0} köleden en az birinin ortalama olarak her {1}de bir isyan çıkarması bekleniyor.</SuppressionRebellionAnySlave>
+  <SuppressionUnattendedByColonists>Gözetimsiz</SuppressionUnattendedByColonists>
+  <SuppressionRebellionAnySlave>Bu haritadaki {0} köleden en az birinin ortalama her {1} sürede bir isyan etmesi bekleniyor.</SuppressionRebellionAnySlave>
 
-  <!-- EN: Will -->
   <WillLevel>İrade</WillLevel>
-  <!-- EN: How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved. -->
-  <WillLevelDesc>Mahkûmun teslim olmamaya ne kadar kararlı olduğu. Bu değer sıfıra ulaştığında mahkûm köleleştirilebilir.</WillLevelDesc>
-  <!-- EN: {0} base will -->
+  <WillLevelDesc>Mahkûmun boyun eğmemeye ne kadar kararlı olduğu. Bu sıfıra ulaştığında köleleştirilebilir.</WillLevelDesc>
   <WillFromPawnKind>{0} temel irade</WillFromPawnKind>
-  <!-- EN: Target ideoligion -->
   <IdeoConversionTarget>Hedef ideodin</IdeoConversionTarget>
-  <!-- EN: The ideoligion your wardens will attempt to convert this prisoner to. -->
-  <IdeoConversionTargetDesc>Gardiyanlarının bu mahkûmu inandırmaya çalışacağı ideodin.</IdeoConversionTargetDesc>
+  <IdeoConversionTargetDesc>Gardiyanlarının bu mahkûmu dönüştürmeye çalışacağı ideodin.</IdeoConversionTargetDesc>
 
   <!-- Social -->
-  <!-- EN: Change per day due to mood -->
-  <CertaintyChangePerDay>Ruh hâli nedeniyle günlük değişim</CertaintyChangePerDay>
-  <!-- EN: Change rate based on mood -->
-  <MoodChangeRate>Ruh hâline dayalı değişim hızı</MoodChangeRate>
-  <!-- EN: {PAWN_nameDef}'s certainty in {IDEO_name} -->
-  <CertaintyInIdeo>{PAWN_nameDef} kişisinin {IDEO_name} ideodinine olan imanı</CertaintyInIdeo>
-  <!-- EN: A special status this person holds in their ideoligion. If you change or take away this role, they will become unhappy. -->
-  <RoleDesc>Bu kişinin kendi ideodininde sahip olduğu özel bir statü. Bu rolü değiştirir veya elinden alırsan mutsuz olacaktır.</RoleDesc>
-  <!-- EN: Changing roles requires a role change ritual. Select any ritual spot or altar and press 'Begin role change'. -->
-  <RoleAssignmentTip>Rolleri değiştirmek için bir rol değiştirme ritüeli yapmak gerekir. Herhangi bir ritüel noktası veya sunak seç ve 'Rol değiştirmeye başla' seçeneğine tıkla.</RoleAssignmentTip>
-  <!-- EN: Conversion attempts will be weaker because of trait/meme agreement -->
-  <ConversionWeakerDueToTraitAgreements>Kişisel özellik/ilke uyumu nedeniyle tebliğ girişimleri daha zayıf olacaktır</ConversionWeakerDueToTraitAgreements>
-  <!-- EN: Conversion attempts will be stronger because of trait/meme conflict -->
-  <ConversionStrongerDueToTraitAgreements>Kişisel özellik/ilke çelişkisi nedeniyle tebliğ girişimleri daha güçlü olacaktır</ConversionStrongerDueToTraitAgreements>
+  <CertaintyChangePerDay>Ruh hâline bağlı günlük değişim</CertaintyChangePerDay>
+  <MoodChangeRate>Ruh hâline bağlı değişim hızı</MoodChangeRate>
+  <CertaintyInIdeo>{PAWN_nameDef} kişisinin {IDEO_name} inancındaki kesinliği</CertaintyInIdeo>
+  <RoleDesc>Bu kişinin ideodininde taşıdığı özel bir statü. Bu rolü değiştirir veya elinden alırsan mutsuz olur.</RoleDesc>
+  <RoleAssignmentTip>Rol değiştirmek bir rol değişimi ritüeli gerektirir. Herhangi bir ritüel noktasını veya sunağı seç ve 'Başlat: rol değişimi' komutuna bas.</RoleAssignmentTip>
+  <ConversionWeakerDueToTraitAgreements>Özellik/mem uyumu nedeniyle dönüştürme girişimleri daha zayıf olacak</ConversionWeakerDueToTraitAgreements>
+  <ConversionStrongerDueToTraitAgreements>Özellik/mem çatışması nedeniyle dönüştürme girişimleri daha güçlü olacak</ConversionStrongerDueToTraitAgreements>
 
-  <!-- EN: Cut -->
-  <Cut>Oy</Cut>
-  <!-- EN: Cut both eyes -->
-  <CutBothEyes>İki gözü de oy</CutBothEyes>
+  <Cut>Kes</Cut>
+  <CutBothEyes>İki gözü de kes</CutBothEyes>
 
 </LanguageData>

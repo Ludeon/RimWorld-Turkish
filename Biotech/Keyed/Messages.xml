@@ -1,168 +1,102 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  
-  <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 1st to 2nd trimester. -->
-  <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort} kişisinin hamileliği birinci dönemden ikinci döneme ilerledi.</MessageColonistReaching2ndTrimesterPregnancy>
-  <!-- EN: {PAWN_labelShort}'s pregnancy progressed from 2nd to 3rd trimester. -->
-  <MessageColonistReaching3rdTrimesterPregnancy>{PAWN_labelShort} kişisinin hamileliği ikinci dönemden üçüncü döneme ilerledi.</MessageColonistReaching3rdTrimesterPregnancy>
-  <!-- EN: {PAWN_labelShort}'s labor has begun the final stages. -->
-  <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} doğumun son aşamalarına girdi.</MessageColonistInFinalStagesOfLabor>
 
-  <!-- EN: A mech charger was destroyed while {PAWN_nameDef} was charging! The power disruption has scrambled its brain, and it is going berserk. -->
-  <MessageMechChargerDestroyedMechGoesBerserk>{PAWN_nameDef} şarj olurken bir mek şarj istasyonu imha oldu! Elektrik kesintisi beynini karıştırıp çıldırmasına sebep oldu.</MessageMechChargerDestroyedMechGoesBerserk>
+  <MessageColonistReaching2ndTrimesterPregnancy>{PAWN_labelShort} adlı kişinin hamileliği 1. trimesterden 2. trimestere geçti.</MessageColonistReaching2ndTrimesterPregnancy>
+  <MessageColonistReaching3rdTrimesterPregnancy>{PAWN_labelShort} adlı kişinin hamileliği 2. trimesterden 3. trimestere geçti.</MessageColonistReaching3rdTrimesterPregnancy>
+  <MessageColonistInFinalStagesOfLabor>{PAWN_labelShort} adlı kişinin doğumu son evrelerine girdi.</MessageColonistInFinalStagesOfLabor>
 
-  <!-- EN: Cannot use {ABILITY_label} on anyone who would actively resist. -->
-  <MessageCantUseOnResistingPerson>{ABILITY_label}, aktif biçimde direnecek kimse üzerinde kullanılamaz.</MessageCantUseOnResistingPerson>
-  <!-- EN: {0_labelShort} already has the {0_xenotype} xenotype. -->
-  <MessageCannotUseOnSameXenotype>{0_labelShort} zaten {0_xenotype} zenotipine mansup.</MessageCannotUseOnSameXenotype>
-  <!-- EN: {0_labelShort} has no available xenogenes to implant. -->
-  <MessagePawnHasNoXenogenes>{0_labelShort} aşılanabilecek bir zenogene sahip değil.</MessagePawnHasNoXenogenes>
-  <!-- EN: Xenogerms can only be implanted into colonists, prisoners, and slaves. -->
-  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Zenogermler yalnızca kolonicilere, mahkûmlara ve kölelere aşılanabilir.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
-  <!-- EN: Cannot implant in temporary faction members. -->
-  <MessageCannotImplantInTempFactionMembers>Geçici fraksiyon üyelerine aşılanamaz.</MessageCannotImplantInTempFactionMembers>
-  <!-- EN: A xenogerm has been completed. -->
-  <MessageXenogermCompleted>Bir zenogerm tamamlandı.</MessageXenogermCompleted>
-  <!-- EN: Work on the xenogerm at {0_labelShort} was cancelled: Missing required genepack. -->
-  <MessageXenogermCancelledMissingPack>{0_labelShort} zenogerm çalışması iptal edildi: Gerekli gen paketi eksik.</MessageXenogermCancelledMissingPack>
-  <!-- EN: Absorbing {PAWN_nameDef}'s xenogerm will anger {0}. -->
-  <MessageAbsorbingXenogermWillAngerFaction>{PAWN_nameDef} kişisinden zenogerm absorbe etmek {0} fraksiyonunu kızdıracak.</MessageAbsorbingXenogermWillAngerFaction>
-  <!-- EN: {ABILITY_label} can only be used on colonists, prisoners, and slaves. -->
-  <MessageCannotUseOnOtherFactions>{ABILITY_label} yalnızca koloniciler, mahkûmlar ve köleler üzerinde kullanılabilir.</MessageCannotUseOnOtherFactions>
-  <!-- EN: {0_labelShort} refuses to become a disliked xenotype. -->
-  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}, beğenilmeyen bir zenotip olmayı reddediyor.</MessageCannotBecomeNonPreferredXenotype>
+  <MessageMechChargerDestroyedMechGoesBerserk>{PAWN_nameDef} şarj olurken bir mek şarj istasyonu yok edildi! Güç kesintisi beynini karıştırdı ve cinnet geçiriyor.</MessageMechChargerDestroyedMechGoesBerserk>
 
-  <!-- EN: Auto-adding {MECH_nameDef} to the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanAddingEscortingMech>{OVERSEER_nameDef} adlı gözetmene refakat ettiği için {MECH_nameDef} kervana otomatik olarak ekleniyor</MessageCaravanAddingEscortingMech> 
-  <!-- EN: Auto-removing {MECH_nameDef} from the caravan, since it is escorting {OVERSEER_nameDef} -->
-  <MessageCaravanRemovingEscortingMech>{OVERSEER_nameDef} adlı gözetmene refakat ettiği için {MECH_nameDef} kervandan otomatik olarak kaldırılıyor</MessageCaravanRemovingEscortingMech>
+  <MessageCantUseOnResistingPerson>{ABILITY_label}, aktif olarak direnecek kimseye kullanılamaz.</MessageCantUseOnResistingPerson>
+  <MessageCannotUseOnSameXenotype>{0_labelShort} zaten {0_xenotype} ksenotipine sahip.</MessageCannotUseOnSameXenotype>
+  <MessagePawnHasNoXenogenes>{0_labelShort} adlı kişinin yerleştirilebilecek ksenogeni yok.</MessagePawnHasNoXenogenes>
+  <MessageCanOnlyTargetColonistsPrisonersAndSlaves>Ksenomayalar yalnızca kolonistlere, mahkûmlara ve kölelere yerleştirilebilir.</MessageCanOnlyTargetColonistsPrisonersAndSlaves>
+  <MessageCannotImplantInTempFactionMembers>Geçici hizip üyelerine yerleştirilemez.</MessageCannotImplantInTempFactionMembers>
+  <MessageXenogermCompleted>Bir ksenomaya tamamlandı.</MessageXenogermCompleted>
+  <MessageXenogermCancelledMissingPack>{0_labelShort} üzerindeki ksenomaya çalışması iptal edildi: Gerekli gen paketi eksik.</MessageXenogermCancelledMissingPack>
+  <MessageAbsorbingXenogermWillAngerFaction>{PAWN_nameDef} adlı kişinin ksenomayasını emmek {0} hizbini kızdıracak.</MessageAbsorbingXenogermWillAngerFaction>
+  <MessageCannotUseOnOtherFactions>{ABILITY_label} yalnızca kolonistlere, mahkûmlara ve kölelere kullanılabilir.</MessageCannotUseOnOtherFactions>
+  <MessageCannotBecomeNonPreferredXenotype>{0_labelShort}, sevmediği bir ksenotipe dönüşmeyi reddediyor.</MessageCannotBecomeNonPreferredXenotype>
 
-  <!-- EN: {0} was a mechanitor. You can remove {0_possessive} {1_label} and use it on a colonist. -->
-  <MessageMechanitorCasketOpened>{0} bir mekanitördü. Ondan {1_label} alabilir ve bir koloniciye takabilirsin.</MessageMechanitorCasketOpened>
-  
-  <!-- EN: Some prisoners' interaction mode required a bloodfeeder. Since the last bloodfeeder is gone, their interaction modes have reset to "No interaction". -->
-  <MessageNoBloodfeedersPrisonerInteractionReset>Bazı mahkûmların etkileşim modu bir kan emici gerektiriyordu. Son kan emiciyi de kaybettiğinden, etkileşim modları "Etkileşime girme" olarak sıfırlandı.</MessageNoBloodfeedersPrisonerInteractionReset>
+  <MessageCaravanAddingEscortingMech>{MECH_nameDef}, {OVERSEER_nameDef} adlı kişiye eskortluk ettiği için kervana otomatik olarak ekleniyor</MessageCaravanAddingEscortingMech>
+  <MessageCaravanRemovingEscortingMech>{MECH_nameDef}, {OVERSEER_nameDef} adlı kişiye eskortluk ettiği için kervandan otomatik olarak çıkarılıyor</MessageCaravanRemovingEscortingMech>
 
-  <!-- EN: {PAWN_nameDef}'s pregnancy was successfully terminated. -->
-  <MessagePregnancyTerminated>{PAWN_nameDef} kişisinin hamileliği başarıyla sonlandırıldı.</MessagePregnancyTerminated>
-  
+  <MessageMechanitorCasketOpened>{0} bir mekanitördü. {1_label} çıkarılıp bir kolonist üzerinde kullanılabilir.</MessageMechanitorCasketOpened>
+
+  <MessageNoBloodfeedersPrisonerInteractionReset>Bazı mahkûmların etkileşim modu bir kan emici gerektiriyordu. Son kan emici de gittiği için etkileşim modları "Etkileşim yok" olarak sıfırlandı.</MessageNoBloodfeedersPrisonerInteractionReset>
+
+  <MessagePregnancyTerminated>{PAWN_nameDef} adlı kişinin hamileliği başarıyla sonlandırıldı.</MessagePregnancyTerminated>
+
   <!-- Pollution -->
-  <!-- EN: {0} has been angered ({1}) -->
-  <MessageAngeredPollutedCell>{0} sinirlendi:({1})</MessageAngeredPollutedCell>
-  <!-- EN: Need unpolluted terrain. -->
-  <MessageWarningPollutedCell>Kirlenmemiş araziye ihtiyaç var.</MessageWarningPollutedCell>
-  <!-- EN: Need polluted terrain. -->
-  <MessageWarningNotPollutedCell>Kirli araziye ihtiyaç var.</MessageWarningNotPollutedCell>
-  <!-- EN: {0} has died because of pollution. -->
-  <MessagePlantDiedOfPollution>{0} kirlilik nedeniyle öldü.</MessagePlantDiedOfPollution>
-  <!-- EN: {0} has died because of a lack of pollution. -->
-  <MessagePlantDiedOfNoPollution>{0} kirlilik eksikliği nedeniyle öldü.</MessagePlantDiedOfNoPollution>
-  <!-- EN: Pollution has increased by {0} at {1}. -->
-  <MessageWorldTilePollutionChanged>{1} bölgesindeki kirlilik {0} arttı.</MessageWorldTilePollutionChanged>
-  <!-- EN: A cocoon has been disturbed and is opening! -->
+  <MessageAngeredPollutedCell>{0} kızdırıldı ({1})</MessageAngeredPollutedCell>
+  <MessageWarningPollutedCell>Kirlenmemiş zemin gerekli.</MessageWarningPollutedCell>
+  <MessageWarningNotPollutedCell>Kirli zemin gerekli.</MessageWarningNotPollutedCell>
+  <MessagePlantDiedOfPollution>{0} kirlilik yüzünden öldü.</MessagePlantDiedOfPollution>
+  <MessagePlantDiedOfNoPollution>{0} kirlilik eksikliği yüzünden öldü.</MessagePlantDiedOfNoPollution>
+  <MessageWorldTilePollutionChanged>{1} konumunda kirlilik {0} arttı.</MessageWorldTilePollutionChanged>
   <MessageCocoonDisturbed>Bir koza rahatsız edildi ve açılıyor!</MessageCocoonDisturbed>
-  <!-- EN: Cocoons have been disturbed and are opening! -->
-  <MessageCocoonDisturbedPlural>Kozalar rahatsız edildi ve açılıyorlar!</MessageCocoonDisturbedPlural>
-  <!-- EN: {0} has rotted due to polluted terrain. -->
-  <MessagePlantDiedOfRot_PollutedTerrain>{0} kirli arazi sebebiyle çürüdü.</MessagePlantDiedOfRot_PollutedTerrain>
+  <MessageCocoonDisturbedPlural>Kozalar rahatsız edildi ve açılıyor!</MessageCocoonDisturbedPlural>
+  <MessagePlantDiedOfRot_PollutedTerrain>{0} kirli zemin yüzünden çürüdü.</MessagePlantDiedOfRot_PollutedTerrain>
 
-  <!-- EN: {PAWN_nameDef} must be downed before you can force {PAWN_objective} to reimplant {PAWN_possessive} xenogerm. -->
-  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef}, onu zenogermini aşılamaya zorlamadan önce etkisiz hâle getirilmelidir.</MessageTargetMustBeDownedToForceReimplant>
+  <MessageTargetMustBeDownedToForceReimplant>{PAWN_nameDef} adlı kişiyi ksenomayasını yeniden yerleştirmeye zorlayabilmen için önce yere düşmüş olması gerekir.</MessageTargetMustBeDownedToForceReimplant>
 
-  <!-- EN: {0_nameDef} is only {1} years old. {2} work can only be done from age {3}. -->
-  <MessageWorkTypeDisabledAge>{0_nameDef} yalnızca {1} yaşında. {2} işi {3} yaşından itibaren yapılabilir.</MessageWorkTypeDisabledAge>
+  <MessageWorkTypeDisabledAge>{0_nameDef} yalnızca {1} yaşında. {2} işi ancak {3} yaşından itibaren yapılabilir.</MessageWorkTypeDisabledAge>
 
-  <!-- EN: {PAWN_nameDef} can now wake from deathrest safely. -->
   <MessageDeathrestingPawnCanWakeSafely>{PAWN_nameDef} artık ölüm uykusundan güvenle uyanabilir.</MessageDeathrestingPawnCanWakeSafely>
 
-  <!-- EN: {0_nameDef} has lost control of a {1_kindBase} mech -->
-  <MessageMechanitorLostControlOfMech>{0_nameDef}, bir {1_kindBase} mekanoitin kontrolünü kaybetti</MessageMechanitorLostControlOfMech>
-  <!-- EN: {0_nameDef} has disconnected from {1_nameDef} mech. -->
-  <MessageMechanitorDisconnectedFromMech>{0_nameDef}, {1_nameDef} mekanoitiyle bağlantısını kesti.</MessageMechanitorDisconnectedFromMech>
+  <MessageMechanitorLostControlOfMech>{0_nameDef}, bir {1_kindBase} mekinin kontrolünü kaybetti</MessageMechanitorLostControlOfMech>
+  <MessageMechanitorDisconnectedFromMech>{0_nameDef}, {1_nameDef} adlı mekle bağlantısını kesti.</MessageMechanitorDisconnectedFromMech>
 
   <!-- Xenogerm -->
-  <!-- EN: The total metabolism of the selected genes must be {MIN} or higher to continue, but currently it is only {AMOUNT}. -->
-  <MetabolismTooLowToCreateXenogerm>Devam etmek için, seçilen genlerin toplam metabolizması {MIN} veya daha yüksek olmalı ama şu anda yalnızca {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
-  <!-- EN: The total complexity of the selected genes must be {MAX} or less to create a xenogerm, but currently it is {AMOUNT}. -->
-  <ComplexityTooHighToCreateXenogerm>Bir zenogerm oluşturmak için, seçilen genlerin toplam karmaşıklığı {MAX} veya daha az olmalı ama şu anda {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
-  <!-- EN: Cannot create a xenogerm with no genes. -->
-  <MessageNoSelectedGenepacks>Geni olmayan bir zenogerm oluşturulamaz.</MessageNoSelectedGenepacks>
-  <!-- EN: Cannot create a xenotype with no genes. -->
-  <MessageNoSelectedGenes>Geni olmayan bir zenotip oluşturulamaz.</MessageNoSelectedGenes>
-  <!-- EN: {0_label} can only store {1} genepacks. -->
-  <CanOnlyStoreNumGenepacks>{0_label} yalnızca {1} gen paketi depolayabilir.</CanOnlyStoreNumGenepacks>
-  <!-- EN: Xenotype name cannot be empty. -->
-  <XenotypeNameCannotBeEmpty>Zenotip adı boş bırakılamaz.</XenotypeNameCannotBeEmpty>
-  <!-- EN: {0} lacks a prerequisite gene -->
-  <MessageGeneMissingPrerequisite>{0} bir ön koşul genden yoksun</MessageGeneMissingPrerequisite>
+  <MetabolismTooLowToCreateXenogerm>Devam etmek için seçili genlerin toplam metabolizması {MIN} ya da daha yüksek olmalı, ama şu anda yalnızca {AMOUNT}.</MetabolismTooLowToCreateXenogerm>
+  <ComplexityTooHighToCreateXenogerm>Ksenomaya oluşturmak için seçili genlerin toplam karmaşıklığı en fazla {MAX} olmalı, ama şu anda {AMOUNT}.</ComplexityTooHighToCreateXenogerm>
+  <MessageNoSelectedGenepacks>Gensiz bir ksenomaya oluşturulamaz.</MessageNoSelectedGenepacks>
+  <MessageNoSelectedGenes>Gensiz bir ksenotip oluşturulamaz.</MessageNoSelectedGenes>
+  <CanOnlyStoreNumGenepacks>{0_label} yalnızca {1} gen paketi saklayabilir.</CanOnlyStoreNumGenepacks>
+  <XenotypeNameCannotBeEmpty>Ksenotip adı boş olamaz.</XenotypeNameCannotBeEmpty>
+  <MessageGeneMissingPrerequisite>{0} için gereken ön koşul geni eksik</MessageGeneMissingPrerequisite>
 
-  <!-- EN: {PAWN_nameDef}'s deathrest capacity has increased from {OLD} to {NEW}. -->
-  <MessageDeathrestCapacityChanged>{PAWN_nameDef} kişisinin ölüm uykusu kapasitesi {OLD} iken {NEW} seviyesine yükseldi.</MessageDeathrestCapacityChanged>
+  <MessageDeathrestCapacityChanged>{PAWN_nameDef} adlı kişinin ölüm uykusu kapasitesi {OLD} değerinden {NEW} değerine yükseldi.</MessageDeathrestCapacityChanged>
 
-  <!-- EN: The sanguophages will arrive in a few hours for their meeting. -->
-  <SanguophagesArrivingSoon>Sanugofajlar toplantı yapmak için birkaç saat içinde gelecekler.</SanguophagesArrivingSoon>
-  <!-- EN: The sanguophages have begun their meeting. -->
-  <SanguophagesBegunMeeting>Sanugofajlar toplantılarına başladılar.</SanguophagesBegunMeeting>
-  <!-- EN: The sanguophages are leaving due to life-threatening temperature. -->
-  <SanguophagesLeavingTemperature>Sanugofajlar hayati tehlike arz eden sıcaklık nedeniyle ayrılıyor.</SanguophagesLeavingTemperature>
+  <SanguophagesArrivingSoon>Sanguofajlar toplantıları için birkaç saat içinde gelecek.</SanguophagesArrivingSoon>
+  <SanguophagesBegunMeeting>Sanguofajlar toplantılarına başladı.</SanguophagesBegunMeeting>
+  <SanguophagesLeavingTemperature>Sanguofajlar hayati tehlike yaratan sıcaklık yüzünden ayrılıyor.</SanguophagesLeavingTemperature>
 
-  <!-- EN: {PAWN_nameDef} was woken from {PAWN_possessive} deathrest due to sunlight exposure. -->
-  <MessagePawnWokenFromSunlight>{PAWN_nameDef}, güneş ışığına maruz kaldığı için ölüm uykusundan uyandı.</MessagePawnWokenFromSunlight>
-  <!-- EN: The {BED_labelShort} {PAWN_nameDef} is assigned to use for deathrest has been exposed to sunlight. {PAWN_nameDef} cannot deathrest there. -->
-  <MessageBedExposedToSunlight>{BED_labelShort}, ölüm uykusu için {PAWN_nameDef} kişisine atanmış ama güneş ışığına maruz kalıyor. {PAWN_nameDef} burada ölüm uykusuna yatamaz.</MessageBedExposedToSunlight>
+  <MessagePawnWokenFromSunlight>{PAWN_nameDef} güneş ışığına maruz kaldığı için ölüm uykusundan uyandı.</MessagePawnWokenFromSunlight>
+  <MessageBedExposedToSunlight>{PAWN_nameDef} adlı kişinin ölüm uykusu için atandığı {BED_labelShort} güneş ışığına maruz kaldı. {PAWN_nameDef} orada ölüm uykusuna yatamaz.</MessageBedExposedToSunlight>
 
-  <!-- EN: {PAWN_labelShort} was ejected from a gene extractor due to lack of power. -->
-  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}, güç eksikliği nedeniyle gen özütleyiciden çıkarıldı.</GeneExtractorNoPowerEjectedMessage>
+  <GeneExtractorNoPowerEjectedMessage>{PAWN_labelShort}, güç olmadığı için gen çıkarıcıdan dışarı atıldı.</GeneExtractorNoPowerEjectedMessage>
 
   <!-- Mechanitor -->
-  <!-- EN: {PAWN_nameDef}'s brain has been destroyed by the subcore ripscanner. -->
-  <MessagePawnKilledRipscanner>{PAWN_nameDef} kişisinin beyni, yırtan alt çekirdek tarayıcı tarafından yok edildi.</MessagePawnKilledRipscanner>
-  <!-- EN: Subcore softscanner completed for {PAWN_nameDef}. -->
-  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef} için yumuşak alt çekirdek tarayıcı tamamlandı.</MessageSubcoreSoftscannerCompleted>
+  <MessagePawnKilledRipscanner>{PAWN_nameDef} adlı kişinin beyni altçekirdek yırtarak tarayıcısı tarafından yok edildi.</MessagePawnKilledRipscanner>
+  <MessageSubcoreSoftscannerCompleted>{PAWN_nameDef} için altçekirdek yumuşak tarayıcı işlemi tamamlandı.</MessageSubcoreSoftscannerCompleted>
 
-  <!-- EN: Cannot resurrect dessicated corpses. -->
-  <MessageCannotResurrectDessicatedCorpse>Kurumuş cesetler diriltemez.</MessageCannotResurrectDessicatedCorpse>
+  <MessageCannotResurrectDessicatedCorpse>Kurumuş cesetler diriltilemez.</MessageCannotResurrectDessicatedCorpse>
 
-  <!-- EN: {0} is about to explode! -->
   <MessageAboutToExplode>{0} patlamak üzere!</MessageAboutToExplode>
 
   <!-- Childcare -->
-  <!-- EN: {FEEDER_labelShort} cannot perform childcare tasks. -->
-  <MessageChildcareDisabled>{FEEDER_labelShort}, çocuk bakımı görevlerini gerçekleştiremez.</MessageChildcareDisabled>
-  <!-- EN: {FEEDER_labelShort} is not assigned to do childcare tasks. -->
-  <MessageChildcareNotAssigned>{FEEDER_labelShort}, çocuk bakımı işlerine atanmadı.</MessageChildcareNotAssigned>
+  <MessageChildcareDisabled>{FEEDER_labelShort} çocuk bakımı işlerini yapamaz.</MessageChildcareDisabled>
+  <MessageChildcareNotAssigned>{FEEDER_labelShort} çocuk bakımı işlerine atanmamış.</MessageChildcareNotAssigned>
 
-  <!-- EN: You already have the maximum number of custom xenotypes. You must delete some if you wish to create more. -->
-  <MessageTooManyCustomXenotypes>Zaten maksimum sayıda özel zenotipin var. Daha fazlasını oluşturmak istiyorsan bazılarını silmelisin.</MessageTooManyCustomXenotypes>
-  <!-- EN: Cannot save xenotype with multiple conflicting genes. -->
-  <MessageConflictingGenesPresent>Çakışan birden fazla gene sahip zenotip kaydedilemez.</MessageConflictingGenesPresent>
+  <MessageTooManyCustomXenotypes>Zaten azami sayıda özel ksenotipin var. Yenilerini oluşturmak istiyorsan bazılarını silmelisin.</MessageTooManyCustomXenotypes>
+  <MessageConflictingGenesPresent>Birbiriyle çelişen birden fazla gen içeren ksenotip kaydedilemez.</MessageConflictingGenesPresent>
 
-  <!-- EN: {BUILDING_labelShort} has been bound to {PAWN_nameDef} ({CUR}/{MAX} deathrest capacity). -->
-  <MessageDeathrestBuildingBound>{BUILDING_labelShort}, {PAWN_nameDef} kişisine ({CUR}/{MAX} ölüm uykusu kapasitesi) bağlandı.</MessageDeathrestBuildingBound>
+  <MessageDeathrestBuildingBound>{BUILDING_labelShort}, {PAWN_nameDef} adlı kişiye bağlandı ({CUR}/{MAX} ölüm uykusu kapasitesi).</MessageDeathrestBuildingBound>
 
-  <!-- EN: Developmental stage selection disabled by scenario. -->
-  <MessageDevelopmentalStageSelectionDisabledByScenario>Gelişim aşaması seçimi senaryo tarafından devre dışı bırakıldı.</MessageDevelopmentalStageSelectionDisabledByScenario>
+  <MessageDevelopmentalStageSelectionDisabledByScenario>Gelişim evresi seçimi senaryo tarafından devre dışı bırakıldı.</MessageDevelopmentalStageSelectionDisabledByScenario>
 
-  <!-- EN: {PAWN_nameDef} did not have enough blood to produce a hemogen pack.  -->
-  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef}, bir hemojen paketi için yeterli kana sahip değildi.</MessagePawnHadNotEnoughBloodToProduceHemogenPack>
-  <!-- EN: {PAWN_nameDef} doesn't have enough blood to produce a hemogen pack. -->
-  <MessageCannotStartHemogenExtraction>{PAWN_nameDef}, hemojen paketi için yeterli kana sahip değil.</MessageCannotStartHemogenExtraction>
+  <MessagePawnHadNotEnoughBloodToProduceHemogenPack>{PAWN_nameDef} adlı kişinin hemojen paketi üretmeye yetecek kanı yoktu. </MessagePawnHadNotEnoughBloodToProduceHemogenPack>
+  <MessageCannotStartHemogenExtraction>{PAWN_nameDef} adlı kişinin hemojen paketi üretmeye yetecek kanı yok.</MessageCannotStartHemogenExtraction>
 
-  <!-- EN: You must choose how {PAWN_nameDef} will grow now. -->
-  <MessageCannotPostponeGrowthMoment>{PAWN_nameDef} adlı çocuğun nasıl büyüyeceğini seçmelisin.</MessageCannotPostponeGrowthMoment>
+  <MessageCannotPostponeGrowthMoment>{PAWN_nameDef} adlı kişinin nasıl büyüyeceğini şimdi seçmelisin.</MessageCannotPostponeGrowthMoment>
 
-  <!-- EN: Warning: {0_labelShort} is carrying a baby while drafted. -->
-  <MessageDraftedPawnCarryingBaby>Uyarı: {0_labelShort}, çatışma modundayken bir bebek taşıyor.</MessageDraftedPawnCarryingBaby>
-  <!-- EN: {ADULT_nameDef} is moving {BABY_nameDef} somewhere with a safer temperature. -->
-  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}, {BABY_nameDef} adlı bebeği daha güvenli sıcaklığa sahip bir yere taşıyor.</MessageTakingBabyToSafeTemperature>
+  <MessageDraftedPawnCarryingBaby>Uyarı: {0_labelShort} askere alınmışken bir bebek taşıyor.</MessageDraftedPawnCarryingBaby>
+  <MessageTakingBabyToSafeTemperature>{ADULT_nameDef}, {BABY_nameDef} adlı bebeği sıcaklığı daha güvenli bir yere götürüyor.</MessageTakingBabyToSafeTemperature>
 
-  <!-- EN: Pregnancy failed between {MOTHER_nameDef} and {FATHER_nameDef} -->
-  <MessagePregnancyFailed>{MOTHER_nameDef}, {FATHER_nameDef} tarafından hamile bırakılamadı.</MessagePregnancyFailed>
-  <!-- EN: {PAWN_nameDef} failed to fertilize ovum -->
-  <MessageFerilizeFailed>{PAWN_nameDef} yumurta hücresini dölleyemedi</MessageFerilizeFailed>
-  <!-- EN: Combined genes exceeded metabolism limits. -->
-  <CombinedGenesExceedMetabolismLimits>Gen kombinasyonu, metabolizma sınırlarını aştı.</CombinedGenesExceedMetabolismLimits>
+  <MessagePregnancyFailed>{MOTHER_nameDef} ile {FATHER_nameDef} arasında hamilelik gerçekleşmedi</MessagePregnancyFailed>
+  <MessageFerilizeFailed>{PAWN_nameDef} yumurtayı dölleyemedi</MessageFerilizeFailed>
+  <CombinedGenesExceedMetabolismLimits>Birleştirilen genler metabolizma sınırlarını aştı.</CombinedGenesExceedMetabolismLimits>
 
-  <!-- EN: Starting colonists must be capable of violence in tutorial mode. -->
-  <MessageStartingPawnCapableOfViolence>Öğretici modda, başlangıç kolonicileri çatışabiliyor olmalıdır.</MessageStartingPawnCapableOfViolence>
+  <MessageStartingPawnCapableOfViolence>Eğitim modunda başlangıç kolonistleri şiddet uygulayabilmelidir.</MessageStartingPawnCapableOfViolence>
 </LanguageData>

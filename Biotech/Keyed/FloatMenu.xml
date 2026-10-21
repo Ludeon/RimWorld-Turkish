@@ -1,174 +1,97 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: Not a mechanitor -->
   <NotAMechanitor>Mekanitör değil</NotAMechanitor>
-  <!-- EN: Not enough bandwidth -->
-  <NotEnoughBandwidth>Bant genişliği yeterli değil</NotEnoughBandwidth>
-  <!-- EN: Take control of {0} -->
-  <ControlMech>{0} kontrolünü al</ControlMech>
-  <!-- EN: Cannot control {0} -->
-  <CannotControlMech>{0} kontrol edilemiyor</CannotControlMech>
-  <!-- EN: Already controlled by {0} -->
+  <NotEnoughBandwidth>Yeterli bant genişliği yok</NotEnoughBandwidth>
+  <ControlMech>Kontrolü ele al: {0}</ControlMech>
+  <CannotControlMech>Kontrol edilemiyor: {0}</CannotControlMech>
   <CannotControlMechAlreadyControlled>Zaten {0} tarafından kontrol ediliyor</CannotControlMechAlreadyControlled>
-  <!-- EN: Not enough bandwidth -->
-  <CannotControlMechNotEnoughBandwidth>Bant genişliği yeterli değil</CannotControlMechNotEnoughBandwidth>
-  <!-- EN: Never controllable -->
+  <CannotControlMechNotEnoughBandwidth>Yeterli bant genişliği yok</CannotControlMechNotEnoughBandwidth>
   <CannotControlMechNeverControllable>Asla kontrol edilemez</CannotControlMechNeverControllable>
-  <!-- EN: Cannot disconnect from {0} -->
-  <CannotDisconnectMech>{0} ile bağlantı kesilemiyor</CannotDisconnectMech>
-  <!-- EN: Disconnect from {0} -->
-  <DisconnectMech>{0} ile bağlantıyı kes</DisconnectMech>
-  <!-- EN: Permanently disassemble {0} -->
+  <CannotDisconnectMech>Bağlantı kesilemiyor: {0}</CannotDisconnectMech>
+  <DisconnectMech>Bağlantıyı kes: {0}</DisconnectMech>
   <DisassembleMech>Kalıcı olarak sök: {0}</DisassembleMech>
-  <!-- EN: Cannot permanently disassemble {0} -->
-  <CannotDisassembleMech>{0} kalıcı olarak sökülemez</CannotDisassembleMech>
-  <!-- EN: Must be overseer -->
+  <CannotDisassembleMech>Kalıcı olarak sökülemiyor: {0}</CannotDisassembleMech>
   <MustBeOverseer>Gözetmen olmalı</MustBeOverseer>
-  <!-- EN: Extract -->
   <Extract>Çıkar</Extract>
-  <!-- EN: Out of command range -->
-  <OutOfCommandRange>Komuta menzili dışında</OutOfCommandRange>
-  <!-- EN: Cannot go here -->
-  <CannotGoOutOfRange>Buraya gidemez</CannotGoOutOfRange>
-  <!-- EN: Must be emptied -->
+  <OutOfCommandRange>Komuta menzilinin dışında</OutOfCommandRange>
+  <CannotGoOutOfRange>Buraya gidilemez</CannotGoOutOfRange>
   <WasteContainerFull>Boşaltılması gerekiyor</WasteContainerFull>
-  <!-- EN: Cannot repair mech {0} -->
-  <CannotRepairMech>{0} onarılamıyor</CannotRepairMech>
+  <CannotRepairMech>Mek onarılamıyor: {0}</CannotRepairMech>
 
-  <!-- EN: Extract xenogerm from {PAWN_nameDef} -->
-  <ExtractXenogermFrom>Zenogerm özütle: {PAWN_nameDef}</ExtractXenogermFrom>
-  <!-- EN: Enter {0_labelShort} -->
+  <ExtractXenogermFrom>Ksenomayayı çıkar: {PAWN_nameDef}</ExtractXenogermFrom>
   <EnterBuilding>Gir: {0_labelShort}</EnterBuilding>
-  <!-- EN: {PAWN_nameDef} has no genes -->
-  <PawnHasNoGenes>{PAWN_nameDef} gensiz</PawnHasNoGenes>
-  <!-- EN: {PAWN_nameDef} has no extractable genes. -->
-  <PawnHasNoNonArchiteGenes>{PAWN_nameDef}, özütlenebilir genlere sahip değil.</PawnHasNoNonArchiteGenes>
-  <!-- EN: In xenogermination coma -->
-  <InXenogerminationComa>Zenogerminasyon komasında</InXenogerminationComa>
-  <!-- EN: Occupied -->
+  <PawnHasNoGenes>{PAWN_nameDef} adlı kişinin geni yok</PawnHasNoGenes>
+  <PawnHasNoNonArchiteGenes>{PAWN_nameDef} adlı kişinin çıkarılabilir geni yok.</PawnHasNoNonArchiteGenes>
+  <InXenogerminationComa>Ksenomaya komasında</InXenogerminationComa>
   <Occupied>Dolu</Occupied>
-  <!-- EN: {PAWN_nameDef} was ejected from a growth vat -->
-  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} bir büyüme küvözünden çıkarıldı</OccupantEjectedFromGrowthVat>
-  <!-- EN: {PAWN_nameDef} must be younger than {AGEYEARS} years old. -->
+  <OccupantEjectedFromGrowthVat>{PAWN_nameDef} bir büyüme tankından dışarı atıldı</OccupantEjectedFromGrowthVat>
   <TooOld>{PAWN_nameDef}, {AGEYEARS} yaşından küçük olmalı.</TooOld>
-  <!-- EN: {PAWN_nameDef} is too old. -->
   <PawnIsTooOld>{PAWN_nameDef} çok yaşlı.</PawnIsTooOld>
-  <!-- EN: {PAWN_nameDef} is suffering from biostarvation. -->
-  <PawnBiostarving>{PAWN_nameDef} biyolojik açlıktan mustarip.</PawnBiostarving>
-  <!-- EN: No available people -->
-  <NoViablePawns>Uygun kişi yok</NoViablePawns>
-  <!-- EN: No extractable people -->
-  <NoExtractablePawns>Çıkarılabilir insan yok</NoExtractablePawns>
-  <!-- EN: No implantable people -->
-  <NoImplantablePawns>İmplante edilebilir insan yok</NoImplantablePawns>
-  <!-- EN: Cannot enter {0_labelShort} -->
-  <CannotEnterBuilding>{0_labelShort} içine girilemiyor</CannotEnterBuilding>
-  <!-- EN: {0_labelShort} is assigned to another person. -->
-  <AssignedToOtherPawn>{0_labelShort} başka bir kişiye atandı.</AssignedToOtherPawn>
+  <PawnBiostarving>{PAWN_nameDef} biyoaçlık çekiyor.</PawnBiostarving>
+  <NoViablePawns>Uygun kimse yok</NoViablePawns>
+  <NoExtractablePawns>Genleri çıkarılabilecek kimse yok</NoExtractablePawns>
+  <NoImplantablePawns>Yerleştirme yapılabilecek kimse yok</NoImplantablePawns>
+  <CannotEnterBuilding>Girilemiyor: {0_labelShort}</CannotEnterBuilding>
+  <AssignedToOtherPawn>{0_labelShort} başka birine atanmış.</AssignedToOtherPawn>
 
-  <!-- EN: Absorb xenogerm of {PAWN_nameDef} -->
-  <AbsorbXenogerm>Zenogermini absorbe et: {PAWN_nameDef}</AbsorbXenogerm>
-  <!-- EN: Cannot absorb {PAWN_nameDef}'s xenogerm -->
-  <CannotAbsorbXenogerm>{PAWN_nameDef} kişisinin zenogermi absorbe edilemiyor</CannotAbsorbXenogerm>
-  <!-- EN: {PAWN_nameDef} is already {PAWN_xenotype} -->
+  <AbsorbXenogerm>Ksenomayasını em: {PAWN_nameDef}</AbsorbXenogerm>
+  <CannotAbsorbXenogerm>{PAWN_nameDef} adlı kişinin ksenomayası emilemiyor</CannotAbsorbXenogerm>
   <SameXenotype>{PAWN_nameDef} zaten {PAWN_xenotype}</SameXenotype>
-  <!-- EN: {PAWN_nameDef} suffering from xenogerm loss shock -->
-  <XenogermLossShockPresent>{PAWN_nameDef}, zenogerm kaybı şoku yaşıyor</XenogermLossShockPresent>
-  <!-- EN: Carry to {0_labelShort} -->
-  <CarryToSpecificThing>Şuraya taşı: {0_labelShort}</CarryToSpecificThing>
-  <!-- EN: No reachable, un-reserved bed or deathrest casket in safe temperature. -->
-  <NoCasketOrBed>Güvenli sıcaklıkta, ulaşılabilir ve boşta yatak veya ölüm uykusu tabutu yok.</NoCasketOrBed>
-  <!-- EN: {PAWN_nameDef} is a temporary faction member. -->
-  <TemporaryFactionMember>{PAWN_nameDef} fraksiyonun geçici bir üyesi.</TemporaryFactionMember>
+  <XenogermLossShockPresent>{PAWN_nameDef} ksenomaya kaybı şoku yaşıyor</XenogermLossShockPresent>
+  <CarryToSpecificThing>Taşı: {0_labelShort}</CarryToSpecificThing>
+  <NoCasketOrBed>Güvenli sıcaklıkta, ulaşılabilir ve ayrılmamış bir yatak ya da ölüm uykusu tabutu yok.</NoCasketOrBed>
+  <TemporaryFactionMember>{PAWN_nameDef} geçici bir hizip üyesi.</TemporaryFactionMember>
 
-  <!-- EN: Scanner not initiated -->
   <SubcoreScannerNotInit>Tarayıcı başlatılmadı</SubcoreScannerNotInit>
-  <!-- EN: Waiting for ingredients -->
   <SubcoreScannerRequiresIngredients>Malzemeler bekleniyor</SubcoreScannerRequiresIngredients>
-  <!-- EN: Occupied -->
   <SubcoreScannerOccupied>Dolu</SubcoreScannerOccupied>
-  <!-- EN: Enter {0} -->
   <EnterSubcoreScanner>Gir: {0}</EnterSubcoreScanner>
 
-  <!-- EN: Breastfeed {BABY_labelShort} -->
   <BabyCareBreastfeed>Emzir: {BABY_labelShort}</BabyCareBreastfeed>
-  <!-- EN: Cannot breastfeed {BABY_labelShort} -->
-  <BabyCareBreastfeedUnable>{BABY_labelShort} emzirilemiyor</BabyCareBreastfeedUnable>
-  <!-- EN: Already breastfeeding {BABY_labelShort} -->
-  <AlreadyBreastfeeding>Zaten emziriyor</AlreadyBreastfeeding>
-  <!-- EN: No baby-edible food -->
-  <NoBabyFood>Bebeklerin yiyebileceği yiyecek yok</NoBabyFood>
+  <BabyCareBreastfeedUnable>Emzirilemiyor: {BABY_labelShort}</BabyCareBreastfeedUnable>
+  <AlreadyBreastfeeding>Zaten emziriyor: {BABY_labelShort}</AlreadyBreastfeeding>
+  <NoBabyFood>Bebeğin yiyebileceği yiyecek yok</NoBabyFood>
 
-  <!-- EN: play need full -->
-  <CannotInteractBabyPlayFull>oyun ihtiyacı karşılanmış</CannotInteractBabyPlayFull>
+  <CannotInteractBabyPlayFull>oyun ihtiyacı dolu</CannotInteractBabyPlayFull>
 
-  <!-- EN: Feed on {PAWN_nameDef} -->
-  <BloodfeedOn>{PAWN_nameDef} ile beslen</BloodfeedOn>
-  <!-- EN: Cannot feed on {PAWN_nameDef} -->
-  <CannotBloodfeedOn>{PAWN_nameDef} ile beslenilemiyor</CannotBloodfeedOn>
-  <!-- EN: Not enough blood. -->
+  <BloodfeedOn>Kanını em: {PAWN_nameDef}</BloodfeedOn>
+  <CannotBloodfeedOn>Kanı emilemiyor: {PAWN_nameDef}</CannotBloodfeedOn>
   <CannotFeedOnWouldKill>Yeterli kan yok.</CannotFeedOnWouldKill>
 
   <!-- BreastfeedFailReason strings-->
-  <!-- EN: {MOM_labelShort} does not have enough milk -->
-  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} yeterli sütü yok</BreastfeedFailReason_MomNotEnoughMilk>
-  <!-- EN: {MOM_labelShort} cannot breastfeed right now -->
-  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} şu anda emziremiyor</BreastfeedFailReason_MomInMentalState>
-  <!-- EN: {BABY_labelShort} is too full to suckle -->
-  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} ememeyecek kadar tok</BreastfeedFailReason_BabyTooFull>
-  <!-- EN: {BABY_labelShort} is forbidden to {MOM_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort}, {MOM_labelShort} için yasaklı</BreastfeedFailReason_BabyForbiddenToMom>
-  <!-- EN: {BABY_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort}, {HAULER_labelShort} için yasaklı</BreastfeedFailReason_BabyForbiddenToHauler>
-  <!-- EN: {MOM_labelShort} is forbidden to {HAULER_labelShort} -->
-  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort}, {HAULER_labelShort} için yasaklı</BreastfeedFailReason_MomForbiddenToHauler>
-  <!-- EN: {MOM_labelShort} can breastfeed {BABY_labelShort} without help -->
-  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort}, yardım almadan {BABY_labelShort} adlı bebeğini emzirebilir</BreastfeedFailReason_MomIsMobile>
-  <!-- EN: {HAULER_labelShort} cannot go from {BABY_labelShort} to {MOM_labelShort} -->
-  <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort}, {BABY_labelShort} adlı bebekten {MOM_labelShort} kişisine gidemiyor</BreastfeedFailReason_HaulerCannotReachMom>
-  <!-- EN: {HAULER_labelShort} cannot reach {BABY_labelShort} -->
-  <BreastfeedFailReason_HaulerCannotReachBaby>{BABY_labelShort}, {HAULER_labelShort} tarafından erişilebilir değil</BreastfeedFailReason_HaulerCannotReachBaby>
-  <!-- EN: No lactating {BABY_factionPawnsPlural} are assigned to {BABY_labelShort} -->
-  <BreastfeedFailReason_NoMomsAssignedToBaby>{BABY_labelShort} için süt salgılayan {BABY_factionPawnsPlural} atanmamış</BreastfeedFailReason_NoMomsAssignedToBaby>
-  <!-- EN: {MOM_labelShort} is not assigned to childcare -->
-  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort}, çocuk bakımına atanmamış</BreastfeedFailReason_MomNotAssignedToChildcare>
-  <!-- EN: {MOM_labelShort} is inside a container -->
-  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} bir konteynerin içinde</BreastfeedFailReason_MomInsideContainer>
-  <!-- EN: {MOM_labelShort} is being carried -->
+  <BreastfeedFailReason_MomNotEnoughMilk>{MOM_labelShort} için yeterli süt yok</BreastfeedFailReason_MomNotEnoughMilk>
+  <BreastfeedFailReason_MomInMentalState>{MOM_labelShort} şu anda emziremez</BreastfeedFailReason_MomInMentalState>
+  <BreastfeedFailReason_BabyTooFull>{BABY_labelShort} emmek için fazla tok</BreastfeedFailReason_BabyTooFull>
+  <BreastfeedFailReason_BabyForbiddenToMom>{BABY_labelShort}, {MOM_labelShort} için yasak</BreastfeedFailReason_BabyForbiddenToMom>
+  <BreastfeedFailReason_BabyForbiddenToHauler>{BABY_labelShort}, {HAULER_labelShort} için yasak</BreastfeedFailReason_BabyForbiddenToHauler>
+  <BreastfeedFailReason_MomForbiddenToHauler>{MOM_labelShort}, {HAULER_labelShort} için yasak</BreastfeedFailReason_MomForbiddenToHauler>
+  <BreastfeedFailReason_MomIsMobile>{MOM_labelShort}, {BABY_labelShort} adlı bebeği yardımsız emzirebilir</BreastfeedFailReason_MomIsMobile>
+  <BreastfeedFailReason_HaulerCannotReachMom>{HAULER_labelShort}, {BABY_labelShort} yanından {MOM_labelShort} yanına gidemiyor</BreastfeedFailReason_HaulerCannotReachMom>
+  <BreastfeedFailReason_HaulerCannotReachBaby>{HAULER_labelShort}, {BABY_labelShort} yanına ulaşamıyor</BreastfeedFailReason_HaulerCannotReachBaby>
+  <BreastfeedFailReason_NoMomsAssignedToBaby>{BABY_labelShort} için atanmış emziren {BABY_factionPawnsPlural} yok</BreastfeedFailReason_NoMomsAssignedToBaby>
+  <BreastfeedFailReason_MomNotAssignedToChildcare>{MOM_labelShort} çocuk bakımına atanmamış</BreastfeedFailReason_MomNotAssignedToChildcare>
+  <BreastfeedFailReason_MomInsideContainer>{MOM_labelShort} bir kabın içinde</BreastfeedFailReason_MomInsideContainer>
   <BreastfeedFailReason_MomBeingCarried>{MOM_labelShort} taşınıyor</BreastfeedFailReason_MomBeingCarried>
 
-  <!-- EN: Order implantation into {PAWN_nameDef} -->
-  <OrderImplantationIntoPawn>{PAWN_nameDef} için implantasyon iste</OrderImplantationIntoPawn>
-  <!-- EN: Accept {0_xenotype} xenogerm -->
-  <AcceptXenogerm>{0_xenotype} zenogermini kabul et</AcceptXenogerm>
+  <OrderImplantationIntoPawn>Yerleştirme emri ver: {PAWN_nameDef}</OrderImplantationIntoPawn>
+  <AcceptXenogerm>{0_xenotype} ksenomayasını kabul et</AcceptXenogerm>
 
-  <!-- EN: Carry {PAWN_labelShort} to recharger -->
-  <CarryToRechargerOrdered>Şarj istasyonuna taşı: {PAWN_labelShort}</CarryToRechargerOrdered>
-  <!-- EN: Cannot carry {PAWN_labelShort} to recharger -->
+  <CarryToRechargerOrdered>{PAWN_labelShort} birimini şarj istasyonuna taşı</CarryToRechargerOrdered>
   <CannotCarryToRecharger>{PAWN_labelShort} şarj istasyonuna taşınamıyor</CannotCarryToRecharger>
-  <!-- EN: No available recharger -->
-  <CannotCarryToRechargerNoneAvailable>Kullanılabilir şarj istasyonu yok</CannotCarryToRechargerNoneAvailable>
+  <CannotCarryToRechargerNoneAvailable>Uygun şarj istasyonu yok</CannotCarryToRechargerNoneAvailable>
 
-  <!-- EN: Hemogen packs disabled by food restriction. -->
-  <NotAllowedHemogen>Hemojen paketleri, gıda kısıtlaması nedeniyle devre dışı bırakıldı.</NotAllowedHemogen>
+  <NotAllowedHemogen>Hemojen paketleri yiyecek kısıtlamasıyla devre dışı bırakılmış.</NotAllowedHemogen>
 
-  <!-- EN: Eject genepack from gene bank -->
-  <EjectGenepackFromGeneBank>Gen bankasından gen paketini çıkar</EjectGenepackFromGeneBank>
+  <EjectGenepackFromGeneBank>Gen paketini gen bankasından çıkar</EjectGenepackFromGeneBank>
 
-  <!-- EN: Resulting metabolism would be too low -->
-  <ResultingMetTooLow>Ortaya çıkan metabolizma çok düşük</ResultingMetTooLow>
+  <ResultingMetTooLow>Ortaya çıkacak metabolizma çok düşük olur</ResultingMetTooLow>
 
-  <!-- EN: attempted romance too recently -->
-  <RomanceOnCooldown>yakın zamanda flört etmeyi denedi</RomanceOnCooldown>
+  <RomanceOnCooldown>çok yakın zamanda flört etmeyi denedi</RomanceOnCooldown>
 
-  <!-- EN: Take to safe location -->
-  <CarryToSafePlace>Güvenli yere götür</CarryToSafePlace>
-  <!-- EN: Cannot take to safe location -->
-  <CannotCarryToSafePlace>Güvenli yere götüremiyor</CannotCarryToSafePlace>
-  <!-- EN: No safer location than current location -->
+  <CarryToSafePlace>Güvenli bir yere götür</CarryToSafePlace>
+  <CannotCarryToSafePlace>Güvenli bir yere götürülemiyor</CannotCarryToSafePlace>
   <NoBetterSafePlace>Mevcut konumdan daha güvenli bir yer yok</NoBetterSafePlace>
-  <!-- EN: Already taking to safe location -->
-  <AlreadyCarryingToSafePlace>Zaten güvenli yere götürüyor</AlreadyCarryingToSafePlace>
+  <AlreadyCarryingToSafePlace>Zaten güvenli bir yere götürülüyor</AlreadyCarryingToSafePlace>
 
 </LanguageData>

@@ -3,36 +3,33 @@
   
   <!-- EN: breakup -->
   <Breakup.label>ayrılık</Breakup.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
+  <!-- EN: <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for a break.</li>
     <li>r_logentry->[INITIATOR_nameDef] asked [RECIPIENT_nameDef] for some space.</li>
     <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it's not working out.</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li>
-  -->
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that it would be best to see other people.</li> -->
   <Breakup.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile biraz ara vermek istediğine dair bir konuşma yaptı.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile biraz alan istedine dair konuştu.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile ilişkilerinin yürümediğine dair bir konuşma yaptı.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile diğer insanlarla görüşmenin en iyisi olacağına dair konuştu.</li>
+
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiden biraz ara vermeyi istedi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiden biraz alan istedi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye bu işin yürümediğini söyledi.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye başka insanlarla görüşmenin en iyisi olacağını söyledi.</li>
   </Breakup.logRulesInitiator.rulesStrings>
   
   <!-- EN: marriage proposal -->
-  <MarriageProposal.label>evlenme teklifi</MarriageProposal.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
+  <MarriageProposal.label>evlilik teklifi</MarriageProposal.label>
+  <!-- EN: <li>r_logentry->[INITIATOR_nameDef] proposed marriage to [RECIPIENT_nameDef].</li>
     <li>r_logentry->[INITIATOR_nameDef] proposed a lifelong commitment to [RECIPIENT_nameDef].</li>
-    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li>
-  -->
+    <li>r_logentry->[INITIATOR_nameDef] told [RECIPIENT_nameDef] that [INITIATOR_pronoun] wants to spend [INITIATOR_possessive] life with [RECIPIENT_objective].</li> -->
   <MarriageProposal.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[RECIPIENT_nameDef], [INITIATOR_nameDef] tarafından evlenme teklifi aldı.</li>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] kişisine ömür boyu bağlılık teklif etti.</li>
-    <li>r_logentry->[INITIATOR_nameDef] diz çöktü ve hayatını [RECIPIENT_nameDef] ile geçirmek istediğini ona söyledi.</li>
+
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye evlenme teklif etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye ömür boyu sürecek bir bağlılık teklif etti.</li>
+    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] adlı kişiye hayatını onunla geçirmek istediğini söyledi.</li>
   </MarriageProposal.logRulesInitiator.rulesStrings>
   
   <!-- EN: romance attempt -->
-  <RomanceAttempt.label>flört girişimi</RomanceAttempt.label>
-  <!-- EN:
-    <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
+  <RomanceAttempt.label>romantik girişim</RomanceAttempt.label>
+  <!-- EN: <li>r_logentry->[INITIATOR_nameDef] [wooed] [RECIPIENT_nameDef] by [wootactic].</li>
     <li>wooed->tried to flirt with</li>
     <li>wooed->flirted with</li>
     <li>wooed->tried to attract</li>
@@ -91,67 +88,67 @@
     <li>romantic_noun->aurora</li>
     <li>romantic_noun->[TreeType] tree</li>
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
-    <li>romantic_noun(p=2)->[NaturalObject]</li>
-  -->
+    <li>romantic_noun(p=2)->[NaturalObject]</li> -->
   <RomanceAttempt.logRulesInitiator.rulesStrings>
-    <li>r_logentry->[INITIATOR_nameDef], [RECIPIENT_nameDef] ile [wootactic] [wooed].</li>
-    <li>wooed->flört etmeye çalıştı</li>
-    <li>wooed->flört etti</li>
-    <li>wooed->onu etkilemeye çalıştı</li>
-    <li>wooed->onu cezbetmeye çalıştı</li>
+
+    <li>r_logentry->[INITIATOR_nameDef], [wootactic] [RECIPIENT_nameDef] adlı kişiye [wooed].</li>
+    <li>wooed->cilveli davranmaya çalıştı</li>
+    <li>wooed->cilveli sözler söyledi</li>
+    <li>wooed->ilgi göstermeye çalıştı</li>
+    <li>wooed->romantik yaklaşmaya çalıştı</li>
     <li>wooed->kur yapmaya çalıştı</li>
-    <li>wooed->onu düşürmeye çalıştı</li>
-    <li>wooed->onun peşinden koştu</li>
-    <li>wooed->onu etkiledi</li>
     <li>wooed->kur yaptı</li>
-    <li>wootactic(p=4)->onun [PersonalCharacteristic] üzerinden [complimenting]</li>
+    <li>wooed->gönül vermeye çalıştı</li>
+    <li>wooed->cazibesini konuşturdu</li>
+    <li>wooed->yakınlık gösterdi</li>
+    <li>wootactic(p=4)->[RECIPIENT_possessive] [PersonalCharacteristic] [complimenting]</li>
     <li>wootactic->[TalkTopicAny] hakkında bir hikâye anlatarak</li>
     <li>wootactic->[TalkTopicAny] hakkında bir masal anlatarak</li>
-    <li>wootactic->[TalkTopicAny] hakkında şakalar yaparak</li>
-    <li>wootactic->[TalkTopicAny] hakkında bir gözlem yaparak</li>
-    <li>wootactic(p=2)->kendi [PersonalCharacteristic] üzerinden [boasting]</li>
-    <li>wootactic->onu [romantic_adj] bir [romantic_noun] ile kıyaslayarak</li>
-    <li>wootactic->onu [romantic_adj] bir [romantic_noun] gibi tanımlayarak</li>
-    <li>boasting->böbürlenerek</li>
-    <li>boasting->konuşarak</li>
-    <li>boasting->imalarda bulunarak</li>
-    <li>boasting->abartılı ifadelerde bulunarak</li>
-    <li>boasting->sohbet açarak</li>
-    <li>boasting->övünerek</li>
-    <li>complimenting(p=3)->iltifat ederek</li>
-    <li>complimenting->alttan alta iltifat ederek</li>
-    <li>complimenting->methiyeler dizerek</li>
-    <li>complimenting->övgüde bulunarak</li>
-    <li>complimenting->güzel şeyler söyleyerek</li>
-    <li>complimenting(p=2)->çocuksu şakalar yaparak</li>
-    <li>complimenting->makara yaparak</li>
-    <li>complimenting->şaka ayağına iltifat ederek</li>
-    <li>complimenting->hınzırca sorular sorarak</li>
-    <li>complimenting->neşeli şakalar yaparak</li>
+    <li>wootactic->[TalkTopicAny] hakkında şaka yaparak</li>
+    <li>wootactic->[TalkTopicAny] hakkında bir gözlemini paylaşarak</li>
+    <li>wootactic(p=2)->[INITIATOR_possessive] kendi [PersonalCharacteristic] [boasting]</li>
+    <li>wootactic->[RECIPIENT_objective] [romantic_adj] bir [romantic_noun] ile kıyaslayarak</li>
+    <li>wootactic->[RECIPIENT_objective] [romantic_adj] bir [romantic_noun] olarak tanımlayarak</li>
+    <li>boasting->hakkında böbürlenerek</li>
+    <li>boasting->hakkında laf açarak</li>
+    <li>boasting->hakkında iyi şeyler ima ederek</li>
+    <li>boasting->hakkında abartarak</li>
+    <li>boasting->hakkında konuşarak</li>
+    <li>boasting->hakkında dikkat çekerek</li>
+    <li>complimenting(p=3)->hakkında iltifat ederek</li>
+    <li>complimenting->hakkında üstü kapalı iltifat ederek</li>
+    <li>complimenting->hakkında övgüler yağdırarak</li>
+    <li>complimenting->hakkında takdirini dile getirerek</li>
+    <li>complimenting->hakkında güzel şeyler söyleyerek</li>
+    <li>complimenting(p=2)->hakkında şakacı bir şekilde dalga geçerek</li>
+    <li>complimenting->hakkında şakayla takılarak</li>
+    <li>complimenting->hakkında şakayla yarım ağızla iltifat ederek</li>
+    <li>complimenting->hakkında muzipçe sorular sorarak</li>
+    <li>complimenting->hakkında neşeyle dalga geçerek</li>
     <li>romantic_adj->güzel</li>
+    <li>romantic_adj->parlayan</li>
+    <li>romantic_adj->ışıldayan</li>
+    <li>romantic_adj->cennetten gelmiş</li>
+    <li>romantic_adj->altın</li>
     <li>romantic_adj->parlak</li>
-    <li>romantic_adj->ışıltılı</li>
-    <li>romantic_adj->kutsal</li>
-    <li>romantic_adj->altından</li>
-    <li>romantic_adj->ışıl ışıl</li>
     <li>romantic_adj->nefes kesici</li>
-    <li>romantic_adj->çekici</li>
-    <li>romantic_adj->göz alıcı</li>
+    <li>romantic_adj->büyüleyici</li>
+    <li>romantic_adj->göz kamaştırıcı</li>
     <li>romantic_adj->narin</li>
-    <li>romantic_adj->hoş</li>
+    <li>romantic_adj->zarif</li>
     <li>romantic_adj->muhteşem</li>
     <li>romantic_adj->sevimli</li>
     <li>romantic_adj->harika</li>
     <li>romantic_adj(p=3)->[AdjectiveBadass]</li>
     <li>romantic_noun->çiçek</li>
-    <li>romantic_noun->bahar</li>
+    <li>romantic_noun->pınar</li>
     <li>romantic_noun->nehir</li>
     <li>romantic_noun->yıldız</li>
     <li>romantic_noun->ay</li>
     <li>romantic_noun->güneş</li>
-    <li>romantic_noun->yuva</li>
-    <li>romantic_noun->aurora</li>
-    <li>romantic_noun->[TreeType]</li>
+    <li>romantic_noun->ev</li>
+    <li>romantic_noun->kutup ışığı</li>
+    <li>romantic_noun->[TreeType] ağacı</li>
     <li>romantic_noun(p=2)->[TerrainFeature]</li>
     <li>romantic_noun(p=2)->[NaturalObject]</li>
   </RomanceAttempt.logRulesInitiator.rulesStrings>

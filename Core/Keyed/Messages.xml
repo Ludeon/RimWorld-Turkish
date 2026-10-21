@@ -1,870 +1,507 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: Sieging {0} from {1} are assaulting the colony. -->
-  <MessageSiegersAssaulting>{1} fraksiyonundan kuşatmacı {0} kolonine saldırıyor.</MessageSiegersAssaulting>
+  <MessageSiegersAssaulting>{1} hizbinden kuşatmacı {0} koloniye saldırıyor.</MessageSiegersAssaulting>
 
-  <!-- EN: {0} from {1} are beginning their assault. -->
-  <MessageRaidersBeginningAssault>{1} fraksiyonundan {0} saldırıya başlıyor.</MessageRaidersBeginningAssault>
-  <!-- EN: {0} from {1} have detected you and begun their assault early. -->
-  <MessageRaidersDetectedEarlyAssault>{1} fraksiyonundan {0} seni tespit etti ve saldırıya erken başladı.</MessageRaidersDetectedEarlyAssault>
-  <!-- EN: {0} from {1} have decided to kidnap who they can and leave. -->
-  <MessageRaidersKidnapping>{1} fraksiyonundan {0} kaçırabilecekleri kişileri kaçırıp gitmeye karar verdi.</MessageRaidersKidnapping>
-  <!-- EN: {0} from {1} have decided to steal what they can and leave. -->
-  <MessageRaidersStealing>{1} fraksiyonundan {0} çalabildiklerini çalıp gitmeye karar verdi.</MessageRaidersStealing>
+  <MessageRaidersBeginningAssault>{1} hizbinden {0} saldırıya başlıyor.</MessageRaidersBeginningAssault>
+  <MessageRaidersDetectedEarlyAssault>{1} hizbinden {0} seni fark etti ve saldırıya erken başladı.</MessageRaidersDetectedEarlyAssault>
+  <MessageRaidersKidnapping>{1} hizbinden {0} kaçırabildiklerini kaçırıp ayrılmaya karar verdi.</MessageRaidersKidnapping>
+  <MessageRaidersStealing>{1} hizbinden {0} çalabildiklerini çalıp ayrılmaya karar verdi.</MessageRaidersStealing>
 
-  <!-- EN: The mechanoids sense no more targets and are moving on. -->
-  <MechanoidsMovingOn>Mekanoitler artık bir hedef algılamıyor ve devam ediyorlar.</MechanoidsMovingOn>
+  <MechanoidsMovingOn>Mekanoidler başka hedef sezmiyor ve yollarına devam ediyor.</MechanoidsMovingOn>
 
-  <!-- EN: {0} from {1} have arrived and are attacking! More are on the way and will arrive in {2}. -->
-  <MessageCaravanDetectedRaidArrived>{1} fraksiyonundan {0} buraya vardı ve saldırıyor! Daha fazlası yolda ve {2} içinde buraya gelecek.</MessageCaravanDetectedRaidArrived>
+  <MessageCaravanDetectedRaidArrived>{1} hizbinden {0} geldi ve saldırıyor! Daha fazlası yolda ve {2} içinde gelecek.</MessageCaravanDetectedRaidArrived>
 
-  <!-- EN: {0} from {1} are leaving. -->
-  <MessageRaidersLeaving>{1} fraksiyonundan {0} buradan ayrılıyor.</MessageRaidersLeaving>
-  <!-- EN: {0} from {1} have given up and are leaving. -->
-  <MessageRaidersGivenUpLeaving>{1} fraksiyonundan {0} pes etti ve burayı terk ediyor.</MessageRaidersGivenUpLeaving>
-  <!-- EN: {0} from {1} are satisfied with the damage done and are leaving. -->
-  <MessageRaidersSatisfiedLeaving>{1} fraksiyonundan {0} verebildikleri hasardan tatmin oldu ve burayı terk ediyor.</MessageRaidersSatisfiedLeaving>
+  <MessageRaidersLeaving>{1} hizbinden {0} ayrılıyor.</MessageRaidersLeaving>
+  <MessageRaidersGivenUpLeaving>{1} hizbinden {0} pes etti ve ayrılıyor.</MessageRaidersGivenUpLeaving>
+  <MessageRaidersSatisfiedLeaving>{1} hizbinden {0} verdikleri hasardan memnun ve ayrılıyor.</MessageRaidersSatisfiedLeaving>
 
-  <!-- EN: {0} from {1} are fleeing. -->
-  <MessageFightersFleeing>{1} fraksiyonundan {0} kaçıyor.</MessageFightersFleeing>
-  <!-- EN: Friendly {0} from {1} are leaving. -->
-  <MessageFriendlyFightersLeaving>{1} fraksiyonundan dost {0} buradan ayrılıyor.</MessageFriendlyFightersLeaving>
+  <MessageFightersFleeing>{1} hizbinden {0} kaçıyor.</MessageFightersFleeing>
+  <MessageFriendlyFightersLeaving>{1} hizbinden dost {0} ayrılıyor.</MessageFriendlyFightersLeaving>
 
-  <!-- EN: {0} from {1} are taking a wounded guest. -->
-  <MessageVisitorsTakingWounded>{1} fraksiyonundan {0} yaralı bir ziyaretçiyi alıyor.</MessageVisitorsTakingWounded>
-  <!-- EN: {0} from {1} have been trapped and are digging out to escape. -->
-  <MessageVisitorsTrappedLeaving>{1} fraksiyonundan {0} kısılı kaldı ve kazarak kaçmaya çalışıyor.</MessageVisitorsTrappedLeaving>
-  <!-- EN: {0} from {1} are leaving the map because of dangerous temperature. -->
-  <MessageVisitorsDangerousTemperature>{1} fraksiyonundan {0} tehlikeli sıcaklık nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousTemperature>
-  <!-- EN: {0} from {1} are leaving the map because of dangerous weather. -->
-  <MessageVisitorsAnomalousWeather>{1} fraksiyonundan {0} tehlikeli hava koşulları nedeniyle haritayı terk ediyor.</MessageVisitorsAnomalousWeather>
-  <!-- EN: {0} from {1} are leaving the map because of dangerous conditions. -->
-  <MessageVisitorsDangerousConditions>{1} fraksiyonundan {0} tehlikeli koşullar nedeniyle haritayı terk ediyor.</MessageVisitorsDangerousConditions>
+  <MessageVisitorsTakingWounded>{1} hizbinden {0} yaralı bir misafiri götürüyor.</MessageVisitorsTakingWounded>
+  <MessageVisitorsTrappedLeaving>{1} hizbinden {0} mahsur kaldı ve kaçmak için kazarak çıkıyor.</MessageVisitorsTrappedLeaving>
+  <MessageVisitorsDangerousTemperature>{1} hizbinden {0} tehlikeli sıcaklık yüzünden haritadan ayrılıyor.</MessageVisitorsDangerousTemperature>
+  <MessageVisitorsAnomalousWeather>{1} hizbinden {0} tehlikeli hava yüzünden haritadan ayrılıyor.</MessageVisitorsAnomalousWeather>
+  <MessageVisitorsDangerousConditions>{1} hizbinden {0} tehlikeli koşullar yüzünden haritadan ayrılıyor.</MessageVisitorsDangerousConditions>
 
-  <!-- EN: {0} worn by {1_nameFull} deteriorated away to nothing. -->
-  <MessageWornApparelDeterioratedAway>{1_nameFull} tarafından giyilen {0} tamamen bozundu.</MessageWornApparelDeterioratedAway>
-  <!-- EN: {0} has deteriorated away in storage. -->
-  <MessageDeterioratedAway>{0} depolama alanında tamamen bozundu.</MessageDeterioratedAway>
+  <MessageWornApparelDeterioratedAway>{1_nameFull} adlı kişinin giydiği {0} yıpranıp tamamen yok oldu.</MessageWornApparelDeterioratedAway>
+  <MessageDeterioratedAway>{0} depoda yıpranıp yok oldu.</MessageDeterioratedAway>
 
-  <!-- EN: {0} has begun. -->
   <MessageSeasonBegun>{0} başladı.</MessageSeasonBegun>
 
-  <!-- EN: {0} has left comms range. -->
-  <MessageShipHasLeftCommsRange>{0} haberleşme menzilinden ayrıldı.</MessageShipHasLeftCommsRange>
+  <MessageShipHasLeftCommsRange>{0} iletişim menzilinden çıktı.</MessageShipHasLeftCommsRange>
 
-  <!-- EN: You need a powered orbital trade beacon to trade with a ship. -->
-  <MessageNeedBeaconToTradeWithShip>Bir gemiyle ticaret yapabilmen için yörüngesel ticaret feneri gerekli.</MessageNeedBeaconToTradeWithShip>
-  <!-- EN: Caller must have the title of {0_label} or higher. -->
-  <MessageNeedRoyalTitleToCallWithShip>Arayan {0_label} veya daha yüksek bir ünvana sahip olmalıdır.</MessageNeedRoyalTitleToCallWithShip>
+  <MessageNeedBeaconToTradeWithShip>Bir gemiyle ticaret yapmak için elektrikli bir yörünge ticaret işaretine ihtiyacın var.</MessageNeedBeaconToTradeWithShip>
+  <MessageNeedRoyalTitleToCallWithShip>Arayan kişinin {0_label} ya da daha yüksek bir unvanı olmalı.</MessageNeedRoyalTitleToCallWithShip>
 
-  <!-- EN: {0} has been destroyed. -->
   <MessageConditionCauserDespawned>{0} yok edildi.</MessageConditionCauserDespawned>
-  
-  <!-- EN: Bill complete: {0}. -->
+
   <MessageBillComplete>Sipariş tamamlandı: {0}.</MessageBillComplete>
 
-  <!-- EN: {1_label} is fully healed. -->
   <MessageFullyHealed>{1_label} tamamen iyileşti.</MessageFullyHealed>
 
-  <!-- EN: Prisoner {1_labelShort} is escaping. -->
   <MessagePrisonerIsEscaping>Mahkûm {1_labelShort} kaçıyor.</MessagePrisonerIsEscaping>
 
-  <!-- EN: {PAWN_labelShort} found no nearby unreserved shells for {GUN_label}. -->
-  <MessageOutOfNearbyShellsFor>{PAWN_labelShort}, {GUN_label} için yakında herhangi bir mermi bulunamadı.</MessageOutOfNearbyShellsFor>
-  <!-- EN: {PAWN_labelShort} found no nearby unreserved {FUEL} for {GUN_label}. -->
-  <MessageOutOfNearbyFuelFor>{PAWN_labelShort}, {GUN_label} için yakında boşta {FUEL} bulunamadı.</MessageOutOfNearbyFuelFor>
+  <MessageOutOfNearbyShellsFor>{PAWN_labelShort}, {GUN_label} için yakında ayrılmamış mermi bulamadı.</MessageOutOfNearbyShellsFor>
+  <MessageOutOfNearbyFuelFor>{PAWN_labelShort}, {GUN_label} için yakında ayrılmamış {FUEL} bulamadı.</MessageOutOfNearbyFuelFor>
 
-  <!-- EN: Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat. -->
-  <MessageAnimalsGoPsychoHunted>Uyarı: {ANIMAL_kindBasePlural} zarar gördüğü takdirde {1} ihtimalle saldırabilir. Bu ihtimal, avcının gizlilik yeteneğine ve mesafesine bağlı olarak değişir.</MessageAnimalsGoPsychoHunted>
-  <!-- EN: Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance). -->
-  <MessageAnimalManhuntsOnTameFailed>Uyarı: {ANIMAL_kindBasePlural}, başarısız bir evcilleştirme girişiminde saldırabilir ({1} ihtimal).</MessageAnimalManhuntsOnTameFailed>
-  <!-- EN: Only those with the insect sympathy trait can tame {INSECT_indefinite}. -->
-  <MessageInsectTameDesignated>{INSECT_indefinite} yalnızca böcek sempatisi kişisel özelliğine sahip olanlar tarafından evcilleştirebilir.</MessageInsectTameDesignated>
-  <!-- EN: No colonists are assigned to hunt. -->
-  <MessageNoHuntersAvailable>Avlanmaya atanmış kolonici yok.</MessageNoHuntersAvailable>
-  <!-- EN: No hunter has a valid hunting weapon. Equip a hunter with a suitable ranged weapon. -->
-  <MessageNoHuntersWithProperWeapon>Hiçbir avcının geçerli av silahı yok. Bir avcıyı uygun bir menzilli silahla donat.</MessageNoHuntersWithProperWeapon>
+  <MessageAnimalsGoPsychoHunted>Uyarı: {ANIMAL_kindBasePlural} zarar gördüğünde {1} temel ihtimalle saldırır. İhtimal, menzile ve avcının gizlilik istatistiğine bağlıdır.</MessageAnimalsGoPsychoHunted>
+  <MessageAnimalManhuntsOnTameFailed>Uyarı: {ANIMAL_kindBasePlural} başarısız evcilleştirme girişimlerinde saldırabilir ({1} ihtimal).</MessageAnimalManhuntsOnTameFailed>
+  <MessageInsectTameDesignated>Bir {INSECT_indefinite} yalnızca böcek sempatisi özelliğine sahip olanlar tarafından evcilleştirilebilir.</MessageInsectTameDesignated>
+  <MessageNoHuntersAvailable>Avlanmaya atanmış kolonist yok.</MessageNoHuntersAvailable>
+  <MessageNoHuntersWithProperWeapon>Hiçbir avcının geçerli bir av silahı yok. Bir avcıyı uygun bir menzilli silahla donat.</MessageNoHuntersWithProperWeapon>
 
-  <!-- EN: Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it. -->
-  <MessageInsectsHostileOnTaming>Uyarı: {PAWN_labelShort} bir düşman ve kolonicin onu evcilleştirmeye çalışırken saldıracaktır.</MessageInsectsHostileOnTaming>
-  
-  <!-- EN: New recruit -->
-  <LetterLabelMessageRecruitSuccess>Koloniye yeni alım</LetterLabelMessageRecruitSuccess>
-  <!-- EN: {RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}. -->
-  <MessageRecruitSuccess>{RECRUITEE_nameFull}, {RECRUITER_nameFull} tarafından başarıyla koloniye katıldı.</MessageRecruitSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. -->
-  <MessageTameSuccess>{1}, {RECRUITER_labelShort} tarafından başarıyla evcilleştirildi.</MessageTameSuccess>
-  <!-- EN: {RECRUITER_labelShort} successfully tamed {1}. It is now called {RECRUITEE_nameFull}. -->
-  <MessageTameAndNameSuccess>{1}, {RECRUITER_labelShort} tarafından başarıyla evcilleştirildi. Artık onun adı {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
-  <!-- EN: There is no suitable animal pen for {ANIMAL_labelShort}. It will eventually roam away. -->
-  <MessageTameNoSuitablePens>{ANIMAL_labelShort} için uygun bir ağıl yok. Önünde sonunda uzaklaşacaktır.</MessageTameNoSuitablePens>
-  <!-- EN: {RECRUITEE} has joined your colony. -->
+  <MessageInsectsHostileOnTaming>Uyarı: {PAWN_labelShort} düşmanca davranıyor ve kolonistin onu evcilleştirmeye çalışırken saldıracak.</MessageInsectsHostileOnTaming>
+
+  <LetterLabelMessageRecruitSuccess>Yeni üye</LetterLabelMessageRecruitSuccess>
+  <MessageRecruitSuccess>{RECRUITER_nameFull}, {RECRUITEE_nameFull} adlı kişiyi başarıyla devşirdi.</MessageRecruitSuccess>
+  <MessageTameSuccess>{RECRUITER_labelShort}, şunu başarıyla evcilleştirdi: {1}.</MessageTameSuccess>
+  <MessageTameAndNameSuccess>{RECRUITER_labelShort}, şunu başarıyla evcilleştirdi: {1}. Artık adı {RECRUITEE_nameFull}.</MessageTameAndNameSuccess>
+  <MessageTameNoSuitablePens>{ANIMAL_labelShort} için uygun bir hayvan ağılı yok. Sonunda başıboş gezip uzaklaşacak.</MessageTameNoSuitablePens>
   <MessageRecruitJoinOfferAccepted>{RECRUITEE} kolonine katıldı.</MessageRecruitJoinOfferAccepted>
 
-  <!-- EN: The colony cannot afford this deal. -->
-  <MessageColonyCannotAfford>Koloni bu anlaşmayı karşılayamaz.</MessageColonyCannotAfford>
-  <!-- EN: You do not have enough silver ready to trade. -->
-  <MessageColonyNotEnoughSilver>Alışveriş için hâlihazırda yeterli gümüşün yok.</MessageColonyNotEnoughSilver>
+  <MessageColonyCannotAfford>Koloninin bu anlaşmaya gücü yetmiyor.</MessageColonyCannotAfford>
+  <MessageColonyNotEnoughSilver>Ticarete hazır yeterli gümüşün yok.</MessageColonyNotEnoughSilver>
 
-  <!-- EN: Critical alert: {0} -->
   <MessageCriticalAlert>Kritik uyarı: {0}</MessageCriticalAlert>
 
-  <!-- EN: Must designate harvestable sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestable>Hasat için yeterince büyümüş bitkileri seçmelisin.</MessageMustDesignateHarvestable>
-  <!-- EN: Must designate wood-yielding, sufficiently-grown plants. -->
-  <MessageMustDesignateHarvestableWood>Odun için yeterince büyümüş ağaçları seçmelisin.</MessageMustDesignateHarvestableWood>
-  <!-- EN: Prevent cutting is enabled for this plant. -->
-  <MessageMustPlantCuttingForbidden>Kesimi engelleme bu bitki için devrede.</MessageMustPlantCuttingForbidden>
-  <!-- EN: Must designate plants. -->
-  <MessageMustDesignatePlants>Bitkileri seçmelisin.</MessageMustDesignatePlants>
-  <!-- EN: Must designate haulable items. Some items are always haulable and can't be designated. -->
-  <MessageMustDesignateHaulable>Taşınabilir nesneleri seçmelisin. Bazı nesneler daima taşınabilir olduğundan belirtilemezler.</MessageMustDesignateHaulable>
-  <!-- EN: Must designate impassable mineable rocks. -->
-  <MessageMustDesignateMineable>Kazılabilir kayaları seçmelisin.</MessageMustDesignateMineable>
-  <!-- EN: Must designate huntable animals. -->
-  <MessageMustDesignateHuntable>Avlanılabilir hayvanları seçmelisin.</MessageMustDesignateHuntable>
-  <!-- EN: Must designate tameable animals. -->
-  <MessageMustDesignateTameable>Evcilleştirilebilir hayvanları seçmelisin.</MessageMustDesignateTameable>
-  <!-- EN: Must designate abandoned claimable structures or items. -->
-  <MessageMustDesignateClaimable>Sahiplenilebilir terk edilmiş yapılarları veya nesneleri seçmelisin.</MessageMustDesignateClaimable>
-  <!-- EN: Must designate paintable buildings not already painted {0_label}. -->
-  <MessageMustDesignatePaintableBuildings>Henüz {0_label} boyanmamış olan boyanabilir yapıları seçmelisin.</MessageMustDesignatePaintableBuildings>
-  <!-- EN: Must designate paintable floors which are not already painted {0_label}. -->
-  <MessageMustDesignatePaintableFloors>Henüz {0_label} boyanmamış olan boyanabilir zeminleri seçmelisin.</MessageMustDesignatePaintableFloors>
-  <!-- EN: Must designate painted buildings or floors. -->
-  <MessageMustDesignatePainted>Boyalı yapıları veya zeminleri seçmelisin.</MessageMustDesignatePainted>
-  <!-- EN: You must defeat a mech cluster before you can deconstruct it. -->
-  <MessageMustDesignateDeconstructibleMechCluster>Yıkmadan önce bir mekanoit kümesini yenmelisin.</MessageMustDesignateDeconstructibleMechCluster>
-  <!-- EN: Must designate rough stone surfaces. -->
-  <MessageMustDesignateSmoothableSurface>Sert taş yüzeyleri seçmelisin.</MessageMustDesignateSmoothableSurface>
-  <!-- EN: Must designate rough stone terrain. -->
-  <MessageMustDesignateSmoothableFloor>Sert taş zeminleri seçmelisin.</MessageMustDesignateSmoothableFloor>
-  <!-- EN: Must designate rough stone wall. -->
-  <MessageMustDesignateSmoothableWall>Sert taş duvarları seçmelisin.</MessageMustDesignateSmoothableWall>
-  <!-- EN: Nothing can remove thick roofs. -->
-  <MessageNothingCanRemoveThickRoofs>Kalın çatıları kaldıramazsın.</MessageNothingCanRemoveThickRoofs>
-  <!-- EN: This is already in storage and will be moved to high-priority storage as necessary. -->
-  <MessageAlreadyInStorage>Bu zaten depolama alanında ve gerektiğinde yüksek öncelikli depolama alanına taşınacak.</MessageAlreadyInStorage>
-  <!-- EN: Must designate corpse or downed character with strippable apparel. -->
-  <MessageMustDesignateStrippable>Soyulabilir giyimli ceset veya etkisiz hâlde karakter seçmelisin.</MessageMustDesignateStrippable>
-  <!-- EN: Must designate tame animal that belongs to the colony. -->
-  <MessageMustDesignateSlaughterable>Kolonine ait bir evcil hayvanı seçmelisin.</MessageMustDesignateSlaughterable>
-  <!-- EN: Must designate full graves or containers. -->
-  <MessageMustDesignateOpenable>Dolu mezarları veya dolu konteynerleri seçmelisin.</MessageMustDesignateOpenable>
-  <!-- EN: Must designate unforbidden items. -->
-  <MessageMustDesignateForbiddable>Yasak olan eşyalar seçmelisin.</MessageMustDesignateForbiddable>
-  <!-- EN: Must designate forbidden items. -->
-  <MessageMustDesignateUnforbiddable>Yasaklı nesneler seçmelisin.</MessageMustDesignateUnforbiddable>
-  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotClaimWhenPawnThreatsAreNear>Yakınlarda savaşabilir {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenPawnThreatsAreNear>
-  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there are combat-capable {THREAT_factionPawnsPlural} nearby. -->
-  <MessageCannotAdoptWhilePawnThreatsAreNear>Yakınlarda savaşabilir {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhilePawnThreatsAreNear>
-  <!-- EN: Cannot claim {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
-  <MessageCannotClaimWhenThreatsAreNear>Yakınlarda {THREAT} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenThreatsAreNear>
-  <!-- EN: Cannot adopt {CLAIMABLE_labelShort} while there is {THREAT} nearby. -->
-  <MessageCannotAdoptWhileThreatsAreNear>Yakınlarda {THREAT} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhileThreatsAreNear>
-  <!-- EN: Cannot remove foundation that supports a building. -->
-  <MessageCannotRemoveSupportingFoundation>Bir yapıyı destekleyen temel kaldırılamaz.</MessageCannotRemoveSupportingFoundation>
+  <MessageMustDesignateHarvestable>Hasat edilebilir, yeterince büyümüş bitkiler işaretlenmeli.</MessageMustDesignateHarvestable>
+  <MessageMustDesignateHarvestableWood>Odun veren, yeterince büyümüş bitkiler işaretlenmeli.</MessageMustDesignateHarvestableWood>
+  <MessageMustPlantCuttingForbidden>Bu bitki için kesimi engelleme açık.</MessageMustPlantCuttingForbidden>
+  <MessageMustDesignatePlants>Bitkiler işaretlenmeli.</MessageMustDesignatePlants>
+  <MessageMustDesignateHaulable>Taşınabilir eşyalar işaretlenmeli. Bazı eşyalar her zaman taşınabilir ve işaretlenemez.</MessageMustDesignateHaulable>
+  <MessageMustDesignateMineable>Geçilmez, kazılabilir kayalar işaretlenmeli.</MessageMustDesignateMineable>
+  <MessageMustDesignateHuntable>Avlanabilir hayvanlar işaretlenmeli.</MessageMustDesignateHuntable>
+  <MessageMustDesignateTameable>Evcilleştirilebilir hayvanlar işaretlenmeli.</MessageMustDesignateTameable>
+  <MessageMustDesignateClaimable>Terk edilmiş, sahiplenilebilir yapılar ya da eşyalar işaretlenmeli.</MessageMustDesignateClaimable>
+  <MessageMustDesignatePaintableBuildings>Zaten {0_label} renge boyanmamış boyanabilir binalar işaretlenmeli.</MessageMustDesignatePaintableBuildings>
+  <MessageMustDesignatePaintableFloors>Zaten {0_label} renge boyanmamış boyanabilir döşemeler işaretlenmeli.</MessageMustDesignatePaintableFloors>
+  <MessageMustDesignatePainted>Boyalı binalar ya da döşemeler işaretlenmeli.</MessageMustDesignatePainted>
+  <MessageMustDesignateDeconstructibleMechCluster>Bir mek kümesini sökebilmek için önce onu yenmelisin.</MessageMustDesignateDeconstructibleMechCluster>
+  <MessageMustDesignateSmoothableSurface>Kaba taş yüzeyler işaretlenmeli.</MessageMustDesignateSmoothableSurface>
+  <MessageMustDesignateSmoothableFloor>Kaba taş zemin işaretlenmeli.</MessageMustDesignateSmoothableFloor>
+  <MessageMustDesignateSmoothableWall>Kaba taş duvar işaretlenmeli.</MessageMustDesignateSmoothableWall>
+  <MessageNothingCanRemoveThickRoofs>Kalın çatıları hiçbir şey kaldıramaz.</MessageNothingCanRemoveThickRoofs>
+  <MessageAlreadyInStorage>Bu zaten depoda ve gerektiğinde yüksek öncelikli depoya taşınacak.</MessageAlreadyInStorage>
+  <MessageMustDesignateStrippable>Üzerinden giysi çıkarılabilecek bir ceset ya da yere düşmüş karakter işaretlenmeli.</MessageMustDesignateStrippable>
+  <MessageMustDesignateSlaughterable>Koloniye ait evcil bir hayvan işaretlenmeli.</MessageMustDesignateSlaughterable>
+  <MessageMustDesignateOpenable>Dolu mezarlar ya da kaplar işaretlenmeli.</MessageMustDesignateOpenable>
+  <MessageMustDesignateForbiddable>Yasaksız eşyalar işaretlenmeli.</MessageMustDesignateForbiddable>
+  <MessageMustDesignateUnforbiddable>Yasaklı eşyalar işaretlenmeli.</MessageMustDesignateUnforbiddable>
+  <MessageCannotClaimWhenPawnThreatsAreNear>Yakında savaşabilecek {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenPawnThreatsAreNear>
+  <MessageCannotAdoptWhilePawnThreatsAreNear>Yakında savaşabilecek {THREAT_factionPawnsPlural} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhilePawnThreatsAreNear>
+  <MessageCannotClaimWhenThreatsAreNear>Yakında {THREAT} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotClaimWhenThreatsAreNear>
+  <MessageCannotAdoptWhileThreatsAreNear>Yakında {THREAT} varken {CLAIMABLE_labelShort} sahiplenilemez.</MessageCannotAdoptWhileThreatsAreNear>
+  <MessageCannotRemoveSupportingFoundation>Bir binayı taşıyan temel kaldırılamaz.</MessageCannotRemoveSupportingFoundation>
 
-  <!-- EN: {1_labelShort} has refused to be arrested! -->
   <MessageRefusedArrest>{1_labelShort} tutuklanmayı reddetti!</MessageRefusedArrest>
-  
-  <!-- EN: There are no medical beds available. -->
-  <MessageNoMedicalBeds>Kullanılabilir tıbbi yatak yok.</MessageNoMedicalBeds>
-  <!-- EN: There are no animal beds available. -->
-  <MessageNoAnimalBeds>Kullanılabilir hayvan yatağı yok.</MessageNoAnimalBeds>
-  <!-- EN: Warning: {PAWN_nameDef}'s medicine restriction ({RESTRICTIONLABEL}) prevents doing this operation. Consider changing {PAWN_possessive} medicine restriction. -->
-  <MessageWarningNoMedicineForRestriction>Uyarı: {PAWN_nameDef} kişisinin ilaç kısıtlaması ({RESTRICTIONLABEL}) bu işlemin yapılmasını engelliyor. İlaç kısıtlamasını değiştirmeyi düşün.</MessageWarningNoMedicineForRestriction>
-  
-  <!-- EN: {PAWN_labelShort} has died. Cause: {1}. -->
-  <PawnDiedBecauseOf>{PAWN_labelShort} öldü. Sebep: {1}.</PawnDiedBecauseOf>
-  <!-- EN: {1_labelShort} has died. -->
+
+  <MessageNoMedicalBeds>Müsait tıbbi yatak yok.</MessageNoMedicalBeds>
+  <MessageNoAnimalBeds>Müsait hayvan yatağı yok.</MessageNoAnimalBeds>
+  <MessageWarningNoMedicineForRestriction>Uyarı: {PAWN_nameDef} için belirlenen ilaç kısıtlaması ({RESTRICTIONLABEL}) bu ameliyatın yapılmasını engelliyor. İlaç kısıtlamasını değiştirmeyi düşün.</MessageWarningNoMedicineForRestriction>
+
+  <PawnDiedBecauseOf>{PAWN_labelShort} öldü. Nedeni: {1}.</PawnDiedBecauseOf>
   <PawnDied>{1_labelShort} öldü.</PawnDied>
 
-  <!-- EN: {1_label} is no longer incapable of walking. -->
-  <MessageNoLongerDowned>{1_label} artık yürüyebilecek durumda.</MessageNoLongerDowned>
+  <MessageNoLongerDowned>{1_label} artık yürüyebiliyor.</MessageNoLongerDowned>
 
-  <!-- EN: {1_labelShort} has collapsed due to extreme exhaustion. -->
-  <MessageInvoluntarySleep>{1_labelShort} aşırı yorgunluktan yere yığıldı.</MessageInvoluntarySleep>
+  <MessageInvoluntarySleep>{1_labelShort} aşırı bitkinlik yüzünden yere yığıldı.</MessageInvoluntarySleep>
 
-  <!-- EN: This operation will anger {0}. -->
-  <MessageMedicalOperationWillAngerFaction>Bu operasyon {0} fraksiyonunu kızdıracak.</MessageMedicalOperationWillAngerFaction>
+  <MessageMedicalOperationWillAngerFaction>Bu ameliyat şunu kızdıracak: {0}.</MessageMedicalOperationWillAngerFaction>
 
-  <!-- EN: {PAWN_nameDef} is pregnant! -->
-  <MessageAnimalIsPregnant>{PAWN_nameDef} hamile!</MessageAnimalIsPregnant>
-  <!-- EN: {0} has miscarried due to starvation. -->
+  <MessageAnimalIsPregnant>{PAWN_nameDef} gebe!</MessageAnimalIsPregnant>
   <MessageMiscarriedStarvation>{0} açlık yüzünden düşük yaptı.</MessageMiscarriedStarvation>
-  <!-- EN: {0} has miscarried due to poor health. -->
-  <MessageMiscarriedPoorHealth>{0} sağlıksızlık yüzünden düşük yaptı.</MessageMiscarriedPoorHealth>
-  <!-- EN: {0} has given birth. -->
+  <MessageMiscarriedPoorHealth>{0} kötü sağlık yüzünden düşük yaptı.</MessageMiscarriedPoorHealth>
   <MessageGaveBirth>{0} doğum yaptı.</MessageGaveBirth>
-  
-  <!-- EN: {PAWN_labelShort} won't be able to use the psylink while {PAWN_pronoun} has zero psychic sensitivity. -->
-  <MessagePsylinkNoSensitivity>{PAWN_labelShort}, sıfır psişik hassasiyete sahip olduğu sürece psi-bağ kullanamayacak.</MessagePsylinkNoSensitivity>
-  <!-- EN: {PAWN_labelShort} has lost a {1} implant level due to {2}. -->
-  <MessageLostImplantLevelFromHediff>{PAWN_labelShort}, {2} nedeniyle {1} implant seviyesini kaybetti.</MessageLostImplantLevelFromHediff>
-  <!-- EN: {PAWN_labelShort} has suffered {1} points of brain damage due to {2}. -->
-  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}, {2} nedeniyle {1} beyin hasarına maruz kaldı.</MessageReceivedBrainDamageFromHediff>
-  <!-- EN: {PAWN_labelShort} has exceeded the normal limit of neural heat. -->
-  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort}, normal sinirsel ısı sınırını aştı.</MessageWentOverPsychicEntropyLimit>
 
-  <!-- EN: No handler capable of taming {ANIMAL_kindBase} (requires level {1} in {2}, best capable handler {HANDLER_labelShort} has {4}). -->
-  <MessageNoHandlerSkilledEnough>{ANIMAL_kindBase} hiçbir terbiyecin tarafından evcilleştirilemiyor (gereken {2} seviyesi {1}, en iyi terbiyecin {HANDLER_labelShort} {4} seviyede).</MessageNoHandlerSkilledEnough>
-  
-  <!-- EN: {EATEN_labelShort} has been eaten by {PREDATOR}. -->
-  <MessageEatenByPredator>{EATEN_labelShort}, {PREDATOR} tarafından yenildi.</MessageEatenByPredator>
-  <!-- EN: {PREY_labelShort} is being attacked by {PREDATOR}! -->
-  <MessageAttackedByPredator>{PREY_labelShort}, {PREDATOR} tarafından saldırıya uğruyor!</MessageAttackedByPredator>
+  <MessagePsylinkNoSensitivity>{PAWN_labelShort}, psişik duyarlılığı sıfırken psibağı kullanamayacak.</MessagePsylinkNoSensitivity>
+  <MessageLostImplantLevelFromHediff>{PAWN_labelShort}, {2} yüzünden bir {1} implant seviyesi kaybetti.</MessageLostImplantLevelFromHediff>
+  <MessageReceivedBrainDamageFromHediff>{PAWN_labelShort}, {2} yüzünden {1} puan beyin hasarı aldı.</MessageReceivedBrainDamageFromHediff>
+  <MessageWentOverPsychicEntropyLimit>{PAWN_labelShort} normal sinirsel ısı sınırını aştı.</MessageWentOverPsychicEntropyLimit>
 
-  <!-- EN: {PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen. -->
-  <MessageRoamerLeaving>{PAWN_labelShort} uzaklaşmaya başladı! Terbiyecilerinden biri onu tekrar bir ağıla bağlamadığı sürece haritadan ayrılacak.</MessageRoamerLeaving>
+  <MessageNoHandlerSkilledEnough>{ANIMAL_kindBase} evcilleştirebilecek hayvan bakıcısı yok ({2} becerisinde {1}. seviye gerekli; en iyi bakıcı {HANDLER_labelShort}: {4}).</MessageNoHandlerSkilledEnough>
 
-  <!-- EN: A bug hive has reproduced itself. -->
+  <MessageEatenByPredator>{EATEN_labelShort}, {PREDATOR} tarafından yendi.</MessageEatenByPredator>
+  <MessageAttackedByPredator>{PREY_labelShort}, {PREDATOR} saldırısına uğruyor!</MessageAttackedByPredator>
+
+  <MessageRoamerLeaving>{PAWN_labelShort} başıboş gezip uzaklaşmaya başladı! Bir hayvan bakıcısı onu iple bir ağıla geri götürmezse haritadan ayrılacak.</MessageRoamerLeaving>
+
   <MessageHiveReproduced>Bir böcek kovanı kendini çoğalttı.</MessageHiveReproduced>
-  
-  <!-- EN: The trade caravan from {0} is leaving. -->
-  <MessageTraderCaravanLeaving>{0} fraksiyonundan gelen ticari kervan gidiyor.</MessageTraderCaravanLeaving>
-  <!-- EN: The trade caravan from {0} has been dismissed. -->
-  <MessageTraderCaravanDismissed>{0} fraksiyonundan gelen ticari kervan kovuldu.</MessageTraderCaravanDismissed>
 
-  <!-- EN: {1_labelShort} is dead. -->
+  <MessageTraderCaravanLeaving>{0} hizbinden gelen ticaret kervanı ayrılıyor.</MessageTraderCaravanLeaving>
+  <MessageTraderCaravanDismissed>{0} hizbinden gelen ticaret kervanı gönderildi.</MessageTraderCaravanDismissed>
+
   <MessageCantSelectDeadPawn>{1_labelShort} ölü.</MessageCantSelectDeadPawn>
-  <!-- EN: {1_labelShort} is off the map. -->
   <MessageCantSelectOffMapPawn>{1_labelShort} haritanın dışında.</MessageCantSelectOffMapPawn>
-  
-  <!-- EN: {PAWN1_labelShort} started a social fight with {PAWN2_labelShort}. -->
+
   <MessageSocialFight>{PAWN1_labelShort}, {PAWN2_labelShort} ile kavgaya tutuştu.</MessageSocialFight>
-  
-  <!-- EN: Colonists are gathering to celebrate {PAWN1_labelShort} and {PAWN2_labelShort}'s marriage. -->
-  <MessageNewMarriageCeremony>Koloniciler {PAWN1_labelShort} ve {PAWN2_labelShort} çiftinin evliliğini kutlamak için toplanıyorlar.</MessageNewMarriageCeremony>
-  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are beginning their marriage ceremony! -->
-  <MessageMarriageCeremonyStarts>{PAWN1_labelShort} ve {PAWN2_labelShort} çiftinin düğünü başlıyor!</MessageMarriageCeremonyStarts>
-  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has been called off. -->
-  <MessageMarriageCeremonyCalledOff>{PAWN1_labelShort} ve {PAWN2_labelShort} çiftinin düğünü iptal oldu.</MessageMarriageCeremonyCalledOff>
-  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} have married. Colonists are now celebrating the occasion. -->
-  <MessageNewlyMarried>{PAWN1_labelShort} ve {PAWN2_labelShort} evlendi. Şimdi koloniciler bunu kutluyorlar.</MessageNewlyMarried>
-  <!-- EN: The marriage ceremony for {PAWN1_labelShort} and {PAWN2_labelShort} has finished. -->
-  <MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort} ve {PAWN2_labelShort} çiftinin düğünü sona erdi.</MessageMarriageCeremonyAfterPartyFinished>
-  
-  <!-- EN: {HUMAN_labelShort} and {ANIMAL_labelShort} have formed a bond. -->
-  <MessageNewBondRelation>{HUMAN_labelShort} ile {ANIMAL_labelShort} bir bağ kurdu.</MessageNewBondRelation>
-  <!-- EN: {HUMAN_labelShort} and {1} have formed a bond. {HUMAN_labelShort} has named {ANIMAL_objective} {ANIMAL_nameFull}. -->
-  <MessageNewBondRelationNewName>{HUMAN_labelShort} ile {1} bir bağ kurdu. {HUMAN_labelShort} ona {ANIMAL_nameFull} adını verdi.</MessageNewBondRelationNewName>
-  
-  <!-- EN: {ANIMAL} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalMentalBreak>{ANIMAL}, {HUMAN_labelShort} öldüğü için ruhsal çöküş yaşadı.</MessageBondedAnimalMentalBreak>
-  <!-- EN: {ANIMAL_kindIndef} named {ANIMAL_label} has had a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_label} adlı {ANIMAL_kindIndef}, {HUMAN_labelShort} öldüğü için ruhsal çöküş yaşadı.</MessageNamedBondedAnimalMentalBreak>
-  <!-- EN: {0} animals have a mental break because of {HUMAN_labelShort}'s death. -->
-  <MessageBondedAnimalsMentalBreak>{0} hayvan, {HUMAN_labelShort} öldüğü için ruhsal çöküş yaşadı.</MessageBondedAnimalsMentalBreak>
-  
-  <!-- EN: {SURGEON_labelShort} has successfully removed {PATIENT_labelShort}'s {HEDIFF}. -->
-  <MessageSuccessfullyRemovedHediff>{PATIENT_labelShort} adlı hastanın {HEDIFF} organı, {SURGEON_labelShort} tarafından başarı ile alındı.</MessageSuccessfullyRemovedHediff>
-  
-  <!-- EN: Chunks of a spacecraft have impacted nearby. You can deconstruct them to yield resources. -->
-  <MessageShipChunkDrop>Bir uzay aracının parçaları yakınlarına düştü. Kaynak elde etmek için bu parçaları sökebilirsin.</MessageShipChunkDrop>
 
-  <!-- EN: Some items cannot be traded because of:  -->
-  <MessageCannotSellItemsReason>Bazı öğeler şu sebepten satılamıyor: </MessageCannotSellItemsReason>
+  <MessageNewMarriageCeremony>Kolonistler {PAWN1_labelShort} ile {PAWN2_labelShort} çiftinin evliliğini kutlamak için toplanıyor.</MessageNewMarriageCeremony>
+  <MessageMarriageCeremonyStarts>{PAWN1_labelShort} ve {PAWN2_labelShort} nikâh törenine başlıyor!</MessageMarriageCeremonyStarts>
+  <MessageMarriageCeremonyCalledOff>{PAWN1_labelShort} ve {PAWN2_labelShort} için nikâh töreni iptal edildi.</MessageMarriageCeremonyCalledOff>
+  <MessageNewlyMarried>{PAWN1_labelShort} ve {PAWN2_labelShort} evlendi. Kolonistler şimdi bu olayı kutluyor.</MessageNewlyMarried>
+  <MessageMarriageCeremonyAfterPartyFinished>{PAWN1_labelShort} ve {PAWN2_labelShort} için nikâh töreni sona erdi.</MessageMarriageCeremonyAfterPartyFinished>
 
-  <!-- EN: {WORKER_labelShort} failed while constructing a {0}. Some resources have been wasted. -->
-  <MessageConstructionFailed>{WORKER_labelShort}, {0} inşa ederken başarısız oldu. Bazı kaynaklar israf oldu.</MessageConstructionFailed>
+  <MessageNewBondRelation>{HUMAN_labelShort} ve {ANIMAL_labelShort} arasında bir bağ oluştu.</MessageNewBondRelation>
+  <MessageNewBondRelationNewName>{HUMAN_labelShort} ve {1} arasında bir bağ oluştu. {HUMAN_labelShort} ona {ANIMAL_nameFull} adını verdi.</MessageNewBondRelationNewName>
 
-  <!-- EN: Screenshot saved as: {0} -->
-  <MessageScreenshotSavedAs>Ekran görüntüsü kaydedildi: {0}</MessageScreenshotSavedAs>
-  
-  <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer social fighting. -->
+  <MessageBondedAnimalMentalBreak>{ANIMAL}, {HUMAN_labelShort} adlı kişinin ölümü yüzünden zihinsel çöküş yaşadı.</MessageBondedAnimalMentalBreak>
+  <MessageNamedBondedAnimalMentalBreak>{ANIMAL_label} adındaki {ANIMAL_kindIndef}, {HUMAN_labelShort} adlı kişinin ölümü yüzünden zihinsel çöküş yaşadı.</MessageNamedBondedAnimalMentalBreak>
+  <MessageBondedAnimalsMentalBreak>{0} hayvan, {HUMAN_labelShort} adlı kişinin ölümü yüzünden zihinsel çöküş yaşıyor.</MessageBondedAnimalsMentalBreak>
+
+  <MessageSuccessfullyRemovedHediff>{SURGEON_labelShort}, {PATIENT_labelShort} adlı kişiden şunu başarıyla çıkardı: {HEDIFF}.</MessageSuccessfullyRemovedHediff>
+
+  <MessageShipChunkDrop>Bir uzay aracının parçaları yakınlara düştü. Kaynak elde etmek için onları sökebilirsin.</MessageShipChunkDrop>
+
+  <MessageCannotSellItemsReason>Bazı eşyalar şu nedenle takas edilemiyor: </MessageCannotSellItemsReason>
+
+  <MessageConstructionFailed>{WORKER_labelShort}, bir {0} inşa ederken başarısız oldu. Bazı kaynaklar boşa gitti.</MessageConstructionFailed>
+
+  <MessageScreenshotSavedAs>Ekran görüntüsü şu adla kaydedildi: {0}</MessageScreenshotSavedAs>
+
   <MessageNoLongerSocialFighting>{PAWN1_labelShort} ve {PAWN2_labelShort} artık kavga etmiyor.</MessageNoLongerSocialFighting>
-  
-  <!-- EN: {2_labelShort} is no longer binging on {1}. -->
-  <MessageNoLongerBingingOnDrug>{2_labelShort} artık {1} tıkınmıyor.</MessageNoLongerBingingOnDrug>
 
-  <!-- EN: {PAWN_labelShort} is no longer on an insulting spree against {TARGET_label}. -->
-  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort}, {TARGET_label} kişisine saydırmayı artık bıraktı.</MessageNoLongerOnTargetedInsultingSpree>
+  <MessageNoLongerBingingOnDrug>{2_labelShort} artık kontrolsüzce {1} kullanmıyor.</MessageNoLongerBingingOnDrug>
 
-  <!-- EN: {1_label} has rotted away in storage. -->
-  <MessageRottedAwayInStorage>{1_label} depolama alanında çürüdü.</MessageRottedAwayInStorage>
-  
-  <!-- EN: {PAWN_labelShort} has gotten food poisoning from: {FOOD_labelShort}. Cause: {2}. -->
-  <MessageFoodPoisoning>{PAWN_labelShort}, {FOOD_labelShort} yiyerek gıda zehirlenmesi geçirdi. Sebep: {2}.</MessageFoodPoisoning>
-  
-  <!-- EN: {0} has been removed from the caravan. -->
+  <MessageNoLongerOnTargetedInsultingSpree>{PAWN_labelShort} artık {TARGET_label} adlı kişiye hakaret yağdırmıyor.</MessageNoLongerOnTargetedInsultingSpree>
+
+  <MessageRottedAwayInStorage>{1_label} depoda çürüyüp yok oldu.</MessageRottedAwayInStorage>
+
+  <MessageFoodPoisoning>{PAWN_labelShort} şundan gıda zehirlenmesi geçirdi: {FOOD_labelShort}. Nedeni: {2}.</MessageFoodPoisoning>
+
   <MessagePawnLostWhileFormingCaravan>{0} kervandan çıkarıldı.</MessagePawnLostWhileFormingCaravan>
-  <!-- EN: The caravan formation process has been terminated. -->
-  <MessagePawnLostWhileFormingCaravan_AllLost>Kervan kurma süreci sona erdirildi.</MessagePawnLostWhileFormingCaravan_AllLost>
-  <!-- EN: No colonist capable of forming caravan. The caravan formation process has been terminated. -->
-  <MessageForceSendingCaravan_AllLost>Hiçbir kolonici kervan kurabilir durumda değil. Kervan kurma süreci sona erdirildi.</MessageForceSendingCaravan_AllLost>
-  <!-- EN: The caravan formation process will continue when everyone recovers from their mental break. -->
-  <MessageCaravanFormationPaused>Kervan kurma süreci, herkes ruhsal çöküntüyü atlatırsa devam edecek.</MessageCaravanFormationPaused>
-  <!-- EN: Your colonists will now continue forming a caravan. -->
-  <MessageCaravanFormationUnpaused>Kolonicilerin şimdi bir kervan kurmaya devam edecek.</MessageCaravanFormationUnpaused>
-  
-  <!-- EN: One of the caravan members has had a mental break. -->
-  <MessageCaravanMemberHasExtremeMentalBreak>Kervan üyelerinden biri ruhsal çöküşün eşiğinde.</MessageCaravanMemberHasExtremeMentalBreak>
-  
-  <!-- EN: Warning: It can take a very long time to generate an entire planet. -->
-  <MessageMaxPlanetCoveragePerformanceWarning>Uyarı: Bütün bir gezegeni oluşturmak çok uzun zaman alabilir.</MessageMaxPlanetCoveragePerformanceWarning>
+  <MessagePawnLostWhileFormingCaravan_AllLost>Kervan oluşturma süreci sonlandırıldı.</MessagePawnLostWhileFormingCaravan_AllLost>
+  <MessageForceSendingCaravan_AllLost>Kervan oluşturabilecek kolonist yok. Kervan oluşturma süreci sonlandırıldı.</MessageForceSendingCaravan_AllLost>
+  <MessageCaravanFormationPaused>Kervan oluşturma süreci, herkes zihinsel çöküşünden kurtulduğunda devam edecek.</MessageCaravanFormationPaused>
+  <MessageCaravanFormationUnpaused>Kolonistlerin artık kervan oluşturmaya devam edecek.</MessageCaravanFormationUnpaused>
 
-  <!-- EN: {0} has died because of cold. -->
-  <MessagePlantDiedOfCold>{0} soğuktan dolayı öldü.</MessagePlantDiedOfCold>
-  <!-- EN: {0} has died from rotting due to being left unharvested. -->
-  <MessagePlantDiedOfRot_LeftUnharvested>{0}, hasat edilmediği için çürüyüp öldü.</MessagePlantDiedOfRot_LeftUnharvested>
-  <!-- EN: {0} has died due to being exposed to light. -->
-  <MessagePlantDiedOfRot_ExposedToLight>{0}, ışığa maruz kaldığı için öldü.</MessagePlantDiedOfRot_ExposedToLight>
-  <!-- EN: {0} has died from rotting. -->
-  <MessagePlantDiedOfRot>{0} çürümeden dolayı öldü.</MessagePlantDiedOfRot>
-  <!-- EN: {0} has died because of poison. -->
-  <MessagePlantDiedOfPoison>{0} zehirden dolayı öldü.</MessagePlantDiedOfPoison>
-  <!-- EN: {1_label} has died because of blight. -->
-  <MessagePlantDiedOfBlight>{1_label} bitki hastalığından dolayı öldü.</MessagePlantDiedOfBlight>
+  <MessageCaravanMemberHasExtremeMentalBreak>Kervan üyelerinden biri zihinsel çöküş yaşadı.</MessageCaravanMemberHasExtremeMentalBreak>
 
-  <!-- EN: {1_labelShort} is being burned by superheated air! -->
-  <MessagePawnBeingBurned>{1_labelShort} aşırı sıcak havadan dolayı yanıyor!</MessagePawnBeingBurned>
+  <MessageMaxPlanetCoveragePerformanceWarning>Uyarı: Bütün bir gezegeni oluşturmak çok uzun sürebilir.</MessageMaxPlanetCoveragePerformanceWarning>
 
-  <!-- EN: {INGESTER} has accidentally overdosed while consuming {DRUG_labelShort}! -->
-  <MessageAccidentalOverdose>{INGESTER}, {DRUG_labelShort} tüketirken yanlışlıkla doz aşımı yaşadı!</MessageAccidentalOverdose>
-  
-  <!-- EN: {0} has arrived at its destination. -->
-  <MessageCaravanArrivedAtDestination>{0} hedefe vardı.</MessageCaravanArrivedAtDestination>
-  
-  <!-- EN: {1_labelShort} has left the area and formed a caravan. -->
-  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} bölgeyi terk etti ve bir kervan kurdu.</MessagePawnLeftMapAndCreatedCaravan>
-  <!-- EN: Your animals are moving to join it. -->
-  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Hayvanların da katılmak için harekete geçti.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
-  
-  <!-- EN: You have successfully settled in a new area. -->
-  <MessageSettledInExistingMap>Başarıyla yeni bir bölgeye yerleştin.</MessageSettledInExistingMap>
-  
-  <!-- EN: {PAWN_labelShort}'s {2} has healed. Cause: {0} -->
-  <MessagePermanentWoundHealed>{PAWN_labelShort} iyileşti: {2}. Sebep: {0}. </MessagePermanentWoundHealed>
-  
-  <!-- EN: [PAWN_nameDef] has recovered and decided to leave. -->
+  <MessagePlantDiedOfCold>{0} soğuk yüzünden öldü.</MessagePlantDiedOfCold>
+  <MessagePlantDiedOfRot_LeftUnharvested>{0} hasat edilmeden bırakıldığı için çürüyüp öldü.</MessagePlantDiedOfRot_LeftUnharvested>
+  <MessagePlantDiedOfRot_ExposedToLight>{0} ışığa maruz kaldığı için öldü.</MessagePlantDiedOfRot_ExposedToLight>
+  <MessagePlantDiedOfRot>{0} çürüyüp öldü.</MessagePlantDiedOfRot>
+  <MessagePlantDiedOfPoison>{0} zehir yüzünden öldü.</MessagePlantDiedOfPoison>
+  <MessagePlantDiedOfBlight>{1_label} küf yüzünden öldü.</MessagePlantDiedOfBlight>
+
+  <MessagePawnBeingBurned>{1_labelShort} aşırı ısınmış havada yanıyor!</MessagePawnBeingBurned>
+
+  <MessageAccidentalOverdose>{INGESTER}, {DRUG_labelShort} tüketirken yanlışlıkla aşırı doz aldı!</MessageAccidentalOverdose>
+
+  <MessageCaravanArrivedAtDestination>{0} varış noktasına ulaştı.</MessageCaravanArrivedAtDestination>
+
+  <MessagePawnLeftMapAndCreatedCaravan>{1_labelShort} bölgeden ayrıldı ve bir kervan oluşturdu.</MessagePawnLeftMapAndCreatedCaravan>
+  <MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>Hayvanların ona katılmak için ilerliyor.</MessagePawnLeftMapAndCreatedCaravan_AnimalsWantToJoin>
+
+  <MessageSettledInExistingMap>Yeni bir bölgeye başarıyla yerleştin.</MessageSettledInExistingMap>
+
+  <MessagePermanentWoundHealed>{PAWN_labelShort} - {2} iyileşti. Nedeni: {0}</MessagePermanentWoundHealed>
+
   <MessageRescueeDidntJoin>[PAWN_nameDef] iyileşti ve ayrılmaya karar verdi.</MessageRescueeDidntJoin>
-  
-  <!-- EN: Some transport pods are unreachable. -->
-  <MessageTransporterUnreachable>Bazı taşıma kapsüllerin ulaşılamaz durumda.</MessageTransporterUnreachable>
-  <!-- EN: All pod launchers connected to the selected transport pods must be adjacent. -->
-  <MessageTransportersNotAdjacent>Seçilen taşıma kapsülleri ile kapsül fırlatıcıları bitişik olmalıdır.</MessageTransportersNotAdjacent>
-  
-  <!-- EN: The loading process has been canceled because one of the transport pods has been destroyed. -->
-  <MessageTransportersLoadCanceled_TransporterDestroyed>Taşıma kapsüllerinden biri imha edildiği için yükleme işlemi iptal edildi.</MessageTransportersLoadCanceled_TransporterDestroyed>
-  <!-- EN: The loading process has been canceled because the shuttle has been destroyed. -->
-  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>Mekik imha edildiği için yükleme işlemi iptal edildi.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
-  <!-- EN: The loading process has been canceled because one of the pod launchers has been destroyed. -->
-  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Kapsül fırlatıcılarından biri imha edildiği için yükleme işlemi iptal edildi.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
-  
-  <!-- EN: Assigned items and people will now be loaded into the transport pods. -->
-  <MessageTransportersLoadingProcessStarted>Şimdi atanmış nesneler ve insanlar taşıma kapsüllerine yüklenecek.</MessageTransportersLoadingProcessStarted>
-  <!-- EN: Assigned items and people will now be loaded into the transport pod. -->
-  <MessageTransporterSingleLoadingProcessStarted>Şimdi atanmış nesneler ve insanlar mekiğe yüklenecek.</MessageTransporterSingleLoadingProcessStarted>
-  <!-- EN: Assigned items and people will now be loaded into the shuttle. -->
-  <MessageShuttleLoadingProcessStarted>Atanan nesneler ve kişiler şimdi mekiğe yüklenecek.</MessageShuttleLoadingProcessStarted>
 
-  <!-- EN: Your transport pods have arrived. -->
-  <MessageTransportPodsArrived>Taşıma kapsüllerin ulaştı.</MessageTransportPodsArrived>
-  <!-- EN: Your transport pods have arrived, but since there were no colonists inside, the contents are lost. -->
-  <MessageTransportPodsArrivedAndLost>Taşıma kapsüllerin ulaştı ancak içinde kolonici olmadığından taşıdığı nesneler kayboldu.</MessageTransportPodsArrivedAndLost>
-  <!-- EN: Your transport pods have arrived. The contents have been added to {0}. -->
-  <MessageTransportPodsArrivedAndAddedToCaravan>Taşıma kapsüllerin ulaştı. Taşıdığı nesneler eklendi: {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
-  
-  <!-- EN: Transport pod loading complete. Launch when ready. -->
-  <MessageFinishedLoadingTransporters>Taşıma kapsülüne yükleme işlemi tamamlandı. Hazır olduğunda fırlat.</MessageFinishedLoadingTransporters>
-  <!-- EN: {SHUTTLE_label} is loaded with required cargo and can launch when ready. -->
-  <MessageFinishedLoadingShuttle>Mekik, gereken kargo ile yüklendi ve hazır olduğunda fırlatılabilir.</MessageFinishedLoadingShuttle>
+  <MessageTransporterUnreachable>Bazı taşıma kapsüllerine ulaşılamıyor.</MessageTransporterUnreachable>
+  <MessageTransportersNotAdjacent>Seçili taşıma kapsüllerine bağlı tüm kapsül fırlatıcıları bitişik olmalı.</MessageTransportersNotAdjacent>
 
-  <!-- EN: Your {1} can't finish loading the transport pods because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoTransporters>Bazı öğeler veya kişiler ({2_labelShort}) şu an müsait olmadığından {1} taşıma kapsüllerine yüklemeyi tamamlayamıyor.</MessageCantLoadMoreIntoTransporters>
-  <!-- EN: Your {1} can't finish loading the shuttle because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoShuttle>Bazı öğeler veya kişiler ({2_labelShort}) şu an müsait olmadığından {1} mekiğe yüklemeyi tamamlayamıyor.</MessageCantLoadMoreIntoShuttle>
-  <!-- EN: Your {1} can't finish entering the {0} because some items or people became unavailable ({2_labelShort}). -->
-  <MessageCantLoadMoreIntoPortal>Bazı öğeler veya kişiler ({2_labelShort}) şu an müsait olmadığından {1} {0} içine giremiyor.</MessageCantLoadMoreIntoPortal>
-  
-  <!-- EN: Selected destination is invalid. -->
-  <MessageTransportPodsDestinationIsInvalid>Seçilen istikamet geçersiz.</MessageTransportPodsDestinationIsInvalid>
-  <!-- EN: {OBJECT_labelCap} is not a valid destination. -->
-  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} geçerli bir istikamet değil.</MessageWorldObjectIsInvalid>
-  <!-- EN: Each pod launcher would need at least {0}x chemfuel to send transport pods that far. -->
-  <MessageTransportPodsDestinationIsTooFar>Her kapsül fırlatıcısı, o kadar uzağa taşıma kapsülünü fırlatabilmek için en az {0} kimyakıta ihtiyaç duyuyor.</MessageTransportPodsDestinationIsTooFar>
-  
-  <!-- EN: The caravan has been reformed. -->
-  <MessageReformedCaravan>Kervan yeniden kuruldu.</MessageReformedCaravan>
-  
-  <!-- EN: You can't banish the last colonist. -->
-  <MessageCantBanishLastColonist>Son kolonicini kovamazsın.</MessageCantBanishLastColonist>
+  <MessageTransportersLoadCanceled_TransporterDestroyed>Taşıma kapsüllerinden biri yok edildiği için yükleme süreci iptal edildi.</MessageTransportersLoadCanceled_TransporterDestroyed>
+  <MessageTransporterSingleLoadCanceled_TransporterDestroyed>Mekik yok edildiği için yükleme süreci iptal edildi.</MessageTransporterSingleLoadCanceled_TransporterDestroyed>
+  <MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>Kapsül fırlatıcılarından biri yok edildiği için yükleme süreci iptal edildi.</MessageTransportersLoadCanceled_FuelingPortGiverDeSpawned>
 
-  <!-- EN: Cannot equip: {0}. -->
-  <MessageCantEquipCustom>Kuşanamıyor: {0}.</MessageCantEquipCustom>
-  <!-- EN: Cannot equip: {1_labelShort} is incapable of violence. -->
-  <MessageCantEquipIncapableOfViolence>Kuşanamıyor: {1_labelShort} şiddet uygulayamıyor.</MessageCantEquipIncapableOfViolence>
-  <!-- EN: Cannot equip: {1_labelShort} is incapable of shooting. -->
-  <MessageCantEquipIncapableOfShooting>Kuşanamıyor: {1_labelShort} nişancılık yapamıyor.</MessageCantEquipIncapableOfShooting>
-  <!-- EN: Cannot equip: Incapable. -->
-  <MessageCantEquipIncapableOfManipulation>Kuşanamıyor: Yapamıyor.</MessageCantEquipIncapableOfManipulation>
-  <!-- EN: Cannot wear: {1_labelShort} is missing required body parts. -->
-  <MessageCantWearApparelMissingBodyParts>Giyemiyor: {1_labelShort} gerekli vücut parçalarından yoksun.</MessageCantWearApparelMissingBodyParts>
-  <!-- EN: This person refuses to remove this. -->
+  <MessageTransportersLoadingProcessStarted>Atanan eşyalar ve kişiler şimdi taşıma kapsüllerine yüklenecek.</MessageTransportersLoadingProcessStarted>
+  <MessageTransporterSingleLoadingProcessStarted>Atanan eşyalar ve kişiler şimdi taşıma kapsülüne yüklenecek.</MessageTransporterSingleLoadingProcessStarted>
+  <MessageShuttleLoadingProcessStarted>Atanan eşyalar ve kişiler şimdi mekiğe yüklenecek.</MessageShuttleLoadingProcessStarted>
+
+  <MessageTransportPodsArrived>Taşıma kapsüllerin vardı.</MessageTransportPodsArrived>
+  <MessageTransportPodsArrivedAndLost>Taşıma kapsüllerin vardı, ama içlerinde hiç kolonist olmadığı için içerik kayboldu.</MessageTransportPodsArrivedAndLost>
+  <MessageTransportPodsArrivedAndAddedToCaravan>Taşıma kapsüllerin vardı. İçerik şuna eklendi: {0}.</MessageTransportPodsArrivedAndAddedToCaravan>
+
+  <MessageFinishedLoadingTransporters>Taşıma kapsülü yüklemesi tamamlandı. Hazır olduğunda fırlat.</MessageFinishedLoadingTransporters>
+  <MessageFinishedLoadingShuttle>{SHUTTLE_label} gerekli yükle dolduruldu ve hazır olduğunda kalkış yapabilir.</MessageFinishedLoadingShuttle>
+
+  <MessageCantLoadMoreIntoTransporters>{1} taşıma kapsüllerini yüklemeyi bitiremiyor, çünkü bazı eşyalar ya da kişiler artık müsait değil ({2_labelShort}).</MessageCantLoadMoreIntoTransporters>
+  <MessageCantLoadMoreIntoShuttle>{1} mekiği yüklemeyi bitiremiyor, çünkü bazı eşyalar ya da kişiler artık müsait değil ({2_labelShort}).</MessageCantLoadMoreIntoShuttle>
+  <MessageCantLoadMoreIntoPortal>{1}, {0} içine girmeyi bitiremiyor, çünkü bazı eşyalar ya da kişiler artık müsait değil ({2_labelShort}).</MessageCantLoadMoreIntoPortal>
+
+  <MessageTransportPodsDestinationIsInvalid>Seçilen hedef geçersiz.</MessageTransportPodsDestinationIsInvalid>
+  <MessageWorldObjectIsInvalid>{OBJECT_labelCap} geçerli bir hedef değil.</MessageWorldObjectIsInvalid>
+  <MessageTransportPodsDestinationIsTooFar>Taşıma kapsüllerini o kadar uzağa göndermek için her kapsül fırlatıcısının en az {0}x kimyasal yakıta ihtiyacı olur.</MessageTransportPodsDestinationIsTooFar>
+
+  <MessageReformedCaravan>Kervan yeniden oluşturuldu.</MessageReformedCaravan>
+
+  <MessageCantBanishLastColonist>Son kolonisti sürgün edemezsin.</MessageCantBanishLastColonist>
+
+  <MessageCantEquipCustom>Kuşanılamaz: {0}.</MessageCantEquipCustom>
+  <MessageCantEquipIncapableOfViolence>Kuşanılamaz: {1_labelShort} şiddete başvuramaz.</MessageCantEquipIncapableOfViolence>
+  <MessageCantEquipIncapableOfShooting>Kuşanılamaz: {1_labelShort} ateş edemez.</MessageCantEquipIncapableOfShooting>
+  <MessageCantEquipIncapableOfManipulation>Kuşanılamaz: Yapamaz.</MessageCantEquipIncapableOfManipulation>
+  <MessageCantWearApparelMissingBodyParts>Giyilemez: {1_labelShort} adlı kişide gerekli vücut parçaları eksik.</MessageCantWearApparelMissingBodyParts>
   <MessageCantUnequipLockedApparel>Bu kişi bunu çıkarmayı reddediyor.</MessageCantUnequipLockedApparel>
-  <!-- EN: Cannot wear: This would replace apparel {1_labelShort} refues to remove. -->
-  <MessageWouldReplaceLockedApparel>Giyemiyor: Bu, {1_labelShort} kişisinin çıkarmayı reddettiği giysilerin yerini alır.</MessageWouldReplaceLockedApparel>
-  
-  <!-- EN: Because they are bonded, slaughtering {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageSlaughteringBondedAnimal>{DESIGNATED_labelShort} katledilirse aralarındaki bağdan dolayı {BONDED_labelShort} mutsuz olacak.</MessageSlaughteringBondedAnimal>
-  <!-- EN: Because they are bonded, releasing {DESIGNATED_labelShort} will make {BONDED_labelShort} unhappy. -->
-  <MessageReleaseBondedAnimal>{DESIGNATED_labelShort} salınırsa aralarındaki bağdan dolayı {BONDED_labelShort} mutsuz olacak.</MessageReleaseBondedAnimal>
-  
-  <!-- EN: {0} has run out of food. -->
-  <MessageCaravanRanOutOfFood>{0}ın erzağı tükendi.</MessageCaravanRanOutOfFood>
-  <!-- EN: {PAWN_definite}'s corpse has been picked up by the caravan. It is heavy and may immobilize the caravan, but can be left behind in the caravan items tab. -->
-  <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite} kişisinin cesedi bir kervan tarafından alındı. Ceset ağır ve kervanın hareket etmesini engelleyebilir ancak kervan eşyaları sekmesinden geri bırakılabilir.</MessageCaravanDeathCorpseAddedToInventory>
+  <MessageWouldReplaceLockedApparel>Giyilemez: Bu, {1_labelShort} adlı kişinin çıkarmayı reddettiği bir giysinin yerini alır.</MessageWouldReplaceLockedApparel>
 
-  <!-- EN: To form a caravan, select your own colony or a site where you have people. -->
-  <MessageSelectOwnBaseToFormCaravan>Bir kervan kurmak için kendi kolonini veya kolonicilerinin bulunduğu bir bölgeyi seç.</MessageSelectOwnBaseToFormCaravan>
+  <MessageSlaughteringBondedAnimal>Aralarında bağ olduğu için {DESIGNATED_labelShort} hayvanını kesmek {BONDED_labelShort} adlı kişiyi mutsuz edecek.</MessageSlaughteringBondedAnimal>
+  <MessageReleaseBondedAnimal>Aralarında bağ olduğu için {DESIGNATED_labelShort} hayvanını doğaya salmak {BONDED_labelShort} adlı kişiyi mutsuz edecek.</MessageReleaseBondedAnimal>
 
-  <!-- EN: At this resolution and UI scale, the game interface would not fit on-screen. Please reduce UI scale or increase resolution. -->
-  <MessageScreenResTooSmallForUIScale>Bu çözünürlük ve arayüz ölçeğiyle oyunun arayüzü, ekranına sığmayacak. Lütfen arayüz ölçeğini küçült veya çözünürlüğü artır.</MessageScreenResTooSmallForUIScale>
-  
-  <!-- EN: You have to reform the caravan now. Everyone left behind will be abandoned. -->
-  <MessageYouHaveToReformCaravanNow>Kervanını şimdi kurmalısın. Geride kalan herkes terk edilecek.</MessageYouHaveToReformCaravanNow>
-  
-  <!-- EN: {0} from {1} are attacking your {2}. -->
-  <MessageDefendersAttacking>{2}, {1} fraksiyonundan {0} tarafından saldırıya uğruyor.</MessageDefendersAttacking>
-  <!-- EN: Mechanoids have been gestated and will defend their cluster. -->
-  <MessageMechanoidsAssembled>Mekanoitler montajlandı ve kümelerini savunacaklar.</MessageMechanoidsAssembled>
-  <!-- EN: Remaining mechanoids to gestate -->
-  <MessageMechanoidsLeftToAssemble>Kalan montajlanacak mekanoitler</MessageMechanoidsLeftToAssemble>
-  <!-- EN: Mech drop beacon has summoned reinforcements in drop pods nearby. -->
-  <MessageMechanoidsReinforcementsDrop>Mekanoit indirme feneri, yakınlara iniş kapsülleriyle takviye birlikler çağırdı.</MessageMechanoidsReinforcementsDrop>
+  <MessageCaravanRanOutOfFood>{0} kervanının yiyeceği bitti.</MessageCaravanRanOutOfFood>
+  <MessageCaravanDeathCorpseAddedToInventory>{PAWN_definite} adlı kişinin cesedi kervan tarafından alındı. Ağır olduğu için kervanı hareketsiz bırakabilir, ama kervan eşyaları sekmesinden geride bırakılabilir.</MessageCaravanDeathCorpseAddedToInventory>
 
-  <!-- EN: To self-tend, {1_labelShort} must also be assigned to Doctor work. -->
-  <MessageSelfTendUnsatisfied>Kendisini tedavi edebilmesi için {1_labelShort}, doktorluk işine atanmalı.</MessageSelfTendUnsatisfied>
-  <!-- EN: {1_labelShort} is incapable of doing Doctor work, and so cannot ever self-tend. -->
-  <MessageCannotSelfTendEver>{1_labelShort} doktorluk yapamamakta. Bu yüzden kendisini tedavi edemez.</MessageCannotSelfTendEver>
-  
-  <!-- EN: This tile is impassable. -->
-  <MessageCantAddWaypointBecauseImpassable>Bu altıgen geçilemez.</MessageCantAddWaypointBecauseImpassable>
-  <!-- EN: It's not possible to reach this tile from the last waypoint. -->
-  <MessageCantAddWaypointBecauseUnreachable>Bu altıgene son yol işaretinden ulaşmak mümkün değil.</MessageCantAddWaypointBecauseUnreachable>
-  <!-- EN: You can't add more than {0} waypoints. -->
-  <MessageCantAddWaypointBecauseLimit>{0} yol işaretinden daha fazlasını ekleyemezsin.</MessageCantAddWaypointBecauseLimit>
-  <!-- EN: You can't remove this waypoint. -->
-  <MessageCantRemoveWaypointBecauseFirst>Bu yol işaretini kaldıramazsın.</MessageCantRemoveWaypointBecauseFirst>
-  
-  <!-- EN: None of your wardens is capable of violence. The execution won't be performed. -->
-  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Gardiyanlarından hiçbiri şiddet uygulayamıyor. İnfaz yapılmayacak.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
-  
-  <!-- EN: Area is now safe. You can reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemies>Bölge artık güvende. Kervanı dünya haritasından yeniden kurabilirsin.</MessageCanReformCaravanNowNoMoreEnemies>
-  <!-- EN: Area is now safe, but some unexplored rooms remain. You can explore further or reform the caravan on the world map. -->
-  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Bölge artık güvenli ancak keşfedilmemiş bazı odalar kaldı. Daha fazlasını keşfedebilir veya kervanı dünya haritasından yeniden kurabilirsin.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
+  <MessageSelectOwnBaseToFormCaravan>Kervan oluşturmak için kendi kolonini ya da adamlarının bulunduğu bir konumu seç.</MessageSelectOwnBaseToFormCaravan>
 
-  <!-- EN: Cannot banish {1_labelShort} since {1_pronoun} cannot walk. -->
-  <MessageCantBanishDownedPawn>{1_labelShort} yürüyemediği için sürgüne yollanamaz.</MessageCantBanishDownedPawn>
+  <MessageScreenResTooSmallForUIScale>Bu çözünürlük ve arayüz ölçeğinde oyun arayüzü ekrana sığmaz. Lütfen arayüz ölçeğini düşür ya da çözünürlüğü artır.</MessageScreenResTooSmallForUIScale>
 
-  <!-- EN: {0} have woken up. -->
+  <MessageYouHaveToReformCaravanNow>Kervanı şimdi yeniden oluşturman gerekiyor. Geride kalan herkes terk edilecek.</MessageYouHaveToReformCaravanNow>
+
+  <MessageDefendersAttacking>{1} hizbinden {0}, şuna saldırıyor: {2}.</MessageDefendersAttacking>
+  <MessageMechanoidsAssembled>Mekanoidler üretildi ve kümelerini savunacak.</MessageMechanoidsAssembled>
+  <MessageMechanoidsLeftToAssemble>Üretilecek kalan mekanoidler</MessageMechanoidsLeftToAssemble>
+  <MessageMechanoidsReinforcementsDrop>Mek indirme işaretçisi yakınlara iniş kapsülleriyle takviye çağırdı.</MessageMechanoidsReinforcementsDrop>
+
+  <MessageSelfTendUnsatisfied>Kendine pansuman yapabilmesi için {1_labelShort} adlı kişinin Doktorluk işine de atanması gerekir.</MessageSelfTendUnsatisfied>
+  <MessageCannotSelfTendEver>{1_labelShort} Doktorluk işi yapamadığı için kendine asla pansuman yapamaz.</MessageCannotSelfTendEver>
+
+  <MessageCantAddWaypointBecauseImpassable>Bu bölge karesi geçilmez.</MessageCantAddWaypointBecauseImpassable>
+  <MessageCantAddWaypointBecauseUnreachable>Son ara noktadan bu bölge karesine ulaşmak mümkün değil.</MessageCantAddWaypointBecauseUnreachable>
+  <MessageCantAddWaypointBecauseLimit>{0} taneden fazla ara nokta ekleyemezsin.</MessageCantAddWaypointBecauseLimit>
+  <MessageCantRemoveWaypointBecauseFirst>Bu ara noktayı kaldıramazsın.</MessageCantRemoveWaypointBecauseFirst>
+
+  <MessageCantDoExecutionBecauseNoWardenCapableOfViolence>Gardiyanlarının hiçbiri şiddete başvuramıyor. İnfaz gerçekleştirilmeyecek.</MessageCantDoExecutionBecauseNoWardenCapableOfViolence>
+
+  <MessageCanReformCaravanNowNoMoreEnemies>Bölge artık güvenli. Kervanı dünya haritasında yeniden oluşturabilirsin.</MessageCanReformCaravanNowNoMoreEnemies>
+  <MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>Bölge artık güvenli, ama keşfedilmemiş bazı odalar kaldı. Keşfe devam edebilir ya da kervanı dünya haritasında yeniden oluşturabilirsin.</MessageCanReformCaravanNowNoMoreEnemiesButUnexploredAreas>
+
+  <MessageCantBanishDownedPawn>{1_labelShort} yürüyemediği için sürgün edilemez.</MessageCantBanishDownedPawn>
+
   <MessageSleepingPawnsWokenUp>{0} uyandı.</MessageSleepingPawnsWokenUp>
-  <!-- EN: Mech cluster buildings have been defeated. -->
-  <MessageMechClusterDefeated>Mekanoit kümesi yapıları mağlup edildi.</MessageMechClusterDefeated>
+  <MessageMechClusterDefeated>Mek kümesi binaları yenildi.</MessageMechClusterDefeated>
 
-  <!-- EN: Item produced: {0}. -->
-  <MessageCompSpawnerSpawnedItem>Üretilen ürün: {0}.</MessageCompSpawnerSpawnedItem>
+  <MessageCompSpawnerSpawnedItem>Üretilen eşya: {0}.</MessageCompSpawnerSpawnedItem>
 
-  <!-- EN: Health condition healed: {0}. -->
   <MessageHediffCuredByItem>Sağlık sorunu iyileşti: {0}.</MessageHediffCuredByItem>
-  <!-- EN: Body part restored: {0}. -->
-  <MessageBodyPartCuredByItem>Vücut bölgesi iyileştirildi: {0}.</MessageBodyPartCuredByItem>
-  <!-- EN: Technology given: {0}. -->
-  <MessageResearchProjectFinishedByItem>Verilen teknoloji: {0}.</MessageResearchProjectFinishedByItem>
+  <MessageBodyPartCuredByItem>Vücut parçası onarıldı: {0}.</MessageBodyPartCuredByItem>
+  <MessageResearchProjectFinishedByItem>Kazanılan teknoloji: {0}.</MessageResearchProjectFinishedByItem>
 
-  <!-- EN: {0} has been brought back to life! -->
   <MessagePawnResurrected>{0} hayata döndürüldü!</MessagePawnResurrected>
 
-  <!-- EN: You have failed to rescue {PAWN_labelShort}. This will make {RELATIVE_labelShort} sad. -->
-  <MessageFailedToRescueRelative>{PAWN_labelShort} kurtarılamadı. {RELATIVE_labelShort} bu durumdan dolayı üzülecek.</MessageFailedToRescueRelative>
-  <!-- EN: You have rescued {PAWN_labelShort}. This will make {RELATIVE_labelShort} happy. -->
-  <MessageRescuedRelative>{PAWN_labelShort} kurtarıldı. {RELATIVE_labelShort} bu durumdan dolayı mutlu olacak.</MessageRescuedRelative>
+  <MessageFailedToRescueRelative>{PAWN_labelShort} adlı kişiyi kurtaramadın. Bu, {RELATIVE_labelShort} adlı kişiyi üzecek.</MessageFailedToRescueRelative>
+  <MessageRescuedRelative>{PAWN_labelShort} adlı kişiyi kurtardın. Bu, {RELATIVE_labelShort} adlı kişiyi mutlu edecek.</MessageRescuedRelative>
 
-  <!-- EN: The tornado has left the map. -->
-  <MessageTornadoLeftMap>Kasırga haritadan ayrıldı.</MessageTornadoLeftMap>
-  <!-- EN: The tornado has dissipated. -->
-  <MessageTornadoDissipated>Kasırga dağıldı.</MessageTornadoDissipated>
+  <MessageTornadoLeftMap>Hortum haritadan çıktı.</MessageTornadoLeftMap>
+  <MessageTornadoDissipated>Hortum dağıldı.</MessageTornadoDissipated>
 
-  <!-- EN: No conscious, capable diplomat. -->
-  <MessagePeaceTalksNoDiplomat>Bilinci yerinde, mahir bir diplomat yok.</MessagePeaceTalksNoDiplomat>
+  <MessagePeaceTalksNoDiplomat>Bilinci yerinde ve yetenekli bir diplomat yok.</MessagePeaceTalksNoDiplomat>
 
-  <!-- EN: Warning: {0} cannot live when exposed to light. -->
-  <MessageWarningCavePlantsExposedToLight>Uyarı: {0} ışığa maruz kaldığı takdirde yaşayamaz.</MessageWarningCavePlantsExposedToLight>
+  <MessageWarningCavePlantsExposedToLight>Uyarı: {0} ışığa maruz kaldığında yaşayamaz.</MessageWarningCavePlantsExposedToLight>
 
-  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}, {OLDTARGET_label} hedefine ulaşamadı. Bu nedenle öfkesini {TARGET_label} hedefine yöneltti.</MessageTargetedTantrumChangedTarget>
+  <MessageTargetedTantrumChangedTarget>{PAWN_labelShort}, {OLDTARGET_label} hedefine ulaşamadı ve öfkesini {TARGET_label} hedefine yöneltmeye karar verdi.</MessageTargetedTantrumChangedTarget>
 
-  <!-- EN: {PAWN_labelShort} couldn't reach {OLDTARGET_label} so {PAWN_pronoun} decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}, {OLDTARGET_label} hedefine ulaşamadı. Bu nedenle öfkesini {TARGET_label} hedefine yöneltti.</MessageTargetedInsultingSpreeChangedTarget>
+  <MessageTargetedInsultingSpreeChangedTarget>{PAWN_labelShort}, {OLDTARGET_label} adlı kişiye ulaşamadı ve öfkesini {TARGET_label} adlı kişiye yöneltmeye karar verdi.</MessageTargetedInsultingSpreeChangedTarget>
 
-  <!-- EN: {PAWN_labelShort} has decided to redirect {PAWN_possessive} anger at {TARGET_label}. -->
-  <MessageMurderousRageChangedTarget>{PAWN_labelShort} öfkesini {TARGET_label} hedefine yöneltti.</MessageMurderousRageChangedTarget>
+  <MessageMurderousRageChangedTarget>{PAWN_labelShort} öfkesini {TARGET_label} adlı kişiye yöneltmeye karar verdi.</MessageMurderousRageChangedTarget>
 
-  <!-- EN: {0} cannot grow underneath a roof. -->
-  <MessagePlantIncompatibleWithRoof>{0} bir çatının altında büyüyemez.</MessagePlantIncompatibleWithRoof>
-  <!-- EN: Cannot build a roof over {0}. -->
-  <MessageRoofIncompatibleWithPlant>{0} üzerine çatı kurulamaz.</MessageRoofIncompatibleWithPlant>
+  <MessagePlantIncompatibleWithRoof>{0} çatı altında büyüyemez.</MessagePlantIncompatibleWithRoof>
+  <MessageRoofIncompatibleWithPlant>Şunun üzerine çatı inşa edilemez: {0}.</MessageRoofIncompatibleWithPlant>
 
-  <!-- EN: To leave the area, use the 'reform caravan' button in the world view. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Bölgeden ayrılmak için dünya haritasındaki 'kervanı yenile' düğmesini kullan.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
-  <!-- EN: You can't leave the map now. -->
-  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Haritayı şimdi terk edemezsin.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>Bölgeden ayrılmak için dünya görünümündeki 'kervanı yeniden oluştur' düğmesini kullan.</MessagePlayerTriedToLeaveMapViaExitGrid_CanReform>
+  <MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>Şu anda haritadan ayrılamazsın.</MessagePlayerTriedToLeaveMapViaExitGrid_CantReform>
 
-  <!-- EN: Relations with {0} have changed from {1} to {2}. -->
-  <MessageGoodwillChanged>{0} ile ilişkilerin değişerek {1} iken {2} oldu.</MessageGoodwillChanged>
-  <!-- EN: Relations with {0} have changed from {1} to {2} ({3}). -->
-  <MessageGoodwillChangedWithReason>{0} ile ilişkilerin değişerek {1} iken {2} oldu ({3}).</MessageGoodwillChangedWithReason>
-  <!-- EN: attacked {1_labelShort} -->
-  <GoodwillChangedReason_AttackedPawn>{1_labelShort} saldırıya uğradı</GoodwillChangedReason_AttackedPawn>
-  <!-- EN: used {ITEM_labelShort} on {TARGET_labelShort} -->
+  <MessageGoodwillChanged>{0} ile ilişkiler {1} değerinden {2} değerine değişti.</MessageGoodwillChanged>
+  <MessageGoodwillChangedWithReason>{0} ile ilişkiler {1} değerinden {2} değerine değişti ({3}).</MessageGoodwillChangedWithReason>
+  <GoodwillChangedReason_AttackedPawn>{1_labelShort} adlı kişiye saldırıldı</GoodwillChangedReason_AttackedPawn>
   <GoodwillChangedReason_UsedItem>{TARGET_labelShort} üzerinde {ITEM_labelShort} kullanıldı</GoodwillChangedReason_UsedItem>
-  <!-- EN: used {0} on {1} -->
   <GoodwillChangedReason_UsedAbility>{1} üzerinde {0} kullanıldı</GoodwillChangedReason_UsedAbility>
-  <!-- EN: harvested {0} -->
-  <GoodwillChangedReason_RemovedBodyPart>{0} alındı</GoodwillChangedReason_RemovedBodyPart>
-  <!-- EN: removed {0} -->
-  <GoodwillChangedReason_RemovedImplant> {0} alındı</GoodwillChangedReason_RemovedImplant>
-  <!-- EN: downgraded {0} -->
-  <GoodwillChangedReason_DowngradedImplant>{0} kalitesi azaltıldı</GoodwillChangedReason_DowngradedImplant>
-  <!-- EN: needlessly installed {0} -->
-  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>gereksiz yere {0} nakledildi</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
-  <!-- EN: captured {1_labelShort} -->
-  <GoodwillChangedReason_CapturedPawn>{1_labelShort} ele geçirildi</GoodwillChangedReason_CapturedPawn>
-  <!-- EN: {1_labelShort} crushed -->
+  <GoodwillChangedReason_RemovedBodyPart>alındı: {0}</GoodwillChangedReason_RemovedBodyPart>
+  <GoodwillChangedReason_RemovedImplant>çıkarıldı: {0}</GoodwillChangedReason_RemovedImplant>
+  <GoodwillChangedReason_DowngradedImplant>seviyesi düşürüldü: {0}</GoodwillChangedReason_DowngradedImplant>
+  <GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>gereksiz yere takıldı: {0}</GoodwillChangedReason_NeedlesslyInstalledWorseBodyPart>
+  <GoodwillChangedReason_CapturedPawn>{1_labelShort} esir alındı</GoodwillChangedReason_CapturedPawn>
   <GoodwillChangedReason_PawnCrushed>{1_labelShort} ezildi</GoodwillChangedReason_PawnCrushed>
-  <!-- EN: {1_labelShort} died -->
   <GoodwillChangedReason_PawnDied>{1_labelShort} öldü</GoodwillChangedReason_PawnDied>
-  <!-- EN: {0_labelShort} stripped -->
   <GoodwillChangedReason_PawnStripped>{0_labelShort} soyuldu</GoodwillChangedReason_PawnStripped>
-  <!-- EN: traded -->
   <GoodwillChangedReason_Traded>ticaret yapıldı</GoodwillChangedReason_Traded>
-  <!-- EN: attacked a caravan -->
   <GoodwillChangedReason_AttackedCaravan>bir kervana saldırıldı</GoodwillChangedReason_AttackedCaravan>
-  <!-- EN: {1_labelShort} exited the map healthy -->
   <GoodwillChangedReason_ExitedMapHealthy>{1_labelShort} haritadan sağlıklı ayrıldı</GoodwillChangedReason_ExitedMapHealthy>
-  <!-- EN: tended to {1_labelShort} -->
-  <GoodwillChangedReason_Tended>{1_labelShort} tedavi edildi</GoodwillChangedReason_Tended>
-  <!-- EN: received a gift -->
+  <GoodwillChangedReason_Tended>{1_labelShort} adlı kişiye pansuman yapıldı</GoodwillChangedReason_Tended>
   <GoodwillChangedReason_ReceivedGift>hediye alındı</GoodwillChangedReason_ReceivedGift>
-  <!-- EN: fulfilled a trade offer -->
-  <GoodwillChangedReason_FulfilledTradeRequest>ticari anlaşma yerine getirildi</GoodwillChangedReason_FulfilledTradeRequest>
-  <!-- EN: finished a quest -->
+  <GoodwillChangedReason_FulfilledTradeRequest>bir ticaret teklifi yerine getirildi</GoodwillChangedReason_FulfilledTradeRequest>
   <GoodwillChangedReason_FinishedQuest>bir görev tamamlandı</GoodwillChangedReason_FinishedQuest>
-  <!-- EN: {PAWN_labelShort} used {CULPRIT} -->
-  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort}, {CULPRIT} kullandı</GoodwillChangedReason_UsedForbiddenThing>
-  <!-- EN: sold {0_labelShort} -->
+  <GoodwillChangedReason_UsedForbiddenThing>{PAWN_labelShort} şunu kullandı: {CULPRIT}</GoodwillChangedReason_UsedForbiddenThing>
   <GoodwillChangedReason_SoldPawn>{0_labelShort} satıldı</GoodwillChangedReason_SoldPawn>
-  <!-- EN: euthanized {PAWN_labelShort} -->
-  <GoodwillChangedReason_EuthanizedPawn>{PAWN_labelShort} ötenazi yapıldı</GoodwillChangedReason_EuthanizedPawn>
-  <!-- EN: requested military aid -->
-  <GoodwillChangedReason_RequestedMilitaryAid>askerî yardım talep edildi</GoodwillChangedReason_RequestedMilitaryAid>
-  <!-- EN: requested trader caravan -->
-  <GoodwillChangedReason_RequestedTrader>ticaret kervanı talep edildi</GoodwillChangedReason_RequestedTrader>
-  <!-- EN: caused neuroquake echo -->
-  <GoodwillChangedReason_CausedNeuroquakeEcho>nörodeprem ekosuna neden olundu</GoodwillChangedReason_CausedNeuroquakeEcho>
-  <!-- EN: caused berserk on {PAWN_labelShort} -->
-  <GoodwillChangedReason_CausedBerserk>{PAWN_labelShort} çileden çıkarıldı</GoodwillChangedReason_CausedBerserk>
-  <!-- EN: attacked {0_name} -->
-  <GoodwillChangeReason_AttackedFaction>{0_name} saldırıya uğradı</GoodwillChangeReason_AttackedFaction>
-  <!-- EN: shuttle destroyed -->
-  <GoodwillChangeReason_ShuttleDestroyed>mekik imha edildi</GoodwillChangeReason_ShuttleDestroyed>
-  <!-- EN: civilians lost -->
+  <GoodwillChangedReason_EuthanizedPawn>{PAWN_labelShort} ötanazi ile öldürüldü</GoodwillChangedReason_EuthanizedPawn>
+  <GoodwillChangedReason_RequestedMilitaryAid>askerî yardım istendi</GoodwillChangedReason_RequestedMilitaryAid>
+  <GoodwillChangedReason_RequestedTrader>ticaret kervanı istendi</GoodwillChangedReason_RequestedTrader>
+  <GoodwillChangedReason_CausedNeuroquakeEcho>nöro-deprem yankısına yol açıldı</GoodwillChangedReason_CausedNeuroquakeEcho>
+  <GoodwillChangedReason_CausedBerserk>{PAWN_labelShort} adlı kişide cinnete yol açıldı</GoodwillChangedReason_CausedBerserk>
+  <GoodwillChangeReason_AttackedFaction>{0_name} hizbine saldırıldı</GoodwillChangeReason_AttackedFaction>
+  <GoodwillChangeReason_ShuttleDestroyed>mekik yok edildi</GoodwillChangeReason_ShuttleDestroyed>
   <GoodwillChangeReason_CiviliansLost>siviller kaybedildi</GoodwillChangeReason_CiviliansLost>
-  <!-- EN: commander lost -->
   <GoodwillChangeReason_CommanderLost>komutan kaybedildi</GoodwillChangeReason_CommanderLost>
 
-  <!-- EN: {0} accept your gift but they don't appreciate it. -->
-  <MessageGiftGivenButNotAppreciated>{0} hediyeni aldı ama bunu takdir etmedi.</MessageGiftGivenButNotAppreciated>
+  <MessageGiftGivenButNotAppreciated>{0} hediyeni kabul ediyor ama pek takdir etmiyor.</MessageGiftGivenButNotAppreciated>
 
-  <!-- EN: The caravan is already encumbered and can't carry anything else. -->
-  <MessageCantGiveGiftBecauseCantCarryEncumbered>Kervan zaten aşırı yüklendi ve başka bir şey taşıyamaz.</MessageCantGiveGiftBecauseCantCarryEncumbered>
-  <!-- EN: The caravan can't carry that much. The gifts weigh {0} but the caravan can only carry {1} more. -->
-  <MessageCantGiveGiftBecauseCantCarry>Kervan bu kadar ağırlık taşıyamaz. Hediyelerin ağırlığı {0} ancak kervan yalnızca {1} daha taşıyabilir.</MessageCantGiveGiftBecauseCantCarry>
+  <MessageCantGiveGiftBecauseCantCarryEncumbered>Kervan zaten aşırı yüklü ve başka bir şey taşıyamaz.</MessageCantGiveGiftBecauseCantCarryEncumbered>
+  <MessageCantGiveGiftBecauseCantCarry>Kervan bu kadarını taşıyamaz. Hediyeler {0} ağırlığında, ama kervan yalnızca {1} daha taşıyabilir.</MessageCantGiveGiftBecauseCantCarry>
 
-  <!-- EN: {0} has formed and is now traveling on the world map. -->
-  <MessageFormedCaravan>{0} kuruldu ve şimdi dünya haritası üzerinde seyahat ediyor.</MessageFormedCaravan>
-  <!-- EN: Orders -->
-  <MessageFormedCaravan_Orders>Komutlar</MessageFormedCaravan_Orders>
+  <MessageFormedCaravan>{0} oluşturuldu ve şimdi dünya haritasında yolculuk ediyor.</MessageFormedCaravan>
+  <MessageFormedCaravan_Orders>Emirler</MessageFormedCaravan_Orders>
 
-  <!-- EN: {1}'s "{0}" can no longer deliver to deleted stockpile {2}. -->
-  <MessageBillValidationStoreZoneDeleted>{1}'in "{0}" öğesi artık silinen '{2}' depolama alanına gönderilemiyor.</MessageBillValidationStoreZoneDeleted>
-  <!-- EN: {1}'s "{0}" can no longer deliver to unavailable stockpile {2}. -->
-  <MessageBillValidationStoreZoneUnavailable>{1}'in "{0}" öğesi artık kullanılamayan '{2}' depolama alanına teslimat yapamaz.</MessageBillValidationStoreZoneUnavailable>
-  <!-- EN: {0} can no longer work on "{1}" at {2}. The restriction has been removed. -->
-  <MessageBillValidationPawnUnavailable>{0} artık {2} konumunda "{1}" üzerine çalışamaz. Kısıtlama kaldırıldı.</MessageBillValidationPawnUnavailable>
-  <!-- EN: {1}'s "{0}" can no longer count items in deleted stockpile {2}. -->
-  <MessageBillValidationIncludeZoneDeleted>{1}s "{0}" artık silinen '{2}' depolama alanındaki öğeleri sayamaz.</MessageBillValidationIncludeZoneDeleted>
-  <!-- EN: {1}'s "{0}" can no longer count items in deleted building {2}. -->
-  <MessageBillValidationIncludeBuildingDeleted>{1}'in "{0}" öğesi artık silinen '{2}' binasındaki öğeleri sayamaz.</MessageBillValidationIncludeBuildingDeleted>
-  <!-- EN: {1}'s "{0}" can no longer count items in deleted storage group {2}. -->
-  <MessageBillValidationIncludeStorageGroupDeleted>{1}'in "{0}" öğesi artık silinen '{2}' depolama grubundaki öğeleri sayamaz.</MessageBillValidationIncludeStorageGroupDeleted>
-  <!-- EN: {1}'s "{0}" can no longer count items in unavailable stockpile {2}. -->
-  <MessageBillValidationIncludeZoneUnavailable>{1}'in "{0}" öğesi artık kullanılamayan '{2}' depolama alanındaki öğeleri sayamaz.</MessageBillValidationIncludeZoneUnavailable>
-  <!-- EN: {1}'s "{0}" can no longer deliver all products to stockpile {2}. -->
-  <MessageBillValidationStoreZoneInsufficient>{1}'in "{0}" öğesi artık '{2}' depolama alanındaki öğeleri teslim edemez.</MessageBillValidationStoreZoneInsufficient>
+  <MessageBillValidationStoreZoneDeleted>{1} - "{0}" artık silinmiş depo alanı {2} konumuna teslim edemez.</MessageBillValidationStoreZoneDeleted>
+  <MessageBillValidationStoreZoneUnavailable>{1} - "{0}" artık kullanılamayan depo alanı {2} konumuna teslim edemez.</MessageBillValidationStoreZoneUnavailable>
+  <MessageBillValidationPawnUnavailable>{0} artık {2} üzerinde "{1}" için çalışamaz. Kısıtlama kaldırıldı.</MessageBillValidationPawnUnavailable>
+  <MessageBillValidationIncludeZoneDeleted>{1} - "{0}" artık silinmiş depo alanı {2} içindeki eşyaları sayamaz.</MessageBillValidationIncludeZoneDeleted>
+  <MessageBillValidationIncludeBuildingDeleted>{1} - "{0}" artık silinmiş bina {2} içindeki eşyaları sayamaz.</MessageBillValidationIncludeBuildingDeleted>
+  <MessageBillValidationIncludeStorageGroupDeleted>{1} - "{0}" artık silinmiş depolama grubu {2} içindeki eşyaları sayamaz.</MessageBillValidationIncludeStorageGroupDeleted>
+  <MessageBillValidationIncludeZoneUnavailable>{1} - "{0}" artık kullanılamayan depo alanı {2} içindeki eşyaları sayamaz.</MessageBillValidationIncludeZoneUnavailable>
+  <MessageBillValidationStoreZoneInsufficient>{1} - "{0}" artık tüm ürünleri depo alanı {2} konumuna teslim edemez.</MessageBillValidationStoreZoneInsufficient>
 
-  <!-- EN: Because of a lack of taming maintenance, {1_labelShort} has returned to the wild. -->
-  <MessageAnimalReturnedWild>Yeterli sıklıkta terbiye edilmediği için {1_labelShort} yabana geri döndü.</MessageAnimalReturnedWild>
-  <!-- EN: {1_labelShort} has been returned to the wild. -->
-  <MessageAnimalReturnedWildReleased>{1_labelShort}, vahşi doğaya döndürüldü.</MessageAnimalReturnedWildReleased>
-  <!-- EN: Due to a lack of maintenance training, {ANIMAL_labelShort} has lost a skill: {1} -->
-  <MessageAnimalLostSkill>Yeterli sıklıkta eğitim verilmediği için {ANIMAL_labelShort} bir becerisini kaybetti: {1}</MessageAnimalLostSkill>
+  <MessageAnimalReturnedWild>Evcilleştirme bakımı yapılmadığı için {1_labelShort} yeniden vahşileşti.</MessageAnimalReturnedWild>
+  <MessageAnimalReturnedWildReleased>{1_labelShort} doğaya salındı.</MessageAnimalReturnedWildReleased>
+  <MessageAnimalLostSkill>Bakım eğitimi yapılmadığı için {ANIMAL_labelShort} bir beceri kaybetti: {1}</MessageAnimalLostSkill>
 
-  <!-- EN: Translation report written to {0} -->
   <MessageTranslationReportSaved>Çeviri raporu şuraya yazıldı: {0}</MessageTranslationReportSaved>
 
-  <!-- EN: {0} couldn't reach its destination. -->
   <MessageCaravanArrivalActionNoLongerValid>{0} varış noktasına ulaşamadı.</MessageCaravanArrivalActionNoLongerValid>
 
-  <!-- EN: Too dangerous to re-enter for {0}. -->
-  <MessageEnterCooldownBlocksEntering>{0} boyunca tekrar girilemez.</MessageEnterCooldownBlocksEntering>
+  <MessageEnterCooldownBlocksEntering>{0} boyunca yeniden girmek çok tehlikeli.</MessageEnterCooldownBlocksEntering>
 
-  <!-- EN: {0_labelShort} can now freely use "{1}". -->
-  <MessagePermitCooldownFinished>{0_labelShort} artık özgürce "{1}" iznini kullanabilir.</MessagePermitCooldownFinished>
+  <MessagePermitCooldownFinished>{0_labelShort} artık "{1}" yetkisini serbestçe kullanabilir.</MessagePermitCooldownFinished>
 
-  <!-- EN: {PREDATOR} is hunting {PREY_definite} ({PREY_kindBase}) for food! -->
-  <MessagePredatorHuntingPlayerAnimal>{PREY_definite} ({PREY_kindBase}), {PREDATOR} tarafından yiyecek için avlanıyor!</MessagePredatorHuntingPlayerAnimal>
+  <MessagePredatorHuntingPlayerAnimal>{PREDATOR}, yemek için {PREY_definite} ({PREY_kindBase}) peşinde!</MessagePredatorHuntingPlayerAnimal>
 
-  <!-- EN: Prisoner {PRISONER_labelShort}'s resistance has been broken by {WARDEN_labelShort}. -->
-  <MessagePrisonerResistanceBroken>{PRISONER_labelShort} adlı mahkûmun direnci {WARDEN_labelShort} tarafından kırıldı.</MessagePrisonerResistanceBroken>
-  <!-- EN: Recruitment attempts will begin. -->
-  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Koloniye katma denemeleri başlayacak.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerResistanceBroken>Mahkûm {PRISONER_labelShort} adlı kişinin direnci {WARDEN_labelShort} tarafından kırıldı.</MessagePrisonerResistanceBroken>
+  <MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>Devşirme girişimleri başlayacak.</MessagePrisonerResistanceBroken_RecruitAttempsWillBegin>
 
-  <!-- EN: Another mod with the package ID {0} is already active. Deactivate {1} before trying to activate this. -->
-  <MessageModWithPackageIdAlreadyEnabled>{0} paket kimliğine sahip başka bir mod zaten etkin. Bunu etkinleştirmeye çalışmadan önce {1} öğesini devre dışı bırak.</MessageModWithPackageIdAlreadyEnabled>
-  <!-- EN: Disable all mods before using this tool. -->
+  <MessageModWithPackageIdAlreadyEnabled>{0} paket kimliğine sahip başka bir mod zaten etkin. Bunu etkinleştirmeden önce {1} modunu devre dışı bırak.</MessageModWithPackageIdAlreadyEnabled>
   <MessageDisableModsBeforeCleaningTranslationFiles>Bu aracı kullanmadan önce tüm modları devre dışı bırak.</MessageDisableModsBeforeCleaningTranslationFiles>
-  <!-- EN: Unpack and then delete all compressed translation files for this language before using this tool. -->
-  <MessageUnpackBeforeCleaningTranslationFiles>Bu aracı kullanmadan önce bu dil için tüm sıkıştırılmış çeviri dosyalarını paketinden çıkar ve sil.</MessageUnpackBeforeCleaningTranslationFiles>
-  <!-- EN: Done. Affected folders: {0} -->
-  <MessageTranslationFilesCleanupDone>Bitti. Etkilenen klasörler: {0}</MessageTranslationFilesCleanupDone>
+  <MessageUnpackBeforeCleaningTranslationFiles>Bu aracı kullanmadan önce bu dile ait tüm sıkıştırılmış çeviri dosyalarını aç ve ardından sil.</MessageUnpackBeforeCleaningTranslationFiles>
+  <MessageTranslationFilesCleanupDone>Tamamlandı. Etkilenen klasörler: {0}</MessageTranslationFilesCleanupDone>
 
-  <!-- EN: One of the translation files ({0}) couldn't be loaded. All XML parsing errors must be resolved first. -->
-  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Çeviri dosyalarından biri ({0}) yüklenemedi. Önce tüm XML parsing hataları çözülmeli.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
+  <MessageCantCleanupTranslationFilesBeucaseOfXmlError>Çeviri dosyalarından biri ({0}) yüklenemedi. Önce tüm XML ayrıştırma hataları çözülmeli.</MessageCantCleanupTranslationFilesBeucaseOfXmlError>
 
-  <!-- EN: Warning: Capturing {PAWN_nameDef} will anger {PAWN_possessive} faction {PAWN_factionName}. -->
-  <MessageCapturingWillAngerFaction>Uyarı: {PAWN_nameDef} kişisini ele geçirmek {PAWN_factionName} fraksiyonunu kızdıracak.</MessageCapturingWillAngerFaction>
+  <MessageCapturingWillAngerFaction>Uyarı: {PAWN_nameDef} adlı kişiyi esir almak {PAWN_factionName} hizbini kızdıracak.</MessageCapturingWillAngerFaction>
 
-  <!-- EN: Warning: Stripping {PAWN_nameDef} will anger {PAWN_factionName}. -->
-  <MessageStrippingWillAngerFaction>Uyarı: {PAWN_nameDef} kişisinin soyulması {PAWN_factionName} fraksiyonunu kızdıracak.</MessageStrippingWillAngerFaction>
+  <MessageStrippingWillAngerFaction>Uyarı: {PAWN_nameDef} adlı kişiyi soymak {PAWN_factionName} hizbini kızdıracak.</MessageStrippingWillAngerFaction>
 
-  <!-- EN: Cannot shoot in melee. -->
-  <MessageCantShootInMelee>Yakın dövüşteyken ateş edemez.</MessageCantShootInMelee>
+  <MessageCantShootInMelee>Yakın dövüşte ateş edilemez.</MessageCantShootInMelee>
 
-  <!-- EN: None of your {0} can accept this quest now. -->
-  <MessageNoColonistCanAcceptQuest>Hiçbir {0} şu anda bu görevi kabul edemez.</MessageNoColonistCanAcceptQuest>
-  <!-- EN: Cannot accept this quest. -->
+  <MessageNoColonistCanAcceptQuest>{0} arasında şu anda bu görevi kabul edebilecek kimse yok.</MessageNoColonistCanAcceptQuest>
   <MessageCannotAcceptQuest>Bu görev kabul edilemez.</MessageCannotAcceptQuest>
-  <!-- EN: {0_definite} has accepted a quest: {1} -->
   <MessageQuestAccepted>{0_definite} bir görevi kabul etti: {1}</MessageQuestAccepted>
-  <!-- EN: {0} is leaving. -->
   <MessagePawnLeaving>{0} ayrılıyor.</MessagePawnLeaving>
-  <!-- EN: {0} are leaving. -->
   <MessagePawnsLeaving>{0} ayrılıyor.</MessagePawnsLeaving>
 
-  <!-- EN: The monument has been destroyed because you've built a disallowed building inside. -->
-  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>Anıt yıkıldı çünkü içine izin verilmeyen bir şey inşa ettin.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
+  <MessageMonumentDestroyedBecauseOfDisallowedBuilding>İçine izin verilmeyen bir bina inşa ettiğin için anıt yıkıldı.</MessageMonumentDestroyedBecauseOfDisallowedBuilding>
 
-  <!-- EN: Cannot apply: No reachable, un-reserved research bench available. -->
-  <MessageNoResearchBenchForTechprint>Uygulanamıyor: Ulaşılabilir, boşta araştırma masası yok.</MessageNoResearchBenchForTechprint>
+  <MessageNoResearchBenchForTechprint>Uygulanamaz: Ulaşılabilir, ayrılmamış araştırma tezgâhı yok.</MessageNoResearchBenchForTechprint>
 
-  <!-- EN: No valid destination found for {0} -->
-  <NoValidDestinationFound>{0} için geçerli bir istikamet bulunamadı</NoValidDestinationFound>
+  <NoValidDestinationFound>{0} için geçerli hedef bulunamadı</NoValidDestinationFound>
 
-  <!-- EN: An extracted tree just died. -->
   <MessageMinifiedTreeDied>Sökülmüş bir ağaç az önce öldü.</MessageMinifiedTreeDied>
-  
+
   <!-- Research -->
-  <!-- EN: Warning: Research will not begin until you build a research bench. -->
-  <MessageResearchMenuWithoutBench>Uyarı: Bir araştırma masası kurana kadar araştırma başlamaz.</MessageResearchMenuWithoutBench>
+  <MessageResearchMenuWithoutBench>Uyarı: Bir araştırma tezgâhı inşa edene kadar araştırma başlamayacak.</MessageResearchMenuWithoutBench>
 
-  <!-- EN: {0_indefinite} has triggered a proximity activator. -->
-  <MessageActivatorProximityTriggered>Bir yakınlık aktivatörü tetiklendi.</MessageActivatorProximityTriggered>
+  <MessageActivatorProximityTriggered>Bir {0_indefinite} yakınlık tetikleyicisini harekete geçirdi.</MessageActivatorProximityTriggered>
 
-  <!-- EN: {0_label} is currently hidden. -->
   <MessageCannotSelectInvisibleStat>{0_label} şu anda gizli.</MessageCannotSelectInvisibleStat>
 
-  <!-- EN: {PAWN_nameDef} is a prisoner -->
   <MessagePrisonerCannotEquipWeapon>{PAWN_nameDef} bir mahkûm</MessagePrisonerCannotEquipWeapon>
 
-  <!-- EN: Warning: {0_nameDef}'s beliefs oppose {1} work. {0_pronoun} may become unhappy. -->
-  <MessageIdeoOpposedWorkTypeSelected>Uyarı: {0_nameDef} kişisinin inancı {1} işine karşı çıkıyor. Bu sebeple mutsuz olabilir.</MessageIdeoOpposedWorkTypeSelected>
+  <MessageIdeoOpposedWorkTypeSelected>Uyarı: {0_nameDef} adlı kişinin inançları {1} işine karşı. Mutsuz olabilir.</MessageIdeoOpposedWorkTypeSelected>
 
-  <!-- EN: {0} is no longer assigned to {1_nameDef}. -->
-  <MessageBedLostAssignment>{0} artık {1_nameDef} kişisine atanmış değil.</MessageBedLostAssignment>
-  <!-- EN: {0} assigned to {1_nameDef} was destroyed. -->
-  <MessageBedDestroyed>{1_nameDef} kişisine atanan {0} yok edildi.</MessageBedDestroyed>
+  <MessageBedLostAssignment>{0} artık {1_nameDef} adlı kişiye atanmış değil.</MessageBedLostAssignment>
+  <MessageBedDestroyed>{1_nameDef} adlı kişiye atanmış {0} yok edildi.</MessageBedDestroyed>
 
   <!-- Lord jobs -->
-  <!-- EN: You need {0_indefinite}. -->
-  <MessageLordJobNeedsAtLeastOneRolePawn>{0_indefinite} gerekli.</MessageLordJobNeedsAtLeastOneRolePawn>
-  <!-- EN: You need at least {1} {0}. -->
+  <MessageLordJobNeedsAtLeastOneRolePawn>Bir {0_indefinite} gerekli.</MessageLordJobNeedsAtLeastOneRolePawn>
   <MessageLordJobNeedsAtLeastNumRolePawn>En az {1} {0} gerekli.</MessageLordJobNeedsAtLeastNumRolePawn>
 
   <!-- Rituals -->
-  <!-- EN: spectate -->
   <Spectate>izle</Spectate>
-  <!-- EN: Assign to {0} -->
-  <AssignToRole>{0} rolüne ata</AssignToRole>
-  <!-- EN: {0} has begun. -->
+  <AssignToRole>Şu role ata: {0}</AssignToRole>
   <RitualBegun>{0} başladı.</RitualBegun>
-  <!-- EN: The maximum number of {0}s is {1}. -->
-  <MaxPawnsPerRole>Maksimum {0} sayısı {1}.</MaxPawnsPerRole>
-  <!-- EN: Role of {0} is locked. -->
+  <MaxPawnsPerRole>Azami {0} sayısı {1}.</MaxPawnsPerRole>
   <RoleIsLocked>{0} rolü kilitli.</RoleIsLocked>
-  <!-- EN: You need at least one participant. -->
   <MessageRitualNeedsAtLeastOnePerson>En az bir katılımcı gerekli.</MessageRitualNeedsAtLeastOnePerson>
-  <!-- EN: You need at least one spectator. -->
   <MessageRitualNeedsAtLeastOneSpectator>En az bir izleyici gerekli.</MessageRitualNeedsAtLeastOneSpectator>
-  <!-- EN: {0_labelShort} is downed. -->
-  <MessageRitualPawnDowned>{0_labelShort} etkisiz hâlde.</MessageRitualPawnDowned>
-  <!-- EN: {0_labelShort} is currently escaping. -->
+  <MessageRitualPawnDowned>{0_labelShort} yere düşmüş.</MessageRitualPawnDowned>
   <MessageRitualPawnPrisonerNotSecured>{0_labelShort} şu anda kaçıyor.</MessageRitualPawnPrisonerNotSecured>
-  <!-- EN: {0_labelShort} is currently rebelling. -->
   <MessageRitualPawnSlaveNotSecured>{0_labelShort} şu anda isyan ediyor.</MessageRitualPawnSlaveNotSecured>
-  <!-- EN: {0_labelShort} is being released. -->
   <MessageRitualPawnReleased>{0_labelShort} serbest bırakılıyor.</MessageRitualPawnReleased>
-  <!-- EN: {0_labelShort} is injured. -->
-  <MessageRitualPawnInjured>{0_labelShort} yaralandı.</MessageRitualPawnInjured>
-  <!-- EN: {0_labelShort} must hold one of these roles -->
+  <MessageRitualPawnInjured>{0_labelShort} yaralı.</MessageRitualPawnInjured>
   <MessageRitualRoleRequired>{0_labelShort} şu rollerden birine sahip olmalı</MessageRitualRoleRequired>
-  <!-- EN: {0} must be a prisoner. -->
   <MessageRitualRoleMustBePrisoner>{0} bir mahkûm olmalı.</MessageRitualRoleMustBePrisoner>
-  <!-- EN: {0} must be an animal. -->
   <MessageRitualRoleMustBeAnimal>{0} bir hayvan olmalı.</MessageRitualRoleMustBeAnimal>
-  <!-- EN: {0} must be a human. -->
   <MessageRitualRoleMustBeHumanlike>{0} bir insan olmalı.</MessageRitualRoleMustBeHumanlike>
-  <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeABaby>{0} bir bebek olamaz.</MessageRitualRoleCannotBeABaby>
-  <!-- EN: No roles available for {0_labelShort}. -->
-  <MessageRitualNoRolesAvailable>{0_labelShort} için uygun rol yok.</MessageRitualNoRolesAvailable>
-  <!-- EN: {0_labelShort} is not a member of any colony ideoligion. -->
-  <MessageRitualNotOfPlayerIdeo>{0_labelShort} herhangi bir koloni ideodinine mensup değil.</MessageRitualNotOfPlayerIdeo>
-  <!-- EN: {0} must have eyes -->
+  <MessageRitualNoRolesAvailable>{0_labelShort} için müsait rol yok.</MessageRitualNoRolesAvailable>
+  <MessageRitualNotOfPlayerIdeo>{0_labelShort} hiçbir koloni ideodininin üyesi değil.</MessageRitualNotOfPlayerIdeo>
   <MessageRitualRoleMustHaveEyes>{0} gözlere sahip olmalı</MessageRitualRoleMustHaveEyes>
-  <!-- EN: {0_labelShort} does not require further scarification. -->
-  <MessageRitualRoleMustRequireScarification>{0_labelShort} daha fazla burhan gerektirmez.</MessageRitualRoleMustRequireScarification>
-  <!-- EN: {0_labelShort} does not require blinding. -->
-  <MessageRitualRoleMustRequireBlinding>{0_labelShort} için göz dağlama gerekmez.</MessageRitualRoleMustRequireBlinding>
-  <!-- EN: {0} must be a prisoner or slave. -->
-  <MessageRitualRoleMustBePrisonerOrSlave>{0} bir mahkûm veya köle olmalı.</MessageRitualRoleMustBePrisonerOrSlave>
-  <!-- EN: {0_labelShort} must be capable of fighting. -->
-  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} savaşma becerisine sahip olmalı.</MessageRitualRoleMustBeCapableOfFighting>
-  <!-- EN: this role cannot be played by someone else. -->
-  <MessageRitualRoleCannotReplaceRequiredPawn>bu rol başkası tarafından alınamaz.</MessageRitualRoleCannotReplaceRequiredPawn>
-  <!-- EN: {0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn. -->
-  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} rabıtası yakın zamanda koptuğu için bir Gauranlen ağacına bağlanamıyor.</MessageRitualRolePawnRecentlyTornConnection>
-  <!-- EN: {0_labelShort} has the same ideoligion as the converter. -->
-  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} tebdilci ile aynı ideodine mensup.</MessageRitualRolePawnHasSameIdeo>
-  <!-- EN: {0_labelShort} must be capable of wardening. -->
-  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} gardiyanlık yapabilmeli.</MessageRitualRoleMustBeCapableOfWardening>
-  <!-- EN: {0} must be capable of {1}. -->
-  <MessageRitualRoleMustBeCapableOfGeneric>{0} {1} becerisine sahip olmalı.</MessageRitualRoleMustBeCapableOfGeneric>
-  <!-- EN: {0} must be capable of violence. -->
-  <MessageRitualRoleMustBeCapableOfViolence>{0} şiddet uygulayabilmeli.</MessageRitualRoleMustBeCapableOfViolence>
-  <!-- EN: prisoners cannot {0}. -->
-  <MessageRitualRoleMustNotBePrisonerToSpectate>mahkûmlar {0} yapamaz.</MessageRitualRoleMustNotBePrisonerToSpectate>
-  <!-- EN: only {0} can {1}. -->
-  <MessageRitualRoleMustHaveIdeoToSpectate>yalnızca {0} {1} yapabilir.</MessageRitualRoleMustHaveIdeoToSpectate>
-  <!-- EN: only {0} can fill the role of {1}. -->
-  <MessageRitualRoleMustHaveIdeoToDoRole>{1} rolünü yalnızca {0} doldurabilir.</MessageRitualRoleMustHaveIdeoToDoRole>
-  <!-- EN: must be colonist for the {0} role. -->
-  <MessageRitualRoleMustBeColonist>{0} rolündeki kişi bir kolonici olmalı.</MessageRitualRoleMustBeColonist>
-  <!-- EN: must not be a prisoner for the {0} role. -->
-  <MessageRitualRoleMustBeFree>{0} rolündeki kişi bir mahkûm olmamalı.</MessageRitualRoleMustBeFree>
-  <!-- EN: {0_labelShort} won't attend due to extreme temperature in the ritual area. -->
-  <MessageRitualWontAttendExtremeTemperature>{0_labelShort} ritüel alanındaki aşırı sıcaklık nedeniyle katılmayacak.</MessageRitualWontAttendExtremeTemperature>
-  <!-- EN: must be colonist and not enslaved for the {0} role. -->
-  <MessageRitualRoleMustBeFreeColonist>{0} rolü için kolonici olmalı ve köleleştirilmemeli.</MessageRitualRoleMustBeFreeColonist>
-  <!-- EN: {0} must have an animal with min body size of {1}. -->
-  <MessageRitualRoleMustHaveLargerBodySize>{0} minimum vücut boyutu {1} olan bir hayvana sahip olmalı.</MessageRitualRoleMustHaveLargerBodySize>
-  <!-- EN: {0_labelShort} is in a mental state. -->
-  <MessageRitualPawnMentalState>{0_labelShort} ruhsal çöküş yaşıyor.</MessageRitualPawnMentalState>
-  <!-- EN: {0_labelShort} is already {1}. -->
+  <MessageRitualRoleMustRequireScarification>{0_labelShort} için daha fazla yara izi açmak gerekmiyor.</MessageRitualRoleMustRequireScarification>
+  <MessageRitualRoleMustRequireBlinding>{0_labelShort} için körleştirme gerekmiyor.</MessageRitualRoleMustRequireBlinding>
+  <MessageRitualRoleMustBePrisonerOrSlave>{0} bir mahkûm ya da köle olmalı.</MessageRitualRoleMustBePrisonerOrSlave>
+  <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} savaşabilir olmalı.</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleCannotReplaceRequiredPawn>bu rol başka biri tarafından üstlenilemez.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} bir gauranlen ağacıyla bağ kuramaz, çünkü bağı yakın zamanda koparıldı.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort}, ideodinine geçirmeye çalışan kişiyle aynı ideodine sahip.</MessageRitualRolePawnHasSameIdeo>
+  <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} gardiyanlık yapabilir olmalı.</MessageRitualRoleMustBeCapableOfWardening>
+  <MessageRitualRoleMustBeCapableOfGeneric>{0} şunu yapabilir olmalı: {1}.</MessageRitualRoleMustBeCapableOfGeneric>
+  <MessageRitualRoleMustBeCapableOfViolence>{0} şiddete başvurabilir olmalı.</MessageRitualRoleMustBeCapableOfViolence>
+  <MessageRitualRoleMustNotBePrisonerToSpectate>mahkûmlar şunu yapamaz: {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
+  <MessageRitualRoleMustHaveIdeoToSpectate>yalnızca {0} şunu yapabilir: {1}.</MessageRitualRoleMustHaveIdeoToSpectate>
+  <MessageRitualRoleMustHaveIdeoToDoRole>{1} rolünü yalnızca {0} üstlenebilir.</MessageRitualRoleMustHaveIdeoToDoRole>
+  <MessageRitualRoleMustBeColonist>{0} rolü için kolonist olmalı.</MessageRitualRoleMustBeColonist>
+  <MessageRitualRoleMustBeFree>{0} rolü için mahkûm olmamalı.</MessageRitualRoleMustBeFree>
+  <MessageRitualWontAttendExtremeTemperature>{0_labelShort}, ritüel alanındaki aşırı sıcaklık yüzünden katılmayacak.</MessageRitualWontAttendExtremeTemperature>
+  <MessageRitualRoleMustBeFreeColonist>{0} rolü için köle olmayan bir kolonist olmalı.</MessageRitualRoleMustBeFreeColonist>
+  <MessageRitualRoleMustHaveLargerBodySize>{0} için vücut büyüklüğü en az {1} olan bir hayvan olmalı.</MessageRitualRoleMustHaveLargerBodySize>
+  <MessageRitualPawnMentalState>{0_labelShort} zihinsel bir durumda.</MessageRitualPawnMentalState>
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} zaten {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
-  <!-- EN: {0_labelShort} cannot take any other role than spectator. -->
-  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} izleyiciden başka bir rol üstlenemez.</MessageRitualCannotAssignAnyRoleFromSpectating>
-  <!-- EN: {0} cannot be an imprisoned wild man/woman. -->
-  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} hapsedilmiş bir vahşi erkek/kadın olamaz.</MessageRitualRoleMustNotBeImprisonedWildMan>
-  <!-- EN: {0} must be free. -->
+  <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} izleyici dışında hiçbir rol alamaz.</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} hapsedilmiş bir vahşi insan olamaz.</MessageRitualRoleMustNotBeImprisonedWildMan>
   <MessageRitualRoleMustNotBeImprisoned>{0} özgür olmalı.</MessageRitualRoleMustNotBeImprisoned>
-  <!-- EN: {0} cannot be a child. -->
   <MessageRitualRoleCannotBeChild>{0} bir çocuk olamaz.</MessageRitualRoleCannotBeChild>
-  <!-- EN: {0} cannot be a baby. -->
   <MessageRitualRoleCannotBeBaby>{0} bir bebek olamaz.</MessageRitualRoleCannotBeBaby>
-  <!-- EN: {0} is busy. -->
   <MessageRitualRoleBusy>{0} meşgul.</MessageRitualRoleBusy>
 
-  <!-- EN: You must select a site to continue. -->
   <MessagePlayerMustSelectTile>Devam etmek için bir konum seçmelisin.</MessagePlayerMustSelectTile>
 
-  <!-- EN: Cannot plant {0_labelShort} -->
-  <CannotPlantThing>{0_labelShort} ekilemez</CannotPlantThing>
-  <!-- EN: Need more fertile terrain. -->
-  <MessageWarningNotEnoughFertility>Daha verimli arazi gerekiyor.</MessageWarningNotEnoughFertility>
-  <!-- EN: Temperature too extreme. -->
-  <CannotPlantExtremeTemp>Sıcaklık aşırı durumda.</CannotPlantExtremeTemp>
-  <!-- EN: Plants cannot grow on this terrain. -->
-  <CannotPlantMissingTerrainTag>Bitkiler bu arazide büyüyemez.</CannotPlantMissingTerrainTag>
-  <!-- EN: blocked by {0_label}. -->
-  <BlockedBy>{0_label} tarafından engellendi</BlockedBy>
-  <!-- EN: Cannot be planted next to {0_label}. -->
-  <AdjacentSowBlocker>{0_label} yanına ekilemez.</AdjacentSowBlocker>
-  <!-- EN: Too close to {0_label}. -->
-  <TooCloseToOtherPlant> {0_label} ile çok yakın</TooCloseToOtherPlant>
-  <!-- EN: Too close to {0}'s planting location. -->
-  <TooCloseToOtherSeedPlantCell>{0_label} ürününün ekim yerine çok yakın.</TooCloseToOtherSeedPlantCell>
-  <!-- EN: Cannot be placed on {0}. -->
-  <MessageCannotBePlacedOn>{0} üzerine yerleştirilemez.</MessageCannotBePlacedOn>
+  <CannotPlantThing>Dikilemez: {0_labelShort}</CannotPlantThing>
+  <MessageWarningNotEnoughFertility>Daha verimli bir zemin gerekli.</MessageWarningNotEnoughFertility>
+  <CannotPlantExtremeTemp>Sıcaklık çok aşırı.</CannotPlantExtremeTemp>
+  <CannotPlantMissingTerrainTag>Bitkiler bu zeminde büyüyemez.</CannotPlantMissingTerrainTag>
+  <BlockedBy>şunun tarafından engellendi: {0_label}.</BlockedBy>
+  <AdjacentSowBlocker>Şunun yanına dikilemez: {0_label}.</AdjacentSowBlocker>
+  <TooCloseToOtherPlant>Şuna çok yakın: {0_label}.</TooCloseToOtherPlant>
+  <TooCloseToOtherSeedPlantCell>{0} için dikim konumuna çok yakın.</TooCloseToOtherSeedPlantCell>
+  <MessageCannotBePlacedOn>Şunun üzerine yerleştirilemez: {0}.</MessageCannotBePlacedOn>
 
-  <!-- EN: Warning: {0} has been marked for cutting. -->
-  <MessageWarningCutImportantPlant>Uyarı: {0} kesim için işaretlendi.</MessageWarningCutImportantPlant>
+  <MessageWarningCutImportantPlant>Uyarı: {0} kesilmek üzere işaretlendi.</MessageWarningCutImportantPlant>
 
-  <!-- EN: {0_labelShort} is incapable of manipulation. -->
-  <MessageIncapableOfManipulation>{0_labelShort} manipülasyon yapamaz.</MessageIncapableOfManipulation>
+  <MessageIncapableOfManipulation>{0_labelShort} el becerisi gerektiren işleri yapamaz.</MessageIncapableOfManipulation>
 
-  <!-- EN: {0_labelShort} activation canceled -->
-  <MessageActivationCanceled>{0_labelShort} etkinleştirme iptal edildi</MessageActivationCanceled>
+  <MessageActivationCanceled>{0_labelShort} etkinleştirmesi iptal edildi</MessageActivationCanceled>
 
-  <!-- EN: Nothing is currently buildable in category -->
-  <NothingAvailableInCategory>Kategorideki hiçbir şey şu anda yapılabilir değil</NothingAvailableInCategory>
+  <NothingAvailableInCategory>Bu kategoride şu anda inşa edilebilecek bir şey yok</NothingAvailableInCategory>
 
-  <!-- EN: Storage settings linked for {0} buildings. -->
-  <SettingsLinkedFor>{0} yapı için depolama ayarları bağlandı.</SettingsLinkedFor>
-  <!-- EN: Storage settings linked for 1 building. -->
-  <SettingsLinkedForSingular>1 yapı için depolama ayarları bağlandı</SettingsLinkedForSingular>
-  <!-- EN: Storage settings unlinked for {0} buildings. -->
-  <SettingsUnlinkedFor>{0} yapı için depolama ayarlarının bağlantısı kaldırıldı.</SettingsUnlinkedFor>
-  <!-- EN: Storage settings unlinked for 1 building. -->
-  <SettingsUnlinkedForSingular>1 yapı için depolama ayarlarının bağlantısı kaldırıldı.</SettingsUnlinkedForSingular>
-  <!-- EN: Storage settings copied to clipboard. -->
+  <SettingsLinkedFor>{0} bina için depolama ayarları bağlandı.</SettingsLinkedFor>
+  <SettingsLinkedForSingular>1 bina için depolama ayarları bağlandı.</SettingsLinkedForSingular>
+  <SettingsUnlinkedFor>{0} bina için depolama ayarlarının bağı koparıldı.</SettingsUnlinkedFor>
+  <SettingsUnlinkedForSingular>1 bina için depolama ayarlarının bağı koparıldı.</SettingsUnlinkedForSingular>
   <StorageSettingsCopiedToClipboard>Depolama ayarları panoya kopyalandı.</StorageSettingsCopiedToClipboard>
-  <!-- EN: Storage settings pasted from clipboard. -->
   <StorageSettingsPastedFromClipboard>Depolama ayarları panodan yapıştırıldı.</StorageSettingsPastedFromClipboard>
-  
-  <!-- EN: {0_label} requires adjacent walls to function. -->
-  <MessageBuildingRequiresAdjacentWalls>{0_label} işlevini yerine getirebilmek için bitişiğinde duvarlara ihtiyaç duyar.</MessageBuildingRequiresAdjacentWalls>
 
-  <!-- EN: Cannot skip: Refugee -->
+  <MessageBuildingRequiresAdjacentWalls>{0_label} çalışmak için bitişik duvarlara ihtiyaç duyar.</MessageBuildingRequiresAdjacentWalls>
+
   <MessageLodgersCantFarskip>Atlanamaz: Mülteci</MessageLodgersCantFarskip>
-  
-  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out for {DURATION}. -->
-  <MessageHackerLockedOut>{HACKER_nameDef} tarafından yürütülen hack işlemi tespit edildi. {DURATION} boyunca sistemden atıldı.</MessageHackerLockedOut>
-  <!-- EN: {HACKER_nameDef}'s hacking has been detected. {HACKER_pronoun} has been locked out permanently. -->
-  <MessageHackerLockedOutPermanently>{HACKER_nameDef} tarafından yürütülen hack işlemi tespit edildi. Kalıcı olarak sistemden atıldı.</MessageHackerLockedOutPermanently>
-  <!-- EN: {0_labelShort} can be hacked again. -->
+
+  <MessageHackerLockedOut>{HACKER_nameDef} adlı kişinin hackleme girişimi tespit edildi. {DURATION} boyunca erişimi kilitlendi.</MessageHackerLockedOut>
+  <MessageHackerLockedOutPermanently>{HACKER_nameDef} adlı kişinin hackleme girişimi tespit edildi. Erişimi kalıcı olarak kilitlendi.</MessageHackerLockedOutPermanently>
   <MessageHackableUnlocked>{0_labelShort} yeniden hacklenebilir.</MessageHackableUnlocked>
 
-  <!-- EN: Shuttle cannot land here -->
   <ShuttleCannotLand>Mekik buraya inemez</ShuttleCannotLand>
-  <!-- EN: The shuttle has arrived. -->
   <MessageShuttleArrived>Mekik vardı.</MessageShuttleArrived>
 
-  <!-- EN: Warning: {THING_labelCap} will not function in this biome -->
-  <MessageGroundPenetratingScannerNoBedrock>Uyarı: {THING_labelCap} bu biyomda çalışmayacak.</MessageGroundPenetratingScannerNoBedrock>
+  <MessageGroundPenetratingScannerNoBedrock>Uyarı: {THING_labelCap} bu biyomda çalışmaz</MessageGroundPenetratingScannerNoBedrock>
 
 </LanguageData>

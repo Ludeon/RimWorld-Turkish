@@ -1,217 +1,124 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Mechanitor -->
-  <!-- EN: Mech(s) gone feral -->
-  <LetterLabelMechsFeral>Mekanoit(ler) vahşileşti</LetterLabelMechsFeral>
-  <!-- EN: Some mech(s) which were wandering without an overseer have linked with ancient planet-wide mech control signals. They have joined {0} and become hostile, and appear to be trying to fight their way off the map.\n\nFeral mechanoids cannot be resurrected at a gestator when killed.\n\nThese mechs are involved:\n\n{1} -->
-  <LetterMechsFeral>Bir gözetmen olmadan dolaşan bazı mekanoit(ler), gezegen çapında bir antik mekanoit kontrol sinyallerine bağlandı. {0} fraksiyonuna katılarak sana düşman oldular ve haritadan çıkmak üzere savaşmaya çatışıyor gibi görünüyorlar.\n\nVahşi mekanoitler öldürüldüklerinde bir montaj tankında diriltilemezler.\n\nİlgili mekanoitler:\n\n{1}</LetterMechsFeral>
-  <!-- EN: Mechlink installed -->
-  <LetterLabelMechlinkInstalled>Mekabağ takıldı</LetterLabelMechlinkInstalled>
-  <!-- EN: {PAWN_labelShort} has installed a mechlink! {PAWN_pronoun} is now a mechanitor and can create and control mechanoids.\n\nResearch basic mechtech to get started.\n\n(*SectionTitle)Creating mechs:(/SectionTitle) Your mechanitor can create mechs at a production building called a mech gestator.\n\n(*SectionTitle)About bandwidth:(/SectionTitle) Mechanitors can control as many mechs as their total bandwidth allows. Select {PAWN_labelShort} and look at {PAWN_possessive} 'Bandwidth' readout to see how much bandwidth {PAWN_pronoun} is currently using and how much {PAWN_pronoun} has available. Bandwidth can be increased with certain apparel and by building band node buildings.\n\n(*SectionTitle)About control groups:(/SectionTitle) Mechanitors control mechs in groups. Each control group can be set to one of these modes:\n\n- Work\n- Escort\n- Recharge\n- Dormant self-charge\n\nTo learn more about what each mode does, select the work mode icon on one of {PAWN_labelShort}'s control groups and hover over the different work orders. The maximum number of control groups can be increased with apparel and implants.\n\n(*SectionTitle)About threat calling:(/SectionTitle) Mechanitors can signal ancient leader mechs to attack in order to obtain rare items from them. You must do this to improve your mechanitor past certain limits, but beware the danger. -->
-  <LetterMechlinkInstalled>{PAWN_labelShort} bir mekabağ taktı! O artık bir mekanitör ve mekanoitleri oluşturup kontrol edebilir.\n\nBaşlamak için basit mekatek teknolojisini araştır.\n\n(*SectionTitle)Mek oluşturma:(/SectionTitle) Mekanitörün, mek montaj tankı adı verilen bir üretim yapısında mekanoitler oluşturabilir.\n\n(*SectionTitle)Bant genişliği hakkında:(/SectionTitle) Mekanitörler, toplam bant genişliğinin izin verdiği kadar çok mekanoiti kontrol edebilir. {PAWN_labelShort} adlı mekanitörü seç. Şu anda ne kadar bant genişliği kullandığını ve ne kadarının kullanılabilir olduğunu görmek için 'Bant genişliği' kısmına bak. Bant genişliği, belirli giysilerle ve bant düğümü yapıları inşa edilerek artırılabilir.\n\n(*SectionTitle)Kontrol grupları hakkında:(/SectionTitle) Mekanitörler, mekanoitleri gruplar hâlinde kontrol eder. Her bir kontrol grubu şu modlardan birine ayarlanabilir:\n\n- Çalışma\n- Refakat\n- Şarj\n- Uykuda kendi kendine şarj\n\nHer modun ne yaptığını daha ayrıntılı öğrenmek için, {PAWN_labelShort} adlı mekanitörün kontrol gruplarından birinde çalışma modu simgesini seç ve farklı çalışma emirlerinin üzerine gel. Maksimum kontrol grubu sayısı, giysiler ve implantlar ile artırılabilir.\n\n(*SectionTitle)Tehdit çağrısı hakkında:(/SectionTitle) Mekanitörler, nadir eşyalar elde etmek için antik lider mekanoitleri saldırıya çağırabilir. Mekanitörünü belirli sınırların ötesine taşıyabilmek için bunu yapman gerekecek fakat tehlikeye karşı dikkatli ol.</LetterMechlinkInstalled>
+  <LetterLabelMechsFeral>Mek(ler) yabanileşti</LetterLabelMechsFeral>
+  <LetterMechsFeral>Gözetmeni olmadan dolaşan bazı mek(ler), gezegen çapındaki antik mek kontrol sinyallerine bağlandı. {0} hizbine katılıp düşmanlaştılar ve savaşarak haritadan çıkmaya çalışıyor gibi görünüyorlar.\n\nYabanileşmiş mekanoidler öldürüldüklerinde bir gestatörde diriltilemez.\n\nİlgili mekler:\n\n{1}</LetterMechsFeral>
+  <LetterLabelMechlinkInstalled>Mekbağ yerleştirildi</LetterLabelMechlinkInstalled>
+  <LetterMechlinkInstalled>{PAWN_labelShort} bir mekbağ yerleştirdi! Artık bir mekanitör ve mekanoid yaratıp kontrol edebilir.\n\nBaşlamak için temel mek teknolojisini araştır.\n\n(*SectionTitle)Mek yaratmak:(/SectionTitle) Mekanitörün, mek gestatörü adlı bir üretim binasında mek yaratabilir.\n\n(*SectionTitle)Bant genişliği hakkında:(/SectionTitle) Mekanitörler, toplam bant genişliklerinin izin verdiği kadar meki kontrol edebilir. {PAWN_labelShort} adlı kişiyi seç ve şu anda ne kadar bant genişliği kullandığını ve ne kadarının boşta olduğunu görmek için 'Bant genişliği' göstergesine bak. Bant genişliği bazı giysilerle ve bant düğümü binaları inşa ederek artırılabilir.\n\n(*SectionTitle)Kontrol grupları hakkında:(/SectionTitle) Mekanitörler mekleri gruplar hâlinde kontrol eder. Her kontrol grubu şu modlardan birine ayarlanabilir:\n\n- Çalışma\n- Eskort\n- Şarj\n- Uykuda kendi kendine şarj\n\nHer modun ne yaptığını öğrenmek için {PAWN_labelShort} adlı kişinin kontrol gruplarından birindeki çalışma modu simgesini seç ve farklı iş emirlerinin üzerine gel. Azami kontrol grubu sayısı giysiler ve implantlarla artırılabilir.\n\n(*SectionTitle)Tehdit çağırmak hakkında:(/SectionTitle) Mekanitörler, antik lider meklerden nadir eşyalar elde etmek için onlara saldırı sinyali gönderebilir. Mekanitörünü belirli sınırların ötesine geliştirmek için bunu yapman gerekir, ama tehlikeye dikkat et.</LetterMechlinkInstalled>
 
-  <!-- EN: This happened because of -->
-  <MentalStateReason_Gene>Şunun yüzünden oldu</MentalStateReason_Gene>
+  <MentalStateReason_Gene>Bunun nedeni:</MentalStateReason_Gene>
 
-  <!-- EN: {0} summoned -->
   <LetterLabelBossgroupSummoned>{0} çağrıldı</LetterLabelBossgroupSummoned>
-  <!-- EN: Attracted by your mech-band signals, an ultra-heavy mech from {0} will arrive soon. Be prepared. -->
-  <LetterBossgroupSummoned>Mekbant sinyallerinin çektiği, {0} fransiyonundan ultra ağır bir mekanoit yakında buraya gelecek. Hazırlıklı ol.</LetterBossgroupSummoned>
+  <LetterBossgroupSummoned>Mek bandı sinyallerinin çektiği {0} grubundan ultra ağır bir mek yakında gelecek. Hazırlıklı ol.</LetterBossgroupSummoned>
 
-  <!-- EN: {0} arrived -->
   <LetterLabelBossgroupArrived>{0} geldi</LetterLabelBossgroupArrived>
-  <!-- EN: An ultra-heavy mech from {0} has come to eradicate you, along with escorts.\n\n{1}\n\nThe assault group is composed of the following {3}:\n\n{4}\n\nThey will prepare for a while before attacking. -->
-  <LetterBossgroupArrived>{0} fraksiyonundan ultra ağır bir mekanoit, refakatçileriyle birlikte kolonini enkaza çevirmek için geldi.\n\n{1}\n\nTaarruz grubu aşağıdaki {3}lerden oluşuyor:\n\n{4}\n\nSaldırmadan önce bir süre hazırlanacaklar.</LetterBossgroupArrived>
+  <LetterBossgroupArrived>{0} grubundan ultra ağır bir mek, eskortlarıyla birlikte seni yok etmeye geldi.\n\n{1}\n\nSaldırı grubu şu {3} biriminden oluşuyor:\n\n{4}\n\nSaldırmadan önce bir süre hazırlanacaklar.</LetterBossgroupArrived>
 
-  <!-- EN: Summon {LEADER_label} available -->
-  <LetterLabelCommsConsoleSpawned>{LEADER_label} çağırma mevcut</LetterLabelCommsConsoleSpawned>
-  <!-- EN: A mechanitor can use the {PARENT_label} to summon a dangerous and hostile {LEADER_label} mechanoid. Be prepared, {LEADER_label} mechanoids are extremely powerful.\n\nIf you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterCommsConsoleSpawned>Bir mekanitör, {PARENT_label} aracılığıyla tehlikeli ve düşman bir {LEADER_label} mekanoit çağırabilir. Hazırlıklı ol, {LEADER_label} mekanoitler aşırı güçlüdür.\n\nEğer {LEADER_label} mağluğ edilirse, şu nesneleri düşürecek:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
+  <LetterLabelCommsConsoleSpawned>{LEADER_label} çağrılabilir</LetterLabelCommsConsoleSpawned>
+  <LetterCommsConsoleSpawned>Bir mekanitör, {PARENT_label} kullanarak tehlikeli ve düşman bir {LEADER_label} mekanoidi çağırabilir. Hazırlıklı ol; {LEADER_label} mekanoidleri son derece güçlüdür.\n\n{LEADER_label} yenilirse şu eşyaları düşürür:\n\n{REWARDSLIST}</LetterCommsConsoleSpawned>
 
-  <!-- EN: Summon {LEADER_label} possible -->
-  <LetterLabelBossgroupCallerUnlocked>{LEADER_label} çağrısı mümkün</LetterLabelBossgroupCallerUnlocked>
-  <!-- EN: You can now build a {PARENT_label} which a mechanitor can use to summon a {LEADER_label}. If you defeat the {LEADER_label}, it will drop the following items:\n\n{REWARDSLIST} -->
-  <LetterBossgroupCallerUnlocked>Artık bir mekanitörün {LEADER_label} çağırmak için kullanabileceği bir {PARENT_label} inşa edebilirsin. Eğer {LEADER_label} mağluğ edilirse, şu nesneleri düşürür:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
+  <LetterLabelBossgroupCallerUnlocked>{LEADER_label} çağırmak mümkün</LetterLabelBossgroupCallerUnlocked>
+  <LetterBossgroupCallerUnlocked>Artık bir mekanitörün {LEADER_label} çağırmak için kullanabileceği bir {PARENT_label} inşa edebilirsin. {LEADER_label} yenilirse şu eşyaları düşürür:\n\n{REWARDSLIST}</LetterBossgroupCallerUnlocked>
 
-  <!-- EN: {PAWN_nameDef}'s mechlink available -->
-  <LetterLabelMechanitorCasketOpened>{0_nameDef} mekabağı mevcut</LetterLabelMechanitorCasketOpened>
-  <!-- EN: You have found the corpse of an ancient mechanitor!\n\nExtract {PAWN_possessive} mechlink by selecting a colonist and right-clicking the corpse. -->
-  <LetterMechanitorCasketOpened>Antik bir mekanitörün cesedini buldun!\n\nBir kolonici seçip cesede sağ tıklayarak mekabağı çıkar.</LetterMechanitorCasketOpened>
-  <!-- EN: Mechanitor casket found -->
+  <LetterLabelMechanitorCasketOpened>{PAWN_nameDef} adlı kişinin mekbağı alınabilir</LetterLabelMechanitorCasketOpened>
+  <LetterMechanitorCasketOpened>Antik bir mekanitörün cesedini buldun!\n\nMekbağını çıkarmak için bir kolonist seç ve cesede sağ tıkla.</LetterMechanitorCasketOpened>
   <LetterLabelMechanitorCasketFound>Mekanitör tabutu bulundu</LetterLabelMechanitorCasketFound>
-  <!-- EN: You have discovered a mechanitor's cryptosleep casket!\n\nOpen it to find them inside. -->
-  <LetterMechanitorCasketFound>Bir mekanitörün kripto-uyku tabutunu keşfettin!\n\nİçindeki kişiye erişmek için tabutu aç.</LetterMechanitorCasketFound>
-  
+  <LetterMechanitorCasketFound>Bir mekanitörün kripto-uyku tabutunu keşfettin!\n\nİçindekini bulmak için tabutu aç.</LetterMechanitorCasketFound>
+
   <!-- Pawns lost because map closed (including mechs) -->
-  <!-- EN: Your caravan has been lost. The following people, animals and mechanoids have been lost with it -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>Kervan kaybedildi. Aşağıdaki kişiler, hayvanlar ve mekanoitler de onunla birlikte kaybedildi</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
-  <!-- EN: The following people, animals and mechanoids have been abandoned -->
-  <LetterPawnsLostIncMechsBecauseMapClosed_Home>Aşağıdaki kişiler, hayvanlar ve mekanoitler terk edildi</LetterPawnsLostIncMechsBecauseMapClosed_Home>
-  
+  <LetterPawnsLostIncMechsBecauseMapClosed_Caravan>Kervanın kayboldu. Şu kişiler, hayvanlar ve mekanoidler de kervanla birlikte kayboldu</LetterPawnsLostIncMechsBecauseMapClosed_Caravan>
+  <LetterPawnsLostIncMechsBecauseMapClosed_Home>Şu kişiler, hayvanlar ve mekanoidler terk edildi</LetterPawnsLostIncMechsBecauseMapClosed_Home>
+
 
   <!-- Children -->
-  <!-- EN: {0_nameDef} became a child -->
   <LetterLabelBecameChild>{0_nameDef} çocuk oldu</LetterLabelBecameChild>
-  <!-- EN: {0_nameDef} became an adult -->
   <LetterLabelBecameAdult>{0_nameDef} yetişkin oldu</LetterLabelBecameAdult>
-  <!-- EN: Baby {0_nameDef} has grown up and become a child! {0_pronoun} is now old enough to do the following work: -->
-  <LetterBecameChild>Bebek {0_nameDef} büyüdü ve çocuk oldu! Artık aşağıdaki işleri yapabilecek yaşta:</LetterBecameChild>
-  <!-- EN: Children can do various types of work. As they get older, they become able to do more work types.\n\nThey also do various child-specific recreational activities.\n\nChildren need to wear special child-sized apparel. -->
-  <LetterBecameChildChanges>Çocuklar çeşitli işler yapabilirler. Yaşları ilerledikçe daha fazla iş türü yapabilir hâle gelirler.\n\nAyrıca çocuklara özgü çeşitli eğlence etkinliklerine katılabilirler.\n\nÇocukların, çocuk bedenine uygun giysiler giymesi gerekir.</LetterBecameChildChanges>
-  <!-- EN: By tradition {0_nameDef}, {0_parentage}, is a {0_legalStatus}, but exceptions can be made....  Should {0_nameDef} remain a {0_legalStatus}? -->
-  <LetterChildLegalStatus>Geleneğe göre {0_nameDef}, {0_parentage}, bir {0_legalStatus} ama istisnalar yapılabilir.... {0_nameDef}, {0_legalStatus} olarak kalmalı mı?</LetterChildLegalStatus>
-  <!-- EN: {0_labelShort} has decided to become a follower of the ideoligion {1_name}. -->
-  <LetterChildFollowIdeo>{0_labelShort}, {1_name} ideodinini seçti.</LetterChildFollowIdeo>
-  <!-- EN: {0_nameDef}'s slave status has already changed since {0_possessive} birthday. -->
-  <CannotChangeChildStatusReason>{0_nameDef} kişisinin köle statüsü, doğum gününden bu yana zaten değişti.</CannotChangeChildStatusReason>
-  <!-- EN: enslave -->
+  <LetterBecameChild>Bebek {0_nameDef} büyüdü ve çocuk oldu! Artık şu işleri yapabilecek yaşta:</LetterBecameChild>
+  <LetterBecameChildChanges>Çocuklar çeşitli işler yapabilir. Büyüdükçe daha fazla iş türünü yapabilir hâle gelirler.\n\nAyrıca çocuklara özgü çeşitli eğlence etkinlikleri yaparlar.\n\nÇocukların, çocuk bedenine uygun özel giysiler giymesi gerekir.</LetterBecameChildChanges>
+  <LetterChildLegalStatus>Geleneğe göre {0_nameDef} ({0_parentage}) bir {0_legalStatus}, ama istisna yapılabilir... {0_nameDef} {0_legalStatus} olarak kalsın mı?</LetterChildLegalStatus>
+  <LetterChildFollowIdeo>{0_labelShort}, {1_name} ideodininin müridi olmaya karar verdi.</LetterChildFollowIdeo>
+  <CannotChangeChildStatusReason>{0_nameDef} adlı kişinin kölelik durumu doğum gününden beri zaten değişti.</CannotChangeChildStatusReason>
   <Enslave>köleleştir</Enslave>
-  <!-- EN: emancipate -->
-  <Emancipate>özgürleştir</Emancipate>
-  <!-- EN: remain {0} -->
-  <RemainX>{0} kal</RemainX>
-  <!-- EN: {BABY_nameDef} adopted -->
+  <Emancipate>azat et</Emancipate>
+  <RemainX>{0} olarak kalsın</RemainX>
   <LetterLabelAdopted>{BABY_nameDef} evlat edinildi</LetterLabelAdopted>
-  <!-- EN: {BABY_nameDef}, a baby, has been adopted by your colony. You may want to assign colonists to the 'childcare' work type to take care of {BABY_objective}. -->
-  <LetterTextAdopted>Bir bebek olan {BABY_nameDef}, kolonin tarafından evlat edinildi. Kolonicileri ona bakmak için 'çocuk bakımı' iş türüne atamak isteyebilirsin.</LetterTextAdopted>
+  <LetterTextAdopted>Bir bebek olan {BABY_nameDef}, kolonin tarafından evlat edinildi. Bakımıyla ilgilenmeleri için kolonistleri 'çocuk bakımı' iş türüne atamak isteyebilirsin.</LetterTextAdopted>
 
-  <!-- EN: {0_nameDef}'s baby prep -->
-  <LetterLabelThirdTrimester>{0_nameDef} için doğum hazırlığı</LetterLabelThirdTrimester>
-  <!-- EN: {0_nameDef} is due to give birth in less than 6 days. You can prepare for the baby:\n\n- Build a birth room with a clean floor and good bed.\n- Get a skilled doctor ready.\n- In the work tab, assign at least one person to childcare\n- Prepare a food source for the baby. {0_nameDef} can breastfeed the baby, or you can feed them baby food, milk, or insect jelly.\n- Build a crib. High quality cribs will make a baby happy.\n\nYou can make baby food at a stove or campfire. -->
-  <LetterTextThirdTrimester>{0_nameDef}, 6 günden kısa bir süre içerisinde doğum yapacak. Bebek için hazırlanabilirsin:\n\n- Zemini temiz ve yatağı iyi olan bir doğum odası inşa et.\n- Nitelikli bir doktor hazırla.\n- İş sekmesinden çocuk bakımı için en az bir kişiyi ata\n - Bebek için bir besin kaynağı hazırla. {0_nameDef} bebeği emzirebilir veya bebek maması, süt veya böcek jölesi besleyebilirsin.\n- Bir beşik yap. Yüksek kaliteli beşikler bebekleri mutlu eder.\n\nBebek mamasını ocakta veya kamp ateşinde yapabilirsin.</LetterTextThirdTrimester>
+  <LetterLabelThirdTrimester>{0_nameDef} için bebek hazırlığı</LetterLabelThirdTrimester>
+  <LetterTextThirdTrimester>{0_nameDef} 6 günden kısa bir süre içinde doğum yapacak. Bebek için hazırlık yapabilirsin:\n\n- Temiz zeminli ve iyi bir yatağı olan bir doğum odası inşa et.\n- Becerikli bir doktoru hazır tut.\n- İş sekmesinde en az bir kişiyi çocuk bakımına ata.\n- Bebek için bir yiyecek kaynağı hazırla. {0_nameDef} bebeği emzirebilir ya da sen bebeğe bebek maması, süt veya böcek jölesi verebilirsin.\n- Bir beşik inşa et. Yüksek kaliteli beşikler bebeği mutlu eder.\n\nBebek mamasını bir ocakta ya da kamp ateşinde yapabilirsin.</LetterTextThirdTrimester>
 
-  <!-- EN: {0} vat birth -->
-  <LetterVatBirth>{0} küvöz doğumu</LetterVatBirth>
-  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a healthy baby! -->
-  <LetterVatHealthyBaby>{0_nameDef} ve {1_nameDef} adlı kişilerin embriyosu bir büyüme küvözünde gelişimini tamamlayarak sağlıklı bir bebek oldu!</LetterVatHealthyBaby>
-  <!-- EN: An embryo has finished gestating in a growth vat and become a healthy baby! -->
-  <LetterVatHealthyBabyNoParents>Bir embriyo, büyüme küvözünde gelişimini tamamlayarak sağlıklı bir bebek oldu!</LetterVatHealthyBabyNoParents>
-  <!-- EN: The embryo of {0_nameDef} and {1_nameDef} has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllness>{0_nameDef} ve {1_nameDef} adlı kişilerin embriyosu bir büyüme küvözünde gelişimini tamamlayarak bebek oldu. Maalesef, bebek hasta.</LetterVatInfantIllness>
-  <!-- EN: An embryo has finished gestating in a growth vat and has become a baby. Unfortunately, the baby is sick. -->
-  <LetterVatInfantIllnessNoParents>Bir embriyo, büyüme küvözünde gelişimini tamamlayarak bir bebek oldu. Maalesef, bebek hasta.</LetterVatInfantIllnessNoParents>
-  <!-- EN: The baby formed in a growth vat from the embryo of {0_nameDef} and {1_nameDef} was stillborn. -->
-  <LetterVatStillborn>{0_nameDef} ve {1_nameDef} adlı kişilerin büyüme küvözündeki embriyosundan oluşan bebek ölü doğdu.</LetterVatStillborn>
-  <!-- EN: The baby formed in a growth vat was stillborn. -->
-  <LetterVatSillbornNoParents>Büyüme küvözünde oluşan bebek ölü doğdu.</LetterVatSillbornNoParents>
-  <!-- EN: {0_labelShort} in labor! -->
-  <LetterColonistPregnancyLaborLabel>{0_labelShort} doğuruyor!</LetterColonistPregnancyLaborLabel>
-  <!-- EN: {0_labelShort} is about to give birth! She's going to have contractions for a few hours before delivering a baby. The labor may go through several stages of different levels of difficulty and danger.\n\nTo improve the baby's chances, gather a doctor and others to help with the birth. Select {0_labelShort} and press 'Gather for birth' to start the procedure. -->
-  <LetterColonistPregnancyLabor>{0_labelShort} doğum yapmak üzere! Bebeği doğurmadan önceki birkaç saat boyunca kasılmaları olacak. Doğum, farklı zorluk ve tehlike seviyelerine sahip birkaç aşamadan geçebilir.\n\nBebeğin hayatta kalma ihtimalini artırmak için bir doktoru ve diğerlerini doğuma hazırla. {0_labelShort} kişisini seç ve işlemi başlatmak için 'Doğum için toplan' seçeneğine tıkla.</LetterColonistPregnancyLabor>
-  <!-- EN: {0_labelShort} has died due to complications after giving birth. -->
-  <LetterPartColonistDiedAfterChildbirth>{0_labelShort}, doğum sonrası komplikasyonlar nedeniyle öldü.</LetterPartColonistDiedAfterChildbirth>
-  <!-- EN: The baby was created from in vitro fertilization and has the genetic makeup of {0_labelShort} and {1_labelShort}. -->
-  <LetterPartSurrogacy>Bebek, tüp bebek yöntemiyle yapıldı ve {0_labelShort} ile {1_labelShort} adlı kişilerin genetik yapısını taşıyor.</LetterPartSurrogacy>
-  <!-- EN: The baby shows signs of genetic abnormalities due to inbreeding. -->
-  <InbredBabyBorn>Bebek, akrabalı evliliği nedeniyle genetik anomali belirtileri gösteriyor.</InbredBabyBorn>
+  <LetterVatBirth>{0} tankta doğum</LetterVatBirth>
+  <LetterVatHealthyBaby>{0_nameDef} ve {1_nameDef} çiftinin embriyosu büyüme tankında gelişimini tamamladı ve sağlıklı bir bebek oldu!</LetterVatHealthyBaby>
+  <LetterVatHealthyBabyNoParents>Bir embriyo büyüme tankında gelişimini tamamladı ve sağlıklı bir bebek oldu!</LetterVatHealthyBabyNoParents>
+  <LetterVatInfantIllness>{0_nameDef} ve {1_nameDef} çiftinin embriyosu büyüme tankında gelişimini tamamladı ve bebek oldu. Ne yazık ki bebek hasta.</LetterVatInfantIllness>
+  <LetterVatInfantIllnessNoParents>Bir embriyo büyüme tankında gelişimini tamamladı ve bebek oldu. Ne yazık ki bebek hasta.</LetterVatInfantIllnessNoParents>
+  <LetterVatStillborn>{0_nameDef} ve {1_nameDef} çiftinin embriyosundan büyüme tankında oluşan bebek ölü doğdu.</LetterVatStillborn>
+  <LetterVatSillbornNoParents>Büyüme tankında oluşan bebek ölü doğdu.</LetterVatSillbornNoParents>
+  <LetterColonistPregnancyLaborLabel>{0_labelShort} doğum sancısında!</LetterColonistPregnancyLaborLabel>
+  <LetterColonistPregnancyLabor>{0_labelShort} doğum yapmak üzere! Bebeği doğurmadan önce birkaç saat boyunca kasılmalar yaşayacak. Doğum, farklı zorluk ve tehlike düzeylerinde birkaç evreden geçebilir.\n\nBebeğin şansını artırmak için doğuma yardım edecek bir doktor ve başka kişiler topla. Süreci başlatmak için {0_labelShort} adlı kişiyi seç ve 'Doğum için toplan' düğmesine bas.</LetterColonistPregnancyLabor>
+  <LetterPartColonistDiedAfterChildbirth>{0_labelShort} doğumdan sonraki komplikasyonlar nedeniyle öldü.</LetterPartColonistDiedAfterChildbirth>
+  <LetterPartSurrogacy>Bebek tüp bebek yöntemiyle oluşturuldu ve {0_labelShort} ile {1_labelShort} adlı kişilerin genetik yapısını taşıyor.</LetterPartSurrogacy>
+  <InbredBabyBorn>Bebekte akraba evliliğinden kaynaklanan genetik anormallik belirtileri görülüyor.</InbredBabyBorn>
 
-  <!-- EN: {0_nameDef} has already been named. -->
-  <BabyAlreadyNamed>{0_nameDef} zaten adlandırılmış.</BabyAlreadyNamed>
-  <!-- EN: name baby -->
+  <BabyAlreadyNamed>{0_nameDef} adlı bebeğe zaten isim verildi.</BabyAlreadyNamed>
   <NameBaby>bebeğe isim ver</NameBaby>
-  <!-- EN: immediately -->
-  <Immediately>derhâl</Immediately>
-  <!-- EN: within -->
-  <Within>kalan süre</Within>
-  <!-- EN: The baby has been given the temporary name {0_nameFull}. -->
+  <Immediately>hemen</Immediately>
+  <Within>içinde</Within>
   <LetterPartTempBabyName>Bebeğe geçici olarak {0_nameFull} adı verildi.</LetterPartTempBabyName>
-  <!-- EN: You can change it until {0} after birth. -->
-  <LetterPartLiveBirthNameDeadline>Doğumdan sonra {0} içerisinde değiştirebilirsin.</LetterPartLiveBirthNameDeadline>
-  <!-- EN: Would you like to give the baby another name? -->
-  <LetterPartStillbirthNameDeadline>Bebeğe başka bir isim vermek ister misin?</LetterPartStillbirthNameDeadline>
-  <!-- EN: The baby was given the temporary name {0_nameFull}. You can change it as long as the baby is less than {1} old. -->
-  <LetterPartNameBabyAdopt>Bebeğe geçici olarak {0_nameFull} adı verildi. Bebek {1} yaşından küçük olduğu sürece değiştirebilirsin.</LetterPartNameBabyAdopt>
+  <LetterPartLiveBirthNameDeadline>Doğumdan sonraki {0} içinde bu adı değiştirebilirsin.</LetterPartLiveBirthNameDeadline>
+  <LetterPartStillbirthNameDeadline>Bebeğe başka bir ad vermek ister misin?</LetterPartStillbirthNameDeadline>
+  <LetterPartNameBabyAdopt>Bebeğe geçici olarak {0_nameFull} adı verildi. Bebek {1} yaşından küçük olduğu sürece bu adı değiştirebilirsin.</LetterPartNameBabyAdopt>
 
-  <!-- EN: Growth moment for {PAWNNAME} -->
   <BirthdayGrowthMoment>{PAWNNAME} için büyüme anı</BirthdayGrowthMoment>
-  <!-- EN: {0_nameFull} has reached the biological age of {1} and has experienced a growth moment! -->
-  <BirthdayBiologicalGrowthMoment>{0_nameFull}, biyolojik olarak {1} yaşına girdi ve bir büyüme anı yaşadı!</BirthdayBiologicalGrowthMoment>
-  <!-- EN: {0_nameDef} is now old enough to do the following work -->
-  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} artık aşağıdaki işleri yapabilecek yaşta</BirthdayBiologicalAgeWorkTypes>
-  <!-- EN: Choose 1 skill for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassion>{0_nameDef} için tutkusunu artıracağı 1 beceri seç</BirthdayPickPassion>
-  <!-- EN: Choose {1} skills for {0_nameDef} to increase {0_possessive} passion for -->
-  <BirthdayPickPassions>{0_nameDef} için tutkusunu artıracağı {1} beceri seç</BirthdayPickPassions>
-  <!-- EN: Choose a trait for {0_nameDef} to gain -->
-  <BirthdayPickTrait>{0_nameDef} için edineceği bir kişisel özellik seç</BirthdayPickTrait>
-  <!-- EN: When this growth moment happened, {0_nameDef} was at growth tier {1}. Children at higher growth tiers get more trait and passion options to choose from, and more passions overall. Satisfying the learning need helps the child gain growth tiers faster. Growth tiers are reset after each growth moment. -->
-  <BirthdayGrowthTier>Bu büyüme anı gerçekleştiğinde {0_nameDef}, {1} büyüme kademesindeydi. Daha yüksek büyüme kademelerine ulaşan çocuklar, daha fazla kişisel özellik ve tutku seçeneği kazanır ve genel olarak daha çok tutkuya sahip olurlar. Öğrenme ihtiyacının karşılanması, çocuğun büyüme kademelerinde daha hızlı ilerlemesine yardımcı olur. Her büyüme anından sonra büyüme kademeleri sıfırlanır.</BirthdayGrowthTier>
-  <!-- EN: Open this letter to choose how {0_nameDef} will grow. -->
-  <BirthdayChooseHowPawnWillGrow>{0_nameDef} adlı çocuğun nasıl büyüyeceğini seçmek için bu bildirimi aç.</BirthdayChooseHowPawnWillGrow>
+  <BirthdayBiologicalGrowthMoment>{0_nameFull} {1} biyolojik yaşına ulaştı ve bir büyüme anı yaşadı!</BirthdayBiologicalGrowthMoment>
+  <BirthdayBiologicalAgeWorkTypes>{0_nameDef} artık şu işleri yapabilecek yaşta</BirthdayBiologicalAgeWorkTypes>
+  <BirthdayPickPassion>{0_nameDef} adlı kişinin tutkusunun artacağı 1 beceri seç</BirthdayPickPassion>
+  <BirthdayPickPassions>{0_nameDef} adlı kişinin tutkusunun artacağı {1} beceri seç</BirthdayPickPassions>
+  <BirthdayPickTrait>{0_nameDef} adlı kişinin kazanacağı bir özellik seç</BirthdayPickTrait>
+  <BirthdayGrowthTier>Bu büyüme anı yaşandığında {0_nameDef} {1}. büyüme kademesindeydi. Daha yüksek büyüme kademesindeki çocuklar, arasından seçim yapılabilecek daha fazla özellik ve tutku seçeneği ile genel olarak daha fazla tutku elde eder. Öğrenme ihtiyacını karşılamak, çocuğun büyüme kademelerini daha hızlı atlamasına yardım eder. Büyüme kademeleri her büyüme anından sonra sıfırlanır.</BirthdayGrowthTier>
+  <BirthdayChooseHowPawnWillGrow>{0_nameDef} adlı kişinin nasıl büyüyeceğini seçmek için bu mektubu aç.</BirthdayChooseHowPawnWillGrow>
 
-  <!-- EN: Passion was increased for {0}. -->
-  <BirthdayPassionArchive>{0} için tutku arttı.</BirthdayPassionArchive>
-  <!-- EN: The trait {0} was gained. -->
-  <BirthdayTraitArchive>{0} kişisel özelliği kazanıldı.</BirthdayTraitArchive>
-  <!-- EN: No trait -->
+  <BirthdayPassionArchive>Şu beceride tutku arttı: {0}.</BirthdayPassionArchive>
+  <BirthdayTraitArchive>{0} özelliği kazanıldı.</BirthdayTraitArchive>
   <BirthdayNoTraitChoice>Özellik yok</BirthdayNoTraitChoice>
-  <!-- EN: {0} does not gain a trait. -->
-  <BirthdayNoTraitChoiceTooltip>{0} bir kişisel özellik kazanmadı.</BirthdayNoTraitChoiceTooltip>
+  <BirthdayNoTraitChoiceTooltip>{0} herhangi bir özellik kazanmaz.</BirthdayNoTraitChoiceTooltip>
 
-  <!-- EN: Make choices to close -->
-  <BirthdayMakeChoices>Kapatmak için seçim yap</BirthdayMakeChoices>
-  <!-- EN: {0} has gained the nickname {1}. -->
-  <BirthdayNickname>{0}, {1} takma adını kazandı.</BirthdayNickname>
-  <!-- EN: Select a trait. -->
-  <SelectATrait>Bir kişisel özellik seç.</SelectATrait>
-  <!-- EN: Select a passion. -->
+  <BirthdayMakeChoices>Kapatmak için seçimlerini yap</BirthdayMakeChoices>
+  <BirthdayNickname>{0}, {1} lakabını kazandı.</BirthdayNickname>
+  <SelectATrait>Bir özellik seç.</SelectATrait>
   <SelectPassionSingular>Bir tutku seç.</SelectPassionSingular>
-  <!-- EN: Select {0} passions. -->
-  <SelectPassionsPlural>{0} tutkusu seç.</SelectPassionsPlural>
-  <!-- EN: Later -->
-  <Later>Daha sonra</Later>
-  
-  <!-- EN: Mechlink available -->
-  <LetterLabelMechlinkAvailable>Mekabağ mevcut</LetterLabelMechlinkAvailable>
-  <!-- EN: An opportunity to acquire the unique mechlink implant has become available via the quest '{0}'.\n\nInstalling a mechlink will turn a colonist into a mechanitor. Mechanitors can create, control, and manipulate mechanoids for use in work and in combat. -->
-  <LetterMechlinkAvailable>Benzersiz bir mekabağ implantı edinme fırsatı, '{0}' görevi aracılığıyla mevcut hâle geldi.\n\nBir mekabağ takmak, bir koloniciyi mekanitör hâline getirir. Mekanitörler, iş ve savaş için mekanoitleri yaratabilir, kontrol edebilir ve yönlendirebilir.</LetterMechlinkAvailable>
+  <SelectPassionsPlural>{0} tutku seç.</SelectPassionsPlural>
+  <Later>Sonra</Later>
+
+  <LetterLabelMechlinkAvailable>Mekbağ edinilebilir</LetterLabelMechlinkAvailable>
+  <LetterMechlinkAvailable>'{0}' görevi aracılığıyla eşsiz mekbağ implantını edinme fırsatı doğdu.\n\nMekbağ yerleştirmek bir kolonisti mekanitöre dönüştürür. Mekanitörler mekanoidleri iş ve savaşta kullanmak üzere yaratabilir, kontrol edebilir ve yönlendirebilir.</LetterMechlinkAvailable>
 
   <!-- Genes -->
-  <!-- EN: Xenogerm implantation ordered -->
-  <LetterLabelXenogermOrderedImplanted>Zenogerm aşılama planlandı</LetterLabelXenogermOrderedImplanted>
-  <!-- EN: You have ordered a xenogerm be implanted in {PAWN_nameDef}. This procedure requires a medical bed and {MEDICINENEEDED} medicine.{BEDINFO}{MEDICINEINFO}\n\nYou can cancel this procedure by going to {PAWN_nameDef}'s health -> operations tab. -->
-  <LetterXenogermOrderedImplanted>{PAWN_nameDef} kişisine bir zenogerm aşılanmasını emrettin. Bu prosedür bir tıbbi yatak ve {MEDICINENEEDED} gerektirir.{BEDINFO}{MEDICINEINFO}\n\nBu prosedürü {PAWN_nameDef} kişisinin sağlık/operasyonlar sekmesine giderek iptal edebilirsin.</LetterXenogermOrderedImplanted>
-  <!-- EN: \n\nYou do not have any medical beds available for {PAWN_nameDef}. Consider marking a bed as medical. -->
-  <XenogermOrderedImplantedBedNeeded>\n\n{PAWN_nameDef} için uygun tıbbi yatağın yok. Bir yatağı tıbbi olarak işaretlemeyi düşünün.</XenogermOrderedImplantedBedNeeded>
-  <!-- EN: \n\nYou do not have enough medicine to implant the xenogerm. Implanting cannot begin until you get {MEDICINENEEDED} medicine. -->
-  <XenogermOrderedImplantedMedicineNeeded>\n\nZenogermi aşılamak için yeterli ilacın yok. {MEDICINENEEDED} ilaç edinene kadar aşılama işlemi başlayamaz.</XenogermOrderedImplantedMedicineNeeded>
-  <!-- EN: Involuntary deathrest -->
+  <LetterLabelXenogermOrderedImplanted>Ksenomaya yerleştirme emri verildi</LetterLabelXenogermOrderedImplanted>
+  <LetterXenogermOrderedImplanted>{PAWN_nameDef} adlı kişiye bir ksenomaya yerleştirilmesi emrini verdin. Bu işlem için bir tıbbi yatak ve {MEDICINENEEDED} ilaç gerekir.{BEDINFO}{MEDICINEINFO}\n\nBu işlemi {PAWN_nameDef} adlı kişinin sağlık -> ameliyatlar sekmesinden iptal edebilirsin.</LetterXenogermOrderedImplanted>
+  <XenogermOrderedImplantedBedNeeded>\n\n{PAWN_nameDef} için uygun bir tıbbi yatağın yok. Bir yatağı tıbbi olarak işaretlemeyi düşün.</XenogermOrderedImplantedBedNeeded>
+  <XenogermOrderedImplantedMedicineNeeded>\n\nKsenomayayı yerleştirmek için yeterli ilacın yok. {MEDICINENEEDED} ilaç edinene kadar yerleştirme başlayamaz.</XenogermOrderedImplantedMedicineNeeded>
   <LetterLabelInvoluntaryDeathrest>İstemsiz ölüm uykusu</LetterLabelInvoluntaryDeathrest>
-  <!-- EN: Regeneration coma -->
   <LetterLabelRegenerationComa>Yenilenme koması</LetterLabelRegenerationComa>
-  <!-- EN: {PAWN_nameDef}'s deathless gene has prevented {PAWN_objective} from dying. {HEDIFFINFO} -->
-  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef}, sahip olduğu ölümsüz geni sayesinde ölmedi. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
-  <!-- EN: Instead, {PAWN_pronoun} has fallen into a deathrest. -->
-  <LetterTextDeathrest>Bunun yerine ölüm uykusuna yattı.</LetterTextDeathrest>
-  <!-- EN: Instead, {PAWN_pronoun} has fallen into a regeneration coma. -->
+  <LetterTextInvoluntaryDeathrestOrComa>{PAWN_nameDef} adlı kişinin ölümsüzlük geni onun ölmesini engelledi. {HEDIFFINFO}</LetterTextInvoluntaryDeathrestOrComa>
+  <LetterTextDeathrest>Bunun yerine ölüm uykusuna daldı.</LetterTextDeathrest>
   <LetterTextRegenerationComa>Bunun yerine yenilenme komasına girdi.</LetterTextRegenerationComa>
-  <!-- EN: Due to the neural shock of traumatic deathrest, {PAWN_nameDef} has lost {XPLOSS} XP in {PAWN_possessive} {SKILL} skill. -->
-  <DeathrestLostSkill>Travmatik ölüm uykusunun sinirsel şoku nedeniyle {PAWN_nameDef}, {SKILL} becerisinde {XPLOSS} deneyim puanı kaybetti.</DeathrestLostSkill>
-  <!-- EN: Lethal damage taken. -->
+  <DeathrestLostSkill>Travmatik ölüm uykusunun yarattığı sinirsel şok nedeniyle {PAWN_nameDef}, {SKILL} becerisinde {XPLOSS} TP kaybetti.</DeathrestLostSkill>
   <DeathrestLethalDamage>Ölümcül hasar alındı.</DeathrestLethalDamage>
 
-  <!-- EN: Xenogerm implantation -->
-  <LetterLabelSanguophageWaitingToReimplant>Zenogerm aşılama</LetterLabelSanguophageWaitingToReimplant>
-  <!-- EN: As thanks for allowing {PAWN_objective} and {PAWN_possessive} fellow sanguophages meet here, {PAWN_nameDef} is willing to share a copy of {PAWN_possessive} xenogerm with one of your colonists. This will turn your colonist into a sanguophage.\n\nTo accept, select a colonist and right click on {PAWN_nameDef}.\n\nIf no colonists have claimed the reward in {DURATION}, the sanguophages will leave. -->
-  <LetterTextSanguophageWaitingToReimplant>Kendisi ve diğer sanguofajların burada buluşmasına izin verdiğin için {PAWN_nameDef}, zenogerminin bir kopyasını kolonicilerinden biriyle paylaşmaya istekli. Bu, seçilen koloniciyi bir sanguofaja dönüştürecektir.\n\nKabul etmek için bir koloniciyi seç ve {PAWN_nameDef} kişisine sağ tıkla.\n\nEğer {DURATION} içinde hiçbir kolonici ödülü talep etmezse, sanguofajlar ayrılacak.</LetterTextSanguophageWaitingToReimplant>
+  <LetterLabelSanguophageWaitingToReimplant>Ksenomaya yerleştirme</LetterLabelSanguophageWaitingToReimplant>
+  <LetterTextSanguophageWaitingToReimplant>Kendisinin ve sanguofaj dostlarının burada buluşmasına izin verdiğin için teşekkür olarak {PAWN_nameDef}, ksenomayasının bir kopyasını kolonistlerinden biriyle paylaşmaya razı. Bu, kolonistini bir sanguofaja dönüştürecek.\n\nKabul etmek için bir kolonist seç ve {PAWN_nameDef} adlı kişiye sağ tıkla.\n\n{DURATION} içinde hiçbir kolonist ödülü almazsa sanguofajlar ayrılacak.</LetterTextSanguophageWaitingToReimplant>
 
-  <!-- EN: Genes reimplanted -->
-  <LetterLabelGenesImplanted>Yeniden aşılanan genler</LetterLabelGenesImplanted>
-  <!-- EN: {CASTER_nameDef} has implanted a copy of {CASTER_possessive} xenogerm into {TARGET_nameDef}, passing all xenogenes onto {TARGET_objective}.\n\n{TARGET_nameDef} will be in a xenogermination coma for the next {COMADURATION} while {TARGET_possessive} body adjusts to the changes.\n\n{CASTER_nameDef} will suffer from gene loss shock for the next {SHOCKDURATION}. {CASTER_possessive} genes will also need to regrow. This process takes time. If {CASTER_nameDef} implants {CASTER_possessive} xenogerm again before {CASTER_possessive} genes have regrown, {CASTER_pronoun} will die. -->
-  <LetterTextGenesImplanted>{CASTER_nameDef}, zenogerminin bir kopyasını {TARGET_nameDef} kişisine aşıladı ve tüm zenogenlerini ona aktardı.\n\n{TARGET_nameDef}, vücudu değişimlere uyum sağlarken önümüzdeki {COMADURATION} boyunca zenogerminasyon komasında olacak.\n\n{CASTER_nameDef}, önümüzdeki {SHOCKDURATION} boyunca gen kaybı şokuna girecek. Genlerinin yeniden büyümesi de gerekecek. Bu süreç zaman alır. Eğer {CASTER_nameDef}, genleri yeniden büyümeden önce zenogermini tekrar aşılarsa ölür.</LetterTextGenesImplanted>
-  
-  <!-- EN: A baby named {PAWN_nameDef} from {PAWN_factionName} is crashing in a transport pod nearby.\n\nYou may choose to adopt {PAWN_objective} with the 'adopt' command or ignore {PAWN_objective}. -->
-  <RefugeePodCrashBaby>{PAWN_factionName} fraksiyonundan {PAWN_nameDef} adlı bir bebek, taşıma kapsülüyle yakınlara düşüyor.\n\nOnu 'evlat edin' komutuyla evlat edinmeyi veya görmezden gelmeyi seçebilirsin.</RefugeePodCrashBaby>
-  <!-- EN: The body of {PAWN_nameDef}'s deceased parent is contained within the transport pod as well. -->
-  <RefugeePodCrashBabyHasParent>{PAWN_nameDef} bebeğin ölen ebeveyninin vücudu da taşıma kapsülünde.</RefugeePodCrashBabyHasParent>
+  <LetterLabelGenesImplanted>Genler yeniden yerleştirildi</LetterLabelGenesImplanted>
+  <LetterTextGenesImplanted>{CASTER_nameDef}, ksenomayasının bir kopyasını {TARGET_nameDef} adlı kişiye yerleştirdi ve tüm ksenogenlerini ona aktardı.\n\n{TARGET_nameDef}, bedeni değişikliklere uyum sağlarken önümüzdeki {COMADURATION} boyunca ksenomaya komasında olacak.\n\n{CASTER_nameDef} önümüzdeki {SHOCKDURATION} boyunca gen kaybı şoku yaşayacak. Genlerinin de yeniden büyümesi gerekecek. Bu süreç zaman alır. {CASTER_nameDef}, genleri yeniden büyümeden ksenomayasını tekrar yerleştirirse ölür.</LetterTextGenesImplanted>
 
-  <!-- EN: Instinctively seeking a mate, {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreated>İçgüdüsel olarak bir eş arayan {BONDPAWN_nameDef}, {OTHERPAWN_nameDef} ile psişik bağlı bir romantik ilişki içerisine girdi. {OTHERPAWN_nameDef}, {BONDPAWN_nameDef} ile olan bağlantıdan psikolojik olarak fayda sağlayacaktır fakat farklı dünya altıgenlerine ayrılırlarsa, her ikisi de psişik stresten mustarip olacaklardır. Biri ölürse, diğeri deliliğe sürüklenir.</LetterPsychicBondCreated>
+  <RefugeePodCrashBaby>{PAWN_factionName} hizbinden {PAWN_nameDef} adlı bir bebek, bir taşıma kapsülüyle yakınlara düşüyor.\n\nOnu 'evlat edin' komutuyla evlat edinebilir ya da görmezden gelebilirsin.</RefugeePodCrashBaby>
+  <RefugeePodCrashBabyHasParent>{PAWN_nameDef} adlı bebeğin ölmüş ebeveyninin cesedi de taşıma kapsülünün içinde.</RefugeePodCrashBabyHasParent>
 
-  <!-- EN: Psychic bond -->
+  <LetterPsychicBondCreated>İçgüdüsel olarak bir eş arayan {BONDPAWN_nameDef}, {OTHERPAWN_nameDef} ile psişik bağlı romantik bir ilişki kurdu. {OTHERPAWN_nameDef}, {BONDPAWN_nameDef} ile kurduğu bağdan psikolojik olarak fayda görecek; ancak farklı dünya bölge karelerine ayrılırlarsa ikisi de psişik stres yaşayacak. Biri ölürse diğeri delirecek.</LetterPsychicBondCreated>
+
   <LetterPsychicBondCreatedLovinLabel>Psişik bağ</LetterPsychicBondCreatedLovinLabel>
-  <!-- EN: {BONDPAWN_nameDef} has formed a psychically-bonded romantic relationship with {OTHERPAWN_nameDef}. {OTHERPAWN_nameDef} will benefit psychologically from the connection to {BONDPAWN_nameDef}, but if they are separated onto different world tiles, both will suffer from psychic stress. If one dies, the other will be driven to madness. -->
-  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}, {OTHERPAWN_nameDef} ile psişik bağlı bir romantik ilişki içerisine girdi. {OTHERPAWN_nameDef}, {BONDPAWN_nameDef} ile olan bağlantıdan psikolojik olarak fayda sağlayacaktır fakat farklı dünya altıgenlerine ayrılırlarsa, her ikisi de psişik stresten mustarip olacaklardır. Biri ölürse, diğeri deliliğe sürüklenir.</LetterPsychicBondCreatedLovinText>
+  <LetterPsychicBondCreatedLovinText>{BONDPAWN_nameDef}, {OTHERPAWN_nameDef} ile psişik bağlı romantik bir ilişki kurdu. {OTHERPAWN_nameDef}, {BONDPAWN_nameDef} ile kurduğu bağdan psikolojik olarak fayda görecek; ancak farklı dünya bölge karelerine ayrılırlarsa ikisi de psişik stres yaşayacak. Biri ölürse diğeri delirecek.</LetterPsychicBondCreatedLovinText>
 
 </LanguageData>

@@ -1,34 +1,67 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
+
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeBase.outcomes.1.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu</SurgeryOutcomeBase.outcomes.1.letterLabel>
+
+  <SurgeryOutcomeBase.outcomes.1.letterLabel>Ameliyat başarısız: {PATIENT_labelShort}</SurgeryOutcomeBase.outcomes.1.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {RECIPE_label}. -->
-  <SurgeryOutcomeBase.outcomes.1.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken hayati şekilde başarısız oldu ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.1.letterText>
+
+  <SurgeryOutcomeBase.outcomes.1.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ölümcül bir hata yaptı. Bunun nedeni şu işlemin kendine özgü zorluklarıydı: {RECIPE_label}.</SurgeryOutcomeBase.outcomes.1.letterText>
+
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeBase.outcomes.2.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu</SurgeryOutcomeBase.outcomes.2.letterLabel>
+
+  <SurgeryOutcomeBase.outcomes.2.letterLabel>Ameliyat başarısız: {PATIENT_labelShort}</SurgeryOutcomeBase.outcomes.2.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <SurgeryOutcomeBase.outcomes.2.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken korkunç bir şekilde başarısız oldu ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.2.letterText>
+
+  <SurgeryOutcomeBase.outcomes.2.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ({RECIPE_label}) felaket düzeyinde başarısız oldu.</SurgeryOutcomeBase.outcomes.2.letterText>
+
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeBase.outcomes.3.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu</SurgeryOutcomeBase.outcomes.3.letterLabel>
+
+  <SurgeryOutcomeBase.outcomes.3.letterLabel>Ameliyat başarısız: {PATIENT_labelShort}</SurgeryOutcomeBase.outcomes.3.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <SurgeryOutcomeBase.outcomes.3.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken saçma bir şekilde başarısız oldu ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.3.letterText>
+
+  <SurgeryOutcomeBase.outcomes.3.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ({RECIPE_label}) gülünç bir şekilde başarısız oldu.</SurgeryOutcomeBase.outcomes.3.letterText>
+
   <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
-  <SurgeryOutcomeBase.outcomes.4.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu: Kısır kaldı</SurgeryOutcomeBase.outcomes.4.letterLabel>
+
+  <SurgeryOutcomeBase.outcomes.4.letterLabel>Ameliyat başarısız: {PATIENT_labelShort} kısırlaştı</SurgeryOutcomeBase.outcomes.4.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
-  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken başarısız oldu ve onu kısır bıraktı ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.4.letterText>
+
+  <SurgeryOutcomeBase.outcomes.4.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ({RECIPE_label}) başarısız oldu ve hasta kısır kaldı.</SurgeryOutcomeBase.outcomes.4.letterText>
+
   <!-- EN: Surgery failed on {PATIENT_labelShort}: Sterilized -->
-  <SurgeryOutcomeBase.outcomes.5.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu: Kısır kaldı</SurgeryOutcomeBase.outcomes.5.letterLabel>
+
+  <SurgeryOutcomeBase.outcomes.5.letterLabel>Ameliyat başarısız: {PATIENT_labelShort} kısırlaştı</SurgeryOutcomeBase.outcomes.5.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has failed while operating on {PATIENT_labelShort} ({RECIPE_label}), leaving {PATIENT_objective} sterile. -->
-  <SurgeryOutcomeBase.outcomes.5.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken başarısız oldu ve onu kısır bıraktı ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.5.letterText>
+
+  <SurgeryOutcomeBase.outcomes.5.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ({RECIPE_label}) başarısız oldu ve hasta kısır kaldı.</SurgeryOutcomeBase.outcomes.5.letterText>
+
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeBase.outcomes.6.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu</SurgeryOutcomeBase.outcomes.6.letterLabel>
+
+  <SurgeryOutcomeBase.outcomes.6.letterLabel>Ameliyat başarısız: {PATIENT_labelShort}</SurgeryOutcomeBase.outcomes.6.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken hayati olmayan bir şekilde başarısız oldu ({RECIPE_label}).</SurgeryOutcomeBase.outcomes.6.letterText>
+
+  <SurgeryOutcomeBase.outcomes.6.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ({RECIPE_label}) küçük bir hata yaptı.</SurgeryOutcomeBase.outcomes.6.letterText>
+
   
+
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>{PATIENT_labelShort} isimli hastanın ameliyatı başarısız oldu</SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>
+
+  <SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>Ameliyat başarısız: {PATIENT_labelShort}</SurgeryOutcomeMinorFailure.outcomes.1.letterLabel>
+
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <SurgeryOutcomeMinorFailure.outcomes.1.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} kişisini ameliyat ederken hayati olmayan bir şekilde başarısız oldu ({RECIPE_label}).</SurgeryOutcomeMinorFailure.outcomes.1.letterText>
+
+  <SurgeryOutcomeMinorFailure.outcomes.1.letterText>{SURGEON_labelShort}, {PATIENT_labelShort} adlı hastayı ameliyat ederken ({RECIPE_label}) küçük bir hata yaptı.</SurgeryOutcomeMinorFailure.outcomes.1.letterText>
+
   
+
 </LanguageData>

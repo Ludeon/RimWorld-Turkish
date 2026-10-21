@@ -1,123 +1,73 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: Uncontrolled mechs -->
-  <AlertMechLacksOverseer>Kontrol edilmeyen mekanoitler</AlertMechLacksOverseer>
-  <!-- EN: One or more of your mechanoids is not controlled. Connect your mechanoids to a mechanitor with sufficient bandwidth to control them.\n\nIf left uncontrolled for more than a day, a mechanoid could go feral. When this happens they will join {0} and become hostile to you. If one mechanoid goes feral, it will bring other nearby mechanoids with it.\n\nFeral mechanoids cannot be resurrected at a gestator when killed. -->
-  <AlertMechLacksOverseerDesc>Mekanoitlerinden biri veya daha fazlası kontrol edilmiyor. Mekanoitlerini, onları kontrol etmek için yeterli bant genişliğine sahip bir mekanitöre bağla.\n\nBir mekanoit, bir günden fazla kontrolsüz bırakılırsa vahşileşebilir. Bu olduğunda, {0} tarafına geçip sana düşman olurlar. Bir mekanoit vahşileşirse, yanındaki diğer mekanoitleri de beraberinde getirir.\n\nVahşi mekanoitler öldürüldüğü zaman bir taşıyıcıda diriltilemez.</AlertMechLacksOverseerDesc>
-  <!-- EN: The following mechanoids are uncontrolled -->
-  <AlertMechLacksOverseerUncontrolled>Aşağıdaki mekanoitler kontrol edilmiyor</AlertMechLacksOverseerUncontrolled>
-  <!-- EN: The following mechanoids are uncontrolled and could go feral at any moment -->
-  <AlertMechLacksOverseerMayGoFeral>Aşağıdaki mekanoitler kontrol edilmiyor ve her an vahşileşebilir</AlertMechLacksOverseerMayGoFeral>
+  <AlertMechLacksOverseer>Kontrolsüz mekler</AlertMechLacksOverseer>
+  <AlertMechLacksOverseerDesc>Mekanoidlerinden biri ya da birkaçı kontrol edilmiyor. Mekanoidlerini, onları kontrol edecek yeterli bant genişliğine sahip bir mekanitöre bağla.\n\nBir mekanoid bir günden uzun süre kontrolsüz kalırsa yabanileşebilir. Bu olduğunda {0} hizbine katılır ve sana düşman olur. Bir mekanoid yabanileşirse yakındaki diğer mekanoidleri de kendisiyle birlikte götürür.\n\nYabanileşmiş mekanoidler öldürüldüklerinde bir gestatörde diriltilemez.</AlertMechLacksOverseerDesc>
+  <AlertMechLacksOverseerUncontrolled>Şu mekanoidler kontrolsüz</AlertMechLacksOverseerUncontrolled>
+  <AlertMechLacksOverseerMayGoFeral>Şu mekanoidler kontrolsüz ve her an yabanileşebilir</AlertMechLacksOverseerMayGoFeral>
 
-  <!-- EN: {0} is low on resources -->
-  <AlertWarqueenHasLowResources>{0} kaynak yetersizliği yaşıyor</AlertWarqueenHasLowResources>
-  <!-- EN: One or more {0} are low on resources. They will be unable to produce mechs on command if they run out of resources. -->
-  <AlertWarqueenHasLowResourcesDesc>Bir veya daha fazla {0} kaynak yetersizliği yaşıyor. Kaynakları bittiği takdirde emre istinaden mekanoit üretemeyecekler.</AlertWarqueenHasLowResourcesDesc>
+  <AlertWarqueenHasLowResources>{0}: kaynakları azaldı</AlertWarqueenHasLowResources>
+  <AlertWarqueenHasLowResourcesDesc>Bir ya da daha fazla {0} biriminin kaynakları azaldı. Kaynakları tükenirse emir üzerine mek üretemezler.</AlertWarqueenHasLowResourcesDesc>
 
-  <!-- EN: {PAWN} needs deathrest -->
   <AlertLowDeathrestPawn>{PAWN} ölüm uykusuna ihtiyaç duyuyor</AlertLowDeathrestPawn>
-  <!-- EN: {NUMCULPRITS} colonists need deathrest -->
-  <AlertLowDeathrestPawns>{NUMCULPRITS} kolonici ölüm uykusuna ihtiyaç duyuyor</AlertLowDeathrestPawns>
-  <!-- EN: A colonist has not deathrested for a long time. If they go too long without deathrest, they will suffer from deathrest exhaustion.\n\nTo deathrest, select the colonist then right-click on their assigned bed or deathrest casket.\n\nThese people need deathrest:\n{CULPRITS} -->
-  <AlertLowDeathrestDesc>Bir kolonici uzun süredir ölüm uykusuna yatmadı. Ölüm uykusuna yatmadan çok uzun süre geçerse, ölüm uykusu bitkinliğinden mustarip olurlar.\n\nÖlüm uykusu için koloniciyi seç ve ona atanan yatağa veya ölüm uykusu tabutuna sağ tıkla.\n\nŞu kişilerin ölüm uykusuna ihtiyacı var:\n{CULPRITS}</AlertLowDeathrestDesc>
+  <AlertLowDeathrestPawns>{NUMCULPRITS} kolonist ölüm uykusuna ihtiyaç duyuyor</AlertLowDeathrestPawns>
+  <AlertLowDeathrestDesc>Bir kolonist uzun süredir ölüm uykusuna yatmadı. Ölüm uykusuz çok uzun kalırsa ölüm uykusu yorgunluğu çeker.\n\nÖlüm uykusuna yatırmak için kolonisti seç ve atandığı yatağa ya da ölüm uykusu tabutuna sağ tıkla.\n\nŞu kişilerin ölüm uykusuna ihtiyacı var:\n{CULPRITS}</AlertLowDeathrestDesc>
 
-  <!-- EN: Low hemogen -->
-  <AlertLowHemogen>Düşük hemojen</AlertLowHemogen>
-  <!-- EN: A colonist has low hemogen. At zero hemogen, they will develop a painful hemogen craving.\n\nFeed them hemogen packs to prevent this. You can obtain hemogen packs using the 'extract hemogen pack' medical operation on a non-hemogenic human.\n\nThe following colonists have low hemogen -->
-  <AlertLowHemogenDesc>Bir kolonicinin hemojen seviyesi düşük. Hemojen sıfırlandığında, ağrılı bir hemojen krizine girecektir.\n\nBunu önlemek için onu hemojen paketleri ile besle. Hemojenik olmayan bir insan üzerinde 'hemojen paketi yap' ameliyatı yaparak hemojen paketleri elde edebilirsin.\n\nAşağıdaki kolonicilerin hemojeni düşük</AlertLowHemogenDesc>
+  <AlertLowHemogen>Hemojen az</AlertLowHemogen>
+  <AlertLowHemogenDesc>Bir kolonistin hemojeni az. Hemojeni sıfıra düşerse acı veren bir hemojen açlığı çeker.\n\nBunu önlemek için ona hemojen paketleri ver. Hemojen paketlerini, hemojenik olmayan bir insana 'hemojen paketi çıkar' tıbbi ameliyatını uygulayarak elde edebilirsin.\n\nŞu kolonistlerin hemojeni az</AlertLowHemogenDesc>
 
-  <!-- EN: Recharger full -->
   <AlertRechargerFull>Şarj istasyonu dolu</AlertRechargerFull>
-  <!-- EN: Some mech recharger(s) are storing their maximum number of toxic wastepacks. Mechs can't use these chargers until the toxic wastepacks are hauled away.\n\nSelect a colonist and right-click a recharger to unload it. -->
-  <AlertRechargerFullDesc>Bazı mek şarj istasyonları, maksimum sayıda zehirli atık paketi depoluyor. Mekanoitler, zehirli atık paketleri alınıncaya kadar bu şarj istasyonlarını kullanamaz.\n\nBir kolonici seç ve boşaltmak için bir şarj istasyonuna sağ tıkla.</AlertRechargerFullDesc>
+  <AlertRechargerFullDesc>Bazı mek şarj istasyonları azami sayıda zehirli atık paketi depoluyor. Zehirli atık paketleri taşınıp götürülene kadar mekler bu istasyonları kullanamaz.\n\nBoşaltmak için bir kolonist seç ve şarj istasyonuna sağ tıkla.</AlertRechargerFullDesc>
 
-  <!-- EN: Need mech rechargers -->
-  <AlertNeedMechChargers>Mek şarj istasyonu gerekiyor</AlertNeedMechChargers>
-  <!-- EN: You don't have rechargers for all your mechanoids. If a mech runs out of energy, it will fall into a dormant self-charging state and will recharge very slowly.\n\nBuild more of the following chargers:\n{0}\n\nNote: Only light mechanoids can use regular mech rechargers. Medium or heavier mechanoids require large mech rechargers. -->
-  <AlertNeedMechChargersDesc>Tüm mekanoitlere yetecek kadar şarj istasyonun yok. Bir mekanoitin enerjisi biterse, kendini şarj etme moduna geçer ve çok yavaş şarj olur.\n\nAşağıdaki şarj istasyonlarından daha fazla inşa et:\n\n{0}\n\nNot: Yalnızca hafif mekanoitler için normal mek şarj istasyonları kullan. Orta veya daha ağır mekanoitler için büyük mek şarj istasyonları gerekir.</AlertNeedMechChargersDesc>
-  <!-- EN: Research basic mechtech or higher to build rechargers. -->
-  <AlertNeedMechChargerBasicMechtech>Şarj istasyonları inşa etmek için temel mekatek veya daha üstünü araştır.</AlertNeedMechChargerBasicMechtech>
+  <AlertNeedMechChargers>Mek şarj istasyonu gerekli</AlertNeedMechChargers>
+  <AlertNeedMechChargersDesc>Tüm mekanoidlerin için şarj istasyonun yok. Bir mekin enerjisi biterse kendi kendini şarj ettiği uyku hâline geçer ve çok yavaş şarj olur.\n\nŞu şarj istasyonlarından daha fazla inşa et:\n{0}\n\nNot: Normal mek şarj istasyonlarını yalnızca hafif mekanoidler kullanabilir. Orta ya da daha ağır mekanoidler büyük mek şarj istasyonlarına ihtiyaç duyar.</AlertNeedMechChargersDesc>
+  <AlertNeedMechChargerBasicMechtech>Şarj istasyonu inşa etmek için temel mek teknolojisi ya da daha üstünü araştır.</AlertNeedMechChargerBasicMechtech>
 
-  <!-- EN: Reimplantation available -->
-  <AlertReimplantationAvailable>Yeniden aşılama mevcut</AlertReimplantationAvailable>
-  <!-- EN: {0_nameDef} is waiting to reimplant {0_possessive} xenogerm into one of your colonists. -->
-  <AlertReimplantationAvailableDesc>{0_nameDef}, zenogermini kolonicilerinden birine yeniden aşılamayı bekliyor.</AlertReimplantationAvailableDesc>
+  <AlertReimplantationAvailable>Yeniden yerleştirme mümkün</AlertReimplantationAvailable>
+  <AlertReimplantationAvailableDesc>{0_nameDef}, ksenomayasını kolonistlerinden birine yeniden yerleştirmek için bekliyor.</AlertReimplantationAvailableDesc>
 
-  <!-- EN: Low baby food -->
-  <AlertLowBabyFood>Düşük bebek maması</AlertLowBabyFood>
-  <!-- EN: You are dangerously low on baby food.\n\n    Babies needing food: {0}\n    Days worth of baby food in storage: {1}\n\nBuy, find or make some baby-edible food. This includes {2}. -->
-  <AlertLowBabyFoodDesc>Bebek maması tehlikeli ölçüde az.\n\n    Besine ihtiyaç duyan bebekler: {0}\n    Depodaki bebek maması miktarı: {1}\n\nBebeklerin yiyebileceği daha fazla besin satın al, bul veya yap. {2} buna dâhil.</AlertLowBabyFoodDesc>
-  <!-- EN: No baby feeders -->
-  <AlertNoBabyFeeder>Bebek besleyici yok</AlertNoBabyFeeder>
-  <!-- EN: No {FACTION_pawnsPlural} are assigned to feed these babies, or they're all downed.\n\nAssign one of your {FACTION_pawnsPlural} to childcare or assign a lactating {FACTION_pawnSingular} to feed these babies with Urgent priority in the babies' feeding tab, and ensure at least one of them is not downed. -->
-  <AlertNoBabyFeederDesc>Bebekleri beslemesi için hiçbir {FACTION_pawnsPlural} atanmadı veya hepsi etkisiz hâlde.\n\nKolonicilerinden birini çocuk bakımına ata ya da bebeklerin beslenme sekmesinden Acil öncelik ile bu bebekleri beslemesi için süt salgılayan bir kolonici ata. Ayrıca, en az birinin etkisiz hâlde olmadığından emin ol.</AlertNoBabyFeederDesc>
-  <!-- EN: Abandoned baby -->
+  <AlertLowBabyFood>Bebek maması az</AlertLowBabyFood>
+  <AlertLowBabyFoodDesc>Bebek maman tehlikeli derecede az.\n\n    Beslenmesi gereken bebekler: {0}\n    Depodaki bebek maması (gün): {1}\n\nBebeklerin yiyebileceği yiyecekler satın al, bul ya da yap. Bunlara {2} dahildir.</AlertLowBabyFoodDesc>
+  <AlertNoBabyFeeder>Bebekleri besleyen yok</AlertNoBabyFeeder>
+  <AlertNoBabyFeederDesc>Bu bebekleri beslemek için atanmış {FACTION_pawnsPlural} yok ya da hepsi yere düşmüş.\n\n{FACTION_pawnsPlural} arasından birini çocuk bakımına ata ya da bebeklerin besleme sekmesinden emziren bir {FACTION_pawnSingular} bireyini bu bebekleri Acil öncelikle beslemesi için ata ve en az birinin yere düşmüş olmadığından emin ol.</AlertNoBabyFeederDesc>
   <AlertAbandonedBaby>Terk edilmiş bebek</AlertAbandonedBaby>
-  <!-- EN: There are abandoned babies nearby with no closeby caregivers.  If you don't adopt the babies, they'll probably starve to death.\n\nTo adopt a baby, select it and then select "{0}". -->
-  <AlertAbandonedBabyDesc>Yakınlarda, bakıcısı olmayan terk edilmiş bebekler var. Bebekleri evlat edinmezsen, muhtemelen açlıktan ölecekler. Bir bebeği evlat edinmek için, bebeği seç ve ardından "{0}" seçeneğine tıkla.</AlertAbandonedBabyDesc>
+  <AlertAbandonedBabyDesc>Yakında, yanlarında bakım verecek kimse olmayan terk edilmiş bebekler var. Bebekleri evlat edinmezsen büyük ihtimalle açlıktan ölecekler.\n\nBir bebeği evlat edinmek için onu seç ve ardından "{0}" seçeneğini seç.</AlertAbandonedBabyDesc>
 
-  <!-- EN: No baby food in caravan -->
   <AlertNoBabyFoodCaravan>Kervanda bebek maması yok</AlertNoBabyFoodCaravan>
-  <!-- EN: Babies on this caravan have no baby food and no lactating {FACTION_pawnsPlural} are set to feed them. -->
-  <AlertNoBabyFoodCaravanDesc>Bu kervandaki bebeklerin bebek maması yok ve onları beslemesi için süt salgılayan bir kolonici atanmamış.</AlertNoBabyFoodCaravanDesc>
+  <AlertNoBabyFoodCaravanDesc>Bu kervandaki bebeklerin bebek maması yok ve onları beslemek üzere ayarlanmış emziren {FACTION_pawnsPlural} yok.</AlertNoBabyFoodCaravanDesc>
 
-  <!-- EN: Toxic buildup -->
-  <AlertToxicBuildup>Toksik birikim</AlertToxicBuildup>
-  <!-- EN: These colonists have serious toxic buildup:\n\n{0}\n\nMove them away from toxic sources.\n\nToxic buildup can be caused by many things including toxic fallout, tox gas, and polluted terrain. -->
-  <AlertToxicBuildupDesc>Şu kolonicilerin ciddi toksik birikimi var:\n\n{0}\n\nOnları toksik kaynaklardan uzaklaştır.\n\nToksik birikim, toksik serpinti, toksik gaz ve kirli arazi gibi birçok şeyden kaynaklanabilir.</AlertToxicBuildupDesc>
+  <AlertToxicBuildup>Zehir birikimi</AlertToxicBuildup>
+  <AlertToxicBuildupDesc>Bu kolonistlerde ciddi zehir birikimi var:\n\n{0}\n\nOnları zehir kaynaklarından uzaklaştır.\n\nZehir birikimine zehirli serpinti, zehir gazı ve kirli zemin gibi birçok şey neden olabilir.</AlertToxicBuildupDesc>
 
-  <!-- EN: Need baby cribs -->
-  <AlertNeedBabyCribs>Bebek beşiği gerekiyor</AlertNeedBabyCribs>
-  <!-- EN: You have more babies than cribs.\n\nMake more cribs or, if you have no resources to spare, place some baby sleeping spots for free. -->
-  <AlertNeedBabyCribsDesc>Beşik sayısından daha fazla bebeğin var.\n\nDaha fazla beşik yap veya ayıracak kaynağın yoksa ücretsiz bebek uyuma noktaları koy.</AlertNeedBabyCribsDesc>
-  <!-- EN: Need slave cribs -->
-  <AlertNeedSlaveCribs>Köle bebek beşiği gerekiyor</AlertNeedSlaveCribs>
-  <!-- EN: You have more slave babies than you have cribs marked for slave use.\n\nEither make more cribs or change a colonist crib to a slave crib.\n\nIf you have no resources, baby sleeping spots are free and can be placed instantly. -->
-  <AlertNeedSlaveCribsDesc>Köle kullanımı için işaretlenmiş beşiklerinden daha fazla köle bebeğin var.\n\nDaha fazla beşik yap veya bir kolonici beşiğini köle beşiğine çevir.\n\nKaynağın yoksa, bebek uyuma noktaları ücretsizdir ve anında yerleştirilebilir.</AlertNeedSlaveCribsDesc>
+  <AlertNeedBabyCribs>Beşik gerekli</AlertNeedBabyCribs>
+  <AlertNeedBabyCribsDesc>Beşikten daha fazla bebeğin var.\n\nDaha fazla beşik yap ya da ayıracak kaynağın yoksa ücretsiz bebek uyku noktaları yerleştir.</AlertNeedBabyCribsDesc>
+  <AlertNeedSlaveCribs>Köle beşiği gerekli</AlertNeedSlaveCribs>
+  <AlertNeedSlaveCribsDesc>Köle kullanımı için işaretlenmiş beşiklerden daha fazla köle bebeğin var.\n\nDaha fazla beşik yap ya da bir kolonist beşiğini köle beşiğine çevir.\n\nKaynağın yoksa bebek uyku noktaları ücretsizdir ve anında yerleştirilebilir.</AlertNeedSlaveCribsDesc>
 
-  <!-- EN: Polluted terrain -->
-  <AlertPollutedTerrain>Kirli arazi</AlertPollutedTerrain>
-  <!-- EN: A person or animal is suffering toxic buildup and is on polluted terrain. Any time someone is on polluted terrain, their toxic buildup will increase over time until they die.\n\nThese people or animals are affected:\n\n{0}\n\nKeep people off polluted terrain, or find a way to protect them from its effects. Certain apparel, implants and gene modifications can protect from toxic buildup. Polluted terrain cannot be covered using a floor, but it can be cleaned by hand and other methods. -->
-  <AlertPollutedTerrainDesc>Bir kişi veya hayvan, kirli arazide ve toksik birikime maruz kalıyor. Ne zaman biri kirli arazide olsa, toksik birikimi zamanla artar ve en sonunda ölür.\n\nŞu insanlar veya hayvanlar etkileniyor:\n\n{0}\n\nİnsanları kirli araziden uzak tut veya etkilerden koruyacak bir yol bul. Bazı giysiler, implantlar ve gen modifikasyonları toksik birikimden koruyabilir. Kirli arazi zemin ile kapatılamaz fakat elle ve diğer yöntemlerle temizlenebilir.</AlertPollutedTerrainDesc>
+  <AlertPollutedTerrain>Kirli zemin</AlertPollutedTerrain>
+  <AlertPollutedTerrainDesc>Bir kişi ya da hayvan zehir birikimi yaşıyor ve kirli zeminin üzerinde. Biri kirli zeminde bulunduğu sürece zehir birikimi, o kişi ölene kadar zamanla artar.\n\nŞu kişiler ya da hayvanlar etkileniyor:\n\n{0}\n\nİnsanları kirli zeminden uzak tut ya da onları etkilerinden korumanın bir yolunu bul. Bazı giysiler, implantlar ve gen değişiklikleri zehir birikimine karşı koruyabilir. Kirli zemin bir döşemeyle örtülemez, ama elle ve başka yöntemlerle temizlenebilir.</AlertPollutedTerrainDesc>
 
-  <!-- EN: Mechanoid missing part -->
-  <AlertMechMissingBodyPart>Mekanoitin parçası eksik</AlertMechMissingBodyPart>
-  <!-- EN: Mechanoids missing parts -->
-  <AlertMechsMissingBodyPart>Mekanoitlerin parçaları eksik</AlertMechsMissingBodyPart>
-  <!-- EN: One or more of your mechanoids are missing a body part. A mechanitor can repair lost parts.\n\nThe mechanoids with lost body parts are -->
-  <AlertMechMissingBodyPartDesc>Mekanoitlerinden biri veya daha fazlasının bir vücut parçası eksik. Bir mekanitör eksik parçaları onarabilir.\n\nŞu mekanoitlerin parçaları eksik</AlertMechMissingBodyPartDesc>
+  <AlertMechMissingBodyPart>Mekanoidin parçası eksik</AlertMechMissingBodyPart>
+  <AlertMechsMissingBodyPart>Mekanoidlerin parçaları eksik</AlertMechsMissingBodyPart>
+  <AlertMechMissingBodyPartDesc>Mekanoidlerinden biri ya da birkaçının bir vücut parçası eksik. Bir mekanitör eksik parçaları onarabilir.\n\nVücut parçası eksik olan mekanoidler</AlertMechMissingBodyPartDesc>
 
-  <!-- EN: Mechanoid repair needed -->
-  <AlertMechNeedsRepair>Mekanoit onarımı gerekli</AlertMechNeedsRepair>
-  <!-- EN: These mechanoids are damaged and need repair -->
-  <AlertMechNeedsRepairDescPrefix>Şu mekanoitler hasarlı ve tamir edilmesi gerekiyor</AlertMechNeedsRepairDescPrefix>
-  <!-- EN: Order a mechanitor to repair them, or select the mech and turn on auto-repair. Repairing a mechanoid requires energy. If a mechanoid's energy is so low it can't move, someone must carry it to a recharger. -->
-  <AlertMechNeedsRepairDesc>Onları onarması için bir mekanitöre emir ver veya mekanoiti seçerek oto-tamiri açın. Bir mekanoiti onarmak enerji gerektirir. Bir mekanoitin enerjisi hareket edemeyecek kadar düşükse, birinin onu şarj istasyonuna taşıması gerekir.</AlertMechNeedsRepairDesc>
+  <AlertMechNeedsRepair>Mekanoid onarımı gerekli</AlertMechNeedsRepair>
+  <AlertMechNeedsRepairDescPrefix>Bu mekanoidler hasarlı ve onarılmaları gerekiyor</AlertMechNeedsRepairDescPrefix>
+  <AlertMechNeedsRepairDesc>Onları onarması için bir mekanitöre emir ver ya da meki seçip otomatik onarımı aç. Bir mekanoidi onarmak enerji gerektirir. Bir mekanoidin enerjisi hareket edemeyecek kadar düşükse birinin onu bir şarj istasyonuna taşıması gerekir.</AlertMechNeedsRepairDesc>
   
-  <!-- EN: {0} stopped -->
   <AlertToxifierGeneratorStopped>{0} durdu</AlertToxifierGeneratorStopped>
-  <!-- EN: Your {0} is not producing power because it has no nearby fertile terrain to convert.\n\nClean polluted terrain with pollution pumps, or by assigning a pollution removal area. -->
-  <AlertToxifierGeneratorStoppedDesc>{0} cihazın yakınlarda dönüştürülecek verimli bir arazi olmadığı için güç üretmiyor.\n\nKirli araziyi atık pompalarıyla veya bir kirlilik giderme alanı atayarak temizle.</AlertToxifierGeneratorStoppedDesc>
+  <AlertToxifierGeneratorStoppedDesc>{0} güç üretmiyor çünkü yakınında dönüştürecek verimli zemin kalmadı.\n\nKirli zemini kirlilik pompalarıyla ya da bir kirlilik temizleme alanı belirleyerek temizle.</AlertToxifierGeneratorStoppedDesc>
 
-  <!-- EN: Psychic bond distance -->
   <AlertPsychicBondedPawnsSeparated>Psişik bağ mesafesi</AlertPsychicBondedPawnsSeparated>
-  <!-- EN: Some colonists with psychic bonds have been separated and are feeling negative effects from the distance. To avoid this, people with a psychic bond must be in the same world tile, caravan, or vehicle. Additionally, they must not be in cryptosleep or similar suspended animation.\n\nThe following people are affected -->
-  <AlertPsychicBondedPawnsSeparatedDesc>Psişik bağları olan bazı koloniciler ayrı kalmış ve uzaktan olumsuz etkiler hissediyorlar. Bundan kaçınmak için, psişik bağı olan kişilerin dünya haritasında aynı altıgende, kervanda veya araçta olması gerekir. Ayrıca, kripto-uykuda veya benzer bir geçici ölüm hâlinde olmamalılar.\n\nAşağıdaki kişiler etkileniyor</AlertPsychicBondedPawnsSeparatedDesc>
+  <AlertPsychicBondedPawnsSeparatedDesc>Psişik bağı olan bazı kolonistler birbirinden ayrıldı ve mesafe yüzünden olumsuz etkiler yaşıyor. Bunu önlemek için psişik bağı olan kişiler aynı dünya bölge karesinde, kervanda ya da araçta bulunmalıdır. Ayrıca kripto-uykuda ya da benzeri bir askıya alınmış yaşam durumunda olmamalıdırlar.\n\nŞu kişiler etkileniyor</AlertPsychicBondedPawnsSeparatedDesc>
 
-  <!-- EN: Gene bank needs power -->
   <AlertGenebankUnpowered>Gen bankasının güce ihtiyacı var</AlertGenebankUnpowered>
-  <!-- EN: A gene bank is unpowered, so the genepacks inside it are slowly deteriorating. Restore power to the gene bank to prevent the genepacks from deteriorating.\n\nOnce the gene bank is powered, it will slowly reverse the deterioration of the genepacks inside it. -->
-  <AlertGenebankUnpoweredDesc>Bir gen bankası güç almıyor, bu nedenle içindeki gen paketleri yavaş yavaş bozuluyor. Gen paketlerinin bozulmasını önlemek için gen bankasına yeniden güç sağla.\n\nGen bankasına güç verildiğinde, içindeki gen paketlerinin bozulmasını yavaş yavaş tersine dönecektir.</AlertGenebankUnpoweredDesc>
+  <AlertGenebankUnpoweredDesc>Bir gen bankasında güç yok, bu yüzden içindeki gen paketleri yavaşça bozuluyor. Gen paketlerinin bozulmasını önlemek için gen bankasına yeniden güç ver.\n\nGen bankasına güç verildiğinde içindeki gen paketlerindeki bozulmayı yavaşça tersine çevirir.</AlertGenebankUnpoweredDesc>
 
-  <!-- EN: {0} incoming -->
   <AlertBossgroupIncoming>{0} geliyor</AlertBossgroupIncoming>
-  <!-- EN: Signaled by your mechanitor, a hostile {0} is approaching with its combat escort. Be prepared, this won't be an easy fight. The hostile mechanoids will arrive in a few hours or days. -->
-  <AlertBossgroupIncomingDesc>Mekanitörün tarafından sinyal yollanan düşman bir {0}, muharebe eskortuyla birlikte yaklaşıyor. Hazırlıklı ol, bu kolay bir mücadele olmayacak. Düşman mekanoitler birkaç saat veya gün içerisinde gelecek.</AlertBossgroupIncomingDesc>
+  <AlertBossgroupIncomingDesc>Mekanitörünün sinyaliyle çağrılan düşman bir {0}, savaş eskortuyla birlikte yaklaşıyor. Hazırlıklı ol, bu kolay bir savaş olmayacak. Düşman mekanoidler birkaç saat ya da birkaç gün içinde gelecek.</AlertBossgroupIncomingDesc>
 
-  <!-- EN: Deathrest complete -->
   <AlertDeathrestComplete>Ölüm uykusu tamamlandı</AlertDeathrestComplete>
-  <!-- EN: The following people have completed their deathrest and can wake up safely -->
-  <AlertDeathrestCompleteDesc>Aşağıdaki kişiler ölüm uykularını tamamladılar ve güvenle uyanabilirler</AlertDeathrestCompleteDesc>
+  <AlertDeathrestCompleteDesc>Şu kişiler ölüm uykularını tamamladı ve güvenle uyanabilir</AlertDeathrestCompleteDesc>
 
 </LanguageData>

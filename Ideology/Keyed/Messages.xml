@@ -1,159 +1,95 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: Create or select an ideoligion for your faction. -->
-  <MessageMustChooseIdeo>Fraksiyonun için bir ideodin oluştur veya seç.</MessageMustChooseIdeo>
-  <!-- EN: The ideoligion name can't be empty. -->
-  <MessageIdeoNameCantBeEmpty>İdeodin adı boş bırakılamaz.</MessageIdeoNameCantBeEmpty>
-  <!-- EN: {PRECEPT1} and {PRECEPT2} are incompatible. -->
-  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} ve {PRECEPT2} uyumlu değil.</MessageIdeoIncompatiblePrecepts>
-  <!-- EN: {DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement. -->
-  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} kıyafet isteği, {ROLE} kıyafet gereksinimiyle çakışıyor.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
-  <!-- EN: {DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together. -->
-  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}, {ROLE} kıyafet gereksinimiyle ({ROLEAPPAREL}) çakışıyor. Bu durum, {ROLE} rolündekilerin gereken ve istenen kıyafetleri birlikte giymesini imkânsız hâle getirecek.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
-  <!-- EN: {PRECEPT} needs one of these buildings -->
+  <MessageMustChooseIdeo>Hizbin için bir ideodin oluştur veya seç.</MessageMustChooseIdeo>
+  <MessageIdeoNameCantBeEmpty>İdeodin adı boş olamaz.</MessageIdeoNameCantBeEmpty>
+  <MessageIdeoIncompatiblePrecepts>{PRECEPT1} ile {PRECEPT2} birbiriyle uyumsuz.</MessageIdeoIncompatiblePrecepts>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} giysi isteği, {ROLE} giysi gereksinimiyle çakışıyor.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL}, {ROLE} giysi gereksinimiyle ({ROLEAPPAREL}) çakışıyor. Bu durumda {ROLE} rolündekiler gereken ve istenen giysileri aynı anda giyemez.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <MessageRitualMissingTarget>{PRECEPT} şu yapılardan birine ihtiyaç duyuyor</MessageRitualMissingTarget>
-  <!-- EN: {PRECEPT} needs an associated ritual. -->
-  <MessageBuildingMissingRitual>{PRECEPT} ilgili bir ritüele ihtiyaç duyuyor.</MessageBuildingMissingRitual>
-  <!-- EN: {0_labelShort} refuses to do this because of {0_possessive} ideoligion. -->
-  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort}, ideodini nedeniyle bunu yapmayı reddediyor.</MessagePawnUnwillingToDoDueToIdeo>
-  <!-- EN: {INITIATOR_nameDef} tried to convert {RECIPIENT_nameDef} to {INITIATOR_possessive} ideoligion. {RECIPIENT_nameDef}'s certainty has fallen from {CERTAINTYBEFORE} to {CERTAINTYAFTER}. {RECIPIENT_pronoun} resents the conversion attempt. -->
-  <MessageFailedConvertIdeoAttempt>{RECIPIENT_nameDef}, {INITIATOR_nameDef} tarafından onun ideodinine inandırılmaya çalışıldı. İmanı {CERTAINTYBEFORE} iken {CERTAINTYAFTER} oldu. {RECIPIENT_nameDef} tebliğ girişimine direniyor.</MessageFailedConvertIdeoAttempt>
-  <!-- EN: {PAWN1_nameDef} tried to convert {PAWN2_nameDef} to {PAWN1_possessive} ideoligion. This led to a social fight! -->
-  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN2_nameDef}, {PAWN1_nameDef} tarafından onun ideodinine inandırılmaya çalışıldı. Bu sosyal bir kavgaya yol açtı!</MessageFailedConvertIdeoAttemptSocialFight>
-  <!-- EN: You must choose at least {0} memes. -->
-  <MessageNotEnoughMemes>En az {0} ilke seçmelisin.</MessageNotEnoughMemes>
-  <!-- EN: You can't choose more than {0} memes. -->
-  <MessageTooManyMemes>{0} adetten fazla ilke seçemezsin.</MessageTooManyMemes>
-  <!-- EN: You must choose a structure meme. -->
-  <MessageNotEnoughStructureMemes>Bir yapı ilkesi seçmelisin.</MessageNotEnoughStructureMemes>
-  <!-- EN: {0_label} and {1_label} are incompatible with each other. -->
-  <MessageIncompatibleMemes>{0_label} ve {1_label} birbiriyle bağdaşmıyor.</MessageIncompatibleMemes>
-  <!-- EN: You need {0} to start the {1}. -->
-  <MessageNoRequiredRolePawnToBeginRitual>{1} ritüeline başlamak için {0} gerekiyor.</MessageNoRequiredRolePawnToBeginRitual>
-  <!-- EN: At least {0} spectator(s) are required to start the {1}. -->
-  <MessageNotEnoughSpectators>{1} ritüeline başlamak için en az {0} seyirci gerekiyor.</MessageNotEnoughSpectators>
-  <!-- EN: You must choose a role. -->
+  <MessageBuildingMissingRitual>{PRECEPT} ilişkili bir ritüele ihtiyaç duyuyor.</MessageBuildingMissingRitual>
+  <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort}, ideodini yüzünden bunu yapmayı reddediyor.</MessagePawnUnwillingToDoDueToIdeo>
+  <MessageFailedConvertIdeoAttempt>{INITIATOR_nameDef}, {RECIPIENT_nameDef} adlı kişiyi kendi ideodinine dönüştürmeye çalıştı. {RECIPIENT_nameDef} kişisinin kesinliği {CERTAINTYBEFORE} seviyesinden {CERTAINTYAFTER} seviyesine düştü. Bu dönüştürme girişimine içerledi.</MessageFailedConvertIdeoAttempt>
+  <MessageFailedConvertIdeoAttemptSocialFight>{PAWN1_nameDef}, {PAWN2_nameDef} adlı kişiyi kendi ideodinine dönüştürmeye çalıştı. Bu, bir kavgaya yol açtı!</MessageFailedConvertIdeoAttemptSocialFight>
+  <MessageNotEnoughMemes>En az {0} mem seçmelisin.</MessageNotEnoughMemes>
+  <MessageTooManyMemes>{0} memden fazlasını seçemezsin.</MessageTooManyMemes>
+  <MessageNotEnoughStructureMemes>Bir yapı memi seçmelisin.</MessageNotEnoughStructureMemes>
+  <MessageIncompatibleMemes>{0_label} ile {1_label} birbiriyle uyumsuz.</MessageIncompatibleMemes>
+  <MessageNoRequiredRolePawnToBeginRitual>{1} başlatmak için {0} gerekli.</MessageNoRequiredRolePawnToBeginRitual>
+  <MessageNotEnoughSpectators>{1} başlatmak için en az {0} izleyici gerekli.</MessageNotEnoughSpectators>
   <MessageRoleChangeChooseDifferentRole>Bir rol seçmelisin.</MessageRoleChangeChooseDifferentRole>
-  <!-- EN: Before starting the {1}, you must assign someone to the role of {0}. -->
-  <MessageNeedAssignedRoleToBeginRitual>{1} ritüeline başlamadan önce birini {0} rolüne ataman gerekiyor.</MessageNeedAssignedRoleToBeginRitual>
-  <!-- EN: Need at least one {0} participating. -->
-  <MessageNeedAtLeastOneParticipantOfIdeo>En az {0} katılımcı gerekiyor.</MessageNeedAtLeastOneParticipantOfIdeo>
+  <MessageNeedAssignedRoleToBeginRitual>{1} başlatmadan önce {0} rolüne birini atamalısın.</MessageNeedAssignedRoleToBeginRitual>
+  <MessageNeedAtLeastOneParticipantOfIdeo>En az bir {0} katılımcı gerekli.</MessageNeedAtLeastOneParticipantOfIdeo>
   
-  <!-- EN: {0_labelShort} now holds the role of {1}. -->
-  <MessageRoleAssigned>{0_labelShort} artık {1} rolünü üstleniyor.</MessageRoleAssigned>
-  <!-- EN: Since {0_labelShort} became a prisoner, {0_pronoun} no longer can hold the role of {1}. -->
-  <MessageRoleUnassignedPrisoner>{0_labelShort} tutsak olduğundan artık {1} rolünü üstlenemez.</MessageRoleUnassignedPrisoner>
-  <!-- EN: Warning: {0} will be upset if a tree is cut. -->
+  <MessageRoleAssigned>{0_labelShort} artık {1} rolünü taşıyor.</MessageRoleAssigned>
+  <MessageRoleUnassignedPrisoner>{0_labelShort} mahkûm olduğu için artık {1} rolünü taşıyamaz.</MessageRoleUnassignedPrisoner>
   <MessageWarningPlayerDesignatedTreeChopped>Uyarı: Bir ağaç kesilirse {0} üzülecek.</MessageWarningPlayerDesignatedTreeChopped>
-  <!-- EN: Warning: {0} will be upset if mining occurs. -->
   <MessageWarningPlayerDesignatedMining>Uyarı: Madencilik yapılırsa {0} üzülecek.</MessageWarningPlayerDesignatedMining>
-  <!-- EN: The {TREE_label} has had its connection with {PAWN_nameDef} torn. It must recover for {DURATION} before it can reconnect again. -->
-  <MessageConnectedPawnDied>{TREE_label}, {PAWN_nameDef} ile rabıtasını kopardı. Yeniden bağlanabilmesi için {DURATION} boyunca iyileşmesi gerekiyor.</MessageConnectedPawnDied>
+  <MessageConnectedPawnDied>{TREE_label} ile {PAWN_nameDef} arasındaki bağ koptu. Yeniden bağ kurabilmesi için {DURATION} boyunca toparlanması gerekiyor.</MessageConnectedPawnDied>
 
   <!-- Slave interactions -->
-  <!-- EN: {0_nameDef} has been emancipated by {1_nameDef}. -->
-  <MessageSlaveEmancipated>{0_nameDef}, {1_nameDef} tarafından özgür bırakıldı.</MessageSlaveEmancipated>
-  <!-- EN: {0_nameDef} has been enslaved by {1_nameDef}. -->
+  <MessageSlaveEmancipated>{0_nameDef}, {1_nameDef} tarafından azat edildi.</MessageSlaveEmancipated>
   <MessagePrisonerEnslaved>{0_nameDef}, {1_nameDef} tarafından köleleştirildi.</MessagePrisonerEnslaved>
-  <!-- EN: Prisoner {1_nameDef}'s will has been broken by {0_nameDef}. -->
-  <MessagePrisonerWillBroken>{1_nameDef} isimli mahkûmun iradesi {0_nameDef} tarafından kırıldı.</MessagePrisonerWillBroken>
-  <!-- EN: Enslavement will follow. -->
-  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Sırada köleleştirme var.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
+  <MessagePrisonerWillBroken>Mahkûm {1_nameDef} kişisinin iradesi {0_nameDef} tarafından kırıldı.</MessagePrisonerWillBroken>
+  <MessagePrisonerWillBroken_RecruitAttempsWillBegin>Ardından köleleştirme gelecek.</MessagePrisonerWillBroken_RecruitAttempsWillBegin>
 
   <!-- Prisoner interactions -->
-  <!-- EN: No warden is capable of this enslavement. -->
-  <MessageNoWardenCapableOfEnslavement>Hiçbir gardiyan bu köleleştirmeyi gerçekleştirebilecek durumda değil.</MessageNoWardenCapableOfEnslavement>
-  <!-- EN: You have no {MEMBERNAME} wardens to convert {PRISONER_nameDef}. {PRISONER_possessive} interaction mode has reverted to "No interaction". -->
-  <MessageNoWardenOfIdeo>{PRISONER_nameDef} adlı mahkûmu ideodinine katacak {MEMBERNAME} gardiyanın yok. Mahkûmun etkileşim modu, "Etkileşim yok" durumuna döndürüldü.</MessageNoWardenOfIdeo>
+  <MessageNoWardenCapableOfEnslavement>Bu köleleştirmeyi yapabilecek gardiyan yok.</MessageNoWardenCapableOfEnslavement>
+  <MessageNoWardenOfIdeo>{PRISONER_nameDef} kişisini dönüştürecek {MEMBERNAME} gardiyanın yok. Etkileşim modu "Etkileşim yok" olarak geri alındı.</MessageNoWardenOfIdeo>
 
   <!-- Camps -->
-  <!-- EN: You've detected a {CAMP_label} nearby controlled by {FACTION_name}. -->
-  <MessageCampDetected>Yakınlarda {FACTION_name} tarafından kontrol edilen bir {CAMP_label} tespit ettin.</MessageCampDetected>
+  <MessageCampDetected>Yakınlarda {FACTION_name} hizbinin denetiminde bir {CAMP_label} tespit ettin.</MessageCampDetected>
 
   <!-- Charity -->
-  <!-- EN: Charity refused -->
-  <MessageCharityEventRefused>Hayırseverlik yapılmadı</MessageCharityEventRefused>
-  <!-- EN: Charity fulfilled -->
-  <MessageCharityEventFulfilled>Hayırseverlik yapıldı</MessageCharityEventFulfilled>
-  <!-- EN: {0} are leaving empty-handed. -->
-  <MessageBeggarsLeavingWithNoItems>{0} eli boş dönüyor.</MessageBeggarsLeavingWithNoItems>
-  <!-- EN: The {0} has accepted the requested items and is leaving. -->
-  <MessageBeggarsLeavingWithItemsSingular>{0} istenen nesneleri kabul etti ve ayrılıyor.</MessageBeggarsLeavingWithItemsSingular>
-  <!-- EN: {0} have accepted the requested items and are leaving. -->
-  <MessageBeggarsLeavingWithItemsPlural>{0} istenen nesneleri kabul etti ve ayrılıyor.</MessageBeggarsLeavingWithItemsPlural>
-  <!-- EN: {0_nameDef} died without any treatment. -->
-  <MessageWandererLeftToDie>{0_nameDef} herhangi bir tedavi görmeden öldü.</MessageWandererLeftToDie>
-  <!-- EN: {0_nameDef} was left to die. -->
+  <MessageCharityEventRefused>Hayırseverlik reddedildi</MessageCharityEventRefused>
+  <MessageCharityEventFulfilled>Hayırseverlik yerine getirildi</MessageCharityEventFulfilled>
+  <MessageBeggarsLeavingWithNoItems>{0} eli boş ayrılıyor.</MessageBeggarsLeavingWithNoItems>
+  <MessageBeggarsLeavingWithItemsSingular>{0}, istenen eşyaları kabul etti ve ayrılıyor.</MessageBeggarsLeavingWithItemsSingular>
+  <MessageBeggarsLeavingWithItemsPlural>{0}, istenen eşyaları kabul etti ve ayrılıyor.</MessageBeggarsLeavingWithItemsPlural>
+  <MessageWandererLeftToDie>{0_nameDef} hiçbir tedavi görmeden öldü.</MessageWandererLeftToDie>
   <MessageWandererLeftBehind>{0_nameDef} ölüme terk edildi.</MessageWandererLeftBehind>
-  <!-- EN: {0_nameDef} was recruited. -->
-  <MessageWandererRecruited>{0_nameDef} koloniye katıldı.</MessageWandererRecruited>
-  <!-- EN: {0_nameDef} left healthy. -->
-  <MessageWandererLeftHealthy>{0_nameDef} sağlıklı şekilde ayrıldı.</MessageWandererLeftHealthy>
-  <!-- EN: {0} has been failed. -->
+  <MessageWandererRecruited>{0_nameDef} katılmaya ikna edildi.</MessageWandererRecruited>
+  <MessageWandererLeftHealthy>{0_nameDef} sağlıklı bir şekilde ayrıldı.</MessageWandererLeftHealthy>
   <MessageCharityQuestEndedFailed>{0} başarısız oldu.</MessageCharityQuestEndedFailed>
-  <!-- EN: {0} has been successfully completed. -->
   <MessageCharityQuestEndedSuccess>{0} başarıyla tamamlandı.</MessageCharityQuestEndedSuccess>
 
   <!-- Ideo UI -->
-  <!-- EN: Cannot remove -->
-  <CannotRemove>Kaldırılamıyor</CannotRemove>
-  <!-- EN: Cannot remove {MEME} -->
-  <CannotRemoveMemeRequired>{MEME} kaldırılamıyor</CannotRemoveMemeRequired>
-  <!-- EN: Cannot remove {MEME}: Required by player faction. -->
-  <CannotRemoveMemeRequiredPlayer>{MEME} kaldırılamıyor: Oyuncu fraksiyonu için gerekli.</CannotRemoveMemeRequiredPlayer>
-  <!-- EN: Required by {FACTION_name}. -->
-  <RequiredByFaction>{FACTION_name} için gerekli.</RequiredByFaction>
-  <!-- EN: Roles cannot have overlapping apparel requirements. -->
-  <OverlappingRoleApparel>Roller, çakışan giyim gereksinimlerine sahip olamaz.</OverlappingRoleApparel>
+  <CannotRemove>Kaldırılamaz</CannotRemove>
+  <CannotRemoveMemeRequired>{MEME} kaldırılamaz</CannotRemoveMemeRequired>
+  <CannotRemoveMemeRequiredPlayer>{MEME} kaldırılamaz: Oyuncu hizbi tarafından gerekli.</CannotRemoveMemeRequiredPlayer>
+  <RequiredByFaction>{FACTION_name} tarafından gerekli.</RequiredByFaction>
+  <OverlappingRoleApparel>Rollerin giysi gereksinimleri çakışamaz.</OverlappingRoleApparel>
   
-  <!-- EN: {0} will self-destruct in {1}. -->
-  <SelfDestructCountdown>{0_label}, {1} içinde kendini imha edecek.</SelfDestructCountdown>
-  <!-- EN: Precept name is too long (maximum {0} letters) -->
-  <PreceptNameTooLong>Öğreti adı çok uzun (en fazla {0} harf)</PreceptNameTooLong>
+  <SelfDestructCountdown>{0}, {1} içinde kendini imha edecek.</SelfDestructCountdown>
+  <PreceptNameTooLong>İlke adı çok uzun (en fazla {0} harf)</PreceptNameTooLong>
 
   <!-- Ancient complex -->
-  <!-- EN: You've discovered an ancient terminal with info about the {0}! -->
   <MessageAncientTerminalDiscovered>{0} hakkında bilgi içeren antik bir terminal keşfettin!</MessageAncientTerminalDiscovered>
-  <!-- EN: You've discovered secret information about {0}! Get back on the shuttle to launch it. -->
-  <MessageAncientComplexBackToShuttle>{0} hakkında gizli bilgiler keşfettin! Kalkış için mekiğe geri dön.</MessageAncientComplexBackToShuttle>
-  <!-- EN: An ancient supply satellite has been activated. Supplies will drop nearby. -->
-  <MessageAncientSignalActivated>Eski bir ikmal uydusu aktif hâle getirildi. İkmal malzemeleri yakına düşecek.</MessageAncientSignalActivated>
-  <!-- EN: {0} from the {1} have detected the supply signal and are attacking. -->
-  <MessageAncientSignalHostileDetected>{1} fraksiyonundan {0}, ikmal sinyalini algıladı ve saldırıyor.</MessageAncientSignalHostileDetected>
+  <MessageAncientComplexBackToShuttle>{0} hakkında gizli bilgiler keşfettin! Fırlatmak için mekiğe geri dön.</MessageAncientComplexBackToShuttle>
+  <MessageAncientSignalActivated>Antik bir ikmal uydusu etkinleştirildi. Yakınlara ikmal malzemesi düşecek.</MessageAncientSignalActivated>
+  <MessageAncientSignalHostileDetected>{1} hizbinden {0} ikmal sinyalini tespit etti ve saldırıyor.</MessageAncientSignalHostileDetected>
 
   <!-- Ancient altar -->
-  <!-- EN: All security systems are waking up! -->
   <MessageAncientAltarThreatsWokenUp>Tüm güvenlik sistemleri uyanıyor!</MessageAncientAltarThreatsWokenUp>
-  <!-- EN: All security systems are alerted to your presence. -->
-  <MessageAncientAltarThreatsAlerted>Tüm güvenlik sistemleri varlığına karşı uyarılıyor.</MessageAncientAltarThreatsAlerted>
+  <MessageAncientAltarThreatsAlerted>Tüm güvenlik sistemleri varlığından haberdar oldu.</MessageAncientAltarThreatsAlerted>
 
   <!-- Animals -->
-  <!-- EN: Warning: {PAWNKINDLABELPLURAL} are venerated by all {PAWNS}, and will not be harmed. -->
-  <MessageAnimalIsVeneratedForAllColonists>Uyarı: {PAWNKINDLABELPLURAL}, tüm {PAWNS} tarafından saygı görür ve onlara zarar verilmez.</MessageAnimalIsVeneratedForAllColonists>
+  <MessageAnimalIsVeneratedForAllColonists>Uyarı: {PAWNKINDLABELPLURAL} tüm {PAWNS} tarafından kutsal sayılıyor ve onlara zarar verilmeyecek.</MessageAnimalIsVeneratedForAllColonists>
 
   <!-- Archonexus -->
-  <!-- EN: Select at most {0} {1} to bring to the new colony. -->
-  <MessageNewColonyMax>Yeni koloniye getirmek için en fazla {0} {1} seç.</MessageNewColonyMax>
-  <!-- EN: You must select at least 1 colonist. -->
-  <MessageNewColoyRequiresOneColonist>En az 1 kolonici seçmelisin.</MessageNewColoyRequiresOneColonist>
+  <MessageNewColonyMax>Yeni koloniye götürmek için en fazla {0} {1} seç.</MessageNewColonyMax>
+  <MessageNewColoyRequiresOneColonist>En az 1 kolonist seçmelisin.</MessageNewColoyRequiresOneColonist>
 
   <!-- Fuel node -->
-  <!-- EN: A {0} has been ignited and is going to explode! -->
   <MessageFuelNodeTriggered>Bir {0} tutuştu ve patlayacak!</MessageFuelNodeTriggered>
 
   <!-- Ancient complex -->
-  <!-- EN: {0_pawnsPlural} will wake up in {1}. -->
-  <MessageSleepingThreatDelayActivated>{0_pawnsPlural}, {1} içinde uyanacak.</MessageSleepingThreatDelayActivated>
-  <!-- EN: Infestation arriving. -->
-  <MessageInfestationDelayActivated>Böcek istilası geliyor.</MessageInfestationDelayActivated>
-  <!-- EN: {0} was disturbed and might explode soon! -->
-  <MessageFuelNodeDelayActivated>{0} tetiklendi ve yakında patlayabilir!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+  <MessageSleepingThreatDelayActivated>{0_pawnsPlural} {1} içinde uyanacak.</MessageSleepingThreatDelayActivated>
+  <MessageInfestationDelayActivated>İstila geliyor.</MessageInfestationDelayActivated>
+  <MessageFuelNodeDelayActivated>{0} rahatsız edildi ve yakında patlayabilir!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
 
   <!-- Fluid ideo messages -->
-  <!-- EN: Development points changed from {0} to {1} ({2}). -->
-  <MessageDevelopmentPointsEarned>Geliştirme puanları {0} iken {1} oldu ({2}).</MessageDevelopmentPointsEarned>
-  <!-- EN: Only one change to structures, memes and styles is allowed. -->
-  <MessageFluidIdeoOneChangeAllowed>Yapılarda, ilkelerde ve stillerde yalnızca bir değişikliğe izin verilir.</MessageFluidIdeoOneChangeAllowed>
+  <MessageDevelopmentPointsEarned>Gelişim puanı {0} değerinden {1} değerine değişti ({2}).</MessageDevelopmentPointsEarned>
+  <MessageFluidIdeoOneChangeAllowed>Yapılarda, memlerde ve stillerde yalnızca bir değişikliğe izin verilir.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>

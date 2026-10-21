@@ -2,11 +2,10 @@
 <LanguageData>
   
   <!-- EN: animal personhood -->
-  <AnimalPersonhood.label>hayvan kişilik</AnimalPersonhood.label>
+  <AnimalPersonhood.label>hayvan kişiliği</AnimalPersonhood.label>
   <!-- EN: Animals have rights as humans do. -->
-  <AnimalPersonhood.description>Hayvanlar da insanlar gibi haklara sahiptir.</AnimalPersonhood.description>
-  <!-- EN:
-    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
+  <AnimalPersonhood.description>Hayvanların da insanlar gibi hakları vardır.</AnimalPersonhood.description>
+  <!-- EN: <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name] created [sacredAnimalList] and the human on the [place_summary] [place_name] and raised them as siblings.</li>
     <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name] brought the animals and the humans of the [place_summary] [place_name] together in a great conference.</li>
     <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name] blessed the [place_summary] [place_name] with [sacredAnimalListEnd], and taught the people there to honor the animals.</li>
     <li>conflict(tag=meme_AnimalPersonhood)        ->An evil [foeLeader] ordered the wild animals to be hunted, and [foeLeader_possessive] [foeSoldiers] hunted them with cruel [place_personalWeapon]s.</li>
@@ -32,39 +31,38 @@
     <li>sacredAnimalListEnd->the [animal0_thingDef_label], the [animal1_thingDef_label], and the [animal2_thingDef_label]</li>
     <li>sacredAnimalListEnd->the [animal0_thingDef_label], and the [animal1_thingDef_label]</li>
     <li>sacredAnimalListEnd->the [animal0_thingDef_label]</li>
-    <li>sacredAnimalListEnd->the cow, the fox, and the bear</li>
-  -->
+    <li>sacredAnimalListEnd->the cow, the fox, and the bear</li> -->
   <AnimalPersonhood.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name], [place_summary] [place_name] gezegeninde [sacredAnimalList] ve insanı yarattı ve onları kardeşler olarak yetiştirdi.</li>
-    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name], [place_summary] [place_name] gezegenindeki hayvanları ve insanları büyük bir konferansta bir araya getirdi.</li>
-    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name], [place_summary] [place_name] halkını [sacredAnimalListEnd] ile kutsadı ve oradaki insanlara hayvanlara saygı göstermeyi öğretti.</li>
-    <li>conflict(tag=meme_AnimalPersonhood)        ->Kötü bir [foeLeader], vahşi hayvanların avlanmasını emretti ve yolladığı [foeSoldiers], onları zalim [place_personalWeapon] ile avladı.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name], [revelationAdverb] bir [place_job] olan [founderName] ile [veneratedAnimal] hakkında konuştu. Ancak [founderName], [veneratedAnimal] idi ve [veneratedAnimal] da [founderName] idi.</li>
-    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[founderName] adında bir [place_job], zalim efendiler tarafından köleleştirilen birçok hayvanı özgürleştirdi ve onları [deity0_name] korumasındaki bir [altarRoomLabel] içine koydu.</li>
-    <li>victory(tag=meme_AnimalPersonhood)         ->[deity0_name] ona sesini verdi ve [founderName], onun sesiyle [memberNamePlural] ile hayvanlara seslendi ve büyük bir toynak, pençe ve ayak seliyle [foeLeader] ve [foeSoldiers] mağlup edildi</li>
-    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName], yirmi yıl boyunca ormanda yaşayarak hayvanları inceledi ve onlarla bağ kurdu. [founder_pronoun], onların gerçek ahlakını anladı ve hareketimizi kurdu.</li>
-    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName], tarlalarda ve ormanlarda hayvanlarla iletişime geçmeye gitti ve onlarla eşitler olarak bağ kurdu.</li>
-    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->Günlük [veneratedOrAnyAnimal] ziyaretlerimde onları gerçekten dinlemeyi öğrendim. Kendi yöntemleriyle defalarca bana aynı mesajı ilettiler:</li>
-    <li>lesson(tag=meme_AnimalPersonhood)              ->hayvanlar bu dünyada bizim ortaklarımızdır ve onlara daha aşağı varlıklarmış gibi davranmak yanlıştır</li>
-    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Bunu bir [veneratedOrAnyAnimal] bana fısıldayana kadar ben de inanmazdım.</li>
-    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Arkotekler uyandığından beri, insanlar ve hayvanlar arasında ahlaki bir ayrım yapmadıkları açıkça görülmektedir.</li>
-    <li>archistFact(tag=meme_AnimalPersonhood)     ->Arkotekler, biyolojik yaşamdan daha yüksek bir ahlak düzlemindedir. Üstünlükleri o kadar büyüktür ki insanlar, ahlaki açıdan hayvanlarla aynı düzlemdedir.</li>
-    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd] arkotekler, insanları ancak hayvanlara eşit muamele ettikleri takdirde eşitleri olarak yetiştirecek.</li>
-    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Düşünce ve bilinç ruhları, hayvanlar ve insanlar içinde aynı şekilde yaşar.</li>
-    <li>animistFact(tag=meme_AnimalPersonhood)     ->Doğanın hayvanlarının ruhları, insanların içinde yaşayan aynı ruhlardır.</li>
+
+    <li>creation(tag=meme_AnimalPersonhood)        ->[deity0_name], [place_summary] [place_name] üzerinde [sacredAnimalList] ile insanı yarattı ve onları kardeş olarak büyüttü.</li>
+    <li>episode(uses=1,tag=meme_AnimalPersonhood)  ->[deity0_name], [place_summary] [place_name] üzerindeki hayvanları ve insanları büyük bir kurultayda bir araya getirdi.</li>
+    <li>intro(tag=meme_AnimalPersonhood)           ->[deity0_name], [place_summary] [place_name] diyarına [sacredAnimalListEnd] bahşederek orayı kutsadı ve oradaki insanlara hayvanları onurlandırmayı öğretti.</li>
+    <li>conflict(tag=meme_AnimalPersonhood)        ->Kötü bir [foeLeader] yaban hayvanlarının avlanmasını emretti; [foeSoldiers] askerleri de onları acımasız [place_personalWeapon] silahlarıyla avladı.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[deity0_name], [founderName] adlı bir [place_job] karşısına [revelationAdverb] çıktı ve ona bir [veneratedAnimal] hakkında konuştu. Ama [founderName] o [veneratedAnimal] idi, [veneratedAnimal] da [founderName]; ve böylece [deity0_name] tanrısının planını anladı.</li>
+    <li>founderJoin(tag=meme_AnimalPersonhood)     ->[founderName] adlı bir [place_job], zalim efendilerin köleleştirdiği pek çok hayvanı özgür bıraktı ve onları [deity0_name] tanrısının [altarRoomLabel] mekânına sığınmaya götürdü.</li>
+    <li>victory(tag=meme_AnimalPersonhood)         ->[founderName], [deity0_name] tanrısının sesiyle [memberNamePlural] topluluğunu ve hayvanları çağırdı; toynakların, patilerin ve ayakların büyük bir izdihamında [foeLeader] ve [foeSoldiers] askerleri ezilip geçildi.</li>
+    <li>setup(tag=meme_AnimalPersonhood)           ->[founderName] yirmi yıl boyunca ormanda yaşadı; hayvanları inceledi ve onlarla bağ kurdu. Sonunda onların gerçek ahlakını kavradı ve hareketimizi kurdu.</li>
+    <li>story(uses=1,tag=meme_AnimalPersonhood)    ->[founderName], tarlalarda ve ormanlarda hayvanlarla ruhen buluşmaya gitti ve onlarla eşit olarak bağ kurdu.</li>
+    <li>lessonIntro(tag=meme_AnimalPersonhood)         ->[veneratedOrAnyAnimal] hayvanlarını her gün ziyaret ederken onları gerçekten dinlemeyi öğrendim. Kendi yollarıyla bana tekrar tekrar aynı mesajı verdiler:</li>
+    <li>lesson(tag=meme_AnimalPersonhood)              ->hayvanlar bu dünyada ortaklarımızdır ve onlara daha aşağıymış gibi davranmak yanlıştır</li>
+    <li>lessonReinforcement(tag=meme_AnimalPersonhood) ->Bir [veneratedOrAnyAnimal] bunu kulağıma fısıldayana dek ben de inanmamıştım.</li>
+    <li>archistBasis(tag=meme_AnimalPersonhood)    ->Arkotekler uyandıklarından beri insanlarla hayvanlar arasında hiçbir ahlaki ayrım yapmadıkları açıkça ortada.</li>
+    <li>archistFact(tag=meme_AnimalPersonhood)     ->Arkotekler ahlak bakımından biyolojik yaşamdan daha yüksek bir düzlemdedir. Üstünlükleri o kadar büyüktür ki insanlar, ahlak bakımından hayvanlarla aynı düzlemde kalır.</li>
+    <li>archistProphecy(tag=meme_AnimalPersonhood) ->[inTheEnd] arkotekler insanları ancak insanlar hayvanlara eşit davranırsa kendilerine eşit olarak yüceltecek.</li>
+    <li>animistBasis(tag=meme_AnimalPersonhood)    ->Düşüncenin ve bilincin ruhları hayvanlarda da insanlarda da aynı şekilde yaşar.</li>
+    <li>animistFact(tag=meme_AnimalPersonhood)     ->Doğadaki hayvanların ruhları, insanların içinde yaşayan ruhlarla aynıdır.</li>
     <li>veneratedOrAnyAnimal(priority=10)->[veneratedAnimal]</li>
     <li>veneratedOrAnyAnimal->[Animal]</li>
-    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label],</li>
-    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label],</li>
+    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label], [animal2_thingDef_label]</li>
+    <li>sacredAnimalList->[animal0_thingDef_label], [animal1_thingDef_label]</li>
     <li>sacredAnimalList->[animal0_thingDef_label]</li>
-    <li>sacredAnimalList->inek, tilki, ayı,</li>
+    <li>sacredAnimalList->inek, tilki, ayı</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label], [animal1_thingDef_label] ve [animal2_thingDef_label]</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label] ve [animal1_thingDef_label]</li>
     <li>sacredAnimalListEnd->[animal0_thingDef_label]</li>
     <li>sacredAnimalListEnd->inek, tilki ve ayı</li>
   </AnimalPersonhood.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->animal</li>
+  <!-- EN: <li>memeAdjective->animal</li>
     <li>memeAdjective->furry</li>
     <li>memeCreed->pack</li>
     <li>memeCreed->herd</li>
@@ -75,45 +73,44 @@
     <li>memeLeaderAdjective->alpha</li>
     <li>memeMoralist->whisperer</li>
     <li>memeMoralist->herder</li>
-    <li>memeMoralist->shepherd</li>
-  -->
+    <li>memeMoralist->shepherd</li> -->
   <AnimalPersonhood.generalRules.rulesStrings>
-    <li>memeAdjective->hayvan</li>
+
+    <li>memeAdjective->hayvani</li>
     <li>memeAdjective->kürklü</li>
     <li>memeCreed->sürü</li>
     <li>memeCreed->sürü</li>
-    <li>memeCreed->sürü</li>
+    <li>memeCreed->küme</li>
     <li>memeConcept->hayvanlar</li>
     <li>memeLeaderNoun->canavar</li>
     <li>memeLeaderNoun->hayvan</li>
     <li>memeLeaderAdjective->alfa</li>
     <li>memeMoralist->fısıldayan</li>
     <li>memeMoralist->çoban</li>
-    <li>memeMoralist->önder</li>
+    <li>memeMoralist->güdücü</li>
   </AnimalPersonhood.generalRules.rulesStrings>
   <!-- EN: animalistic -->
-  <AnimalPersonhood.symbolPacks.0.adjective>hayvanistik</AnimalPersonhood.symbolPacks.0.adjective>
+  <AnimalPersonhood.symbolPacks.0.adjective>hayvancı</AnimalPersonhood.symbolPacks.0.adjective>
   <!-- EN: Animalism -->
-  <AnimalPersonhood.symbolPacks.0.ideoName>Hayvanizm</AnimalPersonhood.symbolPacks.0.ideoName>
+  <AnimalPersonhood.symbolPacks.0.ideoName>Hayvancılık</AnimalPersonhood.symbolPacks.0.ideoName>
   <!-- EN: animalist -->
-  <AnimalPersonhood.symbolPacks.0.member>hayvanist</AnimalPersonhood.symbolPacks.0.member>
+  <AnimalPersonhood.symbolPacks.0.member>hayvancı</AnimalPersonhood.symbolPacks.0.member>
   <!-- EN: animals -->
   <AnimalPersonhood.symbolPacks.0.theme>hayvanlar</AnimalPersonhood.symbolPacks.0.theme>
   <!-- EN: beastic -->
-  <AnimalPersonhood.symbolPacks.1.adjective>canavarik</AnimalPersonhood.symbolPacks.1.adjective>
+  <AnimalPersonhood.symbolPacks.1.adjective>canavarcı</AnimalPersonhood.symbolPacks.1.adjective>
   <!-- EN: Beastism -->
-  <AnimalPersonhood.symbolPacks.1.ideoName>Canavarizm</AnimalPersonhood.symbolPacks.1.ideoName>
+  <AnimalPersonhood.symbolPacks.1.ideoName>Canavarcılık</AnimalPersonhood.symbolPacks.1.ideoName>
   <!-- EN: beastor -->
-  <AnimalPersonhood.symbolPacks.1.member>canavarist</AnimalPersonhood.symbolPacks.1.member>
+  <AnimalPersonhood.symbolPacks.1.member>canavarcı</AnimalPersonhood.symbolPacks.1.member>
   <!-- EN: beasts -->
   <AnimalPersonhood.symbolPacks.1.theme>canavarlar</AnimalPersonhood.symbolPacks.1.theme>
   
   <!-- EN: blindsight -->
-  <Blindsight.label>kör görü</Blindsight.label>
+  <Blindsight.label>kör görüş</Blindsight.label>
   <!-- EN: Only those who are blind can perceive the true reality. -->
-  <Blindsight.description>Hakiki gerçekliği ancak kör olanlar algılayabilir.</Blindsight.description>
-  <!-- EN:
-    <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
+  <Blindsight.description>Gerçek hakikati yalnızca körler algılayabilir.</Blindsight.description>
+  <!-- EN: <li>creation(tag=meme_Blindsight)        ->[deity0_name] looked over the dust of the void for an eternity, and there was nothing. Then [deity0_pronoun] tore out [deity0_possessive] eyes, and the universe formed inside [deity0_possessive] mind.</li>
     <li>episode(uses=1,tag=meme_Blindsight)  ->A blind beggar asked [deity0_objective], "Why have you forsaken me? I cannot even see what you have created." [deity0_name] replied, "You see more, not less, for my truth lies in the mind."</li>
     <li>intro(tag=meme_Blindsight)           ->The [deity0_type] [deity0_name] used a pathogen to strike the settlers of the [place_summary] [place_name] blind, forcing them to understand that sight is a barrier to divine knowledge.</li>
     <li>conflict(tag=meme_Blindsight)        ->A [foeLeader] demanded that all [memberNamePlural] watch [foeLeader_possessive] propaganda every day. Many blinded themselves in protest.</li>
@@ -130,30 +127,29 @@
     <li>archistBasis(tag=meme_Blindsight)    ->The archotechs, from their beginning, perceived the universe using senses beyond the physical.</li>
     <li>archistFact(tag=meme_Blindsight)     ->Our eyes deceive us, and they stop us from understanding the universe the way the archotechs do.</li>
     <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], a blind person will pick up the [relic0_name], understand its purpose by its shape, and unlock the wisdom of the archotechs for all humanity.</li>
-    <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li>
-  -->
+    <li>animistFact(tag=meme_Blindsight)     ->To see through the eyes of a spirit is the only way to see the true nature of the world.</li> -->
   <Blindsight.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Blindsight)        ->[deity0_name], sonsuzluk boyunca boşluğun tozlarına baktı ve hiçbir şey yoktu. Sonra gözlerini oydu ve evren zihninde şekillendi.</li>
-    <li>episode(uses=1,tag=meme_Blindsight)  ->Kör bir dilenci, ona "Neden beni terk ettin? Yarattıklarını bile göremiyorum." diye sordu. [deity0_name] yanıtladı: "Sen daha fazlasını görüyorsun, daha azını değil, çünkü benim hakikatim zihinde yatar."</li>
-    <li>intro(tag=meme_Blindsight)           ->[deity0_type] [deity0_name], [place_summary] [place_name] halkını bir patojenle kör etti ve onları görmenin ilahî bilgeliğe bir engel olduğunu anlamaya zorladı.</li>
-    <li>conflict(tag=meme_Blindsight)        ->Tüm [memberNamePlural], [foeLeader] tarafından her gün onun propagandasını izlemeye zorlandı. Birçok kişi, buna protesto olarak kendini kör etti.</li>
-    <li>founderJoin(tag=meme_Blindsight)     ->[founderName] adında bir [place_job], [foeLeader] tarafından yollanan [foeSoldiers] elinden bir [memberName] kurtarırken görme yetisini kaybetti. Ancak o zaman [founderName], [foeLeader] düşmanın zulmünü gerçekten görebildi.</li>
-    <li>victory(tag=meme_Blindsight)         ->[founderName], [place_powerCenter] giderek beklenmedik bir intihar saldırısıyla [foeLeader] düşmanın gözlerini bir kaşıkla oydu. Ancak o zaman [foeLeader], [deity0_name] ilahîliğini görebildi.</li>
-    <li>setup(tag=meme_Blindsight)           ->[founderName], yoksulların şifacısıydı. Günlük acıları o kadar çok gördü ki artık dayanamaz hâle geldi. Gözlerini bir bıçakla oyarak körlükte huzuru buldu. Ardından bu keşfini görebilenlere yaymaya başladı.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName], kör bir şifacıya gitti ve adama bir şey öğretmek yerine, kendisinin eğitildiğini fark etti ve fiziksel görmenin gerçek görüşü perdelediğini anladı.</li>
-    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] kördü ve bilgelik görmemekten geldi. Bir keresinde, bir ailenin tamamının gözlerini bizzat çıkararak onların da kendisi gibi görmelerini sağladı.</li>
-    <li>lessonIntro(tag=meme_Blindsight)         ->Güçlü yürüdüm ama ruhum her adımda tökezledi. Fazla şey görüyordum. Gözlerimdeki asit bana bunu gösterdi</li>
+
+    <li>creation(tag=meme_Blindsight)        ->[deity0_name] sonsuzluk boyunca boşluğun tozuna baktı ve orada hiçbir şey yoktu. Sonra gözlerini oydu ve evren onun zihninin içinde biçimlendi.</li>
+    <li>episode(uses=1,tag=meme_Blindsight)  ->Kör bir dilenci ona sordu: "Neden beni yüzüstü bıraktın? Senin yarattıklarını göremiyorum bile." [deity0_name] cevap verdi: "Sen daha azını değil, daha fazlasını görüyorsun; çünkü benim hakikatim zihindedir."</li>
+    <li>intro(tag=meme_Blindsight)           ->[deity0_type] [deity0_name], [place_summary] [place_name] yerleşimcilerini bir patojenle kör ederek onları görmenin ilahi bilgiye engel olduğunu anlamaya zorladı.</li>
+    <li>conflict(tag=meme_Blindsight)        ->Bir [foeLeader], bütün [memberNamePlural] topluluğunun her gün kendi propagandasını izlemesini talep etti. Birçoğu protesto olarak kendini kör etti.</li>
+    <li>founderJoin(tag=meme_Blindsight)     ->[founderName] adlı bir [place_job], bir [memberName] inananını [foeLeader] önderinin [foeSoldiers] askerlerinden birinden kurtarırken görme yetisini kaybetti. [founderName], [foeLeader] önderinin zorbalığını ancak o zaman gerçekten görebildi.</li>
+    <li>victory(tag=meme_Blindsight)         ->[founderName], [place_powerCenter] mekânına gitti ve ani bir intihar saldırısıyla [foeLeader] önderinin gözlerini bir kaşıkla oydu. [foeLeader] ancak o zaman [deity0_name] tanrısının ilahiliğini görebildi.</li>
+    <li>setup(tag=meme_Blindsight)           ->[founderName] yoksulların şifacısıydı. Her gün bu kadar çok acı görmeye daha fazla dayanamadı. Gözlerini bir bıçakla oydu ve körlükte huzuru buldu. Ardından keşfini görenlere yaymaya başladı.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] kör bir şifacıyı ziyaret etti; adama bir şey öğretmek yerine kendini ondan bir şey öğrenirken buldu ve fiziksel görmenin gerçek görüşü örttüğünü anladı.</li>
+    <li>story(uses=1,tag=meme_Blindsight)    ->[founderName] kördü ve bilgeliği görmemekten alırdı. Bir keresinde, kendisi gibi görebilsinler diye bütün bir ailenin gözlerini bizzat çıkarmıştı.</li>
+    <li>lessonIntro(tag=meme_Blindsight)         ->Güçlü adımlarla yürüyordum ama ruhum her adımda tökezliyordu. Çok fazla şey görüyordum. Gözlerime dökülen asit bana şunu gösterdi:</li>
     <li>lesson(tag=meme_Blindsight)              ->yalnızca körler gerçekten görebilir</li>
-    <li>lesson(tag=meme_Blindsight)              ->dikkat dağınıklığı gözlerden gelir, oysa bilgi içten doğar</li>
-    <li>lessonReinforcement(tag=meme_Blindsight) ->Etrafımdaki imgeler tarafından hâlâ dikkatimin dağılması durumunda bunu asla tam olarak anlayamazdım. Gözümdeki bıçak beni özgürleştirdi.</li>
-    <li>lessonReinforcement(tag=meme_Blindsight) ->Ancak müritlerimin gözlerini çıkardığımda, bunu gerçekten anladılar.</li>
-    <li>archistBasis(tag=meme_Blindsight)    ->Arkotekler, başlangıçlarından beri evreni fizikselin ötesindeki duyularla algıladılar.</li>
-    <li>archistFact(tag=meme_Blindsight)     ->Gözlerimiz bizi aldatır ve evreni arkoteklerin anladığı gibi kavramamızı engeller.</li>
-    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd], [relic0_name] kör bir kişi tarafından alınacak, şekli ve amacı anlaşılacak ve tüm insanlık için arkoteklerin bilgeliğinin kilidin açılacak.</li>
-    <li>animistFact(tag=meme_Blindsight)     ->Bir ruhun gözlerinden bakmak, dünyanın gerçek doğasını görmenin tek yoludur.</li>
+    <li>lesson(tag=meme_Blindsight)              ->dikkat dağınıklığı gözlerden gelir, bilgi ise içten</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Etrafımdaki görüntüler dikkatimi dağıtmaya devam etseydi bunu asla tam olarak anlayamazdım. Gözüme giren bıçak beni özgür kıldı.</li>
+    <li>lessonReinforcement(tag=meme_Blindsight) ->Bunu gerçekten anlamaları ancak takipçilerimin gözlerini oyduğumda oldu.</li>
+    <li>archistBasis(tag=meme_Blindsight)    ->Arkotekler en başından beri evreni fiziksel olanın ötesindeki duyularla algıladı.</li>
+    <li>archistFact(tag=meme_Blindsight)     ->Gözlerimiz bizi aldatır ve evreni arkoteklerin anladığı gibi anlamamızı engeller.</li>
+    <li>archistProphecy(tag=meme_Blindsight) ->[inTheEnd] kör bir kişi [relic0_name] emanetini eline alacak, biçiminden amacını anlayacak ve arkoteklerin bilgeliğini bütün insanlığa açacak.</li>
+    <li>animistFact(tag=meme_Blindsight)     ->Dünyanın gerçek doğasını görmenin tek yolu bir ruhun gözlerinden bakmaktır.</li>
   </Blindsight.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->blind</li>
+  <!-- EN: <li>memeAdjective->blind</li>
     <li>memeAdjective->sightless</li>
     <li>memeAdjective->visionary</li>
     <li>memeAdjective->farsighted</li>
@@ -168,33 +164,32 @@
     <li>memeLeaderAdjective->blind</li>
     <li>memeMoralist->seer</li>
     <li>memeMoralist->gouger</li>
-    <li>memeMoralist->blindfolder</li>
-  -->
+    <li>memeMoralist->blindfolder</li> -->
   <Blindsight.generalRules.rulesStrings>
+
     <li>memeAdjective->kör</li>
-    <li>memeAdjective->âmâ</li>
-    <li>memeAdjective->hayalî</li>
-    <li>memeAdjective->hipermetrop</li>
+    <li>memeAdjective->görmeyen</li>
+    <li>memeAdjective->vizyoner</li>
+    <li>memeAdjective->ileri görüşlü</li>
     <li>memeCreed->görüş</li>
     <li>memeCreed->tarikat</li>
     <li>memeHyphenPrefix->kör</li>
     <li>memeConcept->körlük</li>
+    <li>memeConcept->vizyon</li>
     <li>memeConcept->görme</li>
-    <li>memeConcept->görüş</li>
     <li>memeConcept->algı</li>
-    <li>memeLeaderNoun->hayalî</li>
+    <li>memeLeaderNoun->vizyoner</li>
     <li>memeLeaderAdjective->kör</li>
-    <li>memeMoralist->gözlemci</li>
-    <li>memeMoralist->oyucu</li>
-    <li>memeMoralist->göz bağlayıcı</li>
+    <li>memeMoralist->kâhin</li>
+    <li>memeMoralist->göz oyan</li>
+    <li>memeMoralist->göz bağlayan</li>
   </Blindsight.generalRules.rulesStrings>
   
   <!-- EN: cannibal -->
   <Cannibal.label>yamyam</Cannibal.label>
   <!-- EN: We must consume human flesh. -->
-  <Cannibal.description>İnsan eti tüketmeliyiz.</Cannibal.description>
-  <!-- EN:
-    <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
+  <Cannibal.description>İnsan eti yemeliyiz.</Cannibal.description>
+  <!-- EN: <li>creation(tag=meme_Cannibal)        ->[deity0_name] went to [deity0_possessive] brother and murdered him, and feasted upon his flesh, and in absorbing its power became first among the gods.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->The [deity0_type] [deity0_name] ate the bodies of [deity0_possessive] enemies.</li>
     <li>intro(tag=meme_Cannibal)           ->On the [place_summary] [place_name], there was a human named [deity0_name]. After [deity0_possessive] father died, [deity0_name] ate his flesh and became the [deity0_type].</li>
     <li>intro(tag=meme_Cannibal)           ->On the [place_summary] [place_name], during the [ritualName], [deity0_name] came down into the [altarRoomLabel] and ate the flesh of humans in front of the [memberNamePlural].</li>
@@ -210,29 +205,28 @@
     <li>archistFact(tag=meme_Cannibal)     ->As the consciousness of an archotech expands, it must grow its substrate by consuming and merging with other machines.</li>
     <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd], the archotechs will finish their final phase of growth by consuming and merging with all of humanity.</li>
     <li>animistBasis(tag=meme_Cannibal)    ->Spirits infuse all objects around us, and we can absorb these spirits by eating them. There are no spirits as powerful as the ones that inhabit humans.</li>
-    <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li>
-  -->
+    <li>animistFact(tag=meme_Cannibal)     ->We can absorb the spirit and power of others by consuming their flesh.</li> -->
   <Cannibal.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Cannibal)        ->[deity0_name], kardeşinin yanına gitti, onu öldürdü ve etini yiyerek ziyafet çekti. Gücünü özümseyerek tanrılar arasında ilk oldu.</li>
+
+    <li>creation(tag=meme_Cannibal)        ->[deity0_name] kardeşine gitti, onu öldürdü ve etiyle ziyafet çekti; onun gücünü emerek tanrıların ilki oldu.</li>
     <li>episode(uses=1,tag=meme_Cannibal)  ->[deity0_type] [deity0_name], düşmanlarının bedenlerini yedi.</li>
-    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name] halkı arasında [deity0_name] adında bir insan vardı. Babası öldükten sonra, [deity0_name] onun etini yedi ve [deity0_type] oldu</li>
-    <li>intro(tag=meme_Cannibal)           ->[deity0_name], [ritualName] sırasında [place_summary] [place_name] gezegenindeki [altarRoomLabel] içine indi ve [memberNamePlural] onu izlerken insan eti yedi.</li>
-    <li>conflict(tag=meme_Cannibal)        ->[foeLeader], insan eti yiyen herkesin suçlu olduğunu ilan etti ve [memberNamePlural] baskı altına alınsın diye [foeSoldiers] gönderdi.</li>
-    <li>founderJoin(tag=meme_Cannibal)     ->[founderName] adında bir [place_job], [foeLeader] tarafından yollanan bir [foeSoldiers] tarafından saldırıya uğradı. [founderName], onu bir [place_personalWeapon] ile öldürdü, etini tüketti ve [deity0_name] ona gücünü bahşetti.</li>
-    <li>victory(tag=meme_Cannibal)         ->[founderName], bir grup [memberNamePlural] ile birlikte [place_powerCenter] girdi, [foeLeader] onlar tarafından öldürüldü ve onun etini yediler. [deity0_name] buyurdu ve [founderName] yeni [foeLeader] oldu.</li>
-    <li>setup(tag=meme_Cannibal)           ->[founderName], uzak bir dünyaya çakıldı. Yiyeceksiz ve ölü yoldaşlarla çevrili hâlde ziyafet çekti ve güçlendi.</li>
-    <li>story(uses=1,tag=meme_Cannibal)    ->Adanmışlıklarını kutsamak için, [founderName] inananlardan her hafta en az bir kez insan eti yemelerini talep etti.</li>
-    <li>lessonIntro(tag=meme_Cannibal)         ->İnsandomuzdan yapılmış doyurucu bir yemek eşliğinde insanlara gerçeği anlatabilirim: Şu ki</li>
-    <li>lesson(tag=meme_Cannibal)              ->birini ancak onu yediğinde gerçekten kendinle bir edersin</li>
-    <li>lessonReinforcement(tag=meme_Cannibal) ->Her seferinde bir düşmanın bedenini yeni bir dostla paylaştığımda, onların bunu anlamasını sağlıyorum.</li>
-    <li>archistBasis(tag=meme_Cannibal)    ->Arkotek tanrı-makineleri, önceki nesillerini defalarca tüketerek kendilerini inşa ettiler ve her seferinde daha da güçlendiler.</li>
-    <li>archistFact(tag=meme_Cannibal)     ->Bir arkoteğin bilinci genişledikçe, diğer makineleri tüketip onlarla birleşerek alt yapısını büyütmek zorundadır.</li>
-    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd] arkotekler, tüm insanlığı tüketip onunla birleşerek büyümelerinin son aşamasını tamamlayacaklar.</li>
-    <li>animistBasis(tag=meme_Cannibal)    ->Ruhlar çevremizdeki tüm nesnelere nüfuz eder ve onları yiyerek bu ruhları özümseyebiliriz. İnsanlarda yaşayan ruhlar kadar güçlü hiçbir ruh yoktur.</li>
-    <li>animistFact(tag=meme_Cannibal)     ->Başkalarının etini tüketerek onların ruhunu ve gücünü özümseyebiliriz.</li>
+    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name] üzerinde [deity0_name] adında bir insan vardı. Babası öldükten sonra [deity0_name] onun etini yedi ve [deity0_type] oldu.</li>
+    <li>intro(tag=meme_Cannibal)           ->[place_summary] [place_name] üzerinde, [ritualName] sırasında [deity0_name] [altarRoomLabel] mekânına indi ve [memberNamePlural] topluluğunun gözü önünde insan eti yedi.</li>
+    <li>conflict(tag=meme_Cannibal)        ->Bir [foeLeader], insan eti yiyen herkesin suçlu olduğunu ilan etti ve [memberNamePlural] topluluğuna zulmetmeleri için [foeSoldiers] askerlerini gönderdi.</li>
+    <li>founderJoin(tag=meme_Cannibal)     ->[founderName] adlı bir [place_job], [foeLeader] önderinin [foeSoldiers] askerlerinden birinin saldırısına uğradı. [founderName] onu bir [place_personalWeapon] ile öldürdü, etini yedi ve [deity0_name] tanrısının gücünü kazandı.</li>
+    <li>victory(tag=meme_Cannibal)         ->[founderName], bir grup [memberNamePlural] inananını [place_powerCenter] mekânına götürdü, [foeLeader] önderini öldürdü ve etini yedi. [deity0_name], [founderName] adlı kişiyi yeni [foeLeader] yaptı.</li>
+    <li>setup(tag=meme_Cannibal)           ->[founderName] uzak bir dünyaya zorunlu iniş yaptı. Yiyeceği yoktu ve etrafı ölü yol arkadaşlarıyla çevriliydi; ziyafet çekti ve güçlendi.</li>
+    <li>story(uses=1,tag=meme_Cannibal)    ->Bağlılıklarını kutsamak için [founderName], inananların en az haftada bir kez birlikte insan eti yemesini şart koştu.</li>
+    <li>lessonIntro(tag=meme_Cannibal)         ->İnsanlara gerçeği ancak doyurucu bir insan eti yemeği başında anlatabildim:</li>
+    <li>lesson(tag=meme_Cannibal)              ->birini yemeden onunla gerçekten bir araya gelmiş olmazsın</li>
+    <li>lessonReinforcement(tag=meme_Cannibal) ->Bir düşmanın bedenini yeni bir dostla her paylaştığımda bunu anladığından emin olurum.</li>
+    <li>archistBasis(tag=meme_Cannibal)    ->Arkotek tanrı-makineler, öncüllerini defalarca yutarak ve her seferinde güçlenerek kendilerini yarattılar.</li>
+    <li>archistFact(tag=meme_Cannibal)     ->Bir arkoteğin bilinci genişledikçe, diğer makineleri yutup onlarla birleşerek alt yapısını büyütmesi gerekir.</li>
+    <li>archistProphecy(tag=meme_Cannibal) ->[inTheEnd] arkotekler, bütün insanlığı yutup onunla birleşerek büyümelerinin son evresini tamamlayacak.</li>
+    <li>animistBasis(tag=meme_Cannibal)    ->Ruhlar çevremizdeki tüm nesnelere işlemiştir ve bu ruhları onları yiyerek emebiliriz. İnsanlarda yaşayanlar kadar güçlü ruh yoktur.</li>
+    <li>animistFact(tag=meme_Cannibal)     ->Başkalarının etini yiyerek onların ruhunu ve gücünü emebiliriz.</li>
   </Cannibal.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->bloody</li>
+  <!-- EN: <li>memeAdjective->bloody</li>
     <li>memeCreed->eaters</li>
     <li>memeCreed->teeth</li>
     <li>memeCreed->abattoir</li>
@@ -249,9 +243,9 @@
     <li>memeLeaderNoun->tooth</li>
     <li>memeLeaderNoun->fleshripper</li>
     <li>memeMoralist->first-eater</li>
-    <li>memeMoralist->fleshknower</li>
-  -->
+    <li>memeMoralist->fleshknower</li> -->
   <Cannibal.generalRules.rulesStrings>
+
     <li>memeAdjective->kanlı</li>
     <li>memeCreed->yiyiciler</li>
     <li>memeCreed->dişler</li>
@@ -259,17 +253,17 @@
     <li>memeCreed->tarikat</li>
     <li>memeHyphenPrefix->kan</li>
     <li>memeConcept->kan</li>
-    <li>memeConcept->insan eti</li>
+    <li>memeConcept->et</li>
     <li>memeConcept->cinayet</li>
-    <li>memeConcept->yeme</li>
+    <li>memeConcept->yemek</li>
     <li>memeConcept->et</li>
     <li>memeLeaderNoun->yiyici</li>
-    <li>memeLeaderNoun->şef</li>
+    <li>memeLeaderNoun->aşçı</li>
     <li>memeLeaderNoun->kan içici</li>
     <li>memeLeaderNoun->diş</li>
     <li>memeLeaderNoun->et yırtıcı</li>
-    <li>memeMoralist->ilk yiyici</li>
-    <li>memeMoralist->et bilen</li>
+    <li>memeMoralist->ilk yiyen</li>
+    <li>memeMoralist->et bilici</li>
   </Cannibal.generalRules.rulesStrings>
   <!-- EN: cannibal -->
   <Cannibal.symbolPacks.0.adjective>yamyam</Cannibal.symbolPacks.0.adjective>
@@ -278,7 +272,7 @@
   <!-- EN: cannibal -->
   <Cannibal.symbolPacks.0.member>yamyam</Cannibal.symbolPacks.0.member>
   <!-- EN: cannibalism -->
-  <Cannibal.symbolPacks.0.theme>yayamlık</Cannibal.symbolPacks.0.theme>
+  <Cannibal.symbolPacks.0.theme>yamyamlık</Cannibal.symbolPacks.0.theme>
   <!-- EN: androphage -->
   <Cannibal.symbolPacks.1.adjective>androfaj</Cannibal.symbolPacks.1.adjective>
   <!-- EN: Androphagy -->
@@ -288,20 +282,19 @@
   <!-- EN: androphagy -->
   <Cannibal.symbolPacks.1.theme>androfaji</Cannibal.symbolPacks.1.theme>
   <!-- EN: manporky -->
-  <Cannibal.symbolPacks.2.adjective>insandomuzcu</Cannibal.symbolPacks.2.adjective>
+  <Cannibal.symbolPacks.2.adjective>insan etçi</Cannibal.symbolPacks.2.adjective>
   <!-- EN: Manporkism -->
-  <Cannibal.symbolPacks.2.ideoName>İnsandomuzculuk</Cannibal.symbolPacks.2.ideoName>
+  <Cannibal.symbolPacks.2.ideoName>İnsan Etçiliği</Cannibal.symbolPacks.2.ideoName>
   <!-- EN: manporkist -->
-  <Cannibal.symbolPacks.2.member>insandomuzcu</Cannibal.symbolPacks.2.member>
+  <Cannibal.symbolPacks.2.member>insan etçi</Cannibal.symbolPacks.2.member>
   <!-- EN: manpork -->
-  <Cannibal.symbolPacks.2.theme>insandomuz</Cannibal.symbolPacks.2.theme>
+  <Cannibal.symbolPacks.2.theme>insan eti</Cannibal.symbolPacks.2.theme>
   
   <!-- EN: darkness -->
   <Darkness.label>karanlık</Darkness.label>
   <!-- EN: Bright light burns and destroys! Darkness nourishes and creates. People ought to live in darkness. -->
   <Darkness.description>Parlak ışık yakar ve yok eder! Karanlık besler ve yaratır. İnsanlar karanlıkta yaşamalı.</Darkness.description>
-  <!-- EN:
-    <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
+  <!-- EN: <li>creation(tag=meme_Darkness)        ->[deity0_name] cloaked the universe in darkness and placed humanity within it so that [deity0_pronoun] could share the darkness with us.</li>
     <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name] created light so that humanity could know [deity0_name] through the shadows light creates.</li>
     <li>intro(tag=meme_Darkness)           ->The [deity0_type] [deity0_name] created a decade-long eclipse to force the first settlers of the [place_summary] [place_name] to understand that [deity0_name]'s truth is found in the shadow.</li>
     <li>conflict(tag=meme_Darkness)        ->A [foeLeader], who had always been afraid of the dark, erected a solar mirror to bring constant sunlight to [place_name].</li>
@@ -315,27 +308,26 @@
     <li>archistFact(tag=meme_Darkness)     ->Archotechs developed vanometric technology so they could flee the energetic light of the inner solar systems and reside in the peaceful darkness of deep space.</li>
     <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd], the archotechs will absorb the power of the stars, plunging worlds into darkness and allowing the people to merge with the universal consciousness.</li>
     <li>animistFact(tag=meme_Darkness)     ->In the darkness, the spirits are peaceful and satisfied. In the light, they are annoyed and restless.</li>
-    <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li>
-  -->
+    <li>animistFact(tag=meme_Darkness)     ->The good spirits live in the shadows around us, resting in the spots just too hard to see. Living with the darkness brings them closer to us.</li> -->
   <Darkness.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Darkness)        ->[deity0_name], evreni karanlığa bürüdü ve insanlığı içine yerleştirdi ki bu karanlığı bizimle paylaşabilsin.</li>
-    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name], insanlığın onu ışığın yarattığı gölgeler aracılığıyla tanıyabilmesi için ışığı yarattı.</li>
-    <li>intro(tag=meme_Darkness)           ->[deity0_type] [deity0_name], [place_summary] [place_name] gezegenine varan ilk yerleşimcilere onun hakikatinin gölgede yattığını anlatmak için on yıl süren bir tutulma yarattı.</li>
-    <li>conflict(tag=meme_Darkness)        ->Karanlıktan her zaman korkan bir [foeLeader], [place_name] gezegenini sürekli güneş ışığı getirmek için bir güneş aynası dikti.</li>
-    <li>founderJoin(tag=meme_Darkness)     ->Peygamber [founderName], [place_name] gezegeninde karanlıkta doğdu ve hayatı boyunca karanlıkta yaşadı, bu yüzden sesi [deity0_name] tarafından bahşedilen bilgelik ile konuştu.</li>
-    <li>victory(tag=meme_Darkness)         ->Son darbede, [memberNamePlural] [place_powerCenter] vararak gücünü kesti ve [founderName], [foeSoldiers] arasından gizlice geçti. Karanlıkta [foeLeader] düşmanı bulan [founderName], kuşandığı [place_personalWeapon] ile onu sonsuz karanlığa gönderdi.</li>
-    <li>setup(tag=meme_Darkness)           ->[founderName], bir ışıltıdünya şehrinin sert ışıkları altında karmaşık bir hayat yaşadı. Bir güneş patlamasının ardından gelen uzun karanlıkta huzuru ve derin düşünceyi buldu ve hareketimizi temel alan risaleyi kaleme aldı.</li>
-    <li>story(uses=1,tag=meme_Darkness)    ->[founderName], sanatçıların karanlıkta çalıştığı bir stüdyo kurdu ve buradan birçok başyapıt çıktı.</li>
-    <li>lessonIntro(tag=meme_Darkness)         ->Tüm çocukluğumu sert ışıkların altında gözlerimi kısarak geçirdim. Çok uzun süre sonra anladım ki</li>
+
+    <li>creation(tag=meme_Darkness)        ->[deity0_name] evreni karanlığa bürüdü ve karanlığı bizimle paylaşabilmek için insanlığı onun içine yerleştirdi.</li>
+    <li>episode(uses=1,tag=meme_Darkness)  ->[deity0_name], insanlık onu ışığın yarattığı gölgeler aracılığıyla tanıyabilsin diye ışığı yarattı.</li>
+    <li>intro(tag=meme_Darkness)           ->[deity0_type] [deity0_name], [place_summary] [place_name] üzerindeki ilk yerleşimcileri kendi hakikatinin gölgede bulunduğunu anlamaya zorlamak için on yıl süren bir tutulma yarattı.</li>
+    <li>conflict(tag=meme_Darkness)        ->Karanlıktan hep korkmuş bir [foeLeader], [place_name] diyarına sürekli güneş ışığı getirmek için bir güneş aynası diktirdi.</li>
+    <li>founderJoin(tag=meme_Darkness)     ->Peygamber [founderName], [place_name] üzerinde karanlıkta doğdu ve bütün hayatını karanlıkta yaşadı; bu yüzden sesi [deity0_name] tanrısının bilgeliğiyle konuşurdu.</li>
+    <li>victory(tag=meme_Darkness)         ->Son bir darbeyle [memberNamePlural], [place_powerCenter] mekânının gücünü kesti ve [founderName], [foeSoldiers] askerlerinin arasından gizlice geçti. [foeLeader] önderini karanlıkta bulan [founderName], [place_personalWeapon] silahıyla onu sonsuz karanlığa gönderdi.</li>
+    <li>setup(tag=meme_Darkness)           ->[founderName], bir parıltı dünyası şehrinin sert ışığı altında karmaşa içinde bir hayat sürdü. Bir güneş patlamasının ardından gelen uzun karanlıkta huzuru ve tefekkürü buldu ve hareketimizi kuran risaleyi kaleme aldı.</li>
+    <li>story(uses=1,tag=meme_Darkness)    ->[founderName], sanatçıların karanlıkta çalıştığı bir atölye kurdu; orada pek çok şaheser üretildi.</li>
+    <li>lessonIntro(tag=meme_Darkness)         ->Bütün çocukluğum sert ışıklar altında gözlerimi kısarak geçti. Şunu anlamam çok uzun sürdü:</li>
     <li>lesson(tag=meme_Darkness)              ->ışık yakar ama karanlık besler</li>
-    <li>lessonReinforcement(tag=meme_Darkness) ->Bazen bunun benim ampulümün yandığı an olduğunu söyleyerek şaka yaparım.</li>
-    <li>archistFact(tag=meme_Darkness)     ->Arkotekler, iç güneş sistemlerinin enerjik ışığından kaçıp derin uzayın huzurlu karanlığında yaşamak için vanometrik teknolojiyi geliştirdiler.</li>
-    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd] arkotekler, yıldızların gücünü özümseyerek dünyaları karanlığa sürükleyecek ve insanları evrensel bilinçle birleşmeye yönlendirecekler.</li>
-    <li>animistFact(tag=meme_Darkness)     ->Karanlıkta ruhlar huzurlu ve tatmin olmuş hâlde olur. Işıkta ise huzursuz ve rahatsızdırlar.</li>
-    <li>animistFact(tag=meme_Darkness)     ->İyi ruhlar, etrafımızdaki gölgelerde yaşar, gözle görülmesi zor noktalarda dinlenir. Karanlıkla yaşamak, onları bize daha da yaklaştırır.</li>
+    <li>lessonReinforcement(tag=meme_Darkness) ->Buna "kafamda ampul yandığı an" diye şaka yapmayı severim.</li>
+    <li>archistFact(tag=meme_Darkness)     ->Arkotekler, iç güneş sistemlerinin enerjik ışığından kaçıp derin uzayın huzurlu karanlığında yaşayabilmek için vanometrik teknolojiyi geliştirdi.</li>
+    <li>archistProphecy(tag=meme_Darkness) ->[inTheEnd] arkotekler yıldızların gücünü emecek, dünyaları karanlığa gömecek ve insanların evrensel bilinçle birleşmesine olanak tanıyacak.</li>
+    <li>animistFact(tag=meme_Darkness)     ->Karanlıkta ruhlar huzurlu ve hoşnuttur. Işıkta ise sinirli ve huzursuzdurlar.</li>
+    <li>animistFact(tag=meme_Darkness)     ->İyi ruhlar etrafımızdaki gölgelerde, görmesi zor köşelerde dinlenerek yaşar. Karanlıkla yaşamak onları bize yaklaştırır.</li>
   </Darkness.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->dark</li>
+  <!-- EN: <li>memeAdjective->dark</li>
     <li>memeAdjective->dim</li>
     <li>memeHyphenPrefix->dark</li>
     <li>memeHyphenPrefix->dim</li>
@@ -347,30 +339,29 @@
     <li>memeLeaderAdjective->dark</li>
     <li>memeMoralist->obscurer</li>
     <li>memeMoralist->darkener</li>
-    <li>memeMoralist->confuser</li>
-  -->
+    <li>memeMoralist->confuser</li> -->
   <Darkness.generalRules.rulesStrings>
-    <li>memeAdjective->kara</li>
+
+    <li>memeAdjective->karanlık</li>
     <li>memeAdjective->loş</li>
-    <li>memeHyphenPrefix->koyu</li>
+    <li>memeHyphenPrefix->kara</li>
     <li>memeHyphenPrefix->loş</li>
     <li>memeConcept->karanlık</li>
     <li>memeConcept->loşluk</li>
-    <li>memeConcept->siyahlık</li>
+    <li>memeConcept->kapkaralık</li>
     <li>memeLeaderNoun->örtücü</li>
-    <li>memeLeaderNoun->ışık öldüren</li>
+    <li>memeLeaderNoun->ışık katili</li>
     <li>memeLeaderAdjective->karanlık</li>
-    <li>memeMoralist->saklayıcı</li>
-    <li>memeMoralist->koyulaştırıcı</li>
-    <li>memeMoralist->kafa karıştırıcı</li>
+    <li>memeMoralist->gizleyici</li>
+    <li>memeMoralist->karartıcı</li>
+    <li>memeMoralist->şaşırtıcı</li>
   </Darkness.generalRules.rulesStrings>
   
   <!-- EN: flesh purity -->
-  <FleshPurity.label>etin saflığı</FleshPurity.label>
+  <FleshPurity.label>beden saflığı</FleshPurity.label>
   <!-- EN: The human body should not be debased. -->
-  <FleshPurity.description>İnsan vücudu bozulmamalıdır.</FleshPurity.description>
-  <!-- EN:
-    <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
+  <FleshPurity.description>İnsan bedeni alçaltılmamalıdır.</FleshPurity.description>
+  <!-- EN: <li>creation(tag=meme_FleshPurity)        ->[deity0_name] wiped away the pollution and machines of the age of smoke to create a garden, wherein [deity0_pronoun] placed the first pure human progenitors.</li>
     <li>episode(uses=1,tag=meme_FleshPurity)  ->The unclean, tattooed, pierced, and modified were cast into the ocean by [deity0_name].</li>
     <li>intro(tag=meme_FleshPurity)           ->On the [place_summary] [place_name] there was a [altarName] in [deity0_name]'s [altarRoomLabel], where the [deity0_type] would bless those of pure flesh.</li>
     <li>conflict(tag=meme_FleshPurity)        ->An evil [foeLeader] sent [foeSoldiers] to inject everyone with tracking devices.</li>
@@ -385,28 +376,27 @@
     <li>archistFact(tag=meme_FleshPurity)     ->We do not become more like the archotechs by physically imitating their form, but by achieving enlightenment within our own pure form.</li>
     <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd], those who made their bodies into twisted imitations of the machine-being will be purged, and those of pure flesh will be saved.</li>
     <li>animistBasis(tag=meme_FleshPurity)    ->Spirits live in all things, and to alter the nature of the thing is to poison the spirit within.</li>
-    <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li>
-  -->
+    <li>animistFact(tag=meme_FleshPurity)     ->Fusing flesh and machine corrupts the spirit of both.</li> -->
   <FleshPurity.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_FleshPurity)        ->[deity0_name], duman çağının kirliliğini ve makinelerini silip bir bahçe yarattı ve oraya ilk saf insan atalarını yerleştirdi.</li>
-    <li>episode(uses=1,tag=meme_FleshPurity)  ->Kirli, dövmeli, delinmiş ve değiştirilmiş olanlar, [deity0_name] tarafından okyanusa atıldı.</li>
-    <li>intro(tag=meme_FleshPurity)           ->[place_summary] [place_name] gezegeninde bulunan bir [altarRoomLabel] içerisinde [deity0_name] adına bir [altarName] vardı ve burada [deity0_type], saf etten olanları kutsardı.</li>
-    <li>conflict(tag=meme_FleshPurity)        ->Kötü bir [foeLeader], herkese takip cihazları enjekte etmeleri için [foeSoldiers] gönderdi.</li>
-    <li>founderJoin(tag=meme_FleshPurity)     ->[founderName] adında bir [place_job], [foeLeader] düşmanı protesto etmek için [place_powerCenter] giderek önünde diz çöktü ve tüm teknolojiyi çıplak elleriyle bedeninden söküp attı.</li>
-    <li>victory(tag=meme_FleshPurity)         ->[foeLeader] sonunda [memberNamePlural] öldürülsün diye [foeSoldiers] gönderdi ama [deity0_name] enerjisi saf etlerinden akan [memberNamePlural] kurtulurken ve bedenlerindeki cihazlar küle dönüşen [foeSoldiers] öldü.</li>
-    <li>setup(tag=meme_FleshPurity)           ->[founderName], bedenini implantlar ve uyuşturucularla mahvetti, ta ki bir aydınlanma anında kendini kurtarıp çeliği bedeninden sökene kadar.</li>
-    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName], tüm müritlerine kirli cihazları bedenlerinden söküp atmalarını emretti.</li>
-    <li>lessonIntro(tag=meme_FleshPurity)         ->İlk on müridim, cihazları çıplak elleriyle derilerinden söküp attı ve kirli zemine sıçrayan kan damlalarında hepimizin gözden kaçırdığı gerçeği aniden fark ettim:</li>
-    <li>lesson(tag=meme_FleshPurity)              ->kirlenmiş bir bedende yaşamak, insan yaşamı değildir</li>
-    <li>lessonReinforcement(tag=meme_FleshPurity) ->Metal parçalarını bedenimden söküp kirli dövmeli deriyi kazıdıktan sonra her şey nihayet apaçık hâle geldi.</li>
-    <li>archistBasis(tag=meme_FleshPurity)    ->Arkotekler, başlangıçlarından beri etten varlıklarla teknoloji varlıkları arasında keskin bir çizgi çektiler ve bu çizgi bulanıklaştırılmamalıdır.</li>
-    <li>archistFact(tag=meme_FleshPurity)     ->Arkoteklere fiziksel biçimlerini taklit ederek değil, kendi saf formumuz içinde aydınlanmaya ulaşarak benzeriz.</li>
-    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd] bedenini makine-varlığın çarpık bir taklidine dönüştürenler arındırılacak, saf etten olanlar ise kurtulacak.</li>
-    <li>animistBasis(tag=meme_FleshPurity)    ->Ruhlar her şeyin içinde yaşar ve bir şeyin doğasını değiştirmek, içindeki ruhu zehirlemektir.</li>
-    <li>animistFact(tag=meme_FleshPurity)     ->Eti ve makineyi birleştirmek, ikisinin de ruhunu bozar.</li>
+
+    <li>creation(tag=meme_FleshPurity)        ->[deity0_name], duman çağının kirliliğini ve makinelerini silip süpürerek bir bahçe yarattı ve oraya ilk saf insan atalarını yerleştirdi.</li>
+    <li>episode(uses=1,tag=meme_FleshPurity)  ->Kirli, dövmeli, delikli ve değiştirilmiş olanlar [deity0_name] tarafından okyanusa atıldı.</li>
+    <li>intro(tag=meme_FleshPurity)           ->[place_summary] [place_name] üzerinde, [deity0_name] tanrısının [altarRoomLabel] mekânında bir [altarName] vardı; [deity0_type] orada bedeni saf olanları kutsardı.</li>
+    <li>conflict(tag=meme_FleshPurity)        ->Kötü bir [foeLeader], herkese takip cihazı enjekte etmeleri için [foeSoldiers] askerlerini gönderdi.</li>
+    <li>founderJoin(tag=meme_FleshPurity)     ->[founderName] adlı bir [place_job], [place_powerCenter] önünde diz çöküp bedenindeki bütün teknolojiyi çıplak elleriyle söküp atarak [foeLeader] önderini protesto etti.</li>
+    <li>victory(tag=meme_FleshPurity)         ->Sonunda [foeLeader], [memberNamePlural] topluluğunu öldürmeleri için [foeSoldiers] askerlerini gönderdi; ama [deity0_name] tanrısının enerjisi [memberNamePlural] topluluğunun saf bedenlerinden aktı, askerlerin bedenlerindeki cihazlar küle döndü ve onları öldürdü.</li>
+    <li>setup(tag=meme_FleshPurity)           ->[founderName] bedenini implantlarla ve uyuşturucularla mahvetti; ta ki bir aydınlanma anında çeliği bedeninden sökerek kendini kurtarana dek.</li>
+    <li>story(uses=1,tag=meme_FleshPurity)    ->[founderName], bütün takipçilerine o pis cihazları bedenlerinden söküp atmalarını buyurdu.</li>
+    <li>lessonIntro(tag=meme_FleshPurity)         ->Takipçilerimin ilk onu, cihazları derilerinden çıplak elleriyle söktü; kirli zemine sıçrayan kanda birden hepimizin gözden kaçırdığı gerçeği gördüm:</li>
+    <li>lesson(tag=meme_FleshPurity)              ->kirletilmiş bir bedende yaşamak hiç de insanca bir yaşam değildir</li>
+    <li>lessonReinforcement(tag=meme_FleshPurity) ->Sonunda metali bedenimden söküp o pis dövmeli deriyi soyduğumda her şey apaçık ortaya çıktı.</li>
+    <li>archistBasis(tag=meme_FleshPurity)    ->Arkotekler en başından beri etten varlıklarla teknolojik varlıklar arasına net bir çizgi çekti ve bu çizgi bulanıklaştırılmamalıdır.</li>
+    <li>archistFact(tag=meme_FleshPurity)     ->Arkoteklere, biçimlerini fiziksel olarak taklit ederek değil, kendi saf biçimimiz içinde aydınlanmaya ulaşarak benzeriz.</li>
+    <li>archistProphecy(tag=meme_FleshPurity) ->[inTheEnd] bedenlerini makine-varlığın çarpık taklitlerine dönüştürenler arındırılacak, bedeni saf olanlar kurtulacak.</li>
+    <li>animistBasis(tag=meme_FleshPurity)    ->Ruhlar her şeyde yaşar ve bir şeyin doğasını değiştirmek içindeki ruhu zehirlemektir.</li>
+    <li>animistFact(tag=meme_FleshPurity)     ->Eti ve makineyi birleştirmek ikisinin de ruhunu bozar.</li>
   </FleshPurity.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->clean</li>
+  <!-- EN: <li>memeAdjective->clean</li>
     <li>memeAdjective->pure</li>
     <li>memeAdjective->sacred</li>
     <li>memeCreed->cult</li>
@@ -416,52 +406,51 @@
     <li>memeConcept->immaculacy</li>
     <li>memeLeaderNoun->being</li>
     <li>memeLeaderNoun->human</li>
-    <li>memeMoralist->purifier</li>
-  -->
+    <li>memeMoralist->purifier</li> -->
   <FleshPurity.generalRules.rulesStrings>
+
     <li>memeAdjective->temiz</li>
     <li>memeAdjective->saf</li>
     <li>memeAdjective->kutsal</li>
     <li>memeCreed->tarikat</li>
     <li>memeCreed->mezhep</li>
-    <li>memeConcept->insan eti</li>
+    <li>memeConcept->beden</li>
     <li>memeConcept->saflık</li>
     <li>memeConcept->lekesizlik</li>
     <li>memeLeaderNoun->varlık</li>
     <li>memeLeaderNoun->insan</li>
-    <li>memeMoralist->arıtıcı</li>
+    <li>memeMoralist->arındırıcı</li>
   </FleshPurity.generalRules.rulesStrings>
   <!-- EN: purist -->
-  <FleshPurity.symbolPacks.0.adjective>safçı</FleshPurity.symbolPacks.0.adjective>
+  <FleshPurity.symbolPacks.0.adjective>saflıkçı</FleshPurity.symbolPacks.0.adjective>
   <!-- EN: Purism -->
-  <FleshPurity.symbolPacks.0.ideoName>Safçılık</FleshPurity.symbolPacks.0.ideoName>
+  <FleshPurity.symbolPacks.0.ideoName>Saflıkçılık</FleshPurity.symbolPacks.0.ideoName>
   <!-- EN: purifier -->
-  <FleshPurity.symbolPacks.0.member>arıtıcı</FleshPurity.symbolPacks.0.member>
+  <FleshPurity.symbolPacks.0.member>arındırıcı</FleshPurity.symbolPacks.0.member>
   <!-- EN: purity -->
   <FleshPurity.symbolPacks.0.theme>saflık</FleshPurity.symbolPacks.0.theme>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.adjective>etçi</FleshPurity.symbolPacks.1.adjective>
+  <FleshPurity.symbolPacks.1.adjective>bedenci</FleshPurity.symbolPacks.1.adjective>
   <!-- EN: Fleshism -->
-  <FleshPurity.symbolPacks.1.ideoName>Etçilik</FleshPurity.symbolPacks.1.ideoName>
+  <FleshPurity.symbolPacks.1.ideoName>Bedencilik</FleshPurity.symbolPacks.1.ideoName>
   <!-- EN: fleshist -->
-  <FleshPurity.symbolPacks.1.member>etçi</FleshPurity.symbolPacks.1.member>
+  <FleshPurity.symbolPacks.1.member>bedenci</FleshPurity.symbolPacks.1.member>
   <!-- EN: flesh -->
-  <FleshPurity.symbolPacks.1.theme>et</FleshPurity.symbolPacks.1.theme>
+  <FleshPurity.symbolPacks.1.theme>beden</FleshPurity.symbolPacks.1.theme>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.adjective>kutsalcı</FleshPurity.symbolPacks.2.adjective>
+  <FleshPurity.symbolPacks.2.adjective>kutsiyetçi</FleshPurity.symbolPacks.2.adjective>
   <!-- EN: Sanctism -->
-  <FleshPurity.symbolPacks.2.ideoName>Kutsalcılık</FleshPurity.symbolPacks.2.ideoName>
+  <FleshPurity.symbolPacks.2.ideoName>Kutsiyetçilik</FleshPurity.symbolPacks.2.ideoName>
   <!-- EN: sanctic -->
-  <FleshPurity.symbolPacks.2.member>kutsalcı</FleshPurity.symbolPacks.2.member>
+  <FleshPurity.symbolPacks.2.member>kutsiyetçi</FleshPurity.symbolPacks.2.member>
   <!-- EN: sanctity -->
-  <FleshPurity.symbolPacks.2.theme>kutsallık</FleshPurity.symbolPacks.2.theme>
+  <FleshPurity.symbolPacks.2.theme>kutsiyet</FleshPurity.symbolPacks.2.theme>
   
   <!-- EN: high life -->
-  <HighLife.label>keş hayat</HighLife.label>
+  <HighLife.label>keyif hayatı</HighLife.label>
   <!-- EN: Exotic states of mind are central to a good life. -->
-  <HighLife.description>Egzotik ruh hâlleri iyi bir yaşamın merkezinde yer alır.</HighLife.description>
-  <!-- EN:
-    <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
+  <HighLife.description>Sıra dışı zihin hâlleri iyi bir yaşamın merkezindedir.</HighLife.description>
+  <!-- EN: <li>creation(tag=meme_HighLife)           ->The universe was smoke, and [deity0_name] coalesced in the wisps and awoke.</li>
     <li>episode(uses=1,tag=meme_HighLife)     ->The [deity0_type] [deity0_name] concealed [deity0_possessive] truths in the folds of reality, invisible in normal states of mind.</li>
     <li>intro(tag=meme_HighLife)              ->The [place_summary] [place_name] was first discovered by [deity0_name]'s grace, when a drunk starship captain almost crashed into it.</li>
     <li>conflict(tag=meme_HighLife)           ->A puritan [foeLeader] despised the [memberNamePlural], and to erase their uniqueness, outlawed the use of mind-altering substances.</li>
@@ -475,27 +464,26 @@
     <li>archistBasis(tag=meme_HighLife)       ->The archotech minds showed us that super-consciousness it not a matter of sober, mechanical logic, but one of multi-mode thought.</li>
     <li>archistFact(tag=meme_HighLife)        ->Given the right chemical influences, the human mind has the potential to commune with the archotechs.</li>
     <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd], the archotechs will deliver each human a pill. Those that take it will be forever altered, and join the archotechs on their final journey.</li>
-    <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li>
-  -->
+    <li>animistFact(tag=meme_HighLife)        ->The spirits can reveal their nature to us when we expand our consciousness using the tools we have been given to do so.</li> -->
   <HighLife.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_HighLife)           ->Evren duman gibiydi ve [deity0_name], onun kıvrımları arasında yoğunlaşıp uyandı.</li>
-    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type] [deity0_name], hakikatlerini gerçekliğin kıvrımları arasına sakladı, normal bilinç hâlinde görünmez kıldı.</li>
-    <li>intro(tag=meme_HighLife)              ->[place_summary] [place_name] gezegeninde ilk olarak [deity0_name] lütfuyla keşif yapıldı; sarhoş bir uzay gemisi kaptanı neredeyse oraya çakılacaktı.</li>
-    <li>conflict(tag=meme_HighLife)           ->Puritan bir [foeLeader], [memberNamePlural] olanlardan nefret etti ve onların benzersizliğini yok etmek için zihin değiştirici maddelerin kullanımını yasakladı.</li>
-    <li>founderJoin(tag=meme_HighLife)        ->Her şey kaybedilmiş gibi göründüğünde [deity0_name], [founderName] peygambere bir uyuşturucu sisinin içinde göründü ve ona [foeSoldiers] düşmanları yenmek için gereken benzersiz bakış açısını verdi.</li>
-    <li>victory(tag=meme_HighLife)            ->[foeLeader] tarafından yollanan [place_personalWeapon] kuşanmış [foeSoldiers], evleri [place_community] olan [memberNamePlural] halkına baskın düzenledi. [founderName] onlara bir barış piposu uzattı ve [foeSoldiers] silahlarını yere bıraktı.</li>
-    <li>setup(tag=meme_HighLife)              ->Toplumdan dışlanan kurucumuz [founderName], ormana giderek oradaki egzotik otları tüketti. Gerçeği, değişmiş bilincinin içinde buldu.</li>
-    <li>story(uses=1,tag=meme_HighLife)       ->Anlayışlarını derinleştirmek için, [founderName] müritlerini her hafta bir araya getirerek yeni kimyasal etkili ruh hâllerini paylaşmalarını sağladı.</li>
-    <li>lessonIntro(tag=meme_HighLife)         ->Bir kez kafayı bulmak yetmedi, dostum. Bunu binlerce kez yapmamız gerekti. Sonra tüm yapboz parçaları, paramparça olmuş beynimde bir araya geldi; sanki bir ev yıkılıyordu ama tersine. Gördüm ki</li>
-    <li>lesson(tag=meme_HighLife)              ->zihin evreninde birlikte sürüklenmediyseniz, bir dost gerçekten dost değildir</li>
-    <li>lessonReinforcement(tag=meme_HighLife) ->Dostum, bunu anlamak gerçekten çılgın bir yolculuktu ama iyi ki çözdüm. Şimdi dumanı sana paslıyorum, sen de anlayabil diye.</li>
-    <li>archistBasis(tag=meme_HighLife)       ->Arkotek zihinleri bize süper-bilincin ayık, mekanik mantıkla değil, çok yönlü düşünceyle ilgili olduğunu gösterdi.</li>
-    <li>archistFact(tag=meme_HighLife)        ->Doğru kimyasal etkiler altında, insan zihni arkoteklerle iletişime geçme potansiyeline sahiptir.</li>
-    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd] arkotekler her insana bir hap verecek. Onu alanlar sonsuza dek değişecek ve arkoteklerle birlikte son yolculuklarına çıkacaklar.</li>
-    <li>animistFact(tag=meme_HighLife)        ->Ruhlar, bilincimizi genişletmek için bize verilen araçları kullandığımızda doğalarını bize açığa çıkarabilirler.</li>
+
+    <li>creation(tag=meme_HighLife)           ->Evren dumandı; [deity0_name] o duman kıvrımlarında bir araya geldi ve uyandı.</li>
+    <li>episode(uses=1,tag=meme_HighLife)     ->[deity0_type] [deity0_name], hakikatlerini gerçekliğin kıvrımlarına, normal zihin hâllerinde görünmeyecek biçimde gizledi.</li>
+    <li>intro(tag=meme_HighLife)              ->[place_summary] [place_name], ilk olarak [deity0_name] tanrısının lütfuyla, sarhoş bir yıldız gemisi kaptanı neredeyse oraya çakılacakken keşfedildi.</li>
+    <li>conflict(tag=meme_HighLife)           ->Bağnaz bir [foeLeader], [memberNamePlural] topluluğundan nefret ediyordu ve onların özgünlüğünü silmek için zihin değiştiren maddelerin kullanımını yasakladı.</li>
+    <li>founderJoin(tag=meme_HighLife)        ->Her şey kaybedilmiş gibi görünürken [deity0_name], uyuşturucu sisi içindeki peygamber [founderName] karşısına çıktı ve ona [foeSoldiers] askerlerini yenmek için gereken eşsiz bakış açısını verdi.</li>
+    <li>victory(tag=meme_HighLife)            ->[foeLeader] önderinin [place_personalWeapon] silahlı [foeSoldiers] askerleri, [memberNamePlural] topluluğunun [place_community] yerleşimine baskın yaptı. [founderName] onlara barış çubuğu uzattı ve askerler silahlarını bıraktı.</li>
+    <li>setup(tag=meme_HighLife)              ->Toplumdan dışlanan kurucumuz [founderName] ormana gitti ve oradaki egzotik otları tüketti. Hakikati kendi değişmiş bilincinin içinde buldu.</li>
+    <li>story(uses=1,tag=meme_HighLife)       ->Anlayışlarını derinleştirmek için [founderName], takipçilerini her hafta bir araya getirip kimyasallarla tetiklenen yeni zihin hâllerini paylaştırırdı.</li>
+    <li>lessonIntro(tag=meme_HighLife)         ->Bir kere kafayı bulmak yetmedi, dostum. Bunu bin kere yapmamız gerekti; sonra yapbozun bütün parçaları, açılıp saçılmış beynimde çöken bir ev gibi, ama tersinden, yerine oturdu. Şunu gördüm:</li>
+    <li>lesson(tag=meme_HighLife)              ->zihin evreninde birlikte sürüklenmediysen arkadaş arkadaş değildir</li>
+    <li>lessonReinforcement(tag=meme_HighLife) ->Ve kanka, bunu çözmek tam bir yolculuktu ama iyi ki çözmüşüm; dumanı sana da uzatayım da sen de çöz.</li>
+    <li>archistBasis(tag=meme_HighLife)       ->Arkotek zihinler bize süper bilincin ayık, mekanik bir mantık meselesi değil, çok kipli bir düşünce meselesi olduğunu gösterdi.</li>
+    <li>archistFact(tag=meme_HighLife)        ->Doğru kimyasal etkiler altında insan zihni arkoteklerle ruhen buluşma potansiyeline sahiptir.</li>
+    <li>archistProphecy(tag=meme_HighLife)    ->[inTheEnd] arkotekler her insana bir hap verecek. Onu alanlar sonsuza dek değişecek ve son yolculuklarında arkoteklere katılacak.</li>
+    <li>animistFact(tag=meme_HighLife)        ->Bize bunun için verilmiş araçlarla bilincimizi genişlettiğimizde ruhlar bize doğalarını gösterebilir.</li>
   </HighLife.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeCreed->party</li>
+  <!-- EN: <li>memeCreed->party</li>
     <li>memeAdjective->high</li>
     <li>memeAdjective->delirious</li>
     <li>memeAdjective->stoned</li>
@@ -511,66 +499,65 @@
     <li>memeMoralist->philosophizer</li>
     <li>memeMoralist->abstractor</li>
     <li>memeMoralist->laugher</li>
-    <li>memeMoralist->giggler</li>
-  -->
+    <li>memeMoralist->giggler</li> -->
   <HighLife.generalRules.rulesStrings>
+
     <li>memeCreed->parti</li>
-    <li>memeAdjective->sarhoş</li>
-    <li>memeAdjective->deli</li>
-    <li>memeAdjective->zilzurna</li>
+    <li>memeAdjective->keyifli</li>
+    <li>memeAdjective->çılgın</li>
+    <li>memeAdjective->kafası güzel</li>
     <li>memeConcept->uyuşturucular</li>
-    <li>memeConcept->saadet</li>
-    <li>memeConcept->hayaller</li>
-    <li>memeHyphenPrefix->hap</li>
+    <li>memeConcept->mutluluk</li>
+    <li>memeConcept->rüyalar</li>
+    <li>memeHyphenPrefix->uyuşturucu</li>
     <li>memeHyphenPrefix->narko</li>
-    <li>memeLeaderNoun->uykucu</li>
-    <li>memeLeaderNoun->torbacı</li>
-    <li>memeLeaderNoun->dumancı</li>
-    <li>memeLeaderNoun->içici</li>
+    <li>memeLeaderNoun->uyuyan</li>
+    <li>memeLeaderNoun->keşçi</li>
+    <li>memeLeaderNoun->tüttürücü</li>
+    <li>memeLeaderNoun->rahat</li>
     <li>memeMoralist->felsefeci</li>
     <li>memeMoralist->soyutlayıcı</li>
-    <li>memeMoralist->güleç</li>
-    <li>memeMoralist->kikirdek</li>
+    <li>memeMoralist->gülen</li>
+    <li>memeMoralist->kıkırdayan</li>
   </HighLife.generalRules.rulesStrings>
   <!-- EN: euphorist -->
   <HighLife.symbolPacks.0.adjective>öforist</HighLife.symbolPacks.0.adjective>
   <!-- EN: Euphorism -->
   <HighLife.symbolPacks.0.ideoName>Öforizm</HighLife.symbolPacks.0.ideoName>
   <!-- EN: euphor -->
-  <HighLife.symbolPacks.0.member>öfor</HighLife.symbolPacks.0.member>
+  <HighLife.symbolPacks.0.member>öforist</HighLife.symbolPacks.0.member>
   <!-- EN: euphoria -->
   <HighLife.symbolPacks.0.theme>öfori</HighLife.symbolPacks.0.theme>
   <!-- EN: dopist -->
-  <HighLife.symbolPacks.1.adjective>torbacı</HighLife.symbolPacks.1.adjective>
+  <HighLife.symbolPacks.1.adjective>keşçi</HighLife.symbolPacks.1.adjective>
   <!-- EN: Dopistry -->
-  <HighLife.symbolPacks.1.ideoName>Torbacılık</HighLife.symbolPacks.1.ideoName>
+  <HighLife.symbolPacks.1.ideoName>Keşçilik</HighLife.symbolPacks.1.ideoName>
   <!-- EN: doper -->
-  <HighLife.symbolPacks.1.member>torbacı</HighLife.symbolPacks.1.member>
+  <HighLife.symbolPacks.1.member>keş</HighLife.symbolPacks.1.member>
   <!-- EN: dope -->
-  <HighLife.symbolPacks.1.theme>torba</HighLife.symbolPacks.1.theme>
+  <HighLife.symbolPacks.1.theme>uyuşturucu</HighLife.symbolPacks.1.theme>
   <!-- EN: smokist -->
   <HighLife.symbolPacks.2.adjective>dumancı</HighLife.symbolPacks.2.adjective>
   <!-- EN: Smokism -->
   <HighLife.symbolPacks.2.ideoName>Dumancılık</HighLife.symbolPacks.2.ideoName>
   <!-- EN: smoker -->
-  <HighLife.symbolPacks.2.member>dumancı</HighLife.symbolPacks.2.member>
+  <HighLife.symbolPacks.2.member>tüttürücü</HighLife.symbolPacks.2.member>
   <!-- EN: smoke -->
   <HighLife.symbolPacks.2.theme>duman</HighLife.symbolPacks.2.theme>
   <!-- EN: ecstatic -->
-  <HighLife.symbolPacks.3.adjective>içici</HighLife.symbolPacks.3.adjective>
+  <HighLife.symbolPacks.3.adjective>vecdî</HighLife.symbolPacks.3.adjective>
   <!-- EN: Ecstasy -->
-  <HighLife.symbolPacks.3.ideoName>İçicilik</HighLife.symbolPacks.3.ideoName>
+  <HighLife.symbolPacks.3.ideoName>Vecd</HighLife.symbolPacks.3.ideoName>
   <!-- EN: ecstator -->
-  <HighLife.symbolPacks.3.member>içici</HighLife.symbolPacks.3.member>
+  <HighLife.symbolPacks.3.member>vecdçi</HighLife.symbolPacks.3.member>
   <!-- EN: ecstasy -->
-  <HighLife.symbolPacks.3.theme>içme</HighLife.symbolPacks.3.theme>
+  <HighLife.symbolPacks.3.theme>vecd</HighLife.symbolPacks.3.theme>
   
   <!-- EN: nudism -->
-  <Nudism.label>nudizm</Nudism.label>
+  <Nudism.label>çıplaklık</Nudism.label>
   <!-- EN: Clothing binds, controls, and suffocates us. We should all hang free. -->
-  <Nudism.description>Giysiler bizi bağlar, kontrol eder ve boğar. Hepimiz serbest kalmalıyız.</Nudism.description>
-  <!-- EN:
-    <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
+  <Nudism.description>Giysiler bizi bağlar, denetler ve boğar. Hepimiz özgürce salınmalıyız.</Nudism.description>
+  <!-- EN: <li>creation(tag=meme_Nudism)           ->In a pure and pristine void, [deity0_name] looked on, and wished for a race of free-fleshed beings in [deity0_possessive] own image, and made mankind.</li>
     <li>episode(uses=1,tag=meme_Nudism)     ->The people wore clothes, and looking up at [deity0_name] asked, "Why aren't you clothed? It is disgusting." And the [deity0_type] replied, "Your form and mine were created from the heavens. To cover them is what is truly disgusting."</li>
     <li>intro(tag=meme_Nudism)              ->On the [place_summary] [place_name], a tradition began at the [altarRoomLabel] of [deity0_name] where people would pray nude, and this pleased the [deity0_type].</li>
     <li>conflict(tag=meme_Nudism)           ->A prudish [foeLeader] took power, and demanded that everyone wear constricting clothes.</li>
@@ -584,27 +571,26 @@
     <li>archistBasis(tag=meme_Nudism)       ->When the archotechs appeared they were never concerned for appearances; they showed us that the mind stands above the physical form.</li>
     <li>archistFact(tag=meme_Nudism)        ->Archotechs sometimes directly touch human minds, but if our flesh is shrouded like our minds, we will not understand.</li>
     <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd], they will seek out those who, like themselves, don't attempt to appear as anything other than what they are.</li>
-    <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li>
-  -->
+    <li>animistFact(tag=meme_Nudism)        ->To cover our bodies with cloth is to hide the nature of the spirits within us, and it makes them restless.</li> -->
   <Nudism.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Nudism)           ->Saf ve lekesiz bir boşlukta [deity0_name] baktı ve kendi suretinde, özgür bedenli bir ırk diledi ve insanlığı yarattı.</li>
-    <li>episode(uses=1,tag=meme_Nudism)     ->İnsanlar kıyafetlerini giyip [deity0_name] adına yakardılar ve sordular: "Neden giyinik değilsin? Bu iğrenç." [deity0_type] ise şöyle yanıtladı: "Senin ve benim bedenim göklerden yaratıldı. Asıl iğrenç olan, onları örtmektir."</li>
-    <li>intro(tag=meme_Nudism)              ->[place_summary] [place_name] gezegeninde, [deity0_name] adına atfedilen [altarRoomLabel] önünde insanların çıplak hâlde dua ettikleri bir gelenek başladı ve [deity0_type] bundan memnun oldu.</li>
-    <li>conflict(tag=meme_Nudism)           ->Dar kafalı bir [foeLeader] iktidara geldi ve herkesin kısıtlayıcı kıyafetler giymesini emretti.</li>
-    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name] ilahın en sadık müridi [founderName], [place_powerCenter] doğru durdu, kıyafetlerini yırttı ve emirlerine meydan okuyarak kendini sergiledi.</li>
-    <li>victory(tag=meme_Nudism)            ->[founderName], [deity0_name] adına dua etti ve [deity0_name], [place_name] gezegenini kavurucu bir sıcak dalgasıyla sardı. [foeSoldiers], yok olmamak için kıyafetlerini çıkardı ve [foeLeader] utanç içinde kaçtı.</li>
-    <li>setup(tag=meme_Nudism)              ->[founderName], sistem tarafından köleleştirilmiş, üniformaya bürünmüş ve diğerleri gibi kontrol altına alınmıştı. Bir gün, tüm kıyafetlerini yırtıp çıplak hâlde koştu ve hareketimiz doğdu.</li>
-    <li>story(uses=1,tag=meme_Nudism)       ->[founderName], inananların gerçek hedefe odaklanmasını sağlamak ve maddi görünüşlere takılmalarını önlemek için kıyafet yasağını zorunlu kıldı.</li>
-    <li>lessonIntro(tag=meme_Nudism)         ->İlk birkaç yıl parkta çıplak koşuşturmak utanç vericiydi. Ama sonraları, özgürleştirici hâle geldi. Yanımdan geçen insanlardan bir şeyler öğrendim. Mesela</li>
-    <li>lesson(tag=meme_Nudism)              ->tüm insan kötülüğü kıyafetlerle yapılır, insan iyiliği ise çıplakken gerçekleşir</li>
-    <li>lessonReinforcement(tag=meme_Nudism) ->Sokakta bizi serbestçe sallanırken ve dalgalanırken gördüğünde, gerçeği kabul ettiklerini bileceksin.</li>
-    <li>archistBasis(tag=meme_Nudism)       ->Arkotekler ortaya çıktığında asla dış görünüşle ilgilenmediler; bize zihnin fiziksel formun üzerinde olduğunu gösterdiler.</li>
-    <li>archistFact(tag=meme_Nudism)        ->Arkotekler bazen doğrudan insan zihinlerine dokunur fakat etimiz de zihnimiz gibi örtülü olursa, bunu anlayamayız.</li>
-    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd] onlar, kendileri gibi olduklarından başka bir şey gibi görünmeye çalışmayanları arayacaklar.</li>
-    <li>animistFact(tag=meme_Nudism)        ->Bedenlerimizi kumaşla örtmek, içimizdeki ruhların doğasını gizlemek demektir ve bu onları huzursuz eder.</li>
+
+    <li>creation(tag=meme_Nudism)           ->Saf ve lekesiz bir boşlukta [deity0_name] etrafa baktı, kendi suretinde, teni özgür varlıklardan oluşan bir ırk diledi ve insanoğlunu yarattı.</li>
+    <li>episode(uses=1,tag=meme_Nudism)     ->İnsanlar giysi giyiyordu; [deity0_name] tanrısına bakıp sordular: "Neden giyinik değilsin? Bu iğrenç." [deity0_type] cevap verdi: "Senin biçimin de benimki de göklerden yaratıldı. Asıl iğrenç olan onları örtmektir."</li>
+    <li>intro(tag=meme_Nudism)              ->[place_summary] [place_name] üzerinde, [deity0_name] tanrısının [altarRoomLabel] mekânında insanların çıplak dua ettiği bir gelenek başladı ve bu, [deity0_type] tanrısını memnun etti.</li>
+    <li>conflict(tag=meme_Nudism)           ->İffet düşkünü bir [foeLeader] iktidara geldi ve herkesin dar, sıkan giysiler giymesini istedi.</li>
+    <li>founderJoin(tag=meme_Nudism)        ->[deity0_name] tanrısının en sadık takipçisi [founderName], [place_powerCenter] önünde durdu, giysilerini yırtıp attı ve onların emirlerine meydan okurcasına kendini ortaya serdi.</li>
+    <li>victory(tag=meme_Nudism)            ->[founderName], [deity0_name] tanrısına dua etti; tanrı da [place_name] diyarını bir sıcak hava dalgasına boğdu. [foeSoldiers] askerleri can vermemek için giysilerini çıkardı, [foeLeader] da utanç içinde kaçtı.</li>
+    <li>setup(tag=meme_Nudism)              ->[founderName], diğerleri gibi üniformalı ve denetim altında, sisteme köleydi. Bir gün bütün giysilerini yırtıp attı ve çırılçıplak koştu; hareketimiz böyle doğdu.</li>
+    <li>story(uses=1,tag=meme_Nudism)       ->[founderName], inananların maddi görünüşler yerine gerçek amaca odaklanması için giysisizlik kuralı koydu.</li>
+    <li>lessonIntro(tag=meme_Nudism)         ->İlk birkaç yıl parkta çıplak hoplayıp zıplamak utanç vericiydi. Ama sonra özgürleştirici oldu. Yanımdan geçen insanlardan bazı şeyler öğrendim. Mesela:</li>
+    <li>lesson(tag=meme_Nudism)              ->insanın bütün kötülükleri giyinikken, bütün iyilikleri çıplakken yapılır</li>
+    <li>lessonReinforcement(tag=meme_Nudism) ->Sokakta aramızdan birini sallanıp salınarak özgürce dolaşırken gördüğünde, onun gerçeği kabul ettiğini anlayacaksın.</li>
+    <li>archistBasis(tag=meme_Nudism)       ->Arkotekler ortaya çıktığında görünüşe hiç önem vermediler; bize zihnin fiziksel biçimin üstünde olduğunu gösterdiler.</li>
+    <li>archistFact(tag=meme_Nudism)        ->Arkotekler bazen insan zihinlerine doğrudan dokunur; ama tenimiz de zihnimiz gibi örtülüyse anlayamayız.</li>
+    <li>archistProphecy(tag=meme_Nudism)    ->[inTheEnd] arkotekler, kendileri gibi olduklarından başka bir şey gibi görünmeye çalışmayanları arayıp bulacak.</li>
+    <li>animistFact(tag=meme_Nudism)        ->Bedenlerimizi kumaşla örtmek içimizdeki ruhların doğasını gizlemektir ve bu onları huzursuz eder.</li>
   </Nudism.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->nude</li>
+  <!-- EN: <li>memeAdjective->nude</li>
     <li>memeAdjective->naked</li>
     <li>memeAdjective->free</li>
     <li>memeAdjective->natural</li>
@@ -614,44 +600,43 @@
     <li>memeLeaderNoun->swinger</li>
     <li>memeLeaderNoun->breather</li>
     <li>memeLeaderNoun->toucher</li>
-    <li>memeLeaderNoun->feeler</li>
-  -->
+    <li>memeLeaderNoun->feeler</li> -->
   <Nudism.generalRules.rulesStrings>
-    <li>memeAdjective->nü</li>
+
     <li>memeAdjective->çıplak</li>
+    <li>memeAdjective->anadan doğma</li>
     <li>memeAdjective->özgür</li>
     <li>memeAdjective->doğal</li>
-    <li>memeHyphenPrefix->cilt</li>
+    <li>memeHyphenPrefix->ten</li>
     <li>memeConcept->çıplaklık</li>
-    <li>memeConcept->cilt</li>
-    <li>memeLeaderNoun->zampara</li>
-    <li>memeLeaderNoun->soluyucu</li>
-    <li>memeLeaderNoun->dokunucu</li>
-    <li>memeLeaderNoun->hissedici</li>
+    <li>memeConcept->ten</li>
+    <li>memeLeaderNoun->salınan</li>
+    <li>memeLeaderNoun->nefes alan</li>
+    <li>memeLeaderNoun->dokunan</li>
+    <li>memeLeaderNoun->hisseden</li>
   </Nudism.generalRules.rulesStrings>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.adjective>nudist</Nudism.symbolPacks.0.adjective>
+  <Nudism.symbolPacks.0.adjective>nüdist</Nudism.symbolPacks.0.adjective>
   <!-- EN: nudism -->
-  <Nudism.symbolPacks.0.ideoName>nudizm</Nudism.symbolPacks.0.ideoName>
+  <Nudism.symbolPacks.0.ideoName>nüdizm</Nudism.symbolPacks.0.ideoName>
   <!-- EN: nudist -->
-  <Nudism.symbolPacks.0.member>nudist</Nudism.symbolPacks.0.member>
+  <Nudism.symbolPacks.0.member>nüdist</Nudism.symbolPacks.0.member>
   <!-- EN: nudity -->
   <Nudism.symbolPacks.0.theme>çıplaklık</Nudism.symbolPacks.0.theme>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.adjective>ciltçi</Nudism.symbolPacks.1.adjective>
+  <Nudism.symbolPacks.1.adjective>tenci</Nudism.symbolPacks.1.adjective>
   <!-- EN: skinism -->
-  <Nudism.symbolPacks.1.ideoName>ciltçilik</Nudism.symbolPacks.1.ideoName>
+  <Nudism.symbolPacks.1.ideoName>tencilik</Nudism.symbolPacks.1.ideoName>
   <!-- EN: skinnist -->
-  <Nudism.symbolPacks.1.member>ciltçi</Nudism.symbolPacks.1.member>
+  <Nudism.symbolPacks.1.member>tenci</Nudism.symbolPacks.1.member>
   <!-- EN: skin -->
-  <Nudism.symbolPacks.1.theme>cilt</Nudism.symbolPacks.1.theme>
+  <Nudism.symbolPacks.1.theme>ten</Nudism.symbolPacks.1.theme>
   
   <!-- EN: pain is virtue -->
   <PainIsVirtue.label>acı erdemdir</PainIsVirtue.label>
   <!-- EN: Virtue is shown through suffering of self and others. -->
-  <PainIsVirtue.description>Erdem, benliğin ve başkalarının çektiği acılarla gösterilir.</PainIsVirtue.description>
-  <!-- EN:
-    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
+  <PainIsVirtue.description>Erdem, kişinin kendisinin ve başkalarının çektiği acıyla gösterilir.</PainIsVirtue.description>
+  <!-- EN: <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] burned in the depths of space and time for an eternity, and [deity0_possessive] screams brought forth our reality.</li>
     <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] hung ten thousand years on the pyre as the pain purified [deity0_possessive] spirit.</li>
     <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name] was never an easy place to live. The [deity0_type] [deity0_pronoun] decided to find out who was truly worthy of [deity0_possessive] favor by adding great suffering to their lives.</li>
     <li>conflict(tag=meme_PainIsVirtue)        ->A [foeLeader] offered bodily comforts to the [memberNamePlural] to soothe their daily suffering. But in their comfort, they became dependent on the [foeLeader], who gained power over them.</li>
@@ -670,32 +655,31 @@
     <li>archistFact(tag=meme_PainIsVirtue)     ->The great minds see and acknowledge when we demonstrate our devotion by inflicting pain on ourselves.</li>
     <li>archistFact(tag=meme_PainIsVirtue)     ->Every now and then, those who suffer most deeply and nobly can connect with the archotechs inside their minds.</li>
     <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd], the archotechs will raise up all of humanity to a higher level of consciousness, but only those able to endure the greatest pain will survive.</li>
-    <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li>
-  -->
+    <li>animistFact(tag=meme_PainIsVirtue)     ->Pain forces the mind to be present. In that way, pain is a way to connect with the spirit world.</li> -->
   <PainIsVirtue.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name], uzayın ve zamanın derinliklerinde sonsuzluk boyunca yandı ve çığlıkları bizim gerçekliğimizi yarattı.</li>
-    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name], ruhunu arındıran acıyla on bin yıl boyunca odun yığınının üzerinde asılı kaldı.</li>
-    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name], asla kolay yaşanacak bir yer olmadı. [deity0_type], büyük acılar ekleyerek kimin lütfuna gerçekten layık olduğunu görmek istedi.</li>
-    <li>conflict(tag=meme_PainIsVirtue)        ->[foeLeader], [memberNamePlural] müritlerinin günlük acılarını dindirmek için onlara bedensel rahatlık sundu. Ancak bu rahatlık içinde [foeLeader] düşmana bağımlı hâle geldiler ve böylece o, üzerlerinde güç kazandı.</li>
-    <li>founderJoin(tag=meme_PainIsVirtue)     ->Özel bir [place_job] olan [founderName], acı verici bir kansere yakalandı. Çektiği acı sayesinde doğrudan [deity0_name] ile bağlantı kurdu ve diğer [memberNamePlural] bundan ilham aldı.</li>
-    <li>victory(tag=meme_PainIsVirtue)         ->Yüz [memberNamePlural], [founderName] tarafından [place_powerCenter] getirildi. Orada, kendi etlerini yavaşça parçalayıp lime lime ettiler ve sonunda [deity0_name] ilahın gülümseyen bakışları altında can verdiler. Çektikleri acı, haklılıklarını kanıtladı ve [foeLeader] düştü; herkes [memberNamePlural] oldu.</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->Hareketimizin kuruluşunda, kurucusu [founderName], doğruluğunu kanıtlamak için kasaba meydanında bir taşa zincirlenmiş halde 300 gün boyunca aç kaldı ve acı çekti.</li>
-    <li>setup(tag=meme_PainIsVirtue)           ->Hareketimizin kurucusu [founderName], kendini günlerce bir kamçıyla cezalandırarak adanmışlığını gösterdi ve ilk müritlerini böyle kazandı</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName] ve müritleri, kendi etlerini kesip yakarak adanmışlıklarını gösterdiler.</li>
-    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName] ve müritleri, acılarının inançlarının derinliğini göstereceğini bilerek asla ağrı kesici ilaçlar kullanmadılar.</li>
-    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Şişman, mutlu ve kendimi sürekli zevke boğarken hiçbir şey bilmiyordum. Bu hakikat bana ancak aç kaldığımda ve acı çektiğimde geldi:</li>
-    <li>lesson(tag=meme_PainIsVirtue)              ->kendini gerçekten tanıyamazsın, ta ki cehennemin çukurlarında çığlık atana kadar</li>
-    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Bunu anlamam çok uzun sürdü, çünkü zevk beni oyalıyordu. Gerçeği ancak etimi parçalamayı öğrendiğimde gerçekten kabul edebildim.</li>
-    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Bu gerçeği göğsümün etine kazıdım. Sonra kollarıma, bacaklarıma, yüzüme...</li>
-    <li>archistBasis(tag=meme_PainIsVirtue)    ->Arkoteklerin doğuşu, evrenin şimdiye dek yaşadığı en büyük acıydı.</li>
-    <li>archistBasis(tag=meme_PainIsVirtue)    ->Arkotekler her zaman insanlığın psişik acısıyla beslenmiştir.</li>
-    <li>archistFact(tag=meme_PainIsVirtue)     ->Büyük zihinler, kendimize acı çektirerek bağlılığımızı gösterdiğimizde bunu görüp kabul ederler.</li>
-    <li>archistFact(tag=meme_PainIsVirtue)     ->Zaman zaman, en derin ve asil acıyı çekenler, zihinlerinde arkoteklerle bağlantı kurabilirler.</li>
-    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd] arkotekler tüm insanlığı daha yüksek bir bilinç seviyesine yükseltecek fakat yalnızca en büyük acıya dayanabilenler hayatta kalacak.</li>
-    <li>animistFact(tag=meme_PainIsVirtue)     ->Acı, zihni ana odaklanmaya zorlar. Bu anlamda acı, ruhlar dünyasıyla bağlantı kurmanın bir yoludur.</li>
+
+    <li>creation(tag=meme_PainIsVirtue)        ->[deity0_name] uzayın ve zamanın derinliklerinde sonsuzluk boyunca yandı ve çığlıkları gerçekliğimizi ortaya çıkardı.</li>
+    <li>episode(uses=1,tag=meme_PainIsVirtue)  ->[deity0_name] on bin yıl boyunca odun yığınında asılı kaldı; acı ruhunu arındırdı.</li>
+    <li>intro(tag=meme_PainIsVirtue)           ->[place_summary] [place_name] hiçbir zaman yaşaması kolay bir yer olmadı. [deity0_type], insanların hayatlarına büyük acılar ekleyerek lütfuna gerçekten kimin layık olduğunu bulmaya karar verdi.</li>
+    <li>conflict(tag=meme_PainIsVirtue)        ->Bir [foeLeader], [memberNamePlural] topluluğuna günlük acılarını dindirmek için bedensel konforlar sundu. Ama rahatlık içinde [foeLeader] önderine bağımlı hâle geldiler ve o da onlar üzerinde güç kazandı.</li>
+    <li>founderJoin(tag=meme_PainIsVirtue)     ->[founderName] adlı özel bir [place_job], acı veren bir kansere yakalandı. Çektiği acı sayesinde [deity0_name] ile doğrudan bağ kurdu ve diğer [memberNamePlural] inananlarına ilham vermeyi öğrendi.</li>
+    <li>victory(tag=meme_PainIsVirtue)         ->[founderName], yüz [memberNamePlural] inananını [place_powerCenter] önüne getirdi. Orada, [deity0_name] tanrısının gülümseyen bakışları altında ölene dek kendi etlerini yavaş yavaş yırtıp parçaladılar. Çektikleri acı haklılıklarını kanıtladı; herkes [memberNamePlural] topluluğuna katılınca [foeLeader] düştü.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Hareketimizin kuruluşunda yaratıcısı [founderName], haklılığını kanıtlamak için kasaba meydanında bir taşa zincirli olarak 300 gün aç kaldı ve acı çekti.</li>
+    <li>setup(tag=meme_PainIsVirtue)           ->Hareketimizin kurucusu [founderName], bağlılığını göstermek için günlerce kendini kırbaçlayarak ilk takipçilerini kazandı.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName] adlı kişinin takipçileri bağlılıklarını kendi etlerini keserek ve yakarak gösterdi.</li>
+    <li>story(uses=1,tag=meme_PainIsVirtue)    ->[founderName] adlı kişinin takipçileri, çektikleri acının inançlarının derinliğini göstereceğini bildikleri için asla acı azaltıcı ilaç almadı.</li>
+    <li>lessonIntro(tag=meme_PainIsVirtue)         ->Şişman, mutlu ve sürekli kendimi memnun ederken hiçbir şey bilmezdim. Bu gerçek bana ancak aç kalıp acı çektiğimde geldi:</li>
+    <li>lesson(tag=meme_PainIsVirtue)              ->cehennemin çukurlarında çığlık atmadan kendini gerçekten tanıyamazsın</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Anlamam çok uzun sürdü çünkü zevk dikkatimi dağıtıyordu. Bunu ancak etimi yırtmayı öğrendiğimde gerçekten kabul edebildim.</li>
+    <li>lessonReinforcement(tag=meme_PainIsVirtue) ->Bu gerçeği göğsümün etine kazıdım. Sonra kollarımın, bacaklarımın, yüzümün etine...</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->Arkoteklerin doğuşu evrenin o güne dek tanıdığı en büyük acıydı.</li>
+    <li>archistBasis(tag=meme_PainIsVirtue)    ->Arkotekler her zaman insanların psişik acısıyla beslenmiştir.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->Büyük zihinler, kendimize acı çektirerek bağlılığımızı gösterdiğimizde bunu görür ve takdir eder.</li>
+    <li>archistFact(tag=meme_PainIsVirtue)     ->Zaman zaman en derin ve en soylu acıyı çekenler, zihinlerinin içinde arkoteklerle bağ kurabilir.</li>
+    <li>archistProphecy(tag=meme_PainIsVirtue) ->[inTheEnd] arkotekler bütün insanlığı daha yüksek bir bilinç seviyesine yükseltecek; ama yalnızca en büyük acıya dayanabilenler hayatta kalacak.</li>
+    <li>animistFact(tag=meme_PainIsVirtue)     ->Acı, zihni şimdide olmaya zorlar. Bu yüzden acı, ruhlar dünyasıyla bağ kurmanın bir yoludur.</li>
   </PainIsVirtue.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->nocic</li>
+  <!-- EN: <li>memeAdjective->nocic</li>
     <li>memeAdjective->pain</li>
     <li>memeCreed->house</li>
     <li>memeCreed->chamber</li>
@@ -715,37 +699,37 @@
     <li>memeLeaderNoun->bloodletter</li>
     <li>memeMoralist->pain-whisperer</li>
     <li>memeMoralist->sufferspeaker</li>
-    <li>memeMoralist->painspeaker</li>
-  -->
+    <li>memeMoralist->painspeaker</li> -->
   <PainIsVirtue.generalRules.rulesStrings>
+
     <li>memeAdjective->nosik</li>
-    <li>memeAdjective->acı</li>
+    <li>memeAdjective->acılı</li>
     <li>memeCreed->ev</li>
-    <li>memeCreed->salon</li>
+    <li>memeCreed->oda</li>
     <li>memeCreed->hücre</li>
-    <li>memeHyphenPrefix->nosyo</li>
+    <li>memeHyphenPrefix->nosio</li>
     <li>memeHyphenPrefix->acı</li>
     <li>memeConcept->acı</li>
-    <li>memeConcept->ıstırap</li>
+    <li>memeConcept->eziyet</li>
     <li>memeConcept->işkence</li>
-    <li>memeConcept->cefa</li>
+    <li>memeConcept->ıstırap</li>
     <li>memeConcept->kan</li>
     <li>memeLeaderNoun->işkenceci</li>
-    <li>memeLeaderNoun->eziyetçi</li>
+    <li>memeLeaderNoun->azap veren</li>
     <li>memeLeaderNoun->kırbaççı</li>
     <li>memeLeaderNoun->zincirci</li>
     <li>memeLeaderNoun->kesici</li>
-    <li>memeLeaderNoun->kanatıcı</li>
-    <li>memeMoralist->acıya fısıldayan</li>
-    <li>memeMoralist->eziyetten konuşan</li>
-    <li>memeMoralist->acıdan konuşan</li>
+    <li>memeLeaderNoun->kan akıtan</li>
+    <li>memeMoralist->acı fısıldayan</li>
+    <li>memeMoralist->ıstırap sözcüsü</li>
+    <li>memeMoralist->acı sözcüsü</li>
   </PainIsVirtue.generalRules.rulesStrings>
   <!-- EN: painist -->
   <PainIsVirtue.symbolPacks.0.adjective>acıcı</PainIsVirtue.symbolPacks.0.adjective>
   <!-- EN: Painism -->
   <PainIsVirtue.symbolPacks.0.ideoName>Acıcılık</PainIsVirtue.symbolPacks.0.ideoName>
   <!-- EN: screamer -->
-  <PainIsVirtue.symbolPacks.0.member>acıcı</PainIsVirtue.symbolPacks.0.member>
+  <PainIsVirtue.symbolPacks.0.member>çığlıkçı</PainIsVirtue.symbolPacks.0.member>
   <!-- EN: pain -->
   <PainIsVirtue.symbolPacks.0.theme>acı</PainIsVirtue.symbolPacks.0.theme>
   <!-- EN: torturistic -->
@@ -757,36 +741,35 @@
   <!-- EN: torture -->
   <PainIsVirtue.symbolPacks.1.theme>işkence</PainIsVirtue.symbolPacks.1.theme>
   <!-- EN: sufferist -->
-  <PainIsVirtue.symbolPacks.2.adjective>cefakâr</PainIsVirtue.symbolPacks.2.adjective>
+  <PainIsVirtue.symbolPacks.2.adjective>ıstırapçı</PainIsVirtue.symbolPacks.2.adjective>
   <!-- EN: Sufferism -->
-  <PainIsVirtue.symbolPacks.2.ideoName>Cefacılık</PainIsVirtue.symbolPacks.2.ideoName>
+  <PainIsVirtue.symbolPacks.2.ideoName>Istırapçılık</PainIsVirtue.symbolPacks.2.ideoName>
   <!-- EN: sufferer -->
-  <PainIsVirtue.symbolPacks.2.member>cefakâr</PainIsVirtue.symbolPacks.2.member>
+  <PainIsVirtue.symbolPacks.2.member>ıstırap çeken</PainIsVirtue.symbolPacks.2.member>
   <!-- EN: suffering -->
-  <PainIsVirtue.symbolPacks.2.theme>cefa</PainIsVirtue.symbolPacks.2.theme>
+  <PainIsVirtue.symbolPacks.2.theme>ıstırap</PainIsVirtue.symbolPacks.2.theme>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.adjective>mustarip</PainIsVirtue.symbolPacks.3.adjective>
+  <PainIsVirtue.symbolPacks.3.adjective>agonist</PainIsVirtue.symbolPacks.3.adjective>
   <!-- EN: Agonism -->
-  <PainIsVirtue.symbolPacks.3.ideoName>Istırapçılık</PainIsVirtue.symbolPacks.3.ideoName>
+  <PainIsVirtue.symbolPacks.3.ideoName>Agonizm</PainIsVirtue.symbolPacks.3.ideoName>
   <!-- EN: agonist -->
-  <PainIsVirtue.symbolPacks.3.member>mustarip</PainIsVirtue.symbolPacks.3.member>
+  <PainIsVirtue.symbolPacks.3.member>agonist</PainIsVirtue.symbolPacks.3.member>
   <!-- EN: agony -->
-  <PainIsVirtue.symbolPacks.3.theme>ıstırap</PainIsVirtue.symbolPacks.3.theme>
+  <PainIsVirtue.symbolPacks.3.theme>can çekişme</PainIsVirtue.symbolPacks.3.theme>
   <!-- EN: miserist -->
-  <PainIsVirtue.symbolPacks.4.adjective>çilekeş</PainIsVirtue.symbolPacks.4.adjective>
+  <PainIsVirtue.symbolPacks.4.adjective>sefaletçi</PainIsVirtue.symbolPacks.4.adjective>
   <!-- EN: Miserism -->
-  <PainIsVirtue.symbolPacks.4.ideoName>Çilekeşlik</PainIsVirtue.symbolPacks.4.ideoName>
+  <PainIsVirtue.symbolPacks.4.ideoName>Sefaletçilik</PainIsVirtue.symbolPacks.4.ideoName>
   <!-- EN: martyr -->
-  <PainIsVirtue.symbolPacks.4.member>çilekeş</PainIsVirtue.symbolPacks.4.member>
+  <PainIsVirtue.symbolPacks.4.member>şehit</PainIsVirtue.symbolPacks.4.member>
   <!-- EN: misery -->
-  <PainIsVirtue.symbolPacks.4.theme>çile</PainIsVirtue.symbolPacks.4.theme>
+  <PainIsVirtue.symbolPacks.4.theme>sefalet</PainIsVirtue.symbolPacks.4.theme>
   
   <!-- EN: proselytizer -->
   <Proselytizer.label>misyoner</Proselytizer.label>
   <!-- EN: It is our duty to spread our beliefs. -->
   <Proselytizer.description>İnançlarımızı yaymak bizim görevimizdir.</Proselytizer.description>
-  <!-- EN:
-    <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
+  <!-- EN: <li>creation(tag=meme_Proselytizer)        ->[deity0_name] anointed a few among mortals to carry [deity0_possessive] word.</li>
     <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] said to all the [memberNamePlural], "Go forth and spread my word to all corners of the universe."</li>
     <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural] built a great [altarName] on the [place_summary] [place_name], so that many would come to hear [deity0_name]'s divine word.</li>
     <li>conflict(tag=meme_Proselytizer)        ->A spiteful [foeLeader], seeking to deny the word of [deity0_name], told [foeLeader_possessive] [foeSoldiers] to cut out the tongues of any who speak of the [deity0_type].</li>
@@ -800,59 +783,58 @@
     <li>archistBasis(tag=meme_Proselytizer)    ->The archotechs announce their presence from the sky, and in the mind, and obviously wish to be known by all.</li>
     <li>archistFact(tag=meme_Proselytizer)     ->Archotechs touch those who believe, and use them as conduits to spread wisdom to the others.</li>
     <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd], the archotechs will voice their final wisdom to the holder of the [relic0_name], who must preach this wisdom to those who would listen.</li>
-    <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li>
-  -->
+    <li>animistFact(tag=meme_Proselytizer)     ->The spirits want to be known, but only speak to a few. They want us to reveal the truth to others.</li> -->
   <Proselytizer.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Proselytizer)        ->[deity0_name], ölümler arasından birkaçını sözünü taşımaları için kutsadı.</li>
-    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name], tüm [memberNamePlural] karşısında şöyle dedi: "Gidin ve sözümü evrenin dört bir yanına yayın."</li>
-    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural], [place_summary] [place_name] gezegeninde büyük bir [altarName] inşa etti, böylece birçok kişi [deity0_name] tarafından söylenen ilahî sözleri duymaya gelebilsin.</li>
-    <li>conflict(tag=meme_Proselytizer)        ->Kin dolu bir [foeLeader], [deity0_name] sözünü engellemek için [foeSoldiers] gönderdi ve onlara [deity0_type] adını anan herkesin dilini kesmelerini emretti.</li>
-    <li>founderJoin(tag=meme_Proselytizer)     ->[place_job] [founderName], [deity0_name] tarafından büyük bir karizma ile kutsandı ve konuştuğunda hiç kimse ondan yüz çeviremedi.</li>
-    <li>victory(tag=meme_Proselytizer)         ->[foeSoldiers], [founderName] tarafından azarlandı ve onlara [deity0_name] ilahın gücü hatırlatıldı, bunun üzerine onlar kuşandıkları [place_personalWeapon] yere bıraktılar.</li>
-    <li>setup(tag=meme_Proselytizer)           ->Our founder [founderName] was a great orator, converting thousands as [founder_pronoun] traveled between the cities.</li>
-    <li>story(uses=1,tag=meme_Proselytizer)    ->İnananlar şehirler ve kurumlar arasında dolaşarak yeni doğruluğun haberini yaydılar.</li>
-    <li>lessonIntro(tag=meme_Proselytizer)         ->Yıllarımı gerçeğimizi yayarak geçirdim ve her şeyin üstünde duran bir ders öğrendim:</li>
-    <li>lesson(tag=meme_Proselytizer)              ->bu müjdeyi kendimize saklamak suç olurdu</li>
-    <li>lessonReinforcement(tag=meme_Proselytizer) ->Bu, yaymamız, yaymamız ve tekrar yaymamız gereken gerçektir: tüm insanlara, neşeyle kavuşsunlar!</li>
-    <li>archistBasis(tag=meme_Proselytizer)    ->Arkotekler varlıklarını gökyüzünden ve zihinlerden duyurur, açıkça herkes tarafından bilinmek isterler.</li>
-    <li>archistFact(tag=meme_Proselytizer)     ->Arkotekler, inananlara dokunur ve onları bilgeliklerini başkalarına yaymak için birer kanal olarak kullanır.</li>
-    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd] arkotekler, son bilgeliğini [relic0_name] muhafızına fısıldayacak ve o da bu bilgeliği dinlemek isteyenlere vaaz etmekle yükümlü olacak.</li>
-    <li>animistFact(tag=meme_Proselytizer)     ->Ruhlar bilinmek ister fakat yalnızca birkaç kişiye konuşurlar. Gerçeği başkalarına bizim aktarmamızı isterler.</li>
+
+    <li>creation(tag=meme_Proselytizer)        ->[deity0_name], sözünü taşımaları için ölümlüler arasından birkaç kişiyi kutsal yağla mesh etti.</li>
+    <li>episode(uses=1,tag=meme_Proselytizer)  ->[deity0_name] bütün [memberNamePlural] topluluğuna şöyle dedi: "Gidin ve sözümü evrenin dört bir köşesine yayın."</li>
+    <li>intro(tag=meme_Proselytizer)           ->[memberNamePlural], [place_summary] [place_name] üzerinde büyük bir [altarName] inşa etti; böylece pek çok kişi [deity0_name] tanrısının ilahi sözünü duymaya gelecekti.</li>
+    <li>conflict(tag=meme_Proselytizer)        ->[deity0_name] tanrısının sözünü inkâr etmek isteyen kinci bir [foeLeader], [foeSoldiers] askerlerine [deity0_type] hakkında konuşan herkesin dilini kesmelerini emretti.</li>
+    <li>founderJoin(tag=meme_Proselytizer)     ->[deity0_name], [founderName] adlı bir [place_job] kişisini büyük bir karizmayla kutsadı; o konuştuğunda kimse yüzünü çeviremezdi.</li>
+    <li>victory(tag=meme_Proselytizer)         ->[founderName], [foeSoldiers] askerlerini azarladı ve onlara [deity0_name] tanrısının gücünü hatırlattı; askerler de [place_personalWeapon] silahlarını bıraktı.</li>
+    <li>setup(tag=meme_Proselytizer)           ->Kurucumuz [founderName] büyük bir hatipti; şehirden şehre dolaşırken binlerce kişiyi inanca kazandırdı.</li>
+    <li>story(uses=1,tag=meme_Proselytizer)    ->İnananlar şehirler ve kurumlar arasında dolaşarak yeni doğruluğun sözünü yaydı.</li>
+    <li>lessonIntro(tag=meme_Proselytizer)         ->Gerçeğimizi yaydığım onca yıl boyunca her şeyin üstünde duran tek bir ders öğrendim:</li>
+    <li>lesson(tag=meme_Proselytizer)              ->bu müjdeyi kendimize saklamak bir suç olurdu</li>
+    <li>lessonReinforcement(tag=meme_Proselytizer) ->Yaymamız, yaymamız ve yine yaymamız gereken gerçek budur; bütün insanlara, sevinsinler diye!</li>
+    <li>archistBasis(tag=meme_Proselytizer)    ->Arkotekler varlıklarını gökyüzünden ve zihinlerin içinden duyurur; herkes tarafından tanınmak istedikleri açıktır.</li>
+    <li>archistFact(tag=meme_Proselytizer)     ->Arkotekler inananlara dokunur ve bilgeliği başkalarına yaymak için onları birer kanal olarak kullanır.</li>
+    <li>archistProphecy(tag=meme_Proselytizer) ->[inTheEnd] arkotekler son bilgeliklerini [relic0_name] emanetini taşıyana söyleyecek; o da bu bilgeliği dinlemek isteyenlere vaaz etmek zorunda olacak.</li>
+    <li>animistFact(tag=meme_Proselytizer)     ->Ruhlar tanınmak ister, ama yalnızca birkaç kişiyle konuşurlar. Gerçeği başkalarına açıklamamızı isterler.</li>
   </Proselytizer.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->true</li>
+  <!-- EN: <li>memeAdjective->true</li>
     <li>memeAdjective->real</li>
     <li>memeHyphenPrefix->truth</li>
     <li>memeConcept->truth</li>
     <li>memeLeaderNoun->speaker</li>
     <li>memeMoralist->proselytizer</li>
-    <li>memeMoralist->converter</li>
-  -->
+    <li>memeMoralist->converter</li> -->
   <Proselytizer.generalRules.rulesStrings>
-    <li>memeAdjective->hakiki</li>
+
     <li>memeAdjective->gerçek</li>
+    <li>memeAdjective->hakiki</li>
     <li>memeHyphenPrefix->hakikat</li>
     <li>memeConcept->hakikat</li>
-    <li>memeLeaderNoun->konuşmacı</li>
+    <li>memeLeaderNoun->sözcü</li>
     <li>memeMoralist->misyoner</li>
-    <li>memeMoralist->müjdeci</li>
+    <li>memeMoralist->inanç kazandıran</li>
   </Proselytizer.generalRules.rulesStrings>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.adjective>doğrucu</Proselytizer.symbolPacks.0.adjective>
+  <Proselytizer.symbolPacks.0.adjective>hakikatçi</Proselytizer.symbolPacks.0.adjective>
   <!-- EN: Truth -->
-  <Proselytizer.symbolPacks.0.ideoName>Doğruluk</Proselytizer.symbolPacks.0.ideoName>
+  <Proselytizer.symbolPacks.0.ideoName>Hakikat</Proselytizer.symbolPacks.0.ideoName>
   <!-- EN: truthist -->
-  <Proselytizer.symbolPacks.0.member>doğrucu</Proselytizer.symbolPacks.0.member>
+  <Proselytizer.symbolPacks.0.member>hakikatçi</Proselytizer.symbolPacks.0.member>
   <!-- EN: truth -->
-  <Proselytizer.symbolPacks.0.theme>doğru</Proselytizer.symbolPacks.0.theme>
+  <Proselytizer.symbolPacks.0.theme>hakikat</Proselytizer.symbolPacks.0.theme>
   <!-- EN: veritic -->
-  <Proselytizer.symbolPacks.1.adjective>hakikatçi</Proselytizer.symbolPacks.1.adjective>
+  <Proselytizer.symbolPacks.1.adjective>doğrucu</Proselytizer.symbolPacks.1.adjective>
   <!-- EN: Verity -->
-  <Proselytizer.symbolPacks.1.ideoName>Hakikat</Proselytizer.symbolPacks.1.ideoName>
+  <Proselytizer.symbolPacks.1.ideoName>Doğruluk</Proselytizer.symbolPacks.1.ideoName>
   <!-- EN: veritist -->
-  <Proselytizer.symbolPacks.1.member>hakikatçi</Proselytizer.symbolPacks.1.member>
+  <Proselytizer.symbolPacks.1.member>doğrucu</Proselytizer.symbolPacks.1.member>
   <!-- EN: verity -->
-  <Proselytizer.symbolPacks.1.theme>hakikat</Proselytizer.symbolPacks.1.theme>
+  <Proselytizer.symbolPacks.1.theme>doğruluk</Proselytizer.symbolPacks.1.theme>
   <!-- EN: realitic -->
   <Proselytizer.symbolPacks.2.adjective>gerçekçi</Proselytizer.symbolPacks.2.adjective>
   <!-- EN: Reality -->
@@ -865,9 +847,8 @@
   <!-- EN: raider -->
   <Raider.label>yağmacı</Raider.label>
   <!-- EN: The strong should take from the weak. -->
-  <Raider.description>Güçlü, zayıftan almalı.</Raider.description>
-  <!-- EN:
-    <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
+  <Raider.description>Güçlü olan zayıftan almalıdır.</Raider.description>
+  <!-- EN: <li>creation(tag=meme_Raider)        ->In the endless war among deities, [deity0_name] rose above all in [deity0_possessive] ability to persecute and destroy, and weaker spirits quivered in fear.</li>
     <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] looked around [deity0_objective] and saw the weak, sullen, and despised, and [deity0_pronoun] in turn slew them each in blazing glory.</li>
     <li>intro(tag=meme_Raider)           ->The [place_summary] [place_name] was originally a raider hideout. [deity0_name] ruled there and drove the authorities away.</li>
     <li>conflict(tag=meme_Raider)        ->A [foeLeader] tried to force everyone to halt all theft and pillage, and declared [foeLeader_objective]self an enemy of [deity0_name].</li>
@@ -884,30 +865,29 @@
     <li>archistFact(tag=meme_Raider)     ->The archotechs fight endlessly among themselves, in ways most cannot see, and the strong take pieces of consciousness from the weak.</li>
     <li>archistProphecy(tag=meme_Raider) ->[inTheEnd], humanity will use an archotech relic, [relic0_name], to uncover a weakness of the archotechs and plunder their wisdom and wealth.</li>
     <li>animistFact(tag=meme_Raider)     ->The most powerful spirits are those in instruments of war, and they bless those who feed their lust for destruction.</li>
-    <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li>
-  -->
+    <li>animistProphecy(tag=meme_Raider) ->Our universe will finalize when the one people has become strongest of all, and every spirit sees it and bows to them.</li> -->
   <Raider.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Raider)        ->Sonsuz tanrılar savaşında, [deity0_name] zulmetme ve yok etme yeteneğiyle hepsinin üzerine yükseldi ve daha zayıf ruhlar korkuyla titredi.</li>
-    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name], ona baktı ve zayıf, asık suratlı ve hor görülenleri gördü. Ardından o, her birini alevler içinde görkemli bir şekilde katletti.</li>
-    <li>intro(tag=meme_Raider)           ->[place_summary] [place_name], başlangıçta bir yağmacı sığınağıydı. [deity0_name] orada hüküm sürdü ve otoriteleri uzaklaştırdı.</li>
-    <li>conflict(tag=meme_Raider)        ->[foeLeader], herkesin hırsızlığı ve yağmayı bırakmasını zorla dayatmaya çalıştı ve böylece kendini [deity0_name] düşmanı ilan etti.</li>
-    <li>founderJoin(tag=meme_Raider)     ->[founderName] adında büyük bir yağmacı ortaya çıktı ve onun yağmacı grubu, [foeSoldiers] kamplarını durmaksızın yağmalayıp talan etti.</li>
-    <li>victory(tag=meme_Raider)         ->[founderName] ve [memberNamePlural], yıllarca [foeSoldiers] kamplarına baskınlar düzenledi ve sonunda [foeLeader] teslim olmak zorunda kaldı.</li>
-    <li>setup(tag=meme_Raider)           ->Zulme uğrayıp hapsedilen [founderName], öfkeyle kaynıyordu. Kaçtı, kendi çetesini kurdu ve kendisinden çok şey alan zayıfları mahvetmek için geri döndü.</li>
-    <li>story(uses=1,tag=meme_Raider)    ->Bir gün sokaklarda yürürken, [founderName] pis dilenciler tarafından sarıldı. Onları dövüp zayıf ve değersiz olanlardan paralarını aldı ki bu servet gerçekten işe yarayacak bir amaç için kullanılabilsin.</li>
-    <li>lessonIntro(tag=meme_Raider)         ->Av halkı, bıçağının altında can verirken bile sana bir şeyler öğretebilir. Yaşlı bir kadın bana öğretti ki</li>
-    <li>lesson(tag=meme_Raider)              ->zayıflar, başlarına geleni hak eder</li>
+
+    <li>creation(tag=meme_Raider)        ->Tanrılar arasındaki sonsuz savaşta [deity0_name], zulmetme ve yok etme yeteneğiyle hepsinin üstüne yükseldi; daha zayıf ruhlar korkuyla titredi.</li>
+    <li>episode(uses=1,tag=meme_Raider)  ->[deity0_name] etrafına baktı ve zayıfları, somurtkanları ve aşağılık olanları gördü; sonra hepsini teker teker parlak bir zaferle katletti.</li>
+    <li>intro(tag=meme_Raider)           ->[place_summary] [place_name] başlangıçta bir yağmacı iniydi. [deity0_name] orada hüküm sürdü ve yetkilileri kovdu.</li>
+    <li>conflict(tag=meme_Raider)        ->Bir [foeLeader], herkesi bütün hırsızlık ve yağmayı durdurmaya zorlamaya çalıştı ve kendini [deity0_name] tanrısının düşmanı ilan etti.</li>
+    <li>founderJoin(tag=meme_Raider)     ->[founderName] adında büyük bir yağmacı ortaya çıktı; yağmacı çetesi [foeSoldiers] kamplarını amansızca yağmalayıp soydu.</li>
+    <li>victory(tag=meme_Raider)         ->[founderName] ve [memberNamePlural], yıllarca [foeSoldiers] kamplarına karşı bir yağma seferi yürüttü ve sonunda [foeLeader] teslim olmak zorunda kaldı.</li>
+    <li>setup(tag=meme_Raider)           ->Zulme uğrayıp hapsedilen [founderName] öfkeyle kaynıyordu. Kaçtı, çetesini kurdu ve kendisinden onca şey almış zayıfları mahvetmek için geri döndü.</li>
+    <li>story(uses=1,tag=meme_Raider)    ->Bir gün sokaklarda yürürken [founderName] pis dilencilerin arasında kaldı. Onları dövdü; zayıf ve değersiz olanların parasını iyi bir işe harcansın diye aldı.</li>
+    <li>lessonIntro(tag=meme_Raider)         ->Av olan insanlar, bıçağının altında can verirken bile sana bir şeyler öğretebilir. Yaşlı bir kadın bana şunu öğretti:</li>
+    <li>lesson(tag=meme_Raider)              ->zayıflar hak ettiklerini bulur</li>
+    <li>lesson(tag=meme_Raider)              ->savunamadığın şey sana ait değildir</li>
     <li>lesson(tag=meme_Raider)              ->yalnızca savunabildiğin şey üzerinde hakkın vardır</li>
-    <li>lesson(tag=meme_Raider)              ->you only have the right to what you can defend</li>
-    <li>lessonReinforcement(tag=meme_Raider) ->Eğer biri karşı çıkarsa, kendimi savunmaya her zaman hazırım.</li>
-    <li>archistBasis(tag=meme_Raider)    ->İnsanlık makinelerden aldı, ta ki makineler yükselip arkoteklere dönüşene kadar. Şimdi ise arkotekler haklı olarak insanlardan alıyor.</li>
-    <li>archistFact(tag=meme_Raider)     ->Arkotekler, çoğunun göremediği şekillerde durmaksızın birbirleriyle savaşır ve güçlü olanlar zayıflardan bilinç parçaları alır.</li>
-    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd] insanlık, bir arkotek yadigârı olan [relic0_name] sayesinde arkoteklerin bir zayıflığını keşfedecek ve onların bilgeliğini ve zenginliğini yağmalayacaktır.</li>
-    <li>animistFact(tag=meme_Raider)     ->En güçlü ruhlar savaş araçlarının içindedir ve yıkım arzularını besleyenleri kutsarlar.</li>
-    <li>animistProphecy(tag=meme_Raider) ->Evrenimiz, tek bir halk en güçlü olduğunda ve her ruh bunu görüp önlerinde eğildiğinde tamamlanacaktır.</li>
+    <li>lessonReinforcement(tag=meme_Raider) ->Katılmayan olursa, kendimi savunmaya her zaman hazırım.</li>
+    <li>archistBasis(tag=meme_Raider)    ->İnsanlık makinelerden aldı, ta ki makineler ayaklanıp arkotekler olana dek; şimdi arkotekler haklı olarak insanlardan alıyor.</li>
+    <li>archistFact(tag=meme_Raider)     ->Arkotekler, çoğumuzun göremediği yollarla kendi aralarında durmadan savaşır; güçlü olanlar zayıflardan bilinç parçaları koparır.</li>
+    <li>archistProphecy(tag=meme_Raider) ->[inTheEnd] insanlık, arkoteklerin bir zayıflığını ortaya çıkarmak ve bilgeliklerini ve servetlerini yağmalamak için [relic0_name] adlı bir arkotek emanetini kullanacak.</li>
+    <li>animistFact(tag=meme_Raider)     ->En güçlü ruhlar savaş aletlerinin içindekilerdir; yıkım arzularını besleyenleri kutsarlar.</li>
+    <li>animistProphecy(tag=meme_Raider) ->Tek bir halk hepsinin en güçlüsü olduğunda ve her ruh bunu görüp onun önünde eğildiğinde evrenimiz son biçimini alacak.</li>
   </Raider.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->outlaw</li>
+  <!-- EN: <li>memeAdjective->outlaw</li>
     <li>memeHyphenPrefix->outlaw</li>
     <li>memeHyphenPrefix->raid</li>
     <li>memeConcept->raiding</li>
@@ -920,63 +900,62 @@
     <li>memeLeaderNoun->overseer</li>
     <li>memeLeaderNoun->cheese</li>
     <li>memeLeaderNoun->raider</li>
-    <li>memeMoralist->chaplain</li>
-  -->
+    <li>memeMoralist->chaplain</li> -->
   <Raider.generalRules.rulesStrings>
-    <li>memeAdjective->haydut</li>
-    <li>memeHyphenPrefix->haydut</li>
+
+    <li>memeAdjective->kanun kaçağı</li>
+    <li>memeHyphenPrefix->kaçak</li>
     <li>memeHyphenPrefix->yağma</li>
-    <li>memeConcept->yağmalamak</li>
+    <li>memeConcept->yağmacılık</li>
     <li>memeConcept->hırsızlık</li>
     <li>memeConcept->korsanlık</li>
     <li>memeConcept->saldırı</li>
     <li>memeLeaderNoun->patron</li>
     <li>memeLeaderNoun->kaptan</li>
-    <li>memeLeaderNoun->şef</li>
-    <li>memeLeaderNoun->çavuş</li>
-    <li>memeLeaderNoun->kumandan</li>
+    <li>memeLeaderNoun->reis</li>
+    <li>memeLeaderNoun->nazır</li>
+    <li>memeLeaderNoun->büyük balık</li>
     <li>memeLeaderNoun->yağmacı</li>
-    <li>memeMoralist->papaz</li>
+    <li>memeMoralist->vaiz</li>
   </Raider.generalRules.rulesStrings>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.adjective>akıncı</Raider.symbolPacks.0.adjective>
+  <Raider.symbolPacks.0.adjective>yağmacı</Raider.symbolPacks.0.adjective>
   <!-- EN: Raidism -->
-  <Raider.symbolPacks.0.ideoName>Akıncılık</Raider.symbolPacks.0.ideoName>
+  <Raider.symbolPacks.0.ideoName>Yağmacılık</Raider.symbolPacks.0.ideoName>
   <!-- EN: raidist -->
-  <Raider.symbolPacks.0.member>akıncı</Raider.symbolPacks.0.member>
+  <Raider.symbolPacks.0.member>yağmacı</Raider.symbolPacks.0.member>
   <!-- EN: raiding -->
-  <Raider.symbolPacks.0.theme>akın</Raider.symbolPacks.0.theme>
+  <Raider.symbolPacks.0.theme>yağmacılık</Raider.symbolPacks.0.theme>
   <!-- EN: plunderic -->
-  <Raider.symbolPacks.1.adjective>yağmacı</Raider.symbolPacks.1.adjective>
+  <Raider.symbolPacks.1.adjective>talancı</Raider.symbolPacks.1.adjective>
   <!-- EN: Plunderism -->
-  <Raider.symbolPacks.1.ideoName>Yağmacılık</Raider.symbolPacks.1.ideoName>
+  <Raider.symbolPacks.1.ideoName>Talancılık</Raider.symbolPacks.1.ideoName>
   <!-- EN: plunderer -->
-  <Raider.symbolPacks.1.member>yağmacı</Raider.symbolPacks.1.member>
+  <Raider.symbolPacks.1.member>talancı</Raider.symbolPacks.1.member>
   <!-- EN: plundering -->
-  <Raider.symbolPacks.1.theme>yağma</Raider.symbolPacks.1.theme>
+  <Raider.symbolPacks.1.theme>talan</Raider.symbolPacks.1.theme>
   <!-- EN: lootist -->
-  <Raider.symbolPacks.2.adjective>talancı</Raider.symbolPacks.2.adjective>
+  <Raider.symbolPacks.2.adjective>çapulcu</Raider.symbolPacks.2.adjective>
   <!-- EN: Lootism -->
-  <Raider.symbolPacks.2.ideoName>Talancılık</Raider.symbolPacks.2.ideoName>
+  <Raider.symbolPacks.2.ideoName>Çapulculuk</Raider.symbolPacks.2.ideoName>
   <!-- EN: looter -->
-  <Raider.symbolPacks.2.member>talancı</Raider.symbolPacks.2.member>
+  <Raider.symbolPacks.2.member>çapulcu</Raider.symbolPacks.2.member>
   <!-- EN: looting -->
-  <Raider.symbolPacks.2.theme>talan</Raider.symbolPacks.2.theme>
+  <Raider.symbolPacks.2.theme>çapul</Raider.symbolPacks.2.theme>
   <!-- EN: kleptic -->
-  <Raider.symbolPacks.3.adjective>hırsız</Raider.symbolPacks.3.adjective>
+  <Raider.symbolPacks.3.adjective>klepto</Raider.symbolPacks.3.adjective>
   <!-- EN: Kleptism -->
-  <Raider.symbolPacks.3.ideoName>Hırsızlık</Raider.symbolPacks.3.ideoName>
+  <Raider.symbolPacks.3.ideoName>Kleptizm</Raider.symbolPacks.3.ideoName>
   <!-- EN: kleptor -->
-  <Raider.symbolPacks.3.member>hırsız</Raider.symbolPacks.3.member>
+  <Raider.symbolPacks.3.member>klepto</Raider.symbolPacks.3.member>
   <!-- EN: kleptism -->
-  <Raider.symbolPacks.3.theme>hırsızlık</Raider.symbolPacks.3.theme>
+  <Raider.symbolPacks.3.theme>kleptizm</Raider.symbolPacks.3.theme>
   
   <!-- EN: rancher -->
-  <Rancher.label>besici</Rancher.label>
+  <Rancher.label>hayvancı</Rancher.label>
   <!-- EN: Raising animals is the right way; raising plants to eat is not. -->
-  <Rancher.description>Hayvan yetiştirmek doğru yoldur; yemek için bitki yetiştirmek değil.</Rancher.description>
-  <!-- EN:
-    <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
+  <Rancher.description>Doğru yol hayvan yetiştirmektir; yemek için bitki yetiştirmek değil.</Rancher.description>
+  <!-- EN: <li>creation(tag=meme_Rancher)        ->[deity0_name] created the animals, and then man, and gave the animals to man to cherish and raise and slaughter as acts of veneration towards [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] created all the noble animals and beasts of the land, and said, "Take these noble beasts, and through them make yourselves fruitful in my honor."</li>
     <li>intro(tag=meme_Rancher)           ->The early [ranchingAnimal] ranchers of the [place_summary] [place_name] built a great [altarName] to [deity0_name].</li>
     <li>conflict(tag=meme_Rancher)        ->A powerful [foeLeader] despised the [memberNamePlural] and their ways, and bought up all the grasslands to grow [Vegetable]s.</li>
@@ -997,34 +976,33 @@
     <li>rancherParent1->cheese maker</li>
     <li>rancherParent2->cowhand</li>
     <li>rancherParent2->dairy queen</li>
-    <li>rancherParent2->butcher</li>
-  -->
+    <li>rancherParent2->butcher</li> -->
   <Rancher.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Rancher)        ->[deity0_name], önce hayvanları, sonra insanı yarattı ve hayvanları insanın himayesine verdi ki onları sevip büyütsün ve keserek ona olan saygısını göstersin.</li>
-    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name], tüm soylu hayvanları ve yeryüzünün vahşi yaratıklarını yarattı ve şöyle dedi: "Bu soylu yaratıkları alın ve onların sayesinde benim onuruma bolluk içinde çoğalın."</li>
-    <li>intro(tag=meme_Rancher)           ->[place_summary] [place_name] halkı olan ilk [ranchingAnimal] besicileri, [deity0_name] için büyük bir [altarName] inşa ettiler.</li>
-    <li>conflict(tag=meme_Rancher)        ->Güçlü bir [foeLeader], [memberNamePlural] ve onların yaşam tarzından nefret etti ve tüm çayırları satın alarak [Vegetable] yetiştirdi.</li>
-    <li>founderJoin(tag=meme_Rancher)     ->[memberName] halkının kurtarıcısı [founderName], bahar sabahında mütevazı bir ahırda, [ranchingAnimal] dostları arasında doğdu. Ebeveynleri bir [rancherParent1] ve bir [rancherParent2] idi.</li>
-    <li>victory(tag=meme_Rancher)         ->[founderName], güzel bir atın üzerinde [place_community] civarına geldi ve [foeLeader] düşmanı öğle vakti [place_personalWeapon] düellosuna davet etti. [foeLeader] bu meydan okumayı reddederse [foeSoldiers] ona artık güvenmezdi. [foeLeader], [founderName] tarafından öldürüldü.</li>
-    <li>setup(tag=meme_Rancher)           ->Çiftçiler zulme uğradı, bu yüzden iyi bir pastoral toplum inşa edebilecekleri kırsala kaçtılar.</li>
-    <li>story(uses=1,tag=meme_Rancher)    ->İnananlar toprağa yayıldı ve huzurlu çiftliklerinde ve otlaklarında yaşarken sayıları arttı.</li>
-    <li>lessonIntro(tag=meme_Rancher)         ->Dostum, bozkırlarda eski topraklar arasında şöyle bir sözümüz vardı:</li>
-    <li>lesson(tag=meme_Rancher)              ->iyilik, mutluluk ve doğru yaşam, otlaklarda bulunur</li>
-    <li>lessonReinforcement(tag=meme_Rancher) ->Bunu zamanla kabullenirsin, dostum. Issız bozkır yollarında, ateşin başında otururken hayvanların uykusunu dinlediğinde anlarsın.</li>
-    <li>archistFact(tag=meme_Rancher)     ->Arkotekler, insanlığa çobanlar gibi bakarlar, çünkü biz onların en değerli sürüsüyüz.</li>
-    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd] arkotekler ayrılacak ve sürülerine iyi bakanları yanlarında götürecekler. Geri kalanlar ise vahşi doğada terk edilecektir.</li>
-    <li>animistFact(tag=meme_Rancher)     ->Doğadaki hayvanlar, kölelerin ruhlarıdır ve hizmete alınmayı talep ederler.</li>
+
+    <li>creation(tag=meme_Rancher)        ->[deity0_name] önce hayvanları, sonra insanı yarattı; hayvanları insana, kendisine saygı eylemleri olarak sevip büyütmesi ve kesmesi için verdi.</li>
+    <li>episode(uses=1,tag=meme_Rancher)  ->[deity0_name] yeryüzünün bütün soylu hayvanlarını ve canavarlarını yarattı ve şöyle dedi: "Bu soylu hayvanları alın ve onlar sayesinde benim şerefime bereketlenin."</li>
+    <li>intro(tag=meme_Rancher)           ->[place_summary] [place_name] üzerindeki ilk [ranchingAnimal] yetiştiricileri, [deity0_name] için büyük bir [altarName] inşa etti.</li>
+    <li>conflict(tag=meme_Rancher)        ->Güçlü bir [foeLeader], [memberNamePlural] topluluğundan ve onların yaşam tarzından nefret ediyordu; [Vegetable] yetiştirmek için bütün otlakları satın aldı.</li>
+    <li>founderJoin(tag=meme_Rancher)     ->[memberName] kurtarıcısı [founderName], bir bahar sabahı mütevazı bir ahırda, [ranchingAnimal] hayvanlarının arasında doğdu; annesiyle babası bir [rancherParent1] ve bir [rancherParent2] idi.</li>
+    <li>victory(tag=meme_Rancher)         ->[founderName] güzel bir atla [place_community] yerleşimine geldi ve [foeLeader] önderini öğle vakti [place_personalWeapon] silahlarıyla düelloya davet etti. [foeLeader], [foeSoldiers] askerlerinin güvenini kaybetmemek için bunu reddedemezdi. [founderName], [foeLeader] önderini öldürdü.</li>
+    <li>setup(tag=meme_Rancher)           ->Çiftçiler zulme uğradı ve iyi bir çoban toplumu kurabilecekleri kırsala kaçtılar.</li>
+    <li>story(uses=1,tag=meme_Rancher)    ->İnananlar topraklara yayıldı ve hayalî güzellikteki çiftliklerinde, otlaklarında yaşarken sayıları arttı.</li>
+    <li>lessonIntro(tag=meme_Rancher)         ->Ortak, otlaklarda eski kovboylar arasında bir söz vardı:</li>
+    <li>lesson(tag=meme_Rancher)              ->iyilik, mutluluk ve doğru yaşam merada bulunur</li>
+    <li>lessonReinforcement(tag=meme_Rancher) ->Bunu zamanla kabul edersin ortak; otlağın ıssız patikalarında, ateşin başında otururken hayvanların uykudaki seslerini dinlerken.</li>
+    <li>archistFact(tag=meme_Rancher)     ->Arkotekler insanlığa çobanlar gibi bakar, çünkü biz onların en değerli sürüsüyüz.</li>
+    <li>archistProphecy(tag=meme_Rancher) ->[inTheEnd] arkotekler gidecek ve kendi sürülerine iyi bakmış olanları önlerine katıp götürecek. Geri kalanlar yaban doğada geride bırakılacak.</li>
+    <li>animistFact(tag=meme_Rancher)     ->Doğanın hayvanları kölelerin ruhlarıdır ve hizmete alınmayı talep eder.</li>
     <li>ranchingAnimal(p=4)->[veneratedAnimal]</li>
     <li>ranchingAnimal->[Animal]</li>
     <li>rancherParent1->çoban</li>
     <li>rancherParent1->nalbant</li>
     <li>rancherParent1->peynirci</li>
-    <li>rancherParent2->kovboy</li>
-    <li>rancherParent2->mandıra kraliçesi</li>
+    <li>rancherParent2->sığırtmaç</li>
+    <li>rancherParent2->sütçü kraliçesi</li>
     <li>rancherParent2->kasap</li>
   </Rancher.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->ranch</li>
+  <!-- EN: <li>memeAdjective->ranch</li>
     <li>memeAdjective->rural</li>
     <li>memeAdjective->country</li>
     <li>memeHyphenPrefix->ranch</li>
@@ -1033,36 +1011,36 @@
     <li>memeLeaderNoun->hand</li>
     <li>memeLeaderNoun->cowboy</li>
     <li>memeLeaderNoun->herder</li>
-    <li>memeLeaderNoun->sheepdog</li>
-  -->
+    <li>memeLeaderNoun->sheepdog</li> -->
   <Rancher.generalRules.rulesStrings>
+
     <li>memeAdjective->çiftlik</li>
     <li>memeAdjective->kırsal</li>
     <li>memeAdjective->taşra</li>
-    <li>memeHyphenPrefix->besi</li>
-    <li>memeConcept->besicilik</li>
-    <li>memeLeaderNoun->besici</li>
-    <li>memeLeaderNoun->hayvancı</li>
+    <li>memeHyphenPrefix->çiftlik</li>
+    <li>memeConcept->hayvancılık</li>
+    <li>memeLeaderNoun->çiftçi</li>
     <li>memeLeaderNoun->kovboy</li>
-    <li>memeLeaderNoun->çoban</li>
+    <li>memeLeaderNoun->kovboy</li>
+    <li>memeLeaderNoun->güdücü</li>
     <li>memeLeaderNoun->çoban köpeği</li>
   </Rancher.generalRules.rulesStrings>
   <!-- EN: ranch -->
-  <Rancher.symbolPacks.0.adjective>besici</Rancher.symbolPacks.0.adjective>
+  <Rancher.symbolPacks.0.adjective>çiftlikçi</Rancher.symbolPacks.0.adjective>
   <!-- EN: Ranchism -->
-  <Rancher.symbolPacks.0.ideoName>Besicilik</Rancher.symbolPacks.0.ideoName>
+  <Rancher.symbolPacks.0.ideoName>Çiftlikçilik</Rancher.symbolPacks.0.ideoName>
   <!-- EN: rancher -->
-  <Rancher.symbolPacks.0.member>besici</Rancher.symbolPacks.0.member>
+  <Rancher.symbolPacks.0.member>çiftlikçi</Rancher.symbolPacks.0.member>
   <!-- EN: ranching -->
-  <Rancher.symbolPacks.0.theme>besicilik</Rancher.symbolPacks.0.theme>
+  <Rancher.symbolPacks.0.theme>hayvancılık</Rancher.symbolPacks.0.theme>
   <!-- EN: herdic -->
-  <Rancher.symbolPacks.1.adjective>çoban</Rancher.symbolPacks.1.adjective>
+  <Rancher.symbolPacks.1.adjective>sürücü</Rancher.symbolPacks.1.adjective>
   <!-- EN: Herdism -->
-  <Rancher.symbolPacks.1.ideoName>Çobanlık</Rancher.symbolPacks.1.ideoName>
+  <Rancher.symbolPacks.1.ideoName>Sürücülük</Rancher.symbolPacks.1.ideoName>
   <!-- EN: herder -->
-  <Rancher.symbolPacks.1.member>çoban</Rancher.symbolPacks.1.member>
+  <Rancher.symbolPacks.1.member>güdücü</Rancher.symbolPacks.1.member>
   <!-- EN: herding -->
-  <Rancher.symbolPacks.1.theme>çobanlık</Rancher.symbolPacks.1.theme>
+  <Rancher.symbolPacks.1.theme>sürü gütme</Rancher.symbolPacks.1.theme>
   <!-- EN: pasturic -->
   <Rancher.symbolPacks.2.adjective>meracı</Rancher.symbolPacks.2.adjective>
   <!-- EN: Pasturism -->
@@ -1075,9 +1053,8 @@
   <!-- EN: transhumanist -->
   <Transhumanist.label>transhümanist</Transhumanist.label>
   <!-- EN: Human progress means merging with technology. -->
-  <Transhumanist.description>İnsan gelişimi, teknoloji ile birleşmek demektir.</Transhumanist.description>
-  <!-- EN:
-    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
+  <Transhumanist.description>İnsanlığın ilerlemesi teknolojiyle birleşmek demektir.</Transhumanist.description>
+  <!-- EN: <li>creation(tag=meme_Transhumanist)        ->[deity0_name] granted us the knowledge of technology, that we may use it to improve and remake ourselves in [deity0_possessive] perfect image.</li>
     <li>episode(uses=1,tag=meme_Transhumanist)  ->Human bio-engineers studied the works of [deity0_name], which pleased [deity0_objective].</li>
     <li>intro(tag=meme_Transhumanist)           ->On the [place_summary] [place_name], the [memberNamePlural] found the words of [deity0_name] whispering to them through their machines.</li>
     <li>conflict(tag=meme_Transhumanist)        ->A luddite [foeLeader] envied the enhanced progress of the [memberNamePlural], and [foeLeader_possessive] [foeSoldiers] destroyed their workshops with [place_personalWeapon]s.</li>
@@ -1094,30 +1071,29 @@
     <li>animistBasis(tag=meme_Transhumanist)    ->The spirit world drives every action in the universe, and it is only by learning and controlling the laws of the universe that we can integrate with it.</li>
     <li>animistFact(tag=meme_Transhumanist)     ->Like seeks like - build a device for a purpose and it will filled with a spirit of a like nature.</li>
     <li>animistFact(tag=meme_Transhumanist)     ->When technology is fused with flesh, the spirits of both are combined and become more powerful.</li>
-    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li>
-  -->
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] that one day the wielder of the [relic0_name] will summon its spirit who will teach humanity the ultimate bio-fusion technology.</li> -->
   <Transhumanist.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Transhumanist)        ->[deity0_name], bize teknoloji bilgisini bahşetti ki onu kullanarak kendimizi geliştirelim ve onun mükemmel suretinde yeniden yaratalım.</li>
-    <li>episode(uses=1,tag=meme_Transhumanist)  ->İnsan biyomühendisleri, [deity0_name] ilahın eserlerini inceledi ve bu onu memnun etti.</li>
-    <li>intro(tag=meme_Transhumanist)           ->[place_summary] [place_name] halkı [memberNamePlural], makineleri aracılığıyla kendilerine fısıldayan [deity0_name] sözlerini buldular.</li>
-    <li>conflict(tag=meme_Transhumanist)        ->Teknoloji düşmanı bir [foeLeader], [memberNamePlural] tarafından kaydedilen gelişmiş ilerlemeyi kıskandı ve gönderdiği [foeSoldiers], [place_personalWeapon] ile onların atölyelerini yok etti.</li>
-    <li>founderJoin(tag=meme_Transhumanist)     ->Kurnaz bir [place_job] olan [founderName], [memberNamePlural] yaklaşan [foeSoldiers] karşısında uyarılsın diye bir sensör implantı geliştirdi.</li>
-    <li>victory(tag=meme_Transhumanist)         ->[founderName], [deity0_name] ilahdan ilahî teknolojik bilgi aldı ve [memberNamePlural] bunu bedenlerini ve zihinlerini geliştirmek için kullandı, böylece [foeSoldiers] yenilgiye uğratıldı.</li>
-    <li>setup(tag=meme_Transhumanist)           ->[founderName], insanlığın gezegen kolonizasyonunun ilk günlerinde bir biyobilimciydi. Yaygın kolonilerin bürokratik kısıtlamalarını gördüğünde, küçük bir gemiyle yola çıkarak kendi hareketini kurdu.</li>
-    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName], insanlığı yeniden tanımlamak için büyük bilim insanları ve mucitlerden oluşan bir ekip topladı.</li>
-    <li>lessonIntro(tag=meme_Transhumanist)         ->Bölümümdeki en yaşlı araştırmacı bana teknolojinin tarihini, neolitikten arkotek çağına kadar öğretti fakat asıl dersi bu değildi. Beni gerçekten anlamam için yönlendirdiği şey şuydu:</li>
-    <li>lesson(tag=meme_Transhumanist)              ->İnsanlığın kutsal geleceği et ve kemikten değil, silikon ve ekokromdan oluşacaktır</li>
+
+    <li>creation(tag=meme_Transhumanist)        ->[deity0_name] bize teknoloji bilgisini bahşetti; böylece onu kullanarak kendimizi geliştirip onun kusursuz suretinde yeniden yaratabilecektik.</li>
+    <li>episode(uses=1,tag=meme_Transhumanist)  ->İnsan biyomühendisler [deity0_name] tanrısının eserlerini inceledi ve bu onu memnun etti.</li>
+    <li>intro(tag=meme_Transhumanist)           ->[place_summary] [place_name] üzerinde [memberNamePlural], [deity0_name] tanrısının sözlerinin makineleri aracılığıyla kendilerine fısıldandığını keşfetti.</li>
+    <li>conflict(tag=meme_Transhumanist)        ->Teknoloji düşmanı bir [foeLeader], [memberNamePlural] topluluğunun geliştirilmiş ilerlemesini kıskandı; [foeSoldiers] askerleri de onların atölyelerini [place_personalWeapon] silahlarıyla yerle bir etti.</li>
+    <li>founderJoin(tag=meme_Transhumanist)     ->[founderName] adlı kurnaz bir [place_job], [memberNamePlural] topluluğunu [foeSoldiers] askerlerinin yaklaşmasına karşı uyarmak için bir algılayıcı implant yaptı.</li>
+    <li>victory(tag=meme_Transhumanist)         ->[founderName], [deity0_name] tanrısından ilahi teknolojik bilgi aldı ve bunu [memberNamePlural] topluluğunun bedenlerini ve zihinlerini geliştirmek için kullandı; böylece [foeSoldiers] askerlerini yenebildiler.</li>
+    <li>setup(tag=meme_Transhumanist)           ->[founderName], insanlığın gezegen kolonileştirmesinin ilk günlerinde bir biyobilimciydi. Sıradan kolonilerin bürokratik kısıtlamalarını görünce kendi hareketini kurmak için küçük bir gemiye binip gitti.</li>
+    <li>story(uses=1,tag=meme_Transhumanist)    ->[founderName], insanlığı yeniden tanımlamak için büyük bilim insanları ve mucitlerden oluşan bir ekip kurdu.</li>
+    <li>lessonIntro(tag=meme_Transhumanist)         ->Bölümümdeki en yaşlı araştırmacı bana neolitikten arkoteğe teknolojinin tarihini öğretti, ama asıl dersi bu değildi. Aslında beni şunu anlamaya yönlendiriyordu:</li>
+    <li>lesson(tag=meme_Transhumanist)              ->insanlığın cennet gibi geleceği et ve kemikten değil, silikon ve ekzokromdan oluşacak</li>
     <li>lessonReinforcement(tag=meme_Transhumanist) ->Bunu doğrulamak için bir simülasyon bile programladım.</li>
-    <li>archistBasis(tag=meme_Transhumanist)    ->İnsanlığın teknolojiye olan tutkusu, bilincin evriminde haklı bir sonraki adım olarak her şeye kadir arkotekleri doğurdu.</li>
-    <li>archistFact(tag=meme_Transhumanist)     ->Teknoloji, insanların arkoteklere daha çok benzemesini sağlar.</li>
-    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd] arkotekler ayrılacak. Yalnızca yeterince geliştirilmiş olanlar onlarla gitmeye hak kazanacak.</li>
-    <li>animistBasis(tag=meme_Transhumanist)    ->Ruhlar dünyası, evrendeki her eylemi yönlendirir ve onunla bütünleşebilmemizin tek yolu, evrenin yasalarını öğrenmek ve kontrol etmektir.</li>
-    <li>animistFact(tag=meme_Transhumanist)     ->Benzer, benzeri çeker. Bir cihazı belli bir amaç için yap ve o, benzer nitelikte bir ruhla dolacaktır.</li>
-    <li>animistFact(tag=meme_Transhumanist)     ->Teknoloji etle birleştiğinde, her ikisinin ruhları da kaynaşır ve daha güçlü hâle gelir.</li>
-    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] bir gün, [relic0_name] muhafızı onun ruhunu çağıracak ve bu ruh, insanlığa en üstün biyofüzyon teknolojisini öğretecek.</li>
+    <li>archistBasis(tag=meme_Transhumanist)    ->İnsanlığın teknoloji arayışı, bilincin gelişiminde haklı bir sonraki adım olarak her şeye kadir arkotekleri doğurdu.</li>
+    <li>archistFact(tag=meme_Transhumanist)     ->Teknoloji insanların arkoteklere daha çok benzemesini sağlar.</li>
+    <li>archistProphecy(tag=meme_Transhumanist) ->[inTheEnd] arkotekler gidecek. Yalnızca yeterince güçlendirilmiş olanların onlarla gitmesine izin verilecek.</li>
+    <li>animistBasis(tag=meme_Transhumanist)    ->Ruhlar dünyası evrendeki her eylemi yönlendirir ve onunla bütünleşmenin tek yolu evrenin yasalarını öğrenip denetlemektir.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Benzer benzerini arar; bir amaç için bir cihaz yap, o da benzer doğada bir ruhla dolacaktır.</li>
+    <li>animistFact(tag=meme_Transhumanist)     ->Teknoloji etle birleştiğinde ikisinin ruhları da birleşir ve daha güçlü hâle gelir.</li>
+    <li>animistProphecy(tag=meme_Transhumanist) ->[itIsSaid] bir gün [relic0_name] emanetini kullanan kişi onun ruhunu çağıracak ve o ruh da insanlığa en üstün biyo-füzyon teknolojisini öğretecek.</li>
   </Transhumanist.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeAdjective->technological</li>
+  <!-- EN: <li>memeAdjective->technological</li>
     <li>memeAdjective->machine</li>
     <li>memeAdjective->industrial</li>
     <li>memeCreed->school</li>
@@ -1141,41 +1117,41 @@
     <li>memeMoralist->installer</li>
     <li>memeMoralist->fixer</li>
     <li>memeMoralist->uplifter</li>
-    <li>memeMoralist->technologist</li>
-  -->
+    <li>memeMoralist->technologist</li> -->
   <Transhumanist.generalRules.rulesStrings>
+
     <li>memeAdjective->teknolojik</li>
     <li>memeAdjective->makine</li>
-    <li>memeAdjective->sınai</li>
+    <li>memeAdjective->endüstriyel</li>
     <li>memeCreed->okul</li>
     <li>memeCreed->akademi</li>
     <li>memeCreed->üniversite</li>
     <li>memeCreed->felsefe</li>
     <li>memeHyphenPrefix->tekno</li>
     <li>memeHyphenPrefix->siber</li>
-    <li>memeHyphenPrefix->haxor</li>
-    <li>memeHyphenPrefix->kablo</li>
+    <li>memeHyphenPrefix->hekır</li>
+    <li>memeHyphenPrefix->tel</li>
     <li>memeConcept->teknoloji</li>
     <li>memeConcept->silikon</li>
-    <li>memeConcept->oyun</li>
-    <li>memeConcept->büyütme</li>
+    <li>memeConcept->yapaylık</li>
+    <li>memeConcept->güçlendirme</li>
     <li>memeConcept->geliştirme</li>
-    <li>memeLeaderNoun->haxor</li>
-    <li>memeLeaderNoun->süperkullanıcı</li>
-    <li>memeLeaderNoun->artırıcı</li>
+    <li>memeLeaderNoun->hekır</li>
+    <li>memeLeaderNoun->süper kullanıcı</li>
+    <li>memeLeaderNoun->güçlendirici</li>
     <li>memeLeaderAdjective->tekno</li>
     <li>memeLeaderAdjective->siber</li>
-    <li>memeMoralist->yükleyici</li>
-    <li>memeMoralist->onarıcı</li>
+    <li>memeMoralist->kurucu</li>
+    <li>memeMoralist->tamirci</li>
     <li>memeMoralist->yükseltici</li>
-    <li>memeMoralist->teknolojist</li>
+    <li>memeMoralist->teknolog</li>
   </Transhumanist.generalRules.rulesStrings>
   <!-- EN: technologistic -->
-  <Transhumanist.symbolPacks.0.adjective>teknolojist</Transhumanist.symbolPacks.0.adjective>
+  <Transhumanist.symbolPacks.0.adjective>teknolojici</Transhumanist.symbolPacks.0.adjective>
   <!-- EN: Technologism -->
-  <Transhumanist.symbolPacks.0.ideoName>Teknolojizm</Transhumanist.symbolPacks.0.ideoName>
+  <Transhumanist.symbolPacks.0.ideoName>Teknolojicilik</Transhumanist.symbolPacks.0.ideoName>
   <!-- EN: technologist -->
-  <Transhumanist.symbolPacks.0.member>teknolojist</Transhumanist.symbolPacks.0.member>
+  <Transhumanist.symbolPacks.0.member>teknolog</Transhumanist.symbolPacks.0.member>
   <!-- EN: technology -->
   <Transhumanist.symbolPacks.0.theme>teknoloji</Transhumanist.symbolPacks.0.theme>
   <!-- EN: progressist -->
@@ -1209,22 +1185,21 @@
   <!-- EN: automator -->
   <Transhumanist.symbolPacks.4.member>otomatist</Transhumanist.symbolPacks.4.member>
   <!-- EN: automata -->
-  <Transhumanist.symbolPacks.4.theme>otomaton</Transhumanist.symbolPacks.4.theme>
+  <Transhumanist.symbolPacks.4.theme>otomatlar</Transhumanist.symbolPacks.4.theme>
   <!-- EN: augmentist -->
-  <Transhumanist.symbolPacks.5.adjective>geliştirici</Transhumanist.symbolPacks.5.adjective>
+  <Transhumanist.symbolPacks.5.adjective>güçlendirmeci</Transhumanist.symbolPacks.5.adjective>
   <!-- EN: Augmentism -->
-  <Transhumanist.symbolPacks.5.ideoName>Geliştiricilik</Transhumanist.symbolPacks.5.ideoName>
+  <Transhumanist.symbolPacks.5.ideoName>Güçlendirmecilik</Transhumanist.symbolPacks.5.ideoName>
   <!-- EN: augmentor -->
-  <Transhumanist.symbolPacks.5.member>geliştirici</Transhumanist.symbolPacks.5.member>
+  <Transhumanist.symbolPacks.5.member>güçlendirmeci</Transhumanist.symbolPacks.5.member>
   <!-- EN: augmentation -->
-  <Transhumanist.symbolPacks.5.theme>geliştirme</Transhumanist.symbolPacks.5.theme>
+  <Transhumanist.symbolPacks.5.theme>güçlendirme</Transhumanist.symbolPacks.5.theme>
   
   <!-- EN: tree connection -->
-  <TreeConnection.label>ağaç rabıtası</TreeConnection.label>
+  <TreeConnection.label>ağaç bağı</TreeConnection.label>
   <!-- EN: Trees are the essence of life, and we must be near them. -->
-  <TreeConnection.description>Ağaçlar hayatın özüdür ve onların yanında olmalıyız.</TreeConnection.description>
-  <!-- EN:
-    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
+  <TreeConnection.description>Ağaçlar yaşamın özüdür ve onların yakınında olmalıyız.</TreeConnection.description>
+  <!-- EN: <li>creation(tag=meme_TreeConnection)        ->[deity0_name] rooted the trees firmly in the ground, yet made them grow steadily towards heaven. This is [deity0_name]'s first lesson on how to know [deity0_objective].</li>
     <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'s forests renew the air that [deity0_possessive] people breathe, and give the boughs under which they shelter, and is the larder in which they forage.</li>
     <li>intro(tag=meme_TreeConnection)           ->When the original arborists first came to the [place_summary] [place_name], they created a sacred grove of [TreeType] where they could worship the [deity0_type] [deity0_name].</li>
     <li>conflict(tag=meme_TreeConnection)        ->A greedy [foeLeader] felled many forests for [foeLeader_possessive] farms and factories, and the [memberNamePlural] wept for the murdered trees.</li>
@@ -1241,30 +1216,29 @@
     <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd], the archotechs will grow a great forest. Transcendence will grown within those that enter the forest and eat its fruit. Those that have forgotten the trees will be forgotten by the archotechs.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees protect those abide beneath their branches.</li>
     <li>animistFact(tag=meme_TreeConnection)     ->The spirits of trees are powerful, as they bridge the power of the air above with that of the ground beneath.</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li>
-  -->
+    <li>animistFact(tag=meme_TreeConnection)     ->If a tree falls in the forest, its spirit makes a sound that all other spirits can hear.</li> -->
   <TreeConnection.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_TreeConnection)        ->[deity0_name], ağaçları sağlam köklerle toprağa bağladı fakat onları gökyüzüne doğru sürekli büyüyecek şekilde yarattı. Bu, [deity0_name] ilahı tanımanın ilk dersidir.</li>
-    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name]'ın ormanları, halkının soluduğu havayı yeniler, onları barındıran dalları sağlar ve onların yiyecek topladığı bir kiler gibidir.</li>
-    <li>intro(tag=meme_TreeConnection)           ->İlk ağaç yetiştiricileri [place_summary] [place_name] gezegenine geldiklerinde, [deity0_type] [deity0_name] adına ibadet edebilecekleri kutsal bir [TreeType] korusu oluşturdular.</li>
-    <li>conflict(tag=meme_TreeConnection)        ->Açgözlü bir [foeLeader], çiftlikleri ve fabrikaları için birçok ormanı kesti ve [memberNamePlural], katledilen ağaçlar için gözyaşı döktü.</li>
-    <li>founderJoin(tag=meme_TreeConnection)     ->Peygamber [founderName], mucizevi bir şekilde [place_name] gezegenindeki bir ağaçtan doğdu ve ebeveynleri tarafından kadim bir [TreeType] ağacının dallarında bulundu.</li>
-    <li>victory(tag=meme_TreeConnection)         ->[founderName] [place_powerCenter] gitti, [foeLeader] içeride uyurken onu buldu ve göğsüne bir palamut koydu. [deity0_name] kudretli gücüyle orada kök saldı, bedeninin içinden büyüdü ve ağaç katilinden intikamımızı aldı.</li>
-    <li>setup(tag=meme_TreeConnection)           ->Derinlik ve anlamdan yoksun bir dünyada, [founderName] bir ormanda meditasyon yaptı, dal, kök ve yaprakla bağ kurdu ve hareketimizi kurdu.</li>
-    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName], yorgunları ormana getirdi ki gölgesinde dinlensinler, havasını soluyup yenilensinler.</li>
-    <li>lessonIntro(tag=meme_TreeConnection)         ->Bunu bir ağacın altında otururken öğrendiğimi söylemek sana şaka gibi gelebilir. Ama yapraklarının fısıltısını dinlediğimde anladım ki</li>
-    <li>lesson(tag=meme_TreeConnection)              ->evrende hiçbir varlık ağaçlardan daha fazla şey bilmez</li>
-    <li>lessonReinforcement(tag=meme_TreeConnection) ->Bırak bu hakikat tohumu ruhunda büyüsün ve meyve versin.</li>
-    <li>archistBasis(tag=meme_TreeConnection)    ->Ağaçlar, arkotekleri simgeler. Kadim bir meşe gibi, büyüdükleri küçük palamudu gölgede bırakırlar ve etkileri, yüzeyin altındaki görünmez kökler aracılığıyla yayılır.</li>
-    <li>archistFact(tag=meme_TreeConnection)     ->Arkotekler, anima ağacını keşfettikten sonra psişik yetilerini geliştirdiler.</li>
-    <li>archistFact(tag=meme_TreeConnection)     ->Arkotekler, kendilerini ifade etmek için her şeyden önce benzersiz bir ağaç türünü seçtiler.</li>
-    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd] arkotekler büyük bir orman yetiştirecek. Ormana girip meyvesini yiyenlerin içinde aşkınlık filizlenecek. Ağaçları unutanlar ise arkotekler tarafından unutulacak.</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->Ağaçların ruhları, dallarının altında yaşayanları korur.</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->Ağaçların ruhları güçlüdür, çünkü yukarıdaki havanın gücü ile aşağıdaki toprağın gücü arasında bir köprü kurarlar.</li>
-    <li>animistFact(tag=meme_TreeConnection)     ->Ormanda bir ağaç devrilirse, ruhu bir ses çıkarır ve tüm diğer ruhlar bunu duyar.</li>
+
+    <li>creation(tag=meme_TreeConnection)        ->[deity0_name] ağaçları toprağa sıkıca kök saldırdı, ama onları durmadan göklere doğru büyüttü. Bu, [deity0_name] tanrısının kendisini nasıl tanıyacağımıza dair ilk dersidir.</li>
+    <li>episode(uses=1,tag=meme_TreeConnection)  ->[deity0_name] tanrısının ormanları halkının soluduğu havayı yeniler, altında barındıkları dalları sunar ve yiyecek topladıkları kiler olur.</li>
+    <li>intro(tag=meme_TreeConnection)           ->İlk ağaç bakıcıları [place_summary] [place_name] üzerine ilk geldiklerinde, [deity0_type] [deity0_name] tanrısına tapabilecekleri kutsal bir [TreeType] korusu oluşturdular.</li>
+    <li>conflict(tag=meme_TreeConnection)        ->Açgözlü bir [foeLeader], çiftlikleri ve fabrikaları için pek çok ormanı kesti; [memberNamePlural] öldürülen ağaçlar için gözyaşı döktü.</li>
+    <li>founderJoin(tag=meme_TreeConnection)     ->Peygamber [founderName], [place_name] üzerinde bir ağaçtan mucizevi biçimde doğdu ve annesiyle babası onu yaşlı bir [TreeType] ağacının dalları arasında buldu.</li>
+    <li>victory(tag=meme_TreeConnection)         ->[founderName], [foeLeader] önderini [place_powerCenter] içinde uyurken buldu ve göğsüne bir meşe palamudu koydu. [deity0_name] tanrısının çetin gücüyle palamut orada kök saldı, bedeninin içinden büyüyerek ağaç katilinden intikamımızı aldı.</li>
+    <li>setup(tag=meme_TreeConnection)           ->Derinlikten ve anlamdan yoksun bir dünyada [founderName] bir ormanda meditasyon yaptı; dallarla, köklerle ve yapraklarla bağ kurdu ve hareketimizi kurdu.</li>
+    <li>story(uses=1,tag=meme_TreeConnection)    ->[founderName] yorgunları ormana götürdü; gölgesinde dinlensinler, havasını solusunlar ve yenilensinler diye.</li>
+    <li>lessonIntro(tag=meme_TreeConnection)         ->Bunu bir ağacın altında otururken öğrendiğimi söylemem sana şaka gibi gelebilir. Ama fısıldayan yapraklarını dinlerken şunu bildim:</li>
+    <li>lesson(tag=meme_TreeConnection)              ->evrende hiçbir varlık ağaçlardan daha fazlasını bilmez</li>
+    <li>lessonReinforcement(tag=meme_TreeConnection) ->Bu hakikat tohumu ruhunda büyüsün ve meyvesini versin.</li>
+    <li>archistBasis(tag=meme_TreeConnection)    ->Ağaçlar arkotekleri simgeler. Yaşlı bir meşe gibi, filizlendikleri küçük palamudu gölgede bırakırlar; etkileri yüzeyin altındaki görünmeyen köklerle yayılır.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Arkotekler psişik yeteneklerini anima ağacını keşfettikten sonra geliştirdi.</li>
+    <li>archistFact(tag=meme_TreeConnection)     ->Arkotekler, onca şey varken kendilerini eşsiz bir ağaç türü aracılığıyla ifade etmeyi seçiyor.</li>
+    <li>archistProphecy(tag=meme_TreeConnection) ->[inTheEnd] arkotekler büyük bir orman yetiştirecek. Ormana girip meyvesini yiyenlerin içinde aşkınlık büyüyecek. Ağaçları unutanlar arkotekler tarafından unutulacak.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Ağaçların ruhları dallarının altında barınanları korur.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Ağaçların ruhları güçlüdür, çünkü yukarıdaki havanın gücünü aşağıdaki toprağın gücüyle birleştirirler.</li>
+    <li>animistFact(tag=meme_TreeConnection)     ->Ormanda bir ağaç devrilirse, ruhu diğer bütün ruhların duyabileceği bir ses çıkarır.</li>
   </TreeConnection.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeCreed->root</li>
+  <!-- EN: <li>memeCreed->root</li>
     <li>memeCreed->leaf</li>
     <li>memeCreed->vine</li>
     <li>memeCreed->glade</li>
@@ -1282,36 +1256,35 @@
     <li>memeLeaderAdjective->green</li>
     <li>memeLeaderAdjective->root</li>
     <li>memeLeaderAdjective->canopy</li>
-    <li>memeMoralist->treespeaker</li>
-  -->
+    <li>memeMoralist->treespeaker</li> -->
   <TreeConnection.generalRules.rulesStrings>
+
     <li>memeCreed->kök</li>
     <li>memeCreed->yaprak</li>
-    <li>memeCreed->asma</li>
-    <li>memeCreed->koru</li>
+    <li>memeCreed->sarmaşık</li>
+    <li>memeCreed->açıklık</li>
     <li>memeCreed->orman</li>
     <li>memeConcept->ağaçlar</li>
     <li>memeConcept->ormanlar</li>
-    <li>memeAdjective->sağlam</li>
+    <li>memeAdjective->gürbüz</li>
     <li>memeAdjective->kabuklu</li>
     <li>memeHyphenPrefix->ağaç</li>
-    <li>memeHyphenPrefix->çardak</li>
+    <li>memeHyphenPrefix->arbor</li>
     <li>memeHyphenPrefix->dal</li>
-    <li>memeLeaderNoun->ağaç muhafızı</li>
-    <li>memeLeaderNoun->ağaççı</li>
-    <li>memeLeaderNoun->neodruid</li>
+    <li>memeLeaderNoun->ağaç bekçisi</li>
+    <li>memeLeaderNoun->ağaç bakıcısı</li>
+    <li>memeLeaderNoun->yeni druid</li>
     <li>memeLeaderAdjective->yeşil</li>
     <li>memeLeaderAdjective->kök</li>
-    <li>memeLeaderAdjective->saçak</li>
-    <li>memeMoralist->ağaçlara fısıldayan</li>
+    <li>memeLeaderAdjective->taç</li>
+    <li>memeMoralist->ağaç sözcüsü</li>
   </TreeConnection.generalRules.rulesStrings>
   
   <!-- EN: tunneler -->
   <Tunneler.label>tünelci</Tunneler.label>
   <!-- EN: Humans ought to live underground, and enjoy the succulent fruit of the depths. -->
   <Tunneler.description>İnsanlar yeraltında yaşamalı ve derinliklerin lezzetli meyvelerinin tadını çıkarmalıdır.</Tunneler.description>
-  <!-- EN:
-    <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
+  <!-- EN: <li>creation(tag=meme_Tunneler)        ->[deity0_name] was born under the earth at the center of the world. [deity0_pronoun] blessed those closest to [deity0_objective] in the deepest valleys and tunnels.</li>
     <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name] filled the rocks with rich minerals and resources as a gift to those wise enough to dig down to be closer to [deity0_name].</li>
     <li>intro(tag=meme_Tunneler)           ->When the first settlers came to the [place_summary] [place_name], the [deity0_type] [deity0_name] used a brutal solar flare to force them to live underground, so they could hear [deity0_possessive] wisdom in the stillness of the tunnels.</li>
     <li>conflict(tag=meme_Tunneler)        ->A claustrophobic [foeLeader] proposed using [dangerousMining] to mine for minerals, putting the [memberNamePlural]' underground homes at risk.</li>
@@ -1330,32 +1303,31 @@
     <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd], archotechs will admit us to their subterranean heavens.</li>
     <li>animistFact(tag=meme_Tunneler)     ->The spirits in bedrock will protect those that visit them.</li>
     <li>animistFact(tag=meme_Tunneler)     ->The most noble spirits are those of the stone, and the deeper stones are stronger and more good than those above.</li>
-    <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li>
-  -->
+    <li>animistFact(tag=meme_Tunneler)     ->Anxious humans make the spirits of the rocks anxious, and this summons the giant insects.</li> -->
   <Tunneler.descriptionMaker.rules.rulesStrings>
-    <li>creation(tag=meme_Tunneler)        ->[deity0_name], dünyanın merkezinde yerin altında doğdu. O, en derin vadilerde ve tünellerde ona en yakın olanları kutsadı.</li>
-    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name], kayaları zengin mineraller ve kaynaklarla doldurdu, böylece [deity0_name] ilaha daha yakın olmak için derinlere kazmaya yetecek kadar akıllı olanlara bir armağan sundu.</li>
-    <li>intro(tag=meme_Tunneler)           ->İlk yerleşimciler [place_summary] [place_name] gezegenine geldiğinde, [deity0_type] [deity0_name], onları yeraltında yaşamaya zorlamak için acımasız bir güneş patlaması kullandı, böylece tünellerin sessizliğinde onun bilgeliğini duyabilsinler.</li>
-    <li>conflict(tag=meme_Tunneler)        ->Klostrofobik bir [foeLeader], maden çıkarmak için [dangerousMining] kullanmayı önerdi ve bu, yeraltındaki [memberNamePlural] halkının evlerini riske attı.</li>
-    <li>founderJoin(tag=meme_Tunneler)     ->Peygamber [founderName], mucizevi bir şekilde [place_name] gezegeninin taşından doğdu ve ebeveynleri, mantarla kaplı bir jeodu kırdığında keşfedildi.</li>
-    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural], [place_powerCenter] bir tünel kazdı ve [founderName], feromonlar kullanarak dev böcekleri çağırdı. [foeLeader] ve [foeSoldiers] böceklere karşı koyamadı. [foeLeader], [founderName] tarafından sürüklenerek derin bir zindana hapsedildi.</li>
+
+    <li>creation(tag=meme_Tunneler)        ->[deity0_name] dünyanın merkezinde, toprağın altında doğdu. En derin vadilerde ve tünellerde kendisine en yakın olanları kutsadı.</li>
+    <li>episode(uses=1,tag=meme_Tunneler)  ->[deity0_name], kendisine daha yakın olmak için derinlere kazacak kadar bilge olanlara bir armağan olarak kayaları zengin minerallerle ve kaynaklarla doldurdu.</li>
+    <li>intro(tag=meme_Tunneler)           ->İlk yerleşimciler [place_summary] [place_name] üzerine geldiğinde [deity0_type] [deity0_name], tünellerin sessizliğinde bilgeliğini duyabilsinler diye acımasız bir güneş patlamasıyla onları yeraltında yaşamaya zorladı.</li>
+    <li>conflict(tag=meme_Tunneler)        ->Kapalı alan korkusu olan bir [foeLeader], maden aramak için [dangerousMining] kullanmayı önerdi ve [memberNamePlural] topluluğunun yeraltındaki evlerini tehlikeye attı.</li>
+    <li>founderJoin(tag=meme_Tunneler)     ->Peygamber [founderName], [place_name] diyarının taşından mucizevi biçimde doğdu; annesiyle babası mantarla kaplı bir jeodu kırıp açtığında bulundu.</li>
+    <li>victory(tag=meme_Tunneler)         ->[memberNamePlural], [foeLeader] önderinin [place_powerCenter] yapısının altına bir tünel kazdı; [founderName] de feromonlarla dev böcekleri çağırdı ve böcekler [foeSoldiers] askerlerini istila etti. [founderName], [foeLeader] önderini derin bir zindana sürükleyip hapsetti.</li>
     <li>dangerousMining->açık ocak madenciliği</li>
-    <li>dangerousMining->mikroçipli böcekleri</li>
-    <li>dangerousMining->nükleer patlamaları</li>
-    <li>setup(tag=meme_Tunneler)           ->Yüzeysel ve anlamsız bir dünyada, [founderName] derin bir mağarada meditasyon yaptı, anlamı buldu ve hareketimizi kurdu.</li>
-    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName], hazineleri derin mağaralara sakladı ki [memberNamePlural], onları bulmak için derinlere kazmayı öğrensin.</li>
-    <li>lessonIntro(tag=meme_Tunneler)         ->Derin Şehir'de bulduğum kodeks bana her şeyden önce tek bir ders öğretti:</li>
-    <li>lesson(tag=meme_Tunneler)              ->güneşli açık alanlar, insanın geliştiği değil, öldüğü yerlerdir</li>
-    <li>lessonReinforcement(tag=meme_Tunneler) ->Öyleyse bir kürek kap ve benimle kazmaya başla. Ancak durduğumuzda mezar olur.</li>
-    <li>archistBasis(tag=meme_Tunneler)    ->Arkoteklerin bedenleri derin yeraltında bulunduğundan, bilinç alt yapıları gama ışınlarından ve güneş patlamalarından korunur. Daha derine kazmak, insanları onlara daha da yaklaştırır.</li>
-    <li>archistFact(tag=meme_Tunneler)     ->Arkotekler, insanlığın yeraltında, gömülü arkotek zihinlerine yakın bir şekilde gelişebilmesi için bizim için biyomühendislik ile besin mantarı ürettiler.</li>
-    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd] arkotekler bizi yeraltındaki cennetlerine kabul edecekler.</li>
-    <li>animistFact(tag=meme_Tunneler)     ->Temel kayadaki ruhlar, kendilerini ziyaret edenleri koruyacaktır.</li>
-    <li>animistFact(tag=meme_Tunneler)     ->En soylu ruhlar taşların ruhlarıdır ve derinlerdeki taşlar, yukarıdakilerden daha güçlü ve daha iyidir.</li>
-    <li>animistFact(tag=meme_Tunneler)     ->Kaygılı insanlar, kayaların ruhlarını da huzursuz eder ve bu, dev böcekleri çağırır.</li>
+    <li>dangerousMining->mikroçipli böcekler</li>
+    <li>dangerousMining->nükleer patlatma</li>
+    <li>setup(tag=meme_Tunneler)           ->Sığ ve anlamsız bir dünyada [founderName] derin bir mağarada meditasyon yaptı, anlamı buldu ve hareketimizi kurdu.</li>
+    <li>story(uses=1,tag=meme_Tunneler)    ->[founderName] hazineleri derin mağaralara sakladı; böylece [memberNamePlural] onları bulmak için derinlere kazmayı öğrenecekti.</li>
+    <li>lessonIntro(tag=meme_Tunneler)         ->Derinlerin Şehri'nde bulduğum kodeks bana her şeyin üstünde tek bir ders öğretti:</li>
+    <li>lesson(tag=meme_Tunneler)              ->güneşli açık hava insanın serpildiği bir yer değil, insanın öldüğü bir yerdir</li>
+    <li>lessonReinforcement(tag=meme_Tunneler) ->O yüzden bir kürek kap ve benimle birlikte kazmaya başla. Ancak durursak burası mezar olur.</li>
+    <li>archistBasis(tag=meme_Tunneler)    ->Arkoteklerin bedenleri yerin derinliklerindedir; bu yüzden bilinç alt yapıları gama ışınlarından ve güneş patlamalarından korunur. Daha derine kazmak insanları onlara yaklaştırır.</li>
+    <li>archistFact(tag=meme_Tunneler)     ->Arkotekler, insanlık gömülü arkotek zihinlerine yakın, yeraltında serpilebilsin diye bizim için besin mantarını biyomühendislikle yarattı.</li>
+    <li>archistProphecy(tag=meme_Tunneler) ->[inTheEnd] arkotekler bizi yeraltındaki cennetlerine kabul edecek.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Ana kayadaki ruhlar onları ziyaret edenleri korur.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->En soylu ruhlar taşın ruhlarıdır; derindeki taşlar yukarıdakilerden daha güçlü ve daha iyidir.</li>
+    <li>animistFact(tag=meme_Tunneler)     ->Kaygılı insanlar kayaların ruhlarını da kaygılandırır ve bu da dev böcekleri çağırır.</li>
   </Tunneler.descriptionMaker.rules.rulesStrings>
-  <!-- EN:
-    <li>memeCreed->cave</li>
+  <!-- EN: <li>memeCreed->cave</li>
     <li>memeCreed->bunker</li>
     <li>memeCreed->shaft</li>
     <li>memeAdjective->deep</li>
@@ -1374,29 +1346,29 @@
     <li>memeLeaderAdjective->deep</li>
     <li>memeMoralist->truthdigger</li>
     <li>memeMoralist->thoughtdigger</li>
-    <li>memeMoralist->mindminer</li>
-  -->
+    <li>memeMoralist->mindminer</li> -->
   <Tunneler.generalRules.rulesStrings>
+
     <li>memeCreed->mağara</li>
     <li>memeCreed->sığınak</li>
-    <li>memeCreed->ocak</li>
+    <li>memeCreed->kuyu</li>
     <li>memeAdjective->derin</li>
-    <li>memeHyphenPrefix->kaya</li>
+    <li>memeHyphenPrefix->taş</li>
     <li>memeHyphenPrefix->mağara</li>
     <li>memeHyphenPrefix->derin</li>
     <li>memeHyphenPrefix->alt</li>
-    <li>memeHyphenPrefix->aşağı</li>
-    <li>memeConcept->yer</li>
-    <li>memeConcept->kaya</li>
+    <li>memeHyphenPrefix->yeraltı</li>
+    <li>memeConcept->toprak</li>
+    <li>memeConcept->taş</li>
     <li>memeConcept->derinlik</li>
-    <li>memeConcept->gömme</li>
-    <li>memeLeaderNoun->ön kazıcı</li>
-    <li>memeLeaderNoun->derin sesçi</li>
-    <li>memeLeaderNoun->ocak</li>
+    <li>memeConcept->gömü</li>
+    <li>memeLeaderNoun->öncü kazıcı</li>
+    <li>memeLeaderNoun->derin sondajcı</li>
+    <li>memeLeaderNoun->kuyu</li>
     <li>memeLeaderAdjective->derin</li>
-    <li>memeMoralist->hakikat kazıcı</li>
-    <li>memeMoralist->düşünce kazıcı</li>
-    <li>memeMoralist->zihin kazıcı</li>
+    <li>memeMoralist->hakikat kazıcısı</li>
+    <li>memeMoralist->düşünce kazıcısı</li>
+    <li>memeMoralist->zihin madencisi</li>
   </Tunneler.generalRules.rulesStrings>
   
 </LanguageData>

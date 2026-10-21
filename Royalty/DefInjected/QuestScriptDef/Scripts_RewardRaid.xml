@@ -1,24 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
-  <!-- EN:
-    <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to help save one of [asker_possessive] caravans. The caravan is being hunted near [map_definite] by (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) from [enemyFaction_name]. [asker_nameDef] wants you to signal the [enemyFaction_pawnsPlural] to draw them away from the caravan - and towards you.[endingCommon]</li>
+
+  <!-- EN: <li>questDescription(asker_factionLeader==True)->[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], wants you to help save one of [asker_possessive] caravans. The caravan is being hunted near [map_definite] by (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) from [enemyFaction_name]. [asker_nameDef] wants you to signal the [enemyFaction_pawnsPlural] to draw them away from the caravan - and towards you.[endingCommon]</li>
     <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], a [asker_royalTitleInCurrentFaction] of [asker_faction_name], is making a request of you.\n\n(*Threat)[groupsOf](/Threat) from [enemyFaction_name] have been harassing [asker_possessive] caravans in the area. [asker_nameDef] asks that you send them a challenge message, attracting them to attack and eliminating the threat yourself.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
     <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
     <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nIf you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li>
-  -->
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]If you accept, the [enemyFaction_pawnsPlural] will arrive in [firstRaidDelayTicks_duration].</li> -->
   <ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] fraksiyonundan [asker_faction_leaderTitle] [asker_nameFull], kervanlarından birini kurtarmasına yardım etmeni istiyor. Kervan, [map_definite] yakınında [enemyFaction_name] fraksiyonundan (*Threat)[numGroupsOf](/Threat) tarafından kovalanıyor. [asker_nameDef], işaret vererek onları kovalayan grubu kervandan uzağa ve kendine doğru çekmeni istiyor.[endingCommon]</li>
-    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_nameFull], [asker_faction_name] fraksiyonundan bir [asker_faction_leaderTitle], senden bir istekte bulunuyor.\n\n[enemyFaction_name] fraksiyonundan (*Threat)[groupsOf](/Threat) onun bölgedeki kervanlarını taciz ediyor. [asker_nameDef], onlara meydan okuyan bir mesaj göndererek sana saldırmaları için kışkırtmanı ve onları ortadan kaldırmanı istiyor.[endingCommon]</li>
+
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] hizbinin [asker_faction_leaderTitle] makamındaki [asker_nameFull], kervanlarından birini kurtarmana yardım etmeni istiyor. Kervan, [map_definite] yakınlarında [enemyFaction_name] hizbinden (*Threat)[numGroupsOf] [enemyFaction_pawnsPlural](/Threat) tarafından avlanıyor. [asker_nameDef], [enemyFaction_pawnsPlural] grubuna sinyal gönderip onları kervandan uzağa, senin üzerine çekmeni istiyor.[endingCommon]</li>
+    <li>questDescription(asker_royalInCurrentFaction==True)->[asker_faction_name] hizbinde [asker_royalTitleInCurrentFaction] unvanını taşıyan [asker_nameFull] senden bir ricada bulunuyor.\n\n[enemyFaction_name] hizbinden (*Threat)[groupsOf](/Threat) bölgedeki kervanlarını taciz ediyor. [asker_nameDef], onlara bir meydan okuma mesajı göndermeni, böylece saldırmalarını sağlayıp tehdidi bizzat ortadan kaldırmanı istiyor.[endingCommon]</li>
     <li>groupsOf(raidCount==1,priority=1)->[enemyFaction_pawnsPlural]</li>
-    <li>groupsOf->[numGroupsOf]</li>
-    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nKabul edersen, [enemyFaction_pawnsPlural] [firstRaidDelayTicks_duration] içinde gelecek.</li>
-    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Kabul edersen, [enemyFaction_pawnsPlural] [firstRaidDelayTicks_duration] içinde gelecek.</li>
+    <li>groupsOf->[numGroupsOf] [enemyFaction_pawnsPlural]</li>
+    <li>endingCommon(helpersCount==0)->\n\n[pawnKindsParagraph]\n\nKabul edersen [enemyFaction_pawnsPlural] [firstRaidDelayTicks_duration] içinde gelecek.</li>
+    <li>endingCommon(helpersCount>=1)->\n\n[pawnKindsParagraph][helpersParagraph]Kabul edersen [enemyFaction_pawnsPlural] [firstRaidDelayTicks_duration] içinde gelecek.</li>
   </ThreatReward_Raid_MiscReward.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
+  <!-- EN: <li>questName->[enemyFaction_pawnsPlural] of Fortune</li>
     <li>questName->[violence] of Fortune</li>
     <li>questName->[violence] for Hire</li>
     <li>questName->[violence] for Profit</li>
@@ -37,29 +35,29 @@
     <li>violence->Defense</li>
     <li>violence->Conflict</li>
     <li>violence->Hostility</li>
-    <li>violence->Warfare</li>
-  -->
+    <li>violence->Warfare</li> -->
   <ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-    <li>questName->Servet İçin [enemyFaction_pawnsPlural]</li>
-    <li>questName->Servet İçin [violence]</li>
-    <li>questName->Kiralık [violence] </li>
-    <li>questName->Kârlı [violence]</li>
+
+    <li>questName->Paralı [enemyFaction_pawnsPlural]</li>
+    <li>questName->Talih İçin [violence]</li>
+    <li>questName->Kiralık [violence]</li>
+    <li>questName->Kâr İçin [violence]</li>
     <li>questName->Ödüllü [violence]</li>
     <li>questName->Ücretli [violence]</li>
-    <li>questName->Tazmin Edilecek [violence]</li>
-    <li>questName(reward==royalFavor)->[enemyFaction_pawnsPlural] için iyilik</li>
-    <li>questName(reward==royalFavor)->[violence] için iyilik</li>
+    <li>questName->Karşılığı Ödenen [violence]</li>
+    <li>questName(reward==royalFavor)->Onur İçin [enemyFaction_pawnsPlural]</li>
+    <li>questName(reward==royalFavor)->Onur İçin [violence]</li>
     <li>violence->Şiddet</li>
     <li>violence->Muharebe</li>
     <li>violence->Çatışma</li>
     <li>violence->Savaş</li>
     <li>violence->Dövüş</li>
-    <li>violence->Katliam</li>
+    <li>violence->Kan Dökme</li>
     <li>violence->Saldırı</li>
     <li>violence->Savunma</li>
-    <li>violence->Anlaşmazlık</li>
+    <li>violence->İhtilaf</li>
     <li>violence->Düşmanlık</li>
     <li>violence->Harp</li>
   </ThreatReward_Raid_MiscReward.questNameRules.rulesStrings>
-  
+
 </LanguageData>

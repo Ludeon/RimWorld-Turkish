@@ -1,56 +1,105 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
-  <!-- EN:
-    <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li>
-  -->
+
+  <!-- EN: <li>questDescription->Using your long-range mineral scanner, [worker_definite] has found a lump of [targetMineable_label] nearby.\n\nUnfortunately, it won't last - others will mine it first in [timeoutTicks_duration] if we don't.[lumpThreatDescription]</li> -->
+
   <LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-    <li>questDescription->[worker_definite], uzun menzilli mineral tarayıcını kullanarak yakınlarda bir [targetMineable_label] öbeği buldu.\n\nNe yazık ki, uzun sürmeyecek. Eğer ilk biz almazsak diğerleri onu [timeoutTicks_duration] içinde kazacak.[lumpThreatDescription]</li>
+
+
+    <li>questDescription->[worker_definite], uzun menzilli mineral tarayıcını kullanarak yakınlarda bir [targetMineable_label] yığını buldu.\n\nNe yazık ki orada uzun süre kalmayacak; biz kazmazsak [timeoutTicks_duration] içinde başkaları kazacak.[lumpThreatDescription]</li>
   </LongRangeMineralScannerLump.questDescriptionRules.rulesStrings>
-  <!-- EN:
-    <li>questName->[lump] of [targetMineableThing_label]</li>
+
+  <!-- EN: <li>questName->[lump] of [targetMineableThing_label]</li>
+
     <li>questName->[targetMineableThing_label] [lump]</li>
+
     <li>questName->The [targetMineableThing_label] [lump]</li>
+
     <li>questName->[adj] [targetMineableThing_label]</li>
+
     <li>questName->[targetMineableThing_label] [discovered]</li>
+
     <li>lump->lump</li>
+
     <li>lump->pile</li>
+
     <li>lump->deposit</li>
+
     <li>lump->seam</li>
+
     <li>lump->chunk</li>
+
     <li>lump->pile</li>
+
     <li>adj->distant</li>
+
     <li>adj->far</li>
+
     <li>adj->unknown</li>
+
     <li>adj->scanned</li>
+
     <li>discovered->discovered</li>
+
     <li>discovered->detected</li>
+
     <li>discovered->found</li>
-    <li>discovered->scanned</li>
-  -->
+
+    <li>discovered->scanned</li> -->
+
   <LongRangeMineralScannerLump.questNameRules.rulesStrings>
+
+
     <li>questName->[targetMineableThing_label] [lump]</li>
+
     <li>questName->[targetMineableThing_label] [lump]</li>
+
+    <li>questName->[targetMineableThing_label] [lump]</li>
+
     <li>questName->[adj] [targetMineableThing_label]</li>
+
     <li>questName->[targetMineableThing_label] [discovered]</li>
-    <li>lump->öbeği</li>
+
     <li>lump->yığını</li>
-    <li>lump->katmanı</li>
+
+    <li>lump->kümesi</li>
+
+    <li>lump->yatağı</li>
+
     <li>lump->damarı</li>
-    <li>lump->yığını</li>
-    <li>lump->yığını</li>
+
+    <li>lump->parçası</li>
+
+    <li>lump->öbeği</li>
+
     <li>adj->uzaktaki</li>
-    <li>adj->uzaklardaki</li>
+
+    <li>adj->ıraktaki</li>
+
     <li>adj->bilinmeyen</li>
+
     <li>adj->taranmış</li>
+
     <li>discovered->keşfedildi</li>
+
     <li>discovered->tespit edildi</li>
+
     <li>discovered->bulundu</li>
+
     <li>discovered->tarandı</li>
   </LongRangeMineralScannerLump.questNameRules.rulesStrings>
+
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Görev süresi doldu: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
+
+  <LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>Görevin süresi doldu: [resolvedQuestName]</LongRangeMineralScannerLump.LetterLabelQuestExpired.slateRef>
+
   <!-- EN: Others have mined the lump of [targetMineable_label]. The quest [resolvedQuestName] has expired. -->
-  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>Diğerleri [targetMineable_label] yığınını kazdı. [resolvedQuestName] görevinin süresi doldu.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+
+  <LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>[targetMineable_label] yığını başkaları tarafından kazıldı. [resolvedQuestName] görevinin süresi doldu.</LongRangeMineralScannerLump.LetterTextQuestExpired.slateRef>
+
   
+
 </LanguageData>

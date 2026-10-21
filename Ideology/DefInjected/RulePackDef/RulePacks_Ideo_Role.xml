@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN:
-    <li>r_roleName->creaturizer</li>
+  <!-- EN: <li>r_roleName->creaturizer</li>
     <li>r_roleName->animalor</li>
     <li>firstPart->fur</li>
     <li>firstPart->paw</li>
@@ -13,8 +12,7 @@
     <li>firstPart->feral</li>
     <li>firstPart->snout</li>
     <li>secondPart(p=4)->kin</li>
-    <li>secondPart(p=4)->touch</li>
-  -->
+    <li>secondPart(p=4)->touch</li> -->
   <NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
     <li>r_roleName->yaratıkçı</li>
     <li>r_roleName->hayvancı</li>
@@ -24,14 +22,13 @@
     <li>firstPart->kuyruk</li>
     <li>firstPart->bıyık</li>
     <li>firstPart->diş</li>
-    <li>firstPart->vahşi</li>
+    <li>firstPart->yaban</li>
     <li>firstPart->burun</li>
-    <li>secondPart(p=4)->soylu</li>
-    <li>secondPart(p=4)->ban</li>
+    <li>secondPart(p=4)->soy</li>
+    <li>secondPart(p=4)->dokunuş</li>
   </NamerRoleAnimalsSpecialist.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName->berserker</li>
+  <!-- EN: <li>r_roleName->berserker</li>
     <li>firstPart->slash</li>
     <li>firstPart->fist</li>
     <li>firstPart->bruise</li>
@@ -44,48 +41,44 @@
     <li>firstPart->edge</li>
     <li>firstPart->cut</li>
     <li>firstPart->smash</li>
-    <li>firstPart->crush</li>
-  -->
+    <li>firstPart->crush</li> -->
   <NamerRoleBrawler.rulePack.rulesStrings>
-    <li>r_roleName->cinnetkâr</li>
-    <li>firstPart->yırtma</li>
+    <li>r_roleName->gözü dönmüş</li>
+    <li>firstPart->kesik</li>
     <li>firstPart->yumruk</li>
-    <li>firstPart->yaralama</li>
+    <li>firstPart->bere</li>
     <li>firstPart->bıçak</li>
     <li>firstPart->kavga</li>
-    <li>firstPart->boğma</li>
+    <li>firstPart->boğum</li>
     <li>firstPart->mızrak</li>
     <li>firstPart->kılıç</li>
     <li>firstPart->sopa</li>
-    <li>firstPart->kesme</li>
-    <li>firstPart->kesici</li>
-    <li>firstPart->ezme</li>
-    <li>firstPart->delme</li>
+    <li>firstPart->keskin</li>
+    <li>firstPart->yara</li>
+    <li>firstPart->darbe</li>
+    <li>firstPart->ezen</li>
   </NamerRoleBrawler.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>firstPart->health</li>
+  <!-- EN: <li>firstPart->health</li>
     <li>firstPart->heal</li>
     <li>firstPart->heart</li>
     <li>firstPart->medi</li>
     <li>firstPart->scalpel</li>
     <li>firstPart->sanito</li>
     <li>firstPart->surgo</li>
-    <li>firstPart->clinic</li>
-  -->
+    <li>firstPart->clinic</li> -->
   <NamerRoleMedicalSpecialist.rulePack.rulesStrings>
     <li>firstPart->sağlık</li>
     <li>firstPart->şifa</li>
     <li>firstPart->kalp</li>
-    <li>firstPart->medikal</li>
+    <li>firstPart->tıp</li>
     <li>firstPart->neşter</li>
-    <li>firstPart->sıhhiye</li>
+    <li>firstPart->sağ</li>
     <li>firstPart->cerrah</li>
     <li>firstPart->klinik</li>
   </NamerRoleMedicalSpecialist.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName->spelunker</li>
+  <!-- EN: <li>r_roleName->spelunker</li>
     <li>firstPart->mine</li>
     <li>firstPart->deep</li>
     <li>firstPart->depth</li>
@@ -98,13 +91,12 @@
     <li>firstPart->hill</li>
     <li>firstPart->hole</li>
     <li>firstPart->tunnel</li>
-    <li>firstPart->crack</li>
-  -->
+    <li>firstPart->crack</li> -->
   <NamerRoleMiner.rulePack.rulesStrings>
     <li>r_roleName->mağaracı</li>
     <li>firstPart->maden</li>
-    <li>firstPart->dip</li>
     <li>firstPart->derin</li>
+    <li>firstPart->dip</li>
     <li>firstPart->kaya</li>
     <li>firstPart->mağara</li>
     <li>firstPart->kazma</li>
@@ -112,55 +104,50 @@
     <li>firstPart->yeraltı</li>
     <li>firstPart->taş</li>
     <li>firstPart->tepe</li>
-    <li>firstPart->delik</li>
+    <li>firstPart->çukur</li>
     <li>firstPart->tünel</li>
     <li>firstPart->çatlak</li>
   </NamerRoleMiner.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName(p=4)->[memeMoralist]</li>
+  <!-- EN: <li>r_roleName(p=4)->[memeMoralist]</li>
     <li>r_roleName(p=2)->[memeAdjective] [memeMoralist]</li>
     <li>r_roleName->[memeMoralist] of [chosenTheme]</li>
     <li>r_roleName->[memeMoralist] of [keyDeity]</li>
     <li>r_roleName->[memeMoralist] of [memeConcept]</li>
     <li>r_roleName->[memeMoralist] of [chosenIdeoName]</li>
     <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
-    <li>r_roleName->[keyDeity]'s [memeMoralist]</li>
-  -->
+    <li>r_roleName->[keyDeity]'s [memeMoralist]</li> -->
   <NamerRoleMoralist.rulePack.rulesStrings>
     <li>r_roleName(p=4)->[memeMoralist]</li>
     <li>r_roleName(p=2)->[memeAdjective] [memeMoralist]</li>
-    <li>r_roleName->[chosenTheme] [memeMoralist]</li>
-    <li>r_roleName->[keyDeity]ist [memeMoralist]</li>
-    <li>r_roleName->[memeConcept] [memeMoralist]</li>
-    <li>r_roleName->[chosenIdeoName] [memeMoralist]</li>
+    <li>r_roleName->[chosenTheme] adına [memeMoralist]</li>
+    <li>r_roleName->[keyDeity] adına [memeMoralist]</li>
+    <li>r_roleName->[memeConcept] yolunda [memeMoralist]</li>
+    <li>r_roleName->[chosenIdeoName] yolunda [memeMoralist]</li>
     <li>r_roleName->[chosenAdjective] [memeMoralist]</li>
-    <li>r_roleName->[keyDeity]ist [memeMoralist]</li>
+    <li>r_roleName->[keyDeity] yolunda [memeMoralist]</li>
   </NamerRoleMoralist.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName->manufactor</li>
+  <!-- EN: <li>r_roleName->manufactor</li>
     <li>r_roleName->handyman</li>
     <li>r_roleName->maker</li>
     <li>firstPart->make</li>
     <li>firstPart->craft</li>
     <li>firstPart->build</li>
     <li>firstPart->manu</li>
-    <li>firstPart->make</li>
-  -->
+    <li>firstPart->make</li> -->
   <NamerRoleProductionSpecialist.rulePack.rulesStrings>
     <li>r_roleName->imalatçı</li>
-    <li>r_roleName->mahir</li>
-    <li>r_roleName->yapıcı</li>
-    <li>firstPart->mal</li>
+    <li>r_roleName->tamirci</li>
+    <li>r_roleName->yapımcı</li>
+    <li>firstPart->yapı</li>
     <li>firstPart->zanaat</li>
-    <li>firstPart->inşaat</li>
-    <li>firstPart->imalat</li>
+    <li>firstPart->inşa</li>
+    <li>firstPart->imal</li>
     <li>firstPart->yapı</li>
   </NamerRoleProductionSpecialist.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName->highmind</li>
+  <!-- EN: <li>r_roleName->highmind</li>
     <li>r_roleName->cogitor</li>
     <li>r_roleName->thinker</li>
     <li>r_roleName->learner</li>
@@ -169,23 +156,21 @@
     <li>firstPart->focus</li>
     <li>firstPart->neuro</li>
     <li>firstPart->cogito</li>
-    <li>firstPart->idea</li>
-  -->
+    <li>firstPart->idea</li> -->
   <NamerRoleResearcher.rulePack.rulesStrings>
-    <li>r_roleName->zeki</li>
-    <li>r_roleName->bilir</li>
+    <li>r_roleName->yüce akıl</li>
     <li>r_roleName->düşünür</li>
-    <li>r_roleName->talebe</li>
+    <li>r_roleName->düşünen</li>
+    <li>r_roleName->öğrenen</li>
     <li>firstPart->zihin</li>
     <li>firstPart->düşünce</li>
     <li>firstPart->odak</li>
-    <li>firstPart->beyin</li>
-    <li>firstPart->akıl</li>
-    <li>firstPart->düşünce</li>
+    <li>firstPart->nöro</li>
+    <li>firstPart->kavrayış</li>
+    <li>firstPart->fikir</li>
   </NamerRoleResearcher.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>firstPart->gun</li>
+  <!-- EN: <li>firstPart->gun</li>
     <li>firstPart->shot</li>
     <li>firstPart->trigger</li>
     <li>firstPart->bullet</li>
@@ -194,23 +179,21 @@
     <li>firstPart->snipe</li>
     <li>firstPart->point</li>
     <li>firstPart->shoot</li>
-    <li>secondPart(p=4)->slinger</li>
-  -->
+    <li>secondPart(p=4)->slinger</li> -->
   <NamerRoleShooter.rulePack.rulesStrings>
     <li>firstPart->silah</li>
     <li>firstPart->atış</li>
     <li>firstPart->tetik</li>
-    <li>firstPart->mermi</li>
+    <li>firstPart->kurşun</li>
     <li>firstPart->kovan</li>
     <li>firstPart->nişan</li>
-    <li>firstPart->av</li>
+    <li>firstPart->keskin</li>
     <li>firstPart->hedef</li>
-    <li>firstPart->vuruş</li>
-    <li>secondPart(p=4)->uzmanı</li>
+    <li>firstPart->ateş</li>
+    <li>secondPart(p=4)->savuran</li>
   </NamerRoleShooter.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName->fertilizer</li>
+  <!-- EN: <li>r_roleName->fertilizer</li>
     <li>firstPart->leaf</li>
     <li>firstPart->plant</li>
     <li>firstPart->green</li>
@@ -224,10 +207,9 @@
     <li>firstPart->dirt</li>
     <li>firstPart->seed</li>
     <li>firstPart->soil</li>
-    <li>firstPart->root</li>
-  -->
+    <li>firstPart->root</li> -->
   <NamerRoleSower.rulePack.rulesStrings>
-    <li>r_roleName->gübreci</li>
+    <li>r_roleName->bereketçi</li>
     <li>firstPart->yaprak</li>
     <li>firstPart->bitki</li>
     <li>firstPart->yeşil</li>
@@ -235,17 +217,16 @@
     <li>firstPart->bahçe</li>
     <li>firstPart->flora</li>
     <li>firstPart->ot</li>
-    <li>firstPart->mahsul</li>
-    <li>firstPart->çiftlik</li>
-    <li>firstPart->arazi</li>
-    <li>firstPart->toprak</li>
-    <li>firstPart->tohum</li>
+    <li>firstPart->ekin</li>
     <li>firstPart->tarla</li>
+    <li>firstPart->yer</li>
+    <li>firstPart->çamur</li>
+    <li>firstPart->tohum</li>
+    <li>firstPart->toprak</li>
     <li>firstPart->kök</li>
   </NamerRoleSower.rulePack.rulesStrings>
   
-  <!-- EN:
-    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
+  <!-- EN: <li>r_roleName(p=7)->[firstPart][secondPart]</li>
     <li>secondPart->master</li>
     <li>secondPart->crat</li>
     <li>secondPart->flame</li>
@@ -269,34 +250,33 @@
     <li>secondPart->alor</li>
     <li>secondPart->or</li>
     <li>secondPart->izer</li>
-    <li>secondPart->iner</li>
-  -->
+    <li>secondPart->iner</li> -->
   <NamerRoleSpecialistUtility.rulePack.rulesStrings>
-    <li>r_roleName(p=7)->[firstPart] [secondPart]</li>
-    <li>secondPart->ustası</li>
-    <li>secondPart->krat</li>
+    <li>r_roleName(p=7)->[firstPart][secondPart]</li>
+    <li>secondPart->usta</li>
+    <li>secondPart->bey</li>
     <li>secondPart->alev</li>
-    <li>secondPart->zihin</li>
-    <li>secondPart->kafa</li>
+    <li>secondPart->akıl</li>
+    <li>secondPart->baş</li>
     <li>secondPart->göz</li>
     <li>secondPart->el</li>
-    <li>secondPart->punk</li>
+    <li>secondPart->kâr</li>
     <li>secondPart->beyin</li>
-    <li>secondPart->ban</li>
-    <li>secondPart->getiren</li>
-    <li>secondPart->çağıran</li>
-    <li>secondPart->fısıldayan</li>
-    <li>secondPart->bilen</li>
-    <li>secondPart->seven</li>
-    <li>secondPart->uzmanı</li>
-    <li>secondPart->olan</li>
-    <li>secondPart->eksperi</li>
-    <li>secondPart->fısıldayan</li>
-    <li>secondPart->bilen</li>
-    <li>secondPart->seven</li>
-    <li>secondPart->uzmanı</li>
-    <li>secondPart->olan</li>
-    <li>secondPart->eksperi</li>
+    <li>secondPart->tutar</li>
+    <li>secondPart->getirir</li>
+    <li>secondPart->konuşur</li>
+    <li>secondPart->söyler</li>
+    <li>secondPart->bilir</li>
+    <li>secondPart->sever</li>
+    <li>secondPart->kullanır</li>
+    <li>secondPart->er</li>
+    <li>secondPart->dar</li>
+    <li>secondPart->han</li>
+    <li>secondPart->alp</li>
+    <li>secondPart->ata</li>
+    <li>secondPart->yar</li>
+    <li>secondPart->can</li>
+    <li>secondPart->kan</li>
   </NamerRoleSpecialistUtility.rulePack.rulesStrings>
   
 </LanguageData>

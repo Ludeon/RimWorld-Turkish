@@ -1,334 +1,197 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <!-- EN: Click to jump to problem -->
-  <ClickToJumpToProblem>Soruna gitmek için tıkla.</ClickToJumpToProblem>
+  <ClickToJumpToProblem>Soruna gitmek için tıkla</ClickToJumpToProblem>
 
-  <!-- EN: Minor break risk -->
-  <BreakRiskMinor>Küçük ruhsal çöküş riski</BreakRiskMinor>
-  <!-- EN: Major break risk -->
-  <BreakRiskMajor>Büyük ruhsal çöküş riski</BreakRiskMajor>
-  <!-- EN: Extreme break risk -->
-  <BreakRiskExtreme>Ciddi ruhsal çöküş riski</BreakRiskExtreme>
-  <!-- EN: These colonists are in a poor mood and may have a minor mental break at any time:\n{0} -->
-  <BreakRiskMinorDesc>Şu koloniciler kötü bir ruh hâlinde ve her an ruhsal bir çöküş geçirebilirler:\n{0}</BreakRiskMinorDesc>
-  <!-- EN: These colonists are in a very poor mood and may have a major mental break at any time:\n{0} -->
-  <BreakRiskMajorDesc>Şu koloniciler çok kötü bir ruh hâli içerisinde ve her an büyük bir ruhsal çöküş geçirebilirler:\n{0}</BreakRiskMajorDesc>
-  <!-- EN: These colonists are critically stressed and may have an extreme (and possibly violent) mental break at any moment:\n{0} -->
-  <BreakRiskExtremeDesc>Şu koloniciler aşırı stresli ve her an ciddi (ve büyük ihtimalle şiddet içeren) bir ruhsal çöküş geçirebilirler:\n{0}</BreakRiskExtremeDesc>
-  <!-- EN: Check these colonists' Needs tab to see what's bothering them.\n\nTo make colonists feel better, you can do things like make them fancy meals, give them more recreation hours per day and nicer recreation objects, place them in beautiful environments, have them drink and smoke, and much more. -->
-  <BreakRiskDescEnding>Bu kolonicilerin dertlerini görmek için onların ihtiyaçlar tablosunu ziyaret et.\n\nKolonicilerini daha iyi hissettirmek için onlara daha iyi yemekler, daha eğlenceli eşyalar ve daha çok eğlenme saati ver. Onları güzel ortamlarda tut, sigara ve içki içmelerini sağla.</BreakRiskDescEnding>
+  <BreakRiskMinor>Küçük çöküş riski</BreakRiskMinor>
+  <BreakRiskMajor>Büyük çöküş riski</BreakRiskMajor>
+  <BreakRiskExtreme>Aşırı çöküş riski</BreakRiskExtreme>
+  <BreakRiskMinorDesc>Bu kolonistlerin ruh hâli kötü ve her an küçük bir zihinsel çöküş yaşayabilirler:\n{0}</BreakRiskMinorDesc>
+  <BreakRiskMajorDesc>Bu kolonistlerin ruh hâli çok kötü ve her an büyük bir zihinsel çöküş yaşayabilirler:\n{0}</BreakRiskMajorDesc>
+  <BreakRiskExtremeDesc>Bu kolonistler kritik düzeyde stres altında ve her an aşırı (belki de şiddetli) bir zihinsel çöküş yaşayabilirler:\n{0}</BreakRiskExtremeDesc>
+  <BreakRiskDescEnding>Onları neyin rahatsız ettiğini görmek için bu kolonistlerin İhtiyaçlar sekmesine bak.\n\nKolonistlerin kendini daha iyi hissetmesi için onlara güzel yemekler yapabilir, günlük daha fazla eğlence saati ve daha güzel eğlence nesneleri verebilir, onları güzel ortamlara yerleştirebilir, içki ve tütün içmelerini sağlayabilir ve çok daha fazlasını yapabilirsin.</BreakRiskDescEnding>
 
-  <!-- EN: Colonist needs rescue -->
-  <ColonistNeedsRescue>Kolonicinin kurtarılması gerekiyor</ColonistNeedsRescue>
-  <!-- EN: Colonists need rescue -->
-  <ColonistsNeedRescue>Kolonicilerin kurtarılması gerekiyor</ColonistsNeedRescue>
-  <!-- EN: These colonists are incapacitated on the ground:\n{0}\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then right click on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDesc>Şu koloniciler hareket edemeyecek durumda:\n{0}\nOnları kurtarıp yatağa taşıması için başka bir kolonici gönder.\n\n(Kurtarmak için başka bir kolonici seç ve yardıma ihtiyacı olan kişinin üzerine sağ tıklayıp "Kurtar" seçeneğini seç.)</ColonistsNeedRescueDesc>
-  <!-- EN: These colonists are incapacitated on the ground:\n{0}\n\nSend another colonist to rescue them and carry them back to bed.\n\n(To rescue, select another colonist, then press the left trigger button on the victim and select Rescue.) -->
-  <ColonistsNeedRescueDescController>Şu koloniciler hareket edemeyecek durumda:\n{0}\n\nOnları kurtarıp yatağa taşıması için başka bir kolonici gönder.\n\n(Kurtarmak için başka bir kolonici seç ve yardıma ihtiyacı olan kişinin üzerine sağ tıklayıp "Kurtar" seçeneğini seç.)</ColonistsNeedRescueDescController>
+  <ColonistNeedsRescue>Kolonistin kurtarılması gerekiyor</ColonistNeedsRescue>
+  <ColonistsNeedRescue>Kolonistlerin kurtarılması gerekiyor</ColonistsNeedRescue>
+  <ColonistsNeedRescueDesc>Bu kolonistler yerde aciz durumda yatıyor:\n{0}\nOnları kurtarıp yatağa geri taşıması için başka bir kolonist gönder.\n\n(Kurtarmak için başka bir kolonist seç, ardından kazazedeye sağ tıklayıp Kurtar'ı seç.)</ColonistsNeedRescueDesc>
+  <ColonistsNeedRescueDescController>Bu kolonistler yerde aciz durumda yatıyor:\n{0}\n\nOnları kurtarıp yatağa geri taşıması için başka bir kolonist gönder.\n\n(Kurtarmak için başka bir kolonist seç, ardından kazazedenin üzerinde sol tetiğe basıp Kurtar'ı seç.)</ColonistsNeedRescueDescController>
 
-  <!-- EN: Need defenses -->
-  <NeedDefenses>Savunma gerekiyor</NeedDefenses>
-  <!-- EN: You've been here some time and have probably been seen. Pirate raids will start soon.\n\nYou should prepare defenses, like sandbags or traps. -->
-  <NeedDefensesDesc>Bir süredir buradasın ve büyük ihtimalle görüldün. Korsan saldırıları yakında başlayacaktır.\n\nKum torbaları veya tuzaklar gibi savunmalar hazırlamalısın.</NeedDefensesDesc>
+  <NeedDefenses>Savunma gerekli</NeedDefenses>
+  <NeedDefensesDesc>Bir süredir buradasın ve muhtemelen fark edildin. Korsan baskınları yakında başlayacak.\n\nKum torbası ya da tuzak gibi savunmalar hazırlamalısın.</NeedDefensesDesc>
 
-  <!-- EN: Need doctor -->
-  <NeedDoctor>Doktor gerekiyor</NeedDoctor>
-  <!-- EN: These colonists need medical care, but you have no healthy colonists assigned as doctors.\n{0}\n\nAssign a healthy colonist to the Doctor work type. If left untreated, wounds may never heal properly and may become permanent. -->
-  <NeedDoctorDesc>Şu kolonicilerin tıbbi bakıma ihtiyacı var fakat doktorluk yapan bir sağlıklı kolonicin yok.\n{0}\n\nSağlıklı bir kolonicini doktorluğa ata. Eğer tedavi edilmezse yaralar, hiçbir zaman tam olarak iyileşmeyip kalıcı olabilir.</NeedDoctorDesc>
+  <NeedDoctor>Doktor gerekli</NeedDoctor>
+  <NeedDoctorDesc>Bu kolonistlerin tıbbi bakıma ihtiyacı var, ama doktor olarak atanmış sağlıklı kolonistin yok.\n{0}\n\nSağlıklı bir kolonisti Doktorluk iş türüne ata. Tedavi edilmeyen yaralar hiçbir zaman düzgün iyileşmeyebilir ve kalıcı hâle gelebilir.</NeedDoctorDesc>
 
-  <!-- EN: Need miner -->
-  <NeedMiner>Madenci gerekiyor</NeedMiner>
-  <!-- EN: You have designated some rocks to be mined, but no colonist has the Mining work type.\n\nAssign a colonist the Mining work type. -->
-  <NeedMinerDesc>Bazı kayaları kazılmaları için seçtin fakat madencilik yapan bir kolonicin yok.\n\nBir kolonicini madenciliğe ata.</NeedMinerDesc>
+  <NeedMiner>Madenci gerekli</NeedMiner>
+  <NeedMinerDesc>Bazı kayaları kazılmak üzere işaretledin, ama hiçbir kolonistte Madencilik iş türü yok.\n\nBir kolonisti Madencilik iş türüne ata.</NeedMinerDesc>
 
-  <!-- EN: Need warden -->
-  <NeedWarden>Gardiyan gerekiyor</NeedWarden>
-  <!-- EN: You have a prisoner, but no colonist has the Warden work type.\n\nAssign a colonist the Warden work type. -->
-  <NeedWardenDesc>Bir mahkûmun var fakat gardiyanlık yapan bir kolonicin yok.\n\nBir kolonicini gardiyanlığa ata.</NeedWardenDesc>
+  <NeedWarden>Gardiyan gerekli</NeedWarden>
+  <NeedWardenDesc>Bir mahkûmun var, ama hiçbir kolonistte Gardiyanlık iş türü yok.\n\nBir kolonisti Gardiyanlık iş türüne ata.</NeedWardenDesc>
 
-  <!-- EN: Low food -->
-  <LowFood>Düşük miktarda yiyecek</LowFood>
-  <!-- EN: You are dangerously low on food.\n\n    Full bars worth of food in storage: {0}\n    Colonists and prisoners getting food: {1}\n    Days worth of food in storage: {2}\n\nGrow, buy, find, or kill some food. -->
-  <LowFoodDesc>Tehlikeli derecede düşük miktarda yiyeceğin var. Depodaki yiyecek miktarı: {0}\n    Kolonicilerin ve mahkûmların yiyecek tüketimi: {1}\n    Depodaki yiyeceğin yeteceği gün: {2}\n\nYiyecek bir şeyler yetiştir, satın al, bul veya avla.</LowFoodDesc>
+  <LowFood>Yiyecek az</LowFood>
+  <LowFoodDesc>Yiyeceğin tehlikeli derecede azaldı.\n\n    Depodaki yiyeceğin dolduracağı tam çubuk sayısı: {0}\n    Yiyecek alan kolonistler ve mahkûmlar: {1}\n    Depodaki yiyeceğin yeteceği gün: {2}\n\nYiyecek yetiştir, satın al, bul ya da avla.</LowFoodDesc>
 
-  <!-- EN: Low medicine -->
-  <LowMedicine>Düşük miktarda ilaç</LowMedicine>
-  <!-- EN: You only have {0} medications left in storage.\n\nBuy more medicine from traders. -->
-  <LowMedicineDesc>Depoda sadece {0} tane ilaç kaldı.\n\nTüccarlardan daha çok ilaç al.</LowMedicineDesc>
-  <!-- EN: You have no medicine left in storage.\n\nBuy more medicine from traders. -->
-  <NoMedicineDesc>Depoda hiç ilaç kalmadı.\n\nTüccarlardan daha çok ilaç al.</NoMedicineDesc>
-  
-  <!-- EN: Need colonist beds -->
-  <NeedColonistBeds>Kolonici yatakları gerekiyor</NeedColonistBeds>
-  <!-- EN: You have more colonists than you have colonist beds. Someone will lack a place to sleep.\n\nEither make more beds, or change a prisoner bed to a colonist bed.\n\nIf you have no resources, sleeping spots are free and can be placed instantly. -->
-  <NeedColonistBedsDesc>Kolonici yatağından fazla kolonicin var. Bazı kolonicilerinin yatacak yeri yok.\n\nYa daha fazla yatak yap ya da bir mahkûm yatağını kolonici yatağına çevir.\n\nEğer hiç kaynağın kalmadıysa uyuma noktaları bedavadır ve anında yerleştirilebilir.</NeedColonistBedsDesc>
-  
-  <!-- EN: Colonist left unburied -->
-  <AlertColonistLeftUnburied>Kolonici gömülmemiş</AlertColonistLeftUnburied>
-  <!-- EN: A colonist is left unburied.\n\nThis may negatively affect your colonists' mood. -->
-  <AlertColonistLeftUnburiedDesc>Gömülmemiş bir kolonici var.\n\nBu durum kolonicilerinin ruh hâlini olumsuz etkileyebilir.</AlertColonistLeftUnburiedDesc>
+  <LowMedicine>İlaç az</LowMedicine>
+  <LowMedicineDesc>Depoda yalnızca {0} ilaç kaldı.\n\nTüccarlardan daha fazla ilaç satın al.</LowMedicineDesc>
+  <NoMedicineDesc>Depoda hiç ilaç kalmadı.\n\nTüccarlardan daha fazla ilaç satın al.</NoMedicineDesc>
 
-  <!-- EN: Tattered apparel -->
-  <AlertTatteredApparel>Eski püskü giyim</AlertTatteredApparel>
-  <!-- EN: These colonists are wearing tattered apparel, which is making them sad:\n{0}\n\nGet them some apparel that isn't so badly damaged.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertTatteredApparelDesc>Şu kolonicilerin kıyafetleri hırpani durumda ve bu onları üzüyor:\n{0}\n\nKolonicilere fazla hasarlı olmayan kıyafetler bul.\n\nKıyafetleri dikiş tezgâhında ya da üretim noktasında dikebilir veya tüccarlardan satın alabilirsin.</AlertTatteredApparelDesc>
+  <NeedColonistBeds>Kolonist yatağı gerekli</NeedColonistBeds>
+  <NeedColonistBedsDesc>Kolonist yatağından daha fazla kolonistin var. Birinin uyuyacak yeri olmayacak.\n\nYa daha fazla yatak yap ya da bir mahkûm yatağını kolonist yatağına çevir.\n\nHiç kaynağın yoksa uyku noktaları bedavadır ve anında yerleştirilebilir.</NeedColonistBedsDesc>
 
-  <!-- EN: Unhappy nudity -->
-  <AlertUnhappyNudity>Çıplaklık</AlertUnhappyNudity>
-  <!-- EN: These colonists are nude and not happy about it:\n{0}\n\nGet them some clothes.\n\nYou can tailor apparel at a crafting spot or tailoring table, or buy it from traders. -->
-  <AlertUnhappyNudityDesc>Şu koloniciler çıplak ve bundan hoşlanmıyorlar:\n{0}\n\nOnlara giyecek bir şeyler bul.\n\nKıyafetleri dikiş tezgâhında ya da üretim noktasında dikebilir veya tüccarlardan satın alabilirsin.</AlertUnhappyNudityDesc>
+  <AlertColonistLeftUnburied>Gömülmemiş kolonist</AlertColonistLeftUnburied>
+  <AlertColonistLeftUnburiedDesc>Bir kolonist gömülmeden bırakıldı.\n\nBu, kolonistlerinin ruh hâlini olumsuz etkileyebilir.</AlertColonistLeftUnburiedDesc>
 
-  <!-- EN: Starvation -->
+  <AlertTatteredApparel>Yıpranmış giysi</AlertTatteredApparel>
+  <AlertTatteredApparelDesc>Bu kolonistler yıpranmış giysiler giyiyor ve bu onları üzüyor:\n{0}\n\nOnlara bu kadar hasarlı olmayan giysiler bul.\n\nGiysileri bir zanaat noktasında ya da terzi masasında dikebilir veya tüccarlardan satın alabilirsin.</AlertTatteredApparelDesc>
+
+  <AlertUnhappyNudity>Mutsuz çıplaklık</AlertUnhappyNudity>
+  <AlertUnhappyNudityDesc>Bu kolonistler çıplak ve bundan memnun değiller:\n{0}\n\nOnlara biraz giysi bul.\n\nGiysileri bir zanaat noktasında ya da terzi masasında dikebilir veya tüccarlardan satın alabilirsin.</AlertUnhappyNudityDesc>
+
   <Starvation>Açlık</Starvation>
-  <!-- EN: These colonists are starving:\n{0}\n\nGet them some food. -->
-  <StarvationDesc>Şu koloniciler açlıktan ölüyor:\n{0}\n\nOnlara yiyecek bir şeyler bul.</StarvationDesc>
+  <StarvationDesc>Bu kolonistler açlıktan ölüyor:\n{0}\n\nOnlara yiyecek bul.</StarvationDesc>
 
-  <!-- EN: Animal starvation -->
-  <StarvationAnimals>Hayvanlar aç</StarvationAnimals>
-  <!-- EN: These colony animals are starving:\n{0}\n\nGet them some food. -->
-  <StarvationAnimalsDesc>Şu koloni hayvanların aç:\n{0}\n\nOnlara yiyecek bir şeyler bul.</StarvationAnimalsDesc>
+  <StarvationAnimals>Hayvanlar açlıktan ölüyor</StarvationAnimals>
+  <StarvationAnimalsDesc>Bu koloni hayvanları açlıktan ölüyor:\n{0}\n\nOnlara yiyecek bul.</StarvationAnimalsDesc>
 
-  <!-- EN: Exhaustion -->
   <Exhaustion>Bitkinlik</Exhaustion>
-  <!-- EN: These colonists are exhausted and need rest:\n{0}\n\nGet them some rest. They'll need a bed marked for colonist use. Also, make sure they're not drafted. -->
-  <ExhaustionDesc>Şu koloniciler çok yorgun ve dinlenmeye ihtiyaçları var:\n{0}\n\nOnları biraz dinlendir. Kolonici kullanımı için işaretlenmiş yataklara ihtiyaç var. Ayrıca, çatışma modunda olmadıklarından emin ol.</ExhaustionDesc>
+  <ExhaustionDesc>Bu kolonistler bitkin ve dinlenmeleri gerekiyor:\n{0}\n\nDinlenmelerini sağla. Kolonist kullanımı için işaretlenmiş bir yatağa ihtiyaçları olacak. Ayrıca askere alınmış olmadıklarından emin ol.</ExhaustionDesc>
 
-  <!-- EN: Need food hopper -->
-  <NeedFoodHopper>Gıda haznesi gerekiyor</NeedFoodHopper>
-  <!-- EN: You have a nutrient dispenser with no hopper next to it.\n\nTo work, paste dispensers must draw from an adjacent hopper filled with raw food.\n\nBuild a hopper adjacent to the dispenser. -->
-  <NeedFoodHopperDesc>Yanında hunisi olmayan bir besin macunu otomatın var.\n\nÇalışması için çiğ gıda ile doldurulacak bir hazneyi besin macunu otomatına bitişik koyman gerekiyor.\n\nDağıtıcıya bitişik bir hazne koy.</NeedFoodHopperDesc>
+  <NeedFoodHopper>Besleme haznesi gerekli</NeedFoodHopper>
+  <NeedFoodHopperDesc>Yanında hazne olmayan bir besin dağıtıcın var.\n\nLapa dağıtıcılarının çalışması için çiğ yiyecekle dolu bitişik bir hazneden beslenmesi gerekir.\n\nDağıtıcının bitişiğine bir hazne inşa et.</NeedFoodHopperDesc>
 
-  <!-- EN: Need meal source -->
-  <NeedMealSource>Yemek kaynağı gerekiyor</NeedMealSource>
-  <!-- EN: You have no way of preparing proper meals from raw food.\n\nBuild a stove, campfire, or nutrient dispenser.\n\n(It cannot be in a prison cell, otherwise colonists cannot use it.) -->
-  <NeedMealSourceDesc>Çiğ gıdadan tüketime uygun yemekler yapabilecek bir yöntemin yok.\n\nOcak, kamp ateşi veya besin macunu otomatı kur.\n\n(Bir hapishane hücresine kurulamaz, aksi hâlde koloniciler kullanamaz.)</NeedMealSourceDesc>
+  <NeedMealSource>Yemek kaynağı gerekli</NeedMealSource>
+  <NeedMealSourceDesc>Çiğ yiyecekten düzgün yemek hazırlamanın hiçbir yolu yok.\n\nBir ocak, kamp ateşi ya da besin dağıtıcı inşa et.\n\n(Hapishane hücresinde olmamalı, yoksa kolonistler kullanamaz.)</NeedMealSourceDesc>
 
-  <!-- EN: Need recreation variety -->
-  <NeedJoySource>Eğlence çeşitliliği gerekiyor</NeedJoySource>
-  <!-- EN: There are only {0} different recreation types available in {1}, but at the current expectations level ({2}), colonists need {3} different kinds of recreation to remain satisfied. Provide recreation variety supplying a new, different kind of recreation.\n\n{4}\n\n{5}\n\nNote: You can check the recreation type of any item in its stats page, accessible with the 'i' button. -->
-  <NeedJoySourceDesc>{1} içinde yalnızca {0} farklı eğlence türü var. Lakin, mevcut beklentilere göre ({2}) kolonicilerin tatmin olabilmeleri için {3} farklı eğlence çeşidine ihtiyaçları var. Kolonicilerine boş zamanlarını değerlendirebilecekleri yeni, farklı eğlenceler sun.\n\n{4}\n\n{5}\n\nNot: Herhangi bir nesnenin eğlence türünü, bilgi kartındaki "i" butonuna basınca açılan istatistik sayfasından kontrol edebilirsin.</NeedJoySourceDesc>
-  <!-- EN: Available recreation types -->
-  <AvailableRecreationTypes>Mevcut eğlence çeşitleri</AvailableRecreationTypes>
-  <!-- EN: Missing recreation types -->
-  <MissingRecreationTypes>Eksik eğlence çeşitleri</MissingRecreationTypes>
-  <!-- EN: At current expectations ({0}), each tolerance falls by {1} per day awake. Having {2} recreation types is recommended. -->
-  <CurrentExpectationsAndRecreation>Mevcut beklentilere göre ({0}) her bir alışkanlık, uyanık geçirilen gün başına {1} düşmektedir. {2} eğlence türüne sahip olman önerilir.</CurrentExpectationsAndRecreation>
-  <!-- EN: bored -->
+  <NeedJoySource>Eğlence çeşitliliği gerekli</NeedJoySource>
+  <NeedJoySourceDesc>{1} içinde yalnızca {0} farklı eğlence türü mevcut, ama şu anki beklenti seviyesinde ({2}) kolonistlerin memnun kalması için {3} farklı eğlence türü gerekiyor. Yeni ve farklı bir eğlence türü sağlayarak eğlence çeşitliliği sun.\n\n{4}\n\n{5}\n\nNot: Herhangi bir eşyanın eğlence türünü, 'i' düğmesiyle açılan istatistik sayfasından görebilirsin.</NeedJoySourceDesc>
+  <AvailableRecreationTypes>Mevcut eğlence türleri</AvailableRecreationTypes>
+  <MissingRecreationTypes>Eksik eğlence türleri</MissingRecreationTypes>
+  <CurrentExpectationsAndRecreation>Şu anki beklentilerde ({0}) her tolerans uyanık geçen her gün {1} düşer. {2} eğlence türüne sahip olman önerilir.</CurrentExpectationsAndRecreation>
   <bored>sıkılmış</bored>
 
-  <!-- EN: Boredom -->
   <Boredom>Can sıkıntısı</Boredom>
-  <!-- EN: These people are either in need of recreation or are assigned to recreation, but are bored of every available source of recreation:\n\n{0}\n\nGet them some more recreation variety.\n\nCurrently available recreation types for {PAWN_labelShort}:\n{2} -->
-  <BoredomDesc>Şu insanların ya eğlenmeye ihtiyacı var ya da hâlihazırdaki eğlence kaynaklarından sıkılmışlar:\n\n{0}\n\nOnlara biraz daha eğlence çeşitliliği sağla.\n\n{PAWN_labelShort} için mevcut eğlence türleri:\n{2}</BoredomDesc>
+  <BoredomDesc>Bu kişiler ya eğlenceye ihtiyaç duyuyor ya da eğlenceye atanmış, ama mevcut tüm eğlence kaynaklarından sıkılmışlar:\n\n{0}\n\nOnlara daha fazla eğlence çeşitliliği sun.\n\n{PAWN_labelShort} için şu anda mevcut eğlence türleri:\n{2}</BoredomDesc>
 
-  <!-- EN: Need batteries -->
-  <NeedBatteries>Batarya gerekiyor</NeedBatteries>
-  <!-- EN: You have a solar or wind generator, but no batteries. You'll lose power every time the sun goes down or the wind calms. -->
-  <NeedBatteriesDesc>Güneş panelin veya rüzgâr türbinin var ancak bataryan yok. Her güneş battığında veya rüzgâr dindiğinde güç kaybına uğrayacaksın.</NeedBatteriesDesc>
-  <!-- EN: Build a battery or two to guarantee sustained power. -->
-  <NeedBatteriesResearchedDesc>Sürekli gücü sağlamak için bir veya iki tane batarya yap.</NeedBatteriesResearchedDesc>
-  <!-- EN: Research batteries and build a couple to guarantee sustained power. -->
-  <NeedBatteriesNotResearchedDesc>Bataryaları araştır ve sürekli gücü garanti etmek için birkaç batarya yap.</NeedBatteriesNotResearchedDesc>
+  <NeedBatteries>Batarya gerekli</NeedBatteries>
+  <NeedBatteriesDesc>Güneş ya da rüzgâr jeneratörün var, ama bataryan yok. Güneş her battığında ya da rüzgâr her dindiğinde elektriğin kesilecek.</NeedBatteriesDesc>
+  <NeedBatteriesResearchedDesc>Kesintisiz elektriği garantilemek için bir iki batarya inşa et.</NeedBatteriesResearchedDesc>
+  <NeedBatteriesNotResearchedDesc>Kesintisiz elektriği garantilemek için bataryaları araştır ve birkaç tane inşa et.</NeedBatteriesNotResearchedDesc>
 
-  <!-- EN: Brawler has ranged weapon -->
-  <BrawlerHasRangedWeapon>Boğuşmacının menzilli silahı var</BrawlerHasRangedWeapon>
-  <!-- EN: One of your colonists has the Brawler personality trait, but is carrying a ranged weapon. This will make them very unhappy. -->
-  <BrawlerHasRangedWeaponDesc>Kolonicilerinden biri 'boğuşmacı' kişisel özelliğine sahip olmasına rağmen menzilli silah kuşanmış durumda. Menzilli silah kuşanması onu mutsuz edecek.</BrawlerHasRangedWeaponDesc>
+  <BrawlerHasRangedWeapon>Kavgacının menzilli silahı var</BrawlerHasRangedWeapon>
+  <BrawlerHasRangedWeaponDesc>Kolonistlerinden birinde Kavgacı kişilik özelliği var, ama menzilli bir silah taşıyor. Bu onu çok mutsuz edecek.</BrawlerHasRangedWeaponDesc>
 
-  <!-- EN: Shield user has ranged weapon -->
-  <ShieldUserHasRangedWeapon>Kalkanlının menzilli silahı var</ShieldUserHasRangedWeapon>
-  <!-- EN: One of your colonists has a shield belt and is carrying a ranged weapon. They will not be able to fire their weapon through the shield (except at targets who are already touching them). -->
-  <ShieldUserHasRangedWeaponDesc>Kolonicilerinden biri kalkan kemeri giymiş olmasına rağmen menzilli silah kuşanmış durumda. Kalkanın arkasından ateş edemeyecek (zaten dibindeki hedefler hariç).</ShieldUserHasRangedWeaponDesc>
+  <ShieldUserHasRangedWeapon>Kalkan kullananın menzilli silahı var</ShieldUserHasRangedWeapon>
+  <ShieldUserHasRangedWeaponDesc>Kolonistlerinden birinde kalkan kemeri var ve menzilli bir silah taşıyor. Silahını kalkanın içinden ateşleyemeyecek (zaten ona temas eden hedefler hariç).</ShieldUserHasRangedWeaponDesc>
 
-  <!-- EN: Need research project -->
-  <NeedResearchProject>Araştırma projesi gerekiyor</NeedResearchProject>
-  <!-- EN: You have the equipment to do research but have not selected a project.\n\n(Click to open the research menu.) -->
-  <NeedResearchProjectDesc>Araştırma yapacak ekipmanın var ancak araştırmak üzere seçilmiş bir projen yok.\n\n(Araştırma menüsünü açmak için tıkla.)</NeedResearchProjectDesc>
+  <NeedResearchProject>Araştırma projesi gerekli</NeedResearchProject>
+  <NeedResearchProjectDesc>Araştırma yapacak donanımın var ama bir proje seçmedin.\n\n(Araştırma menüsünü açmak için tıkla.)</NeedResearchProjectDesc>
 
-  <!-- EN: 1 colonist idle -->
-  <ColonistIdle>1 kolonici boşta</ColonistIdle>
-  <!-- EN: {0} colonists idle -->
-  <ColonistsIdle>{0} kolonici boşta</ColonistsIdle>
-  <!-- EN: These colonists are wandering idly:\n{0}\n\nYou should probably find them something productive to do. -->
-  <ColonistsIdleDesc>Şu koloniciler aylak aylak dolaşıyorlar:\n{0}\n\nBu sorunu çözmek için onlara yapacak bir şeyler bul.</ColonistsIdleDesc>
-  
-  <!-- EN: Caravan idle -->
+  <ColonistIdle>1 kolonist boşta</ColonistIdle>
+  <ColonistsIdle>{0} kolonist boşta</ColonistsIdle>
+  <ColonistsIdleDesc>Bu kolonistler boş boş dolaşıyor:\n{0}\n\nMuhtemelen onlara verimli bir iş bulmalısın.</ColonistsIdleDesc>
+
   <CaravanIdle>Kervan boşta</CaravanIdle>
-  <!-- EN: These caravans are waiting for you to set their next destination:\n{0} -->
-  <CaravanIdleDesc>Şu kervanlar bir sonraki rotalarını belirlemeni bekliyorlar:\n{0}</CaravanIdleDesc>
+  <CaravanIdleDesc>Bu kervanlar bir sonraki varış noktalarını belirlemeni bekliyor:\n{0}</CaravanIdleDesc>
 
-  <!-- EN: Medical treatment needed -->
-  <ColonistNeedsTreatment>Tedaviye ihtiyaç var</ColonistNeedsTreatment>
-  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and right-click on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDesc>Şu kolonicilerin tedavi olması gerekiyor. Tedavi edilmezlerse yaraları onları öldürebilir ya da kalıcı olabilir:\n{0}\n\nOnları tıbbi yataklara göndererek tedavi et.\n\n(İlk olarak, bir yatak seç ve onu tıbbi yatağa dönüştür. Sonra, yaralı koloniciyi seç ve tıbbi yatağa sağ tıklayarak tedavi olup istirahat etmesi üzere yatır.)</ColonistNeedsTreatmentDesc>
-  <!-- EN: These people need medical treatment. Without it, they may die of their wounds, or their wounds may become permanent.\n{0}\n\nTreat them by sending them to a medical bed.\n\n(First, assign a medical bed by selecting it and toggling it into a medical bed. Then, select the wounded person and press the left trigger button on the medical bed to make them a patient.) -->
-  <ColonistNeedsTreatmentDescController>Şu kolonicilerin tedavi olması gerekiyor. Tedavi edilmezlerse yaraları onları öldürebilir ya da kalıcı olabilir:\n{0}\n\nOnları tıbbi yataklara göndererek tedavi et.\n\n(İlk olarak, bir yatak seç ve onu tıbbi yatağa dönüştür. Sonra, yaralı koloniciyi seç ve tıbbi yatağın üzerine gelip LT butonuna basarak tedavi olup istirahat etmesi üzere yatır.)</ColonistNeedsTreatmentDescController>
+  <ColonistNeedsTreatment>Tıbbi tedavi gerekli</ColonistNeedsTreatment>
+  <ColonistNeedsTreatmentDesc>Bu kişilerin tıbbi tedaviye ihtiyacı var. Tedavi olmazlarsa yaralarından ölebilirler ya da yaraları kalıcı hâle gelebilir.\n{0}\n\nOnları bir tıbbi yatağa göndererek tedavi et.\n\n(Önce bir yatağı seçip tıbbi yatağa çevirerek ata. Ardından yaralı kişiyi seç ve hasta yapmak için tıbbi yatağa sağ tıkla.)</ColonistNeedsTreatmentDesc>
+  <ColonistNeedsTreatmentDescController>Bu kişilerin tıbbi tedaviye ihtiyacı var. Tedavi olmazlarsa yaralarından ölebilirler ya da yaraları kalıcı hâle gelebilir.\n{0}\n\nOnları bir tıbbi yatağa göndererek tedavi et.\n\n(Önce bir yatağı seçip tıbbi yatağa çevirerek ata. Ardından yaralı kişiyi seç ve hasta yapmak için tıbbi yatağın üzerinde sol tetiğe bas.)</ColonistNeedsTreatmentDescController>
 
-  <!-- EN: Hypothermia -->
   <AlertHypothermia>Hipotermi</AlertHypothermia>
-  <!-- EN: These colonists are suffering from hypothermia:\n{0}\n\nMake sure their clothing is appropriate for the season and that indoor spaces are properly heated. -->
-  <AlertHypothermiaDesc>Şu koloniciler hipotermi geçiriyor:\n{0}\n\nGiysilerinin mevsime uygun olduğundan ve kapalı alanların düzgün bir şekilde ısıtıldığından emin ol.</AlertHypothermiaDesc>
-  
-  <!-- EN: {0} patients await medical operation -->
-  <PatientsAwaitingMedicalOperation>{0} kolonici ameliyat bekliyor</PatientsAwaitingMedicalOperation>
-  <!-- EN: These patients await medical operation:\n{0}\n\nMake sure you have all necessary medical tools and a free doctor available. -->
-  <PatientsAwaitingMedicalOperationDesc>Şu koloniciler ameliyat olmak için bekliyorlar:\n{0}\n\nGerekli tüm tıbbi gereçlere ve müsait bir doktora sahip olduğundan emin ol.</PatientsAwaitingMedicalOperationDesc>
+  <AlertHypothermiaDesc>Bu kolonistler hipotermi yaşıyor:\n{0}\n\nGiysilerinin mevsime uygun olduğundan ve kapalı alanların düzgün ısıtıldığından emin ol.</AlertHypothermiaDesc>
 
-  <!-- EN: Fire! -->
+  <PatientsAwaitingMedicalOperation>{0} hasta ameliyat bekliyor</PatientsAwaitingMedicalOperation>
+  <PatientsAwaitingMedicalOperationDesc>Bu hastalar ameliyat bekliyor:\n{0}\n\nGerekli tüm tıbbi malzemelere ve boşta bir doktora sahip olduğundan emin ol.</PatientsAwaitingMedicalOperationDesc>
+
   <FireInHomeArea>Yangın!</FireInHomeArea>
-  <!-- EN: There is a fire in the home area. -->
-  <FireInHomeAreaDesc>Ev bölgesinde yangın var!</FireInHomeAreaDesc>
+  <FireInHomeAreaDesc>Ev alanında yangın var.</FireInHomeAreaDesc>
 
-  <!-- EN: Medical emergency -->
-  <PawnsWithLifeThreateningDisease>Acil tedavi gerekiyor</PawnsWithLifeThreateningDisease>
-  <!-- EN: People are at risk of death because of severe illness:\n{0}\n\nMake sure that they get the best medical care possible. -->
-  <PawnsWithLifeThreateningDiseaseDesc>Şu kolonicilerin ağır hastalıklarından dolayı ölümle burun burunalar:\n{0}\n\nMümkün olan en iyi şekilde tedavi edildiklerinden emin ol.</PawnsWithLifeThreateningDiseaseDesc>
-  <!-- EN: People are at risk for death because of severe illness:\n{0}\n\nIf possible, consider amputating or replacing infected limbs in order to keep colonists alive. -->
-  <PawnsWithLifeThreateningDiseaseAmputationDesc>Şu kolonicilerin ağır hastalıklarından dolayı ölümle burun burunalar:\n{0}\n\nEğer mümkünse, kolonicileri hayatta tutmak için enfeksiyona uğramış olan uzuvları kesmeyi veya değiştirmeyi düşünebilirsin.</PawnsWithLifeThreateningDiseaseAmputationDesc>
+  <PawnsWithLifeThreateningDisease>Tıbbi acil durum</PawnsWithLifeThreateningDisease>
+  <PawnsWithLifeThreateningDiseaseDesc>Bazı kişiler ağır hastalık yüzünden ölüm tehlikesi altında:\n{0}\n\nMümkün olan en iyi tıbbi bakımı aldıklarından emin ol.</PawnsWithLifeThreateningDiseaseDesc>
+  <PawnsWithLifeThreateningDiseaseAmputationDesc>Bazı kişiler ağır hastalık yüzünden ölüm tehlikesi altında:\n{0}\n\nMümkünse kolonistleri hayatta tutmak için enfekte uzuvları kesmeyi ya da değiştirmeyi düşün.</PawnsWithLifeThreateningDiseaseAmputationDesc>
 
-  <!-- EN: Billiards needs space -->
-  <BilliardsNeedsSpace>Bilardo için alan gerekiyor</BilliardsNeedsSpace>
-  <!-- EN: One of your billiards table is adjacent to an obstruction that will prevent colonists from using it.\n\nA billiards table needs clear space around it on all sides to be usable. -->
-  <BilliardsNeedsSpaceDesc>Bilardo masalarından biri kolonicilerin onu kullanmasını engelleyecek bir engelin bitişiğinde bulunuyor.\n\nBilardo masalarının kullanılabilmesi için her yanında yeterli alan bulunmalı.</BilliardsNeedsSpaceDesc>
+  <BilliardsNeedsSpace>Bilardo için alan gerekli</BilliardsNeedsSpace>
+  <BilliardsNeedsSpaceDesc>Bilardo masalarından biri, kolonistlerin onu kullanmasını engelleyecek bir engelin bitişiğinde.\n\nBilardo masasının kullanılabilmesi için her tarafında boş alan olmalı.</BilliardsNeedsSpaceDesc>
 
-  <!-- EN: Chess table needs chairs -->
-  <ChessTablesNeedChairs>Satranç için oturak gerekiyor</ChessTablesNeedChairs>
-  <!-- EN: One of your chess tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the chess table. Up to two people can use a chess table at once. -->
-  <ChessTablesNeedChairsDesc>Satranç masalarından birinin oturağı yok.\n\nKolonicilerinin kullanabilmesi için satranç masasasının bitişiğine sandalyeler veya tabureler koy. Bir satranç masasını aynı anda en fazla iki kişi kullanabilir.</ChessTablesNeedChairsDesc>
+  <ChessTablesNeedChairs>Satranç masası için sandalye gerekli</ChessTablesNeedChairs>
+  <ChessTablesNeedChairsDesc>Satranç masalarından birinin bitişiğinde hiç sandalye yok.\n\nKolonistlerinin satranç masasını kullanabilmesi için bitişiğine sandalye ya da tabure inşa et. Bir satranç masasını aynı anda en fazla iki kişi kullanabilir.</ChessTablesNeedChairsDesc>
 
-  <!-- EN: Poker table needs chairs -->
-  <PokerTablesNeedChairs>Poker için oturak gerekiyor</PokerTablesNeedChairs>
-  <!-- EN: One of your poker tables does not have any adjacent chairs.\n\nBuild adjacent chairs or stools to allow your colonists to use the poker table. Up to eight people can use a poker table at once. -->
-  <PokerTablesNeedChairsDesc>Poker masalarından birinin oturağı yok.\n\nKolonicilerinin kullanabilmesi için poker masasasının bitişiğine sandalyeler veya tabureler koy. Bir poker masasını aynı anda en fazla sekiz kişi kullanabilir.</PokerTablesNeedChairsDesc>
+  <PokerTablesNeedChairs>Poker masası için sandalye gerekli</PokerTablesNeedChairs>
+  <PokerTablesNeedChairsDesc>Poker masalarından birinin bitişiğinde hiç sandalye yok.\n\nKolonistlerinin poker masasını kullanabilmesi için bitişiğine sandalye ya da tabure inşa et. Bir poker masasını aynı anda en fazla sekiz kişi kullanabilir.</PokerTablesNeedChairsDesc>
 
-  <!-- EN: Hunter has shield and ranged weapon -->
-  <HunterHasShieldAndRangedWeapon>Avcı kalkan ve menzilli silah kullanıyor</HunterHasShieldAndRangedWeapon>
-  <!-- EN: One of your hunters is using a ranged weapon and wearing a shield belt which prevents shooting at range.\n\nThey won't be able to hunt unless the shield is removed. -->
-  <HunterHasShieldAndRangedWeaponDesc>Avcılarından biri hem bir menzilli silah hem de menzilli atışlar yapmasını engelleyen bir kalkan kullanıyor.\n\nKalkanı bırakmadığı sürece avlanamayacak.</HunterHasShieldAndRangedWeaponDesc>
+  <HunterHasShieldAndRangedWeapon>Avcının kalkanı ve menzilli silahı var</HunterHasShieldAndRangedWeapon>
+  <HunterHasShieldAndRangedWeaponDesc>Avcılarından biri menzilli silah kullanıyor ve uzaktan ateş etmeyi engelleyen bir kalkan kemeri takıyor.\n\nKalkan çıkarılmadıkça avlanamayacak.</HunterHasShieldAndRangedWeaponDesc>
 
-  <!-- EN: Need warm clothes -->
-  <NeedWarmClothes>Kalın kıyafet gerekiyor</NeedWarmClothes>
-  <!-- EN: At least {0} of your colonists will lack warm clothes when the cold season comes. -->
-  <NeedWarmClothesDesc1>En az {0} kolonicin kış mevsimine karşın sıcak tutan kıyafetlerden yoksun gözüküyor.</NeedWarmClothesDesc1>
-  <!-- EN: All of your colonists will lack warm clothes when the cold season comes. -->
-  <NeedWarmClothesDesc1All>Tüm kolonicilerin kış mevsimine karşın sıcak tutan kıyafetlerden yoksun gözüküyor.</NeedWarmClothesDesc1All>
-  <!-- EN: The outdoor temperature is going to reach {0}.\n\nYou can tailor warm clothes at the tailoring bench, or buy them from traders. -->
-  <NeedWarmClothesDesc2>Dışarının sıcaklığı {0} olacak.\n\nSıcak tutan kıyafetleri dikiş tezgâhında dikebilirsin veya tüccarlardan satın alabilirsin.</NeedWarmClothesDesc2>
+  <NeedWarmClothes>Sıcak giysi gerekli</NeedWarmClothes>
+  <NeedWarmClothesDesc1>Soğuk mevsim geldiğinde kolonistlerinden en az {0} tanesinin sıcak giysisi olmayacak.</NeedWarmClothesDesc1>
+  <NeedWarmClothesDesc1All>Soğuk mevsim geldiğinde kolonistlerinin hiçbirinin sıcak giysisi olmayacak.</NeedWarmClothesDesc1All>
+  <NeedWarmClothesDesc2>Dış sıcaklık {0} değerine ulaşacak.\n\nSıcak giysileri terzi tezgâhında dikebilir ya da tüccarlardan satın alabilirsin.</NeedWarmClothesDesc2>
 
-  <!-- EN: Immobile caravan -->
-  <ImmobileCaravan>Kervan hareket edemiyor</ImmobileCaravan>
-  <!-- EN: One of your caravans is immobile because it carries too much.\n\nYou can make the caravan mobile again by abandoning some items in the ITEMS tab. -->
-  <ImmobileCaravanDesc>Kervanlarından bir tanesi hareketsiz durumda çünkü çok fazla ağırlık taşıyor.\n\nEŞYALAR sekmesindeki bazı nesneleri terk ederek kervanı tekrar yürür hâle getirebilirsin.</ImmobileCaravanDesc>
+  <ImmobileCaravan>Hareketsiz kervan</ImmobileCaravan>
+  <ImmobileCaravanDesc>Kervanlarından biri çok fazla yük taşıdığı için hareket edemiyor.\n\nEŞYALAR sekmesinden bazı eşyaları bırakarak kervanı yeniden hareket ettirebilirsin.</ImmobileCaravanDesc>
 
-  <!-- EN: Building unusable due to roof -->
-  <BuildingCantBeUsedRoofed>Yapı çatı nedeniyle kullanılamıyor</BuildingCantBeUsedRoofed>
-  <!-- EN: One or more of your buildings can only be used if not roofed, but there is a roof over it. The building(s) won't be usable until you remove the roof. -->
-  <BuildingCantBeUsedRoofedDesc>Yapılarından biri veya birkaçı yalnızca çatısı yoksa kullanılabilir fakat yapının çatısı var. Bu yapı(lar), çatı kaldırılana kadar kullanılamaz.</BuildingCantBeUsedRoofedDesc>
+  <BuildingCantBeUsedRoofed>Bina çatı yüzünden kullanılamıyor</BuildingCantBeUsedRoofed>
+  <BuildingCantBeUsedRoofedDesc>Bir ya da daha fazla binan yalnızca üstü açıkken kullanılabiliyor, ama üzerinde çatı var. Çatıyı kaldırana kadar bina(lar) kullanılamayacak.</BuildingCantBeUsedRoofedDesc>
 
-  <!-- EN: Heatstroke -->
   <AlertHeatstroke>Sıcak çarpması</AlertHeatstroke>
-  <!-- EN: The following people are suffering from heatstroke:\n{0}\n\nGet them to a cooler area. You can cool down rooms with passive coolers or electrical coolers. Deep underground spaces are also naturally cool, if separated from the outdoors by a door. -->
-  <AlertHeatstrokeDesc>Şu kişiler sıcak çarpması geçiriyor:\n{0}\n\nOnları daha serin bir alana götür. Odaları pasif veya elektrikli soğutucularla soğutabilirsin. Derin yeraltı alanları da, eğer dışarıdan bir kapı ile ayrılırsa, doğal olarak serindir.</AlertHeatstrokeDesc>
+  <AlertHeatstrokeDesc>Şu kişiler sıcak çarpması yaşıyor:\n{0}\n\nOnları daha serin bir yere götür. Odaları pasif soğutucularla ya da elektrikli soğutucularla serinletebilirsin. Yerin derinliklerindeki alanlar da, dışarıyla arasında bir kapı varsa doğal olarak serindir.</AlertHeatstrokeDesc>
 
-  <!-- EN: Guest unhappy -->
   <QuestPartMoodBelowThreshold>Misafir mutsuz</QuestPartMoodBelowThreshold>
-  <!-- EN: The quest {0} requires you to keep this person in a good mood. However, their mood is poor. Take some action to make them feel better:\n{1} -->
-  <QuestPartMoodBelowThresholdDesc>{0} görevi gereğince bu kişinin ruh hâlini iyi durumda tutman lazım. Lakin, ruh hâli kötü. Kendisini daha iyi hissetmesi için bir şeyler yap:\n{1}</QuestPartMoodBelowThresholdDesc>
-  
-  <!-- EN: Shuttle leaving in {0} -->
+  <QuestPartMoodBelowThresholdDesc>{0} görevi bu kişinin ruh hâlini iyi tutmanı gerektiriyor. Ancak ruh hâli kötü. Kendini daha iyi hissetmesi için bir şeyler yap:\n{1}</QuestPartMoodBelowThresholdDesc>
+
   <QuestPartShuttleLeaveDelay>Mekik {0} içinde kalkıyor</QuestPartShuttleLeaveDelay>
-  <!-- EN: The shuttle will leave in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
-  <QuestPartShuttleLeaveDelayDesc>Mekik {1} içinde kalkacak. {0} görevi gereğince kalkmadan önce mekiğe aşağıdaki kişileri veya nesneleri yüklemen lazım:\n{2}</QuestPartShuttleLeaveDelayDesc>
-  <!-- EN: The shuttle will leave in {0}. -->
+  <QuestPartShuttleLeaveDelayDesc>Mekik {1} içinde kalkacak. {0} görevi, mekik kalkmadan önce şu kişileri ya da eşyaları mekiğe yüklemeni gerektiriyor:\n{2}</QuestPartShuttleLeaveDelayDesc>
   <QuestPartShuttleLeaveDelayDescHidden>Mekik {0} içinde kalkacak.</QuestPartShuttleLeaveDelayDescHidden>
 
-  <!-- EN: Shuttle arriving in {0} -->
-  <QuestPartShuttleArriveDelay>Mekik {0} içinde varacak</QuestPartShuttleArriveDelay>
-  <!-- EN: A shuttle will arrive in {1}. The quest {0} requires you to load the following people or items onto the shuttle before it leaves:\n{2} -->
-  <QuestPartShuttleArriveDelayDesc>Bir mekik {1} içinde varacak. {0} görevi gereğince kalkmadan önce mekiğe aşağıdaki kişileri veya nesneleri yüklemen lazım:\n{2}</QuestPartShuttleArriveDelayDesc>
-  <!-- EN: A shuttle will arrive in {0}. -->
+  <QuestPartShuttleArriveDelay>Mekik {0} içinde varıyor</QuestPartShuttleArriveDelay>
+  <QuestPartShuttleArriveDelayDesc>Bir mekik {1} içinde varacak. {0} görevi, mekik kalkmadan önce şu kişileri ya da eşyaları mekiğe yüklemeni gerektiriyor:\n{2}</QuestPartShuttleArriveDelayDesc>
   <QuestPartShuttleArriveDelayDescHidden>Bir mekik {0} içinde varacak.</QuestPartShuttleArriveDelayDescHidden>
 
-  <!-- EN: Monument will be destroyed -->
-  <DisallowedBuildingInsideMonument>Anıt yok sayılacak</DisallowedBuildingInsideMonument>
-  <!-- EN: You've built a disallowed building inside one of your monuments. The monument will be considered destroyed in {0}. -->
-  <DisallowedBuildingInsideMonumentDesc>Anıtlarından birinin içine izin verilmeyen bir yapı inşa ettin. Anıt, {0} içinde yok edilmiş sayılacak.</DisallowedBuildingInsideMonumentDesc>
+  <DisallowedBuildingInsideMonument>Anıt yıkılacak</DisallowedBuildingInsideMonument>
+  <DisallowedBuildingInsideMonumentDesc>Anıtlarından birinin içine izin verilmeyen bir bina inşa ettin. Anıt {0} içinde yıkılmış sayılacak.</DisallowedBuildingInsideMonumentDesc>
 
-  <!-- EN: Countdown activator {0} -->
-  <ActivatorCountdown>Geri sayımlı aktivatör {0}</ActivatorCountdown>
-  <!-- EN: There is a countdown activator ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDesc>Yakındaki mekanoitleri uyandırmaya hazırlanan, geri sayımlı bir aktivatör var.</ActivatorCountdownDesc>
-  <!-- EN: {0} countdown activators -->
-  <ActivatorCountdownMultiple>{0} adet geri sayımlı aktivatör</ActivatorCountdownMultiple>
-  <!-- EN: There are {0} countdown activators ticking down, preparing to awaken nearby mechanoids. -->
-  <ActivatorCountdownDescMultiple>Yakındaki mekanoitleri uyandırmaya hazırlanan {0} adet geri sayımlı aktivatör var.</ActivatorCountdownDescMultiple>
+  <ActivatorCountdown>Geri sayımlı tetikleyici {0}</ActivatorCountdown>
+  <ActivatorCountdownDesc>Yakındaki mekanoidleri uyandırmaya hazırlanan, geri sayımı süren bir tetikleyici var.</ActivatorCountdownDesc>
+  <ActivatorCountdownMultiple>{0} geri sayımlı tetikleyici</ActivatorCountdownMultiple>
+  <ActivatorCountdownDescMultiple>Yakındaki mekanoidleri uyandırmaya hazırlanan, geri sayımı süren {0} tetikleyici var.</ActivatorCountdownDescMultiple>
 
-  <!-- EN: Quest expires in {0} -->
   <QuestExpiresSoon>Görev {0} içinde sona eriyor</QuestExpiresSoon>
-  <!-- EN: The quest '{0}' will expire in {1}. -->
-  <QuestExpiresSoonDesc>'{0}' görevinin süresi {1} içinde dolacak.</QuestExpiresSoonDesc>
+  <QuestExpiresSoonDesc>'{0}' görevi {1} içinde sona erecek.</QuestExpiresSoonDesc>
 
-  <!-- EN: Animal filth -->
   <AlertAnimalFilth>Hayvan pisliği</AlertAnimalFilth>
-  <!-- EN: A filth-producing animal is indoors on a clean floor.\n\nAnimals produce a very large amount of filth when moving around on normal floors. Keep filth-producing animals outdoors, or on straw matting where they will produce far less filth.\n\nYou can check an animal's filth production rate in its stats by clicking the 'i' button.\n\nThese animals are the problem:\n{0} -->
-  <AlertAnimalFilthDesc>Pisleten bir hayvan, içerideki temiz bir zeminin üzerinde.\n\nHayvanlar, normal zeminlerde hareket ederken çok büyük miktarda pislik üretirler. Pisleten hayvanları dışarıda veya çok daha az pisletecekleri hasırlarda tut.\n\nBilgi kartındaki 'i' butonuna tıklayınca açılan istatistik sayfasından bir hayvanın pisletme hızını kontrol edebilirsin.\n\nSorun olan hayvanlar:\n{0}</AlertAnimalFilthDesc>
+  <AlertAnimalFilthDesc>Pislik yapan bir hayvan içeride, temiz bir döşemenin üzerinde.\n\nHayvanlar normal döşemelerde dolaşırken çok büyük miktarda pislik yapar. Pislik yapan hayvanları dışarıda ya da çok daha az pislik yapacakları hasır döşemelerin üzerinde tut.\n\nBir hayvanın pislik yapma oranını 'i' düğmesine tıklayarak istatistiklerinden görebilirsin.\n\nSorun çıkaran hayvanlar:\n{0}</AlertAnimalFilthDesc>
 
-  <!-- EN: Pen needed -->
-  <AlertAnimalPenNeeded>Ağıl gerekiyor</AlertAnimalPenNeeded>
-  <!-- EN: Some of your tame animals are roamers. If not kept in a pen or roped to a caravan hitching spot, they will wander away. -->
-  <AlertAnimalPenNeededDesc>Evcil hayvanlarından bazıları gezici. Bir ağılda tutulmazlarsa veya bir kervan bağlama noktasına bağlanmazlarsa uzaklaşacaklar.</AlertAnimalPenNeededDesc>
-  <!-- EN: You do not have any handlers to take animals to a pen.\n\nAssign a colonist to the Handling work type. -->
-  <AlertAnimalPenNeededNoHandlers>Hayvanları bir ağıla götürecek terbiyecin yok.\n\nBir kolonicini terbiyeciliğe ata.</AlertAnimalPenNeededNoHandlers>
-  <!-- EN: Create an animal pen by building a pen marker inside a fenced, barricaded, or walled area. Select the pen marker to see which animals it accepts and how many its pen can support.\n\nYour animal handlers will bring animals to their assigned pen automatically.\n\nA pen needs a door or gate to admit animals. -->
-  <AlertAnimalPenNeededDescExplanation>Çitlerle, barikatlarla veya duvarlarla çevrili bir alanın içine ağıl belirteci koyarak bir hayvan ağılı oluştur. Hangi hayvanların içeriye alınacağını belirlemek ve ağılın kaç tane hayvanı barındırabileceğini görmek için ağıl belirtecini seç.\n\nTerbiyecilerin hayvanları atandıkları ağıla otomatik olarak götürür.\n\nBir ağılın hayvanların içeri gireceği bir kapıya veya çit kapısına ihtiyacı vardır.</AlertAnimalPenNeededDescExplanation>
-  
-  <!-- EN: Pen not enclosed -->
-  <AlertAnimalPenNotEnclosed>Ağıl kapalı değil</AlertAnimalPenNotEnclosed>
-  <!-- EN: An animal pen marker is not enclosed.\n\nEnclose the pen using fences, barricades, gates, walls, or doors to prevent animals from wandering out.\n\nIf you have only unenclosed pen markers, your handlers can still lead wandering animals back home - but this must be repeated from time to time when the animals wander away once again. -->
-  <AlertAnimalPenNotEnclosedDesc>Bir ağıl belirtecinin etrafı çevrili değil.\n\nHayvanların dışarı çıkmasını önlemek için çitler, barikatlar, çit kapıları, duvarlar veya kapılar kullanarak ağılı kapat.\n\nYalnızca kapatılmamış ağıl işaretleyicilerin varsa, bakıcılarınız başıboş dolaşan hayvanları evlerine geri götürebilir - ancak bu, hayvanlar bir kez daha uzaklaştığında zaman zaman tekrarlanmalıdır.</AlertAnimalPenNotEnclosedDesc>
+  <AlertAnimalPenNeeded>Ağıl gerekli</AlertAnimalPenNeeded>
+  <AlertAnimalPenNeededDesc>Evcil hayvanlarından bazıları başıboş gezer. Bir ağılda tutulmazlarsa ya da bir kervan bağlama noktasına iple bağlanmazlarsa uzaklaşıp giderler.</AlertAnimalPenNeededDesc>
+  <AlertAnimalPenNeededNoHandlers>Hayvanları ağıla götürecek hayvan bakıcın yok.\n\nBir kolonisti Hayvan Bakımı iş türüne ata.</AlertAnimalPenNeededNoHandlers>
+  <AlertAnimalPenNeededDescExplanation>Çitle, barikatla ya da duvarla çevrili bir alanın içine ağıl işaretçisi inşa ederek bir hayvan ağılı oluştur. Hangi hayvanları kabul ettiğini ve ağılın kaç hayvanı besleyebileceğini görmek için ağıl işaretçisini seç.\n\nHayvan bakıcıların hayvanları atandıkları ağıla otomatik olarak getirir.\n\nAğılın hayvanları içeri alabilmesi için bir kapısı ya da çit kapısı olmalı.</AlertAnimalPenNeededDescExplanation>
 
-  <!-- EN: {ANIMAL_labelShort} in animal pen -->
-  <AlertPredatorInAnimalPen>Ağılda {ANIMAL_labelShort} var</AlertPredatorInAnimalPen>
-  <!-- EN: A predatory {ANIMAL_labelShort} has wandered into an animal pen.\n\nIt may decide to hunt your animals.\n\nYou can kill it, or wait and hope it leaves. -->
-  <AlertPredatorInAnimalPenDesc>Yırtıcı bir {ANIMAL_labelShort}, bir ağıla girdi.\n\nHayvanlarını avlamak isteyebilir.\n\nOnu öldürebilir veya bekleyip gitmesini umabilirsin.</AlertPredatorInAnimalPenDesc>
+  <AlertAnimalPenNotEnclosed>Ağılın etrafı çevrili değil</AlertAnimalPenNotEnclosed>
+  <AlertAnimalPenNotEnclosedDesc>Bir hayvan ağılı işaretçisinin etrafı çevrili değil.\n\nHayvanların dışarı çıkmasını önlemek için ağılı çitlerle, barikatlarla, çit kapılarıyla, duvarlarla ya da kapılarla çevir.\n\nYalnızca etrafı açık ağıl işaretçilerin varsa hayvan bakıcıların başıboş hayvanları yine eve geri götürebilir, ama hayvanlar her uzaklaştığında bunun zaman zaman tekrarlanması gerekir.</AlertAnimalPenNotEnclosedDesc>
 
-  <!-- EN: Animal wandering away -->
+  <AlertPredatorInAnimalPen>Hayvan ağılında {ANIMAL_labelShort}</AlertPredatorInAnimalPen>
+  <AlertPredatorInAnimalPenDesc>Yırtıcı bir {ANIMAL_labelShort} bir hayvan ağılına girdi.\n\nHayvanlarını avlamaya karar verebilir.\n\nOnu öldürebilir ya da bekleyip gitmesini umabilirsin.</AlertPredatorInAnimalPenDesc>
+
   <AlertAnimalIsRoaming>Hayvan uzaklaşıyor</AlertAnimalIsRoaming>
-  <!-- EN: Some of your tame animals are roamers and have started to wander. If they reach the edge of the map, they will eventually leave.\n\nIf you have an enclosed animal pen, your animal handlers can bring the animal back. Animals in an animal pen will not roam.\n\nThe following animals are roaming:\n{0} -->
-  <AlertAnimalIsRoamingDesc>Evcil hayvanlarından bazıları gezici ve uzaklaşmaya başladı. Haritanın kenarına ulaşırlarsa, sonunda temelli giderler.\n\nKapalı bir ağılın varsa terbiyecilerin hayvanı geri getirebilir. Ağılındaki hayvanlar uzaklaşamayacaktır.\n\nŞu hayvanlar uzaklaşıyor:\n{0}</AlertAnimalIsRoamingDesc>
+  <AlertAnimalIsRoamingDesc>Evcil hayvanlarından bazıları başıboş gezer ve dolaşmaya başladı. Harita kenarına ulaşırlarsa sonunda ayrılıp gidecekler.\n\nEtrafı çevrili bir hayvan ağılın varsa hayvan bakıcıların hayvanı geri getirebilir. Ağıldaki hayvanlar başıboş dolaşmaz.\n\nŞu hayvanlar başıboş dolaşıyor:\n{0}</AlertAnimalIsRoamingDesc>
 
-  <!-- EN: Hungry pen animals -->
   <AlertPennedAnimalHungry>Ağıldaki hayvanlar aç</AlertPennedAnimalHungry>
-  <!-- EN: Some of your penned animals are hungry.\n\nSelect a pen marker and use the Food tab to see more detail.\n\nGrass-eating animals may need a larger pen to provide enough grass. Other animals may need to be supplied with haygrass or similar food using a stockpile.\n\nThe following penned animals are hungry:\n{0} -->
-  <AlertPennedAnimalHungryDesc>Ağıldaki hayvanlarından bazıları aç.\n\nBir ağıl belirteci seç ve daha fazla ayrıntı görmek için Yiyecek sekmesini kullan.\n\nOt yiyen hayvanlar, yeterli çim için daha büyük bir ağıla ihtiyaç duyabilir. Diğer hayvanlar, bir depo alanı kullanılarak samanotu veya benzeri yiyecekler ile beslenebilir.\n\nAşağıdaki hayvanlar aç:\n{0}</AlertPennedAnimalHungryDesc>
+  <AlertPennedAnimalHungryDesc>Ağıldaki hayvanlarından bazıları aç.\n\nDaha fazla ayrıntı görmek için bir ağıl işaretçisi seç ve Yiyecek sekmesini kullan.\n\nOt yiyen hayvanların yeterli ot bulması için daha büyük bir ağıl gerekebilir. Diğer hayvanlara bir depo alanı kullanarak saman otu ya da benzeri yiyecek sağlanması gerekebilir.\n\nŞu ağıl hayvanları aç:\n{0}</AlertPennedAnimalHungryDesc>
 
-  <!-- EN: Hungry hitched animal -->
-  <AlertHitchedAnimalHungryNoFood>Bağlı hayvanlar aç</AlertHitchedAnimalHungryNoFood>
-  <!-- EN: Some animals tied to hitching spots are hungry. There may not be any suitable food within their reach.\n\nBring them food, or remove the hitching spot so they can find food on their own.\n\nThe following hitched animals are hungry:\n{0} -->
-  <AlertHitchedAnimalHungryNoFoodDesc>Bağlama noktalarına bağlanan bazı hayvanlar aç. Ulaşabilecekleri uygun yiyecek olmayabilir.\n\nOnlara yiyecek getir veya kendilerine yiyecek bulabilmeleri için bağlama noktasını kaldır.\n\nŞu bağlı hayvanlar aç:\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
+  <AlertHitchedAnimalHungryNoFood>Bağlı hayvan aç</AlertHitchedAnimalHungryNoFood>
+  <AlertHitchedAnimalHungryNoFoodDesc>Bağlama noktalarına bağlı bazı hayvanlar aç. Erişebilecekleri yerde uygun yiyecek olmayabilir.\n\nOnlara yiyecek götür ya da kendi yiyeceklerini bulabilmeleri için bağlama noktasını kaldır.\n\nŞu bağlı hayvanlar aç:\n{0}</AlertHitchedAnimalHungryNoFoodDesc>
 
-  <!-- EN: Raids arriving in {0} -->
-  <AlertTimedRaidsArrivingIn>Baskın {0} içinde varacak</AlertTimedRaidsArrivingIn>
-  <!-- EN: Enemies have been attracted to the following sites and will start arriving in force soon.\n\n{0} -->
-  <AlertTimedRaidsArrivingInDesc>Düşmanlar şu yerlere yöneldi ve yakında bütün güçleriyle gelecekler.\n\n{0}</AlertTimedRaidsArrivingInDesc>
-  <!-- EN: Arriving at {0} in {1} -->
-  <AlertTimedRaidsArrivingAt>{1} içinde {0} bölgesine varacak</AlertTimedRaidsArrivingAt>
+  <AlertTimedRaidsArrivingIn>Baskınlar {0} içinde geliyor</AlertTimedRaidsArrivingIn>
+  <AlertTimedRaidsArrivingInDesc>Düşmanlar şu konumlara çekildi ve yakında güçlü bir şekilde gelmeye başlayacaklar.\n\n{0}</AlertTimedRaidsArrivingInDesc>
+  <AlertTimedRaidsArrivingAt>{1} içinde {0} konumuna varıyor</AlertTimedRaidsArrivingAt>
 
-  <!-- EN: Faction will become hostile if you stay -->
-  <FactionWillBecomeHostileIfNotLeavingWithin>Kalırsan fraksiyon düşman olacak</FactionWillBecomeHostileIfNotLeavingWithin>
-  <!-- EN: These factions will become hostile if you stay for longer at their settlement or outpost:\n{0} -->
-  <FactionWillBecomeHostileIfNotLeavingWithinDesc>Şu fraksiyonlar, yerleşim yerlerinde veya karakollarında daha uzun süre kalırsan düşman olacak:\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
+  <FactionWillBecomeHostileIfNotLeavingWithin>Kalırsan hizip düşman olacak</FactionWillBecomeHostileIfNotLeavingWithin>
+  <FactionWillBecomeHostileIfNotLeavingWithinDesc>Yerleşimlerinde ya da karakollarında daha uzun süre kalırsan şu hizipler düşman olacak:\n{0}</FactionWillBecomeHostileIfNotLeavingWithinDesc>
 
-  <!-- EN: {0} trees dying -->
   <AlertMinifiedTreeAboutToDie>{0} ağaç ölüyor</AlertMinifiedTreeAboutToDie>
-  <!-- EN: {0} extracted trees are going to die is less than a day. This will make some colonists unhappy because of their beliefs.\n\nYou can prevent this by replanting these trees. -->
-  <AlertMinifiedTreeAboutToDieDesc>{0} sökülmüş ağaç bir günden az bir sürede ölecek. Bu, inançlarından dolayı bazı kolonicileri mutsuz edecek.\n\nBu ağaçları yeniden dikerek bunu önleyebilirsin.</AlertMinifiedTreeAboutToDieDesc>
+  <AlertMinifiedTreeAboutToDieDesc>Sökülmüş {0} ağaç bir günden kısa sürede ölecek. Bu, bazı kolonistleri inançları yüzünden mutsuz edecek.\n\nBu ağaçları yeniden dikerek bunu önleyebilirsin.</AlertMinifiedTreeAboutToDieDesc>
 
-  <!-- EN: Need research bench -->
-  <NeedResearchBench>Araştırma masası gerekiyor</NeedResearchBench>
-  <!-- EN: You have an active research project '{0}'. This project requires you to build {1}. -->
-  <NeedResearchBenchDesc>Aktif bir araştırma projen ('{0}') var. Bu proje, {1} kurmanı gerektiriyor.</NeedResearchBenchDesc>
-  
+  <NeedResearchBench>Araştırma tezgâhı gerekli</NeedResearchBench>
+  <NeedResearchBenchDesc>'{0}' adlı etkin bir araştırma projen var. Bu proje şunu inşa etmeni gerektiriyor: {1}.</NeedResearchBenchDesc>
+
 </LanguageData>

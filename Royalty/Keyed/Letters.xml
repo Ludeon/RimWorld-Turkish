@@ -1,169 +1,137 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Royal titles -->
   <!-- EN: {TITLE} title lost: {PAWN_labelShort} -->
-  <LetterLabelLostRoyalTitle>{TITLE} ünvanı kaybedildi: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
+  <LetterLabelLostRoyalTitle>{TITLE} unvanı kaybedildi: {PAWN_labelShort}</LetterLabelLostRoyalTitle>
   <!-- EN: {TITLE} title gained: {PAWN_labelShort} -->
-  <LetterLabelGainedRoyalTitle>{TITLE} ünvanı kazanıldı: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
-
+  <LetterLabelGainedRoyalTitle>{TITLE} unvanı kazanıldı: {PAWN_labelShort}</LetterLabelGainedRoyalTitle>
   <!-- EN: Permit points awarded: {0}. -->
-  <PermitPointsAwarded>Kazanılan ruhsat puanları: {0}.</PermitPointsAwarded>
-
+  <PermitPointsAwarded>Verilen yetki puanı: {0}.</PermitPointsAwarded>
   <!-- EN: This title requires apparel of {1} quality or better. -->
-  <LetterRoyalTitleApparelQualityRequirement>Bu ünvan, {1} veya daha kaliteli bir kıyafet gerektiriyor.</LetterRoyalTitleApparelQualityRequirement>
+  <LetterRoyalTitleApparelQualityRequirement>Bu unvan {1} ya da daha iyi kalitede giysi gerektirir.</LetterRoyalTitleApparelQualityRequirement>
   <!-- EN: This title requires apparel appropriate to {PAWN_possessive} title: -->
-  <LetterRoyalTitleApparelRequirement>Bu ünvan, ünvana uygun bir kıyafet gerektiriyor:</LetterRoyalTitleApparelRequirement>
+  <LetterRoyalTitleApparelRequirement>Bu unvan, unvana uygun giysiler gerektirir:</LetterRoyalTitleApparelRequirement>
   <!-- EN: {PAWN_possessive} expectations will never be less than {1}. -->
-  <LetterRoyalTitleExpectation>Onun beklentileri asla {1} seviyesinden aşağıda olmayacaktır.</LetterRoyalTitleExpectation>
-  
+  <LetterRoyalTitleExpectation>Beklentileri asla {1} seviyesinin altına düşmeyecek.</LetterRoyalTitleExpectation>
   <!-- EN: Because {PAWN_labelShort} is {1}, {PAWN_pronoun} will demand that this title's privileges be fully respected. {PAWN_pronoun} may refuse to do certain work types, eat low-class food and will issue decrees. -->
-  <LetterRoyalTitleConceitedTrait>{PAWN_labelShort} {1} olduğundan, bu ünvanın ayrıcalıklarına tam olarak uyulmasını talep edecektir. Bazı tür işleri yapmayı, düşük sınıf yiyecekler yemeyi reddedebilir ve fermanlar verebilir.</LetterRoyalTitleConceitedTrait>
-
+  <LetterRoyalTitleConceitedTrait>{PAWN_labelShort} {1} olduğundan, bu unvanın ayrıcalıklarına tam olarak uyulmasını talep edecek. Bazı iş türlerini yapmayı ya da sıradan yiyecekleri yemeyi reddedebilir ve fermanlar çıkarır.</LetterRoyalTitleConceitedTrait>
   <!-- EN: {PAWN_labelShort} received the title of {TITLE} from {FACTION_name}! -->
-  <LetterGainedRoyalTitle>{PAWN_labelShort}, {FACTION_name} fraksiyonundan {TITLE} ünvanını aldı!</LetterGainedRoyalTitle>
+  <LetterGainedRoyalTitle>{PAWN_labelShort}, {FACTION_name} hizbinden {TITLE} unvanını aldı!</LetterGainedRoyalTitle>
   <!-- EN: {PAWN_labelShort} no longer holds the title of {TITLE} with {FACTION_name}. -->
-  <LetterLostRoyalTitle>{PAWN_labelShort} artık {FACTION_name} fraksiyonundan aldığı {TITLE} ünvanına sahip değil.</LetterLostRoyalTitle>
+  <LetterLostRoyalTitle>{PAWN_labelShort} artık {FACTION_name} hizbinde {TITLE} unvanına sahip değil.</LetterLostRoyalTitle>
   <!-- EN: Title rewards -->
-  <LetterLabelRewardsForNewTitle>Ünvan mükâfatı</LetterLabelRewardsForNewTitle>
+  <LetterLabelRewardsForNewTitle>Unvan ödülleri</LetterLabelRewardsForNewTitle>
   <!-- EN: To honor {PAWN_labelShort} advancing to the title of {TITLE}, {FACTION_name} has sent {PAWN_objective} the following reward(s): -->
-  <LetterRewardsForNewTitle>{FACTION_name}, {PAWN_labelShort} {TITLE} ünvanına ulaştığı için onu şu mükâfatlarla onurlandırdı:</LetterRewardsForNewTitle>
+  <LetterRewardsForNewTitle>{PAWN_labelShort} adlı kişinin {TITLE} unvanına yükselişini onurlandırmak için {FACTION_name} şu ödülleri gönderdi:</LetterRewardsForNewTitle>
   <!-- EN: Rewards have arrived to your colony via transport pods. -->
-  <LetterRewardsForNewTitleDeliveryBase>Ödüller, taşıma kapsülleri aracılığıyla kolonine ulaştı.</LetterRewardsForNewTitleDeliveryBase>
+  <LetterRewardsForNewTitleDeliveryBase>Ödüller koloniye taşıma kapsülleriyle ulaştı.</LetterRewardsForNewTitleDeliveryBase>
   <!-- EN: Rewards were delivered directly to {PAWN_labelShort}'s inventory. -->
-  <LetterRewardsForNewTitleDeliveryDirect>Ödüller doğrudan {PAWN_labelShort} kişisinin envanterine teslim edildi.</LetterRewardsForNewTitleDeliveryDirect>
-
+  <LetterRewardsForNewTitleDeliveryDirect>Ödüller doğrudan {PAWN_labelShort} adlı kişinin envanterine teslim edildi.</LetterRewardsForNewTitleDeliveryDirect>
   <!-- EN: {PAWN_pronoun} has these permissions: -->
-  <LetterRoyalTitlePermits>Şu ruhsatlara sahip:</LetterRoyalTitlePermits>
+  <LetterRoyalTitlePermits>Şu yetkilere sahip:</LetterRoyalTitlePermits>
   <!-- EN: {PAWN_pronoun} lost these permissions: -->
-  <LetterRoyalTitleLostPermits>Şu ruhsatları kaybetti:</LetterRoyalTitleLostPermits>
-
+  <LetterRoyalTitleLostPermits>Şu yetkileri kaybetti:</LetterRoyalTitleLostPermits>
   <!-- EN: {PAWN_pronoun} is not willing to do these work types:\n{1} -->
-  <LetterRoyalTitleDisabledWorkTag>Şu iş türlerini yapmak istemiyor:\n{1}</LetterRoyalTitleDisabledWorkTag>
-
+  <LetterRoyalTitleDisabledWorkTag>Şu iş türlerini yapmaya yanaşmıyor:\n{1}</LetterRoyalTitleDisabledWorkTag>
   <!-- EN: {PAWN_pronoun} can now use this recreation: -->
-  <LetterRoyalTitleEnabledJoyKind>Artık şu şekilde eğlenebilir:</LetterRoyalTitleEnabledJoyKind>
+  <LetterRoyalTitleEnabledJoyKind>Artık şu eğlenceyi kullanabilir:</LetterRoyalTitleEnabledJoyKind>
   <!-- EN: This title forbids using this recreation: -->
-  <LetterRoyalTitleDisabledJoyKind>Ünvanı şu şekilde eğlenmeyi yasaklıyor:</LetterRoyalTitleDisabledJoyKind>
-
+  <LetterRoyalTitleDisabledJoyKind>Bu unvan şu eğlencenin kullanılmasını yasaklıyor:</LetterRoyalTitleDisabledJoyKind>
   <!-- EN: {PAWN_pronoun} is allowed to use these implants:{1} -->
-  <LetterRoyalTitleAllowedImplants>Şu implantları kullanma izni var:{1}</LetterRoyalTitleAllowedImplants>
+  <LetterRoyalTitleAllowedImplants>Şu implantları kullanmasına izin var:{1}</LetterRoyalTitleAllowedImplants>
   <!-- EN: {PAWN_pronoun} is no longer allowed to use these implants:{1} -->
-  <LetterRoyalTitleImplantsMustBeRemoved>Artık şu implantları kullanmasına izin verilmiyor:{1}</LetterRoyalTitleImplantsMustBeRemoved>
+  <LetterRoyalTitleImplantsMustBeRemoved>Artık şu implantları kullanmasına izin yok:{1}</LetterRoyalTitleImplantsMustBeRemoved>
   <!-- EN: The implants must be extracted within a five-day grace period to avoid diplomatic consequences. -->
-  <LetterRoyalTitleImplantGracePeriod>Diplomatik sonuçlardan kaçınmak için implantlar beş günlük bir süre içinde çıkarılmalıdır.</LetterRoyalTitleImplantGracePeriod>
+  <LetterRoyalTitleImplantGracePeriod>Diplomatik sonuçlardan kaçınmak için implantlar beş günlük bir süre içinde çıkarılmalı.</LetterRoyalTitleImplantGracePeriod>
   <!-- EN: {PAWN_pronoun} can now give speeches from the throne. If it goes well, listeners will feel inspired. If it goes poorly, the speech will do social damage. The outcome depends on {PAWN_labelShort}'s social abilities. -->
-  <LetterRoyalTitleSpeechAbilityGained>{PAWN_labelShort} artık taht konuşmaları yapabilir. İyi giderse, dinleyiciler ilham alırlar. Kötü giderse, konuşma sosyal açıdan zarar verir. Sonuç, konuşmacının sosyal yeteneklerine bağlıdır.</LetterRoyalTitleSpeechAbilityGained>
+  <LetterRoyalTitleSpeechAbilityGained>Artık tahttan konuşma yapabilir. Konuşma iyi giderse dinleyiciler ilham alır. Kötü giderse konuşma sosyal açıdan zarar verir. Sonuç, {PAWN_labelShort} adlı kişinin sosyal becerilerine bağlıdır.</LetterRoyalTitleSpeechAbilityGained>
   <!-- EN: This title requires a throneroom that meets these requirements:{1} -->
-  <LetterRoyalTitleThroneroomRequirements>Bu ünvan, şu gereksinimleri karşılayan bir taht odası gerektirir:{1}</LetterRoyalTitleThroneroomRequirements>
+  <LetterRoyalTitleThroneroomRequirements>Bu unvan, şu gereksinimleri karşılayan bir taht odası gerektirir:{1}</LetterRoyalTitleThroneroomRequirements>
   <!-- EN: This title requires a bedroom that meets these requirements:{1} -->
-  <LetterRoyalTitleBedroomRequirements>Bu ünvan, şu gereksinimleri karşılayan bir yatak odası gerektirir:{1}</LetterRoyalTitleBedroomRequirements>
+  <LetterRoyalTitleBedroomRequirements>Bu unvan, şu gereksinimleri karşılayan bir yatak odası gerektirir:{1}</LetterRoyalTitleBedroomRequirements>
   <!-- EN: This title says that {PAWN_pronoun} should only eat these foods:{1} -->
-  <LetterRoyalTitleFoodRequirements>Bu ünvan, onun sadece şu yiyecekleri yemesi gerektiğini söylüyor:{1}</LetterRoyalTitleFoodRequirements>
-
+  <LetterRoyalTitleFoodRequirements>Bu unvana göre yalnızca şu yiyecekleri yemeli:{1}</LetterRoyalTitleFoodRequirements>
   <!-- EN: {PAWN_pronoun} will receive the following items via transport pod:{1} -->
-  <LetterRoyalTitleRewardGranted>Taşıma kapsülleri aracılığıyla şu öğeleri alacak: {1}</LetterRoyalTitleRewardGranted>
+  <LetterRoyalTitleRewardGranted>Şu eşyaları taşıma kapsülüyle alacak:{1}</LetterRoyalTitleRewardGranted>
   <!-- EN: {PAWN_labelShort} has gained {1} {FACTION_royalFavorLabel} from {FACTION_name}. -->
-  <PeaceTalksRoyalFavorGain>{PAWN_labelShort}, {FACTION_name} fraksiyonundan {1} {FACTION_royalFavorLabel} kazandı.</PeaceTalksRoyalFavorGain>
-
-  <!-- Royal heritage-->
+  <PeaceTalksRoyalFavorGain>{PAWN_labelShort}, {FACTION_name} hizbinden {1} {FACTION_royalFavorLabel} kazandı.</PeaceTalksRoyalFavorGain>
   <!-- EN: If {PAWN_pronoun} dies, this title will be inherited by {HEIR_nameFull}. -->
-  <LetterRoyalTitleHeir>Eğer ölürse, bu ünvan {HEIR_nameFull} tarafından miras alınacak.</LetterRoyalTitleHeir>
+  <LetterRoyalTitleHeir>Ölürse bu unvanı {HEIR_nameFull} miras alacak.</LetterRoyalTitleHeir>
   <!-- EN: If {PAWN_pronoun} dies, no one will inherit this title. -->
-  <LetterRoyalTitleNoHeir>Eğer ölürse, kimse bu ünvanı miras almayacak.</LetterRoyalTitleNoHeir>
+  <LetterRoyalTitleNoHeir>Ölürse bu unvanı kimse miras almayacak.</LetterRoyalTitleNoHeir>
   <!-- EN: {PAWN_nameFull} is a member of {FACTION_name}. -->
-  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull}, {FACTION_name} fraksiyonunun bir üyesi.</LetterRoyalTitleHeirFactionWarning>
+  <LetterRoyalTitleHeirFactionWarning>{PAWN_nameFull}, {FACTION_name} hizbinin üyesi.</LetterRoyalTitleHeirFactionWarning>
   <!-- EN: A new heir can be chosen by contacting {FACTION_name} through a comms console. -->
-  <LetterRoyalTitleChangingHeir>İletişim konsolu aracılığıyla {FACTION_name} fraksiyonuna ulaşılarak yeni bir vâris seçilebilir.</LetterRoyalTitleChangingHeir>
+  <LetterRoyalTitleChangingHeir>Bir iletişim konsolu aracılığıyla {FACTION_name} ile iletişime geçerek yeni bir varis seçilebilir.</LetterRoyalTitleChangingHeir>
   <!-- EN: Heir lost -->
-  <LetterTitleHeirLostLabel>Vâris öldü</LetterTitleHeirLostLabel>
+  <LetterTitleHeirLostLabel>Varis kaybedildi</LetterTitleHeirLostLabel>
   <!-- EN: {HEIR_nameFull} has died, leaving {HOLDER_labelShort} with no heir for the title received from {FACTION_name}. You can contact {FACTION_name} through a comms console to designate a new heir. -->
-  <LetterTitleHeirLost>{HEIR_nameFull} öldü ve {HOLDER_labelShort}, {FACTION_name} fraksiyonundan aldığı ünvan için vârissiz kaldı. Yeni bir vâris belirlemek için iletişim konsolundan {FACTION_name} fraksiyonuna ulaşabilirsin.</LetterTitleHeirLost>
+  <LetterTitleHeirLost>{HEIR_nameFull} öldü; {HOLDER_labelShort}, {FACTION_name} hizbinden aldığı unvan için varissiz kaldı. Yeni bir varis belirlemek için bir iletişim konsolu aracılığıyla {FACTION_name} ile iletişime geçebilirsin.</LetterTitleHeirLost>
   <!-- EN: The title of {TITLE} cannot be inherited. -->
-  <LetterRoyalTitleCantBeInherited>{TITLE} ünvanı miras alınamaz.</LetterRoyalTitleCantBeInherited>
-
-
+  <LetterRoyalTitleCantBeInherited>{TITLE} unvanı miras bırakılamaz.</LetterRoyalTitleCantBeInherited>
   <!-- EN: Title inheritance -->
-  <LetterTitleInheritance>Ünvan mirası</LetterTitleInheritance>
+  <LetterTitleInheritance>Unvan mirası</LetterTitleInheritance>
   <!-- EN: Since {PAWN_nameFull} died, {PAWN_possessive} titles will be transferred to {PAWN_possessive} heirs. -->
-  <LetterTitleInheritance_Base>{PAWN_nameFull} öldüğünden ünvanları vârislerine devredilecek.</LetterTitleInheritance_Base>
+  <LetterTitleInheritance_Base>{PAWN_nameFull} öldüğü için unvanları varislerine devredilecek.</LetterTitleInheritance_Base>
   <!-- EN: {PAWN_possessive} {TITLE} title was inherited by {HEIR_nameFull}, according to the succession laws of {FACTION_name}. It will replace {HEIR_possessive} {REPLACEDTITLE} title upon completion of a bestowing ceremony. -->
-  <LetterTitleInheritance_AsReplacement>Onun {TITLE} ünvanı, {FACTION_name} veraset yasalarına göre {HEIR_nameFull} tarafından miras alındı. Bir ihsan töreninin ardından yeni ünvan, vârisin {REPLACEDTITLE} ünvanının yerini alacak.</LetterTitleInheritance_AsReplacement>
+  <LetterTitleInheritance_AsReplacement>{FACTION_name} veraset yasalarına göre {TITLE} unvanını {HEIR_nameFull} miras aldı. Bir unvan verme töreni tamamlandığında bu unvan, varisin mevcut {REPLACEDTITLE} unvanının yerini alacak.</LetterTitleInheritance_AsReplacement>
   <!-- EN: {PAWN_possessive} {TITLE} title would have been inherited by {HEIR_nameFull} according to the succession laws of {FACTION_name}, but {HEIR_pronoun} already had a {HIGHERTITLE} title. -->
-  <LetterTitleInheritance_NoEffectHigherTitle>Onun {TITLE} ünvanı, {FACTION_name} veraset yasalarına göre {HEIR_nameFull} tarafından miras alınacaktı ancak vâris zaten {HIGHERTITLE} ünvanına sahip.</LetterTitleInheritance_NoEffectHigherTitle>
+  <LetterTitleInheritance_NoEffectHigherTitle>{FACTION_name} veraset yasalarına göre {TITLE} unvanını {HEIR_nameFull} miras alacaktı, ancak varisin zaten {HIGHERTITLE} unvanı vardı.</LetterTitleInheritance_NoEffectHigherTitle>
   <!-- EN: {PAWN_possessive} {TITLE} title will be inherited by {HEIR_nameFull} upon completion of a bestowing ceremony, according to the succession laws of {FACTION_name}. -->
-  <LetterTitleInheritance_WasInherited>Onun {TITLE} ünvanı, {FACTION_name} veraset yasalarına göre bir ihsan töreninin ardından {HEIR_nameFull} tarafından miras alınacak.</LetterTitleInheritance_WasInherited>
+  <LetterTitleInheritance_WasInherited>{FACTION_name} veraset yasalarına göre {TITLE} unvanını, bir unvan verme töreni tamamlandığında {HEIR_nameFull} miras alacak.</LetterTitleInheritance_WasInherited>
   <!-- EN: {PAWN_possessive} {TITLE} title was not inherited by anyone, since {PAWN_pronoun} had no designated heir for this title. -->
-  <LetterTitleInheritance_NoHeirFound>Onun {TITLE} ünvanı, bu ünvan için belirlenmiş bir vârisi olmadığından kimse tarafından miras alınmadı.</LetterTitleInheritance_NoHeirFound>
-
-  <!-- Royal implant violations -->
+  <LetterTitleInheritance_NoHeirFound>Bu unvan için belirlenmiş bir varis olmadığından {TITLE} unvanını kimse miras almadı.</LetterTitleInheritance_NoHeirFound>
   <!-- EN: Lawbreaker: {PAWN_labelShort} -->
-  <LetterLawViolationDetectedLabel>Suçlu: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
+  <LetterLawViolationDetectedLabel>Yasa çiğneyen: {PAWN_labelShort}</LetterLawViolationDetectedLabel>
   <!-- EN: {FACTION_name} has detected {PAWN_labelShort}'s illegal use of: {CULPRIT} (detection chance {CHANCE}).\n\nAccording to the laws of {FACTION_name}, only those who hold the title of {TITLE} are allowed to use {CULPRIT}.\n\nAs a penalty, your faction relations have fallen by {GOODWILL}. -->
-  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}, aşağıdakilerin {PAWN_labelShort} tarafından yasa dışı kullanıldığını tespit etti: {CULPRIT} (tespit ihtimali {CHANCE}).\n\n{FACTION_name} yasalarına göre yalnızca {TITLE} ünvanına sahip olanlar {CULPRIT} kullanabilir.\n\nCeza olarak, fraksiyon ilişkilerin {GOODWILL} azaldı.</LetterLawViolationDetectedForbiddenThingUse>
-
-  <!-- Wild decree mental break -->
+  <LetterLawViolationDetectedForbiddenThingUse>{FACTION_name}, {PAWN_labelShort} adlı kişinin yasa dışı kullanımını tespit etti: {CULPRIT} (tespit ihtimali {CHANCE}).\n\n{FACTION_name} yasalarına göre {CULPRIT} kullanma izni yalnızca {TITLE} unvanına sahip olanlara aittir.\n\nCeza olarak hizip ilişkilerin {GOODWILL} düştü.</LetterLawViolationDetectedForbiddenThingUse>
   <!-- EN: Wild decree -->
-  <WildDecree>Çılgınca ferman</WildDecree>
+  <WildDecree>Çılgın ferman</WildDecree>
   <!-- EN: {0_nameIndef} issues decree -->
-  <LetterLabelRandomDecree>{0_nameIndef} ferman verdi</LetterLabelRandomDecree>
+  <LetterLabelRandomDecree>{0_nameIndef} ferman çıkarıyor</LetterLabelRandomDecree>
   <!-- EN: {0_nameIndef}, in an attempt to release {0_possessive} stress, has issued a wild royal decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterDecreeMentalBreak>{0_nameIndef}, stresini atmak için çılgımca bir ferman yayınladı ve şimdi bunun uygulanmasını talep ediyor.\n\nEğer zamanında yapılmazsa {0_nameIndef} çok mutsuz olacak.</LetterDecreeMentalBreak>
+  <LetterDecreeMentalBreak>{0_nameIndef}, stresini atmak amacıyla çılgın bir soylu fermanı çıkardı ve şimdi bunun yerine getirilmesini talep ediyor.\n    \nFerman zamanında yerine getirilmezse {0_nameIndef} çok mutsuz olacak.</LetterDecreeMentalBreak>
   <!-- EN: {0_nameIndef}, in order to affirm {0_possessive} title of {0_bestRoyalTitleIndef}, has issued a decree and is now demanding that it be carried out.
     \nIf it isn't carried out in good time, {0_nameIndef} will become very unhappy. -->
-  <LetterRandomDecree>{0_nameIndef}, {0_bestRoyalTitleIndef} ünvanına sahip olduğunu hissettirmek için bir ferman yayınladı ve şimdi bunun uygulanmasını talep ediyor.\n\nEğer zamanında yapılmazsa {0_nameIndef} çok mutsuz olacak.</LetterRandomDecree>
+  <LetterRandomDecree>{0_nameIndef}, {0_bestRoyalTitleIndef} unvanını pekiştirmek için bir ferman çıkardı ve şimdi bunun yerine getirilmesini talep ediyor.\n    \nFerman zamanında yerine getirilmezse {0_nameIndef} çok mutsuz olacak.</LetterRandomDecree>
   <!-- EN: The decree is titled "{0}". -->
-  <LetterDecree_Quest>Fermanın başlığı "{0}".</LetterDecree_Quest>
-  
-  <!-- Lent colonist died -->
+  <LetterDecree_Quest>Fermanın başlığı: "{0}".</LetterDecree_Quest>
   <!-- EN: {PAWN_nameDef} was lent to {FACTION}. They will return the body of {PAWN_nameDef} shortly. -->
-  <LentColonistDied>{PAWN_nameDef}, {FACTION} fraksiyonuna ödünç verilmişti. Merhumun bedenini kısa süre içinde iade edecekler.</LentColonistDied>  
-
-  <!-- Psylink -->
+  <LentColonistDied>{PAWN_nameDef}, {FACTION} hizbine ödünç verilmişti. {PAWN_nameDef} adlı kişinin cesedini kısa süre içinde geri getirecekler.</LentColonistDied>
   <!-- EN: Psylink gained -->
-  <LetterLabelPsylinkLevelGained>Psi-bağ kazandı</LetterLabelPsylinkLevelGained>
+  <LetterLabelPsylinkLevelGained>Psibağ kazanıldı</LetterLabelPsylinkLevelGained>
   <!-- EN: {USER_labelShort} has gained {USER_possessive} first level of psylink! {USER_pronoun} is now a psycaster.\n\nTo use psychic powers, {USER_labelShort} must build up psyfocus through meditation. The effectiveness of this meditation is increased if the person can focus on a specific object while meditating.\n\nDifferent people are able to focus on different objects. This depend on the person's backstories, traits, and titles. For example:\n\n- Psycasters with royal titles meditate on their thrones.\n- Psycasters with tribal childhoods meditate to anima trees and nature shrines.\n- Ascetic psycasters meditate to blank walls.\n- Psychopathic psycasters meditate to graves, ideally with a loved one inside.\n\nYou can see someone's meditation focus types by looking at their info card with the 'i' button. -->
-  <LetterPsylinkLevelGained_First>{USER_labelShort}, ilk psi-bağ seviyesini kazandı! O artık bir psibaz.\n\nPsişik güçleri kullanmak için {USER_labelShort}, meditasyon yoluyla psi-odak biriktirmeli. Kişi meditasyon yaparken belirli bir nesneye odaklanabilirse bu meditasyonun etkinliği artar.\n\nFarklı insanlar farklı nesnelere odaklanabilir. Bu, kişinin geçmişine, kişisel özelliklerine ve ünvanlarına bağlıdır. Örneğin:\n\n- Kraliyet ünvanına sahip psibazlar tahtlarında meditasyon yapar.\n- Kabile çocuğu olanlar psibazlar ruh ağaçları ve doğa mabetleri ile meditasyon yapar.\n- Çileci psibazlar boş duvarlara karşı meditasyon yapar.\n- Psikopat psibazlar mezarlarda meditasyon yapar, içinde sevilen biri varsa meditasyon daha etkili olur.\n\nBirinin meditasyon odak türlerini bilgi kartındaki 'i' butonuna basarak görebilirsin.</LetterPsylinkLevelGained_First>
+  <LetterPsylinkLevelGained_First>{USER_labelShort} ilk psibağ seviyesini kazandı! Artık bir psi-büyücü.\n\nPsişik güçleri kullanmak için {USER_labelShort} meditasyon yoluyla psiodak biriktirmeli. Kişi meditasyon sırasında belirli bir nesneye odaklanabilirse meditasyonun etkinliği artar.\n\nFarklı kişiler farklı nesnelere odaklanabilir. Bu, kişinin geçmişine, özelliklerine ve unvanlarına bağlıdır. Örneğin:\n\n- Soylu unvanlı psi-büyücüler tahtlarında meditasyon yapar.\n- Çocukluğu kabilede geçmiş psi-büyücüler anima ağaçlarına ve doğa sunaklarına yönelik meditasyon yapar.\n- Çileci psi-büyücüler boş duvarlara yönelik meditasyon yapar.\n- Psikopat psi-büyücüler mezarlara, tercihen içinde sevdikleri biri yatan mezarlara yönelik meditasyon yapar.\n\nBirinin meditasyon odağı türlerini 'i' düğmesiyle bilgi kartına bakarak görebilirsin.</LetterPsylinkLevelGained_First>
   <!-- EN: {USER_labelShort} has gained a new level of psylink! {USER_pronoun} can now use psychic powers of that higher level, but {USER_pronoun} needs to learn them first. -->
-  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort}, yeni bir psi-bağ seviyesi kazandı! Artık daha yüksek seviyenin psişik güçlerini kullanabilir ama önce onları öğrenmesi gerekir.</LetterPsylinkLevelGained_NotFirst>
+  <LetterPsylinkLevelGained_NotFirst>{USER_labelShort} yeni bir psibağ seviyesi kazandı! Artık bu daha yüksek seviyedeki psişik güçleri kullanabilir, ama önce onları öğrenmesi gerekiyor.</LetterPsylinkLevelGained_NotFirst>
   <!-- EN: Upon gaining the new psylink level, {USER_labelShort} automatically learned these psychic powers: {2} -->
-  <LetterPsylinkLevelGained_PsycastLearned>{USER_labelShort}, yeni bir psi-bağ seviyesi kazanmasıyla otomatik olarak şu psişik güçleri öğrendi: {2}</LetterPsylinkLevelGained_PsycastLearned>
-  
-  <!-- Abilities -->
+  <LetterPsylinkLevelGained_PsycastLearned>Yeni psibağ seviyesini kazanan {USER_labelShort} şu psişik güçleri kendiliğinden öğrendi: {2}</LetterPsylinkLevelGained_PsycastLearned>
   <!-- EN: Thanks to {CASTER_nameIndef}'s psychic suggestion, {PAWN_nameIndef} has experienced an inspiration! -->
-  <LetterPsychicInspiration>{CASTER_nameIndef} tarafından verilen psişik telkin sayesinde {PAWN_nameIndef} ilham kazandı!</LetterPsychicInspiration>
-
+  <LetterPsychicInspiration>{CASTER_nameIndef} adlı kişinin psişik telkini sayesinde {PAWN_nameIndef} ilham aldı!</LetterPsychicInspiration>
   <!-- EN: Bestowing ceremony expired -->
-  <LetterLabelBestowingCeremonyExpired>İhsan töreninin zamanı geçti</LetterLabelBestowingCeremonyExpired>
+  <LetterLabelBestowingCeremonyExpired>Unvan verme töreninin süresi doldu</LetterLabelBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite} did not show up to the bestowing ceremony. The ceremony has been cancelled. -->
-  <LetterTextBestowingCeremonyExpired>{TARGET_definite} ihsan törenine gelmedi. Ritüel iptal edildi.</LetterTextBestowingCeremonyExpired>
-
+  <LetterTextBestowingCeremonyExpired>{TARGET_definite} unvan verme törenine gelmedi. Tören iptal edildi.</LetterTextBestowingCeremonyExpired>
   <!-- EN: {TARGET_definite}'s title changed -->
-  <LetterLabelBestowingCeremonyTitleUpdated>{TARGET_definite} yeni bir ünvana sahip</LetterLabelBestowingCeremonyTitleUpdated>
+  <LetterLabelBestowingCeremonyTitleUpdated>Unvan değişti: {TARGET_definite}</LetterLabelBestowingCeremonyTitleUpdated>
   <!-- EN: {TARGET_definite} has gained new title since the bestowing ceremony was scheduled. In order for bestowing to match the new title, another ceremony will be scheduled soon.\n\nThe new bestowing ceremony will include the psylink rewards for all titles which were not yet awarded. -->
-  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}, ihsan töreni planlandıktan sonra yeni bir ünvan kazandı. İhsanın yeni ünvanla eşleşmesi için yakında başka bir ritüel planlanacak.\n\nYeni ihsan töreni, henüz bahşedilmemiş tüm ünvanların psi-bağ mükâfatlarını içerecek.</LetterTextBestowingCeremonyTitleUpdated>
-  
+  <LetterTextBestowingCeremonyTitleUpdated>{TARGET_definite}, unvan verme töreni planlandığından beri yeni bir unvan kazandı. Törenin yeni unvana uyması için yakında başka bir tören planlanacak.\n\nYeni unvan verme töreni, henüz verilmemiş tüm unvanların psibağ ödüllerini de içerecek.</LetterTextBestowingCeremonyTitleUpdated>
   <!-- EN: {PAWN_labelShort} received {1} honor as a sign of respect from {FACTION_name}, for gathering {3} spectators. -->
-  <LetterPartBestowingExtraHonor>{PAWN_labelShort}, {3} seyirci topladığı için, {FACTION_name} fraksiyonundan bir saygı göstergesi olarak {1} onur aldı.</LetterPartBestowingExtraHonor>
+  <LetterPartBestowingExtraHonor>{PAWN_labelShort}, {3} izleyici topladığı için {FACTION_name} hizbinden saygı göstergesi olarak {1} onur aldı.</LetterPartBestowingExtraHonor>
   <!-- EN: {PAWN_labelShort} received no extra honor since there weren't many spectators. -->
-  <LetterPartNoExtraHonor>{PAWN_labelShort} pek fazla seyirci olmadığı için fazladan onur kazanmadı.</LetterPartNoExtraHonor>
+  <LetterPartNoExtraHonor>Çok fazla izleyici olmadığından {PAWN_labelShort} ek onur almadı.</LetterPartNoExtraHonor>
   <!-- EN: All viewers of the ceremony received a mood bonus. -->
-  <LetterPartMoodBonus>Törenin katılan tüm izleyiciler ruh hâli bonusu aldı.</LetterPartMoodBonus>
-
+  <LetterPartMoodBonus>Törenin tüm izleyicileri ruh hâli bonusu aldı.</LetterPartMoodBonus>
   <!-- EN: Who should be credited with {0} for defeating the bandit camp? -->
-  <LetterTextHonorAward_BanditCamp>Haydut kampını defetme başarısı ile {0} ödül kime mâl edilmeli?</LetterTextHonorAward_BanditCamp>
-
-  <!-- Shuttle crash -->
+  <LetterTextHonorAward_BanditCamp>Haydut kampını yenmenin karşılığı olan {0} kime verilsin?</LetterTextHonorAward_BanditCamp>
   <!-- EN: Shuttle crashed -->
-  <LetterLabelShuttleCrashed>Mekik kazası</LetterLabelShuttleCrashed>
+  <LetterLabelShuttleCrashed>Mekik düştü</LetterLabelShuttleCrashed>
   <!-- EN: A shuttle has crashed nearby -->
-  <LetterTextShuttleCrashed>Yakınlara bir mekik düştü</LetterTextShuttleCrashed>
-
-  <!-- Wanderer joins -->
+  <LetterTextShuttleCrashed>Yakınlarda bir mekik düştü</LetterTextShuttleCrashed>
   <!-- EN: Transport pod crash: {0_nameDef} -->
   <LetterLabelWandererJoinsAbasia>Taşıma kapsülü kazası: {0_nameDef}</LetterLabelWandererJoinsAbasia>
   <!-- EN: A {0_title} named {0_nameDef} is crashing in a transport pod nearby.\n\n{0_nameDef} is suffering from {1_label} and will be unable to walk.\n\n{0_pronoun} will recover naturally after many days. There is also a chance of a lucky quick recovery. {1_label} can also be cured by a special operation which requires a large amount of glitterworld medicine.\n\n{0_pronoun} is willing to contribute once {0_pronoun} has recovered, but will not leave voluntarily. If you don't want {0_nameDef}, you can banish {0_objective}, sell {0_objective} into slavery or leave {0_objective} to die. However, your other colonists may find this disturbing. -->
-  <LetterTextWandererJoinsAbasia>{0_nameDef} adlı bir {0_title} bir taşıma kapsülüyle yakınlara düştü.\n\n{0_nameDef} {1_label} hastalığından mustarip ve yürüyemiyor.\n\nBir süre sonra doğal olarak iyileşecek. Şansı yaver giderse hızlıca iyileşme ihtimali da var. {1_label} ayrıca büyük miktarda ışıltıdünya ilacı gerektiren özel bir operasyonla tedavi edilebilir.\n\nİyileştikten sonra kolonine katılma konusunda istekli ancak gönüllü olarak ayrılmayacaktır. Eğer onu istemiyorsan sürgün edebilir, köle olarak satabilir veya ölüme terk edebilirsin. Lakin, diğer kolonicilerin bundan rahatsız olabilir.</LetterTextWandererJoinsAbasia>
+  <LetterTextWandererJoinsAbasia>{0_nameDef} adlı bir {0_title}, yakınlarda bir taşıma kapsülüyle düşüyor.\n\n{0_nameDef}, {1_label} hastalığından muzdarip ve yürüyemeyecek.\n\nBirçok gün sonra kendiliğinden iyileşecek. Şans eseri hızla iyileşme ihtimali de var. {1_label}, büyük miktarda parıltı dünyası ilacı gerektiren özel bir ameliyatla da tedavi edilebilir.\n\nİyileşince katkıda bulunmaya istekli, ama kendi isteğiyle ayrılmayacak. {0_nameDef} adlı kişiyi istemiyorsan onu sürgün edebilir, köle olarak satabilir ya da ölüme terk edebilirsin. Ancak diğer kolonistlerin bunu rahatsız edici bulabilir.</LetterTextWandererJoinsAbasia>
 
 </LanguageData>

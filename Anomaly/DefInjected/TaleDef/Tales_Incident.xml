@@ -1,68 +1,127 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
 <LanguageData>
+
   
+
   <!-- EN: death pall -->
+
   <DeathPall.label>ölüm örtüsü</DeathPall.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
+
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] facing the encroaching death pall</li>
+
     <li>image->[PAWN_nameFull] gazing in horror as the death pall blankets the land, resurrecting the dead [circumstance_group]</li>
+
     <li>image->[PAWN_nameFull] clutching [PAWN_possessive] weapon tightly, as the death pall descends, raising the dead [circumstance_group]</li>
+
     <li>image->[PAWN_nameFull] trembling with unease, witnessing the arrival of the death pall, its influence giving life to the lifeless [circumstance_group]</li>
+
     <li>image->[PAWN_nameFull] watching in horror as the death pall envelops [PAWN_possessive] peaceful home, turning it into a battleground against the dead [circumstance_group]</li>
+
     <li>circumstance_phrase->and drowning out [PAWN_possessive] desperate prayers for safety</li>
+
     <li>circumstance_phrase->with the scent of decay and despair filling the air</li>
+
     <li>circumstance_phrase->and trapping [PAWN_objective] in a horde of shamblers</li>
+
     <li>desc_sentence->In the centre of the death pall, [PAWN_nameDef] prepares for battle.</li>
+
     <li>desc_sentence->The encroachment of the death pall fills [PAWN_nameDef]'s friends with terror.</li>
+
     <li>desc_sentence->Shivers run down [PAWN_nameDef]'s spine as the death pall's influence continues to spread.</li>
-    <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li>
-  -->
+
+    <li>desc_sentence->The weight of despair settles upon [PAWN_nameDef], testing [PAWN_possessive] resolve in the face of the macabre.</li> -->
+
   <DeathPall.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] yavaşça çöken ölüm örtüsüyle yüzleşiyor.</li>
-    <li>image->[PAWN_nameFull] ölüm örtüsü etrafı sararken ve ölüleri diriltirken korkuyla bakıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ölüm örtüsü etrafı sararken ve ölüleri diriltirken silahına sımsıkı sarılıyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ölüm örtüsünün gelip cansız bedenlere can vermesine şahit olurken tedirgin şekilde titriyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] ölüm örtüsü evini yutup bir savaş alanına çevirirken korkuyla izliyor, [circumstance_group]</li>
-    <li>circumstance_phrase->biçare duaları diline dolanıyor</li>
-    <li>circumstance_phrase->havayı çaresizlik sarıyor</li>
-    <li>circumstance_phrase->bir hortlak sürüsünün içinde kalıyor</li>
-    <li>desc_sentence->[PAWN_nameDef], ölüm örtüsünün ortasında savaşa hazırlanıyor.</li>
-    <li>desc_sentence->Ölüm örtüsünün saldırısı [PAWN_nameDef] ve arkadaşlarını dehşete düşürüyor.</li>
-    <li>desc_sentence->Ölüm örtüsünün etkisi yayılmaya devam ederken [PAWN_nameDef] soğuk soğuk terliyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] çaresizliğin ağırlığının altına eziliyor ve bu his onu ele geçirip ölüm karşısında dirayetini test ediyor.</li>
+
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin yaklaşan ölüm örtüsüyle yüzleşmesi</li>
+
+    <li>image->[circumstance_group] ölüm örtüsü toprakları kaplayıp ölüleri diriltirken dehşetle bakakalan [PAWN_nameFull]</li>
+
+    <li>image->[circumstance_group] ölüm örtüsü çöküp ölüleri ayağa kaldırırken silahını sımsıkı kavrayan [PAWN_nameFull]</li>
+
+    <li>image->[circumstance_group] etkisi cansızlara can veren ölüm örtüsünün gelişine tanık olurken huzursuzlukla titreyen [PAWN_nameFull]</li>
+
+    <li>image->[circumstance_group] ölüm örtüsü huzurlu evini sararak onu ölülere karşı bir savaş alanına çevirirken dehşetle izleyen [PAWN_nameFull]</li>
+
+    <li>circumstance_phrase->güvende kalmak için ettiği çaresiz duaları bastırırcasına</li>
+
+    <li>circumstance_phrase->havayı çürüme ve umutsuzluk kokusu doldururken</li>
+
+    <li>circumstance_phrase->bir sendeleyen sürüsünün ortasında kapana kısılmış hâlde</li>
+
+    <li>desc_sentence->Ölüm örtüsünün tam ortasında [PAWN_nameDef] savaşa hazırlanıyor.</li>
+
+    <li>desc_sentence->Ölüm örtüsünün yaklaşması [PAWN_nameDef] adlı kişinin dostlarını dehşetle dolduruyor.</li>
+
+    <li>desc_sentence->Ölüm örtüsünün etkisi yayılmaya devam ettikçe [PAWN_nameDef] adlı kişinin omurgasından aşağı ürpertiler iniyor.</li>
+
+    <li>desc_sentence->Umutsuzluğun ağırlığı [PAWN_nameDef] üzerine çöküyor ve dehşet karşısındaki kararlılığını sınıyor.</li>
   </DeathPall.rulePack.rulesStrings>
+
   
+
   <!-- EN: unnatural darkness -->
-  <UnnaturalDarkness.label>olağan dışı karanlık</UnnaturalDarkness.label>
-  <!-- EN:
-    <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
+
+  <UnnaturalDarkness.label>doğaüstü karanlık</UnnaturalDarkness.label>
+
+  <!-- EN: <li>tale_noun->[PAWN_nameDef] confronts the unnatural darkness</li>
+
     <li>image->[PAWN_nameFull] standing in awe as the world is consumed by an impenetrable darkness [circumstance_group]</li>
+
     <li>image->[PAWN_nameFull] surrounded by black pillars falling from the sky which blanket the land in darkness [circumstance_group]</li>
+
     <li>image->[PAWN_nameFull] struggling to find [PAWN_possessive] way through the suffocating darkness, noctols hounding at [PAWN_possessive] heels, [circumstance_group]</li>
+
     <li>image->[PAWN_nameFull] watching the world get swallowed by an abyss of shadows [circumstance_group]</li>
+
     <li>circumstance_phrase->amidst by [PAWN_possessive] friends' desperate attempts to return to the safety of the light</li>
+
     <li>circumstance_phrase->with piercing screams echoing all around</li>
+
     <li>circumstance_phrase->the light seemingly barely able to hold it back</li>
+
     <li>circumstance_phrase->as [PAWN_pronoun] offers pleas for salvation</li>
+
     <li>desc_sentence->Not even the faintest flickering of lights in the distance is visible.</li>
+
     <li>desc_sentence->The situation seems utterly hopeless.</li>
+
     <li>desc_sentence->Groups of shadowy creatures are visible at the edge of the darkness.</li>
-    <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li>
-  -->
+
+    <li>desc_sentence->[PAWN_nameDef] tries to find a glimmer of hope amidst the encroaching darkness.</li> -->
+
   <UnnaturalDarkness.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef] olağanüstü karanlıkla yüzleşiyor.</li>
-    <li>image->[PAWN_nameFull] dünyanın aşılmaz bir karanlık tarafından yutuluşunu hayranlıkla izliyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] gökyüzünden düşen kara sütunlarla çevrelenmiş toprağın karanlığa boğuluşuna şahit oluyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] boğucu karanlıktan kaçmanın bir yolunu bulmakta zorlanıyor, noktolların hırlamasını ensesinde duyuyor, [circumstance_group]</li>
-    <li>image->[PAWN_nameFull] dünyanın gölgelerden oluşan bir uçuruma düşüşünü izliyor, [circumstance_group]</li>
-    <li>circumstance_phrase->arkadaşlarının ışığa kavuşmak için sarfettiği çabalar çaresiz</li>
-    <li>circumstance_phrase->delici çığlıklar yankılanıyor</li>
-    <li>circumstance_phrase->aydınlık zor dayanıyor</li>
-    <li>circumstance_phrase->kurtuluş için yalvarıyor</li>
-    <li>desc_sentence->Görünürde solgun bir ışık huzmesi bile yok.</li>
-    <li>desc_sentence->Durum tümüyle biçare gibi görünüyor.</li>
-    <li>desc_sentence->Karanlığın kıyısında belli belirsiz yaratık grupları görünüyor.</li>
-    <li>desc_sentence->[PAWN_nameDef] boğucu karanlığın ortasında bir umut ışığı arıyor.</li>
+
+
+    <li>tale_noun->[PAWN_nameDef] adlı kişinin doğaüstü karanlıkla yüzleşmesi</li>
+
+    <li>image->[circumstance_group] dünya geçit vermez bir karanlığa gömülürken şaşkınlıkla duran [PAWN_nameFull]</li>
+
+    <li>image->[circumstance_group] gökten düşüp toprakları karanlığa boğan kara sütunlarla çevrili [PAWN_nameFull]</li>
+
+    <li>image->[circumstance_group] noktollar peşini bırakmazken boğucu karanlıkta yolunu bulmaya çabalayan [PAWN_nameFull]</li>
+
+    <li>image->[circumstance_group] dünyanın gölgelerden bir uçuruma yutuluşunu izleyen [PAWN_nameFull]</li>
+
+    <li>circumstance_phrase->dostlarının ışığın güvenliğine dönmek için verdiği çaresiz çabalar arasında</li>
+
+    <li>circumstance_phrase->dört bir yanda yankılanan tiz çığlıklar eşliğinde</li>
+
+    <li>circumstance_phrase->ışık onu güçbela durdurabiliyormuş gibi görünürken</li>
+
+    <li>circumstance_phrase->kurtuluş için yakarırken</li>
+
+    <li>desc_sentence->Uzakta en ufak bir ışık kıpırtısı bile görünmüyor.</li>
+
+    <li>desc_sentence->Durum tamamen umutsuz görünüyor.</li>
+
+    <li>desc_sentence->Karanlığın kıyısında gölgemsi yaratık grupları seçiliyor.</li>
+
+    <li>desc_sentence->[PAWN_nameDef], yaklaşan karanlığın ortasında bir umut ışığı bulmaya çalışıyor.</li>
   </UnnaturalDarkness.rulePack.rulesStrings>
+
   
+
 </LanguageData>

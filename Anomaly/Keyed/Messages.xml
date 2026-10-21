@@ -1,92 +1,62 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
   <!-- Entities -->
-  <!-- EN: {0_definite}'s activity is rising due to taking damage. -->
-  <MessageActivityRisingDamage>{0_definite} etkinliği, hasar alması sebebiyle artıyor.</MessageActivityRisingDamage>
-  <!-- EN: {0_definite} has died on a holding platform. -->
-  <EntityDiedOnHoldingPlatform>{0_definite} bir zincirleme platformunda öldü.</EntityDiedOnHoldingPlatform>
-  <!-- EN: New entity discovered -->
+  <MessageActivityRisingDamage>Hasar aldığı için {0_definite} varlığının etkinliği artıyor.</MessageActivityRisingDamage>
+  <EntityDiedOnHoldingPlatform>{0_definite} bir tutma platformunda öldü.</EntityDiedOnHoldingPlatform>
   <MessageEntityDiscovered>Yeni varlık keşfedildi</MessageEntityDiscovered>
 
   <!-- Hate chanters -->
-  <!-- EN: The cultists are in a trance and don't respond when attacked. -->
-  <MessageHateChantersAbsorbed>Tarikatçılar trans hâlinde, saldırıya uğradıklarında karşılık vermezler.</MessageHateChantersAbsorbed>
-  <!-- EN: The hate chanting has increased in volume. -->
+  <MessageHateChantersAbsorbed>Tarikatçılar transta; saldırıya uğradıklarında karşılık vermiyorlar.</MessageHateChantersAbsorbed>
   <MessageHateChantIncreased>Nefret ilahisinin sesi yükseldi.</MessageHateChantIncreased>
 
   <!-- Self-resurrection -->
-  <!-- EN: {0_nameDef} can self-resurrect on command using death refusal. -->
-  <SelfResurrectText>{0_nameDef}, emir verilmesi hâlinde ölüm reddi ile kendini diriltebilir.</SelfResurrectText>
-  <!-- EN: {0_nameDef} is using death refusal to self-resurrect. -->
-  <MessageUsingSelfResurrection>{0_nameDef} kendini diriltmek için ölüm reddini kullanıyor.</MessageUsingSelfResurrection>
+  <SelfResurrectText>{0_nameDef}, ölüm reddi sayesinde emir verildiğinde kendini diriltebilir.</SelfResurrectText>
+  <MessageUsingSelfResurrection>{0_nameDef}, ölüm reddini kullanarak kendini diriltiyor.</MessageUsingSelfResurrection>
 
   <!-- Pit Gate -->
-  <!-- EN: The pit gate has collapsed. -->
-  <MessagePitGateCollapsed>Çukur geçit çöktü.</MessagePitGateCollapsed>
-  <!-- EN: A pit burrow has collapsed. -->
-  <MessagePitBurrowCollapsed>Bir oyuk çöktü.</MessagePitBurrowCollapsed>
+  <MessagePitGateCollapsed>Çukur kapısı çöktü.</MessagePitGateCollapsed>
+  <MessagePitBurrowCollapsed>Bir çukur yuvası çöktü.</MessagePitBurrowCollapsed>
 
   <!-- Fleshsack -->
-  <!-- EN: The flesh sack contained something -->
-  <FleshmassContainedMessage>Etkese bir şeyi muhafaza ediyor</FleshmassContainedMessage>
+  <FleshmassContainedMessage>Et kesesinin içinden bir şey çıktı</FleshmassContainedMessage>
 
   <!-- Psychic rituals -->
-  <!-- EN: {0_pawnsPluralDef} are attacking! -->
   <MessagePsychicRitualAssault>{0_pawnsPluralDef} saldırıyor!</MessagePsychicRitualAssault>
-  <!-- EN: {FACTION_pawnsPluralDef} are beginning the psychic ritual -->
-  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} psişik ayin yapmaya başlıyor</MessageAIPsychicRitualBegan>
+  <MessageAIPsychicRitualBegan>{FACTION_pawnsPluralDef} psişik ritüele başlıyor</MessageAIPsychicRitualBegan>
   
   <!-- Biomutation lance -->
-  <!-- EN: Cannot target: {0_nameDef} is not an animal or human. -->
-  <MessageBiomutationLanceInvalidTargetRace>Hedef alınamaz: {0_nameDef} bir hayvan ya da insan değil.</MessageBiomutationLanceInvalidTargetRace>
-  <!-- EN: Cannot target: {0_nameDef} is too large. -->
-  <MessageBiomutationLanceTargetTooBig>Hedef alınamaz: {0_nameDef} çok büyük.</MessageBiomutationLanceTargetTooBig>
+  <MessageBiomutationLanceInvalidTargetRace>Hedeflenemez: {0_nameDef} bir hayvan ya da insan değil.</MessageBiomutationLanceInvalidTargetRace>
+  <MessageBiomutationLanceTargetTooBig>Hedeflenemez: {0_nameDef} çok büyük.</MessageBiomutationLanceTargetTooBig>
 
   <!-- Containment -->
-  <!-- EN: Warning: No rooms have the minimum containment strength for {0}. It may escape soon. -->
-  <MessageNoRoomWithMinimumContainmentStrength>Uyarı: Hiçbir oda {0} için gereken minimum muhafaza gücüne sahip değil. Yakında kaçacak.</MessageNoRoomWithMinimumContainmentStrength>
-  <!-- EN: Warning: {0} is below minimum containment strength for {1}. It may escape soon. -->
-  <MessageTargetBelowMinimumContainmentStrength>Uyarı: {0}, {1} için gereken minimum muhafaza gücünün altında. Yakında kaçacak.</MessageTargetBelowMinimumContainmentStrength>
-  <!-- EN: Can't transfer to {0} reserved by someone else. -->
-  <MessageHolderReserved>{0} noktasına nakledilemiyor, başkası için ayrıldı.</MessageHolderReserved>
-  <!-- EN: {EXECUTIONER_labelShort} has executed {VICTIM_kindIndef}. -->
-  <MessageEntityExecuted>{VICTIM_kindIndef}, {EXECUTIONER_labelShort} tarafından infaz edildi.</MessageEntityExecuted>
-  <!-- EN: Warning: Reinstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformReinstalled>Uyarı: Dolu bir zincirleme platformunu yeniden kurmak, bağlı olan varlığı serbest bırakır. Önce varlığı başka bir platforma naklet.</MessageOccupiedHoldingPlatformReinstalled>
-  <!-- EN: Warning: Uninstalling an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformUninstalled>Uyarı: Dolu bir zincirleme platformunu kaldırmak, bağlı olan varlığı serbest bırakır. Önce varlığı başka bir platforma naklet.</MessageOccupiedHoldingPlatformUninstalled>
-  <!-- EN: Warning: Deconstructing an occupied holding platform will release the entity. Transfer the entity to another platform first. -->
-  <MessageOccupiedHoldingPlatformDeconstructed>Uyarı: Dolu bir zincirleme platformunu yıkmak bağlı olan varlığı serbest bırakır. Önce varlığı başka bir platforma naklet.</MessageOccupiedHoldingPlatformDeconstructed>
+  <MessageNoRoomWithMinimumContainmentStrength>Uyarı: Hiçbir oda {0} için gereken asgari muhafaza gücüne sahip değil. Yakında kaçabilir.</MessageNoRoomWithMinimumContainmentStrength>
+  <MessageTargetBelowMinimumContainmentStrength>Uyarı: {0}, {1} için gereken asgari muhafaza gücünün altında. Yakında kaçabilir.</MessageTargetBelowMinimumContainmentStrength>
+  <MessageHolderReserved>Başka biri tarafından ayrılmış olan {0} hedefine aktarılamaz.</MessageHolderReserved>
+  <MessageEntityExecuted>{EXECUTIONER_labelShort}, {VICTIM_kindIndef} varlığını infaz etti.</MessageEntityExecuted>
+  <MessageOccupiedHoldingPlatformReinstalled>Uyarı: Dolu bir tutma platformunu yeniden kurmak içindeki varlığı serbest bırakır. Önce varlığı başka bir platforma aktar.</MessageOccupiedHoldingPlatformReinstalled>
+  <MessageOccupiedHoldingPlatformUninstalled>Uyarı: Dolu bir tutma platformunu paketlemek içindeki varlığı serbest bırakır. Önce varlığı başka bir platforma aktar.</MessageOccupiedHoldingPlatformUninstalled>
+  <MessageOccupiedHoldingPlatformDeconstructed>Uyarı: Dolu bir tutma platformunu sökmek içindeki varlığı serbest bırakır. Önce varlığı başka bir platforma aktar.</MessageOccupiedHoldingPlatformDeconstructed>
   
   <!-- Duplicator obelisk -->
-  <!-- EN: A hostile duplicate of {0_nameDef} has appeared. -->
-  <MessageHostileDuplicate>{0_nameDef} kişisinin düşman bir klonu ortaya çıktı.</MessageHostileDuplicate>
+  <MessageHostileDuplicate>{0_nameDef} adlı kişinin düşman bir kopyası ortaya çıktı.</MessageHostileDuplicate>
   
   <!-- Proximity detector -->
-  <!-- EN: A proximity detector has detected an invisible creature. -->
   <MessageProximityDetectorTriggered>Bir yakınlık dedektörü görünmez bir yaratık algıladı.</MessageProximityDetectorTriggered>
   
   <!-- Unnatural darkness --> 
-  <!-- EN: Something in the darkness has attacked {0_nameDef}. -->
-  <MessagePawnAttackedInDarkness>{0_nameDef} karanlıkta bir şey tarafından saldırıya uğradı.</MessagePawnAttackedInDarkness>
+  <MessagePawnAttackedInDarkness>Karanlıktaki bir şey {0_nameDef} adlı kişiye saldırdı.</MessagePawnAttackedInDarkness>
   
   <!-- Revenant -->
-  <!-- EN: A hidden revenant has been revealed! -->
-  <MessageRevenantForcedVisibility>Gizli bir karabasan açığa çıktı.</MessageRevenantForcedVisibility>
-  <!-- EN: {PAWN_nameDef} can hear the revenant {1} nearby! -->
-  <MessageRevenantHeard>{PAWN_nameDef} yakınlarda {1} karabasanı duyuyor!</MessageRevenantHeard>
+  <MessageRevenantForcedVisibility>Gizlenen bir hortlak açığa çıktı!</MessageRevenantForcedVisibility>
+  <MessageRevenantHeard>{PAWN_nameDef}, yakınlardaki hortlağı ({1}) duyabiliyor!</MessageRevenantHeard>
   
   <!-- Abilities -->
-  <!-- EN: {ABILITY_label} cannot be used on non-bleeding creatures. -->
-  <MessageCannotUseOnNonBleeder>{ABILITY_label} kanaması olmayan yaratıklar üzerinde kullanılamaz.</MessageCannotUseOnNonBleeder>
+  <MessageCannotUseOnNonBleeder>{ABILITY_label}, kanamayan yaratıklar üzerinde kullanılamaz.</MessageCannotUseOnNonBleeder>
   
-  <!-- EN: {WAKER_nameDef} has disturbed a fingerspike. -->
-  <MessageFingerspikeDisturbed>{WAKER_nameDef} bir parmaksı dikeni rahatsız etti.</MessageFingerspikeDisturbed>
-  <!-- EN: {WAKER_nameDef} has disturbed several fingerspikes. -->
-  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} birden çok parmaksı dikeni rahatsız etti.</MessageFingerspikeDisturbedPlural>
+  <MessageFingerspikeDisturbed>{WAKER_nameDef} bir parmakdikeni rahatsız etti.</MessageFingerspikeDisturbed>
+  <MessageFingerspikeDisturbedPlural>{WAKER_nameDef} birkaç parmakdikeni rahatsız etti.</MessageFingerspikeDisturbedPlural>
 
-  <!-- EN: The death pall has begun to resurrect corpses. -->
   <DeathPallResurrectedMessage>Ölüm örtüsü cesetleri diriltmeye başladı.</DeathPallResurrectedMessage>
   
 </LanguageData>
